@@ -5,3 +5,6 @@
 *.zip filter=lfs diff=lfs merge=lfs -text
 *.tgz filter=lfs diff=lfs merge=lfs -text
 *.m4a filter=lfs diff=lfs merge=lfs -text
+
+# RFC-style CSV CRLF records are valid line endings, not trailing whitespace.
+*.csv whitespace=cr-at-eol
