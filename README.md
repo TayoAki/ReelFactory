@@ -66,3 +66,8 @@ The uploaded reference runs 34:28. The whole-video study includes 44 continuous 
 - [Reusable technical-video skill](.agents/skills/technical-video-explainer/SKILL.md)
 
 Source UI and narration are retained evidence. Diagram geometry and timing are approximate; complete timeline coverage does not certify exact micro-transition fidelity. See [study details](full-video/README.md).
+
+
+## Current direction: image-first storyboards
+
+The previous full-video reconstruction was rejected as a design-quality baseline. Start with the [image-first process](storyboard-first/PROCESS.md) and [multi-image pilot](storyboard-first/review.html): analyze narration, generate a master still and coherent keyframe images, review the design, then reconstruct editable layers and animate them. Rendering coverage is not design approval.

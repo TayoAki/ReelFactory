@@ -38,6 +38,11 @@ Licensing: the currently retrieved license permits individuals, for-profit organ
 
 ## Production contract
 
-Transcript → verified concept/claim → explanatory beat → approved symbols and assets → persistent object layout → frame-based state changes → rendered comparison.
+Transcript → verified concept/claim → explanatory beat → generated master still → multiple coherent storyboard state images → human visual review → editable layer reconstruction → still comparison → per-layer motion tracks → one-scene motion review → scale the approved recipe.
 
 The renderer consumes the plan. It does not decide whether a product claim is true or whether a metaphor communicates the intended concept.
+
+
+## Image-first quality checkpoint
+
+Follow `storyboard-first/PROCESS.md` for new visual work. Each explanatory graphic needs actual state images before animation. The full-video flat-card reconstruction was rejected by the user as a visual-quality baseline; its technical validation does not establish design approval. Reconstruct the chosen image as editable layers and compare the still before animating. Preserve the actual reference's filled icon weight, centered serif labels, soft card depth and semantic color treatment when reconstructing the supplied white-card example. Generic icon defaults must not override this observed style.

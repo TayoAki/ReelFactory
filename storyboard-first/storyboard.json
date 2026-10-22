@@ -1,0 +1,133 @@
+{
+  "mode": "reference-reconstruction",
+  "visual_workflow": "image-first",
+  "audience": "Technical practitioners learning the reference explanation",
+  "scope": "One image-first design pilot, not another whole-video motion render",
+  "generation_authorization": "User explicitly requested generated graphic images and multiple storyboard images before motion.",
+  "scenes": [
+    {
+      "id": "web-search-constrained-context",
+      "transcript": "Generic models are really good at searching the web or a a code base, anything that's got a really constrained space.",
+      "intended_understanding": "In the source's constrained web-search example, retrieved information feeds a generic model and leads to a useful result.",
+      "template_id": "failure-example",
+      "template_variant": "Constrained-context baseline before the business-context counterexample",
+      "reference_sequence": "04-context-problem",
+      "composition": "White faint grid; three fixed left-to-right card slots; warm peach model focal point; centered filled symbols and serif labels; independent reserved presenter tile.",
+      "assets": "Generated master still and two image edits, source reference and rejected baseline. Editable layers are specified but not yet implemented.",
+      "reason": "A left-to-right input, mechanism and outcome flow makes the relationship explicit. It is not a business-data architecture or a hierarchy.",
+      "alternative_and_tradeoff": "A screenshot of search results. A screenshot could prove a specific result, but would obscure the conceptual input-to-model-to-output relationship being introduced here.",
+      "state_plan": "Input \u2192 input and model \u2192 completed flow. Earlier states derived from the selected candidate master. Actual motion alignment is pending.",
+      "clarity_check": "Review source versus candidate for typography, icon mass, card scale, shadow, spacing and continuity. Model-card relative scale remains a refinement; no visual approval asserted.",
+      "sources": [
+        "https://www.youtube.com/watch?v=HtR5m5VjaDQ"
+      ],
+      "source_start": 108,
+      "source_end": 119,
+      "status": "assets_ready",
+      "master_image": "web-search/03-settled-master.png",
+      "state_images": [
+        {
+          "id": "input",
+          "image": "web-search/01-input.png",
+          "narration_role": "Introduce the web-search input as it is named.",
+          "visible": [
+            "web-card",
+            "web-icon",
+            "web-label",
+            "presenter-slot",
+            "background"
+          ],
+          "new_understanding": "Identify the input source before showing its route.",
+          "next_transition": "Reveal first connector, then the model surface, icon and label.",
+          "persistent": [
+            "background",
+            "web-card",
+            "web-icon",
+            "web-label",
+            "presenter-slot"
+          ]
+        },
+        {
+          "id": "model",
+          "image": "web-search/02-model.png",
+          "narration_role": "Show the generic model using the constrained search input.",
+          "visible": [
+            "web-card",
+            "web-icon",
+            "web-label",
+            "first-connector",
+            "model-card",
+            "model-icon",
+            "model-label",
+            "presenter-slot",
+            "background"
+          ],
+          "new_understanding": "Make the input-to-model relationship visible; the model is the focal object.",
+          "next_transition": "Reveal second connector and result components, then hold the complete flow.",
+          "persistent": [
+            "background",
+            "web-card",
+            "web-icon",
+            "web-label",
+            "first-connector",
+            "model-card",
+            "model-icon",
+            "model-label",
+            "presenter-slot"
+          ]
+        },
+        {
+          "id": "result",
+          "image": "web-search/03-settled-master.png",
+          "narration_role": "Complete the source's constrained-context example before contrasting business questions.",
+          "visible": [
+            "web-card",
+            "web-icon",
+            "web-label",
+            "first-connector",
+            "model-card",
+            "model-icon",
+            "model-label",
+            "second-connector",
+            "result-card",
+            "result-icon",
+            "result-label",
+            "presenter-slot",
+            "background"
+          ],
+          "new_understanding": "See the complete input, mechanism and outcome relationship.",
+          "next_transition": "Reading hold, then the separately storyboarded business-context counterexample.",
+          "persistent": [
+            "all components until the next conceptual change"
+          ]
+        }
+      ],
+      "visual_approved_by_user": false,
+      "generation_authorized_by_user": true,
+      "layer_reconstruction": {
+        "status": "not_started",
+        "layers": [
+          "background",
+          "grid",
+          "web-shadow",
+          "web-card",
+          "web-icon",
+          "web-label",
+          "first-connector",
+          "model-shadow",
+          "model-gradient-card",
+          "model-icon",
+          "model-label",
+          "second-connector",
+          "result-shadow",
+          "result-card",
+          "result-icon",
+          "result-label",
+          "presenter-slot"
+        ],
+        "still_check": "Compare the editable settled still to the chosen generated master and source before adding motion.",
+        "raster_rule": "The generated storyboard is an art-direction target, not the flattened animation substrate. Keep exact text, geometry, connectors and motion editable."
+      }
+    }
+  ]
+}

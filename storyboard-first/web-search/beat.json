@@ -1,0 +1,71 @@
+{
+  "id": "web-search-constrained-context",
+  "mode": "reference-reconstruction",
+  "source_url": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_frame_seconds": 117,
+  "narration_excerpt": "Generic models are really good at searching the web or a a code base, anything that's got a really constrained space.",
+  "source_caption_interval_seconds": [108, 119],
+  "alignment_status": "Rolling transcript times are approximate; precise narration alignment is a later motion step.",
+  "viewer_knows": "A generic model can receive information from sources.",
+  "intended_understanding": "In the source's constrained web-search example, retrieved information feeds a generic model and leads to a useful result.",
+  "claim_caveat": "The reference's Accurate Results label is not a universal accuracy guarantee. The following business-context counterexample is required in the complete explanation.",
+  "why_this_graphic": "A left-to-right input, mechanism and outcome flow makes the relationship explicit. It is not a business-data architecture or a hierarchy.",
+  "alternative": "A screenshot of search results",
+  "alternative_tradeoff": "A screenshot could prove a specific result, but would obscure the conceptual input-to-model-to-output relationship being introduced here.",
+  "source_evidence": "source-reference.png",
+  "rejected_baseline": "rejected-baseline.png",
+  "master_image": "03-settled-master.png",
+  "generation_authorized_by_user": true,
+  "visual_approved_by_user": false,
+  "status": "image_storyboard_for_review",
+  "design": {
+    "background": "Near-white faint square grid",
+    "cards": "Off-white cards with fine gray borders, soft ambient shadows and gently rounded corners",
+    "model": "Warm peach gradient, coral filled cube/spark metaphor; focal contrast instead of generic cyan",
+    "labels": "Centered serif labels, not left-aligned bold sans serif",
+    "icons": "Centered filled orange globe, coral model symbol and green result seal",
+    "connectors": "Horizontal charcoal arrows, clearly directional and separate layers",
+    "presenter": "Reserved independent rounded tile; blank in the image-design pilot"
+  },
+  "states": [
+    {
+      "id": "input",
+      "image": "01-input.png",
+      "narration_role": "Introduce the web-search input as it is named.",
+      "visible": ["web-card", "web-icon", "web-label", "presenter-slot", "background"],
+      "new_understanding": "Identify the input source before showing its route.",
+      "next_transition": "Reveal first connector, then the model surface, icon and label.",
+      "persistent": ["background", "web-card", "web-icon", "web-label", "presenter-slot"]
+    },
+    {
+      "id": "model",
+      "image": "02-model.png",
+      "narration_role": "Show the generic model using the constrained search input.",
+      "visible": ["web-card", "web-icon", "web-label", "first-connector", "model-card", "model-icon", "model-label", "presenter-slot", "background"],
+      "new_understanding": "Make the input-to-model relationship visible; the model is the focal object.",
+      "next_transition": "Reveal second connector and result components, then hold the complete flow.",
+      "persistent": ["background", "web-card", "web-icon", "web-label", "first-connector", "model-card", "model-icon", "model-label", "presenter-slot"]
+    },
+    {
+      "id": "result",
+      "image": "03-settled-master.png",
+      "narration_role": "Complete the source's constrained-context example before contrasting business questions.",
+      "visible": ["web-card", "web-icon", "web-label", "first-connector", "model-card", "model-icon", "model-label", "second-connector", "result-card", "result-icon", "result-label", "presenter-slot", "background"],
+      "new_understanding": "See the complete input, mechanism and outcome relationship.",
+      "next_transition": "Reading hold, then the separately storyboarded business-context counterexample.",
+      "persistent": ["all components until the next conceptual change"]
+    }
+  ],
+  "layer_reconstruction": {
+    "status": "not_started",
+    "layers": ["background", "grid", "web-shadow", "web-card", "web-icon", "web-label", "first-connector", "model-shadow", "model-gradient-card", "model-icon", "model-label", "second-connector", "result-shadow", "result-card", "result-icon", "result-label", "presenter-slot"],
+    "still_check": "Compare the editable settled still to the chosen generated master and source before adding motion.",
+    "raster_rule": "The generated storyboard is an art-direction target, not the flattened animation substrate. Keep exact text, geometry, connectors and motion editable."
+  },
+  "motion": {
+    "status": "not_started",
+    "renderer": "Undecided until the selected still has an editable reconstruction; Remotion/SVG is suitable, engine choice does not establish quality.",
+    "timing": "Derive actual cues from narration; do not adopt invented precise timestamps or universal springs.",
+    "review": "Source, selected image, editable still and animated state compared at start, transition and settle."
+  }
+}

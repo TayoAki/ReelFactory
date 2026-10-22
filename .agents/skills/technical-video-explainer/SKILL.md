@@ -1,6 +1,6 @@
 ---
 name: technical-video-explainer
-description: Turn a script or transcript into a researched explanation for a technical audience, a reference-derived storyboard with human review, approved graphics, timed motion and comparison evidence. Use when producing or revising technical explainer videos, adapting the Databricks reference, or applying its graphic templates to new content.
+description: Turn a script or transcript into researched technical teaching beats, multiple generated storyboard-state images, human visual review, editable graphic layers, timed motion and source comparisons. Use when producing or revising technical explainer videos, adapting the Databricks reference, or applying its graphic templates to new content.
 ---
 
 # Technical video explainer
@@ -37,25 +37,33 @@ For each beat record what the viewer knows before, what new understanding is nee
 
 Do not select by isolated keywords: “stack” does not mandate depth; “three” does not mandate cards; “agent” does not mandate a robot; “ontology” does not mandate an unlabeled graph. The reference's family cards do not establish execution architecture. Use real UI when demonstrating a supported product interaction; use a clearly illustrative diagram for an invisible mechanism.
 
-## 4. Storyboard checkpoint — HITL 1
+## 4. Generate an image-first storyboard — HITL 1
 
-Produce a reviewable plan with exact excerpt, proposed technical rewrite if applicable, time budget, intended understanding, template/variant, evidence, assets, hierarchy, persistent objects, start/change/settled state, speech trigger, motion, hold, alternative and clarity check. Use `references/storyboard-contract.json` as the field contract.
+Read `references/image-first-process.md`. The previous whole-video rendering was rejected by the user as a visual-quality baseline. Do not treat its existence, coverage, codec checks or storyboard-schema validation as design approval.
 
-Ask for the human review only after the concrete storyboard exists. Do not generate final assets or animate pending scenes without authorization. A user instruction to generate the storyboard graphics authorizes that generation; it does not certify fidelity or final approval. Record this distinction. Earlier authorization and user corrections take precedence over inferred approval requirements. Never ask again for already-authorized scope.
+For each teaching beat, record the exact narration, intended understanding, reason for the graphic, source evidence, hierarchy, assets and a credible alternative. Design a master still for the settled state with the image-generation tool when creating a new visual direction. Match the actual reference's visual language; do not substitute generic cards because they are easy to render.
 
-## 5. Generate approved graphics and keyframes
+Set `visual_workflow` to `image-first` and record `master_image` plus `state_images` in the storyboard contract. The storyboard must include actual images, not only descriptions. Produce at least three meaningful state images per explanatory graphic: initial, relationship/build, and settled result. Use four to six or more for comparisons, repairs, camera changes or additional conceptual states. Derive the sequence from a selected master image to preserve layout, typography, icons, colors, shadows and object identity. Independently generated images are exploratory until reconciled. A deliberate static title can use fewer states only with an explicit reason.
 
-Read the project's `content/visual-language/STANDARD.md` when present. Use official product icons for product identity, one consistent generic icon family, and labels for abstract concepts. Generate image assets with the image-generation tool when required; build vector diagrams, typography and connectors as editable SVG/HTML/React or native display-list components with text, shapes and timing preserved in source. Reuse intentional static fictional presenter placeholders in the requested positions. Do not introduce new image generation where the plan calls for a diagram or authentic screenshot.
+Present the images beside source evidence, mapped to narration, with the reason each graphic and transition exists. Include visual-quality checks at delivery size. Ask for review only after concrete images exist. Existing instructions to generate authorize those images; they do not certify visual approval. Honor prior authorization and the user's current staging instructions without repeating permission requests.
 
-Create all planned scenes, including deliberate presenter holds or no-graphic beats. Export each scene's still keyframe and editable source. Review hierarchy, text fit, connector meaning, small-player legibility and continuity. Compare each result against the storyboard; record deviations. Substantial changes to the explanation return to review.
+## 5. Convert selected storyboard images into editable graphic layers
 
-## 6. Animate and compare
+Read the project's `content/visual-language/STANDARD.md`. Preserve its reference-reconstruction exception: the source's actual symbol weight and type treatment take precedence over generic icon-family defaults when reconstructing its style.
 
-Use frame-derived state and reusable components. The short reference adapter uses V1/GSAP/Hyperframes; the whole-video study also supplies a native frame-based display-list renderer. Remotion is a proposed component-based renderer, not an installed requirement of this skill. Do not migrate a project just to make this skill run.
+Build the selected design as separate background/grid, card surfaces, icons, labels, connectors, shadows and presenter layers in SVG/HTML/React/Remotion or another editable scene graph. Generated images are visual targets; they are not guaranteed text, vectors, factual evidence or product UI. Set exact labels and semantics in editable code. Use genuine official product assets and authentic UI when teaching product identity or actual execution. Reuse intentional static fictional presenter placeholders.
 
-For reconstruction, use measured source timing where available, preserve inner-camera versus fixed-stage separation, and inspect start/intermediate/end states. For adaptation, align motion to the new narration; do not reuse source timestamps blindly. Use holds, selective emphasis and small coherent motion instead of continuous zoom or universal springs.
+Export a reconstructed settled still and compare it against the selected storyboard image and reference. Review silhouette, scale, spacing, typography, icon mass, color roles, gradient, depth, shadows and connector meaning. Fix the still before animating it. Do not replace a refined warm reference with flat cyan tiles and call the visual grammar preserved.
 
-Export a combined video, individual scene motion, editable source and original/generated comparison. Use a single source clock for matched footage. Static presenter faces are intentional differences; do not use whole-frame pixel similarity as proof of graphic fidelity. Check source behavior, generated behavior, remaining differences, plan compliance and transfer rule per scene. Distinguish measured checks from visual judgment. Do not invent an accuracy score or claim exactness from sampled frames.
+## 6. Animate approved state changes, then compare
+
+For every transition, specify its narration trigger/alignment confidence, persistent objects, start/end states, per-layer property tracks, order, duration, easing, settle and reading hold. Use actual narration timing. Keep inner-camera motion separate from fixed stage/presenter layout.
+
+Animate the editable layers to reproduce the approved keyframe images. Do not approximate diagram motion with a moving flattened image or whole-frame crossfades. Intentional photo/illustration layers can remain raster. A coherent image board is a design contract, not automatic image-to-vector conversion.
+
+Pilot one explanation before scaling. Export source / storyboard / editable reconstruction / animation comparisons, plus start, intermediate and settled frames. Check readability and bounds during movement. Return to image design if the composition is weak; changing the renderer does not repair the art direction.
+
+Remotion is suitable for reusable React/SVG scenes and deterministic frame tracks, but is not an automatic quality improvement or mandatory migration. Preserve the working reference evidence. Do not regenerate the complete video until the representative design and motion recipe pass visual review or the user explicitly authorizes proceeding with known differences.
 
 ## 7. Feed observations back into the skill
 
@@ -79,3 +87,8 @@ Run `scripts/validate_storyboard.py <storyboard.json>` before handoff. This chec
 The project `full-video/` extends the reference study across the uploaded 34:28 source with 44 continuous sections. Read `references/full-video-findings.md` for observed failures and limits, and `references/full-video-recipes.json` for relationship-based selection, motion roles, alternatives and misuse risks. Inspect the project `full-video/review.html` and `full-comparison.mp4` for source-clock comparisons. `full-video/graphics.py` supplies editable native display-list scenes and `render.py` renders the authorized reconstruction. UI footage and narration reuse source evidence; presenter faces are static fictional placeholders.
 
 The complete timeline does not certify every micro-transition: section boundaries and many events come from a 1fps scan plus prior dense samples. Vector geometry, curves, icons and some timings remain approximate. Review fidelity explicitly. For a new script, reuse the teaching relationships and components, then research new claims and align to its own narration. This remains an implemented reference adapter, not an arbitrary-script compiler or trained model.
+
+
+## Current image-first pilot
+
+Project `storyboard-first/` contains the revised workflow and Web Search → Generic Models → Accurate Results image-state pilot. Read `references/image-first-process.md` before using any previous rendered adapter as a template. The legacy whole-video reconstruction remains evidence of failures, not an approved visual design.

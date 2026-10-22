@@ -2,35 +2,140 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Technical explainer storyboard",
   "type": "object",
-  "required": ["mode", "audience", "scope", "scenes"],
+  "required": [
+    "mode",
+    "audience",
+    "scope",
+    "scenes"
+  ],
   "properties": {
-    "mode": {"enum": ["reference-reconstruction", "technical-adaptation", "original-explainer"]},
-    "audience": {"type": "string", "minLength": 1},
-    "scope": {"type": "string", "minLength": 1},
-    "generation_authorization": {"type": ["string", "null"]},
-    "technical_rewrite": {"type": ["object", "null"]},
+    "mode": {
+      "enum": [
+        "reference-reconstruction",
+        "technical-adaptation",
+        "original-explainer"
+      ]
+    },
+    "audience": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "generation_authorization": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "technical_rewrite": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
     "scenes": {
-      "type": "array", "minItems": 1,
+      "type": "array",
+      "minItems": 1,
       "items": {
         "type": "object",
-        "required": ["id", "transcript", "intended_understanding", "template_id", "template_variant", "reference_sequence", "composition", "assets", "reason", "alternative_and_tradeoff", "state_plan", "clarity_check", "sources", "status"],
+        "required": [
+          "id",
+          "transcript",
+          "intended_understanding",
+          "template_id",
+          "template_variant",
+          "reference_sequence",
+          "composition",
+          "assets",
+          "reason",
+          "alternative_and_tradeoff",
+          "state_plan",
+          "clarity_check",
+          "sources",
+          "status"
+        ],
         "properties": {
-          "id": {"type": "string"},
-          "transcript": {"type": "string"},
-          "intended_understanding": {"type": "string"},
-          "template_id": {"type": "string"},
-          "template_variant": {"type": "string"},
-          "reference_sequence": {"type": "string"},
-          "composition": {"type": "string"},
-          "assets": {"type": "string"},
-          "reason": {"type": "string"},
-          "alternative_and_tradeoff": {"type": "string"},
-          "state_plan": {"type": "string"},
-          "clarity_check": {"type": "string"},
-          "sources": {"type": "array", "minItems": 1, "items": {"type": "string"}},
-          "status": {"type": "string"}
+          "id": {
+            "type": "string"
+          },
+          "transcript": {
+            "type": "string"
+          },
+          "intended_understanding": {
+            "type": "string"
+          },
+          "template_id": {
+            "type": "string"
+          },
+          "template_variant": {
+            "type": "string"
+          },
+          "reference_sequence": {
+            "type": "string"
+          },
+          "composition": {
+            "type": "string"
+          },
+          "assets": {
+            "type": "string"
+          },
+          "reason": {
+            "type": "string"
+          },
+          "alternative_and_tradeoff": {
+            "type": "string"
+          },
+          "state_plan": {
+            "type": "string"
+          },
+          "clarity_check": {
+            "type": "string"
+          },
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "status": {
+            "type": "string"
+          },
+          "master_image": {
+            "type": "string"
+          },
+          "state_images": {
+            "type": "array",
+            "minItems": 3,
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "image",
+                "narration_role",
+                "new_understanding",
+                "persistent",
+                "next_transition"
+              ]
+            }
+          },
+          "visual_approved_by_user": {
+            "type": "boolean"
+          },
+          "layer_reconstruction": {
+            "type": "object"
+          }
         }
       }
+    },
+    "visual_workflow": {
+      "enum": [
+        "image-first",
+        "legacy-reference-study"
+      ]
     }
   }
 }
