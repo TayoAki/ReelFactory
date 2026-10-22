@@ -56,5 +56,38 @@
   "source_start": 3611.70068,
   "source_end": 3653.82068,
   "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion.",
+  "viewer_understanding_before": "One recurring decision",
+  "viewer_understanding_after": "Start small",
+  "graphic_choice_reason": "Start with one team and one decision: Expose intermediate review or processing steps.",
+  "credible_alternative": "Parallel peer cards",
+  "why_alternative_rejected": "Use ordering only where the recording actually has sequential processing/review; C29 instead retains parallel source routes.",
+  "cannot_establish": "This illustrative diagram cannot prove an actual product interaction, executed query, security guarantee or measured improvement.",
+  "reference_images_used_for_generation": [
+    "reference-library/frames/graphic/0003510.jpg",
+    "motion-pilot-fabric/fabric-theme/master.png",
+    "short-form-batch/recording-clips/assets/host.png",
+    "short-form-batch/recording-clips/assets/guest.png"
+  ],
+  "source_library_semantic_match": "Original reference supplies visual grammar; exact subject relationships are adapted from this recording. No claim of an exact reference-video semantic or motion match.",
+  "original_reference_url": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "review_status": "Draft; representative visual samples and artifact bounds checked, human editorial approval pending.",
+  "caption_status": "Word-timed ASR draft; human proofreading pending",
+  "line_shot_edit": [
+    {
+      "LINE": "Start incredibly small. Pick one single team, and one recurring",
+      "SHOT": "Fixed fictional portrait rail + One recurring decision",
+      "EDIT": "Reveal independent card at 0.7s; 420ms fade, 16px eased settling"
+    },
+    {
+      "LINE": "And most importantly, aggressively test ambiguous requests and missing data scenarios to see exactly how",
+      "SHOT": "Fixed fictional portrait rail + Test against known answers",
+      "EDIT": "Reveal independent card at 20.2s; 420ms fade, 16px eased settling"
+    },
+    {
+      "LINE": "day one. Exactly. You only expand the scope when that first team can complete their workflow with dependably accurate",
+      "SHOT": "Fixed fictional portrait rail + Expand deliberately",
+      "EDIT": "Reveal independent card at 32.04s; 420ms fade, 16px eased settling"
+    }
+  ]
 }

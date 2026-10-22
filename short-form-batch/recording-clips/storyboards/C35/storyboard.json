@@ -44,5 +44,33 @@
   "source_start": 2315.289705,
   "source_end": 2362.2297049999997,
   "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion.",
+  "viewer_understanding_before": "Approved definition",
+  "viewer_understanding_after": "Make gaps visible",
+  "graphic_choice_reason": "Check the answer and expose missing data: Show what must be checked rather than an invented successful result.",
+  "credible_alternative": "A confident numerical result chart",
+  "why_alternative_rejected": "No executed result is supplied. Show the evidence checks the speaker actually asks for.",
+  "cannot_establish": "This illustrative diagram cannot prove an actual product interaction, executed query, security guarantee or measured improvement.",
+  "reference_images_used_for_generation": [
+    "reference-library/frames/graphic/0003510.jpg",
+    "motion-pilot-fabric/fabric-theme/master.png",
+    "short-form-batch/recording-clips/assets/host.png",
+    "short-form-batch/recording-clips/assets/guest.png"
+  ],
+  "source_library_semantic_match": "Original reference supplies visual grammar; exact subject relationships are adapted from this recording. No claim of an exact reference-video semantic or motion match.",
+  "original_reference_url": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "review_status": "Draft; representative visual samples and artifact bounds checked, human editorial approval pending.",
+  "caption_status": "Word-timed ASR draft; human proofreading pending",
+  "line_shot_edit": [
+    {
+      "LINE": "The operator still has to check the receipts. They have to audit the machine's logic.",
+      "SHOT": "Fixed fictional portrait rail + Approved definition",
+      "EDIT": "Reveal independent card at 0.7s; 420ms fade, 16px eased settling"
+    },
+    {
+      "LINE": "the receipts. They have to audit the machine's logic. Precisely. The human operator must aggressively",
+      "SHOT": "Fixed fictional portrait rail + Source evidence",
+      "EDIT": "Reveal independent card at 3.7s; 420ms fade, 16px eased settling"
+    }
+  ]
 }

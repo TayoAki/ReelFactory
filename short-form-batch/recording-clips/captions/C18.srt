@@ -1,0 +1,115 @@
+1
+00:00:00,359 --> 00:00:02,059
+The current agent does not automatically
+
+2
+00:00:02,059 --> 00:00:03,980
+traverse downward to include every
+
+3
+00:00:03,980 --> 00:00:05,720
+derived instance when you query a
+
+4
+00:00:05,720 --> 00:00:06,620
+broad parent type.
+
+5
+00:00:07,060 --> 00:00:08,320
+Why does that matter in a
+
+6
+00:00:08,320 --> 00:00:09,299
+real -world query?
+
+7
+00:00:09,460 --> 00:00:10,559
+Walk me through a scenario.
+
+8
+00:00:10,820 --> 00:00:12,420
+Let's say a regional manager is
+
+9
+00:00:12,420 --> 00:00:13,800
+running a diagnostic on everything
+
+10
+00:00:13,800 --> 00:00:15,140
+in their supply chain that might
+
+11
+00:00:15,140 --> 00:00:17,060
+spoil. They sit down at the
+
+12
+00:00:17,060 --> 00:00:18,620
+chat interface and ask the agent
+
+13
+00:00:18,620 --> 00:00:20,520
+to analyze inventory risk for all
+
+14
+00:00:20,520 --> 00:00:22,380
+product. Just general products.
+
+15
+00:00:22,680 --> 00:00:25,180
+Right. Because of this preview limitation,
+
+16
+00:00:25,300 --> 00:00:26,640
+the agent might only query the
+
+17
+00:00:26,640 --> 00:00:28,920
+base product entity and completely
+
+18
+00:00:28,920 --> 00:00:30,380
+fail to roll up the derived
+
+19
+00:00:30,380 --> 00:00:32,780
+frozen product instances into that
+
+20
+00:00:32,780 --> 00:00:34,180
+analysis. Oh, wow.
+
+21
+00:00:34,700 --> 00:00:36,100
+So the manager thinks they are
+
+22
+00:00:36,100 --> 00:00:37,740
+looking at a comprehensive report,
+
+23
+00:00:38,460 --> 00:00:40,520
+but the AI just silently ignored
+
+24
+00:00:40,520 --> 00:00:42,760
+half a million dollars worth of
+
+25
+00:00:42,760 --> 00:00:44,720
+melting ice cream because the human
+
+26
+00:00:44,720 --> 00:00:46,460
+didn't specifically say the word frozen.
+
+27
+00:00:46,640 --> 00:00:48,480
+Precisely. You have to specifically
+
+28
+00:00:48,480 --> 00:00:50,540
+name the relevant derived type in
+
+29
+00:00:50,540 --> 00:00:51,059
+your prompt.

@@ -1,0 +1,78 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.14,0:00:00.43,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Writing{\c&H002A2B17&\b0} the rule\Nsupplies the strategic
+Dialogue: 0,0:00:00.43,0:00:00.66,Default,,0,0,0,,{\pos(540,1513)}Writing {\c&H00657811&\b1}the{\c&H002A2B17&\b0} rule\Nsupplies the strategic
+Dialogue: 0,0:00:00.66,0:00:00.83,Default,,0,0,0,,{\pos(540,1513)}Writing the {\c&H00657811&\b1}rule{\c&H002A2B17&\b0}\Nsupplies the strategic
+Dialogue: 0,0:00:00.83,0:00:01.40,Default,,0,0,0,,{\pos(540,1513)}Writing the rule\N{\c&H00657811&\b1}supplies{\c&H002A2B17&\b0} the strategic
+Dialogue: 0,0:00:01.40,0:00:01.70,Default,,0,0,0,,{\pos(540,1513)}Writing the rule\Nsupplies {\c&H00657811&\b1}the{\c&H002A2B17&\b0} strategic
+Dialogue: 0,0:00:01.70,0:00:02.05,Default,,0,0,0,,{\pos(540,1513)}Writing the rule\Nsupplies the {\c&H00657811&\b1}strategic{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:02.05,0:00:03.46,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}context.{\c&H002A2B17&\b0} Now, it\Nis important to
+Dialogue: 0,0:00:03.46,0:00:03.82,Default,,0,0,0,,{\pos(540,1513)}context. {\c&H00657811&\b1}Now,{\c&H002A2B17&\b0} it\Nis important to
+Dialogue: 0,0:00:03.82,0:00:03.90,Default,,0,0,0,,{\pos(540,1513)}context. Now, {\c&H00657811&\b1}it{\c&H002A2B17&\b0}\Nis important to
+Dialogue: 0,0:00:03.90,0:00:04.00,Default,,0,0,0,,{\pos(540,1513)}context. Now, it\N{\c&H00657811&\b1}is{\c&H002A2B17&\b0} important to
+Dialogue: 0,0:00:04.00,0:00:04.26,Default,,0,0,0,,{\pos(540,1513)}context. Now, it\Nis {\c&H00657811&\b1}important{\c&H002A2B17&\b0} to
+Dialogue: 0,0:00:04.26,0:00:04.48,Default,,0,0,0,,{\pos(540,1513)}context. Now, it\Nis important {\c&H00657811&\b1}to{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:04.48,0:00:04.66,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}note{\c&H002A2B17&\b0} that how that rule is
+Dialogue: 0,0:00:04.66,0:00:04.86,Default,,0,0,0,,{\pos(540,1513)}note {\c&H00657811&\b1}that{\c&H002A2B17&\b0} how that rule is
+Dialogue: 0,0:00:04.86,0:00:05.04,Default,,0,0,0,,{\pos(540,1513)}note that {\c&H00657811&\b1}how{\c&H002A2B17&\b0} that rule is
+Dialogue: 0,0:00:05.04,0:00:05.16,Default,,0,0,0,,{\pos(540,1513)}note that how {\c&H00657811&\b1}that{\c&H002A2B17&\b0} rule is
+Dialogue: 0,0:00:05.16,0:00:05.40,Default,,0,0,0,,{\pos(540,1513)}note that how that {\c&H00657811&\b1}rule{\c&H002A2B17&\b0} is
+Dialogue: 0,0:00:05.40,0:00:05.52,Default,,0,0,0,,{\pos(540,1513)}note that how that rule {\c&H00657811&\b1}is{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:05.52,0:00:05.68,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}actually{\c&H002A2B17&\b0} executed,\Nthe specific database
+Dialogue: 0,0:00:05.68,0:00:06.52,Default,,0,0,0,,{\pos(540,1513)}actually {\c&H00657811&\b1}executed,{\c&H002A2B17&\b0}\Nthe specific database
+Dialogue: 0,0:00:06.52,0:00:06.68,Default,,0,0,0,,{\pos(540,1513)}actually executed,\N{\c&H00657811&\b1}the{\c&H002A2B17&\b0} specific database
+Dialogue: 0,0:00:06.68,0:00:07.14,Default,,0,0,0,,{\pos(540,1513)}actually executed,\Nthe {\c&H00657811&\b1}specific{\c&H002A2B17&\b0} database
+Dialogue: 0,0:00:07.14,0:00:07.46,Default,,0,0,0,,{\pos(540,1513)}actually executed,\Nthe specific {\c&H00657811&\b1}database{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:07.46,0:00:08.48,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}queries,{\c&H002A2B17&\b0} the AI rights, to go
+Dialogue: 0,0:00:08.48,0:00:08.53,Default,,0,0,0,,{\pos(540,1513)}queries, {\c&H00657811&\b1}the{\c&H002A2B17&\b0} AI rights, to go
+Dialogue: 0,0:00:08.53,0:00:08.68,Default,,0,0,0,,{\pos(540,1513)}queries, the {\c&H00657811&\b1}AI{\c&H002A2B17&\b0} rights, to go
+Dialogue: 0,0:00:08.68,0:00:09.10,Default,,0,0,0,,{\pos(540,1513)}queries, the AI {\c&H00657811&\b1}rights,{\c&H002A2B17&\b0} to go
+Dialogue: 0,0:00:09.10,0:00:09.19,Default,,0,0,0,,{\pos(540,1513)}queries, the AI rights, {\c&H00657811&\b1}to{\c&H002A2B17&\b0} go
+Dialogue: 0,0:00:09.19,0:00:09.30,Default,,0,0,0,,{\pos(540,1513)}queries, the AI rights, to {\c&H00657811&\b1}go{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:09.30,0:00:09.50,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}fetch{\c&H002A2B17&\b0} that data and test the
+Dialogue: 0,0:00:09.50,0:00:09.74,Default,,0,0,0,,{\pos(540,1513)}fetch {\c&H00657811&\b1}that{\c&H002A2B17&\b0} data and test the
+Dialogue: 0,0:00:09.74,0:00:09.96,Default,,0,0,0,,{\pos(540,1513)}fetch that {\c&H00657811&\b1}data{\c&H002A2B17&\b0} and test the
+Dialogue: 0,0:00:09.96,0:00:10.19,Default,,0,0,0,,{\pos(540,1513)}fetch that data {\c&H00657811&\b1}and{\c&H002A2B17&\b0} test the
+Dialogue: 0,0:00:10.19,0:00:10.40,Default,,0,0,0,,{\pos(540,1513)}fetch that data and {\c&H00657811&\b1}test{\c&H002A2B17&\b0} the
+Dialogue: 0,0:00:10.40,0:00:10.58,Default,,0,0,0,,{\pos(540,1513)}fetch that data and test {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:10.58,0:00:11.44,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}condition,{\c&H002A2B17&\b0} is handled\Nby the query
+Dialogue: 0,0:00:11.44,0:00:11.76,Default,,0,0,0,,{\pos(540,1513)}condition, {\c&H00657811&\b1}is{\c&H002A2B17&\b0} handled\Nby the query
+Dialogue: 0,0:00:11.76,0:00:12.12,Default,,0,0,0,,{\pos(540,1513)}condition, is {\c&H00657811&\b1}handled{\c&H002A2B17&\b0}\Nby the query
+Dialogue: 0,0:00:12.12,0:00:12.38,Default,,0,0,0,,{\pos(540,1513)}condition, is handled\N{\c&H00657811&\b1}by{\c&H002A2B17&\b0} the query
+Dialogue: 0,0:00:12.38,0:00:12.48,Default,,0,0,0,,{\pos(540,1513)}condition, is handled\Nby {\c&H00657811&\b1}the{\c&H002A2B17&\b0} query
+Dialogue: 0,0:00:12.48,0:00:12.70,Default,,0,0,0,,{\pos(540,1513)}condition, is handled\Nby the {\c&H00657811&\b1}query{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:12.70,0:00:13.14,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}engines{\c&H002A2B17&\b0} under the\Nhood, which we
+Dialogue: 0,0:00:13.14,0:00:13.46,Default,,0,0,0,,{\pos(540,1513)}engines {\c&H00657811&\b1}under{\c&H002A2B17&\b0} the\Nhood, which we
+Dialogue: 0,0:00:13.46,0:00:13.64,Default,,0,0,0,,{\pos(540,1513)}engines under {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nhood, which we
+Dialogue: 0,0:00:13.64,0:00:13.92,Default,,0,0,0,,{\pos(540,1513)}engines under the\N{\c&H00657811&\b1}hood,{\c&H002A2B17&\b0} which we
+Dialogue: 0,0:00:13.92,0:00:14.12,Default,,0,0,0,,{\pos(540,1513)}engines under the\Nhood, {\c&H00657811&\b1}which{\c&H002A2B17&\b0} we
+Dialogue: 0,0:00:14.12,0:00:14.39,Default,,0,0,0,,{\pos(540,1513)}engines under the\Nhood, which {\c&H00657811&\b1}we{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:14.39,0:00:14.52,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}need{\c&H002A2B17&\b0} to discuss next.
+Dialogue: 0,0:00:14.52,0:00:14.64,Default,,0,0,0,,{\pos(540,1513)}need {\c&H00657811&\b1}to{\c&H002A2B17&\b0} discuss next.
+Dialogue: 0,0:00:14.64,0:00:14.84,Default,,0,0,0,,{\pos(540,1513)}need to {\c&H00657811&\b1}discuss{\c&H002A2B17&\b0} next.
+Dialogue: 0,0:00:14.84,0:00:15.35,Default,,0,0,0,,{\pos(540,1513)}need to discuss {\c&H00657811&\b1}next.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:16.32,0:00:16.48,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}But{\c&H002A2B17&\b0} the ontology\Nis where the
+Dialogue: 0,0:00:16.48,0:00:16.66,Default,,0,0,0,,{\pos(540,1513)}But {\c&H00657811&\b1}the{\c&H002A2B17&\b0} ontology\Nis where the
+Dialogue: 0,0:00:16.66,0:00:17.14,Default,,0,0,0,,{\pos(540,1513)}But the {\c&H00657811&\b1}ontology{\c&H002A2B17&\b0}\Nis where the
+Dialogue: 0,0:00:17.14,0:00:17.39,Default,,0,0,0,,{\pos(540,1513)}But the ontology\N{\c&H00657811&\b1}is{\c&H002A2B17&\b0} where the
+Dialogue: 0,0:00:17.39,0:00:17.55,Default,,0,0,0,,{\pos(540,1513)}But the ontology\Nis {\c&H00657811&\b1}where{\c&H002A2B17&\b0} the
+Dialogue: 0,0:00:17.55,0:00:17.68,Default,,0,0,0,,{\pos(540,1513)}But the ontology\Nis where {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:17.68,0:00:17.89,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}rule{\c&H002A2B17&\b0} is permanently\Ndocumented, linked,
+Dialogue: 0,0:00:17.89,0:00:18.07,Default,,0,0,0,,{\pos(540,1513)}rule {\c&H00657811&\b1}is{\c&H002A2B17&\b0} permanently\Ndocumented, linked,
+Dialogue: 0,0:00:18.07,0:00:18.52,Default,,0,0,0,,{\pos(540,1513)}rule is {\c&H00657811&\b1}permanently{\c&H002A2B17&\b0}\Ndocumented, linked,
+Dialogue: 0,0:00:18.52,0:00:19.68,Default,,0,0,0,,{\pos(540,1513)}rule is permanently\N{\c&H00657811&\b1}documented,{\c&H002A2B17&\b0} linked,
+Dialogue: 0,0:00:19.68,0:00:19.88,Default,,0,0,0,,{\pos(540,1513)}rule is permanently\Ndocumented, {\c&H00657811&\b1}linked,{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:20.10,0:00:20.12,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}and{\c&H002A2B17&\b0} standardized for\Nthe whole company.
+Dialogue: 0,0:00:20.12,0:00:20.50,Default,,0,0,0,,{\pos(540,1513)}and {\c&H00657811&\b1}standardized{\c&H002A2B17&\b0} for\Nthe whole company.
+Dialogue: 0,0:00:20.50,0:00:20.92,Default,,0,0,0,,{\pos(540,1513)}and standardized {\c&H00657811&\b1}for{\c&H002A2B17&\b0}\Nthe whole company.
+Dialogue: 0,0:00:20.92,0:00:21.04,Default,,0,0,0,,{\pos(540,1513)}and standardized for\N{\c&H00657811&\b1}the{\c&H002A2B17&\b0} whole company.
+Dialogue: 0,0:00:21.04,0:00:21.14,Default,,0,0,0,,{\pos(540,1513)}and standardized for\Nthe {\c&H00657811&\b1}whole{\c&H002A2B17&\b0} company.
+Dialogue: 0,0:00:21.14,0:00:21.54,Default,,0,0,0,,{\pos(540,1513)}and standardized for\Nthe whole {\c&H00657811&\b1}company.{\c&H002A2B17&\b0}

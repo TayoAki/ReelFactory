@@ -1,0 +1,99 @@
+1
+00:00:00,319 --> 00:00:00,800
+I'm a manager.
+
+2
+00:00:01,420 --> 00:00:02,559
+I open the chat interface and
+
+3
+00:00:02,559 --> 00:00:04,580
+I ask a highly complex question.
+
+4
+00:00:05,140 --> 00:00:06,199
+I need an answer that requires
+
+5
+00:00:06,199 --> 00:00:07,840
+checking physical inventory in the
+
+6
+00:00:07,840 --> 00:00:09,960
+Lakehouse, cross -referencing current
+
+7
+00:00:09,960 --> 00:00:12,040
+temperature telemetry in the Eventhouse,
+
+8
+00:00:12,600 --> 00:00:13,980
+and calculating the financial impact
+
+9
+00:00:13,980 --> 00:00:15,440
+using the DAX math in the
+
+10
+00:00:15,440 --> 00:00:17,480
+semantic model. That's a huge request.
+
+11
+00:00:17,760 --> 00:00:19,420
+Right. Does the system extract all
+
+12
+00:00:19,420 --> 00:00:20,600
+that data from those three sources,
+
+13
+00:00:20,600 --> 00:00:22,560
+pull it into some massive new
+
+14
+00:00:22,560 --> 00:00:23,880
+temporary database and run the query
+
+15
+00:00:23,880 --> 00:00:26,500
+there? No, and understanding this is
+
+16
+00:00:26,500 --> 00:00:28,360
+profound for anyone evaluating the
+
+17
+00:00:28,360 --> 00:00:30,040
+cost and performance of this system.
+
+18
+00:00:30,560 --> 00:00:32,360
+The ontology supplies the definitions
+
+19
+00:00:32,360 --> 00:00:33,339
+and the mappings.
+
+20
+00:00:33,600 --> 00:00:35,100
+It acts as the routing intelligence.
+
+21
+00:00:36,239 --> 00:00:38,019
+But when a consuming experience, like
+
+22
+00:00:38,019 --> 00:00:39,900
+a chat interface, actually formulates
+
+23
+00:00:39,900 --> 00:00:42,040
+the query, it executes that query
+
+24
+00:00:42,040 --> 00:00:44,040
+against the appropriate native underlying
+
+25
+00:00:44,040 --> 00:00:44,620
+engine.

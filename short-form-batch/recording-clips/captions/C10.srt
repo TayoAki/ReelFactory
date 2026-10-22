@@ -1,0 +1,91 @@
+1
+00:00:00,079 --> 00:00:01,739
+which naturally raises the question
+
+2
+00:00:01,739 --> 00:00:04,299
+is Fabric IQ, which is the
+
+3
+00:00:04,299 --> 00:00:06,019
+specific service where this ontology
+
+4
+00:00:06,019 --> 00:00:08,299
+feature lives. Just another database
+
+5
+00:00:08,299 --> 00:00:09,219
+we have to maintain.
+
+6
+00:00:09,639 --> 00:00:12,179
+That is the most persistent misconception
+
+7
+00:00:12,179 --> 00:00:13,619
+we see and we really have
+
+8
+00:00:13,619 --> 00:00:14,599
+to clear it up immediately.
+
+9
+00:00:15,079 --> 00:00:18,139
+Fabric IQ is emphatically not a
+
+10
+00:00:18,139 --> 00:00:20,039
+database. Okay, so it doesn't store
+
+11
+00:00:20,039 --> 00:00:22,539
+data? It does not store your
+
+12
+00:00:22,539 --> 00:00:25,179
+transactional data. Fabric IQ organizes
+
+13
+00:00:25,179 --> 00:00:27,099
+the business context that hovers over
+
+14
+00:00:27,099 --> 00:00:28,559
+the data you already have.
+
+15
+00:00:28,799 --> 00:00:30,959
+If it doesn't hold data, what
+
+16
+00:00:30,959 --> 00:00:31,659
+is it holding?
+
+17
+00:00:32,059 --> 00:00:33,299
+Think of it as a semantic
+
+18
+00:00:33,299 --> 00:00:36,039
+translation layer. Power BI provides
+
+19
+00:00:36,039 --> 00:00:37,699
+your curated analytics and visuals.
+
+20
+00:00:38,459 --> 00:00:39,719
+Your Lakehouse provides the raw storage,
+
+21
+00:00:39,719 --> 00:00:42,719
+but the ontology living inside Fabric
+
+22
+00:00:42,719 --> 00:00:45,599
+IQ defines the actual concepts and
+
+23
+00:00:45,599 --> 00:00:46,059
+connections.

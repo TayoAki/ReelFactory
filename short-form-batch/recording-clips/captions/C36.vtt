@@ -1,0 +1,64 @@
+WEBVTT
+
+00:00:00.919 --> 00:00:02.320
+In the source demo, the expert
+
+00:00:02.320 --> 00:00:04.620
+demonstrates the best practice, explicitly
+
+00:00:04.620 --> 00:00:06.500
+asking the agent to show its
+
+00:00:06.500 --> 00:00:07.920
+work. Like in math class.
+
+00:00:08.100 --> 00:00:10.420
+Exactly. They prompt the agent to
+
+00:00:10.420 --> 00:00:12.400
+use the governed revenue metric located
+
+00:00:12.400 --> 00:00:14.720
+in the sales report semantic model,
+
+00:00:15.280 --> 00:00:17.000
+summarize it by store for a
+
+00:00:17.000 --> 00:00:19.780
+specific time period, explicitly identify
+
+00:00:19.780 --> 00:00:21.720
+the source measure it used, and
+
+00:00:21.720 --> 00:00:23.520
+actually display the underlying query
+
+00:00:23.520 --> 00:00:24.360
+code it executed.
+
+00:00:24.960 --> 00:00:26.320
+So you force the chat interface
+
+00:00:26.320 --> 00:00:28.660
+to show you the exact DAX
+
+00:00:28.660 --> 00:00:29.820
+or SQL code it wrote.
+
+00:00:29.939 --> 00:00:31.980
+Yes. This gives the operator a
+
+00:00:31.980 --> 00:00:34.180
+tangible mathematical calculation.
+
+00:00:34.739 --> 00:00:36.040
+The operator can then take that
+
+00:00:36.040 --> 00:00:37.480
+DAX code and compare it against
+
+00:00:37.480 --> 00:00:39.780
+their traditional legacy power BI dashboard
+
+00:00:39.780 --> 00:00:41.339
+using the exact same filters.

@@ -727,15 +727,18 @@
       "transcript_asr": "You are sitting at your desk. You have millions of data points at your fingertips. You've got tables, beautifully colored dashboards, the latest large language models. An absolute mountain of technology. A mountain. And yet, you still cannot get a straight, dependable answer to a painfully simple question like, which stores need my attention today? Yeah, it is sort of the defining paradox of the modern data stack. We have spent the last two decades focused almost entirely on the plumbing. How to move data faster, how to store more of it cheaper, or how to build better analytical engines. But the data itself. The raw data itself is often just a collection of totally disconnected facts.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Original discussion excerpt",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C01.mp4",
+      "storyboard": "storyboards/C01/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C02",
@@ -1732,8 +1735,8 @@
       "transcript_asr": "I want to look really closely at that gap between data and meaning, because if you pull up a table and it shows a column labeled temperature, that's just a raw number. Right, it completely lacks the commercial context. Exactly. It doesn't tell you anything about the store experiencing that temperature. Well, let's trace that exact problem because it's a great example. If you have a spreadsheet and a column simply says temperature 45, what does your AI do with that? It just reads the number 45. Right. And if it's the ambient temperature outside a retail location on a pleasant spring day, 45 degrees Fahrenheit is just chilly. Sure. But if that sensor is sitting inside a commercial refrigeration unit, holding thousands of dollars of premium pharmaceutical supplies or, you know, frozen food, then 45 degrees is a total disaster. It's a catastrophic failure in progress. But the data itself, the integer of 45, is completely agnostic to your business reality.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Illustrative scenario",
@@ -1742,7 +1745,10 @@
       ],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C02.mp4",
+      "storyboard": "storyboards/C02/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C03",
@@ -2661,8 +2667,8 @@
       "transcript_asr": "Or consider something as ubiquitous as a shipment record. Okay. If you look at a standard supply chain database, a single shipment record might contain half a dozen different date fields. Oh yeah, order date, ship date, all of that. Right. You have the original order date, the warehouse processing date, the physical ship date, the initial estimated arrival date, the revised arrival date based on, say, weather delays, and the actual docked date. That is a lot of dates. So if an executive asks a standard AI chatbot, hey, when is the inventory arriving? How does the language model know which of those six columns to pull? Usually it just guesses, right? Or it hallucinates. Historically, a human data engineer has had to explicitly write SQL queries to tell the reporting system which of those fields represents the actual expected arrival that the store manager cares about today,",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Illustrative scenario",
@@ -2670,7 +2676,10 @@
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "boundary_note": "Complete expected-arrival explanation retained using the first-pass word boundary; second pass dropped about today.",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C03.mp4",
+      "storyboard": "storyboards/C03/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C04",
@@ -3661,15 +3670,18 @@
       "transcript_asr": "Inventory at risk is a brilliant example of these diagnostic muddy waters. Because it sounds so simple. It does. But if you go down to the warehouse and ask the manager what inventory at risk means, they will likely give you a purely physical definition. Meaning what? To them it means the physical count of stocks sitting on a pallet is currently below a hard minimum threshold at this exact second. Okay, but if you take that exact same phrase to a supply chain planner, the planner is going to give you a temporal predictive definition. Right, because their job is looking ahead. Exactly. To them, inventory at risk means that based on current sales velocity and historical trends, a predictive projection shows that the stock will fall below a required safety buffer at some point before the next delivery truck physically arrives. Those are two radically different mathematical equations. Completely different database queries triggered by the exact same three words.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Illustrative scenario",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C04.mp4",
+      "storyboard": "storyboards/C04/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C05",
@@ -4126,15 +4138,18 @@
       "transcript_asr": "Having raw data and an LLM without an ontology is essentially like having a massive commercial kitchen packed to the ceiling with premium ingredients. I like this analogy. But you have no recipe. You don't know the ratios, you don't know the cooking times, and you don't even know if you're supposed to be baking a wedding cake or making a beef stew. That is the functional reality for most enterprises today.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Illustrative scenario",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C05.mp4",
+      "storyboard": "storyboards/C05/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C06",
@@ -4837,15 +4852,18 @@
       "transcript_asr": "A human analyst has to listen to the business question like, which stores are at risk and then mentally translate that subjective human anxiety into a series of complex database joins? They have to know all the quirks of the system. Exactly. They have to know that the warehouse table uses an underscore in the column name while the sales table uses camel case. They have to know which filters to apply and which departmental definition to enforce. The obvious vulnerability there that if that specific human goes on vacation or you know quits. The institutional knowledge of how to ask the database a question just walks right out the door with them.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Illustrative scenario",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C06.mp4",
+      "storyboard": "storyboards/C06/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C07",
@@ -5248,15 +5266,18 @@
       "transcript_asr": "Microsoft Fabric is an architectural attempt to bring the entire historically fragmented data workflow into one unified software as a service platform. And when we say workflow, we mean everything. The complete life cycle. Ingesting data from external sources, transforming and cleaning it, analyzing historical batches, real -time IOT information, training machine learning models, and finally serving up the visualizations in reporting tools.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Original discussion excerpt",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C07.mp4",
+      "storyboard": "storyboards/C07/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C08",
@@ -5773,15 +5794,18 @@
       "transcript_asr": "And the bedrock of this entire platform is something they call OneLake. OneLake is fundamental to understanding how the ontology actually executes. It is the shared data foundation. Like a massive hard drive for the company. The architectural philosophy here is that different teams within an organization, data scientists, financial analysts, operations managers, can all work with the exact same underlying govern data. But using their own tools. Exactly. They access it through different analytical compute engines depending on their specific needs.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Original discussion excerpt",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C08.mp4",
+      "storyboard": "storyboards/C08/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C09",
@@ -6436,15 +6460,18 @@
       "transcript_asr": "Well, shortcuts are a response to the nightmare of data duplication, which is a huge problem. Massive. In legacy architectures, if the machine learning team needed the sales data for a forecasting model and the finance team needed it for a quarterly report, the data engineers would literally copy the data into two different databases. And then they get out of sync. Within months. One database updates differently than the other, and you completely lose your single source of truth. Supported shortcuts in OneLake allow different workspaces to reference data that physically live somewhere else, even in external cloud providers like AWS or Google Cloud.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Illustrative scenario",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C09.mp4",
+      "storyboard": "storyboards/C09/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C10",
@@ -7189,8 +7216,8 @@
       "transcript_asr": "which naturally raises the question is Fabric IQ, which is the specific service where this ontology feature lives. Just another database we have to maintain. That is the most persistent misconception we see and we really have to clear it up immediately. Fabric IQ is emphatically not a database. Okay, so it doesn't store data? It does not store your transactional data. Fabric IQ organizes the business context that hovers over the data you already have. If it doesn't hold data, what is it holding? Think of it as a semantic translation layer. Power BI provides your curated analytics and visuals. Your Lakehouse provides the raw storage, but the ontology living inside Fabric IQ defines the actual concepts and connections.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Original discussion excerpt",
@@ -7209,7 +7236,10 @@
         }
       ],
       "caption_join_review": [],
-      "boundary_note": "Post-context ASR review: remove preceding sentence tail, or retain the full opening syllable."
+      "boundary_note": "Post-context ASR review: remove preceding sentence tail, or retain the full opening syllable.",
+      "export": "exports/C10.mp4",
+      "storyboard": "storyboards/C10/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C11",
@@ -7695,15 +7725,18 @@
       "transcript_asr": "Let's break down the primary components. Okay. The absolute foundation is an entity type. So an entity type is the broad conceptual category. In the retail scenario from the source, store would be an entity type or product. Correct. It is the template. Then you have an instance. An instance is one specific physical real -world manifestation of that entity type. So store number 402, located in downtown Seattle, is an instance of the store entity.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Illustrative scenario",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C11.mp4",
+      "storyboard": "storyboards/C11/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C12",
@@ -8322,8 +8355,8 @@
       "transcript_asr": "For our store entity, the properties might include the region it belongs to, its square footage, or its priority classification for the supply chain. And then we have to connect them. That brings us to relationships. Relationships define the verbs between the nouns. They explain how different entity types interact in the real world. Give me an example. You might define a relationship that states a store operates a refrigeration unit or a supplier ships a product. You are drawing explicit lines of meaning so the AI doesn't have to guess how a supplier and a store are connected.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Illustrative scenario",
@@ -8331,7 +8364,10 @@
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
       "caption_join_review": [],
-      "boundary_note": "Post-context ASR review: remove preceding sentence tail, or retain the full opening syllable."
+      "boundary_note": "Post-context ASR review: remove preceding sentence tail, or retain the full opening syllable.",
+      "export": "exports/C12.mp4",
+      "storyboard": "storyboards/C12/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C13",
@@ -8764,8 +8800,8 @@
       "transcript_asr": "Data bindings are perhaps the most critical mechanical component. This is the wiring that connects these abstract high -level concepts back to the physical source fields in your actual databases. Okay, so it points to the database. It's the mapping that tells the ontology, hey, when the user asks about a region, do not hallucinate an answer, go look specifically at column F in this exact Lakehouse table.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Illustrative scenario",
@@ -8773,7 +8809,10 @@
       "boundary_note": "Retain the complete lakehouse-table phrase; full-file ASR dropped words at its decoder boundary.",
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C13.mp4",
+      "storyboard": "storyboards/C13/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C14",
@@ -9338,8 +9377,8 @@
       "transcript_asr": "But if you are a global enterprise, you are dealing with thousands of concepts. You can't just have all these entities thrown into one massive bucket, it would be chaos. Total chaos. Which is why the system relies heavily on namespaces and inheritance. Namespaces act as organizational boundaries or scopes for your definitions. So the HR department's definition of a contract, which might mean an employment agreement, doesn't collide and override the sales department's definition of a contract, which means a customer purchase agreement. Exactly. Namespaces prevent those semantic collisions,",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Illustrative scenario",
@@ -9347,7 +9386,10 @@
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
       "caption_join_review": [],
-      "boundary_note": "Post-context ASR review: remove preceding sentence tail, or retain the full opening syllable."
+      "boundary_note": "Post-context ASR review: remove preceding sentence tail, or retain the full opening syllable.",
+      "export": "exports/C14.mp4",
+      "storyboard": "storyboards/C14/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C15",
@@ -9972,15 +10014,18 @@
       "transcript_asr": "Break down how that inheritance actually looks in practice for us. Sure. In the Lakeshore Retail example provided in the source, they start with a very broad base type called location. A location simply has properties like an address, geographic coordinates, and a manager name. You can then create a store entity that derives from location. So it inherits all that base stuff. The store automatically inherits the address and coordinates, but then you add store specific properties, like retail square footage. Similarly, you could have a base entity called product and derive a highly specific entity called frozen product.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Illustrative scenario",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C15.mp4",
+      "storyboard": "storyboards/C15/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C16",
@@ -10155,15 +10200,18 @@
       "transcript_asr": "a derived type does not automatically inherit the physical data bindings of its parent. It needs its own specific data bindings mapped to the tables.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Preview context \u00b7 Oct 2026",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C16.mp4",
+      "storyboard": "storyboards/C16/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C17",
@@ -10536,15 +10584,18 @@
       "transcript_asr": "Ordinary relationships are not automatically inherited from the parent. Wait, really? So if I spend an hour defining that a base product has a complex relationship to a supplier database, my newly created frozen product doesn't just automatically inherit that supplier relationship? Not currently. No, you have to explicitly redefine or map that relationship for the derived type.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Preview context \u00b7 Oct 2026",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C17.mp4",
+      "storyboard": "storyboards/C17/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C18",
@@ -11481,15 +11532,18 @@
       "transcript_asr": "The current agent does not automatically traverse downward to include every derived instance when you query a broad parent type. Why does that matter in a real -world query? Walk me through a scenario. Let's say a regional manager is running a diagnostic on everything in their supply chain that might spoil. They sit down at the chat interface and ask the agent to analyze inventory risk for all product. Just general products. Right. Because of this preview limitation, the agent might only query the base product entity and completely fail to roll up the derived frozen product instances into that analysis. Oh, wow. So the manager thinks they are looking at a comprehensive report, but the AI just silently ignored half a million dollars worth of melting ice cream because the human didn't specifically say the word frozen. Precisely. You have to specifically name the relevant derived type in your prompt.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Illustrative scenario",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C18.mp4",
+      "storyboard": "storyboards/C18/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C19",
@@ -12012,15 +12066,18 @@
       "transcript_asr": "The system is designed so you can generate a significant portion of your ontology directly from an existing power BI semantic model. That makes total sense because a semantic model already is a form of an ontology. It has the tables, the relationships, the business logic. How seamless is that translation process? The ontology agent essentially ingests the structure you've already built. The tables, columns, and established relationships in your Power BI model automatically provide the scaffolding for the ontologies, entities, and properties.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Original discussion excerpt",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C19.mp4",
+      "storyboard": "storyboards/C19/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C20",
@@ -13209,15 +13266,18 @@
       "transcript_asr": "You rarely have just one perfect semantic model. You have dozens. That's true. Marketing has a semantic model, sales has a semantic model, finance has one, and they all have a concept called customer. Yes, the classic overlap. If I use the agent to ingest all three of these models into one master ontology, how does it reconcile the fact that marketing defines a customer as anyone who gave us an email address? Well, finance defines a customer as someone who has actively paid an invoice in the last 90 days. That is exactly where the automated generation process stops and human governance must take over. So the AI doesn't just fix it? No. The ontology Agent is a powerful assistant. It will help you bring multiple semantic models into a shared space, and it will flag those overlapping concepts. It will propose ways to reconcile them, but it is not an arbiter of corporate policy. A human domain expert still has to sit down, review the proposed entity keys, check the relationships, explicitly decide how to handle that naming collision, usually by utilizing namespaces or creating distinct marketing customer and finance customer entities.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Illustrative scenario",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C20.mp4",
+      "storyboard": "storyboards/C20/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C21",
@@ -13758,15 +13818,18 @@
       "transcript_asr": "The ontology operates entirely by reference. The metric you see in the ontology simply acts as a pointer back to that original source model. If the CFO changes the definition of profit, your data engineers edit the DAX expression in the Power BI semantic model, just as they always have. The ontology's role is simply to provide a natural language description and contextual metadata so the AI agents understand what that metric represents and when to use it without ever altering or copying the source math.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Illustrative scenario",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C21.mp4",
+      "storyboard": "storyboards/C21/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C22",
@@ -13995,15 +14058,18 @@
       "transcript_asr": "To generate an ontology from a semantic model, or to even ask an AI agent a question that utilizes that metric, the user needs read and build permissions on the underlying Power BI model.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Original discussion excerpt",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C22.mp4",
+      "storyboard": "storyboards/C22/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C23",
@@ -15180,15 +15246,18 @@
       "transcript_asr": "A relational database might have a column named priority level, filled with the numbers one, two, and three. The schema knows it's an integer, but the schema has absolutely no idea what makes a one strategically different from a three in the real world. Which brings us to the most human element of this entire process, which is adding the metadata and the business roles. Right. This is where you inject the tacit tribal knowledge that actually determines how a business question is answered. It's like leaving highly detailed sticky notes all over a complex shared spreadsheet. So the next analyst who opens it doesn't accidentally delete the company's revenue projections because they didn't understand what a column meant. That is the exact mechanism. You have to manually codify the context that the schema simply cannot possess. Give me some real world examples of that. Well, in our retail operation scenario, this means explicitly writing out the definition of what constitutes a priority store. Is it based on square footage, total revenue, proximity to a distribution center, you have to define it. Right, because priority is totally subjective until you define it.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Illustrative scenario",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C23.mp4",
+      "storyboard": "storyboards/C23/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C24",
@@ -15723,8 +15792,8 @@
       "transcript_asr": "Because if the AI assumes the temperature is Fahrenheit, but the freezer is actually reporting in Celsius. Well, a freezer reporting a steady 10 degrees Celsius is 50 degrees Fahrenheit. Oh boy. Your entire inventory of frozen goods is currently liquid. But the AI, if left to assume Fahrenheit by default, might look at the number 10, think, oh, that is well below freezing and report back that everything is perfectly fine. Wow. That single missing piece of metadata, one word, entirely invalidates the analysis.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Illustrative scenario",
@@ -15733,7 +15802,10 @@
       ],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C24.mp4",
+      "storyboard": "storyboards/C24/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C25",
@@ -16051,15 +16123,18 @@
       "transcript_asr": "You can also define extensive lists of synonyms for entity types. Why synonyms? If corporate formally calls it a retail location, but the regional managers always ask the chat about the shops, you define shop as a synonym so the AI knows they mean the exact same entity.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Illustrative scenario",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C25.mp4",
+      "storyboard": "storyboards/C25/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C26",
@@ -16528,15 +16603,18 @@
       "transcript_asr": "Does the AI help with this part at all? The built -in ontology agent can assist here. It can inspect supported workspace sources, look at the column names, sample a few rows of actual data, and propose a draft model with descriptions. You can even upload an existing corporate data dictionary as grounding context for the agent. But again, a human has to check it. A human domain expert must meticulously review those proposals.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Original discussion excerpt",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C26.mp4",
+      "storyboard": "storyboards/C26/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C27",
@@ -17251,8 +17329,8 @@
       "transcript_asr": "In the ontology interface, you can document inventory risk as a specific multivariable condition. You write out that risk occurs when a product's position is expected to fall below its required historical buffer before the next scheduled replenishment arrives. Okay, so you type out that logic in natural language. Then what happens? Does the AI just magically know how to execute that? No, writing it is just the first step. Then you explicitly Mathematically link that written rule to both the store entity and the inventory entity in your model. What is linking it? Actually do by forging that link you make the rule discoverable to any downstream AI agent consuming the ontology. So when",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Original discussion excerpt",
@@ -17260,7 +17338,10 @@
       "boundary_note": "Post-context ASR review: remove preceding sentence tail, or retain the full opening syllable.",
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C27.mp4",
+      "storyboard": "storyboards/C27/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C28",
@@ -17693,15 +17774,18 @@
       "transcript_asr": "Writing the rule supplies the strategic context. Now, it is important to note that how that rule is actually executed, the specific database queries, the AI rights, to go fetch that data and test the condition, is handled by the query engines under the hood, which we need to discuss next. But the ontology is where the rule is permanently documented, linked, and standardized for the whole company.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Original discussion excerpt",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C28.mp4",
+      "storyboard": "storyboards/C28/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C29",
@@ -18488,8 +18572,8 @@
       "transcript_asr": "When a data engineer sets up these bindings, what kind of systems are they actually reaching into? According to the source documentation, the bindings and Fabric ontologies can point to a surprisingly wide variety of data architectures. Like what? You can bind to lake houses, which are typically used to store massive amounts of operational reference data, historical inventory records, and shipment logs in open formats. OK. You can bind to event houses or KQL databases, which are specifically architected to handle high volume real -time streaming telemetry. Streaming like IoT devices. Exactly, like the second -by -second temperature readings from thousands of refrigeration units. You can point to traditional relational data warehouses, standard SQL databases, externally mirror databases, and as we discussed, power BI semantic models.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Original discussion excerpt",
@@ -18502,7 +18586,10 @@
           "reason": "technical-name orthography, not an audio change"
         }
       ],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C29.mp4",
+      "storyboard": "storyboards/C29/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C30",
@@ -19307,15 +19394,18 @@
       "transcript_asr": "I'm a manager. I open the chat interface and I ask a highly complex question. I need an answer that requires checking physical inventory in the Lakehouse, cross -referencing current temperature telemetry in the Eventhouse, and calculating the financial impact using the DAX math in the semantic model. That's a huge request. Right. Does the system extract all that data from those three sources, pull it into some massive new temporary database and run the query there? No, and understanding this is profound for anyone evaluating the cost and performance of this system. The ontology supplies the definitions and the mappings. It acts as the routing intelligence. But when a consuming experience, like a chat interface, actually formulates the query, it executes that query against the appropriate native underlying engine.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Original discussion excerpt",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C30.mp4",
+      "storyboard": "storyboards/C30/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C31",
@@ -20450,8 +20540,8 @@
       "transcript_asr": "Data freshness depends entirely on the execution path. Because the AI doesn't know it's comparing apples to last week's oranges. Exactly. If the agent executes a direct query against a streaming KQL Eventhouse, that temperature data might literally be millisecond's old. Super fresh. But if it's simultaneously querying an imported Power BI model for the sales figures, those sales figures are only as fresh as the last time that specific Power BI model was scheduled to refresh. So if a job fails. If your scheduled refresh failed overnight, your data is 24 hours out of date. So a non -technical executive might look at the chat window, see an answer that looks completely uniform, highly confident, and beautifully formatted and have absolutely no idea that half the data informing that sentence is real time and half is a week old. That's scary. They might make a massive operational decision based on a temporal misalignment. This is why you cannot blindly trust the conversational output in the chat interface. You or your engineering team must rigorously check the source ingestion timestamps and verify the reporting periods.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Illustrative scenario",
@@ -20465,7 +20555,10 @@
         }
       ],
       "caption_join_review": [],
-      "boundary_note": "Post-context ASR review: remove preceding sentence tail, or retain the full opening syllable."
+      "boundary_note": "Post-context ASR review: remove preceding sentence tail, or retain the full opening syllable.",
+      "export": "exports/C31.mp4",
+      "storyboard": "storyboards/C31/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C32",
@@ -21882,8 +21975,8 @@
       "transcript_asr": "The engineer opens the ontology agent and ensures they are in plan mode. Like a draft mode. They prompt the agent with specific instructions. Add a sale entity using the sales table in the sales report semantic model located in this specific workspace. Okay, very specific. They then ask the agent to preview the proposed definition, show exactly how it mapped the data bindings and explain the source evidence it used to make those decisions, all while keeping the rest of the live ontology completely untouched. So Plan Mode operates as a secure sandbox. Exactly. It is a critical enterprise safety feature. Plan Mode allows you to discover, draft, validate, query, and inspect massive structural changes without actually altering the live production ontology that the rest of the company is currently using. You can test it out first. You can see the draft entity appear on the visual canvas, check how it mapped the primary and foreign keys, and run validation checks. If you realize the AI agent picked the wrong column for the primary key or completely missed a crucial relationship, you can ask for revisions right there in the sandbox, or manually adjust it yourself. And when you are finally satisfied that the logic holds up. Then and only then do you deliberately switch the interface to ACT mode to apply the reviewed proposal, merging it into the live model.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Original discussion excerpt",
@@ -21892,7 +21985,10 @@
       ],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C32.mp4",
+      "storyboard": "storyboards/C32/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C33",
@@ -22919,8 +23015,8 @@
       "transcript_asr": "Before you make any meaningful change to your production model, you create a named saved version of your current ontology state. Version history allows you to restore that saved definition if things go sideways. So it's not a surgical rollback where I just undo the last five minutes of work? No, and that's a crucial limitation to understand. A restore replaces the definition as a whole, it overwrites everything currently in the system with the exact state of the past version. So if your team spent four hours making great updates, and then someone makes one catastrophic mistake in hour five, rolling back to yesterday's version wipes out all the good work from those first four hours too. That's brutal. Best practice dictates that you must save a version of your current broken state before you restore the old one, just in case you need to salvage a piece of the new logic later. It's an effective safety net, but it requires really disciplined version control habits.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Ontology definition only",
@@ -22928,7 +23024,10 @@
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
       "caption_join_review": [],
-      "boundary_note": "Post-context ASR review: remove preceding sentence tail, or retain the full opening syllable."
+      "boundary_note": "Post-context ASR review: remove preceding sentence tail, or retain the full opening syllable.",
+      "export": "exports/C33.mp4",
+      "storyboard": "storyboards/C33/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C34",
@@ -23115,15 +23214,18 @@
       "transcript_asr": "The prompt is review priority stores in the West region for frozen product inventory risk. Include recent refrigeration exceptions, shelf availability, and the next expected inbound delivery.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Recorded question \u00b7 illustrative retail scenario",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C34.mp4",
+      "storyboard": "storyboards/C34/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C35",
@@ -24024,15 +24126,18 @@
       "transcript_asr": "The operator still has to check the receipts. They have to audit the machine's logic. Precisely. The human operator must aggressively verify if the agent actually used the approved business definitions. Did it apply the correct mathematical inventory risk role or did it hallucinate a simpler one? Did it even check the right databases? Did it push the queries down to the intended authoritative sources? And crucially, if there was a gap in the source data, let's say a store's freezer sensor lost power and went completely offline, so there's zero telemetry for the last six hours, the agent must make that gap explicitly visible to the operator. It can't just smooth it over. It cannot just silently ignore that store, and it certainly cannot invent a temperature value to make the table look neat. The answer must be something a human can rigorously mathematically check.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Illustrative scenario",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C35.mp4",
+      "storyboard": "storyboards/C35/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C36",
@@ -24741,15 +24846,18 @@
       "transcript_asr": "In the source demo, the expert demonstrates the best practice, explicitly asking the agent to show its work. Like in math class. Exactly. They prompt the agent to use the governed revenue metric located in the sales report semantic model, summarize it by store for a specific time period, explicitly identify the source measure it used, and actually display the underlying query code it executed. So you force the chat interface to show you the exact DAX or SQL code it wrote. Yes. This gives the operator a tangible mathematical calculation. The operator can then take that DAX code and compare it against their traditional legacy power BI dashboard using the exact same filters.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Original discussion excerpt",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C36.mp4",
+      "storyboard": "storyboards/C36/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C37",
@@ -25020,15 +25128,18 @@
       "transcript_asr": "The agent's chat interface might only display a bounded set of results, say a table of the top 10 rows. A return to table in a chat window is not automatically a complete export of every matching record in the database.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Original discussion excerpt",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C37.mp4",
+      "storyboard": "storyboards/C37/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C38",
@@ -25293,15 +25404,18 @@
       "transcript_asr": "Right. The built in ontology agent does not operate with some omnipotent master key. It uses the signed in users specific identity. It operates strictly within the boundaries of that user's existing preconfigured access rights to the underlying source databases.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Interactive agent \u00b7 signed-in user",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C38.mp4",
+      "storyboard": "storyboards/C38/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C39",
@@ -26532,8 +26646,8 @@
       "transcript_asr": "Let's say I am the lead data engineer. I built this ontology, so I have administrative access to everything. I ask it about revenue and inventory across the entire global company, and it gives me a comprehensive answer. Now, I share that exact same Fabric ontology file with a regional manager who only handles the West Coast. If the West Coast Regional Manager logs in and asks the exact same verbatim question, show me all global revenue and inventory risk, the agent will only return data for the West Coast. When it really, even with the same prompt. Yes. Because when the AI attempts to execute the SQL query against the underlying Lakehouse, the database recognizes the manager's identity and enforces row -level security, blocking access to the East Coast data. That is so smart. The source documentation is explicit on this point. Sharing an ontology with a user does not magically bypass workspace item permissions or database security. So an engineer successfully querying a source during testing does not guarantee that an end user will see the same results. Exactly. You have to validate the entire workflow using actual end user test identities, not just the developer's God Mode account.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Example: source RLS configured",
@@ -26546,7 +26660,10 @@
           "reason": "technical-name orthography, not an audio change"
         }
       ],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C39.mp4",
+      "storyboard": "storyboards/C39/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C40",
@@ -27267,8 +27384,8 @@
       "transcript_asr": "How do we predict tomorrow's inventory risk? Does the ontology agent just guess? The source material draws a very sharp, deliberate line here regarding predictive analytics. Forecasting is treated as a separate, highly rigorous analytical discipline. It's not just a chat function. You don't just ask the generative AI chat to guess what sales will look like next week based on vibes or its training data. Forecasting is explicitly handled via Fabric data science. So we are talking about actual machine learning engineers, building notebooks, running experiments, and scoring dedicated models. Yes. A data scientist defines the target variable, sets the time horizon, selects the inputs, and chooses the statistical methodology inside a data science notebook.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Original discussion excerpt",
@@ -27281,7 +27398,10 @@
           "reason": "technical-name orthography, not an audio change"
         }
       ],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C40.mp4",
+      "storyboard": "storyboards/C40/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C41",
@@ -27906,15 +28026,18 @@
       "transcript_asr": "before you ever display the output of a predictive model in a business review, you must explicitly evaluate and display the historical statistical uncertainty of that model. So you have to show its track record. You have to show the operator the model's past accuracy. Have these forecasts historically suffered from model drift? Is there bias in the legacy data? you must give the human operator the statistical basis for deciding whether they should actually trust this prediction enough to route a hundred thousand dollar delivery truck based on it. You never present a probabilistic forecast as a deterministic fact.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Illustrative scenario",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C41.mp4",
+      "storyboard": "storyboards/C41/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C42",
@@ -28395,15 +28518,18 @@
       "transcript_asr": "Let's say a specific agricultural supplier calls you in a panic and informs you that a massive batch of raw ingredients was contaminated. Ooh, a recall situation. Right. You need to instantly trace that supplier's exposure through your entire global supply chain. Which specific intermediate products contain that batch, which exact multimodal shipments carried those products, which which specific retail stores received those shipments and which exact refrigeration units are currently holding them on the floor.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Illustrative scenario",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C42.mp4",
+      "storyboard": "storyboards/C42/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C43",
@@ -28782,8 +28908,8 @@
       "transcript_asr": "It also absolutely requires entity keys to be perfectly defined, and crucially, this is a massive limitation for a financial analysis. It currently excludes semantic model bound entities. Wait, so if my net profit metric is calculated via DAX, inside a Power BI semantic model, I cannot include that metric in the graph traversal not at this time No,",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Preview context \u00b7 Oct 2026",
@@ -28792,7 +28918,10 @@
       ],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C43.mp4",
+      "storyboard": "storyboards/C43/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C44",
@@ -29291,15 +29420,18 @@
       "transcript_asr": "So to clarify the architecture in my head, the beautiful visual canvas diagram of concepts we built in the ontology interface, and the physical materialized graph database sitting in OneLake are doing two completely different jobs. Precisely. The visual diagram is the conceptual map of meaning for the AI. The materialized graph is a specialized physical execution path for deep relationship questions. And the routing intelligence chooses the path based on this specific structure of the question being asked.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Original discussion excerpt",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C44.mp4",
+      "storyboard": "storyboards/C44/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C45",
@@ -29744,15 +29876,18 @@
       "transcript_asr": "The Fabric Data Agent is designed for the end -user. It provides the conversational analytics experience where a regional manager might sit down and ask everyday business questions about the data, utilizing the logic defined by the ontology. And third, the Operations Agent. The Operations Agent serves a completely different paradigm. Its job is not to answer questions, but to passively monitor a defined business process and recommend proactive responses.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Roles vary by supported integration",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C45.mp4",
+      "storyboard": "storyboards/C45/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C46",
@@ -30725,8 +30860,8 @@
       "transcript_asr": "MCP stands for Model Context Protocol. Fabric provides an API endpoint, so enterprise developers can connect their own compatible external AI clients or custom applications to the ontology. It tells useful. However, the current guidance notes a severe limitation. Service principal access is currently unavailable for this endpoint. Explain that for the non -developers. What is a service principal? A service principal is basically a machine identity. It's a non -human service account you use, so a backend server or an automated script can talk to an API securely without needing a human being to physically type in a username and password. Oh, so you can automate it? Right. But because service principal access is missing in this preview, you currently have to authenticate as a real human user. You cannot easily set up a fully automated unattended machine to machine integration. That drastically limits how you can integrate this ontology into automated backend enterprise systems right now.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Preview context \u00b7 Oct 2026",
@@ -30754,7 +30889,10 @@
           "reason": "service principal spelling"
         }
       ],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C46.mp4",
+      "storyboard": "storyboards/C46/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C47",
@@ -31499,15 +31637,18 @@
       "transcript_asr": "If you want to set up operational monitoring, the logical conditions you can set are currently quite primitive. The documentation notes that it struggles with combined and conditions and it struggles with aggregations. So I can't build a monitor that says alert me of the temperature drops and the store is priority and the total aggregated revenue is over $10 ,000. In the current preview, stringing complex, multi -variable logic like that into a passive monitor is highly problematic and likely to fail. You have to keep the monitoring conditions very simple and isolated. Furthermore, the operational agent operates on a fixed five -minute cycle. It is not sub -second real time. It only checks the condition every five minutes.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Preview context \u00b7 Oct 2026",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C47.mp4",
+      "storyboard": "storyboards/C47/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C48",
@@ -32240,8 +32381,8 @@
       "transcript_asr": "What about Activator? Fabric has a dedicated tool called data Activator specifically for triggering actions based on data changes. If I write a natural language business rule in my ontology interface, does that automatically provision an Activator alert in the background? No, it absolutely does not. And that's a massive point of confusion for new users. Saving a natural language role in the ontology provides semantic context for the chat agents. It does not automatically write the code to provision an active running workflow in data Activator. So they are separate steps. If you want an alert to actually fire, a data engineer has to go into Activator and configure that automation separately against the supported data path.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Original discussion excerpt",
@@ -32274,7 +32415,10 @@
           "reason": "technical-name orthography, not an audio change"
         }
       ],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C48.mp4",
+      "storyboard": "storyboards/C48/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C49",
@@ -33091,8 +33235,8 @@
       "transcript_asr": "The source talks about using the Fabric IQ plugin in co -pilot co -work. Yes and notably this specific co -pilot feature is documented as generally available unlike the ontology feature which is in preview. Oh that's good. Co -pilot co -work allows an analyst to ground their AI conversations in specific Power BI reports and their underlying semantic models to quickly draft things like leadership reviews, executive summaries, or operational emails. So I can tell co -pilot draft a one -page regional review based on the findings in this specific sales report. But of course, there is a massive caveat noted. A very dangerous caveat. First, co -pilot co -work does not currently ground directly on the ontology items themselves. You have to point it specifically at the Power BI report.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Preview context \u00b7 Oct 2026",
@@ -33105,7 +33249,10 @@
           "reason": "technical-name orthography, not an audio change"
         }
       ],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C49.mp4",
+      "storyboard": "storyboards/C49/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C50",
@@ -33958,15 +34105,18 @@
       "transcript_asr": "First, co -pilot co -work does not currently ground directly on the ontology items themselves. You have to point it specifically at the Power BI report. Second, and much more dangerously, when it generates a data answer in the text, it does not currently include report citations in its output. Oh, that is a recipe for disaster in a boardroom. It is extremely dangerous. When the AI drafts a beautifully formatted summary and boldly states revenue was up 15 % in the West Region, it does not provide a footnote or hyperlink showing exactly which table or metric it used to calculate that 15%. So it could just be making it up. Therefore, the source script is adamant. The human operator must manually verify every single generated number against the source report before they ever distribute that document.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Illustrative scenario",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C50.mp4",
+      "storyboard": "storyboards/C50/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C51",
@@ -34531,15 +34681,18 @@
       "transcript_asr": "the source mentions a maximum conversation lifetime of 24 hours. Yes. The built -in ontology agent's conversation history only lasts within your current browser session. Wait, really? If you refresh the page, close the browser tab or hit the 24 hour mark, that entire conversational history is permanently gone. So under no circumstances should a team use the chat window as their permanent knowledge repository or decision log? Absolutely not. The chat is strictly an ephemeral scratch pad. The durable, permanent knowledge must be saved in the ontology definitions themselves,",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Preview context \u00b7 Oct 2026",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C51.mp4",
+      "storyboard": "storyboards/C51/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C52",
@@ -35242,15 +35395,18 @@
       "transcript_asr": "The preview does support importing existing definitions using standard semantic web formats like Turtle, RDF, and O -W -L. Briefly, what are those? Those are essentially the legacy standard coding languages that researchers and data scientists have used for years to write out these kinds of complex knowledge webs, originally designed for the semantic web. So you can just import them. However, the Microsoft documentation explicitly warns that some elements might be adjusted, modified, or entirely skipped during the import process. Full lossless translation of complex OWL behaviors is not promised. You have to check it. You have to thoroughly and manually review the import results to ensure your logic survived the translation.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Original discussion excerpt",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C52.mp4",
+      "storyboard": "storyboards/C52/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C53",
@@ -35701,15 +35857,18 @@
       "transcript_asr": "Microsoft has established a hard retirement date for the old ontology experience. January 31st, 2027. That's a hard deadline. Moving to the new experience creates a completely separate new item in the workspace. This means data engineering teams will have to manually reconnect all their downstream consumers, rewrite their routing rules, and re -establish their automations. It's a hard migration cut over, and teams need to plan resources for it now.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Preview context \u00b7 Oct 2026",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C53.mp4",
+      "storyboard": "storyboards/C53/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C54",
@@ -36568,15 +36727,18 @@
       "transcript_asr": "Do not borrow percentage improvement benchmarks from other vendors, and do not even borrow benchmarks from other workflows within your own company. You have to test this system against your own current manual process for a highly specific decision. How do you structure that measurement? You start with a representative business question where you already definitively know the correct answer. You test whether the new AI workflow selects the right concepts, uses the right DAX calculations, strictly respects user access permissions, and returns evidence that a human operator can actually verify. And then you time it. Then you strictly time how long that entire process takes, compared to how long your human analysts take today. And crucially, you must include the time it takes the human operator to rigorously review and correct the AI's output in your final calculation.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Original discussion excerpt",
       "review_flags": [],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C54.mp4",
+      "storyboard": "storyboards/C54/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C55",
@@ -37939,8 +38101,8 @@
       "transcript_asr": "The billing specifics in the preview are fascinating and require extreme caution. Currently what Microsoft categorizes as the discovery and AI reasoning phases, the part where the LLM reads your prompt and figures out what you want, are non -billable during the preview phase. No, that sounds great. Free AI reasoning. But, and this is a massive trap for the unwary, the child operations that the AI triggers and the underlying OneLake storage compute it utilizes to formulate those answers can and will incur standard Fabric capacity charges. Walk me through how that traps springs. Imagine you have a non -technical manager who asks the chat interface a slightly vague massive question about five years of historical inventory across the entire globe. The AI reasoning to understand the question is free. But to answer it, the AI might quietly write a highly inefficient brute force SQL query that scans petabytes of data across your OneLake. It pushes that massive compute job down to the warehouse. And you pay for that compute. Suddenly, you aren't paying for the chat interaction. You are paying for an absolutely massive compute spike on your Fabric capacity bill, because the AI decided to brute force the answer. The source strongly recommends using the Fabric capacity metrics app to monitor this underlying compute consumption closely during any pilot program.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Preview billing \u00b7 Oct 2026",
@@ -37968,7 +38130,10 @@
           "reason": "technical-name orthography, not an audio change"
         }
       ],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C55.mp4",
+      "storyboard": "storyboards/C55/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C56",
@@ -38683,8 +38848,8 @@
       "transcript_asr": "Start incredibly small. Pick one single team, and one recurring high -value decision. The regional inventory review we discussed is a perfect example. Keep it contained. Connect only the specific data sources needed for that one decision. Define the handful of concepts that actually change the answer. And most importantly, aggressively test ambiguous requests and missing data scenarios to see exactly how the system fails under pressure. Do not try to boil the ocean and map the entire corporation's semantic logic on day one. Exactly. You only expand the scope when that first team can complete their workflow with dependably accurate answers, a highly manageable human review burden, and a fully understood, predictable operating cost.",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Original discussion excerpt",
@@ -38696,7 +38861,10 @@
           "at": 20.0,
           "review": "word windows overlap slightly"
         }
-      ]
+      ],
+      "export": "exports/C56.mp4",
+      "storyboard": "storyboards/C56/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     },
     {
       "id": "C57",
@@ -39195,8 +39363,8 @@
       "transcript_asr": "What happens during a major corporate merger? Oh, wow. When two massive global companies combine, is the future of M &A less about merging finances and entirely about whether their respective AI ontologies can successfully negotiate a shared reality? If company A's ontology defines risk or revenue in a way that fundamentally clashes with company B's ontology at a mathematical level, can the merger ever truly succeed without completely rewriting the central nervous system of one of the companies?",
       "source_kind": "actual uploaded recording; continuous audio excerpt",
       "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-      "status": "planned",
-      "publish_status": "draft for review",
+      "status": "rendered draft",
+      "publish_status": "not published",
       "narration_replaced": false,
       "actual_timestamps": true,
       "context_label": "Thought experiment",
@@ -39205,7 +39373,10 @@
       ],
       "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
       "caption_corrections": [],
-      "caption_join_review": []
+      "caption_join_review": [],
+      "export": "exports/C57.mp4",
+      "storyboard": "storyboards/C57/storyboard.json",
+      "caption_status": "Word-timed ASR draft; human proofreading pending"
     }
   ]
 }

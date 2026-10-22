@@ -1,10 +1,15 @@
 {
-  "drafts": 39,
-  "unique_provisional_takeaways": 38,
+  "script_drafts": 39,
+  "unique_provisional_script_takeaways": 38,
   "verbatim_script_passages": "match cited lines",
-  "actual_recording_timestamps": "all null as required",
-  "actual_recording_reviewed": false,
-  "actual_recording_videos_rendered": 0,
+  "script_draft_recording_timestamps": "all null; these remain separate from actual recording clips",
   "json_files": "parse successfully",
-  "missing_source": "M4A exceeds 32 MiB download limit"
+  "current_recording": {
+    "source_seconds": 3750.208435,
+    "selected_clips": 57,
+    "rendered_clips": 57,
+    "full_decode_checks": 57,
+    "access_blocker_resolved": true,
+    "review_status": "ASR transcript and technical claims remain review drafts"
+  }
 }

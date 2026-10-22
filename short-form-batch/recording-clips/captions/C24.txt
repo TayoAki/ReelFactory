@@ -1,0 +1,5 @@
+Temperature units change the interpretation
+Original recording 24:11–24:39
+ASR draft; technical-name spelling normalized.
+
+Because if the AI assumes the temperature is Fahrenheit, but the freezer is actually reporting in Celsius. Well, a freezer reporting a steady 10 degrees Celsius is 50 degrees Fahrenheit. Oh boy. Your entire inventory of frozen goods is currently liquid. But the AI, if left to assume Fahrenheit by default, might look at the number 10, think, oh, that is well below freezing and report back that everything is perfectly fine. Wow. That single missing piece of metadata, one word, entirely invalidates the analysis.

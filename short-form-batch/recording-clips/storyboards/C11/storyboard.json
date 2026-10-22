@@ -44,5 +44,33 @@
   "source_start": 741.74,
   "source_end": 771.9909749999999,
   "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion.",
+  "caption_status": "Word-timed ASR draft; human proofreading pending",
+  "line_shot_edit": [
+    {
+      "LINE": "Let's break down the primary components. Okay. The absolute foundation is an entity",
+      "SHOT": "Fixed fictional portrait rail + Store",
+      "EDIT": "Reveal independent card at 0.7s; 420ms fade, 16px eased settling"
+    },
+    {
+      "LINE": "the retail scenario from the source, store would be an entity type or product. Correct.",
+      "SHOT": "Fixed fictional portrait rail + Example store 402",
+      "EDIT": "Reveal independent card at 11.72s; 420ms fade, 16px eased settling"
+    }
+  ],
+  "viewer_understanding_before": "Store",
+  "viewer_understanding_after": "Type \u2192 instance",
+  "graphic_choice_reason": "Entity type versus instance: Keep the named concepts and their relationship visible.",
+  "credible_alternative": "An unlabeled network of nodes",
+  "why_alternative_rejected": "The lesson depends on named object kinds and a named relation, not generic connectivity.",
+  "cannot_establish": "This illustrative diagram cannot prove an actual product interaction, executed query, security guarantee or measured improvement.",
+  "reference_images_used_for_generation": [
+    "reference-library/frames/graphic/0003510.jpg",
+    "motion-pilot-fabric/fabric-theme/master.png",
+    "short-form-batch/recording-clips/assets/host.png",
+    "short-form-batch/recording-clips/assets/guest.png"
+  ],
+  "source_library_semantic_match": "Original reference supplies visual grammar; exact subject relationships are adapted from this recording. No claim of an exact reference-video semantic or motion match.",
+  "original_reference_url": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "review_status": "Draft; representative visual samples and artifact bounds checked, human editorial approval pending."
 }

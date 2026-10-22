@@ -1,0 +1,67 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:01.600
+The preview does support importing
+
+00:00:01.600 --> 00:00:03.660
+existing definitions using standard
+
+00:00:03.660 --> 00:00:06.220
+semantic web formats like Turtle, RDF,
+
+00:00:06.420 --> 00:00:07.180
+and O -W -L.
+
+00:00:07.439 --> 00:00:08.080
+Briefly, what are those?
+
+00:00:08.480 --> 00:00:09.880
+Those are essentially the legacy standard
+
+00:00:09.880 --> 00:00:11.720
+coding languages that researchers and
+
+00:00:11.720 --> 00:00:13.140
+data scientists have used for years
+
+00:00:13.140 --> 00:00:14.460
+to write out these kinds of
+
+00:00:14.460 --> 00:00:16.360
+complex knowledge webs, originally
+
+00:00:16.360 --> 00:00:17.860
+designed for the semantic web.
+
+00:00:18.100 --> 00:00:19.400
+So you can just import them.
+
+00:00:19.900 --> 00:00:21.320
+However, the Microsoft documentation
+
+00:00:21.320 --> 00:00:23.580
+explicitly warns that some elements
+
+00:00:23.580 --> 00:00:26.280
+might be adjusted, modified, or entirely
+
+00:00:26.280 --> 00:00:28.220
+skipped during the import process.
+
+00:00:28.720 --> 00:00:31.080
+Full lossless translation of complex
+
+00:00:31.080 --> 00:00:33.239
+OWL behaviors is not promised.
+
+00:00:33.519 --> 00:00:34.339
+You have to check it.
+
+00:00:34.340 --> 00:00:36.160
+You have to thoroughly and manually
+
+00:00:36.160 --> 00:00:37.879
+review the import results to ensure
+
+00:00:37.879 --> 00:00:39.579
+your logic survived the translation.

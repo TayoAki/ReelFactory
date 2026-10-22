@@ -1,0 +1,142 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.10,0:00:00.20,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}The{\c&H002A2B17&\b0} source talks\Nabout using the
+Dialogue: 0,0:00:00.20,0:00:00.35,Default,,0,0,0,,{\pos(540,1513)}The {\c&H00657811&\b1}source{\c&H002A2B17&\b0} talks\Nabout using the
+Dialogue: 0,0:00:00.35,0:00:00.66,Default,,0,0,0,,{\pos(540,1513)}The source {\c&H00657811&\b1}talks{\c&H002A2B17&\b0}\Nabout using the
+Dialogue: 0,0:00:00.66,0:00:00.96,Default,,0,0,0,,{\pos(540,1513)}The source talks\N{\c&H00657811&\b1}about{\c&H002A2B17&\b0} using the
+Dialogue: 0,0:00:00.96,0:00:01.22,Default,,0,0,0,,{\pos(540,1513)}The source talks\Nabout {\c&H00657811&\b1}using{\c&H002A2B17&\b0} the
+Dialogue: 0,0:00:01.22,0:00:01.42,Default,,0,0,0,,{\pos(540,1513)}The source talks\Nabout using {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:01.42,0:00:01.74,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Fabric{\c&H002A2B17&\b0} IQ plugin in co -pilot
+Dialogue: 0,0:00:01.74,0:00:02.08,Default,,0,0,0,,{\pos(540,1513)}Fabric {\c&H00657811&\b1}IQ{\c&H002A2B17&\b0} plugin in co -pilot
+Dialogue: 0,0:00:02.08,0:00:02.70,Default,,0,0,0,,{\pos(540,1513)}Fabric IQ {\c&H00657811&\b1}plugin{\c&H002A2B17&\b0} in co -pilot
+Dialogue: 0,0:00:02.70,0:00:03.20,Default,,0,0,0,,{\pos(540,1513)}Fabric IQ plugin {\c&H00657811&\b1}in{\c&H002A2B17&\b0} co -pilot
+Dialogue: 0,0:00:03.20,0:00:03.50,Default,,0,0,0,,{\pos(540,1513)}Fabric IQ plugin in {\c&H00657811&\b1}co{\c&H002A2B17&\b0} -pilot
+Dialogue: 0,0:00:03.50,0:00:03.88,Default,,0,0,0,,{\pos(540,1513)}Fabric IQ plugin in co {\c&H00657811&\b1}-pilot{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:03.88,0:00:04.13,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}co{\c&H002A2B17&\b0} -work. Yes\Nand notably this
+Dialogue: 0,0:00:04.13,0:00:04.84,Default,,0,0,0,,{\pos(540,1513)}co {\c&H00657811&\b1}-work.{\c&H002A2B17&\b0} Yes\Nand notably this
+Dialogue: 0,0:00:04.84,0:00:05.16,Default,,0,0,0,,{\pos(540,1513)}co -work. {\c&H00657811&\b1}Yes{\c&H002A2B17&\b0}\Nand notably this
+Dialogue: 0,0:00:05.16,0:00:05.40,Default,,0,0,0,,{\pos(540,1513)}co -work. Yes\N{\c&H00657811&\b1}and{\c&H002A2B17&\b0} notably this
+Dialogue: 0,0:00:05.40,0:00:05.70,Default,,0,0,0,,{\pos(540,1513)}co -work. Yes\Nand {\c&H00657811&\b1}notably{\c&H002A2B17&\b0} this
+Dialogue: 0,0:00:05.70,0:00:06.06,Default,,0,0,0,,{\pos(540,1513)}co -work. Yes\Nand notably {\c&H00657811&\b1}this{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:06.06,0:00:06.34,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}specific{\c&H002A2B17&\b0} co -pilot\Nfeature is documented
+Dialogue: 0,0:00:06.34,0:00:06.92,Default,,0,0,0,,{\pos(540,1513)}specific {\c&H00657811&\b1}co{\c&H002A2B17&\b0} -pilot\Nfeature is documented
+Dialogue: 0,0:00:06.92,0:00:07.19,Default,,0,0,0,,{\pos(540,1513)}specific co {\c&H00657811&\b1}-pilot{\c&H002A2B17&\b0}\Nfeature is documented
+Dialogue: 0,0:00:07.19,0:00:07.60,Default,,0,0,0,,{\pos(540,1513)}specific co -pilot\N{\c&H00657811&\b1}feature{\c&H002A2B17&\b0} is documented
+Dialogue: 0,0:00:07.60,0:00:07.82,Default,,0,0,0,,{\pos(540,1513)}specific co -pilot\Nfeature {\c&H00657811&\b1}is{\c&H002A2B17&\b0} documented
+Dialogue: 0,0:00:07.82,0:00:08.24,Default,,0,0,0,,{\pos(540,1513)}specific co -pilot\Nfeature is {\c&H00657811&\b1}documented{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:08.24,0:00:08.68,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}as{\c&H002A2B17&\b0} generally available\Nunlike the ontology
+Dialogue: 0,0:00:08.68,0:00:09.16,Default,,0,0,0,,{\pos(540,1513)}as {\c&H00657811&\b1}generally{\c&H002A2B17&\b0} available\Nunlike the ontology
+Dialogue: 0,0:00:09.16,0:00:09.60,Default,,0,0,0,,{\pos(540,1513)}as generally {\c&H00657811&\b1}available{\c&H002A2B17&\b0}\Nunlike the ontology
+Dialogue: 0,0:00:09.60,0:00:10.64,Default,,0,0,0,,{\pos(540,1513)}as generally available\N{\c&H00657811&\b1}unlike{\c&H002A2B17&\b0} the ontology
+Dialogue: 0,0:00:10.64,0:00:10.98,Default,,0,0,0,,{\pos(540,1513)}as generally available\Nunlike {\c&H00657811&\b1}the{\c&H002A2B17&\b0} ontology
+Dialogue: 0,0:00:10.98,0:00:11.34,Default,,0,0,0,,{\pos(540,1513)}as generally available\Nunlike the {\c&H00657811&\b1}ontology{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:11.34,0:00:11.80,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}feature{\c&H002A2B17&\b0} which is in preview.
+Dialogue: 0,0:00:11.80,0:00:12.06,Default,,0,0,0,,{\pos(540,1513)}feature {\c&H00657811&\b1}which{\c&H002A2B17&\b0} is in preview.
+Dialogue: 0,0:00:12.06,0:00:12.24,Default,,0,0,0,,{\pos(540,1513)}feature which {\c&H00657811&\b1}is{\c&H002A2B17&\b0} in preview.
+Dialogue: 0,0:00:12.24,0:00:12.32,Default,,0,0,0,,{\pos(540,1513)}feature which is {\c&H00657811&\b1}in{\c&H002A2B17&\b0} preview.
+Dialogue: 0,0:00:12.32,0:00:12.62,Default,,0,0,0,,{\pos(540,1513)}feature which is in {\c&H00657811&\b1}preview.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:12.86,0:00:12.92,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Oh{\c&H002A2B17&\b0} that's good.
+Dialogue: 0,0:00:12.92,0:00:13.18,Default,,0,0,0,,{\pos(540,1513)}Oh {\c&H00657811&\b1}that's{\c&H002A2B17&\b0} good.
+Dialogue: 0,0:00:13.18,0:00:13.46,Default,,0,0,0,,{\pos(540,1513)}Oh that's {\c&H00657811&\b1}good.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:13.70,0:00:13.92,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Co{\c&H002A2B17&\b0} -pilot co -work allows an
+Dialogue: 0,0:00:13.92,0:00:14.18,Default,,0,0,0,,{\pos(540,1513)}Co {\c&H00657811&\b1}-pilot{\c&H002A2B17&\b0} co -work allows an
+Dialogue: 0,0:00:14.18,0:00:14.38,Default,,0,0,0,,{\pos(540,1513)}Co -pilot {\c&H00657811&\b1}co{\c&H002A2B17&\b0} -work allows an
+Dialogue: 0,0:00:14.38,0:00:14.54,Default,,0,0,0,,{\pos(540,1513)}Co -pilot co {\c&H00657811&\b1}-work{\c&H002A2B17&\b0} allows an
+Dialogue: 0,0:00:14.54,0:00:14.82,Default,,0,0,0,,{\pos(540,1513)}Co -pilot co -work {\c&H00657811&\b1}allows{\c&H002A2B17&\b0} an
+Dialogue: 0,0:00:14.82,0:00:15.00,Default,,0,0,0,,{\pos(540,1513)}Co -pilot co -work allows {\c&H00657811&\b1}an{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:15.00,0:00:15.36,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}analyst{\c&H002A2B17&\b0} to ground\Ntheir AI conversations
+Dialogue: 0,0:00:15.36,0:00:15.62,Default,,0,0,0,,{\pos(540,1513)}analyst {\c&H00657811&\b1}to{\c&H002A2B17&\b0} ground\Ntheir AI conversations
+Dialogue: 0,0:00:15.62,0:00:15.86,Default,,0,0,0,,{\pos(540,1513)}analyst to {\c&H00657811&\b1}ground{\c&H002A2B17&\b0}\Ntheir AI conversations
+Dialogue: 0,0:00:15.86,0:00:16.10,Default,,0,0,0,,{\pos(540,1513)}analyst to ground\N{\c&H00657811&\b1}their{\c&H002A2B17&\b0} AI conversations
+Dialogue: 0,0:00:16.10,0:00:16.34,Default,,0,0,0,,{\pos(540,1513)}analyst to ground\Ntheir {\c&H00657811&\b1}AI{\c&H002A2B17&\b0} conversations
+Dialogue: 0,0:00:16.34,0:00:16.84,Default,,0,0,0,,{\pos(540,1513)}analyst to ground\Ntheir AI {\c&H00657811&\b1}conversations{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:16.84,0:00:17.70,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}in{\c&H002A2B17&\b0} specific Power\NBI reports and
+Dialogue: 0,0:00:17.70,0:00:18.12,Default,,0,0,0,,{\pos(540,1513)}in {\c&H00657811&\b1}specific{\c&H002A2B17&\b0} Power\NBI reports and
+Dialogue: 0,0:00:18.12,0:00:18.55,Default,,0,0,0,,{\pos(540,1513)}in specific {\c&H00657811&\b1}Power{\c&H002A2B17&\b0}\NBI reports and
+Dialogue: 0,0:00:18.55,0:00:18.88,Default,,0,0,0,,{\pos(540,1513)}in specific Power\N{\c&H00657811&\b1}BI{\c&H002A2B17&\b0} reports and
+Dialogue: 0,0:00:18.88,0:00:19.32,Default,,0,0,0,,{\pos(540,1513)}in specific Power\NBI {\c&H00657811&\b1}reports{\c&H002A2B17&\b0} and
+Dialogue: 0,0:00:19.32,0:00:20.25,Default,,0,0,0,,{\pos(540,1513)}in specific Power\NBI reports {\c&H00657811&\b1}and{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:20.25,0:00:20.38,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}their{\c&H002A2B17&\b0} underlying\Nsemantic models to
+Dialogue: 0,0:00:20.38,0:00:20.84,Default,,0,0,0,,{\pos(540,1513)}their {\c&H00657811&\b1}underlying{\c&H002A2B17&\b0}\Nsemantic models to
+Dialogue: 0,0:00:20.84,0:00:21.16,Default,,0,0,0,,{\pos(540,1513)}their underlying\N{\c&H00657811&\b1}semantic{\c&H002A2B17&\b0} models to
+Dialogue: 0,0:00:21.16,0:00:21.78,Default,,0,0,0,,{\pos(540,1513)}their underlying\Nsemantic {\c&H00657811&\b1}models{\c&H002A2B17&\b0} to
+Dialogue: 0,0:00:21.78,0:00:22.24,Default,,0,0,0,,{\pos(540,1513)}their underlying\Nsemantic models {\c&H00657811&\b1}to{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:22.24,0:00:22.70,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}quickly{\c&H002A2B17&\b0} draft things\Nlike leadership
+Dialogue: 0,0:00:22.70,0:00:23.02,Default,,0,0,0,,{\pos(540,1513)}quickly {\c&H00657811&\b1}draft{\c&H002A2B17&\b0} things\Nlike leadership
+Dialogue: 0,0:00:23.02,0:00:23.34,Default,,0,0,0,,{\pos(540,1513)}quickly draft {\c&H00657811&\b1}things{\c&H002A2B17&\b0}\Nlike leadership
+Dialogue: 0,0:00:23.34,0:00:23.62,Default,,0,0,0,,{\pos(540,1513)}quickly draft things\N{\c&H00657811&\b1}like{\c&H002A2B17&\b0} leadership
+Dialogue: 0,0:00:23.62,0:00:24.00,Default,,0,0,0,,{\pos(540,1513)}quickly draft things\Nlike {\c&H00657811&\b1}leadership{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:24.00,0:00:24.62,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}reviews,{\c&H002A2B17&\b0} executive\Nsummaries, or operational
+Dialogue: 0,0:00:24.62,0:00:24.92,Default,,0,0,0,,{\pos(540,1513)}reviews, {\c&H00657811&\b1}executive{\c&H002A2B17&\b0}\Nsummaries, or operational
+Dialogue: 0,0:00:24.92,0:00:25.70,Default,,0,0,0,,{\pos(540,1513)}reviews, executive\N{\c&H00657811&\b1}summaries,{\c&H002A2B17&\b0} or operational
+Dialogue: 0,0:00:25.70,0:00:25.72,Default,,0,0,0,,{\pos(540,1513)}reviews, executive\Nsummaries, {\c&H00657811&\b1}or{\c&H002A2B17&\b0} operational
+Dialogue: 0,0:00:25.72,0:00:26.10,Default,,0,0,0,,{\pos(540,1513)}reviews, executive\Nsummaries, or {\c&H00657811&\b1}operational{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:26.10,0:00:27.06,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}emails.{\c&H002A2B17&\b0} So I can tell co
+Dialogue: 0,0:00:27.06,0:00:27.24,Default,,0,0,0,,{\pos(540,1513)}emails. {\c&H00657811&\b1}So{\c&H002A2B17&\b0} I can tell co
+Dialogue: 0,0:00:27.24,0:00:27.36,Default,,0,0,0,,{\pos(540,1513)}emails. So {\c&H00657811&\b1}I{\c&H002A2B17&\b0} can tell co
+Dialogue: 0,0:00:27.36,0:00:27.46,Default,,0,0,0,,{\pos(540,1513)}emails. So I {\c&H00657811&\b1}can{\c&H002A2B17&\b0} tell co
+Dialogue: 0,0:00:27.46,0:00:27.64,Default,,0,0,0,,{\pos(540,1513)}emails. So I can {\c&H00657811&\b1}tell{\c&H002A2B17&\b0} co
+Dialogue: 0,0:00:27.64,0:00:27.78,Default,,0,0,0,,{\pos(540,1513)}emails. So I can tell {\c&H00657811&\b1}co{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:27.78,0:00:28.14,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}-pilot{\c&H002A2B17&\b0} draft a one\N-page regional
+Dialogue: 0,0:00:28.14,0:00:28.86,Default,,0,0,0,,{\pos(540,1513)}-pilot {\c&H00657811&\b1}draft{\c&H002A2B17&\b0} a one\N-page regional
+Dialogue: 0,0:00:28.86,0:00:29.14,Default,,0,0,0,,{\pos(540,1513)}-pilot draft {\c&H00657811&\b1}a{\c&H002A2B17&\b0} one\N-page regional
+Dialogue: 0,0:00:29.14,0:00:29.30,Default,,0,0,0,,{\pos(540,1513)}-pilot draft a {\c&H00657811&\b1}one{\c&H002A2B17&\b0}\N-page regional
+Dialogue: 0,0:00:29.30,0:00:29.56,Default,,0,0,0,,{\pos(540,1513)}-pilot draft a one\N{\c&H00657811&\b1}-page{\c&H002A2B17&\b0} regional
+Dialogue: 0,0:00:29.56,0:00:29.90,Default,,0,0,0,,{\pos(540,1513)}-pilot draft a one\N-page {\c&H00657811&\b1}regional{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:29.90,0:00:30.32,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}review{\c&H002A2B17&\b0} based on\Nthe findings in
+Dialogue: 0,0:00:30.32,0:00:30.68,Default,,0,0,0,,{\pos(540,1513)}review {\c&H00657811&\b1}based{\c&H002A2B17&\b0} on\Nthe findings in
+Dialogue: 0,0:00:30.68,0:00:30.86,Default,,0,0,0,,{\pos(540,1513)}review based {\c&H00657811&\b1}on{\c&H002A2B17&\b0}\Nthe findings in
+Dialogue: 0,0:00:30.86,0:00:30.94,Default,,0,0,0,,{\pos(540,1513)}review based on\N{\c&H00657811&\b1}the{\c&H002A2B17&\b0} findings in
+Dialogue: 0,0:00:30.94,0:00:31.20,Default,,0,0,0,,{\pos(540,1513)}review based on\Nthe {\c&H00657811&\b1}findings{\c&H002A2B17&\b0} in
+Dialogue: 0,0:00:31.20,0:00:31.52,Default,,0,0,0,,{\pos(540,1513)}review based on\Nthe findings {\c&H00657811&\b1}in{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:31.52,0:00:31.74,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}this{\c&H002A2B17&\b0} specific sales report.
+Dialogue: 0,0:00:31.74,0:00:32.10,Default,,0,0,0,,{\pos(540,1513)}this {\c&H00657811&\b1}specific{\c&H002A2B17&\b0} sales report.
+Dialogue: 0,0:00:32.10,0:00:32.32,Default,,0,0,0,,{\pos(540,1513)}this specific {\c&H00657811&\b1}sales{\c&H002A2B17&\b0} report.
+Dialogue: 0,0:00:32.32,0:00:32.86,Default,,0,0,0,,{\pos(540,1513)}this specific sales {\c&H00657811&\b1}report.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:33.10,0:00:33.32,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}But{\c&H002A2B17&\b0} of course, there is a
+Dialogue: 0,0:00:33.32,0:00:33.90,Default,,0,0,0,,{\pos(540,1513)}But {\c&H00657811&\b1}of{\c&H002A2B17&\b0} course, there is a
+Dialogue: 0,0:00:33.90,0:00:34.15,Default,,0,0,0,,{\pos(540,1513)}But of {\c&H00657811&\b1}course,{\c&H002A2B17&\b0} there is a
+Dialogue: 0,0:00:34.15,0:00:34.20,Default,,0,0,0,,{\pos(540,1513)}But of course, {\c&H00657811&\b1}there{\c&H002A2B17&\b0} is a
+Dialogue: 0,0:00:34.20,0:00:34.32,Default,,0,0,0,,{\pos(540,1513)}But of course, there {\c&H00657811&\b1}is{\c&H002A2B17&\b0} a
+Dialogue: 0,0:00:34.32,0:00:34.42,Default,,0,0,0,,{\pos(540,1513)}But of course, there is {\c&H00657811&\b1}a{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:34.42,0:00:34.90,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}massive{\c&H002A2B17&\b0} caveat noted.
+Dialogue: 0,0:00:34.90,0:00:35.22,Default,,0,0,0,,{\pos(540,1513)}massive {\c&H00657811&\b1}caveat{\c&H002A2B17&\b0} noted.
+Dialogue: 0,0:00:35.22,0:00:35.82,Default,,0,0,0,,{\pos(540,1513)}massive caveat {\c&H00657811&\b1}noted.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:36.06,0:00:36.12,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}A{\c&H002A2B17&\b0} very dangerous caveat.
+Dialogue: 0,0:00:36.12,0:00:36.48,Default,,0,0,0,,{\pos(540,1513)}A {\c&H00657811&\b1}very{\c&H002A2B17&\b0} dangerous caveat.
+Dialogue: 0,0:00:36.48,0:00:36.87,Default,,0,0,0,,{\pos(540,1513)}A very {\c&H00657811&\b1}dangerous{\c&H002A2B17&\b0} caveat.
+Dialogue: 0,0:00:36.87,0:00:37.32,Default,,0,0,0,,{\pos(540,1513)}A very dangerous {\c&H00657811&\b1}caveat.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:37.72,0:00:38.04,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}First,{\c&H002A2B17&\b0} co -pilot co -work does
+Dialogue: 0,0:00:38.04,0:00:38.29,Default,,0,0,0,,{\pos(540,1513)}First, {\c&H00657811&\b1}co{\c&H002A2B17&\b0} -pilot co -work does
+Dialogue: 0,0:00:38.29,0:00:38.62,Default,,0,0,0,,{\pos(540,1513)}First, co {\c&H00657811&\b1}-pilot{\c&H002A2B17&\b0} co -work does
+Dialogue: 0,0:00:38.62,0:00:38.84,Default,,0,0,0,,{\pos(540,1513)}First, co -pilot {\c&H00657811&\b1}co{\c&H002A2B17&\b0} -work does
+Dialogue: 0,0:00:38.84,0:00:39.06,Default,,0,0,0,,{\pos(540,1513)}First, co -pilot co {\c&H00657811&\b1}-work{\c&H002A2B17&\b0} does
+Dialogue: 0,0:00:39.06,0:00:39.22,Default,,0,0,0,,{\pos(540,1513)}First, co -pilot co -work {\c&H00657811&\b1}does{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:39.22,0:00:39.42,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}not{\c&H002A2B17&\b0} currently ground\Ndirectly on the
+Dialogue: 0,0:00:39.42,0:00:39.70,Default,,0,0,0,,{\pos(540,1513)}not {\c&H00657811&\b1}currently{\c&H002A2B17&\b0} ground\Ndirectly on the
+Dialogue: 0,0:00:39.70,0:00:40.20,Default,,0,0,0,,{\pos(540,1513)}not currently {\c&H00657811&\b1}ground{\c&H002A2B17&\b0}\Ndirectly on the
+Dialogue: 0,0:00:40.20,0:00:40.96,Default,,0,0,0,,{\pos(540,1513)}not currently ground\N{\c&H00657811&\b1}directly{\c&H002A2B17&\b0} on the
+Dialogue: 0,0:00:40.96,0:00:41.28,Default,,0,0,0,,{\pos(540,1513)}not currently ground\Ndirectly {\c&H00657811&\b1}on{\c&H002A2B17&\b0} the
+Dialogue: 0,0:00:41.28,0:00:41.38,Default,,0,0,0,,{\pos(540,1513)}not currently ground\Ndirectly on {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:41.38,0:00:41.90,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}ontology{\c&H002A2B17&\b0} items themselves.
+Dialogue: 0,0:00:41.90,0:00:42.38,Default,,0,0,0,,{\pos(540,1513)}ontology {\c&H00657811&\b1}items{\c&H002A2B17&\b0} themselves.
+Dialogue: 0,0:00:42.38,0:00:42.98,Default,,0,0,0,,{\pos(540,1513)}ontology items {\c&H00657811&\b1}themselves.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:43.54,0:00:43.56,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}You{\c&H002A2B17&\b0} have to point\Nit specifically
+Dialogue: 0,0:00:43.56,0:00:43.68,Default,,0,0,0,,{\pos(540,1513)}You {\c&H00657811&\b1}have{\c&H002A2B17&\b0} to point\Nit specifically
+Dialogue: 0,0:00:43.68,0:00:43.80,Default,,0,0,0,,{\pos(540,1513)}You have {\c&H00657811&\b1}to{\c&H002A2B17&\b0} point\Nit specifically
+Dialogue: 0,0:00:43.80,0:00:44.08,Default,,0,0,0,,{\pos(540,1513)}You have to {\c&H00657811&\b1}point{\c&H002A2B17&\b0}\Nit specifically
+Dialogue: 0,0:00:44.08,0:00:44.26,Default,,0,0,0,,{\pos(540,1513)}You have to point\N{\c&H00657811&\b1}it{\c&H002A2B17&\b0} specifically
+Dialogue: 0,0:00:44.26,0:00:44.82,Default,,0,0,0,,{\pos(540,1513)}You have to point\Nit {\c&H00657811&\b1}specifically{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:44.82,0:00:45.44,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}at{\c&H002A2B17&\b0} the Power BI report.
+Dialogue: 0,0:00:45.44,0:00:45.56,Default,,0,0,0,,{\pos(540,1513)}at {\c&H00657811&\b1}the{\c&H002A2B17&\b0} Power BI report.
+Dialogue: 0,0:00:45.56,0:00:45.72,Default,,0,0,0,,{\pos(540,1513)}at the {\c&H00657811&\b1}Power{\c&H002A2B17&\b0} BI report.
+Dialogue: 0,0:00:45.72,0:00:45.98,Default,,0,0,0,,{\pos(540,1513)}at the Power {\c&H00657811&\b1}BI{\c&H002A2B17&\b0} report.
+Dialogue: 0,0:00:45.98,0:00:46.44,Default,,0,0,0,,{\pos(540,1513)}at the Power BI {\c&H00657811&\b1}report.{\c&H002A2B17&\b0}

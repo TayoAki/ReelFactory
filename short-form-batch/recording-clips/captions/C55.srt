@@ -1,0 +1,167 @@
+1
+00:00:00,100 --> 00:00:01,460
+The billing specifics in the preview
+
+2
+00:00:01,460 --> 00:00:03,580
+are fascinating and require extreme
+
+3
+00:00:03,580 --> 00:00:06,619
+caution. Currently what Microsoft categorizes
+
+4
+00:00:06,619 --> 00:00:08,380
+as the discovery and AI reasoning
+
+5
+00:00:08,380 --> 00:00:10,520
+phases, the part where the LLM
+
+6
+00:00:10,520 --> 00:00:11,960
+reads your prompt and figures out
+
+7
+00:00:11,960 --> 00:00:14,399
+what you want, are non -billable
+
+8
+00:00:14,399 --> 00:00:15,499
+during the preview phase.
+
+9
+00:00:16,040 --> 00:00:17,380
+No, that sounds great.
+
+10
+00:00:17,960 --> 00:00:18,920
+Free AI reasoning.
+
+11
+00:00:19,340 --> 00:00:21,120
+But, and this is a massive
+
+12
+00:00:21,120 --> 00:00:23,300
+trap for the unwary, the child
+
+13
+00:00:23,300 --> 00:00:25,360
+operations that the AI triggers and
+
+14
+00:00:25,360 --> 00:00:27,439
+the underlying OneLake storage compute
+
+15
+00:00:27,439 --> 00:00:29,420
+it utilizes to formulate those answers
+
+16
+00:00:29,420 --> 00:00:31,840
+can and will incur standard Fabric
+
+17
+00:00:31,840 --> 00:00:34,720
+capacity charges. Walk me through how
+
+18
+00:00:34,720 --> 00:00:35,900
+that traps springs.
+
+19
+00:00:37,150 --> 00:00:38,400
+Imagine you have a non -technical
+
+20
+00:00:38,400 --> 00:00:40,160
+manager who asks the chat interface
+
+21
+00:00:40,160 --> 00:00:42,440
+a slightly vague massive question about
+
+22
+00:00:42,440 --> 00:00:44,080
+five years of historical inventory
+
+23
+00:00:44,080 --> 00:00:45,320
+across the entire globe.
+
+24
+00:00:46,000 --> 00:00:47,800
+The AI reasoning to understand the
+
+25
+00:00:47,800 --> 00:00:48,879
+question is free.
+
+26
+00:00:49,480 --> 00:00:50,500
+But to answer it, the AI
+
+27
+00:00:50,500 --> 00:00:52,480
+might quietly write a highly inefficient
+
+28
+00:00:52,480 --> 00:00:54,300
+brute force SQL query that scans
+
+29
+00:00:54,300 --> 00:00:56,400
+petabytes of data across your OneLake.
+
+30
+00:00:56,900 --> 00:00:58,300
+It pushes that massive compute job
+
+31
+00:00:58,300 --> 00:00:59,139
+down to the warehouse.
+
+32
+00:00:59,760 --> 00:01:00,779
+And you pay for that compute.
+
+33
+00:01:01,100 --> 00:01:02,540
+Suddenly, you aren't paying for the
+
+34
+00:01:02,540 --> 00:01:04,160
+chat interaction. You are paying for
+
+35
+00:01:04,160 --> 00:01:05,760
+an absolutely massive compute spike
+
+36
+00:01:05,760 --> 00:01:07,420
+on your Fabric capacity bill, because
+
+37
+00:01:07,420 --> 00:01:08,960
+the AI decided to brute force
+
+38
+00:01:08,960 --> 00:01:11,380
+the answer. The source strongly recommends
+
+39
+00:01:11,380 --> 00:01:13,260
+using the Fabric capacity metrics app
+
+40
+00:01:13,260 --> 00:01:14,780
+to monitor this underlying compute
+
+41
+00:01:14,780 --> 00:01:16,560
+consumption closely during any pilot
+
+42
+00:01:16,560 --> 00:01:16,954
+program.

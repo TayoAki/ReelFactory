@@ -1,0 +1,47 @@
+1
+00:00:00,279 --> 00:00:02,420
+Ordinary relationships are not automatically
+
+2
+00:00:02,420 --> 00:00:03,660
+inherited from the parent.
+
+3
+00:00:03,820 --> 00:00:05,680
+Wait, really? So if I spend
+
+4
+00:00:05,680 --> 00:00:07,300
+an hour defining that a base
+
+5
+00:00:07,300 --> 00:00:09,220
+product has a complex relationship
+
+6
+00:00:09,220 --> 00:00:12,500
+to a supplier database, my newly
+
+7
+00:00:12,500 --> 00:00:15,160
+created frozen product doesn't just
+
+8
+00:00:15,160 --> 00:00:16,660
+automatically inherit that supplier
+
+9
+00:00:16,660 --> 00:00:18,180
+relationship? Not currently.
+
+10
+00:00:18,560 --> 00:00:20,940
+No, you have to explicitly redefine
+
+11
+00:00:20,940 --> 00:00:22,340
+or map that relationship for the
+
+12
+00:00:22,340 --> 00:00:22,960
+derived type.

@@ -1,45 +1,45 @@
 WEBVTT
 
-00:00:00.080 --> 00:00:01.420
+00:00:00.080 --> 00:00:01.299
 I want to look really closely
 
-00:00:01.299 --> 00:00:04.360
+00:00:01.299 --> 00:00:04.240
 at that gap between data and
 
-00:00:04.240 --> 00:00:07.100
+00:00:04.240 --> 00:00:06.980
 meaning, because if you pull up
 
-00:00:06.980 --> 00:00:08.080
+00:00:06.980 --> 00:00:07.960
 a table and it shows a
 
-00:00:07.960 --> 00:00:10.319
+00:00:07.960 --> 00:00:10.200
 column labeled temperature, that's
 
 00:00:10.200 --> 00:00:11.059
 just a raw number.
 
-00:00:11.400 --> 00:00:13.719
+00:00:11.400 --> 00:00:13.600
 Right, it completely lacks the commercial
 
-00:00:13.600 --> 00:00:16.100
+00:00:13.600 --> 00:00:15.980
 context. Exactly. It doesn't tell you
 
-00:00:15.980 --> 00:00:17.640
+00:00:15.980 --> 00:00:17.520
 anything about the store experiencing
 
-00:00:17.520 --> 00:00:19.400
+00:00:17.520 --> 00:00:19.280
 that temperature. Well, let's trace
 
-00:00:19.280 --> 00:00:20.740
+00:00:19.280 --> 00:00:20.620
 that exact problem because it's a
 
-00:00:20.620 --> 00:00:22.120
+00:00:20.620 --> 00:00:22.000
 great example. If you have a
 
-00:00:22.000 --> 00:00:23.980
+00:00:22.000 --> 00:00:23.860
 spreadsheet and a column simply says
 
-00:00:23.860 --> 00:00:26.560
+00:00:23.860 --> 00:00:26.439
 temperature 45, what does your AI
 
 00:00:26.439 --> 00:00:27.100
@@ -48,31 +48,31 @@ do with that?
 00:00:27.600 --> 00:00:29.160
 It just reads the number 45.
 
-00:00:29.780 --> 00:00:31.420
+00:00:29.780 --> 00:00:31.300
 Right. And if it's the ambient
 
-00:00:31.300 --> 00:00:33.540
+00:00:31.300 --> 00:00:33.420
 temperature outside a retail location
 
-00:00:33.420 --> 00:00:35.139
+00:00:33.420 --> 00:00:35.019
 on a pleasant spring day, 45
 
 00:00:35.019 --> 00:00:36.960
 degrees Fahrenheit is just chilly.
 
-00:00:37.360 --> 00:00:39.160
+00:00:37.360 --> 00:00:39.040
 Sure. But if that sensor is
 
-00:00:39.040 --> 00:00:41.400
+00:00:39.040 --> 00:00:41.280
 sitting inside a commercial refrigeration
 
-00:00:41.280 --> 00:00:43.620
+00:00:41.280 --> 00:00:43.500
 unit, holding thousands of dollars
 
-00:00:43.500 --> 00:00:45.339
+00:00:43.500 --> 00:00:45.220
 of premium pharmaceutical supplies
 
-00:00:45.220 --> 00:00:47.600
+00:00:45.220 --> 00:00:47.480
 or, you know, frozen food, then
 
 00:00:47.480 --> 00:00:49.300
@@ -81,10 +81,10 @@ or, you know, frozen food, then
 00:00:49.740 --> 00:00:51.879
 It's a catastrophic failure in progress.
 
-00:00:52.220 --> 00:00:54.199
+00:00:52.220 --> 00:00:54.080
 But the data itself, the integer
 
-00:00:54.080 --> 00:00:56.639
+00:00:54.080 --> 00:00:56.519
 of 45, is completely agnostic to
 
 00:00:56.519 --> 00:00:57.339

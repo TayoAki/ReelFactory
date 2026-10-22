@@ -1,0 +1,67 @@
+1
+00:00:00,080 --> 00:00:01,859
+Because if the AI assumes the
+
+2
+00:00:01,859 --> 00:00:03,320
+temperature is Fahrenheit, but the
+
+3
+00:00:03,320 --> 00:00:05,060
+freezer is actually reporting in Celsius.
+
+4
+00:00:05,360 --> 00:00:06,900
+Well, a freezer reporting a steady
+
+5
+00:00:06,900 --> 00:00:09,260
+10 degrees Celsius is 50 degrees
+
+6
+00:00:09,260 --> 00:00:10,559
+Fahrenheit. Oh boy.
+
+7
+00:00:10,580 --> 00:00:12,360
+Your entire inventory of frozen goods
+
+8
+00:00:12,360 --> 00:00:13,340
+is currently liquid.
+
+9
+00:00:13,740 --> 00:00:15,180
+But the AI, if left to
+
+10
+00:00:15,180 --> 00:00:16,860
+assume Fahrenheit by default, might
+
+11
+00:00:16,860 --> 00:00:18,580
+look at the number 10, think,
+
+12
+00:00:18,720 --> 00:00:20,480
+oh, that is well below freezing
+
+13
+00:00:20,480 --> 00:00:22,320
+and report back that everything is
+
+14
+00:00:22,320 --> 00:00:23,660
+perfectly fine. Wow.
+
+15
+00:00:23,960 --> 00:00:25,480
+That single missing piece of metadata,
+
+16
+00:00:25,480 --> 00:00:27,780
+one word, entirely invalidates the
+
+17
+00:00:27,780 --> 00:00:28,119
+analysis.

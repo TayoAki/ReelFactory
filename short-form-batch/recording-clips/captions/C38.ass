@@ -1,0 +1,50 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.08,0:00:00.46,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Right.{\c&H002A2B17&\b0} The built in\Nontology agent
+Dialogue: 0,0:00:00.46,0:00:00.58,Default,,0,0,0,,{\pos(540,1513)}Right. {\c&H00657811&\b1}The{\c&H002A2B17&\b0} built in\Nontology agent
+Dialogue: 0,0:00:00.58,0:00:00.74,Default,,0,0,0,,{\pos(540,1513)}Right. The {\c&H00657811&\b1}built{\c&H002A2B17&\b0} in\Nontology agent
+Dialogue: 0,0:00:00.74,0:00:00.94,Default,,0,0,0,,{\pos(540,1513)}Right. The built {\c&H00657811&\b1}in{\c&H002A2B17&\b0}\Nontology agent
+Dialogue: 0,0:00:00.94,0:00:01.22,Default,,0,0,0,,{\pos(540,1513)}Right. The built in\N{\c&H00657811&\b1}ontology{\c&H002A2B17&\b0} agent
+Dialogue: 0,0:00:01.22,0:00:01.68,Default,,0,0,0,,{\pos(540,1513)}Right. The built in\Nontology {\c&H00657811&\b1}agent{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:01.68,0:00:01.98,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}does{\c&H002A2B17&\b0} not operate with\Nsome omnipotent
+Dialogue: 0,0:00:01.98,0:00:02.29,Default,,0,0,0,,{\pos(540,1513)}does {\c&H00657811&\b1}not{\c&H002A2B17&\b0} operate with\Nsome omnipotent
+Dialogue: 0,0:00:02.29,0:00:02.78,Default,,0,0,0,,{\pos(540,1513)}does not {\c&H00657811&\b1}operate{\c&H002A2B17&\b0} with\Nsome omnipotent
+Dialogue: 0,0:00:02.78,0:00:03.05,Default,,0,0,0,,{\pos(540,1513)}does not operate {\c&H00657811&\b1}with{\c&H002A2B17&\b0}\Nsome omnipotent
+Dialogue: 0,0:00:03.05,0:00:03.34,Default,,0,0,0,,{\pos(540,1513)}does not operate with\N{\c&H00657811&\b1}some{\c&H002A2B17&\b0} omnipotent
+Dialogue: 0,0:00:03.34,0:00:04.22,Default,,0,0,0,,{\pos(540,1513)}does not operate with\Nsome {\c&H00657811&\b1}omnipotent{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:04.22,0:00:04.55,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}master{\c&H002A2B17&\b0} key. It\Nuses the signed
+Dialogue: 0,0:00:04.55,0:00:05.30,Default,,0,0,0,,{\pos(540,1513)}master {\c&H00657811&\b1}key.{\c&H002A2B17&\b0} It\Nuses the signed
+Dialogue: 0,0:00:05.30,0:00:05.76,Default,,0,0,0,,{\pos(540,1513)}master key. {\c&H00657811&\b1}It{\c&H002A2B17&\b0}\Nuses the signed
+Dialogue: 0,0:00:05.76,0:00:05.96,Default,,0,0,0,,{\pos(540,1513)}master key. It\N{\c&H00657811&\b1}uses{\c&H002A2B17&\b0} the signed
+Dialogue: 0,0:00:05.96,0:00:06.19,Default,,0,0,0,,{\pos(540,1513)}master key. It\Nuses {\c&H00657811&\b1}the{\c&H002A2B17&\b0} signed
+Dialogue: 0,0:00:06.19,0:00:06.48,Default,,0,0,0,,{\pos(540,1513)}master key. It\Nuses the {\c&H00657811&\b1}signed{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:06.48,0:00:06.69,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}in{\c&H002A2B17&\b0} users specific identity.
+Dialogue: 0,0:00:06.69,0:00:07.08,Default,,0,0,0,,{\pos(540,1513)}in {\c&H00657811&\b1}users{\c&H002A2B17&\b0} specific identity.
+Dialogue: 0,0:00:07.08,0:00:07.53,Default,,0,0,0,,{\pos(540,1513)}in users {\c&H00657811&\b1}specific{\c&H002A2B17&\b0} identity.
+Dialogue: 0,0:00:07.53,0:00:08.37,Default,,0,0,0,,{\pos(540,1513)}in users specific {\c&H00657811&\b1}identity.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:08.52,0:00:09.08,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}It{\c&H002A2B17&\b0} operates strictly\Nwithin the boundaries
+Dialogue: 0,0:00:09.08,0:00:09.27,Default,,0,0,0,,{\pos(540,1513)}It {\c&H00657811&\b1}operates{\c&H002A2B17&\b0} strictly\Nwithin the boundaries
+Dialogue: 0,0:00:09.27,0:00:09.77,Default,,0,0,0,,{\pos(540,1513)}It operates {\c&H00657811&\b1}strictly{\c&H002A2B17&\b0}\Nwithin the boundaries
+Dialogue: 0,0:00:09.77,0:00:10.16,Default,,0,0,0,,{\pos(540,1513)}It operates strictly\N{\c&H00657811&\b1}within{\c&H002A2B17&\b0} the boundaries
+Dialogue: 0,0:00:10.16,0:00:10.32,Default,,0,0,0,,{\pos(540,1513)}It operates strictly\Nwithin {\c&H00657811&\b1}the{\c&H002A2B17&\b0} boundaries
+Dialogue: 0,0:00:10.32,0:00:10.62,Default,,0,0,0,,{\pos(540,1513)}It operates strictly\Nwithin the {\c&H00657811&\b1}boundaries{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:10.62,0:00:10.92,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}of{\c&H002A2B17&\b0} that user's existing\Npreconfigured
+Dialogue: 0,0:00:10.92,0:00:11.06,Default,,0,0,0,,{\pos(540,1513)}of {\c&H00657811&\b1}that{\c&H002A2B17&\b0} user's existing\Npreconfigured
+Dialogue: 0,0:00:11.06,0:00:11.46,Default,,0,0,0,,{\pos(540,1513)}of that {\c&H00657811&\b1}user's{\c&H002A2B17&\b0} existing\Npreconfigured
+Dialogue: 0,0:00:11.46,0:00:11.84,Default,,0,0,0,,{\pos(540,1513)}of that user's {\c&H00657811&\b1}existing{\c&H002A2B17&\b0}\Npreconfigured
+Dialogue: 0,0:00:11.84,0:00:13.04,Default,,0,0,0,,{\pos(540,1513)}of that user's existing\N{\c&H00657811&\b1}preconfigured{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:13.04,0:00:13.28,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}access{\c&H002A2B17&\b0} rights to the\Nunderlying source
+Dialogue: 0,0:00:13.28,0:00:13.62,Default,,0,0,0,,{\pos(540,1513)}access {\c&H00657811&\b1}rights{\c&H002A2B17&\b0} to the\Nunderlying source
+Dialogue: 0,0:00:13.62,0:00:13.90,Default,,0,0,0,,{\pos(540,1513)}access rights {\c&H00657811&\b1}to{\c&H002A2B17&\b0} the\Nunderlying source
+Dialogue: 0,0:00:13.90,0:00:14.00,Default,,0,0,0,,{\pos(540,1513)}access rights to {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nunderlying source
+Dialogue: 0,0:00:14.00,0:00:14.34,Default,,0,0,0,,{\pos(540,1513)}access rights to the\N{\c&H00657811&\b1}underlying{\c&H002A2B17&\b0} source
+Dialogue: 0,0:00:14.34,0:00:14.64,Default,,0,0,0,,{\pos(540,1513)}access rights to the\Nunderlying {\c&H00657811&\b1}source{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:14.64,0:00:15.11,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}databases.{\c&H002A2B17&\b0}

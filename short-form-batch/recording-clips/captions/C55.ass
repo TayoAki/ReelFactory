@@ -1,0 +1,233 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.10,0:00:00.18,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}The{\c&H002A2B17&\b0} billing specifics\Nin the preview
+Dialogue: 0,0:00:00.18,0:00:00.37,Default,,0,0,0,,{\pos(540,1513)}The {\c&H00657811&\b1}billing{\c&H002A2B17&\b0} specifics\Nin the preview
+Dialogue: 0,0:00:00.37,0:00:00.68,Default,,0,0,0,,{\pos(540,1513)}The billing {\c&H00657811&\b1}specifics{\c&H002A2B17&\b0}\Nin the preview
+Dialogue: 0,0:00:00.68,0:00:01.14,Default,,0,0,0,,{\pos(540,1513)}The billing specifics\N{\c&H00657811&\b1}in{\c&H002A2B17&\b0} the preview
+Dialogue: 0,0:00:01.14,0:00:01.22,Default,,0,0,0,,{\pos(540,1513)}The billing specifics\Nin {\c&H00657811&\b1}the{\c&H002A2B17&\b0} preview
+Dialogue: 0,0:00:01.22,0:00:01.46,Default,,0,0,0,,{\pos(540,1513)}The billing specifics\Nin the {\c&H00657811&\b1}preview{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:01.46,0:00:01.66,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}are{\c&H002A2B17&\b0} fascinating and\Nrequire extreme
+Dialogue: 0,0:00:01.66,0:00:02.17,Default,,0,0,0,,{\pos(540,1513)}are {\c&H00657811&\b1}fascinating{\c&H002A2B17&\b0} and\Nrequire extreme
+Dialogue: 0,0:00:02.17,0:00:02.48,Default,,0,0,0,,{\pos(540,1513)}are fascinating {\c&H00657811&\b1}and{\c&H002A2B17&\b0}\Nrequire extreme
+Dialogue: 0,0:00:02.48,0:00:02.80,Default,,0,0,0,,{\pos(540,1513)}are fascinating and\N{\c&H00657811&\b1}require{\c&H002A2B17&\b0} extreme
+Dialogue: 0,0:00:02.80,0:00:03.58,Default,,0,0,0,,{\pos(540,1513)}are fascinating and\Nrequire {\c&H00657811&\b1}extreme{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:03.58,0:00:05.04,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}caution.{\c&H002A2B17&\b0} Currently what\NMicrosoft categorizes
+Dialogue: 0,0:00:05.04,0:00:05.34,Default,,0,0,0,,{\pos(540,1513)}caution. {\c&H00657811&\b1}Currently{\c&H002A2B17&\b0} what\NMicrosoft categorizes
+Dialogue: 0,0:00:05.34,0:00:05.58,Default,,0,0,0,,{\pos(540,1513)}caution. Currently {\c&H00657811&\b1}what{\c&H002A2B17&\b0}\NMicrosoft categorizes
+Dialogue: 0,0:00:05.58,0:00:05.78,Default,,0,0,0,,{\pos(540,1513)}caution. Currently what\N{\c&H00657811&\b1}Microsoft{\c&H002A2B17&\b0} categorizes
+Dialogue: 0,0:00:05.78,0:00:06.61,Default,,0,0,0,,{\pos(540,1513)}caution. Currently what\NMicrosoft {\c&H00657811&\b1}categorizes{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:06.61,0:00:06.86,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}as{\c&H002A2B17&\b0} the discovery\Nand AI reasoning
+Dialogue: 0,0:00:06.86,0:00:07.06,Default,,0,0,0,,{\pos(540,1513)}as {\c&H00657811&\b1}the{\c&H002A2B17&\b0} discovery\Nand AI reasoning
+Dialogue: 0,0:00:07.06,0:00:07.52,Default,,0,0,0,,{\pos(540,1513)}as the {\c&H00657811&\b1}discovery{\c&H002A2B17&\b0}\Nand AI reasoning
+Dialogue: 0,0:00:07.52,0:00:07.77,Default,,0,0,0,,{\pos(540,1513)}as the discovery\N{\c&H00657811&\b1}and{\c&H002A2B17&\b0} AI reasoning
+Dialogue: 0,0:00:07.77,0:00:07.98,Default,,0,0,0,,{\pos(540,1513)}as the discovery\Nand {\c&H00657811&\b1}AI{\c&H002A2B17&\b0} reasoning
+Dialogue: 0,0:00:07.98,0:00:08.38,Default,,0,0,0,,{\pos(540,1513)}as the discovery\Nand AI {\c&H00657811&\b1}reasoning{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:08.38,0:00:09.36,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}phases,{\c&H002A2B17&\b0} the part\Nwhere the LLM
+Dialogue: 0,0:00:09.36,0:00:09.52,Default,,0,0,0,,{\pos(540,1513)}phases, {\c&H00657811&\b1}the{\c&H002A2B17&\b0} part\Nwhere the LLM
+Dialogue: 0,0:00:09.52,0:00:09.69,Default,,0,0,0,,{\pos(540,1513)}phases, the {\c&H00657811&\b1}part{\c&H002A2B17&\b0}\Nwhere the LLM
+Dialogue: 0,0:00:09.69,0:00:09.84,Default,,0,0,0,,{\pos(540,1513)}phases, the part\N{\c&H00657811&\b1}where{\c&H002A2B17&\b0} the LLM
+Dialogue: 0,0:00:09.84,0:00:09.98,Default,,0,0,0,,{\pos(540,1513)}phases, the part\Nwhere {\c&H00657811&\b1}the{\c&H002A2B17&\b0} LLM
+Dialogue: 0,0:00:09.98,0:00:10.52,Default,,0,0,0,,{\pos(540,1513)}phases, the part\Nwhere the {\c&H00657811&\b1}LLM{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:10.52,0:00:10.70,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}reads{\c&H002A2B17&\b0} your prompt\Nand figures out
+Dialogue: 0,0:00:10.70,0:00:10.94,Default,,0,0,0,,{\pos(540,1513)}reads {\c&H00657811&\b1}your{\c&H002A2B17&\b0} prompt\Nand figures out
+Dialogue: 0,0:00:10.94,0:00:11.20,Default,,0,0,0,,{\pos(540,1513)}reads your {\c&H00657811&\b1}prompt{\c&H002A2B17&\b0}\Nand figures out
+Dialogue: 0,0:00:11.20,0:00:11.44,Default,,0,0,0,,{\pos(540,1513)}reads your prompt\N{\c&H00657811&\b1}and{\c&H002A2B17&\b0} figures out
+Dialogue: 0,0:00:11.44,0:00:11.80,Default,,0,0,0,,{\pos(540,1513)}reads your prompt\Nand {\c&H00657811&\b1}figures{\c&H002A2B17&\b0} out
+Dialogue: 0,0:00:11.80,0:00:11.96,Default,,0,0,0,,{\pos(540,1513)}reads your prompt\Nand figures {\c&H00657811&\b1}out{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:11.96,0:00:12.08,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}what{\c&H002A2B17&\b0} you want,\Nare non -billable
+Dialogue: 0,0:00:12.08,0:00:12.20,Default,,0,0,0,,{\pos(540,1513)}what {\c&H00657811&\b1}you{\c&H002A2B17&\b0} want,\Nare non -billable
+Dialogue: 0,0:00:12.20,0:00:12.70,Default,,0,0,0,,{\pos(540,1513)}what you {\c&H00657811&\b1}want,{\c&H002A2B17&\b0}\Nare non -billable
+Dialogue: 0,0:00:12.70,0:00:13.36,Default,,0,0,0,,{\pos(540,1513)}what you want,\N{\c&H00657811&\b1}are{\c&H002A2B17&\b0} non -billable
+Dialogue: 0,0:00:13.36,0:00:13.92,Default,,0,0,0,,{\pos(540,1513)}what you want,\Nare {\c&H00657811&\b1}non{\c&H002A2B17&\b0} -billable
+Dialogue: 0,0:00:13.92,0:00:14.39,Default,,0,0,0,,{\pos(540,1513)}what you want,\Nare non {\c&H00657811&\b1}-billable{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:14.39,0:00:14.70,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}during{\c&H002A2B17&\b0} the preview phase.
+Dialogue: 0,0:00:14.70,0:00:14.88,Default,,0,0,0,,{\pos(540,1513)}during {\c&H00657811&\b1}the{\c&H002A2B17&\b0} preview phase.
+Dialogue: 0,0:00:14.88,0:00:15.02,Default,,0,0,0,,{\pos(540,1513)}during the {\c&H00657811&\b1}preview{\c&H002A2B17&\b0} phase.
+Dialogue: 0,0:00:15.02,0:00:15.49,Default,,0,0,0,,{\pos(540,1513)}during the preview {\c&H00657811&\b1}phase.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:16.04,0:00:16.70,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}No,{\c&H002A2B17&\b0} that sounds great.
+Dialogue: 0,0:00:16.70,0:00:16.84,Default,,0,0,0,,{\pos(540,1513)}No, {\c&H00657811&\b1}that{\c&H002A2B17&\b0} sounds great.
+Dialogue: 0,0:00:16.84,0:00:17.04,Default,,0,0,0,,{\pos(540,1513)}No, that {\c&H00657811&\b1}sounds{\c&H002A2B17&\b0} great.
+Dialogue: 0,0:00:17.04,0:00:17.38,Default,,0,0,0,,{\pos(540,1513)}No, that sounds {\c&H00657811&\b1}great.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:17.96,0:00:18.07,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Free{\c&H002A2B17&\b0} AI reasoning.
+Dialogue: 0,0:00:18.07,0:00:18.38,Default,,0,0,0,,{\pos(540,1513)}Free {\c&H00657811&\b1}AI{\c&H002A2B17&\b0} reasoning.
+Dialogue: 0,0:00:18.38,0:00:18.92,Default,,0,0,0,,{\pos(540,1513)}Free AI {\c&H00657811&\b1}reasoning.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:19.34,0:00:20.02,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}But,{\c&H002A2B17&\b0} and this is a massive
+Dialogue: 0,0:00:20.02,0:00:20.39,Default,,0,0,0,,{\pos(540,1513)}But, {\c&H00657811&\b1}and{\c&H002A2B17&\b0} this is a massive
+Dialogue: 0,0:00:20.39,0:00:20.62,Default,,0,0,0,,{\pos(540,1513)}But, and {\c&H00657811&\b1}this{\c&H002A2B17&\b0} is a massive
+Dialogue: 0,0:00:20.62,0:00:20.70,Default,,0,0,0,,{\pos(540,1513)}But, and this {\c&H00657811&\b1}is{\c&H002A2B17&\b0} a massive
+Dialogue: 0,0:00:20.70,0:00:20.84,Default,,0,0,0,,{\pos(540,1513)}But, and this is {\c&H00657811&\b1}a{\c&H002A2B17&\b0} massive
+Dialogue: 0,0:00:20.84,0:00:21.12,Default,,0,0,0,,{\pos(540,1513)}But, and this is a {\c&H00657811&\b1}massive{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:21.12,0:00:21.56,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}trap{\c&H002A2B17&\b0} for the unwary, the child
+Dialogue: 0,0:00:21.56,0:00:21.84,Default,,0,0,0,,{\pos(540,1513)}trap {\c&H00657811&\b1}for{\c&H002A2B17&\b0} the unwary, the child
+Dialogue: 0,0:00:21.84,0:00:21.96,Default,,0,0,0,,{\pos(540,1513)}trap for {\c&H00657811&\b1}the{\c&H002A2B17&\b0} unwary, the child
+Dialogue: 0,0:00:21.96,0:00:22.88,Default,,0,0,0,,{\pos(540,1513)}trap for the {\c&H00657811&\b1}unwary,{\c&H002A2B17&\b0} the child
+Dialogue: 0,0:00:22.88,0:00:23.00,Default,,0,0,0,,{\pos(540,1513)}trap for the unwary, {\c&H00657811&\b1}the{\c&H002A2B17&\b0} child
+Dialogue: 0,0:00:23.00,0:00:23.30,Default,,0,0,0,,{\pos(540,1513)}trap for the unwary, the {\c&H00657811&\b1}child{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:23.30,0:00:23.72,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}operations{\c&H002A2B17&\b0} that\Nthe AI triggers and
+Dialogue: 0,0:00:23.72,0:00:24.18,Default,,0,0,0,,{\pos(540,1513)}operations {\c&H00657811&\b1}that{\c&H002A2B17&\b0}\Nthe AI triggers and
+Dialogue: 0,0:00:24.18,0:00:24.30,Default,,0,0,0,,{\pos(540,1513)}operations that\N{\c&H00657811&\b1}the{\c&H002A2B17&\b0} AI triggers and
+Dialogue: 0,0:00:24.30,0:00:24.50,Default,,0,0,0,,{\pos(540,1513)}operations that\Nthe {\c&H00657811&\b1}AI{\c&H002A2B17&\b0} triggers and
+Dialogue: 0,0:00:24.50,0:00:24.86,Default,,0,0,0,,{\pos(540,1513)}operations that\Nthe AI {\c&H00657811&\b1}triggers{\c&H002A2B17&\b0} and
+Dialogue: 0,0:00:24.86,0:00:25.36,Default,,0,0,0,,{\pos(540,1513)}operations that\Nthe AI triggers {\c&H00657811&\b1}and{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:25.36,0:00:25.50,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}the{\c&H002A2B17&\b0} underlying OneLake\Nstorage compute
+Dialogue: 0,0:00:25.50,0:00:25.90,Default,,0,0,0,,{\pos(540,1513)}the {\c&H00657811&\b1}underlying{\c&H002A2B17&\b0} OneLake\Nstorage compute
+Dialogue: 0,0:00:25.90,0:00:26.50,Default,,0,0,0,,{\pos(540,1513)}the underlying {\c&H00657811&\b1}OneLake{\c&H002A2B17&\b0}\Nstorage compute
+Dialogue: 0,0:00:26.50,0:00:26.90,Default,,0,0,0,,{\pos(540,1513)}the underlying OneLake\N{\c&H00657811&\b1}storage{\c&H002A2B17&\b0} compute
+Dialogue: 0,0:00:26.90,0:00:27.44,Default,,0,0,0,,{\pos(540,1513)}the underlying OneLake\Nstorage {\c&H00657811&\b1}compute{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:27.44,0:00:27.74,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}it{\c&H002A2B17&\b0} utilizes to formulate\Nthose answers
+Dialogue: 0,0:00:27.74,0:00:28.11,Default,,0,0,0,,{\pos(540,1513)}it {\c&H00657811&\b1}utilizes{\c&H002A2B17&\b0} to formulate\Nthose answers
+Dialogue: 0,0:00:28.11,0:00:28.46,Default,,0,0,0,,{\pos(540,1513)}it utilizes {\c&H00657811&\b1}to{\c&H002A2B17&\b0} formulate\Nthose answers
+Dialogue: 0,0:00:28.46,0:00:28.76,Default,,0,0,0,,{\pos(540,1513)}it utilizes to {\c&H00657811&\b1}formulate{\c&H002A2B17&\b0}\Nthose answers
+Dialogue: 0,0:00:28.76,0:00:29.04,Default,,0,0,0,,{\pos(540,1513)}it utilizes to formulate\N{\c&H00657811&\b1}those{\c&H002A2B17&\b0} answers
+Dialogue: 0,0:00:29.04,0:00:29.42,Default,,0,0,0,,{\pos(540,1513)}it utilizes to formulate\Nthose {\c&H00657811&\b1}answers{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:29.42,0:00:30.02,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}can{\c&H002A2B17&\b0} and will incur\Nstandard Fabric
+Dialogue: 0,0:00:30.02,0:00:30.36,Default,,0,0,0,,{\pos(540,1513)}can {\c&H00657811&\b1}and{\c&H002A2B17&\b0} will incur\Nstandard Fabric
+Dialogue: 0,0:00:30.36,0:00:30.70,Default,,0,0,0,,{\pos(540,1513)}can and {\c&H00657811&\b1}will{\c&H002A2B17&\b0} incur\Nstandard Fabric
+Dialogue: 0,0:00:30.70,0:00:31.11,Default,,0,0,0,,{\pos(540,1513)}can and will {\c&H00657811&\b1}incur{\c&H002A2B17&\b0}\Nstandard Fabric
+Dialogue: 0,0:00:31.11,0:00:31.44,Default,,0,0,0,,{\pos(540,1513)}can and will incur\N{\c&H00657811&\b1}standard{\c&H002A2B17&\b0} Fabric
+Dialogue: 0,0:00:31.44,0:00:31.84,Default,,0,0,0,,{\pos(540,1513)}can and will incur\Nstandard {\c&H00657811&\b1}Fabric{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:31.84,0:00:32.29,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}capacity{\c&H002A2B17&\b0} charges.\NWalk me through how
+Dialogue: 0,0:00:32.29,0:00:33.46,Default,,0,0,0,,{\pos(540,1513)}capacity {\c&H00657811&\b1}charges.{\c&H002A2B17&\b0}\NWalk me through how
+Dialogue: 0,0:00:33.46,0:00:33.96,Default,,0,0,0,,{\pos(540,1513)}capacity charges.\N{\c&H00657811&\b1}Walk{\c&H002A2B17&\b0} me through how
+Dialogue: 0,0:00:33.96,0:00:34.15,Default,,0,0,0,,{\pos(540,1513)}capacity charges.\NWalk {\c&H00657811&\b1}me{\c&H002A2B17&\b0} through how
+Dialogue: 0,0:00:34.15,0:00:34.34,Default,,0,0,0,,{\pos(540,1513)}capacity charges.\NWalk me {\c&H00657811&\b1}through{\c&H002A2B17&\b0} how
+Dialogue: 0,0:00:34.34,0:00:34.72,Default,,0,0,0,,{\pos(540,1513)}capacity charges.\NWalk me through {\c&H00657811&\b1}how{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:34.72,0:00:34.98,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}that{\c&H002A2B17&\b0} traps springs.
+Dialogue: 0,0:00:34.98,0:00:35.46,Default,,0,0,0,,{\pos(540,1513)}that {\c&H00657811&\b1}traps{\c&H002A2B17&\b0} springs.
+Dialogue: 0,0:00:35.46,0:00:35.90,Default,,0,0,0,,{\pos(540,1513)}that traps {\c&H00657811&\b1}springs.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:37.15,0:00:37.48,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Imagine{\c&H002A2B17&\b0} you have\Na non -technical
+Dialogue: 0,0:00:37.48,0:00:37.78,Default,,0,0,0,,{\pos(540,1513)}Imagine {\c&H00657811&\b1}you{\c&H002A2B17&\b0} have\Na non -technical
+Dialogue: 0,0:00:37.78,0:00:37.87,Default,,0,0,0,,{\pos(540,1513)}Imagine you {\c&H00657811&\b1}have{\c&H002A2B17&\b0}\Na non -technical
+Dialogue: 0,0:00:37.87,0:00:37.96,Default,,0,0,0,,{\pos(540,1513)}Imagine you have\N{\c&H00657811&\b1}a{\c&H002A2B17&\b0} non -technical
+Dialogue: 0,0:00:37.96,0:00:38.12,Default,,0,0,0,,{\pos(540,1513)}Imagine you have\Na {\c&H00657811&\b1}non{\c&H002A2B17&\b0} -technical
+Dialogue: 0,0:00:38.12,0:00:38.40,Default,,0,0,0,,{\pos(540,1513)}Imagine you have\Na non {\c&H00657811&\b1}-technical{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:38.40,0:00:38.82,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}manager{\c&H002A2B17&\b0} who asks\Nthe chat interface
+Dialogue: 0,0:00:38.82,0:00:39.10,Default,,0,0,0,,{\pos(540,1513)}manager {\c&H00657811&\b1}who{\c&H002A2B17&\b0} asks\Nthe chat interface
+Dialogue: 0,0:00:39.10,0:00:39.36,Default,,0,0,0,,{\pos(540,1513)}manager who {\c&H00657811&\b1}asks{\c&H002A2B17&\b0}\Nthe chat interface
+Dialogue: 0,0:00:39.36,0:00:39.64,Default,,0,0,0,,{\pos(540,1513)}manager who asks\N{\c&H00657811&\b1}the{\c&H002A2B17&\b0} chat interface
+Dialogue: 0,0:00:39.64,0:00:39.78,Default,,0,0,0,,{\pos(540,1513)}manager who asks\Nthe {\c&H00657811&\b1}chat{\c&H002A2B17&\b0} interface
+Dialogue: 0,0:00:39.78,0:00:40.15,Default,,0,0,0,,{\pos(540,1513)}manager who asks\Nthe chat {\c&H00657811&\b1}interface{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:40.15,0:00:40.47,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}a{\c&H002A2B17&\b0} slightly vague\Nmassive question about
+Dialogue: 0,0:00:40.47,0:00:40.76,Default,,0,0,0,,{\pos(540,1513)}a {\c&H00657811&\b1}slightly{\c&H002A2B17&\b0} vague\Nmassive question about
+Dialogue: 0,0:00:40.76,0:00:41.10,Default,,0,0,0,,{\pos(540,1513)}a slightly {\c&H00657811&\b1}vague{\c&H002A2B17&\b0}\Nmassive question about
+Dialogue: 0,0:00:41.10,0:00:41.54,Default,,0,0,0,,{\pos(540,1513)}a slightly vague\N{\c&H00657811&\b1}massive{\c&H002A2B17&\b0} question about
+Dialogue: 0,0:00:41.54,0:00:42.00,Default,,0,0,0,,{\pos(540,1513)}a slightly vague\Nmassive {\c&H00657811&\b1}question{\c&H002A2B17&\b0} about
+Dialogue: 0,0:00:42.00,0:00:42.44,Default,,0,0,0,,{\pos(540,1513)}a slightly vague\Nmassive question {\c&H00657811&\b1}about{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:42.44,0:00:42.96,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}five{\c&H002A2B17&\b0} years of\Nhistorical inventory
+Dialogue: 0,0:00:42.96,0:00:43.20,Default,,0,0,0,,{\pos(540,1513)}five {\c&H00657811&\b1}years{\c&H002A2B17&\b0} of\Nhistorical inventory
+Dialogue: 0,0:00:43.20,0:00:43.36,Default,,0,0,0,,{\pos(540,1513)}five years {\c&H00657811&\b1}of{\c&H002A2B17&\b0}\Nhistorical inventory
+Dialogue: 0,0:00:43.36,0:00:43.66,Default,,0,0,0,,{\pos(540,1513)}five years of\N{\c&H00657811&\b1}historical{\c&H002A2B17&\b0} inventory
+Dialogue: 0,0:00:43.66,0:00:44.08,Default,,0,0,0,,{\pos(540,1513)}five years of\Nhistorical {\c&H00657811&\b1}inventory{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:44.08,0:00:44.46,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}across{\c&H002A2B17&\b0} the entire globe.
+Dialogue: 0,0:00:44.46,0:00:44.70,Default,,0,0,0,,{\pos(540,1513)}across {\c&H00657811&\b1}the{\c&H002A2B17&\b0} entire globe.
+Dialogue: 0,0:00:44.70,0:00:44.88,Default,,0,0,0,,{\pos(540,1513)}across the {\c&H00657811&\b1}entire{\c&H002A2B17&\b0} globe.
+Dialogue: 0,0:00:44.88,0:00:45.32,Default,,0,0,0,,{\pos(540,1513)}across the entire {\c&H00657811&\b1}globe.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:46.00,0:00:46.52,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}The{\c&H002A2B17&\b0} AI reasoning\Nto understand the
+Dialogue: 0,0:00:46.52,0:00:46.70,Default,,0,0,0,,{\pos(540,1513)}The {\c&H00657811&\b1}AI{\c&H002A2B17&\b0} reasoning\Nto understand the
+Dialogue: 0,0:00:46.70,0:00:47.08,Default,,0,0,0,,{\pos(540,1513)}The AI {\c&H00657811&\b1}reasoning{\c&H002A2B17&\b0}\Nto understand the
+Dialogue: 0,0:00:47.08,0:00:47.38,Default,,0,0,0,,{\pos(540,1513)}The AI reasoning\N{\c&H00657811&\b1}to{\c&H002A2B17&\b0} understand the
+Dialogue: 0,0:00:47.38,0:00:47.66,Default,,0,0,0,,{\pos(540,1513)}The AI reasoning\Nto {\c&H00657811&\b1}understand{\c&H002A2B17&\b0} the
+Dialogue: 0,0:00:47.66,0:00:47.80,Default,,0,0,0,,{\pos(540,1513)}The AI reasoning\Nto understand {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:47.80,0:00:48.02,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}question{\c&H002A2B17&\b0} is free.
+Dialogue: 0,0:00:48.02,0:00:48.44,Default,,0,0,0,,{\pos(540,1513)}question {\c&H00657811&\b1}is{\c&H002A2B17&\b0} free.
+Dialogue: 0,0:00:48.44,0:00:48.88,Default,,0,0,0,,{\pos(540,1513)}question is {\c&H00657811&\b1}free.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:49.48,0:00:49.50,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}But{\c&H002A2B17&\b0} to answer it, the AI
+Dialogue: 0,0:00:49.50,0:00:49.62,Default,,0,0,0,,{\pos(540,1513)}But {\c&H00657811&\b1}to{\c&H002A2B17&\b0} answer it, the AI
+Dialogue: 0,0:00:49.62,0:00:50.00,Default,,0,0,0,,{\pos(540,1513)}But to {\c&H00657811&\b1}answer{\c&H002A2B17&\b0} it, the AI
+Dialogue: 0,0:00:50.00,0:00:50.26,Default,,0,0,0,,{\pos(540,1513)}But to answer {\c&H00657811&\b1}it,{\c&H002A2B17&\b0} the AI
+Dialogue: 0,0:00:50.26,0:00:50.34,Default,,0,0,0,,{\pos(540,1513)}But to answer it, {\c&H00657811&\b1}the{\c&H002A2B17&\b0} AI
+Dialogue: 0,0:00:50.34,0:00:50.50,Default,,0,0,0,,{\pos(540,1513)}But to answer it, the {\c&H00657811&\b1}AI{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:50.50,0:00:50.74,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}might{\c&H002A2B17&\b0} quietly write\Na highly inefficient
+Dialogue: 0,0:00:50.74,0:00:51.00,Default,,0,0,0,,{\pos(540,1513)}might {\c&H00657811&\b1}quietly{\c&H002A2B17&\b0} write\Na highly inefficient
+Dialogue: 0,0:00:51.00,0:00:51.50,Default,,0,0,0,,{\pos(540,1513)}might quietly {\c&H00657811&\b1}write{\c&H002A2B17&\b0}\Na highly inefficient
+Dialogue: 0,0:00:51.50,0:00:51.70,Default,,0,0,0,,{\pos(540,1513)}might quietly write\N{\c&H00657811&\b1}a{\c&H002A2B17&\b0} highly inefficient
+Dialogue: 0,0:00:51.70,0:00:52.04,Default,,0,0,0,,{\pos(540,1513)}might quietly write\Na {\c&H00657811&\b1}highly{\c&H002A2B17&\b0} inefficient
+Dialogue: 0,0:00:52.04,0:00:52.48,Default,,0,0,0,,{\pos(540,1513)}might quietly write\Na highly {\c&H00657811&\b1}inefficient{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:52.48,0:00:52.94,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}brute{\c&H002A2B17&\b0} force SQL\Nquery that scans
+Dialogue: 0,0:00:52.94,0:00:53.24,Default,,0,0,0,,{\pos(540,1513)}brute {\c&H00657811&\b1}force{\c&H002A2B17&\b0} SQL\Nquery that scans
+Dialogue: 0,0:00:53.24,0:00:53.50,Default,,0,0,0,,{\pos(540,1513)}brute force {\c&H00657811&\b1}SQL{\c&H002A2B17&\b0}\Nquery that scans
+Dialogue: 0,0:00:53.50,0:00:53.90,Default,,0,0,0,,{\pos(540,1513)}brute force SQL\N{\c&H00657811&\b1}query{\c&H002A2B17&\b0} that scans
+Dialogue: 0,0:00:53.90,0:00:54.06,Default,,0,0,0,,{\pos(540,1513)}brute force SQL\Nquery {\c&H00657811&\b1}that{\c&H002A2B17&\b0} scans
+Dialogue: 0,0:00:54.06,0:00:54.30,Default,,0,0,0,,{\pos(540,1513)}brute force SQL\Nquery that {\c&H00657811&\b1}scans{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:54.30,0:00:54.84,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}petabytes{\c&H002A2B17&\b0} of data\Nacross your OneLake.
+Dialogue: 0,0:00:54.84,0:00:55.16,Default,,0,0,0,,{\pos(540,1513)}petabytes {\c&H00657811&\b1}of{\c&H002A2B17&\b0} data\Nacross your OneLake.
+Dialogue: 0,0:00:55.16,0:00:55.32,Default,,0,0,0,,{\pos(540,1513)}petabytes of {\c&H00657811&\b1}data{\c&H002A2B17&\b0}\Nacross your OneLake.
+Dialogue: 0,0:00:55.32,0:00:55.68,Default,,0,0,0,,{\pos(540,1513)}petabytes of data\N{\c&H00657811&\b1}across{\c&H002A2B17&\b0} your OneLake.
+Dialogue: 0,0:00:55.68,0:00:55.88,Default,,0,0,0,,{\pos(540,1513)}petabytes of data\Nacross {\c&H00657811&\b1}your{\c&H002A2B17&\b0} OneLake.
+Dialogue: 0,0:00:55.88,0:00:56.40,Default,,0,0,0,,{\pos(540,1513)}petabytes of data\Nacross your {\c&H00657811&\b1}OneLake.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:56.90,0:00:57.06,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}It{\c&H002A2B17&\b0} pushes that\Nmassive compute job
+Dialogue: 0,0:00:57.06,0:00:57.20,Default,,0,0,0,,{\pos(540,1513)}It {\c&H00657811&\b1}pushes{\c&H002A2B17&\b0} that\Nmassive compute job
+Dialogue: 0,0:00:57.20,0:00:57.42,Default,,0,0,0,,{\pos(540,1513)}It pushes {\c&H00657811&\b1}that{\c&H002A2B17&\b0}\Nmassive compute job
+Dialogue: 0,0:00:57.42,0:00:57.76,Default,,0,0,0,,{\pos(540,1513)}It pushes that\N{\c&H00657811&\b1}massive{\c&H002A2B17&\b0} compute job
+Dialogue: 0,0:00:57.76,0:00:58.04,Default,,0,0,0,,{\pos(540,1513)}It pushes that\Nmassive {\c&H00657811&\b1}compute{\c&H002A2B17&\b0} job
+Dialogue: 0,0:00:58.04,0:00:58.30,Default,,0,0,0,,{\pos(540,1513)}It pushes that\Nmassive compute {\c&H00657811&\b1}job{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:58.30,0:00:58.52,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}down{\c&H002A2B17&\b0} to the warehouse.
+Dialogue: 0,0:00:58.52,0:00:58.72,Default,,0,0,0,,{\pos(540,1513)}down {\c&H00657811&\b1}to{\c&H002A2B17&\b0} the warehouse.
+Dialogue: 0,0:00:58.72,0:00:58.80,Default,,0,0,0,,{\pos(540,1513)}down to {\c&H00657811&\b1}the{\c&H002A2B17&\b0} warehouse.
+Dialogue: 0,0:00:58.80,0:00:59.13,Default,,0,0,0,,{\pos(540,1513)}down to the {\c&H00657811&\b1}warehouse.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:59.76,0:00:59.82,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}And{\c&H002A2B17&\b0} you pay for\Nthat compute.
+Dialogue: 0,0:00:59.82,0:01:00.04,Default,,0,0,0,,{\pos(540,1513)}And {\c&H00657811&\b1}you{\c&H002A2B17&\b0} pay for\Nthat compute.
+Dialogue: 0,0:01:00.04,0:01:00.20,Default,,0,0,0,,{\pos(540,1513)}And you {\c&H00657811&\b1}pay{\c&H002A2B17&\b0} for\Nthat compute.
+Dialogue: 0,0:01:00.20,0:01:00.34,Default,,0,0,0,,{\pos(540,1513)}And you pay {\c&H00657811&\b1}for{\c&H002A2B17&\b0}\Nthat compute.
+Dialogue: 0,0:01:00.34,0:01:00.44,Default,,0,0,0,,{\pos(540,1513)}And you pay for\N{\c&H00657811&\b1}that{\c&H002A2B17&\b0} compute.
+Dialogue: 0,0:01:00.44,0:01:00.77,Default,,0,0,0,,{\pos(540,1513)}And you pay for\Nthat {\c&H00657811&\b1}compute.{\c&H002A2B17&\b0}
+Dialogue: 0,0:01:01.10,0:01:01.70,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Suddenly,{\c&H002A2B17&\b0} you\Naren't paying for the
+Dialogue: 0,0:01:01.70,0:01:01.88,Default,,0,0,0,,{\pos(540,1513)}Suddenly, {\c&H00657811&\b1}you{\c&H002A2B17&\b0}\Naren't paying for the
+Dialogue: 0,0:01:01.88,0:01:02.06,Default,,0,0,0,,{\pos(540,1513)}Suddenly, you\N{\c&H00657811&\b1}aren't{\c&H002A2B17&\b0} paying for the
+Dialogue: 0,0:01:02.06,0:01:02.22,Default,,0,0,0,,{\pos(540,1513)}Suddenly, you\Naren't {\c&H00657811&\b1}paying{\c&H002A2B17&\b0} for the
+Dialogue: 0,0:01:02.22,0:01:02.46,Default,,0,0,0,,{\pos(540,1513)}Suddenly, you\Naren't paying {\c&H00657811&\b1}for{\c&H002A2B17&\b0} the
+Dialogue: 0,0:01:02.46,0:01:02.54,Default,,0,0,0,,{\pos(540,1513)}Suddenly, you\Naren't paying for {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:01:02.54,0:01:02.68,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}chat{\c&H002A2B17&\b0} interaction.\NYou are paying for
+Dialogue: 0,0:01:02.68,0:01:03.50,Default,,0,0,0,,{\pos(540,1513)}chat {\c&H00657811&\b1}interaction.{\c&H002A2B17&\b0}\NYou are paying for
+Dialogue: 0,0:01:03.50,0:01:03.60,Default,,0,0,0,,{\pos(540,1513)}chat interaction.\N{\c&H00657811&\b1}You{\c&H002A2B17&\b0} are paying for
+Dialogue: 0,0:01:03.60,0:01:03.72,Default,,0,0,0,,{\pos(540,1513)}chat interaction.\NYou {\c&H00657811&\b1}are{\c&H002A2B17&\b0} paying for
+Dialogue: 0,0:01:03.72,0:01:03.90,Default,,0,0,0,,{\pos(540,1513)}chat interaction.\NYou are {\c&H00657811&\b1}paying{\c&H002A2B17&\b0} for
+Dialogue: 0,0:01:03.90,0:01:04.16,Default,,0,0,0,,{\pos(540,1513)}chat interaction.\NYou are paying {\c&H00657811&\b1}for{\c&H002A2B17&\b0}
+Dialogue: 0,0:01:04.16,0:01:04.23,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}an{\c&H002A2B17&\b0} absolutely massive\Ncompute spike
+Dialogue: 0,0:01:04.23,0:01:04.59,Default,,0,0,0,,{\pos(540,1513)}an {\c&H00657811&\b1}absolutely{\c&H002A2B17&\b0} massive\Ncompute spike
+Dialogue: 0,0:01:04.59,0:01:05.14,Default,,0,0,0,,{\pos(540,1513)}an absolutely {\c&H00657811&\b1}massive{\c&H002A2B17&\b0}\Ncompute spike
+Dialogue: 0,0:01:05.14,0:01:05.50,Default,,0,0,0,,{\pos(540,1513)}an absolutely massive\N{\c&H00657811&\b1}compute{\c&H002A2B17&\b0} spike
+Dialogue: 0,0:01:05.50,0:01:05.76,Default,,0,0,0,,{\pos(540,1513)}an absolutely massive\Ncompute {\c&H00657811&\b1}spike{\c&H002A2B17&\b0}
+Dialogue: 0,0:01:05.76,0:01:06.02,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}on{\c&H002A2B17&\b0} your Fabric\Ncapacity bill, because
+Dialogue: 0,0:01:06.02,0:01:06.14,Default,,0,0,0,,{\pos(540,1513)}on {\c&H00657811&\b1}your{\c&H002A2B17&\b0} Fabric\Ncapacity bill, because
+Dialogue: 0,0:01:06.14,0:01:06.36,Default,,0,0,0,,{\pos(540,1513)}on your {\c&H00657811&\b1}Fabric{\c&H002A2B17&\b0}\Ncapacity bill, because
+Dialogue: 0,0:01:06.36,0:01:06.80,Default,,0,0,0,,{\pos(540,1513)}on your Fabric\N{\c&H00657811&\b1}capacity{\c&H002A2B17&\b0} bill, because
+Dialogue: 0,0:01:06.80,0:01:07.28,Default,,0,0,0,,{\pos(540,1513)}on your Fabric\Ncapacity {\c&H00657811&\b1}bill,{\c&H002A2B17&\b0} because
+Dialogue: 0,0:01:07.28,0:01:07.42,Default,,0,0,0,,{\pos(540,1513)}on your Fabric\Ncapacity bill, {\c&H00657811&\b1}because{\c&H002A2B17&\b0}
+Dialogue: 0,0:01:07.42,0:01:07.58,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}the{\c&H002A2B17&\b0} AI decided to brute force
+Dialogue: 0,0:01:07.58,0:01:07.76,Default,,0,0,0,,{\pos(540,1513)}the {\c&H00657811&\b1}AI{\c&H002A2B17&\b0} decided to brute force
+Dialogue: 0,0:01:07.76,0:01:08.23,Default,,0,0,0,,{\pos(540,1513)}the AI {\c&H00657811&\b1}decided{\c&H002A2B17&\b0} to brute force
+Dialogue: 0,0:01:08.23,0:01:08.42,Default,,0,0,0,,{\pos(540,1513)}the AI decided {\c&H00657811&\b1}to{\c&H002A2B17&\b0} brute force
+Dialogue: 0,0:01:08.42,0:01:08.68,Default,,0,0,0,,{\pos(540,1513)}the AI decided to {\c&H00657811&\b1}brute{\c&H002A2B17&\b0} force
+Dialogue: 0,0:01:08.68,0:01:08.96,Default,,0,0,0,,{\pos(540,1513)}the AI decided to brute {\c&H00657811&\b1}force{\c&H002A2B17&\b0}
+Dialogue: 0,0:01:08.96,0:01:09.22,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}the{\c&H002A2B17&\b0} answer. The source\Nstrongly recommends
+Dialogue: 0,0:01:09.22,0:01:10.30,Default,,0,0,0,,{\pos(540,1513)}the {\c&H00657811&\b1}answer.{\c&H002A2B17&\b0} The source\Nstrongly recommends
+Dialogue: 0,0:01:10.30,0:01:10.34,Default,,0,0,0,,{\pos(540,1513)}the answer. {\c&H00657811&\b1}The{\c&H002A2B17&\b0} source\Nstrongly recommends
+Dialogue: 0,0:01:10.34,0:01:10.50,Default,,0,0,0,,{\pos(540,1513)}the answer. The {\c&H00657811&\b1}source{\c&H002A2B17&\b0}\Nstrongly recommends
+Dialogue: 0,0:01:10.50,0:01:10.92,Default,,0,0,0,,{\pos(540,1513)}the answer. The source\N{\c&H00657811&\b1}strongly{\c&H002A2B17&\b0} recommends
+Dialogue: 0,0:01:10.92,0:01:11.38,Default,,0,0,0,,{\pos(540,1513)}the answer. The source\Nstrongly {\c&H00657811&\b1}recommends{\c&H002A2B17&\b0}
+Dialogue: 0,0:01:11.38,0:01:11.70,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}using{\c&H002A2B17&\b0} the Fabric\Ncapacity metrics app
+Dialogue: 0,0:01:11.70,0:01:11.86,Default,,0,0,0,,{\pos(540,1513)}using {\c&H00657811&\b1}the{\c&H002A2B17&\b0} Fabric\Ncapacity metrics app
+Dialogue: 0,0:01:11.86,0:01:12.14,Default,,0,0,0,,{\pos(540,1513)}using the {\c&H00657811&\b1}Fabric{\c&H002A2B17&\b0}\Ncapacity metrics app
+Dialogue: 0,0:01:12.14,0:01:12.56,Default,,0,0,0,,{\pos(540,1513)}using the Fabric\N{\c&H00657811&\b1}capacity{\c&H002A2B17&\b0} metrics app
+Dialogue: 0,0:01:12.56,0:01:12.86,Default,,0,0,0,,{\pos(540,1513)}using the Fabric\Ncapacity {\c&H00657811&\b1}metrics{\c&H002A2B17&\b0} app
+Dialogue: 0,0:01:12.86,0:01:13.26,Default,,0,0,0,,{\pos(540,1513)}using the Fabric\Ncapacity metrics {\c&H00657811&\b1}app{\c&H002A2B17&\b0}
+Dialogue: 0,0:01:13.26,0:01:13.42,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}to{\c&H002A2B17&\b0} monitor this\Nunderlying compute
+Dialogue: 0,0:01:13.42,0:01:13.70,Default,,0,0,0,,{\pos(540,1513)}to {\c&H00657811&\b1}monitor{\c&H002A2B17&\b0} this\Nunderlying compute
+Dialogue: 0,0:01:13.70,0:01:14.00,Default,,0,0,0,,{\pos(540,1513)}to monitor {\c&H00657811&\b1}this{\c&H002A2B17&\b0}\Nunderlying compute
+Dialogue: 0,0:01:14.00,0:01:14.20,Default,,0,0,0,,{\pos(540,1513)}to monitor this\N{\c&H00657811&\b1}underlying{\c&H002A2B17&\b0} compute
+Dialogue: 0,0:01:14.20,0:01:14.78,Default,,0,0,0,,{\pos(540,1513)}to monitor this\Nunderlying {\c&H00657811&\b1}compute{\c&H002A2B17&\b0}
+Dialogue: 0,0:01:14.78,0:01:15.18,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}consumption{\c&H002A2B17&\b0} closely\Nduring any pilot
+Dialogue: 0,0:01:15.18,0:01:15.73,Default,,0,0,0,,{\pos(540,1513)}consumption {\c&H00657811&\b1}closely{\c&H002A2B17&\b0}\Nduring any pilot
+Dialogue: 0,0:01:15.73,0:01:16.20,Default,,0,0,0,,{\pos(540,1513)}consumption closely\N{\c&H00657811&\b1}during{\c&H002A2B17&\b0} any pilot
+Dialogue: 0,0:01:16.20,0:01:16.38,Default,,0,0,0,,{\pos(540,1513)}consumption closely\Nduring {\c&H00657811&\b1}any{\c&H002A2B17&\b0} pilot
+Dialogue: 0,0:01:16.38,0:01:16.56,Default,,0,0,0,,{\pos(540,1513)}consumption closely\Nduring any {\c&H00657811&\b1}pilot{\c&H002A2B17&\b0}
+Dialogue: 0,0:01:16.56,0:01:16.95,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}program.{\c&H002A2B17&\b0}

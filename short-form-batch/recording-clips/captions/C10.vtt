@@ -1,70 +1,70 @@
 WEBVTT
 
-00:00:00.801 --> 00:00:01.580
+00:00:00.079 --> 00:00:01.739
 which naturally raises the question
 
-00:00:01.460 --> 00:00:04.140
+00:00:01.739 --> 00:00:04.299
 is Fabric IQ, which is the
 
-00:00:04.019 --> 00:00:05.860
+00:00:04.299 --> 00:00:06.019
 specific service where this ontology
 
-00:00:05.740 --> 00:00:08.139
+00:00:06.019 --> 00:00:08.299
 feature lives. Just another database
 
-00:00:08.020 --> 00:00:08.940
+00:00:08.299 --> 00:00:09.219
 we have to maintain.
 
-00:00:09.360 --> 00:00:12.020
+00:00:09.639 --> 00:00:12.179
 That is the most persistent misconception
 
-00:00:11.900 --> 00:00:13.459
+00:00:12.179 --> 00:00:13.619
 we see and we really have
 
-00:00:13.340 --> 00:00:14.319
+00:00:13.619 --> 00:00:14.599
 to clear it up immediately.
 
-00:00:14.800 --> 00:00:17.980
+00:00:15.079 --> 00:00:18.139
 Fabric IQ is emphatically not a
 
-00:00:17.860 --> 00:00:19.880
+00:00:18.139 --> 00:00:20.039
 database. Okay, so it doesn't store
 
-00:00:19.760 --> 00:00:22.380
+00:00:20.039 --> 00:00:22.539
 data? It does not store your
 
-00:00:22.259 --> 00:00:25.020
+00:00:22.539 --> 00:00:25.179
 transactional data. Fabric IQ organizes
 
-00:00:24.900 --> 00:00:26.940
+00:00:25.179 --> 00:00:27.099
 the business context that hovers over
 
-00:00:26.820 --> 00:00:28.280
+00:00:27.099 --> 00:00:28.559
 the data you already have.
 
-00:00:28.520 --> 00:00:30.800
+00:00:28.799 --> 00:00:30.959
 If it doesn't hold data, what
 
-00:00:30.680 --> 00:00:31.380
+00:00:30.959 --> 00:00:31.659
 is it holding?
 
-00:00:31.780 --> 00:00:33.139
+00:00:32.059 --> 00:00:33.299
 Think of it as a semantic
 
-00:00:33.019 --> 00:00:35.880
+00:00:33.299 --> 00:00:36.039
 translation layer. Power BI provides
 
-00:00:35.760 --> 00:00:37.419
+00:00:36.039 --> 00:00:37.699
 your curated analytics and visuals.
 
-00:00:38.180 --> 00:00:39.559
+00:00:38.459 --> 00:00:39.719
 Your Lakehouse provides the raw storage,
 
-00:00:39.440 --> 00:00:42.559
+00:00:39.719 --> 00:00:42.719
 but the ontology living inside Fabric
 
-00:00:42.440 --> 00:00:45.440
+00:00:42.719 --> 00:00:45.599
 IQ defines the actual concepts and
 
-00:00:45.320 --> 00:00:45.779
+00:00:45.599 --> 00:00:46.059
 connections.

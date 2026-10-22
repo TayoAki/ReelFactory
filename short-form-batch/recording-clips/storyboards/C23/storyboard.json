@@ -56,5 +56,38 @@
   "source_start": 1369.410975,
   "source_end": 1435.990975,
   "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion.",
+  "caption_status": "Word-timed ASR draft; human proofreading pending",
+  "line_shot_edit": [
+    {
+      "LINE": "A relational database might have a column named priority level, filled with the numbers one,",
+      "SHOT": "Fixed fictional portrait rail + Meaning is not just a data type",
+      "EDIT": "Reveal independent card at 0.7s; 420ms fade, 16px eased settling"
+    },
+    {
+      "LINE": "A relational database might have a column named priority level, filled with the numbers one, two, and three.",
+      "SHOT": "Fixed fictional portrait rail + Priority = 1",
+      "EDIT": "Reveal independent card at 2.16s; 420ms fade, 16px eased settling"
+    },
+    {
+      "LINE": "means explicitly writing out the definition of what constitutes a priority store. Is it based on square footage,",
+      "SHOT": "Fixed fictional portrait rail + Approved business definition",
+      "EDIT": "Reveal independent card at 55.08s; 420ms fade, 16px eased settling"
+    }
+  ],
+  "viewer_understanding_before": "Priority = 1",
+  "viewer_understanding_after": "Meaning is not just a data type",
+  "graphic_choice_reason": "The schema cannot explain priority: Compare interpretations without implying causation.",
+  "credible_alternative": "A single explanatory list",
+  "why_alternative_rejected": "A list obscures that one term/value can have competing interpretations; retain a common anchor and compare the two meanings.",
+  "cannot_establish": "This illustrative diagram cannot prove an actual product interaction, executed query, security guarantee or measured improvement.",
+  "reference_images_used_for_generation": [
+    "reference-library/frames/graphic/0003510.jpg",
+    "motion-pilot-fabric/fabric-theme/master.png",
+    "short-form-batch/recording-clips/assets/host.png",
+    "short-form-batch/recording-clips/assets/guest.png"
+  ],
+  "source_library_semantic_match": "Original reference supplies visual grammar; exact subject relationships are adapted from this recording. No claim of an exact reference-video semantic or motion match.",
+  "original_reference_url": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "review_status": "Draft; representative visual samples and artifact bounds checked, human editorial approval pending."
 }

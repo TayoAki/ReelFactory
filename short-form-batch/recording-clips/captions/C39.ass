@@ -1,0 +1,211 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.10,0:00:00.31,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Let's{\c&H002A2B17&\b0} say I am the lead
+Dialogue: 0,0:00:00.31,0:00:00.43,Default,,0,0,0,,{\pos(540,1513)}Let's {\c&H00657811&\b1}say{\c&H002A2B17&\b0} I am the lead
+Dialogue: 0,0:00:00.43,0:00:00.70,Default,,0,0,0,,{\pos(540,1513)}Let's say {\c&H00657811&\b1}I{\c&H002A2B17&\b0} am the lead
+Dialogue: 0,0:00:00.70,0:00:00.85,Default,,0,0,0,,{\pos(540,1513)}Let's say I {\c&H00657811&\b1}am{\c&H002A2B17&\b0} the lead
+Dialogue: 0,0:00:00.85,0:00:00.96,Default,,0,0,0,,{\pos(540,1513)}Let's say I am {\c&H00657811&\b1}the{\c&H002A2B17&\b0} lead
+Dialogue: 0,0:00:00.96,0:00:01.16,Default,,0,0,0,,{\pos(540,1513)}Let's say I am the {\c&H00657811&\b1}lead{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:01.16,0:00:01.36,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}data{\c&H002A2B17&\b0} engineer. I\Nbuilt this ontology,
+Dialogue: 0,0:00:01.36,0:00:02.54,Default,,0,0,0,,{\pos(540,1513)}data {\c&H00657811&\b1}engineer.{\c&H002A2B17&\b0} I\Nbuilt this ontology,
+Dialogue: 0,0:00:02.54,0:00:02.70,Default,,0,0,0,,{\pos(540,1513)}data engineer. {\c&H00657811&\b1}I{\c&H002A2B17&\b0}\Nbuilt this ontology,
+Dialogue: 0,0:00:02.70,0:00:02.86,Default,,0,0,0,,{\pos(540,1513)}data engineer. I\N{\c&H00657811&\b1}built{\c&H002A2B17&\b0} this ontology,
+Dialogue: 0,0:00:02.86,0:00:03.04,Default,,0,0,0,,{\pos(540,1513)}data engineer. I\Nbuilt {\c&H00657811&\b1}this{\c&H002A2B17&\b0} ontology,
+Dialogue: 0,0:00:03.04,0:00:03.60,Default,,0,0,0,,{\pos(540,1513)}data engineer. I\Nbuilt this {\c&H00657811&\b1}ontology,{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:04.12,0:00:04.20,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}so{\c&H002A2B17&\b0} I have administrative\Naccess to
+Dialogue: 0,0:00:04.20,0:00:04.38,Default,,0,0,0,,{\pos(540,1513)}so {\c&H00657811&\b1}I{\c&H002A2B17&\b0} have administrative\Naccess to
+Dialogue: 0,0:00:04.38,0:00:04.51,Default,,0,0,0,,{\pos(540,1513)}so I {\c&H00657811&\b1}have{\c&H002A2B17&\b0} administrative\Naccess to
+Dialogue: 0,0:00:04.51,0:00:04.86,Default,,0,0,0,,{\pos(540,1513)}so I have {\c&H00657811&\b1}administrative{\c&H002A2B17&\b0}\Naccess to
+Dialogue: 0,0:00:04.86,0:00:05.36,Default,,0,0,0,,{\pos(540,1513)}so I have administrative\N{\c&H00657811&\b1}access{\c&H002A2B17&\b0} to
+Dialogue: 0,0:00:05.36,0:00:05.62,Default,,0,0,0,,{\pos(540,1513)}so I have administrative\Naccess {\c&H00657811&\b1}to{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:05.62,0:00:06.16,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}everything.{\c&H002A2B17&\b0} I ask\Nit about revenue
+Dialogue: 0,0:00:06.16,0:00:06.26,Default,,0,0,0,,{\pos(540,1513)}everything. {\c&H00657811&\b1}I{\c&H002A2B17&\b0} ask\Nit about revenue
+Dialogue: 0,0:00:06.26,0:00:07.27,Default,,0,0,0,,{\pos(540,1513)}everything. I {\c&H00657811&\b1}ask{\c&H002A2B17&\b0}\Nit about revenue
+Dialogue: 0,0:00:07.27,0:00:07.48,Default,,0,0,0,,{\pos(540,1513)}everything. I ask\N{\c&H00657811&\b1}it{\c&H002A2B17&\b0} about revenue
+Dialogue: 0,0:00:07.48,0:00:07.61,Default,,0,0,0,,{\pos(540,1513)}everything. I ask\Nit {\c&H00657811&\b1}about{\c&H002A2B17&\b0} revenue
+Dialogue: 0,0:00:07.61,0:00:07.94,Default,,0,0,0,,{\pos(540,1513)}everything. I ask\Nit about {\c&H00657811&\b1}revenue{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:07.94,0:00:08.14,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}and{\c&H002A2B17&\b0} inventory across\Nthe entire global
+Dialogue: 0,0:00:08.14,0:00:08.44,Default,,0,0,0,,{\pos(540,1513)}and {\c&H00657811&\b1}inventory{\c&H002A2B17&\b0} across\Nthe entire global
+Dialogue: 0,0:00:08.44,0:00:08.69,Default,,0,0,0,,{\pos(540,1513)}and inventory {\c&H00657811&\b1}across{\c&H002A2B17&\b0}\Nthe entire global
+Dialogue: 0,0:00:08.69,0:00:08.92,Default,,0,0,0,,{\pos(540,1513)}and inventory across\N{\c&H00657811&\b1}the{\c&H002A2B17&\b0} entire global
+Dialogue: 0,0:00:08.92,0:00:09.08,Default,,0,0,0,,{\pos(540,1513)}and inventory across\Nthe {\c&H00657811&\b1}entire{\c&H002A2B17&\b0} global
+Dialogue: 0,0:00:09.08,0:00:09.38,Default,,0,0,0,,{\pos(540,1513)}and inventory across\Nthe entire {\c&H00657811&\b1}global{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:09.38,0:00:10.42,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}company,{\c&H002A2B17&\b0} and it gives me a
+Dialogue: 0,0:00:10.42,0:00:10.66,Default,,0,0,0,,{\pos(540,1513)}company, {\c&H00657811&\b1}and{\c&H002A2B17&\b0} it gives me a
+Dialogue: 0,0:00:10.66,0:00:10.80,Default,,0,0,0,,{\pos(540,1513)}company, and {\c&H00657811&\b1}it{\c&H002A2B17&\b0} gives me a
+Dialogue: 0,0:00:10.80,0:00:10.90,Default,,0,0,0,,{\pos(540,1513)}company, and it {\c&H00657811&\b1}gives{\c&H002A2B17&\b0} me a
+Dialogue: 0,0:00:10.90,0:00:11.08,Default,,0,0,0,,{\pos(540,1513)}company, and it gives {\c&H00657811&\b1}me{\c&H002A2B17&\b0} a
+Dialogue: 0,0:00:11.08,0:00:11.18,Default,,0,0,0,,{\pos(540,1513)}company, and it gives me {\c&H00657811&\b1}a{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:11.18,0:00:11.42,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}comprehensive{\c&H002A2B17&\b0}\Nanswer. Now, I share
+Dialogue: 0,0:00:11.42,0:00:12.36,Default,,0,0,0,,{\pos(540,1513)}comprehensive\N{\c&H00657811&\b1}answer.{\c&H002A2B17&\b0} Now, I share
+Dialogue: 0,0:00:12.36,0:00:12.96,Default,,0,0,0,,{\pos(540,1513)}comprehensive\Nanswer. {\c&H00657811&\b1}Now,{\c&H002A2B17&\b0} I share
+Dialogue: 0,0:00:12.96,0:00:13.08,Default,,0,0,0,,{\pos(540,1513)}comprehensive\Nanswer. Now, {\c&H00657811&\b1}I{\c&H002A2B17&\b0} share
+Dialogue: 0,0:00:13.08,0:00:13.28,Default,,0,0,0,,{\pos(540,1513)}comprehensive\Nanswer. Now, I {\c&H00657811&\b1}share{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:13.28,0:00:13.48,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}that{\c&H002A2B17&\b0} exact same\NFabric ontology file
+Dialogue: 0,0:00:13.48,0:00:13.62,Default,,0,0,0,,{\pos(540,1513)}that {\c&H00657811&\b1}exact{\c&H002A2B17&\b0} same\NFabric ontology file
+Dialogue: 0,0:00:13.62,0:00:14.22,Default,,0,0,0,,{\pos(540,1513)}that exact {\c&H00657811&\b1}same{\c&H002A2B17&\b0}\NFabric ontology file
+Dialogue: 0,0:00:14.22,0:00:14.70,Default,,0,0,0,,{\pos(540,1513)}that exact same\N{\c&H00657811&\b1}Fabric{\c&H002A2B17&\b0} ontology file
+Dialogue: 0,0:00:14.70,0:00:15.30,Default,,0,0,0,,{\pos(540,1513)}that exact same\NFabric {\c&H00657811&\b1}ontology{\c&H002A2B17&\b0} file
+Dialogue: 0,0:00:15.30,0:00:15.80,Default,,0,0,0,,{\pos(540,1513)}that exact same\NFabric ontology {\c&H00657811&\b1}file{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:15.80,0:00:16.52,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}with{\c&H002A2B17&\b0} a regional\Nmanager who only
+Dialogue: 0,0:00:16.52,0:00:16.76,Default,,0,0,0,,{\pos(540,1513)}with {\c&H00657811&\b1}a{\c&H002A2B17&\b0} regional\Nmanager who only
+Dialogue: 0,0:00:16.76,0:00:17.04,Default,,0,0,0,,{\pos(540,1513)}with a {\c&H00657811&\b1}regional{\c&H002A2B17&\b0}\Nmanager who only
+Dialogue: 0,0:00:17.04,0:00:17.44,Default,,0,0,0,,{\pos(540,1513)}with a regional\N{\c&H00657811&\b1}manager{\c&H002A2B17&\b0} who only
+Dialogue: 0,0:00:17.44,0:00:17.80,Default,,0,0,0,,{\pos(540,1513)}with a regional\Nmanager {\c&H00657811&\b1}who{\c&H002A2B17&\b0} only
+Dialogue: 0,0:00:17.80,0:00:18.02,Default,,0,0,0,,{\pos(540,1513)}with a regional\Nmanager who {\c&H00657811&\b1}only{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:18.02,0:00:18.30,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}handles{\c&H002A2B17&\b0} the West Coast.
+Dialogue: 0,0:00:18.30,0:00:18.48,Default,,0,0,0,,{\pos(540,1513)}handles {\c&H00657811&\b1}the{\c&H002A2B17&\b0} West Coast.
+Dialogue: 0,0:00:18.48,0:00:18.60,Default,,0,0,0,,{\pos(540,1513)}handles the {\c&H00657811&\b1}West{\c&H002A2B17&\b0} Coast.
+Dialogue: 0,0:00:18.60,0:00:18.82,Default,,0,0,0,,{\pos(540,1513)}handles the West {\c&H00657811&\b1}Coast.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:18.82,0:00:19.54,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}If{\c&H002A2B17&\b0} the West Coast\NRegional Manager
+Dialogue: 0,0:00:19.54,0:00:19.70,Default,,0,0,0,,{\pos(540,1513)}If {\c&H00657811&\b1}the{\c&H002A2B17&\b0} West Coast\NRegional Manager
+Dialogue: 0,0:00:19.70,0:00:19.96,Default,,0,0,0,,{\pos(540,1513)}If the {\c&H00657811&\b1}West{\c&H002A2B17&\b0} Coast\NRegional Manager
+Dialogue: 0,0:00:19.96,0:00:20.34,Default,,0,0,0,,{\pos(540,1513)}If the West {\c&H00657811&\b1}Coast{\c&H002A2B17&\b0}\NRegional Manager
+Dialogue: 0,0:00:20.34,0:00:20.62,Default,,0,0,0,,{\pos(540,1513)}If the West Coast\N{\c&H00657811&\b1}Regional{\c&H002A2B17&\b0} Manager
+Dialogue: 0,0:00:20.62,0:00:21.12,Default,,0,0,0,,{\pos(540,1513)}If the West Coast\NRegional {\c&H00657811&\b1}Manager{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:21.12,0:00:21.46,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}logs{\c&H002A2B17&\b0} in and asks the exact
+Dialogue: 0,0:00:21.46,0:00:21.82,Default,,0,0,0,,{\pos(540,1513)}logs {\c&H00657811&\b1}in{\c&H002A2B17&\b0} and asks the exact
+Dialogue: 0,0:00:21.82,0:00:22.10,Default,,0,0,0,,{\pos(540,1513)}logs in {\c&H00657811&\b1}and{\c&H002A2B17&\b0} asks the exact
+Dialogue: 0,0:00:22.10,0:00:22.38,Default,,0,0,0,,{\pos(540,1513)}logs in and {\c&H00657811&\b1}asks{\c&H002A2B17&\b0} the exact
+Dialogue: 0,0:00:22.38,0:00:22.64,Default,,0,0,0,,{\pos(540,1513)}logs in and asks {\c&H00657811&\b1}the{\c&H002A2B17&\b0} exact
+Dialogue: 0,0:00:22.64,0:00:22.90,Default,,0,0,0,,{\pos(540,1513)}logs in and asks the {\c&H00657811&\b1}exact{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:22.90,0:00:23.68,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}same{\c&H002A2B17&\b0} verbatim\Nquestion, show me all
+Dialogue: 0,0:00:23.68,0:00:24.20,Default,,0,0,0,,{\pos(540,1513)}same {\c&H00657811&\b1}verbatim{\c&H002A2B17&\b0}\Nquestion, show me all
+Dialogue: 0,0:00:24.20,0:00:24.70,Default,,0,0,0,,{\pos(540,1513)}same verbatim\N{\c&H00657811&\b1}question,{\c&H002A2B17&\b0} show me all
+Dialogue: 0,0:00:24.70,0:00:24.90,Default,,0,0,0,,{\pos(540,1513)}same verbatim\Nquestion, {\c&H00657811&\b1}show{\c&H002A2B17&\b0} me all
+Dialogue: 0,0:00:24.90,0:00:25.02,Default,,0,0,0,,{\pos(540,1513)}same verbatim\Nquestion, show {\c&H00657811&\b1}me{\c&H002A2B17&\b0} all
+Dialogue: 0,0:00:25.02,0:00:25.30,Default,,0,0,0,,{\pos(540,1513)}same verbatim\Nquestion, show me {\c&H00657811&\b1}all{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:25.30,0:00:25.52,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}global{\c&H002A2B17&\b0} revenue\Nand inventory risk,
+Dialogue: 0,0:00:25.52,0:00:25.90,Default,,0,0,0,,{\pos(540,1513)}global {\c&H00657811&\b1}revenue{\c&H002A2B17&\b0}\Nand inventory risk,
+Dialogue: 0,0:00:25.90,0:00:26.18,Default,,0,0,0,,{\pos(540,1513)}global revenue\N{\c&H00657811&\b1}and{\c&H002A2B17&\b0} inventory risk,
+Dialogue: 0,0:00:26.18,0:00:26.42,Default,,0,0,0,,{\pos(540,1513)}global revenue\Nand {\c&H00657811&\b1}inventory{\c&H002A2B17&\b0} risk,
+Dialogue: 0,0:00:26.42,0:00:27.04,Default,,0,0,0,,{\pos(540,1513)}global revenue\Nand inventory {\c&H00657811&\b1}risk,{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:27.34,0:00:27.52,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}the{\c&H002A2B17&\b0} agent will\Nonly return data
+Dialogue: 0,0:00:27.52,0:00:27.82,Default,,0,0,0,,{\pos(540,1513)}the {\c&H00657811&\b1}agent{\c&H002A2B17&\b0} will\Nonly return data
+Dialogue: 0,0:00:27.82,0:00:28.06,Default,,0,0,0,,{\pos(540,1513)}the agent {\c&H00657811&\b1}will{\c&H002A2B17&\b0}\Nonly return data
+Dialogue: 0,0:00:28.06,0:00:28.61,Default,,0,0,0,,{\pos(540,1513)}the agent will\N{\c&H00657811&\b1}only{\c&H002A2B17&\b0} return data
+Dialogue: 0,0:00:28.61,0:00:29.04,Default,,0,0,0,,{\pos(540,1513)}the agent will\Nonly {\c&H00657811&\b1}return{\c&H002A2B17&\b0} data
+Dialogue: 0,0:00:29.04,0:00:29.26,Default,,0,0,0,,{\pos(540,1513)}the agent will\Nonly return {\c&H00657811&\b1}data{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:29.26,0:00:29.52,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}for{\c&H002A2B17&\b0} the West Coast.
+Dialogue: 0,0:00:29.52,0:00:29.64,Default,,0,0,0,,{\pos(540,1513)}for {\c&H00657811&\b1}the{\c&H002A2B17&\b0} West Coast.
+Dialogue: 0,0:00:29.64,0:00:29.82,Default,,0,0,0,,{\pos(540,1513)}for the {\c&H00657811&\b1}West{\c&H002A2B17&\b0} Coast.
+Dialogue: 0,0:00:29.82,0:00:30.32,Default,,0,0,0,,{\pos(540,1513)}for the West {\c&H00657811&\b1}Coast.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:30.52,0:00:30.64,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}When{\c&H002A2B17&\b0} it really, even with the
+Dialogue: 0,0:00:30.64,0:00:30.72,Default,,0,0,0,,{\pos(540,1513)}When {\c&H00657811&\b1}it{\c&H002A2B17&\b0} really, even with the
+Dialogue: 0,0:00:30.72,0:00:31.30,Default,,0,0,0,,{\pos(540,1513)}When it {\c&H00657811&\b1}really,{\c&H002A2B17&\b0} even with the
+Dialogue: 0,0:00:31.30,0:00:31.72,Default,,0,0,0,,{\pos(540,1513)}When it really, {\c&H00657811&\b1}even{\c&H002A2B17&\b0} with the
+Dialogue: 0,0:00:31.72,0:00:31.82,Default,,0,0,0,,{\pos(540,1513)}When it really, even {\c&H00657811&\b1}with{\c&H002A2B17&\b0} the
+Dialogue: 0,0:00:31.82,0:00:31.94,Default,,0,0,0,,{\pos(540,1513)}When it really, even with {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:31.94,0:00:32.06,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}same{\c&H002A2B17&\b0} prompt. Yes.
+Dialogue: 0,0:00:32.06,0:00:32.54,Default,,0,0,0,,{\pos(540,1513)}same {\c&H00657811&\b1}prompt.{\c&H002A2B17&\b0} Yes.
+Dialogue: 0,0:00:32.54,0:00:32.90,Default,,0,0,0,,{\pos(540,1513)}same prompt. {\c&H00657811&\b1}Yes.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:33.36,0:00:33.70,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Because{\c&H002A2B17&\b0} when the\NAI attempts to
+Dialogue: 0,0:00:33.70,0:00:33.86,Default,,0,0,0,,{\pos(540,1513)}Because {\c&H00657811&\b1}when{\c&H002A2B17&\b0} the\NAI attempts to
+Dialogue: 0,0:00:33.86,0:00:33.96,Default,,0,0,0,,{\pos(540,1513)}Because when {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\NAI attempts to
+Dialogue: 0,0:00:33.96,0:00:34.10,Default,,0,0,0,,{\pos(540,1513)}Because when the\N{\c&H00657811&\b1}AI{\c&H002A2B17&\b0} attempts to
+Dialogue: 0,0:00:34.10,0:00:34.48,Default,,0,0,0,,{\pos(540,1513)}Because when the\NAI {\c&H00657811&\b1}attempts{\c&H002A2B17&\b0} to
+Dialogue: 0,0:00:34.48,0:00:34.70,Default,,0,0,0,,{\pos(540,1513)}Because when the\NAI attempts {\c&H00657811&\b1}to{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:34.70,0:00:35.04,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}execute{\c&H002A2B17&\b0} the SQL\Nquery against the
+Dialogue: 0,0:00:35.04,0:00:35.22,Default,,0,0,0,,{\pos(540,1513)}execute {\c&H00657811&\b1}the{\c&H002A2B17&\b0} SQL\Nquery against the
+Dialogue: 0,0:00:35.22,0:00:35.42,Default,,0,0,0,,{\pos(540,1513)}execute the {\c&H00657811&\b1}SQL{\c&H002A2B17&\b0}\Nquery against the
+Dialogue: 0,0:00:35.42,0:00:35.78,Default,,0,0,0,,{\pos(540,1513)}execute the SQL\N{\c&H00657811&\b1}query{\c&H002A2B17&\b0} against the
+Dialogue: 0,0:00:35.78,0:00:36.14,Default,,0,0,0,,{\pos(540,1513)}execute the SQL\Nquery {\c&H00657811&\b1}against{\c&H002A2B17&\b0} the
+Dialogue: 0,0:00:36.14,0:00:36.36,Default,,0,0,0,,{\pos(540,1513)}execute the SQL\Nquery against {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:36.36,0:00:36.72,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}underlying{\c&H002A2B17&\b0} Lakehouse,\Nthe database
+Dialogue: 0,0:00:36.72,0:00:37.98,Default,,0,0,0,,{\pos(540,1513)}underlying {\c&H00657811&\b1}Lakehouse,{\c&H002A2B17&\b0}\Nthe database
+Dialogue: 0,0:00:37.98,0:00:38.06,Default,,0,0,0,,{\pos(540,1513)}underlying Lakehouse,\N{\c&H00657811&\b1}the{\c&H002A2B17&\b0} database
+Dialogue: 0,0:00:38.06,0:00:38.32,Default,,0,0,0,,{\pos(540,1513)}underlying Lakehouse,\Nthe {\c&H00657811&\b1}database{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:38.32,0:00:39.01,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}recognizes{\c&H002A2B17&\b0} the\Nmanager's identity and
+Dialogue: 0,0:00:39.01,0:00:39.29,Default,,0,0,0,,{\pos(540,1513)}recognizes {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nmanager's identity and
+Dialogue: 0,0:00:39.29,0:00:39.72,Default,,0,0,0,,{\pos(540,1513)}recognizes the\N{\c&H00657811&\b1}manager's{\c&H002A2B17&\b0} identity and
+Dialogue: 0,0:00:39.72,0:00:40.29,Default,,0,0,0,,{\pos(540,1513)}recognizes the\Nmanager's {\c&H00657811&\b1}identity{\c&H002A2B17&\b0} and
+Dialogue: 0,0:00:40.29,0:00:40.58,Default,,0,0,0,,{\pos(540,1513)}recognizes the\Nmanager's identity {\c&H00657811&\b1}and{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:40.58,0:00:41.02,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}enforces{\c&H002A2B17&\b0} row -level\Nsecurity, blocking
+Dialogue: 0,0:00:41.02,0:00:41.42,Default,,0,0,0,,{\pos(540,1513)}enforces {\c&H00657811&\b1}row{\c&H002A2B17&\b0} -level\Nsecurity, blocking
+Dialogue: 0,0:00:41.42,0:00:41.74,Default,,0,0,0,,{\pos(540,1513)}enforces row {\c&H00657811&\b1}-level{\c&H002A2B17&\b0}\Nsecurity, blocking
+Dialogue: 0,0:00:41.74,0:00:42.60,Default,,0,0,0,,{\pos(540,1513)}enforces row -level\N{\c&H00657811&\b1}security,{\c&H002A2B17&\b0} blocking
+Dialogue: 0,0:00:42.60,0:00:43.02,Default,,0,0,0,,{\pos(540,1513)}enforces row -level\Nsecurity, {\c&H00657811&\b1}blocking{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:43.02,0:00:43.40,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}access{\c&H002A2B17&\b0} to the\NEast Coast data.
+Dialogue: 0,0:00:43.40,0:00:43.72,Default,,0,0,0,,{\pos(540,1513)}access {\c&H00657811&\b1}to{\c&H002A2B17&\b0} the\NEast Coast data.
+Dialogue: 0,0:00:43.72,0:00:43.84,Default,,0,0,0,,{\pos(540,1513)}access to {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\NEast Coast data.
+Dialogue: 0,0:00:43.84,0:00:44.00,Default,,0,0,0,,{\pos(540,1513)}access to the\N{\c&H00657811&\b1}East{\c&H002A2B17&\b0} Coast data.
+Dialogue: 0,0:00:44.00,0:00:44.18,Default,,0,0,0,,{\pos(540,1513)}access to the\NEast {\c&H00657811&\b1}Coast{\c&H002A2B17&\b0} data.
+Dialogue: 0,0:00:44.18,0:00:44.55,Default,,0,0,0,,{\pos(540,1513)}access to the\NEast Coast {\c&H00657811&\b1}data.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:45.04,0:00:45.30,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}That{\c&H002A2B17&\b0} is so smart.
+Dialogue: 0,0:00:45.30,0:00:45.38,Default,,0,0,0,,{\pos(540,1513)}That {\c&H00657811&\b1}is{\c&H002A2B17&\b0} so smart.
+Dialogue: 0,0:00:45.38,0:00:45.52,Default,,0,0,0,,{\pos(540,1513)}That is {\c&H00657811&\b1}so{\c&H002A2B17&\b0} smart.
+Dialogue: 0,0:00:45.52,0:00:45.91,Default,,0,0,0,,{\pos(540,1513)}That is so {\c&H00657811&\b1}smart.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:46.70,0:00:47.04,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}The{\c&H002A2B17&\b0} source\Ndocumentation is explicit
+Dialogue: 0,0:00:47.04,0:00:47.18,Default,,0,0,0,,{\pos(540,1513)}The {\c&H00657811&\b1}source{\c&H002A2B17&\b0}\Ndocumentation is explicit
+Dialogue: 0,0:00:47.18,0:00:47.56,Default,,0,0,0,,{\pos(540,1513)}The source\N{\c&H00657811&\b1}documentation{\c&H002A2B17&\b0} is explicit
+Dialogue: 0,0:00:47.56,0:00:48.02,Default,,0,0,0,,{\pos(540,1513)}The source\Ndocumentation {\c&H00657811&\b1}is{\c&H002A2B17&\b0} explicit
+Dialogue: 0,0:00:48.02,0:00:48.42,Default,,0,0,0,,{\pos(540,1513)}The source\Ndocumentation is {\c&H00657811&\b1}explicit{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:48.42,0:00:48.78,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}on{\c&H002A2B17&\b0} this point.
+Dialogue: 0,0:00:48.78,0:00:48.90,Default,,0,0,0,,{\pos(540,1513)}on {\c&H00657811&\b1}this{\c&H002A2B17&\b0} point.
+Dialogue: 0,0:00:48.90,0:00:49.22,Default,,0,0,0,,{\pos(540,1513)}on this {\c&H00657811&\b1}point.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:49.54,0:00:49.64,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Sharing{\c&H002A2B17&\b0} an ontology\Nwith a user
+Dialogue: 0,0:00:49.64,0:00:49.82,Default,,0,0,0,,{\pos(540,1513)}Sharing {\c&H00657811&\b1}an{\c&H002A2B17&\b0} ontology\Nwith a user
+Dialogue: 0,0:00:49.82,0:00:50.24,Default,,0,0,0,,{\pos(540,1513)}Sharing an {\c&H00657811&\b1}ontology{\c&H002A2B17&\b0}\Nwith a user
+Dialogue: 0,0:00:50.24,0:00:50.54,Default,,0,0,0,,{\pos(540,1513)}Sharing an ontology\N{\c&H00657811&\b1}with{\c&H002A2B17&\b0} a user
+Dialogue: 0,0:00:50.54,0:00:50.60,Default,,0,0,0,,{\pos(540,1513)}Sharing an ontology\Nwith {\c&H00657811&\b1}a{\c&H002A2B17&\b0} user
+Dialogue: 0,0:00:50.60,0:00:50.86,Default,,0,0,0,,{\pos(540,1513)}Sharing an ontology\Nwith a {\c&H00657811&\b1}user{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:50.86,0:00:51.08,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}does{\c&H002A2B17&\b0} not magically\Nbypass workspace
+Dialogue: 0,0:00:51.08,0:00:51.50,Default,,0,0,0,,{\pos(540,1513)}does {\c&H00657811&\b1}not{\c&H002A2B17&\b0} magically\Nbypass workspace
+Dialogue: 0,0:00:51.50,0:00:52.06,Default,,0,0,0,,{\pos(540,1513)}does not {\c&H00657811&\b1}magically{\c&H002A2B17&\b0}\Nbypass workspace
+Dialogue: 0,0:00:52.06,0:00:52.36,Default,,0,0,0,,{\pos(540,1513)}does not magically\N{\c&H00657811&\b1}bypass{\c&H002A2B17&\b0} workspace
+Dialogue: 0,0:00:52.36,0:00:52.82,Default,,0,0,0,,{\pos(540,1513)}does not magically\Nbypass {\c&H00657811&\b1}workspace{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:52.82,0:00:53.34,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}item{\c&H002A2B17&\b0} permissions or\Ndatabase security.
+Dialogue: 0,0:00:53.34,0:00:53.62,Default,,0,0,0,,{\pos(540,1513)}item {\c&H00657811&\b1}permissions{\c&H002A2B17&\b0} or\Ndatabase security.
+Dialogue: 0,0:00:53.62,0:00:54.02,Default,,0,0,0,,{\pos(540,1513)}item permissions {\c&H00657811&\b1}or{\c&H002A2B17&\b0}\Ndatabase security.
+Dialogue: 0,0:00:54.02,0:00:54.22,Default,,0,0,0,,{\pos(540,1513)}item permissions or\N{\c&H00657811&\b1}database{\c&H002A2B17&\b0} security.
+Dialogue: 0,0:00:54.22,0:00:54.84,Default,,0,0,0,,{\pos(540,1513)}item permissions or\Ndatabase {\c&H00657811&\b1}security.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:55.68,0:00:55.70,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}So{\c&H002A2B17&\b0} an engineer\Nsuccessfully querying
+Dialogue: 0,0:00:55.70,0:00:55.86,Default,,0,0,0,,{\pos(540,1513)}So {\c&H00657811&\b1}an{\c&H002A2B17&\b0} engineer\Nsuccessfully querying
+Dialogue: 0,0:00:55.86,0:00:56.23,Default,,0,0,0,,{\pos(540,1513)}So an {\c&H00657811&\b1}engineer{\c&H002A2B17&\b0}\Nsuccessfully querying
+Dialogue: 0,0:00:56.23,0:00:56.64,Default,,0,0,0,,{\pos(540,1513)}So an engineer\N{\c&H00657811&\b1}successfully{\c&H002A2B17&\b0} querying
+Dialogue: 0,0:00:56.64,0:00:57.66,Default,,0,0,0,,{\pos(540,1513)}So an engineer\Nsuccessfully {\c&H00657811&\b1}querying{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:57.66,0:00:57.86,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}a{\c&H002A2B17&\b0} source during\Ntesting does not
+Dialogue: 0,0:00:57.86,0:00:58.10,Default,,0,0,0,,{\pos(540,1513)}a {\c&H00657811&\b1}source{\c&H002A2B17&\b0} during\Ntesting does not
+Dialogue: 0,0:00:58.10,0:00:58.36,Default,,0,0,0,,{\pos(540,1513)}a source {\c&H00657811&\b1}during{\c&H002A2B17&\b0}\Ntesting does not
+Dialogue: 0,0:00:58.36,0:00:58.80,Default,,0,0,0,,{\pos(540,1513)}a source during\N{\c&H00657811&\b1}testing{\c&H002A2B17&\b0} does not
+Dialogue: 0,0:00:58.80,0:00:59.72,Default,,0,0,0,,{\pos(540,1513)}a source during\Ntesting {\c&H00657811&\b1}does{\c&H002A2B17&\b0} not
+Dialogue: 0,0:00:59.72,0:00:59.88,Default,,0,0,0,,{\pos(540,1513)}a source during\Ntesting does {\c&H00657811&\b1}not{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:59.88,0:01:00.12,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}guarantee{\c&H002A2B17&\b0} that\Nan end user will
+Dialogue: 0,0:01:00.12,0:01:00.46,Default,,0,0,0,,{\pos(540,1513)}guarantee {\c&H00657811&\b1}that{\c&H002A2B17&\b0}\Nan end user will
+Dialogue: 0,0:01:00.46,0:01:00.62,Default,,0,0,0,,{\pos(540,1513)}guarantee that\N{\c&H00657811&\b1}an{\c&H002A2B17&\b0} end user will
+Dialogue: 0,0:01:00.62,0:01:00.78,Default,,0,0,0,,{\pos(540,1513)}guarantee that\Nan {\c&H00657811&\b1}end{\c&H002A2B17&\b0} user will
+Dialogue: 0,0:01:00.78,0:01:01.04,Default,,0,0,0,,{\pos(540,1513)}guarantee that\Nan end {\c&H00657811&\b1}user{\c&H002A2B17&\b0} will
+Dialogue: 0,0:01:01.04,0:01:01.30,Default,,0,0,0,,{\pos(540,1513)}guarantee that\Nan end user {\c&H00657811&\b1}will{\c&H002A2B17&\b0}
+Dialogue: 0,0:01:01.30,0:01:01.44,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}see{\c&H002A2B17&\b0} the same results.
+Dialogue: 0,0:01:01.44,0:01:01.56,Default,,0,0,0,,{\pos(540,1513)}see {\c&H00657811&\b1}the{\c&H002A2B17&\b0} same results.
+Dialogue: 0,0:01:01.56,0:01:01.70,Default,,0,0,0,,{\pos(540,1513)}see the {\c&H00657811&\b1}same{\c&H002A2B17&\b0} results.
+Dialogue: 0,0:01:01.70,0:01:02.12,Default,,0,0,0,,{\pos(540,1513)}see the same {\c&H00657811&\b1}results.{\c&H002A2B17&\b0}
+Dialogue: 0,0:01:02.20,0:01:03.08,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Exactly.{\c&H002A2B17&\b0} You have\Nto validate the
+Dialogue: 0,0:01:03.08,0:01:03.20,Default,,0,0,0,,{\pos(540,1513)}Exactly. {\c&H00657811&\b1}You{\c&H002A2B17&\b0} have\Nto validate the
+Dialogue: 0,0:01:03.20,0:01:03.28,Default,,0,0,0,,{\pos(540,1513)}Exactly. You {\c&H00657811&\b1}have{\c&H002A2B17&\b0}\Nto validate the
+Dialogue: 0,0:01:03.28,0:01:03.38,Default,,0,0,0,,{\pos(540,1513)}Exactly. You have\N{\c&H00657811&\b1}to{\c&H002A2B17&\b0} validate the
+Dialogue: 0,0:01:03.38,0:01:03.68,Default,,0,0,0,,{\pos(540,1513)}Exactly. You have\Nto {\c&H00657811&\b1}validate{\c&H002A2B17&\b0} the
+Dialogue: 0,0:01:03.68,0:01:03.96,Default,,0,0,0,,{\pos(540,1513)}Exactly. You have\Nto validate {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:01:03.96,0:01:04.26,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}entire{\c&H002A2B17&\b0} workflow\Nusing actual end user
+Dialogue: 0,0:01:04.26,0:01:04.72,Default,,0,0,0,,{\pos(540,1513)}entire {\c&H00657811&\b1}workflow{\c&H002A2B17&\b0}\Nusing actual end user
+Dialogue: 0,0:01:04.72,0:01:05.16,Default,,0,0,0,,{\pos(540,1513)}entire workflow\N{\c&H00657811&\b1}using{\c&H002A2B17&\b0} actual end user
+Dialogue: 0,0:01:05.16,0:01:05.52,Default,,0,0,0,,{\pos(540,1513)}entire workflow\Nusing {\c&H00657811&\b1}actual{\c&H002A2B17&\b0} end user
+Dialogue: 0,0:01:05.52,0:01:06.00,Default,,0,0,0,,{\pos(540,1513)}entire workflow\Nusing actual {\c&H00657811&\b1}end{\c&H002A2B17&\b0} user
+Dialogue: 0,0:01:06.00,0:01:06.28,Default,,0,0,0,,{\pos(540,1513)}entire workflow\Nusing actual end {\c&H00657811&\b1}user{\c&H002A2B17&\b0}
+Dialogue: 0,0:01:06.28,0:01:06.52,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}test{\c&H002A2B17&\b0} identities, not\Njust the developer's
+Dialogue: 0,0:01:06.52,0:01:07.06,Default,,0,0,0,,{\pos(540,1513)}test {\c&H00657811&\b1}identities,{\c&H002A2B17&\b0} not\Njust the developer's
+Dialogue: 0,0:01:07.06,0:01:07.72,Default,,0,0,0,,{\pos(540,1513)}test identities, {\c&H00657811&\b1}not{\c&H002A2B17&\b0}\Njust the developer's
+Dialogue: 0,0:01:07.72,0:01:07.88,Default,,0,0,0,,{\pos(540,1513)}test identities, not\N{\c&H00657811&\b1}just{\c&H002A2B17&\b0} the developer's
+Dialogue: 0,0:01:07.88,0:01:08.03,Default,,0,0,0,,{\pos(540,1513)}test identities, not\Njust {\c&H00657811&\b1}the{\c&H002A2B17&\b0} developer's
+Dialogue: 0,0:01:08.03,0:01:08.59,Default,,0,0,0,,{\pos(540,1513)}test identities, not\Njust the {\c&H00657811&\b1}developer's{\c&H002A2B17&\b0}
+Dialogue: 0,0:01:08.59,0:01:08.84,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}God{\c&H002A2B17&\b0} Mode account.
+Dialogue: 0,0:01:08.84,0:01:09.08,Default,,0,0,0,,{\pos(540,1513)}God {\c&H00657811&\b1}Mode{\c&H002A2B17&\b0} account.
+Dialogue: 0,0:01:09.08,0:01:09.48,Default,,0,0,0,,{\pos(540,1513)}God Mode {\c&H00657811&\b1}account.{\c&H002A2B17&\b0}

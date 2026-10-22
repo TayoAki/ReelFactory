@@ -1,0 +1,5 @@
+A forecast is not a deterministic fact
+Original recording 43:42–44:14
+ASR draft; technical-name spelling normalized.
+
+before you ever display the output of a predictive model in a business review, you must explicitly evaluate and display the historical statistical uncertainty of that model. So you have to show its track record. You have to show the operator the model's past accuracy. Have these forecasts historically suffered from model drift? Is there bias in the legacy data? you must give the human operator the statistical basis for deciding whether they should actually trust this prediction enough to route a hundred thousand dollar delivery truck based on it. You never present a probabilistic forecast as a deterministic fact.

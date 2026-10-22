@@ -1,0 +1,5 @@
+Business rules need explicit links
+Original recording 25:50–26:32
+ASR draft; technical-name spelling normalized.
+
+In the ontology interface, you can document inventory risk as a specific multivariable condition. You write out that risk occurs when a product's position is expected to fall below its required historical buffer before the next scheduled replenishment arrives. Okay, so you type out that logic in natural language. Then what happens? Does the AI just magically know how to execute that? No, writing it is just the first step. Then you explicitly Mathematically link that written rule to both the store entity and the inventory entity in your model. What is linking it? Actually do by forging that link you make the rule discoverable to any downstream AI agent consuming the ontology. So when

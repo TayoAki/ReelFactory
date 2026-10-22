@@ -1,0 +1,168 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.06,0:00:00.54,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}MCP{\c&H002A2B17&\b0} stands for Model\NContext Protocol.
+Dialogue: 0,0:00:00.54,0:00:01.04,Default,,0,0,0,,{\pos(540,1513)}MCP {\c&H00657811&\b1}stands{\c&H002A2B17&\b0} for Model\NContext Protocol.
+Dialogue: 0,0:00:01.04,0:00:01.29,Default,,0,0,0,,{\pos(540,1513)}MCP stands {\c&H00657811&\b1}for{\c&H002A2B17&\b0} Model\NContext Protocol.
+Dialogue: 0,0:00:01.29,0:00:01.62,Default,,0,0,0,,{\pos(540,1513)}MCP stands for {\c&H00657811&\b1}Model{\c&H002A2B17&\b0}\NContext Protocol.
+Dialogue: 0,0:00:01.62,0:00:02.12,Default,,0,0,0,,{\pos(540,1513)}MCP stands for Model\N{\c&H00657811&\b1}Context{\c&H002A2B17&\b0} Protocol.
+Dialogue: 0,0:00:02.12,0:00:02.58,Default,,0,0,0,,{\pos(540,1513)}MCP stands for Model\NContext {\c&H00657811&\b1}Protocol.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:03.42,0:00:03.63,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Fabric{\c&H002A2B17&\b0} provides an\NAPI endpoint, so
+Dialogue: 0,0:00:03.63,0:00:04.04,Default,,0,0,0,,{\pos(540,1513)}Fabric {\c&H00657811&\b1}provides{\c&H002A2B17&\b0} an\NAPI endpoint, so
+Dialogue: 0,0:00:04.04,0:00:04.22,Default,,0,0,0,,{\pos(540,1513)}Fabric provides {\c&H00657811&\b1}an{\c&H002A2B17&\b0}\NAPI endpoint, so
+Dialogue: 0,0:00:04.22,0:00:04.46,Default,,0,0,0,,{\pos(540,1513)}Fabric provides an\N{\c&H00657811&\b1}API{\c&H002A2B17&\b0} endpoint, so
+Dialogue: 0,0:00:04.46,0:00:05.32,Default,,0,0,0,,{\pos(540,1513)}Fabric provides an\NAPI {\c&H00657811&\b1}endpoint,{\c&H002A2B17&\b0} so
+Dialogue: 0,0:00:05.32,0:00:05.38,Default,,0,0,0,,{\pos(540,1513)}Fabric provides an\NAPI endpoint, {\c&H00657811&\b1}so{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:05.38,0:00:05.74,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}enterprise{\c&H002A2B17&\b0} developers\Ncan connect their
+Dialogue: 0,0:00:05.74,0:00:06.18,Default,,0,0,0,,{\pos(540,1513)}enterprise {\c&H00657811&\b1}developers{\c&H002A2B17&\b0}\Ncan connect their
+Dialogue: 0,0:00:06.18,0:00:06.61,Default,,0,0,0,,{\pos(540,1513)}enterprise developers\N{\c&H00657811&\b1}can{\c&H002A2B17&\b0} connect their
+Dialogue: 0,0:00:06.61,0:00:06.86,Default,,0,0,0,,{\pos(540,1513)}enterprise developers\Ncan {\c&H00657811&\b1}connect{\c&H002A2B17&\b0} their
+Dialogue: 0,0:00:06.86,0:00:07.03,Default,,0,0,0,,{\pos(540,1513)}enterprise developers\Ncan connect {\c&H00657811&\b1}their{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:07.03,0:00:07.32,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}own{\c&H002A2B17&\b0} compatible\Nexternal AI clients
+Dialogue: 0,0:00:07.32,0:00:07.86,Default,,0,0,0,,{\pos(540,1513)}own {\c&H00657811&\b1}compatible{\c&H002A2B17&\b0}\Nexternal AI clients
+Dialogue: 0,0:00:07.86,0:00:08.46,Default,,0,0,0,,{\pos(540,1513)}own compatible\N{\c&H00657811&\b1}external{\c&H002A2B17&\b0} AI clients
+Dialogue: 0,0:00:08.46,0:00:08.82,Default,,0,0,0,,{\pos(540,1513)}own compatible\Nexternal {\c&H00657811&\b1}AI{\c&H002A2B17&\b0} clients
+Dialogue: 0,0:00:08.82,0:00:09.30,Default,,0,0,0,,{\pos(540,1513)}own compatible\Nexternal AI {\c&H00657811&\b1}clients{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:09.30,0:00:09.53,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}or{\c&H002A2B17&\b0} custom applications\Nto the ontology.
+Dialogue: 0,0:00:09.53,0:00:09.77,Default,,0,0,0,,{\pos(540,1513)}or {\c&H00657811&\b1}custom{\c&H002A2B17&\b0} applications\Nto the ontology.
+Dialogue: 0,0:00:09.77,0:00:10.24,Default,,0,0,0,,{\pos(540,1513)}or custom {\c&H00657811&\b1}applications{\c&H002A2B17&\b0}\Nto the ontology.
+Dialogue: 0,0:00:10.24,0:00:10.60,Default,,0,0,0,,{\pos(540,1513)}or custom applications\N{\c&H00657811&\b1}to{\c&H002A2B17&\b0} the ontology.
+Dialogue: 0,0:00:10.60,0:00:10.70,Default,,0,0,0,,{\pos(540,1513)}or custom applications\Nto {\c&H00657811&\b1}the{\c&H002A2B17&\b0} ontology.
+Dialogue: 0,0:00:10.70,0:00:11.26,Default,,0,0,0,,{\pos(540,1513)}or custom applications\Nto the {\c&H00657811&\b1}ontology.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:11.44,0:00:11.50,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}It{\c&H002A2B17&\b0} tells useful.
+Dialogue: 0,0:00:11.50,0:00:11.62,Default,,0,0,0,,{\pos(540,1513)}It {\c&H00657811&\b1}tells{\c&H002A2B17&\b0} useful.
+Dialogue: 0,0:00:11.62,0:00:11.96,Default,,0,0,0,,{\pos(540,1513)}It tells {\c&H00657811&\b1}useful.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:12.46,0:00:12.68,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}However,{\c&H002A2B17&\b0} the current\Nguidance notes
+Dialogue: 0,0:00:12.68,0:00:12.90,Default,,0,0,0,,{\pos(540,1513)}However, {\c&H00657811&\b1}the{\c&H002A2B17&\b0} current\Nguidance notes
+Dialogue: 0,0:00:12.90,0:00:13.16,Default,,0,0,0,,{\pos(540,1513)}However, the {\c&H00657811&\b1}current{\c&H002A2B17&\b0}\Nguidance notes
+Dialogue: 0,0:00:13.16,0:00:13.36,Default,,0,0,0,,{\pos(540,1513)}However, the current\N{\c&H00657811&\b1}guidance{\c&H002A2B17&\b0} notes
+Dialogue: 0,0:00:13.36,0:00:13.72,Default,,0,0,0,,{\pos(540,1513)}However, the current\Nguidance {\c&H00657811&\b1}notes{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:13.72,0:00:14.00,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}a{\c&H002A2B17&\b0} severe limitation.
+Dialogue: 0,0:00:14.00,0:00:14.23,Default,,0,0,0,,{\pos(540,1513)}a {\c&H00657811&\b1}severe{\c&H002A2B17&\b0} limitation.
+Dialogue: 0,0:00:14.23,0:00:14.69,Default,,0,0,0,,{\pos(540,1513)}a severe {\c&H00657811&\b1}limitation.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:15.50,0:00:15.70,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Service{\c&H002A2B17&\b0} principal\Naccess is currently
+Dialogue: 0,0:00:15.70,0:00:16.12,Default,,0,0,0,,{\pos(540,1513)}Service {\c&H00657811&\b1}principal{\c&H002A2B17&\b0}\Naccess is currently
+Dialogue: 0,0:00:16.12,0:00:16.39,Default,,0,0,0,,{\pos(540,1513)}Service principal\N{\c&H00657811&\b1}access{\c&H002A2B17&\b0} is currently
+Dialogue: 0,0:00:16.39,0:00:16.89,Default,,0,0,0,,{\pos(540,1513)}Service principal\Naccess {\c&H00657811&\b1}is{\c&H002A2B17&\b0} currently
+Dialogue: 0,0:00:16.89,0:00:17.28,Default,,0,0,0,,{\pos(540,1513)}Service principal\Naccess is {\c&H00657811&\b1}currently{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:17.28,0:00:17.68,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}unavailable{\c&H002A2B17&\b0} for\Nthis endpoint.
+Dialogue: 0,0:00:17.68,0:00:18.12,Default,,0,0,0,,{\pos(540,1513)}unavailable {\c&H00657811&\b1}for{\c&H002A2B17&\b0}\Nthis endpoint.
+Dialogue: 0,0:00:18.12,0:00:18.28,Default,,0,0,0,,{\pos(540,1513)}unavailable for\N{\c&H00657811&\b1}this{\c&H002A2B17&\b0} endpoint.
+Dialogue: 0,0:00:18.28,0:00:18.68,Default,,0,0,0,,{\pos(540,1513)}unavailable for\Nthis {\c&H00657811&\b1}endpoint.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:19.18,0:00:19.30,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Explain{\c&H002A2B17&\b0} that for the\Nnon -developers.
+Dialogue: 0,0:00:19.30,0:00:19.60,Default,,0,0,0,,{\pos(540,1513)}Explain {\c&H00657811&\b1}that{\c&H002A2B17&\b0} for the\Nnon -developers.
+Dialogue: 0,0:00:19.60,0:00:19.76,Default,,0,0,0,,{\pos(540,1513)}Explain that {\c&H00657811&\b1}for{\c&H002A2B17&\b0} the\Nnon -developers.
+Dialogue: 0,0:00:19.76,0:00:19.88,Default,,0,0,0,,{\pos(540,1513)}Explain that for {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nnon -developers.
+Dialogue: 0,0:00:19.88,0:00:20.12,Default,,0,0,0,,{\pos(540,1513)}Explain that for the\N{\c&H00657811&\b1}non{\c&H002A2B17&\b0} -developers.
+Dialogue: 0,0:00:20.12,0:00:20.88,Default,,0,0,0,,{\pos(540,1513)}Explain that for the\Nnon {\c&H00657811&\b1}-developers.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:21.32,0:00:21.50,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}What{\c&H002A2B17&\b0} is a service principal?
+Dialogue: 0,0:00:21.50,0:00:21.62,Default,,0,0,0,,{\pos(540,1513)}What {\c&H00657811&\b1}is{\c&H002A2B17&\b0} a service principal?
+Dialogue: 0,0:00:21.62,0:00:21.72,Default,,0,0,0,,{\pos(540,1513)}What is {\c&H00657811&\b1}a{\c&H002A2B17&\b0} service principal?
+Dialogue: 0,0:00:21.72,0:00:21.88,Default,,0,0,0,,{\pos(540,1513)}What is a {\c&H00657811&\b1}service{\c&H002A2B17&\b0} principal?
+Dialogue: 0,0:00:21.88,0:00:22.50,Default,,0,0,0,,{\pos(540,1513)}What is a service {\c&H00657811&\b1}principal?{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:22.76,0:00:22.90,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}A{\c&H002A2B17&\b0} service principal\Nis basically a
+Dialogue: 0,0:00:22.90,0:00:23.14,Default,,0,0,0,,{\pos(540,1513)}A {\c&H00657811&\b1}service{\c&H002A2B17&\b0} principal\Nis basically a
+Dialogue: 0,0:00:23.14,0:00:23.60,Default,,0,0,0,,{\pos(540,1513)}A service {\c&H00657811&\b1}principal{\c&H002A2B17&\b0}\Nis basically a
+Dialogue: 0,0:00:23.60,0:00:23.74,Default,,0,0,0,,{\pos(540,1513)}A service principal\N{\c&H00657811&\b1}is{\c&H002A2B17&\b0} basically a
+Dialogue: 0,0:00:23.74,0:00:24.10,Default,,0,0,0,,{\pos(540,1513)}A service principal\Nis {\c&H00657811&\b1}basically{\c&H002A2B17&\b0} a
+Dialogue: 0,0:00:24.10,0:00:24.56,Default,,0,0,0,,{\pos(540,1513)}A service principal\Nis basically {\c&H00657811&\b1}a{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:24.56,0:00:25.02,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}machine{\c&H002A2B17&\b0} identity.\NIt's a non -human
+Dialogue: 0,0:00:25.02,0:00:26.11,Default,,0,0,0,,{\pos(540,1513)}machine {\c&H00657811&\b1}identity.{\c&H002A2B17&\b0}\NIt's a non -human
+Dialogue: 0,0:00:26.11,0:00:26.30,Default,,0,0,0,,{\pos(540,1513)}machine identity.\N{\c&H00657811&\b1}It's{\c&H002A2B17&\b0} a non -human
+Dialogue: 0,0:00:26.30,0:00:26.38,Default,,0,0,0,,{\pos(540,1513)}machine identity.\NIt's {\c&H00657811&\b1}a{\c&H002A2B17&\b0} non -human
+Dialogue: 0,0:00:26.38,0:00:26.70,Default,,0,0,0,,{\pos(540,1513)}machine identity.\NIt's a {\c&H00657811&\b1}non{\c&H002A2B17&\b0} -human
+Dialogue: 0,0:00:26.70,0:00:27.11,Default,,0,0,0,,{\pos(540,1513)}machine identity.\NIt's a non {\c&H00657811&\b1}-human{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:27.11,0:00:27.50,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}service{\c&H002A2B17&\b0} account\Nyou use, so a
+Dialogue: 0,0:00:27.50,0:00:27.90,Default,,0,0,0,,{\pos(540,1513)}service {\c&H00657811&\b1}account{\c&H002A2B17&\b0}\Nyou use, so a
+Dialogue: 0,0:00:27.90,0:00:28.11,Default,,0,0,0,,{\pos(540,1513)}service account\N{\c&H00657811&\b1}you{\c&H002A2B17&\b0} use, so a
+Dialogue: 0,0:00:28.11,0:00:28.38,Default,,0,0,0,,{\pos(540,1513)}service account\Nyou {\c&H00657811&\b1}use,{\c&H002A2B17&\b0} so a
+Dialogue: 0,0:00:28.38,0:00:28.66,Default,,0,0,0,,{\pos(540,1513)}service account\Nyou use, {\c&H00657811&\b1}so{\c&H002A2B17&\b0} a
+Dialogue: 0,0:00:28.66,0:00:28.78,Default,,0,0,0,,{\pos(540,1513)}service account\Nyou use, so {\c&H00657811&\b1}a{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:28.78,0:00:28.98,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}backend{\c&H002A2B17&\b0} server or\Nan automated script
+Dialogue: 0,0:00:28.98,0:00:29.38,Default,,0,0,0,,{\pos(540,1513)}backend {\c&H00657811&\b1}server{\c&H002A2B17&\b0} or\Nan automated script
+Dialogue: 0,0:00:29.38,0:00:29.92,Default,,0,0,0,,{\pos(540,1513)}backend server {\c&H00657811&\b1}or{\c&H002A2B17&\b0}\Nan automated script
+Dialogue: 0,0:00:29.92,0:00:30.08,Default,,0,0,0,,{\pos(540,1513)}backend server or\N{\c&H00657811&\b1}an{\c&H002A2B17&\b0} automated script
+Dialogue: 0,0:00:30.08,0:00:30.54,Default,,0,0,0,,{\pos(540,1513)}backend server or\Nan {\c&H00657811&\b1}automated{\c&H002A2B17&\b0} script
+Dialogue: 0,0:00:30.54,0:00:30.88,Default,,0,0,0,,{\pos(540,1513)}backend server or\Nan automated {\c&H00657811&\b1}script{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:30.88,0:00:31.54,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}can{\c&H002A2B17&\b0} talk to an API securely
+Dialogue: 0,0:00:31.54,0:00:31.76,Default,,0,0,0,,{\pos(540,1513)}can {\c&H00657811&\b1}talk{\c&H002A2B17&\b0} to an API securely
+Dialogue: 0,0:00:31.76,0:00:31.90,Default,,0,0,0,,{\pos(540,1513)}can talk {\c&H00657811&\b1}to{\c&H002A2B17&\b0} an API securely
+Dialogue: 0,0:00:31.90,0:00:32.01,Default,,0,0,0,,{\pos(540,1513)}can talk to {\c&H00657811&\b1}an{\c&H002A2B17&\b0} API securely
+Dialogue: 0,0:00:32.01,0:00:32.24,Default,,0,0,0,,{\pos(540,1513)}can talk to an {\c&H00657811&\b1}API{\c&H002A2B17&\b0} securely
+Dialogue: 0,0:00:32.24,0:00:32.74,Default,,0,0,0,,{\pos(540,1513)}can talk to an API {\c&H00657811&\b1}securely{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:32.74,0:00:33.26,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}without{\c&H002A2B17&\b0} needing\Na human being to
+Dialogue: 0,0:00:33.26,0:00:33.54,Default,,0,0,0,,{\pos(540,1513)}without {\c&H00657811&\b1}needing{\c&H002A2B17&\b0}\Na human being to
+Dialogue: 0,0:00:33.54,0:00:33.68,Default,,0,0,0,,{\pos(540,1513)}without needing\N{\c&H00657811&\b1}a{\c&H002A2B17&\b0} human being to
+Dialogue: 0,0:00:33.68,0:00:33.88,Default,,0,0,0,,{\pos(540,1513)}without needing\Na {\c&H00657811&\b1}human{\c&H002A2B17&\b0} being to
+Dialogue: 0,0:00:33.88,0:00:34.08,Default,,0,0,0,,{\pos(540,1513)}without needing\Na human {\c&H00657811&\b1}being{\c&H002A2B17&\b0} to
+Dialogue: 0,0:00:34.08,0:00:34.29,Default,,0,0,0,,{\pos(540,1513)}without needing\Na human being {\c&H00657811&\b1}to{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:34.29,0:00:34.58,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}physically{\c&H002A2B17&\b0} type in\Na username and
+Dialogue: 0,0:00:34.58,0:00:35.36,Default,,0,0,0,,{\pos(540,1513)}physically {\c&H00657811&\b1}type{\c&H002A2B17&\b0} in\Na username and
+Dialogue: 0,0:00:35.36,0:00:35.60,Default,,0,0,0,,{\pos(540,1513)}physically type {\c&H00657811&\b1}in{\c&H002A2B17&\b0}\Na username and
+Dialogue: 0,0:00:35.60,0:00:35.68,Default,,0,0,0,,{\pos(540,1513)}physically type in\N{\c&H00657811&\b1}a{\c&H002A2B17&\b0} username and
+Dialogue: 0,0:00:35.68,0:00:35.98,Default,,0,0,0,,{\pos(540,1513)}physically type in\Na {\c&H00657811&\b1}username{\c&H002A2B17&\b0} and
+Dialogue: 0,0:00:35.98,0:00:36.22,Default,,0,0,0,,{\pos(540,1513)}physically type in\Na username {\c&H00657811&\b1}and{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:36.22,0:00:37.15,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}password.{\c&H002A2B17&\b0} Oh, so\Nyou can automate
+Dialogue: 0,0:00:37.15,0:00:37.56,Default,,0,0,0,,{\pos(540,1513)}password. {\c&H00657811&\b1}Oh,{\c&H002A2B17&\b0} so\Nyou can automate
+Dialogue: 0,0:00:37.56,0:00:37.70,Default,,0,0,0,,{\pos(540,1513)}password. Oh, {\c&H00657811&\b1}so{\c&H002A2B17&\b0}\Nyou can automate
+Dialogue: 0,0:00:37.70,0:00:37.79,Default,,0,0,0,,{\pos(540,1513)}password. Oh, so\N{\c&H00657811&\b1}you{\c&H002A2B17&\b0} can automate
+Dialogue: 0,0:00:37.79,0:00:37.90,Default,,0,0,0,,{\pos(540,1513)}password. Oh, so\Nyou {\c&H00657811&\b1}can{\c&H002A2B17&\b0} automate
+Dialogue: 0,0:00:37.90,0:00:38.12,Default,,0,0,0,,{\pos(540,1513)}password. Oh, so\Nyou can {\c&H00657811&\b1}automate{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:38.12,0:00:38.50,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}it?{\c&H002A2B17&\b0} Right. But because\Nservice principal
+Dialogue: 0,0:00:38.50,0:00:39.40,Default,,0,0,0,,{\pos(540,1513)}it? {\c&H00657811&\b1}Right.{\c&H002A2B17&\b0} But because\Nservice principal
+Dialogue: 0,0:00:39.40,0:00:39.54,Default,,0,0,0,,{\pos(540,1513)}it? Right. {\c&H00657811&\b1}But{\c&H002A2B17&\b0} because\Nservice principal
+Dialogue: 0,0:00:39.54,0:00:39.76,Default,,0,0,0,,{\pos(540,1513)}it? Right. But {\c&H00657811&\b1}because{\c&H002A2B17&\b0}\Nservice principal
+Dialogue: 0,0:00:39.76,0:00:40.11,Default,,0,0,0,,{\pos(540,1513)}it? Right. But because\N{\c&H00657811&\b1}service{\c&H002A2B17&\b0} principal
+Dialogue: 0,0:00:40.11,0:00:40.60,Default,,0,0,0,,{\pos(540,1513)}it? Right. But because\Nservice {\c&H00657811&\b1}principal{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:40.60,0:00:40.82,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}access{\c&H002A2B17&\b0} is missing\Nin this preview,
+Dialogue: 0,0:00:40.82,0:00:41.12,Default,,0,0,0,,{\pos(540,1513)}access {\c&H00657811&\b1}is{\c&H002A2B17&\b0} missing\Nin this preview,
+Dialogue: 0,0:00:41.12,0:00:41.40,Default,,0,0,0,,{\pos(540,1513)}access is {\c&H00657811&\b1}missing{\c&H002A2B17&\b0}\Nin this preview,
+Dialogue: 0,0:00:41.40,0:00:41.74,Default,,0,0,0,,{\pos(540,1513)}access is missing\N{\c&H00657811&\b1}in{\c&H002A2B17&\b0} this preview,
+Dialogue: 0,0:00:41.74,0:00:41.86,Default,,0,0,0,,{\pos(540,1513)}access is missing\Nin {\c&H00657811&\b1}this{\c&H002A2B17&\b0} preview,
+Dialogue: 0,0:00:41.86,0:00:42.16,Default,,0,0,0,,{\pos(540,1513)}access is missing\Nin this {\c&H00657811&\b1}preview,{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:42.16,0:00:42.48,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}you{\c&H002A2B17&\b0} currently have\Nto authenticate
+Dialogue: 0,0:00:42.48,0:00:42.76,Default,,0,0,0,,{\pos(540,1513)}you {\c&H00657811&\b1}currently{\c&H002A2B17&\b0} have\Nto authenticate
+Dialogue: 0,0:00:42.76,0:00:43.04,Default,,0,0,0,,{\pos(540,1513)}you currently {\c&H00657811&\b1}have{\c&H002A2B17&\b0}\Nto authenticate
+Dialogue: 0,0:00:43.04,0:00:43.16,Default,,0,0,0,,{\pos(540,1513)}you currently have\N{\c&H00657811&\b1}to{\c&H002A2B17&\b0} authenticate
+Dialogue: 0,0:00:43.16,0:00:43.72,Default,,0,0,0,,{\pos(540,1513)}you currently have\Nto {\c&H00657811&\b1}authenticate{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:43.72,0:00:44.08,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}as{\c&H002A2B17&\b0} a real human user.
+Dialogue: 0,0:00:44.08,0:00:44.28,Default,,0,0,0,,{\pos(540,1513)}as {\c&H00657811&\b1}a{\c&H002A2B17&\b0} real human user.
+Dialogue: 0,0:00:44.28,0:00:44.54,Default,,0,0,0,,{\pos(540,1513)}as a {\c&H00657811&\b1}real{\c&H002A2B17&\b0} human user.
+Dialogue: 0,0:00:44.54,0:00:45.02,Default,,0,0,0,,{\pos(540,1513)}as a real {\c&H00657811&\b1}human{\c&H002A2B17&\b0} user.
+Dialogue: 0,0:00:45.02,0:00:45.48,Default,,0,0,0,,{\pos(540,1513)}as a real human {\c&H00657811&\b1}user.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:45.74,0:00:46.22,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}You{\c&H002A2B17&\b0} cannot easily set up a
+Dialogue: 0,0:00:46.22,0:00:46.36,Default,,0,0,0,,{\pos(540,1513)}You {\c&H00657811&\b1}cannot{\c&H002A2B17&\b0} easily set up a
+Dialogue: 0,0:00:46.36,0:00:46.72,Default,,0,0,0,,{\pos(540,1513)}You cannot {\c&H00657811&\b1}easily{\c&H002A2B17&\b0} set up a
+Dialogue: 0,0:00:46.72,0:00:47.12,Default,,0,0,0,,{\pos(540,1513)}You cannot easily {\c&H00657811&\b1}set{\c&H002A2B17&\b0} up a
+Dialogue: 0,0:00:47.12,0:00:47.22,Default,,0,0,0,,{\pos(540,1513)}You cannot easily set {\c&H00657811&\b1}up{\c&H002A2B17&\b0} a
+Dialogue: 0,0:00:47.22,0:00:47.28,Default,,0,0,0,,{\pos(540,1513)}You cannot easily set up {\c&H00657811&\b1}a{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:47.28,0:00:47.52,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}fully{\c&H002A2B17&\b0} automated\Nunattended machine
+Dialogue: 0,0:00:47.52,0:00:48.12,Default,,0,0,0,,{\pos(540,1513)}fully {\c&H00657811&\b1}automated{\c&H002A2B17&\b0}\Nunattended machine
+Dialogue: 0,0:00:48.12,0:00:49.10,Default,,0,0,0,,{\pos(540,1513)}fully automated\N{\c&H00657811&\b1}unattended{\c&H002A2B17&\b0} machine
+Dialogue: 0,0:00:49.10,0:00:49.52,Default,,0,0,0,,{\pos(540,1513)}fully automated\Nunattended {\c&H00657811&\b1}machine{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:49.52,0:00:49.86,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}to{\c&H002A2B17&\b0} machine integration.
+Dialogue: 0,0:00:49.86,0:00:50.12,Default,,0,0,0,,{\pos(540,1513)}to {\c&H00657811&\b1}machine{\c&H002A2B17&\b0} integration.
+Dialogue: 0,0:00:50.12,0:00:50.73,Default,,0,0,0,,{\pos(540,1513)}to machine {\c&H00657811&\b1}integration.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:51.28,0:00:51.40,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}That{\c&H002A2B17&\b0} drastically\Nlimits how you can
+Dialogue: 0,0:00:51.40,0:00:51.64,Default,,0,0,0,,{\pos(540,1513)}That {\c&H00657811&\b1}drastically{\c&H002A2B17&\b0}\Nlimits how you can
+Dialogue: 0,0:00:51.64,0:00:52.16,Default,,0,0,0,,{\pos(540,1513)}That drastically\N{\c&H00657811&\b1}limits{\c&H002A2B17&\b0} how you can
+Dialogue: 0,0:00:52.16,0:00:52.36,Default,,0,0,0,,{\pos(540,1513)}That drastically\Nlimits {\c&H00657811&\b1}how{\c&H002A2B17&\b0} you can
+Dialogue: 0,0:00:52.36,0:00:52.50,Default,,0,0,0,,{\pos(540,1513)}That drastically\Nlimits how {\c&H00657811&\b1}you{\c&H002A2B17&\b0} can
+Dialogue: 0,0:00:52.50,0:00:52.62,Default,,0,0,0,,{\pos(540,1513)}That drastically\Nlimits how you {\c&H00657811&\b1}can{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:52.62,0:00:52.92,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}integrate{\c&H002A2B17&\b0} this ontology\Ninto automated
+Dialogue: 0,0:00:52.92,0:00:53.14,Default,,0,0,0,,{\pos(540,1513)}integrate {\c&H00657811&\b1}this{\c&H002A2B17&\b0} ontology\Ninto automated
+Dialogue: 0,0:00:53.14,0:00:53.58,Default,,0,0,0,,{\pos(540,1513)}integrate this {\c&H00657811&\b1}ontology{\c&H002A2B17&\b0}\Ninto automated
+Dialogue: 0,0:00:53.58,0:00:53.96,Default,,0,0,0,,{\pos(540,1513)}integrate this ontology\N{\c&H00657811&\b1}into{\c&H002A2B17&\b0} automated
+Dialogue: 0,0:00:53.96,0:00:54.48,Default,,0,0,0,,{\pos(540,1513)}integrate this ontology\Ninto {\c&H00657811&\b1}automated{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:54.48,0:00:54.94,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}backend{\c&H002A2B17&\b0} enterprise\Nsystems right now.
+Dialogue: 0,0:00:54.94,0:00:55.66,Default,,0,0,0,,{\pos(540,1513)}backend {\c&H00657811&\b1}enterprise{\c&H002A2B17&\b0}\Nsystems right now.
+Dialogue: 0,0:00:55.66,0:00:56.10,Default,,0,0,0,,{\pos(540,1513)}backend enterprise\N{\c&H00657811&\b1}systems{\c&H002A2B17&\b0} right now.
+Dialogue: 0,0:00:56.10,0:00:56.36,Default,,0,0,0,,{\pos(540,1513)}backend enterprise\Nsystems {\c&H00657811&\b1}right{\c&H002A2B17&\b0} now.
+Dialogue: 0,0:00:56.36,0:00:56.70,Default,,0,0,0,,{\pos(540,1513)}backend enterprise\Nsystems right {\c&H00657811&\b1}now.{\c&H002A2B17&\b0}

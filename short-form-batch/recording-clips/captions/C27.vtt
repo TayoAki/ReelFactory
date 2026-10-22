@@ -1,0 +1,67 @@
+WEBVTT
+
+00:00:00.039 --> 00:00:01.579
+In the ontology interface, you can
+
+00:00:01.579 --> 00:00:04.059
+document inventory risk as a specific
+
+00:00:04.059 --> 00:00:06.559
+multivariable condition. You write
+
+00:00:06.559 --> 00:00:08.039
+out that risk occurs when a
+
+00:00:08.039 --> 00:00:09.839
+product's position is expected to fall
+
+00:00:09.839 --> 00:00:11.559
+below its required historical buffer
+
+00:00:11.559 --> 00:00:13.819
+before the next scheduled replenishment
+
+00:00:13.819 --> 00:00:15.779
+arrives. Okay, so you type out
+
+00:00:15.779 --> 00:00:17.419
+that logic in natural language.
+
+00:00:17.979 --> 00:00:19.099
+Then what happens?
+
+00:00:19.239 --> 00:00:21.039
+Does the AI just magically know
+
+00:00:21.039 --> 00:00:22.079
+how to execute that?
+
+00:00:22.359 --> 00:00:24.059
+No, writing it is just the
+
+00:00:24.059 --> 00:00:27.419
+first step. Then you explicitly Mathematically
+
+00:00:27.419 --> 00:00:29.199
+link that written rule to both
+
+00:00:29.199 --> 00:00:31.519
+the store entity and the inventory
+
+00:00:31.519 --> 00:00:32.859
+entity in your model.
+
+00:00:33.239 --> 00:00:34.119
+What is linking it?
+
+00:00:34.119 --> 00:00:36.139
+Actually do by forging that link
+
+00:00:36.139 --> 00:00:37.819
+you make the rule discoverable to
+
+00:00:37.819 --> 00:00:40.179
+any downstream AI agent consuming the
+
+00:00:40.179 --> 00:00:41.958
+ontology. So when

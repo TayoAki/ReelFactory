@@ -1,0 +1,155 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.16,0:00:00.39,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}The{\c&H002A2B17&\b0} operator\Nstill has to check
+Dialogue: 0,0:00:00.39,0:00:00.64,Default,,0,0,0,,{\pos(540,1513)}The {\c&H00657811&\b1}operator{\c&H002A2B17&\b0}\Nstill has to check
+Dialogue: 0,0:00:00.64,0:00:01.02,Default,,0,0,0,,{\pos(540,1513)}The operator\N{\c&H00657811&\b1}still{\c&H002A2B17&\b0} has to check
+Dialogue: 0,0:00:01.02,0:00:01.22,Default,,0,0,0,,{\pos(540,1513)}The operator\Nstill {\c&H00657811&\b1}has{\c&H002A2B17&\b0} to check
+Dialogue: 0,0:00:01.22,0:00:01.44,Default,,0,0,0,,{\pos(540,1513)}The operator\Nstill has {\c&H00657811&\b1}to{\c&H002A2B17&\b0} check
+Dialogue: 0,0:00:01.44,0:00:01.94,Default,,0,0,0,,{\pos(540,1513)}The operator\Nstill has to {\c&H00657811&\b1}check{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:01.94,0:00:02.08,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}the{\c&H002A2B17&\b0} receipts. They\Nhave to audit
+Dialogue: 0,0:00:02.08,0:00:02.80,Default,,0,0,0,,{\pos(540,1513)}the {\c&H00657811&\b1}receipts.{\c&H002A2B17&\b0} They\Nhave to audit
+Dialogue: 0,0:00:02.80,0:00:02.96,Default,,0,0,0,,{\pos(540,1513)}the receipts. They\N{\c&H00657811&\b1}have{\c&H002A2B17&\b0} to audit
+Dialogue: 0,0:00:02.96,0:00:03.12,Default,,0,0,0,,{\pos(540,1513)}the receipts. They\Nhave {\c&H00657811&\b1}to{\c&H002A2B17&\b0} audit
+Dialogue: 0,0:00:03.12,0:00:03.76,Default,,0,0,0,,{\pos(540,1513)}the receipts. They\Nhave to {\c&H00657811&\b1}audit{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:03.76,0:00:04.00,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}the{\c&H002A2B17&\b0} machine's logic.
+Dialogue: 0,0:00:04.00,0:00:04.38,Default,,0,0,0,,{\pos(540,1513)}the {\c&H00657811&\b1}machine's{\c&H002A2B17&\b0} logic.
+Dialogue: 0,0:00:04.38,0:00:04.78,Default,,0,0,0,,{\pos(540,1513)}the machine's {\c&H00657811&\b1}logic.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:05.52,0:00:06.38,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Precisely.{\c&H002A2B17&\b0} The human\Noperator must
+Dialogue: 0,0:00:06.38,0:00:06.44,Default,,0,0,0,,{\pos(540,1513)}Precisely. {\c&H00657811&\b1}The{\c&H002A2B17&\b0} human\Noperator must
+Dialogue: 0,0:00:06.44,0:00:06.64,Default,,0,0,0,,{\pos(540,1513)}Precisely. The {\c&H00657811&\b1}human{\c&H002A2B17&\b0}\Noperator must
+Dialogue: 0,0:00:06.64,0:00:07.02,Default,,0,0,0,,{\pos(540,1513)}Precisely. The human\N{\c&H00657811&\b1}operator{\c&H002A2B17&\b0} must
+Dialogue: 0,0:00:07.02,0:00:07.32,Default,,0,0,0,,{\pos(540,1513)}Precisely. The human\Noperator {\c&H00657811&\b1}must{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:07.32,0:00:07.76,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}aggressively{\c&H002A2B17&\b0} verify\Nif the agent actually
+Dialogue: 0,0:00:07.76,0:00:08.42,Default,,0,0,0,,{\pos(540,1513)}aggressively {\c&H00657811&\b1}verify{\c&H002A2B17&\b0}\Nif the agent actually
+Dialogue: 0,0:00:08.42,0:00:08.86,Default,,0,0,0,,{\pos(540,1513)}aggressively verify\N{\c&H00657811&\b1}if{\c&H002A2B17&\b0} the agent actually
+Dialogue: 0,0:00:08.86,0:00:09.00,Default,,0,0,0,,{\pos(540,1513)}aggressively verify\Nif {\c&H00657811&\b1}the{\c&H002A2B17&\b0} agent actually
+Dialogue: 0,0:00:09.00,0:00:09.27,Default,,0,0,0,,{\pos(540,1513)}aggressively verify\Nif the {\c&H00657811&\b1}agent{\c&H002A2B17&\b0} actually
+Dialogue: 0,0:00:09.27,0:00:09.84,Default,,0,0,0,,{\pos(540,1513)}aggressively verify\Nif the agent {\c&H00657811&\b1}actually{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:09.84,0:00:10.28,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}used{\c&H002A2B17&\b0} the approved\Nbusiness definitions.
+Dialogue: 0,0:00:10.28,0:00:10.42,Default,,0,0,0,,{\pos(540,1513)}used {\c&H00657811&\b1}the{\c&H002A2B17&\b0} approved\Nbusiness definitions.
+Dialogue: 0,0:00:10.42,0:00:10.64,Default,,0,0,0,,{\pos(540,1513)}used the {\c&H00657811&\b1}approved{\c&H002A2B17&\b0}\Nbusiness definitions.
+Dialogue: 0,0:00:10.64,0:00:11.00,Default,,0,0,0,,{\pos(540,1513)}used the approved\N{\c&H00657811&\b1}business{\c&H002A2B17&\b0} definitions.
+Dialogue: 0,0:00:11.00,0:00:11.60,Default,,0,0,0,,{\pos(540,1513)}used the approved\Nbusiness {\c&H00657811&\b1}definitions.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:12.30,0:00:12.36,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Did{\c&H002A2B17&\b0} it apply the\Ncorrect mathematical
+Dialogue: 0,0:00:12.36,0:00:12.44,Default,,0,0,0,,{\pos(540,1513)}Did {\c&H00657811&\b1}it{\c&H002A2B17&\b0} apply the\Ncorrect mathematical
+Dialogue: 0,0:00:12.44,0:00:12.66,Default,,0,0,0,,{\pos(540,1513)}Did it {\c&H00657811&\b1}apply{\c&H002A2B17&\b0} the\Ncorrect mathematical
+Dialogue: 0,0:00:12.66,0:00:12.84,Default,,0,0,0,,{\pos(540,1513)}Did it apply {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Ncorrect mathematical
+Dialogue: 0,0:00:12.84,0:00:13.08,Default,,0,0,0,,{\pos(540,1513)}Did it apply the\N{\c&H00657811&\b1}correct{\c&H002A2B17&\b0} mathematical
+Dialogue: 0,0:00:13.08,0:00:13.30,Default,,0,0,0,,{\pos(540,1513)}Did it apply the\Ncorrect {\c&H00657811&\b1}mathematical{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:13.30,0:00:14.05,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}inventory{\c&H002A2B17&\b0} risk role or did it
+Dialogue: 0,0:00:14.05,0:00:14.73,Default,,0,0,0,,{\pos(540,1513)}inventory {\c&H00657811&\b1}risk{\c&H002A2B17&\b0} role or did it
+Dialogue: 0,0:00:14.73,0:00:14.98,Default,,0,0,0,,{\pos(540,1513)}inventory risk {\c&H00657811&\b1}role{\c&H002A2B17&\b0} or did it
+Dialogue: 0,0:00:14.98,0:00:15.32,Default,,0,0,0,,{\pos(540,1513)}inventory risk role {\c&H00657811&\b1}or{\c&H002A2B17&\b0} did it
+Dialogue: 0,0:00:15.32,0:00:15.52,Default,,0,0,0,,{\pos(540,1513)}inventory risk role or {\c&H00657811&\b1}did{\c&H002A2B17&\b0} it
+Dialogue: 0,0:00:15.52,0:00:15.64,Default,,0,0,0,,{\pos(540,1513)}inventory risk role or did {\c&H00657811&\b1}it{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:15.64,0:00:16.12,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}hallucinate{\c&H002A2B17&\b0} a simpler one?
+Dialogue: 0,0:00:16.12,0:00:16.23,Default,,0,0,0,,{\pos(540,1513)}hallucinate {\c&H00657811&\b1}a{\c&H002A2B17&\b0} simpler one?
+Dialogue: 0,0:00:16.23,0:00:16.52,Default,,0,0,0,,{\pos(540,1513)}hallucinate a {\c&H00657811&\b1}simpler{\c&H002A2B17&\b0} one?
+Dialogue: 0,0:00:16.52,0:00:16.96,Default,,0,0,0,,{\pos(540,1513)}hallucinate a simpler {\c&H00657811&\b1}one?{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:17.38,0:00:17.62,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Did{\c&H002A2B17&\b0} it even check the right
+Dialogue: 0,0:00:17.62,0:00:17.73,Default,,0,0,0,,{\pos(540,1513)}Did {\c&H00657811&\b1}it{\c&H002A2B17&\b0} even check the right
+Dialogue: 0,0:00:17.73,0:00:17.89,Default,,0,0,0,,{\pos(540,1513)}Did it {\c&H00657811&\b1}even{\c&H002A2B17&\b0} check the right
+Dialogue: 0,0:00:17.89,0:00:18.10,Default,,0,0,0,,{\pos(540,1513)}Did it even {\c&H00657811&\b1}check{\c&H002A2B17&\b0} the right
+Dialogue: 0,0:00:18.10,0:00:18.23,Default,,0,0,0,,{\pos(540,1513)}Did it even check {\c&H00657811&\b1}the{\c&H002A2B17&\b0} right
+Dialogue: 0,0:00:18.23,0:00:18.38,Default,,0,0,0,,{\pos(540,1513)}Did it even check the {\c&H00657811&\b1}right{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:18.38,0:00:19.44,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}databases?{\c&H002A2B17&\b0} Did it\Npush the queries
+Dialogue: 0,0:00:19.44,0:00:19.54,Default,,0,0,0,,{\pos(540,1513)}databases? {\c&H00657811&\b1}Did{\c&H002A2B17&\b0} it\Npush the queries
+Dialogue: 0,0:00:19.54,0:00:19.60,Default,,0,0,0,,{\pos(540,1513)}databases? Did {\c&H00657811&\b1}it{\c&H002A2B17&\b0}\Npush the queries
+Dialogue: 0,0:00:19.60,0:00:19.73,Default,,0,0,0,,{\pos(540,1513)}databases? Did it\N{\c&H00657811&\b1}push{\c&H002A2B17&\b0} the queries
+Dialogue: 0,0:00:19.73,0:00:19.92,Default,,0,0,0,,{\pos(540,1513)}databases? Did it\Npush {\c&H00657811&\b1}the{\c&H002A2B17&\b0} queries
+Dialogue: 0,0:00:19.92,0:00:20.18,Default,,0,0,0,,{\pos(540,1513)}databases? Did it\Npush the {\c&H00657811&\b1}queries{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:20.18,0:00:20.46,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}down{\c&H002A2B17&\b0} to the intended\Nauthoritative
+Dialogue: 0,0:00:20.46,0:00:20.62,Default,,0,0,0,,{\pos(540,1513)}down {\c&H00657811&\b1}to{\c&H002A2B17&\b0} the intended\Nauthoritative
+Dialogue: 0,0:00:20.62,0:00:20.74,Default,,0,0,0,,{\pos(540,1513)}down to {\c&H00657811&\b1}the{\c&H002A2B17&\b0} intended\Nauthoritative
+Dialogue: 0,0:00:20.74,0:00:21.10,Default,,0,0,0,,{\pos(540,1513)}down to the {\c&H00657811&\b1}intended{\c&H002A2B17&\b0}\Nauthoritative
+Dialogue: 0,0:00:21.10,0:00:21.80,Default,,0,0,0,,{\pos(540,1513)}down to the intended\N{\c&H00657811&\b1}authoritative{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:21.80,0:00:23.50,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}sources?{\c&H002A2B17&\b0} And\Ncrucially, if there was
+Dialogue: 0,0:00:23.50,0:00:23.54,Default,,0,0,0,,{\pos(540,1513)}sources? {\c&H00657811&\b1}And{\c&H002A2B17&\b0}\Ncrucially, if there was
+Dialogue: 0,0:00:23.54,0:00:24.02,Default,,0,0,0,,{\pos(540,1513)}sources? And\N{\c&H00657811&\b1}crucially,{\c&H002A2B17&\b0} if there was
+Dialogue: 0,0:00:24.02,0:00:24.20,Default,,0,0,0,,{\pos(540,1513)}sources? And\Ncrucially, {\c&H00657811&\b1}if{\c&H002A2B17&\b0} there was
+Dialogue: 0,0:00:24.20,0:00:24.36,Default,,0,0,0,,{\pos(540,1513)}sources? And\Ncrucially, if {\c&H00657811&\b1}there{\c&H002A2B17&\b0} was
+Dialogue: 0,0:00:24.36,0:00:24.48,Default,,0,0,0,,{\pos(540,1513)}sources? And\Ncrucially, if there {\c&H00657811&\b1}was{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:24.48,0:00:24.60,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}a{\c&H002A2B17&\b0} gap in the source data,
+Dialogue: 0,0:00:24.60,0:00:24.84,Default,,0,0,0,,{\pos(540,1513)}a {\c&H00657811&\b1}gap{\c&H002A2B17&\b0} in the source data,
+Dialogue: 0,0:00:24.84,0:00:25.02,Default,,0,0,0,,{\pos(540,1513)}a gap {\c&H00657811&\b1}in{\c&H002A2B17&\b0} the source data,
+Dialogue: 0,0:00:25.02,0:00:25.12,Default,,0,0,0,,{\pos(540,1513)}a gap in {\c&H00657811&\b1}the{\c&H002A2B17&\b0} source data,
+Dialogue: 0,0:00:25.12,0:00:25.32,Default,,0,0,0,,{\pos(540,1513)}a gap in the {\c&H00657811&\b1}source{\c&H002A2B17&\b0} data,
+Dialogue: 0,0:00:25.32,0:00:25.74,Default,,0,0,0,,{\pos(540,1513)}a gap in the source {\c&H00657811&\b1}data,{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:25.90,0:00:26.16,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}let's{\c&H002A2B17&\b0} say a store's\Nfreezer sensor
+Dialogue: 0,0:00:26.16,0:00:26.32,Default,,0,0,0,,{\pos(540,1513)}let's {\c&H00657811&\b1}say{\c&H002A2B17&\b0} a store's\Nfreezer sensor
+Dialogue: 0,0:00:26.32,0:00:26.44,Default,,0,0,0,,{\pos(540,1513)}let's say {\c&H00657811&\b1}a{\c&H002A2B17&\b0} store's\Nfreezer sensor
+Dialogue: 0,0:00:26.44,0:00:26.78,Default,,0,0,0,,{\pos(540,1513)}let's say a {\c&H00657811&\b1}store's{\c&H002A2B17&\b0}\Nfreezer sensor
+Dialogue: 0,0:00:26.78,0:00:26.92,Default,,0,0,0,,{\pos(540,1513)}let's say a store's\N{\c&H00657811&\b1}freezer{\c&H002A2B17&\b0} sensor
+Dialogue: 0,0:00:26.92,0:00:27.38,Default,,0,0,0,,{\pos(540,1513)}let's say a store's\Nfreezer {\c&H00657811&\b1}sensor{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:27.38,0:00:27.66,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}lost{\c&H002A2B17&\b0} power and went\Ncompletely offline,
+Dialogue: 0,0:00:27.66,0:00:28.06,Default,,0,0,0,,{\pos(540,1513)}lost {\c&H00657811&\b1}power{\c&H002A2B17&\b0} and went\Ncompletely offline,
+Dialogue: 0,0:00:28.06,0:00:28.26,Default,,0,0,0,,{\pos(540,1513)}lost power {\c&H00657811&\b1}and{\c&H002A2B17&\b0} went\Ncompletely offline,
+Dialogue: 0,0:00:28.26,0:00:28.36,Default,,0,0,0,,{\pos(540,1513)}lost power and {\c&H00657811&\b1}went{\c&H002A2B17&\b0}\Ncompletely offline,
+Dialogue: 0,0:00:28.36,0:00:28.76,Default,,0,0,0,,{\pos(540,1513)}lost power and went\N{\c&H00657811&\b1}completely{\c&H002A2B17&\b0} offline,
+Dialogue: 0,0:00:28.76,0:00:29.08,Default,,0,0,0,,{\pos(540,1513)}lost power and went\Ncompletely {\c&H00657811&\b1}offline,{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:29.08,0:00:29.44,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}so{\c&H002A2B17&\b0} there's zero\Ntelemetry for the
+Dialogue: 0,0:00:29.44,0:00:29.72,Default,,0,0,0,,{\pos(540,1513)}so {\c&H00657811&\b1}there's{\c&H002A2B17&\b0} zero\Ntelemetry for the
+Dialogue: 0,0:00:29.72,0:00:30.16,Default,,0,0,0,,{\pos(540,1513)}so there's {\c&H00657811&\b1}zero{\c&H002A2B17&\b0}\Ntelemetry for the
+Dialogue: 0,0:00:30.16,0:00:30.76,Default,,0,0,0,,{\pos(540,1513)}so there's zero\N{\c&H00657811&\b1}telemetry{\c&H002A2B17&\b0} for the
+Dialogue: 0,0:00:30.76,0:00:31.00,Default,,0,0,0,,{\pos(540,1513)}so there's zero\Ntelemetry {\c&H00657811&\b1}for{\c&H002A2B17&\b0} the
+Dialogue: 0,0:00:31.00,0:00:31.08,Default,,0,0,0,,{\pos(540,1513)}so there's zero\Ntelemetry for {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:31.08,0:00:31.22,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}last{\c&H002A2B17&\b0} six hours,\Nthe agent must
+Dialogue: 0,0:00:31.22,0:00:31.40,Default,,0,0,0,,{\pos(540,1513)}last {\c&H00657811&\b1}six{\c&H002A2B17&\b0} hours,\Nthe agent must
+Dialogue: 0,0:00:31.40,0:00:32.29,Default,,0,0,0,,{\pos(540,1513)}last six {\c&H00657811&\b1}hours,{\c&H002A2B17&\b0}\Nthe agent must
+Dialogue: 0,0:00:32.29,0:00:32.46,Default,,0,0,0,,{\pos(540,1513)}last six hours,\N{\c&H00657811&\b1}the{\c&H002A2B17&\b0} agent must
+Dialogue: 0,0:00:32.46,0:00:32.72,Default,,0,0,0,,{\pos(540,1513)}last six hours,\Nthe {\c&H00657811&\b1}agent{\c&H002A2B17&\b0} must
+Dialogue: 0,0:00:32.72,0:00:33.10,Default,,0,0,0,,{\pos(540,1513)}last six hours,\Nthe agent {\c&H00657811&\b1}must{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:33.10,0:00:33.51,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}make{\c&H002A2B17&\b0} that gap\Nexplicitly visible to
+Dialogue: 0,0:00:33.51,0:00:33.74,Default,,0,0,0,,{\pos(540,1513)}make {\c&H00657811&\b1}that{\c&H002A2B17&\b0} gap\Nexplicitly visible to
+Dialogue: 0,0:00:33.74,0:00:33.96,Default,,0,0,0,,{\pos(540,1513)}make that {\c&H00657811&\b1}gap{\c&H002A2B17&\b0}\Nexplicitly visible to
+Dialogue: 0,0:00:33.96,0:00:34.54,Default,,0,0,0,,{\pos(540,1513)}make that gap\N{\c&H00657811&\b1}explicitly{\c&H002A2B17&\b0} visible to
+Dialogue: 0,0:00:34.54,0:00:35.14,Default,,0,0,0,,{\pos(540,1513)}make that gap\Nexplicitly {\c&H00657811&\b1}visible{\c&H002A2B17&\b0} to
+Dialogue: 0,0:00:35.14,0:00:35.44,Default,,0,0,0,,{\pos(540,1513)}make that gap\Nexplicitly visible {\c&H00657811&\b1}to{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:35.44,0:00:35.51,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}the{\c&H002A2B17&\b0} operator. It\Ncan't just smooth
+Dialogue: 0,0:00:35.51,0:00:36.20,Default,,0,0,0,,{\pos(540,1513)}the {\c&H00657811&\b1}operator.{\c&H002A2B17&\b0} It\Ncan't just smooth
+Dialogue: 0,0:00:36.20,0:00:36.36,Default,,0,0,0,,{\pos(540,1513)}the operator. {\c&H00657811&\b1}It{\c&H002A2B17&\b0}\Ncan't just smooth
+Dialogue: 0,0:00:36.36,0:00:36.58,Default,,0,0,0,,{\pos(540,1513)}the operator. It\N{\c&H00657811&\b1}can't{\c&H002A2B17&\b0} just smooth
+Dialogue: 0,0:00:36.58,0:00:36.68,Default,,0,0,0,,{\pos(540,1513)}the operator. It\Ncan't {\c&H00657811&\b1}just{\c&H002A2B17&\b0} smooth
+Dialogue: 0,0:00:36.68,0:00:36.87,Default,,0,0,0,,{\pos(540,1513)}the operator. It\Ncan't just {\c&H00657811&\b1}smooth{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:36.87,0:00:37.04,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}it{\c&H002A2B17&\b0} over. It cannot just silently
+Dialogue: 0,0:00:37.04,0:00:37.42,Default,,0,0,0,,{\pos(540,1513)}it {\c&H00657811&\b1}over.{\c&H002A2B17&\b0} It cannot just silently
+Dialogue: 0,0:00:37.42,0:00:37.58,Default,,0,0,0,,{\pos(540,1513)}it over. {\c&H00657811&\b1}It{\c&H002A2B17&\b0} cannot just silently
+Dialogue: 0,0:00:37.58,0:00:37.73,Default,,0,0,0,,{\pos(540,1513)}it over. It {\c&H00657811&\b1}cannot{\c&H002A2B17&\b0} just silently
+Dialogue: 0,0:00:37.73,0:00:38.01,Default,,0,0,0,,{\pos(540,1513)}it over. It cannot {\c&H00657811&\b1}just{\c&H002A2B17&\b0} silently
+Dialogue: 0,0:00:38.01,0:00:38.23,Default,,0,0,0,,{\pos(540,1513)}it over. It cannot just {\c&H00657811&\b1}silently{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:38.23,0:00:38.73,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}ignore{\c&H002A2B17&\b0} that store,\Nand it certainly
+Dialogue: 0,0:00:38.73,0:00:39.00,Default,,0,0,0,,{\pos(540,1513)}ignore {\c&H00657811&\b1}that{\c&H002A2B17&\b0} store,\Nand it certainly
+Dialogue: 0,0:00:39.00,0:00:39.40,Default,,0,0,0,,{\pos(540,1513)}ignore that {\c&H00657811&\b1}store,{\c&H002A2B17&\b0}\Nand it certainly
+Dialogue: 0,0:00:39.40,0:00:39.58,Default,,0,0,0,,{\pos(540,1513)}ignore that store,\N{\c&H00657811&\b1}and{\c&H002A2B17&\b0} it certainly
+Dialogue: 0,0:00:39.58,0:00:39.68,Default,,0,0,0,,{\pos(540,1513)}ignore that store,\Nand {\c&H00657811&\b1}it{\c&H002A2B17&\b0} certainly
+Dialogue: 0,0:00:39.68,0:00:39.88,Default,,0,0,0,,{\pos(540,1513)}ignore that store,\Nand it {\c&H00657811&\b1}certainly{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:39.88,0:00:40.22,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}cannot{\c&H002A2B17&\b0} invent a\Ntemperature value to
+Dialogue: 0,0:00:40.22,0:00:40.76,Default,,0,0,0,,{\pos(540,1513)}cannot {\c&H00657811&\b1}invent{\c&H002A2B17&\b0} a\Ntemperature value to
+Dialogue: 0,0:00:40.76,0:00:41.08,Default,,0,0,0,,{\pos(540,1513)}cannot invent {\c&H00657811&\b1}a{\c&H002A2B17&\b0}\Ntemperature value to
+Dialogue: 0,0:00:41.08,0:00:41.38,Default,,0,0,0,,{\pos(540,1513)}cannot invent a\N{\c&H00657811&\b1}temperature{\c&H002A2B17&\b0} value to
+Dialogue: 0,0:00:41.38,0:00:41.74,Default,,0,0,0,,{\pos(540,1513)}cannot invent a\Ntemperature {\c&H00657811&\b1}value{\c&H002A2B17&\b0} to
+Dialogue: 0,0:00:41.74,0:00:41.94,Default,,0,0,0,,{\pos(540,1513)}cannot invent a\Ntemperature value {\c&H00657811&\b1}to{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:41.94,0:00:42.04,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}make{\c&H002A2B17&\b0} the table look neat.
+Dialogue: 0,0:00:42.04,0:00:42.16,Default,,0,0,0,,{\pos(540,1513)}make {\c&H00657811&\b1}the{\c&H002A2B17&\b0} table look neat.
+Dialogue: 0,0:00:42.16,0:00:42.40,Default,,0,0,0,,{\pos(540,1513)}make the {\c&H00657811&\b1}table{\c&H002A2B17&\b0} look neat.
+Dialogue: 0,0:00:42.40,0:00:42.62,Default,,0,0,0,,{\pos(540,1513)}make the table {\c&H00657811&\b1}look{\c&H002A2B17&\b0} neat.
+Dialogue: 0,0:00:42.62,0:00:42.91,Default,,0,0,0,,{\pos(540,1513)}make the table look {\c&H00657811&\b1}neat.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:43.48,0:00:43.54,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}The{\c&H002A2B17&\b0} answer must\Nbe something a
+Dialogue: 0,0:00:43.54,0:00:43.78,Default,,0,0,0,,{\pos(540,1513)}The {\c&H00657811&\b1}answer{\c&H002A2B17&\b0} must\Nbe something a
+Dialogue: 0,0:00:43.78,0:00:43.96,Default,,0,0,0,,{\pos(540,1513)}The answer {\c&H00657811&\b1}must{\c&H002A2B17&\b0}\Nbe something a
+Dialogue: 0,0:00:43.96,0:00:44.16,Default,,0,0,0,,{\pos(540,1513)}The answer must\N{\c&H00657811&\b1}be{\c&H002A2B17&\b0} something a
+Dialogue: 0,0:00:44.16,0:00:44.38,Default,,0,0,0,,{\pos(540,1513)}The answer must\Nbe {\c&H00657811&\b1}something{\c&H002A2B17&\b0} a
+Dialogue: 0,0:00:44.38,0:00:44.58,Default,,0,0,0,,{\pos(540,1513)}The answer must\Nbe something {\c&H00657811&\b1}a{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:44.58,0:00:44.80,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}human{\c&H002A2B17&\b0} can rigorously\Nmathematically
+Dialogue: 0,0:00:44.80,0:00:45.04,Default,,0,0,0,,{\pos(540,1513)}human {\c&H00657811&\b1}can{\c&H002A2B17&\b0} rigorously\Nmathematically
+Dialogue: 0,0:00:45.04,0:00:45.66,Default,,0,0,0,,{\pos(540,1513)}human can {\c&H00657811&\b1}rigorously{\c&H002A2B17&\b0}\Nmathematically
+Dialogue: 0,0:00:45.66,0:00:46.48,Default,,0,0,0,,{\pos(540,1513)}human can rigorously\N{\c&H00657811&\b1}mathematically{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:46.48,0:00:46.91,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}check.{\c&H002A2B17&\b0}

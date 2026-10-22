@@ -1,0 +1,139 @@
+1
+00:00:00,680 --> 00:00:02,719
+You rarely have just one perfect
+
+2
+00:00:02,719 --> 00:00:05,200
+semantic model. You have dozens.
+
+3
+00:00:05,560 --> 00:00:07,080
+That's true. Marketing has a semantic
+
+4
+00:00:07,080 --> 00:00:09,600
+model, sales has a semantic model,
+
+5
+00:00:09,740 --> 00:00:11,280
+finance has one, and they all
+
+6
+00:00:11,280 --> 00:00:13,020
+have a concept called customer.
+
+7
+00:00:13,300 --> 00:00:14,859
+Yes, the classic overlap.
+
+8
+00:00:15,280 --> 00:00:16,260
+If I use the agent to
+
+9
+00:00:16,260 --> 00:00:17,560
+ingest all three of these models
+
+10
+00:00:17,560 --> 00:00:19,680
+into one master ontology, how does
+
+11
+00:00:19,680 --> 00:00:21,060
+it reconcile the fact that marketing
+
+12
+00:00:21,060 --> 00:00:23,020
+defines a customer as anyone who
+
+13
+00:00:23,020 --> 00:00:24,300
+gave us an email address?
+
+14
+00:00:24,980 --> 00:00:26,400
+Well, finance defines a customer as
+
+15
+00:00:26,400 --> 00:00:28,160
+someone who has actively paid an
+
+16
+00:00:28,160 --> 00:00:29,500
+invoice in the last 90 days.
+
+17
+00:00:29,720 --> 00:00:31,939
+That is exactly where the automated
+
+18
+00:00:31,939 --> 00:00:34,220
+generation process stops and human
+
+19
+00:00:34,220 --> 00:00:35,919
+governance must take over.
+
+20
+00:00:36,100 --> 00:00:37,560
+So the AI doesn't just fix
+
+21
+00:00:37,560 --> 00:00:40,560
+it? No. The ontology Agent is
+
+22
+00:00:40,560 --> 00:00:41,559
+a powerful assistant.
+
+23
+00:00:41,740 --> 00:00:42,860
+It will help you bring multiple
+
+24
+00:00:42,860 --> 00:00:44,980
+semantic models into a shared space,
+
+25
+00:00:45,320 --> 00:00:46,660
+and it will flag those overlapping
+
+26
+00:00:46,660 --> 00:00:49,100
+concepts. It will propose ways to
+
+27
+00:00:49,100 --> 00:00:50,860
+reconcile them, but it is not
+
+28
+00:00:50,860 --> 00:00:52,800
+an arbiter of corporate policy.
+
+29
+00:00:53,640 --> 00:00:55,480
+A human domain expert still has
+
+30
+00:00:55,480 --> 00:00:57,320
+to sit down, review the proposed
+
+31
+00:00:57,320 --> 00:00:59,580
+entity keys, check the relationships,
+
+32
+00:01:00,220 --> 00:01:02,160
+explicitly decide how to handle that
+
+33
+00:01:02,160 --> 00:01:04,879
+naming collision, usually by utilizing
+
+34
+00:01:04,879 --> 00:01:07,840
+namespaces or creating distinct marketing
+
+35
+00:01:07,840 --> 00:01:10,200
+customer and finance customer entities.

@@ -1,0 +1,59 @@
+1
+00:00:00,259 --> 00:00:02,120
+So to clarify the architecture in
+
+2
+00:00:02,120 --> 00:00:05,000
+my head, the beautiful visual canvas
+
+3
+00:00:05,000 --> 00:00:06,740
+diagram of concepts we built in
+
+4
+00:00:06,740 --> 00:00:09,380
+the ontology interface, and the physical
+
+5
+00:00:09,380 --> 00:00:11,620
+materialized graph database sitting
+
+6
+00:00:11,620 --> 00:00:14,059
+in OneLake are doing two completely
+
+7
+00:00:14,059 --> 00:00:15,799
+different jobs. Precisely.
+
+8
+00:00:16,000 --> 00:00:17,680
+The visual diagram is the conceptual
+
+9
+00:00:17,680 --> 00:00:19,420
+map of meaning for the AI.
+
+10
+00:00:20,020 --> 00:00:22,020
+The materialized graph is a specialized
+
+11
+00:00:22,020 --> 00:00:24,620
+physical execution path for deep relationship
+
+12
+00:00:24,620 --> 00:00:26,720
+questions. And the routing intelligence
+
+13
+00:00:26,720 --> 00:00:28,340
+chooses the path based on this
+
+14
+00:00:28,340 --> 00:00:29,700
+specific structure of the question
+
+15
+00:00:29,700 --> 00:00:30,319
+being asked.

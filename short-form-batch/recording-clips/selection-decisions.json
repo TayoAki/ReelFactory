@@ -1,0 +1,153 @@
+[
+  {
+    "issue": "SQL failure overclaim",
+    "editing_decision": "Recall clip stops at the named path; a graph illustration does not prove SQL cannot solve the traversal.",
+    "source_candidates": [
+      {
+        "source_start": 2744.549705,
+        "source_end": 2748.429705,
+        "transcript_asr": "And recursively joining tables like that often just causes the database to timeout and crash."
+      },
+      {
+        "source_start": 2801.469705,
+        "source_end": 2808.109705,
+        "transcript_asr": "It stores it in the open source delta format so different engines can read it without locking up or crashing the original operational database."
+      }
+    ],
+    "status": "Editorial source-claim review; candidate segment quotations remain ASR drafts"
+  },
+  {
+    "issue": "DAX edit and ownership overclaim",
+    "editing_decision": "Retain source-owned calculation and reference; do not imply ontology editing grants source edit access.",
+    "source_candidates": [
+      {
+        "source_start": 1280.650975,
+        "source_end": 1282.390975,
+        "transcript_asr": "So there's no version control issue?"
+      },
+      {
+        "source_start": 1291.750975,
+        "source_end": 1296.650975,
+        "transcript_asr": "If the CFO changes the definition of profit, your data engineers edit the DAX expression"
+      },
+      {
+        "source_start": 1338.750975,
+        "source_end": 1344.8309749999999,
+        "transcript_asr": "But if a user wants to actually view or edit the underlying DAX expression through the metric details pane"
+      }
+    ],
+    "status": "Editorial source-claim review; candidate segment quotations remain ASR drafts"
+  },
+  {
+    "issue": "Activator auto-provisioning confusion",
+    "editing_decision": "Keep rule text separate from explicitly configured and tested automation.",
+    "source_candidates": [
+      {
+        "source_start": 3157.9406799999997,
+        "source_end": 3173.3806799999998,
+        "transcript_asr": "What about activator? Fabric has a dedicated tool called data activator specifically for triggering actions based on data changes. If I write a natural language business rule in my ontology interface, does that automatically provision an activator alert in the background?"
+      },
+      {
+        "source_start": 3174.14068,
+        "source_end": 3189.36068,
+        "transcript_asr": "No, it absolutely does not. And that's a massive point of confusion for new users. Saving a natural language rule in the ontology provides semantic context for the chat agents. It does not automatically write the code to provision an active running workflow in data activator."
+      },
+      {
+        "source_start": 3189.76068,
+        "source_end": 3199.26068,
+        "transcript_asr": "So they are separate steps. If you want an alert to actually fire, a data engineer has to go into activator and configure that automation separately against the supported data path."
+      }
+    ],
+    "status": "Editorial source-claim review; candidate segment quotations remain ASR drafts"
+  },
+  {
+    "issue": "Monitoring latency promise",
+    "editing_decision": "Retain the stated preview cycle with dated review; do not turn it into a guaranteed end-to-end alert deadline.",
+    "source_candidates": [
+      {
+        "source_start": 2058.86195,
+        "source_end": 2062.70195,
+        "transcript_asr": "undo the last five minutes of work. No. And that's a crucial limitation to understand."
+      },
+      {
+        "source_start": 3144.22068,
+        "source_end": 3148.8806799999998,
+        "transcript_asr": "Got it. Furthermore, the operational agent operates on a fixed five minute cycle."
+      },
+      {
+        "source_start": 3148.8806799999998,
+        "source_end": 3157.36068,
+        "transcript_asr": "It is not sub-second real time. It only checks the condition every five minutes. If a freezer fails at minute one, you won't get the alert until minute five."
+      }
+    ],
+    "status": "Editorial source-claim review; candidate segment quotations remain ASR drafts"
+  },
+  {
+    "issue": "Merger speculation",
+    "editing_decision": "Keep the closing merger as an explicitly labelled thought experiment, not a promised ontology integration capability.",
+    "source_candidates": [
+      {
+        "source_start": 3706.14068,
+        "source_end": 3708.84068,
+        "transcript_asr": "What happens during a major corporate merger?"
+      },
+      {
+        "source_start": 3710.30068,
+        "source_end": 3712.52068,
+        "transcript_asr": "When two massive global companies combine,"
+      },
+      {
+        "source_start": 3732.28068,
+        "source_end": 3736.12068,
+        "transcript_asr": "can the merger ever truly succeed without completely rewriting"
+      }
+    ],
+    "status": "Editorial source-claim review; candidate segment quotations remain ASR drafts"
+  },
+  {
+    "issue": "Borrowed performance numbers",
+    "editing_decision": "Use the team's own known-good baseline; no invented accuracy or ROI chart.",
+    "source_candidates": [
+      {
+        "source_start": 3468.58068,
+        "source_end": 3471.64068,
+        "transcript_asr": "Do not borrow percentage improvement benchmarks from other vendors,"
+      }
+    ],
+    "status": "Editorial source-claim review; candidate segment quotations remain ASR drafts"
+  },
+  {
+    "issue": "Report output mistaken for evidence",
+    "editing_decision": "Label report numbers illustrative and require source-report checks; do not show a verified uplift.",
+    "source_candidates": [
+      {
+        "source_start": 3274.98068,
+        "source_end": 3288.54068,
+        "transcript_asr": "When the AI drafts a beautifully formatted summary and boldly states revenue was up 15% in the West region, it does not provide a footnote or hyperlink showing exactly which table or metric it used to calculate that 15%."
+      }
+    ],
+    "status": "Editorial source-claim review; candidate segment quotations remain ASR drafts"
+  },
+  {
+    "issue": "Version restore scope",
+    "editing_decision": "State ontology-definition scope, not data restoration or selective field rollback.",
+    "source_candidates": [
+      {
+        "source_start": 1611.20195,
+        "source_end": 1640.38195,
+        "transcript_asr": "Precisely. Writing the rule supplies the strategic context. Now, it is important to note that how that rule is actually executed, the specific database queries, the AI writes to go fetch that data and test the condition, is handled by the query engines under the hood, which we need to discuss next. But the ontology is where the rule is permanently documented, linked and standardized for the whole company. That's the perfect pivot. We have our definitions. We have our sticky notes. We have our complex conditional business rules. But right now,"
+      },
+      {
+        "source_start": 2054.08195,
+        "source_end": 2058.86195,
+        "transcript_asr": "that saved definition if things go sideways. So it's not a surgical rollback where I just"
+      },
+      {
+        "source_start": 2063.44195,
+        "source_end": 2068.22195,
+        "transcript_asr": "A restore replaces the definition as a whole. Wow. It overwrites everything currently in the system"
+      }
+    ],
+    "status": "Editorial source-claim review; candidate segment quotations remain ASR drafts"
+  }
+]

@@ -1,0 +1,89 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.25,0:00:00.35,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}So{\c&H002A2B17&\b0} to clarify the\Narchitecture in
+Dialogue: 0,0:00:00.35,0:00:00.68,Default,,0,0,0,,{\pos(540,1513)}So {\c&H00657811&\b1}to{\c&H002A2B17&\b0} clarify the\Narchitecture in
+Dialogue: 0,0:00:00.68,0:00:01.16,Default,,0,0,0,,{\pos(540,1513)}So to {\c&H00657811&\b1}clarify{\c&H002A2B17&\b0} the\Narchitecture in
+Dialogue: 0,0:00:01.16,0:00:01.44,Default,,0,0,0,,{\pos(540,1513)}So to clarify {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Narchitecture in
+Dialogue: 0,0:00:01.44,0:00:01.74,Default,,0,0,0,,{\pos(540,1513)}So to clarify the\N{\c&H00657811&\b1}architecture{\c&H002A2B17&\b0} in
+Dialogue: 0,0:00:01.74,0:00:02.12,Default,,0,0,0,,{\pos(540,1513)}So to clarify the\Narchitecture {\c&H00657811&\b1}in{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:02.12,0:00:02.24,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}my{\c&H002A2B17&\b0} head, the beautiful\Nvisual canvas
+Dialogue: 0,0:00:02.24,0:00:03.24,Default,,0,0,0,,{\pos(540,1513)}my {\c&H00657811&\b1}head,{\c&H002A2B17&\b0} the beautiful\Nvisual canvas
+Dialogue: 0,0:00:03.24,0:00:03.42,Default,,0,0,0,,{\pos(540,1513)}my head, {\c&H00657811&\b1}the{\c&H002A2B17&\b0} beautiful\Nvisual canvas
+Dialogue: 0,0:00:03.42,0:00:03.84,Default,,0,0,0,,{\pos(540,1513)}my head, the {\c&H00657811&\b1}beautiful{\c&H002A2B17&\b0}\Nvisual canvas
+Dialogue: 0,0:00:03.84,0:00:04.54,Default,,0,0,0,,{\pos(540,1513)}my head, the beautiful\N{\c&H00657811&\b1}visual{\c&H002A2B17&\b0} canvas
+Dialogue: 0,0:00:04.54,0:00:05.00,Default,,0,0,0,,{\pos(540,1513)}my head, the beautiful\Nvisual {\c&H00657811&\b1}canvas{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:05.00,0:00:05.36,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}diagram{\c&H002A2B17&\b0} of\Nconcepts we built in
+Dialogue: 0,0:00:05.36,0:00:05.74,Default,,0,0,0,,{\pos(540,1513)}diagram {\c&H00657811&\b1}of{\c&H002A2B17&\b0}\Nconcepts we built in
+Dialogue: 0,0:00:05.74,0:00:06.08,Default,,0,0,0,,{\pos(540,1513)}diagram of\N{\c&H00657811&\b1}concepts{\c&H002A2B17&\b0} we built in
+Dialogue: 0,0:00:06.08,0:00:06.38,Default,,0,0,0,,{\pos(540,1513)}diagram of\Nconcepts {\c&H00657811&\b1}we{\c&H002A2B17&\b0} built in
+Dialogue: 0,0:00:06.38,0:00:06.60,Default,,0,0,0,,{\pos(540,1513)}diagram of\Nconcepts we {\c&H00657811&\b1}built{\c&H002A2B17&\b0} in
+Dialogue: 0,0:00:06.60,0:00:06.74,Default,,0,0,0,,{\pos(540,1513)}diagram of\Nconcepts we built {\c&H00657811&\b1}in{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:06.74,0:00:06.82,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}the{\c&H002A2B17&\b0} ontology interface,\Nand the physical
+Dialogue: 0,0:00:06.82,0:00:07.22,Default,,0,0,0,,{\pos(540,1513)}the {\c&H00657811&\b1}ontology{\c&H002A2B17&\b0} interface,\Nand the physical
+Dialogue: 0,0:00:07.22,0:00:08.77,Default,,0,0,0,,{\pos(540,1513)}the ontology {\c&H00657811&\b1}interface,{\c&H002A2B17&\b0}\Nand the physical
+Dialogue: 0,0:00:08.77,0:00:08.88,Default,,0,0,0,,{\pos(540,1513)}the ontology interface,\N{\c&H00657811&\b1}and{\c&H002A2B17&\b0} the physical
+Dialogue: 0,0:00:08.88,0:00:09.00,Default,,0,0,0,,{\pos(540,1513)}the ontology interface,\Nand {\c&H00657811&\b1}the{\c&H002A2B17&\b0} physical
+Dialogue: 0,0:00:09.00,0:00:09.38,Default,,0,0,0,,{\pos(540,1513)}the ontology interface,\Nand the {\c&H00657811&\b1}physical{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:09.38,0:00:10.58,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}materialized{\c&H002A2B17&\b0} graph\Ndatabase sitting
+Dialogue: 0,0:00:10.58,0:00:10.82,Default,,0,0,0,,{\pos(540,1513)}materialized {\c&H00657811&\b1}graph{\c&H002A2B17&\b0}\Ndatabase sitting
+Dialogue: 0,0:00:10.82,0:00:11.20,Default,,0,0,0,,{\pos(540,1513)}materialized graph\N{\c&H00657811&\b1}database{\c&H002A2B17&\b0} sitting
+Dialogue: 0,0:00:11.20,0:00:11.62,Default,,0,0,0,,{\pos(540,1513)}materialized graph\Ndatabase {\c&H00657811&\b1}sitting{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:11.62,0:00:11.82,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}in{\c&H002A2B17&\b0} OneLake are doing\Ntwo completely
+Dialogue: 0,0:00:11.82,0:00:12.26,Default,,0,0,0,,{\pos(540,1513)}in {\c&H00657811&\b1}OneLake{\c&H002A2B17&\b0} are doing\Ntwo completely
+Dialogue: 0,0:00:12.26,0:00:12.94,Default,,0,0,0,,{\pos(540,1513)}in OneLake {\c&H00657811&\b1}are{\c&H002A2B17&\b0} doing\Ntwo completely
+Dialogue: 0,0:00:12.94,0:00:13.12,Default,,0,0,0,,{\pos(540,1513)}in OneLake are {\c&H00657811&\b1}doing{\c&H002A2B17&\b0}\Ntwo completely
+Dialogue: 0,0:00:13.12,0:00:13.32,Default,,0,0,0,,{\pos(540,1513)}in OneLake are doing\N{\c&H00657811&\b1}two{\c&H002A2B17&\b0} completely
+Dialogue: 0,0:00:13.32,0:00:14.05,Default,,0,0,0,,{\pos(540,1513)}in OneLake are doing\Ntwo {\c&H00657811&\b1}completely{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:14.05,0:00:14.42,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}different{\c&H002A2B17&\b0} jobs. Precisely.
+Dialogue: 0,0:00:14.42,0:00:15.07,Default,,0,0,0,,{\pos(540,1513)}different {\c&H00657811&\b1}jobs.{\c&H002A2B17&\b0} Precisely.
+Dialogue: 0,0:00:15.07,0:00:15.80,Default,,0,0,0,,{\pos(540,1513)}different jobs. {\c&H00657811&\b1}Precisely.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:16.00,0:00:16.26,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}The{\c&H002A2B17&\b0} visual diagram\Nis the conceptual
+Dialogue: 0,0:00:16.26,0:00:16.48,Default,,0,0,0,,{\pos(540,1513)}The {\c&H00657811&\b1}visual{\c&H002A2B17&\b0} diagram\Nis the conceptual
+Dialogue: 0,0:00:16.48,0:00:16.88,Default,,0,0,0,,{\pos(540,1513)}The visual {\c&H00657811&\b1}diagram{\c&H002A2B17&\b0}\Nis the conceptual
+Dialogue: 0,0:00:16.88,0:00:17.23,Default,,0,0,0,,{\pos(540,1513)}The visual diagram\N{\c&H00657811&\b1}is{\c&H002A2B17&\b0} the conceptual
+Dialogue: 0,0:00:17.23,0:00:17.38,Default,,0,0,0,,{\pos(540,1513)}The visual diagram\Nis {\c&H00657811&\b1}the{\c&H002A2B17&\b0} conceptual
+Dialogue: 0,0:00:17.38,0:00:17.68,Default,,0,0,0,,{\pos(540,1513)}The visual diagram\Nis the {\c&H00657811&\b1}conceptual{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:17.68,0:00:18.26,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}map{\c&H002A2B17&\b0} of meaning for the AI.
+Dialogue: 0,0:00:18.26,0:00:18.48,Default,,0,0,0,,{\pos(540,1513)}map {\c&H00657811&\b1}of{\c&H002A2B17&\b0} meaning for the AI.
+Dialogue: 0,0:00:18.48,0:00:18.68,Default,,0,0,0,,{\pos(540,1513)}map of {\c&H00657811&\b1}meaning{\c&H002A2B17&\b0} for the AI.
+Dialogue: 0,0:00:18.68,0:00:18.98,Default,,0,0,0,,{\pos(540,1513)}map of meaning {\c&H00657811&\b1}for{\c&H002A2B17&\b0} the AI.
+Dialogue: 0,0:00:18.98,0:00:19.12,Default,,0,0,0,,{\pos(540,1513)}map of meaning for {\c&H00657811&\b1}the{\c&H002A2B17&\b0} AI.
+Dialogue: 0,0:00:19.12,0:00:19.42,Default,,0,0,0,,{\pos(540,1513)}map of meaning for the {\c&H00657811&\b1}AI.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:20.02,0:00:20.10,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}The{\c&H002A2B17&\b0} materialized\Ngraph is a specialized
+Dialogue: 0,0:00:20.10,0:00:20.72,Default,,0,0,0,,{\pos(540,1513)}The {\c&H00657811&\b1}materialized{\c&H002A2B17&\b0}\Ngraph is a specialized
+Dialogue: 0,0:00:20.72,0:00:20.98,Default,,0,0,0,,{\pos(540,1513)}The materialized\N{\c&H00657811&\b1}graph{\c&H002A2B17&\b0} is a specialized
+Dialogue: 0,0:00:20.98,0:00:21.46,Default,,0,0,0,,{\pos(540,1513)}The materialized\Ngraph {\c&H00657811&\b1}is{\c&H002A2B17&\b0} a specialized
+Dialogue: 0,0:00:21.46,0:00:21.58,Default,,0,0,0,,{\pos(540,1513)}The materialized\Ngraph is {\c&H00657811&\b1}a{\c&H002A2B17&\b0} specialized
+Dialogue: 0,0:00:21.58,0:00:22.02,Default,,0,0,0,,{\pos(540,1513)}The materialized\Ngraph is a {\c&H00657811&\b1}specialized{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:22.02,0:00:22.66,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}physical{\c&H002A2B17&\b0} execution path\Nfor deep relationship
+Dialogue: 0,0:00:22.66,0:00:23.40,Default,,0,0,0,,{\pos(540,1513)}physical {\c&H00657811&\b1}execution{\c&H002A2B17&\b0} path\Nfor deep relationship
+Dialogue: 0,0:00:23.40,0:00:23.80,Default,,0,0,0,,{\pos(540,1513)}physical execution {\c&H00657811&\b1}path{\c&H002A2B17&\b0}\Nfor deep relationship
+Dialogue: 0,0:00:23.80,0:00:24.04,Default,,0,0,0,,{\pos(540,1513)}physical execution path\N{\c&H00657811&\b1}for{\c&H002A2B17&\b0} deep relationship
+Dialogue: 0,0:00:24.04,0:00:24.20,Default,,0,0,0,,{\pos(540,1513)}physical execution path\Nfor {\c&H00657811&\b1}deep{\c&H002A2B17&\b0} relationship
+Dialogue: 0,0:00:24.20,0:00:24.62,Default,,0,0,0,,{\pos(540,1513)}physical execution path\Nfor deep {\c&H00657811&\b1}relationship{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:24.62,0:00:25.82,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}questions.{\c&H002A2B17&\b0} And the\Nrouting intelligence
+Dialogue: 0,0:00:25.82,0:00:25.98,Default,,0,0,0,,{\pos(540,1513)}questions. {\c&H00657811&\b1}And{\c&H002A2B17&\b0} the\Nrouting intelligence
+Dialogue: 0,0:00:25.98,0:00:26.14,Default,,0,0,0,,{\pos(540,1513)}questions. And {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nrouting intelligence
+Dialogue: 0,0:00:26.14,0:00:26.36,Default,,0,0,0,,{\pos(540,1513)}questions. And the\N{\c&H00657811&\b1}routing{\c&H002A2B17&\b0} intelligence
+Dialogue: 0,0:00:26.36,0:00:26.72,Default,,0,0,0,,{\pos(540,1513)}questions. And the\Nrouting {\c&H00657811&\b1}intelligence{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:26.72,0:00:27.28,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}chooses{\c&H002A2B17&\b0} the path\Nbased on this
+Dialogue: 0,0:00:27.28,0:00:27.52,Default,,0,0,0,,{\pos(540,1513)}chooses {\c&H00657811&\b1}the{\c&H002A2B17&\b0} path\Nbased on this
+Dialogue: 0,0:00:27.52,0:00:27.68,Default,,0,0,0,,{\pos(540,1513)}chooses the {\c&H00657811&\b1}path{\c&H002A2B17&\b0}\Nbased on this
+Dialogue: 0,0:00:27.68,0:00:28.04,Default,,0,0,0,,{\pos(540,1513)}chooses the path\N{\c&H00657811&\b1}based{\c&H002A2B17&\b0} on this
+Dialogue: 0,0:00:28.04,0:00:28.22,Default,,0,0,0,,{\pos(540,1513)}chooses the path\Nbased {\c&H00657811&\b1}on{\c&H002A2B17&\b0} this
+Dialogue: 0,0:00:28.22,0:00:28.34,Default,,0,0,0,,{\pos(540,1513)}chooses the path\Nbased on {\c&H00657811&\b1}this{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:28.34,0:00:28.64,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}specific{\c&H002A2B17&\b0} structure\Nof the question
+Dialogue: 0,0:00:28.64,0:00:29.11,Default,,0,0,0,,{\pos(540,1513)}specific {\c&H00657811&\b1}structure{\c&H002A2B17&\b0}\Nof the question
+Dialogue: 0,0:00:29.11,0:00:29.36,Default,,0,0,0,,{\pos(540,1513)}specific structure\N{\c&H00657811&\b1}of{\c&H002A2B17&\b0} the question
+Dialogue: 0,0:00:29.36,0:00:29.44,Default,,0,0,0,,{\pos(540,1513)}specific structure\Nof {\c&H00657811&\b1}the{\c&H002A2B17&\b0} question
+Dialogue: 0,0:00:29.44,0:00:29.70,Default,,0,0,0,,{\pos(540,1513)}specific structure\Nof the {\c&H00657811&\b1}question{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:29.70,0:00:29.92,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}being{\c&H002A2B17&\b0} asked.
+Dialogue: 0,0:00:29.92,0:00:30.31,Default,,0,0,0,,{\pos(540,1513)}being {\c&H00657811&\b1}asked.{\c&H002A2B17&\b0}

@@ -56,5 +56,38 @@
   "source_start": 3414.60068,
   "source_end": 3439.66068,
   "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion.",
+  "viewer_understanding_before": "Old experience",
+  "viewer_understanding_after": "Reconnect and review consumers",
+  "graphic_choice_reason": "Plan the old-experience migration: Expose intermediate review or processing steps.",
+  "credible_alternative": "Parallel peer cards",
+  "why_alternative_rejected": "Use ordering only where the recording actually has sequential processing/review; C29 instead retains parallel source routes.",
+  "cannot_establish": "This illustrative diagram cannot prove an actual product interaction, executed query, security guarantee or measured improvement.",
+  "reference_images_used_for_generation": [
+    "reference-library/frames/graphic/0003510.jpg",
+    "motion-pilot-fabric/fabric-theme/master.png",
+    "short-form-batch/recording-clips/assets/host.png",
+    "short-form-batch/recording-clips/assets/guest.png"
+  ],
+  "source_library_semantic_match": "Original reference supplies visual grammar; exact subject relationships are adapted from this recording. No claim of an exact reference-video semantic or motion match.",
+  "original_reference_url": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "review_status": "Draft; representative visual samples and artifact bounds checked, human editorial approval pending.",
+  "caption_status": "Word-timed ASR draft; human proofreading pending",
+  "line_shot_edit": [
+    {
+      "LINE": "Microsoft has established a hard retirement date for the old ontology experience.",
+      "SHOT": "Fixed fictional portrait rail + Old experience",
+      "EDIT": "Reveal independent card at 0.7s; 420ms fade, 16px eased settling"
+    },
+    {
+      "LINE": "engineering teams will have to manually reconnect all their downstream consumers, rewrite their routing rules,",
+      "SHOT": "Fixed fictional portrait rail + Reconnect and review consumers",
+      "EDIT": "Reveal independent card at 14.94s; 420ms fade, 16px eased settling"
+    },
+    {
+      "LINE": "Moving to the new experience creates a completely separate new item in the workspace. This means data engineering teams will",
+      "SHOT": "Fixed fictional portrait rail + Separate new item",
+      "EDIT": "Reveal independent card at 10.28s; 420ms fade, 16px eased settling"
+    }
+  ]
 }

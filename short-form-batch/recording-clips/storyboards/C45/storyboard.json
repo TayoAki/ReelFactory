@@ -56,5 +56,38 @@
   "source_start": 2924.089705,
   "source_end": 2949.509705,
   "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion.",
+  "viewer_understanding_before": "Conversational analytics",
+  "viewer_understanding_after": "Different agent roles",
+  "graphic_choice_reason": "Data agent versus operations agent: Compare interpretations without implying causation.",
+  "credible_alternative": "A single explanatory list",
+  "why_alternative_rejected": "A list obscures that one term/value can have competing interpretations; retain a common anchor and compare the two meanings.",
+  "cannot_establish": "This illustrative diagram cannot prove an actual product interaction, executed query, security guarantee or measured improvement.",
+  "reference_images_used_for_generation": [
+    "reference-library/frames/graphic/0003510.jpg",
+    "motion-pilot-fabric/fabric-theme/master.png",
+    "short-form-batch/recording-clips/assets/host.png",
+    "short-form-batch/recording-clips/assets/guest.png"
+  ],
+  "source_library_semantic_match": "Original reference supplies visual grammar; exact subject relationships are adapted from this recording. No claim of an exact reference-video semantic or motion match.",
+  "original_reference_url": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "review_status": "Draft; representative visual samples and artifact bounds checked, human editorial approval pending.",
+  "caption_status": "Word-timed ASR draft; human proofreading pending",
+  "line_shot_edit": [
+    {
+      "LINE": "The Fabric Data Agent is designed for the end -user. It provides the conversational analytics",
+      "SHOT": "Fixed fictional portrait rail + Different agent roles",
+      "EDIT": "Reveal independent card at 0.7s; 420ms fade, 16px eased settling"
+    },
+    {
+      "LINE": "for the end -user. It provides the conversational analytics experience where a regional manager might sit down and ask everyday",
+      "SHOT": "Fixed fictional portrait rail + Conversational analytics",
+      "EDIT": "Reveal independent card at 4.02s; 420ms fade, 16px eased settling"
+    },
+    {
+      "LINE": "to answer questions, but to passively monitor a defined business process and recommend proactive responses.",
+      "SHOT": "Fixed fictional portrait rail + Monitor and recommend",
+      "EDIT": "Reveal independent card at 21.7s; 420ms fade, 16px eased settling"
+    }
+  ]
 }

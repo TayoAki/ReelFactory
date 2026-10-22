@@ -1,36 +1,36 @@
 WEBVTT
 
-00:00:00.279 --> 00:00:02.540
+00:00:00.279 --> 00:00:02.420
 Ordinary relationships are not automatically
 
 00:00:02.420 --> 00:00:03.660
 inherited from the parent.
 
-00:00:03.820 --> 00:00:05.800
+00:00:03.820 --> 00:00:05.680
 Wait, really? So if I spend
 
-00:00:05.680 --> 00:00:07.420
+00:00:05.680 --> 00:00:07.300
 an hour defining that a base
 
-00:00:07.300 --> 00:00:09.340
+00:00:07.300 --> 00:00:09.220
 product has a complex relationship
 
-00:00:09.220 --> 00:00:12.620
+00:00:09.220 --> 00:00:12.500
 to a supplier database, my newly
 
-00:00:12.500 --> 00:00:15.280
+00:00:12.500 --> 00:00:15.160
 created frozen product doesn't just
 
-00:00:15.160 --> 00:00:16.780
+00:00:15.160 --> 00:00:16.660
 automatically inherit that supplier
 
 00:00:16.660 --> 00:00:18.180
 relationship? Not currently.
 
-00:00:18.560 --> 00:00:21.060
+00:00:18.560 --> 00:00:20.940
 No, you have to explicitly redefine
 
-00:00:20.940 --> 00:00:22.460
+00:00:20.940 --> 00:00:22.340
 or map that relationship for the
 
 00:00:22.340 --> 00:00:22.960

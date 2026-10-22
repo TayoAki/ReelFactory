@@ -1,0 +1,110 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.14,0:00:00.48,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}before{\c&H002A2B17&\b0} you ever\Ndisplay the output
+Dialogue: 0,0:00:00.48,0:00:00.70,Default,,0,0,0,,{\pos(540,1513)}before {\c&H00657811&\b1}you{\c&H002A2B17&\b0} ever\Ndisplay the output
+Dialogue: 0,0:00:00.70,0:00:00.98,Default,,0,0,0,,{\pos(540,1513)}before you {\c&H00657811&\b1}ever{\c&H002A2B17&\b0}\Ndisplay the output
+Dialogue: 0,0:00:00.98,0:00:01.36,Default,,0,0,0,,{\pos(540,1513)}before you ever\N{\c&H00657811&\b1}display{\c&H002A2B17&\b0} the output
+Dialogue: 0,0:00:01.36,0:00:01.54,Default,,0,0,0,,{\pos(540,1513)}before you ever\Ndisplay {\c&H00657811&\b1}the{\c&H002A2B17&\b0} output
+Dialogue: 0,0:00:01.54,0:00:01.81,Default,,0,0,0,,{\pos(540,1513)}before you ever\Ndisplay the {\c&H00657811&\b1}output{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:01.81,0:00:02.12,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}of{\c&H002A2B17&\b0} a predictive model in a
+Dialogue: 0,0:00:02.12,0:00:02.17,Default,,0,0,0,,{\pos(540,1513)}of {\c&H00657811&\b1}a{\c&H002A2B17&\b0} predictive model in a
+Dialogue: 0,0:00:02.17,0:00:02.48,Default,,0,0,0,,{\pos(540,1513)}of a {\c&H00657811&\b1}predictive{\c&H002A2B17&\b0} model in a
+Dialogue: 0,0:00:02.48,0:00:02.94,Default,,0,0,0,,{\pos(540,1513)}of a predictive {\c&H00657811&\b1}model{\c&H002A2B17&\b0} in a
+Dialogue: 0,0:00:02.94,0:00:03.26,Default,,0,0,0,,{\pos(540,1513)}of a predictive model {\c&H00657811&\b1}in{\c&H002A2B17&\b0} a
+Dialogue: 0,0:00:03.26,0:00:03.34,Default,,0,0,0,,{\pos(540,1513)}of a predictive model in {\c&H00657811&\b1}a{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:03.34,0:00:03.51,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}business{\c&H002A2B17&\b0} review,\Nyou must explicitly
+Dialogue: 0,0:00:03.51,0:00:04.30,Default,,0,0,0,,{\pos(540,1513)}business {\c&H00657811&\b1}review,{\c&H002A2B17&\b0}\Nyou must explicitly
+Dialogue: 0,0:00:04.30,0:00:04.51,Default,,0,0,0,,{\pos(540,1513)}business review,\N{\c&H00657811&\b1}you{\c&H002A2B17&\b0} must explicitly
+Dialogue: 0,0:00:04.51,0:00:04.74,Default,,0,0,0,,{\pos(540,1513)}business review,\Nyou {\c&H00657811&\b1}must{\c&H002A2B17&\b0} explicitly
+Dialogue: 0,0:00:04.74,0:00:05.34,Default,,0,0,0,,{\pos(540,1513)}business review,\Nyou must {\c&H00657811&\b1}explicitly{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:05.34,0:00:05.94,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}evaluate{\c&H002A2B17&\b0} and display\Nthe historical
+Dialogue: 0,0:00:05.94,0:00:06.34,Default,,0,0,0,,{\pos(540,1513)}evaluate {\c&H00657811&\b1}and{\c&H002A2B17&\b0} display\Nthe historical
+Dialogue: 0,0:00:06.34,0:00:06.68,Default,,0,0,0,,{\pos(540,1513)}evaluate and {\c&H00657811&\b1}display{\c&H002A2B17&\b0}\Nthe historical
+Dialogue: 0,0:00:06.68,0:00:06.86,Default,,0,0,0,,{\pos(540,1513)}evaluate and display\N{\c&H00657811&\b1}the{\c&H002A2B17&\b0} historical
+Dialogue: 0,0:00:06.86,0:00:07.27,Default,,0,0,0,,{\pos(540,1513)}evaluate and display\Nthe {\c&H00657811&\b1}historical{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:07.27,0:00:08.00,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}statistical{\c&H002A2B17&\b0} uncertainty\Nof that model.
+Dialogue: 0,0:00:08.00,0:00:08.56,Default,,0,0,0,,{\pos(540,1513)}statistical {\c&H00657811&\b1}uncertainty{\c&H002A2B17&\b0}\Nof that model.
+Dialogue: 0,0:00:08.56,0:00:08.96,Default,,0,0,0,,{\pos(540,1513)}statistical uncertainty\N{\c&H00657811&\b1}of{\c&H002A2B17&\b0} that model.
+Dialogue: 0,0:00:08.96,0:00:09.06,Default,,0,0,0,,{\pos(540,1513)}statistical uncertainty\Nof {\c&H00657811&\b1}that{\c&H002A2B17&\b0} model.
+Dialogue: 0,0:00:09.06,0:00:09.53,Default,,0,0,0,,{\pos(540,1513)}statistical uncertainty\Nof that {\c&H00657811&\b1}model.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:09.96,0:00:10.24,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}So{\c&H002A2B17&\b0} you have to show its
+Dialogue: 0,0:00:10.24,0:00:10.42,Default,,0,0,0,,{\pos(540,1513)}So {\c&H00657811&\b1}you{\c&H002A2B17&\b0} have to show its
+Dialogue: 0,0:00:10.42,0:00:10.54,Default,,0,0,0,,{\pos(540,1513)}So you {\c&H00657811&\b1}have{\c&H002A2B17&\b0} to show its
+Dialogue: 0,0:00:10.54,0:00:10.64,Default,,0,0,0,,{\pos(540,1513)}So you have {\c&H00657811&\b1}to{\c&H002A2B17&\b0} show its
+Dialogue: 0,0:00:10.64,0:00:10.78,Default,,0,0,0,,{\pos(540,1513)}So you have to {\c&H00657811&\b1}show{\c&H002A2B17&\b0} its
+Dialogue: 0,0:00:10.78,0:00:10.90,Default,,0,0,0,,{\pos(540,1513)}So you have to show {\c&H00657811&\b1}its{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:10.90,0:00:11.10,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}track{\c&H002A2B17&\b0} record. You\Nhave to show
+Dialogue: 0,0:00:11.10,0:00:12.08,Default,,0,0,0,,{\pos(540,1513)}track {\c&H00657811&\b1}record.{\c&H002A2B17&\b0} You\Nhave to show
+Dialogue: 0,0:00:12.08,0:00:12.26,Default,,0,0,0,,{\pos(540,1513)}track record. {\c&H00657811&\b1}You{\c&H002A2B17&\b0}\Nhave to show
+Dialogue: 0,0:00:12.26,0:00:12.46,Default,,0,0,0,,{\pos(540,1513)}track record. You\N{\c&H00657811&\b1}have{\c&H002A2B17&\b0} to show
+Dialogue: 0,0:00:12.46,0:00:12.62,Default,,0,0,0,,{\pos(540,1513)}track record. You\Nhave {\c&H00657811&\b1}to{\c&H002A2B17&\b0} show
+Dialogue: 0,0:00:12.62,0:00:12.84,Default,,0,0,0,,{\pos(540,1513)}track record. You\Nhave to {\c&H00657811&\b1}show{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:12.84,0:00:12.98,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}the{\c&H002A2B17&\b0} operator the\Nmodel's past accuracy.
+Dialogue: 0,0:00:12.98,0:00:13.32,Default,,0,0,0,,{\pos(540,1513)}the {\c&H00657811&\b1}operator{\c&H002A2B17&\b0} the\Nmodel's past accuracy.
+Dialogue: 0,0:00:13.32,0:00:13.58,Default,,0,0,0,,{\pos(540,1513)}the operator {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nmodel's past accuracy.
+Dialogue: 0,0:00:13.58,0:00:13.92,Default,,0,0,0,,{\pos(540,1513)}the operator the\N{\c&H00657811&\b1}model's{\c&H002A2B17&\b0} past accuracy.
+Dialogue: 0,0:00:13.92,0:00:14.12,Default,,0,0,0,,{\pos(540,1513)}the operator the\Nmodel's {\c&H00657811&\b1}past{\c&H002A2B17&\b0} accuracy.
+Dialogue: 0,0:00:14.12,0:00:14.72,Default,,0,0,0,,{\pos(540,1513)}the operator the\Nmodel's past {\c&H00657811&\b1}accuracy.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:15.34,0:00:15.55,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Have{\c&H002A2B17&\b0} these forecasts\Nhistorically suffered
+Dialogue: 0,0:00:15.55,0:00:15.72,Default,,0,0,0,,{\pos(540,1513)}Have {\c&H00657811&\b1}these{\c&H002A2B17&\b0} forecasts\Nhistorically suffered
+Dialogue: 0,0:00:15.72,0:00:16.07,Default,,0,0,0,,{\pos(540,1513)}Have these {\c&H00657811&\b1}forecasts{\c&H002A2B17&\b0}\Nhistorically suffered
+Dialogue: 0,0:00:16.07,0:00:16.70,Default,,0,0,0,,{\pos(540,1513)}Have these forecasts\N{\c&H00657811&\b1}historically{\c&H002A2B17&\b0} suffered
+Dialogue: 0,0:00:16.70,0:00:17.20,Default,,0,0,0,,{\pos(540,1513)}Have these forecasts\Nhistorically {\c&H00657811&\b1}suffered{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:17.20,0:00:17.48,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}from{\c&H002A2B17&\b0} model drift?
+Dialogue: 0,0:00:17.48,0:00:17.72,Default,,0,0,0,,{\pos(540,1513)}from {\c&H00657811&\b1}model{\c&H002A2B17&\b0} drift?
+Dialogue: 0,0:00:17.72,0:00:18.02,Default,,0,0,0,,{\pos(540,1513)}from model {\c&H00657811&\b1}drift?{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:18.42,0:00:18.46,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Is{\c&H002A2B17&\b0} there bias in the legacy
+Dialogue: 0,0:00:18.46,0:00:18.60,Default,,0,0,0,,{\pos(540,1513)}Is {\c&H00657811&\b1}there{\c&H002A2B17&\b0} bias in the legacy
+Dialogue: 0,0:00:18.60,0:00:18.89,Default,,0,0,0,,{\pos(540,1513)}Is there {\c&H00657811&\b1}bias{\c&H002A2B17&\b0} in the legacy
+Dialogue: 0,0:00:18.89,0:00:19.23,Default,,0,0,0,,{\pos(540,1513)}Is there bias {\c&H00657811&\b1}in{\c&H002A2B17&\b0} the legacy
+Dialogue: 0,0:00:19.23,0:00:19.32,Default,,0,0,0,,{\pos(540,1513)}Is there bias in {\c&H00657811&\b1}the{\c&H002A2B17&\b0} legacy
+Dialogue: 0,0:00:19.32,0:00:19.52,Default,,0,0,0,,{\pos(540,1513)}Is there bias in the {\c&H00657811&\b1}legacy{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:19.52,0:00:20.44,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}data?{\c&H002A2B17&\b0} you must\Ngive the human
+Dialogue: 0,0:00:20.44,0:00:20.60,Default,,0,0,0,,{\pos(540,1513)}data? {\c&H00657811&\b1}you{\c&H002A2B17&\b0} must\Ngive the human
+Dialogue: 0,0:00:20.60,0:00:20.74,Default,,0,0,0,,{\pos(540,1513)}data? you {\c&H00657811&\b1}must{\c&H002A2B17&\b0}\Ngive the human
+Dialogue: 0,0:00:20.74,0:00:20.96,Default,,0,0,0,,{\pos(540,1513)}data? you must\N{\c&H00657811&\b1}give{\c&H002A2B17&\b0} the human
+Dialogue: 0,0:00:20.96,0:00:21.08,Default,,0,0,0,,{\pos(540,1513)}data? you must\Ngive {\c&H00657811&\b1}the{\c&H002A2B17&\b0} human
+Dialogue: 0,0:00:21.08,0:00:21.24,Default,,0,0,0,,{\pos(540,1513)}data? you must\Ngive the {\c&H00657811&\b1}human{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:21.24,0:00:21.56,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}operator{\c&H002A2B17&\b0} the\Nstatistical basis for
+Dialogue: 0,0:00:21.56,0:00:21.92,Default,,0,0,0,,{\pos(540,1513)}operator {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nstatistical basis for
+Dialogue: 0,0:00:21.92,0:00:22.24,Default,,0,0,0,,{\pos(540,1513)}operator the\N{\c&H00657811&\b1}statistical{\c&H002A2B17&\b0} basis for
+Dialogue: 0,0:00:22.24,0:00:22.74,Default,,0,0,0,,{\pos(540,1513)}operator the\Nstatistical {\c&H00657811&\b1}basis{\c&H002A2B17&\b0} for
+Dialogue: 0,0:00:22.74,0:00:23.06,Default,,0,0,0,,{\pos(540,1513)}operator the\Nstatistical basis {\c&H00657811&\b1}for{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:23.06,0:00:23.40,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}deciding{\c&H002A2B17&\b0} whether\Nthey should actually
+Dialogue: 0,0:00:23.40,0:00:23.78,Default,,0,0,0,,{\pos(540,1513)}deciding {\c&H00657811&\b1}whether{\c&H002A2B17&\b0}\Nthey should actually
+Dialogue: 0,0:00:23.78,0:00:24.04,Default,,0,0,0,,{\pos(540,1513)}deciding whether\N{\c&H00657811&\b1}they{\c&H002A2B17&\b0} should actually
+Dialogue: 0,0:00:24.04,0:00:24.18,Default,,0,0,0,,{\pos(540,1513)}deciding whether\Nthey {\c&H00657811&\b1}should{\c&H002A2B17&\b0} actually
+Dialogue: 0,0:00:24.18,0:00:24.58,Default,,0,0,0,,{\pos(540,1513)}deciding whether\Nthey should {\c&H00657811&\b1}actually{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:24.58,0:00:25.02,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}trust{\c&H002A2B17&\b0} this prediction\Nenough to route
+Dialogue: 0,0:00:25.02,0:00:25.24,Default,,0,0,0,,{\pos(540,1513)}trust {\c&H00657811&\b1}this{\c&H002A2B17&\b0} prediction\Nenough to route
+Dialogue: 0,0:00:25.24,0:00:25.48,Default,,0,0,0,,{\pos(540,1513)}trust this {\c&H00657811&\b1}prediction{\c&H002A2B17&\b0}\Nenough to route
+Dialogue: 0,0:00:25.48,0:00:25.92,Default,,0,0,0,,{\pos(540,1513)}trust this prediction\N{\c&H00657811&\b1}enough{\c&H002A2B17&\b0} to route
+Dialogue: 0,0:00:25.92,0:00:26.10,Default,,0,0,0,,{\pos(540,1513)}trust this prediction\Nenough {\c&H00657811&\b1}to{\c&H002A2B17&\b0} route
+Dialogue: 0,0:00:26.10,0:00:26.32,Default,,0,0,0,,{\pos(540,1513)}trust this prediction\Nenough to {\c&H00657811&\b1}route{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:26.32,0:00:26.50,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}a{\c&H002A2B17&\b0} hundred thousand\Ndollar delivery
+Dialogue: 0,0:00:26.50,0:00:26.86,Default,,0,0,0,,{\pos(540,1513)}a {\c&H00657811&\b1}hundred{\c&H002A2B17&\b0} thousand\Ndollar delivery
+Dialogue: 0,0:00:26.86,0:00:27.08,Default,,0,0,0,,{\pos(540,1513)}a hundred {\c&H00657811&\b1}thousand{\c&H002A2B17&\b0}\Ndollar delivery
+Dialogue: 0,0:00:27.08,0:00:27.44,Default,,0,0,0,,{\pos(540,1513)}a hundred thousand\N{\c&H00657811&\b1}dollar{\c&H002A2B17&\b0} delivery
+Dialogue: 0,0:00:27.44,0:00:27.72,Default,,0,0,0,,{\pos(540,1513)}a hundred thousand\Ndollar {\c&H00657811&\b1}delivery{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:27.72,0:00:28.10,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}truck{\c&H002A2B17&\b0} based on it.
+Dialogue: 0,0:00:28.10,0:00:28.36,Default,,0,0,0,,{\pos(540,1513)}truck {\c&H00657811&\b1}based{\c&H002A2B17&\b0} on it.
+Dialogue: 0,0:00:28.36,0:00:28.58,Default,,0,0,0,,{\pos(540,1513)}truck based {\c&H00657811&\b1}on{\c&H002A2B17&\b0} it.
+Dialogue: 0,0:00:28.58,0:00:28.84,Default,,0,0,0,,{\pos(540,1513)}truck based on {\c&H00657811&\b1}it.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:29.02,0:00:29.30,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}You{\c&H002A2B17&\b0} never present a\Nprobabilistic forecast
+Dialogue: 0,0:00:29.30,0:00:29.44,Default,,0,0,0,,{\pos(540,1513)}You {\c&H00657811&\b1}never{\c&H002A2B17&\b0} present a\Nprobabilistic forecast
+Dialogue: 0,0:00:29.44,0:00:29.82,Default,,0,0,0,,{\pos(540,1513)}You never {\c&H00657811&\b1}present{\c&H002A2B17&\b0} a\Nprobabilistic forecast
+Dialogue: 0,0:00:29.82,0:00:30.02,Default,,0,0,0,,{\pos(540,1513)}You never present {\c&H00657811&\b1}a{\c&H002A2B17&\b0}\Nprobabilistic forecast
+Dialogue: 0,0:00:30.02,0:00:30.66,Default,,0,0,0,,{\pos(540,1513)}You never present a\N{\c&H00657811&\b1}probabilistic{\c&H002A2B17&\b0} forecast
+Dialogue: 0,0:00:30.66,0:00:31.06,Default,,0,0,0,,{\pos(540,1513)}You never present a\Nprobabilistic {\c&H00657811&\b1}forecast{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:31.06,0:00:31.50,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}as{\c&H002A2B17&\b0} a deterministic fact.
+Dialogue: 0,0:00:31.50,0:00:31.64,Default,,0,0,0,,{\pos(540,1513)}as {\c&H00657811&\b1}a{\c&H002A2B17&\b0} deterministic fact.
+Dialogue: 0,0:00:31.64,0:00:32.28,Default,,0,0,0,,{\pos(540,1513)}as a {\c&H00657811&\b1}deterministic{\c&H002A2B17&\b0} fact.
+Dialogue: 0,0:00:32.28,0:00:32.86,Default,,0,0,0,,{\pos(540,1513)}as a deterministic {\c&H00657811&\b1}fact.{\c&H002A2B17&\b0}

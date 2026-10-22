@@ -1,0 +1,87 @@
+1
+00:00:00,220 --> 00:00:01,040
+If you want to set up
+
+2
+00:00:01,040 --> 00:00:03,219
+operational monitoring, the logical
+
+3
+00:00:03,219 --> 00:00:05,000
+conditions you can set are currently
+
+4
+00:00:05,000 --> 00:00:06,820
+quite primitive. The documentation
+
+5
+00:00:06,820 --> 00:00:08,820
+notes that it struggles with combined
+
+6
+00:00:08,820 --> 00:00:11,220
+and conditions and it struggles with
+
+7
+00:00:11,220 --> 00:00:13,680
+aggregations. So I can't build a
+
+8
+00:00:13,680 --> 00:00:15,760
+monitor that says alert me of
+
+9
+00:00:15,760 --> 00:00:17,820
+the temperature drops and the store
+
+10
+00:00:17,820 --> 00:00:20,500
+is priority and the total aggregated
+
+11
+00:00:20,500 --> 00:00:21,880
+revenue is over $10 ,000.
+
+12
+00:00:22,280 --> 00:00:24,560
+In the current preview, stringing complex,
+
+13
+00:00:24,920 --> 00:00:26,740
+multi -variable logic like that into
+
+14
+00:00:26,740 --> 00:00:29,000
+a passive monitor is highly problematic
+
+15
+00:00:29,000 --> 00:00:30,280
+and likely to fail.
+
+16
+00:00:30,740 --> 00:00:31,580
+You have to keep the monitoring
+
+17
+00:00:31,580 --> 00:00:33,519
+conditions very simple and isolated.
+
+18
+00:00:34,600 --> 00:00:36,060
+Furthermore, the operational agent
+
+19
+00:00:36,060 --> 00:00:37,680
+operates on a fixed five -minute
+
+20
+00:00:37,680 --> 00:00:39,660
+cycle. It is not sub -second
+
+21
+00:00:39,660 --> 00:00:41,760
+real time. It only checks the
+
+22
+00:00:41,760 --> 00:00:42,839
+condition every five minutes.

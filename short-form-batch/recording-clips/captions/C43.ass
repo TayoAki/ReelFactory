@@ -1,0 +1,69 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.27,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}It{\c&H002A2B17&\b0} also absolutely\Nrequires entity
+Dialogue: 0,0:00:00.27,0:00:00.41,Default,,0,0,0,,{\pos(540,1513)}It {\c&H00657811&\b1}also{\c&H002A2B17&\b0} absolutely\Nrequires entity
+Dialogue: 0,0:00:00.41,0:00:01.38,Default,,0,0,0,,{\pos(540,1513)}It also {\c&H00657811&\b1}absolutely{\c&H002A2B17&\b0}\Nrequires entity
+Dialogue: 0,0:00:01.38,0:00:02.04,Default,,0,0,0,,{\pos(540,1513)}It also absolutely\N{\c&H00657811&\b1}requires{\c&H002A2B17&\b0} entity
+Dialogue: 0,0:00:02.04,0:00:02.36,Default,,0,0,0,,{\pos(540,1513)}It also absolutely\Nrequires {\c&H00657811&\b1}entity{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:02.36,0:00:02.78,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}keys{\c&H002A2B17&\b0} to be perfectly\Ndefined, and
+Dialogue: 0,0:00:02.78,0:00:03.01,Default,,0,0,0,,{\pos(540,1513)}keys {\c&H00657811&\b1}to{\c&H002A2B17&\b0} be perfectly\Ndefined, and
+Dialogue: 0,0:00:03.01,0:00:03.12,Default,,0,0,0,,{\pos(540,1513)}keys to {\c&H00657811&\b1}be{\c&H002A2B17&\b0} perfectly\Ndefined, and
+Dialogue: 0,0:00:03.12,0:00:03.50,Default,,0,0,0,,{\pos(540,1513)}keys to be {\c&H00657811&\b1}perfectly{\c&H002A2B17&\b0}\Ndefined, and
+Dialogue: 0,0:00:03.50,0:00:04.28,Default,,0,0,0,,{\pos(540,1513)}keys to be perfectly\N{\c&H00657811&\b1}defined,{\c&H002A2B17&\b0} and
+Dialogue: 0,0:00:04.28,0:00:04.32,Default,,0,0,0,,{\pos(540,1513)}keys to be perfectly\Ndefined, {\c&H00657811&\b1}and{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:04.32,0:00:05.58,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}crucially,{\c&H002A2B17&\b0} this is a\Nmassive limitation
+Dialogue: 0,0:00:05.58,0:00:05.60,Default,,0,0,0,,{\pos(540,1513)}crucially, {\c&H00657811&\b1}this{\c&H002A2B17&\b0} is a\Nmassive limitation
+Dialogue: 0,0:00:05.60,0:00:05.70,Default,,0,0,0,,{\pos(540,1513)}crucially, this {\c&H00657811&\b1}is{\c&H002A2B17&\b0} a\Nmassive limitation
+Dialogue: 0,0:00:05.70,0:00:05.76,Default,,0,0,0,,{\pos(540,1513)}crucially, this is {\c&H00657811&\b1}a{\c&H002A2B17&\b0}\Nmassive limitation
+Dialogue: 0,0:00:05.76,0:00:05.98,Default,,0,0,0,,{\pos(540,1513)}crucially, this is a\N{\c&H00657811&\b1}massive{\c&H002A2B17&\b0} limitation
+Dialogue: 0,0:00:05.98,0:00:06.53,Default,,0,0,0,,{\pos(540,1513)}crucially, this is a\Nmassive {\c&H00657811&\b1}limitation{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:06.53,0:00:06.86,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}for{\c&H002A2B17&\b0} a financial analysis.
+Dialogue: 0,0:00:06.86,0:00:06.90,Default,,0,0,0,,{\pos(540,1513)}for {\c&H00657811&\b1}a{\c&H002A2B17&\b0} financial analysis.
+Dialogue: 0,0:00:06.90,0:00:07.14,Default,,0,0,0,,{\pos(540,1513)}for a {\c&H00657811&\b1}financial{\c&H002A2B17&\b0} analysis.
+Dialogue: 0,0:00:07.14,0:00:07.84,Default,,0,0,0,,{\pos(540,1513)}for a financial {\c&H00657811&\b1}analysis.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:08.36,0:00:08.52,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}It{\c&H002A2B17&\b0} currently excludes\Nsemantic model
+Dialogue: 0,0:00:08.52,0:00:08.84,Default,,0,0,0,,{\pos(540,1513)}It {\c&H00657811&\b1}currently{\c&H002A2B17&\b0} excludes\Nsemantic model
+Dialogue: 0,0:00:08.84,0:00:09.27,Default,,0,0,0,,{\pos(540,1513)}It currently {\c&H00657811&\b1}excludes{\c&H002A2B17&\b0}\Nsemantic model
+Dialogue: 0,0:00:09.27,0:00:09.76,Default,,0,0,0,,{\pos(540,1513)}It currently excludes\N{\c&H00657811&\b1}semantic{\c&H002A2B17&\b0} model
+Dialogue: 0,0:00:09.76,0:00:10.26,Default,,0,0,0,,{\pos(540,1513)}It currently excludes\Nsemantic {\c&H00657811&\b1}model{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:10.26,0:00:10.46,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}bound{\c&H002A2B17&\b0} entities.\NWait, so if my
+Dialogue: 0,0:00:10.46,0:00:11.66,Default,,0,0,0,,{\pos(540,1513)}bound {\c&H00657811&\b1}entities.{\c&H002A2B17&\b0}\NWait, so if my
+Dialogue: 0,0:00:11.66,0:00:11.84,Default,,0,0,0,,{\pos(540,1513)}bound entities.\N{\c&H00657811&\b1}Wait,{\c&H002A2B17&\b0} so if my
+Dialogue: 0,0:00:11.84,0:00:11.96,Default,,0,0,0,,{\pos(540,1513)}bound entities.\NWait, {\c&H00657811&\b1}so{\c&H002A2B17&\b0} if my
+Dialogue: 0,0:00:11.96,0:00:12.08,Default,,0,0,0,,{\pos(540,1513)}bound entities.\NWait, so {\c&H00657811&\b1}if{\c&H002A2B17&\b0} my
+Dialogue: 0,0:00:12.08,0:00:12.28,Default,,0,0,0,,{\pos(540,1513)}bound entities.\NWait, so if {\c&H00657811&\b1}my{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:12.28,0:00:12.62,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}net{\c&H002A2B17&\b0} profit metric\Nis calculated via
+Dialogue: 0,0:00:12.62,0:00:13.04,Default,,0,0,0,,{\pos(540,1513)}net {\c&H00657811&\b1}profit{\c&H002A2B17&\b0} metric\Nis calculated via
+Dialogue: 0,0:00:13.04,0:00:13.56,Default,,0,0,0,,{\pos(540,1513)}net profit {\c&H00657811&\b1}metric{\c&H002A2B17&\b0}\Nis calculated via
+Dialogue: 0,0:00:13.56,0:00:13.94,Default,,0,0,0,,{\pos(540,1513)}net profit metric\N{\c&H00657811&\b1}is{\c&H002A2B17&\b0} calculated via
+Dialogue: 0,0:00:13.94,0:00:14.26,Default,,0,0,0,,{\pos(540,1513)}net profit metric\Nis {\c&H00657811&\b1}calculated{\c&H002A2B17&\b0} via
+Dialogue: 0,0:00:14.26,0:00:14.73,Default,,0,0,0,,{\pos(540,1513)}net profit metric\Nis calculated {\c&H00657811&\b1}via{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:14.73,0:00:15.64,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}DAX,{\c&H002A2B17&\b0} inside a\NPower BI semantic
+Dialogue: 0,0:00:15.64,0:00:15.89,Default,,0,0,0,,{\pos(540,1513)}DAX, {\c&H00657811&\b1}inside{\c&H002A2B17&\b0} a\NPower BI semantic
+Dialogue: 0,0:00:15.89,0:00:16.14,Default,,0,0,0,,{\pos(540,1513)}DAX, inside {\c&H00657811&\b1}a{\c&H002A2B17&\b0}\NPower BI semantic
+Dialogue: 0,0:00:16.14,0:00:16.32,Default,,0,0,0,,{\pos(540,1513)}DAX, inside a\N{\c&H00657811&\b1}Power{\c&H002A2B17&\b0} BI semantic
+Dialogue: 0,0:00:16.32,0:00:16.55,Default,,0,0,0,,{\pos(540,1513)}DAX, inside a\NPower {\c&H00657811&\b1}BI{\c&H002A2B17&\b0} semantic
+Dialogue: 0,0:00:16.55,0:00:16.84,Default,,0,0,0,,{\pos(540,1513)}DAX, inside a\NPower BI {\c&H00657811&\b1}semantic{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:16.84,0:00:17.76,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}model,{\c&H002A2B17&\b0} I cannot\Ninclude that metric
+Dialogue: 0,0:00:17.76,0:00:18.30,Default,,0,0,0,,{\pos(540,1513)}model, {\c&H00657811&\b1}I{\c&H002A2B17&\b0} cannot\Ninclude that metric
+Dialogue: 0,0:00:18.30,0:00:18.50,Default,,0,0,0,,{\pos(540,1513)}model, I {\c&H00657811&\b1}cannot{\c&H002A2B17&\b0}\Ninclude that metric
+Dialogue: 0,0:00:18.50,0:00:18.98,Default,,0,0,0,,{\pos(540,1513)}model, I cannot\N{\c&H00657811&\b1}include{\c&H002A2B17&\b0} that metric
+Dialogue: 0,0:00:18.98,0:00:19.34,Default,,0,0,0,,{\pos(540,1513)}model, I cannot\Ninclude {\c&H00657811&\b1}that{\c&H002A2B17&\b0} metric
+Dialogue: 0,0:00:19.34,0:00:19.73,Default,,0,0,0,,{\pos(540,1513)}model, I cannot\Ninclude that {\c&H00657811&\b1}metric{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:19.73,0:00:20.22,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}in{\c&H002A2B17&\b0} the graph traversal not at
+Dialogue: 0,0:00:20.22,0:00:20.34,Default,,0,0,0,,{\pos(540,1513)}in {\c&H00657811&\b1}the{\c&H002A2B17&\b0} graph traversal not at
+Dialogue: 0,0:00:20.34,0:00:20.50,Default,,0,0,0,,{\pos(540,1513)}in the {\c&H00657811&\b1}graph{\c&H002A2B17&\b0} traversal not at
+Dialogue: 0,0:00:20.50,0:00:21.04,Default,,0,0,0,,{\pos(540,1513)}in the graph {\c&H00657811&\b1}traversal{\c&H002A2B17&\b0} not at
+Dialogue: 0,0:00:21.04,0:00:21.52,Default,,0,0,0,,{\pos(540,1513)}in the graph traversal {\c&H00657811&\b1}not{\c&H002A2B17&\b0} at
+Dialogue: 0,0:00:21.52,0:00:21.66,Default,,0,0,0,,{\pos(540,1513)}in the graph traversal not {\c&H00657811&\b1}at{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:21.66,0:00:21.80,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}this{\c&H002A2B17&\b0} time No,
+Dialogue: 0,0:00:21.80,0:00:21.98,Default,,0,0,0,,{\pos(540,1513)}this {\c&H00657811&\b1}time{\c&H002A2B17&\b0} No,
+Dialogue: 0,0:00:21.98,0:00:22.46,Default,,0,0,0,,{\pos(540,1513)}this time {\c&H00657811&\b1}No,{\c&H002A2B17&\b0}

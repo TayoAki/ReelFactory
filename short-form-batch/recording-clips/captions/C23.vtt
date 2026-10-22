@@ -1,0 +1,109 @@
+WEBVTT
+
+00:00:00.200 --> 00:00:01.560
+A relational database might have a
+
+00:00:01.560 --> 00:00:03.820
+column named priority level, filled
+
+00:00:03.820 --> 00:00:05.060
+with the numbers one, two, and
+
+00:00:05.060 --> 00:00:07.160
+three. The schema knows it's an
+
+00:00:07.160 --> 00:00:09.780
+integer, but the schema has absolutely
+
+00:00:09.780 --> 00:00:11.360
+no idea what makes a one
+
+00:00:11.360 --> 00:00:13.640
+strategically different from a three
+
+00:00:13.640 --> 00:00:14.799
+in the real world.
+
+00:00:15.399 --> 00:00:16.640
+Which brings us to the most
+
+00:00:16.640 --> 00:00:18.520
+human element of this entire process,
+
+00:00:18.520 --> 00:00:20.880
+which is adding the metadata and
+
+00:00:20.880 --> 00:00:21.660
+the business roles.
+
+00:00:22.140 --> 00:00:24.160
+Right. This is where you inject
+
+00:00:24.160 --> 00:00:26.980
+the tacit tribal knowledge that actually
+
+00:00:26.980 --> 00:00:28.640
+determines how a business question
+
+00:00:28.640 --> 00:00:30.400
+is answered. It's like leaving highly
+
+00:00:30.400 --> 00:00:32.240
+detailed sticky notes all over a
+
+00:00:32.240 --> 00:00:33.680
+complex shared spreadsheet.
+
+00:00:34.519 --> 00:00:35.660
+So the next analyst who opens
+
+00:00:35.660 --> 00:00:37.420
+it doesn't accidentally delete the
+
+00:00:37.420 --> 00:00:39.000
+company's revenue projections because
+
+00:00:39.000 --> 00:00:40.660
+they didn't understand what a column
+
+00:00:40.660 --> 00:00:43.239
+meant. That is the exact mechanism.
+
+00:00:43.980 --> 00:00:45.780
+You have to manually codify the
+
+00:00:45.780 --> 00:00:47.560
+context that the schema simply cannot
+
+00:00:47.560 --> 00:00:49.660
+possess. Give me some real world
+
+00:00:49.660 --> 00:00:50.620
+examples of that.
+
+00:00:51.160 --> 00:00:52.940
+Well, in our retail operation scenario,
+
+00:00:52.940 --> 00:00:55.080
+this means explicitly writing out the
+
+00:00:55.080 --> 00:00:57.060
+definition of what constitutes a priority
+
+00:00:57.060 --> 00:00:58.800
+store. Is it based on square
+
+00:00:58.800 --> 00:01:01.540
+footage, total revenue, proximity to
+
+00:01:01.540 --> 00:01:02.780
+a distribution center, you have to
+
+00:01:02.780 --> 00:01:04.459
+define it. Right, because priority
+
+00:01:04.459 --> 00:01:06.200
+is totally subjective until you define
+
+00:01:06.200 --> 00:01:06.579
+it.

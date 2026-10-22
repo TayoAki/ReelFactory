@@ -1,0 +1,88 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.25,0:00:00.56,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}What{\c&H002A2B17&\b0} happens during\Na major corporate
+Dialogue: 0,0:00:00.56,0:00:00.89,Default,,0,0,0,,{\pos(540,1513)}What {\c&H00657811&\b1}happens{\c&H002A2B17&\b0} during\Na major corporate
+Dialogue: 0,0:00:00.89,0:00:01.58,Default,,0,0,0,,{\pos(540,1513)}What happens {\c&H00657811&\b1}during{\c&H002A2B17&\b0}\Na major corporate
+Dialogue: 0,0:00:01.58,0:00:01.79,Default,,0,0,0,,{\pos(540,1513)}What happens during\N{\c&H00657811&\b1}a{\c&H002A2B17&\b0} major corporate
+Dialogue: 0,0:00:01.79,0:00:02.08,Default,,0,0,0,,{\pos(540,1513)}What happens during\Na {\c&H00657811&\b1}major{\c&H002A2B17&\b0} corporate
+Dialogue: 0,0:00:02.08,0:00:02.44,Default,,0,0,0,,{\pos(540,1513)}What happens during\Na major {\c&H00657811&\b1}corporate{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:02.44,0:00:03.20,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}merger?{\c&H002A2B17&\b0} Oh, wow.
+Dialogue: 0,0:00:03.20,0:00:03.42,Default,,0,0,0,,{\pos(540,1513)}merger? {\c&H00657811&\b1}Oh,{\c&H002A2B17&\b0} wow.
+Dialogue: 0,0:00:03.42,0:00:03.78,Default,,0,0,0,,{\pos(540,1513)}merger? Oh, {\c&H00657811&\b1}wow.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:04.44,0:00:04.66,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}When{\c&H002A2B17&\b0} two massive global\Ncompanies combine,
+Dialogue: 0,0:00:04.66,0:00:04.88,Default,,0,0,0,,{\pos(540,1513)}When {\c&H00657811&\b1}two{\c&H002A2B17&\b0} massive global\Ncompanies combine,
+Dialogue: 0,0:00:04.88,0:00:05.36,Default,,0,0,0,,{\pos(540,1513)}When two {\c&H00657811&\b1}massive{\c&H002A2B17&\b0} global\Ncompanies combine,
+Dialogue: 0,0:00:05.36,0:00:05.70,Default,,0,0,0,,{\pos(540,1513)}When two massive {\c&H00657811&\b1}global{\c&H002A2B17&\b0}\Ncompanies combine,
+Dialogue: 0,0:00:05.70,0:00:06.27,Default,,0,0,0,,{\pos(540,1513)}When two massive global\N{\c&H00657811&\b1}companies{\c&H002A2B17&\b0} combine,
+Dialogue: 0,0:00:06.27,0:00:06.76,Default,,0,0,0,,{\pos(540,1513)}When two massive global\Ncompanies {\c&H00657811&\b1}combine,{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:07.60,0:00:07.84,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}is{\c&H002A2B17&\b0} the future of M &A
+Dialogue: 0,0:00:07.84,0:00:07.98,Default,,0,0,0,,{\pos(540,1513)}is {\c&H00657811&\b1}the{\c&H002A2B17&\b0} future of M &A
+Dialogue: 0,0:00:07.98,0:00:08.24,Default,,0,0,0,,{\pos(540,1513)}is the {\c&H00657811&\b1}future{\c&H002A2B17&\b0} of M &A
+Dialogue: 0,0:00:08.24,0:00:08.44,Default,,0,0,0,,{\pos(540,1513)}is the future {\c&H00657811&\b1}of{\c&H002A2B17&\b0} M &A
+Dialogue: 0,0:00:08.44,0:00:08.58,Default,,0,0,0,,{\pos(540,1513)}is the future of {\c&H00657811&\b1}M{\c&H002A2B17&\b0} &A
+Dialogue: 0,0:00:08.58,0:00:08.77,Default,,0,0,0,,{\pos(540,1513)}is the future of M {\c&H00657811&\b1}&A{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:08.77,0:00:09.08,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}less{\c&H002A2B17&\b0} about merging\Nfinances and entirely
+Dialogue: 0,0:00:09.08,0:00:09.32,Default,,0,0,0,,{\pos(540,1513)}less {\c&H00657811&\b1}about{\c&H002A2B17&\b0} merging\Nfinances and entirely
+Dialogue: 0,0:00:09.32,0:00:09.66,Default,,0,0,0,,{\pos(540,1513)}less about {\c&H00657811&\b1}merging{\c&H002A2B17&\b0}\Nfinances and entirely
+Dialogue: 0,0:00:09.66,0:00:10.82,Default,,0,0,0,,{\pos(540,1513)}less about merging\N{\c&H00657811&\b1}finances{\c&H002A2B17&\b0} and entirely
+Dialogue: 0,0:00:10.82,0:00:11.16,Default,,0,0,0,,{\pos(540,1513)}less about merging\Nfinances {\c&H00657811&\b1}and{\c&H002A2B17&\b0} entirely
+Dialogue: 0,0:00:11.16,0:00:11.46,Default,,0,0,0,,{\pos(540,1513)}less about merging\Nfinances and {\c&H00657811&\b1}entirely{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:11.46,0:00:11.94,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}about{\c&H002A2B17&\b0} whether their\Nrespective AI ontologies
+Dialogue: 0,0:00:11.94,0:00:12.22,Default,,0,0,0,,{\pos(540,1513)}about {\c&H00657811&\b1}whether{\c&H002A2B17&\b0} their\Nrespective AI ontologies
+Dialogue: 0,0:00:12.22,0:00:12.40,Default,,0,0,0,,{\pos(540,1513)}about whether {\c&H00657811&\b1}their{\c&H002A2B17&\b0}\Nrespective AI ontologies
+Dialogue: 0,0:00:12.40,0:00:12.78,Default,,0,0,0,,{\pos(540,1513)}about whether their\N{\c&H00657811&\b1}respective{\c&H002A2B17&\b0} AI ontologies
+Dialogue: 0,0:00:12.78,0:00:13.20,Default,,0,0,0,,{\pos(540,1513)}about whether their\Nrespective {\c&H00657811&\b1}AI{\c&H002A2B17&\b0} ontologies
+Dialogue: 0,0:00:13.20,0:00:14.15,Default,,0,0,0,,{\pos(540,1513)}about whether their\Nrespective AI {\c&H00657811&\b1}ontologies{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:14.52,0:00:14.86,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}can{\c&H002A2B17&\b0} successfully\Nnegotiate a shared
+Dialogue: 0,0:00:14.86,0:00:15.28,Default,,0,0,0,,{\pos(540,1513)}can {\c&H00657811&\b1}successfully{\c&H002A2B17&\b0}\Nnegotiate a shared
+Dialogue: 0,0:00:15.28,0:00:16.10,Default,,0,0,0,,{\pos(540,1513)}can successfully\N{\c&H00657811&\b1}negotiate{\c&H002A2B17&\b0} a shared
+Dialogue: 0,0:00:16.10,0:00:16.23,Default,,0,0,0,,{\pos(540,1513)}can successfully\Nnegotiate {\c&H00657811&\b1}a{\c&H002A2B17&\b0} shared
+Dialogue: 0,0:00:16.23,0:00:16.46,Default,,0,0,0,,{\pos(540,1513)}can successfully\Nnegotiate a {\c&H00657811&\b1}shared{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:16.46,0:00:18.36,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}reality?{\c&H002A2B17&\b0} If company\NA's ontology defines
+Dialogue: 0,0:00:18.36,0:00:18.80,Default,,0,0,0,,{\pos(540,1513)}reality? If {\c&H00657811&\b1}company{\c&H002A2B17&\b0}\NA's ontology defines
+Dialogue: 0,0:00:18.80,0:00:19.20,Default,,0,0,0,,{\pos(540,1513)}reality? If company\N{\c&H00657811&\b1}A's{\c&H002A2B17&\b0} ontology defines
+Dialogue: 0,0:00:19.20,0:00:19.57,Default,,0,0,0,,{\pos(540,1513)}reality? If company\NA's {\c&H00657811&\b1}ontology{\c&H002A2B17&\b0} defines
+Dialogue: 0,0:00:19.57,0:00:20.04,Default,,0,0,0,,{\pos(540,1513)}reality? If company\NA's ontology {\c&H00657811&\b1}defines{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:20.04,0:00:20.34,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}risk{\c&H002A2B17&\b0} or revenue in a way
+Dialogue: 0,0:00:20.34,0:00:20.78,Default,,0,0,0,,{\pos(540,1513)}risk {\c&H00657811&\b1}or{\c&H002A2B17&\b0} revenue in a way
+Dialogue: 0,0:00:20.78,0:00:21.40,Default,,0,0,0,,{\pos(540,1513)}risk or {\c&H00657811&\b1}revenue{\c&H002A2B17&\b0} in a way
+Dialogue: 0,0:00:21.40,0:00:21.84,Default,,0,0,0,,{\pos(540,1513)}risk or revenue {\c&H00657811&\b1}in{\c&H002A2B17&\b0} a way
+Dialogue: 0,0:00:21.84,0:00:21.90,Default,,0,0,0,,{\pos(540,1513)}risk or revenue in {\c&H00657811&\b1}a{\c&H002A2B17&\b0} way
+Dialogue: 0,0:00:21.90,0:00:22.06,Default,,0,0,0,,{\pos(540,1513)}risk or revenue in a {\c&H00657811&\b1}way{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:22.06,0:00:22.18,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}that{\c&H002A2B17&\b0} fundamentally\Nclashes with company
+Dialogue: 0,0:00:22.18,0:00:22.56,Default,,0,0,0,,{\pos(540,1513)}that {\c&H00657811&\b1}fundamentally{\c&H002A2B17&\b0}\Nclashes with company
+Dialogue: 0,0:00:22.56,0:00:23.08,Default,,0,0,0,,{\pos(540,1513)}that fundamentally\N{\c&H00657811&\b1}clashes{\c&H002A2B17&\b0} with company
+Dialogue: 0,0:00:23.08,0:00:23.36,Default,,0,0,0,,{\pos(540,1513)}that fundamentally\Nclashes {\c&H00657811&\b1}with{\c&H002A2B17&\b0} company
+Dialogue: 0,0:00:23.36,0:00:23.54,Default,,0,0,0,,{\pos(540,1513)}that fundamentally\Nclashes with {\c&H00657811&\b1}company{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:23.54,0:00:24.08,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}B's{\c&H002A2B17&\b0} ontology at a\Nmathematical level,
+Dialogue: 0,0:00:24.08,0:00:24.48,Default,,0,0,0,,{\pos(540,1513)}B's {\c&H00657811&\b1}ontology{\c&H002A2B17&\b0} at a\Nmathematical level,
+Dialogue: 0,0:00:24.48,0:00:24.80,Default,,0,0,0,,{\pos(540,1513)}B's ontology {\c&H00657811&\b1}at{\c&H002A2B17&\b0} a\Nmathematical level,
+Dialogue: 0,0:00:24.80,0:00:24.86,Default,,0,0,0,,{\pos(540,1513)}B's ontology at {\c&H00657811&\b1}a{\c&H002A2B17&\b0}\Nmathematical level,
+Dialogue: 0,0:00:24.86,0:00:25.08,Default,,0,0,0,,{\pos(540,1513)}B's ontology at a\N{\c&H00657811&\b1}mathematical{\c&H002A2B17&\b0} level,
+Dialogue: 0,0:00:25.08,0:00:25.88,Default,,0,0,0,,{\pos(540,1513)}B's ontology at a\Nmathematical {\c&H00657811&\b1}level,{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:26.16,0:00:26.80,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}can{\c&H002A2B17&\b0} the merger\Never truly succeed
+Dialogue: 0,0:00:26.80,0:00:26.94,Default,,0,0,0,,{\pos(540,1513)}can {\c&H00657811&\b1}the{\c&H002A2B17&\b0} merger\Never truly succeed
+Dialogue: 0,0:00:26.94,0:00:27.11,Default,,0,0,0,,{\pos(540,1513)}can the {\c&H00657811&\b1}merger{\c&H002A2B17&\b0}\Never truly succeed
+Dialogue: 0,0:00:27.11,0:00:27.52,Default,,0,0,0,,{\pos(540,1513)}can the merger\N{\c&H00657811&\b1}ever{\c&H002A2B17&\b0} truly succeed
+Dialogue: 0,0:00:27.52,0:00:27.92,Default,,0,0,0,,{\pos(540,1513)}can the merger\Never {\c&H00657811&\b1}truly{\c&H002A2B17&\b0} succeed
+Dialogue: 0,0:00:27.92,0:00:28.61,Default,,0,0,0,,{\pos(540,1513)}can the merger\Never truly {\c&H00657811&\b1}succeed{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:28.61,0:00:29.24,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}without{\c&H002A2B17&\b0} completely\Nrewriting the central
+Dialogue: 0,0:00:29.24,0:00:29.66,Default,,0,0,0,,{\pos(540,1513)}without {\c&H00657811&\b1}completely{\c&H002A2B17&\b0}\Nrewriting the central
+Dialogue: 0,0:00:29.66,0:00:30.11,Default,,0,0,0,,{\pos(540,1513)}without completely\N{\c&H00657811&\b1}rewriting{\c&H002A2B17&\b0} the central
+Dialogue: 0,0:00:30.11,0:00:30.38,Default,,0,0,0,,{\pos(540,1513)}without completely\Nrewriting {\c&H00657811&\b1}the{\c&H002A2B17&\b0} central
+Dialogue: 0,0:00:30.38,0:00:30.64,Default,,0,0,0,,{\pos(540,1513)}without completely\Nrewriting the {\c&H00657811&\b1}central{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:30.64,0:00:30.82,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}nervous{\c&H002A2B17&\b0} system of one of the
+Dialogue: 0,0:00:30.82,0:00:31.28,Default,,0,0,0,,{\pos(540,1513)}nervous {\c&H00657811&\b1}system{\c&H002A2B17&\b0} of one of the
+Dialogue: 0,0:00:31.28,0:00:31.44,Default,,0,0,0,,{\pos(540,1513)}nervous system {\c&H00657811&\b1}of{\c&H002A2B17&\b0} one of the
+Dialogue: 0,0:00:31.44,0:00:31.60,Default,,0,0,0,,{\pos(540,1513)}nervous system of {\c&H00657811&\b1}one{\c&H002A2B17&\b0} of the
+Dialogue: 0,0:00:31.60,0:00:31.70,Default,,0,0,0,,{\pos(540,1513)}nervous system of one {\c&H00657811&\b1}of{\c&H002A2B17&\b0} the
+Dialogue: 0,0:00:31.70,0:00:31.76,Default,,0,0,0,,{\pos(540,1513)}nervous system of one of {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:31.76,0:00:32.09,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}companies?{\c&H002A2B17&\b0}

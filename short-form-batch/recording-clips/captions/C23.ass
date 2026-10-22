@@ -1,0 +1,201 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.20,0:00:00.29,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}A{\c&H002A2B17&\b0} relational database\Nmight have a
+Dialogue: 0,0:00:00.29,0:00:00.54,Default,,0,0,0,,{\pos(540,1513)}A {\c&H00657811&\b1}relational{\c&H002A2B17&\b0} database\Nmight have a
+Dialogue: 0,0:00:00.54,0:00:00.92,Default,,0,0,0,,{\pos(540,1513)}A relational {\c&H00657811&\b1}database{\c&H002A2B17&\b0}\Nmight have a
+Dialogue: 0,0:00:00.92,0:00:01.25,Default,,0,0,0,,{\pos(540,1513)}A relational database\N{\c&H00657811&\b1}might{\c&H002A2B17&\b0} have a
+Dialogue: 0,0:00:01.25,0:00:01.48,Default,,0,0,0,,{\pos(540,1513)}A relational database\Nmight {\c&H00657811&\b1}have{\c&H002A2B17&\b0} a
+Dialogue: 0,0:00:01.48,0:00:01.56,Default,,0,0,0,,{\pos(540,1513)}A relational database\Nmight have {\c&H00657811&\b1}a{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:01.56,0:00:01.72,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}column{\c&H002A2B17&\b0} named\Npriority level, filled
+Dialogue: 0,0:00:01.72,0:00:02.16,Default,,0,0,0,,{\pos(540,1513)}column {\c&H00657811&\b1}named{\c&H002A2B17&\b0}\Npriority level, filled
+Dialogue: 0,0:00:02.16,0:00:02.58,Default,,0,0,0,,{\pos(540,1513)}column named\N{\c&H00657811&\b1}priority{\c&H002A2B17&\b0} level, filled
+Dialogue: 0,0:00:02.58,0:00:03.04,Default,,0,0,0,,{\pos(540,1513)}column named\Npriority {\c&H00657811&\b1}level,{\c&H002A2B17&\b0} filled
+Dialogue: 0,0:00:03.04,0:00:03.82,Default,,0,0,0,,{\pos(540,1513)}column named\Npriority level, {\c&H00657811&\b1}filled{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:03.82,0:00:04.00,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}with{\c&H002A2B17&\b0} the numbers\None, two, and
+Dialogue: 0,0:00:04.00,0:00:04.09,Default,,0,0,0,,{\pos(540,1513)}with {\c&H00657811&\b1}the{\c&H002A2B17&\b0} numbers\None, two, and
+Dialogue: 0,0:00:04.09,0:00:04.32,Default,,0,0,0,,{\pos(540,1513)}with the {\c&H00657811&\b1}numbers{\c&H002A2B17&\b0}\None, two, and
+Dialogue: 0,0:00:04.32,0:00:04.78,Default,,0,0,0,,{\pos(540,1513)}with the numbers\N{\c&H00657811&\b1}one,{\c&H002A2B17&\b0} two, and
+Dialogue: 0,0:00:04.78,0:00:04.96,Default,,0,0,0,,{\pos(540,1513)}with the numbers\None, {\c&H00657811&\b1}two,{\c&H002A2B17&\b0} and
+Dialogue: 0,0:00:04.96,0:00:05.05,Default,,0,0,0,,{\pos(540,1513)}with the numbers\None, two, {\c&H00657811&\b1}and{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:05.05,0:00:06.27,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}three.{\c&H002A2B17&\b0} The schema\Nknows it's an
+Dialogue: 0,0:00:06.27,0:00:06.34,Default,,0,0,0,,{\pos(540,1513)}three. {\c&H00657811&\b1}The{\c&H002A2B17&\b0} schema\Nknows it's an
+Dialogue: 0,0:00:06.34,0:00:06.52,Default,,0,0,0,,{\pos(540,1513)}three. The {\c&H00657811&\b1}schema{\c&H002A2B17&\b0}\Nknows it's an
+Dialogue: 0,0:00:06.52,0:00:06.84,Default,,0,0,0,,{\pos(540,1513)}three. The schema\N{\c&H00657811&\b1}knows{\c&H002A2B17&\b0} it's an
+Dialogue: 0,0:00:06.84,0:00:07.08,Default,,0,0,0,,{\pos(540,1513)}three. The schema\Nknows {\c&H00657811&\b1}it's{\c&H002A2B17&\b0} an
+Dialogue: 0,0:00:07.08,0:00:07.16,Default,,0,0,0,,{\pos(540,1513)}three. The schema\Nknows it's {\c&H00657811&\b1}an{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:07.16,0:00:08.06,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}integer,{\c&H002A2B17&\b0} but the\Nschema has absolutely
+Dialogue: 0,0:00:08.06,0:00:08.34,Default,,0,0,0,,{\pos(540,1513)}integer, {\c&H00657811&\b1}but{\c&H002A2B17&\b0} the\Nschema has absolutely
+Dialogue: 0,0:00:08.34,0:00:08.46,Default,,0,0,0,,{\pos(540,1513)}integer, but {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nschema has absolutely
+Dialogue: 0,0:00:08.46,0:00:08.68,Default,,0,0,0,,{\pos(540,1513)}integer, but the\N{\c&H00657811&\b1}schema{\c&H002A2B17&\b0} has absolutely
+Dialogue: 0,0:00:08.68,0:00:09.34,Default,,0,0,0,,{\pos(540,1513)}integer, but the\Nschema {\c&H00657811&\b1}has{\c&H002A2B17&\b0} absolutely
+Dialogue: 0,0:00:09.34,0:00:09.77,Default,,0,0,0,,{\pos(540,1513)}integer, but the\Nschema has {\c&H00657811&\b1}absolutely{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:09.77,0:00:10.30,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}no{\c&H002A2B17&\b0} idea what makes a one
+Dialogue: 0,0:00:10.30,0:00:10.56,Default,,0,0,0,,{\pos(540,1513)}no {\c&H00657811&\b1}idea{\c&H002A2B17&\b0} what makes a one
+Dialogue: 0,0:00:10.56,0:00:10.76,Default,,0,0,0,,{\pos(540,1513)}no idea {\c&H00657811&\b1}what{\c&H002A2B17&\b0} makes a one
+Dialogue: 0,0:00:10.76,0:00:10.94,Default,,0,0,0,,{\pos(540,1513)}no idea what {\c&H00657811&\b1}makes{\c&H002A2B17&\b0} a one
+Dialogue: 0,0:00:10.94,0:00:11.06,Default,,0,0,0,,{\pos(540,1513)}no idea what makes {\c&H00657811&\b1}a{\c&H002A2B17&\b0} one
+Dialogue: 0,0:00:11.06,0:00:11.36,Default,,0,0,0,,{\pos(540,1513)}no idea what makes a {\c&H00657811&\b1}one{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:11.36,0:00:12.08,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}strategically{\c&H002A2B17&\b0}\Ndifferent from a three
+Dialogue: 0,0:00:12.08,0:00:12.78,Default,,0,0,0,,{\pos(540,1513)}strategically\N{\c&H00657811&\b1}different{\c&H002A2B17&\b0} from a three
+Dialogue: 0,0:00:12.78,0:00:13.18,Default,,0,0,0,,{\pos(540,1513)}strategically\Ndifferent {\c&H00657811&\b1}from{\c&H002A2B17&\b0} a three
+Dialogue: 0,0:00:13.18,0:00:13.30,Default,,0,0,0,,{\pos(540,1513)}strategically\Ndifferent from {\c&H00657811&\b1}a{\c&H002A2B17&\b0} three
+Dialogue: 0,0:00:13.30,0:00:13.64,Default,,0,0,0,,{\pos(540,1513)}strategically\Ndifferent from a {\c&H00657811&\b1}three{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:13.64,0:00:14.04,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}in{\c&H002A2B17&\b0} the real world.
+Dialogue: 0,0:00:14.04,0:00:14.14,Default,,0,0,0,,{\pos(540,1513)}in {\c&H00657811&\b1}the{\c&H002A2B17&\b0} real world.
+Dialogue: 0,0:00:14.14,0:00:14.28,Default,,0,0,0,,{\pos(540,1513)}in the {\c&H00657811&\b1}real{\c&H002A2B17&\b0} world.
+Dialogue: 0,0:00:14.28,0:00:14.80,Default,,0,0,0,,{\pos(540,1513)}in the real {\c&H00657811&\b1}world.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:15.39,0:00:15.88,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Which{\c&H002A2B17&\b0} brings us to the most
+Dialogue: 0,0:00:15.88,0:00:16.12,Default,,0,0,0,,{\pos(540,1513)}Which {\c&H00657811&\b1}brings{\c&H002A2B17&\b0} us to the most
+Dialogue: 0,0:00:16.12,0:00:16.32,Default,,0,0,0,,{\pos(540,1513)}Which brings {\c&H00657811&\b1}us{\c&H002A2B17&\b0} to the most
+Dialogue: 0,0:00:16.32,0:00:16.44,Default,,0,0,0,,{\pos(540,1513)}Which brings us {\c&H00657811&\b1}to{\c&H002A2B17&\b0} the most
+Dialogue: 0,0:00:16.44,0:00:16.52,Default,,0,0,0,,{\pos(540,1513)}Which brings us to {\c&H00657811&\b1}the{\c&H002A2B17&\b0} most
+Dialogue: 0,0:00:16.52,0:00:16.64,Default,,0,0,0,,{\pos(540,1513)}Which brings us to the {\c&H00657811&\b1}most{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:16.64,0:00:16.96,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}human{\c&H002A2B17&\b0} element of\Nthis entire process,
+Dialogue: 0,0:00:16.96,0:00:17.28,Default,,0,0,0,,{\pos(540,1513)}human {\c&H00657811&\b1}element{\c&H002A2B17&\b0} of\Nthis entire process,
+Dialogue: 0,0:00:17.28,0:00:17.70,Default,,0,0,0,,{\pos(540,1513)}human element {\c&H00657811&\b1}of{\c&H002A2B17&\b0}\Nthis entire process,
+Dialogue: 0,0:00:17.70,0:00:17.84,Default,,0,0,0,,{\pos(540,1513)}human element of\N{\c&H00657811&\b1}this{\c&H002A2B17&\b0} entire process,
+Dialogue: 0,0:00:17.84,0:00:17.94,Default,,0,0,0,,{\pos(540,1513)}human element of\Nthis {\c&H00657811&\b1}entire{\c&H002A2B17&\b0} process,
+Dialogue: 0,0:00:17.94,0:00:18.52,Default,,0,0,0,,{\pos(540,1513)}human element of\Nthis entire {\c&H00657811&\b1}process,{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:18.52,0:00:18.88,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}which{\c&H002A2B17&\b0} is adding\Nthe metadata and
+Dialogue: 0,0:00:18.88,0:00:19.02,Default,,0,0,0,,{\pos(540,1513)}which {\c&H00657811&\b1}is{\c&H002A2B17&\b0} adding\Nthe metadata and
+Dialogue: 0,0:00:19.02,0:00:19.23,Default,,0,0,0,,{\pos(540,1513)}which is {\c&H00657811&\b1}adding{\c&H002A2B17&\b0}\Nthe metadata and
+Dialogue: 0,0:00:19.23,0:00:19.54,Default,,0,0,0,,{\pos(540,1513)}which is adding\N{\c&H00657811&\b1}the{\c&H002A2B17&\b0} metadata and
+Dialogue: 0,0:00:19.54,0:00:20.05,Default,,0,0,0,,{\pos(540,1513)}which is adding\Nthe {\c&H00657811&\b1}metadata{\c&H002A2B17&\b0} and
+Dialogue: 0,0:00:20.05,0:00:20.88,Default,,0,0,0,,{\pos(540,1513)}which is adding\Nthe metadata {\c&H00657811&\b1}and{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:20.88,0:00:21.00,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}the{\c&H002A2B17&\b0} business roles.
+Dialogue: 0,0:00:21.00,0:00:21.24,Default,,0,0,0,,{\pos(540,1513)}the {\c&H00657811&\b1}business{\c&H002A2B17&\b0} roles.
+Dialogue: 0,0:00:21.24,0:00:21.66,Default,,0,0,0,,{\pos(540,1513)}the business {\c&H00657811&\b1}roles.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:22.14,0:00:22.92,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Right.{\c&H002A2B17&\b0} This is\Nwhere you inject
+Dialogue: 0,0:00:22.92,0:00:23.52,Default,,0,0,0,,{\pos(540,1513)}Right. {\c&H00657811&\b1}This{\c&H002A2B17&\b0} is\Nwhere you inject
+Dialogue: 0,0:00:23.52,0:00:23.64,Default,,0,0,0,,{\pos(540,1513)}Right. This {\c&H00657811&\b1}is{\c&H002A2B17&\b0}\Nwhere you inject
+Dialogue: 0,0:00:23.64,0:00:23.82,Default,,0,0,0,,{\pos(540,1513)}Right. This is\N{\c&H00657811&\b1}where{\c&H002A2B17&\b0} you inject
+Dialogue: 0,0:00:23.82,0:00:23.96,Default,,0,0,0,,{\pos(540,1513)}Right. This is\Nwhere {\c&H00657811&\b1}you{\c&H002A2B17&\b0} inject
+Dialogue: 0,0:00:23.96,0:00:24.16,Default,,0,0,0,,{\pos(540,1513)}Right. This is\Nwhere you {\c&H00657811&\b1}inject{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:24.16,0:00:24.52,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}the{\c&H002A2B17&\b0} tacit tribal\Nknowledge that actually
+Dialogue: 0,0:00:24.52,0:00:25.20,Default,,0,0,0,,{\pos(540,1513)}the {\c&H00657811&\b1}tacit{\c&H002A2B17&\b0} tribal\Nknowledge that actually
+Dialogue: 0,0:00:25.20,0:00:25.96,Default,,0,0,0,,{\pos(540,1513)}the tacit {\c&H00657811&\b1}tribal{\c&H002A2B17&\b0}\Nknowledge that actually
+Dialogue: 0,0:00:25.96,0:00:26.46,Default,,0,0,0,,{\pos(540,1513)}the tacit tribal\N{\c&H00657811&\b1}knowledge{\c&H002A2B17&\b0} that actually
+Dialogue: 0,0:00:26.46,0:00:26.68,Default,,0,0,0,,{\pos(540,1513)}the tacit tribal\Nknowledge {\c&H00657811&\b1}that{\c&H002A2B17&\b0} actually
+Dialogue: 0,0:00:26.68,0:00:26.98,Default,,0,0,0,,{\pos(540,1513)}the tacit tribal\Nknowledge that {\c&H00657811&\b1}actually{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:26.98,0:00:27.50,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}determines{\c&H002A2B17&\b0} how a\Nbusiness question
+Dialogue: 0,0:00:27.50,0:00:27.92,Default,,0,0,0,,{\pos(540,1513)}determines {\c&H00657811&\b1}how{\c&H002A2B17&\b0} a\Nbusiness question
+Dialogue: 0,0:00:27.92,0:00:28.04,Default,,0,0,0,,{\pos(540,1513)}determines how {\c&H00657811&\b1}a{\c&H002A2B17&\b0}\Nbusiness question
+Dialogue: 0,0:00:28.04,0:00:28.22,Default,,0,0,0,,{\pos(540,1513)}determines how a\N{\c&H00657811&\b1}business{\c&H002A2B17&\b0} question
+Dialogue: 0,0:00:28.22,0:00:28.64,Default,,0,0,0,,{\pos(540,1513)}determines how a\Nbusiness {\c&H00657811&\b1}question{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:28.64,0:00:28.82,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}is{\c&H002A2B17&\b0} answered. It's\Nlike leaving highly
+Dialogue: 0,0:00:28.82,0:00:29.56,Default,,0,0,0,,{\pos(540,1513)}is {\c&H00657811&\b1}answered.{\c&H002A2B17&\b0} It's\Nlike leaving highly
+Dialogue: 0,0:00:29.56,0:00:29.86,Default,,0,0,0,,{\pos(540,1513)}is answered. {\c&H00657811&\b1}It's{\c&H002A2B17&\b0}\Nlike leaving highly
+Dialogue: 0,0:00:29.86,0:00:29.96,Default,,0,0,0,,{\pos(540,1513)}is answered. It's\N{\c&H00657811&\b1}like{\c&H002A2B17&\b0} leaving highly
+Dialogue: 0,0:00:29.96,0:00:30.18,Default,,0,0,0,,{\pos(540,1513)}is answered. It's\Nlike {\c&H00657811&\b1}leaving{\c&H002A2B17&\b0} highly
+Dialogue: 0,0:00:30.18,0:00:30.40,Default,,0,0,0,,{\pos(540,1513)}is answered. It's\Nlike leaving {\c&H00657811&\b1}highly{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:30.40,0:00:31.00,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}detailed{\c&H002A2B17&\b0} sticky\Nnotes all over a
+Dialogue: 0,0:00:31.00,0:00:31.42,Default,,0,0,0,,{\pos(540,1513)}detailed {\c&H00657811&\b1}sticky{\c&H002A2B17&\b0}\Nnotes all over a
+Dialogue: 0,0:00:31.42,0:00:31.76,Default,,0,0,0,,{\pos(540,1513)}detailed sticky\N{\c&H00657811&\b1}notes{\c&H002A2B17&\b0} all over a
+Dialogue: 0,0:00:31.76,0:00:31.94,Default,,0,0,0,,{\pos(540,1513)}detailed sticky\Nnotes {\c&H00657811&\b1}all{\c&H002A2B17&\b0} over a
+Dialogue: 0,0:00:31.94,0:00:32.11,Default,,0,0,0,,{\pos(540,1513)}detailed sticky\Nnotes all {\c&H00657811&\b1}over{\c&H002A2B17&\b0} a
+Dialogue: 0,0:00:32.11,0:00:32.24,Default,,0,0,0,,{\pos(540,1513)}detailed sticky\Nnotes all over {\c&H00657811&\b1}a{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:32.24,0:00:32.65,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}complex{\c&H002A2B17&\b0} shared\Nspreadsheet.
+Dialogue: 0,0:00:32.65,0:00:33.04,Default,,0,0,0,,{\pos(540,1513)}complex {\c&H00657811&\b1}shared{\c&H002A2B17&\b0}\Nspreadsheet.
+Dialogue: 0,0:00:33.04,0:00:33.68,Default,,0,0,0,,{\pos(540,1513)}complex shared\N{\c&H00657811&\b1}spreadsheet.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:34.51,0:00:34.56,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}So{\c&H002A2B17&\b0} the next\Nanalyst who opens
+Dialogue: 0,0:00:34.56,0:00:34.70,Default,,0,0,0,,{\pos(540,1513)}So {\c&H00657811&\b1}the{\c&H002A2B17&\b0} next\Nanalyst who opens
+Dialogue: 0,0:00:34.70,0:00:34.82,Default,,0,0,0,,{\pos(540,1513)}So the {\c&H00657811&\b1}next{\c&H002A2B17&\b0}\Nanalyst who opens
+Dialogue: 0,0:00:34.82,0:00:35.23,Default,,0,0,0,,{\pos(540,1513)}So the next\N{\c&H00657811&\b1}analyst{\c&H002A2B17&\b0} who opens
+Dialogue: 0,0:00:35.23,0:00:35.42,Default,,0,0,0,,{\pos(540,1513)}So the next\Nanalyst {\c&H00657811&\b1}who{\c&H002A2B17&\b0} opens
+Dialogue: 0,0:00:35.42,0:00:35.65,Default,,0,0,0,,{\pos(540,1513)}So the next\Nanalyst who {\c&H00657811&\b1}opens{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:35.65,0:00:35.82,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}it{\c&H002A2B17&\b0} doesn't accidentally\Ndelete the
+Dialogue: 0,0:00:35.82,0:00:36.06,Default,,0,0,0,,{\pos(540,1513)}it {\c&H00657811&\b1}doesn't{\c&H002A2B17&\b0} accidentally\Ndelete the
+Dialogue: 0,0:00:36.06,0:00:36.56,Default,,0,0,0,,{\pos(540,1513)}it doesn't {\c&H00657811&\b1}accidentally{\c&H002A2B17&\b0}\Ndelete the
+Dialogue: 0,0:00:36.56,0:00:37.26,Default,,0,0,0,,{\pos(540,1513)}it doesn't accidentally\N{\c&H00657811&\b1}delete{\c&H002A2B17&\b0} the
+Dialogue: 0,0:00:37.26,0:00:37.42,Default,,0,0,0,,{\pos(540,1513)}it doesn't accidentally\Ndelete {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:37.42,0:00:37.78,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}company's{\c&H002A2B17&\b0} revenue\Nprojections because
+Dialogue: 0,0:00:37.78,0:00:38.00,Default,,0,0,0,,{\pos(540,1513)}company's {\c&H00657811&\b1}revenue{\c&H002A2B17&\b0}\Nprojections because
+Dialogue: 0,0:00:38.00,0:00:38.46,Default,,0,0,0,,{\pos(540,1513)}company's revenue\N{\c&H00657811&\b1}projections{\c&H002A2B17&\b0} because
+Dialogue: 0,0:00:38.46,0:00:39.00,Default,,0,0,0,,{\pos(540,1513)}company's revenue\Nprojections {\c&H00657811&\b1}because{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:39.00,0:00:39.51,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}they{\c&H002A2B17&\b0} didn't understand\Nwhat a column
+Dialogue: 0,0:00:39.51,0:00:39.70,Default,,0,0,0,,{\pos(540,1513)}they {\c&H00657811&\b1}didn't{\c&H002A2B17&\b0} understand\Nwhat a column
+Dialogue: 0,0:00:39.70,0:00:39.94,Default,,0,0,0,,{\pos(540,1513)}they didn't {\c&H00657811&\b1}understand{\c&H002A2B17&\b0}\Nwhat a column
+Dialogue: 0,0:00:39.94,0:00:40.36,Default,,0,0,0,,{\pos(540,1513)}they didn't understand\N{\c&H00657811&\b1}what{\c&H002A2B17&\b0} a column
+Dialogue: 0,0:00:40.36,0:00:40.42,Default,,0,0,0,,{\pos(540,1513)}they didn't understand\Nwhat {\c&H00657811&\b1}a{\c&H002A2B17&\b0} column
+Dialogue: 0,0:00:40.42,0:00:40.65,Default,,0,0,0,,{\pos(540,1513)}they didn't understand\Nwhat a {\c&H00657811&\b1}column{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:40.65,0:00:41.44,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}meant.{\c&H002A2B17&\b0} That is the\Nexact mechanism.
+Dialogue: 0,0:00:41.44,0:00:41.66,Default,,0,0,0,,{\pos(540,1513)}meant. {\c&H00657811&\b1}That{\c&H002A2B17&\b0} is the\Nexact mechanism.
+Dialogue: 0,0:00:41.66,0:00:41.84,Default,,0,0,0,,{\pos(540,1513)}meant. That {\c&H00657811&\b1}is{\c&H002A2B17&\b0} the\Nexact mechanism.
+Dialogue: 0,0:00:41.84,0:00:42.06,Default,,0,0,0,,{\pos(540,1513)}meant. That is {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nexact mechanism.
+Dialogue: 0,0:00:42.06,0:00:42.26,Default,,0,0,0,,{\pos(540,1513)}meant. That is the\N{\c&H00657811&\b1}exact{\c&H002A2B17&\b0} mechanism.
+Dialogue: 0,0:00:42.26,0:00:43.23,Default,,0,0,0,,{\pos(540,1513)}meant. That is the\Nexact {\c&H00657811&\b1}mechanism.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:43.98,0:00:44.08,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}You{\c&H002A2B17&\b0} have to\Nmanually codify the
+Dialogue: 0,0:00:44.08,0:00:44.22,Default,,0,0,0,,{\pos(540,1513)}You {\c&H00657811&\b1}have{\c&H002A2B17&\b0} to\Nmanually codify the
+Dialogue: 0,0:00:44.22,0:00:44.34,Default,,0,0,0,,{\pos(540,1513)}You have {\c&H00657811&\b1}to{\c&H002A2B17&\b0}\Nmanually codify the
+Dialogue: 0,0:00:44.34,0:00:44.86,Default,,0,0,0,,{\pos(540,1513)}You have to\N{\c&H00657811&\b1}manually{\c&H002A2B17&\b0} codify the
+Dialogue: 0,0:00:44.86,0:00:45.44,Default,,0,0,0,,{\pos(540,1513)}You have to\Nmanually {\c&H00657811&\b1}codify{\c&H002A2B17&\b0} the
+Dialogue: 0,0:00:45.44,0:00:45.78,Default,,0,0,0,,{\pos(540,1513)}You have to\Nmanually codify {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:45.78,0:00:46.18,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}context{\c&H002A2B17&\b0} that the\Nschema simply cannot
+Dialogue: 0,0:00:46.18,0:00:46.48,Default,,0,0,0,,{\pos(540,1513)}context {\c&H00657811&\b1}that{\c&H002A2B17&\b0} the\Nschema simply cannot
+Dialogue: 0,0:00:46.48,0:00:46.60,Default,,0,0,0,,{\pos(540,1513)}context that {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nschema simply cannot
+Dialogue: 0,0:00:46.60,0:00:46.86,Default,,0,0,0,,{\pos(540,1513)}context that the\N{\c&H00657811&\b1}schema{\c&H002A2B17&\b0} simply cannot
+Dialogue: 0,0:00:46.86,0:00:47.30,Default,,0,0,0,,{\pos(540,1513)}context that the\Nschema {\c&H00657811&\b1}simply{\c&H002A2B17&\b0} cannot
+Dialogue: 0,0:00:47.30,0:00:47.56,Default,,0,0,0,,{\pos(540,1513)}context that the\Nschema simply {\c&H00657811&\b1}cannot{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:47.56,0:00:48.80,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}possess.{\c&H002A2B17&\b0} Give me\Nsome real world
+Dialogue: 0,0:00:48.80,0:00:48.98,Default,,0,0,0,,{\pos(540,1513)}possess. {\c&H00657811&\b1}Give{\c&H002A2B17&\b0} me\Nsome real world
+Dialogue: 0,0:00:48.98,0:00:49.08,Default,,0,0,0,,{\pos(540,1513)}possess. Give {\c&H00657811&\b1}me{\c&H002A2B17&\b0}\Nsome real world
+Dialogue: 0,0:00:49.08,0:00:49.18,Default,,0,0,0,,{\pos(540,1513)}possess. Give me\N{\c&H00657811&\b1}some{\c&H002A2B17&\b0} real world
+Dialogue: 0,0:00:49.18,0:00:49.38,Default,,0,0,0,,{\pos(540,1513)}possess. Give me\Nsome {\c&H00657811&\b1}real{\c&H002A2B17&\b0} world
+Dialogue: 0,0:00:49.38,0:00:49.66,Default,,0,0,0,,{\pos(540,1513)}possess. Give me\Nsome real {\c&H00657811&\b1}world{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:49.66,0:00:50.04,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}examples{\c&H002A2B17&\b0} of that.
+Dialogue: 0,0:00:50.04,0:00:50.36,Default,,0,0,0,,{\pos(540,1513)}examples {\c&H00657811&\b1}of{\c&H002A2B17&\b0} that.
+Dialogue: 0,0:00:50.36,0:00:50.62,Default,,0,0,0,,{\pos(540,1513)}examples of {\c&H00657811&\b1}that.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:51.16,0:00:51.32,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Well,{\c&H002A2B17&\b0} in our retail\Noperation scenario,
+Dialogue: 0,0:00:51.32,0:00:51.50,Default,,0,0,0,,{\pos(540,1513)}Well, {\c&H00657811&\b1}in{\c&H002A2B17&\b0} our retail\Noperation scenario,
+Dialogue: 0,0:00:51.50,0:00:51.62,Default,,0,0,0,,{\pos(540,1513)}Well, in {\c&H00657811&\b1}our{\c&H002A2B17&\b0} retail\Noperation scenario,
+Dialogue: 0,0:00:51.62,0:00:51.90,Default,,0,0,0,,{\pos(540,1513)}Well, in our {\c&H00657811&\b1}retail{\c&H002A2B17&\b0}\Noperation scenario,
+Dialogue: 0,0:00:51.90,0:00:52.28,Default,,0,0,0,,{\pos(540,1513)}Well, in our retail\N{\c&H00657811&\b1}operation{\c&H002A2B17&\b0} scenario,
+Dialogue: 0,0:00:52.28,0:00:52.94,Default,,0,0,0,,{\pos(540,1513)}Well, in our retail\Noperation {\c&H00657811&\b1}scenario,{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:52.94,0:00:53.32,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}this{\c&H002A2B17&\b0} means explicitly\Nwriting out the
+Dialogue: 0,0:00:53.32,0:00:53.52,Default,,0,0,0,,{\pos(540,1513)}this {\c&H00657811&\b1}means{\c&H002A2B17&\b0} explicitly\Nwriting out the
+Dialogue: 0,0:00:53.52,0:00:54.14,Default,,0,0,0,,{\pos(540,1513)}this means {\c&H00657811&\b1}explicitly{\c&H002A2B17&\b0}\Nwriting out the
+Dialogue: 0,0:00:54.14,0:00:54.64,Default,,0,0,0,,{\pos(540,1513)}this means explicitly\N{\c&H00657811&\b1}writing{\c&H002A2B17&\b0} out the
+Dialogue: 0,0:00:54.64,0:00:54.94,Default,,0,0,0,,{\pos(540,1513)}this means explicitly\Nwriting {\c&H00657811&\b1}out{\c&H002A2B17&\b0} the
+Dialogue: 0,0:00:54.94,0:00:55.08,Default,,0,0,0,,{\pos(540,1513)}this means explicitly\Nwriting out {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:55.08,0:00:55.44,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}definition{\c&H002A2B17&\b0} of what\Nconstitutes a priority
+Dialogue: 0,0:00:55.44,0:00:55.78,Default,,0,0,0,,{\pos(540,1513)}definition {\c&H00657811&\b1}of{\c&H002A2B17&\b0} what\Nconstitutes a priority
+Dialogue: 0,0:00:55.78,0:00:55.94,Default,,0,0,0,,{\pos(540,1513)}definition of {\c&H00657811&\b1}what{\c&H002A2B17&\b0}\Nconstitutes a priority
+Dialogue: 0,0:00:55.94,0:00:56.32,Default,,0,0,0,,{\pos(540,1513)}definition of what\N{\c&H00657811&\b1}constitutes{\c&H002A2B17&\b0} a priority
+Dialogue: 0,0:00:56.32,0:00:56.68,Default,,0,0,0,,{\pos(540,1513)}definition of what\Nconstitutes {\c&H00657811&\b1}a{\c&H002A2B17&\b0} priority
+Dialogue: 0,0:00:56.68,0:00:57.06,Default,,0,0,0,,{\pos(540,1513)}definition of what\Nconstitutes a {\c&H00657811&\b1}priority{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:57.06,0:00:58.08,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}store.{\c&H002A2B17&\b0} Is it based on square
+Dialogue: 0,0:00:58.08,0:00:58.23,Default,,0,0,0,,{\pos(540,1513)}store. {\c&H00657811&\b1}Is{\c&H002A2B17&\b0} it based on square
+Dialogue: 0,0:00:58.23,0:00:58.32,Default,,0,0,0,,{\pos(540,1513)}store. Is {\c&H00657811&\b1}it{\c&H002A2B17&\b0} based on square
+Dialogue: 0,0:00:58.32,0:00:58.44,Default,,0,0,0,,{\pos(540,1513)}store. Is it {\c&H00657811&\b1}based{\c&H002A2B17&\b0} on square
+Dialogue: 0,0:00:58.44,0:00:58.64,Default,,0,0,0,,{\pos(540,1513)}store. Is it based {\c&H00657811&\b1}on{\c&H002A2B17&\b0} square
+Dialogue: 0,0:00:58.64,0:00:58.80,Default,,0,0,0,,{\pos(540,1513)}store. Is it based on {\c&H00657811&\b1}square{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:58.80,0:00:59.72,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}footage,{\c&H002A2B17&\b0} total\Nrevenue, proximity to
+Dialogue: 0,0:00:59.72,0:00:59.90,Default,,0,0,0,,{\pos(540,1513)}footage, {\c&H00657811&\b1}total{\c&H002A2B17&\b0}\Nrevenue, proximity to
+Dialogue: 0,0:00:59.90,0:01:01.18,Default,,0,0,0,,{\pos(540,1513)}footage, total\N{\c&H00657811&\b1}revenue,{\c&H002A2B17&\b0} proximity to
+Dialogue: 0,0:01:01.18,0:01:01.54,Default,,0,0,0,,{\pos(540,1513)}footage, total\Nrevenue, proximity {\c&H00657811&\b1}to{\c&H002A2B17&\b0}
+Dialogue: 0,0:01:01.54,0:01:01.62,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}a{\c&H002A2B17&\b0} distribution\Ncenter, you have to
+Dialogue: 0,0:01:01.62,0:01:01.84,Default,,0,0,0,,{\pos(540,1513)}a {\c&H00657811&\b1}distribution{\c&H002A2B17&\b0}\Ncenter, you have to
+Dialogue: 0,0:01:01.84,0:01:02.58,Default,,0,0,0,,{\pos(540,1513)}a distribution\N{\c&H00657811&\b1}center,{\c&H002A2B17&\b0} you have to
+Dialogue: 0,0:01:02.58,0:01:02.60,Default,,0,0,0,,{\pos(540,1513)}a distribution\Ncenter, {\c&H00657811&\b1}you{\c&H002A2B17&\b0} have to
+Dialogue: 0,0:01:02.60,0:01:02.68,Default,,0,0,0,,{\pos(540,1513)}a distribution\Ncenter, you {\c&H00657811&\b1}have{\c&H002A2B17&\b0} to
+Dialogue: 0,0:01:02.68,0:01:02.78,Default,,0,0,0,,{\pos(540,1513)}a distribution\Ncenter, you have {\c&H00657811&\b1}to{\c&H002A2B17&\b0}
+Dialogue: 0,0:01:02.78,0:01:03.02,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}define{\c&H002A2B17&\b0} it. Right,\Nbecause priority
+Dialogue: 0,0:01:03.02,0:01:03.66,Default,,0,0,0,,{\pos(540,1513)}define {\c&H00657811&\b1}it.{\c&H002A2B17&\b0} Right,\Nbecause priority
+Dialogue: 0,0:01:03.66,0:01:03.98,Default,,0,0,0,,{\pos(540,1513)}define it. {\c&H00657811&\b1}Right,{\c&H002A2B17&\b0}\Nbecause priority
+Dialogue: 0,0:01:03.98,0:01:04.16,Default,,0,0,0,,{\pos(540,1513)}define it. Right,\N{\c&H00657811&\b1}because{\c&H002A2B17&\b0} priority
+Dialogue: 0,0:01:04.16,0:01:04.45,Default,,0,0,0,,{\pos(540,1513)}define it. Right,\Nbecause {\c&H00657811&\b1}priority{\c&H002A2B17&\b0}
+Dialogue: 0,0:01:04.45,0:01:04.76,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}is{\c&H002A2B17&\b0} totally subjective\Nuntil you define
+Dialogue: 0,0:01:04.76,0:01:04.94,Default,,0,0,0,,{\pos(540,1513)}is {\c&H00657811&\b1}totally{\c&H002A2B17&\b0} subjective\Nuntil you define
+Dialogue: 0,0:01:04.94,0:01:05.26,Default,,0,0,0,,{\pos(540,1513)}is totally {\c&H00657811&\b1}subjective{\c&H002A2B17&\b0}\Nuntil you define
+Dialogue: 0,0:01:05.26,0:01:05.76,Default,,0,0,0,,{\pos(540,1513)}is totally subjective\N{\c&H00657811&\b1}until{\c&H002A2B17&\b0} you define
+Dialogue: 0,0:01:05.76,0:01:05.98,Default,,0,0,0,,{\pos(540,1513)}is totally subjective\Nuntil {\c&H00657811&\b1}you{\c&H002A2B17&\b0} define
+Dialogue: 0,0:01:05.98,0:01:06.20,Default,,0,0,0,,{\pos(540,1513)}is totally subjective\Nuntil you {\c&H00657811&\b1}define{\c&H002A2B17&\b0}
+Dialogue: 0,0:01:06.20,0:01:06.57,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}it.{\c&H002A2B17&\b0}

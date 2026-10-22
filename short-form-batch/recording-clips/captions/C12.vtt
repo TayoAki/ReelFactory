@@ -1,55 +1,55 @@
 WEBVTT
 
-00:00:00.980 --> 00:00:02.800
-what? For our store entity, the
+00:00:00.150 --> 00:00:02.330
+For our store entity, the properties
 
-00:00:02.679 --> 00:00:04.220
-properties might include the region
+00:00:02.330 --> 00:00:03.810
+might include the region it belongs
 
-00:00:04.100 --> 00:00:05.900
-it belongs to, its square footage,
+00:00:03.810 --> 00:00:05.970
+to, its square footage, or its
 
-00:00:05.840 --> 00:00:08.080
-or its priority classification for
+00:00:05.970 --> 00:00:07.610
+priority classification for the supply
 
-00:00:07.960 --> 00:00:08.760
-the supply chain.
+00:00:07.610 --> 00:00:09.190
+chain. And then we have to
 
-00:00:09.260 --> 00:00:10.200
-And then we have to connect
+00:00:09.190 --> 00:00:10.630
+connect them. That brings us to
 
-00:00:10.080 --> 00:00:12.040
-them. That brings us to relationships.
+00:00:10.630 --> 00:00:12.870
+relationships. Relationships define
 
-00:00:12.720 --> 00:00:14.979
-Relationships define the verbs between
+00:00:12.870 --> 00:00:15.110
+the verbs between the nouns.
 
-00:00:14.860 --> 00:00:16.680
-the nouns. They explain how different
+00:00:15.110 --> 00:00:16.990
+They explain how different entity types
 
-00:00:16.560 --> 00:00:18.620
-entity types interact in the real
+00:00:16.990 --> 00:00:18.330
+interact in the real world.
 
-00:00:18.500 --> 00:00:19.880
-world. Give me an example.
+00:00:18.550 --> 00:00:19.230
+Give me an example.
 
-00:00:20.620 --> 00:00:21.940
+00:00:19.970 --> 00:00:21.170
 You might define a relationship that
 
-00:00:21.820 --> 00:00:24.880
+00:00:21.170 --> 00:00:24.110
 states a store operates a refrigeration
 
-00:00:24.759 --> 00:00:27.780
+00:00:24.110 --> 00:00:27.010
 unit or a supplier ships a
 
-00:00:27.660 --> 00:00:30.280
+00:00:27.010 --> 00:00:29.510
 product. You are drawing explicit lines
 
-00:00:30.160 --> 00:00:31.780
+00:00:29.510 --> 00:00:31.010
 of meaning so the AI doesn't
 
-00:00:31.660 --> 00:00:32.980
+00:00:31.010 --> 00:00:32.210
 have to guess how a supplier
 
-00:00:32.860 --> 00:00:33.879
+00:00:32.210 --> 00:00:33.230
 and a store are connected.

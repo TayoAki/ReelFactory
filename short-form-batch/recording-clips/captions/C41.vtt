@@ -1,0 +1,58 @@
+WEBVTT
+
+00:00:00.140 --> 00:00:01.819
+before you ever display the output
+
+00:00:01.819 --> 00:00:03.340
+of a predictive model in a
+
+00:00:03.340 --> 00:00:05.340
+business review, you must explicitly
+
+00:00:05.340 --> 00:00:07.279
+evaluate and display the historical
+
+00:00:07.279 --> 00:00:09.540
+statistical uncertainty of that model.
+
+00:00:09.960 --> 00:00:10.900
+So you have to show its
+
+00:00:10.900 --> 00:00:12.840
+track record. You have to show
+
+00:00:12.840 --> 00:00:14.720
+the operator the model's past accuracy.
+
+00:00:15.340 --> 00:00:17.200
+Have these forecasts historically suffered
+
+00:00:17.200 --> 00:00:18.020
+from model drift?
+
+00:00:18.420 --> 00:00:19.520
+Is there bias in the legacy
+
+00:00:19.520 --> 00:00:21.240
+data? you must give the human
+
+00:00:21.240 --> 00:00:23.060
+operator the statistical basis for
+
+00:00:23.060 --> 00:00:24.580
+deciding whether they should actually
+
+00:00:24.580 --> 00:00:26.320
+trust this prediction enough to route
+
+00:00:26.320 --> 00:00:27.720
+a hundred thousand dollar delivery
+
+00:00:27.720 --> 00:00:28.840
+truck based on it.
+
+00:00:29.020 --> 00:00:31.060
+You never present a probabilistic forecast
+
+00:00:31.060 --> 00:00:32.860
+as a deterministic fact.

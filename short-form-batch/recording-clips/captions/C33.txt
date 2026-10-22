@@ -1,0 +1,5 @@
+A restore replaces the whole definition
+Original recording 34:05–34:56
+ASR draft; technical-name spelling normalized.
+
+Before you make any meaningful change to your production model, you create a named saved version of your current ontology state. Version history allows you to restore that saved definition if things go sideways. So it's not a surgical rollback where I just undo the last five minutes of work? No, and that's a crucial limitation to understand. A restore replaces the definition as a whole, it overwrites everything currently in the system with the exact state of the past version. So if your team spent four hours making great updates, and then someone makes one catastrophic mistake in hour five, rolling back to yesterday's version wipes out all the good work from those first four hours too. That's brutal. Best practice dictates that you must save a version of your current broken state before you restore the old one, just in case you need to salvage a piece of the new logic later. It's an effective safety net, but it requires really disciplined version control habits.

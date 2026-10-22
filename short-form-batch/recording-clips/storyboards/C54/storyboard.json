@@ -44,5 +44,33 @@
   "source_start": 3468.44068,
   "source_end": 3517.26068,
   "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion.",
+  "viewer_understanding_before": "Known-good answer",
+  "viewer_understanding_after": "Use your own baseline",
+  "graphic_choice_reason": "Measure the whole reviewed workflow: Show what must be checked rather than an invented successful result.",
+  "credible_alternative": "A confident numerical result chart",
+  "why_alternative_rejected": "No executed result is supplied. Show the evidence checks the speaker actually asks for.",
+  "cannot_establish": "This illustrative diagram cannot prove an actual product interaction, executed query, security guarantee or measured improvement.",
+  "reference_images_used_for_generation": [
+    "reference-library/frames/graphic/0003510.jpg",
+    "motion-pilot-fabric/fabric-theme/master.png",
+    "short-form-batch/recording-clips/assets/host.png",
+    "short-form-batch/recording-clips/assets/guest.png"
+  ],
+  "source_library_semantic_match": "Original reference supplies visual grammar; exact subject relationships are adapted from this recording. No claim of an exact reference-video semantic or motion match.",
+  "original_reference_url": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "review_status": "Draft; representative visual samples and artifact bounds checked, human editorial approval pending.",
+  "caption_status": "Word-timed ASR draft; human proofreading pending",
+  "line_shot_edit": [
+    {
+      "LINE": "Do not borrow percentage improvement benchmarks from other vendors, and do not even borrow",
+      "SHOT": "Fixed fictional portrait rail + Known-good answer",
+      "EDIT": "Reveal independent card at 0.7s; 420ms fade, 16px eased settling"
+    },
+    {
+      "LINE": "and returns evidence that a human operator can actually verify. And then you time it. Then you strictly",
+      "SHOT": "Fixed fictional portrait rail + Human review + correction",
+      "EDIT": "Reveal independent card at 31.48s; 420ms fade, 16px eased settling"
+    }
+  ]
 }

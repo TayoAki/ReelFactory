@@ -1,0 +1,148 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.48,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}First,{\c&H002A2B17&\b0} co -pilot co -work does
+Dialogue: 0,0:00:00.48,0:00:00.60,Default,,0,0,0,,{\pos(540,1513)}First, {\c&H00657811&\b1}co{\c&H002A2B17&\b0} -pilot co -work does
+Dialogue: 0,0:00:00.60,0:00:00.89,Default,,0,0,0,,{\pos(540,1513)}First, co {\c&H00657811&\b1}-pilot{\c&H002A2B17&\b0} co -work does
+Dialogue: 0,0:00:00.89,0:00:01.16,Default,,0,0,0,,{\pos(540,1513)}First, co -pilot {\c&H00657811&\b1}co{\c&H002A2B17&\b0} -work does
+Dialogue: 0,0:00:01.16,0:00:01.36,Default,,0,0,0,,{\pos(540,1513)}First, co -pilot co {\c&H00657811&\b1}-work{\c&H002A2B17&\b0} does
+Dialogue: 0,0:00:01.36,0:00:01.52,Default,,0,0,0,,{\pos(540,1513)}First, co -pilot co -work {\c&H00657811&\b1}does{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:01.52,0:00:01.70,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}not{\c&H002A2B17&\b0} currently ground\Ndirectly on the
+Dialogue: 0,0:00:01.70,0:00:01.98,Default,,0,0,0,,{\pos(540,1513)}not {\c&H00657811&\b1}currently{\c&H002A2B17&\b0} ground\Ndirectly on the
+Dialogue: 0,0:00:01.98,0:00:02.48,Default,,0,0,0,,{\pos(540,1513)}not currently {\c&H00657811&\b1}ground{\c&H002A2B17&\b0}\Ndirectly on the
+Dialogue: 0,0:00:02.48,0:00:03.26,Default,,0,0,0,,{\pos(540,1513)}not currently ground\N{\c&H00657811&\b1}directly{\c&H002A2B17&\b0} on the
+Dialogue: 0,0:00:03.26,0:00:03.55,Default,,0,0,0,,{\pos(540,1513)}not currently ground\Ndirectly {\c&H00657811&\b1}on{\c&H002A2B17&\b0} the
+Dialogue: 0,0:00:03.55,0:00:03.68,Default,,0,0,0,,{\pos(540,1513)}not currently ground\Ndirectly on {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:03.68,0:00:04.18,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}ontology{\c&H002A2B17&\b0} items themselves.
+Dialogue: 0,0:00:04.18,0:00:04.66,Default,,0,0,0,,{\pos(540,1513)}ontology {\c&H00657811&\b1}items{\c&H002A2B17&\b0} themselves.
+Dialogue: 0,0:00:04.66,0:00:05.28,Default,,0,0,0,,{\pos(540,1513)}ontology items {\c&H00657811&\b1}themselves.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:05.78,0:00:05.86,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}You{\c&H002A2B17&\b0} have to point\Nit specifically
+Dialogue: 0,0:00:05.86,0:00:05.98,Default,,0,0,0,,{\pos(540,1513)}You {\c&H00657811&\b1}have{\c&H002A2B17&\b0} to point\Nit specifically
+Dialogue: 0,0:00:05.98,0:00:06.10,Default,,0,0,0,,{\pos(540,1513)}You have {\c&H00657811&\b1}to{\c&H002A2B17&\b0} point\Nit specifically
+Dialogue: 0,0:00:06.10,0:00:06.40,Default,,0,0,0,,{\pos(540,1513)}You have to {\c&H00657811&\b1}point{\c&H002A2B17&\b0}\Nit specifically
+Dialogue: 0,0:00:06.40,0:00:06.56,Default,,0,0,0,,{\pos(540,1513)}You have to point\N{\c&H00657811&\b1}it{\c&H002A2B17&\b0} specifically
+Dialogue: 0,0:00:06.56,0:00:07.10,Default,,0,0,0,,{\pos(540,1513)}You have to point\Nit {\c&H00657811&\b1}specifically{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:07.10,0:00:07.74,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}at{\c&H002A2B17&\b0} the Power BI report.
+Dialogue: 0,0:00:07.74,0:00:07.84,Default,,0,0,0,,{\pos(540,1513)}at {\c&H00657811&\b1}the{\c&H002A2B17&\b0} Power BI report.
+Dialogue: 0,0:00:07.84,0:00:08.06,Default,,0,0,0,,{\pos(540,1513)}at the {\c&H00657811&\b1}Power{\c&H002A2B17&\b0} BI report.
+Dialogue: 0,0:00:08.06,0:00:08.27,Default,,0,0,0,,{\pos(540,1513)}at the Power {\c&H00657811&\b1}BI{\c&H002A2B17&\b0} report.
+Dialogue: 0,0:00:08.27,0:00:08.76,Default,,0,0,0,,{\pos(540,1513)}at the Power BI {\c&H00657811&\b1}report.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:09.26,0:00:10.24,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Second,{\c&H002A2B17&\b0} and much\Nmore dangerously,
+Dialogue: 0,0:00:10.24,0:00:10.28,Default,,0,0,0,,{\pos(540,1513)}Second, {\c&H00657811&\b1}and{\c&H002A2B17&\b0} much\Nmore dangerously,
+Dialogue: 0,0:00:10.28,0:00:10.86,Default,,0,0,0,,{\pos(540,1513)}Second, and {\c&H00657811&\b1}much{\c&H002A2B17&\b0}\Nmore dangerously,
+Dialogue: 0,0:00:10.86,0:00:11.14,Default,,0,0,0,,{\pos(540,1513)}Second, and much\N{\c&H00657811&\b1}more{\c&H002A2B17&\b0} dangerously,
+Dialogue: 0,0:00:11.14,0:00:11.47,Default,,0,0,0,,{\pos(540,1513)}Second, and much\Nmore {\c&H00657811&\b1}dangerously,{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:12.16,0:00:12.36,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}when{\c&H002A2B17&\b0} it generates\Na data answer
+Dialogue: 0,0:00:12.36,0:00:12.46,Default,,0,0,0,,{\pos(540,1513)}when {\c&H00657811&\b1}it{\c&H002A2B17&\b0} generates\Na data answer
+Dialogue: 0,0:00:12.46,0:00:12.76,Default,,0,0,0,,{\pos(540,1513)}when it {\c&H00657811&\b1}generates{\c&H002A2B17&\b0}\Na data answer
+Dialogue: 0,0:00:12.76,0:00:13.08,Default,,0,0,0,,{\pos(540,1513)}when it generates\N{\c&H00657811&\b1}a{\c&H002A2B17&\b0} data answer
+Dialogue: 0,0:00:13.08,0:00:13.34,Default,,0,0,0,,{\pos(540,1513)}when it generates\Na {\c&H00657811&\b1}data{\c&H002A2B17&\b0} answer
+Dialogue: 0,0:00:13.34,0:00:13.72,Default,,0,0,0,,{\pos(540,1513)}when it generates\Na data {\c&H00657811&\b1}answer{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:13.72,0:00:13.96,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}in{\c&H002A2B17&\b0} the text, it does not
+Dialogue: 0,0:00:13.96,0:00:14.02,Default,,0,0,0,,{\pos(540,1513)}in {\c&H00657811&\b1}the{\c&H002A2B17&\b0} text, it does not
+Dialogue: 0,0:00:14.02,0:00:14.78,Default,,0,0,0,,{\pos(540,1513)}in the {\c&H00657811&\b1}text,{\c&H002A2B17&\b0} it does not
+Dialogue: 0,0:00:14.78,0:00:14.96,Default,,0,0,0,,{\pos(540,1513)}in the text, {\c&H00657811&\b1}it{\c&H002A2B17&\b0} does not
+Dialogue: 0,0:00:14.96,0:00:15.10,Default,,0,0,0,,{\pos(540,1513)}in the text, it {\c&H00657811&\b1}does{\c&H002A2B17&\b0} not
+Dialogue: 0,0:00:15.10,0:00:15.30,Default,,0,0,0,,{\pos(540,1513)}in the text, it does {\c&H00657811&\b1}not{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:15.30,0:00:15.55,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}currently{\c&H002A2B17&\b0} include\Nreport citations
+Dialogue: 0,0:00:15.55,0:00:16.23,Default,,0,0,0,,{\pos(540,1513)}currently {\c&H00657811&\b1}include{\c&H002A2B17&\b0}\Nreport citations
+Dialogue: 0,0:00:16.23,0:00:16.57,Default,,0,0,0,,{\pos(540,1513)}currently include\N{\c&H00657811&\b1}report{\c&H002A2B17&\b0} citations
+Dialogue: 0,0:00:16.57,0:00:16.92,Default,,0,0,0,,{\pos(540,1513)}currently include\Nreport {\c&H00657811&\b1}citations{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:16.92,0:00:17.54,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}in{\c&H002A2B17&\b0} its output.
+Dialogue: 0,0:00:17.54,0:00:17.70,Default,,0,0,0,,{\pos(540,1513)}in {\c&H00657811&\b1}its{\c&H002A2B17&\b0} output.
+Dialogue: 0,0:00:17.70,0:00:18.04,Default,,0,0,0,,{\pos(540,1513)}in its {\c&H00657811&\b1}output.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:18.20,0:00:18.46,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Oh,{\c&H002A2B17&\b0} that is a recipe for
+Dialogue: 0,0:00:18.46,0:00:18.55,Default,,0,0,0,,{\pos(540,1513)}Oh, {\c&H00657811&\b1}that{\c&H002A2B17&\b0} is a recipe for
+Dialogue: 0,0:00:18.55,0:00:18.68,Default,,0,0,0,,{\pos(540,1513)}Oh, that {\c&H00657811&\b1}is{\c&H002A2B17&\b0} a recipe for
+Dialogue: 0,0:00:18.68,0:00:18.82,Default,,0,0,0,,{\pos(540,1513)}Oh, that is {\c&H00657811&\b1}a{\c&H002A2B17&\b0} recipe for
+Dialogue: 0,0:00:18.82,0:00:19.23,Default,,0,0,0,,{\pos(540,1513)}Oh, that is a {\c&H00657811&\b1}recipe{\c&H002A2B17&\b0} for
+Dialogue: 0,0:00:19.23,0:00:19.50,Default,,0,0,0,,{\pos(540,1513)}Oh, that is a recipe {\c&H00657811&\b1}for{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:19.50,0:00:19.70,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}disaster{\c&H002A2B17&\b0} in a boardroom.
+Dialogue: 0,0:00:19.70,0:00:20.05,Default,,0,0,0,,{\pos(540,1513)}disaster {\c&H00657811&\b1}in{\c&H002A2B17&\b0} a boardroom.
+Dialogue: 0,0:00:20.05,0:00:20.12,Default,,0,0,0,,{\pos(540,1513)}disaster in {\c&H00657811&\b1}a{\c&H002A2B17&\b0} boardroom.
+Dialogue: 0,0:00:20.12,0:00:20.62,Default,,0,0,0,,{\pos(540,1513)}disaster in a {\c&H00657811&\b1}boardroom.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:20.68,0:00:20.82,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}It{\c&H002A2B17&\b0} is extremely dangerous.
+Dialogue: 0,0:00:20.82,0:00:21.14,Default,,0,0,0,,{\pos(540,1513)}It {\c&H00657811&\b1}is{\c&H002A2B17&\b0} extremely dangerous.
+Dialogue: 0,0:00:21.14,0:00:21.56,Default,,0,0,0,,{\pos(540,1513)}It is {\c&H00657811&\b1}extremely{\c&H002A2B17&\b0} dangerous.
+Dialogue: 0,0:00:21.56,0:00:22.42,Default,,0,0,0,,{\pos(540,1513)}It is extremely {\c&H00657811&\b1}dangerous.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:22.62,0:00:22.70,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}When{\c&H002A2B17&\b0} the AI drafts\Na beautifully
+Dialogue: 0,0:00:22.70,0:00:22.82,Default,,0,0,0,,{\pos(540,1513)}When {\c&H00657811&\b1}the{\c&H002A2B17&\b0} AI drafts\Na beautifully
+Dialogue: 0,0:00:22.82,0:00:22.98,Default,,0,0,0,,{\pos(540,1513)}When the {\c&H00657811&\b1}AI{\c&H002A2B17&\b0} drafts\Na beautifully
+Dialogue: 0,0:00:22.98,0:00:23.28,Default,,0,0,0,,{\pos(540,1513)}When the AI {\c&H00657811&\b1}drafts{\c&H002A2B17&\b0}\Na beautifully
+Dialogue: 0,0:00:23.28,0:00:23.54,Default,,0,0,0,,{\pos(540,1513)}When the AI drafts\N{\c&H00657811&\b1}a{\c&H002A2B17&\b0} beautifully
+Dialogue: 0,0:00:23.54,0:00:24.08,Default,,0,0,0,,{\pos(540,1513)}When the AI drafts\Na {\c&H00657811&\b1}beautifully{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:24.08,0:00:24.58,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}formatted{\c&H002A2B17&\b0} summary\Nand boldly states
+Dialogue: 0,0:00:24.58,0:00:25.06,Default,,0,0,0,,{\pos(540,1513)}formatted {\c&H00657811&\b1}summary{\c&H002A2B17&\b0}\Nand boldly states
+Dialogue: 0,0:00:25.06,0:00:25.74,Default,,0,0,0,,{\pos(540,1513)}formatted summary\N{\c&H00657811&\b1}and{\c&H002A2B17&\b0} boldly states
+Dialogue: 0,0:00:25.74,0:00:25.96,Default,,0,0,0,,{\pos(540,1513)}formatted summary\Nand {\c&H00657811&\b1}boldly{\c&H002A2B17&\b0} states
+Dialogue: 0,0:00:25.96,0:00:26.40,Default,,0,0,0,,{\pos(540,1513)}formatted summary\Nand boldly {\c&H00657811&\b1}states{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:26.40,0:00:27.00,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}revenue{\c&H002A2B17&\b0} was up 15 % in
+Dialogue: 0,0:00:27.00,0:00:27.34,Default,,0,0,0,,{\pos(540,1513)}revenue {\c&H00657811&\b1}was{\c&H002A2B17&\b0} up 15 % in
+Dialogue: 0,0:00:27.34,0:00:27.44,Default,,0,0,0,,{\pos(540,1513)}revenue was {\c&H00657811&\b1}up{\c&H002A2B17&\b0} 15 % in
+Dialogue: 0,0:00:27.44,0:00:27.68,Default,,0,0,0,,{\pos(540,1513)}revenue was up {\c&H00657811&\b1}15{\c&H002A2B17&\b0} % in
+Dialogue: 0,0:00:27.68,0:00:28.14,Default,,0,0,0,,{\pos(540,1513)}revenue was up 15 {\c&H00657811&\b1}%{\c&H002A2B17&\b0} in
+Dialogue: 0,0:00:28.14,0:00:28.26,Default,,0,0,0,,{\pos(540,1513)}revenue was up 15 % {\c&H00657811&\b1}in{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:28.26,0:00:28.28,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}the{\c&H002A2B17&\b0} West Region, it does not
+Dialogue: 0,0:00:28.28,0:00:28.42,Default,,0,0,0,,{\pos(540,1513)}the {\c&H00657811&\b1}West{\c&H002A2B17&\b0} Region, it does not
+Dialogue: 0,0:00:28.42,0:00:29.42,Default,,0,0,0,,{\pos(540,1513)}the West {\c&H00657811&\b1}Region,{\c&H002A2B17&\b0} it does not
+Dialogue: 0,0:00:29.42,0:00:29.61,Default,,0,0,0,,{\pos(540,1513)}the West Region, {\c&H00657811&\b1}it{\c&H002A2B17&\b0} does not
+Dialogue: 0,0:00:29.61,0:00:29.78,Default,,0,0,0,,{\pos(540,1513)}the West Region, it {\c&H00657811&\b1}does{\c&H002A2B17&\b0} not
+Dialogue: 0,0:00:29.78,0:00:29.98,Default,,0,0,0,,{\pos(540,1513)}the West Region, it does {\c&H00657811&\b1}not{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:29.98,0:00:30.24,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}provide{\c&H002A2B17&\b0} a footnote\Nor hyperlink showing
+Dialogue: 0,0:00:30.24,0:00:30.38,Default,,0,0,0,,{\pos(540,1513)}provide {\c&H00657811&\b1}a{\c&H002A2B17&\b0} footnote\Nor hyperlink showing
+Dialogue: 0,0:00:30.38,0:00:30.68,Default,,0,0,0,,{\pos(540,1513)}provide a {\c&H00657811&\b1}footnote{\c&H002A2B17&\b0}\Nor hyperlink showing
+Dialogue: 0,0:00:30.68,0:00:31.10,Default,,0,0,0,,{\pos(540,1513)}provide a footnote\N{\c&H00657811&\b1}or{\c&H002A2B17&\b0} hyperlink showing
+Dialogue: 0,0:00:31.10,0:00:31.68,Default,,0,0,0,,{\pos(540,1513)}provide a footnote\Nor {\c&H00657811&\b1}hyperlink{\c&H002A2B17&\b0} showing
+Dialogue: 0,0:00:31.68,0:00:31.92,Default,,0,0,0,,{\pos(540,1513)}provide a footnote\Nor hyperlink {\c&H00657811&\b1}showing{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:31.92,0:00:32.28,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}exactly{\c&H002A2B17&\b0} which\Ntable or metric it
+Dialogue: 0,0:00:32.28,0:00:32.74,Default,,0,0,0,,{\pos(540,1513)}exactly {\c&H00657811&\b1}which{\c&H002A2B17&\b0}\Ntable or metric it
+Dialogue: 0,0:00:32.74,0:00:33.01,Default,,0,0,0,,{\pos(540,1513)}exactly which\N{\c&H00657811&\b1}table{\c&H002A2B17&\b0} or metric it
+Dialogue: 0,0:00:33.01,0:00:33.22,Default,,0,0,0,,{\pos(540,1513)}exactly which\Ntable {\c&H00657811&\b1}or{\c&H002A2B17&\b0} metric it
+Dialogue: 0,0:00:33.22,0:00:33.50,Default,,0,0,0,,{\pos(540,1513)}exactly which\Ntable or {\c&H00657811&\b1}metric{\c&H002A2B17&\b0} it
+Dialogue: 0,0:00:33.50,0:00:34.12,Default,,0,0,0,,{\pos(540,1513)}exactly which\Ntable or metric {\c&H00657811&\b1}it{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:34.12,0:00:34.32,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}used{\c&H002A2B17&\b0} to calculate that 15%.
+Dialogue: 0,0:00:34.32,0:00:34.54,Default,,0,0,0,,{\pos(540,1513)}used {\c&H00657811&\b1}to{\c&H002A2B17&\b0} calculate that 15%.
+Dialogue: 0,0:00:34.54,0:00:34.76,Default,,0,0,0,,{\pos(540,1513)}used to {\c&H00657811&\b1}calculate{\c&H002A2B17&\b0} that 15%.
+Dialogue: 0,0:00:34.76,0:00:35.08,Default,,0,0,0,,{\pos(540,1513)}used to calculate {\c&H00657811&\b1}that{\c&H002A2B17&\b0} 15%.
+Dialogue: 0,0:00:35.08,0:00:35.99,Default,,0,0,0,,{\pos(540,1513)}used to calculate that {\c&H00657811&\b1}15%.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:36.26,0:00:36.51,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}So{\c&H002A2B17&\b0} it could just be making
+Dialogue: 0,0:00:36.51,0:00:36.62,Default,,0,0,0,,{\pos(540,1513)}So {\c&H00657811&\b1}it{\c&H002A2B17&\b0} could just be making
+Dialogue: 0,0:00:36.62,0:00:36.72,Default,,0,0,0,,{\pos(540,1513)}So it {\c&H00657811&\b1}could{\c&H002A2B17&\b0} just be making
+Dialogue: 0,0:00:36.72,0:00:36.87,Default,,0,0,0,,{\pos(540,1513)}So it could {\c&H00657811&\b1}just{\c&H002A2B17&\b0} be making
+Dialogue: 0,0:00:36.87,0:00:37.00,Default,,0,0,0,,{\pos(540,1513)}So it could just {\c&H00657811&\b1}be{\c&H002A2B17&\b0} making
+Dialogue: 0,0:00:37.00,0:00:37.20,Default,,0,0,0,,{\pos(540,1513)}So it could just be {\c&H00657811&\b1}making{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:37.20,0:00:37.42,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}it{\c&H002A2B17&\b0} up. Therefore,\Nthe source script
+Dialogue: 0,0:00:37.42,0:00:38.18,Default,,0,0,0,,{\pos(540,1513)}it {\c&H00657811&\b1}up.{\c&H002A2B17&\b0} Therefore,\Nthe source script
+Dialogue: 0,0:00:38.18,0:00:39.04,Default,,0,0,0,,{\pos(540,1513)}it up. {\c&H00657811&\b1}Therefore,{\c&H002A2B17&\b0}\Nthe source script
+Dialogue: 0,0:00:39.04,0:00:39.20,Default,,0,0,0,,{\pos(540,1513)}it up. Therefore,\N{\c&H00657811&\b1}the{\c&H002A2B17&\b0} source script
+Dialogue: 0,0:00:39.20,0:00:39.37,Default,,0,0,0,,{\pos(540,1513)}it up. Therefore,\Nthe {\c&H00657811&\b1}source{\c&H002A2B17&\b0} script
+Dialogue: 0,0:00:39.37,0:00:39.60,Default,,0,0,0,,{\pos(540,1513)}it up. Therefore,\Nthe source {\c&H00657811&\b1}script{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:39.60,0:00:39.86,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}is{\c&H002A2B17&\b0} adamant. The\Nhuman operator must
+Dialogue: 0,0:00:39.86,0:00:40.98,Default,,0,0,0,,{\pos(540,1513)}is {\c&H00657811&\b1}adamant.{\c&H002A2B17&\b0} The\Nhuman operator must
+Dialogue: 0,0:00:40.98,0:00:41.06,Default,,0,0,0,,{\pos(540,1513)}is adamant. {\c&H00657811&\b1}The{\c&H002A2B17&\b0}\Nhuman operator must
+Dialogue: 0,0:00:41.06,0:00:41.34,Default,,0,0,0,,{\pos(540,1513)}is adamant. The\N{\c&H00657811&\b1}human{\c&H002A2B17&\b0} operator must
+Dialogue: 0,0:00:41.34,0:00:41.84,Default,,0,0,0,,{\pos(540,1513)}is adamant. The\Nhuman {\c&H00657811&\b1}operator{\c&H002A2B17&\b0} must
+Dialogue: 0,0:00:41.84,0:00:42.20,Default,,0,0,0,,{\pos(540,1513)}is adamant. The\Nhuman operator {\c&H00657811&\b1}must{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:42.20,0:00:42.72,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}manually{\c&H002A2B17&\b0} verify every\Nsingle generated
+Dialogue: 0,0:00:42.72,0:00:43.14,Default,,0,0,0,,{\pos(540,1513)}manually {\c&H00657811&\b1}verify{\c&H002A2B17&\b0} every\Nsingle generated
+Dialogue: 0,0:00:43.14,0:00:43.86,Default,,0,0,0,,{\pos(540,1513)}manually verify {\c&H00657811&\b1}every{\c&H002A2B17&\b0}\Nsingle generated
+Dialogue: 0,0:00:43.86,0:00:44.46,Default,,0,0,0,,{\pos(540,1513)}manually verify every\N{\c&H00657811&\b1}single{\c&H002A2B17&\b0} generated
+Dialogue: 0,0:00:44.46,0:00:44.88,Default,,0,0,0,,{\pos(540,1513)}manually verify every\Nsingle {\c&H00657811&\b1}generated{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:44.88,0:00:45.32,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}number{\c&H002A2B17&\b0} against the\Nsource report before
+Dialogue: 0,0:00:45.32,0:00:45.60,Default,,0,0,0,,{\pos(540,1513)}number {\c&H00657811&\b1}against{\c&H002A2B17&\b0} the\Nsource report before
+Dialogue: 0,0:00:45.60,0:00:45.84,Default,,0,0,0,,{\pos(540,1513)}number against {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nsource report before
+Dialogue: 0,0:00:45.84,0:00:46.02,Default,,0,0,0,,{\pos(540,1513)}number against the\N{\c&H00657811&\b1}source{\c&H002A2B17&\b0} report before
+Dialogue: 0,0:00:46.02,0:00:46.40,Default,,0,0,0,,{\pos(540,1513)}number against the\Nsource {\c&H00657811&\b1}report{\c&H002A2B17&\b0} before
+Dialogue: 0,0:00:46.40,0:00:46.74,Default,,0,0,0,,{\pos(540,1513)}number against the\Nsource report {\c&H00657811&\b1}before{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:46.74,0:00:46.96,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}they{\c&H002A2B17&\b0} ever distribute\Nthat document.
+Dialogue: 0,0:00:46.96,0:00:47.18,Default,,0,0,0,,{\pos(540,1513)}they {\c&H00657811&\b1}ever{\c&H002A2B17&\b0} distribute\Nthat document.
+Dialogue: 0,0:00:47.18,0:00:47.54,Default,,0,0,0,,{\pos(540,1513)}they ever {\c&H00657811&\b1}distribute{\c&H002A2B17&\b0}\Nthat document.
+Dialogue: 0,0:00:47.54,0:00:47.80,Default,,0,0,0,,{\pos(540,1513)}they ever distribute\N{\c&H00657811&\b1}that{\c&H002A2B17&\b0} document.
+Dialogue: 0,0:00:47.80,0:00:48.22,Default,,0,0,0,,{\pos(540,1513)}they ever distribute\Nthat {\c&H00657811&\b1}document.{\c&H002A2B17&\b0}

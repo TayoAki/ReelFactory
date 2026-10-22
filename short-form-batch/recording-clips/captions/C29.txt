@@ -1,0 +1,5 @@
+Different sources serve different workloads
+Original recording 27:35–28:23
+ASR draft; technical-name spelling normalized.
+
+When a data engineer sets up these bindings, what kind of systems are they actually reaching into? According to the source documentation, the bindings and Fabric ontologies can point to a surprisingly wide variety of data architectures. Like what? You can bind to lake houses, which are typically used to store massive amounts of operational reference data, historical inventory records, and shipment logs in open formats. OK. You can bind to event houses or KQL databases, which are specifically architected to handle high volume real -time streaming telemetry. Streaming like IoT devices. Exactly, like the second -by -second temperature readings from thousands of refrigeration units. You can point to traditional relational data warehouses, standard SQL databases, externally mirror databases, and as we discussed, power BI semantic models.

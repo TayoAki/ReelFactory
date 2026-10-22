@@ -1,0 +1,51 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.24,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}The{\c&H002A2B17&\b0} agent's chat\Ninterface might only
+Dialogue: 0,0:00:00.24,0:00:00.68,Default,,0,0,0,,{\pos(540,1513)}The {\c&H00657811&\b1}agent's{\c&H002A2B17&\b0} chat\Ninterface might only
+Dialogue: 0,0:00:00.68,0:00:00.79,Default,,0,0,0,,{\pos(540,1513)}The agent's {\c&H00657811&\b1}chat{\c&H002A2B17&\b0}\Ninterface might only
+Dialogue: 0,0:00:00.79,0:00:01.25,Default,,0,0,0,,{\pos(540,1513)}The agent's chat\N{\c&H00657811&\b1}interface{\c&H002A2B17&\b0} might only
+Dialogue: 0,0:00:01.25,0:00:01.54,Default,,0,0,0,,{\pos(540,1513)}The agent's chat\Ninterface {\c&H00657811&\b1}might{\c&H002A2B17&\b0} only
+Dialogue: 0,0:00:01.54,0:00:01.72,Default,,0,0,0,,{\pos(540,1513)}The agent's chat\Ninterface might {\c&H00657811&\b1}only{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:01.72,0:00:02.17,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}display{\c&H002A2B17&\b0} a bounded\Nset of results,
+Dialogue: 0,0:00:02.17,0:00:02.48,Default,,0,0,0,,{\pos(540,1513)}display {\c&H00657811&\b1}a{\c&H002A2B17&\b0} bounded\Nset of results,
+Dialogue: 0,0:00:02.48,0:00:02.76,Default,,0,0,0,,{\pos(540,1513)}display a {\c&H00657811&\b1}bounded{\c&H002A2B17&\b0}\Nset of results,
+Dialogue: 0,0:00:02.76,0:00:03.05,Default,,0,0,0,,{\pos(540,1513)}display a bounded\N{\c&H00657811&\b1}set{\c&H002A2B17&\b0} of results,
+Dialogue: 0,0:00:03.05,0:00:03.18,Default,,0,0,0,,{\pos(540,1513)}display a bounded\Nset {\c&H00657811&\b1}of{\c&H002A2B17&\b0} results,
+Dialogue: 0,0:00:03.18,0:00:03.40,Default,,0,0,0,,{\pos(540,1513)}display a bounded\Nset of {\c&H00657811&\b1}results,{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:03.40,0:00:03.96,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}say{\c&H002A2B17&\b0} a table of the top
+Dialogue: 0,0:00:03.96,0:00:04.26,Default,,0,0,0,,{\pos(540,1513)}say {\c&H00657811&\b1}a{\c&H002A2B17&\b0} table of the top
+Dialogue: 0,0:00:04.26,0:00:04.66,Default,,0,0,0,,{\pos(540,1513)}say a {\c&H00657811&\b1}table{\c&H002A2B17&\b0} of the top
+Dialogue: 0,0:00:04.66,0:00:04.86,Default,,0,0,0,,{\pos(540,1513)}say a table {\c&H00657811&\b1}of{\c&H002A2B17&\b0} the top
+Dialogue: 0,0:00:04.86,0:00:04.96,Default,,0,0,0,,{\pos(540,1513)}say a table of {\c&H00657811&\b1}the{\c&H002A2B17&\b0} top
+Dialogue: 0,0:00:04.96,0:00:05.12,Default,,0,0,0,,{\pos(540,1513)}say a table of the {\c&H00657811&\b1}top{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:05.12,0:00:05.40,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}10{\c&H002A2B17&\b0} rows. A return to table
+Dialogue: 0,0:00:05.40,0:00:06.38,Default,,0,0,0,,{\pos(540,1513)}10 {\c&H00657811&\b1}rows.{\c&H002A2B17&\b0} A return to table
+Dialogue: 0,0:00:06.38,0:00:06.48,Default,,0,0,0,,{\pos(540,1513)}10 rows. {\c&H00657811&\b1}A{\c&H002A2B17&\b0} return to table
+Dialogue: 0,0:00:06.48,0:00:06.74,Default,,0,0,0,,{\pos(540,1513)}10 rows. A {\c&H00657811&\b1}return{\c&H002A2B17&\b0} to table
+Dialogue: 0,0:00:06.74,0:00:06.96,Default,,0,0,0,,{\pos(540,1513)}10 rows. A return {\c&H00657811&\b1}to{\c&H002A2B17&\b0} table
+Dialogue: 0,0:00:06.96,0:00:07.27,Default,,0,0,0,,{\pos(540,1513)}10 rows. A return to {\c&H00657811&\b1}table{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:07.27,0:00:07.48,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}in{\c&H002A2B17&\b0} a chat window is not
+Dialogue: 0,0:00:07.48,0:00:07.56,Default,,0,0,0,,{\pos(540,1513)}in {\c&H00657811&\b1}a{\c&H002A2B17&\b0} chat window is not
+Dialogue: 0,0:00:07.56,0:00:07.69,Default,,0,0,0,,{\pos(540,1513)}in a {\c&H00657811&\b1}chat{\c&H002A2B17&\b0} window is not
+Dialogue: 0,0:00:07.69,0:00:07.96,Default,,0,0,0,,{\pos(540,1513)}in a chat {\c&H00657811&\b1}window{\c&H002A2B17&\b0} is not
+Dialogue: 0,0:00:07.96,0:00:08.26,Default,,0,0,0,,{\pos(540,1513)}in a chat window {\c&H00657811&\b1}is{\c&H002A2B17&\b0} not
+Dialogue: 0,0:00:08.26,0:00:08.44,Default,,0,0,0,,{\pos(540,1513)}in a chat window is {\c&H00657811&\b1}not{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:08.44,0:00:09.10,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}automatically{\c&H002A2B17&\b0} a\Ncomplete export of
+Dialogue: 0,0:00:09.10,0:00:09.48,Default,,0,0,0,,{\pos(540,1513)}automatically {\c&H00657811&\b1}a{\c&H002A2B17&\b0}\Ncomplete export of
+Dialogue: 0,0:00:09.48,0:00:09.82,Default,,0,0,0,,{\pos(540,1513)}automatically a\N{\c&H00657811&\b1}complete{\c&H002A2B17&\b0} export of
+Dialogue: 0,0:00:09.82,0:00:10.30,Default,,0,0,0,,{\pos(540,1513)}automatically a\Ncomplete {\c&H00657811&\b1}export{\c&H002A2B17&\b0} of
+Dialogue: 0,0:00:10.30,0:00:10.62,Default,,0,0,0,,{\pos(540,1513)}automatically a\Ncomplete export {\c&H00657811&\b1}of{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:10.62,0:00:10.98,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}every{\c&H002A2B17&\b0} matching record\Nin the database.
+Dialogue: 0,0:00:10.98,0:00:11.28,Default,,0,0,0,,{\pos(540,1513)}every {\c&H00657811&\b1}matching{\c&H002A2B17&\b0} record\Nin the database.
+Dialogue: 0,0:00:11.28,0:00:11.58,Default,,0,0,0,,{\pos(540,1513)}every matching {\c&H00657811&\b1}record{\c&H002A2B17&\b0}\Nin the database.
+Dialogue: 0,0:00:11.58,0:00:11.82,Default,,0,0,0,,{\pos(540,1513)}every matching record\N{\c&H00657811&\b1}in{\c&H002A2B17&\b0} the database.
+Dialogue: 0,0:00:11.82,0:00:11.90,Default,,0,0,0,,{\pos(540,1513)}every matching record\Nin {\c&H00657811&\b1}the{\c&H002A2B17&\b0} database.
+Dialogue: 0,0:00:11.90,0:00:12.27,Default,,0,0,0,,{\pos(540,1513)}every matching record\Nin the {\c&H00657811&\b1}database.{\c&H002A2B17&\b0}

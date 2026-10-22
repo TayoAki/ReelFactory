@@ -1,0 +1,100 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.10,0:00:00.16,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}the{\c&H002A2B17&\b0} source mentions a\Nmaximum conversation
+Dialogue: 0,0:00:00.16,0:00:00.35,Default,,0,0,0,,{\pos(540,1513)}the {\c&H00657811&\b1}source{\c&H002A2B17&\b0} mentions a\Nmaximum conversation
+Dialogue: 0,0:00:00.35,0:00:00.79,Default,,0,0,0,,{\pos(540,1513)}the source {\c&H00657811&\b1}mentions{\c&H002A2B17&\b0} a\Nmaximum conversation
+Dialogue: 0,0:00:00.79,0:00:01.10,Default,,0,0,0,,{\pos(540,1513)}the source mentions {\c&H00657811&\b1}a{\c&H002A2B17&\b0}\Nmaximum conversation
+Dialogue: 0,0:00:01.10,0:00:01.46,Default,,0,0,0,,{\pos(540,1513)}the source mentions a\N{\c&H00657811&\b1}maximum{\c&H002A2B17&\b0} conversation
+Dialogue: 0,0:00:01.46,0:00:02.28,Default,,0,0,0,,{\pos(540,1513)}the source mentions a\Nmaximum {\c&H00657811&\b1}conversation{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:02.28,0:00:02.68,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}lifetime{\c&H002A2B17&\b0} of 24 hours.
+Dialogue: 0,0:00:02.68,0:00:03.22,Default,,0,0,0,,{\pos(540,1513)}lifetime {\c&H00657811&\b1}of{\c&H002A2B17&\b0} 24 hours.
+Dialogue: 0,0:00:03.22,0:00:03.54,Default,,0,0,0,,{\pos(540,1513)}lifetime of {\c&H00657811&\b1}24{\c&H002A2B17&\b0} hours.
+Dialogue: 0,0:00:03.54,0:00:04.20,Default,,0,0,0,,{\pos(540,1513)}lifetime of 24 {\c&H00657811&\b1}hours.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:04.46,0:00:05.34,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Yes.{\c&H002A2B17&\b0} The built -in\Nontology agent's
+Dialogue: 0,0:00:05.34,0:00:05.88,Default,,0,0,0,,{\pos(540,1513)}Yes. {\c&H00657811&\b1}The{\c&H002A2B17&\b0} built -in\Nontology agent's
+Dialogue: 0,0:00:05.88,0:00:06.03,Default,,0,0,0,,{\pos(540,1513)}Yes. The {\c&H00657811&\b1}built{\c&H002A2B17&\b0} -in\Nontology agent's
+Dialogue: 0,0:00:06.03,0:00:06.27,Default,,0,0,0,,{\pos(540,1513)}Yes. The built {\c&H00657811&\b1}-in{\c&H002A2B17&\b0}\Nontology agent's
+Dialogue: 0,0:00:06.27,0:00:06.64,Default,,0,0,0,,{\pos(540,1513)}Yes. The built -in\N{\c&H00657811&\b1}ontology{\c&H002A2B17&\b0} agent's
+Dialogue: 0,0:00:06.64,0:00:07.24,Default,,0,0,0,,{\pos(540,1513)}Yes. The built -in\Nontology {\c&H00657811&\b1}agent's{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:07.24,0:00:07.50,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}conversation{\c&H002A2B17&\b0} history\Nonly lasts within
+Dialogue: 0,0:00:07.50,0:00:08.14,Default,,0,0,0,,{\pos(540,1513)}conversation {\c&H00657811&\b1}history{\c&H002A2B17&\b0}\Nonly lasts within
+Dialogue: 0,0:00:08.14,0:00:08.44,Default,,0,0,0,,{\pos(540,1513)}conversation history\N{\c&H00657811&\b1}only{\c&H002A2B17&\b0} lasts within
+Dialogue: 0,0:00:08.44,0:00:08.88,Default,,0,0,0,,{\pos(540,1513)}conversation history\Nonly {\c&H00657811&\b1}lasts{\c&H002A2B17&\b0} within
+Dialogue: 0,0:00:08.88,0:00:09.18,Default,,0,0,0,,{\pos(540,1513)}conversation history\Nonly lasts {\c&H00657811&\b1}within{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:09.18,0:00:09.40,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}your{\c&H002A2B17&\b0} current\Nbrowser session.
+Dialogue: 0,0:00:09.40,0:00:09.68,Default,,0,0,0,,{\pos(540,1513)}your {\c&H00657811&\b1}current{\c&H002A2B17&\b0}\Nbrowser session.
+Dialogue: 0,0:00:09.68,0:00:09.94,Default,,0,0,0,,{\pos(540,1513)}your current\N{\c&H00657811&\b1}browser{\c&H002A2B17&\b0} session.
+Dialogue: 0,0:00:09.94,0:00:10.68,Default,,0,0,0,,{\pos(540,1513)}your current\Nbrowser {\c&H00657811&\b1}session.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:10.80,0:00:10.88,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Wait,{\c&H002A2B17&\b0} really? If\Nyou refresh the
+Dialogue: 0,0:00:10.88,0:00:11.52,Default,,0,0,0,,{\pos(540,1513)}Wait, {\c&H00657811&\b1}really?{\c&H002A2B17&\b0} If\Nyou refresh the
+Dialogue: 0,0:00:11.52,0:00:11.64,Default,,0,0,0,,{\pos(540,1513)}Wait, really? {\c&H00657811&\b1}If{\c&H002A2B17&\b0}\Nyou refresh the
+Dialogue: 0,0:00:11.64,0:00:11.78,Default,,0,0,0,,{\pos(540,1513)}Wait, really? If\N{\c&H00657811&\b1}you{\c&H002A2B17&\b0} refresh the
+Dialogue: 0,0:00:11.78,0:00:12.12,Default,,0,0,0,,{\pos(540,1513)}Wait, really? If\Nyou {\c&H00657811&\b1}refresh{\c&H002A2B17&\b0} the
+Dialogue: 0,0:00:12.12,0:00:12.46,Default,,0,0,0,,{\pos(540,1513)}Wait, really? If\Nyou refresh {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:12.46,0:00:13.26,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}page,{\c&H002A2B17&\b0} close the\Nbrowser tab or
+Dialogue: 0,0:00:13.26,0:00:13.48,Default,,0,0,0,,{\pos(540,1513)}page, {\c&H00657811&\b1}close{\c&H002A2B17&\b0} the\Nbrowser tab or
+Dialogue: 0,0:00:13.48,0:00:13.64,Default,,0,0,0,,{\pos(540,1513)}page, close {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nbrowser tab or
+Dialogue: 0,0:00:13.64,0:00:13.78,Default,,0,0,0,,{\pos(540,1513)}page, close the\N{\c&H00657811&\b1}browser{\c&H002A2B17&\b0} tab or
+Dialogue: 0,0:00:13.78,0:00:14.22,Default,,0,0,0,,{\pos(540,1513)}page, close the\Nbrowser {\c&H00657811&\b1}tab{\c&H002A2B17&\b0} or
+Dialogue: 0,0:00:14.22,0:00:14.46,Default,,0,0,0,,{\pos(540,1513)}page, close the\Nbrowser tab {\c&H00657811&\b1}or{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:14.46,0:00:14.60,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}hit{\c&H002A2B17&\b0} the 24 hour mark, that
+Dialogue: 0,0:00:14.60,0:00:14.72,Default,,0,0,0,,{\pos(540,1513)}hit {\c&H00657811&\b1}the{\c&H002A2B17&\b0} 24 hour mark, that
+Dialogue: 0,0:00:14.72,0:00:14.98,Default,,0,0,0,,{\pos(540,1513)}hit the {\c&H00657811&\b1}24{\c&H002A2B17&\b0} hour mark, that
+Dialogue: 0,0:00:14.98,0:00:15.30,Default,,0,0,0,,{\pos(540,1513)}hit the 24 {\c&H00657811&\b1}hour{\c&H002A2B17&\b0} mark, that
+Dialogue: 0,0:00:15.30,0:00:15.98,Default,,0,0,0,,{\pos(540,1513)}hit the 24 hour {\c&H00657811&\b1}mark,{\c&H002A2B17&\b0} that
+Dialogue: 0,0:00:15.98,0:00:16.07,Default,,0,0,0,,{\pos(540,1513)}hit the 24 hour mark, {\c&H00657811&\b1}that{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:16.07,0:00:16.36,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}entire{\c&H002A2B17&\b0} conversational\Nhistory is permanently
+Dialogue: 0,0:00:16.36,0:00:17.30,Default,,0,0,0,,{\pos(540,1513)}entire {\c&H00657811&\b1}conversational{\c&H002A2B17&\b0}\Nhistory is permanently
+Dialogue: 0,0:00:17.30,0:00:17.55,Default,,0,0,0,,{\pos(540,1513)}entire conversational\N{\c&H00657811&\b1}history{\c&H002A2B17&\b0} is permanently
+Dialogue: 0,0:00:17.55,0:00:17.89,Default,,0,0,0,,{\pos(540,1513)}entire conversational\Nhistory {\c&H00657811&\b1}is{\c&H002A2B17&\b0} permanently
+Dialogue: 0,0:00:17.89,0:00:18.39,Default,,0,0,0,,{\pos(540,1513)}entire conversational\Nhistory is {\c&H00657811&\b1}permanently{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:18.39,0:00:19.55,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}gone.{\c&H002A2B17&\b0} So under no\Ncircumstances should
+Dialogue: 0,0:00:19.55,0:00:19.62,Default,,0,0,0,,{\pos(540,1513)}gone. {\c&H00657811&\b1}So{\c&H002A2B17&\b0} under no\Ncircumstances should
+Dialogue: 0,0:00:19.62,0:00:19.76,Default,,0,0,0,,{\pos(540,1513)}gone. So {\c&H00657811&\b1}under{\c&H002A2B17&\b0} no\Ncircumstances should
+Dialogue: 0,0:00:19.76,0:00:20.10,Default,,0,0,0,,{\pos(540,1513)}gone. So under {\c&H00657811&\b1}no{\c&H002A2B17&\b0}\Ncircumstances should
+Dialogue: 0,0:00:20.10,0:00:20.60,Default,,0,0,0,,{\pos(540,1513)}gone. So under no\N{\c&H00657811&\b1}circumstances{\c&H002A2B17&\b0} should
+Dialogue: 0,0:00:20.60,0:00:21.12,Default,,0,0,0,,{\pos(540,1513)}gone. So under no\Ncircumstances {\c&H00657811&\b1}should{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:21.12,0:00:21.24,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}a{\c&H002A2B17&\b0} team use the chat window
+Dialogue: 0,0:00:21.24,0:00:21.42,Default,,0,0,0,,{\pos(540,1513)}a {\c&H00657811&\b1}team{\c&H002A2B17&\b0} use the chat window
+Dialogue: 0,0:00:21.42,0:00:21.68,Default,,0,0,0,,{\pos(540,1513)}a team {\c&H00657811&\b1}use{\c&H002A2B17&\b0} the chat window
+Dialogue: 0,0:00:21.68,0:00:21.84,Default,,0,0,0,,{\pos(540,1513)}a team use {\c&H00657811&\b1}the{\c&H002A2B17&\b0} chat window
+Dialogue: 0,0:00:21.84,0:00:21.98,Default,,0,0,0,,{\pos(540,1513)}a team use the {\c&H00657811&\b1}chat{\c&H002A2B17&\b0} window
+Dialogue: 0,0:00:21.98,0:00:22.28,Default,,0,0,0,,{\pos(540,1513)}a team use the chat {\c&H00657811&\b1}window{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:22.28,0:00:22.54,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}as{\c&H002A2B17&\b0} their permanent\Nknowledge repository
+Dialogue: 0,0:00:22.54,0:00:22.66,Default,,0,0,0,,{\pos(540,1513)}as {\c&H00657811&\b1}their{\c&H002A2B17&\b0} permanent\Nknowledge repository
+Dialogue: 0,0:00:22.66,0:00:22.96,Default,,0,0,0,,{\pos(540,1513)}as their {\c&H00657811&\b1}permanent{\c&H002A2B17&\b0}\Nknowledge repository
+Dialogue: 0,0:00:22.96,0:00:23.48,Default,,0,0,0,,{\pos(540,1513)}as their permanent\N{\c&H00657811&\b1}knowledge{\c&H002A2B17&\b0} repository
+Dialogue: 0,0:00:23.48,0:00:24.06,Default,,0,0,0,,{\pos(540,1513)}as their permanent\Nknowledge {\c&H00657811&\b1}repository{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:24.06,0:00:24.50,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}or{\c&H002A2B17&\b0} decision log?
+Dialogue: 0,0:00:24.50,0:00:24.82,Default,,0,0,0,,{\pos(540,1513)}or {\c&H00657811&\b1}decision{\c&H002A2B17&\b0} log?
+Dialogue: 0,0:00:24.82,0:00:25.30,Default,,0,0,0,,{\pos(540,1513)}or decision {\c&H00657811&\b1}log?{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:25.36,0:00:25.68,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Absolutely{\c&H002A2B17&\b0} not.\NThe chat is strictly
+Dialogue: 0,0:00:25.68,0:00:26.86,Default,,0,0,0,,{\pos(540,1513)}Absolutely {\c&H00657811&\b1}not.{\c&H002A2B17&\b0}\NThe chat is strictly
+Dialogue: 0,0:00:26.86,0:00:27.02,Default,,0,0,0,,{\pos(540,1513)}Absolutely not.\N{\c&H00657811&\b1}The{\c&H002A2B17&\b0} chat is strictly
+Dialogue: 0,0:00:27.02,0:00:27.26,Default,,0,0,0,,{\pos(540,1513)}Absolutely not.\NThe {\c&H00657811&\b1}chat{\c&H002A2B17&\b0} is strictly
+Dialogue: 0,0:00:27.26,0:00:27.46,Default,,0,0,0,,{\pos(540,1513)}Absolutely not.\NThe chat {\c&H00657811&\b1}is{\c&H002A2B17&\b0} strictly
+Dialogue: 0,0:00:27.46,0:00:27.72,Default,,0,0,0,,{\pos(540,1513)}Absolutely not.\NThe chat is {\c&H00657811&\b1}strictly{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:27.72,0:00:28.08,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}an{\c&H002A2B17&\b0} ephemeral scratch pad.
+Dialogue: 0,0:00:28.08,0:00:28.48,Default,,0,0,0,,{\pos(540,1513)}an {\c&H00657811&\b1}ephemeral{\c&H002A2B17&\b0} scratch pad.
+Dialogue: 0,0:00:28.48,0:00:28.68,Default,,0,0,0,,{\pos(540,1513)}an ephemeral {\c&H00657811&\b1}scratch{\c&H002A2B17&\b0} pad.
+Dialogue: 0,0:00:28.68,0:00:29.12,Default,,0,0,0,,{\pos(540,1513)}an ephemeral scratch {\c&H00657811&\b1}pad.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:29.78,0:00:29.82,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}The{\c&H002A2B17&\b0} durable, permanent\Nknowledge must
+Dialogue: 0,0:00:29.82,0:00:30.08,Default,,0,0,0,,{\pos(540,1513)}The {\c&H00657811&\b1}durable,{\c&H002A2B17&\b0} permanent\Nknowledge must
+Dialogue: 0,0:00:30.08,0:00:30.82,Default,,0,0,0,,{\pos(540,1513)}The durable, {\c&H00657811&\b1}permanent{\c&H002A2B17&\b0}\Nknowledge must
+Dialogue: 0,0:00:30.82,0:00:31.20,Default,,0,0,0,,{\pos(540,1513)}The durable, permanent\N{\c&H00657811&\b1}knowledge{\c&H002A2B17&\b0} must
+Dialogue: 0,0:00:31.20,0:00:31.48,Default,,0,0,0,,{\pos(540,1513)}The durable, permanent\Nknowledge {\c&H00657811&\b1}must{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:31.48,0:00:31.68,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}be{\c&H002A2B17&\b0} saved in the\Nontology definitions
+Dialogue: 0,0:00:31.68,0:00:31.96,Default,,0,0,0,,{\pos(540,1513)}be {\c&H00657811&\b1}saved{\c&H002A2B17&\b0} in the\Nontology definitions
+Dialogue: 0,0:00:31.96,0:00:32.08,Default,,0,0,0,,{\pos(540,1513)}be saved {\c&H00657811&\b1}in{\c&H002A2B17&\b0} the\Nontology definitions
+Dialogue: 0,0:00:32.08,0:00:32.15,Default,,0,0,0,,{\pos(540,1513)}be saved in {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nontology definitions
+Dialogue: 0,0:00:32.15,0:00:32.51,Default,,0,0,0,,{\pos(540,1513)}be saved in the\N{\c&H00657811&\b1}ontology{\c&H002A2B17&\b0} definitions
+Dialogue: 0,0:00:32.51,0:00:32.96,Default,,0,0,0,,{\pos(540,1513)}be saved in the\Nontology {\c&H00657811&\b1}definitions{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:32.96,0:00:33.65,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}themselves,{\c&H002A2B17&\b0}

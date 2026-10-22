@@ -1,0 +1,124 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.92,0:00:01.12,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}In{\c&H002A2B17&\b0} the source\Ndemo, the expert
+Dialogue: 0,0:00:01.12,0:00:01.20,Default,,0,0,0,,{\pos(540,1513)}In {\c&H00657811&\b1}the{\c&H002A2B17&\b0} source\Ndemo, the expert
+Dialogue: 0,0:00:01.20,0:00:01.36,Default,,0,0,0,,{\pos(540,1513)}In the {\c&H00657811&\b1}source{\c&H002A2B17&\b0}\Ndemo, the expert
+Dialogue: 0,0:00:01.36,0:00:01.88,Default,,0,0,0,,{\pos(540,1513)}In the source\N{\c&H00657811&\b1}demo,{\c&H002A2B17&\b0} the expert
+Dialogue: 0,0:00:01.88,0:00:02.00,Default,,0,0,0,,{\pos(540,1513)}In the source\Ndemo, {\c&H00657811&\b1}the{\c&H002A2B17&\b0} expert
+Dialogue: 0,0:00:02.00,0:00:02.32,Default,,0,0,0,,{\pos(540,1513)}In the source\Ndemo, the {\c&H00657811&\b1}expert{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:02.32,0:00:02.78,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}demonstrates{\c&H002A2B17&\b0} the best\Npractice, explicitly
+Dialogue: 0,0:00:02.78,0:00:02.98,Default,,0,0,0,,{\pos(540,1513)}demonstrates {\c&H00657811&\b1}the{\c&H002A2B17&\b0} best\Npractice, explicitly
+Dialogue: 0,0:00:02.98,0:00:03.12,Default,,0,0,0,,{\pos(540,1513)}demonstrates the {\c&H00657811&\b1}best{\c&H002A2B17&\b0}\Npractice, explicitly
+Dialogue: 0,0:00:03.12,0:00:04.16,Default,,0,0,0,,{\pos(540,1513)}demonstrates the best\N{\c&H00657811&\b1}practice,{\c&H002A2B17&\b0} explicitly
+Dialogue: 0,0:00:04.16,0:00:04.62,Default,,0,0,0,,{\pos(540,1513)}demonstrates the best\Npractice, {\c&H00657811&\b1}explicitly{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:04.62,0:00:05.28,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}asking{\c&H002A2B17&\b0} the agent to show its
+Dialogue: 0,0:00:05.28,0:00:05.50,Default,,0,0,0,,{\pos(540,1513)}asking {\c&H00657811&\b1}the{\c&H002A2B17&\b0} agent to show its
+Dialogue: 0,0:00:05.50,0:00:05.72,Default,,0,0,0,,{\pos(540,1513)}asking the {\c&H00657811&\b1}agent{\c&H002A2B17&\b0} to show its
+Dialogue: 0,0:00:05.72,0:00:06.03,Default,,0,0,0,,{\pos(540,1513)}asking the agent {\c&H00657811&\b1}to{\c&H002A2B17&\b0} show its
+Dialogue: 0,0:00:06.03,0:00:06.32,Default,,0,0,0,,{\pos(540,1513)}asking the agent to {\c&H00657811&\b1}show{\c&H002A2B17&\b0} its
+Dialogue: 0,0:00:06.32,0:00:06.50,Default,,0,0,0,,{\pos(540,1513)}asking the agent to show {\c&H00657811&\b1}its{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:06.50,0:00:06.94,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}work.{\c&H002A2B17&\b0} Like in math class.
+Dialogue: 0,0:00:06.94,0:00:07.19,Default,,0,0,0,,{\pos(540,1513)}work. {\c&H00657811&\b1}Like{\c&H002A2B17&\b0} in math class.
+Dialogue: 0,0:00:07.19,0:00:07.36,Default,,0,0,0,,{\pos(540,1513)}work. Like {\c&H00657811&\b1}in{\c&H002A2B17&\b0} math class.
+Dialogue: 0,0:00:07.36,0:00:07.52,Default,,0,0,0,,{\pos(540,1513)}work. Like in {\c&H00657811&\b1}math{\c&H002A2B17&\b0} class.
+Dialogue: 0,0:00:07.52,0:00:07.92,Default,,0,0,0,,{\pos(540,1513)}work. Like in math {\c&H00657811&\b1}class.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:08.10,0:00:09.38,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Exactly.{\c&H002A2B17&\b0} They\Nprompt the agent to
+Dialogue: 0,0:00:09.38,0:00:09.40,Default,,0,0,0,,{\pos(540,1513)}Exactly. {\c&H00657811&\b1}They{\c&H002A2B17&\b0}\Nprompt the agent to
+Dialogue: 0,0:00:09.40,0:00:09.61,Default,,0,0,0,,{\pos(540,1513)}Exactly. They\N{\c&H00657811&\b1}prompt{\c&H002A2B17&\b0} the agent to
+Dialogue: 0,0:00:09.61,0:00:09.88,Default,,0,0,0,,{\pos(540,1513)}Exactly. They\Nprompt {\c&H00657811&\b1}the{\c&H002A2B17&\b0} agent to
+Dialogue: 0,0:00:09.88,0:00:10.16,Default,,0,0,0,,{\pos(540,1513)}Exactly. They\Nprompt the {\c&H00657811&\b1}agent{\c&H002A2B17&\b0} to
+Dialogue: 0,0:00:10.16,0:00:10.42,Default,,0,0,0,,{\pos(540,1513)}Exactly. They\Nprompt the agent {\c&H00657811&\b1}to{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:10.42,0:00:10.62,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}use{\c&H002A2B17&\b0} the governed\Nrevenue metric located
+Dialogue: 0,0:00:10.62,0:00:10.80,Default,,0,0,0,,{\pos(540,1513)}use {\c&H00657811&\b1}the{\c&H002A2B17&\b0} governed\Nrevenue metric located
+Dialogue: 0,0:00:10.80,0:00:11.08,Default,,0,0,0,,{\pos(540,1513)}use the {\c&H00657811&\b1}governed{\c&H002A2B17&\b0}\Nrevenue metric located
+Dialogue: 0,0:00:11.08,0:00:11.42,Default,,0,0,0,,{\pos(540,1513)}use the governed\N{\c&H00657811&\b1}revenue{\c&H002A2B17&\b0} metric located
+Dialogue: 0,0:00:11.42,0:00:11.90,Default,,0,0,0,,{\pos(540,1513)}use the governed\Nrevenue {\c&H00657811&\b1}metric{\c&H002A2B17&\b0} located
+Dialogue: 0,0:00:11.90,0:00:12.40,Default,,0,0,0,,{\pos(540,1513)}use the governed\Nrevenue metric {\c&H00657811&\b1}located{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:12.40,0:00:12.66,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}in{\c&H002A2B17&\b0} the sales report\Nsemantic model,
+Dialogue: 0,0:00:12.66,0:00:12.76,Default,,0,0,0,,{\pos(540,1513)}in {\c&H00657811&\b1}the{\c&H002A2B17&\b0} sales report\Nsemantic model,
+Dialogue: 0,0:00:12.76,0:00:13.02,Default,,0,0,0,,{\pos(540,1513)}in the {\c&H00657811&\b1}sales{\c&H002A2B17&\b0} report\Nsemantic model,
+Dialogue: 0,0:00:13.02,0:00:13.56,Default,,0,0,0,,{\pos(540,1513)}in the sales {\c&H00657811&\b1}report{\c&H002A2B17&\b0}\Nsemantic model,
+Dialogue: 0,0:00:13.56,0:00:14.02,Default,,0,0,0,,{\pos(540,1513)}in the sales report\N{\c&H00657811&\b1}semantic{\c&H002A2B17&\b0} model,
+Dialogue: 0,0:00:14.02,0:00:14.72,Default,,0,0,0,,{\pos(540,1513)}in the sales report\Nsemantic {\c&H00657811&\b1}model,{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:15.28,0:00:15.86,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}summarize{\c&H002A2B17&\b0} it by store for a
+Dialogue: 0,0:00:15.86,0:00:16.28,Default,,0,0,0,,{\pos(540,1513)}summarize {\c&H00657811&\b1}it{\c&H002A2B17&\b0} by store for a
+Dialogue: 0,0:00:16.28,0:00:16.38,Default,,0,0,0,,{\pos(540,1513)}summarize it {\c&H00657811&\b1}by{\c&H002A2B17&\b0} store for a
+Dialogue: 0,0:00:16.38,0:00:16.64,Default,,0,0,0,,{\pos(540,1513)}summarize it by {\c&H00657811&\b1}store{\c&H002A2B17&\b0} for a
+Dialogue: 0,0:00:16.64,0:00:16.88,Default,,0,0,0,,{\pos(540,1513)}summarize it by store {\c&H00657811&\b1}for{\c&H002A2B17&\b0} a
+Dialogue: 0,0:00:16.88,0:00:17.00,Default,,0,0,0,,{\pos(540,1513)}summarize it by store for {\c&H00657811&\b1}a{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:17.00,0:00:17.30,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}specific{\c&H002A2B17&\b0} time period,\Nexplicitly identify
+Dialogue: 0,0:00:17.30,0:00:17.70,Default,,0,0,0,,{\pos(540,1513)}specific {\c&H00657811&\b1}time{\c&H002A2B17&\b0} period,\Nexplicitly identify
+Dialogue: 0,0:00:17.70,0:00:18.80,Default,,0,0,0,,{\pos(540,1513)}specific time {\c&H00657811&\b1}period,{\c&H002A2B17&\b0}\Nexplicitly identify
+Dialogue: 0,0:00:18.80,0:00:19.22,Default,,0,0,0,,{\pos(540,1513)}specific time period,\N{\c&H00657811&\b1}explicitly{\c&H002A2B17&\b0} identify
+Dialogue: 0,0:00:19.22,0:00:19.78,Default,,0,0,0,,{\pos(540,1513)}specific time period,\Nexplicitly {\c&H00657811&\b1}identify{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:19.78,0:00:20.20,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}the{\c&H002A2B17&\b0} source measure\Nit used, and
+Dialogue: 0,0:00:20.20,0:00:20.46,Default,,0,0,0,,{\pos(540,1513)}the {\c&H00657811&\b1}source{\c&H002A2B17&\b0} measure\Nit used, and
+Dialogue: 0,0:00:20.46,0:00:20.74,Default,,0,0,0,,{\pos(540,1513)}the source {\c&H00657811&\b1}measure{\c&H002A2B17&\b0}\Nit used, and
+Dialogue: 0,0:00:20.74,0:00:20.96,Default,,0,0,0,,{\pos(540,1513)}the source measure\N{\c&H00657811&\b1}it{\c&H002A2B17&\b0} used, and
+Dialogue: 0,0:00:20.96,0:00:21.70,Default,,0,0,0,,{\pos(540,1513)}the source measure\Nit {\c&H00657811&\b1}used,{\c&H002A2B17&\b0} and
+Dialogue: 0,0:00:21.70,0:00:21.72,Default,,0,0,0,,{\pos(540,1513)}the source measure\Nit used, {\c&H00657811&\b1}and{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:21.72,0:00:22.06,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}actually{\c&H002A2B17&\b0} display the\Nunderlying query
+Dialogue: 0,0:00:22.06,0:00:22.48,Default,,0,0,0,,{\pos(540,1513)}actually {\c&H00657811&\b1}display{\c&H002A2B17&\b0} the\Nunderlying query
+Dialogue: 0,0:00:22.48,0:00:22.74,Default,,0,0,0,,{\pos(540,1513)}actually display {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nunderlying query
+Dialogue: 0,0:00:22.74,0:00:23.26,Default,,0,0,0,,{\pos(540,1513)}actually display the\N{\c&H00657811&\b1}underlying{\c&H002A2B17&\b0} query
+Dialogue: 0,0:00:23.26,0:00:23.52,Default,,0,0,0,,{\pos(540,1513)}actually display the\Nunderlying {\c&H00657811&\b1}query{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:23.52,0:00:23.88,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}code{\c&H002A2B17&\b0} it executed.
+Dialogue: 0,0:00:23.88,0:00:23.98,Default,,0,0,0,,{\pos(540,1513)}code {\c&H00657811&\b1}it{\c&H002A2B17&\b0} executed.
+Dialogue: 0,0:00:23.98,0:00:24.36,Default,,0,0,0,,{\pos(540,1513)}code it {\c&H00657811&\b1}executed.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:24.96,0:00:25.16,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}So{\c&H002A2B17&\b0} you force the\Nchat interface
+Dialogue: 0,0:00:25.16,0:00:25.32,Default,,0,0,0,,{\pos(540,1513)}So {\c&H00657811&\b1}you{\c&H002A2B17&\b0} force the\Nchat interface
+Dialogue: 0,0:00:25.32,0:00:25.60,Default,,0,0,0,,{\pos(540,1513)}So you {\c&H00657811&\b1}force{\c&H002A2B17&\b0} the\Nchat interface
+Dialogue: 0,0:00:25.60,0:00:25.88,Default,,0,0,0,,{\pos(540,1513)}So you force {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nchat interface
+Dialogue: 0,0:00:25.88,0:00:26.00,Default,,0,0,0,,{\pos(540,1513)}So you force the\N{\c&H00657811&\b1}chat{\c&H002A2B17&\b0} interface
+Dialogue: 0,0:00:26.00,0:00:26.32,Default,,0,0,0,,{\pos(540,1513)}So you force the\Nchat {\c&H00657811&\b1}interface{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:26.32,0:00:26.70,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}to{\c&H002A2B17&\b0} show you the exact DAX
+Dialogue: 0,0:00:26.70,0:00:26.88,Default,,0,0,0,,{\pos(540,1513)}to {\c&H00657811&\b1}show{\c&H002A2B17&\b0} you the exact DAX
+Dialogue: 0,0:00:26.88,0:00:27.00,Default,,0,0,0,,{\pos(540,1513)}to show {\c&H00657811&\b1}you{\c&H002A2B17&\b0} the exact DAX
+Dialogue: 0,0:00:27.00,0:00:27.14,Default,,0,0,0,,{\pos(540,1513)}to show you {\c&H00657811&\b1}the{\c&H002A2B17&\b0} exact DAX
+Dialogue: 0,0:00:27.14,0:00:27.58,Default,,0,0,0,,{\pos(540,1513)}to show you the {\c&H00657811&\b1}exact{\c&H002A2B17&\b0} DAX
+Dialogue: 0,0:00:27.58,0:00:28.66,Default,,0,0,0,,{\pos(540,1513)}to show you the exact {\c&H00657811&\b1}DAX{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:28.66,0:00:28.84,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}or{\c&H002A2B17&\b0} SQL code it wrote.
+Dialogue: 0,0:00:28.84,0:00:29.06,Default,,0,0,0,,{\pos(540,1513)}or {\c&H00657811&\b1}SQL{\c&H002A2B17&\b0} code it wrote.
+Dialogue: 0,0:00:29.06,0:00:29.40,Default,,0,0,0,,{\pos(540,1513)}or SQL {\c&H00657811&\b1}code{\c&H002A2B17&\b0} it wrote.
+Dialogue: 0,0:00:29.40,0:00:29.54,Default,,0,0,0,,{\pos(540,1513)}or SQL code {\c&H00657811&\b1}it{\c&H002A2B17&\b0} wrote.
+Dialogue: 0,0:00:29.54,0:00:29.82,Default,,0,0,0,,{\pos(540,1513)}or SQL code it {\c&H00657811&\b1}wrote.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:29.94,0:00:30.64,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Yes.{\c&H002A2B17&\b0} This gives\Nthe operator a
+Dialogue: 0,0:00:30.64,0:00:31.11,Default,,0,0,0,,{\pos(540,1513)}Yes. {\c&H00657811&\b1}This{\c&H002A2B17&\b0} gives\Nthe operator a
+Dialogue: 0,0:00:31.11,0:00:31.28,Default,,0,0,0,,{\pos(540,1513)}Yes. This {\c&H00657811&\b1}gives{\c&H002A2B17&\b0}\Nthe operator a
+Dialogue: 0,0:00:31.28,0:00:31.44,Default,,0,0,0,,{\pos(540,1513)}Yes. This gives\N{\c&H00657811&\b1}the{\c&H002A2B17&\b0} operator a
+Dialogue: 0,0:00:31.44,0:00:31.70,Default,,0,0,0,,{\pos(540,1513)}Yes. This gives\Nthe {\c&H00657811&\b1}operator{\c&H002A2B17&\b0} a
+Dialogue: 0,0:00:31.70,0:00:31.98,Default,,0,0,0,,{\pos(540,1513)}Yes. This gives\Nthe operator {\c&H00657811&\b1}a{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:31.98,0:00:32.48,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}tangible{\c&H002A2B17&\b0} mathematical\Ncalculation.
+Dialogue: 0,0:00:32.48,0:00:33.10,Default,,0,0,0,,{\pos(540,1513)}tangible {\c&H00657811&\b1}mathematical{\c&H002A2B17&\b0}\Ncalculation.
+Dialogue: 0,0:00:33.10,0:00:34.18,Default,,0,0,0,,{\pos(540,1513)}tangible mathematical\N{\c&H00657811&\b1}calculation.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:34.73,0:00:34.86,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}The{\c&H002A2B17&\b0} operator can\Nthen take that
+Dialogue: 0,0:00:34.86,0:00:35.10,Default,,0,0,0,,{\pos(540,1513)}The {\c&H00657811&\b1}operator{\c&H002A2B17&\b0} can\Nthen take that
+Dialogue: 0,0:00:35.10,0:00:35.37,Default,,0,0,0,,{\pos(540,1513)}The operator {\c&H00657811&\b1}can{\c&H002A2B17&\b0}\Nthen take that
+Dialogue: 0,0:00:35.37,0:00:35.54,Default,,0,0,0,,{\pos(540,1513)}The operator can\N{\c&H00657811&\b1}then{\c&H002A2B17&\b0} take that
+Dialogue: 0,0:00:35.54,0:00:35.82,Default,,0,0,0,,{\pos(540,1513)}The operator can\Nthen {\c&H00657811&\b1}take{\c&H002A2B17&\b0} that
+Dialogue: 0,0:00:35.82,0:00:36.04,Default,,0,0,0,,{\pos(540,1513)}The operator can\Nthen take {\c&H00657811&\b1}that{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:36.04,0:00:36.34,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}DAX{\c&H002A2B17&\b0} code and\Ncompare it against
+Dialogue: 0,0:00:36.34,0:00:36.70,Default,,0,0,0,,{\pos(540,1513)}DAX {\c&H00657811&\b1}code{\c&H002A2B17&\b0} and\Ncompare it against
+Dialogue: 0,0:00:36.70,0:00:36.84,Default,,0,0,0,,{\pos(540,1513)}DAX code {\c&H00657811&\b1}and{\c&H002A2B17&\b0}\Ncompare it against
+Dialogue: 0,0:00:36.84,0:00:37.14,Default,,0,0,0,,{\pos(540,1513)}DAX code and\N{\c&H00657811&\b1}compare{\c&H002A2B17&\b0} it against
+Dialogue: 0,0:00:37.14,0:00:37.32,Default,,0,0,0,,{\pos(540,1513)}DAX code and\Ncompare {\c&H00657811&\b1}it{\c&H002A2B17&\b0} against
+Dialogue: 0,0:00:37.32,0:00:37.48,Default,,0,0,0,,{\pos(540,1513)}DAX code and\Ncompare it {\c&H00657811&\b1}against{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:37.48,0:00:37.70,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}their{\c&H002A2B17&\b0} traditional legacy\Npower BI dashboard
+Dialogue: 0,0:00:37.70,0:00:38.12,Default,,0,0,0,,{\pos(540,1513)}their {\c&H00657811&\b1}traditional{\c&H002A2B17&\b0} legacy\Npower BI dashboard
+Dialogue: 0,0:00:38.12,0:00:38.64,Default,,0,0,0,,{\pos(540,1513)}their traditional {\c&H00657811&\b1}legacy{\c&H002A2B17&\b0}\Npower BI dashboard
+Dialogue: 0,0:00:38.64,0:00:39.08,Default,,0,0,0,,{\pos(540,1513)}their traditional legacy\N{\c&H00657811&\b1}power{\c&H002A2B17&\b0} BI dashboard
+Dialogue: 0,0:00:39.08,0:00:39.29,Default,,0,0,0,,{\pos(540,1513)}their traditional legacy\Npower {\c&H00657811&\b1}BI{\c&H002A2B17&\b0} dashboard
+Dialogue: 0,0:00:39.29,0:00:39.78,Default,,0,0,0,,{\pos(540,1513)}their traditional legacy\Npower BI {\c&H00657811&\b1}dashboard{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:39.78,0:00:40.18,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}using{\c&H002A2B17&\b0} the exact same filters.
+Dialogue: 0,0:00:40.18,0:00:40.34,Default,,0,0,0,,{\pos(540,1513)}using {\c&H00657811&\b1}the{\c&H002A2B17&\b0} exact same filters.
+Dialogue: 0,0:00:40.34,0:00:40.54,Default,,0,0,0,,{\pos(540,1513)}using the {\c&H00657811&\b1}exact{\c&H002A2B17&\b0} same filters.
+Dialogue: 0,0:00:40.54,0:00:40.90,Default,,0,0,0,,{\pos(540,1513)}using the exact {\c&H00657811&\b1}same{\c&H002A2B17&\b0} filters.
+Dialogue: 0,0:00:40.90,0:00:41.33,Default,,0,0,0,,{\pos(540,1513)}using the exact same {\c&H00657811&\b1}filters.{\c&H002A2B17&\b0}

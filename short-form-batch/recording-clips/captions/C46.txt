@@ -1,0 +1,5 @@
+MCP integration needs supported authentication
+Original recording 50:41–51:38
+ASR draft; technical-name spelling normalized.
+
+MCP stands for Model Context Protocol. Fabric provides an API endpoint, so enterprise developers can connect their own compatible external AI clients or custom applications to the ontology. It tells useful. However, the current guidance notes a severe limitation. Service principal access is currently unavailable for this endpoint. Explain that for the non -developers. What is a service principal? A service principal is basically a machine identity. It's a non -human service account you use, so a backend server or an automated script can talk to an API securely without needing a human being to physically type in a username and password. Oh, so you can automate it? Right. But because service principal access is missing in this preview, you currently have to authenticate as a real human user. You cannot easily set up a fully automated unattended machine to machine integration. That drastically limits how you can integrate this ontology into automated backend enterprise systems right now.

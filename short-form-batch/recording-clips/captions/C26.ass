@@ -1,0 +1,84 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.14,0:00:00.27,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Does{\c&H002A2B17&\b0} the AI help with this
+Dialogue: 0,0:00:00.27,0:00:00.39,Default,,0,0,0,,{\pos(540,1513)}Does {\c&H00657811&\b1}the{\c&H002A2B17&\b0} AI help with this
+Dialogue: 0,0:00:00.39,0:00:00.58,Default,,0,0,0,,{\pos(540,1513)}Does the {\c&H00657811&\b1}AI{\c&H002A2B17&\b0} help with this
+Dialogue: 0,0:00:00.58,0:00:00.94,Default,,0,0,0,,{\pos(540,1513)}Does the AI {\c&H00657811&\b1}help{\c&H002A2B17&\b0} with this
+Dialogue: 0,0:00:00.94,0:00:01.16,Default,,0,0,0,,{\pos(540,1513)}Does the AI help {\c&H00657811&\b1}with{\c&H002A2B17&\b0} this
+Dialogue: 0,0:00:01.16,0:00:01.40,Default,,0,0,0,,{\pos(540,1513)}Does the AI help with {\c&H00657811&\b1}this{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:01.40,0:00:01.62,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}part{\c&H002A2B17&\b0} at all?
+Dialogue: 0,0:00:01.62,0:00:01.74,Default,,0,0,0,,{\pos(540,1513)}part {\c&H00657811&\b1}at{\c&H002A2B17&\b0} all?
+Dialogue: 0,0:00:01.74,0:00:02.00,Default,,0,0,0,,{\pos(540,1513)}part at {\c&H00657811&\b1}all?{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:02.32,0:00:02.58,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}The{\c&H002A2B17&\b0} built -in\Nontology agent can
+Dialogue: 0,0:00:02.58,0:00:02.76,Default,,0,0,0,,{\pos(540,1513)}The {\c&H00657811&\b1}built{\c&H002A2B17&\b0} -in\Nontology agent can
+Dialogue: 0,0:00:02.76,0:00:02.96,Default,,0,0,0,,{\pos(540,1513)}The built {\c&H00657811&\b1}-in{\c&H002A2B17&\b0}\Nontology agent can
+Dialogue: 0,0:00:02.96,0:00:03.28,Default,,0,0,0,,{\pos(540,1513)}The built -in\N{\c&H00657811&\b1}ontology{\c&H002A2B17&\b0} agent can
+Dialogue: 0,0:00:03.28,0:00:03.68,Default,,0,0,0,,{\pos(540,1513)}The built -in\Nontology {\c&H00657811&\b1}agent{\c&H002A2B17&\b0} can
+Dialogue: 0,0:00:03.68,0:00:03.98,Default,,0,0,0,,{\pos(540,1513)}The built -in\Nontology agent {\c&H00657811&\b1}can{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:03.98,0:00:04.28,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}assist{\c&H002A2B17&\b0} here. It can\Ninspect supported
+Dialogue: 0,0:00:04.28,0:00:05.04,Default,,0,0,0,,{\pos(540,1513)}assist {\c&H00657811&\b1}here.{\c&H002A2B17&\b0} It can\Ninspect supported
+Dialogue: 0,0:00:05.04,0:00:05.22,Default,,0,0,0,,{\pos(540,1513)}assist here. {\c&H00657811&\b1}It{\c&H002A2B17&\b0} can\Ninspect supported
+Dialogue: 0,0:00:05.22,0:00:05.36,Default,,0,0,0,,{\pos(540,1513)}assist here. It {\c&H00657811&\b1}can{\c&H002A2B17&\b0}\Ninspect supported
+Dialogue: 0,0:00:05.36,0:00:05.70,Default,,0,0,0,,{\pos(540,1513)}assist here. It can\N{\c&H00657811&\b1}inspect{\c&H002A2B17&\b0} supported
+Dialogue: 0,0:00:05.70,0:00:06.24,Default,,0,0,0,,{\pos(540,1513)}assist here. It can\Ninspect {\c&H00657811&\b1}supported{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:06.24,0:00:06.46,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}workspace{\c&H002A2B17&\b0} sources,\Nlook at the column
+Dialogue: 0,0:00:06.46,0:00:07.16,Default,,0,0,0,,{\pos(540,1513)}workspace {\c&H00657811&\b1}sources,{\c&H002A2B17&\b0}\Nlook at the column
+Dialogue: 0,0:00:07.16,0:00:07.61,Default,,0,0,0,,{\pos(540,1513)}workspace sources,\N{\c&H00657811&\b1}look{\c&H002A2B17&\b0} at the column
+Dialogue: 0,0:00:07.61,0:00:07.76,Default,,0,0,0,,{\pos(540,1513)}workspace sources,\Nlook {\c&H00657811&\b1}at{\c&H002A2B17&\b0} the column
+Dialogue: 0,0:00:07.76,0:00:07.88,Default,,0,0,0,,{\pos(540,1513)}workspace sources,\Nlook at {\c&H00657811&\b1}the{\c&H002A2B17&\b0} column
+Dialogue: 0,0:00:07.88,0:00:08.16,Default,,0,0,0,,{\pos(540,1513)}workspace sources,\Nlook at the {\c&H00657811&\b1}column{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:08.16,0:00:08.68,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}names,{\c&H002A2B17&\b0} sample a few rows of
+Dialogue: 0,0:00:08.68,0:00:09.08,Default,,0,0,0,,{\pos(540,1513)}names, {\c&H00657811&\b1}sample{\c&H002A2B17&\b0} a few rows of
+Dialogue: 0,0:00:09.08,0:00:09.30,Default,,0,0,0,,{\pos(540,1513)}names, sample {\c&H00657811&\b1}a{\c&H002A2B17&\b0} few rows of
+Dialogue: 0,0:00:09.30,0:00:09.46,Default,,0,0,0,,{\pos(540,1513)}names, sample a {\c&H00657811&\b1}few{\c&H002A2B17&\b0} rows of
+Dialogue: 0,0:00:09.46,0:00:09.74,Default,,0,0,0,,{\pos(540,1513)}names, sample a few {\c&H00657811&\b1}rows{\c&H002A2B17&\b0} of
+Dialogue: 0,0:00:09.74,0:00:10.10,Default,,0,0,0,,{\pos(540,1513)}names, sample a few rows {\c&H00657811&\b1}of{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:10.10,0:00:10.38,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}actual{\c&H002A2B17&\b0} data, and\Npropose a draft
+Dialogue: 0,0:00:10.38,0:00:11.36,Default,,0,0,0,,{\pos(540,1513)}actual {\c&H00657811&\b1}data,{\c&H002A2B17&\b0} and\Npropose a draft
+Dialogue: 0,0:00:11.36,0:00:11.38,Default,,0,0,0,,{\pos(540,1513)}actual data, {\c&H00657811&\b1}and{\c&H002A2B17&\b0}\Npropose a draft
+Dialogue: 0,0:00:11.38,0:00:11.62,Default,,0,0,0,,{\pos(540,1513)}actual data, and\N{\c&H00657811&\b1}propose{\c&H002A2B17&\b0} a draft
+Dialogue: 0,0:00:11.62,0:00:11.86,Default,,0,0,0,,{\pos(540,1513)}actual data, and\Npropose {\c&H00657811&\b1}a{\c&H002A2B17&\b0} draft
+Dialogue: 0,0:00:11.86,0:00:11.98,Default,,0,0,0,,{\pos(540,1513)}actual data, and\Npropose a {\c&H00657811&\b1}draft{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:11.98,0:00:12.44,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}model{\c&H002A2B17&\b0} with descriptions.
+Dialogue: 0,0:00:12.44,0:00:12.70,Default,,0,0,0,,{\pos(540,1513)}model {\c&H00657811&\b1}with{\c&H002A2B17&\b0} descriptions.
+Dialogue: 0,0:00:12.70,0:00:13.02,Default,,0,0,0,,{\pos(540,1513)}model with {\c&H00657811&\b1}descriptions.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:14.00,0:00:14.12,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}You{\c&H002A2B17&\b0} can even\Nupload an existing
+Dialogue: 0,0:00:14.12,0:00:14.22,Default,,0,0,0,,{\pos(540,1513)}You {\c&H00657811&\b1}can{\c&H002A2B17&\b0} even\Nupload an existing
+Dialogue: 0,0:00:14.22,0:00:14.34,Default,,0,0,0,,{\pos(540,1513)}You can {\c&H00657811&\b1}even{\c&H002A2B17&\b0}\Nupload an existing
+Dialogue: 0,0:00:14.34,0:00:14.68,Default,,0,0,0,,{\pos(540,1513)}You can even\N{\c&H00657811&\b1}upload{\c&H002A2B17&\b0} an existing
+Dialogue: 0,0:00:14.68,0:00:14.82,Default,,0,0,0,,{\pos(540,1513)}You can even\Nupload {\c&H00657811&\b1}an{\c&H002A2B17&\b0} existing
+Dialogue: 0,0:00:14.82,0:00:15.10,Default,,0,0,0,,{\pos(540,1513)}You can even\Nupload an {\c&H00657811&\b1}existing{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:15.10,0:00:15.48,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}corporate{\c&H002A2B17&\b0} data\Ndictionary as grounding
+Dialogue: 0,0:00:15.48,0:00:15.76,Default,,0,0,0,,{\pos(540,1513)}corporate {\c&H00657811&\b1}data{\c&H002A2B17&\b0}\Ndictionary as grounding
+Dialogue: 0,0:00:15.76,0:00:16.12,Default,,0,0,0,,{\pos(540,1513)}corporate data\N{\c&H00657811&\b1}dictionary{\c&H002A2B17&\b0} as grounding
+Dialogue: 0,0:00:16.12,0:00:16.54,Default,,0,0,0,,{\pos(540,1513)}corporate data\Ndictionary {\c&H00657811&\b1}as{\c&H002A2B17&\b0} grounding
+Dialogue: 0,0:00:16.54,0:00:16.89,Default,,0,0,0,,{\pos(540,1513)}corporate data\Ndictionary as {\c&H00657811&\b1}grounding{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:16.89,0:00:17.32,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}context{\c&H002A2B17&\b0} for the agent.
+Dialogue: 0,0:00:17.32,0:00:17.68,Default,,0,0,0,,{\pos(540,1513)}context {\c&H00657811&\b1}for{\c&H002A2B17&\b0} the agent.
+Dialogue: 0,0:00:17.68,0:00:17.76,Default,,0,0,0,,{\pos(540,1513)}context for {\c&H00657811&\b1}the{\c&H002A2B17&\b0} agent.
+Dialogue: 0,0:00:17.76,0:00:18.10,Default,,0,0,0,,{\pos(540,1513)}context for the {\c&H00657811&\b1}agent.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:18.64,0:00:18.89,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}But{\c&H002A2B17&\b0} again, a human has to
+Dialogue: 0,0:00:18.89,0:00:19.50,Default,,0,0,0,,{\pos(540,1513)}But {\c&H00657811&\b1}again,{\c&H002A2B17&\b0} a human has to
+Dialogue: 0,0:00:19.50,0:00:19.60,Default,,0,0,0,,{\pos(540,1513)}But again, {\c&H00657811&\b1}a{\c&H002A2B17&\b0} human has to
+Dialogue: 0,0:00:19.60,0:00:19.80,Default,,0,0,0,,{\pos(540,1513)}But again, a {\c&H00657811&\b1}human{\c&H002A2B17&\b0} has to
+Dialogue: 0,0:00:19.80,0:00:20.02,Default,,0,0,0,,{\pos(540,1513)}But again, a human {\c&H00657811&\b1}has{\c&H002A2B17&\b0} to
+Dialogue: 0,0:00:20.02,0:00:20.16,Default,,0,0,0,,{\pos(540,1513)}But again, a human has {\c&H00657811&\b1}to{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:20.16,0:00:20.32,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}check{\c&H002A2B17&\b0} it. A human\Ndomain expert
+Dialogue: 0,0:00:20.32,0:00:20.84,Default,,0,0,0,,{\pos(540,1513)}check {\c&H00657811&\b1}it.{\c&H002A2B17&\b0} A human\Ndomain expert
+Dialogue: 0,0:00:20.84,0:00:20.92,Default,,0,0,0,,{\pos(540,1513)}check it. {\c&H00657811&\b1}A{\c&H002A2B17&\b0} human\Ndomain expert
+Dialogue: 0,0:00:20.92,0:00:21.20,Default,,0,0,0,,{\pos(540,1513)}check it. A {\c&H00657811&\b1}human{\c&H002A2B17&\b0}\Ndomain expert
+Dialogue: 0,0:00:21.20,0:00:21.48,Default,,0,0,0,,{\pos(540,1513)}check it. A human\N{\c&H00657811&\b1}domain{\c&H002A2B17&\b0} expert
+Dialogue: 0,0:00:21.48,0:00:21.96,Default,,0,0,0,,{\pos(540,1513)}check it. A human\Ndomain {\c&H00657811&\b1}expert{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:21.96,0:00:22.24,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}must{\c&H002A2B17&\b0} meticulously\Nreview those proposals.
+Dialogue: 0,0:00:22.24,0:00:22.86,Default,,0,0,0,,{\pos(540,1513)}must {\c&H00657811&\b1}meticulously{\c&H002A2B17&\b0}\Nreview those proposals.
+Dialogue: 0,0:00:22.86,0:00:23.64,Default,,0,0,0,,{\pos(540,1513)}must meticulously\N{\c&H00657811&\b1}review{\c&H002A2B17&\b0} those proposals.
+Dialogue: 0,0:00:23.64,0:00:23.86,Default,,0,0,0,,{\pos(540,1513)}must meticulously\Nreview {\c&H00657811&\b1}those{\c&H002A2B17&\b0} proposals.
+Dialogue: 0,0:00:23.86,0:00:24.32,Default,,0,0,0,,{\pos(540,1513)}must meticulously\Nreview those {\c&H00657811&\b1}proposals.{\c&H002A2B17&\b0}

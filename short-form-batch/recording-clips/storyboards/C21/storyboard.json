@@ -44,5 +44,33 @@
   "source_start": 1283.790975,
   "source_end": 1311.5509749999999,
   "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion.",
+  "caption_status": "Word-timed ASR draft; human proofreading pending",
+  "line_shot_edit": [
+    {
+      "LINE": "The ontology operates entirely by reference. The metric you see in the ontology simply",
+      "SHOT": "Fixed fictional portrait rail + Power BI semantic model",
+      "EDIT": "Reveal independent card at 0.7s; 420ms fade, 16px eased settling"
+    },
+    {
+      "LINE": "The ontology operates entirely by reference. The metric you see in the ontology",
+      "SHOT": "Fixed fictional portrait rail + Ontology metric",
+      "EDIT": "Reveal independent card at 0.25s; 420ms fade, 16px eased settling"
+    }
+  ],
+  "viewer_understanding_before": "Power BI semantic model",
+  "viewer_understanding_after": "references source DAX",
+  "graphic_choice_reason": "The source model owns the DAX: Separate the source of meaning or data from its consumer.",
+  "credible_alternative": "An unlabeled one-way data pipeline",
+  "why_alternative_rejected": "That can imply copying or calculation ownership. Label the source and consumer and state what the reference or mapping actually does.",
+  "cannot_establish": "This illustrative diagram cannot prove an actual product interaction, executed query, security guarantee or measured improvement.",
+  "reference_images_used_for_generation": [
+    "reference-library/frames/graphic/0003510.jpg",
+    "motion-pilot-fabric/fabric-theme/master.png",
+    "short-form-batch/recording-clips/assets/host.png",
+    "short-form-batch/recording-clips/assets/guest.png"
+  ],
+  "source_library_semantic_match": "Original reference supplies visual grammar; exact subject relationships are adapted from this recording. No claim of an exact reference-video semantic or motion match.",
+  "original_reference_url": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "review_status": "Draft; representative visual samples and artifact bounds checked, human editorial approval pending."
 }

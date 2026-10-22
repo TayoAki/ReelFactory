@@ -1,0 +1,139 @@
+1
+00:00:00,079 --> 00:00:02,079
+Data freshness depends entirely on
+
+2
+00:00:02,079 --> 00:00:02,959
+the execution path.
+
+3
+00:00:03,399 --> 00:00:04,639
+Because the AI doesn't know it's
+
+4
+00:00:04,639 --> 00:00:06,599
+comparing apples to last week's oranges.
+
+5
+00:00:06,899 --> 00:00:09,359
+Exactly. If the agent executes a
+
+6
+00:00:09,359 --> 00:00:11,919
+direct query against a streaming KQL
+
+7
+00:00:11,919 --> 00:00:14,159
+Eventhouse, that temperature data might
+
+8
+00:00:14,159 --> 00:00:15,879
+literally be millisecond's old.
+
+9
+00:00:15,899 --> 00:00:17,779
+Super fresh. But if it's simultaneously
+
+10
+00:00:17,779 --> 00:00:20,579
+querying an imported Power BI model
+
+11
+00:00:20,579 --> 00:00:22,499
+for the sales figures, those sales
+
+12
+00:00:22,499 --> 00:00:23,879
+figures are only as fresh as
+
+13
+00:00:23,879 --> 00:00:25,619
+the last time that specific Power
+
+14
+00:00:25,619 --> 00:00:27,739
+BI model was scheduled to refresh.
+
+15
+00:00:28,059 --> 00:00:28,999
+So if a job fails.
+
+16
+00:00:29,179 --> 00:00:31,039
+If your scheduled refresh failed overnight,
+
+17
+00:00:31,259 --> 00:00:32,779
+your data is 24 hours out
+
+18
+00:00:32,779 --> 00:00:34,519
+of date. So a non -technical
+
+19
+00:00:34,519 --> 00:00:36,259
+executive might look at the chat
+
+20
+00:00:36,259 --> 00:00:38,199
+window, see an answer that looks
+
+21
+00:00:38,199 --> 00:00:40,379
+completely uniform, highly confident,
+
+22
+00:00:40,579 --> 00:00:42,319
+and beautifully formatted and have
+
+23
+00:00:42,319 --> 00:00:44,239
+absolutely no idea that half the
+
+24
+00:00:44,239 --> 00:00:45,899
+data informing that sentence is real
+
+25
+00:00:45,899 --> 00:00:47,359
+time and half is a week
+
+26
+00:00:47,359 --> 00:00:48,279
+old. That's scary.
+
+27
+00:00:48,559 --> 00:00:49,839
+They might make a massive operational
+
+28
+00:00:49,839 --> 00:00:52,219
+decision based on a temporal misalignment.
+
+29
+00:00:52,459 --> 00:00:53,919
+This is why you cannot blindly
+
+30
+00:00:53,919 --> 00:00:55,819
+trust the conversational output in
+
+31
+00:00:55,819 --> 00:00:56,619
+the chat interface.
+
+32
+00:00:57,239 --> 00:00:59,099
+You or your engineering team must
+
+33
+00:00:59,099 --> 00:01:00,779
+rigorously check the source ingestion
+
+34
+00:01:00,779 --> 00:01:02,779
+timestamps and verify the reporting
+
+35
+00:01:02,779 --> 00:01:03,200
+periods.

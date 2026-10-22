@@ -1,0 +1,59 @@
+1
+00:00:00,160 --> 00:00:02,560
+The ontology operates entirely by reference.
+
+2
+00:00:03,240 --> 00:00:04,180
+The metric you see in the
+
+3
+00:00:04,180 --> 00:00:05,740
+ontology simply acts as a pointer
+
+4
+00:00:05,740 --> 00:00:07,540
+back to that original source model.
+
+5
+00:00:07,840 --> 00:00:09,920
+If the CFO changes the definition
+
+6
+00:00:09,920 --> 00:00:12,140
+of profit, your data engineers edit
+
+7
+00:00:12,140 --> 00:00:13,500
+the DAX expression in the Power
+
+8
+00:00:13,500 --> 00:00:15,000
+BI semantic model, just as they
+
+9
+00:00:15,000 --> 00:00:16,940
+always have. The ontology's role is
+
+10
+00:00:16,940 --> 00:00:18,720
+simply to provide a natural language
+
+11
+00:00:18,720 --> 00:00:20,660
+description and contextual metadata
+
+12
+00:00:20,660 --> 00:00:23,060
+so the AI agents understand what
+
+13
+00:00:23,060 --> 00:00:24,420
+that metric represents and when to
+
+14
+00:00:24,420 --> 00:00:26,640
+use it without ever altering or
+
+15
+00:00:26,640 --> 00:00:27,759
+copying the source math.

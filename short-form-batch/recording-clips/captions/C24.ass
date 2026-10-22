@@ -1,0 +1,95 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.08,0:00:00.58,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Because{\c&H002A2B17&\b0} if the\NAI assumes the
+Dialogue: 0,0:00:00.58,0:00:00.77,Default,,0,0,0,,{\pos(540,1513)}Because {\c&H00657811&\b1}if{\c&H002A2B17&\b0} the\NAI assumes the
+Dialogue: 0,0:00:00.77,0:00:00.94,Default,,0,0,0,,{\pos(540,1513)}Because if {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\NAI assumes the
+Dialogue: 0,0:00:00.94,0:00:01.16,Default,,0,0,0,,{\pos(540,1513)}Because if the\N{\c&H00657811&\b1}AI{\c&H002A2B17&\b0} assumes the
+Dialogue: 0,0:00:01.16,0:00:01.62,Default,,0,0,0,,{\pos(540,1513)}Because if the\NAI {\c&H00657811&\b1}assumes{\c&H002A2B17&\b0} the
+Dialogue: 0,0:00:01.62,0:00:01.86,Default,,0,0,0,,{\pos(540,1513)}Because if the\NAI assumes {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:01.86,0:00:02.16,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}temperature{\c&H002A2B17&\b0} is\NFahrenheit, but the
+Dialogue: 0,0:00:02.16,0:00:02.42,Default,,0,0,0,,{\pos(540,1513)}temperature {\c&H00657811&\b1}is{\c&H002A2B17&\b0}\NFahrenheit, but the
+Dialogue: 0,0:00:02.42,0:00:03.16,Default,,0,0,0,,{\pos(540,1513)}temperature is\N{\c&H00657811&\b1}Fahrenheit,{\c&H002A2B17&\b0} but the
+Dialogue: 0,0:00:03.16,0:00:03.22,Default,,0,0,0,,{\pos(540,1513)}temperature is\NFahrenheit, {\c&H00657811&\b1}but{\c&H002A2B17&\b0} the
+Dialogue: 0,0:00:03.22,0:00:03.32,Default,,0,0,0,,{\pos(540,1513)}temperature is\NFahrenheit, but {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:03.32,0:00:03.50,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}freezer{\c&H002A2B17&\b0} is actually\Nreporting in Celsius.
+Dialogue: 0,0:00:03.50,0:00:03.80,Default,,0,0,0,,{\pos(540,1513)}freezer {\c&H00657811&\b1}is{\c&H002A2B17&\b0} actually\Nreporting in Celsius.
+Dialogue: 0,0:00:03.80,0:00:04.09,Default,,0,0,0,,{\pos(540,1513)}freezer is {\c&H00657811&\b1}actually{\c&H002A2B17&\b0}\Nreporting in Celsius.
+Dialogue: 0,0:00:04.09,0:00:04.40,Default,,0,0,0,,{\pos(540,1513)}freezer is actually\N{\c&H00657811&\b1}reporting{\c&H002A2B17&\b0} in Celsius.
+Dialogue: 0,0:00:04.40,0:00:04.62,Default,,0,0,0,,{\pos(540,1513)}freezer is actually\Nreporting {\c&H00657811&\b1}in{\c&H002A2B17&\b0} Celsius.
+Dialogue: 0,0:00:04.62,0:00:05.06,Default,,0,0,0,,{\pos(540,1513)}freezer is actually\Nreporting in {\c&H00657811&\b1}Celsius.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:05.36,0:00:05.56,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Well,{\c&H002A2B17&\b0} a freezer\Nreporting a steady
+Dialogue: 0,0:00:05.56,0:00:05.66,Default,,0,0,0,,{\pos(540,1513)}Well, {\c&H00657811&\b1}a{\c&H002A2B17&\b0} freezer\Nreporting a steady
+Dialogue: 0,0:00:05.66,0:00:05.84,Default,,0,0,0,,{\pos(540,1513)}Well, a {\c&H00657811&\b1}freezer{\c&H002A2B17&\b0}\Nreporting a steady
+Dialogue: 0,0:00:05.84,0:00:06.44,Default,,0,0,0,,{\pos(540,1513)}Well, a freezer\N{\c&H00657811&\b1}reporting{\c&H002A2B17&\b0} a steady
+Dialogue: 0,0:00:06.44,0:00:06.68,Default,,0,0,0,,{\pos(540,1513)}Well, a freezer\Nreporting {\c&H00657811&\b1}a{\c&H002A2B17&\b0} steady
+Dialogue: 0,0:00:06.68,0:00:06.90,Default,,0,0,0,,{\pos(540,1513)}Well, a freezer\Nreporting a {\c&H00657811&\b1}steady{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:06.90,0:00:07.44,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}10{\c&H002A2B17&\b0} degrees Celsius\Nis 50 degrees
+Dialogue: 0,0:00:07.44,0:00:07.61,Default,,0,0,0,,{\pos(540,1513)}10 {\c&H00657811&\b1}degrees{\c&H002A2B17&\b0} Celsius\Nis 50 degrees
+Dialogue: 0,0:00:07.61,0:00:08.06,Default,,0,0,0,,{\pos(540,1513)}10 degrees {\c&H00657811&\b1}Celsius{\c&H002A2B17&\b0}\Nis 50 degrees
+Dialogue: 0,0:00:08.06,0:00:08.42,Default,,0,0,0,,{\pos(540,1513)}10 degrees Celsius\N{\c&H00657811&\b1}is{\c&H002A2B17&\b0} 50 degrees
+Dialogue: 0,0:00:08.42,0:00:08.90,Default,,0,0,0,,{\pos(540,1513)}10 degrees Celsius\Nis {\c&H00657811&\b1}50{\c&H002A2B17&\b0} degrees
+Dialogue: 0,0:00:08.90,0:00:09.26,Default,,0,0,0,,{\pos(540,1513)}10 degrees Celsius\Nis 50 {\c&H00657811&\b1}degrees{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:09.26,0:00:10.11,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Fahrenheit.{\c&H002A2B17&\b0} Oh boy.
+Dialogue: 0,0:00:10.11,0:00:10.24,Default,,0,0,0,,{\pos(540,1513)}Fahrenheit. {\c&H00657811&\b1}Oh{\c&H002A2B17&\b0} boy.
+Dialogue: 0,0:00:10.24,0:00:10.55,Default,,0,0,0,,{\pos(540,1513)}Fahrenheit. Oh {\c&H00657811&\b1}boy.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:10.58,0:00:10.80,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Your{\c&H002A2B17&\b0} entire inventory\Nof frozen goods
+Dialogue: 0,0:00:10.80,0:00:11.16,Default,,0,0,0,,{\pos(540,1513)}Your {\c&H00657811&\b1}entire{\c&H002A2B17&\b0} inventory\Nof frozen goods
+Dialogue: 0,0:00:11.16,0:00:11.58,Default,,0,0,0,,{\pos(540,1513)}Your entire {\c&H00657811&\b1}inventory{\c&H002A2B17&\b0}\Nof frozen goods
+Dialogue: 0,0:00:11.58,0:00:11.92,Default,,0,0,0,,{\pos(540,1513)}Your entire inventory\N{\c&H00657811&\b1}of{\c&H002A2B17&\b0} frozen goods
+Dialogue: 0,0:00:11.92,0:00:12.14,Default,,0,0,0,,{\pos(540,1513)}Your entire inventory\Nof {\c&H00657811&\b1}frozen{\c&H002A2B17&\b0} goods
+Dialogue: 0,0:00:12.14,0:00:12.36,Default,,0,0,0,,{\pos(540,1513)}Your entire inventory\Nof frozen {\c&H00657811&\b1}goods{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:12.36,0:00:12.56,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}is{\c&H002A2B17&\b0} currently liquid.
+Dialogue: 0,0:00:12.56,0:00:12.80,Default,,0,0,0,,{\pos(540,1513)}is {\c&H00657811&\b1}currently{\c&H002A2B17&\b0} liquid.
+Dialogue: 0,0:00:12.80,0:00:13.34,Default,,0,0,0,,{\pos(540,1513)}is currently {\c&H00657811&\b1}liquid.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:13.74,0:00:13.88,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}But{\c&H002A2B17&\b0} the AI, if left to
+Dialogue: 0,0:00:13.88,0:00:13.98,Default,,0,0,0,,{\pos(540,1513)}But {\c&H00657811&\b1}the{\c&H002A2B17&\b0} AI, if left to
+Dialogue: 0,0:00:13.98,0:00:14.26,Default,,0,0,0,,{\pos(540,1513)}But the {\c&H00657811&\b1}AI,{\c&H002A2B17&\b0} if left to
+Dialogue: 0,0:00:14.26,0:00:14.73,Default,,0,0,0,,{\pos(540,1513)}But the AI, {\c&H00657811&\b1}if{\c&H002A2B17&\b0} left to
+Dialogue: 0,0:00:14.73,0:00:14.96,Default,,0,0,0,,{\pos(540,1513)}But the AI, if {\c&H00657811&\b1}left{\c&H002A2B17&\b0} to
+Dialogue: 0,0:00:14.96,0:00:15.18,Default,,0,0,0,,{\pos(540,1513)}But the AI, if left {\c&H00657811&\b1}to{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:15.18,0:00:15.44,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}assume{\c&H002A2B17&\b0} Fahrenheit\Nby default, might
+Dialogue: 0,0:00:15.44,0:00:15.80,Default,,0,0,0,,{\pos(540,1513)}assume {\c&H00657811&\b1}Fahrenheit{\c&H002A2B17&\b0}\Nby default, might
+Dialogue: 0,0:00:15.80,0:00:16.20,Default,,0,0,0,,{\pos(540,1513)}assume Fahrenheit\N{\c&H00657811&\b1}by{\c&H002A2B17&\b0} default, might
+Dialogue: 0,0:00:16.20,0:00:16.70,Default,,0,0,0,,{\pos(540,1513)}assume Fahrenheit\Nby {\c&H00657811&\b1}default,{\c&H002A2B17&\b0} might
+Dialogue: 0,0:00:16.70,0:00:16.86,Default,,0,0,0,,{\pos(540,1513)}assume Fahrenheit\Nby default, {\c&H00657811&\b1}might{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:16.86,0:00:17.12,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}look{\c&H002A2B17&\b0} at the number 10, think,
+Dialogue: 0,0:00:17.12,0:00:17.23,Default,,0,0,0,,{\pos(540,1513)}look {\c&H00657811&\b1}at{\c&H002A2B17&\b0} the number 10, think,
+Dialogue: 0,0:00:17.23,0:00:17.32,Default,,0,0,0,,{\pos(540,1513)}look at {\c&H00657811&\b1}the{\c&H002A2B17&\b0} number 10, think,
+Dialogue: 0,0:00:17.32,0:00:17.55,Default,,0,0,0,,{\pos(540,1513)}look at the {\c&H00657811&\b1}number{\c&H002A2B17&\b0} 10, think,
+Dialogue: 0,0:00:17.55,0:00:17.92,Default,,0,0,0,,{\pos(540,1513)}look at the number {\c&H00657811&\b1}10,{\c&H002A2B17&\b0} think,
+Dialogue: 0,0:00:17.92,0:00:18.58,Default,,0,0,0,,{\pos(540,1513)}look at the number 10, {\c&H00657811&\b1}think,{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:18.72,0:00:19.10,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}oh,{\c&H002A2B17&\b0} that is well\Nbelow freezing
+Dialogue: 0,0:00:19.10,0:00:19.28,Default,,0,0,0,,{\pos(540,1513)}oh, {\c&H00657811&\b1}that{\c&H002A2B17&\b0} is well\Nbelow freezing
+Dialogue: 0,0:00:19.28,0:00:19.44,Default,,0,0,0,,{\pos(540,1513)}oh, that {\c&H00657811&\b1}is{\c&H002A2B17&\b0} well\Nbelow freezing
+Dialogue: 0,0:00:19.44,0:00:19.86,Default,,0,0,0,,{\pos(540,1513)}oh, that is {\c&H00657811&\b1}well{\c&H002A2B17&\b0}\Nbelow freezing
+Dialogue: 0,0:00:19.86,0:00:20.20,Default,,0,0,0,,{\pos(540,1513)}oh, that is well\N{\c&H00657811&\b1}below{\c&H002A2B17&\b0} freezing
+Dialogue: 0,0:00:20.20,0:00:20.48,Default,,0,0,0,,{\pos(540,1513)}oh, that is well\Nbelow {\c&H00657811&\b1}freezing{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:20.48,0:00:21.16,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}and{\c&H002A2B17&\b0} report back\Nthat everything is
+Dialogue: 0,0:00:21.16,0:00:21.40,Default,,0,0,0,,{\pos(540,1513)}and {\c&H00657811&\b1}report{\c&H002A2B17&\b0} back\Nthat everything is
+Dialogue: 0,0:00:21.40,0:00:21.66,Default,,0,0,0,,{\pos(540,1513)}and report {\c&H00657811&\b1}back{\c&H002A2B17&\b0}\Nthat everything is
+Dialogue: 0,0:00:21.66,0:00:21.88,Default,,0,0,0,,{\pos(540,1513)}and report back\N{\c&H00657811&\b1}that{\c&H002A2B17&\b0} everything is
+Dialogue: 0,0:00:21.88,0:00:22.08,Default,,0,0,0,,{\pos(540,1513)}and report back\Nthat {\c&H00657811&\b1}everything{\c&H002A2B17&\b0} is
+Dialogue: 0,0:00:22.08,0:00:22.32,Default,,0,0,0,,{\pos(540,1513)}and report back\Nthat everything {\c&H00657811&\b1}is{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:22.32,0:00:22.52,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}perfectly{\c&H002A2B17&\b0} fine. Wow.
+Dialogue: 0,0:00:22.52,0:00:23.50,Default,,0,0,0,,{\pos(540,1513)}perfectly {\c&H00657811&\b1}fine.{\c&H002A2B17&\b0} Wow.
+Dialogue: 0,0:00:23.50,0:00:23.66,Default,,0,0,0,,{\pos(540,1513)}perfectly fine. {\c&H00657811&\b1}Wow.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:23.96,0:00:24.14,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}That{\c&H002A2B17&\b0} single missing\Npiece of metadata,
+Dialogue: 0,0:00:24.14,0:00:24.36,Default,,0,0,0,,{\pos(540,1513)}That {\c&H00657811&\b1}single{\c&H002A2B17&\b0} missing\Npiece of metadata,
+Dialogue: 0,0:00:24.36,0:00:24.68,Default,,0,0,0,,{\pos(540,1513)}That single {\c&H00657811&\b1}missing{\c&H002A2B17&\b0}\Npiece of metadata,
+Dialogue: 0,0:00:24.68,0:00:25.02,Default,,0,0,0,,{\pos(540,1513)}That single missing\N{\c&H00657811&\b1}piece{\c&H002A2B17&\b0} of metadata,
+Dialogue: 0,0:00:25.02,0:00:25.18,Default,,0,0,0,,{\pos(540,1513)}That single missing\Npiece {\c&H00657811&\b1}of{\c&H002A2B17&\b0} metadata,
+Dialogue: 0,0:00:25.18,0:00:25.48,Default,,0,0,0,,{\pos(540,1513)}That single missing\Npiece of {\c&H00657811&\b1}metadata,{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:25.48,0:00:25.90,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}one{\c&H002A2B17&\b0} word, entirely\Ninvalidates the
+Dialogue: 0,0:00:25.90,0:00:26.24,Default,,0,0,0,,{\pos(540,1513)}one {\c&H00657811&\b1}word,{\c&H002A2B17&\b0} entirely\Ninvalidates the
+Dialogue: 0,0:00:26.24,0:00:26.80,Default,,0,0,0,,{\pos(540,1513)}one word, {\c&H00657811&\b1}entirely{\c&H002A2B17&\b0}\Ninvalidates the
+Dialogue: 0,0:00:26.80,0:00:27.66,Default,,0,0,0,,{\pos(540,1513)}one word, entirely\N{\c&H00657811&\b1}invalidates{\c&H002A2B17&\b0} the
+Dialogue: 0,0:00:27.66,0:00:27.78,Default,,0,0,0,,{\pos(540,1513)}one word, entirely\Ninvalidates {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:27.78,0:00:28.11,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}analysis.{\c&H002A2B17&\b0}

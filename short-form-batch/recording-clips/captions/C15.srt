@@ -1,0 +1,75 @@
+1
+00:00:00,080 --> 00:00:01,839
+Break down how that inheritance actually
+
+2
+00:00:01,839 --> 00:00:03,260
+looks in practice for us.
+
+3
+00:00:03,420 --> 00:00:05,840
+Sure. In the Lakeshore Retail example
+
+4
+00:00:05,840 --> 00:00:07,640
+provided in the source, they start
+
+5
+00:00:07,640 --> 00:00:09,620
+with a very broad base type
+
+6
+00:00:09,620 --> 00:00:12,040
+called location. A location simply
+
+7
+00:00:12,040 --> 00:00:14,160
+has properties like an address, geographic
+
+8
+00:00:14,160 --> 00:00:15,979
+coordinates, and a manager name.
+
+9
+00:00:16,760 --> 00:00:18,140
+You can then create a store
+
+10
+00:00:18,140 --> 00:00:20,500
+entity that derives from location.
+
+11
+00:00:21,080 --> 00:00:22,800
+So it inherits all that base
+
+12
+00:00:22,800 --> 00:00:25,420
+stuff. The store automatically inherits
+
+13
+00:00:25,420 --> 00:00:27,439
+the address and coordinates, but then
+
+14
+00:00:27,439 --> 00:00:29,300
+you add store specific properties,
+
+15
+00:00:29,520 --> 00:00:30,860
+like retail square footage.
+
+16
+00:00:31,259 --> 00:00:32,680
+Similarly, you could have a base
+
+17
+00:00:32,680 --> 00:00:35,019
+entity called product and derive a
+
+18
+00:00:35,019 --> 00:00:37,040
+highly specific entity called frozen
+
+19
+00:00:37,040 --> 00:00:37,659
+product.

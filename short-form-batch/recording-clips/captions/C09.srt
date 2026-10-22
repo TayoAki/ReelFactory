@@ -1,0 +1,79 @@
+1
+00:00:00,000 --> 00:00:01,920
+Well, shortcuts are a response to
+
+2
+00:00:01,920 --> 00:00:03,160
+the nightmare of data duplication,
+
+3
+00:00:03,740 --> 00:00:04,920
+which is a huge problem.
+
+4
+00:00:04,960 --> 00:00:07,779
+Massive. In legacy architectures, if
+
+5
+00:00:07,779 --> 00:00:09,800
+the machine learning team needed the
+
+6
+00:00:09,800 --> 00:00:11,480
+sales data for a forecasting model
+
+7
+00:00:11,480 --> 00:00:13,280
+and the finance team needed it
+
+8
+00:00:13,280 --> 00:00:15,200
+for a quarterly report, the data
+
+9
+00:00:15,200 --> 00:00:17,220
+engineers would literally copy the
+
+10
+00:00:17,220 --> 00:00:18,880
+data into two different databases.
+
+11
+00:00:19,640 --> 00:00:20,420
+And then they get out of
+
+12
+00:00:20,420 --> 00:00:21,880
+sync. Within months.
+
+13
+00:00:22,220 --> 00:00:23,900
+One database updates differently than
+
+14
+00:00:23,900 --> 00:00:25,620
+the other, and you completely lose
+
+15
+00:00:25,620 --> 00:00:26,700
+your single source of truth.
+
+16
+00:00:27,340 --> 00:00:29,040
+Supported shortcuts in OneLake allow
+
+17
+00:00:29,040 --> 00:00:30,939
+different workspaces to reference data
+
+18
+00:00:30,939 --> 00:00:32,779
+that physically live somewhere else,
+
+19
+00:00:33,019 --> 00:00:34,900
+even in external cloud providers like
+
+20
+00:00:34,900 --> 00:00:36,359
+AWS or Google Cloud.

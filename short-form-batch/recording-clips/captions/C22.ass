@@ -1,0 +1,44 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.33,0:00:00.37,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}To{\c&H002A2B17&\b0} generate an\Nontology from a
+Dialogue: 0,0:00:00.37,0:00:00.77,Default,,0,0,0,,{\pos(540,1513)}To {\c&H00657811&\b1}generate{\c&H002A2B17&\b0} an\Nontology from a
+Dialogue: 0,0:00:00.77,0:00:00.98,Default,,0,0,0,,{\pos(540,1513)}To generate {\c&H00657811&\b1}an{\c&H002A2B17&\b0}\Nontology from a
+Dialogue: 0,0:00:00.98,0:00:01.42,Default,,0,0,0,,{\pos(540,1513)}To generate an\N{\c&H00657811&\b1}ontology{\c&H002A2B17&\b0} from a
+Dialogue: 0,0:00:01.42,0:00:01.74,Default,,0,0,0,,{\pos(540,1513)}To generate an\Nontology {\c&H00657811&\b1}from{\c&H002A2B17&\b0} a
+Dialogue: 0,0:00:01.74,0:00:01.81,Default,,0,0,0,,{\pos(540,1513)}To generate an\Nontology from {\c&H00657811&\b1}a{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:01.81,0:00:02.09,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}semantic{\c&H002A2B17&\b0} model,\Nor to even ask
+Dialogue: 0,0:00:02.09,0:00:02.92,Default,,0,0,0,,{\pos(540,1513)}semantic {\c&H00657811&\b1}model,{\c&H002A2B17&\b0}\Nor to even ask
+Dialogue: 0,0:00:02.92,0:00:03.04,Default,,0,0,0,,{\pos(540,1513)}semantic model,\N{\c&H00657811&\b1}or{\c&H002A2B17&\b0} to even ask
+Dialogue: 0,0:00:03.04,0:00:03.44,Default,,0,0,0,,{\pos(540,1513)}semantic model,\Nor {\c&H00657811&\b1}to{\c&H002A2B17&\b0} even ask
+Dialogue: 0,0:00:03.44,0:00:03.62,Default,,0,0,0,,{\pos(540,1513)}semantic model,\Nor to {\c&H00657811&\b1}even{\c&H002A2B17&\b0} ask
+Dialogue: 0,0:00:03.62,0:00:04.01,Default,,0,0,0,,{\pos(540,1513)}semantic model,\Nor to even {\c&H00657811&\b1}ask{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:04.01,0:00:04.20,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}an{\c&H002A2B17&\b0} AI agent a question that
+Dialogue: 0,0:00:04.20,0:00:04.38,Default,,0,0,0,,{\pos(540,1513)}an {\c&H00657811&\b1}AI{\c&H002A2B17&\b0} agent a question that
+Dialogue: 0,0:00:04.38,0:00:04.80,Default,,0,0,0,,{\pos(540,1513)}an AI {\c&H00657811&\b1}agent{\c&H002A2B17&\b0} a question that
+Dialogue: 0,0:00:04.80,0:00:04.92,Default,,0,0,0,,{\pos(540,1513)}an AI agent {\c&H00657811&\b1}a{\c&H002A2B17&\b0} question that
+Dialogue: 0,0:00:04.92,0:00:05.22,Default,,0,0,0,,{\pos(540,1513)}an AI agent a {\c&H00657811&\b1}question{\c&H002A2B17&\b0} that
+Dialogue: 0,0:00:05.22,0:00:05.44,Default,,0,0,0,,{\pos(540,1513)}an AI agent a question {\c&H00657811&\b1}that{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:05.44,0:00:05.82,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}utilizes{\c&H002A2B17&\b0} that metric,\Nthe user needs
+Dialogue: 0,0:00:05.82,0:00:06.14,Default,,0,0,0,,{\pos(540,1513)}utilizes {\c&H00657811&\b1}that{\c&H002A2B17&\b0} metric,\Nthe user needs
+Dialogue: 0,0:00:06.14,0:00:06.98,Default,,0,0,0,,{\pos(540,1513)}utilizes that {\c&H00657811&\b1}metric,{\c&H002A2B17&\b0}\Nthe user needs
+Dialogue: 0,0:00:06.98,0:00:07.08,Default,,0,0,0,,{\pos(540,1513)}utilizes that metric,\N{\c&H00657811&\b1}the{\c&H002A2B17&\b0} user needs
+Dialogue: 0,0:00:07.08,0:00:07.34,Default,,0,0,0,,{\pos(540,1513)}utilizes that metric,\Nthe {\c&H00657811&\b1}user{\c&H002A2B17&\b0} needs
+Dialogue: 0,0:00:07.34,0:00:07.69,Default,,0,0,0,,{\pos(540,1513)}utilizes that metric,\Nthe user {\c&H00657811&\b1}needs{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:07.69,0:00:07.94,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}read{\c&H002A2B17&\b0} and build\Npermissions on the
+Dialogue: 0,0:00:07.94,0:00:08.26,Default,,0,0,0,,{\pos(540,1513)}read {\c&H00657811&\b1}and{\c&H002A2B17&\b0} build\Npermissions on the
+Dialogue: 0,0:00:08.26,0:00:08.61,Default,,0,0,0,,{\pos(540,1513)}read and {\c&H00657811&\b1}build{\c&H002A2B17&\b0}\Npermissions on the
+Dialogue: 0,0:00:08.61,0:00:08.98,Default,,0,0,0,,{\pos(540,1513)}read and build\N{\c&H00657811&\b1}permissions{\c&H002A2B17&\b0} on the
+Dialogue: 0,0:00:08.98,0:00:09.44,Default,,0,0,0,,{\pos(540,1513)}read and build\Npermissions {\c&H00657811&\b1}on{\c&H002A2B17&\b0} the
+Dialogue: 0,0:00:09.44,0:00:09.53,Default,,0,0,0,,{\pos(540,1513)}read and build\Npermissions on {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:09.53,0:00:09.86,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}underlying{\c&H002A2B17&\b0} Power BI model.
+Dialogue: 0,0:00:09.86,0:00:10.28,Default,,0,0,0,,{\pos(540,1513)}underlying {\c&H00657811&\b1}Power{\c&H002A2B17&\b0} BI model.
+Dialogue: 0,0:00:10.28,0:00:10.56,Default,,0,0,0,,{\pos(540,1513)}underlying Power {\c&H00657811&\b1}BI{\c&H002A2B17&\b0} model.
+Dialogue: 0,0:00:10.56,0:00:11.04,Default,,0,0,0,,{\pos(540,1513)}underlying Power BI {\c&H00657811&\b1}model.{\c&H002A2B17&\b0}

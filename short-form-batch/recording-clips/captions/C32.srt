@@ -1,0 +1,167 @@
+1
+00:00:00,259 --> 00:00:01,839
+The engineer opens the ontology agent
+
+2
+00:00:01,839 --> 00:00:03,519
+and ensures they are in plan
+
+3
+00:00:03,519 --> 00:00:05,460
+mode. Like a draft mode.
+
+4
+00:00:05,720 --> 00:00:06,920
+They prompt the agent with specific
+
+5
+00:00:06,920 --> 00:00:09,960
+instructions. Add a sale entity using
+
+6
+00:00:09,960 --> 00:00:11,800
+the sales table in the sales
+
+7
+00:00:11,800 --> 00:00:14,180
+report semantic model located in this
+
+8
+00:00:14,180 --> 00:00:16,640
+specific workspace. Okay, very specific.
+
+9
+00:00:17,100 --> 00:00:18,260
+They then ask the agent to
+
+10
+00:00:18,260 --> 00:00:20,300
+preview the proposed definition, show
+
+11
+00:00:20,300 --> 00:00:21,620
+exactly how it mapped the data
+
+12
+00:00:21,620 --> 00:00:23,640
+bindings and explain the source evidence
+
+13
+00:00:23,640 --> 00:00:25,200
+it used to make those decisions,
+
+14
+00:00:25,580 --> 00:00:26,900
+all while keeping the rest of
+
+15
+00:00:26,900 --> 00:00:28,760
+the live ontology completely untouched.
+
+16
+00:00:29,340 --> 00:00:30,840
+So Plan Mode operates as a
+
+17
+00:00:30,840 --> 00:00:32,639
+secure sandbox. Exactly.
+
+18
+00:00:33,160 --> 00:00:35,060
+It is a critical enterprise safety
+
+19
+00:00:35,060 --> 00:00:37,040
+feature. Plan Mode allows you to
+
+20
+00:00:37,040 --> 00:00:39,620
+discover, draft, validate, query, and
+
+21
+00:00:39,620 --> 00:00:41,440
+inspect massive structural changes
+
+22
+00:00:41,440 --> 00:00:43,460
+without actually altering the live
+
+23
+00:00:43,460 --> 00:00:45,519
+production ontology that the rest of
+
+24
+00:00:45,519 --> 00:00:46,680
+the company is currently using.
+
+25
+00:00:46,840 --> 00:00:47,820
+You can test it out first.
+
+26
+00:00:47,920 --> 00:00:49,000
+You can see the draft entity
+
+27
+00:00:49,000 --> 00:00:51,040
+appear on the visual canvas, check
+
+28
+00:00:51,040 --> 00:00:52,360
+how it mapped the primary and
+
+29
+00:00:52,360 --> 00:00:54,180
+foreign keys, and run validation checks.
+
+30
+00:00:54,760 --> 00:00:56,040
+If you realize the AI agent
+
+31
+00:00:56,040 --> 00:00:57,160
+picked the wrong column for the
+
+32
+00:00:57,160 --> 00:00:58,920
+primary key or completely missed a
+
+33
+00:00:58,920 --> 00:01:00,540
+crucial relationship, you can ask for
+
+34
+00:01:00,540 --> 00:01:01,940
+revisions right there in the sandbox,
+
+35
+00:01:02,240 --> 00:01:03,660
+or manually adjust it yourself.
+
+36
+00:01:04,140 --> 00:01:06,160
+And when you are finally satisfied
+
+37
+00:01:06,160 --> 00:01:07,600
+that the logic holds up.
+
+38
+00:01:07,840 --> 00:01:09,380
+Then and only then do you
+
+39
+00:01:09,380 --> 00:01:11,039
+deliberately switch the interface to
+
+40
+00:01:11,039 --> 00:01:12,820
+ACT mode to apply the reviewed
+
+41
+00:01:12,820 --> 00:01:14,560
+proposal, merging it into the live
+
+42
+00:01:14,560 --> 00:01:15,080
+model.

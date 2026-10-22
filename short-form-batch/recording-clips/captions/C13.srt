@@ -1,0 +1,51 @@
+1
+00:00:00,100 --> 00:00:01,799
+Data bindings are perhaps the most
+
+2
+00:00:01,799 --> 00:00:03,679
+critical mechanical component.
+
+3
+00:00:04,000 --> 00:00:05,580
+This is the wiring that connects
+
+4
+00:00:05,580 --> 00:00:07,359
+these abstract high -level concepts
+
+5
+00:00:07,359 --> 00:00:09,220
+back to the physical source fields
+
+6
+00:00:09,220 --> 00:00:10,399
+in your actual databases.
+
+7
+00:00:11,140 --> 00:00:12,200
+Okay, so it points to the
+
+8
+00:00:12,200 --> 00:00:14,000
+database. It's the mapping that tells
+
+9
+00:00:14,000 --> 00:00:15,559
+the ontology, hey, when the user
+
+10
+00:00:15,559 --> 00:00:17,680
+asks about a region, do not
+
+11
+00:00:17,680 --> 00:00:19,640
+hallucinate an answer, go look specifically
+
+12
+00:00:19,640 --> 00:00:21,400
+at column F in this exact
+
+13
+00:00:21,400 --> 00:00:22,520
+Lakehouse table.

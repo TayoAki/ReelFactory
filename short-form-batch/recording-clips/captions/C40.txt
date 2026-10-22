@@ -1,0 +1,5 @@
+Forecasting needs a separate modeling workflow
+Original recording 42:34–43:20
+ASR draft; technical-name spelling normalized.
+
+How do we predict tomorrow's inventory risk? Does the ontology agent just guess? The source material draws a very sharp, deliberate line here regarding predictive analytics. Forecasting is treated as a separate, highly rigorous analytical discipline. It's not just a chat function. You don't just ask the generative AI chat to guess what sales will look like next week based on vibes or its training data. Forecasting is explicitly handled via Fabric data science. So we are talking about actual machine learning engineers, building notebooks, running experiments, and scoring dedicated models. Yes. A data scientist defines the target variable, sets the time horizon, selects the inputs, and chooses the statistical methodology inside a data science notebook.

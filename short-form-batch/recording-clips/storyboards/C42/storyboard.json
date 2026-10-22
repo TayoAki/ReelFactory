@@ -11,7 +11,7 @@
   "layers": [
     {
       "label": "Supplier",
-      "sub": "ILLUSTRATIVE RELATIONSHIP PATH",
+      "sub": "SUPPLIES PRODUCTS",
       "x": 140,
       "y": 650,
       "w": 800,
@@ -23,19 +23,19 @@
     },
     {
       "label": "Products",
-      "sub": "ILLUSTRATIVE RELATIONSHIP PATH",
+      "sub": "INCLUDED IN SHIPMENTS",
       "x": 140,
       "y": 790,
       "w": 800,
       "h": 120,
       "focal": false,
-      "on": 15.08,
+      "on": 15.06,
       "timing": "keyword onset or editorial fallback",
       "kind": "card"
     },
     {
       "label": "Shipments",
-      "sub": "ILLUSTRATIVE RELATIONSHIP PATH",
+      "sub": "RECEIVED BY STORES",
       "x": 140,
       "y": 930,
       "w": 800,
@@ -47,19 +47,19 @@
     },
     {
       "label": "Stores",
-      "sub": "ILLUSTRATIVE RELATIONSHIP PATH",
+      "sub": "OPERATE REFRIGERATION UNITS",
       "x": 140,
       "y": 1070,
       "w": 800,
       "h": 120,
       "focal": false,
-      "on": 20.68,
+      "on": 20.72,
       "timing": "keyword onset or editorial fallback",
       "kind": "card"
     },
     {
       "label": "Refrigeration units",
-      "sub": "ILLUSTRATIVE RELATIONSHIP PATH",
+      "sub": "RELEVANT UNITS TO INSPECT",
       "x": 140,
       "y": 1210,
       "w": 800,
@@ -77,8 +77,49 @@
   "visual_review": "Draft, not human approved. Generated symbols corrected in editable reconstruction.",
   "source_reference": "reference-library/frames/graphic/0003510.jpg",
   "motion": "independent card alpha reveal + 16px eased settling, timed to recording keywords; fixed grid and presenter rail",
+  "viewer_understanding_before": "Supplier \u2192 Products",
+  "viewer_understanding_after": "Illustrative recall path",
+  "graphic_choice_reason": "When the relationship path is the question: Trace a hypothetical recall along named relationships.",
+  "credible_alternative": "A flat list of affected items",
+  "why_alternative_rejected": "The lesson is the path joining the named entities. A path diagram makes the hypothetical traversal explicit without claiming a measured result.",
+  "cannot_establish": "This illustrative diagram cannot prove an actual product interaction, executed query, security guarantee or measured improvement.",
+  "reference_images_used_for_generation": [
+    "reference-library/frames/graphic/0003510.jpg",
+    "motion-pilot-fabric/fabric-theme/master.png",
+    "short-form-batch/recording-clips/assets/host.png",
+    "short-form-batch/recording-clips/assets/guest.png"
+  ],
+  "source_library_semantic_match": "Original reference supplies visual grammar; exact subject relationships are adapted from this recording. No claim of an exact reference-video semantic or motion match.",
+  "original_reference_url": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "review_status": "Draft; representative visual samples and artifact bounds checked, human editorial approval pending.",
   "source_start": 2705.349705,
   "source_end": 2731.2097049999998,
-  "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+  "caption_status": "Word-timed ASR draft; human proofreading pending",
+  "line_shot_edit": [
+    {
+      "LINE": "Let's say a specific agricultural supplier calls you in a panic and informs you that",
+      "SHOT": "Fixed fictional portrait rail + Supplier",
+      "EDIT": "Reveal independent card at 0.7s; 420ms fade, 16px eased settling"
+    },
+    {
+      "LINE": "chain. Which specific intermediate products contain that batch, which exact multimodal shipments carried those products,",
+      "SHOT": "Fixed fictional portrait rail + Products",
+      "EDIT": "Reveal independent card at 15.06s; 420ms fade, 16px eased settling"
+    },
+    {
+      "LINE": "batch, which exact multimodal shipments carried those products, which which specific retail stores received those shipments",
+      "SHOT": "Fixed fictional portrait rail + Shipments",
+      "EDIT": "Reveal independent card at 18.1s; 420ms fade, 16px eased settling"
+    },
+    {
+      "LINE": "products, which which specific retail stores received those shipments and which exact refrigeration units are currently",
+      "SHOT": "Fixed fictional portrait rail + Stores",
+      "EDIT": "Reveal independent card at 20.72s; 420ms fade, 16px eased settling"
+    },
+    {
+      "LINE": "received those shipments and which exact refrigeration units are currently holding them on the floor.",
+      "SHOT": "Fixed fictional portrait rail + Refrigeration units",
+      "EDIT": "Reveal independent card at 23.22s; 420ms fade, 16px eased settling"
+    }
+  ]
 }

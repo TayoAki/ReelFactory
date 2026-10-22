@@ -1,0 +1,122 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.29,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}The{\c&H002A2B17&\b0} preview does\Nsupport importing
+Dialogue: 0,0:00:00.29,0:00:00.48,Default,,0,0,0,,{\pos(540,1513)}The {\c&H00657811&\b1}preview{\c&H002A2B17&\b0} does\Nsupport importing
+Dialogue: 0,0:00:00.48,0:00:00.79,Default,,0,0,0,,{\pos(540,1513)}The preview {\c&H00657811&\b1}does{\c&H002A2B17&\b0}\Nsupport importing
+Dialogue: 0,0:00:00.79,0:00:01.18,Default,,0,0,0,,{\pos(540,1513)}The preview does\N{\c&H00657811&\b1}support{\c&H002A2B17&\b0} importing
+Dialogue: 0,0:00:01.18,0:00:01.60,Default,,0,0,0,,{\pos(540,1513)}The preview does\Nsupport {\c&H00657811&\b1}importing{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:01.60,0:00:02.21,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}existing{\c&H002A2B17&\b0} definitions\Nusing standard
+Dialogue: 0,0:00:02.21,0:00:02.90,Default,,0,0,0,,{\pos(540,1513)}existing {\c&H00657811&\b1}definitions{\c&H002A2B17&\b0}\Nusing standard
+Dialogue: 0,0:00:02.90,0:00:03.32,Default,,0,0,0,,{\pos(540,1513)}existing definitions\N{\c&H00657811&\b1}using{\c&H002A2B17&\b0} standard
+Dialogue: 0,0:00:03.32,0:00:03.66,Default,,0,0,0,,{\pos(540,1513)}existing definitions\Nusing {\c&H00657811&\b1}standard{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:03.66,0:00:04.05,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}semantic{\c&H002A2B17&\b0} web formats\Nlike Turtle, RDF,
+Dialogue: 0,0:00:04.05,0:00:04.50,Default,,0,0,0,,{\pos(540,1513)}semantic {\c&H00657811&\b1}web{\c&H002A2B17&\b0} formats\Nlike Turtle, RDF,
+Dialogue: 0,0:00:04.50,0:00:04.80,Default,,0,0,0,,{\pos(540,1513)}semantic web {\c&H00657811&\b1}formats{\c&H002A2B17&\b0}\Nlike Turtle, RDF,
+Dialogue: 0,0:00:04.80,0:00:05.20,Default,,0,0,0,,{\pos(540,1513)}semantic web formats\N{\c&H00657811&\b1}like{\c&H002A2B17&\b0} Turtle, RDF,
+Dialogue: 0,0:00:05.20,0:00:05.88,Default,,0,0,0,,{\pos(540,1513)}semantic web formats\Nlike {\c&H00657811&\b1}Turtle,{\c&H002A2B17&\b0} RDF,
+Dialogue: 0,0:00:05.88,0:00:06.22,Default,,0,0,0,,{\pos(540,1513)}semantic web formats\Nlike Turtle, {\c&H00657811&\b1}RDF,{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:06.42,0:00:06.58,Default,,0,0,0,,{\pos(540,1513)}and {\c&H00657811&\b1}O{\c&H002A2B17&\b0} -W -L.
+Dialogue: 0,0:00:06.58,0:00:06.76,Default,,0,0,0,,{\pos(540,1513)}and O {\c&H00657811&\b1}-W{\c&H002A2B17&\b0} -L.
+Dialogue: 0,0:00:06.76,0:00:07.18,Default,,0,0,0,,{\pos(540,1513)}and O -W {\c&H00657811&\b1}-L.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:07.44,0:00:07.60,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Briefly,{\c&H002A2B17&\b0} what are those?
+Dialogue: 0,0:00:07.60,0:00:07.76,Default,,0,0,0,,{\pos(540,1513)}Briefly, {\c&H00657811&\b1}what{\c&H002A2B17&\b0} are those?
+Dialogue: 0,0:00:07.76,0:00:07.86,Default,,0,0,0,,{\pos(540,1513)}Briefly, what {\c&H00657811&\b1}are{\c&H002A2B17&\b0} those?
+Dialogue: 0,0:00:07.86,0:00:08.08,Default,,0,0,0,,{\pos(540,1513)}Briefly, what are {\c&H00657811&\b1}those?{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:08.48,0:00:08.56,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Those{\c&H002A2B17&\b0} are essentially\Nthe legacy standard
+Dialogue: 0,0:00:08.56,0:00:08.69,Default,,0,0,0,,{\pos(540,1513)}Those {\c&H00657811&\b1}are{\c&H002A2B17&\b0} essentially\Nthe legacy standard
+Dialogue: 0,0:00:08.69,0:00:08.98,Default,,0,0,0,,{\pos(540,1513)}Those are {\c&H00657811&\b1}essentially{\c&H002A2B17&\b0}\Nthe legacy standard
+Dialogue: 0,0:00:08.98,0:00:09.19,Default,,0,0,0,,{\pos(540,1513)}Those are essentially\N{\c&H00657811&\b1}the{\c&H002A2B17&\b0} legacy standard
+Dialogue: 0,0:00:09.19,0:00:09.48,Default,,0,0,0,,{\pos(540,1513)}Those are essentially\Nthe {\c&H00657811&\b1}legacy{\c&H002A2B17&\b0} standard
+Dialogue: 0,0:00:09.48,0:00:09.88,Default,,0,0,0,,{\pos(540,1513)}Those are essentially\Nthe legacy {\c&H00657811&\b1}standard{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:09.88,0:00:10.16,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}coding{\c&H002A2B17&\b0} languages\Nthat researchers and
+Dialogue: 0,0:00:10.16,0:00:10.64,Default,,0,0,0,,{\pos(540,1513)}coding {\c&H00657811&\b1}languages{\c&H002A2B17&\b0}\Nthat researchers and
+Dialogue: 0,0:00:10.64,0:00:11.00,Default,,0,0,0,,{\pos(540,1513)}coding languages\N{\c&H00657811&\b1}that{\c&H002A2B17&\b0} researchers and
+Dialogue: 0,0:00:11.00,0:00:11.30,Default,,0,0,0,,{\pos(540,1513)}coding languages\Nthat {\c&H00657811&\b1}researchers{\c&H002A2B17&\b0} and
+Dialogue: 0,0:00:11.30,0:00:11.72,Default,,0,0,0,,{\pos(540,1513)}coding languages\Nthat researchers {\c&H00657811&\b1}and{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:11.72,0:00:11.86,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}data{\c&H002A2B17&\b0} scientists\Nhave used for years
+Dialogue: 0,0:00:11.86,0:00:12.24,Default,,0,0,0,,{\pos(540,1513)}data {\c&H00657811&\b1}scientists{\c&H002A2B17&\b0}\Nhave used for years
+Dialogue: 0,0:00:12.24,0:00:12.52,Default,,0,0,0,,{\pos(540,1513)}data scientists\N{\c&H00657811&\b1}have{\c&H002A2B17&\b0} used for years
+Dialogue: 0,0:00:12.52,0:00:12.68,Default,,0,0,0,,{\pos(540,1513)}data scientists\Nhave {\c&H00657811&\b1}used{\c&H002A2B17&\b0} for years
+Dialogue: 0,0:00:12.68,0:00:12.86,Default,,0,0,0,,{\pos(540,1513)}data scientists\Nhave used {\c&H00657811&\b1}for{\c&H002A2B17&\b0} years
+Dialogue: 0,0:00:12.86,0:00:13.14,Default,,0,0,0,,{\pos(540,1513)}data scientists\Nhave used for {\c&H00657811&\b1}years{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:13.14,0:00:13.48,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}to{\c&H002A2B17&\b0} write out these kinds of
+Dialogue: 0,0:00:13.48,0:00:13.64,Default,,0,0,0,,{\pos(540,1513)}to {\c&H00657811&\b1}write{\c&H002A2B17&\b0} out these kinds of
+Dialogue: 0,0:00:13.64,0:00:13.84,Default,,0,0,0,,{\pos(540,1513)}to write {\c&H00657811&\b1}out{\c&H002A2B17&\b0} these kinds of
+Dialogue: 0,0:00:13.84,0:00:14.02,Default,,0,0,0,,{\pos(540,1513)}to write out {\c&H00657811&\b1}these{\c&H002A2B17&\b0} kinds of
+Dialogue: 0,0:00:14.02,0:00:14.23,Default,,0,0,0,,{\pos(540,1513)}to write out these {\c&H00657811&\b1}kinds{\c&H002A2B17&\b0} of
+Dialogue: 0,0:00:14.23,0:00:14.46,Default,,0,0,0,,{\pos(540,1513)}to write out these kinds {\c&H00657811&\b1}of{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:14.46,0:00:14.89,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}complex{\c&H002A2B17&\b0} knowledge\Nwebs, originally
+Dialogue: 0,0:00:14.89,0:00:15.23,Default,,0,0,0,,{\pos(540,1513)}complex {\c&H00657811&\b1}knowledge{\c&H002A2B17&\b0}\Nwebs, originally
+Dialogue: 0,0:00:15.23,0:00:16.00,Default,,0,0,0,,{\pos(540,1513)}complex knowledge\N{\c&H00657811&\b1}webs,{\c&H002A2B17&\b0} originally
+Dialogue: 0,0:00:16.00,0:00:16.36,Default,,0,0,0,,{\pos(540,1513)}complex knowledge\Nwebs, {\c&H00657811&\b1}originally{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:16.36,0:00:16.82,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}designed{\c&H002A2B17&\b0} for the\Nsemantic web.
+Dialogue: 0,0:00:16.82,0:00:17.04,Default,,0,0,0,,{\pos(540,1513)}designed {\c&H00657811&\b1}for{\c&H002A2B17&\b0} the\Nsemantic web.
+Dialogue: 0,0:00:17.04,0:00:17.14,Default,,0,0,0,,{\pos(540,1513)}designed for {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nsemantic web.
+Dialogue: 0,0:00:17.14,0:00:17.36,Default,,0,0,0,,{\pos(540,1513)}designed for the\N{\c&H00657811&\b1}semantic{\c&H002A2B17&\b0} web.
+Dialogue: 0,0:00:17.36,0:00:17.86,Default,,0,0,0,,{\pos(540,1513)}designed for the\Nsemantic {\c&H00657811&\b1}web.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:18.10,0:00:18.26,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}So{\c&H002A2B17&\b0} you can just import them.
+Dialogue: 0,0:00:18.26,0:00:18.39,Default,,0,0,0,,{\pos(540,1513)}So {\c&H00657811&\b1}you{\c&H002A2B17&\b0} can just import them.
+Dialogue: 0,0:00:18.39,0:00:18.50,Default,,0,0,0,,{\pos(540,1513)}So you {\c&H00657811&\b1}can{\c&H002A2B17&\b0} just import them.
+Dialogue: 0,0:00:18.50,0:00:18.66,Default,,0,0,0,,{\pos(540,1513)}So you can {\c&H00657811&\b1}just{\c&H002A2B17&\b0} import them.
+Dialogue: 0,0:00:18.66,0:00:18.96,Default,,0,0,0,,{\pos(540,1513)}So you can just {\c&H00657811&\b1}import{\c&H002A2B17&\b0} them.
+Dialogue: 0,0:00:18.96,0:00:19.40,Default,,0,0,0,,{\pos(540,1513)}So you can just import {\c&H00657811&\b1}them.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:19.89,0:00:20.39,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}However,{\c&H002A2B17&\b0} the Microsoft\Ndocumentation
+Dialogue: 0,0:00:20.39,0:00:20.52,Default,,0,0,0,,{\pos(540,1513)}However, {\c&H00657811&\b1}the{\c&H002A2B17&\b0} Microsoft\Ndocumentation
+Dialogue: 0,0:00:20.52,0:00:20.74,Default,,0,0,0,,{\pos(540,1513)}However, the {\c&H00657811&\b1}Microsoft{\c&H002A2B17&\b0}\Ndocumentation
+Dialogue: 0,0:00:20.74,0:00:21.32,Default,,0,0,0,,{\pos(540,1513)}However, the Microsoft\N{\c&H00657811&\b1}documentation{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:21.32,0:00:22.06,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}explicitly{\c&H002A2B17&\b0} warns\Nthat some elements
+Dialogue: 0,0:00:22.06,0:00:22.62,Default,,0,0,0,,{\pos(540,1513)}explicitly {\c&H00657811&\b1}warns{\c&H002A2B17&\b0}\Nthat some elements
+Dialogue: 0,0:00:22.62,0:00:22.90,Default,,0,0,0,,{\pos(540,1513)}explicitly warns\N{\c&H00657811&\b1}that{\c&H002A2B17&\b0} some elements
+Dialogue: 0,0:00:22.90,0:00:23.20,Default,,0,0,0,,{\pos(540,1513)}explicitly warns\Nthat {\c&H00657811&\b1}some{\c&H002A2B17&\b0} elements
+Dialogue: 0,0:00:23.20,0:00:23.58,Default,,0,0,0,,{\pos(540,1513)}explicitly warns\Nthat some {\c&H00657811&\b1}elements{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:23.58,0:00:23.94,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}might{\c&H002A2B17&\b0} be adjusted,\Nmodified, or entirely
+Dialogue: 0,0:00:23.94,0:00:24.10,Default,,0,0,0,,{\pos(540,1513)}might {\c&H00657811&\b1}be{\c&H002A2B17&\b0} adjusted,\Nmodified, or entirely
+Dialogue: 0,0:00:24.10,0:00:24.60,Default,,0,0,0,,{\pos(540,1513)}might be {\c&H00657811&\b1}adjusted,{\c&H002A2B17&\b0}\Nmodified, or entirely
+Dialogue: 0,0:00:24.60,0:00:25.30,Default,,0,0,0,,{\pos(540,1513)}might be adjusted,\N{\c&H00657811&\b1}modified,{\c&H002A2B17&\b0} or entirely
+Dialogue: 0,0:00:25.30,0:00:25.74,Default,,0,0,0,,{\pos(540,1513)}might be adjusted,\Nmodified, {\c&H00657811&\b1}or{\c&H002A2B17&\b0} entirely
+Dialogue: 0,0:00:25.74,0:00:26.28,Default,,0,0,0,,{\pos(540,1513)}might be adjusted,\Nmodified, or {\c&H00657811&\b1}entirely{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:26.28,0:00:26.78,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}skipped{\c&H002A2B17&\b0} during the\Nimport process.
+Dialogue: 0,0:00:26.78,0:00:27.16,Default,,0,0,0,,{\pos(540,1513)}skipped {\c&H00657811&\b1}during{\c&H002A2B17&\b0} the\Nimport process.
+Dialogue: 0,0:00:27.16,0:00:27.44,Default,,0,0,0,,{\pos(540,1513)}skipped during {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nimport process.
+Dialogue: 0,0:00:27.44,0:00:27.64,Default,,0,0,0,,{\pos(540,1513)}skipped during the\N{\c&H00657811&\b1}import{\c&H002A2B17&\b0} process.
+Dialogue: 0,0:00:27.64,0:00:28.22,Default,,0,0,0,,{\pos(540,1513)}skipped during the\Nimport {\c&H00657811&\b1}process.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:28.72,0:00:29.11,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Full{\c&H002A2B17&\b0} lossless\Ntranslation of complex
+Dialogue: 0,0:00:29.11,0:00:30.00,Default,,0,0,0,,{\pos(540,1513)}Full {\c&H00657811&\b1}lossless{\c&H002A2B17&\b0}\Ntranslation of complex
+Dialogue: 0,0:00:30.00,0:00:30.28,Default,,0,0,0,,{\pos(540,1513)}Full lossless\N{\c&H00657811&\b1}translation{\c&H002A2B17&\b0} of complex
+Dialogue: 0,0:00:30.28,0:00:30.74,Default,,0,0,0,,{\pos(540,1513)}Full lossless\Ntranslation {\c&H00657811&\b1}of{\c&H002A2B17&\b0} complex
+Dialogue: 0,0:00:30.74,0:00:31.08,Default,,0,0,0,,{\pos(540,1513)}Full lossless\Ntranslation of {\c&H00657811&\b1}complex{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:31.08,0:00:31.84,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}OWL{\c&H002A2B17&\b0} behaviors\Nis not promised.
+Dialogue: 0,0:00:31.84,0:00:32.15,Default,,0,0,0,,{\pos(540,1513)}OWL {\c&H00657811&\b1}behaviors{\c&H002A2B17&\b0}\Nis not promised.
+Dialogue: 0,0:00:32.15,0:00:32.51,Default,,0,0,0,,{\pos(540,1513)}OWL behaviors\N{\c&H00657811&\b1}is{\c&H002A2B17&\b0} not promised.
+Dialogue: 0,0:00:32.51,0:00:32.78,Default,,0,0,0,,{\pos(540,1513)}OWL behaviors\Nis {\c&H00657811&\b1}not{\c&H002A2B17&\b0} promised.
+Dialogue: 0,0:00:32.78,0:00:33.23,Default,,0,0,0,,{\pos(540,1513)}OWL behaviors\Nis not {\c&H00657811&\b1}promised.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:33.51,0:00:33.64,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}You{\c&H002A2B17&\b0} have to check it.
+Dialogue: 0,0:00:33.64,0:00:33.78,Default,,0,0,0,,{\pos(540,1513)}You {\c&H00657811&\b1}have{\c&H002A2B17&\b0} to check it.
+Dialogue: 0,0:00:33.78,0:00:33.88,Default,,0,0,0,,{\pos(540,1513)}You have {\c&H00657811&\b1}to{\c&H002A2B17&\b0} check it.
+Dialogue: 0,0:00:33.88,0:00:34.04,Default,,0,0,0,,{\pos(540,1513)}You have to {\c&H00657811&\b1}check{\c&H002A2B17&\b0} it.
+Dialogue: 0,0:00:34.04,0:00:34.33,Default,,0,0,0,,{\pos(540,1513)}You have to check {\c&H00657811&\b1}it.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:34.34,0:00:34.50,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}You{\c&H002A2B17&\b0} have to thoroughly\Nand manually
+Dialogue: 0,0:00:34.50,0:00:34.70,Default,,0,0,0,,{\pos(540,1513)}You {\c&H00657811&\b1}have{\c&H002A2B17&\b0} to thoroughly\Nand manually
+Dialogue: 0,0:00:34.70,0:00:34.87,Default,,0,0,0,,{\pos(540,1513)}You have {\c&H00657811&\b1}to{\c&H002A2B17&\b0} thoroughly\Nand manually
+Dialogue: 0,0:00:34.87,0:00:35.26,Default,,0,0,0,,{\pos(540,1513)}You have to {\c&H00657811&\b1}thoroughly{\c&H002A2B17&\b0}\Nand manually
+Dialogue: 0,0:00:35.26,0:00:35.70,Default,,0,0,0,,{\pos(540,1513)}You have to thoroughly\N{\c&H00657811&\b1}and{\c&H002A2B17&\b0} manually
+Dialogue: 0,0:00:35.70,0:00:36.15,Default,,0,0,0,,{\pos(540,1513)}You have to thoroughly\Nand {\c&H00657811&\b1}manually{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:36.15,0:00:36.65,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}review{\c&H002A2B17&\b0} the import\Nresults to ensure
+Dialogue: 0,0:00:36.65,0:00:36.82,Default,,0,0,0,,{\pos(540,1513)}review {\c&H00657811&\b1}the{\c&H002A2B17&\b0} import\Nresults to ensure
+Dialogue: 0,0:00:36.82,0:00:37.01,Default,,0,0,0,,{\pos(540,1513)}review the {\c&H00657811&\b1}import{\c&H002A2B17&\b0}\Nresults to ensure
+Dialogue: 0,0:00:37.01,0:00:37.32,Default,,0,0,0,,{\pos(540,1513)}review the import\N{\c&H00657811&\b1}results{\c&H002A2B17&\b0} to ensure
+Dialogue: 0,0:00:37.32,0:00:37.64,Default,,0,0,0,,{\pos(540,1513)}review the import\Nresults {\c&H00657811&\b1}to{\c&H002A2B17&\b0} ensure
+Dialogue: 0,0:00:37.64,0:00:37.87,Default,,0,0,0,,{\pos(540,1513)}review the import\Nresults to {\c&H00657811&\b1}ensure{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:37.87,0:00:38.14,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}your{\c&H002A2B17&\b0} logic survived\Nthe translation.
+Dialogue: 0,0:00:38.14,0:00:38.40,Default,,0,0,0,,{\pos(540,1513)}your {\c&H00657811&\b1}logic{\c&H002A2B17&\b0} survived\Nthe translation.
+Dialogue: 0,0:00:38.40,0:00:38.70,Default,,0,0,0,,{\pos(540,1513)}your logic {\c&H00657811&\b1}survived{\c&H002A2B17&\b0}\Nthe translation.
+Dialogue: 0,0:00:38.70,0:00:39.04,Default,,0,0,0,,{\pos(540,1513)}your logic survived\N{\c&H00657811&\b1}the{\c&H002A2B17&\b0} translation.
+Dialogue: 0,0:00:39.04,0:00:39.57,Default,,0,0,0,,{\pos(540,1513)}your logic survived\Nthe {\c&H00657811&\b1}translation.{\c&H002A2B17&\b0}

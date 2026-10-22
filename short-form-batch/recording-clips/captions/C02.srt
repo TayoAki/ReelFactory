@@ -1,0 +1,119 @@
+1
+00:00:00,080 --> 00:00:01,299
+I want to look really closely
+
+2
+00:00:01,299 --> 00:00:04,240
+at that gap between data and
+
+3
+00:00:04,240 --> 00:00:06,980
+meaning, because if you pull up
+
+4
+00:00:06,980 --> 00:00:07,960
+a table and it shows a
+
+5
+00:00:07,960 --> 00:00:10,200
+column labeled temperature, that's
+
+6
+00:00:10,200 --> 00:00:11,059
+just a raw number.
+
+7
+00:00:11,400 --> 00:00:13,600
+Right, it completely lacks the commercial
+
+8
+00:00:13,600 --> 00:00:15,980
+context. Exactly. It doesn't tell you
+
+9
+00:00:15,980 --> 00:00:17,520
+anything about the store experiencing
+
+10
+00:00:17,520 --> 00:00:19,280
+that temperature. Well, let's trace
+
+11
+00:00:19,280 --> 00:00:20,620
+that exact problem because it's a
+
+12
+00:00:20,620 --> 00:00:22,000
+great example. If you have a
+
+13
+00:00:22,000 --> 00:00:23,860
+spreadsheet and a column simply says
+
+14
+00:00:23,860 --> 00:00:26,439
+temperature 45, what does your AI
+
+15
+00:00:26,439 --> 00:00:27,100
+do with that?
+
+16
+00:00:27,600 --> 00:00:29,160
+It just reads the number 45.
+
+17
+00:00:29,780 --> 00:00:31,300
+Right. And if it's the ambient
+
+18
+00:00:31,300 --> 00:00:33,420
+temperature outside a retail location
+
+19
+00:00:33,420 --> 00:00:35,019
+on a pleasant spring day, 45
+
+20
+00:00:35,019 --> 00:00:36,960
+degrees Fahrenheit is just chilly.
+
+21
+00:00:37,360 --> 00:00:39,040
+Sure. But if that sensor is
+
+22
+00:00:39,040 --> 00:00:41,280
+sitting inside a commercial refrigeration
+
+23
+00:00:41,280 --> 00:00:43,500
+unit, holding thousands of dollars
+
+24
+00:00:43,500 --> 00:00:45,220
+of premium pharmaceutical supplies
+
+25
+00:00:45,220 --> 00:00:47,480
+or, you know, frozen food, then
+
+26
+00:00:47,480 --> 00:00:49,300
+45 degrees is a total disaster.
+
+27
+00:00:49,740 --> 00:00:51,879
+It's a catastrophic failure in progress.
+
+28
+00:00:52,220 --> 00:00:54,080
+But the data itself, the integer
+
+29
+00:00:54,080 --> 00:00:56,519
+of 45, is completely agnostic to
+
+30
+00:00:56,519 --> 00:00:57,339
+your business reality.

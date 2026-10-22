@@ -56,5 +56,38 @@
   "source_start": 326.42,
   "source_end": 379.04,
   "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion.",
+  "caption_status": "Word-timed ASR draft; human proofreading pending",
+  "line_shot_edit": [
+    {
+      "LINE": "Inventory at risk is a brilliant example of these diagnostic muddy waters.",
+      "SHOT": "Fixed fictional portrait rail + Inventory at risk",
+      "EDIT": "Reveal independent card at 0.25s; 420ms fade, 16px eased settling"
+    },
+    {
+      "LINE": "of stocks sitting on a pallet is currently below a hard minimum threshold at this exact second. Okay,",
+      "SHOT": "Fixed fictional portrait rail + Below threshold now",
+      "EDIT": "Reveal independent card at 18.72s; 420ms fade, 16px eased settling"
+    },
+    {
+      "LINE": "buffer at some point before the next delivery truck physically arrives. Those are two radically different",
+      "SHOT": "Fixed fictional portrait rail + Shortage before delivery",
+      "EDIT": "Reveal independent card at 43.26s; 420ms fade, 16px eased settling"
+    }
+  ],
+  "viewer_understanding_before": "Below threshold now",
+  "viewer_understanding_after": "Inventory at risk",
+  "graphic_choice_reason": "Inventory at risk has two definitions: Compare interpretations without implying causation.",
+  "credible_alternative": "A single explanatory list",
+  "why_alternative_rejected": "A list obscures that one term/value can have competing interpretations; retain a common anchor and compare the two meanings.",
+  "cannot_establish": "This illustrative diagram cannot prove an actual product interaction, executed query, security guarantee or measured improvement.",
+  "reference_images_used_for_generation": [
+    "reference-library/frames/graphic/0003510.jpg",
+    "motion-pilot-fabric/fabric-theme/master.png",
+    "short-form-batch/recording-clips/assets/host.png",
+    "short-form-batch/recording-clips/assets/guest.png"
+  ],
+  "source_library_semantic_match": "Original reference supplies visual grammar; exact subject relationships are adapted from this recording. No claim of an exact reference-video semantic or motion match.",
+  "original_reference_url": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "review_status": "Draft; representative visual samples and artifact bounds checked, human editorial approval pending."
 }

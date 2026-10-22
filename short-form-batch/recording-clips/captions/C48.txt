@@ -1,0 +1,5 @@
+A written rule does not create an Activator flow
+Original recording 52:37–53:19
+ASR draft; technical-name spelling normalized.
+
+What about Activator? Fabric has a dedicated tool called data Activator specifically for triggering actions based on data changes. If I write a natural language business rule in my ontology interface, does that automatically provision an Activator alert in the background? No, it absolutely does not. And that's a massive point of confusion for new users. Saving a natural language role in the ontology provides semantic context for the chat agents. It does not automatically write the code to provision an active running workflow in data Activator. So they are separate steps. If you want an alert to actually fire, a data engineer has to go into Activator and configure that automation separately against the supported data path.

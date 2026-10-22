@@ -1,0 +1,139 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.31,0:00:00.35,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}I'm{\c&H002A2B17&\b0} a manager.
+Dialogue: 0,0:00:00.35,0:00:00.43,Default,,0,0,0,,{\pos(540,1513)}I'm {\c&H00657811&\b1}a{\c&H002A2B17&\b0} manager.
+Dialogue: 0,0:00:00.43,0:00:00.80,Default,,0,0,0,,{\pos(540,1513)}I'm a {\c&H00657811&\b1}manager.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:01.42,0:00:01.44,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}I{\c&H002A2B17&\b0} open the chat interface and
+Dialogue: 0,0:00:01.44,0:00:01.66,Default,,0,0,0,,{\pos(540,1513)}I {\c&H00657811&\b1}open{\c&H002A2B17&\b0} the chat interface and
+Dialogue: 0,0:00:01.66,0:00:01.81,Default,,0,0,0,,{\pos(540,1513)}I open {\c&H00657811&\b1}the{\c&H002A2B17&\b0} chat interface and
+Dialogue: 0,0:00:01.81,0:00:01.94,Default,,0,0,0,,{\pos(540,1513)}I open the {\c&H00657811&\b1}chat{\c&H002A2B17&\b0} interface and
+Dialogue: 0,0:00:01.94,0:00:02.29,Default,,0,0,0,,{\pos(540,1513)}I open the chat {\c&H00657811&\b1}interface{\c&H002A2B17&\b0} and
+Dialogue: 0,0:00:02.29,0:00:02.55,Default,,0,0,0,,{\pos(540,1513)}I open the chat interface {\c&H00657811&\b1}and{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:02.55,0:00:02.63,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}I{\c&H002A2B17&\b0} ask a highly\Ncomplex question.
+Dialogue: 0,0:00:02.63,0:00:02.84,Default,,0,0,0,,{\pos(540,1513)}I {\c&H00657811&\b1}ask{\c&H002A2B17&\b0} a highly\Ncomplex question.
+Dialogue: 0,0:00:02.84,0:00:02.98,Default,,0,0,0,,{\pos(540,1513)}I ask {\c&H00657811&\b1}a{\c&H002A2B17&\b0} highly\Ncomplex question.
+Dialogue: 0,0:00:02.98,0:00:03.58,Default,,0,0,0,,{\pos(540,1513)}I ask a {\c&H00657811&\b1}highly{\c&H002A2B17&\b0}\Ncomplex question.
+Dialogue: 0,0:00:03.58,0:00:03.94,Default,,0,0,0,,{\pos(540,1513)}I ask a highly\N{\c&H00657811&\b1}complex{\c&H002A2B17&\b0} question.
+Dialogue: 0,0:00:03.94,0:00:04.58,Default,,0,0,0,,{\pos(540,1513)}I ask a highly\Ncomplex {\c&H00657811&\b1}question.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:05.14,0:00:05.26,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}I{\c&H002A2B17&\b0} need an answer\Nthat requires
+Dialogue: 0,0:00:05.26,0:00:05.38,Default,,0,0,0,,{\pos(540,1513)}I {\c&H00657811&\b1}need{\c&H002A2B17&\b0} an answer\Nthat requires
+Dialogue: 0,0:00:05.38,0:00:05.46,Default,,0,0,0,,{\pos(540,1513)}I need {\c&H00657811&\b1}an{\c&H002A2B17&\b0} answer\Nthat requires
+Dialogue: 0,0:00:05.46,0:00:05.70,Default,,0,0,0,,{\pos(540,1513)}I need an {\c&H00657811&\b1}answer{\c&H002A2B17&\b0}\Nthat requires
+Dialogue: 0,0:00:05.70,0:00:05.90,Default,,0,0,0,,{\pos(540,1513)}I need an answer\N{\c&H00657811&\b1}that{\c&H002A2B17&\b0} requires
+Dialogue: 0,0:00:05.90,0:00:06.19,Default,,0,0,0,,{\pos(540,1513)}I need an answer\Nthat {\c&H00657811&\b1}requires{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:06.19,0:00:06.72,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}checking{\c&H002A2B17&\b0} physical\Ninventory in the
+Dialogue: 0,0:00:06.72,0:00:07.03,Default,,0,0,0,,{\pos(540,1513)}checking {\c&H00657811&\b1}physical{\c&H002A2B17&\b0}\Ninventory in the
+Dialogue: 0,0:00:07.03,0:00:07.38,Default,,0,0,0,,{\pos(540,1513)}checking physical\N{\c&H00657811&\b1}inventory{\c&H002A2B17&\b0} in the
+Dialogue: 0,0:00:07.38,0:00:07.76,Default,,0,0,0,,{\pos(540,1513)}checking physical\Ninventory {\c&H00657811&\b1}in{\c&H002A2B17&\b0} the
+Dialogue: 0,0:00:07.76,0:00:07.84,Default,,0,0,0,,{\pos(540,1513)}checking physical\Ninventory in {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:07.84,0:00:08.88,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Lakehouse,{\c&H002A2B17&\b0} cross\N-referencing current
+Dialogue: 0,0:00:08.88,0:00:09.06,Default,,0,0,0,,{\pos(540,1513)}Lakehouse, {\c&H00657811&\b1}cross{\c&H002A2B17&\b0}\N-referencing current
+Dialogue: 0,0:00:09.06,0:00:09.68,Default,,0,0,0,,{\pos(540,1513)}Lakehouse, cross\N{\c&H00657811&\b1}-referencing{\c&H002A2B17&\b0} current
+Dialogue: 0,0:00:09.68,0:00:09.96,Default,,0,0,0,,{\pos(540,1513)}Lakehouse, cross\N-referencing {\c&H00657811&\b1}current{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:09.96,0:00:10.42,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}temperature{\c&H002A2B17&\b0} telemetry\Nin the Eventhouse,
+Dialogue: 0,0:00:10.42,0:00:10.98,Default,,0,0,0,,{\pos(540,1513)}temperature {\c&H00657811&\b1}telemetry{\c&H002A2B17&\b0}\Nin the Eventhouse,
+Dialogue: 0,0:00:10.98,0:00:11.32,Default,,0,0,0,,{\pos(540,1513)}temperature telemetry\N{\c&H00657811&\b1}in{\c&H002A2B17&\b0} the Eventhouse,
+Dialogue: 0,0:00:11.32,0:00:11.42,Default,,0,0,0,,{\pos(540,1513)}temperature telemetry\Nin {\c&H00657811&\b1}the{\c&H002A2B17&\b0} Eventhouse,
+Dialogue: 0,0:00:11.42,0:00:12.04,Default,,0,0,0,,{\pos(540,1513)}temperature telemetry\Nin the {\c&H00657811&\b1}Eventhouse,{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:12.60,0:00:12.66,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}and{\c&H002A2B17&\b0} calculating the\Nfinancial impact
+Dialogue: 0,0:00:12.66,0:00:12.98,Default,,0,0,0,,{\pos(540,1513)}and {\c&H00657811&\b1}calculating{\c&H002A2B17&\b0} the\Nfinancial impact
+Dialogue: 0,0:00:12.98,0:00:13.28,Default,,0,0,0,,{\pos(540,1513)}and calculating {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nfinancial impact
+Dialogue: 0,0:00:13.28,0:00:13.52,Default,,0,0,0,,{\pos(540,1513)}and calculating the\N{\c&H00657811&\b1}financial{\c&H002A2B17&\b0} impact
+Dialogue: 0,0:00:13.52,0:00:13.98,Default,,0,0,0,,{\pos(540,1513)}and calculating the\Nfinancial {\c&H00657811&\b1}impact{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:13.98,0:00:14.32,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}using{\c&H002A2B17&\b0} the DAX math in the
+Dialogue: 0,0:00:14.32,0:00:14.60,Default,,0,0,0,,{\pos(540,1513)}using {\c&H00657811&\b1}the{\c&H002A2B17&\b0} DAX math in the
+Dialogue: 0,0:00:14.60,0:00:14.86,Default,,0,0,0,,{\pos(540,1513)}using the {\c&H00657811&\b1}DAX{\c&H002A2B17&\b0} math in the
+Dialogue: 0,0:00:14.86,0:00:15.05,Default,,0,0,0,,{\pos(540,1513)}using the DAX {\c&H00657811&\b1}math{\c&H002A2B17&\b0} in the
+Dialogue: 0,0:00:15.05,0:00:15.30,Default,,0,0,0,,{\pos(540,1513)}using the DAX math {\c&H00657811&\b1}in{\c&H002A2B17&\b0} the
+Dialogue: 0,0:00:15.30,0:00:15.44,Default,,0,0,0,,{\pos(540,1513)}using the DAX math in {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:15.44,0:00:15.64,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}semantic{\c&H002A2B17&\b0} model.\NThat's a huge request.
+Dialogue: 0,0:00:15.64,0:00:16.30,Default,,0,0,0,,{\pos(540,1513)}semantic {\c&H00657811&\b1}model.{\c&H002A2B17&\b0}\NThat's a huge request.
+Dialogue: 0,0:00:16.30,0:00:16.55,Default,,0,0,0,,{\pos(540,1513)}semantic model.\N{\c&H00657811&\b1}That's{\c&H002A2B17&\b0} a huge request.
+Dialogue: 0,0:00:16.55,0:00:16.64,Default,,0,0,0,,{\pos(540,1513)}semantic model.\NThat's {\c&H00657811&\b1}a{\c&H002A2B17&\b0} huge request.
+Dialogue: 0,0:00:16.64,0:00:16.94,Default,,0,0,0,,{\pos(540,1513)}semantic model.\NThat's a {\c&H00657811&\b1}huge{\c&H002A2B17&\b0} request.
+Dialogue: 0,0:00:16.94,0:00:17.48,Default,,0,0,0,,{\pos(540,1513)}semantic model.\NThat's a huge {\c&H00657811&\b1}request.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:17.76,0:00:18.20,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Right.{\c&H002A2B17&\b0} Does the\Nsystem extract all
+Dialogue: 0,0:00:18.20,0:00:18.26,Default,,0,0,0,,{\pos(540,1513)}Right. {\c&H00657811&\b1}Does{\c&H002A2B17&\b0} the\Nsystem extract all
+Dialogue: 0,0:00:18.26,0:00:18.44,Default,,0,0,0,,{\pos(540,1513)}Right. Does {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nsystem extract all
+Dialogue: 0,0:00:18.44,0:00:18.70,Default,,0,0,0,,{\pos(540,1513)}Right. Does the\N{\c&H00657811&\b1}system{\c&H002A2B17&\b0} extract all
+Dialogue: 0,0:00:18.70,0:00:18.96,Default,,0,0,0,,{\pos(540,1513)}Right. Does the\Nsystem {\c&H00657811&\b1}extract{\c&H002A2B17&\b0} all
+Dialogue: 0,0:00:18.96,0:00:19.42,Default,,0,0,0,,{\pos(540,1513)}Right. Does the\Nsystem extract {\c&H00657811&\b1}all{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:19.42,0:00:19.52,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}that{\c&H002A2B17&\b0} data from those\Nthree sources,
+Dialogue: 0,0:00:19.52,0:00:19.70,Default,,0,0,0,,{\pos(540,1513)}that {\c&H00657811&\b1}data{\c&H002A2B17&\b0} from those\Nthree sources,
+Dialogue: 0,0:00:19.70,0:00:19.92,Default,,0,0,0,,{\pos(540,1513)}that data {\c&H00657811&\b1}from{\c&H002A2B17&\b0} those\Nthree sources,
+Dialogue: 0,0:00:19.92,0:00:20.07,Default,,0,0,0,,{\pos(540,1513)}that data from {\c&H00657811&\b1}those{\c&H002A2B17&\b0}\Nthree sources,
+Dialogue: 0,0:00:20.07,0:00:20.25,Default,,0,0,0,,{\pos(540,1513)}that data from those\N{\c&H00657811&\b1}three{\c&H002A2B17&\b0} sources,
+Dialogue: 0,0:00:20.25,0:00:20.60,Default,,0,0,0,,{\pos(540,1513)}that data from those\Nthree {\c&H00657811&\b1}sources,{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:20.60,0:00:20.92,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}pull{\c&H002A2B17&\b0} it into some\Nmassive new
+Dialogue: 0,0:00:20.92,0:00:21.02,Default,,0,0,0,,{\pos(540,1513)}pull {\c&H00657811&\b1}it{\c&H002A2B17&\b0} into some\Nmassive new
+Dialogue: 0,0:00:21.02,0:00:21.24,Default,,0,0,0,,{\pos(540,1513)}pull it {\c&H00657811&\b1}into{\c&H002A2B17&\b0} some\Nmassive new
+Dialogue: 0,0:00:21.24,0:00:21.86,Default,,0,0,0,,{\pos(540,1513)}pull it into {\c&H00657811&\b1}some{\c&H002A2B17&\b0}\Nmassive new
+Dialogue: 0,0:00:21.86,0:00:22.32,Default,,0,0,0,,{\pos(540,1513)}pull it into some\N{\c&H00657811&\b1}massive{\c&H002A2B17&\b0} new
+Dialogue: 0,0:00:22.32,0:00:22.56,Default,,0,0,0,,{\pos(540,1513)}pull it into some\Nmassive {\c&H00657811&\b1}new{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:22.56,0:00:22.90,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}temporary{\c&H002A2B17&\b0} database\Nand run the query
+Dialogue: 0,0:00:22.90,0:00:23.18,Default,,0,0,0,,{\pos(540,1513)}temporary {\c&H00657811&\b1}database{\c&H002A2B17&\b0}\Nand run the query
+Dialogue: 0,0:00:23.18,0:00:23.52,Default,,0,0,0,,{\pos(540,1513)}temporary database\N{\c&H00657811&\b1}and{\c&H002A2B17&\b0} run the query
+Dialogue: 0,0:00:23.52,0:00:23.64,Default,,0,0,0,,{\pos(540,1513)}temporary database\Nand {\c&H00657811&\b1}run{\c&H002A2B17&\b0} the query
+Dialogue: 0,0:00:23.64,0:00:23.74,Default,,0,0,0,,{\pos(540,1513)}temporary database\Nand run {\c&H00657811&\b1}the{\c&H002A2B17&\b0} query
+Dialogue: 0,0:00:23.74,0:00:23.88,Default,,0,0,0,,{\pos(540,1513)}temporary database\Nand run the {\c&H00657811&\b1}query{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:23.88,0:00:24.56,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}there?{\c&H002A2B17&\b0} No, and\Nunderstanding this is
+Dialogue: 0,0:00:24.56,0:00:25.24,Default,,0,0,0,,{\pos(540,1513)}there? {\c&H00657811&\b1}No,{\c&H002A2B17&\b0} and\Nunderstanding this is
+Dialogue: 0,0:00:25.24,0:00:25.34,Default,,0,0,0,,{\pos(540,1513)}there? No, {\c&H00657811&\b1}and{\c&H002A2B17&\b0}\Nunderstanding this is
+Dialogue: 0,0:00:25.34,0:00:25.84,Default,,0,0,0,,{\pos(540,1513)}there? No, and\N{\c&H00657811&\b1}understanding{\c&H002A2B17&\b0} this is
+Dialogue: 0,0:00:25.84,0:00:26.34,Default,,0,0,0,,{\pos(540,1513)}there? No, and\Nunderstanding {\c&H00657811&\b1}this{\c&H002A2B17&\b0} is
+Dialogue: 0,0:00:26.34,0:00:26.50,Default,,0,0,0,,{\pos(540,1513)}there? No, and\Nunderstanding this {\c&H00657811&\b1}is{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:26.50,0:00:26.72,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}profound{\c&H002A2B17&\b0} for anyone\Nevaluating the
+Dialogue: 0,0:00:26.72,0:00:27.54,Default,,0,0,0,,{\pos(540,1513)}profound for {\c&H00657811&\b1}anyone{\c&H002A2B17&\b0}\Nevaluating the
+Dialogue: 0,0:00:27.54,0:00:28.04,Default,,0,0,0,,{\pos(540,1513)}profound for anyone\N{\c&H00657811&\b1}evaluating{\c&H002A2B17&\b0} the
+Dialogue: 0,0:00:28.04,0:00:28.36,Default,,0,0,0,,{\pos(540,1513)}profound for anyone\Nevaluating {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:28.36,0:00:28.66,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}cost{\c&H002A2B17&\b0} and performance\Nof this system.
+Dialogue: 0,0:00:28.66,0:00:28.88,Default,,0,0,0,,{\pos(540,1513)}cost {\c&H00657811&\b1}and{\c&H002A2B17&\b0} performance\Nof this system.
+Dialogue: 0,0:00:28.88,0:00:29.14,Default,,0,0,0,,{\pos(540,1513)}cost and {\c&H00657811&\b1}performance{\c&H002A2B17&\b0}\Nof this system.
+Dialogue: 0,0:00:29.14,0:00:29.48,Default,,0,0,0,,{\pos(540,1513)}cost and performance\N{\c&H00657811&\b1}of{\c&H002A2B17&\b0} this system.
+Dialogue: 0,0:00:29.48,0:00:29.60,Default,,0,0,0,,{\pos(540,1513)}cost and performance\Nof {\c&H00657811&\b1}this{\c&H002A2B17&\b0} system.
+Dialogue: 0,0:00:29.60,0:00:30.04,Default,,0,0,0,,{\pos(540,1513)}cost and performance\Nof this {\c&H00657811&\b1}system.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:30.56,0:00:30.68,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}The{\c&H002A2B17&\b0} ontology supplies\Nthe definitions
+Dialogue: 0,0:00:30.68,0:00:31.10,Default,,0,0,0,,{\pos(540,1513)}The {\c&H00657811&\b1}ontology{\c&H002A2B17&\b0} supplies\Nthe definitions
+Dialogue: 0,0:00:31.10,0:00:31.58,Default,,0,0,0,,{\pos(540,1513)}The ontology {\c&H00657811&\b1}supplies{\c&H002A2B17&\b0}\Nthe definitions
+Dialogue: 0,0:00:31.58,0:00:32.00,Default,,0,0,0,,{\pos(540,1513)}The ontology supplies\N{\c&H00657811&\b1}the{\c&H002A2B17&\b0} definitions
+Dialogue: 0,0:00:32.00,0:00:32.36,Default,,0,0,0,,{\pos(540,1513)}The ontology supplies\Nthe {\c&H00657811&\b1}definitions{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:32.36,0:00:32.84,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}and{\c&H002A2B17&\b0} the mappings.
+Dialogue: 0,0:00:32.84,0:00:32.94,Default,,0,0,0,,{\pos(540,1513)}and {\c&H00657811&\b1}the{\c&H002A2B17&\b0} mappings.
+Dialogue: 0,0:00:32.94,0:00:33.33,Default,,0,0,0,,{\pos(540,1513)}and the {\c&H00657811&\b1}mappings.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:33.60,0:00:33.65,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}It{\c&H002A2B17&\b0} acts as the\Nrouting intelligence.
+Dialogue: 0,0:00:33.65,0:00:33.88,Default,,0,0,0,,{\pos(540,1513)}It {\c&H00657811&\b1}acts{\c&H002A2B17&\b0} as the\Nrouting intelligence.
+Dialogue: 0,0:00:33.88,0:00:34.12,Default,,0,0,0,,{\pos(540,1513)}It acts {\c&H00657811&\b1}as{\c&H002A2B17&\b0} the\Nrouting intelligence.
+Dialogue: 0,0:00:34.12,0:00:34.29,Default,,0,0,0,,{\pos(540,1513)}It acts as {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nrouting intelligence.
+Dialogue: 0,0:00:34.29,0:00:34.60,Default,,0,0,0,,{\pos(540,1513)}It acts as the\N{\c&H00657811&\b1}routing{\c&H002A2B17&\b0} intelligence.
+Dialogue: 0,0:00:34.60,0:00:35.10,Default,,0,0,0,,{\pos(540,1513)}It acts as the\Nrouting {\c&H00657811&\b1}intelligence.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:36.23,0:00:36.28,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}But{\c&H002A2B17&\b0} when a consuming\Nexperience, like
+Dialogue: 0,0:00:36.28,0:00:36.58,Default,,0,0,0,,{\pos(540,1513)}But {\c&H00657811&\b1}when{\c&H002A2B17&\b0} a consuming\Nexperience, like
+Dialogue: 0,0:00:36.58,0:00:36.68,Default,,0,0,0,,{\pos(540,1513)}But when {\c&H00657811&\b1}a{\c&H002A2B17&\b0} consuming\Nexperience, like
+Dialogue: 0,0:00:36.68,0:00:36.98,Default,,0,0,0,,{\pos(540,1513)}But when a {\c&H00657811&\b1}consuming{\c&H002A2B17&\b0}\Nexperience, like
+Dialogue: 0,0:00:36.98,0:00:37.48,Default,,0,0,0,,{\pos(540,1513)}But when a consuming\N{\c&H00657811&\b1}experience,{\c&H002A2B17&\b0} like
+Dialogue: 0,0:00:37.48,0:00:38.01,Default,,0,0,0,,{\pos(540,1513)}But when a consuming\Nexperience, {\c&H00657811&\b1}like{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:38.01,0:00:38.14,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}a{\c&H002A2B17&\b0} chat interface,\Nactually formulates
+Dialogue: 0,0:00:38.14,0:00:38.22,Default,,0,0,0,,{\pos(540,1513)}a {\c&H00657811&\b1}chat{\c&H002A2B17&\b0} interface,\Nactually formulates
+Dialogue: 0,0:00:38.22,0:00:39.06,Default,,0,0,0,,{\pos(540,1513)}a chat {\c&H00657811&\b1}interface,{\c&H002A2B17&\b0}\Nactually formulates
+Dialogue: 0,0:00:39.06,0:00:39.40,Default,,0,0,0,,{\pos(540,1513)}a chat interface,\N{\c&H00657811&\b1}actually{\c&H002A2B17&\b0} formulates
+Dialogue: 0,0:00:39.40,0:00:39.90,Default,,0,0,0,,{\pos(540,1513)}a chat interface,\Nactually {\c&H00657811&\b1}formulates{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:39.90,0:00:40.06,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}the{\c&H002A2B17&\b0} query, it\Nexecutes that query
+Dialogue: 0,0:00:40.06,0:00:40.88,Default,,0,0,0,,{\pos(540,1513)}the {\c&H00657811&\b1}query,{\c&H002A2B17&\b0} it\Nexecutes that query
+Dialogue: 0,0:00:40.88,0:00:40.96,Default,,0,0,0,,{\pos(540,1513)}the query, {\c&H00657811&\b1}it{\c&H002A2B17&\b0}\Nexecutes that query
+Dialogue: 0,0:00:40.96,0:00:41.42,Default,,0,0,0,,{\pos(540,1513)}the query, it\N{\c&H00657811&\b1}executes{\c&H002A2B17&\b0} that query
+Dialogue: 0,0:00:41.42,0:00:41.82,Default,,0,0,0,,{\pos(540,1513)}the query, it\Nexecutes {\c&H00657811&\b1}that{\c&H002A2B17&\b0} query
+Dialogue: 0,0:00:41.82,0:00:42.04,Default,,0,0,0,,{\pos(540,1513)}the query, it\Nexecutes that {\c&H00657811&\b1}query{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:42.04,0:00:42.42,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}against{\c&H002A2B17&\b0} the appropriate\Nnative underlying
+Dialogue: 0,0:00:42.42,0:00:42.62,Default,,0,0,0,,{\pos(540,1513)}against {\c&H00657811&\b1}the{\c&H002A2B17&\b0} appropriate\Nnative underlying
+Dialogue: 0,0:00:42.62,0:00:43.02,Default,,0,0,0,,{\pos(540,1513)}against the {\c&H00657811&\b1}appropriate{\c&H002A2B17&\b0}\Nnative underlying
+Dialogue: 0,0:00:43.02,0:00:43.48,Default,,0,0,0,,{\pos(540,1513)}against the appropriate\N{\c&H00657811&\b1}native{\c&H002A2B17&\b0} underlying
+Dialogue: 0,0:00:43.48,0:00:44.04,Default,,0,0,0,,{\pos(540,1513)}against the appropriate\Nnative {\c&H00657811&\b1}underlying{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:44.04,0:00:44.62,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}engine.{\c&H002A2B17&\b0}

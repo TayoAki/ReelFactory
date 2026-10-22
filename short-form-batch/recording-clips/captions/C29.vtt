@@ -1,0 +1,73 @@
+WEBVTT
+
+00:00:00.080 --> 00:00:01.540
+When a data engineer sets up
+
+00:00:01.540 --> 00:00:03.260
+these bindings, what kind of systems
+
+00:00:03.260 --> 00:00:04.880
+are they actually reaching into?
+
+00:00:05.200 --> 00:00:06.540
+According to the source documentation,
+
+00:00:06.740 --> 00:00:08.860
+the bindings and Fabric ontologies
+
+00:00:08.860 --> 00:00:10.720
+can point to a surprisingly wide
+
+00:00:10.720 --> 00:00:12.059
+variety of data architectures.
+
+00:00:12.460 --> 00:00:13.800
+Like what? You can bind to
+
+00:00:13.800 --> 00:00:15.780
+lake houses, which are typically used
+
+00:00:15.780 --> 00:00:17.540
+to store massive amounts of operational
+
+00:00:17.540 --> 00:00:19.620
+reference data, historical inventory
+
+00:00:19.620 --> 00:00:21.840
+records, and shipment logs in open
+
+00:00:21.840 --> 00:00:23.960
+formats. OK. You can bind to
+
+00:00:23.960 --> 00:00:26.960
+event houses or KQL databases, which
+
+00:00:26.960 --> 00:00:28.780
+are specifically architected to handle
+
+00:00:28.780 --> 00:00:31.220
+high volume real -time streaming telemetry.
+
+00:00:31.580 --> 00:00:33.559
+Streaming like IoT devices.
+
+00:00:34.019 --> 00:00:35.980
+Exactly, like the second -by -second
+
+00:00:35.980 --> 00:00:37.260
+temperature readings from thousands
+
+00:00:37.260 --> 00:00:38.620
+of refrigeration units.
+
+00:00:39.019 --> 00:00:40.500
+You can point to traditional relational
+
+00:00:40.500 --> 00:00:43.279
+data warehouses, standard SQL databases,
+
+00:00:43.860 --> 00:00:46.100
+externally mirror databases, and as
+
+00:00:46.100 --> 00:00:48.300
+we discussed, power BI semantic models.

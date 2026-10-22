@@ -1,0 +1,5 @@
+Definitions route the question to sources
+Original recording 28:27–29:12
+ASR draft; technical-name spelling normalized.
+
+I'm a manager. I open the chat interface and I ask a highly complex question. I need an answer that requires checking physical inventory in the Lakehouse, cross -referencing current temperature telemetry in the Eventhouse, and calculating the financial impact using the DAX math in the semantic model. That's a huge request. Right. Does the system extract all that data from those three sources, pull it into some massive new temporary database and run the query there? No, and understanding this is profound for anyone evaluating the cost and performance of this system. The ontology supplies the definitions and the mappings. It acts as the routing intelligence. But when a consuming experience, like a chat interface, actually formulates the query, it executes that query against the appropriate native underlying engine.

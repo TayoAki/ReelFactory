@@ -56,5 +56,38 @@
   "source_start": 1148.750975,
   "source_end": 1219.050975,
   "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion.",
+  "caption_status": "Word-timed ASR draft; human proofreading pending",
+  "line_shot_edit": [
+    {
+      "LINE": "You rarely have just one perfect semantic model. You",
+      "SHOT": "Fixed fictional portrait rail + Governance resolves meaning",
+      "EDIT": "Reveal independent card at 0.7s; 420ms fade, 16px eased settling"
+    },
+    {
+      "LINE": "You have dozens. That's true. Marketing has a semantic model, sales has a semantic model, finance has",
+      "SHOT": "Fixed fictional portrait rail + Marketing customer",
+      "EDIT": "Reveal independent card at 6.12s; 420ms fade, 16px eased settling"
+    },
+    {
+      "LINE": "sales has a semantic model, finance has one, and they all have a concept called customer. Yes,",
+      "SHOT": "Fixed fictional portrait rail + Finance customer",
+      "EDIT": "Reveal independent card at 9.7s; 420ms fade, 16px eased settling"
+    }
+  ],
+  "viewer_understanding_before": "Marketing customer",
+  "viewer_understanding_after": "Governance resolves meaning",
+  "graphic_choice_reason": "Customer definitions still need a human decision: Compare interpretations without implying causation.",
+  "credible_alternative": "A single explanatory list",
+  "why_alternative_rejected": "A list obscures that one term/value can have competing interpretations; retain a common anchor and compare the two meanings.",
+  "cannot_establish": "This illustrative diagram cannot prove an actual product interaction, executed query, security guarantee or measured improvement.",
+  "reference_images_used_for_generation": [
+    "reference-library/frames/graphic/0003510.jpg",
+    "motion-pilot-fabric/fabric-theme/master.png",
+    "short-form-batch/recording-clips/assets/host.png",
+    "short-form-batch/recording-clips/assets/guest.png"
+  ],
+  "source_library_semantic_match": "Original reference supplies visual grammar; exact subject relationships are adapted from this recording. No claim of an exact reference-video semantic or motion match.",
+  "original_reference_url": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "review_status": "Draft; representative visual samples and artifact bounds checked, human editorial approval pending."
 }

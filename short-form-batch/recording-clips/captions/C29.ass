@@ -1,0 +1,137 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.08,0:00:00.39,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}When{\c&H002A2B17&\b0} a data\Nengineer sets up
+Dialogue: 0,0:00:00.39,0:00:00.48,Default,,0,0,0,,{\pos(540,1513)}When {\c&H00657811&\b1}a{\c&H002A2B17&\b0} data\Nengineer sets up
+Dialogue: 0,0:00:00.48,0:00:00.58,Default,,0,0,0,,{\pos(540,1513)}When a {\c&H00657811&\b1}data{\c&H002A2B17&\b0}\Nengineer sets up
+Dialogue: 0,0:00:00.58,0:00:00.98,Default,,0,0,0,,{\pos(540,1513)}When a data\N{\c&H00657811&\b1}engineer{\c&H002A2B17&\b0} sets up
+Dialogue: 0,0:00:00.98,0:00:01.29,Default,,0,0,0,,{\pos(540,1513)}When a data\Nengineer {\c&H00657811&\b1}sets{\c&H002A2B17&\b0} up
+Dialogue: 0,0:00:01.29,0:00:01.54,Default,,0,0,0,,{\pos(540,1513)}When a data\Nengineer sets {\c&H00657811&\b1}up{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:01.54,0:00:01.70,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}these{\c&H002A2B17&\b0} bindings, what\Nkind of systems
+Dialogue: 0,0:00:01.70,0:00:02.58,Default,,0,0,0,,{\pos(540,1513)}these {\c&H00657811&\b1}bindings,{\c&H002A2B17&\b0} what\Nkind of systems
+Dialogue: 0,0:00:02.58,0:00:02.74,Default,,0,0,0,,{\pos(540,1513)}these bindings, {\c&H00657811&\b1}what{\c&H002A2B17&\b0}\Nkind of systems
+Dialogue: 0,0:00:02.74,0:00:02.92,Default,,0,0,0,,{\pos(540,1513)}these bindings, what\N{\c&H00657811&\b1}kind{\c&H002A2B17&\b0} of systems
+Dialogue: 0,0:00:02.92,0:00:03.01,Default,,0,0,0,,{\pos(540,1513)}these bindings, what\Nkind {\c&H00657811&\b1}of{\c&H002A2B17&\b0} systems
+Dialogue: 0,0:00:03.01,0:00:03.26,Default,,0,0,0,,{\pos(540,1513)}these bindings, what\Nkind of {\c&H00657811&\b1}systems{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:03.26,0:00:03.55,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}are{\c&H002A2B17&\b0} they actually\Nreaching into?
+Dialogue: 0,0:00:03.55,0:00:03.72,Default,,0,0,0,,{\pos(540,1513)}are {\c&H00657811&\b1}they{\c&H002A2B17&\b0} actually\Nreaching into?
+Dialogue: 0,0:00:03.72,0:00:04.08,Default,,0,0,0,,{\pos(540,1513)}are they {\c&H00657811&\b1}actually{\c&H002A2B17&\b0}\Nreaching into?
+Dialogue: 0,0:00:04.08,0:00:04.42,Default,,0,0,0,,{\pos(540,1513)}are they actually\N{\c&H00657811&\b1}reaching{\c&H002A2B17&\b0} into?
+Dialogue: 0,0:00:04.42,0:00:04.88,Default,,0,0,0,,{\pos(540,1513)}are they actually\Nreaching {\c&H00657811&\b1}into?{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:05.20,0:00:05.58,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}According{\c&H002A2B17&\b0} to the\Nsource documentation,
+Dialogue: 0,0:00:05.58,0:00:05.80,Default,,0,0,0,,{\pos(540,1513)}According {\c&H00657811&\b1}to{\c&H002A2B17&\b0} the\Nsource documentation,
+Dialogue: 0,0:00:05.80,0:00:05.88,Default,,0,0,0,,{\pos(540,1513)}According to {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nsource documentation,
+Dialogue: 0,0:00:05.88,0:00:06.03,Default,,0,0,0,,{\pos(540,1513)}According to the\N{\c&H00657811&\b1}source{\c&H002A2B17&\b0} documentation,
+Dialogue: 0,0:00:06.03,0:00:06.54,Default,,0,0,0,,{\pos(540,1513)}According to the\Nsource {\c&H00657811&\b1}documentation,{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:06.74,0:00:07.26,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}the{\c&H002A2B17&\b0} bindings and\NFabric ontologies
+Dialogue: 0,0:00:07.26,0:00:07.68,Default,,0,0,0,,{\pos(540,1513)}the {\c&H00657811&\b1}bindings{\c&H002A2B17&\b0} and\NFabric ontologies
+Dialogue: 0,0:00:07.68,0:00:07.98,Default,,0,0,0,,{\pos(540,1513)}the bindings {\c&H00657811&\b1}and{\c&H002A2B17&\b0}\NFabric ontologies
+Dialogue: 0,0:00:07.98,0:00:08.30,Default,,0,0,0,,{\pos(540,1513)}the bindings and\N{\c&H00657811&\b1}Fabric{\c&H002A2B17&\b0} ontologies
+Dialogue: 0,0:00:08.30,0:00:08.86,Default,,0,0,0,,{\pos(540,1513)}the bindings and\NFabric {\c&H00657811&\b1}ontologies{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:08.86,0:00:09.27,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}can{\c&H002A2B17&\b0} point to a\Nsurprisingly wide
+Dialogue: 0,0:00:09.27,0:00:09.53,Default,,0,0,0,,{\pos(540,1513)}can {\c&H00657811&\b1}point{\c&H002A2B17&\b0} to a\Nsurprisingly wide
+Dialogue: 0,0:00:09.53,0:00:09.72,Default,,0,0,0,,{\pos(540,1513)}can point {\c&H00657811&\b1}to{\c&H002A2B17&\b0} a\Nsurprisingly wide
+Dialogue: 0,0:00:09.72,0:00:09.80,Default,,0,0,0,,{\pos(540,1513)}can point to {\c&H00657811&\b1}a{\c&H002A2B17&\b0}\Nsurprisingly wide
+Dialogue: 0,0:00:09.80,0:00:10.18,Default,,0,0,0,,{\pos(540,1513)}can point to a\N{\c&H00657811&\b1}surprisingly{\c&H002A2B17&\b0} wide
+Dialogue: 0,0:00:10.18,0:00:10.72,Default,,0,0,0,,{\pos(540,1513)}can point to a\Nsurprisingly {\c&H00657811&\b1}wide{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:10.72,0:00:11.20,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}variety{\c&H002A2B17&\b0} of data\Narchitectures.
+Dialogue: 0,0:00:11.20,0:00:11.34,Default,,0,0,0,,{\pos(540,1513)}variety {\c&H00657811&\b1}of{\c&H002A2B17&\b0} data\Narchitectures.
+Dialogue: 0,0:00:11.34,0:00:11.48,Default,,0,0,0,,{\pos(540,1513)}variety of {\c&H00657811&\b1}data{\c&H002A2B17&\b0}\Narchitectures.
+Dialogue: 0,0:00:11.48,0:00:12.05,Default,,0,0,0,,{\pos(540,1513)}variety of data\N{\c&H00657811&\b1}architectures.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:12.46,0:00:12.52,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Like{\c&H002A2B17&\b0} what? You can bind to
+Dialogue: 0,0:00:12.52,0:00:12.98,Default,,0,0,0,,{\pos(540,1513)}Like {\c&H00657811&\b1}what?{\c&H002A2B17&\b0} You can bind to
+Dialogue: 0,0:00:12.98,0:00:13.22,Default,,0,0,0,,{\pos(540,1513)}Like what? {\c&H00657811&\b1}You{\c&H002A2B17&\b0} can bind to
+Dialogue: 0,0:00:13.22,0:00:13.36,Default,,0,0,0,,{\pos(540,1513)}Like what? You {\c&H00657811&\b1}can{\c&H002A2B17&\b0} bind to
+Dialogue: 0,0:00:13.36,0:00:13.54,Default,,0,0,0,,{\pos(540,1513)}Like what? You can {\c&H00657811&\b1}bind{\c&H002A2B17&\b0} to
+Dialogue: 0,0:00:13.54,0:00:13.80,Default,,0,0,0,,{\pos(540,1513)}Like what? You can bind {\c&H00657811&\b1}to{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:13.80,0:00:13.98,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}lake{\c&H002A2B17&\b0} houses, which\Nare typically used
+Dialogue: 0,0:00:13.98,0:00:14.59,Default,,0,0,0,,{\pos(540,1513)}lake {\c&H00657811&\b1}houses,{\c&H002A2B17&\b0} which\Nare typically used
+Dialogue: 0,0:00:14.59,0:00:14.89,Default,,0,0,0,,{\pos(540,1513)}lake houses, {\c&H00657811&\b1}which{\c&H002A2B17&\b0}\Nare typically used
+Dialogue: 0,0:00:14.89,0:00:15.07,Default,,0,0,0,,{\pos(540,1513)}lake houses, which\N{\c&H00657811&\b1}are{\c&H002A2B17&\b0} typically used
+Dialogue: 0,0:00:15.07,0:00:15.38,Default,,0,0,0,,{\pos(540,1513)}lake houses, which\Nare {\c&H00657811&\b1}typically{\c&H002A2B17&\b0} used
+Dialogue: 0,0:00:15.38,0:00:15.78,Default,,0,0,0,,{\pos(540,1513)}lake houses, which\Nare typically {\c&H00657811&\b1}used{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:15.78,0:00:15.94,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}to{\c&H002A2B17&\b0} store massive\Namounts of operational
+Dialogue: 0,0:00:15.94,0:00:16.14,Default,,0,0,0,,{\pos(540,1513)}to {\c&H00657811&\b1}store{\c&H002A2B17&\b0} massive\Namounts of operational
+Dialogue: 0,0:00:16.14,0:00:16.55,Default,,0,0,0,,{\pos(540,1513)}to store {\c&H00657811&\b1}massive{\c&H002A2B17&\b0}\Namounts of operational
+Dialogue: 0,0:00:16.55,0:00:16.98,Default,,0,0,0,,{\pos(540,1513)}to store massive\N{\c&H00657811&\b1}amounts{\c&H002A2B17&\b0} of operational
+Dialogue: 0,0:00:16.98,0:00:17.20,Default,,0,0,0,,{\pos(540,1513)}to store massive\Namounts {\c&H00657811&\b1}of{\c&H002A2B17&\b0} operational
+Dialogue: 0,0:00:17.20,0:00:17.54,Default,,0,0,0,,{\pos(540,1513)}to store massive\Namounts of {\c&H00657811&\b1}operational{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:17.54,0:00:18.04,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}reference{\c&H002A2B17&\b0} data,\Nhistorical inventory
+Dialogue: 0,0:00:18.04,0:00:19.20,Default,,0,0,0,,{\pos(540,1513)}reference {\c&H00657811&\b1}data,{\c&H002A2B17&\b0}\Nhistorical inventory
+Dialogue: 0,0:00:19.20,0:00:19.23,Default,,0,0,0,,{\pos(540,1513)}reference data,\N{\c&H00657811&\b1}historical{\c&H002A2B17&\b0} inventory
+Dialogue: 0,0:00:19.23,0:00:19.62,Default,,0,0,0,,{\pos(540,1513)}reference data,\Nhistorical {\c&H00657811&\b1}inventory{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:19.62,0:00:20.24,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}records,{\c&H002A2B17&\b0} and\Nshipment logs in open
+Dialogue: 0,0:00:20.24,0:00:20.58,Default,,0,0,0,,{\pos(540,1513)}records, {\c&H00657811&\b1}and{\c&H002A2B17&\b0}\Nshipment logs in open
+Dialogue: 0,0:00:20.58,0:00:20.82,Default,,0,0,0,,{\pos(540,1513)}records, and\N{\c&H00657811&\b1}shipment{\c&H002A2B17&\b0} logs in open
+Dialogue: 0,0:00:20.82,0:00:21.18,Default,,0,0,0,,{\pos(540,1513)}records, and\Nshipment {\c&H00657811&\b1}logs{\c&H002A2B17&\b0} in open
+Dialogue: 0,0:00:21.18,0:00:21.56,Default,,0,0,0,,{\pos(540,1513)}records, and\Nshipment logs {\c&H00657811&\b1}in{\c&H002A2B17&\b0} open
+Dialogue: 0,0:00:21.56,0:00:21.84,Default,,0,0,0,,{\pos(540,1513)}records, and\Nshipment logs in {\c&H00657811&\b1}open{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:21.84,0:00:22.64,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}formats.{\c&H002A2B17&\b0} OK. You can bind to
+Dialogue: 0,0:00:22.64,0:00:23.26,Default,,0,0,0,,{\pos(540,1513)}formats. {\c&H00657811&\b1}OK.{\c&H002A2B17&\b0} You can bind to
+Dialogue: 0,0:00:23.26,0:00:23.48,Default,,0,0,0,,{\pos(540,1513)}formats. OK. {\c&H00657811&\b1}You{\c&H002A2B17&\b0} can bind to
+Dialogue: 0,0:00:23.48,0:00:23.58,Default,,0,0,0,,{\pos(540,1513)}formats. OK. You {\c&H00657811&\b1}can{\c&H002A2B17&\b0} bind to
+Dialogue: 0,0:00:23.58,0:00:23.76,Default,,0,0,0,,{\pos(540,1513)}formats. OK. You can {\c&H00657811&\b1}bind{\c&H002A2B17&\b0} to
+Dialogue: 0,0:00:23.76,0:00:23.96,Default,,0,0,0,,{\pos(540,1513)}formats. OK. You can bind {\c&H00657811&\b1}to{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:23.96,0:00:24.12,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}event{\c&H002A2B17&\b0} houses or KQL\Ndatabases, which
+Dialogue: 0,0:00:24.12,0:00:24.48,Default,,0,0,0,,{\pos(540,1513)}event {\c&H00657811&\b1}houses{\c&H002A2B17&\b0} or KQL\Ndatabases, which
+Dialogue: 0,0:00:24.48,0:00:25.00,Default,,0,0,0,,{\pos(540,1513)}event houses {\c&H00657811&\b1}or{\c&H002A2B17&\b0} KQL\Ndatabases, which
+Dialogue: 0,0:00:25.00,0:00:25.52,Default,,0,0,0,,{\pos(540,1513)}event houses or {\c&H00657811&\b1}KQL{\c&H002A2B17&\b0}\Ndatabases, which
+Dialogue: 0,0:00:25.52,0:00:26.74,Default,,0,0,0,,{\pos(540,1513)}event houses or KQL\N{\c&H00657811&\b1}databases,{\c&H002A2B17&\b0} which
+Dialogue: 0,0:00:26.74,0:00:26.96,Default,,0,0,0,,{\pos(540,1513)}event houses or KQL\Ndatabases, {\c&H00657811&\b1}which{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:26.96,0:00:27.14,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}are{\c&H002A2B17&\b0} specifically\Narchitected to handle
+Dialogue: 0,0:00:27.14,0:00:27.60,Default,,0,0,0,,{\pos(540,1513)}are {\c&H00657811&\b1}specifically{\c&H002A2B17&\b0}\Narchitected to handle
+Dialogue: 0,0:00:27.60,0:00:28.46,Default,,0,0,0,,{\pos(540,1513)}are specifically\N{\c&H00657811&\b1}architected{\c&H002A2B17&\b0} to handle
+Dialogue: 0,0:00:28.46,0:00:28.58,Default,,0,0,0,,{\pos(540,1513)}are specifically\Narchitected {\c&H00657811&\b1}to{\c&H002A2B17&\b0} handle
+Dialogue: 0,0:00:28.58,0:00:28.78,Default,,0,0,0,,{\pos(540,1513)}are specifically\Narchitected to {\c&H00657811&\b1}handle{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:28.78,0:00:29.14,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}high{\c&H002A2B17&\b0} volume real -time\Nstreaming telemetry.
+Dialogue: 0,0:00:29.14,0:00:29.56,Default,,0,0,0,,{\pos(540,1513)}high {\c&H00657811&\b1}volume{\c&H002A2B17&\b0} real -time\Nstreaming telemetry.
+Dialogue: 0,0:00:29.56,0:00:29.84,Default,,0,0,0,,{\pos(540,1513)}high volume {\c&H00657811&\b1}real{\c&H002A2B17&\b0} -time\Nstreaming telemetry.
+Dialogue: 0,0:00:29.84,0:00:30.18,Default,,0,0,0,,{\pos(540,1513)}high volume real {\c&H00657811&\b1}-time{\c&H002A2B17&\b0}\Nstreaming telemetry.
+Dialogue: 0,0:00:30.18,0:00:30.50,Default,,0,0,0,,{\pos(540,1513)}high volume real -time\N{\c&H00657811&\b1}streaming{\c&H002A2B17&\b0} telemetry.
+Dialogue: 0,0:00:30.50,0:00:31.22,Default,,0,0,0,,{\pos(540,1513)}high volume real -time\Nstreaming {\c&H00657811&\b1}telemetry.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:31.58,0:00:31.90,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Streaming{\c&H002A2B17&\b0} like IoT devices.
+Dialogue: 0,0:00:31.90,0:00:32.34,Default,,0,0,0,,{\pos(540,1513)}Streaming {\c&H00657811&\b1}like{\c&H002A2B17&\b0} IoT devices.
+Dialogue: 0,0:00:32.34,0:00:32.92,Default,,0,0,0,,{\pos(540,1513)}Streaming like {\c&H00657811&\b1}IoT{\c&H002A2B17&\b0} devices.
+Dialogue: 0,0:00:32.92,0:00:33.55,Default,,0,0,0,,{\pos(540,1513)}Streaming like IoT {\c&H00657811&\b1}devices.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:34.01,0:00:34.64,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Exactly,{\c&H002A2B17&\b0} like the\Nsecond -by -second
+Dialogue: 0,0:00:34.64,0:00:34.90,Default,,0,0,0,,{\pos(540,1513)}Exactly, {\c&H00657811&\b1}like{\c&H002A2B17&\b0} the\Nsecond -by -second
+Dialogue: 0,0:00:34.90,0:00:35.22,Default,,0,0,0,,{\pos(540,1513)}Exactly, like {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nsecond -by -second
+Dialogue: 0,0:00:35.22,0:00:35.56,Default,,0,0,0,,{\pos(540,1513)}Exactly, like the\N{\c&H00657811&\b1}second{\c&H002A2B17&\b0} -by -second
+Dialogue: 0,0:00:35.56,0:00:35.72,Default,,0,0,0,,{\pos(540,1513)}Exactly, like the\Nsecond {\c&H00657811&\b1}-by{\c&H002A2B17&\b0} -second
+Dialogue: 0,0:00:35.72,0:00:35.98,Default,,0,0,0,,{\pos(540,1513)}Exactly, like the\Nsecond -by {\c&H00657811&\b1}-second{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:35.98,0:00:36.34,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}temperature{\c&H002A2B17&\b0} readings\Nfrom thousands
+Dialogue: 0,0:00:36.34,0:00:36.68,Default,,0,0,0,,{\pos(540,1513)}temperature {\c&H00657811&\b1}readings{\c&H002A2B17&\b0}\Nfrom thousands
+Dialogue: 0,0:00:36.68,0:00:36.96,Default,,0,0,0,,{\pos(540,1513)}temperature readings\N{\c&H00657811&\b1}from{\c&H002A2B17&\b0} thousands
+Dialogue: 0,0:00:36.96,0:00:37.26,Default,,0,0,0,,{\pos(540,1513)}temperature readings\Nfrom {\c&H00657811&\b1}thousands{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:37.26,0:00:37.68,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}of{\c&H002A2B17&\b0} refrigeration units.
+Dialogue: 0,0:00:37.68,0:00:38.26,Default,,0,0,0,,{\pos(540,1513)}of {\c&H00657811&\b1}refrigeration{\c&H002A2B17&\b0} units.
+Dialogue: 0,0:00:38.26,0:00:38.61,Default,,0,0,0,,{\pos(540,1513)}of refrigeration {\c&H00657811&\b1}units.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:39.01,0:00:39.18,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}You{\c&H002A2B17&\b0} can point to\Ntraditional relational
+Dialogue: 0,0:00:39.18,0:00:39.28,Default,,0,0,0,,{\pos(540,1513)}You {\c&H00657811&\b1}can{\c&H002A2B17&\b0} point to\Ntraditional relational
+Dialogue: 0,0:00:39.28,0:00:39.46,Default,,0,0,0,,{\pos(540,1513)}You can {\c&H00657811&\b1}point{\c&H002A2B17&\b0} to\Ntraditional relational
+Dialogue: 0,0:00:39.46,0:00:39.62,Default,,0,0,0,,{\pos(540,1513)}You can point {\c&H00657811&\b1}to{\c&H002A2B17&\b0}\Ntraditional relational
+Dialogue: 0,0:00:39.62,0:00:40.06,Default,,0,0,0,,{\pos(540,1513)}You can point to\N{\c&H00657811&\b1}traditional{\c&H002A2B17&\b0} relational
+Dialogue: 0,0:00:40.06,0:00:40.50,Default,,0,0,0,,{\pos(540,1513)}You can point to\Ntraditional {\c&H00657811&\b1}relational{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:40.50,0:00:40.90,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}data{\c&H002A2B17&\b0} warehouses,\Nstandard SQL databases,
+Dialogue: 0,0:00:40.90,0:00:41.88,Default,,0,0,0,,{\pos(540,1513)}data {\c&H00657811&\b1}warehouses,{\c&H002A2B17&\b0}\Nstandard SQL databases,
+Dialogue: 0,0:00:41.88,0:00:42.34,Default,,0,0,0,,{\pos(540,1513)}data warehouses,\N{\c&H00657811&\b1}standard{\c&H002A2B17&\b0} SQL databases,
+Dialogue: 0,0:00:42.34,0:00:42.64,Default,,0,0,0,,{\pos(540,1513)}data warehouses,\Nstandard {\c&H00657811&\b1}SQL{\c&H002A2B17&\b0} databases,
+Dialogue: 0,0:00:42.64,0:00:43.27,Default,,0,0,0,,{\pos(540,1513)}data warehouses,\Nstandard SQL {\c&H00657811&\b1}databases,{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:43.86,0:00:44.36,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}externally{\c&H002A2B17&\b0} mirror\Ndatabases, and as
+Dialogue: 0,0:00:44.36,0:00:44.76,Default,,0,0,0,,{\pos(540,1513)}externally {\c&H00657811&\b1}mirror{\c&H002A2B17&\b0}\Ndatabases, and as
+Dialogue: 0,0:00:44.76,0:00:45.64,Default,,0,0,0,,{\pos(540,1513)}externally mirror\N{\c&H00657811&\b1}databases,{\c&H002A2B17&\b0} and as
+Dialogue: 0,0:00:45.64,0:00:45.82,Default,,0,0,0,,{\pos(540,1513)}externally mirror\Ndatabases, {\c&H00657811&\b1}and{\c&H002A2B17&\b0} as
+Dialogue: 0,0:00:45.82,0:00:46.10,Default,,0,0,0,,{\pos(540,1513)}externally mirror\Ndatabases, and {\c&H00657811&\b1}as{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:46.10,0:00:46.22,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}we{\c&H002A2B17&\b0} discussed, power\NBI semantic models.
+Dialogue: 0,0:00:46.22,0:00:46.88,Default,,0,0,0,,{\pos(540,1513)}we {\c&H00657811&\b1}discussed,{\c&H002A2B17&\b0} power\NBI semantic models.
+Dialogue: 0,0:00:46.88,0:00:47.16,Default,,0,0,0,,{\pos(540,1513)}we discussed, {\c&H00657811&\b1}power{\c&H002A2B17&\b0}\NBI semantic models.
+Dialogue: 0,0:00:47.16,0:00:47.42,Default,,0,0,0,,{\pos(540,1513)}we discussed, power\N{\c&H00657811&\b1}BI{\c&H002A2B17&\b0} semantic models.
+Dialogue: 0,0:00:47.42,0:00:47.78,Default,,0,0,0,,{\pos(540,1513)}we discussed, power\NBI {\c&H00657811&\b1}semantic{\c&H002A2B17&\b0} models.
+Dialogue: 0,0:00:47.78,0:00:48.30,Default,,0,0,0,,{\pos(540,1513)}we discussed, power\NBI semantic {\c&H00657811&\b1}models.{\c&H002A2B17&\b0}

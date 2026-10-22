@@ -1,0 +1,147 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.18,0:00:00.20,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Do{\c&H002A2B17&\b0} not borrow\Npercentage improvement
+Dialogue: 0,0:00:00.20,0:00:00.39,Default,,0,0,0,,{\pos(540,1513)}Do {\c&H00657811&\b1}not{\c&H002A2B17&\b0} borrow\Npercentage improvement
+Dialogue: 0,0:00:00.39,0:00:00.64,Default,,0,0,0,,{\pos(540,1513)}Do not {\c&H00657811&\b1}borrow{\c&H002A2B17&\b0}\Npercentage improvement
+Dialogue: 0,0:00:00.64,0:00:01.27,Default,,0,0,0,,{\pos(540,1513)}Do not borrow\N{\c&H00657811&\b1}percentage{\c&H002A2B17&\b0} improvement
+Dialogue: 0,0:00:01.27,0:00:01.81,Default,,0,0,0,,{\pos(540,1513)}Do not borrow\Npercentage {\c&H00657811&\b1}improvement{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:01.81,0:00:02.46,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}benchmarks{\c&H002A2B17&\b0} from\Nother vendors, and
+Dialogue: 0,0:00:02.46,0:00:02.74,Default,,0,0,0,,{\pos(540,1513)}benchmarks {\c&H00657811&\b1}from{\c&H002A2B17&\b0}\Nother vendors, and
+Dialogue: 0,0:00:02.74,0:00:02.94,Default,,0,0,0,,{\pos(540,1513)}benchmarks from\N{\c&H00657811&\b1}other{\c&H002A2B17&\b0} vendors, and
+Dialogue: 0,0:00:02.94,0:00:04.00,Default,,0,0,0,,{\pos(540,1513)}benchmarks from\Nother {\c&H00657811&\b1}vendors,{\c&H002A2B17&\b0} and
+Dialogue: 0,0:00:04.00,0:00:04.09,Default,,0,0,0,,{\pos(540,1513)}benchmarks from\Nother vendors, {\c&H00657811&\b1}and{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:04.09,0:00:04.26,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}do{\c&H002A2B17&\b0} not even borrow\Nbenchmarks from
+Dialogue: 0,0:00:04.26,0:00:04.42,Default,,0,0,0,,{\pos(540,1513)}do {\c&H00657811&\b1}not{\c&H002A2B17&\b0} even borrow\Nbenchmarks from
+Dialogue: 0,0:00:04.42,0:00:04.55,Default,,0,0,0,,{\pos(540,1513)}do not {\c&H00657811&\b1}even{\c&H002A2B17&\b0} borrow\Nbenchmarks from
+Dialogue: 0,0:00:04.55,0:00:04.96,Default,,0,0,0,,{\pos(540,1513)}do not even {\c&H00657811&\b1}borrow{\c&H002A2B17&\b0}\Nbenchmarks from
+Dialogue: 0,0:00:04.96,0:00:05.30,Default,,0,0,0,,{\pos(540,1513)}do not even borrow\N{\c&H00657811&\b1}benchmarks{\c&H002A2B17&\b0} from
+Dialogue: 0,0:00:05.30,0:00:05.64,Default,,0,0,0,,{\pos(540,1513)}do not even borrow\Nbenchmarks {\c&H00657811&\b1}from{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:05.64,0:00:05.80,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}other{\c&H002A2B17&\b0} workflows within\Nyour own company.
+Dialogue: 0,0:00:05.80,0:00:06.27,Default,,0,0,0,,{\pos(540,1513)}other {\c&H00657811&\b1}workflows{\c&H002A2B17&\b0} within\Nyour own company.
+Dialogue: 0,0:00:06.27,0:00:06.64,Default,,0,0,0,,{\pos(540,1513)}other workflows {\c&H00657811&\b1}within{\c&H002A2B17&\b0}\Nyour own company.
+Dialogue: 0,0:00:06.64,0:00:06.82,Default,,0,0,0,,{\pos(540,1513)}other workflows within\N{\c&H00657811&\b1}your{\c&H002A2B17&\b0} own company.
+Dialogue: 0,0:00:06.82,0:00:07.00,Default,,0,0,0,,{\pos(540,1513)}other workflows within\Nyour {\c&H00657811&\b1}own{\c&H002A2B17&\b0} company.
+Dialogue: 0,0:00:07.00,0:00:07.48,Default,,0,0,0,,{\pos(540,1513)}other workflows within\Nyour own {\c&H00657811&\b1}company.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:08.02,0:00:08.30,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}You{\c&H002A2B17&\b0} have to test this system
+Dialogue: 0,0:00:08.30,0:00:08.52,Default,,0,0,0,,{\pos(540,1513)}You {\c&H00657811&\b1}have{\c&H002A2B17&\b0} to test this system
+Dialogue: 0,0:00:08.52,0:00:08.68,Default,,0,0,0,,{\pos(540,1513)}You have {\c&H00657811&\b1}to{\c&H002A2B17&\b0} test this system
+Dialogue: 0,0:00:08.68,0:00:08.90,Default,,0,0,0,,{\pos(540,1513)}You have to {\c&H00657811&\b1}test{\c&H002A2B17&\b0} this system
+Dialogue: 0,0:00:08.90,0:00:09.11,Default,,0,0,0,,{\pos(540,1513)}You have to test {\c&H00657811&\b1}this{\c&H002A2B17&\b0} system
+Dialogue: 0,0:00:09.11,0:00:09.52,Default,,0,0,0,,{\pos(540,1513)}You have to test this {\c&H00657811&\b1}system{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:09.52,0:00:09.76,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}against{\c&H002A2B17&\b0} your own\Ncurrent manual process
+Dialogue: 0,0:00:09.76,0:00:10.03,Default,,0,0,0,,{\pos(540,1513)}against {\c&H00657811&\b1}your{\c&H002A2B17&\b0} own\Ncurrent manual process
+Dialogue: 0,0:00:10.03,0:00:10.38,Default,,0,0,0,,{\pos(540,1513)}against your {\c&H00657811&\b1}own{\c&H002A2B17&\b0}\Ncurrent manual process
+Dialogue: 0,0:00:10.38,0:00:10.86,Default,,0,0,0,,{\pos(540,1513)}against your own\N{\c&H00657811&\b1}current{\c&H002A2B17&\b0} manual process
+Dialogue: 0,0:00:10.86,0:00:11.42,Default,,0,0,0,,{\pos(540,1513)}against your own\Ncurrent {\c&H00657811&\b1}manual{\c&H002A2B17&\b0} process
+Dialogue: 0,0:00:11.42,0:00:11.96,Default,,0,0,0,,{\pos(540,1513)}against your own\Ncurrent manual {\c&H00657811&\b1}process{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:11.96,0:00:12.28,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}for{\c&H002A2B17&\b0} a highly specific decision.
+Dialogue: 0,0:00:12.28,0:00:12.40,Default,,0,0,0,,{\pos(540,1513)}for {\c&H00657811&\b1}a{\c&H002A2B17&\b0} highly specific decision.
+Dialogue: 0,0:00:12.40,0:00:12.76,Default,,0,0,0,,{\pos(540,1513)}for a {\c&H00657811&\b1}highly{\c&H002A2B17&\b0} specific decision.
+Dialogue: 0,0:00:12.76,0:00:13.16,Default,,0,0,0,,{\pos(540,1513)}for a highly {\c&H00657811&\b1}specific{\c&H002A2B17&\b0} decision.
+Dialogue: 0,0:00:13.16,0:00:13.92,Default,,0,0,0,,{\pos(540,1513)}for a highly specific {\c&H00657811&\b1}decision.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:14.36,0:00:14.52,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}How{\c&H002A2B17&\b0} do you structure\Nthat measurement?
+Dialogue: 0,0:00:14.52,0:00:14.60,Default,,0,0,0,,{\pos(540,1513)}How {\c&H00657811&\b1}do{\c&H002A2B17&\b0} you structure\Nthat measurement?
+Dialogue: 0,0:00:14.60,0:00:14.64,Default,,0,0,0,,{\pos(540,1513)}How do {\c&H00657811&\b1}you{\c&H002A2B17&\b0} structure\Nthat measurement?
+Dialogue: 0,0:00:14.64,0:00:14.84,Default,,0,0,0,,{\pos(540,1513)}How do you {\c&H00657811&\b1}structure{\c&H002A2B17&\b0}\Nthat measurement?
+Dialogue: 0,0:00:14.84,0:00:15.10,Default,,0,0,0,,{\pos(540,1513)}How do you structure\N{\c&H00657811&\b1}that{\c&H002A2B17&\b0} measurement?
+Dialogue: 0,0:00:15.10,0:00:15.49,Default,,0,0,0,,{\pos(540,1513)}How do you structure\Nthat {\c&H00657811&\b1}measurement?{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:16.18,0:00:16.32,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}You{\c&H002A2B17&\b0} start with a\Nrepresentative business
+Dialogue: 0,0:00:16.32,0:00:16.48,Default,,0,0,0,,{\pos(540,1513)}You {\c&H00657811&\b1}start{\c&H002A2B17&\b0} with a\Nrepresentative business
+Dialogue: 0,0:00:16.48,0:00:16.68,Default,,0,0,0,,{\pos(540,1513)}You start {\c&H00657811&\b1}with{\c&H002A2B17&\b0} a\Nrepresentative business
+Dialogue: 0,0:00:16.68,0:00:16.78,Default,,0,0,0,,{\pos(540,1513)}You start with {\c&H00657811&\b1}a{\c&H002A2B17&\b0}\Nrepresentative business
+Dialogue: 0,0:00:16.78,0:00:17.30,Default,,0,0,0,,{\pos(540,1513)}You start with a\N{\c&H00657811&\b1}representative{\c&H002A2B17&\b0} business
+Dialogue: 0,0:00:17.30,0:00:17.66,Default,,0,0,0,,{\pos(540,1513)}You start with a\Nrepresentative {\c&H00657811&\b1}business{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:17.66,0:00:18.10,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}question{\c&H002A2B17&\b0} where you\Nalready definitively
+Dialogue: 0,0:00:18.10,0:00:18.44,Default,,0,0,0,,{\pos(540,1513)}question {\c&H00657811&\b1}where{\c&H002A2B17&\b0} you\Nalready definitively
+Dialogue: 0,0:00:18.44,0:00:18.62,Default,,0,0,0,,{\pos(540,1513)}question where {\c&H00657811&\b1}you{\c&H002A2B17&\b0}\Nalready definitively
+Dialogue: 0,0:00:18.62,0:00:19.05,Default,,0,0,0,,{\pos(540,1513)}question where you\N{\c&H00657811&\b1}already{\c&H002A2B17&\b0} definitively
+Dialogue: 0,0:00:19.05,0:00:19.54,Default,,0,0,0,,{\pos(540,1513)}question where you\Nalready {\c&H00657811&\b1}definitively{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:19.54,0:00:20.14,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}know{\c&H002A2B17&\b0} the correct answer.
+Dialogue: 0,0:00:20.14,0:00:20.30,Default,,0,0,0,,{\pos(540,1513)}know {\c&H00657811&\b1}the{\c&H002A2B17&\b0} correct answer.
+Dialogue: 0,0:00:20.30,0:00:20.46,Default,,0,0,0,,{\pos(540,1513)}know the {\c&H00657811&\b1}correct{\c&H002A2B17&\b0} answer.
+Dialogue: 0,0:00:20.46,0:00:20.98,Default,,0,0,0,,{\pos(540,1513)}know the correct {\c&H00657811&\b1}answer.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:21.52,0:00:21.64,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}You{\c&H002A2B17&\b0} test whether the new AI
+Dialogue: 0,0:00:21.64,0:00:21.92,Default,,0,0,0,,{\pos(540,1513)}You {\c&H00657811&\b1}test{\c&H002A2B17&\b0} whether the new AI
+Dialogue: 0,0:00:21.92,0:00:22.32,Default,,0,0,0,,{\pos(540,1513)}You test {\c&H00657811&\b1}whether{\c&H002A2B17&\b0} the new AI
+Dialogue: 0,0:00:22.32,0:00:22.56,Default,,0,0,0,,{\pos(540,1513)}You test whether {\c&H00657811&\b1}the{\c&H002A2B17&\b0} new AI
+Dialogue: 0,0:00:22.56,0:00:22.74,Default,,0,0,0,,{\pos(540,1513)}You test whether the {\c&H00657811&\b1}new{\c&H002A2B17&\b0} AI
+Dialogue: 0,0:00:22.74,0:00:23.04,Default,,0,0,0,,{\pos(540,1513)}You test whether the new {\c&H00657811&\b1}AI{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:23.04,0:00:23.42,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}workflow{\c&H002A2B17&\b0} selects\Nthe right concepts,
+Dialogue: 0,0:00:23.42,0:00:23.92,Default,,0,0,0,,{\pos(540,1513)}workflow {\c&H00657811&\b1}selects{\c&H002A2B17&\b0}\Nthe right concepts,
+Dialogue: 0,0:00:23.92,0:00:24.26,Default,,0,0,0,,{\pos(540,1513)}workflow selects\N{\c&H00657811&\b1}the{\c&H002A2B17&\b0} right concepts,
+Dialogue: 0,0:00:24.26,0:00:24.42,Default,,0,0,0,,{\pos(540,1513)}workflow selects\Nthe {\c&H00657811&\b1}right{\c&H002A2B17&\b0} concepts,
+Dialogue: 0,0:00:24.42,0:00:24.94,Default,,0,0,0,,{\pos(540,1513)}workflow selects\Nthe right {\c&H00657811&\b1}concepts,{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:25.46,0:00:25.70,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}uses{\c&H002A2B17&\b0} the right DAX\Ncalculations, strictly
+Dialogue: 0,0:00:25.70,0:00:25.92,Default,,0,0,0,,{\pos(540,1513)}uses {\c&H00657811&\b1}the{\c&H002A2B17&\b0} right DAX\Ncalculations, strictly
+Dialogue: 0,0:00:25.92,0:00:26.11,Default,,0,0,0,,{\pos(540,1513)}uses the {\c&H00657811&\b1}right{\c&H002A2B17&\b0} DAX\Ncalculations, strictly
+Dialogue: 0,0:00:26.11,0:00:26.50,Default,,0,0,0,,{\pos(540,1513)}uses the right {\c&H00657811&\b1}DAX{\c&H002A2B17&\b0}\Ncalculations, strictly
+Dialogue: 0,0:00:26.50,0:00:27.94,Default,,0,0,0,,{\pos(540,1513)}uses the right DAX\N{\c&H00657811&\b1}calculations,{\c&H002A2B17&\b0} strictly
+Dialogue: 0,0:00:27.94,0:00:28.38,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}respects{\c&H002A2B17&\b0} user access\Npermissions, and
+Dialogue: 0,0:00:28.38,0:00:28.76,Default,,0,0,0,,{\pos(540,1513)}respects {\c&H00657811&\b1}user{\c&H002A2B17&\b0} access\Npermissions, and
+Dialogue: 0,0:00:28.76,0:00:29.18,Default,,0,0,0,,{\pos(540,1513)}respects user {\c&H00657811&\b1}access{\c&H002A2B17&\b0}\Npermissions, and
+Dialogue: 0,0:00:29.18,0:00:30.38,Default,,0,0,0,,{\pos(540,1513)}respects user access\N{\c&H00657811&\b1}permissions,{\c&H002A2B17&\b0} and
+Dialogue: 0,0:00:30.38,0:00:30.46,Default,,0,0,0,,{\pos(540,1513)}respects user access\Npermissions, {\c&H00657811&\b1}and{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:30.46,0:00:30.72,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}returns{\c&H002A2B17&\b0} evidence that\Na human operator
+Dialogue: 0,0:00:30.72,0:00:31.00,Default,,0,0,0,,{\pos(540,1513)}returns {\c&H00657811&\b1}evidence{\c&H002A2B17&\b0} that\Na human operator
+Dialogue: 0,0:00:31.00,0:00:31.38,Default,,0,0,0,,{\pos(540,1513)}returns evidence {\c&H00657811&\b1}that{\c&H002A2B17&\b0}\Na human operator
+Dialogue: 0,0:00:31.38,0:00:31.48,Default,,0,0,0,,{\pos(540,1513)}returns evidence that\N{\c&H00657811&\b1}a{\c&H002A2B17&\b0} human operator
+Dialogue: 0,0:00:31.48,0:00:31.70,Default,,0,0,0,,{\pos(540,1513)}returns evidence that\Na {\c&H00657811&\b1}human{\c&H002A2B17&\b0} operator
+Dialogue: 0,0:00:31.70,0:00:32.06,Default,,0,0,0,,{\pos(540,1513)}returns evidence that\Na human {\c&H00657811&\b1}operator{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:32.06,0:00:32.38,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}can{\c&H002A2B17&\b0} actually verify.
+Dialogue: 0,0:00:32.38,0:00:32.84,Default,,0,0,0,,{\pos(540,1513)}can {\c&H00657811&\b1}actually{\c&H002A2B17&\b0} verify.
+Dialogue: 0,0:00:32.84,0:00:33.19,Default,,0,0,0,,{\pos(540,1513)}can actually {\c&H00657811&\b1}verify.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:33.68,0:00:33.78,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}And{\c&H002A2B17&\b0} then you time it.
+Dialogue: 0,0:00:33.78,0:00:33.88,Default,,0,0,0,,{\pos(540,1513)}And {\c&H00657811&\b1}then{\c&H002A2B17&\b0} you time it.
+Dialogue: 0,0:00:33.88,0:00:34.01,Default,,0,0,0,,{\pos(540,1513)}And then {\c&H00657811&\b1}you{\c&H002A2B17&\b0} time it.
+Dialogue: 0,0:00:34.01,0:00:34.20,Default,,0,0,0,,{\pos(540,1513)}And then you {\c&H00657811&\b1}time{\c&H002A2B17&\b0} it.
+Dialogue: 0,0:00:34.20,0:00:34.49,Default,,0,0,0,,{\pos(540,1513)}And then you time {\c&H00657811&\b1}it.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:35.01,0:00:35.29,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Then{\c&H002A2B17&\b0} you strictly\Ntime how long
+Dialogue: 0,0:00:35.29,0:00:35.42,Default,,0,0,0,,{\pos(540,1513)}Then {\c&H00657811&\b1}you{\c&H002A2B17&\b0} strictly\Ntime how long
+Dialogue: 0,0:00:35.42,0:00:35.64,Default,,0,0,0,,{\pos(540,1513)}Then you {\c&H00657811&\b1}strictly{\c&H002A2B17&\b0}\Ntime how long
+Dialogue: 0,0:00:35.64,0:00:36.01,Default,,0,0,0,,{\pos(540,1513)}Then you strictly\N{\c&H00657811&\b1}time{\c&H002A2B17&\b0} how long
+Dialogue: 0,0:00:36.01,0:00:36.22,Default,,0,0,0,,{\pos(540,1513)}Then you strictly\Ntime {\c&H00657811&\b1}how{\c&H002A2B17&\b0} long
+Dialogue: 0,0:00:36.22,0:00:36.44,Default,,0,0,0,,{\pos(540,1513)}Then you strictly\Ntime how {\c&H00657811&\b1}long{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:36.44,0:00:36.65,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}that{\c&H002A2B17&\b0} entire process\Ntakes, compared
+Dialogue: 0,0:00:36.65,0:00:36.90,Default,,0,0,0,,{\pos(540,1513)}that {\c&H00657811&\b1}entire{\c&H002A2B17&\b0} process\Ntakes, compared
+Dialogue: 0,0:00:36.90,0:00:37.32,Default,,0,0,0,,{\pos(540,1513)}that entire {\c&H00657811&\b1}process{\c&H002A2B17&\b0}\Ntakes, compared
+Dialogue: 0,0:00:37.32,0:00:37.65,Default,,0,0,0,,{\pos(540,1513)}that entire process\N{\c&H00657811&\b1}takes,{\c&H002A2B17&\b0} compared
+Dialogue: 0,0:00:37.65,0:00:38.36,Default,,0,0,0,,{\pos(540,1513)}that entire process\Ntakes, {\c&H00657811&\b1}compared{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:38.36,0:00:38.54,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}to{\c&H002A2B17&\b0} how long your\Nhuman analysts
+Dialogue: 0,0:00:38.54,0:00:38.65,Default,,0,0,0,,{\pos(540,1513)}to {\c&H00657811&\b1}how{\c&H002A2B17&\b0} long your\Nhuman analysts
+Dialogue: 0,0:00:38.65,0:00:38.86,Default,,0,0,0,,{\pos(540,1513)}to how {\c&H00657811&\b1}long{\c&H002A2B17&\b0} your\Nhuman analysts
+Dialogue: 0,0:00:38.86,0:00:39.01,Default,,0,0,0,,{\pos(540,1513)}to how long {\c&H00657811&\b1}your{\c&H002A2B17&\b0}\Nhuman analysts
+Dialogue: 0,0:00:39.01,0:00:39.26,Default,,0,0,0,,{\pos(540,1513)}to how long your\N{\c&H00657811&\b1}human{\c&H002A2B17&\b0} analysts
+Dialogue: 0,0:00:39.26,0:00:39.64,Default,,0,0,0,,{\pos(540,1513)}to how long your\Nhuman {\c&H00657811&\b1}analysts{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:39.64,0:00:40.14,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}take{\c&H002A2B17&\b0} today. And\Ncrucially, you must
+Dialogue: 0,0:00:40.14,0:00:41.24,Default,,0,0,0,,{\pos(540,1513)}take {\c&H00657811&\b1}today.{\c&H002A2B17&\b0} And\Ncrucially, you must
+Dialogue: 0,0:00:41.24,0:00:42.12,Default,,0,0,0,,{\pos(540,1513)}take today. And\N{\c&H00657811&\b1}crucially,{\c&H002A2B17&\b0} you must
+Dialogue: 0,0:00:42.12,0:00:42.16,Default,,0,0,0,,{\pos(540,1513)}take today. And\Ncrucially, {\c&H00657811&\b1}you{\c&H002A2B17&\b0} must
+Dialogue: 0,0:00:42.16,0:00:42.46,Default,,0,0,0,,{\pos(540,1513)}take today. And\Ncrucially, you {\c&H00657811&\b1}must{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:42.46,0:00:42.90,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}include{\c&H002A2B17&\b0} the time it takes the
+Dialogue: 0,0:00:42.90,0:00:43.14,Default,,0,0,0,,{\pos(540,1513)}include {\c&H00657811&\b1}the{\c&H002A2B17&\b0} time it takes the
+Dialogue: 0,0:00:43.14,0:00:43.34,Default,,0,0,0,,{\pos(540,1513)}include the {\c&H00657811&\b1}time{\c&H002A2B17&\b0} it takes the
+Dialogue: 0,0:00:43.34,0:00:43.48,Default,,0,0,0,,{\pos(540,1513)}include the time {\c&H00657811&\b1}it{\c&H002A2B17&\b0} takes the
+Dialogue: 0,0:00:43.48,0:00:43.68,Default,,0,0,0,,{\pos(540,1513)}include the time it {\c&H00657811&\b1}takes{\c&H002A2B17&\b0} the
+Dialogue: 0,0:00:43.68,0:00:43.88,Default,,0,0,0,,{\pos(540,1513)}include the time it takes {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:43.88,0:00:44.08,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}human{\c&H002A2B17&\b0} operator to\Nrigorously review
+Dialogue: 0,0:00:44.08,0:00:44.36,Default,,0,0,0,,{\pos(540,1513)}human {\c&H00657811&\b1}operator{\c&H002A2B17&\b0} to\Nrigorously review
+Dialogue: 0,0:00:44.36,0:00:44.78,Default,,0,0,0,,{\pos(540,1513)}human operator {\c&H00657811&\b1}to{\c&H002A2B17&\b0}\Nrigorously review
+Dialogue: 0,0:00:44.78,0:00:45.28,Default,,0,0,0,,{\pos(540,1513)}human operator to\N{\c&H00657811&\b1}rigorously{\c&H002A2B17&\b0} review
+Dialogue: 0,0:00:45.28,0:00:45.88,Default,,0,0,0,,{\pos(540,1513)}human operator to\Nrigorously {\c&H00657811&\b1}review{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:45.88,0:00:46.20,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}and{\c&H002A2B17&\b0} correct the AI's output in
+Dialogue: 0,0:00:46.20,0:00:46.60,Default,,0,0,0,,{\pos(540,1513)}and {\c&H00657811&\b1}correct{\c&H002A2B17&\b0} the AI's output in
+Dialogue: 0,0:00:46.60,0:00:46.88,Default,,0,0,0,,{\pos(540,1513)}and correct {\c&H00657811&\b1}the{\c&H002A2B17&\b0} AI's output in
+Dialogue: 0,0:00:46.88,0:00:47.28,Default,,0,0,0,,{\pos(540,1513)}and correct the {\c&H00657811&\b1}AI's{\c&H002A2B17&\b0} output in
+Dialogue: 0,0:00:47.28,0:00:47.66,Default,,0,0,0,,{\pos(540,1513)}and correct the AI's {\c&H00657811&\b1}output{\c&H002A2B17&\b0} in
+Dialogue: 0,0:00:47.66,0:00:48.00,Default,,0,0,0,,{\pos(540,1513)}and correct the AI's output {\c&H00657811&\b1}in{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:48.00,0:00:48.10,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}your{\c&H002A2B17&\b0} final calculation.
+Dialogue: 0,0:00:48.10,0:00:48.36,Default,,0,0,0,,{\pos(540,1513)}your {\c&H00657811&\b1}final{\c&H002A2B17&\b0} calculation.
+Dialogue: 0,0:00:48.36,0:00:48.80,Default,,0,0,0,,{\pos(540,1513)}your final {\c&H00657811&\b1}calculation.{\c&H002A2B17&\b0}

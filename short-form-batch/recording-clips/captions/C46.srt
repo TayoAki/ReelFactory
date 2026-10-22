@@ -1,0 +1,119 @@
+1
+00:00:00,060 --> 00:00:02,580
+MCP stands for Model Context Protocol.
+
+2
+00:00:03,420 --> 00:00:05,380
+Fabric provides an API endpoint, so
+
+3
+00:00:05,380 --> 00:00:07,039
+enterprise developers can connect their
+
+4
+00:00:07,039 --> 00:00:09,300
+own compatible external AI clients
+
+5
+00:00:09,300 --> 00:00:11,260
+or custom applications to the ontology.
+
+6
+00:00:11,440 --> 00:00:11,959
+It tells useful.
+
+7
+00:00:12,460 --> 00:00:13,720
+However, the current guidance notes
+
+8
+00:00:13,720 --> 00:00:14,699
+a severe limitation.
+
+9
+00:00:15,500 --> 00:00:17,280
+Service principal access is currently
+
+10
+00:00:17,280 --> 00:00:18,680
+unavailable for this endpoint.
+
+11
+00:00:19,180 --> 00:00:20,880
+Explain that for the non -developers.
+
+12
+00:00:21,320 --> 00:00:22,500
+What is a service principal?
+
+13
+00:00:22,759 --> 00:00:24,560
+A service principal is basically a
+
+14
+00:00:24,560 --> 00:00:27,119
+machine identity. It's a non -human
+
+15
+00:00:27,119 --> 00:00:28,780
+service account you use, so a
+
+16
+00:00:28,780 --> 00:00:30,880
+backend server or an automated script
+
+17
+00:00:30,880 --> 00:00:32,740
+can talk to an API securely
+
+18
+00:00:32,740 --> 00:00:34,300
+without needing a human being to
+
+19
+00:00:34,300 --> 00:00:36,220
+physically type in a username and
+
+20
+00:00:36,220 --> 00:00:38,120
+password. Oh, so you can automate
+
+21
+00:00:38,120 --> 00:00:40,600
+it? Right. But because service principal
+
+22
+00:00:40,600 --> 00:00:42,160
+access is missing in this preview,
+
+23
+00:00:42,160 --> 00:00:43,720
+you currently have to authenticate
+
+24
+00:00:43,720 --> 00:00:45,480
+as a real human user.
+
+25
+00:00:45,740 --> 00:00:47,280
+You cannot easily set up a
+
+26
+00:00:47,280 --> 00:00:49,519
+fully automated unattended machine
+
+27
+00:00:49,519 --> 00:00:50,739
+to machine integration.
+
+28
+00:00:51,280 --> 00:00:52,620
+That drastically limits how you can
+
+29
+00:00:52,620 --> 00:00:54,480
+integrate this ontology into automated
+
+30
+00:00:54,480 --> 00:00:56,699
+backend enterprise systems right now.

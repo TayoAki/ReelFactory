@@ -1,0 +1,83 @@
+1
+00:00:00,919 --> 00:00:02,320
+In the source demo, the expert
+
+2
+00:00:02,320 --> 00:00:04,620
+demonstrates the best practice, explicitly
+
+3
+00:00:04,620 --> 00:00:06,500
+asking the agent to show its
+
+4
+00:00:06,500 --> 00:00:07,920
+work. Like in math class.
+
+5
+00:00:08,100 --> 00:00:10,420
+Exactly. They prompt the agent to
+
+6
+00:00:10,420 --> 00:00:12,400
+use the governed revenue metric located
+
+7
+00:00:12,400 --> 00:00:14,720
+in the sales report semantic model,
+
+8
+00:00:15,280 --> 00:00:17,000
+summarize it by store for a
+
+9
+00:00:17,000 --> 00:00:19,780
+specific time period, explicitly identify
+
+10
+00:00:19,780 --> 00:00:21,720
+the source measure it used, and
+
+11
+00:00:21,720 --> 00:00:23,520
+actually display the underlying query
+
+12
+00:00:23,520 --> 00:00:24,360
+code it executed.
+
+13
+00:00:24,960 --> 00:00:26,320
+So you force the chat interface
+
+14
+00:00:26,320 --> 00:00:28,660
+to show you the exact DAX
+
+15
+00:00:28,660 --> 00:00:29,820
+or SQL code it wrote.
+
+16
+00:00:29,939 --> 00:00:31,980
+Yes. This gives the operator a
+
+17
+00:00:31,980 --> 00:00:34,180
+tangible mathematical calculation.
+
+18
+00:00:34,739 --> 00:00:36,040
+The operator can then take that
+
+19
+00:00:36,040 --> 00:00:37,480
+DAX code and compare it against
+
+20
+00:00:37,480 --> 00:00:39,780
+their traditional legacy power BI dashboard
+
+21
+00:00:39,780 --> 00:00:41,339
+using the exact same filters.

@@ -1,0 +1,241 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.25,0:00:00.29,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}The{\c&H002A2B17&\b0} engineer opens\Nthe ontology agent
+Dialogue: 0,0:00:00.29,0:00:00.54,Default,,0,0,0,,{\pos(540,1513)}The {\c&H00657811&\b1}engineer{\c&H002A2B17&\b0} opens\Nthe ontology agent
+Dialogue: 0,0:00:00.54,0:00:00.96,Default,,0,0,0,,{\pos(540,1513)}The engineer {\c&H00657811&\b1}opens{\c&H002A2B17&\b0}\Nthe ontology agent
+Dialogue: 0,0:00:00.96,0:00:01.18,Default,,0,0,0,,{\pos(540,1513)}The engineer opens\N{\c&H00657811&\b1}the{\c&H002A2B17&\b0} ontology agent
+Dialogue: 0,0:00:01.18,0:00:01.48,Default,,0,0,0,,{\pos(540,1513)}The engineer opens\Nthe {\c&H00657811&\b1}ontology{\c&H002A2B17&\b0} agent
+Dialogue: 0,0:00:01.48,0:00:01.84,Default,,0,0,0,,{\pos(540,1513)}The engineer opens\Nthe ontology {\c&H00657811&\b1}agent{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:01.84,0:00:02.24,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}and{\c&H002A2B17&\b0} ensures they are in plan
+Dialogue: 0,0:00:02.24,0:00:02.58,Default,,0,0,0,,{\pos(540,1513)}and {\c&H00657811&\b1}ensures{\c&H002A2B17&\b0} they are in plan
+Dialogue: 0,0:00:02.58,0:00:02.94,Default,,0,0,0,,{\pos(540,1513)}and ensures {\c&H00657811&\b1}they{\c&H002A2B17&\b0} are in plan
+Dialogue: 0,0:00:02.94,0:00:03.05,Default,,0,0,0,,{\pos(540,1513)}and ensures they {\c&H00657811&\b1}are{\c&H002A2B17&\b0} in plan
+Dialogue: 0,0:00:03.05,0:00:03.20,Default,,0,0,0,,{\pos(540,1513)}and ensures they are {\c&H00657811&\b1}in{\c&H002A2B17&\b0} plan
+Dialogue: 0,0:00:03.20,0:00:03.51,Default,,0,0,0,,{\pos(540,1513)}and ensures they are in {\c&H00657811&\b1}plan{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:03.51,0:00:04.26,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}mode.{\c&H002A2B17&\b0} Like a draft mode.
+Dialogue: 0,0:00:04.26,0:00:04.30,Default,,0,0,0,,{\pos(540,1513)}mode. {\c&H00657811&\b1}Like{\c&H002A2B17&\b0} a draft mode.
+Dialogue: 0,0:00:04.30,0:00:04.66,Default,,0,0,0,,{\pos(540,1513)}mode. Like {\c&H00657811&\b1}a{\c&H002A2B17&\b0} draft mode.
+Dialogue: 0,0:00:04.66,0:00:05.00,Default,,0,0,0,,{\pos(540,1513)}mode. Like a {\c&H00657811&\b1}draft{\c&H002A2B17&\b0} mode.
+Dialogue: 0,0:00:05.00,0:00:05.46,Default,,0,0,0,,{\pos(540,1513)}mode. Like a draft {\c&H00657811&\b1}mode.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:05.72,0:00:05.74,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}They{\c&H002A2B17&\b0} prompt the\Nagent with specific
+Dialogue: 0,0:00:05.74,0:00:05.92,Default,,0,0,0,,{\pos(540,1513)}They {\c&H00657811&\b1}prompt{\c&H002A2B17&\b0} the\Nagent with specific
+Dialogue: 0,0:00:05.92,0:00:06.11,Default,,0,0,0,,{\pos(540,1513)}They prompt {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nagent with specific
+Dialogue: 0,0:00:06.11,0:00:06.34,Default,,0,0,0,,{\pos(540,1513)}They prompt the\N{\c&H00657811&\b1}agent{\c&H002A2B17&\b0} with specific
+Dialogue: 0,0:00:06.34,0:00:06.56,Default,,0,0,0,,{\pos(540,1513)}They prompt the\Nagent {\c&H00657811&\b1}with{\c&H002A2B17&\b0} specific
+Dialogue: 0,0:00:06.56,0:00:06.92,Default,,0,0,0,,{\pos(540,1513)}They prompt the\Nagent with {\c&H00657811&\b1}specific{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:06.92,0:00:08.22,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}instructions.{\c&H002A2B17&\b0} Add\Na sale entity using
+Dialogue: 0,0:00:08.22,0:00:08.48,Default,,0,0,0,,{\pos(540,1513)}instructions. {\c&H00657811&\b1}Add{\c&H002A2B17&\b0}\Na sale entity using
+Dialogue: 0,0:00:08.48,0:00:08.68,Default,,0,0,0,,{\pos(540,1513)}instructions. Add\N{\c&H00657811&\b1}a{\c&H002A2B17&\b0} sale entity using
+Dialogue: 0,0:00:08.68,0:00:08.96,Default,,0,0,0,,{\pos(540,1513)}instructions. Add\Na {\c&H00657811&\b1}sale{\c&H002A2B17&\b0} entity using
+Dialogue: 0,0:00:08.96,0:00:09.42,Default,,0,0,0,,{\pos(540,1513)}instructions. Add\Na sale {\c&H00657811&\b1}entity{\c&H002A2B17&\b0} using
+Dialogue: 0,0:00:09.42,0:00:09.96,Default,,0,0,0,,{\pos(540,1513)}instructions. Add\Na sale entity {\c&H00657811&\b1}using{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:09.96,0:00:10.19,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}the{\c&H002A2B17&\b0} sales table in the sales
+Dialogue: 0,0:00:10.19,0:00:10.44,Default,,0,0,0,,{\pos(540,1513)}the {\c&H00657811&\b1}sales{\c&H002A2B17&\b0} table in the sales
+Dialogue: 0,0:00:10.44,0:00:11.06,Default,,0,0,0,,{\pos(540,1513)}the sales {\c&H00657811&\b1}table{\c&H002A2B17&\b0} in the sales
+Dialogue: 0,0:00:11.06,0:00:11.44,Default,,0,0,0,,{\pos(540,1513)}the sales table {\c&H00657811&\b1}in{\c&H002A2B17&\b0} the sales
+Dialogue: 0,0:00:11.44,0:00:11.58,Default,,0,0,0,,{\pos(540,1513)}the sales table in {\c&H00657811&\b1}the{\c&H002A2B17&\b0} sales
+Dialogue: 0,0:00:11.58,0:00:11.80,Default,,0,0,0,,{\pos(540,1513)}the sales table in the {\c&H00657811&\b1}sales{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:11.80,0:00:12.28,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}report{\c&H002A2B17&\b0} semantic\Nmodel located in this
+Dialogue: 0,0:00:12.28,0:00:12.54,Default,,0,0,0,,{\pos(540,1513)}report {\c&H00657811&\b1}semantic{\c&H002A2B17&\b0}\Nmodel located in this
+Dialogue: 0,0:00:12.54,0:00:13.08,Default,,0,0,0,,{\pos(540,1513)}report semantic\N{\c&H00657811&\b1}model{\c&H002A2B17&\b0} located in this
+Dialogue: 0,0:00:13.08,0:00:13.56,Default,,0,0,0,,{\pos(540,1513)}report semantic\Nmodel {\c&H00657811&\b1}located{\c&H002A2B17&\b0} in this
+Dialogue: 0,0:00:13.56,0:00:13.92,Default,,0,0,0,,{\pos(540,1513)}report semantic\Nmodel located {\c&H00657811&\b1}in{\c&H002A2B17&\b0} this
+Dialogue: 0,0:00:13.92,0:00:14.18,Default,,0,0,0,,{\pos(540,1513)}report semantic\Nmodel located in {\c&H00657811&\b1}this{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:14.18,0:00:14.55,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}specific{\c&H002A2B17&\b0} workspace.\NOkay, very specific.
+Dialogue: 0,0:00:14.55,0:00:15.42,Default,,0,0,0,,{\pos(540,1513)}specific {\c&H00657811&\b1}workspace.{\c&H002A2B17&\b0}\NOkay, very specific.
+Dialogue: 0,0:00:15.42,0:00:15.96,Default,,0,0,0,,{\pos(540,1513)}specific workspace.\N{\c&H00657811&\b1}Okay,{\c&H002A2B17&\b0} very specific.
+Dialogue: 0,0:00:15.96,0:00:16.04,Default,,0,0,0,,{\pos(540,1513)}specific workspace.\NOkay, {\c&H00657811&\b1}very{\c&H002A2B17&\b0} specific.
+Dialogue: 0,0:00:16.04,0:00:16.64,Default,,0,0,0,,{\pos(540,1513)}specific workspace.\NOkay, very {\c&H00657811&\b1}specific.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:17.10,0:00:17.22,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}They{\c&H002A2B17&\b0} then ask the agent to
+Dialogue: 0,0:00:17.22,0:00:17.38,Default,,0,0,0,,{\pos(540,1513)}They {\c&H00657811&\b1}then{\c&H002A2B17&\b0} ask the agent to
+Dialogue: 0,0:00:17.38,0:00:17.64,Default,,0,0,0,,{\pos(540,1513)}They then {\c&H00657811&\b1}ask{\c&H002A2B17&\b0} the agent to
+Dialogue: 0,0:00:17.64,0:00:17.80,Default,,0,0,0,,{\pos(540,1513)}They then ask {\c&H00657811&\b1}the{\c&H002A2B17&\b0} agent to
+Dialogue: 0,0:00:17.80,0:00:18.04,Default,,0,0,0,,{\pos(540,1513)}They then ask the {\c&H00657811&\b1}agent{\c&H002A2B17&\b0} to
+Dialogue: 0,0:00:18.04,0:00:18.26,Default,,0,0,0,,{\pos(540,1513)}They then ask the agent {\c&H00657811&\b1}to{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:18.26,0:00:18.60,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}preview{\c&H002A2B17&\b0} the proposed\Ndefinition, show
+Dialogue: 0,0:00:18.60,0:00:18.96,Default,,0,0,0,,{\pos(540,1513)}preview {\c&H00657811&\b1}the{\c&H002A2B17&\b0} proposed\Ndefinition, show
+Dialogue: 0,0:00:18.96,0:00:19.16,Default,,0,0,0,,{\pos(540,1513)}preview the {\c&H00657811&\b1}proposed{\c&H002A2B17&\b0}\Ndefinition, show
+Dialogue: 0,0:00:19.16,0:00:19.70,Default,,0,0,0,,{\pos(540,1513)}preview the proposed\N{\c&H00657811&\b1}definition,{\c&H002A2B17&\b0} show
+Dialogue: 0,0:00:19.70,0:00:20.30,Default,,0,0,0,,{\pos(540,1513)}preview the proposed\Ndefinition, {\c&H00657811&\b1}show{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:20.30,0:00:20.60,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}exactly{\c&H002A2B17&\b0} how it\Nmapped the data
+Dialogue: 0,0:00:20.60,0:00:20.98,Default,,0,0,0,,{\pos(540,1513)}exactly {\c&H00657811&\b1}how{\c&H002A2B17&\b0} it\Nmapped the data
+Dialogue: 0,0:00:20.98,0:00:21.10,Default,,0,0,0,,{\pos(540,1513)}exactly how {\c&H00657811&\b1}it{\c&H002A2B17&\b0}\Nmapped the data
+Dialogue: 0,0:00:21.10,0:00:21.20,Default,,0,0,0,,{\pos(540,1513)}exactly how it\N{\c&H00657811&\b1}mapped{\c&H002A2B17&\b0} the data
+Dialogue: 0,0:00:21.20,0:00:21.46,Default,,0,0,0,,{\pos(540,1513)}exactly how it\Nmapped {\c&H00657811&\b1}the{\c&H002A2B17&\b0} data
+Dialogue: 0,0:00:21.46,0:00:21.62,Default,,0,0,0,,{\pos(540,1513)}exactly how it\Nmapped the {\c&H00657811&\b1}data{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:21.62,0:00:21.96,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}bindings{\c&H002A2B17&\b0} and explain\Nthe source evidence
+Dialogue: 0,0:00:21.96,0:00:22.40,Default,,0,0,0,,{\pos(540,1513)}bindings {\c&H00657811&\b1}and{\c&H002A2B17&\b0} explain\Nthe source evidence
+Dialogue: 0,0:00:22.40,0:00:22.86,Default,,0,0,0,,{\pos(540,1513)}bindings and {\c&H00657811&\b1}explain{\c&H002A2B17&\b0}\Nthe source evidence
+Dialogue: 0,0:00:22.86,0:00:23.12,Default,,0,0,0,,{\pos(540,1513)}bindings and explain\N{\c&H00657811&\b1}the{\c&H002A2B17&\b0} source evidence
+Dialogue: 0,0:00:23.12,0:00:23.36,Default,,0,0,0,,{\pos(540,1513)}bindings and explain\Nthe {\c&H00657811&\b1}source{\c&H002A2B17&\b0} evidence
+Dialogue: 0,0:00:23.36,0:00:23.64,Default,,0,0,0,,{\pos(540,1513)}bindings and explain\Nthe source {\c&H00657811&\b1}evidence{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:23.64,0:00:24.00,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}it{\c&H002A2B17&\b0} used to make\Nthose decisions,
+Dialogue: 0,0:00:24.00,0:00:24.18,Default,,0,0,0,,{\pos(540,1513)}it {\c&H00657811&\b1}used{\c&H002A2B17&\b0} to make\Nthose decisions,
+Dialogue: 0,0:00:24.18,0:00:24.40,Default,,0,0,0,,{\pos(540,1513)}it used {\c&H00657811&\b1}to{\c&H002A2B17&\b0} make\Nthose decisions,
+Dialogue: 0,0:00:24.40,0:00:24.52,Default,,0,0,0,,{\pos(540,1513)}it used to {\c&H00657811&\b1}make{\c&H002A2B17&\b0}\Nthose decisions,
+Dialogue: 0,0:00:24.52,0:00:24.68,Default,,0,0,0,,{\pos(540,1513)}it used to make\N{\c&H00657811&\b1}those{\c&H002A2B17&\b0} decisions,
+Dialogue: 0,0:00:24.68,0:00:25.20,Default,,0,0,0,,{\pos(540,1513)}it used to make\Nthose {\c&H00657811&\b1}decisions,{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:25.58,0:00:25.94,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}all{\c&H002A2B17&\b0} while keeping the rest of
+Dialogue: 0,0:00:25.94,0:00:26.14,Default,,0,0,0,,{\pos(540,1513)}all {\c&H00657811&\b1}while{\c&H002A2B17&\b0} keeping the rest of
+Dialogue: 0,0:00:26.14,0:00:26.36,Default,,0,0,0,,{\pos(540,1513)}all while {\c&H00657811&\b1}keeping{\c&H002A2B17&\b0} the rest of
+Dialogue: 0,0:00:26.36,0:00:26.58,Default,,0,0,0,,{\pos(540,1513)}all while keeping {\c&H00657811&\b1}the{\c&H002A2B17&\b0} rest of
+Dialogue: 0,0:00:26.58,0:00:26.70,Default,,0,0,0,,{\pos(540,1513)}all while keeping the {\c&H00657811&\b1}rest{\c&H002A2B17&\b0} of
+Dialogue: 0,0:00:26.70,0:00:26.90,Default,,0,0,0,,{\pos(540,1513)}all while keeping the rest {\c&H00657811&\b1}of{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:26.90,0:00:27.00,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}the{\c&H002A2B17&\b0} live ontology\Ncompletely untouched.
+Dialogue: 0,0:00:27.00,0:00:27.20,Default,,0,0,0,,{\pos(540,1513)}the {\c&H00657811&\b1}live{\c&H002A2B17&\b0} ontology\Ncompletely untouched.
+Dialogue: 0,0:00:27.20,0:00:27.66,Default,,0,0,0,,{\pos(540,1513)}the live {\c&H00657811&\b1}ontology{\c&H002A2B17&\b0}\Ncompletely untouched.
+Dialogue: 0,0:00:27.66,0:00:28.30,Default,,0,0,0,,{\pos(540,1513)}the live ontology\N{\c&H00657811&\b1}completely{\c&H002A2B17&\b0} untouched.
+Dialogue: 0,0:00:28.30,0:00:28.76,Default,,0,0,0,,{\pos(540,1513)}the live ontology\Ncompletely {\c&H00657811&\b1}untouched.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:29.34,0:00:29.52,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}So{\c&H002A2B17&\b0} Plan Mode operates as a
+Dialogue: 0,0:00:29.52,0:00:29.80,Default,,0,0,0,,{\pos(540,1513)}So {\c&H00657811&\b1}Plan{\c&H002A2B17&\b0} Mode operates as a
+Dialogue: 0,0:00:29.80,0:00:30.02,Default,,0,0,0,,{\pos(540,1513)}So Plan {\c&H00657811&\b1}Mode{\c&H002A2B17&\b0} operates as a
+Dialogue: 0,0:00:30.02,0:00:30.40,Default,,0,0,0,,{\pos(540,1513)}So Plan Mode {\c&H00657811&\b1}operates{\c&H002A2B17&\b0} as a
+Dialogue: 0,0:00:30.40,0:00:30.68,Default,,0,0,0,,{\pos(540,1513)}So Plan Mode operates {\c&H00657811&\b1}as{\c&H002A2B17&\b0} a
+Dialogue: 0,0:00:30.68,0:00:30.84,Default,,0,0,0,,{\pos(540,1513)}So Plan Mode operates as {\c&H00657811&\b1}a{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:30.84,0:00:31.26,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}secure{\c&H002A2B17&\b0} sandbox. Exactly.
+Dialogue: 0,0:00:31.26,0:00:32.24,Default,,0,0,0,,{\pos(540,1513)}secure {\c&H00657811&\b1}sandbox.{\c&H002A2B17&\b0} Exactly.
+Dialogue: 0,0:00:32.24,0:00:32.63,Default,,0,0,0,,{\pos(540,1513)}secure sandbox. {\c&H00657811&\b1}Exactly.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:33.15,0:00:33.38,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}It{\c&H002A2B17&\b0} is a critical\Nenterprise safety
+Dialogue: 0,0:00:33.38,0:00:33.50,Default,,0,0,0,,{\pos(540,1513)}It {\c&H00657811&\b1}is{\c&H002A2B17&\b0} a critical\Nenterprise safety
+Dialogue: 0,0:00:33.50,0:00:33.68,Default,,0,0,0,,{\pos(540,1513)}It is {\c&H00657811&\b1}a{\c&H002A2B17&\b0} critical\Nenterprise safety
+Dialogue: 0,0:00:33.68,0:00:34.20,Default,,0,0,0,,{\pos(540,1513)}It is a {\c&H00657811&\b1}critical{\c&H002A2B17&\b0}\Nenterprise safety
+Dialogue: 0,0:00:34.20,0:00:34.56,Default,,0,0,0,,{\pos(540,1513)}It is a critical\N{\c&H00657811&\b1}enterprise{\c&H002A2B17&\b0} safety
+Dialogue: 0,0:00:34.56,0:00:35.06,Default,,0,0,0,,{\pos(540,1513)}It is a critical\Nenterprise {\c&H00657811&\b1}safety{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:35.06,0:00:35.96,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}feature.{\c&H002A2B17&\b0} Plan Mode\Nallows you to
+Dialogue: 0,0:00:35.96,0:00:36.15,Default,,0,0,0,,{\pos(540,1513)}feature. {\c&H00657811&\b1}Plan{\c&H002A2B17&\b0} Mode\Nallows you to
+Dialogue: 0,0:00:36.15,0:00:36.48,Default,,0,0,0,,{\pos(540,1513)}feature. Plan {\c&H00657811&\b1}Mode{\c&H002A2B17&\b0}\Nallows you to
+Dialogue: 0,0:00:36.48,0:00:36.70,Default,,0,0,0,,{\pos(540,1513)}feature. Plan Mode\N{\c&H00657811&\b1}allows{\c&H002A2B17&\b0} you to
+Dialogue: 0,0:00:36.70,0:00:36.94,Default,,0,0,0,,{\pos(540,1513)}feature. Plan Mode\Nallows {\c&H00657811&\b1}you{\c&H002A2B17&\b0} to
+Dialogue: 0,0:00:36.94,0:00:37.04,Default,,0,0,0,,{\pos(540,1513)}feature. Plan Mode\Nallows you {\c&H00657811&\b1}to{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:37.04,0:00:37.78,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}discover,{\c&H002A2B17&\b0} draft,\Nvalidate, query, and
+Dialogue: 0,0:00:37.78,0:00:38.48,Default,,0,0,0,,{\pos(540,1513)}discover, {\c&H00657811&\b1}draft,{\c&H002A2B17&\b0}\Nvalidate, query, and
+Dialogue: 0,0:00:38.48,0:00:39.23,Default,,0,0,0,,{\pos(540,1513)}discover, draft,\N{\c&H00657811&\b1}validate,{\c&H002A2B17&\b0} query, and
+Dialogue: 0,0:00:39.23,0:00:39.60,Default,,0,0,0,,{\pos(540,1513)}discover, draft,\Nvalidate, {\c&H00657811&\b1}query,{\c&H002A2B17&\b0} and
+Dialogue: 0,0:00:39.60,0:00:39.62,Default,,0,0,0,,{\pos(540,1513)}discover, draft,\Nvalidate, query, {\c&H00657811&\b1}and{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:39.62,0:00:39.96,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}inspect{\c&H002A2B17&\b0} massive\Nstructural changes
+Dialogue: 0,0:00:39.96,0:00:40.36,Default,,0,0,0,,{\pos(540,1513)}inspect {\c&H00657811&\b1}massive{\c&H002A2B17&\b0}\Nstructural changes
+Dialogue: 0,0:00:40.36,0:00:40.92,Default,,0,0,0,,{\pos(540,1513)}inspect massive\N{\c&H00657811&\b1}structural{\c&H002A2B17&\b0} changes
+Dialogue: 0,0:00:40.92,0:00:41.44,Default,,0,0,0,,{\pos(540,1513)}inspect massive\Nstructural {\c&H00657811&\b1}changes{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:41.44,0:00:41.74,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}without{\c&H002A2B17&\b0} actually\Naltering the live
+Dialogue: 0,0:00:41.74,0:00:42.36,Default,,0,0,0,,{\pos(540,1513)}without {\c&H00657811&\b1}actually{\c&H002A2B17&\b0}\Naltering the live
+Dialogue: 0,0:00:42.36,0:00:42.90,Default,,0,0,0,,{\pos(540,1513)}without actually\N{\c&H00657811&\b1}altering{\c&H002A2B17&\b0} the live
+Dialogue: 0,0:00:42.90,0:00:43.12,Default,,0,0,0,,{\pos(540,1513)}without actually\Naltering {\c&H00657811&\b1}the{\c&H002A2B17&\b0} live
+Dialogue: 0,0:00:43.12,0:00:43.46,Default,,0,0,0,,{\pos(540,1513)}without actually\Naltering the {\c&H00657811&\b1}live{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:43.46,0:00:44.02,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}production{\c&H002A2B17&\b0} ontology\Nthat the rest of
+Dialogue: 0,0:00:44.02,0:00:44.64,Default,,0,0,0,,{\pos(540,1513)}production {\c&H00657811&\b1}ontology{\c&H002A2B17&\b0}\Nthat the rest of
+Dialogue: 0,0:00:44.64,0:00:44.94,Default,,0,0,0,,{\pos(540,1513)}production ontology\N{\c&H00657811&\b1}that{\c&H002A2B17&\b0} the rest of
+Dialogue: 0,0:00:44.94,0:00:45.16,Default,,0,0,0,,{\pos(540,1513)}production ontology\Nthat {\c&H00657811&\b1}the{\c&H002A2B17&\b0} rest of
+Dialogue: 0,0:00:45.16,0:00:45.36,Default,,0,0,0,,{\pos(540,1513)}production ontology\Nthat the {\c&H00657811&\b1}rest{\c&H002A2B17&\b0} of
+Dialogue: 0,0:00:45.36,0:00:45.52,Default,,0,0,0,,{\pos(540,1513)}production ontology\Nthat the rest {\c&H00657811&\b1}of{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:45.52,0:00:45.58,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}the{\c&H002A2B17&\b0} company is\Ncurrently using.
+Dialogue: 0,0:00:45.58,0:00:45.86,Default,,0,0,0,,{\pos(540,1513)}the {\c&H00657811&\b1}company{\c&H002A2B17&\b0} is\Ncurrently using.
+Dialogue: 0,0:00:45.86,0:00:46.02,Default,,0,0,0,,{\pos(540,1513)}the company {\c&H00657811&\b1}is{\c&H002A2B17&\b0}\Ncurrently using.
+Dialogue: 0,0:00:46.02,0:00:46.16,Default,,0,0,0,,{\pos(540,1513)}the company is\N{\c&H00657811&\b1}currently{\c&H002A2B17&\b0} using.
+Dialogue: 0,0:00:46.16,0:00:46.68,Default,,0,0,0,,{\pos(540,1513)}the company is\Ncurrently {\c&H00657811&\b1}using.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:46.84,0:00:46.98,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}You{\c&H002A2B17&\b0} can test it out first.
+Dialogue: 0,0:00:46.98,0:00:47.10,Default,,0,0,0,,{\pos(540,1513)}You {\c&H00657811&\b1}can{\c&H002A2B17&\b0} test it out first.
+Dialogue: 0,0:00:47.10,0:00:47.24,Default,,0,0,0,,{\pos(540,1513)}You can {\c&H00657811&\b1}test{\c&H002A2B17&\b0} it out first.
+Dialogue: 0,0:00:47.24,0:00:47.40,Default,,0,0,0,,{\pos(540,1513)}You can test {\c&H00657811&\b1}it{\c&H002A2B17&\b0} out first.
+Dialogue: 0,0:00:47.40,0:00:47.52,Default,,0,0,0,,{\pos(540,1513)}You can test it {\c&H00657811&\b1}out{\c&H002A2B17&\b0} first.
+Dialogue: 0,0:00:47.52,0:00:47.82,Default,,0,0,0,,{\pos(540,1513)}You can test it out {\c&H00657811&\b1}first.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:47.92,0:00:48.04,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}You{\c&H002A2B17&\b0} can see the draft entity
+Dialogue: 0,0:00:48.04,0:00:48.14,Default,,0,0,0,,{\pos(540,1513)}You {\c&H00657811&\b1}can{\c&H002A2B17&\b0} see the draft entity
+Dialogue: 0,0:00:48.14,0:00:48.28,Default,,0,0,0,,{\pos(540,1513)}You can {\c&H00657811&\b1}see{\c&H002A2B17&\b0} the draft entity
+Dialogue: 0,0:00:48.28,0:00:48.42,Default,,0,0,0,,{\pos(540,1513)}You can see {\c&H00657811&\b1}the{\c&H002A2B17&\b0} draft entity
+Dialogue: 0,0:00:48.42,0:00:48.60,Default,,0,0,0,,{\pos(540,1513)}You can see the {\c&H00657811&\b1}draft{\c&H002A2B17&\b0} entity
+Dialogue: 0,0:00:48.60,0:00:49.00,Default,,0,0,0,,{\pos(540,1513)}You can see the draft {\c&H00657811&\b1}entity{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:49.00,0:00:49.26,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}appear{\c&H002A2B17&\b0} on the visual\Ncanvas, check
+Dialogue: 0,0:00:49.26,0:00:49.64,Default,,0,0,0,,{\pos(540,1513)}appear {\c&H00657811&\b1}on{\c&H002A2B17&\b0} the visual\Ncanvas, check
+Dialogue: 0,0:00:49.64,0:00:49.80,Default,,0,0,0,,{\pos(540,1513)}appear on {\c&H00657811&\b1}the{\c&H002A2B17&\b0} visual\Ncanvas, check
+Dialogue: 0,0:00:49.80,0:00:50.12,Default,,0,0,0,,{\pos(540,1513)}appear on the {\c&H00657811&\b1}visual{\c&H002A2B17&\b0}\Ncanvas, check
+Dialogue: 0,0:00:50.12,0:00:50.80,Default,,0,0,0,,{\pos(540,1513)}appear on the visual\N{\c&H00657811&\b1}canvas,{\c&H002A2B17&\b0} check
+Dialogue: 0,0:00:50.80,0:00:51.04,Default,,0,0,0,,{\pos(540,1513)}appear on the visual\Ncanvas, {\c&H00657811&\b1}check{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:51.04,0:00:51.28,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}how{\c&H002A2B17&\b0} it mapped\Nthe primary and
+Dialogue: 0,0:00:51.28,0:00:51.38,Default,,0,0,0,,{\pos(540,1513)}how {\c&H00657811&\b1}it{\c&H002A2B17&\b0} mapped\Nthe primary and
+Dialogue: 0,0:00:51.38,0:00:51.50,Default,,0,0,0,,{\pos(540,1513)}how it {\c&H00657811&\b1}mapped{\c&H002A2B17&\b0}\Nthe primary and
+Dialogue: 0,0:00:51.50,0:00:51.72,Default,,0,0,0,,{\pos(540,1513)}how it mapped\N{\c&H00657811&\b1}the{\c&H002A2B17&\b0} primary and
+Dialogue: 0,0:00:51.72,0:00:51.98,Default,,0,0,0,,{\pos(540,1513)}how it mapped\Nthe {\c&H00657811&\b1}primary{\c&H002A2B17&\b0} and
+Dialogue: 0,0:00:51.98,0:00:52.36,Default,,0,0,0,,{\pos(540,1513)}how it mapped\Nthe primary {\c&H00657811&\b1}and{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:52.36,0:00:52.56,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}foreign{\c&H002A2B17&\b0} keys, and run\Nvalidation checks.
+Dialogue: 0,0:00:52.56,0:00:53.14,Default,,0,0,0,,{\pos(540,1513)}foreign {\c&H00657811&\b1}keys,{\c&H002A2B17&\b0} and run\Nvalidation checks.
+Dialogue: 0,0:00:53.14,0:00:53.18,Default,,0,0,0,,{\pos(540,1513)}foreign keys, {\c&H00657811&\b1}and{\c&H002A2B17&\b0} run\Nvalidation checks.
+Dialogue: 0,0:00:53.18,0:00:53.36,Default,,0,0,0,,{\pos(540,1513)}foreign keys, and {\c&H00657811&\b1}run{\c&H002A2B17&\b0}\Nvalidation checks.
+Dialogue: 0,0:00:53.36,0:00:53.64,Default,,0,0,0,,{\pos(540,1513)}foreign keys, and run\N{\c&H00657811&\b1}validation{\c&H002A2B17&\b0} checks.
+Dialogue: 0,0:00:53.64,0:00:54.18,Default,,0,0,0,,{\pos(540,1513)}foreign keys, and run\Nvalidation {\c&H00657811&\b1}checks.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:54.76,0:00:54.84,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}If{\c&H002A2B17&\b0} you realize the AI agent
+Dialogue: 0,0:00:54.84,0:00:54.96,Default,,0,0,0,,{\pos(540,1513)}If {\c&H00657811&\b1}you{\c&H002A2B17&\b0} realize the AI agent
+Dialogue: 0,0:00:54.96,0:00:55.26,Default,,0,0,0,,{\pos(540,1513)}If you {\c&H00657811&\b1}realize{\c&H002A2B17&\b0} the AI agent
+Dialogue: 0,0:00:55.26,0:00:55.54,Default,,0,0,0,,{\pos(540,1513)}If you realize {\c&H00657811&\b1}the{\c&H002A2B17&\b0} AI agent
+Dialogue: 0,0:00:55.54,0:00:55.70,Default,,0,0,0,,{\pos(540,1513)}If you realize the {\c&H00657811&\b1}AI{\c&H002A2B17&\b0} agent
+Dialogue: 0,0:00:55.70,0:00:56.04,Default,,0,0,0,,{\pos(540,1513)}If you realize the AI {\c&H00657811&\b1}agent{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:56.04,0:00:56.23,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}picked{\c&H002A2B17&\b0} the wrong\Ncolumn for the
+Dialogue: 0,0:00:56.23,0:00:56.38,Default,,0,0,0,,{\pos(540,1513)}picked {\c&H00657811&\b1}the{\c&H002A2B17&\b0} wrong\Ncolumn for the
+Dialogue: 0,0:00:56.38,0:00:56.50,Default,,0,0,0,,{\pos(540,1513)}picked the {\c&H00657811&\b1}wrong{\c&H002A2B17&\b0}\Ncolumn for the
+Dialogue: 0,0:00:56.50,0:00:56.84,Default,,0,0,0,,{\pos(540,1513)}picked the wrong\N{\c&H00657811&\b1}column{\c&H002A2B17&\b0} for the
+Dialogue: 0,0:00:56.84,0:00:57.08,Default,,0,0,0,,{\pos(540,1513)}picked the wrong\Ncolumn {\c&H00657811&\b1}for{\c&H002A2B17&\b0} the
+Dialogue: 0,0:00:57.08,0:00:57.16,Default,,0,0,0,,{\pos(540,1513)}picked the wrong\Ncolumn for {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:57.16,0:00:57.42,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}primary{\c&H002A2B17&\b0} key or\Ncompletely missed a
+Dialogue: 0,0:00:57.42,0:00:57.80,Default,,0,0,0,,{\pos(540,1513)}primary {\c&H00657811&\b1}key{\c&H002A2B17&\b0} or\Ncompletely missed a
+Dialogue: 0,0:00:57.80,0:00:58.14,Default,,0,0,0,,{\pos(540,1513)}primary key {\c&H00657811&\b1}or{\c&H002A2B17&\b0}\Ncompletely missed a
+Dialogue: 0,0:00:58.14,0:00:58.46,Default,,0,0,0,,{\pos(540,1513)}primary key or\N{\c&H00657811&\b1}completely{\c&H002A2B17&\b0} missed a
+Dialogue: 0,0:00:58.46,0:00:58.78,Default,,0,0,0,,{\pos(540,1513)}primary key or\Ncompletely {\c&H00657811&\b1}missed{\c&H002A2B17&\b0} a
+Dialogue: 0,0:00:58.78,0:00:58.92,Default,,0,0,0,,{\pos(540,1513)}primary key or\Ncompletely missed {\c&H00657811&\b1}a{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:58.92,0:00:59.10,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}crucial{\c&H002A2B17&\b0} relationship,\Nyou can ask for
+Dialogue: 0,0:00:59.10,0:01:00.06,Default,,0,0,0,,{\pos(540,1513)}crucial {\c&H00657811&\b1}relationship,{\c&H002A2B17&\b0}\Nyou can ask for
+Dialogue: 0,0:01:00.06,0:01:00.18,Default,,0,0,0,,{\pos(540,1513)}crucial relationship,\Nyou {\c&H00657811&\b1}can{\c&H002A2B17&\b0} ask for
+Dialogue: 0,0:01:00.18,0:01:00.34,Default,,0,0,0,,{\pos(540,1513)}crucial relationship,\Nyou can {\c&H00657811&\b1}ask{\c&H002A2B17&\b0} for
+Dialogue: 0,0:01:00.34,0:01:00.54,Default,,0,0,0,,{\pos(540,1513)}crucial relationship,\Nyou can ask {\c&H00657811&\b1}for{\c&H002A2B17&\b0}
+Dialogue: 0,0:01:00.54,0:01:00.82,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}revisions{\c&H002A2B17&\b0} right there\Nin the sandbox,
+Dialogue: 0,0:01:00.82,0:01:01.16,Default,,0,0,0,,{\pos(540,1513)}revisions {\c&H00657811&\b1}right{\c&H002A2B17&\b0} there\Nin the sandbox,
+Dialogue: 0,0:01:01.16,0:01:01.38,Default,,0,0,0,,{\pos(540,1513)}revisions right {\c&H00657811&\b1}there{\c&H002A2B17&\b0}\Nin the sandbox,
+Dialogue: 0,0:01:01.38,0:01:01.46,Default,,0,0,0,,{\pos(540,1513)}revisions right there\N{\c&H00657811&\b1}in{\c&H002A2B17&\b0} the sandbox,
+Dialogue: 0,0:01:01.46,0:01:01.54,Default,,0,0,0,,{\pos(540,1513)}revisions right there\Nin {\c&H00657811&\b1}the{\c&H002A2B17&\b0} sandbox,
+Dialogue: 0,0:01:01.54,0:01:01.94,Default,,0,0,0,,{\pos(540,1513)}revisions right there\Nin the {\c&H00657811&\b1}sandbox,{\c&H002A2B17&\b0}
+Dialogue: 0,0:01:02.24,0:01:02.32,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}or{\c&H002A2B17&\b0} manually\Nadjust it yourself.
+Dialogue: 0,0:01:02.32,0:01:02.62,Default,,0,0,0,,{\pos(540,1513)}or {\c&H00657811&\b1}manually{\c&H002A2B17&\b0}\Nadjust it yourself.
+Dialogue: 0,0:01:02.62,0:01:03.06,Default,,0,0,0,,{\pos(540,1513)}or manually\N{\c&H00657811&\b1}adjust{\c&H002A2B17&\b0} it yourself.
+Dialogue: 0,0:01:03.06,0:01:03.26,Default,,0,0,0,,{\pos(540,1513)}or manually\Nadjust {\c&H00657811&\b1}it{\c&H002A2B17&\b0} yourself.
+Dialogue: 0,0:01:03.26,0:01:03.66,Default,,0,0,0,,{\pos(540,1513)}or manually\Nadjust it {\c&H00657811&\b1}yourself.{\c&H002A2B17&\b0}
+Dialogue: 0,0:01:04.14,0:01:04.31,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}And{\c&H002A2B17&\b0} when you are\Nfinally satisfied
+Dialogue: 0,0:01:04.31,0:01:04.62,Default,,0,0,0,,{\pos(540,1513)}And {\c&H00657811&\b1}when{\c&H002A2B17&\b0} you are\Nfinally satisfied
+Dialogue: 0,0:01:04.62,0:01:04.98,Default,,0,0,0,,{\pos(540,1513)}And when {\c&H00657811&\b1}you{\c&H002A2B17&\b0} are\Nfinally satisfied
+Dialogue: 0,0:01:04.98,0:01:05.22,Default,,0,0,0,,{\pos(540,1513)}And when you {\c&H00657811&\b1}are{\c&H002A2B17&\b0}\Nfinally satisfied
+Dialogue: 0,0:01:05.22,0:01:05.64,Default,,0,0,0,,{\pos(540,1513)}And when you are\N{\c&H00657811&\b1}finally{\c&H002A2B17&\b0} satisfied
+Dialogue: 0,0:01:05.64,0:01:06.16,Default,,0,0,0,,{\pos(540,1513)}And when you are\Nfinally {\c&H00657811&\b1}satisfied{\c&H002A2B17&\b0}
+Dialogue: 0,0:01:06.16,0:01:06.73,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}that{\c&H002A2B17&\b0} the logic holds up.
+Dialogue: 0,0:01:06.73,0:01:06.81,Default,,0,0,0,,{\pos(540,1513)}that {\c&H00657811&\b1}the{\c&H002A2B17&\b0} logic holds up.
+Dialogue: 0,0:01:06.81,0:01:07.02,Default,,0,0,0,,{\pos(540,1513)}that the {\c&H00657811&\b1}logic{\c&H002A2B17&\b0} holds up.
+Dialogue: 0,0:01:07.02,0:01:07.28,Default,,0,0,0,,{\pos(540,1513)}that the logic {\c&H00657811&\b1}holds{\c&H002A2B17&\b0} up.
+Dialogue: 0,0:01:07.28,0:01:07.60,Default,,0,0,0,,{\pos(540,1513)}that the logic holds {\c&H00657811&\b1}up.{\c&H002A2B17&\b0}
+Dialogue: 0,0:01:07.84,0:01:08.18,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Then{\c&H002A2B17&\b0} and only then do you
+Dialogue: 0,0:01:08.18,0:01:08.52,Default,,0,0,0,,{\pos(540,1513)}Then {\c&H00657811&\b1}and{\c&H002A2B17&\b0} only then do you
+Dialogue: 0,0:01:08.52,0:01:08.84,Default,,0,0,0,,{\pos(540,1513)}Then and {\c&H00657811&\b1}only{\c&H002A2B17&\b0} then do you
+Dialogue: 0,0:01:08.84,0:01:09.06,Default,,0,0,0,,{\pos(540,1513)}Then and only {\c&H00657811&\b1}then{\c&H002A2B17&\b0} do you
+Dialogue: 0,0:01:09.06,0:01:09.28,Default,,0,0,0,,{\pos(540,1513)}Then and only then {\c&H00657811&\b1}do{\c&H002A2B17&\b0} you
+Dialogue: 0,0:01:09.28,0:01:09.38,Default,,0,0,0,,{\pos(540,1513)}Then and only then do {\c&H00657811&\b1}you{\c&H002A2B17&\b0}
+Dialogue: 0,0:01:09.38,0:01:09.72,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}deliberately{\c&H002A2B17&\b0} switch\Nthe interface to
+Dialogue: 0,0:01:09.72,0:01:10.14,Default,,0,0,0,,{\pos(540,1513)}deliberately {\c&H00657811&\b1}switch{\c&H002A2B17&\b0}\Nthe interface to
+Dialogue: 0,0:01:10.14,0:01:10.36,Default,,0,0,0,,{\pos(540,1513)}deliberately switch\N{\c&H00657811&\b1}the{\c&H002A2B17&\b0} interface to
+Dialogue: 0,0:01:10.36,0:01:10.66,Default,,0,0,0,,{\pos(540,1513)}deliberately switch\Nthe {\c&H00657811&\b1}interface{\c&H002A2B17&\b0} to
+Dialogue: 0,0:01:10.66,0:01:11.03,Default,,0,0,0,,{\pos(540,1513)}deliberately switch\Nthe interface {\c&H00657811&\b1}to{\c&H002A2B17&\b0}
+Dialogue: 0,0:01:11.03,0:01:11.38,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}ACT{\c&H002A2B17&\b0} mode to apply\Nthe reviewed
+Dialogue: 0,0:01:11.38,0:01:11.70,Default,,0,0,0,,{\pos(540,1513)}ACT {\c&H00657811&\b1}mode{\c&H002A2B17&\b0} to apply\Nthe reviewed
+Dialogue: 0,0:01:11.70,0:01:12.14,Default,,0,0,0,,{\pos(540,1513)}ACT mode {\c&H00657811&\b1}to{\c&H002A2B17&\b0} apply\Nthe reviewed
+Dialogue: 0,0:01:12.14,0:01:12.34,Default,,0,0,0,,{\pos(540,1513)}ACT mode to {\c&H00657811&\b1}apply{\c&H002A2B17&\b0}\Nthe reviewed
+Dialogue: 0,0:01:12.34,0:01:12.59,Default,,0,0,0,,{\pos(540,1513)}ACT mode to apply\N{\c&H00657811&\b1}the{\c&H002A2B17&\b0} reviewed
+Dialogue: 0,0:01:12.59,0:01:12.81,Default,,0,0,0,,{\pos(540,1513)}ACT mode to apply\Nthe {\c&H00657811&\b1}reviewed{\c&H002A2B17&\b0}
+Dialogue: 0,0:01:12.81,0:01:13.66,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}proposal,{\c&H002A2B17&\b0} merging\Nit into the live
+Dialogue: 0,0:01:13.66,0:01:13.78,Default,,0,0,0,,{\pos(540,1513)}proposal, {\c&H00657811&\b1}merging{\c&H002A2B17&\b0}\Nit into the live
+Dialogue: 0,0:01:13.78,0:01:13.98,Default,,0,0,0,,{\pos(540,1513)}proposal, merging\N{\c&H00657811&\b1}it{\c&H002A2B17&\b0} into the live
+Dialogue: 0,0:01:13.98,0:01:14.18,Default,,0,0,0,,{\pos(540,1513)}proposal, merging\Nit {\c&H00657811&\b1}into{\c&H002A2B17&\b0} the live
+Dialogue: 0,0:01:14.18,0:01:14.38,Default,,0,0,0,,{\pos(540,1513)}proposal, merging\Nit into {\c&H00657811&\b1}the{\c&H002A2B17&\b0} live
+Dialogue: 0,0:01:14.38,0:01:14.56,Default,,0,0,0,,{\pos(540,1513)}proposal, merging\Nit into the {\c&H00657811&\b1}live{\c&H002A2B17&\b0}
+Dialogue: 0,0:01:14.56,0:01:15.08,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}model.{\c&H002A2B17&\b0}

@@ -1,0 +1,1276 @@
+[
+  {
+    "id": "C01",
+    "title": "Your data stack still needs business meaning",
+    "source_start": 100.44,
+    "source_end": 143.61999999999998,
+    "source_parts": [
+      {
+        "part": "part00.m4a",
+        "start": 100.44,
+        "end": 143.61999999999998
+      }
+    ],
+    "example_type": "raw-data gap",
+    "exact_recording_transcript_asr": "You are sitting at your desk. You have millions of data points at your fingertips. You've got tables, beautifully colored dashboards, the latest large language models. An absolute mountain of technology. A mountain. And yet, you still cannot get a straight, dependable answer to a painfully simple question like, which stores need my attention today? Yeah, it is sort of the defining paradox of the modern data stack. We have spent the last two decades focused almost entirely on the plumbing. How to move data faster, how to store more of it cheaper, or how to build better analytical engines. But the data itself. The raw data itself is often just a collection of totally disconnected facts.",
+    "graphic_family": "contrast",
+    "teaching_relation": "Context links the facts",
+    "illustration_status": "Original discussion excerpt",
+    "review_flags": [],
+    "master": "storyboards/master-contrast.png",
+    "storyboard": "storyboards/C01/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C02",
+    "title": "The same temperature can mean different things",
+    "source_start": 180.82,
+    "source_end": 238.17999999999998,
+    "source_parts": [
+      {
+        "part": "part00.m4a",
+        "start": 180.82,
+        "end": 238.17999999999998
+      }
+    ],
+    "example_type": "illustrative temperature context",
+    "exact_recording_transcript_asr": "I want to look really closely at that gap between data and meaning, because if you pull up a table and it shows a column labeled temperature, that's just a raw number. Right, it completely lacks the commercial context. Exactly. It doesn't tell you anything about the store experiencing that temperature. Well, let's trace that exact problem because it's a great example. If you have a spreadsheet and a column simply says temperature 45, what does your AI do with that? It just reads the number 45. Right. And if it's the ambient temperature outside a retail location on a pleasant spring day, 45 degrees Fahrenheit is just chilly. Sure. But if that sensor is sitting inside a commercial refrigeration unit, holding thousands of dollars of premium pharmaceutical supplies or, you know, frozen food, then 45 degrees is a total disaster. It's a catastrophic failure in progress. But the data itself, the integer of 45, is completely agnostic to your business reality.",
+    "graphic_family": "contrast",
+    "teaching_relation": "45\u00b0F",
+    "illustration_status": "Illustrative scenario",
+    "review_flags": [
+      "Illustrative context/units example, not a food or pharmaceutical safety threshold."
+    ],
+    "master": "storyboards/master-contrast.png",
+    "storyboard": "storyboards/C02/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C03",
+    "title": "Which shipment date means arrival",
+    "source_start": 255.58,
+    "source_end": 308.2,
+    "source_parts": [
+      {
+        "part": "part00.m4a",
+        "start": 255.58,
+        "end": 308.2
+      }
+    ],
+    "example_type": "shipment-date example",
+    "exact_recording_transcript_asr": "Or consider something as ubiquitous as a shipment record. Okay. If you look at a standard supply chain database, a single shipment record might contain half a dozen different date fields. Oh yeah, order date, ship date, all of that. Right. You have the original order date, the warehouse processing date, the physical ship date, the initial estimated arrival date, the revised arrival date based on, say, weather delays, and the actual docked date. That is a lot of dates. So if an executive asks a standard AI chatbot, hey, when is the inventory arriving? How does the language model know which of those six columns to pull? Usually it just guesses, right? Or it hallucinates. Historically, a human data engineer has had to explicitly write SQL queries to tell the reporting system which of those fields represents the actual expected arrival that the store manager cares about today,",
+    "graphic_family": "contrast",
+    "teaching_relation": "Several dates, different meanings",
+    "illustration_status": "Illustrative scenario",
+    "review_flags": [],
+    "master": "storyboards/master-contrast.png",
+    "storyboard": "storyboards/C03/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C04",
+    "title": "Inventory at risk has two definitions",
+    "source_start": 326.42,
+    "source_end": 379.04,
+    "source_parts": [
+      {
+        "part": "part00.m4a",
+        "start": 326.42,
+        "end": 379.04
+      }
+    ],
+    "example_type": "warehouse versus planning example",
+    "exact_recording_transcript_asr": "Inventory at risk is a brilliant example of these diagnostic muddy waters. Because it sounds so simple. It does. But if you go down to the warehouse and ask the manager what inventory at risk means, they will likely give you a purely physical definition. Meaning what? To them it means the physical count of stocks sitting on a pallet is currently below a hard minimum threshold at this exact second. Okay, but if you take that exact same phrase to a supply chain planner, the planner is going to give you a temporal predictive definition. Right, because their job is looking ahead. Exactly. To them, inventory at risk means that based on current sales velocity and historical trends, a predictive projection shows that the stock will fall below a required safety buffer at some point before the next delivery truck physically arrives. Those are two radically different mathematical equations. Completely different database queries triggered by the exact same three words.",
+    "graphic_family": "contrast",
+    "teaching_relation": "Inventory at risk",
+    "illustration_status": "Illustrative scenario",
+    "review_flags": [],
+    "master": "storyboards/master-contrast.png",
+    "storyboard": "storyboards/C04/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C05",
+    "title": "Data without meaning is ingredients without a recipe",
+    "source_start": 381.24,
+    "source_end": 403.03999999999996,
+    "source_parts": [
+      {
+        "part": "part00.m4a",
+        "start": 381.24,
+        "end": 403.03999999999996
+      }
+    ],
+    "example_type": "speaker analogy",
+    "exact_recording_transcript_asr": "Having raw data and an LLM without an ontology is essentially like having a massive commercial kitchen packed to the ceiling with premium ingredients. I like this analogy. But you have no recipe. You don't know the ratios, you don't know the cooking times, and you don't even know if you're supposed to be baking a wedding cake or making a beef stew. That is the functional reality for most enterprises today.",
+    "graphic_family": "contrast",
+    "teaching_relation": "Data needs business context",
+    "illustration_status": "Illustrative scenario",
+    "review_flags": [],
+    "master": "storyboards/master-contrast.png",
+    "storyboard": "storyboards/C05/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C06",
+    "title": "When the analyst is the only recipe",
+    "source_start": 407.64,
+    "source_end": 443.64,
+    "source_parts": [
+      {
+        "part": "part00.m4a",
+        "start": 407.64,
+        "end": 443.64
+      }
+    ],
+    "example_type": "analyst knowledge example",
+    "exact_recording_transcript_asr": "A human analyst has to listen to the business question like, which stores are at risk and then mentally translate that subjective human anxiety into a series of complex database joins? They have to know all the quirks of the system. Exactly. They have to know that the warehouse table uses an underscore in the column name while the sales table uses camel case. They have to know which filters to apply and which departmental definition to enforce. The obvious vulnerability there that if that specific human goes on vacation or you know quits. The institutional knowledge of how to ask the database a question just walks right out the door with them.",
+    "graphic_family": "ownership",
+    "teaching_relation": "Institutional knowledge",
+    "illustration_status": "Illustrative scenario",
+    "review_flags": [],
+    "master": "storyboards/master-ownership.png",
+    "storyboard": "storyboards/C06/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C07",
+    "title": "Fabric brings the workflow together",
+    "source_start": 495.16,
+    "source_end": 522.18,
+    "source_parts": [
+      {
+        "part": "part00.m4a",
+        "start": 495.16,
+        "end": 522.18
+      }
+    ],
+    "example_type": "platform overview",
+    "exact_recording_transcript_asr": "Microsoft Fabric is an architectural attempt to bring the entire historically fragmented data workflow into one unified software as a service platform. And when we say workflow, we mean everything. The complete life cycle. Ingesting data from external sources, transforming and cleaning it, analyzing historical batches, real -time IOT information, training machine learning models, and finally serving up the visualizations in reporting tools.",
+    "graphic_family": "workflow",
+    "teaching_relation": "Shared platform, different workloads",
+    "illustration_status": "Original discussion excerpt",
+    "review_flags": [],
+    "master": "storyboards/master-workflow.png",
+    "storyboard": "storyboards/C07/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C08",
+    "title": "OneLake shared data different engines",
+    "source_start": 546.78,
+    "source_end": 579.24,
+    "source_parts": [
+      {
+        "part": "part00.m4a",
+        "start": 546.78,
+        "end": 579.24
+      }
+    ],
+    "example_type": "shared data foundation",
+    "exact_recording_transcript_asr": "And the bedrock of this entire platform is something they call OneLake. OneLake is fundamental to understanding how the ontology actually executes. It is the shared data foundation. Like a massive hard drive for the company. The architectural philosophy here is that different teams within an organization, data scientists, financial analysts, operations managers, can all work with the exact same underlying govern data. But using their own tools. Exactly. They access it through different analytical compute engines depending on their specific needs.",
+    "graphic_family": "ownership",
+    "teaching_relation": "OneLake",
+    "illustration_status": "Original discussion excerpt",
+    "review_flags": [],
+    "master": "storyboards/master-ownership.png",
+    "storyboard": "storyboards/C08/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C09",
+    "title": "Shortcuts reference data elsewhere",
+    "source_start": 585.12,
+    "source_end": 621.5,
+    "source_parts": [
+      {
+        "part": "part00.m4a",
+        "start": 585.12,
+        "end": 621.5
+      }
+    ],
+    "example_type": "supported shortcut example",
+    "exact_recording_transcript_asr": "Well, shortcuts are a response to the nightmare of data duplication, which is a huge problem. Massive. In legacy architectures, if the machine learning team needed the sales data for a forecasting model and the finance team needed it for a quarterly report, the data engineers would literally copy the data into two different databases. And then they get out of sync. Within months. One database updates differently than the other, and you completely lose your single source of truth. Supported shortcuts in OneLake allow different workspaces to reference data that physically live somewhere else, even in external cloud providers like AWS or Google Cloud.",
+    "graphic_family": "ownership",
+    "teaching_relation": "Reference rather than duplicate",
+    "illustration_status": "Illustrative scenario",
+    "review_flags": [],
+    "master": "storyboards/master-ownership.png",
+    "storyboard": "storyboards/C09/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C10",
+    "title": "Ontology supplies meaning over data",
+    "source_start": 634.58,
+    "source_end": 680.64,
+    "source_parts": [
+      {
+        "part": "part00.m4a",
+        "start": 634.58,
+        "end": 680.64
+      }
+    ],
+    "example_type": "context layer, not transactional storage",
+    "exact_recording_transcript_asr": "which naturally raises the question is Fabric IQ, which is the specific service where this ontology feature lives. Just another database we have to maintain. That is the most persistent misconception we see and we really have to clear it up immediately. Fabric IQ is emphatically not a database. Okay, so it doesn't store data? It does not store your transactional data. Fabric IQ organizes the business context that hovers over the data you already have. If it doesn't hold data, what is it holding? Think of it as a semantic translation layer. Power BI provides your curated analytics and visuals. Your Lakehouse provides the raw storage, but the ontology living inside Fabric IQ defines the actual concepts and connections.",
+    "graphic_family": "ownership",
+    "teaching_relation": "Ontology definitions",
+    "illustration_status": "Original discussion excerpt",
+    "review_flags": [],
+    "master": "storyboards/master-ownership.png",
+    "storyboard": "storyboards/C10/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C11",
+    "title": "Entity type versus instance",
+    "source_start": 741.74,
+    "source_end": 771.9909749999999,
+    "source_parts": [
+      {
+        "part": "part00.m4a",
+        "start": 741.74,
+        "end": 750.050975
+      },
+      {
+        "part": "part01.m4a",
+        "start": 0.0,
+        "end": 21.93999999999994
+      }
+    ],
+    "example_type": "illustrative Seattle store",
+    "exact_recording_transcript_asr": "Let's break down the primary components. Okay. The absolute foundation is an entity type. So an entity type is the broad conceptual category. In the retail scenario from the source, store would be an entity type or product. Correct. It is the template. Then you have an instance. An instance is one specific physical real -world manifestation of that entity type. So store number 402, located in downtown Seattle, is an instance of the store entity.",
+    "graphic_family": "entities",
+    "teaching_relation": "Type \u2192 instance",
+    "illustration_status": "Illustrative scenario",
+    "review_flags": [],
+    "master": "storyboards/master-entities.png",
+    "storyboard": "storyboards/C11/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C12",
+    "title": "Properties describe relationships connect",
+    "source_start": 780.180975,
+    "source_end": 813.410975,
+    "source_parts": [
+      {
+        "part": "part01.m4a",
+        "start": 30.129999999999995,
+        "end": 63.360000000000014
+      }
+    ],
+    "example_type": "properties and relationship example",
+    "exact_recording_transcript_asr": "For our store entity, the properties might include the region it belongs to, its square footage, or its priority classification for the supply chain. And then we have to connect them. That brings us to relationships. Relationships define the verbs between the nouns. They explain how different entity types interact in the real world. Give me an example. You might define a relationship that states a store operates a refrigeration unit or a supplier ships a product. You are drawing explicit lines of meaning so the AI doesn't have to guess how a supplier and a store are connected.",
+    "graphic_family": "entities",
+    "teaching_relation": "operates",
+    "illustration_status": "Illustrative scenario",
+    "review_flags": [],
+    "master": "storyboards/master-entities.png",
+    "storyboard": "storyboards/C12/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C13",
+    "title": "Bindings connect concepts to source fields",
+    "source_start": 818.210975,
+    "source_end": 841.02,
+    "source_parts": [
+      {
+        "part": "part01.m4a",
+        "start": 68.15999999999997,
+        "end": 90.96902499999999
+      }
+    ],
+    "example_type": "illustrative column mapping",
+    "exact_recording_transcript_asr": "Data bindings are perhaps the most critical mechanical component. This is the wiring that connects these abstract high -level concepts back to the physical source fields in your actual databases. Okay, so it points to the database. It's the mapping that tells the ontology, hey, when the user asks about a region, do not hallucinate an answer, go look specifically at column F in this exact Lakehouse table.",
+    "graphic_family": "ownership",
+    "teaching_relation": "Data binding",
+    "illustration_status": "Illustrative scenario",
+    "review_flags": [],
+    "master": "storyboards/master-ownership.png",
+    "storyboard": "storyboards/C13/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C14",
+    "title": "Namespaces prevent semantic collisions",
+    "source_start": 841.100975,
+    "source_end": 874.030975,
+    "source_parts": [
+      {
+        "part": "part01.m4a",
+        "start": 91.04999999999995,
+        "end": 123.98000000000002
+      }
+    ],
+    "example_type": "contract namespace example",
+    "exact_recording_transcript_asr": "But if you are a global enterprise, you are dealing with thousands of concepts. You can't just have all these entities thrown into one massive bucket, it would be chaos. Total chaos. Which is why the system relies heavily on namespaces and inheritance. Namespaces act as organizational boundaries or scopes for your definitions. So the HR department's definition of a contract, which might mean an employment agreement, doesn't collide and override the sales department's definition of a contract, which means a customer purchase agreement. Exactly. Namespaces prevent those semantic collisions,",
+    "graphic_family": "contrast",
+    "teaching_relation": "Same word, different scopes",
+    "illustration_status": "Illustrative scenario",
+    "review_flags": [],
+    "master": "storyboards/master-contrast.png",
+    "storyboard": "storyboards/C14/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C15",
+    "title": "Inheritance reuses a base structure",
+    "source_start": 884.690975,
+    "source_end": 922.350975,
+    "source_parts": [
+      {
+        "part": "part01.m4a",
+        "start": 134.64,
+        "end": 172.29999999999995
+      }
+    ],
+    "example_type": "Location/Store and Product/Frozen Product examples",
+    "exact_recording_transcript_asr": "Break down how that inheritance actually looks in practice for us. Sure. In the Lakeshore Retail example provided in the source, they start with a very broad base type called location. A location simply has properties like an address, geographic coordinates, and a manager name. You can then create a store entity that derives from location. So it inherits all that base stuff. The store automatically inherits the address and coordinates, but then you add store specific properties, like retail square footage. Similarly, you could have a base entity called product and derive a highly specific entity called frozen product.",
+    "graphic_family": "hierarchy",
+    "teaching_relation": "inherits structure",
+    "illustration_status": "Illustrative scenario",
+    "review_flags": [],
+    "master": "storyboards/master-hierarchy.png",
+    "storyboard": "storyboards/C15/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C16",
+    "title": "A derived type needs its own binding",
+    "source_start": 950.690975,
+    "source_end": 958.1309749999999,
+    "source_parts": [
+      {
+        "part": "part01.m4a",
+        "start": 200.64,
+        "end": 208.07999999999993
+      }
+    ],
+    "example_type": "derived-type binding limit",
+    "exact_recording_transcript_asr": "a derived type does not automatically inherit the physical data bindings of its parent. It needs its own specific data bindings mapped to the tables.",
+    "graphic_family": "boundary",
+    "teaching_relation": "Preview constraint",
+    "illustration_status": "Preview context \u00b7 Oct 2026",
+    "review_flags": [],
+    "master": "storyboards/master-boundary.png",
+    "storyboard": "storyboards/C16/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C17",
+    "title": "Relationships are not automatically inherited",
+    "source_start": 963.290975,
+    "source_end": 986.290975,
+    "source_parts": [
+      {
+        "part": "part01.m4a",
+        "start": 213.24,
+        "end": 236.24
+      }
+    ],
+    "example_type": "preview inheritance caveat",
+    "exact_recording_transcript_asr": "Ordinary relationships are not automatically inherited from the parent. Wait, really? So if I spend an hour defining that a base product has a complex relationship to a supplier database, my newly created frozen product doesn't just automatically inherit that supplier relationship? Not currently. No, you have to explicitly redefine or map that relationship for the derived type.",
+    "graphic_family": "hierarchy",
+    "teaching_relation": "Define ordinary relationships explicitly",
+    "illustration_status": "Preview context \u00b7 Oct 2026",
+    "review_flags": [],
+    "master": "storyboards/master-hierarchy.png",
+    "storyboard": "storyboards/C17/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C18",
+    "title": "Query the derived type explicitly",
+    "source_start": 994.590975,
+    "source_end": 1045.670975,
+    "source_parts": [
+      {
+        "part": "part01.m4a",
+        "start": 244.53999999999996,
+        "end": 295.62
+      }
+    ],
+    "example_type": "hypothetical omitted frozen-products analysis",
+    "exact_recording_transcript_asr": "The current agent does not automatically traverse downward to include every derived instance when you query a broad parent type. Why does that matter in a real -world query? Walk me through a scenario. Let's say a regional manager is running a diagnostic on everything in their supply chain that might spoil. They sit down at the chat interface and ask the agent to analyze inventory risk for all product. Just general products. Right. Because of this preview limitation, the agent might only query the base product entity and completely fail to roll up the derived frozen product instances into that analysis. Oh, wow. So the manager thinks they are looking at a comprehensive report, but the AI just silently ignored half a million dollars worth of melting ice cream because the human didn't specifically say the word frozen. Precisely. You have to specifically name the relevant derived type in your prompt.",
+    "graphic_family": "hierarchy",
+    "teaching_relation": "Name relevant types",
+    "illustration_status": "Illustrative scenario",
+    "review_flags": [],
+    "master": "storyboards/master-hierarchy.png",
+    "storyboard": "storyboards/C18/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C19",
+    "title": "Reuse the Power BI model you already built",
+    "source_start": 1099.890975,
+    "source_end": 1128.310975,
+    "source_parts": [
+      {
+        "part": "part01.m4a",
+        "start": 349.84000000000003,
+        "end": 378.2600000000001
+      }
+    ],
+    "example_type": "semantic-model generation",
+    "exact_recording_transcript_asr": "The system is designed so you can generate a significant portion of your ontology directly from an existing power BI semantic model. That makes total sense because a semantic model already is a form of an ontology. It has the tables, the relationships, the business logic. How seamless is that translation process? The ontology agent essentially ingests the structure you've already built. The tables, columns, and established relationships in your Power BI model automatically provide the scaffolding for the ontologies, entities, and properties.",
+    "graphic_family": "ownership",
+    "teaching_relation": "Reuse and review",
+    "illustration_status": "Original discussion excerpt",
+    "review_flags": [],
+    "master": "storyboards/master-ownership.png",
+    "storyboard": "storyboards/C19/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C20",
+    "title": "Customer definitions still need a human decision",
+    "source_start": 1148.750975,
+    "source_end": 1219.050975,
+    "source_parts": [
+      {
+        "part": "part01.m4a",
+        "start": 398.69999999999993,
+        "end": 469.0000000000001
+      }
+    ],
+    "example_type": "hypothetical customer-definition collision",
+    "exact_recording_transcript_asr": "You rarely have just one perfect semantic model. You have dozens. That's true. Marketing has a semantic model, sales has a semantic model, finance has one, and they all have a concept called customer. Yes, the classic overlap. If I use the agent to ingest all three of these models into one master ontology, how does it reconcile the fact that marketing defines a customer as anyone who gave us an email address? Well, finance defines a customer as someone who has actively paid an invoice in the last 90 days. That is exactly where the automated generation process stops and human governance must take over. So the AI doesn't just fix it? No. The ontology Agent is a powerful assistant. It will help you bring multiple semantic models into a shared space, and it will flag those overlapping concepts. It will propose ways to reconcile them, but it is not an arbiter of corporate policy. A human domain expert still has to sit down, review the proposed entity keys, check the relationships, explicitly decide how to handle that naming collision, usually by utilizing namespaces or creating distinct marketing customer and finance customer entities.",
+    "graphic_family": "contrast",
+    "teaching_relation": "Governance resolves meaning",
+    "illustration_status": "Illustrative scenario",
+    "review_flags": [],
+    "master": "storyboards/master-contrast.png",
+    "storyboard": "storyboards/C20/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C21",
+    "title": "The source model owns the DAX",
+    "source_start": 1283.790975,
+    "source_end": 1311.5509749999999,
+    "source_parts": [
+      {
+        "part": "part01.m4a",
+        "start": 533.7399999999999,
+        "end": 561.4999999999999
+      }
+    ],
+    "example_type": "DAX ownership example",
+    "exact_recording_transcript_asr": "The ontology operates entirely by reference. The metric you see in the ontology simply acts as a pointer back to that original source model. If the CFO changes the definition of profit, your data engineers edit the DAX expression in the Power BI semantic model, just as they always have. The ontology's role is simply to provide a natural language description and contextual metadata so the AI agents understand what that metric represents and when to use it without ever altering or copying the source math.",
+    "graphic_family": "ownership",
+    "teaching_relation": "references source DAX",
+    "illustration_status": "Illustrative scenario",
+    "review_flags": [],
+    "master": "storyboards/master-ownership.png",
+    "storyboard": "storyboards/C21/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C22",
+    "title": "Source permissions still matter",
+    "source_start": 1326.1709749999998,
+    "source_end": 1337.2309750000002,
+    "source_parts": [
+      {
+        "part": "part01.m4a",
+        "start": 576.1199999999998,
+        "end": 587.1800000000002
+      }
+    ],
+    "example_type": "semantic-model access",
+    "exact_recording_transcript_asr": "To generate an ontology from a semantic model, or to even ask an AI agent a question that utilizes that metric, the user needs read and build permissions on the underlying Power BI model.",
+    "graphic_family": "boundary",
+    "teaching_relation": "Both are required",
+    "illustration_status": "Original discussion excerpt",
+    "review_flags": [],
+    "master": "storyboards/master-boundary.png",
+    "storyboard": "storyboards/C22/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C23",
+    "title": "The schema cannot explain priority",
+    "source_start": 1369.410975,
+    "source_end": 1435.990975,
+    "source_parts": [
+      {
+        "part": "part01.m4a",
+        "start": 619.36,
+        "end": 685.9399999999999
+      }
+    ],
+    "example_type": "illustrative priority classification",
+    "exact_recording_transcript_asr": "A relational database might have a column named priority level, filled with the numbers one, two, and three. The schema knows it's an integer, but the schema has absolutely no idea what makes a one strategically different from a three in the real world. Which brings us to the most human element of this entire process, which is adding the metadata and the business roles. Right. This is where you inject the tacit tribal knowledge that actually determines how a business question is answered. It's like leaving highly detailed sticky notes all over a complex shared spreadsheet. So the next analyst who opens it doesn't accidentally delete the company's revenue projections because they didn't understand what a column meant. That is the exact mechanism. You have to manually codify the context that the schema simply cannot possess. Give me some real world examples of that. Well, in our retail operation scenario, this means explicitly writing out the definition of what constitutes a priority store. Is it based on square footage, total revenue, proximity to a distribution center, you have to define it. Right, because priority is totally subjective until you define it.",
+    "graphic_family": "contrast",
+    "teaching_relation": "Meaning is not just a data type",
+    "illustration_status": "Illustrative scenario",
+    "review_flags": [],
+    "master": "storyboards/master-contrast.png",
+    "storyboard": "storyboards/C23/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C24",
+    "title": "Temperature units change the interpretation",
+    "source_start": 1451.850975,
+    "source_end": 1479.9709749999997,
+    "source_parts": [
+      {
+        "part": "part01.m4a",
+        "start": 701.8000000000001,
+        "end": 729.9199999999997
+      }
+    ],
+    "example_type": "illustrative unit mismatch",
+    "exact_recording_transcript_asr": "Because if the AI assumes the temperature is Fahrenheit, but the freezer is actually reporting in Celsius. Well, a freezer reporting a steady 10 degrees Celsius is 50 degrees Fahrenheit. Oh boy. Your entire inventory of frozen goods is currently liquid. But the AI, if left to assume Fahrenheit by default, might look at the number 10, think, oh, that is well below freezing and report back that everything is perfectly fine. Wow. That single missing piece of metadata, one word, entirely invalidates the analysis.",
+    "graphic_family": "contrast",
+    "teaching_relation": "10\u00b0C = 50\u00b0F",
+    "illustration_status": "Illustrative scenario",
+    "review_flags": [
+      "Illustrative context/units example, not a food or pharmaceutical safety threshold."
+    ],
+    "master": "storyboards/master-contrast.png",
+    "storyboard": "storyboards/C24/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C25",
+    "title": "Synonyms connect business vocabulary",
+    "source_start": 1490.710975,
+    "source_end": 1507.32195,
+    "source_parts": [
+      {
+        "part": "part01.m4a",
+        "start": 740.66,
+        "end": 750.050975
+      },
+      {
+        "part": "part02.m4a",
+        "start": 0.0,
+        "end": 7.220000000000027
+      }
+    ],
+    "example_type": "retail-location/shop naming example",
+    "exact_recording_transcript_asr": "You can also define extensive lists of synonyms for entity types. Why synonyms? If corporate formally calls it a retail location, but the regional managers always ask the chat about the shops, you define shop as a synonym so the AI knows they mean the exact same entity.",
+    "graphic_family": "entities",
+    "teaching_relation": "Entity synonyms",
+    "illustration_status": "Illustrative scenario",
+    "review_flags": [],
+    "master": "storyboards/master-entities.png",
+    "storyboard": "storyboards/C25/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C26",
+    "title": "AI proposes a model humans review it",
+    "source_start": 1508.72195,
+    "source_end": 1533.0619499999998,
+    "source_parts": [
+      {
+        "part": "part02.m4a",
+        "start": 8.620000000000118,
+        "end": 32.95999999999981
+      }
+    ],
+    "example_type": "ontology-agent drafting",
+    "exact_recording_transcript_asr": "Does the AI help with this part at all? The built -in ontology agent can assist here. It can inspect supported workspace sources, look at the column names, sample a few rows of actual data, and propose a draft model with descriptions. You can even upload an existing corporate data dictionary as grounding context for the agent. But again, a human has to check it. A human domain expert must meticulously review those proposals.",
+    "graphic_family": "workflow",
+    "teaching_relation": "Draft is not approval",
+    "illustration_status": "Original discussion excerpt",
+    "review_flags": [],
+    "master": "storyboards/master-workflow.png",
+    "storyboard": "storyboards/C26/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C27",
+    "title": "Business rules need explicit links",
+    "source_start": 1550.12195,
+    "source_end": 1592.08,
+    "source_parts": [
+      {
+        "part": "part02.m4a",
+        "start": 50.01999999999998,
+        "end": 91.97804999999994
+      }
+    ],
+    "example_type": "descriptive rule links",
+    "exact_recording_transcript_asr": "In the ontology interface, you can document inventory risk as a specific multivariable condition. You write out that risk occurs when a product's position is expected to fall below its required historical buffer before the next scheduled replenishment arrives. Okay, so you type out that logic in natural language. Then what happens? Does the AI just magically know how to execute that? No, writing it is just the first step. Then you explicitly Mathematically link that written rule to both the store entity and the inventory entity in your model. What is linking it? Actually do by forging that link you make the rule discoverable to any downstream AI agent consuming the ontology. So when",
+    "graphic_family": "boundary",
+    "teaching_relation": "Rule context",
+    "illustration_status": "Original discussion excerpt",
+    "review_flags": [],
+    "master": "storyboards/master-boundary.png",
+    "storyboard": "storyboards/C27/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C28",
+    "title": "Describing the rule is not executing it",
+    "source_start": 1611.70195,
+    "source_end": 1633.26195,
+    "source_parts": [
+      {
+        "part": "part02.m4a",
+        "start": 111.59999999999991,
+        "end": 133.16000000000008
+      }
+    ],
+    "example_type": "rule versus execution boundary",
+    "exact_recording_transcript_asr": "Writing the rule supplies the strategic context. Now, it is important to note that how that rule is actually executed, the specific database queries, the AI rights, to go fetch that data and test the condition, is handled by the query engines under the hood, which we need to discuss next. But the ontology is where the rule is permanently documented, linked, and standardized for the whole company.",
+    "graphic_family": "boundary",
+    "teaching_relation": "Separate responsibilities",
+    "illustration_status": "Original discussion excerpt",
+    "review_flags": [],
+    "master": "storyboards/master-boundary.png",
+    "storyboard": "storyboards/C28/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C29",
+    "title": "Different sources serve different workloads",
+    "source_start": 1655.42195,
+    "source_end": 1703.72195,
+    "source_parts": [
+      {
+        "part": "part02.m4a",
+        "start": 155.31999999999994,
+        "end": 203.62000000000012
+      }
+    ],
+    "example_type": "documented source routes",
+    "exact_recording_transcript_asr": "When a data engineer sets up these bindings, what kind of systems are they actually reaching into? According to the source documentation, the bindings and Fabric ontologies can point to a surprisingly wide variety of data architectures. Like what? You can bind to lake houses, which are typically used to store massive amounts of operational reference data, historical inventory records, and shipment logs in open formats. OK. You can bind to event houses or KQL databases, which are specifically architected to handle high volume real -time streaming telemetry. Streaming like IoT devices. Exactly, like the second -by -second temperature readings from thousands of refrigeration units. You can point to traditional relational data warehouses, standard SQL databases, externally mirror databases, and as we discussed, power BI semantic models.",
+    "graphic_family": "workflow",
+    "teaching_relation": "Semantic-model measures",
+    "illustration_status": "Original discussion excerpt",
+    "review_flags": [],
+    "master": "storyboards/master-workflow.png",
+    "storyboard": "storyboards/C29/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C30",
+    "title": "Definitions route the question to sources",
+    "source_start": 1707.74195,
+    "source_end": 1752.4019500000002,
+    "source_parts": [
+      {
+        "part": "part02.m4a",
+        "start": 207.6400000000001,
+        "end": 252.30000000000018
+      }
+    ],
+    "example_type": "source execution explanation",
+    "exact_recording_transcript_asr": "I'm a manager. I open the chat interface and I ask a highly complex question. I need an answer that requires checking physical inventory in the Lakehouse, cross -referencing current temperature telemetry in the Eventhouse, and calculating the financial impact using the DAX math in the semantic model. That's a huge request. Right. Does the system extract all that data from those three sources, pull it into some massive new temporary database and run the query there? No, and understanding this is profound for anyone evaluating the cost and performance of this system. The ontology supplies the definitions and the mappings. It acts as the routing intelligence. But when a consuming experience, like a chat interface, actually formulates the query, it executes that query against the appropriate native underlying engine.",
+    "graphic_family": "ownership",
+    "teaching_relation": "Query the appropriate source",
+    "illustration_status": "Original discussion excerpt",
+    "review_flags": [],
+    "master": "storyboards/master-ownership.png",
+    "storyboard": "storyboards/C30/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C31",
+    "title": "Freshness depends on the execution path",
+    "source_start": 1819.22195,
+    "source_end": 1882.4219500000002,
+    "source_parts": [
+      {
+        "part": "part02.m4a",
+        "start": 319.1200000000001,
+        "end": 382.32000000000016
+      }
+    ],
+    "example_type": "illustrative mixed-freshness example",
+    "exact_recording_transcript_asr": "Data freshness depends entirely on the execution path. Because the AI doesn't know it's comparing apples to last week's oranges. Exactly. If the agent executes a direct query against a streaming KQL Eventhouse, that temperature data might literally be millisecond's old. Super fresh. But if it's simultaneously querying an imported Power BI model for the sales figures, those sales figures are only as fresh as the last time that specific Power BI model was scheduled to refresh. So if a job fails. If your scheduled refresh failed overnight, your data is 24 hours out of date. So a non -technical executive might look at the chat window, see an answer that looks completely uniform, highly confident, and beautifully formatted and have absolutely no idea that half the data informing that sentence is real time and half is a week old. That's scary. They might make a massive operational decision based on a temporal misalignment. This is why you cannot blindly trust the conversational output in the chat interface. You or your engineering team must rigorously check the source ingestion timestamps and verify the reporting periods.",
+    "graphic_family": "evidence",
+    "teaching_relation": "Check source timestamps",
+    "illustration_status": "Illustrative scenario",
+    "review_flags": [],
+    "master": "storyboards/master-evidence.png",
+    "storyboard": "storyboards/C31/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C32",
+    "title": "Review before switching to Act",
+    "source_start": 1934.1019500000002,
+    "source_end": 2009.2619499999998,
+    "source_parts": [
+      {
+        "part": "part02.m4a",
+        "start": 434.0000000000002,
+        "end": 509.15999999999985
+      }
+    ],
+    "example_type": "proposal-first authoring",
+    "exact_recording_transcript_asr": "The engineer opens the ontology agent and ensures they are in plan mode. Like a draft mode. They prompt the agent with specific instructions. Add a sale entity using the sales table in the sales report semantic model located in this specific workspace. Okay, very specific. They then ask the agent to preview the proposed definition, show exactly how it mapped the data bindings and explain the source evidence it used to make those decisions, all while keeping the rest of the live ontology completely untouched. So Plan Mode operates as a secure sandbox. Exactly. It is a critical enterprise safety feature. Plan Mode allows you to discover, draft, validate, query, and inspect massive structural changes without actually altering the live production ontology that the rest of the company is currently using. You can test it out first. You can see the draft entity appear on the visual canvas, check how it mapped the primary and foreign keys, and run validation checks. If you realize the AI agent picked the wrong column for the primary key or completely missed a crucial relationship, you can ask for revisions right there in the sandbox, or manually adjust it yourself. And when you are finally satisfied that the logic holds up. Then and only then do you deliberately switch the interface to ACT mode to apply the reviewed proposal, merging it into the live model.",
+    "graphic_family": "workflow",
+    "teaching_relation": "Review gate",
+    "illustration_status": "Original discussion excerpt",
+    "review_flags": [
+      "Source uses sandbox as a metaphor; diagram labels definition preview, not a security-isolation guarantee."
+    ],
+    "master": "storyboards/master-workflow.png",
+    "storyboard": "storyboards/C32/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C33",
+    "title": "A restore replaces the whole definition",
+    "source_start": 2045.06195,
+    "source_end": 2096.46195,
+    "source_parts": [
+      {
+        "part": "part02.m4a",
+        "start": 544.96,
+        "end": 596.3599999999999
+      }
+    ],
+    "example_type": "hypothetical version rollback",
+    "exact_recording_transcript_asr": "Before you make any meaningful change to your production model, you create a named saved version of your current ontology state. Version history allows you to restore that saved definition if things go sideways. So it's not a surgical rollback where I just undo the last five minutes of work? No, and that's a crucial limitation to understand. A restore replaces the definition as a whole, it overwrites everything currently in the system with the exact state of the past version. So if your team spent four hours making great updates, and then someone makes one catastrophic mistake in hour five, rolling back to yesterday's version wipes out all the good work from those first four hours too. That's brutal. Best practice dictates that you must save a version of your current broken state before you restore the old one, just in case you need to salvage a piece of the new logic later. It's an effective safety net, but it requires really disciplined version control habits.",
+    "graphic_family": "workflow",
+    "teaching_relation": "Preserve current version first",
+    "illustration_status": "Ontology definition only",
+    "review_flags": [],
+    "master": "storyboards/master-workflow.png",
+    "storyboard": "storyboards/C33/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C34",
+    "title": "One retail prompt crosses several concepts",
+    "source_start": 2152.20195,
+    "source_end": 2164.50195,
+    "source_parts": [
+      {
+        "part": "part02.m4a",
+        "start": 652.1000000000001,
+        "end": 664.3999999999999
+      }
+    ],
+    "example_type": "recorded prompt excerpt, not executed demo",
+    "exact_recording_transcript_asr": "The prompt is review priority stores in the West region for frozen product inventory risk. Include recent refrigeration exceptions, shelf availability, and the next expected inbound delivery.",
+    "graphic_family": "entities",
+    "teaching_relation": "Example operations question",
+    "illustration_status": "Recorded question \u00b7 illustrative retail scenario",
+    "review_flags": [],
+    "master": "storyboards/master-entities.png",
+    "storyboard": "storyboards/C34/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C35",
+    "title": "Check the answer and expose missing data",
+    "source_start": 2315.289705,
+    "source_end": 2362.2297049999997,
+    "source_parts": [
+      {
+        "part": "part03.m4a",
+        "start": 65.16000000000031,
+        "end": 112.09999999999991
+      }
+    ],
+    "example_type": "hypothetical offline freezer sensor",
+    "exact_recording_transcript_asr": "The operator still has to check the receipts. They have to audit the machine's logic. Precisely. The human operator must aggressively verify if the agent actually used the approved business definitions. Did it apply the correct mathematical inventory risk role or did it hallucinate a simpler one? Did it even check the right databases? Did it push the queries down to the intended authoritative sources? And crucially, if there was a gap in the source data, let's say a store's freezer sensor lost power and went completely offline, so there's zero telemetry for the last six hours, the agent must make that gap explicitly visible to the operator. It can't just smooth it over. It cannot just silently ignore that store, and it certainly cannot invent a temperature value to make the table look neat. The answer must be something a human can rigorously mathematically check.",
+    "graphic_family": "evidence",
+    "teaching_relation": "Make gaps visible",
+    "illustration_status": "Illustrative scenario",
+    "review_flags": [],
+    "master": "storyboards/master-evidence.png",
+    "storyboard": "storyboards/C35/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C36",
+    "title": "Ask for the query and compare filters",
+    "source_start": 2368.689705,
+    "source_end": 2410.0297049999995,
+    "source_parts": [
+      {
+        "part": "part03.m4a",
+        "start": 118.55999999999995,
+        "end": 159.89999999999964
+      }
+    ],
+    "example_type": "source-report verification",
+    "exact_recording_transcript_asr": "In the source demo, the expert demonstrates the best practice, explicitly asking the agent to show its work. Like in math class. Exactly. They prompt the agent to use the governed revenue metric located in the sales report semantic model, summarize it by store for a specific time period, explicitly identify the source measure it used, and actually display the underlying query code it executed. So you force the chat interface to show you the exact DAX or SQL code it wrote. Yes. This gives the operator a tangible mathematical calculation. The operator can then take that DAX code and compare it against their traditional legacy power BI dashboard using the exact same filters.",
+    "graphic_family": "evidence",
+    "teaching_relation": "Check the calculation",
+    "illustration_status": "Original discussion excerpt",
+    "review_flags": [],
+    "master": "storyboards/master-evidence.png",
+    "storyboard": "storyboards/C36/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C37",
+    "title": "A chat table is not a complete export",
+    "source_start": 2420.489705,
+    "source_end": 2432.7697049999997,
+    "source_parts": [
+      {
+        "part": "part03.m4a",
+        "start": 170.36000000000013,
+        "end": 182.63999999999987
+      }
+    ],
+    "example_type": "returned-table boundary",
+    "exact_recording_transcript_asr": "The agent's chat interface might only display a bounded set of results, say a table of the top 10 rows. A return to table in a chat window is not automatically a complete export of every matching record in the database.",
+    "graphic_family": "evidence",
+    "teaching_relation": "Bounded results",
+    "illustration_status": "Original discussion excerpt",
+    "review_flags": [],
+    "master": "storyboards/master-evidence.png",
+    "storyboard": "storyboards/C37/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C38",
+    "title": "The agent uses the signed-in identity",
+    "source_start": 2457.029705,
+    "source_end": 2472.149705,
+    "source_parts": [
+      {
+        "part": "part03.m4a",
+        "start": 206.9000000000001,
+        "end": 222.01999999999998
+      }
+    ],
+    "example_type": "interactive-agent identity",
+    "exact_recording_transcript_asr": "Right. The built in ontology agent does not operate with some omnipotent master key. It uses the signed in users specific identity. It operates strictly within the boundaries of that user's existing preconfigured access rights to the underlying source databases.",
+    "graphic_family": "boundary",
+    "teaching_relation": "Existing permissions apply",
+    "illustration_status": "Interactive agent \u00b7 signed-in user",
+    "review_flags": [],
+    "master": "storyboards/master-boundary.png",
+    "storyboard": "storyboards/C38/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C39",
+    "title": "Test with the real end-user role",
+    "source_start": 2474.169705,
+    "source_end": 2543.669705,
+    "source_parts": [
+      {
+        "part": "part03.m4a",
+        "start": 224.03999999999996,
+        "end": 293.53999999999996
+      }
+    ],
+    "example_type": "hypothetical configured West-region RLS",
+    "exact_recording_transcript_asr": "Let's say I am the lead data engineer. I built this ontology, so I have administrative access to everything. I ask it about revenue and inventory across the entire global company, and it gives me a comprehensive answer. Now, I share that exact same Fabric ontology file with a regional manager who only handles the West Coast. If the West Coast Regional Manager logs in and asks the exact same verbatim question, show me all global revenue and inventory risk, the agent will only return data for the West Coast. When it really, even with the same prompt. Yes. Because when the AI attempts to execute the SQL query against the underlying Lakehouse, the database recognizes the manager's identity and enforces row -level security, blocking access to the East Coast data. That is so smart. The source documentation is explicit on this point. Sharing an ontology with a user does not magically bypass workspace item permissions or database security. So an engineer successfully querying a source during testing does not guarantee that an end user will see the same results. Exactly. You have to validate the entire workflow using actual end user test identities, not just the developer's God Mode account.",
+    "graphic_family": "boundary",
+    "teaching_relation": "Source access determines results",
+    "illustration_status": "Example: source RLS configured",
+    "review_flags": [],
+    "master": "storyboards/master-boundary.png",
+    "storyboard": "storyboards/C39/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C40",
+    "title": "Forecasting needs a separate modeling workflow",
+    "source_start": 2554.229705,
+    "source_end": 2600.569705,
+    "source_parts": [
+      {
+        "part": "part03.m4a",
+        "start": 304.10000000000036,
+        "end": 350.44000000000005
+      }
+    ],
+    "example_type": "forecast workflow; omit later Dataverse claim",
+    "exact_recording_transcript_asr": "How do we predict tomorrow's inventory risk? Does the ontology agent just guess? The source material draws a very sharp, deliberate line here regarding predictive analytics. Forecasting is treated as a separate, highly rigorous analytical discipline. It's not just a chat function. You don't just ask the generative AI chat to guess what sales will look like next week based on vibes or its training data. Forecasting is explicitly handled via Fabric data science. So we are talking about actual machine learning engineers, building notebooks, running experiments, and scoring dedicated models. Yes. A data scientist defines the target variable, sets the time horizon, selects the inputs, and chooses the statistical methodology inside a data science notebook.",
+    "graphic_family": "workflow",
+    "teaching_relation": "Evaluate a dedicated model",
+    "illustration_status": "Original discussion excerpt",
+    "review_flags": [],
+    "master": "storyboards/master-workflow.png",
+    "storyboard": "storyboards/C40/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C41",
+    "title": "A forecast is not a deterministic fact",
+    "source_start": 2622.029705,
+    "source_end": 2654.9097049999996,
+    "source_parts": [
+      {
+        "part": "part03.m4a",
+        "start": 371.9000000000001,
+        "end": 404.77999999999975
+      }
+    ],
+    "example_type": "forecast-evaluation example",
+    "exact_recording_transcript_asr": "before you ever display the output of a predictive model in a business review, you must explicitly evaluate and display the historical statistical uncertainty of that model. So you have to show its track record. You have to show the operator the model's past accuracy. Have these forecasts historically suffered from model drift? Is there bias in the legacy data? you must give the human operator the statistical basis for deciding whether they should actually trust this prediction enough to route a hundred thousand dollar delivery truck based on it. You never present a probabilistic forecast as a deterministic fact.",
+    "graphic_family": "evidence",
+    "teaching_relation": "Show the basis for trust",
+    "illustration_status": "Illustrative scenario",
+    "review_flags": [],
+    "master": "storyboards/master-evidence.png",
+    "storyboard": "storyboards/C41/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C42",
+    "title": "When the relationship path is the question",
+    "source_start": 2705.349705,
+    "source_end": 2731.2097049999998,
+    "source_parts": [
+      {
+        "part": "part03.m4a",
+        "start": 455.22000000000025,
+        "end": 481.0799999999999
+      }
+    ],
+    "example_type": "hypothetical supplier exposure; no SQL-failure claim",
+    "exact_recording_transcript_asr": "Let's say a specific agricultural supplier calls you in a panic and informs you that a massive batch of raw ingredients was contaminated. Ooh, a recall situation. Right. You need to instantly trace that supplier's exposure through your entire global supply chain. Which specific intermediate products contain that batch, which exact multimodal shipments carried those products, which which specific retail stores received those shipments and which exact refrigeration units are currently holding them on the floor.",
+    "graphic_family": "graph",
+    "teaching_relation": "Illustrative recall path",
+    "illustration_status": "Illustrative scenario",
+    "review_flags": [],
+    "master": "storyboards/master-graph.png",
+    "storyboard": "storyboards/C42/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C43",
+    "title": "Graph keys and semantic-model limits",
+    "source_start": 2810.469705,
+    "source_end": 2832.9497049999995,
+    "source_parts": [
+      {
+        "part": "part03.m4a",
+        "start": 560.3400000000001,
+        "end": 582.8199999999997
+      }
+    ],
+    "example_type": "source eligibility and semantic-model exclusion",
+    "exact_recording_transcript_asr": "It also absolutely requires entity keys to be perfectly defined, and crucially, this is a massive limitation for a financial analysis. It currently excludes semantic model bound entities. Wait, so if my net profit metric is calculated via DAX, inside a Power BI semantic model, I cannot include that metric in the graph traversal not at this time No,",
+    "graphic_family": "boundary",
+    "teaching_relation": "Preview projection limits",
+    "illustration_status": "Preview context \u00b7 Oct 2026",
+    "review_flags": [
+      "Retain eligibility, keys and semantic-model exclusions; do not suggest universal Graph support."
+    ],
+    "master": "storyboards/master-boundary.png",
+    "storyboard": "storyboards/C43/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C44",
+    "title": "The concept map is not the instance graph",
+    "source_start": 2857.889705,
+    "source_end": 2888.2097049999998,
+    "source_parts": [
+      {
+        "part": "part03.m4a",
+        "start": 607.7600000000002,
+        "end": 638.0799999999999
+      }
+    ],
+    "example_type": "schema versus execution layer",
+    "exact_recording_transcript_asr": "So to clarify the architecture in my head, the beautiful visual canvas diagram of concepts we built in the ontology interface, and the physical materialized graph database sitting in OneLake are doing two completely different jobs. Precisely. The visual diagram is the conceptual map of meaning for the AI. The materialized graph is a specialized physical execution path for deep relationship questions. And the routing intelligence chooses the path based on this specific structure of the question being asked.",
+    "graphic_family": "contrast",
+    "teaching_relation": "Different jobs and refresh needs",
+    "illustration_status": "Original discussion excerpt",
+    "review_flags": [],
+    "master": "storyboards/master-contrast.png",
+    "storyboard": "storyboards/C44/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C45",
+    "title": "Data agent versus operations agent",
+    "source_start": 2924.089705,
+    "source_end": 2949.509705,
+    "source_parts": [
+      {
+        "part": "part03.m4a",
+        "start": 673.96,
+        "end": 699.3800000000001
+      }
+    ],
+    "example_type": "omit unsupported combined-condition example",
+    "exact_recording_transcript_asr": "The Fabric Data Agent is designed for the end -user. It provides the conversational analytics experience where a regional manager might sit down and ask everyday business questions about the data, utilizing the logic defined by the ontology. And third, the Operations Agent. The Operations Agent serves a completely different paradigm. Its job is not to answer questions, but to passively monitor a defined business process and recommend proactive responses.",
+    "graphic_family": "contrast",
+    "teaching_relation": "Different agent roles",
+    "illustration_status": "Roles vary by supported integration",
+    "review_flags": [],
+    "master": "storyboards/master-contrast.png",
+    "storyboard": "storyboards/C45/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C46",
+    "title": "MCP integration needs supported authentication",
+    "source_start": 3041.98068,
+    "source_end": 3098.70068,
+    "source_parts": [
+      {
+        "part": "part04.m4a",
+        "start": 41.80000000000018,
+        "end": 98.51999999999998
+      }
+    ],
+    "example_type": "preview service-principal known issue",
+    "exact_recording_transcript_asr": "MCP stands for Model Context Protocol. Fabric provides an API endpoint, so enterprise developers can connect their own compatible external AI clients or custom applications to the ontology. It tells useful. However, the current guidance notes a severe limitation. Service principal access is currently unavailable for this endpoint. Explain that for the non -developers. What is a service principal? A service principal is basically a machine identity. It's a non -human service account you use, so a backend server or an automated script can talk to an API securely without needing a human being to physically type in a username and password. Oh, so you can automate it? Right. But because service principal access is missing in this preview, you currently have to authenticate as a real human user. You cannot easily set up a fully automated unattended machine to machine integration. That drastically limits how you can integrate this ontology into automated backend enterprise systems right now.",
+    "graphic_family": "boundary",
+    "teaching_relation": "Check current authentication limits",
+    "illustration_status": "Preview context \u00b7 Oct 2026",
+    "review_flags": [],
+    "master": "storyboards/master-boundary.png",
+    "storyboard": "storyboards/C46/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C47",
+    "title": "Keep monitoring conditions simple",
+    "source_start": 3110.88068,
+    "source_end": 3153.72068,
+    "source_parts": [
+      {
+        "part": "part04.m4a",
+        "start": 110.70000000000027,
+        "end": 153.53999999999996
+      }
+    ],
+    "example_type": "no guaranteed notification latency",
+    "exact_recording_transcript_asr": "If you want to set up operational monitoring, the logical conditions you can set are currently quite primitive. The documentation notes that it struggles with combined and conditions and it struggles with aggregations. So I can't build a monitor that says alert me of the temperature drops and the store is priority and the total aggregated revenue is over $10 ,000. In the current preview, stringing complex, multi -variable logic like that into a passive monitor is highly problematic and likely to fail. You have to keep the monitoring conditions very simple and isolated. Furthermore, the operational agent operates on a fixed five -minute cycle. It is not sub -second real time. It only checks the condition every five minutes.",
+    "graphic_family": "boundary",
+    "teaching_relation": "Preview limitations",
+    "illustration_status": "Preview context \u00b7 Oct 2026",
+    "review_flags": [],
+    "master": "storyboards/master-boundary.png",
+    "storyboard": "storyboards/C47/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C48",
+    "title": "A written rule does not create an Activator flow",
+    "source_start": 3157.84068,
+    "source_end": 3199.4006799999997,
+    "source_parts": [
+      {
+        "part": "part04.m4a",
+        "start": 157.65999999999985,
+        "end": 199.2199999999998
+      }
+    ],
+    "example_type": "rule versus automation",
+    "exact_recording_transcript_asr": "What about Activator? Fabric has a dedicated tool called data Activator specifically for triggering actions based on data changes. If I write a natural language business rule in my ontology interface, does that automatically provision an Activator alert in the background? No, it absolutely does not. And that's a massive point of confusion for new users. Saving a natural language role in the ontology provides semantic context for the chat agents. It does not automatically write the code to provision an active running workflow in data Activator. So they are separate steps. If you want an alert to actually fire, a data engineer has to go into Activator and configure that automation separately against the supported data path.",
+    "graphic_family": "boundary",
+    "teaching_relation": "Separate configuration",
+    "illustration_status": "Original discussion excerpt",
+    "review_flags": [],
+    "master": "storyboards/master-boundary.png",
+    "storyboard": "storyboards/C48/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C49",
+    "title": "Cowork grounds on the Power BI report",
+    "source_start": 3215.04068,
+    "source_end": 3261.5206799999996,
+    "source_parts": [
+      {
+        "part": "part04.m4a",
+        "start": 214.86000000000013,
+        "end": 261.3399999999997
+      }
+    ],
+    "example_type": "current documented grounding boundary",
+    "exact_recording_transcript_asr": "The source talks about using the Fabric IQ plugin in co -pilot co -work. Yes and notably this specific co -pilot feature is documented as generally available unlike the ontology feature which is in preview. Oh that's good. Co -pilot co -work allows an analyst to ground their AI conversations in specific Power BI reports and their underlying semantic models to quickly draft things like leadership reviews, executive summaries, or operational emails. So I can tell co -pilot draft a one -page regional review based on the findings in this specific sales report. But of course, there is a massive caveat noted. A very dangerous caveat. First, co -pilot co -work does not currently ground directly on the ontology items themselves. You have to point it specifically at the Power BI report.",
+    "graphic_family": "ownership",
+    "teaching_relation": "Report route, not ontology item",
+    "illustration_status": "Preview context \u00b7 Oct 2026",
+    "review_flags": [],
+    "master": "storyboards/master-ownership.png",
+    "storyboard": "storyboards/C49/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C50",
+    "title": "Verify report numbers before sharing the draft",
+    "source_start": 3252.74068,
+    "source_end": 3301.0006799999996,
+    "source_parts": [
+      {
+        "part": "part04.m4a",
+        "start": 252.55999999999995,
+        "end": 300.8199999999997
+      }
+    ],
+    "example_type": "illustrative revenue percentage, not measured outcome",
+    "exact_recording_transcript_asr": "First, co -pilot co -work does not currently ground directly on the ontology items themselves. You have to point it specifically at the Power BI report. Second, and much more dangerously, when it generates a data answer in the text, it does not currently include report citations in its output. Oh, that is a recipe for disaster in a boardroom. It is extremely dangerous. When the AI drafts a beautifully formatted summary and boldly states revenue was up 15 % in the West Region, it does not provide a footnote or hyperlink showing exactly which table or metric it used to calculate that 15%. So it could just be making it up. Therefore, the source script is adamant. The human operator must manually verify every single generated number against the source report before they ever distribute that document.",
+    "graphic_family": "evidence",
+    "teaching_relation": "Verify before sharing",
+    "illustration_status": "Illustrative scenario",
+    "review_flags": [],
+    "master": "storyboards/master-evidence.png",
+    "storyboard": "storyboards/C50/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C51",
+    "title": "Chat history is not durable business knowledge",
+    "source_start": 3316.60068,
+    "source_end": 3350.34068,
+    "source_parts": [
+      {
+        "part": "part04.m4a",
+        "start": 316.4200000000001,
+        "end": 350.15999999999985
+      }
+    ],
+    "example_type": "session-lifetime limits",
+    "exact_recording_transcript_asr": "the source mentions a maximum conversation lifetime of 24 hours. Yes. The built -in ontology agent's conversation history only lasts within your current browser session. Wait, really? If you refresh the page, close the browser tab or hit the 24 hour mark, that entire conversational history is permanently gone. So under no circumstances should a team use the chat window as their permanent knowledge repository or decision log? Absolutely not. The chat is strictly an ephemeral scratch pad. The durable, permanent knowledge must be saved in the ontology definitions themselves,",
+    "graphic_family": "boundary",
+    "teaching_relation": "Persist the durable meaning",
+    "illustration_status": "Preview context \u00b7 Oct 2026",
+    "review_flags": [],
+    "master": "storyboards/master-boundary.png",
+    "storyboard": "storyboards/C51/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C52",
+    "title": "Import support does not promise lossless OWL",
+    "source_start": 3365.06068,
+    "source_end": 3404.64068,
+    "source_parts": [
+      {
+        "part": "part04.m4a",
+        "start": 364.8800000000001,
+        "end": 404.46000000000004
+      }
+    ],
+    "example_type": "interoperability limits",
+    "exact_recording_transcript_asr": "The preview does support importing existing definitions using standard semantic web formats like Turtle, RDF, and O -W -L. Briefly, what are those? Those are essentially the legacy standard coding languages that researchers and data scientists have used for years to write out these kinds of complex knowledge webs, originally designed for the semantic web. So you can just import them. However, the Microsoft documentation explicitly warns that some elements might be adjusted, modified, or entirely skipped during the import process. Full lossless translation of complex OWL behaviors is not promised. You have to check it. You have to thoroughly and manually review the import results to ensure your logic survived the translation.",
+    "graphic_family": "workflow",
+    "teaching_relation": "Preserved \u00b7 adjusted \u00b7 skipped",
+    "illustration_status": "Original discussion excerpt",
+    "review_flags": [],
+    "master": "storyboards/master-workflow.png",
+    "storyboard": "storyboards/C52/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C53",
+    "title": "Plan the old-experience migration",
+    "source_start": 3414.60068,
+    "source_end": 3439.66068,
+    "source_parts": [
+      {
+        "part": "part04.m4a",
+        "start": 414.4200000000001,
+        "end": 439.48
+      }
+    ],
+    "example_type": "date-sensitive retirement guidance",
+    "exact_recording_transcript_asr": "Microsoft has established a hard retirement date for the old ontology experience. January 31st, 2027. That's a hard deadline. Moving to the new experience creates a completely separate new item in the workspace. This means data engineering teams will have to manually reconnect all their downstream consumers, rewrite their routing rules, and re -establish their automations. It's a hard migration cut over, and teams need to plan resources for it now.",
+    "graphic_family": "workflow",
+    "teaching_relation": "Reconnect and review consumers",
+    "illustration_status": "Preview context \u00b7 Oct 2026",
+    "review_flags": [],
+    "master": "storyboards/master-workflow.png",
+    "storyboard": "storyboards/C53/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C54",
+    "title": "Measure the whole reviewed workflow",
+    "source_start": 3468.44068,
+    "source_end": 3517.26068,
+    "source_parts": [
+      {
+        "part": "part04.m4a",
+        "start": 468.2600000000002,
+        "end": 517.0799999999999
+      }
+    ],
+    "example_type": "evaluation design, no borrowed percentage",
+    "exact_recording_transcript_asr": "Do not borrow percentage improvement benchmarks from other vendors, and do not even borrow benchmarks from other workflows within your own company. You have to test this system against your own current manual process for a highly specific decision. How do you structure that measurement? You start with a representative business question where you already definitively know the correct answer. You test whether the new AI workflow selects the right concepts, uses the right DAX calculations, strictly respects user access permissions, and returns evidence that a human operator can actually verify. And then you time it. Then you strictly time how long that entire process takes, compared to how long your human analysts take today. And crucially, you must include the time it takes the human operator to rigorously review and correct the AI's output in your final calculation.",
+    "graphic_family": "evidence",
+    "teaching_relation": "Use your own baseline",
+    "illustration_status": "Original discussion excerpt",
+    "review_flags": [],
+    "master": "storyboards/master-evidence.png",
+    "storyboard": "storyboards/C54/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C55",
+    "title": "Nonbillable reasoning is not a free workflow",
+    "source_start": 3526.42068,
+    "source_end": 3603.3756799999996,
+    "source_parts": [
+      {
+        "part": "part04.m4a",
+        "start": 526.2400000000002,
+        "end": 603.1949999999997
+      }
+    ],
+    "example_type": "preview billing and hypothetical large query",
+    "exact_recording_transcript_asr": "The billing specifics in the preview are fascinating and require extreme caution. Currently what Microsoft categorizes as the discovery and AI reasoning phases, the part where the LLM reads your prompt and figures out what you want, are non -billable during the preview phase. No, that sounds great. Free AI reasoning. But, and this is a massive trap for the unwary, the child operations that the AI triggers and the underlying OneLake storage compute it utilizes to formulate those answers can and will incur standard Fabric capacity charges. Walk me through how that traps springs. Imagine you have a non -technical manager who asks the chat interface a slightly vague massive question about five years of historical inventory across the entire globe. The AI reasoning to understand the question is free. But to answer it, the AI might quietly write a highly inefficient brute force SQL query that scans petabytes of data across your OneLake. It pushes that massive compute job down to the warehouse. And you pay for that compute. Suddenly, you aren't paying for the chat interaction. You are paying for an absolutely massive compute spike on your Fabric capacity bill, because the AI decided to brute force the answer. The source strongly recommends using the Fabric capacity metrics app to monitor this underlying compute consumption closely during any pilot program.",
+    "graphic_family": "boundary",
+    "teaching_relation": "Measure total consumption",
+    "illustration_status": "Preview billing \u00b7 Oct 2026",
+    "review_flags": [],
+    "master": "storyboards/master-boundary.png",
+    "storyboard": "storyboards/C55/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C56",
+    "title": "Start with one team and one decision",
+    "source_start": 3611.70068,
+    "source_end": 3653.82068,
+    "source_parts": [
+      {
+        "part": "part04.m4a",
+        "start": 611.52,
+        "end": 653.6399999999999
+      }
+    ],
+    "example_type": "pilot rollout advice",
+    "exact_recording_transcript_asr": "Start incredibly small. Pick one single team, and one recurring high -value decision. The regional inventory review we discussed is a perfect example. Keep it contained. Connect only the specific data sources needed for that one decision. Define the handful of concepts that actually change the answer. And most importantly, aggressively test ambiguous requests and missing data scenarios to see exactly how the system fails under pressure. Do not try to boil the ocean and map the entire corporation's semantic logic on day one. Exactly. You only expand the scope when that first team can complete their workflow with dependably accurate answers, a highly manageable human review burden, and a fully understood, predictable operating cost.",
+    "graphic_family": "workflow",
+    "teaching_relation": "Start small",
+    "illustration_status": "Original discussion excerpt",
+    "review_flags": [],
+    "master": "storyboards/master-workflow.png",
+    "storyboard": "storyboards/C56/storyboard.json",
+    "not_execution_evidence": true
+  },
+  {
+    "id": "C57",
+    "title": "A merger is also a collision of definitions",
+    "source_start": 3706.00068,
+    "source_end": 3738.1006799999996,
+    "source_parts": [
+      {
+        "part": "part04.m4a",
+        "start": 705.8200000000002,
+        "end": 737.9199999999996
+      }
+    ],
+    "example_type": "speculative merger discussion, not product capability",
+    "exact_recording_transcript_asr": "What happens during a major corporate merger? Oh, wow. When two massive global companies combine, is the future of M &A less about merging finances and entirely about whether their respective AI ontologies can successfully negotiate a shared reality? If company A's ontology defines risk or revenue in a way that fundamentally clashes with company B's ontology at a mathematical level, can the merger ever truly succeed without completely rewriting the central nervous system of one of the companies?",
+    "graphic_family": "contrast",
+    "teaching_relation": "Thought experiment",
+    "illustration_status": "Thought experiment",
+    "review_flags": [
+      "Speculative discussion, not verified product behavior."
+    ],
+    "master": "storyboards/master-contrast.png",
+    "storyboard": "storyboards/C57/storyboard.json",
+    "not_execution_evidence": true
+  }
+]

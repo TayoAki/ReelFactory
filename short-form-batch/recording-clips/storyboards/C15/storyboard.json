@@ -44,5 +44,33 @@
   "source_start": 884.690975,
   "source_end": 922.350975,
   "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion.",
+  "caption_status": "Word-timed ASR draft; human proofreading pending",
+  "line_shot_edit": [
+    {
+      "LINE": "Break down how that inheritance actually looks in practice for us. Sure. In the Lakeshore",
+      "SHOT": "Fixed fictional portrait rail + Location",
+      "EDIT": "Reveal independent card at 0.7s; 420ms fade, 16px eased settling"
+    },
+    {
+      "LINE": "You can then create a store entity that derives from location. So it inherits",
+      "SHOT": "Fixed fictional portrait rail + Store",
+      "EDIT": "Reveal independent card at 17.74s; 420ms fade, 16px eased settling"
+    }
+  ],
+  "viewer_understanding_before": "Location",
+  "viewer_understanding_after": "inherits structure",
+  "graphic_choice_reason": "Inheritance reuses a base structure: Distinguish type structure from instances and explicit relationship scope.",
+  "credible_alternative": "A flat category list",
+  "why_alternative_rejected": "A list hides inherited structure or query scope. Distinguish parent, derived type and explicit ordinary relationships.",
+  "cannot_establish": "This illustrative diagram cannot prove an actual product interaction, executed query, security guarantee or measured improvement.",
+  "reference_images_used_for_generation": [
+    "reference-library/frames/graphic/0003510.jpg",
+    "motion-pilot-fabric/fabric-theme/master.png",
+    "short-form-batch/recording-clips/assets/host.png",
+    "short-form-batch/recording-clips/assets/guest.png"
+  ],
+  "source_library_semantic_match": "Original reference supplies visual grammar; exact subject relationships are adapted from this recording. No claim of an exact reference-video semantic or motion match.",
+  "original_reference_url": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "review_status": "Draft; representative visual samples and artifact bounds checked, human editorial approval pending."
 }

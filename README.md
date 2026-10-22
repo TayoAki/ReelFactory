@@ -1,5 +1,8 @@
 # ReelFactory — first production prototype
 
+The latest actual-recording batch is in [Fabric short-form clips](short-form-batch/recording-clips/README.md): original discussion audio, image-first Fabric diagrams, caption sidecars and timestamped example metadata. Earlier synthetic/script pilots below remain separate.
+
+
 A reproducible 40-second silent vertical technical explainer, based on the uploaded Fabric content-gap audit's W03 pilot. No avatar, speech, paid API, credentials or Fabric workspace is required.
 
 ## Run

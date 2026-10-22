@@ -8,55 +8,55 @@ Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour,
 Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.10,0:00:00.66,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}You{\c&H002A2B17&\b0} are sitting\Nat your desk.
-Dialogue: 0,0:00:00.66,0:00:00.89,Default,,0,0,0,,{\pos(540,1513)}You {\c&H00657811&\b1}are{\c&H002A2B17&\b0} sitting\Nat your desk.
-Dialogue: 0,0:00:00.89,0:00:01.48,Default,,0,0,0,,{\pos(540,1513)}You are {\c&H00657811&\b1}sitting{\c&H002A2B17&\b0}\Nat your desk.
-Dialogue: 0,0:00:01.48,0:00:01.72,Default,,0,0,0,,{\pos(540,1513)}You are sitting\N{\c&H00657811&\b1}at{\c&H002A2B17&\b0} your desk.
-Dialogue: 0,0:00:01.72,0:00:01.79,Default,,0,0,0,,{\pos(540,1513)}You are sitting\Nat {\c&H00657811&\b1}your{\c&H002A2B17&\b0} desk.
-Dialogue: 0,0:00:01.79,0:00:02.16,Default,,0,0,0,,{\pos(540,1513)}You are sitting\Nat your {\c&H00657811&\b1}desk.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:00.10,0:00:00.66,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}You{\c&H002A2B17&\b0} are sitting at your desk.
+Dialogue: 0,0:00:00.66,0:00:00.89,Default,,0,0,0,,{\pos(540,1513)}You {\c&H00657811&\b1}are{\c&H002A2B17&\b0} sitting at your desk.
+Dialogue: 0,0:00:00.89,0:00:01.48,Default,,0,0,0,,{\pos(540,1513)}You are {\c&H00657811&\b1}sitting{\c&H002A2B17&\b0} at your desk.
+Dialogue: 0,0:00:01.48,0:00:01.72,Default,,0,0,0,,{\pos(540,1513)}You are sitting {\c&H00657811&\b1}at{\c&H002A2B17&\b0} your desk.
+Dialogue: 0,0:00:01.72,0:00:01.79,Default,,0,0,0,,{\pos(540,1513)}You are sitting at {\c&H00657811&\b1}your{\c&H002A2B17&\b0} desk.
+Dialogue: 0,0:00:01.79,0:00:02.16,Default,,0,0,0,,{\pos(540,1513)}You are sitting at your {\c&H00657811&\b1}desk.{\c&H002A2B17&\b0}
 Dialogue: 0,0:00:02.55,0:00:02.72,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}You{\c&H002A2B17&\b0} have millions\Nof data points
 Dialogue: 0,0:00:02.72,0:00:02.84,Default,,0,0,0,,{\pos(540,1513)}You {\c&H00657811&\b1}have{\c&H002A2B17&\b0} millions\Nof data points
 Dialogue: 0,0:00:02.84,0:00:03.20,Default,,0,0,0,,{\pos(540,1513)}You have {\c&H00657811&\b1}millions{\c&H002A2B17&\b0}\Nof data points
 Dialogue: 0,0:00:03.20,0:00:03.58,Default,,0,0,0,,{\pos(540,1513)}You have millions\N{\c&H00657811&\b1}of{\c&H002A2B17&\b0} data points
 Dialogue: 0,0:00:03.58,0:00:03.70,Default,,0,0,0,,{\pos(540,1513)}You have millions\Nof {\c&H00657811&\b1}data{\c&H002A2B17&\b0} points
-Dialogue: 0,0:00:03.70,0:00:04.10,Default,,0,0,0,,{\pos(540,1513)}You have millions\Nof data {\c&H00657811&\b1}points{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:03.70,0:00:03.98,Default,,0,0,0,,{\pos(540,1513)}You have millions\Nof data {\c&H00657811&\b1}points{\c&H002A2B17&\b0}
 Dialogue: 0,0:00:03.98,0:00:04.16,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}at{\c&H002A2B17&\b0} your fingertips.
 Dialogue: 0,0:00:04.16,0:00:04.26,Default,,0,0,0,,{\pos(540,1513)}at {\c&H00657811&\b1}your{\c&H002A2B17&\b0} fingertips.
-Dialogue: 0,0:00:04.26,0:00:04.68,Default,,0,0,0,,{\pos(540,1513)}at your {\c&H00657811&\b1}fingertips.{\c&H002A2B17&\b0}
-Dialogue: 0,0:00:04.55,0:00:05.05,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}You've{\c&H002A2B17&\b0} got\Ntables, beautifully colored
-Dialogue: 0,0:00:05.05,0:00:05.20,Default,,0,0,0,,{\pos(540,1513)}You've {\c&H00657811&\b1}got{\c&H002A2B17&\b0}\Ntables, beautifully colored
-Dialogue: 0,0:00:05.20,0:00:06.11,Default,,0,0,0,,{\pos(540,1513)}You've got\N{\c&H00657811&\b1}tables,{\c&H002A2B17&\b0} beautifully colored
-Dialogue: 0,0:00:06.11,0:00:07.30,Default,,0,0,0,,{\pos(540,1513)}You've got\Ntables, {\c&H00657811&\b1}beautifully{\c&H002A2B17&\b0} colored
-Dialogue: 0,0:00:07.30,0:00:07.80,Default,,0,0,0,,{\pos(540,1513)}You've got\Ntables, beautifully {\c&H00657811&\b1}colored{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:04.26,0:00:04.55,Default,,0,0,0,,{\pos(540,1513)}at your {\c&H00657811&\b1}fingertips.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:04.55,0:00:05.05,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}You've{\c&H002A2B17&\b0} got tables,\Nbeautifully colored
+Dialogue: 0,0:00:05.05,0:00:05.20,Default,,0,0,0,,{\pos(540,1513)}You've {\c&H00657811&\b1}got{\c&H002A2B17&\b0} tables,\Nbeautifully colored
+Dialogue: 0,0:00:05.20,0:00:06.11,Default,,0,0,0,,{\pos(540,1513)}You've got {\c&H00657811&\b1}tables,{\c&H002A2B17&\b0}\Nbeautifully colored
+Dialogue: 0,0:00:06.11,0:00:07.30,Default,,0,0,0,,{\pos(540,1513)}You've got tables,\N{\c&H00657811&\b1}beautifully{\c&H002A2B17&\b0} colored
+Dialogue: 0,0:00:07.30,0:00:07.68,Default,,0,0,0,,{\pos(540,1513)}You've got tables,\Nbeautifully {\c&H00657811&\b1}colored{\c&H002A2B17&\b0}
 Dialogue: 0,0:00:07.68,0:00:08.64,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}dashboards,{\c&H002A2B17&\b0} the\Nlatest large language
 Dialogue: 0,0:00:08.64,0:00:08.66,Default,,0,0,0,,{\pos(540,1513)}dashboards, {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nlatest large language
 Dialogue: 0,0:00:08.66,0:00:08.92,Default,,0,0,0,,{\pos(540,1513)}dashboards, the\N{\c&H00657811&\b1}latest{\c&H002A2B17&\b0} large language
 Dialogue: 0,0:00:08.92,0:00:09.22,Default,,0,0,0,,{\pos(540,1513)}dashboards, the\Nlatest {\c&H00657811&\b1}large{\c&H002A2B17&\b0} language
-Dialogue: 0,0:00:09.22,0:00:09.73,Default,,0,0,0,,{\pos(540,1513)}dashboards, the\Nlatest large {\c&H00657811&\b1}language{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:09.22,0:00:09.61,Default,,0,0,0,,{\pos(540,1513)}dashboards, the\Nlatest large {\c&H00657811&\b1}language{\c&H002A2B17&\b0}
 Dialogue: 0,0:00:09.61,0:00:10.52,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}models.{\c&H002A2B17&\b0} An absolute\Nmountain of technology.
 Dialogue: 0,0:00:10.52,0:00:10.64,Default,,0,0,0,,{\pos(540,1513)}models. {\c&H00657811&\b1}An{\c&H002A2B17&\b0} absolute\Nmountain of technology.
 Dialogue: 0,0:00:10.64,0:00:10.94,Default,,0,0,0,,{\pos(540,1513)}models. An {\c&H00657811&\b1}absolute{\c&H002A2B17&\b0}\Nmountain of technology.
 Dialogue: 0,0:00:10.94,0:00:11.26,Default,,0,0,0,,{\pos(540,1513)}models. An absolute\N{\c&H00657811&\b1}mountain{\c&H002A2B17&\b0} of technology.
 Dialogue: 0,0:00:11.26,0:00:11.50,Default,,0,0,0,,{\pos(540,1513)}models. An absolute\Nmountain {\c&H00657811&\b1}of{\c&H002A2B17&\b0} technology.
 Dialogue: 0,0:00:11.50,0:00:12.10,Default,,0,0,0,,{\pos(540,1513)}models. An absolute\Nmountain of {\c&H00657811&\b1}technology.{\c&H002A2B17&\b0}
-Dialogue: 0,0:00:12.30,0:00:12.34,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}A{\c&H002A2B17&\b0} mountain. And\Nyet, you still
-Dialogue: 0,0:00:12.34,0:00:13.36,Default,,0,0,0,,{\pos(540,1513)}A {\c&H00657811&\b1}mountain.{\c&H002A2B17&\b0} And\Nyet, you still
-Dialogue: 0,0:00:13.36,0:00:13.38,Default,,0,0,0,,{\pos(540,1513)}A mountain. {\c&H00657811&\b1}And{\c&H002A2B17&\b0}\Nyet, you still
-Dialogue: 0,0:00:13.38,0:00:14.14,Default,,0,0,0,,{\pos(540,1513)}A mountain. And\N{\c&H00657811&\b1}yet,{\c&H002A2B17&\b0} you still
-Dialogue: 0,0:00:14.14,0:00:14.39,Default,,0,0,0,,{\pos(540,1513)}A mountain. And\Nyet, {\c&H00657811&\b1}you{\c&H002A2B17&\b0} still
-Dialogue: 0,0:00:14.39,0:00:14.76,Default,,0,0,0,,{\pos(540,1513)}A mountain. And\Nyet, you {\c&H00657811&\b1}still{\c&H002A2B17&\b0}
-Dialogue: 0,0:00:14.64,0:00:14.89,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}cannot{\c&H002A2B17&\b0} get a\Nstraight, dependable answer
-Dialogue: 0,0:00:14.89,0:00:15.18,Default,,0,0,0,,{\pos(540,1513)}cannot {\c&H00657811&\b1}get{\c&H002A2B17&\b0} a\Nstraight, dependable answer
-Dialogue: 0,0:00:15.18,0:00:15.26,Default,,0,0,0,,{\pos(540,1513)}cannot get {\c&H00657811&\b1}a{\c&H002A2B17&\b0}\Nstraight, dependable answer
-Dialogue: 0,0:00:15.26,0:00:15.54,Default,,0,0,0,,{\pos(540,1513)}cannot get a\N{\c&H00657811&\b1}straight,{\c&H002A2B17&\b0} dependable answer
-Dialogue: 0,0:00:15.54,0:00:16.14,Default,,0,0,0,,{\pos(540,1513)}cannot get a\Nstraight, {\c&H00657811&\b1}dependable{\c&H002A2B17&\b0} answer
-Dialogue: 0,0:00:16.14,0:00:16.64,Default,,0,0,0,,{\pos(540,1513)}cannot get a\Nstraight, dependable {\c&H00657811&\b1}answer{\c&H002A2B17&\b0}
-Dialogue: 0,0:00:16.52,0:00:17.20,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}to{\c&H002A2B17&\b0} a painfully\Nsimple question like,
-Dialogue: 0,0:00:17.20,0:00:17.28,Default,,0,0,0,,{\pos(540,1513)}to {\c&H00657811&\b1}a{\c&H002A2B17&\b0} painfully\Nsimple question like,
-Dialogue: 0,0:00:17.28,0:00:17.66,Default,,0,0,0,,{\pos(540,1513)}to a {\c&H00657811&\b1}painfully{\c&H002A2B17&\b0}\Nsimple question like,
-Dialogue: 0,0:00:17.66,0:00:18.07,Default,,0,0,0,,{\pos(540,1513)}to a painfully\N{\c&H00657811&\b1}simple{\c&H002A2B17&\b0} question like,
-Dialogue: 0,0:00:18.07,0:00:18.46,Default,,0,0,0,,{\pos(540,1513)}to a painfully\Nsimple {\c&H00657811&\b1}question{\c&H002A2B17&\b0} like,
-Dialogue: 0,0:00:18.46,0:00:18.88,Default,,0,0,0,,{\pos(540,1513)}to a painfully\Nsimple question {\c&H00657811&\b1}like,{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:12.30,0:00:12.34,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}A{\c&H002A2B17&\b0} mountain.\NAnd yet, you still
+Dialogue: 0,0:00:12.34,0:00:13.36,Default,,0,0,0,,{\pos(540,1513)}A {\c&H00657811&\b1}mountain.{\c&H002A2B17&\b0}\NAnd yet, you still
+Dialogue: 0,0:00:13.36,0:00:13.38,Default,,0,0,0,,{\pos(540,1513)}A mountain.\N{\c&H00657811&\b1}And{\c&H002A2B17&\b0} yet, you still
+Dialogue: 0,0:00:13.38,0:00:14.14,Default,,0,0,0,,{\pos(540,1513)}A mountain.\NAnd {\c&H00657811&\b1}yet,{\c&H002A2B17&\b0} you still
+Dialogue: 0,0:00:14.14,0:00:14.39,Default,,0,0,0,,{\pos(540,1513)}A mountain.\NAnd yet, {\c&H00657811&\b1}you{\c&H002A2B17&\b0} still
+Dialogue: 0,0:00:14.39,0:00:14.64,Default,,0,0,0,,{\pos(540,1513)}A mountain.\NAnd yet, you {\c&H00657811&\b1}still{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:14.64,0:00:14.89,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}cannot{\c&H002A2B17&\b0} get a straight,\Ndependable answer
+Dialogue: 0,0:00:14.89,0:00:15.18,Default,,0,0,0,,{\pos(540,1513)}cannot {\c&H00657811&\b1}get{\c&H002A2B17&\b0} a straight,\Ndependable answer
+Dialogue: 0,0:00:15.18,0:00:15.26,Default,,0,0,0,,{\pos(540,1513)}cannot get {\c&H00657811&\b1}a{\c&H002A2B17&\b0} straight,\Ndependable answer
+Dialogue: 0,0:00:15.26,0:00:15.54,Default,,0,0,0,,{\pos(540,1513)}cannot get a {\c&H00657811&\b1}straight,{\c&H002A2B17&\b0}\Ndependable answer
+Dialogue: 0,0:00:15.54,0:00:16.14,Default,,0,0,0,,{\pos(540,1513)}cannot get a straight,\N{\c&H00657811&\b1}dependable{\c&H002A2B17&\b0} answer
+Dialogue: 0,0:00:16.14,0:00:16.52,Default,,0,0,0,,{\pos(540,1513)}cannot get a straight,\Ndependable {\c&H00657811&\b1}answer{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:16.52,0:00:17.20,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}to{\c&H002A2B17&\b0} a painfully simple\Nquestion like,
+Dialogue: 0,0:00:17.20,0:00:17.28,Default,,0,0,0,,{\pos(540,1513)}to {\c&H00657811&\b1}a{\c&H002A2B17&\b0} painfully simple\Nquestion like,
+Dialogue: 0,0:00:17.28,0:00:17.66,Default,,0,0,0,,{\pos(540,1513)}to a {\c&H00657811&\b1}painfully{\c&H002A2B17&\b0} simple\Nquestion like,
+Dialogue: 0,0:00:17.66,0:00:18.07,Default,,0,0,0,,{\pos(540,1513)}to a painfully {\c&H00657811&\b1}simple{\c&H002A2B17&\b0}\Nquestion like,
+Dialogue: 0,0:00:18.07,0:00:18.46,Default,,0,0,0,,{\pos(540,1513)}to a painfully simple\N{\c&H00657811&\b1}question{\c&H002A2B17&\b0} like,
+Dialogue: 0,0:00:18.46,0:00:18.88,Default,,0,0,0,,{\pos(540,1513)}to a painfully simple\Nquestion {\c&H00657811&\b1}like,{\c&H002A2B17&\b0}
 Dialogue: 0,0:00:19.00,0:00:20.24,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}which{\c&H002A2B17&\b0} stores need\Nmy attention today?
 Dialogue: 0,0:00:20.24,0:00:20.52,Default,,0,0,0,,{\pos(540,1513)}which {\c&H00657811&\b1}stores{\c&H002A2B17&\b0} need\Nmy attention today?
 Dialogue: 0,0:00:20.52,0:00:20.76,Default,,0,0,0,,{\pos(540,1513)}which stores {\c&H00657811&\b1}need{\c&H002A2B17&\b0}\Nmy attention today?
@@ -68,24 +68,24 @@ Dialogue: 0,0:00:22.44,0:00:22.56,Default,,0,0,0,,{\pos(540,1513)}Yeah, {\c&H006
 Dialogue: 0,0:00:22.56,0:00:22.72,Default,,0,0,0,,{\pos(540,1513)}Yeah, it {\c&H00657811&\b1}is{\c&H002A2B17&\b0} sort of the
 Dialogue: 0,0:00:22.72,0:00:23.30,Default,,0,0,0,,{\pos(540,1513)}Yeah, it is {\c&H00657811&\b1}sort{\c&H002A2B17&\b0} of the
 Dialogue: 0,0:00:23.30,0:00:23.48,Default,,0,0,0,,{\pos(540,1513)}Yeah, it is sort {\c&H00657811&\b1}of{\c&H002A2B17&\b0} the
-Dialogue: 0,0:00:23.48,0:00:23.76,Default,,0,0,0,,{\pos(540,1513)}Yeah, it is sort of {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
-Dialogue: 0,0:00:23.64,0:00:24.14,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}defining{\c&H002A2B17&\b0} paradox of\Nthe modern data
-Dialogue: 0,0:00:24.14,0:00:24.54,Default,,0,0,0,,{\pos(540,1513)}defining {\c&H00657811&\b1}paradox{\c&H002A2B17&\b0} of\Nthe modern data
-Dialogue: 0,0:00:24.54,0:00:25.00,Default,,0,0,0,,{\pos(540,1513)}defining paradox {\c&H00657811&\b1}of{\c&H002A2B17&\b0}\Nthe modern data
-Dialogue: 0,0:00:25.00,0:00:25.12,Default,,0,0,0,,{\pos(540,1513)}defining paradox of\N{\c&H00657811&\b1}the{\c&H002A2B17&\b0} modern data
-Dialogue: 0,0:00:25.12,0:00:25.34,Default,,0,0,0,,{\pos(540,1513)}defining paradox of\Nthe {\c&H00657811&\b1}modern{\c&H002A2B17&\b0} data
-Dialogue: 0,0:00:25.34,0:00:25.72,Default,,0,0,0,,{\pos(540,1513)}defining paradox of\Nthe modern {\c&H00657811&\b1}data{\c&H002A2B17&\b0}
-Dialogue: 0,0:00:25.60,0:00:26.24,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}stack.{\c&H002A2B17&\b0} We have\Nspent the last
-Dialogue: 0,0:00:26.24,0:00:26.76,Default,,0,0,0,,{\pos(540,1513)}stack. {\c&H00657811&\b1}We{\c&H002A2B17&\b0} have\Nspent the last
-Dialogue: 0,0:00:26.76,0:00:26.94,Default,,0,0,0,,{\pos(540,1513)}stack. We {\c&H00657811&\b1}have{\c&H002A2B17&\b0}\Nspent the last
-Dialogue: 0,0:00:26.94,0:00:27.18,Default,,0,0,0,,{\pos(540,1513)}stack. We have\N{\c&H00657811&\b1}spent{\c&H002A2B17&\b0} the last
-Dialogue: 0,0:00:27.18,0:00:27.36,Default,,0,0,0,,{\pos(540,1513)}stack. We have\Nspent {\c&H00657811&\b1}the{\c&H002A2B17&\b0} last
-Dialogue: 0,0:00:27.36,0:00:27.64,Default,,0,0,0,,{\pos(540,1513)}stack. We have\Nspent the {\c&H00657811&\b1}last{\c&H002A2B17&\b0}
-Dialogue: 0,0:00:27.52,0:00:27.76,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}two{\c&H002A2B17&\b0} decades\Nfocused almost entirely
-Dialogue: 0,0:00:27.76,0:00:28.10,Default,,0,0,0,,{\pos(540,1513)}two {\c&H00657811&\b1}decades{\c&H002A2B17&\b0}\Nfocused almost entirely
-Dialogue: 0,0:00:28.10,0:00:28.44,Default,,0,0,0,,{\pos(540,1513)}two decades\N{\c&H00657811&\b1}focused{\c&H002A2B17&\b0} almost entirely
-Dialogue: 0,0:00:28.44,0:00:28.90,Default,,0,0,0,,{\pos(540,1513)}two decades\Nfocused {\c&H00657811&\b1}almost{\c&H002A2B17&\b0} entirely
-Dialogue: 0,0:00:28.90,0:00:29.72,Default,,0,0,0,,{\pos(540,1513)}two decades\Nfocused almost {\c&H00657811&\b1}entirely{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:23.48,0:00:23.64,Default,,0,0,0,,{\pos(540,1513)}Yeah, it is sort of {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:23.64,0:00:24.14,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}defining{\c&H002A2B17&\b0} paradox\Nof the modern data
+Dialogue: 0,0:00:24.14,0:00:24.54,Default,,0,0,0,,{\pos(540,1513)}defining {\c&H00657811&\b1}paradox{\c&H002A2B17&\b0}\Nof the modern data
+Dialogue: 0,0:00:24.54,0:00:25.00,Default,,0,0,0,,{\pos(540,1513)}defining paradox\N{\c&H00657811&\b1}of{\c&H002A2B17&\b0} the modern data
+Dialogue: 0,0:00:25.00,0:00:25.12,Default,,0,0,0,,{\pos(540,1513)}defining paradox\Nof {\c&H00657811&\b1}the{\c&H002A2B17&\b0} modern data
+Dialogue: 0,0:00:25.12,0:00:25.34,Default,,0,0,0,,{\pos(540,1513)}defining paradox\Nof the {\c&H00657811&\b1}modern{\c&H002A2B17&\b0} data
+Dialogue: 0,0:00:25.34,0:00:25.60,Default,,0,0,0,,{\pos(540,1513)}defining paradox\Nof the modern {\c&H00657811&\b1}data{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:25.60,0:00:26.24,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}stack.{\c&H002A2B17&\b0} We have spent the last
+Dialogue: 0,0:00:26.24,0:00:26.76,Default,,0,0,0,,{\pos(540,1513)}stack. {\c&H00657811&\b1}We{\c&H002A2B17&\b0} have spent the last
+Dialogue: 0,0:00:26.76,0:00:26.94,Default,,0,0,0,,{\pos(540,1513)}stack. We {\c&H00657811&\b1}have{\c&H002A2B17&\b0} spent the last
+Dialogue: 0,0:00:26.94,0:00:27.18,Default,,0,0,0,,{\pos(540,1513)}stack. We have {\c&H00657811&\b1}spent{\c&H002A2B17&\b0} the last
+Dialogue: 0,0:00:27.18,0:00:27.36,Default,,0,0,0,,{\pos(540,1513)}stack. We have spent {\c&H00657811&\b1}the{\c&H002A2B17&\b0} last
+Dialogue: 0,0:00:27.36,0:00:27.52,Default,,0,0,0,,{\pos(540,1513)}stack. We have spent the {\c&H00657811&\b1}last{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:27.52,0:00:27.76,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}two{\c&H002A2B17&\b0} decades focused\Nalmost entirely
+Dialogue: 0,0:00:27.76,0:00:28.10,Default,,0,0,0,,{\pos(540,1513)}two {\c&H00657811&\b1}decades{\c&H002A2B17&\b0} focused\Nalmost entirely
+Dialogue: 0,0:00:28.10,0:00:28.44,Default,,0,0,0,,{\pos(540,1513)}two decades {\c&H00657811&\b1}focused{\c&H002A2B17&\b0}\Nalmost entirely
+Dialogue: 0,0:00:28.44,0:00:28.90,Default,,0,0,0,,{\pos(540,1513)}two decades focused\N{\c&H00657811&\b1}almost{\c&H002A2B17&\b0} entirely
+Dialogue: 0,0:00:28.90,0:00:29.60,Default,,0,0,0,,{\pos(540,1513)}two decades focused\Nalmost {\c&H00657811&\b1}entirely{\c&H002A2B17&\b0}
 Dialogue: 0,0:00:29.60,0:00:30.02,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}on{\c&H002A2B17&\b0} the plumbing.
 Dialogue: 0,0:00:30.02,0:00:30.10,Default,,0,0,0,,{\pos(540,1513)}on {\c&H00657811&\b1}the{\c&H002A2B17&\b0} plumbing.
 Dialogue: 0,0:00:30.10,0:00:30.42,Default,,0,0,0,,{\pos(540,1513)}on the {\c&H00657811&\b1}plumbing.{\c&H002A2B17&\b0}
@@ -94,33 +94,33 @@ Dialogue: 0,0:00:31.16,0:00:31.32,Default,,0,0,0,,{\pos(540,1513)}How {\c&H00657
 Dialogue: 0,0:00:31.32,0:00:31.48,Default,,0,0,0,,{\pos(540,1513)}How to {\c&H00657811&\b1}move{\c&H002A2B17&\b0}\Ndata faster, how
 Dialogue: 0,0:00:31.48,0:00:31.72,Default,,0,0,0,,{\pos(540,1513)}How to move\N{\c&H00657811&\b1}data{\c&H002A2B17&\b0} faster, how
 Dialogue: 0,0:00:31.72,0:00:32.64,Default,,0,0,0,,{\pos(540,1513)}How to move\Ndata {\c&H00657811&\b1}faster,{\c&H002A2B17&\b0} how
-Dialogue: 0,0:00:32.64,0:00:32.86,Default,,0,0,0,,{\pos(540,1513)}How to move\Ndata faster, {\c&H00657811&\b1}how{\c&H002A2B17&\b0}
-Dialogue: 0,0:00:32.74,0:00:32.84,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}to{\c&H002A2B17&\b0} store more\Nof it cheaper,
-Dialogue: 0,0:00:32.84,0:00:33.10,Default,,0,0,0,,{\pos(540,1513)}to {\c&H00657811&\b1}store{\c&H002A2B17&\b0} more\Nof it cheaper,
-Dialogue: 0,0:00:33.10,0:00:33.68,Default,,0,0,0,,{\pos(540,1513)}to store {\c&H00657811&\b1}more{\c&H002A2B17&\b0}\Nof it cheaper,
-Dialogue: 0,0:00:33.68,0:00:34.00,Default,,0,0,0,,{\pos(540,1513)}to store more\N{\c&H00657811&\b1}of{\c&H002A2B17&\b0} it cheaper,
-Dialogue: 0,0:00:34.00,0:00:34.12,Default,,0,0,0,,{\pos(540,1513)}to store more\Nof {\c&H00657811&\b1}it{\c&H002A2B17&\b0} cheaper,
-Dialogue: 0,0:00:34.12,0:00:34.55,Default,,0,0,0,,{\pos(540,1513)}to store more\Nof it {\c&H00657811&\b1}cheaper,{\c&H002A2B17&\b0}
-Dialogue: 0,0:00:34.82,0:00:34.96,Default,,0,0,0,,{\pos(540,1513)}or {\c&H00657811&\b1}how{\c&H002A2B17&\b0} to\Nbuild better analytical
-Dialogue: 0,0:00:34.96,0:00:35.04,Default,,0,0,0,,{\pos(540,1513)}or how {\c&H00657811&\b1}to{\c&H002A2B17&\b0}\Nbuild better analytical
-Dialogue: 0,0:00:35.04,0:00:35.23,Default,,0,0,0,,{\pos(540,1513)}or how to\N{\c&H00657811&\b1}build{\c&H002A2B17&\b0} better analytical
-Dialogue: 0,0:00:35.23,0:00:35.86,Default,,0,0,0,,{\pos(540,1513)}or how to\Nbuild {\c&H00657811&\b1}better{\c&H002A2B17&\b0} analytical
-Dialogue: 0,0:00:35.86,0:00:36.32,Default,,0,0,0,,{\pos(540,1513)}or how to\Nbuild better {\c&H00657811&\b1}analytical{\c&H002A2B17&\b0}
-Dialogue: 0,0:00:36.20,0:00:37.58,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}engines.{\c&H002A2B17&\b0} But\Nthe data itself.
-Dialogue: 0,0:00:37.58,0:00:37.68,Default,,0,0,0,,{\pos(540,1513)}engines. {\c&H00657811&\b1}But{\c&H002A2B17&\b0}\Nthe data itself.
-Dialogue: 0,0:00:37.68,0:00:37.96,Default,,0,0,0,,{\pos(540,1513)}engines. But\N{\c&H00657811&\b1}the{\c&H002A2B17&\b0} data itself.
-Dialogue: 0,0:00:37.96,0:00:38.15,Default,,0,0,0,,{\pos(540,1513)}engines. But\Nthe {\c&H00657811&\b1}data{\c&H002A2B17&\b0} itself.
-Dialogue: 0,0:00:38.15,0:00:38.68,Default,,0,0,0,,{\pos(540,1513)}engines. But\Nthe data {\c&H00657811&\b1}itself.{\c&H002A2B17&\b0}
-Dialogue: 0,0:00:39.32,0:00:39.50,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}The{\c&H002A2B17&\b0} raw data\Nitself is often
-Dialogue: 0,0:00:39.50,0:00:39.64,Default,,0,0,0,,{\pos(540,1513)}The {\c&H00657811&\b1}raw{\c&H002A2B17&\b0} data\Nitself is often
-Dialogue: 0,0:00:39.64,0:00:39.94,Default,,0,0,0,,{\pos(540,1513)}The raw {\c&H00657811&\b1}data{\c&H002A2B17&\b0}\Nitself is often
-Dialogue: 0,0:00:39.94,0:00:40.36,Default,,0,0,0,,{\pos(540,1513)}The raw data\N{\c&H00657811&\b1}itself{\c&H002A2B17&\b0} is often
-Dialogue: 0,0:00:40.36,0:00:40.52,Default,,0,0,0,,{\pos(540,1513)}The raw data\Nitself {\c&H00657811&\b1}is{\c&H002A2B17&\b0} often
-Dialogue: 0,0:00:40.52,0:00:40.79,Default,,0,0,0,,{\pos(540,1513)}The raw data\Nitself is {\c&H00657811&\b1}often{\c&H002A2B17&\b0}
-Dialogue: 0,0:00:40.68,0:00:40.94,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}just{\c&H002A2B17&\b0} a collection\Nof totally disconnected
-Dialogue: 0,0:00:40.94,0:00:41.06,Default,,0,0,0,,{\pos(540,1513)}just {\c&H00657811&\b1}a{\c&H002A2B17&\b0} collection\Nof totally disconnected
-Dialogue: 0,0:00:41.06,0:00:41.32,Default,,0,0,0,,{\pos(540,1513)}just a {\c&H00657811&\b1}collection{\c&H002A2B17&\b0}\Nof totally disconnected
-Dialogue: 0,0:00:41.32,0:00:41.60,Default,,0,0,0,,{\pos(540,1513)}just a collection\N{\c&H00657811&\b1}of{\c&H002A2B17&\b0} totally disconnected
-Dialogue: 0,0:00:41.60,0:00:42.14,Default,,0,0,0,,{\pos(540,1513)}just a collection\Nof {\c&H00657811&\b1}totally{\c&H002A2B17&\b0} disconnected
-Dialogue: 0,0:00:42.14,0:00:42.63,Default,,0,0,0,,{\pos(540,1513)}just a collection\Nof totally {\c&H00657811&\b1}disconnected{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:32.64,0:00:32.74,Default,,0,0,0,,{\pos(540,1513)}How to move\Ndata faster, {\c&H00657811&\b1}how{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:32.74,0:00:32.84,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}to{\c&H002A2B17&\b0} store more of it cheaper,
+Dialogue: 0,0:00:32.84,0:00:33.10,Default,,0,0,0,,{\pos(540,1513)}to {\c&H00657811&\b1}store{\c&H002A2B17&\b0} more of it cheaper,
+Dialogue: 0,0:00:33.10,0:00:33.68,Default,,0,0,0,,{\pos(540,1513)}to store {\c&H00657811&\b1}more{\c&H002A2B17&\b0} of it cheaper,
+Dialogue: 0,0:00:33.68,0:00:34.00,Default,,0,0,0,,{\pos(540,1513)}to store more {\c&H00657811&\b1}of{\c&H002A2B17&\b0} it cheaper,
+Dialogue: 0,0:00:34.00,0:00:34.12,Default,,0,0,0,,{\pos(540,1513)}to store more of {\c&H00657811&\b1}it{\c&H002A2B17&\b0} cheaper,
+Dialogue: 0,0:00:34.12,0:00:34.55,Default,,0,0,0,,{\pos(540,1513)}to store more of it {\c&H00657811&\b1}cheaper,{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:34.82,0:00:34.96,Default,,0,0,0,,{\pos(540,1513)}or {\c&H00657811&\b1}how{\c&H002A2B17&\b0} to build\Nbetter analytical
+Dialogue: 0,0:00:34.96,0:00:35.04,Default,,0,0,0,,{\pos(540,1513)}or how {\c&H00657811&\b1}to{\c&H002A2B17&\b0} build\Nbetter analytical
+Dialogue: 0,0:00:35.04,0:00:35.23,Default,,0,0,0,,{\pos(540,1513)}or how to {\c&H00657811&\b1}build{\c&H002A2B17&\b0}\Nbetter analytical
+Dialogue: 0,0:00:35.23,0:00:35.86,Default,,0,0,0,,{\pos(540,1513)}or how to build\N{\c&H00657811&\b1}better{\c&H002A2B17&\b0} analytical
+Dialogue: 0,0:00:35.86,0:00:36.20,Default,,0,0,0,,{\pos(540,1513)}or how to build\Nbetter {\c&H00657811&\b1}analytical{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:36.20,0:00:37.58,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}engines.{\c&H002A2B17&\b0} But the data itself.
+Dialogue: 0,0:00:37.58,0:00:37.68,Default,,0,0,0,,{\pos(540,1513)}engines. {\c&H00657811&\b1}But{\c&H002A2B17&\b0} the data itself.
+Dialogue: 0,0:00:37.68,0:00:37.96,Default,,0,0,0,,{\pos(540,1513)}engines. But {\c&H00657811&\b1}the{\c&H002A2B17&\b0} data itself.
+Dialogue: 0,0:00:37.96,0:00:38.15,Default,,0,0,0,,{\pos(540,1513)}engines. But the {\c&H00657811&\b1}data{\c&H002A2B17&\b0} itself.
+Dialogue: 0,0:00:38.15,0:00:38.68,Default,,0,0,0,,{\pos(540,1513)}engines. But the data {\c&H00657811&\b1}itself.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:39.32,0:00:39.50,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}The{\c&H002A2B17&\b0} raw data itself is often
+Dialogue: 0,0:00:39.50,0:00:39.64,Default,,0,0,0,,{\pos(540,1513)}The {\c&H00657811&\b1}raw{\c&H002A2B17&\b0} data itself is often
+Dialogue: 0,0:00:39.64,0:00:39.94,Default,,0,0,0,,{\pos(540,1513)}The raw {\c&H00657811&\b1}data{\c&H002A2B17&\b0} itself is often
+Dialogue: 0,0:00:39.94,0:00:40.36,Default,,0,0,0,,{\pos(540,1513)}The raw data {\c&H00657811&\b1}itself{\c&H002A2B17&\b0} is often
+Dialogue: 0,0:00:40.36,0:00:40.52,Default,,0,0,0,,{\pos(540,1513)}The raw data itself {\c&H00657811&\b1}is{\c&H002A2B17&\b0} often
+Dialogue: 0,0:00:40.52,0:00:40.68,Default,,0,0,0,,{\pos(540,1513)}The raw data itself is {\c&H00657811&\b1}often{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:40.68,0:00:40.94,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}just{\c&H002A2B17&\b0} a collection of\Ntotally disconnected
+Dialogue: 0,0:00:40.94,0:00:41.06,Default,,0,0,0,,{\pos(540,1513)}just {\c&H00657811&\b1}a{\c&H002A2B17&\b0} collection of\Ntotally disconnected
+Dialogue: 0,0:00:41.06,0:00:41.32,Default,,0,0,0,,{\pos(540,1513)}just a {\c&H00657811&\b1}collection{\c&H002A2B17&\b0} of\Ntotally disconnected
+Dialogue: 0,0:00:41.32,0:00:41.60,Default,,0,0,0,,{\pos(540,1513)}just a collection {\c&H00657811&\b1}of{\c&H002A2B17&\b0}\Ntotally disconnected
+Dialogue: 0,0:00:41.60,0:00:42.14,Default,,0,0,0,,{\pos(540,1513)}just a collection of\N{\c&H00657811&\b1}totally{\c&H002A2B17&\b0} disconnected
+Dialogue: 0,0:00:42.14,0:00:42.52,Default,,0,0,0,,{\pos(540,1513)}just a collection of\Ntotally {\c&H00657811&\b1}disconnected{\c&H002A2B17&\b0}
 Dialogue: 0,0:00:42.52,0:00:43.17,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}facts.{\c&H002A2B17&\b0}

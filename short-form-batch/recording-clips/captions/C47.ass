@@ -1,0 +1,130 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.22,0:00:00.41,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}If{\c&H002A2B17&\b0} you want to set up
+Dialogue: 0,0:00:00.41,0:00:00.54,Default,,0,0,0,,{\pos(540,1513)}If {\c&H00657811&\b1}you{\c&H002A2B17&\b0} want to set up
+Dialogue: 0,0:00:00.54,0:00:00.68,Default,,0,0,0,,{\pos(540,1513)}If you {\c&H00657811&\b1}want{\c&H002A2B17&\b0} to set up
+Dialogue: 0,0:00:00.68,0:00:00.75,Default,,0,0,0,,{\pos(540,1513)}If you want {\c&H00657811&\b1}to{\c&H002A2B17&\b0} set up
+Dialogue: 0,0:00:00.75,0:00:00.92,Default,,0,0,0,,{\pos(540,1513)}If you want to {\c&H00657811&\b1}set{\c&H002A2B17&\b0} up
+Dialogue: 0,0:00:00.92,0:00:01.04,Default,,0,0,0,,{\pos(540,1513)}If you want to set {\c&H00657811&\b1}up{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:01.04,0:00:01.34,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}operational{\c&H002A2B17&\b0}\Nmonitoring, the logical
+Dialogue: 0,0:00:01.34,0:00:02.59,Default,,0,0,0,,{\pos(540,1513)}operational\N{\c&H00657811&\b1}monitoring,{\c&H002A2B17&\b0} the logical
+Dialogue: 0,0:00:02.59,0:00:02.82,Default,,0,0,0,,{\pos(540,1513)}operational\Nmonitoring, {\c&H00657811&\b1}the{\c&H002A2B17&\b0} logical
+Dialogue: 0,0:00:02.82,0:00:03.22,Default,,0,0,0,,{\pos(540,1513)}operational\Nmonitoring, the {\c&H00657811&\b1}logical{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:03.22,0:00:03.80,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}conditions{\c&H002A2B17&\b0} you can\Nset are currently
+Dialogue: 0,0:00:03.80,0:00:04.13,Default,,0,0,0,,{\pos(540,1513)}conditions {\c&H00657811&\b1}you{\c&H002A2B17&\b0} can\Nset are currently
+Dialogue: 0,0:00:04.13,0:00:04.24,Default,,0,0,0,,{\pos(540,1513)}conditions you {\c&H00657811&\b1}can{\c&H002A2B17&\b0}\Nset are currently
+Dialogue: 0,0:00:04.24,0:00:04.44,Default,,0,0,0,,{\pos(540,1513)}conditions you can\N{\c&H00657811&\b1}set{\c&H002A2B17&\b0} are currently
+Dialogue: 0,0:00:04.44,0:00:04.55,Default,,0,0,0,,{\pos(540,1513)}conditions you can\Nset {\c&H00657811&\b1}are{\c&H002A2B17&\b0} currently
+Dialogue: 0,0:00:04.55,0:00:05.00,Default,,0,0,0,,{\pos(540,1513)}conditions you can\Nset are {\c&H00657811&\b1}currently{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:05.00,0:00:05.46,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}quite{\c&H002A2B17&\b0} primitive. The\Ndocumentation
+Dialogue: 0,0:00:05.46,0:00:06.50,Default,,0,0,0,,{\pos(540,1513)}quite {\c&H00657811&\b1}primitive.{\c&H002A2B17&\b0} The\Ndocumentation
+Dialogue: 0,0:00:06.50,0:00:06.56,Default,,0,0,0,,{\pos(540,1513)}quite primitive. {\c&H00657811&\b1}The{\c&H002A2B17&\b0}\Ndocumentation
+Dialogue: 0,0:00:06.56,0:00:06.82,Default,,0,0,0,,{\pos(540,1513)}quite primitive. The\N{\c&H00657811&\b1}documentation{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:06.82,0:00:07.36,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}notes{\c&H002A2B17&\b0} that it struggles\Nwith combined
+Dialogue: 0,0:00:07.36,0:00:07.61,Default,,0,0,0,,{\pos(540,1513)}notes {\c&H00657811&\b1}that{\c&H002A2B17&\b0} it struggles\Nwith combined
+Dialogue: 0,0:00:07.61,0:00:07.72,Default,,0,0,0,,{\pos(540,1513)}notes that {\c&H00657811&\b1}it{\c&H002A2B17&\b0} struggles\Nwith combined
+Dialogue: 0,0:00:07.72,0:00:08.14,Default,,0,0,0,,{\pos(540,1513)}notes that it {\c&H00657811&\b1}struggles{\c&H002A2B17&\b0}\Nwith combined
+Dialogue: 0,0:00:08.14,0:00:08.50,Default,,0,0,0,,{\pos(540,1513)}notes that it struggles\N{\c&H00657811&\b1}with{\c&H002A2B17&\b0} combined
+Dialogue: 0,0:00:08.50,0:00:08.82,Default,,0,0,0,,{\pos(540,1513)}notes that it struggles\Nwith {\c&H00657811&\b1}combined{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:08.82,0:00:09.32,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}and{\c&H002A2B17&\b0} conditions and\Nit struggles with
+Dialogue: 0,0:00:09.32,0:00:09.80,Default,,0,0,0,,{\pos(540,1513)}and {\c&H00657811&\b1}conditions{\c&H002A2B17&\b0} and\Nit struggles with
+Dialogue: 0,0:00:09.80,0:00:10.60,Default,,0,0,0,,{\pos(540,1513)}and conditions {\c&H00657811&\b1}and{\c&H002A2B17&\b0}\Nit struggles with
+Dialogue: 0,0:00:10.60,0:00:10.72,Default,,0,0,0,,{\pos(540,1513)}and conditions and\N{\c&H00657811&\b1}it{\c&H002A2B17&\b0} struggles with
+Dialogue: 0,0:00:10.72,0:00:10.90,Default,,0,0,0,,{\pos(540,1513)}and conditions and\Nit {\c&H00657811&\b1}struggles{\c&H002A2B17&\b0} with
+Dialogue: 0,0:00:10.90,0:00:11.22,Default,,0,0,0,,{\pos(540,1513)}and conditions and\Nit struggles {\c&H00657811&\b1}with{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:11.22,0:00:12.54,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}aggregations.{\c&H002A2B17&\b0}\NSo I can't build a
+Dialogue: 0,0:00:12.54,0:00:13.06,Default,,0,0,0,,{\pos(540,1513)}aggregations.\N{\c&H00657811&\b1}So{\c&H002A2B17&\b0} I can't build a
+Dialogue: 0,0:00:13.06,0:00:13.16,Default,,0,0,0,,{\pos(540,1513)}aggregations.\NSo {\c&H00657811&\b1}I{\c&H002A2B17&\b0} can't build a
+Dialogue: 0,0:00:13.16,0:00:13.40,Default,,0,0,0,,{\pos(540,1513)}aggregations.\NSo I {\c&H00657811&\b1}can't{\c&H002A2B17&\b0} build a
+Dialogue: 0,0:00:13.40,0:00:13.56,Default,,0,0,0,,{\pos(540,1513)}aggregations.\NSo I can't {\c&H00657811&\b1}build{\c&H002A2B17&\b0} a
+Dialogue: 0,0:00:13.56,0:00:13.68,Default,,0,0,0,,{\pos(540,1513)}aggregations.\NSo I can't build {\c&H00657811&\b1}a{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:13.68,0:00:13.94,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}monitor{\c&H002A2B17&\b0} that says alert me of
+Dialogue: 0,0:00:13.94,0:00:14.34,Default,,0,0,0,,{\pos(540,1513)}monitor {\c&H00657811&\b1}that{\c&H002A2B17&\b0} says alert me of
+Dialogue: 0,0:00:14.34,0:00:14.62,Default,,0,0,0,,{\pos(540,1513)}monitor that {\c&H00657811&\b1}says{\c&H002A2B17&\b0} alert me of
+Dialogue: 0,0:00:14.62,0:00:15.42,Default,,0,0,0,,{\pos(540,1513)}monitor that says {\c&H00657811&\b1}alert{\c&H002A2B17&\b0} me of
+Dialogue: 0,0:00:15.42,0:00:15.64,Default,,0,0,0,,{\pos(540,1513)}monitor that says alert {\c&H00657811&\b1}me{\c&H002A2B17&\b0} of
+Dialogue: 0,0:00:15.64,0:00:15.76,Default,,0,0,0,,{\pos(540,1513)}monitor that says alert me {\c&H00657811&\b1}of{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:15.76,0:00:15.86,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}the{\c&H002A2B17&\b0} temperature\Ndrops and the store
+Dialogue: 0,0:00:15.86,0:00:16.07,Default,,0,0,0,,{\pos(540,1513)}the {\c&H00657811&\b1}temperature{\c&H002A2B17&\b0}\Ndrops and the store
+Dialogue: 0,0:00:16.07,0:00:16.48,Default,,0,0,0,,{\pos(540,1513)}the temperature\N{\c&H00657811&\b1}drops{\c&H002A2B17&\b0} and the store
+Dialogue: 0,0:00:16.48,0:00:16.98,Default,,0,0,0,,{\pos(540,1513)}the temperature\Ndrops {\c&H00657811&\b1}and{\c&H002A2B17&\b0} the store
+Dialogue: 0,0:00:16.98,0:00:17.60,Default,,0,0,0,,{\pos(540,1513)}the temperature\Ndrops and {\c&H00657811&\b1}the{\c&H002A2B17&\b0} store
+Dialogue: 0,0:00:17.60,0:00:17.82,Default,,0,0,0,,{\pos(540,1513)}the temperature\Ndrops and the {\c&H00657811&\b1}store{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:17.82,0:00:18.02,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}is{\c&H002A2B17&\b0} priority and the\Ntotal aggregated
+Dialogue: 0,0:00:18.02,0:00:18.28,Default,,0,0,0,,{\pos(540,1513)}is {\c&H00657811&\b1}priority{\c&H002A2B17&\b0} and the\Ntotal aggregated
+Dialogue: 0,0:00:18.28,0:00:19.05,Default,,0,0,0,,{\pos(540,1513)}is priority {\c&H00657811&\b1}and{\c&H002A2B17&\b0} the\Ntotal aggregated
+Dialogue: 0,0:00:19.05,0:00:19.76,Default,,0,0,0,,{\pos(540,1513)}is priority and {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Ntotal aggregated
+Dialogue: 0,0:00:19.76,0:00:19.94,Default,,0,0,0,,{\pos(540,1513)}is priority and the\N{\c&H00657811&\b1}total{\c&H002A2B17&\b0} aggregated
+Dialogue: 0,0:00:19.94,0:00:20.50,Default,,0,0,0,,{\pos(540,1513)}is priority and the\Ntotal {\c&H00657811&\b1}aggregated{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:20.50,0:00:20.72,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}revenue{\c&H002A2B17&\b0} is over $10 ,000.
+Dialogue: 0,0:00:20.72,0:00:21.04,Default,,0,0,0,,{\pos(540,1513)}revenue {\c&H00657811&\b1}is{\c&H002A2B17&\b0} over $10 ,000.
+Dialogue: 0,0:00:21.04,0:00:21.20,Default,,0,0,0,,{\pos(540,1513)}revenue is {\c&H00657811&\b1}over{\c&H002A2B17&\b0} $10 ,000.
+Dialogue: 0,0:00:21.20,0:00:21.42,Default,,0,0,0,,{\pos(540,1513)}revenue is over {\c&H00657811&\b1}$10{\c&H002A2B17&\b0} ,000.
+Dialogue: 0,0:00:21.42,0:00:21.88,Default,,0,0,0,,{\pos(540,1513)}revenue is over $10 {\c&H00657811&\b1},000.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:22.28,0:00:22.52,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}In{\c&H002A2B17&\b0} the current preview,\Nstringing complex,
+Dialogue: 0,0:00:22.52,0:00:22.64,Default,,0,0,0,,{\pos(540,1513)}In {\c&H00657811&\b1}the{\c&H002A2B17&\b0} current preview,\Nstringing complex,
+Dialogue: 0,0:00:22.64,0:00:22.84,Default,,0,0,0,,{\pos(540,1513)}In the {\c&H00657811&\b1}current{\c&H002A2B17&\b0} preview,\Nstringing complex,
+Dialogue: 0,0:00:22.84,0:00:23.74,Default,,0,0,0,,{\pos(540,1513)}In the current {\c&H00657811&\b1}preview,{\c&H002A2B17&\b0}\Nstringing complex,
+Dialogue: 0,0:00:23.74,0:00:24.04,Default,,0,0,0,,{\pos(540,1513)}In the current preview,\N{\c&H00657811&\b1}stringing{\c&H002A2B17&\b0} complex,
+Dialogue: 0,0:00:24.04,0:00:24.56,Default,,0,0,0,,{\pos(540,1513)}In the current preview,\Nstringing {\c&H00657811&\b1}complex,{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:24.92,0:00:25.10,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}multi{\c&H002A2B17&\b0} -variable\Nlogic like that into
+Dialogue: 0,0:00:25.10,0:00:25.54,Default,,0,0,0,,{\pos(540,1513)}multi {\c&H00657811&\b1}-variable{\c&H002A2B17&\b0}\Nlogic like that into
+Dialogue: 0,0:00:25.54,0:00:26.08,Default,,0,0,0,,{\pos(540,1513)}multi -variable\N{\c&H00657811&\b1}logic{\c&H002A2B17&\b0} like that into
+Dialogue: 0,0:00:26.08,0:00:26.36,Default,,0,0,0,,{\pos(540,1513)}multi -variable\Nlogic {\c&H00657811&\b1}like{\c&H002A2B17&\b0} that into
+Dialogue: 0,0:00:26.36,0:00:26.54,Default,,0,0,0,,{\pos(540,1513)}multi -variable\Nlogic like {\c&H00657811&\b1}that{\c&H002A2B17&\b0} into
+Dialogue: 0,0:00:26.54,0:00:26.74,Default,,0,0,0,,{\pos(540,1513)}multi -variable\Nlogic like that {\c&H00657811&\b1}into{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:26.74,0:00:26.92,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}a{\c&H002A2B17&\b0} passive monitor is\Nhighly problematic
+Dialogue: 0,0:00:26.92,0:00:27.18,Default,,0,0,0,,{\pos(540,1513)}a {\c&H00657811&\b1}passive{\c&H002A2B17&\b0} monitor is\Nhighly problematic
+Dialogue: 0,0:00:27.18,0:00:27.54,Default,,0,0,0,,{\pos(540,1513)}a passive {\c&H00657811&\b1}monitor{\c&H002A2B17&\b0} is\Nhighly problematic
+Dialogue: 0,0:00:27.54,0:00:27.92,Default,,0,0,0,,{\pos(540,1513)}a passive monitor {\c&H00657811&\b1}is{\c&H002A2B17&\b0}\Nhighly problematic
+Dialogue: 0,0:00:27.92,0:00:28.44,Default,,0,0,0,,{\pos(540,1513)}a passive monitor is\N{\c&H00657811&\b1}highly{\c&H002A2B17&\b0} problematic
+Dialogue: 0,0:00:28.44,0:00:29.00,Default,,0,0,0,,{\pos(540,1513)}a passive monitor is\Nhighly {\c&H00657811&\b1}problematic{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:29.00,0:00:29.48,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}and{\c&H002A2B17&\b0} likely to fail.
+Dialogue: 0,0:00:29.48,0:00:29.74,Default,,0,0,0,,{\pos(540,1513)}and {\c&H00657811&\b1}likely{\c&H002A2B17&\b0} to fail.
+Dialogue: 0,0:00:29.74,0:00:29.96,Default,,0,0,0,,{\pos(540,1513)}and likely {\c&H00657811&\b1}to{\c&H002A2B17&\b0} fail.
+Dialogue: 0,0:00:29.96,0:00:30.28,Default,,0,0,0,,{\pos(540,1513)}and likely to {\c&H00657811&\b1}fail.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:30.74,0:00:30.78,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}You{\c&H002A2B17&\b0} have to keep\Nthe monitoring
+Dialogue: 0,0:00:30.78,0:00:30.92,Default,,0,0,0,,{\pos(540,1513)}You {\c&H00657811&\b1}have{\c&H002A2B17&\b0} to keep\Nthe monitoring
+Dialogue: 0,0:00:30.92,0:00:31.06,Default,,0,0,0,,{\pos(540,1513)}You have {\c&H00657811&\b1}to{\c&H002A2B17&\b0} keep\Nthe monitoring
+Dialogue: 0,0:00:31.06,0:00:31.20,Default,,0,0,0,,{\pos(540,1513)}You have to {\c&H00657811&\b1}keep{\c&H002A2B17&\b0}\Nthe monitoring
+Dialogue: 0,0:00:31.20,0:00:31.32,Default,,0,0,0,,{\pos(540,1513)}You have to keep\N{\c&H00657811&\b1}the{\c&H002A2B17&\b0} monitoring
+Dialogue: 0,0:00:31.32,0:00:31.58,Default,,0,0,0,,{\pos(540,1513)}You have to keep\Nthe {\c&H00657811&\b1}monitoring{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:31.58,0:00:31.96,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}conditions{\c&H002A2B17&\b0} very\Nsimple and isolated.
+Dialogue: 0,0:00:31.96,0:00:32.42,Default,,0,0,0,,{\pos(540,1513)}conditions {\c&H00657811&\b1}very{\c&H002A2B17&\b0}\Nsimple and isolated.
+Dialogue: 0,0:00:32.42,0:00:32.86,Default,,0,0,0,,{\pos(540,1513)}conditions very\N{\c&H00657811&\b1}simple{\c&H002A2B17&\b0} and isolated.
+Dialogue: 0,0:00:32.86,0:00:33.06,Default,,0,0,0,,{\pos(540,1513)}conditions very\Nsimple {\c&H00657811&\b1}and{\c&H002A2B17&\b0} isolated.
+Dialogue: 0,0:00:33.06,0:00:33.51,Default,,0,0,0,,{\pos(540,1513)}conditions very\Nsimple and {\c&H00657811&\b1}isolated.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:34.60,0:00:35.08,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Furthermore,{\c&H002A2B17&\b0} the\Noperational agent
+Dialogue: 0,0:00:35.08,0:00:35.26,Default,,0,0,0,,{\pos(540,1513)}Furthermore, {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Noperational agent
+Dialogue: 0,0:00:35.26,0:00:35.60,Default,,0,0,0,,{\pos(540,1513)}Furthermore, the\N{\c&H00657811&\b1}operational{\c&H002A2B17&\b0} agent
+Dialogue: 0,0:00:35.60,0:00:36.06,Default,,0,0,0,,{\pos(540,1513)}Furthermore, the\Noperational {\c&H00657811&\b1}agent{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:36.06,0:00:36.50,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}operates{\c&H002A2B17&\b0} on a\Nfixed five -minute
+Dialogue: 0,0:00:36.50,0:00:36.73,Default,,0,0,0,,{\pos(540,1513)}operates {\c&H00657811&\b1}on{\c&H002A2B17&\b0} a\Nfixed five -minute
+Dialogue: 0,0:00:36.73,0:00:36.82,Default,,0,0,0,,{\pos(540,1513)}operates on {\c&H00657811&\b1}a{\c&H002A2B17&\b0}\Nfixed five -minute
+Dialogue: 0,0:00:36.82,0:00:37.04,Default,,0,0,0,,{\pos(540,1513)}operates on a\N{\c&H00657811&\b1}fixed{\c&H002A2B17&\b0} five -minute
+Dialogue: 0,0:00:37.04,0:00:37.44,Default,,0,0,0,,{\pos(540,1513)}operates on a\Nfixed {\c&H00657811&\b1}five{\c&H002A2B17&\b0} -minute
+Dialogue: 0,0:00:37.44,0:00:37.68,Default,,0,0,0,,{\pos(540,1513)}operates on a\Nfixed five {\c&H00657811&\b1}-minute{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:37.68,0:00:38.37,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}cycle.{\c&H002A2B17&\b0} It is not sub -second
+Dialogue: 0,0:00:38.37,0:00:38.44,Default,,0,0,0,,{\pos(540,1513)}cycle. {\c&H00657811&\b1}It{\c&H002A2B17&\b0} is not sub -second
+Dialogue: 0,0:00:38.44,0:00:38.58,Default,,0,0,0,,{\pos(540,1513)}cycle. It {\c&H00657811&\b1}is{\c&H002A2B17&\b0} not sub -second
+Dialogue: 0,0:00:38.58,0:00:38.87,Default,,0,0,0,,{\pos(540,1513)}cycle. It is {\c&H00657811&\b1}not{\c&H002A2B17&\b0} sub -second
+Dialogue: 0,0:00:38.87,0:00:39.28,Default,,0,0,0,,{\pos(540,1513)}cycle. It is not {\c&H00657811&\b1}sub{\c&H002A2B17&\b0} -second
+Dialogue: 0,0:00:39.28,0:00:39.65,Default,,0,0,0,,{\pos(540,1513)}cycle. It is not sub {\c&H00657811&\b1}-second{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:39.65,0:00:40.15,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}real{\c&H002A2B17&\b0} time. It only checks the
+Dialogue: 0,0:00:40.15,0:00:41.20,Default,,0,0,0,,{\pos(540,1513)}real {\c&H00657811&\b1}time.{\c&H002A2B17&\b0} It only checks the
+Dialogue: 0,0:00:41.20,0:00:41.26,Default,,0,0,0,,{\pos(540,1513)}real time. {\c&H00657811&\b1}It{\c&H002A2B17&\b0} only checks the
+Dialogue: 0,0:00:41.26,0:00:41.36,Default,,0,0,0,,{\pos(540,1513)}real time. It {\c&H00657811&\b1}only{\c&H002A2B17&\b0} checks the
+Dialogue: 0,0:00:41.36,0:00:41.58,Default,,0,0,0,,{\pos(540,1513)}real time. It only {\c&H00657811&\b1}checks{\c&H002A2B17&\b0} the
+Dialogue: 0,0:00:41.58,0:00:41.76,Default,,0,0,0,,{\pos(540,1513)}real time. It only checks {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:41.76,0:00:42.06,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}condition{\c&H002A2B17&\b0} every five minutes.
+Dialogue: 0,0:00:42.06,0:00:42.24,Default,,0,0,0,,{\pos(540,1513)}condition {\c&H00657811&\b1}every{\c&H002A2B17&\b0} five minutes.
+Dialogue: 0,0:00:42.24,0:00:42.48,Default,,0,0,0,,{\pos(540,1513)}condition every {\c&H00657811&\b1}five{\c&H002A2B17&\b0} minutes.
+Dialogue: 0,0:00:42.48,0:00:42.83,Default,,0,0,0,,{\pos(540,1513)}condition every five {\c&H00657811&\b1}minutes.{\c&H002A2B17&\b0}

@@ -1,0 +1,176 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.05,0:00:00.57,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Before{\c&H002A2B17&\b0} you make any\Nmeaningful change
+Dialogue: 0,0:00:00.57,0:00:00.73,Default,,0,0,0,,{\pos(540,1513)}Before {\c&H00657811&\b1}you{\c&H002A2B17&\b0} make any\Nmeaningful change
+Dialogue: 0,0:00:00.73,0:00:00.87,Default,,0,0,0,,{\pos(540,1513)}Before you {\c&H00657811&\b1}make{\c&H002A2B17&\b0} any\Nmeaningful change
+Dialogue: 0,0:00:00.87,0:00:01.01,Default,,0,0,0,,{\pos(540,1513)}Before you make {\c&H00657811&\b1}any{\c&H002A2B17&\b0}\Nmeaningful change
+Dialogue: 0,0:00:01.01,0:00:01.45,Default,,0,0,0,,{\pos(540,1513)}Before you make any\N{\c&H00657811&\b1}meaningful{\c&H002A2B17&\b0} change
+Dialogue: 0,0:00:01.45,0:00:01.75,Default,,0,0,0,,{\pos(540,1513)}Before you make any\Nmeaningful {\c&H00657811&\b1}change{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:01.75,0:00:02.07,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}to{\c&H002A2B17&\b0} your production\Nmodel, you create
+Dialogue: 0,0:00:02.07,0:00:02.19,Default,,0,0,0,,{\pos(540,1513)}to {\c&H00657811&\b1}your{\c&H002A2B17&\b0} production\Nmodel, you create
+Dialogue: 0,0:00:02.19,0:00:02.45,Default,,0,0,0,,{\pos(540,1513)}to your {\c&H00657811&\b1}production{\c&H002A2B17&\b0}\Nmodel, you create
+Dialogue: 0,0:00:02.45,0:00:02.85,Default,,0,0,0,,{\pos(540,1513)}to your production\N{\c&H00657811&\b1}model,{\c&H002A2B17&\b0} you create
+Dialogue: 0,0:00:02.85,0:00:03.13,Default,,0,0,0,,{\pos(540,1513)}to your production\Nmodel, {\c&H00657811&\b1}you{\c&H002A2B17&\b0} create
+Dialogue: 0,0:00:03.13,0:00:03.41,Default,,0,0,0,,{\pos(540,1513)}to your production\Nmodel, you {\c&H00657811&\b1}create{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:03.41,0:00:03.81,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}a{\c&H002A2B17&\b0} named saved\Nversion of your
+Dialogue: 0,0:00:03.81,0:00:04.27,Default,,0,0,0,,{\pos(540,1513)}a {\c&H00657811&\b1}named{\c&H002A2B17&\b0} saved\Nversion of your
+Dialogue: 0,0:00:04.27,0:00:04.93,Default,,0,0,0,,{\pos(540,1513)}a named {\c&H00657811&\b1}saved{\c&H002A2B17&\b0}\Nversion of your
+Dialogue: 0,0:00:04.93,0:00:05.35,Default,,0,0,0,,{\pos(540,1513)}a named saved\N{\c&H00657811&\b1}version{\c&H002A2B17&\b0} of your
+Dialogue: 0,0:00:05.35,0:00:05.61,Default,,0,0,0,,{\pos(540,1513)}a named saved\Nversion {\c&H00657811&\b1}of{\c&H002A2B17&\b0} your
+Dialogue: 0,0:00:05.61,0:00:05.71,Default,,0,0,0,,{\pos(540,1513)}a named saved\Nversion of {\c&H00657811&\b1}your{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:05.71,0:00:06.03,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}current{\c&H002A2B17&\b0} ontology state.
+Dialogue: 0,0:00:06.03,0:00:06.43,Default,,0,0,0,,{\pos(540,1513)}current {\c&H00657811&\b1}ontology{\c&H002A2B17&\b0} state.
+Dialogue: 0,0:00:06.43,0:00:06.97,Default,,0,0,0,,{\pos(540,1513)}current ontology {\c&H00657811&\b1}state.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:07.55,0:00:07.83,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Version{\c&H002A2B17&\b0} history\Nallows you to restore
+Dialogue: 0,0:00:07.83,0:00:08.03,Default,,0,0,0,,{\pos(540,1513)}Version {\c&H00657811&\b1}history{\c&H002A2B17&\b0}\Nallows you to restore
+Dialogue: 0,0:00:08.03,0:00:08.33,Default,,0,0,0,,{\pos(540,1513)}Version history\N{\c&H00657811&\b1}allows{\c&H002A2B17&\b0} you to restore
+Dialogue: 0,0:00:08.33,0:00:08.49,Default,,0,0,0,,{\pos(540,1513)}Version history\Nallows {\c&H00657811&\b1}you{\c&H002A2B17&\b0} to restore
+Dialogue: 0,0:00:08.49,0:00:08.57,Default,,0,0,0,,{\pos(540,1513)}Version history\Nallows you {\c&H00657811&\b1}to{\c&H002A2B17&\b0} restore
+Dialogue: 0,0:00:08.57,0:00:08.99,Default,,0,0,0,,{\pos(540,1513)}Version history\Nallows you to {\c&H00657811&\b1}restore{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:08.99,0:00:09.25,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}that{\c&H002A2B17&\b0} saved definition\Nif things go
+Dialogue: 0,0:00:09.25,0:00:09.45,Default,,0,0,0,,{\pos(540,1513)}that {\c&H00657811&\b1}saved{\c&H002A2B17&\b0} definition\Nif things go
+Dialogue: 0,0:00:09.45,0:00:09.83,Default,,0,0,0,,{\pos(540,1513)}that saved {\c&H00657811&\b1}definition{\c&H002A2B17&\b0}\Nif things go
+Dialogue: 0,0:00:09.83,0:00:10.25,Default,,0,0,0,,{\pos(540,1513)}that saved definition\N{\c&H00657811&\b1}if{\c&H002A2B17&\b0} things go
+Dialogue: 0,0:00:10.25,0:00:10.43,Default,,0,0,0,,{\pos(540,1513)}that saved definition\Nif {\c&H00657811&\b1}things{\c&H002A2B17&\b0} go
+Dialogue: 0,0:00:10.43,0:00:10.67,Default,,0,0,0,,{\pos(540,1513)}that saved definition\Nif things {\c&H00657811&\b1}go{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:10.67,0:00:11.63,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}sideways.{\c&H002A2B17&\b0} So it's\Nnot a surgical
+Dialogue: 0,0:00:11.63,0:00:11.87,Default,,0,0,0,,{\pos(540,1513)}sideways. {\c&H00657811&\b1}So{\c&H002A2B17&\b0} it's\Nnot a surgical
+Dialogue: 0,0:00:11.87,0:00:12.01,Default,,0,0,0,,{\pos(540,1513)}sideways. So {\c&H00657811&\b1}it's{\c&H002A2B17&\b0}\Nnot a surgical
+Dialogue: 0,0:00:12.01,0:00:12.23,Default,,0,0,0,,{\pos(540,1513)}sideways. So it's\N{\c&H00657811&\b1}not{\c&H002A2B17&\b0} a surgical
+Dialogue: 0,0:00:12.23,0:00:12.39,Default,,0,0,0,,{\pos(540,1513)}sideways. So it's\Nnot {\c&H00657811&\b1}a{\c&H002A2B17&\b0} surgical
+Dialogue: 0,0:00:12.39,0:00:12.75,Default,,0,0,0,,{\pos(540,1513)}sideways. So it's\Nnot a {\c&H00657811&\b1}surgical{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:12.75,0:00:13.33,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}rollback{\c&H002A2B17&\b0} where\NI just undo the
+Dialogue: 0,0:00:13.33,0:00:13.53,Default,,0,0,0,,{\pos(540,1513)}rollback {\c&H00657811&\b1}where{\c&H002A2B17&\b0}\NI just undo the
+Dialogue: 0,0:00:13.53,0:00:13.61,Default,,0,0,0,,{\pos(540,1513)}rollback where\N{\c&H00657811&\b1}I{\c&H002A2B17&\b0} just undo the
+Dialogue: 0,0:00:13.61,0:00:13.77,Default,,0,0,0,,{\pos(540,1513)}rollback where\NI {\c&H00657811&\b1}just{\c&H002A2B17&\b0} undo the
+Dialogue: 0,0:00:13.77,0:00:14.07,Default,,0,0,0,,{\pos(540,1513)}rollback where\NI just {\c&H00657811&\b1}undo{\c&H002A2B17&\b0} the
+Dialogue: 0,0:00:14.07,0:00:14.33,Default,,0,0,0,,{\pos(540,1513)}rollback where\NI just undo {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:14.33,0:00:14.51,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}last{\c&H002A2B17&\b0} five minutes of work?
+Dialogue: 0,0:00:14.51,0:00:14.77,Default,,0,0,0,,{\pos(540,1513)}last {\c&H00657811&\b1}five{\c&H002A2B17&\b0} minutes of work?
+Dialogue: 0,0:00:14.77,0:00:14.97,Default,,0,0,0,,{\pos(540,1513)}last five {\c&H00657811&\b1}minutes{\c&H002A2B17&\b0} of work?
+Dialogue: 0,0:00:14.97,0:00:15.09,Default,,0,0,0,,{\pos(540,1513)}last five minutes {\c&H00657811&\b1}of{\c&H002A2B17&\b0} work?
+Dialogue: 0,0:00:15.09,0:00:15.37,Default,,0,0,0,,{\pos(540,1513)}last five minutes of {\c&H00657811&\b1}work?{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:15.43,0:00:15.71,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}No,{\c&H002A2B17&\b0} and that's a\Ncrucial limitation
+Dialogue: 0,0:00:15.71,0:00:15.89,Default,,0,0,0,,{\pos(540,1513)}No, {\c&H00657811&\b1}and{\c&H002A2B17&\b0} that's a\Ncrucial limitation
+Dialogue: 0,0:00:15.89,0:00:16.11,Default,,0,0,0,,{\pos(540,1513)}No, and {\c&H00657811&\b1}that's{\c&H002A2B17&\b0} a\Ncrucial limitation
+Dialogue: 0,0:00:16.11,0:00:16.21,Default,,0,0,0,,{\pos(540,1513)}No, and that's {\c&H00657811&\b1}a{\c&H002A2B17&\b0}\Ncrucial limitation
+Dialogue: 0,0:00:16.21,0:00:16.51,Default,,0,0,0,,{\pos(540,1513)}No, and that's a\N{\c&H00657811&\b1}crucial{\c&H002A2B17&\b0} limitation
+Dialogue: 0,0:00:16.51,0:00:16.97,Default,,0,0,0,,{\pos(540,1513)}No, and that's a\Ncrucial {\c&H00657811&\b1}limitation{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:16.97,0:00:17.35,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}to{\c&H002A2B17&\b0} understand. A\Nrestore replaces the
+Dialogue: 0,0:00:17.35,0:00:18.27,Default,,0,0,0,,{\pos(540,1513)}to {\c&H00657811&\b1}understand.{\c&H002A2B17&\b0} A\Nrestore replaces the
+Dialogue: 0,0:00:18.27,0:00:18.39,Default,,0,0,0,,{\pos(540,1513)}to understand. {\c&H00657811&\b1}A{\c&H002A2B17&\b0}\Nrestore replaces the
+Dialogue: 0,0:00:18.39,0:00:18.69,Default,,0,0,0,,{\pos(540,1513)}to understand. A\N{\c&H00657811&\b1}restore{\c&H002A2B17&\b0} replaces the
+Dialogue: 0,0:00:18.69,0:00:19.31,Default,,0,0,0,,{\pos(540,1513)}to understand. A\Nrestore {\c&H00657811&\b1}replaces{\c&H002A2B17&\b0} the
+Dialogue: 0,0:00:19.31,0:00:19.45,Default,,0,0,0,,{\pos(540,1513)}to understand. A\Nrestore replaces {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:19.45,0:00:19.81,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}definition{\c&H002A2B17&\b0} as a\Nwhole, it overwrites
+Dialogue: 0,0:00:19.81,0:00:20.11,Default,,0,0,0,,{\pos(540,1513)}definition {\c&H00657811&\b1}as{\c&H002A2B17&\b0} a\Nwhole, it overwrites
+Dialogue: 0,0:00:20.11,0:00:20.23,Default,,0,0,0,,{\pos(540,1513)}definition as {\c&H00657811&\b1}a{\c&H002A2B17&\b0}\Nwhole, it overwrites
+Dialogue: 0,0:00:20.23,0:00:21.13,Default,,0,0,0,,{\pos(540,1513)}definition as a\N{\c&H00657811&\b1}whole,{\c&H002A2B17&\b0} it overwrites
+Dialogue: 0,0:00:21.13,0:00:21.37,Default,,0,0,0,,{\pos(540,1513)}definition as a\Nwhole, {\c&H00657811&\b1}it{\c&H002A2B17&\b0} overwrites
+Dialogue: 0,0:00:21.37,0:00:21.75,Default,,0,0,0,,{\pos(540,1513)}definition as a\Nwhole, it {\c&H00657811&\b1}overwrites{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:21.75,0:00:21.95,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}everything{\c&H002A2B17&\b0} currently\Nin the system
+Dialogue: 0,0:00:21.95,0:00:22.53,Default,,0,0,0,,{\pos(540,1513)}everything {\c&H00657811&\b1}currently{\c&H002A2B17&\b0}\Nin the system
+Dialogue: 0,0:00:22.53,0:00:22.83,Default,,0,0,0,,{\pos(540,1513)}everything currently\N{\c&H00657811&\b1}in{\c&H002A2B17&\b0} the system
+Dialogue: 0,0:00:22.83,0:00:22.89,Default,,0,0,0,,{\pos(540,1513)}everything currently\Nin {\c&H00657811&\b1}the{\c&H002A2B17&\b0} system
+Dialogue: 0,0:00:22.89,0:00:23.15,Default,,0,0,0,,{\pos(540,1513)}everything currently\Nin the {\c&H00657811&\b1}system{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:23.15,0:00:23.67,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}with{\c&H002A2B17&\b0} the exact state of the
+Dialogue: 0,0:00:23.67,0:00:23.81,Default,,0,0,0,,{\pos(540,1513)}with {\c&H00657811&\b1}the{\c&H002A2B17&\b0} exact state of the
+Dialogue: 0,0:00:23.81,0:00:24.05,Default,,0,0,0,,{\pos(540,1513)}with the {\c&H00657811&\b1}exact{\c&H002A2B17&\b0} state of the
+Dialogue: 0,0:00:24.05,0:00:24.57,Default,,0,0,0,,{\pos(540,1513)}with the exact {\c&H00657811&\b1}state{\c&H002A2B17&\b0} of the
+Dialogue: 0,0:00:24.57,0:00:24.79,Default,,0,0,0,,{\pos(540,1513)}with the exact state {\c&H00657811&\b1}of{\c&H002A2B17&\b0} the
+Dialogue: 0,0:00:24.79,0:00:24.91,Default,,0,0,0,,{\pos(540,1513)}with the exact state of {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:24.91,0:00:25.09,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}past{\c&H002A2B17&\b0} version. So if your team
+Dialogue: 0,0:00:25.09,0:00:26.29,Default,,0,0,0,,{\pos(540,1513)}past {\c&H00657811&\b1}version.{\c&H002A2B17&\b0} So if your team
+Dialogue: 0,0:00:26.29,0:00:26.35,Default,,0,0,0,,{\pos(540,1513)}past version. {\c&H00657811&\b1}So{\c&H002A2B17&\b0} if your team
+Dialogue: 0,0:00:26.35,0:00:26.55,Default,,0,0,0,,{\pos(540,1513)}past version. So {\c&H00657811&\b1}if{\c&H002A2B17&\b0} your team
+Dialogue: 0,0:00:26.55,0:00:26.65,Default,,0,0,0,,{\pos(540,1513)}past version. So if {\c&H00657811&\b1}your{\c&H002A2B17&\b0} team
+Dialogue: 0,0:00:26.65,0:00:26.85,Default,,0,0,0,,{\pos(540,1513)}past version. So if your {\c&H00657811&\b1}team{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:26.85,0:00:27.09,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}spent{\c&H002A2B17&\b0} four hours\Nmaking great updates,
+Dialogue: 0,0:00:27.09,0:00:27.31,Default,,0,0,0,,{\pos(540,1513)}spent {\c&H00657811&\b1}four{\c&H002A2B17&\b0} hours\Nmaking great updates,
+Dialogue: 0,0:00:27.31,0:00:27.69,Default,,0,0,0,,{\pos(540,1513)}spent four {\c&H00657811&\b1}hours{\c&H002A2B17&\b0}\Nmaking great updates,
+Dialogue: 0,0:00:27.69,0:00:27.89,Default,,0,0,0,,{\pos(540,1513)}spent four hours\N{\c&H00657811&\b1}making{\c&H002A2B17&\b0} great updates,
+Dialogue: 0,0:00:27.89,0:00:28.15,Default,,0,0,0,,{\pos(540,1513)}spent four hours\Nmaking {\c&H00657811&\b1}great{\c&H002A2B17&\b0} updates,
+Dialogue: 0,0:00:28.15,0:00:28.45,Default,,0,0,0,,{\pos(540,1513)}spent four hours\Nmaking great {\c&H00657811&\b1}updates,{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:28.45,0:00:28.99,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}and{\c&H002A2B17&\b0} then someone\Nmakes one catastrophic
+Dialogue: 0,0:00:28.99,0:00:29.09,Default,,0,0,0,,{\pos(540,1513)}and {\c&H00657811&\b1}then{\c&H002A2B17&\b0} someone\Nmakes one catastrophic
+Dialogue: 0,0:00:29.09,0:00:29.33,Default,,0,0,0,,{\pos(540,1513)}and then {\c&H00657811&\b1}someone{\c&H002A2B17&\b0}\Nmakes one catastrophic
+Dialogue: 0,0:00:29.33,0:00:29.63,Default,,0,0,0,,{\pos(540,1513)}and then someone\N{\c&H00657811&\b1}makes{\c&H002A2B17&\b0} one catastrophic
+Dialogue: 0,0:00:29.63,0:00:29.93,Default,,0,0,0,,{\pos(540,1513)}and then someone\Nmakes {\c&H00657811&\b1}one{\c&H002A2B17&\b0} catastrophic
+Dialogue: 0,0:00:29.93,0:00:30.29,Default,,0,0,0,,{\pos(540,1513)}and then someone\Nmakes one {\c&H00657811&\b1}catastrophic{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:30.29,0:00:30.85,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}mistake{\c&H002A2B17&\b0} in hour\Nfive, rolling back
+Dialogue: 0,0:00:30.85,0:00:31.01,Default,,0,0,0,,{\pos(540,1513)}mistake {\c&H00657811&\b1}in{\c&H002A2B17&\b0} hour\Nfive, rolling back
+Dialogue: 0,0:00:31.01,0:00:31.15,Default,,0,0,0,,{\pos(540,1513)}mistake in {\c&H00657811&\b1}hour{\c&H002A2B17&\b0}\Nfive, rolling back
+Dialogue: 0,0:00:31.15,0:00:32.05,Default,,0,0,0,,{\pos(540,1513)}mistake in hour\N{\c&H00657811&\b1}five,{\c&H002A2B17&\b0} rolling back
+Dialogue: 0,0:00:32.05,0:00:32.31,Default,,0,0,0,,{\pos(540,1513)}mistake in hour\Nfive, {\c&H00657811&\b1}rolling{\c&H002A2B17&\b0} back
+Dialogue: 0,0:00:32.31,0:00:32.67,Default,,0,0,0,,{\pos(540,1513)}mistake in hour\Nfive, rolling {\c&H00657811&\b1}back{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:32.67,0:00:32.83,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}to{\c&H002A2B17&\b0} yesterday's\Nversion wipes out all
+Dialogue: 0,0:00:32.83,0:00:32.99,Default,,0,0,0,,{\pos(540,1513)}to {\c&H00657811&\b1}yesterday's{\c&H002A2B17&\b0}\Nversion wipes out all
+Dialogue: 0,0:00:32.99,0:00:33.51,Default,,0,0,0,,{\pos(540,1513)}to yesterday's\N{\c&H00657811&\b1}version{\c&H002A2B17&\b0} wipes out all
+Dialogue: 0,0:00:33.51,0:00:33.73,Default,,0,0,0,,{\pos(540,1513)}to yesterday's\Nversion {\c&H00657811&\b1}wipes{\c&H002A2B17&\b0} out all
+Dialogue: 0,0:00:33.73,0:00:33.99,Default,,0,0,0,,{\pos(540,1513)}to yesterday's\Nversion wipes {\c&H00657811&\b1}out{\c&H002A2B17&\b0} all
+Dialogue: 0,0:00:33.99,0:00:34.23,Default,,0,0,0,,{\pos(540,1513)}to yesterday's\Nversion wipes out {\c&H00657811&\b1}all{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:34.23,0:00:34.41,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}the{\c&H002A2B17&\b0} good work\Nfrom those first
+Dialogue: 0,0:00:34.41,0:00:34.55,Default,,0,0,0,,{\pos(540,1513)}the {\c&H00657811&\b1}good{\c&H002A2B17&\b0} work\Nfrom those first
+Dialogue: 0,0:00:34.55,0:00:34.75,Default,,0,0,0,,{\pos(540,1513)}the good {\c&H00657811&\b1}work{\c&H002A2B17&\b0}\Nfrom those first
+Dialogue: 0,0:00:34.75,0:00:35.03,Default,,0,0,0,,{\pos(540,1513)}the good work\N{\c&H00657811&\b1}from{\c&H002A2B17&\b0} those first
+Dialogue: 0,0:00:35.03,0:00:35.19,Default,,0,0,0,,{\pos(540,1513)}the good work\Nfrom {\c&H00657811&\b1}those{\c&H002A2B17&\b0} first
+Dialogue: 0,0:00:35.19,0:00:35.59,Default,,0,0,0,,{\pos(540,1513)}the good work\Nfrom those {\c&H00657811&\b1}first{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:35.59,0:00:36.01,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}four{\c&H002A2B17&\b0} hours too.
+Dialogue: 0,0:00:36.01,0:00:36.37,Default,,0,0,0,,{\pos(540,1513)}four {\c&H00657811&\b1}hours{\c&H002A2B17&\b0} too.
+Dialogue: 0,0:00:36.37,0:00:36.77,Default,,0,0,0,,{\pos(540,1513)}four hours {\c&H00657811&\b1}too.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:36.87,0:00:37.09,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}That's{\c&H002A2B17&\b0} brutal. Best\Npractice dictates
+Dialogue: 0,0:00:37.09,0:00:37.91,Default,,0,0,0,,{\pos(540,1513)}That's {\c&H00657811&\b1}brutal.{\c&H002A2B17&\b0} Best\Npractice dictates
+Dialogue: 0,0:00:37.91,0:00:37.99,Default,,0,0,0,,{\pos(540,1513)}That's brutal. {\c&H00657811&\b1}Best{\c&H002A2B17&\b0}\Npractice dictates
+Dialogue: 0,0:00:37.99,0:00:38.29,Default,,0,0,0,,{\pos(540,1513)}That's brutal. Best\N{\c&H00657811&\b1}practice{\c&H002A2B17&\b0} dictates
+Dialogue: 0,0:00:38.29,0:00:38.77,Default,,0,0,0,,{\pos(540,1513)}That's brutal. Best\Npractice {\c&H00657811&\b1}dictates{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:38.77,0:00:39.07,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}that{\c&H002A2B17&\b0} you must save a version
+Dialogue: 0,0:00:39.07,0:00:39.21,Default,,0,0,0,,{\pos(540,1513)}that {\c&H00657811&\b1}you{\c&H002A2B17&\b0} must save a version
+Dialogue: 0,0:00:39.21,0:00:39.35,Default,,0,0,0,,{\pos(540,1513)}that you {\c&H00657811&\b1}must{\c&H002A2B17&\b0} save a version
+Dialogue: 0,0:00:39.35,0:00:39.65,Default,,0,0,0,,{\pos(540,1513)}that you must {\c&H00657811&\b1}save{\c&H002A2B17&\b0} a version
+Dialogue: 0,0:00:39.65,0:00:39.79,Default,,0,0,0,,{\pos(540,1513)}that you must save {\c&H00657811&\b1}a{\c&H002A2B17&\b0} version
+Dialogue: 0,0:00:39.79,0:00:40.03,Default,,0,0,0,,{\pos(540,1513)}that you must save a {\c&H00657811&\b1}version{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:40.03,0:00:40.21,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}of{\c&H002A2B17&\b0} your current\Nbroken state before
+Dialogue: 0,0:00:40.21,0:00:40.33,Default,,0,0,0,,{\pos(540,1513)}of {\c&H00657811&\b1}your{\c&H002A2B17&\b0} current\Nbroken state before
+Dialogue: 0,0:00:40.33,0:00:40.71,Default,,0,0,0,,{\pos(540,1513)}of your {\c&H00657811&\b1}current{\c&H002A2B17&\b0}\Nbroken state before
+Dialogue: 0,0:00:40.71,0:00:40.95,Default,,0,0,0,,{\pos(540,1513)}of your current\N{\c&H00657811&\b1}broken{\c&H002A2B17&\b0} state before
+Dialogue: 0,0:00:40.95,0:00:41.39,Default,,0,0,0,,{\pos(540,1513)}of your current\Nbroken {\c&H00657811&\b1}state{\c&H002A2B17&\b0} before
+Dialogue: 0,0:00:41.39,0:00:42.07,Default,,0,0,0,,{\pos(540,1513)}of your current\Nbroken state {\c&H00657811&\b1}before{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:42.07,0:00:42.43,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}you{\c&H002A2B17&\b0} restore the old one, just
+Dialogue: 0,0:00:42.43,0:00:42.71,Default,,0,0,0,,{\pos(540,1513)}you {\c&H00657811&\b1}restore{\c&H002A2B17&\b0} the old one, just
+Dialogue: 0,0:00:42.71,0:00:42.93,Default,,0,0,0,,{\pos(540,1513)}you restore {\c&H00657811&\b1}the{\c&H002A2B17&\b0} old one, just
+Dialogue: 0,0:00:42.93,0:00:43.09,Default,,0,0,0,,{\pos(540,1513)}you restore the {\c&H00657811&\b1}old{\c&H002A2B17&\b0} one, just
+Dialogue: 0,0:00:43.09,0:00:43.51,Default,,0,0,0,,{\pos(540,1513)}you restore the old {\c&H00657811&\b1}one,{\c&H002A2B17&\b0} just
+Dialogue: 0,0:00:43.51,0:00:43.65,Default,,0,0,0,,{\pos(540,1513)}you restore the old one, {\c&H00657811&\b1}just{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:43.65,0:00:43.81,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}in{\c&H002A2B17&\b0} case you need to salvage
+Dialogue: 0,0:00:43.81,0:00:43.97,Default,,0,0,0,,{\pos(540,1513)}in {\c&H00657811&\b1}case{\c&H002A2B17&\b0} you need to salvage
+Dialogue: 0,0:00:43.97,0:00:44.11,Default,,0,0,0,,{\pos(540,1513)}in case {\c&H00657811&\b1}you{\c&H002A2B17&\b0} need to salvage
+Dialogue: 0,0:00:44.11,0:00:44.23,Default,,0,0,0,,{\pos(540,1513)}in case you {\c&H00657811&\b1}need{\c&H002A2B17&\b0} to salvage
+Dialogue: 0,0:00:44.23,0:00:44.35,Default,,0,0,0,,{\pos(540,1513)}in case you need {\c&H00657811&\b1}to{\c&H002A2B17&\b0} salvage
+Dialogue: 0,0:00:44.35,0:00:44.55,Default,,0,0,0,,{\pos(540,1513)}in case you need to {\c&H00657811&\b1}salvage{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:44.55,0:00:45.13,Default,,0,0,0,,{\pos(540,1513)}a {\c&H00657811&\b1}piece{\c&H002A2B17&\b0} of the new logic
+Dialogue: 0,0:00:45.13,0:00:45.29,Default,,0,0,0,,{\pos(540,1513)}a piece {\c&H00657811&\b1}of{\c&H002A2B17&\b0} the new logic
+Dialogue: 0,0:00:45.29,0:00:45.39,Default,,0,0,0,,{\pos(540,1513)}a piece of {\c&H00657811&\b1}the{\c&H002A2B17&\b0} new logic
+Dialogue: 0,0:00:45.39,0:00:45.47,Default,,0,0,0,,{\pos(540,1513)}a piece of the {\c&H00657811&\b1}new{\c&H002A2B17&\b0} logic
+Dialogue: 0,0:00:45.47,0:00:45.75,Default,,0,0,0,,{\pos(540,1513)}a piece of the new {\c&H00657811&\b1}logic{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:45.75,0:00:46.79,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}later.{\c&H002A2B17&\b0} It's an\Neffective safety net,
+Dialogue: 0,0:00:46.79,0:00:47.21,Default,,0,0,0,,{\pos(540,1513)}later. {\c&H00657811&\b1}It's{\c&H002A2B17&\b0} an\Neffective safety net,
+Dialogue: 0,0:00:47.21,0:00:47.29,Default,,0,0,0,,{\pos(540,1513)}later. It's {\c&H00657811&\b1}an{\c&H002A2B17&\b0}\Neffective safety net,
+Dialogue: 0,0:00:47.29,0:00:47.47,Default,,0,0,0,,{\pos(540,1513)}later. It's an\N{\c&H00657811&\b1}effective{\c&H002A2B17&\b0} safety net,
+Dialogue: 0,0:00:47.47,0:00:47.79,Default,,0,0,0,,{\pos(540,1513)}later. It's an\Neffective {\c&H00657811&\b1}safety{\c&H002A2B17&\b0} net,
+Dialogue: 0,0:00:47.79,0:00:48.13,Default,,0,0,0,,{\pos(540,1513)}later. It's an\Neffective safety {\c&H00657811&\b1}net,{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:48.13,0:00:48.45,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}but{\c&H002A2B17&\b0} it requires\Nreally disciplined
+Dialogue: 0,0:00:48.45,0:00:48.59,Default,,0,0,0,,{\pos(540,1513)}but {\c&H00657811&\b1}it{\c&H002A2B17&\b0} requires\Nreally disciplined
+Dialogue: 0,0:00:48.59,0:00:49.03,Default,,0,0,0,,{\pos(540,1513)}but it {\c&H00657811&\b1}requires{\c&H002A2B17&\b0}\Nreally disciplined
+Dialogue: 0,0:00:49.03,0:00:49.77,Default,,0,0,0,,{\pos(540,1513)}but it requires\N{\c&H00657811&\b1}really{\c&H002A2B17&\b0} disciplined
+Dialogue: 0,0:00:49.77,0:00:50.15,Default,,0,0,0,,{\pos(540,1513)}but it requires\Nreally {\c&H00657811&\b1}disciplined{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:50.15,0:00:50.59,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}version{\c&H002A2B17&\b0} control habits.
+Dialogue: 0,0:00:50.59,0:00:50.97,Default,,0,0,0,,{\pos(540,1513)}version {\c&H00657811&\b1}control{\c&H002A2B17&\b0} habits.
+Dialogue: 0,0:00:50.97,0:00:51.37,Default,,0,0,0,,{\pos(540,1513)}version control {\c&H00657811&\b1}habits.{\c&H002A2B17&\b0}

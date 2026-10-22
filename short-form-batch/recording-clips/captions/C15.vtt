@@ -1,42 +1,42 @@
 WEBVTT
 
-00:00:00.080 --> 00:00:01.960
+00:00:00.080 --> 00:00:01.839
 Break down how that inheritance actually
 
 00:00:01.839 --> 00:00:03.260
 looks in practice for us.
 
-00:00:03.420 --> 00:00:05.960
+00:00:03.420 --> 00:00:05.840
 Sure. In the Lakeshore Retail example
 
-00:00:05.840 --> 00:00:07.760
+00:00:05.840 --> 00:00:07.640
 provided in the source, they start
 
-00:00:07.640 --> 00:00:09.739
+00:00:07.640 --> 00:00:09.620
 with a very broad base type
 
-00:00:09.620 --> 00:00:12.159
+00:00:09.620 --> 00:00:12.040
 called location. A location simply
 
-00:00:12.040 --> 00:00:14.280
+00:00:12.040 --> 00:00:14.160
 has properties like an address, geographic
 
 00:00:14.160 --> 00:00:15.979
 coordinates, and a manager name.
 
-00:00:16.760 --> 00:00:18.260
+00:00:16.760 --> 00:00:18.140
 You can then create a store
 
 00:00:18.140 --> 00:00:20.500
 entity that derives from location.
 
-00:00:21.080 --> 00:00:22.920
+00:00:21.080 --> 00:00:22.800
 So it inherits all that base
 
-00:00:22.800 --> 00:00:25.540
+00:00:22.800 --> 00:00:25.420
 stuff. The store automatically inherits
 
-00:00:25.420 --> 00:00:27.560
+00:00:25.420 --> 00:00:27.439
 the address and coordinates, but then
 
 00:00:27.439 --> 00:00:29.300
@@ -45,13 +45,13 @@ you add store specific properties,
 00:00:29.520 --> 00:00:30.860
 like retail square footage.
 
-00:00:31.259 --> 00:00:32.800
+00:00:31.259 --> 00:00:32.680
 Similarly, you could have a base
 
-00:00:32.680 --> 00:00:35.139
+00:00:32.680 --> 00:00:35.019
 entity called product and derive a
 
-00:00:35.019 --> 00:00:37.160
+00:00:35.019 --> 00:00:37.040
 highly specific entity called frozen
 
 00:00:37.040 --> 00:00:37.659

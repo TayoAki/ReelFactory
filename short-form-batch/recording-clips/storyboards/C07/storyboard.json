@@ -56,5 +56,38 @@
   "source_start": 495.16,
   "source_end": 522.18,
   "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
-  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion.",
+  "caption_status": "Word-timed ASR draft; human proofreading pending",
+  "line_shot_edit": [
+    {
+      "LINE": "Microsoft Fabric is an architectural attempt to bring the entire historically fragmented",
+      "SHOT": "Fixed fictional portrait rail + Ingest and prepare",
+      "EDIT": "Reveal independent card at 0.7s; 420ms fade, 16px eased settling"
+    },
+    {
+      "LINE": "unified software as a service platform. And when we say workflow, we mean everything. The complete life",
+      "SHOT": "Fixed fictional portrait rail + Shared platform, different workloads",
+      "EDIT": "Reveal independent card at 8.54s; 420ms fade, 16px eased settling"
+    },
+    {
+      "LINE": "data workflow into one unified software as a service platform. And when we say workflow, we mean",
+      "SHOT": "Fixed fictional portrait rail + Analyze and report",
+      "EDIT": "Reveal independent card at 6.7s; 420ms fade, 16px eased settling"
+    }
+  ],
+  "viewer_understanding_before": "Ingest and prepare",
+  "viewer_understanding_after": "Shared platform, different workloads",
+  "graphic_choice_reason": "Fabric brings the workflow together: Expose intermediate review or processing steps.",
+  "credible_alternative": "Parallel peer cards",
+  "why_alternative_rejected": "Use ordering only where the recording actually has sequential processing/review; C29 instead retains parallel source routes.",
+  "cannot_establish": "This illustrative diagram cannot prove an actual product interaction, executed query, security guarantee or measured improvement.",
+  "reference_images_used_for_generation": [
+    "reference-library/frames/graphic/0003510.jpg",
+    "motion-pilot-fabric/fabric-theme/master.png",
+    "short-form-batch/recording-clips/assets/host.png",
+    "short-form-batch/recording-clips/assets/guest.png"
+  ],
+  "source_library_semantic_match": "Original reference supplies visual grammar; exact subject relationships are adapted from this recording. No claim of an exact reference-video semantic or motion match.",
+  "original_reference_url": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "review_status": "Draft; representative visual samples and artifact bounds checked, human editorial approval pending."
 }

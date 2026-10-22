@@ -1,0 +1,128 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.20,0:00:00.35,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}What{\c&H002A2B17&\b0} about Activator?
+Dialogue: 0,0:00:00.35,0:00:00.48,Default,,0,0,0,,{\pos(540,1513)}What {\c&H00657811&\b1}about{\c&H002A2B17&\b0} Activator?
+Dialogue: 0,0:00:00.48,0:00:01.42,Default,,0,0,0,,{\pos(540,1513)}What about {\c&H00657811&\b1}Activator?{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:01.92,0:00:02.13,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Fabric{\c&H002A2B17&\b0} has a\Ndedicated tool called
+Dialogue: 0,0:00:02.13,0:00:02.44,Default,,0,0,0,,{\pos(540,1513)}Fabric {\c&H00657811&\b1}has{\c&H002A2B17&\b0} a\Ndedicated tool called
+Dialogue: 0,0:00:02.44,0:00:02.58,Default,,0,0,0,,{\pos(540,1513)}Fabric has {\c&H00657811&\b1}a{\c&H002A2B17&\b0}\Ndedicated tool called
+Dialogue: 0,0:00:02.58,0:00:02.80,Default,,0,0,0,,{\pos(540,1513)}Fabric has a\N{\c&H00657811&\b1}dedicated{\c&H002A2B17&\b0} tool called
+Dialogue: 0,0:00:02.80,0:00:03.20,Default,,0,0,0,,{\pos(540,1513)}Fabric has a\Ndedicated {\c&H00657811&\b1}tool{\c&H002A2B17&\b0} called
+Dialogue: 0,0:00:03.20,0:00:03.51,Default,,0,0,0,,{\pos(540,1513)}Fabric has a\Ndedicated tool {\c&H00657811&\b1}called{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:03.51,0:00:03.80,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}data{\c&H002A2B17&\b0} Activator\Nspecifically for triggering
+Dialogue: 0,0:00:03.80,0:00:04.44,Default,,0,0,0,,{\pos(540,1513)}data {\c&H00657811&\b1}Activator{\c&H002A2B17&\b0}\Nspecifically for triggering
+Dialogue: 0,0:00:04.44,0:00:04.74,Default,,0,0,0,,{\pos(540,1513)}data Activator\N{\c&H00657811&\b1}specifically{\c&H002A2B17&\b0} for triggering
+Dialogue: 0,0:00:04.74,0:00:05.28,Default,,0,0,0,,{\pos(540,1513)}data Activator\Nspecifically {\c&H00657811&\b1}for{\c&H002A2B17&\b0} triggering
+Dialogue: 0,0:00:05.28,0:00:05.62,Default,,0,0,0,,{\pos(540,1513)}data Activator\Nspecifically for {\c&H00657811&\b1}triggering{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:05.62,0:00:06.08,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}actions{\c&H002A2B17&\b0} based on\Ndata changes.
+Dialogue: 0,0:00:06.08,0:00:07.06,Default,,0,0,0,,{\pos(540,1513)}actions {\c&H00657811&\b1}based{\c&H002A2B17&\b0} on\Ndata changes.
+Dialogue: 0,0:00:07.06,0:00:07.30,Default,,0,0,0,,{\pos(540,1513)}actions based {\c&H00657811&\b1}on{\c&H002A2B17&\b0}\Ndata changes.
+Dialogue: 0,0:00:07.30,0:00:07.50,Default,,0,0,0,,{\pos(540,1513)}actions based on\N{\c&H00657811&\b1}data{\c&H002A2B17&\b0} changes.
+Dialogue: 0,0:00:07.50,0:00:07.98,Default,,0,0,0,,{\pos(540,1513)}actions based on\Ndata {\c&H00657811&\b1}changes.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:08.77,0:00:08.90,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}If{\c&H002A2B17&\b0} I write a natural language
+Dialogue: 0,0:00:08.90,0:00:09.02,Default,,0,0,0,,{\pos(540,1513)}If {\c&H00657811&\b1}I{\c&H002A2B17&\b0} write a natural language
+Dialogue: 0,0:00:09.02,0:00:09.19,Default,,0,0,0,,{\pos(540,1513)}If I {\c&H00657811&\b1}write{\c&H002A2B17&\b0} a natural language
+Dialogue: 0,0:00:09.19,0:00:09.34,Default,,0,0,0,,{\pos(540,1513)}If I write {\c&H00657811&\b1}a{\c&H002A2B17&\b0} natural language
+Dialogue: 0,0:00:09.34,0:00:09.66,Default,,0,0,0,,{\pos(540,1513)}If I write a {\c&H00657811&\b1}natural{\c&H002A2B17&\b0} language
+Dialogue: 0,0:00:09.66,0:00:10.00,Default,,0,0,0,,{\pos(540,1513)}If I write a natural {\c&H00657811&\b1}language{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:10.00,0:00:10.40,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}business{\c&H002A2B17&\b0} rule in my\Nontology interface,
+Dialogue: 0,0:00:10.40,0:00:10.66,Default,,0,0,0,,{\pos(540,1513)}business {\c&H00657811&\b1}rule{\c&H002A2B17&\b0} in my\Nontology interface,
+Dialogue: 0,0:00:10.66,0:00:10.82,Default,,0,0,0,,{\pos(540,1513)}business rule {\c&H00657811&\b1}in{\c&H002A2B17&\b0} my\Nontology interface,
+Dialogue: 0,0:00:10.82,0:00:10.94,Default,,0,0,0,,{\pos(540,1513)}business rule in {\c&H00657811&\b1}my{\c&H002A2B17&\b0}\Nontology interface,
+Dialogue: 0,0:00:10.94,0:00:11.38,Default,,0,0,0,,{\pos(540,1513)}business rule in my\N{\c&H00657811&\b1}ontology{\c&H002A2B17&\b0} interface,
+Dialogue: 0,0:00:11.38,0:00:12.00,Default,,0,0,0,,{\pos(540,1513)}business rule in my\Nontology {\c&H00657811&\b1}interface,{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:12.46,0:00:12.58,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}does{\c&H002A2B17&\b0} that automatically\Nprovision an
+Dialogue: 0,0:00:12.58,0:00:12.76,Default,,0,0,0,,{\pos(540,1513)}does {\c&H00657811&\b1}that{\c&H002A2B17&\b0} automatically\Nprovision an
+Dialogue: 0,0:00:12.76,0:00:13.28,Default,,0,0,0,,{\pos(540,1513)}does that {\c&H00657811&\b1}automatically{\c&H002A2B17&\b0}\Nprovision an
+Dialogue: 0,0:00:13.28,0:00:13.74,Default,,0,0,0,,{\pos(540,1513)}does that automatically\N{\c&H00657811&\b1}provision{\c&H002A2B17&\b0} an
+Dialogue: 0,0:00:13.74,0:00:14.05,Default,,0,0,0,,{\pos(540,1513)}does that automatically\Nprovision {\c&H00657811&\b1}an{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:14.05,0:00:14.73,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Activator{\c&H002A2B17&\b0} alert in\Nthe background?
+Dialogue: 0,0:00:14.73,0:00:14.94,Default,,0,0,0,,{\pos(540,1513)}Activator {\c&H00657811&\b1}alert{\c&H002A2B17&\b0} in\Nthe background?
+Dialogue: 0,0:00:14.94,0:00:15.18,Default,,0,0,0,,{\pos(540,1513)}Activator alert {\c&H00657811&\b1}in{\c&H002A2B17&\b0}\Nthe background?
+Dialogue: 0,0:00:15.18,0:00:15.32,Default,,0,0,0,,{\pos(540,1513)}Activator alert in\N{\c&H00657811&\b1}the{\c&H002A2B17&\b0} background?
+Dialogue: 0,0:00:15.32,0:00:15.65,Default,,0,0,0,,{\pos(540,1513)}Activator alert in\Nthe {\c&H00657811&\b1}background?{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:16.18,0:00:16.84,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}No,{\c&H002A2B17&\b0} it absolutely does not.
+Dialogue: 0,0:00:16.84,0:00:16.94,Default,,0,0,0,,{\pos(540,1513)}No, {\c&H00657811&\b1}it{\c&H002A2B17&\b0} absolutely does not.
+Dialogue: 0,0:00:16.94,0:00:17.30,Default,,0,0,0,,{\pos(540,1513)}No, it {\c&H00657811&\b1}absolutely{\c&H002A2B17&\b0} does not.
+Dialogue: 0,0:00:17.30,0:00:17.62,Default,,0,0,0,,{\pos(540,1513)}No, it absolutely {\c&H00657811&\b1}does{\c&H002A2B17&\b0} not.
+Dialogue: 0,0:00:17.62,0:00:17.90,Default,,0,0,0,,{\pos(540,1513)}No, it absolutely does {\c&H00657811&\b1}not.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:18.36,0:00:18.46,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}And{\c&H002A2B17&\b0} that's a massive point of
+Dialogue: 0,0:00:18.46,0:00:18.72,Default,,0,0,0,,{\pos(540,1513)}And {\c&H00657811&\b1}that's{\c&H002A2B17&\b0} a massive point of
+Dialogue: 0,0:00:18.72,0:00:18.80,Default,,0,0,0,,{\pos(540,1513)}And that's {\c&H00657811&\b1}a{\c&H002A2B17&\b0} massive point of
+Dialogue: 0,0:00:18.80,0:00:18.92,Default,,0,0,0,,{\pos(540,1513)}And that's a {\c&H00657811&\b1}massive{\c&H002A2B17&\b0} point of
+Dialogue: 0,0:00:18.92,0:00:19.30,Default,,0,0,0,,{\pos(540,1513)}And that's a massive {\c&H00657811&\b1}point{\c&H002A2B17&\b0} of
+Dialogue: 0,0:00:19.30,0:00:19.42,Default,,0,0,0,,{\pos(540,1513)}And that's a massive point {\c&H00657811&\b1}of{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:19.42,0:00:19.72,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}confusion{\c&H002A2B17&\b0} for new users.
+Dialogue: 0,0:00:19.72,0:00:20.00,Default,,0,0,0,,{\pos(540,1513)}confusion {\c&H00657811&\b1}for{\c&H002A2B17&\b0} new users.
+Dialogue: 0,0:00:20.00,0:00:20.14,Default,,0,0,0,,{\pos(540,1513)}confusion for {\c&H00657811&\b1}new{\c&H002A2B17&\b0} users.
+Dialogue: 0,0:00:20.14,0:00:20.60,Default,,0,0,0,,{\pos(540,1513)}confusion for new {\c&H00657811&\b1}users.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:21.46,0:00:21.50,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Saving{\c&H002A2B17&\b0} a natural\Nlanguage role in
+Dialogue: 0,0:00:21.50,0:00:21.72,Default,,0,0,0,,{\pos(540,1513)}Saving {\c&H00657811&\b1}a{\c&H002A2B17&\b0} natural\Nlanguage role in
+Dialogue: 0,0:00:21.72,0:00:21.96,Default,,0,0,0,,{\pos(540,1513)}Saving a {\c&H00657811&\b1}natural{\c&H002A2B17&\b0}\Nlanguage role in
+Dialogue: 0,0:00:21.96,0:00:22.36,Default,,0,0,0,,{\pos(540,1513)}Saving a natural\N{\c&H00657811&\b1}language{\c&H002A2B17&\b0} role in
+Dialogue: 0,0:00:22.36,0:00:22.72,Default,,0,0,0,,{\pos(540,1513)}Saving a natural\Nlanguage {\c&H00657811&\b1}role{\c&H002A2B17&\b0} in
+Dialogue: 0,0:00:22.72,0:00:22.94,Default,,0,0,0,,{\pos(540,1513)}Saving a natural\Nlanguage role {\c&H00657811&\b1}in{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:22.94,0:00:23.02,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}the{\c&H002A2B17&\b0} ontology provides\Nsemantic context
+Dialogue: 0,0:00:23.02,0:00:23.46,Default,,0,0,0,,{\pos(540,1513)}the {\c&H00657811&\b1}ontology{\c&H002A2B17&\b0} provides\Nsemantic context
+Dialogue: 0,0:00:23.46,0:00:23.88,Default,,0,0,0,,{\pos(540,1513)}the ontology {\c&H00657811&\b1}provides{\c&H002A2B17&\b0}\Nsemantic context
+Dialogue: 0,0:00:23.88,0:00:24.30,Default,,0,0,0,,{\pos(540,1513)}the ontology provides\N{\c&H00657811&\b1}semantic{\c&H002A2B17&\b0} context
+Dialogue: 0,0:00:24.30,0:00:24.82,Default,,0,0,0,,{\pos(540,1513)}the ontology provides\Nsemantic {\c&H00657811&\b1}context{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:24.82,0:00:25.32,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}for{\c&H002A2B17&\b0} the chat agents.
+Dialogue: 0,0:00:25.32,0:00:25.42,Default,,0,0,0,,{\pos(540,1513)}for {\c&H00657811&\b1}the{\c&H002A2B17&\b0} chat agents.
+Dialogue: 0,0:00:25.42,0:00:25.54,Default,,0,0,0,,{\pos(540,1513)}for the {\c&H00657811&\b1}chat{\c&H002A2B17&\b0} agents.
+Dialogue: 0,0:00:25.54,0:00:25.96,Default,,0,0,0,,{\pos(540,1513)}for the chat {\c&H00657811&\b1}agents.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:26.50,0:00:26.60,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}It{\c&H002A2B17&\b0} does not\Nautomatically write the
+Dialogue: 0,0:00:26.60,0:00:26.82,Default,,0,0,0,,{\pos(540,1513)}It {\c&H00657811&\b1}does{\c&H002A2B17&\b0} not\Nautomatically write the
+Dialogue: 0,0:00:26.82,0:00:27.06,Default,,0,0,0,,{\pos(540,1513)}It does {\c&H00657811&\b1}not{\c&H002A2B17&\b0}\Nautomatically write the
+Dialogue: 0,0:00:27.06,0:00:27.64,Default,,0,0,0,,{\pos(540,1513)}It does not\N{\c&H00657811&\b1}automatically{\c&H002A2B17&\b0} write the
+Dialogue: 0,0:00:27.64,0:00:28.04,Default,,0,0,0,,{\pos(540,1513)}It does not\Nautomatically {\c&H00657811&\b1}write{\c&H002A2B17&\b0} the
+Dialogue: 0,0:00:28.04,0:00:28.22,Default,,0,0,0,,{\pos(540,1513)}It does not\Nautomatically write {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:28.22,0:00:28.44,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}code{\c&H002A2B17&\b0} to provision\Nan active running
+Dialogue: 0,0:00:28.44,0:00:28.64,Default,,0,0,0,,{\pos(540,1513)}code {\c&H00657811&\b1}to{\c&H002A2B17&\b0} provision\Nan active running
+Dialogue: 0,0:00:28.64,0:00:28.88,Default,,0,0,0,,{\pos(540,1513)}code to {\c&H00657811&\b1}provision{\c&H002A2B17&\b0}\Nan active running
+Dialogue: 0,0:00:28.88,0:00:29.18,Default,,0,0,0,,{\pos(540,1513)}code to provision\N{\c&H00657811&\b1}an{\c&H002A2B17&\b0} active running
+Dialogue: 0,0:00:29.18,0:00:29.56,Default,,0,0,0,,{\pos(540,1513)}code to provision\Nan {\c&H00657811&\b1}active{\c&H002A2B17&\b0} running
+Dialogue: 0,0:00:29.56,0:00:30.02,Default,,0,0,0,,{\pos(540,1513)}code to provision\Nan active {\c&H00657811&\b1}running{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:30.02,0:00:30.58,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}workflow{\c&H002A2B17&\b0} in data Activator.
+Dialogue: 0,0:00:30.58,0:00:30.84,Default,,0,0,0,,{\pos(540,1513)}workflow {\c&H00657811&\b1}in{\c&H002A2B17&\b0} data Activator.
+Dialogue: 0,0:00:30.84,0:00:30.96,Default,,0,0,0,,{\pos(540,1513)}workflow in {\c&H00657811&\b1}data{\c&H002A2B17&\b0} Activator.
+Dialogue: 0,0:00:30.96,0:00:31.62,Default,,0,0,0,,{\pos(540,1513)}workflow in data {\c&H00657811&\b1}Activator.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:31.98,0:00:32.15,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}So{\c&H002A2B17&\b0} they are separate steps.
+Dialogue: 0,0:00:32.15,0:00:32.34,Default,,0,0,0,,{\pos(540,1513)}So {\c&H00657811&\b1}they{\c&H002A2B17&\b0} are separate steps.
+Dialogue: 0,0:00:32.34,0:00:32.50,Default,,0,0,0,,{\pos(540,1513)}So they {\c&H00657811&\b1}are{\c&H002A2B17&\b0} separate steps.
+Dialogue: 0,0:00:32.50,0:00:32.98,Default,,0,0,0,,{\pos(540,1513)}So they are {\c&H00657811&\b1}separate{\c&H002A2B17&\b0} steps.
+Dialogue: 0,0:00:32.98,0:00:33.46,Default,,0,0,0,,{\pos(540,1513)}So they are separate {\c&H00657811&\b1}steps.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:33.90,0:00:34.10,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}If{\c&H002A2B17&\b0} you want an alert to
+Dialogue: 0,0:00:34.10,0:00:34.23,Default,,0,0,0,,{\pos(540,1513)}If {\c&H00657811&\b1}you{\c&H002A2B17&\b0} want an alert to
+Dialogue: 0,0:00:34.23,0:00:34.44,Default,,0,0,0,,{\pos(540,1513)}If you {\c&H00657811&\b1}want{\c&H002A2B17&\b0} an alert to
+Dialogue: 0,0:00:34.44,0:00:34.56,Default,,0,0,0,,{\pos(540,1513)}If you want {\c&H00657811&\b1}an{\c&H002A2B17&\b0} alert to
+Dialogue: 0,0:00:34.56,0:00:34.76,Default,,0,0,0,,{\pos(540,1513)}If you want an {\c&H00657811&\b1}alert{\c&H002A2B17&\b0} to
+Dialogue: 0,0:00:34.76,0:00:34.94,Default,,0,0,0,,{\pos(540,1513)}If you want an alert {\c&H00657811&\b1}to{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:34.94,0:00:35.20,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}actually{\c&H002A2B17&\b0} fire, a\Ndata engineer has
+Dialogue: 0,0:00:35.20,0:00:35.92,Default,,0,0,0,,{\pos(540,1513)}actually {\c&H00657811&\b1}fire,{\c&H002A2B17&\b0} a\Ndata engineer has
+Dialogue: 0,0:00:35.92,0:00:36.08,Default,,0,0,0,,{\pos(540,1513)}actually fire, {\c&H00657811&\b1}a{\c&H002A2B17&\b0}\Ndata engineer has
+Dialogue: 0,0:00:36.08,0:00:36.28,Default,,0,0,0,,{\pos(540,1513)}actually fire, a\N{\c&H00657811&\b1}data{\c&H002A2B17&\b0} engineer has
+Dialogue: 0,0:00:36.28,0:00:36.70,Default,,0,0,0,,{\pos(540,1513)}actually fire, a\Ndata {\c&H00657811&\b1}engineer{\c&H002A2B17&\b0} has
+Dialogue: 0,0:00:36.70,0:00:36.92,Default,,0,0,0,,{\pos(540,1513)}actually fire, a\Ndata engineer {\c&H00657811&\b1}has{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:36.92,0:00:37.08,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}to{\c&H002A2B17&\b0} go into Activator\Nand configure
+Dialogue: 0,0:00:37.08,0:00:37.22,Default,,0,0,0,,{\pos(540,1513)}to {\c&H00657811&\b1}go{\c&H002A2B17&\b0} into Activator\Nand configure
+Dialogue: 0,0:00:37.22,0:00:37.44,Default,,0,0,0,,{\pos(540,1513)}to go {\c&H00657811&\b1}into{\c&H002A2B17&\b0} Activator\Nand configure
+Dialogue: 0,0:00:37.44,0:00:38.06,Default,,0,0,0,,{\pos(540,1513)}to go into {\c&H00657811&\b1}Activator{\c&H002A2B17&\b0}\Nand configure
+Dialogue: 0,0:00:38.06,0:00:38.29,Default,,0,0,0,,{\pos(540,1513)}to go into Activator\N{\c&H00657811&\b1}and{\c&H002A2B17&\b0} configure
+Dialogue: 0,0:00:38.29,0:00:38.64,Default,,0,0,0,,{\pos(540,1513)}to go into Activator\Nand {\c&H00657811&\b1}configure{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:38.64,0:00:38.92,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}that{\c&H002A2B17&\b0} automation\Nseparately against
+Dialogue: 0,0:00:38.92,0:00:39.23,Default,,0,0,0,,{\pos(540,1513)}that {\c&H00657811&\b1}automation{\c&H002A2B17&\b0}\Nseparately against
+Dialogue: 0,0:00:39.23,0:00:39.82,Default,,0,0,0,,{\pos(540,1513)}that automation\N{\c&H00657811&\b1}separately{\c&H002A2B17&\b0} against
+Dialogue: 0,0:00:39.82,0:00:40.38,Default,,0,0,0,,{\pos(540,1513)}that automation\Nseparately {\c&H00657811&\b1}against{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:40.38,0:00:40.60,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}the{\c&H002A2B17&\b0} supported data path.
+Dialogue: 0,0:00:40.60,0:00:40.88,Default,,0,0,0,,{\pos(540,1513)}the {\c&H00657811&\b1}supported{\c&H002A2B17&\b0} data path.
+Dialogue: 0,0:00:40.88,0:00:41.14,Default,,0,0,0,,{\pos(540,1513)}the supported {\c&H00657811&\b1}data{\c&H002A2B17&\b0} path.
+Dialogue: 0,0:00:41.14,0:00:41.55,Default,,0,0,0,,{\pos(540,1513)}the supported data {\c&H00657811&\b1}path.{\c&H002A2B17&\b0}

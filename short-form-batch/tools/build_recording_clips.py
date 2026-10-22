@@ -3,6 +3,7 @@ Original source audio is preserved; no generated speech. Run with system Python 
 """
 import json, pathlib, html, re, asyncio, subprocess, concurrent.futures, os, math, time
 from playwright.async_api import async_playwright
+from PIL import ImageFont
 ROOT=pathlib.Path(__file__).resolve().parents[2]; P=ROOT/'short-form-batch/recording-clips'; AS=P/'assets'; CACHE=P/'render-cache'; CACHE.mkdir(exist_ok=True)
 D=json.loads((P/'manifest.json').read_text())
 ASURL='http://127.0.0.1:8765/short-form-batch/recording-clips/assets'
@@ -77,7 +78,7 @@ def plan(c):
   specs=[(focus,'CONTEXT / QUESTION',180,660,720,180,True),(a,'INTERPRETATION A',60,935,455,370,True),(b,'INTERPRETATION B',565,935,455,370,False)]
   relation='Compare the meaning';connector=False
  elif f=='graph':
-  specs=[(x,'ILLUSTRATIVE RELATIONSHIP PATH',140,650+i*140,800,120,i==0) for i,x in enumerate(['Supplier','Products','Shipments','Stores','Refrigeration units'])];relation='Trace connected entities';connector=True
+  specs=[(x,['SUPPLIES PRODUCTS','INCLUDED IN SHIPMENTS','RECEIVED BY STORES','OPERATE REFRIGERATION UNITS','RELEVANT UNITS TO INSPECT'][i],140,650+i*140,800,120,i==0) for i,x in enumerate(['Supplier','Products','Shipments','Stores','Refrigeration units'])];relation='Trace connected entities';connector=True
  elif f=='workflow':
   mid=focus
   if c['id']=='C32':a,mid,b='Plan','Inspect and revise','Act'
@@ -138,6 +139,11 @@ def ass_time(t):
  t=max(0,t);return f'{int(t)//3600}:{int(t)//60%60:02d}:{int(t)%60:02d}.{int(t*100)%100:02d}'
 def subtitles(c):
  words=c['words'];groups=[];g=[];n=0
+ font=ImageFont.truetype(str(AS/'CaptionSans.ttf'),55)
+ boldpath=pathlib.Path('/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf')
+ bold=ImageFont.truetype(str(boldpath if boldpath.exists() else AS/'CaptionSans.ttf'),55)
+ def row_width(ws):
+  return font.getlength(' '.join(w['word'] for w in ws))+max([bold.getlength(w['word'])-font.getlength(w['word']) for w in ws] or [0])
  for w in words:
   text=w['word'].replace('{','').replace('}','');w={**w,'word':text};n+=len(text)+1;g.append(w)
   if len(g)>=6 or n>=35 or (text.endswith(('.', '?','!')) and len(g)>=3):groups.append(g);g=[];n=0
@@ -146,18 +152,21 @@ def subtitles(c):
  events=[];vtt=['WEBVTT',''];trans=[]
  for gi,g in enumerate(groups):
   # Short lines remain readable in the fixed caption band.
-  split=len(g)//2 if sum(len(w['word'])+1 for w in g)>27 else 999
+  split=min(range(1,len(g)),key=lambda k:max(row_width(g[:k]),row_width(g[k:]))) if len(g)>1 and row_width(g)>840 else 999
   for j,w in enumerate(g):
-   end=g[j+1]['start'] if j+1<len(g) else min(c['duration'],max(w['end']+.12,w['start']+.08))
+   next_group=groups[gi+1][0]['start'] if gi+1<len(groups) else c['duration']
+   end=g[j+1]['start'] if j+1<len(g) else min(next_group,c['duration'],max(w['end']+.12,w['start']+.08))
    if end<=w['start']:continue
    ss=[]
    for k,ww in enumerate(g):
     ss.append(('{\\c&H00657811&\\b1}'+ww['word']+'{\\c&H002A2B17&\\b0}') if k==j else ww['word'])
    txt=' '.join(ss[:split])+('\\N'+' '.join(ss[split:]) if split<999 else '')
    events.append(f'Dialogue: 0,{ass_time(w["start"])},{ass_time(end)},Default,,0,0,0,,{{\\pos(540,1513)}}{txt}')
-  def vt(t):return f'{int(t)//3600:02d}:{int(t)//60%60:02d}:{int(t)%60:02d}.{int(t*1000)%1000:03d}'
-  vtt += [f'{vt(g[0]["start"])} --> {vt(min(c["duration"],g[-1]["end"]+.12))}',' '.join(w['word'] for w in g),'']
+  def vt(t):
+   t=max(0,t);return f'{int(t)//3600:02d}:{int(t)//60%60:02d}:{int(t)%60:02d}.{int(t*1000)%1000:03d}'
+  vtt += [f'{vt(g[0]["start"])} --> {vt(min(c["duration"],g[-1]["end"]+.12,groups[gi+1][0]['start'] if gi+1<len(groups) else c['duration']))}',' '.join(w['word'] for w in g),'']
  (P/'captions'/f'{c["id"]}.ass').write_text(header+'\n'.join(events));(P/'captions'/f'{c["id"]}.vtt').write_text('\n'.join(vtt))
+ (P/'captions'/f'{c["id"]}.srt').write_text('\n'.join(f'{i//3+1}\n{vtt[i].replace(".",",")}\n{vtt[i+1]}\n' for i in range(2,len(vtt)-1,3)))
  (P/'captions'/f'{c["id"]}.txt').write_text(f'{c["title"]}\nOriginal recording {timecode(c["source_start"])}–{timecode(c["source_end"])}\nASR draft; technical-name spelling normalized.\n\n'+c['transcript_asr'])
 
 def render(c):

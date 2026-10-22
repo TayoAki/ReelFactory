@@ -1,0 +1,124 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.10,0:00:00.46,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Start{\c&H002A2B17&\b0} incredibly small.
+Dialogue: 0,0:00:00.46,0:00:01.18,Default,,0,0,0,,{\pos(540,1513)}Start {\c&H00657811&\b1}incredibly{\c&H002A2B17&\b0} small.
+Dialogue: 0,0:00:01.18,0:00:01.88,Default,,0,0,0,,{\pos(540,1513)}Start incredibly {\c&H00657811&\b1}small.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:02.28,0:00:02.34,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Pick{\c&H002A2B17&\b0} one single\Nteam, and one
+Dialogue: 0,0:00:02.34,0:00:02.70,Default,,0,0,0,,{\pos(540,1513)}Pick {\c&H00657811&\b1}one{\c&H002A2B17&\b0} single\Nteam, and one
+Dialogue: 0,0:00:02.70,0:00:03.16,Default,,0,0,0,,{\pos(540,1513)}Pick one {\c&H00657811&\b1}single{\c&H002A2B17&\b0}\Nteam, and one
+Dialogue: 0,0:00:03.16,0:00:04.12,Default,,0,0,0,,{\pos(540,1513)}Pick one single\N{\c&H00657811&\b1}team,{\c&H002A2B17&\b0} and one
+Dialogue: 0,0:00:04.12,0:00:04.20,Default,,0,0,0,,{\pos(540,1513)}Pick one single\Nteam, {\c&H00657811&\b1}and{\c&H002A2B17&\b0} one
+Dialogue: 0,0:00:04.20,0:00:04.48,Default,,0,0,0,,{\pos(540,1513)}Pick one single\Nteam, and {\c&H00657811&\b1}one{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:04.48,0:00:04.98,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}recurring{\c&H002A2B17&\b0} high\N-value decision.
+Dialogue: 0,0:00:04.98,0:00:05.56,Default,,0,0,0,,{\pos(540,1513)}recurring {\c&H00657811&\b1}high{\c&H002A2B17&\b0}\N-value decision.
+Dialogue: 0,0:00:05.56,0:00:05.78,Default,,0,0,0,,{\pos(540,1513)}recurring high\N{\c&H00657811&\b1}-value{\c&H002A2B17&\b0} decision.
+Dialogue: 0,0:00:05.78,0:00:06.34,Default,,0,0,0,,{\pos(540,1513)}recurring high\N-value {\c&H00657811&\b1}decision.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:07.00,0:00:07.06,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}The{\c&H002A2B17&\b0} regional inventory\Nreview we discussed
+Dialogue: 0,0:00:07.06,0:00:07.32,Default,,0,0,0,,{\pos(540,1513)}The {\c&H00657811&\b1}regional{\c&H002A2B17&\b0} inventory\Nreview we discussed
+Dialogue: 0,0:00:07.32,0:00:07.64,Default,,0,0,0,,{\pos(540,1513)}The regional {\c&H00657811&\b1}inventory{\c&H002A2B17&\b0}\Nreview we discussed
+Dialogue: 0,0:00:07.64,0:00:08.16,Default,,0,0,0,,{\pos(540,1513)}The regional inventory\N{\c&H00657811&\b1}review{\c&H002A2B17&\b0} we discussed
+Dialogue: 0,0:00:08.16,0:00:08.30,Default,,0,0,0,,{\pos(540,1513)}The regional inventory\Nreview {\c&H00657811&\b1}we{\c&H002A2B17&\b0} discussed
+Dialogue: 0,0:00:08.30,0:00:08.53,Default,,0,0,0,,{\pos(540,1513)}The regional inventory\Nreview we {\c&H00657811&\b1}discussed{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:08.53,0:00:08.76,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}is{\c&H002A2B17&\b0} a perfect example.
+Dialogue: 0,0:00:08.76,0:00:08.86,Default,,0,0,0,,{\pos(540,1513)}is {\c&H00657811&\b1}a{\c&H002A2B17&\b0} perfect example.
+Dialogue: 0,0:00:08.86,0:00:09.08,Default,,0,0,0,,{\pos(540,1513)}is a {\c&H00657811&\b1}perfect{\c&H002A2B17&\b0} example.
+Dialogue: 0,0:00:09.08,0:00:09.73,Default,,0,0,0,,{\pos(540,1513)}is a perfect {\c&H00657811&\b1}example.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:10.03,0:00:10.11,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Keep{\c&H002A2B17&\b0} it contained.
+Dialogue: 0,0:00:10.11,0:00:10.24,Default,,0,0,0,,{\pos(540,1513)}Keep {\c&H00657811&\b1}it{\c&H002A2B17&\b0} contained.
+Dialogue: 0,0:00:10.24,0:00:10.58,Default,,0,0,0,,{\pos(540,1513)}Keep it {\c&H00657811&\b1}contained.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:11.22,0:00:11.60,Default,,0,0,0,,{\pos(540,1513)}Connect {\c&H00657811&\b1}only{\c&H002A2B17&\b0} the\Nspecific data sources
+Dialogue: 0,0:00:11.60,0:00:11.92,Default,,0,0,0,,{\pos(540,1513)}Connect only {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nspecific data sources
+Dialogue: 0,0:00:11.92,0:00:12.32,Default,,0,0,0,,{\pos(540,1513)}Connect only the\N{\c&H00657811&\b1}specific{\c&H002A2B17&\b0} data sources
+Dialogue: 0,0:00:12.32,0:00:12.62,Default,,0,0,0,,{\pos(540,1513)}Connect only the\Nspecific {\c&H00657811&\b1}data{\c&H002A2B17&\b0} sources
+Dialogue: 0,0:00:12.62,0:00:12.94,Default,,0,0,0,,{\pos(540,1513)}Connect only the\Nspecific data {\c&H00657811&\b1}sources{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:12.94,0:00:13.30,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}needed{\c&H002A2B17&\b0} for that\None decision.
+Dialogue: 0,0:00:13.30,0:00:13.56,Default,,0,0,0,,{\pos(540,1513)}needed {\c&H00657811&\b1}for{\c&H002A2B17&\b0} that\None decision.
+Dialogue: 0,0:00:13.56,0:00:13.78,Default,,0,0,0,,{\pos(540,1513)}needed for {\c&H00657811&\b1}that{\c&H002A2B17&\b0}\None decision.
+Dialogue: 0,0:00:13.78,0:00:14.12,Default,,0,0,0,,{\pos(540,1513)}needed for that\N{\c&H00657811&\b1}one{\c&H002A2B17&\b0} decision.
+Dialogue: 0,0:00:14.12,0:00:14.63,Default,,0,0,0,,{\pos(540,1513)}needed for that\None {\c&H00657811&\b1}decision.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:15.32,0:00:15.54,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Define{\c&H002A2B17&\b0} the handful\Nof concepts that
+Dialogue: 0,0:00:15.54,0:00:15.70,Default,,0,0,0,,{\pos(540,1513)}Define {\c&H00657811&\b1}the{\c&H002A2B17&\b0} handful\Nof concepts that
+Dialogue: 0,0:00:15.70,0:00:15.94,Default,,0,0,0,,{\pos(540,1513)}Define the {\c&H00657811&\b1}handful{\c&H002A2B17&\b0}\Nof concepts that
+Dialogue: 0,0:00:15.94,0:00:16.16,Default,,0,0,0,,{\pos(540,1513)}Define the handful\N{\c&H00657811&\b1}of{\c&H002A2B17&\b0} concepts that
+Dialogue: 0,0:00:16.16,0:00:16.50,Default,,0,0,0,,{\pos(540,1513)}Define the handful\Nof {\c&H00657811&\b1}concepts{\c&H002A2B17&\b0} that
+Dialogue: 0,0:00:16.50,0:00:16.73,Default,,0,0,0,,{\pos(540,1513)}Define the handful\Nof concepts {\c&H00657811&\b1}that{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:16.73,0:00:16.96,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}actually{\c&H002A2B17&\b0} change the answer.
+Dialogue: 0,0:00:16.96,0:00:17.34,Default,,0,0,0,,{\pos(540,1513)}actually {\c&H00657811&\b1}change{\c&H002A2B17&\b0} the answer.
+Dialogue: 0,0:00:17.34,0:00:17.52,Default,,0,0,0,,{\pos(540,1513)}actually change {\c&H00657811&\b1}the{\c&H002A2B17&\b0} answer.
+Dialogue: 0,0:00:17.52,0:00:17.88,Default,,0,0,0,,{\pos(540,1513)}actually change the {\c&H00657811&\b1}answer.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:18.44,0:00:18.48,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}And{\c&H002A2B17&\b0} most importantly,\Naggressively
+Dialogue: 0,0:00:18.48,0:00:18.62,Default,,0,0,0,,{\pos(540,1513)}And {\c&H00657811&\b1}most{\c&H002A2B17&\b0} importantly,\Naggressively
+Dialogue: 0,0:00:18.62,0:00:19.57,Default,,0,0,0,,{\pos(540,1513)}And most {\c&H00657811&\b1}importantly,{\c&H002A2B17&\b0}\Naggressively
+Dialogue: 0,0:00:19.57,0:00:20.04,Default,,0,0,0,,{\pos(540,1513)}And most importantly,\N{\c&H00657811&\b1}aggressively{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:20.04,0:00:20.60,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}test{\c&H002A2B17&\b0} ambiguous\Nrequests and missing
+Dialogue: 0,0:00:20.60,0:00:21.00,Default,,0,0,0,,{\pos(540,1513)}test {\c&H00657811&\b1}ambiguous{\c&H002A2B17&\b0}\Nrequests and missing
+Dialogue: 0,0:00:21.00,0:00:21.72,Default,,0,0,0,,{\pos(540,1513)}test ambiguous\N{\c&H00657811&\b1}requests{\c&H002A2B17&\b0} and missing
+Dialogue: 0,0:00:21.72,0:00:22.04,Default,,0,0,0,,{\pos(540,1513)}test ambiguous\Nrequests {\c&H00657811&\b1}and{\c&H002A2B17&\b0} missing
+Dialogue: 0,0:00:22.04,0:00:22.32,Default,,0,0,0,,{\pos(540,1513)}test ambiguous\Nrequests and {\c&H00657811&\b1}missing{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:22.32,0:00:22.62,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}data{\c&H002A2B17&\b0} scenarios to\Nsee exactly how
+Dialogue: 0,0:00:22.62,0:00:23.16,Default,,0,0,0,,{\pos(540,1513)}data {\c&H00657811&\b1}scenarios{\c&H002A2B17&\b0} to\Nsee exactly how
+Dialogue: 0,0:00:23.16,0:00:23.34,Default,,0,0,0,,{\pos(540,1513)}data scenarios {\c&H00657811&\b1}to{\c&H002A2B17&\b0}\Nsee exactly how
+Dialogue: 0,0:00:23.34,0:00:23.46,Default,,0,0,0,,{\pos(540,1513)}data scenarios to\N{\c&H00657811&\b1}see{\c&H002A2B17&\b0} exactly how
+Dialogue: 0,0:00:23.46,0:00:23.96,Default,,0,0,0,,{\pos(540,1513)}data scenarios to\Nsee {\c&H00657811&\b1}exactly{\c&H002A2B17&\b0} how
+Dialogue: 0,0:00:23.96,0:00:24.34,Default,,0,0,0,,{\pos(540,1513)}data scenarios to\Nsee exactly {\c&H00657811&\b1}how{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:24.34,0:00:24.44,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}the{\c&H002A2B17&\b0} system fails\Nunder pressure.
+Dialogue: 0,0:00:24.44,0:00:24.70,Default,,0,0,0,,{\pos(540,1513)}the {\c&H00657811&\b1}system{\c&H002A2B17&\b0} fails\Nunder pressure.
+Dialogue: 0,0:00:24.70,0:00:24.94,Default,,0,0,0,,{\pos(540,1513)}the system {\c&H00657811&\b1}fails{\c&H002A2B17&\b0}\Nunder pressure.
+Dialogue: 0,0:00:24.94,0:00:25.16,Default,,0,0,0,,{\pos(540,1513)}the system fails\N{\c&H00657811&\b1}under{\c&H002A2B17&\b0} pressure.
+Dialogue: 0,0:00:25.16,0:00:25.64,Default,,0,0,0,,{\pos(540,1513)}the system fails\Nunder {\c&H00657811&\b1}pressure.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:25.90,0:00:26.02,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Do{\c&H002A2B17&\b0} not try to boil the
+Dialogue: 0,0:00:26.02,0:00:26.16,Default,,0,0,0,,{\pos(540,1513)}Do {\c&H00657811&\b1}not{\c&H002A2B17&\b0} try to boil the
+Dialogue: 0,0:00:26.16,0:00:26.30,Default,,0,0,0,,{\pos(540,1513)}Do not {\c&H00657811&\b1}try{\c&H002A2B17&\b0} to boil the
+Dialogue: 0,0:00:26.30,0:00:26.42,Default,,0,0,0,,{\pos(540,1513)}Do not try {\c&H00657811&\b1}to{\c&H002A2B17&\b0} boil the
+Dialogue: 0,0:00:26.42,0:00:26.58,Default,,0,0,0,,{\pos(540,1513)}Do not try to {\c&H00657811&\b1}boil{\c&H002A2B17&\b0} the
+Dialogue: 0,0:00:26.58,0:00:26.80,Default,,0,0,0,,{\pos(540,1513)}Do not try to boil {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:26.80,0:00:27.00,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}ocean{\c&H002A2B17&\b0} and map the\Nentire corporation's
+Dialogue: 0,0:00:27.00,0:00:27.70,Default,,0,0,0,,{\pos(540,1513)}ocean {\c&H00657811&\b1}and{\c&H002A2B17&\b0} map the\Nentire corporation's
+Dialogue: 0,0:00:27.70,0:00:28.00,Default,,0,0,0,,{\pos(540,1513)}ocean and {\c&H00657811&\b1}map{\c&H002A2B17&\b0} the\Nentire corporation's
+Dialogue: 0,0:00:28.00,0:00:28.20,Default,,0,0,0,,{\pos(540,1513)}ocean and map {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nentire corporation's
+Dialogue: 0,0:00:28.20,0:00:28.34,Default,,0,0,0,,{\pos(540,1513)}ocean and map the\N{\c&H00657811&\b1}entire{\c&H002A2B17&\b0} corporation's
+Dialogue: 0,0:00:28.34,0:00:29.10,Default,,0,0,0,,{\pos(540,1513)}ocean and map the\Nentire {\c&H00657811&\b1}corporation's{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:29.10,0:00:29.34,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}semantic{\c&H002A2B17&\b0} logic on day one.
+Dialogue: 0,0:00:29.34,0:00:29.70,Default,,0,0,0,,{\pos(540,1513)}semantic {\c&H00657811&\b1}logic{\c&H002A2B17&\b0} on day one.
+Dialogue: 0,0:00:29.70,0:00:30.06,Default,,0,0,0,,{\pos(540,1513)}semantic logic {\c&H00657811&\b1}on{\c&H002A2B17&\b0} day one.
+Dialogue: 0,0:00:30.06,0:00:30.18,Default,,0,0,0,,{\pos(540,1513)}semantic logic on {\c&H00657811&\b1}day{\c&H002A2B17&\b0} one.
+Dialogue: 0,0:00:30.18,0:00:30.56,Default,,0,0,0,,{\pos(540,1513)}semantic logic on day {\c&H00657811&\b1}one.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:30.56,0:00:31.68,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Exactly.{\c&H002A2B17&\b0} You only\Nexpand the scope
+Dialogue: 0,0:00:31.68,0:00:31.86,Default,,0,0,0,,{\pos(540,1513)}Exactly. {\c&H00657811&\b1}You{\c&H002A2B17&\b0} only\Nexpand the scope
+Dialogue: 0,0:00:31.86,0:00:32.04,Default,,0,0,0,,{\pos(540,1513)}Exactly. You {\c&H00657811&\b1}only{\c&H002A2B17&\b0}\Nexpand the scope
+Dialogue: 0,0:00:32.04,0:00:32.32,Default,,0,0,0,,{\pos(540,1513)}Exactly. You only\N{\c&H00657811&\b1}expand{\c&H002A2B17&\b0} the scope
+Dialogue: 0,0:00:32.32,0:00:32.51,Default,,0,0,0,,{\pos(540,1513)}Exactly. You only\Nexpand {\c&H00657811&\b1}the{\c&H002A2B17&\b0} scope
+Dialogue: 0,0:00:32.51,0:00:32.74,Default,,0,0,0,,{\pos(540,1513)}Exactly. You only\Nexpand the {\c&H00657811&\b1}scope{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:32.74,0:00:32.96,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}when{\c&H002A2B17&\b0} that first\Nteam can complete
+Dialogue: 0,0:00:32.96,0:00:33.11,Default,,0,0,0,,{\pos(540,1513)}when {\c&H00657811&\b1}that{\c&H002A2B17&\b0} first\Nteam can complete
+Dialogue: 0,0:00:33.11,0:00:33.38,Default,,0,0,0,,{\pos(540,1513)}when that {\c&H00657811&\b1}first{\c&H002A2B17&\b0}\Nteam can complete
+Dialogue: 0,0:00:33.38,0:00:33.82,Default,,0,0,0,,{\pos(540,1513)}when that first\N{\c&H00657811&\b1}team{\c&H002A2B17&\b0} can complete
+Dialogue: 0,0:00:33.82,0:00:34.15,Default,,0,0,0,,{\pos(540,1513)}when that first\Nteam {\c&H00657811&\b1}can{\c&H002A2B17&\b0} complete
+Dialogue: 0,0:00:34.15,0:00:34.58,Default,,0,0,0,,{\pos(540,1513)}when that first\Nteam can {\c&H00657811&\b1}complete{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:34.58,0:00:34.78,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}their{\c&H002A2B17&\b0} workflow with\Ndependably accurate
+Dialogue: 0,0:00:34.78,0:00:35.08,Default,,0,0,0,,{\pos(540,1513)}their {\c&H00657811&\b1}workflow{\c&H002A2B17&\b0} with\Ndependably accurate
+Dialogue: 0,0:00:35.08,0:00:35.34,Default,,0,0,0,,{\pos(540,1513)}their workflow {\c&H00657811&\b1}with{\c&H002A2B17&\b0}\Ndependably accurate
+Dialogue: 0,0:00:35.34,0:00:36.01,Default,,0,0,0,,{\pos(540,1513)}their workflow with\N{\c&H00657811&\b1}dependably{\c&H002A2B17&\b0} accurate
+Dialogue: 0,0:00:36.01,0:00:36.32,Default,,0,0,0,,{\pos(540,1513)}their workflow with\Ndependably {\c&H00657811&\b1}accurate{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:36.32,0:00:37.37,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}answers,{\c&H002A2B17&\b0} a highly\Nmanageable human
+Dialogue: 0,0:00:37.37,0:00:37.42,Default,,0,0,0,,{\pos(540,1513)}answers, {\c&H00657811&\b1}a{\c&H002A2B17&\b0} highly\Nmanageable human
+Dialogue: 0,0:00:37.42,0:00:37.70,Default,,0,0,0,,{\pos(540,1513)}answers, a {\c&H00657811&\b1}highly{\c&H002A2B17&\b0}\Nmanageable human
+Dialogue: 0,0:00:37.70,0:00:38.08,Default,,0,0,0,,{\pos(540,1513)}answers, a highly\N{\c&H00657811&\b1}manageable{\c&H002A2B17&\b0} human
+Dialogue: 0,0:00:38.08,0:00:38.46,Default,,0,0,0,,{\pos(540,1513)}answers, a highly\Nmanageable {\c&H00657811&\b1}human{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:38.46,0:00:38.72,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}review{\c&H002A2B17&\b0} burden, and\Na fully understood,
+Dialogue: 0,0:00:38.72,0:00:39.40,Default,,0,0,0,,{\pos(540,1513)}review {\c&H00657811&\b1}burden,{\c&H002A2B17&\b0} and\Na fully understood,
+Dialogue: 0,0:00:39.40,0:00:39.60,Default,,0,0,0,,{\pos(540,1513)}review burden, {\c&H00657811&\b1}and{\c&H002A2B17&\b0}\Na fully understood,
+Dialogue: 0,0:00:39.60,0:00:39.68,Default,,0,0,0,,{\pos(540,1513)}review burden, and\N{\c&H00657811&\b1}a{\c&H002A2B17&\b0} fully understood,
+Dialogue: 0,0:00:39.68,0:00:39.96,Default,,0,0,0,,{\pos(540,1513)}review burden, and\Na {\c&H00657811&\b1}fully{\c&H002A2B17&\b0} understood,
+Dialogue: 0,0:00:39.96,0:00:40.58,Default,,0,0,0,,{\pos(540,1513)}review burden, and\Na fully {\c&H00657811&\b1}understood,{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:40.78,0:00:41.20,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}predictable{\c&H002A2B17&\b0} operating cost.
+Dialogue: 0,0:00:41.20,0:00:41.66,Default,,0,0,0,,{\pos(540,1513)}predictable {\c&H00657811&\b1}operating{\c&H002A2B17&\b0} cost.
+Dialogue: 0,0:00:41.66,0:00:42.11,Default,,0,0,0,,{\pos(540,1513)}predictable operating {\c&H00657811&\b1}cost.{\c&H002A2B17&\b0}

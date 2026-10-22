@@ -1,0 +1,5 @@
+Import support does not promise lossless OWL
+Original recording 56:05–56:44
+ASR draft; technical-name spelling normalized.
+
+The preview does support importing existing definitions using standard semantic web formats like Turtle, RDF, and O -W -L. Briefly, what are those? Those are essentially the legacy standard coding languages that researchers and data scientists have used for years to write out these kinds of complex knowledge webs, originally designed for the semantic web. So you can just import them. However, the Microsoft documentation explicitly warns that some elements might be adjusted, modified, or entirely skipped during the import process. Full lossless translation of complex OWL behaviors is not promised. You have to check it. You have to thoroughly and manually review the import results to ensure your logic survived the translation.
