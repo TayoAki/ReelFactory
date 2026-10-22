@@ -1,0 +1,43 @@
+{
+  "source": "../motion-pilot-fabric/input-transcript.txt",
+  "section": "3, opening host question and complete first guest turn",
+  "verbatim": true,
+  "segments": [
+    {
+      "role": "host",
+      "text": "Define a Fabric ontology in plain language."
+    },
+    {
+      "role": "guest",
+      "text": "It's a shared model of the things the business cares about, what we know about them, how they connect, and where the supporting data lives."
+    },
+    {
+      "role": "guest",
+      "text": "A Store is an entity type."
+    },
+    {
+      "role": "guest",
+      "text": "A particular store is an instance."
+    },
+    {
+      "role": "guest",
+      "text": "Region and priority are properties."
+    },
+    {
+      "role": "guest",
+      "text": "\u201cStore operates Refrigeration Unit\u201d is a relationship."
+    },
+    {
+      "role": "guest",
+      "text": "A data binding connects those concepts to actual source fields."
+    },
+    {
+      "role": "guest",
+      "text": "We can also attach business rules and metrics."
+    },
+    {
+      "role": "guest",
+      "text": "That lets a question refer to an established concept instead of asking every consumer to reconstruct its meaning from table names."
+    }
+  ]
+}

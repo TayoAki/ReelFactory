@@ -1,0 +1,657 @@
+{
+  "voice": "Two synthetic preview voices; static fictional portrait placeholders",
+  "segments": [
+    {
+      "role": "host",
+      "text": "Define a Fabric ontology in plain language.",
+      "start": 0,
+      "duration": 3.528,
+      "voice": "en-US-GuyNeural",
+      "words": [
+        {
+          "type": "WordBoundary",
+          "offset": 1010000,
+          "duration": 3826660,
+          "text": "Define"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 5091660,
+          "duration": 637910,
+          "text": "a"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 5984580,
+          "duration": 4209160,
+          "text": "Fabric"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 10449160,
+          "duration": 6250000,
+          "text": "ontology"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 16954160,
+          "duration": 1020410,
+          "text": "in"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 18102080,
+          "duration": 2550830,
+          "text": "plain"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 20780410,
+          "duration": 5612080,
+          "text": "language"
+        }
+      ]
+    },
+    {
+      "role": "guest",
+      "text": "It's a shared model of the things the business cares about, what we know about them, how they connect, and where the supporting data lives.",
+      "start": 3.708,
+      "duration": 8.04,
+      "voice": "en-US-JennyNeural",
+      "words": [
+        {
+          "type": "WordBoundary",
+          "offset": 1010000,
+          "duration": 1785830,
+          "text": "It's"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 2923330,
+          "duration": 510000,
+          "text": "a"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 3561250,
+          "duration": 3188750,
+          "text": "shared"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 6877500,
+          "duration": 3316250,
+          "text": "model"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 10321250,
+          "duration": 765410,
+          "text": "of"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 11214160,
+          "duration": 892910,
+          "text": "the"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 12234580,
+          "duration": 3188750,
+          "text": "things"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 15550830,
+          "duration": 892910,
+          "text": "the"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 16571250,
+          "duration": 4081660,
+          "text": "business"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 20780410,
+          "duration": 2933750,
+          "text": "cares"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 23841660,
+          "duration": 4209160,
+          "text": "about"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 30091660,
+          "duration": 1402910,
+          "text": "what"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 31622500,
+          "duration": 1020410,
+          "text": "we"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 32770410,
+          "duration": 2168330,
+          "text": "know"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 35066250,
+          "duration": 2933750,
+          "text": "about"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 38127500,
+          "duration": 3061250,
+          "text": "them"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 42974580,
+          "duration": 1147910,
+          "text": "how"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 44250000,
+          "duration": 1275410,
+          "text": "they"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 45652910,
+          "duration": 5740000,
+          "text": "connect"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 53688750,
+          "duration": 1020410,
+          "text": "and"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 54836660,
+          "duration": 1402910,
+          "text": "where"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 56367500,
+          "duration": 892910,
+          "text": "the"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 57387910,
+          "duration": 4847080,
+          "text": "supporting"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 62362080,
+          "duration": 2806250,
+          "text": "data"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 65295830,
+          "duration": 6122500,
+          "text": "lives"
+        }
+      ]
+    },
+    {
+      "role": "guest",
+      "text": "A Store is an entity type.",
+      "start": 11.927999999999999,
+      "duration": 2.448,
+      "voice": "en-US-JennyNeural",
+      "words": [
+        {
+          "type": "WordBoundary",
+          "offset": 1010000,
+          "duration": 1275410,
+          "text": "A"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 2413330,
+          "duration": 2678750,
+          "text": "Store"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 5219580,
+          "duration": 1147910,
+          "text": "is"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 6495000,
+          "duration": 1147910,
+          "text": "an"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 7770410,
+          "duration": 3061250,
+          "text": "entity"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 10959160,
+          "duration": 4719580,
+          "text": "type"
+        }
+      ]
+    },
+    {
+      "role": "guest",
+      "text": "A particular store is an instance.",
+      "start": 14.556,
+      "duration": 2.952,
+      "voice": "en-US-JennyNeural",
+      "words": [
+        {
+          "type": "WordBoundary",
+          "offset": 1010000,
+          "duration": 1147910,
+          "text": "A"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 2285830,
+          "duration": 6122500,
+          "text": "particular"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 8535830,
+          "duration": 2806250,
+          "text": "store"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 11469580,
+          "duration": 1402910,
+          "text": "is"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 13000000,
+          "duration": 892910,
+          "text": "an"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 14020410,
+          "duration": 6505000,
+          "text": "instance"
+        }
+      ]
+    },
+    {
+      "role": "guest",
+      "text": "Region and priority are properties.",
+      "start": 17.688,
+      "duration": 2.976,
+      "voice": "en-US-JennyNeural",
+      "words": [
+        {
+          "type": "WordBoundary",
+          "offset": 1010000,
+          "duration": 3826660,
+          "text": "Region"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 4964160,
+          "duration": 1020410,
+          "text": "and"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 6112080,
+          "duration": 5357080,
+          "text": "priority"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 11597080,
+          "duration": 1147910,
+          "text": "are"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 12872500,
+          "duration": 7908330,
+          "text": "properties"
+        }
+      ]
+    },
+    {
+      "role": "guest",
+      "text": "\u201cStore operates Refrigeration Unit\u201d is a relationship.",
+      "start": 20.843999999999998,
+      "duration": 4.008,
+      "voice": "en-US-JennyNeural",
+      "words": [
+        {
+          "type": "WordBoundary",
+          "offset": 1010000,
+          "duration": 3571250,
+          "text": "Store"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 4709160,
+          "duration": 4081660,
+          "text": "operates"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 8918330,
+          "duration": 7397910,
+          "text": "Refrigeration"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 16443750,
+          "duration": 3188750,
+          "text": "Unit"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 20142910,
+          "duration": 1147910,
+          "text": "is"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 21418330,
+          "duration": 510000,
+          "text": "a"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 22056250,
+          "duration": 9056250,
+          "text": "relationship"
+        }
+      ]
+    },
+    {
+      "role": "guest",
+      "text": "A data binding connects those concepts to actual source fields.",
+      "start": 25.031999999999996,
+      "duration": 4.656,
+      "voice": "en-US-JennyNeural",
+      "words": [
+        {
+          "type": "WordBoundary",
+          "offset": 1010000,
+          "duration": 1402910,
+          "text": "A"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 2540830,
+          "duration": 2933750,
+          "text": "data"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 5602080,
+          "duration": 3954160,
+          "text": "binding"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 9683750,
+          "duration": 4464160,
+          "text": "connects"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 14275410,
+          "duration": 2295830,
+          "text": "those"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 16699160,
+          "duration": 6250000,
+          "text": "concepts"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 23076660,
+          "duration": 1147910,
+          "text": "to"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 24352080,
+          "duration": 3954160,
+          "text": "actual"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 28433750,
+          "duration": 3061250,
+          "text": "source"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 31622500,
+          "duration": 6122500,
+          "text": "fields"
+        }
+      ]
+    },
+    {
+      "role": "guest",
+      "text": "We can also attach business rules and metrics.",
+      "start": 29.867999999999995,
+      "duration": 3.576,
+      "voice": "en-US-JennyNeural",
+      "words": [
+        {
+          "type": "WordBoundary",
+          "offset": 1010000,
+          "duration": 1658330,
+          "text": "We"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 2795830,
+          "duration": 1658330,
+          "text": "can"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 4581660,
+          "duration": 2806250,
+          "text": "also"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 7515410,
+          "duration": 4081660,
+          "text": "attach"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 11724580,
+          "duration": 3954160,
+          "text": "business"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 15806250,
+          "duration": 2806250,
+          "text": "rules"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 18740000,
+          "duration": 1020410,
+          "text": "and"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 19887910,
+          "duration": 7015410,
+          "text": "metrics"
+        }
+      ]
+    },
+    {
+      "role": "guest",
+      "text": "That lets a question refer to an established concept instead of asking every consumer to reconstruct its meaning from table names.",
+      "start": 33.623999999999995,
+      "duration": 8.088,
+      "voice": "en-US-JennyNeural",
+      "words": [
+        {
+          "type": "WordBoundary",
+          "offset": 1010000,
+          "duration": 2168330,
+          "text": "That"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 3306250,
+          "duration": 1913330,
+          "text": "lets"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 5347080,
+          "duration": 637910,
+          "text": "a"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 6112080,
+          "duration": 4847080,
+          "text": "question"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 11086660,
+          "duration": 3316250,
+          "text": "refer"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 14530410,
+          "duration": 1147910,
+          "text": "to"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 15806250,
+          "duration": 892910,
+          "text": "an"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 16826660,
+          "duration": 6122500,
+          "text": "established"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 23076660,
+          "duration": 6122500,
+          "text": "concept"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 29326660,
+          "duration": 4209160,
+          "text": "instead"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 33663330,
+          "duration": 892910,
+          "text": "of"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 34683750,
+          "duration": 5102080,
+          "text": "asking"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 39913330,
+          "duration": 2295830,
+          "text": "every"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 42336660,
+          "duration": 5740000,
+          "text": "consumer"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 48204160,
+          "duration": 1275410,
+          "text": "to"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 49607080,
+          "duration": 6887910,
+          "text": "reconstruct"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 56622500,
+          "duration": 1658330,
+          "text": "its"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 58408330,
+          "duration": 3188750,
+          "text": "meaning"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 61724580,
+          "duration": 1530410,
+          "text": "from"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 63382500,
+          "duration": 3188750,
+          "text": "table"
+        },
+        {
+          "type": "WordBoundary",
+          "offset": 66699160,
+          "duration": 5357080,
+          "text": "names"
+        }
+      ]
+    }
+  ],
+  "duration": 42.492
+}

@@ -2,6 +2,8 @@
 
 User-requested workflow, implemented in `motion-segment-fabric/` on 2026-10-22. This is an editorial method, not a universally optimal teaching formula.
 
+**Format correction:** The user subsequently rejected treating the interview as a standalone graphic explainer. The default for this project is now speaker-led: preserve host/guest dialogue and let graphics support what the active speaker says. `interview-segment-fabric/` implements the opening exchange of section 3 verbatim, with two synthetic preview voices and the previously authorized static portrait placeholders. The recipe below applies within an explicitly authorized rewrite; it must not replace the interview structure.
+
 1. **Analyze:** identify the audience's existing knowledge, the new distinction, supported claims and practical question. Separate spoken script from production directions.
 2. **Choose an explanation recipe:** use question → definition → mechanism → concrete mapping/example → boundary when explaining how something works. Use contrast → counterexample → repair for ambiguity/failure; use purpose → inputs → transformation → outputs for a real process. Do not force every topic into the same recipe.
 3. **Rewrite:** replace vague claims with the actual entities, relationship, inputs/outputs or constraints. Keep original/proposed/reason/source IDs. Match the verbal order to the order in which a viewer can understand the picture. Preserve caveats, and omit ideas that need a separate graphic rather than squeezing them into tiny labels.

@@ -1,0 +1,141 @@
+{
+  "mode": "technical-adaptation",
+  "audience": "Technical practitioners and analytics leaders",
+  "scope": "One complete opening host/guest exchange from section 3, approximately 43 seconds",
+  "visual_workflow": "image-first",
+  "source_library_required": true,
+  "generation_authorization": "User requested the reference interview format; earlier authorization permits static portrait placeholders and GitHub backup.",
+  "technical_rewrite": {
+    "original": "Define a Fabric ontology in plain language. It's a shared model of the things the business cares about, what we know about them, how they connect, and where the supporting data lives. A Store is an entity type. A particular store is an instance. Region and priority are properties. \u201cStore operates Refrigeration Unit\u201d is a relationship. A data binding connects those concepts to actual source fields. We can also attach business rules and metrics. That lets a question refer to an established concept instead of asking every consumer to reconstruct its meaning from table names.",
+    "proposed": "Define a Fabric ontology in plain language. It's a shared model of the things the business cares about, what we know about them, how they connect, and where the supporting data lives. A Store is an entity type. A particular store is an instance. Region and priority are properties. \u201cStore operates Refrigeration Unit\u201d is a relationship. A data binding connects those concepts to actual source fields. We can also attach business rules and metrics. That lets a question refer to an established concept instead of asking every consumer to reconstruct its meaning from table names.",
+    "reason": "No spoken rewrite. User explicitly corrected the format: someone speaks while concepts are explained visually."
+  },
+  "scenes": [
+    {
+      "id": "fabric-interview-opening-exchange",
+      "transcript": "Define a Fabric ontology in plain language. It's a shared model of the things the business cares about, what we know about them, how they connect, and where the supporting data lives. A Store is an entity type. A particular store is an instance. Region and priority are properties. \u201cStore operates Refrigeration Unit\u201d is a relationship. A data binding connects those concepts to actual source fields. We can also attach business rules and metrics. That lets a question refer to an established concept instead of asking every consumer to reconstruct its meaning from table names.",
+      "intended_understanding": "Follow the actual guest explanation with visible entity, instance, properties, named relationship, source mappings, rules and metrics.",
+      "template_id": "product-mechanism-example",
+      "template_variant": "Interview-led definition build, fixed active-speaker rail and supporting diagram, bottom captions",
+      "reference_sequence": "02-white-system",
+      "composition": "Left explanatory area ends at x1260; presenter rail x1425..1863 remains outside diagram transforms; captions occupy y950..1064.",
+      "assets": "Two static fictional portraits, two synthetic preview voices, editable SVG symbols, generated master, coherent keyframe screenshots, Fabric theme.",
+      "reason": "The interview drives the picture; each new definition appears at its actual spoken concept without replacing the dialogue.",
+      "alternative_and_tradeoff": "Standalone diagram narration was rejected by the user. A real talking-head recording would replace the portrait placeholder layer while retaining the same diagram plan.",
+      "state_plan": "Host question \u2192 guest summary \u2192 Store type \u2192 particular-store instance \u2192 properties \u2192 named relationship \u2192 binding \u2192 rules/metrics \u2192 hold for end of answer.",
+      "clarity_check": "Every caption phrase fits and matches its role; diagram labels fit at intermediate states; speaker rail and captions stay separate.",
+      "sources": [
+        "https://learn.microsoft.com/en-us/fabric/iq/ontology/overview",
+        "https://learn.microsoft.com/en-us/fabric/iq/ontology/tutorial-1-create-ontology",
+        "https://learn.microsoft.com/en-us/fabric/iq/ontology/how-to-bind-data"
+      ],
+      "status": "animation_rendered",
+      "master_image": "storyboard/master.png",
+      "state_images": [
+        {
+          "id": "00-host",
+          "image": "storyboard/00-host.png",
+          "narration_role": "Host question",
+          "new_understanding": "The graphic supplies a concrete visual for host question.",
+          "persistent": "Presenter rail, caption band and known diagram objects remain stable.",
+          "next_transition": "Introduce the next concept only at the associated spoken cue."
+        },
+        {
+          "id": "01-shared-model",
+          "image": "storyboard/01-shared-model.png",
+          "narration_role": "Shared model",
+          "new_understanding": "The graphic supplies a concrete visual for shared model.",
+          "persistent": "Presenter rail, caption band and known diagram objects remain stable.",
+          "next_transition": "Introduce the next concept only at the associated spoken cue."
+        },
+        {
+          "id": "02-entity",
+          "image": "storyboard/02-entity.png",
+          "narration_role": "Entity type",
+          "new_understanding": "The graphic supplies a concrete visual for entity type.",
+          "persistent": "Presenter rail, caption band and known diagram objects remain stable.",
+          "next_transition": "Introduce the next concept only at the associated spoken cue."
+        },
+        {
+          "id": "03-instance",
+          "image": "storyboard/03-instance.png",
+          "narration_role": "Particular store instance",
+          "new_understanding": "The graphic supplies a concrete visual for particular store instance.",
+          "persistent": "Presenter rail, caption band and known diagram objects remain stable.",
+          "next_transition": "Introduce the next concept only at the associated spoken cue."
+        },
+        {
+          "id": "04-properties",
+          "image": "storyboard/04-properties.png",
+          "narration_role": "Properties",
+          "new_understanding": "The graphic supplies a concrete visual for properties.",
+          "persistent": "Presenter rail, caption band and known diagram objects remain stable.",
+          "next_transition": "Introduce the next concept only at the associated spoken cue."
+        },
+        {
+          "id": "05-relationship",
+          "image": "storyboard/05-relationship.png",
+          "narration_role": "Relationship",
+          "new_understanding": "The graphic supplies a concrete visual for relationship.",
+          "persistent": "Presenter rail, caption band and known diagram objects remain stable.",
+          "next_transition": "Introduce the next concept only at the associated spoken cue."
+        },
+        {
+          "id": "06-binding",
+          "image": "storyboard/06-binding.png",
+          "narration_role": "Source fields",
+          "new_understanding": "The graphic supplies a concrete visual for source fields.",
+          "persistent": "Presenter rail, caption band and known diagram objects remain stable.",
+          "next_transition": "Introduce the next concept only at the associated spoken cue."
+        },
+        {
+          "id": "07-rules-metrics",
+          "image": "storyboard/07-rules-metrics.png",
+          "narration_role": "Rules and metrics",
+          "new_understanding": "The graphic supplies a concrete visual for rules and metrics.",
+          "persistent": "Presenter rail, caption band and known diagram objects remain stable.",
+          "next_transition": "Introduce the next concept only at the associated spoken cue."
+        }
+      ],
+      "visual_approved_by_user": false,
+      "generation_authorized_by_user": true,
+      "reference_library_entry": "../reference-library/entries/product-definition.json",
+      "reference_images": [
+        "../reference-library/frames/full/0001245.jpg",
+        "../reference-library/frames/graphic/0001245.jpg"
+      ],
+      "reference_selection_reason": "Original composition places the active speaker at right, a definition graphic at left and captions below. This is layout evidence, not Fabric product facts.",
+      "source_observations": {
+        "observed": "Original presenter rail is fixed separately from the explanatory diagram; captions appear at bottom.",
+        "proposed": "Preserve this composition while revealing Fabric concepts from the exact supplied dialogue. No added standalone question or ID explanation."
+      },
+      "layer_reconstruction": {
+        "scene": "scene.html",
+        "comparison_still": "rebuilt-master.png",
+        "layers": [
+          "question card",
+          "summary card",
+          "entity surfaces",
+          "instance card",
+          "source panel",
+          "SVG symbols",
+          "relationship stroke",
+          "instance link",
+          "binding strokes",
+          "rules badge",
+          "metrics badge",
+          "fixed presenter rail",
+          "role-selected portrait image",
+          "speaker labels",
+          "bottom per-word captions"
+        ]
+      },
+      "source_start": 0,
+      "source_end": 42.492,
+      "render_start": 0,
+      "render_end": 42.492
+    }
+  ],
+  "presentation_format": "interview-led",
+  "script_policy": "verbatim, normalized whitespace only"
+}

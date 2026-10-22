@@ -9,6 +9,10 @@ The goal is to explain the new subject accurately using a reusable visual gramma
 
 ## Inputs and modes
 
+**Current project format: interview-led, script-faithful.** The user's correction is explicit: someone speaks on screen while graphics explain their words, like the reference video. Preserve the supplied host/guest turns and section order; default to the original wording. Do not turn an interview passage into a standalone question-led explainer or substitute a new monologue. Rewriting remains available only when explicitly requested for that passage, with an original/proposed comparison. The previous script/graphic recipe does not authorize flattening the interview format.
+
+Keep the active speaker in a stable presenter rail, explanatory graphics in a separate area, and captions in a reserved bottom band. Select reveals from the actual spoken concepts. The user previously authorized static fictional presenter placeholders; label them and use separate preview voices when no recordings exist. Static portraits plus narration are a composition prototype, not lip-synced talking-head footage. Do not claim exact audiovisual equivalence to the reference or fabricate a speaker recording.
+
 Establish the script, technical audience and prerequisites, intended takeaway, duration, delivery format and reference. Infer routine preferences from the conversation. Default to technical practitioners, 16:9/1080p/30fps and the existing reference grammar when the user has supplied no different constraints. State assumptions. Ask only for missing information that changes the substantive task.
 
 Choose one mode explicitly:

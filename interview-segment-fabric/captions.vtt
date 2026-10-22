@@ -1,0 +1,61 @@
+WEBVTT
+
+00:00:00.101 --> 00:00:02.078
+Define a Fabric ontology in plain
+
+00:00:02.078 --> 00:00:02.839
+language.
+
+00:00:03.809 --> 00:00:04.931
+It's a shared model of the
+
+00:00:04.931 --> 00:00:06.713
+things the business cares about,
+
+00:00:06.717 --> 00:00:08.005
+what we know about them,
+
+00:00:08.005 --> 00:00:09.047
+how they connect,
+
+00:00:09.077 --> 00:00:11.050
+and where the supporting data lives.
+
+00:00:12.029 --> 00:00:13.696
+A Store is an entity type.
+
+00:00:14.657 --> 00:00:16.809
+A particular store is an instance.
+
+00:00:17.789 --> 00:00:19.966
+Region and priority are properties.
+
+00:00:20.945 --> 00:00:23.050
+“Store operates Refrigeration Unit” is a
+
+00:00:23.050 --> 00:00:24.155
+relationship.
+
+00:00:25.133 --> 00:00:27.340
+A data binding connects those concepts
+
+00:00:27.340 --> 00:00:29.006
+to actual source fields.
+
+00:00:29.969 --> 00:00:31.742
+We can also attach business rules
+
+00:00:31.742 --> 00:00:32.758
+and metrics.
+
+00:00:33.725 --> 00:00:35.205
+That lets a question refer to
+
+00:00:35.205 --> 00:00:37.615
+an established concept instead of asking
+
+00:00:37.615 --> 00:00:39.796
+every consumer to reconstruct its meaning
+
+00:00:39.796 --> 00:00:41.030
+from table names.
