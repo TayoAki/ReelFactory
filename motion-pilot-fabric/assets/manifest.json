@@ -10,12 +10,17 @@
     "identity": "Generic explanatory symbols, not official Microsoft product icons"
   },
   "generated_images": {
-    "master": "storyboard/04-bindings-master.png",
+    "master": "fabric-theme/master.png",
     "derived": [
-      "storyboard/01-entity.png",
-      "storyboard/03-relationship.png"
+      "rebuilt-01-entity.png",
+      "rebuilt-03-relationship.png"
     ],
     "used_as": "Design targets; editable scene is animated, not flattened storyboard images"
+  },
+  "theme": {
+    "file": "../content/visual-language/fabric-brand/theme.json",
+    "evidence": "../content/visual-language/fabric-brand/README.md",
+    "classification": "Observed official asset colors plus editorial mint tints"
   },
   "voice": {
     "engine": "edge-tts",

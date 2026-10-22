@@ -22,9 +22,9 @@
       "transcript": "A Store is an entity type: a definition of something the business cares about. Region and priority are properties. Store operates Refrigeration Unit is a relationship between two entity types. Data bindings map these definitions to source fields. The ontology supplies meaning and mappings; the data stays in its source.",
       "intended_understanding": "Distinguish entity type, properties, named relationship, and source data binding.",
       "template_id": "connector-network",
-      "template_variant": "Custom entity/relationship with distinct vertical source mappings; warm-card style transferred from constrained-web-flow.",
+      "template_variant": "Custom entity/relationship with distinct vertical source mappings; card hierarchy and motion grammar transferred from constrained-web-flow.",
       "reference_sequence": "12-connectors",
-      "composition": "Two stable entity cards, Store warm focal surface; property chips within Store; operates horizontal edge; source tables below each entity with upward dashed mappings.",
+      "composition": "Two stable entity cards, Store light mint focal surface; property chips within Store; operates horizontal edge; source tables below each entity with upward dashed mappings.",
       "assets": "Generated master and derived states, self-authored editable SVG shopfront/refrigerator/table symbols, Source Serif 4 OFL font, synthetic preview narration.",
       "reason": "Every reveal introduces a different part of the definition while preserving known context.",
       "alternative_and_tradeoff": "Authentic UI is better for showing configuration clicks; dense UI would distract from this conceptual distinction. A generic network would obscure edge meanings.",
@@ -36,11 +36,11 @@
         "https://learn.microsoft.com/en-us/fabric/iq/ontology/how-to-bind-data"
       ],
       "status": "animation_rendered",
-      "master_image": "storyboard/04-bindings-master.png",
+      "master_image": "fabric-theme/master.png",
       "state_images": [
         {
           "id": "entity",
-          "image": "storyboard/01-entity.png",
+          "image": "rebuilt-01-entity.png",
           "narration_role": "A Store is an entity type.",
           "new_understanding": "A stable business concept is introduced.",
           "persistent": "All previously introduced cards keep their identities and coordinates.",
@@ -56,7 +56,7 @@
         },
         {
           "id": "relationship",
-          "image": "storyboard/03-relationship.png",
+          "image": "rebuilt-03-relationship.png",
           "narration_role": "Store operates Refrigeration Unit is a relationship.",
           "new_understanding": "The edge has business meaning and direction.",
           "persistent": "All previously introduced cards keep their identities and coordinates.",
@@ -64,7 +64,7 @@
         },
         {
           "id": "binding",
-          "image": "storyboard/04-bindings-master.png",
+          "image": "fabric-theme/master.png",
           "narration_role": "Data bindings map these definitions to source fields.",
           "new_understanding": "Business model and source data are distinct.",
           "persistent": "All previously introduced cards keep their identities and coordinates.",
@@ -78,9 +78,9 @@
         "../reference-library/frames/graphic/0003510.jpg",
         "../reference-library/frames/graphic/0003390.jpg"
       ],
-      "reference_selection_reason": "Original warm-card imagery supplies style evidence only. The connector-network teaching relationship is adapted to named business relations plus data bindings, not causal flow. The original model-first sequence does not dictate this narration.",
+      "reference_selection_reason": "Original card imagery supplies composition/depth evidence only; its orange/peach palette is explicitly rejected for Fabric. The connector-network teaching relationship is adapted to named business relations plus data bindings, not causal flow. The original model-first sequence does not dictate this narration.",
       "source_observations": {
-        "observed": "White grid, warm focal card, offwhite peers, filled symbols, serif labels and soft depth.",
+        "observed": "White grid, focal card, offwhite peers, filled symbols, serif labels and soft depth.",
         "proposed": "New Store-first reveal follows the new script. Solid relationship versus dashed source mapping is a new semantic convention."
       },
       "layer_reconstruction": {

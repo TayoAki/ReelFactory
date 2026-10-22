@@ -35,5 +35,8 @@ window.renderAt=function(t){
 if(new URLSearchParams(location.search).has('play')){document.body.classList.add('preview');const audio=el('audio');el('play').onclick=()=>{if(audio.paused){if(audio.currentTime>=duration-.1)audio.currentTime=0;audio.play()}else audio.pause()};function tick(){renderAt(audio.currentTime);el('clock').textContent=audio.currentTime.toFixed(1)+' / '+duration.toFixed(1);requestAnimationFrame(tick)}tick()}
 </script></body></html>'''
 html=html.replace('STORE_SVG',store).replace('FRIDGE_SVG',fridge).replace('TABLE_SVG',table).replace('NARRATION_JSON',json.dumps(N))
+theme=json.loads((R.parent/'content/visual-language/fabric-brand/theme.json').read_text())
+for old,new in theme['reference_color_substitutions'].items():
+ html=html.replace(old,new)
 (R/'scene.html').write_text(html)
 print('Built',R/'scene.html')

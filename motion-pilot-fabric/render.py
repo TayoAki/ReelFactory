@@ -16,8 +16,8 @@ with sync_playwright() as p:
   assert all(v['fit'] for v in fit),(t,fit)
   checks.append({'time':t,'bounds':fit})
  (R/'layout-check.json').write_text(json.dumps(checks,indent=2))
- enc=subprocess.Popen(['ffmpeg','-y','-loglevel','error','-f','image2pipe','-vcodec','png','-r','30','-i','pipe:0','-c:v','libx264','-preset','veryfast','-crf','18','-pix_fmt','yuv420p','-movflags','+faststart',str(R/'silent.mp4')],stdin=subprocess.PIPE)
+ enc=subprocess.Popen(['ffmpeg','-y','-loglevel','error','-f','image2pipe','-vcodec','mjpeg','-r','30','-i','pipe:0','-c:v','libx264','-preset','veryfast','-crf','18','-pix_fmt','yuv420p','-movflags','+faststart',str(R/'silent.mp4')],stdin=subprocess.PIPE)
  for i in range(frames):
-  page.evaluate('(t)=>renderAt(t)',i/30);enc.stdin.write(page.screenshot())
+  page.evaluate('(t)=>renderAt(t)',i/30);enc.stdin.write(page.screenshot(type='jpeg',quality=98))
   if i%150==0:print(f'{i}/{frames}',flush=True)
  enc.stdin.close();assert enc.wait()==0;b.close()

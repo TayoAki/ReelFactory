@@ -1,0 +1,36 @@
+{
+  "name": "@fabric-msft/svg-icons",
+  "version": "11.1.0",
+  "description": "A publicly available collection of SVG icons for use in Microsoft Fabric platform extension development.",
+  "author": "fabricuxe@service.microsoft.com",
+  "license": "MIT",
+  "packageManager": "yarn@4.12.0",
+  "main": "./index.js",
+  "module": "./index.js",
+  "types": "./index.d.ts",
+  "sideEffects": false,
+  "keywords": [
+    "svg",
+    "fabric",
+    "icon"
+  ],
+  "gitHead": "a3f037f4ffff205b7fbad0ddd4577a8d3e1c75a9",
+  "repository": {
+    "type": "git",
+    "url": "https://dev.azure.com/powerbi/Trident/_git/fabric-ux",
+    "directory": "libs/svg-icons/src/external-svg-icons"
+  },
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js",
+      "default": "./index.js"
+    },
+    "./*.svg": "./svg/*.svg",
+    "./*": {
+      "types": "./*.d.ts",
+      "import": "./*.js",
+      "default": "./*.js"
+    }
+  }
+}

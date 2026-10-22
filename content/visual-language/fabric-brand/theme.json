@@ -1,0 +1,37 @@
+{
+  "id": "fabric-editorial-light-v1",
+  "classification": "Project editorial palette based on observed official Fabric assets; not a published Microsoft brand standard",
+  "observed": {
+    "homepage_teal": "#225B62",
+    "official_icon_emerald": "#117865",
+    "official_icon_teal": "#177E71",
+    "official_icon_deep": "#063D3B"
+  },
+  "derived": {
+    "focal_surface_start": "#F0FAF6",
+    "focal_surface_end": "#D3EFE5",
+    "focal_border": "#AED8CB",
+    "text": "#172B2A",
+    "background": "#FFFFFF"
+  },
+  "sources": [
+    "https://www.microsoft.com/en-us/microsoft-fabric",
+    "https://learn.microsoft.com/en-us/fabric/fundamentals/icons",
+    "https://registry.npmjs.org/@fabric-msft/svg-icons/-/svg-icons-11.1.0.tgz"
+  ],
+  "reference_color_substitutions": {
+    "#ff7147":"#177E71", "#f45b35":"#117865",
+    "#449797":"#2D777C", "#267b80":"#225B62",
+    "#fff9f0":"#F5FFFA", "#f4fffa":"#F5FFFA",
+    "#ffbb95":"#AED8CB", "#fff9f1cf":"#F7FFFBCC",
+    "#fff0e2":"#F0FAF6", "#ffccab":"#D3EFE5",
+    "#d67e4d30":"#11786530", "#e7b89488":"#AED8CB88",
+    "#985b2410":"#063D3B10", "#fff7ed66":"#F4FFF966",
+    "#fffdf9":"#FCFEFD", "#ede8df85":"#E4ECE885",
+    "#85765e14":"#174E4412", "#85765e12":"#174E4410",
+    "#66594705":"#174E4405", "#b8a37a12":"#11786512",
+    "#dfddd6":"#DAE3DF", "#f8f7f4":"#F8FAF9",
+    "#172129":"#172B2A"
+  },
+  "retrieved": "2026-10-22"
+}

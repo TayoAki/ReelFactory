@@ -1,10 +1,14 @@
 # Fabric ontology — new-transcript image-first test
 
-[**Watch the motion graphic with narration (26 seconds)**](https://media.githubusercontent.com/media/TayoAki/ReelFactory/main/motion-pilot-fabric/fabric-ontology.mp4) · [Motion storyboard and rationale](plan-notes.md) · [Editable scene](scene.html)
+[**Watch the motion graphic with narration (26 seconds)**](https://media.githubusercontent.com/media/TayoAki/ReelFactory/main/motion-pilot-fabric/fabric-ontology-teal.mp4) · [Motion storyboard and rationale](plan-notes.md) · [Editable scene](scene.html)
 
 This adapts section 3 of the supplied Microsoft Fabric interview. It explains **entity type → properties → named relationship → source binding**, with synthetic preview narration. It is an illustrative concept diagram, not recorded product UI or a query result. Ontology is labelled preview.
 
 ![Rebuilt settled design](rebuilt-master.png)
+
+## Theme correction
+
+The initial orange/peach palette incorrectly inherited the Databricks reference. It is superseded by the current green/teal version. The old MP4 and orange storyboard files are historical comparison artifacts. The skill now requires a target-brand gate before image generation. This entity diagram fits vocabulary; a question-led worked example would better explain business value. [Assessment](plan-notes.md#brand-correction-and-graphic-assessment--user-feedback).
 
 ## Storyboard before motion
 
@@ -17,16 +21,16 @@ One generated master, then derived earlier image states. Persistent objects keep
 | Store **operates** Refrigeration Unit | Name the business relationship explicitly. |
 | Source tables + dashed bindings | Separate business concepts from where their data lives. |
 
-![Initial generated state](storyboard/01-entity.png)
+![Initial generated state](rebuilt-01-entity.png)
 ![Property state](rebuilt-02-properties.png)
-![Generated relationship state](storyboard/03-relationship.png)
-![Generated binding master](storyboard/04-bindings-master.png)
+![Generated relationship state](rebuilt-03-relationship.png)
+![Generated binding master](fabric-theme/master.png)
 
 ## Source and design comparison
 
 ![Original warm-card style evidence](../reference-library/frames/graphic/0003510.jpg)
 
-The original provides warm-card art direction, not Fabric product facts or a forced three-step pipeline. This new diagram uses a named horizontal business relationship and dashed vertical source bindings. The alternate dark source-to-hub template was inspected and rejected. [Selection packet](style-packet.json).
+The original provides hierarchy, depth and motion grammar. Its orange/peach branding is rejected for this Fabric adaptation. The current theme uses sourced Fabric green/teal and editorial mint surfaces. [Theme evidence](../content/visual-language/fabric-brand/README.md). This new diagram uses a named horizontal business relationship and dashed vertical source bindings. The alternate dark source-to-hub template was inspected and rejected. [Selection packet](style-packet.json).
 
 The generated and rebuilt designs preserve the same hierarchy, footprints and icon silhouettes. Editable SVGs, font metrics, grid pitch and gradient texture remain approximations. A small phase marker was added to the final scene. This scene's visual approval is pending.
 

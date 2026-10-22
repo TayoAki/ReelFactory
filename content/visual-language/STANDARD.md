@@ -4,6 +4,8 @@ Research date: 2026-10-22. This standard applies to new explanatory scenes. Refe
 
 ## Symbols and identity
 
+- **Brand check before storyboard generation:** separate the reference's visual grammar from its product colors. Fabric videos use the sourced green/teal project theme in `fabric-brand/theme.json`; read `fabric-brand/README.md` for evidence and editorial tints. Do not inherit Databricks orange/peach in a technical adaptation. Exact source colors remain appropriate only for explicitly requested reconstruction/comparison. Retained serif typography is our editorial style, not claimed Microsoft brand typography.
+
 - Use official Fabric SVGs for named Fabric products and items, with a nearby text label. Preserve the published colors and geometry; do not crop, flip, rotate or distort the product mark. Source and permitted training/documentation uses: https://learn.microsoft.com/en-us/fabric/fundamentals/icons
 - Use Fluent System Icons, 24 regular, for generic concepts. These are MIT-licensed. Start with database, document, people, search, shield-lock and settings. Preserve one visual weight and optical size across a scene. Official guidance: https://fluent2.microsoft.design/iconography
 - Treat symbols as established conventions rather than universal meanings. A shield is a literal metaphor; a label and visible access rule explain permissions. A gear means configuration, not every automated process.
