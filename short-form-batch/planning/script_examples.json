@@ -1,0 +1,250 @@
+[
+  {
+    "id": "E001",
+    "source_section": "1 Opening and the Fabric landscape",
+    "line": 9,
+    "verbatim": "OneLake is the shared data foundation. Teams can work with the same governed data through different engines, and supported shortcuts let them reference data elsewhere. The right ingestion or access pattern still depends on the source and workload.",
+    "kind": "script_example_or_scenario",
+    "recording_confirmed": false
+  },
+  {
+    "id": "E002",
+    "source_section": "2 Why business context matters",
+    "line": 18,
+    "verbatim": "Guest: Imagine asking, \u201cWhich stores need attention today?\u201d A temperature table alone can't tell you the commercial importance of a store. Sales data doesn't necessarily tell you which refrigeration unit holds the affected goods. A shipment record might contain several dates, and someone needs to explain which one represents the expected arrival.",
+    "kind": "script_example_or_scenario",
+    "recording_confirmed": false
+  },
+  {
+    "id": "E003",
+    "source_section": "2 Why business context matters",
+    "line": 19,
+    "verbatim": "Then there are the definitions. Does \u201cinventory at risk\u201d mean stock is already below a threshold, or that it's projected to fall below safety stock before the next delivery? Are two systems using the same product identifier? Is the temperature measured in Celsius?",
+    "kind": "script_example_or_scenario",
+    "recording_confirmed": false
+  },
+  {
+    "id": "E004",
+    "source_section": "2 Why business context matters",
+    "line": 23,
+    "verbatim": "On screen: The operational question beside the source systems it depends on. Keep the example grounded in stores, products, equipment, inventory, and shipments.",
+    "kind": "production_screen_direction_not_spoken",
+    "recording_confirmed": false
+  },
+  {
+    "id": "E005",
+    "source_section": "3 What a Fabric ontology contains",
+    "line": 31,
+    "verbatim": "Guest: Namespaces provide scopes for definitions. Inheritance lets a specialized entity reuse a base type's structure. In our retail example, Store can derive from Location, and Frozen Product can derive from Product.",
+    "kind": "script_example_or_scenario",
+    "recording_confirmed": false
+  },
+  {
+    "id": "E006",
+    "source_section": "3 What a Fabric ontology contains",
+    "line": 32,
+    "verbatim": "There are details to check. A derived type needs its own data binding, and ordinary relationships aren't inherited automatically. The current agent also doesn't automatically include every derived instance when you query a parent type. For the frozen-goods analysis, we'll name the relevant type explicitly.",
+    "kind": "script_example_or_scenario",
+    "recording_confirmed": false
+  },
+  {
+    "id": "E007",
+    "source_section": "4 Building on Power BI",
+    "line": 39,
+    "verbatim": "Josh: Who owns a calculation such as revenue after that?",
+    "kind": "script_example_or_scenario",
+    "recording_confirmed": false
+  },
+  {
+    "id": "E008",
+    "source_section": "4 Building on Power BI",
+    "line": 41,
+    "verbatim": "For the demo, we'll inspect a revenue metric in the SalesReport model. We also need Read and Build permissions to generate from and query that semantic model. Viewing the underlying DAX expression through the metric details requires write permission on the source model.",
+    "kind": "script_example_or_scenario",
+    "recording_confirmed": false
+  },
+  {
+    "id": "E009",
+    "source_section": "5 Adding context that a schema cannot explain",
+    "line": 46,
+    "verbatim": "Guest: Start with the knowledge that changes the answer. In this scenario, that includes the meaning of a priority store, how inventory risk is determined, the temperature unit, and the difference between a product ID and a supplier's code.",
+    "kind": "script_example_or_scenario",
+    "recording_confirmed": false
+  },
+  {
+    "id": "E010",
+    "source_section": "5 Adding context that a schema cannot explain",
+    "line": 52,
+    "verbatim": "On screen: A TemperatureC property description, an entity synonym, and a business rule linked to the relevant concepts. Avoid treating a metadata classification as an access-control policy.",
+    "kind": "production_screen_direction_not_spoken",
+    "recording_confirmed": false
+  },
+  {
+    "id": "E011",
+    "source_section": "6 Connecting the model to data",
+    "line": 57,
+    "verbatim": "Our demo uses three routes. A lakehouse holds operational reference data and inventory and shipment records. An eventhouse holds refrigeration readings. A Power BI semantic model provides the sales context and its defined measures.",
+    "kind": "script_example_or_scenario",
+    "recording_confirmed": false
+  },
+  {
+    "id": "E012",
+    "source_section": "7 Creating and reviewing with the ontology agent",
+    "line": 66,
+    "verbatim": "Demo prompt: Add a Sale entity using the Sales table in the SalesReport semantic model in this workspace. Preview the proposed definition and bindings, and explain the source evidence. Keep the existing ontology elements intact.",
+    "kind": "production_prompt_not_assumed_spoken",
+    "recording_confirmed": false
+  },
+  {
+    "id": "E013",
+    "source_section": "8 Demo the retail operations review",
+    "line": 74,
+    "verbatim": "Josh: Bring us into the business scenario.",
+    "kind": "script_example_or_scenario",
+    "recording_confirmed": false
+  },
+  {
+    "id": "E014",
+    "source_section": "8 Demo the retail operations review",
+    "line": 75,
+    "verbatim": "Guest: We're using Microsoft's fictional Lakeshore Retail scenario. It has store and product information, inventory, shipments, refrigeration data, and a sales semantic model. For this recording, we have prepared the definitions and relationships needed for a regional operations review.",
+    "kind": "script_example_or_scenario",
+    "recording_confirmed": false
+  },
+  {
+    "id": "E015",
+    "source_section": "8 Demo the retail operations review",
+    "line": 77,
+    "verbatim": "Demo prompt: Review priority stores in the West region for frozen-product inventory risk. Include recent refrigeration exceptions, shelf availability, and the next expected inbound delivery. Explain the definitions and time windows you use, identify missing information, and show the supporting queries.",
+    "kind": "production_prompt_not_assumed_spoken",
+    "recording_confirmed": false
+  },
+  {
+    "id": "E016",
+    "source_section": "9 Inspecting calculations and permissions",
+    "line": 86,
+    "verbatim": "Guest: I'll start with the query and its time filter, then check the source fields and the business definition it used. For the commercial context, let's also ask for the model's established revenue calculation.",
+    "kind": "script_example_or_scenario",
+    "recording_confirmed": false
+  },
+  {
+    "id": "E017",
+    "source_section": "9 Inspecting calculations and permissions",
+    "line": 87,
+    "verbatim": "Demo prompt: Use the governed revenue metric in SalesReport to summarize sales by store for the reporting period selected in that report. Identify the source measure and show the query you execute.",
+    "kind": "production_prompt_not_assumed_spoken",
+    "recording_confirmed": false
+  },
+  {
+    "id": "E018",
+    "source_section": "10 Follow up on causes and future risk",
+    "line": 95,
+    "verbatim": "Josh: Suppose availability is getting worse. Can we investigate why?",
+    "kind": "script_example_or_scenario",
+    "recording_confirmed": false
+  },
+  {
+    "id": "E019",
+    "source_section": "10 Follow up on causes and future risk",
+    "line": 97,
+    "verbatim": "Demo prompt: Compare the affected stores with their prior reporting period. Examine inventory, delivery timing, and refrigeration observations. Separate measured changes from possible explanations, and identify evidence needed to decide between them.",
+    "kind": "production_prompt_not_assumed_spoken",
+    "recording_confirmed": false
+  },
+  {
+    "id": "E020",
+    "source_section": "10 Follow up on causes and future risk",
+    "line": 100,
+    "verbatim": "Guest: Define the forecast as its own analytical task: the target, horizon, inputs, method, and validation. Fabric Data Science provides notebooks, experimentation, model tracking, and scoring. We can prepare predictions in that workflow and expose the results to the business review.",
+    "kind": "script_example_or_scenario",
+    "recording_confirmed": false
+  },
+  {
+    "id": "E021",
+    "source_section": "10 Follow up on causes and future risk",
+    "line": 101,
+    "verbatim": "For a forecast segment, I'd show the prepared model's historical evaluation and uncertainty before discussing its output. That gives the operator a basis for deciding whether the prediction is useful.",
+    "kind": "script_example_or_scenario",
+    "recording_confirmed": false
+  },
+  {
+    "id": "E022",
+    "source_section": "10 Follow up on causes and future risk",
+    "line": 102,
+    "verbatim": "On screen: Inspect follow-up queries. The optional forecast segment uses a separately prepared and evaluated model; display its method, horizon, validation, and observation date.",
+    "kind": "production_screen_direction_not_spoken",
+    "recording_confirmed": false
+  },
+  {
+    "id": "E023",
+    "source_section": "11 When a materialized graph helps",
+    "line": 106,
+    "verbatim": "Guest: When the relationship path is central to the question: for example, tracing a supplier's exposure through products, shipments, and stores. You can opt in to materializing an eligible subset of the ontology for that kind of traversal.",
+    "kind": "script_example_or_scenario",
+    "recording_confirmed": false
+  },
+  {
+    "id": "E024",
+    "source_section": "11 When a materialized graph helps",
+    "line": 108,
+    "verbatim": "For this demo, we can prepare a small supplier-to-store graph from eligible operational tables. The temperature and Power BI calculations continue through their appropriate source paths.",
+    "kind": "script_example_or_scenario",
+    "recording_confirmed": false
+  },
+  {
+    "id": "E025",
+    "source_section": "12 Choosing an agent experience",
+    "line": 119,
+    "verbatim": "On screen: A comparison of the agent roles, followed by the relevant integration documentation. Keep any optional external integration as a separately configured example.",
+    "kind": "production_screen_direction_not_spoken",
+    "recording_confirmed": false
+  },
+  {
+    "id": "E026",
+    "source_section": "13 From analysis to an operational response",
+    "line": 126,
+    "verbatim": "Guest: Here's the prepared Teams notification from our test event. I can inspect the unit, observation, and proposed action before approving it. Configured actions can invoke Fabric items or a Power Automate flow.",
+    "kind": "script_example_or_scenario",
+    "recording_confirmed": false
+  },
+  {
+    "id": "E027",
+    "source_section": "13 From analysis to an operational response",
+    "line": 130,
+    "verbatim": "On screen: Show the separate operational item, the reviewed playbook, the actual test notification, action parameters, and the test destination. Use recorded output or allow for the five-minute monitoring cycle. A standalone Activator example, if included, is a separate configuration.",
+    "kind": "production_screen_direction_not_spoken",
+    "recording_confirmed": false
+  },
+  {
+    "id": "E028",
+    "source_section": "14 Turning report analysis into written work",
+    "line": 136,
+    "verbatim": "Demo prompt: Using the attached sales report, draft a one-page regional review for the period selected in the report. State the reporting period, summarize the main changes, and list questions for the operations meeting.",
+    "kind": "production_prompt_not_assumed_spoken",
+    "recording_confirmed": false
+  },
+  {
+    "id": "E029",
+    "source_section": "15 Reuse and maintenance",
+    "line": 146,
+    "verbatim": "On screen: Version history, import summary example, ownership information, and the current migration notice.",
+    "kind": "production_screen_direction_not_spoken",
+    "recording_confirmed": false
+  },
+  {
+    "id": "E030",
+    "source_section": "17 Getting started and closing",
+    "line": 159,
+    "verbatim": "Guest: Pick one team and one recurring decision. For the retail example, that's the regional inventory review. Bring in the person who owns its definitions, the analyst who knows the data, and the operator who will use the result.",
+    "kind": "script_example_or_scenario",
+    "recording_confirmed": false
+  },
+  {
+    "id": "E031",
+    "source_section": "17 Getting started and closing",
+    "line": 165,
+    "verbatim": "Josh: Thanks for joining us. We'll link the ontology documentation and the Lakeshore Retail tutorial so viewers can explore the scenario and evaluate it with their own team.",
+    "kind": "script_example_or_scenario",
+    "recording_confirmed": false
+  }
+]

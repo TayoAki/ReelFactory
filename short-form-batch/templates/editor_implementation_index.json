@@ -1,0 +1,675 @@
+[
+  {
+    "name": "fr",
+    "source": "components/ev1_devices.py",
+    "line": 28,
+    "args": [
+      "t"
+    ],
+    "doc": ""
+  },
+  {
+    "name": "dstr",
+    "source": "components/ev1_devices.py",
+    "line": 32,
+    "args": [
+      "t0",
+      "t1"
+    ],
+    "doc": ""
+  },
+  {
+    "name": "esc",
+    "source": "components/ev1_devices.py",
+    "line": 37,
+    "args": [
+      "s"
+    ],
+    "doc": ""
+  },
+  {
+    "name": "sfx",
+    "source": "components/ev1_devices.py",
+    "line": 133,
+    "args": [
+      "c",
+      "t",
+      "role",
+      "gain_scale"
+    ],
+    "doc": ""
+  },
+  {
+    "name": "still",
+    "source": "components/ev1_devices.py",
+    "line": 139,
+    "args": [
+      "c",
+      "t0",
+      "t1",
+      "src",
+      "z",
+      "push",
+      "origin",
+      "size",
+      "push_from"
+    ],
+    "doc": "A held real image, edge to edge, on a slow linear push (REF-1/2: every still breathes)."
+  },
+  {
+    "name": "frames",
+    "source": "components/ev1_devices.py",
+    "line": 151,
+    "args": [
+      "c",
+      "t0",
+      "srcs",
+      "z",
+      "per",
+      "sound"
+    ],
+    "doc": "Show a list of pre-rendered frames one (or `per`) frame each: the 3-4 frame datamosh."
+  },
+  {
+    "name": "tile_reveal",
+    "source": "components/ev1_devices.py",
+    "line": 163,
+    "args": [
+      "c",
+      "t",
+      "src",
+      "z",
+      "cols",
+      "rows",
+      "frames_n",
+      "seed",
+      "size",
+      "click"
+    ],
+    "doc": "REF-1's opening move: the thirds grid; each pane flashes white for one frame and\nthen shows the new picture, one pane per frame in a shuffled order, one click per pane.\nThe layer ends when the last pane lands; put the full still underneath from `t`."
+  },
+  {
+    "name": "captions",
+    "source": "components/ev1_devices.py",
+    "line": 191,
+    "args": [
+      "c",
+      "groups",
+      "z",
+      "y",
+      "on_paper",
+      "slots"
+    ],
+    "doc": "Small white words, centred, each appearing on its own spoken onset (+-1 frame,\nmeasured), laid out in their final slots so nothing re-centres. groups = list of\n(words, t_end) where words = [(text, onset), ...]."
+  },
+  {
+    "name": "keyword",
+    "source": "components/ev1_devices.py",
+    "line": 216,
+    "args": [
+      "c",
+      "t0",
+      "t1",
+      "text",
+      "z",
+      "x",
+      "y",
+      "kind",
+      "blur_in",
+      "sound",
+      "size"
+    ],
+    "doc": "The big word. kind = key (white sans) | shock (red Didone caps) | title (chrome serif\nitalic). Blur-in over 6 frames (REF-1 \"Valley\"); the shock word cuts on hard.\ntext may be a list: one display line each, stacked left-aligned (a long ID behind a\nhead reads better as two short lines than as one occluded one)."
+  },
+  {
+    "name": "svg_mark",
+    "source": "components/ev1_devices.py",
+    "line": 241,
+    "args": [
+      "c",
+      "t0",
+      "t1",
+      "svg_markup",
+      "z",
+      "width",
+      "x",
+      "y",
+      "color",
+      "blur_in"
+    ],
+    "doc": "A real brand mark (the company's own SVG), white, blurred in like a keyword."
+  },
+  {
+    "name": "pop_collage",
+    "source": "components/ev1_devices.py",
+    "line": 255,
+    "args": [
+      "c",
+      "t0",
+      "t1",
+      "cards",
+      "z",
+      "ground"
+    ],
+    "doc": "REF-2's opening: real cards land one by one on a dark ground, each preceded by a\none-frame white box of its own size, one click each. cards = [(src, x, y, w, rot, t_pop)]\n(x, y = card centre). The whole stack drifts in slowly."
+  },
+  {
+    "name": "wall3d",
+    "source": "components/ev1_devices.py",
+    "line": 275,
+    "args": [
+      "c",
+      "t0",
+      "t1",
+      "tiles",
+      "z",
+      "cols",
+      "tile_w",
+      "gap",
+      "rot",
+      "travel",
+      "sound"
+    ],
+    "doc": "REF-1 41.4-45.3s: a perspective plane covered in real cards, the camera sweeping\nacross it with motion blur. tiles = list of srcs, laid on a grid and repeated to fill."
+  },
+  {
+    "name": "paper_card",
+    "source": "components/ev1_devices.py",
+    "line": 298,
+    "args": [
+      "c",
+      "t0",
+      "t1",
+      "src",
+      "z",
+      "card_w",
+      "left",
+      "right",
+      "invert_in"
+    ],
+    "doc": "REF-1 8.2-9.0s: a small real card on the grey-vignetted paper ground, the spoken\nwords flanking it in ink, the card creeping larger. Opens on an invert flash\n(the paper reads black for `invert_in` frames, REF-2 f503)."
+  },
+  {
+    "name": "strobe",
+    "source": "components/ev1_devices.py",
+    "line": 327,
+    "args": [
+      "c",
+      "t0",
+      "t1",
+      "srcs",
+      "z",
+      "step_frames",
+      "tracker",
+      "seed"
+    ],
+    "doc": "REF-2 83.2-84.6s: one word carried by a burst of images, 2-3 frames each, a small\nwhite square hopping between them. One tick per image."
+  },
+  {
+    "name": "focus_card",
+    "source": "components/ev1_devices.py",
+    "line": 352,
+    "args": [
+      "c",
+      "t0",
+      "t1",
+      "src",
+      "z",
+      "card_w",
+      "frames_n",
+      "mark",
+      "ground"
+    ],
+    "doc": "A real card filling most of the frame, opening defocused and racking sharp over\n12 frames (REF-1 9.9s). mark = (x, y, w, h, t) highlighter on the card in CARD px."
+  },
+  {
+    "name": "terminal",
+    "source": "components/ev1_devices.py",
+    "line": 374,
+    "args": [
+      "c",
+      "t0",
+      "t1",
+      "cmd",
+      "rows",
+      "z",
+      "stop_t",
+      "marks",
+      "font",
+      "cmd_frames"
+    ],
+    "doc": "A rebuilt API call: the command types, the response streams up, and stops with the\nrows that matter centred; markers sweep across them one per tick (REF-1's PayPal\nreceipt is the same move: a real interface, rebuilt, timed to the words)."
+  },
+  {
+    "name": "typewriter",
+    "source": "components/ev1_devices.py",
+    "line": 410,
+    "args": [
+      "c",
+      "t0",
+      "t1",
+      "lines",
+      "z",
+      "font",
+      "top"
+    ],
+    "doc": "REF-2 51.8s \"with no \u25ae\": text typing on black behind a white block cursor, with\nbroken scanlines flickering across. lines = [(html_text_plain, t_start, frames_per_char)]."
+  },
+  {
+    "name": "find_hop",
+    "source": "components/ev1_devices.py",
+    "line": 442,
+    "args": [
+      "c",
+      "t0",
+      "t1",
+      "pages",
+      "query",
+      "z",
+      "type_at",
+      "fpc",
+      "counter",
+      "rate",
+      "dim"
+    ],
+    "doc": "REF-2 69.6-72.4s \"platform hop\": one input keeps typing while the site under it cuts\n(Google -> Facebook -> YouTube -> Twitter -> ChatGPT). Here it is a browser find bar\nsearching each real page for the thing he says is missing: \"aurora \u2014 0/0\". pages =\n[(src, t_cut)], each a full-frame capture; one click per page cut."
+  },
+  {
+    "name": "broll",
+    "source": "components/ev1_devices.py",
+    "line": 482,
+    "args": [
+      "c",
+      "t0",
+      "t1",
+      "src",
+      "z",
+      "rate",
+      "direction",
+      "focus_in",
+      "start_scale",
+      "origin",
+      "media_start",
+      "punches",
+      "style"
+    ],
+    "doc": "A real moving clip, edge to edge, never still: REF-1 runs a steady digital zoom of\n4-7.5%/s on 62 of 79 shots (in on faces and objects, out on composites), and opens new\ninterview cuts defocused, sharpening over ~9 frames (focus_in=9). punches = [(t, scale)]\nhard punch-ins on a word. Transform AND filter both reach the renderer on <video>\n(tested 2026-10-20)."
+  },
+  {
+    "name": "overlay",
+    "source": "components/ev1_devices.py",
+    "line": 508,
+    "args": [
+      "c",
+      "t0",
+      "t1",
+      "src",
+      "z",
+      "blend",
+      "opacity",
+      "media_start"
+    ],
+    "doc": "A texture clip over everything: light leak (screen), glitch noise (normal, 2-4 frames)."
+  },
+  {
+    "name": "neg_flash",
+    "source": "components/ev1_devices.py",
+    "line": 518,
+    "args": [
+      "c",
+      "t",
+      "ids",
+      "sound"
+    ],
+    "doc": "REF-1's invert: ONE negative frame, then ONE overexposed bloom frame, then the shot.\nids = the elements on screen at t (videos included \u2014 filters reach the renderer)."
+  },
+  {
+    "name": "white_flash",
+    "source": "components/ev1_devices.py",
+    "line": 531,
+    "args": [
+      "c",
+      "t",
+      "z",
+      "frames_n",
+      "sound"
+    ],
+    "doc": ""
+  },
+  {
+    "name": "finish",
+    "source": "components/ev1_devices.py",
+    "line": 537,
+    "args": [
+      "c",
+      "t0",
+      "t1",
+      "z",
+      "grid",
+      "vignette"
+    ],
+    "doc": "The overlays every image beat sits under: thirds grid (scaled with the push in\nREF-1, here static) and the vignette."
+  },
+  {
+    "name": "css_once",
+    "source": "components/ev1_more.py",
+    "line": 16,
+    "args": [
+      "c",
+      "key",
+      "css"
+    ],
+    "doc": ""
+  },
+  {
+    "name": "seq",
+    "source": "components/ev1_more.py",
+    "line": 22,
+    "args": [
+      "c",
+      "items",
+      "z",
+      "t_end",
+      "click",
+      "push",
+      "rot",
+      "seed",
+      "fit",
+      "ground",
+      "origin",
+      "dim",
+      "white_box"
+    ],
+    "doc": "items = [(src, t_on)] each shown until the next (the last until t_end). Every image is pushed\n(REF: nothing sits still) and gets a click on its frame. rot = max random rotation (deg) for the\nsemantic-object strobes (REF-3 money strobe: small rotate/push per image). white_box: one white\nframe before each image (REF-2 pop)."
+  },
+  {
+    "name": "vseq",
+    "source": "components/ev1_more.py",
+    "line": 52,
+    "args": [
+      "c",
+      "items",
+      "z",
+      "t_end",
+      "click",
+      "rate",
+      "focus_in"
+    ],
+    "doc": "items = [(src, t_on, media_start)] \u2014 moving footage cut on the words, a click per cut."
+  },
+  {
+    "name": "pop_shatter",
+    "source": "components/ev1_more.py",
+    "line": 64,
+    "args": [
+      "c",
+      "t0",
+      "t1",
+      "cards",
+      "z",
+      "ground_src",
+      "shatter"
+    ],
+    "doc": "REF-2 0.00-1.16: cards pop one per word (a 1-frame white box of the card's size first, a click\neach), the stack PULLS OUT ~11%, then breaks into white blocks: 2f blocky slabs, 1f white, 1f smear.\ncards = [(src, x, y, w, rot, t_pop)] (x, y = centre)."
+  },
+  {
+    "name": "whip_out",
+    "source": "components/ev1_more.py",
+    "line": 99,
+    "args": [
+      "c",
+      "vid",
+      "t_end",
+      "frames_n"
+    ],
+    "doc": "the zoom accelerates with the subject over the last frames: x1.15, 1.30, 1.35, 1.83 + motion smear."
+  },
+  {
+    "name": "silence_cut",
+    "source": "components/ev1_more.py",
+    "line": 107,
+    "args": [
+      "c",
+      "t0",
+      "t1",
+      "wav",
+      "win",
+      "silences",
+      "cut_at",
+      "z",
+      "width",
+      "clip_name"
+    ],
+    "doc": "A rebuilt editor track of THIS take: the real waveform of `win` (seconds), the real silences\n(silencedetect) flagged red, then snapped shut one by one at cut_at[k] \u2014 a click each, the rest of\nthe track sliding left (transform only)."
+  },
+  {
+    "name": "edit_timeline",
+    "source": "components/ev1_more.py",
+    "line": 183,
+    "args": [
+      "c",
+      "t0",
+      "t1",
+      "view",
+      "clips",
+      "words",
+      "cues",
+      "z",
+      "sweep",
+      "wav",
+      "hl_word"
+    ],
+    "doc": "The real timeline of THIS video between view=(a,b): V1 = the actual shots (thumb per shot),\nA1 = the spoken words as blocks at their onsets (+ waveform), FX = every sound cue. The playhead sweeps\n`sweep`=(from,to) in comp seconds across the beat; each cut it crosses flashes a guide line down\nto the word it lands on, with a click (REF: clicks land on the frame)."
+  },
+  {
+    "name": "comment_box",
+    "source": "components/ev1_more.py",
+    "line": 266,
+    "args": [
+      "c",
+      "t0",
+      "t1",
+      "z",
+      "placeholder",
+      "avatar_letter",
+      "type_text",
+      "type_at",
+      "fpc"
+    ],
+    "doc": "A generic comment composer (no brand marks, no invented comments): avatar, the input line,\na blinking caret; optional text typing. \"You tell me\" = the empty box waiting for the viewer."
+  },
+  {
+    "name": "bed_wave",
+    "source": "components/ev1_more.py",
+    "line": 300,
+    "args": [
+      "c",
+      "t0",
+      "t1",
+      "wav",
+      "song_at",
+      "z",
+      "span",
+      "color"
+    ],
+    "doc": "The music bed's real waveform, scrolling under a fixed centre line: at comp time t the\ncentre shows song time song_at + (t - t0). A symmetric peak plot, white on black."
+  },
+  {
+    "name": "filmstrip",
+    "source": "components/ev1_more.py",
+    "line": 321,
+    "args": [
+      "c",
+      "t0",
+      "t1",
+      "thumbs",
+      "z",
+      "tw",
+      "travel"
+    ],
+    "doc": "Every shot of the video as a strip of frames racing past (REF-1's wall, flattened):\n35mm-style perforations, a click as the strip starts."
+  },
+  {
+    "name": "player_window",
+    "source": "components/ev1_more.py",
+    "line": 341,
+    "args": [
+      "c",
+      "t0",
+      "t1",
+      "src",
+      "media_start",
+      "z",
+      "steps",
+      "dur_label",
+      "bar_t"
+    ],
+    "doc": "This video, shrinking into a generic player in hard steps (REF-3's window-expand, reversed):\nthe frame is the video, and we're watching it inside itself. steps = [(frame_offset, scale)].\nThe <video> is a top-level clip (never inside a wrapper); the chrome is a separate clip above it."
+  },
+  {
+    "name": "calendar",
+    "source": "components/ev1_more.py",
+    "line": 373,
+    "args": [
+      "c",
+      "t0",
+      "t1",
+      "months",
+      "events",
+      "z",
+      "pan"
+    ],
+    "doc": "A wall calendar of real months; each real release lands on its date as a chip (a 1-frame\nwhite box first, a click each). months = [(year, month)], events = [(y, m, d, label, t_land)]."
+  },
+  {
+    "name": "code_scroll",
+    "source": "components/ev1_more.py",
+    "line": 414,
+    "args": [
+      "c",
+      "t0",
+      "t1",
+      "lines",
+      "z",
+      "font",
+      "title",
+      "speed",
+      "hl",
+      "start_y",
+      "end_y"
+    ],
+    "doc": "Real text (this build's own code, cue sheet, render log) scrolling up in a dark editor pane.\nlines = list of (html) strings. hl = (row, t) puts the marker on one row."
+  },
+  {
+    "name": "slap_caps",
+    "source": "components/ev1_more.py",
+    "line": 441,
+    "args": [
+      "c",
+      "items",
+      "t_end",
+      "z",
+      "y",
+      "size",
+      "big"
+    ],
+    "doc": "The generic auto-caption look the line mocks (made for this video): one heavy uppercase word at a\ntime, marker-yellow with a thick black stroke, each SLAPPED on (scale 1.45 -> 0.96 -> 1 over 3 frames,\na small tilt), a click each. items = [(word, t)]; big = the word that lands bigger."
+  },
+  {
+    "name": "img_mark",
+    "source": "components/ev1_more.py",
+    "line": 463,
+    "args": [
+      "c",
+      "t0",
+      "t1",
+      "src",
+      "z",
+      "width",
+      "x",
+      "y",
+      "white",
+      "blur_in",
+      "shadow"
+    ],
+    "doc": "A real brand mark as <img> (keeps its own colours: the Claude spark stays clay, Gemini keeps its\ngradient). white=True turns a black mark white (invert). Blur-in over 6 frames like a key word."
+  },
+  {
+    "name": "cutout_world",
+    "source": "components/ev1_more.py",
+    "line": 478,
+    "args": [
+      "c",
+      "t0",
+      "t1",
+      "worlds",
+      "matte_src",
+      "matte_first_s",
+      "z",
+      "mega",
+      "matte_rate",
+      "tiles"
+    ],
+    "doc": "REF-1 0-4.5s: the speaker (RVM matte from the RAW plate, never graded) standing still while the world behind swaps on\nthe words, each swap a tile-flash reveal. worlds = [(kind, src, t_on, still_for_tiles, media_start)]\nkind = 'video'|'img'. mega = (text, t_on, y): the huge red word BEHIND the head.\nLayer order: world (z) -> tiles (z+1) -> mega (z+10) -> matte (z+20)."
+  },
+  {
+    "name": "double_neg",
+    "source": "components/ev1_more.py",
+    "line": 503,
+    "args": [
+      "c",
+      "t",
+      "out_ids",
+      "in_ids",
+      "sound"
+    ],
+    "doc": "REF-2 D19, into every chapter: the last 2 frames of the outgoing shot inverted + the first 2 of the\nincoming inverted."
+  },
+  {
+    "name": "triptych",
+    "source": "components/ev1_more.py",
+    "line": 516,
+    "args": [
+      "c",
+      "t0",
+      "t1",
+      "vids",
+      "z",
+      "gap",
+      "rate"
+    ],
+    "doc": "REF-1 S70: the three people of the line side by side (vertical panels here; a diagonal seam\nwould need clip-path on <video>, which the renderer is not proven to honour). vids = [(src, media_start)].\nEach panel is its own top-level <video> in frame px, opening defocused (rack in, 6 frames)."
+  },
+  {
+    "name": "page_card",
+    "source": "components/ev1_more.py",
+    "line": 533,
+    "args": [
+      "c",
+      "t0",
+      "t1",
+      "src",
+      "z",
+      "marks",
+      "mark_t",
+      "dark",
+      "focus_frames",
+      "push",
+      "step"
+    ],
+    "doc": "A real page edge to edge: opens defocused and racks sharp (REF-1 9.9s), pushes slowly, and the\nhighlighter sweeps each measured box in turn (marks = [[x,y,w,h]] in 1920x1080 px, from OCR / DOM),\n`step` frames apart, a soft click each. Marks live inside the pushed container so they stay on the words."
+  },
+  {
+    "name": "captions_switch",
+    "source": "components/ev1_more.py",
+    "line": 557,
+    "args": [
+      "c",
+      "words",
+      "segs",
+      "z",
+      "y"
+    ],
+    "doc": "REF-2: the caption turns black on light pages and white on dark ones, in the same slots. words =\n[(text, onset)]; segs = [(t_start, t_end, 'ink'|'white')]. Every seg lays out ALL the words (so nothing\nre-centres) and shows those already spoken. Ink gets a paper halo so it reads over page text."
+  }
+]

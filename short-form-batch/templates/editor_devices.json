@@ -1,0 +1,173 @@
+[
+  {
+    "id": "D01",
+    "device": "`tile_reveal`",
+    "use_when": "opens a chapter / swaps a world",
+    "reported_recipe": "9 panes, 1/frame, white 1f then picture, a click each (REF-1)",
+    "source": "Editor V1 SKILL.md \u00a72",
+    "evidence_status": "reported by supplied package; not independently remeasured in this task",
+    "fabric_adaptation": "Use only if it explains the spoken relationship; Fabric theme and legibility override red/amber defaults and arbitrary rapid cuts."
+  },
+  {
+    "id": "D02",
+    "device": "`cutout_world` + `scripts/matte.py`",
+    "use_when": "names a list of variants; the hero line",
+    "reported_recipe": "speaker persists, the world swaps by tile reveal; `mega=` the huge red word BEHIND the head",
+    "source": "Editor V1 SKILL.md \u00a72",
+    "evidence_status": "reported by supplied package; not independently remeasured in this task",
+    "fabric_adaptation": "Use only if it explains the spoken relationship; Fabric theme and legibility override red/amber defaults and arbitrary rapid cuts."
+  },
+  {
+    "id": "D03",
+    "device": "`pop_collage` / `pop_shatter`",
+    "use_when": "says a number of things",
+    "reported_recipe": "1 card per word, a white box 1f before each, then the stack pulls out and shatters (REF-2)",
+    "source": "Editor V1 SKILL.md \u00a72",
+    "evidence_status": "reported by supplied package; not independently remeasured in this task",
+    "fabric_adaptation": "Use only if it explains the spoken relationship; Fabric theme and legibility override red/amber defaults and arbitrary rapid cuts."
+  },
+  {
+    "id": "D04",
+    "device": "`seq` / `vseq`",
+    "use_when": "a run of stills / clips cut on the words",
+    "reported_recipe": "a push on every image, a click per cut",
+    "source": "Editor V1 SKILL.md \u00a72",
+    "evidence_status": "reported by supplied package; not independently remeasured in this task",
+    "fabric_adaptation": "Use only if it explains the spoken relationship; Fabric theme and legibility override red/amber defaults and arbitrary rapid cuts."
+  },
+  {
+    "id": "D05",
+    "device": "`strobe`",
+    "use_when": "lands one abstract word",
+    "reported_recipe": "2\u20133 frame images, shape-matched, a hopping square, a click each (REF-2)",
+    "source": "Editor V1 SKILL.md \u00a72",
+    "evidence_status": "reported by supplied package; not independently remeasured in this task",
+    "fabric_adaptation": "Use only if it explains the spoken relationship; Fabric theme and legibility override red/amber defaults and arbitrary rapid cuts."
+  },
+  {
+    "id": "D06",
+    "device": "`wall3d`",
+    "use_when": "\"everyone / everywhere / every leaderboard\"",
+    "reported_recipe": "perspective plane, 0.8\u20133.5 s sweep, blur on the move, silent (REF-1)",
+    "source": "Editor V1 SKILL.md \u00a72",
+    "evidence_status": "reported by supplied package; not independently remeasured in this task",
+    "fabric_adaptation": "Use only if it explains the spoken relationship; Fabric theme and legibility override red/amber defaults and arbitrary rapid cuts."
+  },
+  {
+    "id": "D07",
+    "device": "`page_card` / `focus_card` / `paper_card`",
+    "use_when": "quotes a page, post or document",
+    "reported_recipe": "rack focus in, highlighter swept over OCR/DOM-measured boxes",
+    "source": "Editor V1 SKILL.md \u00a72",
+    "evidence_status": "reported by supplied package; not independently remeasured in this task",
+    "fabric_adaptation": "Use only if it explains the spoken relationship; Fabric theme and legibility override red/amber defaults and arbitrary rapid cuts."
+  },
+  {
+    "id": "D08",
+    "device": "`calendar`",
+    "use_when": "\"every few weeks\", a cadence",
+    "reported_recipe": "the real dates, each item lands on its day with a click",
+    "source": "Editor V1 SKILL.md \u00a72",
+    "evidence_status": "reported by supplied package; not independently remeasured in this task",
+    "fabric_adaptation": "Use only if it explains the spoken relationship; Fabric theme and legibility override red/amber defaults and arbitrary rapid cuts."
+  },
+  {
+    "id": "D09",
+    "device": "`terminal` / `code_scroll` / `typewriter`",
+    "use_when": "\"the API\", \"the code\", a quoted line",
+    "reported_recipe": "real text, scrolls and stops, markers sweep",
+    "source": "Editor V1 SKILL.md \u00a72",
+    "evidence_status": "reported by supplied package; not independently remeasured in this task",
+    "fabric_adaptation": "Use only if it explains the spoken relationship; Fabric theme and legibility override red/amber defaults and arbitrary rapid cuts."
+  },
+  {
+    "id": "D10",
+    "device": "`comment_box`",
+    "use_when": "\"tell me in the comments\"",
+    "reported_recipe": "a generic composer, caret blinking; never fake comments",
+    "source": "Editor V1 SKILL.md \u00a72",
+    "evidence_status": "reported by supplied package; not independently remeasured in this task",
+    "fabric_adaptation": "Use only if it explains the spoken relationship; Fabric theme and legibility override red/amber defaults and arbitrary rapid cuts."
+  },
+  {
+    "id": "D11",
+    "device": "`slap_caps`",
+    "use_when": "mocks generic auto-captions",
+    "reported_recipe": "the clich\u00e9 look, made for this video, labelled as such by context",
+    "source": "Editor V1 SKILL.md \u00a72",
+    "evidence_status": "reported by supplied package; not independently remeasured in this task",
+    "fabric_adaptation": "Use only if it explains the spoken relationship; Fabric theme and legibility override red/amber defaults and arbitrary rapid cuts."
+  },
+  {
+    "id": "D12",
+    "device": "`silence_cut` / `edit_timeline` / `filmstrip` / `player_window` / `bed_wave`",
+    "use_when": "the video talks about editing itself",
+    "reported_recipe": "the take's real waveform and silences, this build's real shots, cues and song (two-pass build)",
+    "source": "Editor V1 SKILL.md \u00a72",
+    "evidence_status": "reported by supplied package; not independently remeasured in this task",
+    "fabric_adaptation": "Use only if it explains the spoken relationship; Fabric theme and legibility override red/amber defaults and arbitrary rapid cuts."
+  },
+  {
+    "id": "D13",
+    "device": "`triptych`",
+    "use_when": "three people of one line",
+    "reported_recipe": "three panels, each racks in",
+    "source": "Editor V1 SKILL.md \u00a72",
+    "evidence_status": "reported by supplied package; not independently remeasured in this task",
+    "fabric_adaptation": "Use only if it explains the spoken relationship; Fabric theme and legibility override red/amber defaults and arbitrary rapid cuts."
+  },
+  {
+    "id": "D14",
+    "device": "`frames` + `ev1_treat.glitch_frames`",
+    "use_when": "\"broke / leaked / glitch\", any hard turn",
+    "reported_recipe": "3\u20134 frame datamosh, a glitch sound",
+    "source": "Editor V1 SKILL.md \u00a72",
+    "evidence_status": "reported by supplied package; not independently remeasured in this task",
+    "fabric_adaptation": "Use only if it explains the spoken relationship; Fabric theme and legibility override red/amber defaults and arbitrary rapid cuts."
+  },
+  {
+    "id": "D15",
+    "device": "`neg_flash` / `double_neg` / `white_flash` / `whip_out`",
+    "use_when": "out of a title, into a chapter, a fast carry",
+    "reported_recipe": "1\u20132 frame negatives, a white frame, an accelerating zoom",
+    "source": "Editor V1 SKILL.md \u00a72",
+    "evidence_status": "reported by supplied package; not independently remeasured in this task",
+    "fabric_adaptation": "Use only if it explains the spoken relationship; Fabric theme and legibility override red/amber defaults and arbitrary rapid cuts."
+  },
+  {
+    "id": "D16",
+    "device": "`keyword(kind=key / title / shock / mega)`",
+    "use_when": "the one word of the line",
+    "reported_recipe": "132 px sans \u00b7 136 px chrome serif \u00b7 176 px red Didone \u00b7 560 px red behind the head",
+    "source": "Editor V1 SKILL.md \u00a72",
+    "evidence_status": "reported by supplied package; not independently remeasured in this task",
+    "fabric_adaptation": "Use only if it explains the spoken relationship; Fabric theme and legibility override red/amber defaults and arbitrary rapid cuts."
+  },
+  {
+    "id": "D17",
+    "device": "`img_mark` / `svg_mark`",
+    "use_when": "a company's mark",
+    "reported_recipe": "its real logo, its own colours",
+    "source": "Editor V1 SKILL.md \u00a72",
+    "evidence_status": "reported by supplied package; not independently remeasured in this task",
+    "fabric_adaptation": "Use only if it explains the spoken relationship; Fabric theme and legibility override red/amber defaults and arbitrary rapid cuts."
+  },
+  {
+    "id": "D18",
+    "device": "black card (`keyword` on `ev1-black`)",
+    "use_when": "\"nothing\", \"no one\", a beat of silence",
+    "reported_recipe": "a small word alone on black, the bed pulls down",
+    "source": "Editor V1 SKILL.md \u00a72",
+    "evidence_status": "reported by supplied package; not independently remeasured in this task",
+    "fabric_adaptation": "Use only if it explains the spoken relationship; Fabric theme and legibility override red/amber defaults and arbitrary rapid cuts."
+  },
+  {
+    "id": "D19",
+    "device": "`captions` / `captions_switch`",
+    "use_when": "every beat",
+    "reported_recipe": "white word-by-word; ink with a paper halo on light pages",
+    "source": "Editor V1 SKILL.md \u00a72",
+    "evidence_status": "reported by supplied package; not independently remeasured in this task",
+    "fabric_adaptation": "Use only if it explains the spoken relationship; Fabric theme and legibility override red/amber defaults and arbitrary rapid cuts."
+  }
+]

@@ -89,6 +89,8 @@ Run `scripts/validate_storyboard.py <storyboard.json>` before handoff. This chec
 
 ## Local evidence and implementation
 
+For long-recording short-form batches, read `references/short-form-batch.md`. The actual recording controls quotes and timestamps; an earlier written script is never silently substituted. Apply the supplied Short-Form Playbook's takeaway/hook/QA ideas and Editor V1's meaning-routed devices as reference patterns, with this project's interview format, Fabric brand and image-first readability rules taking precedence. Clearly separate script drafts, verified recording moments and rendered clips.
+
 - Full source catalog: `references/catalog.json`.
 - Rules: `references/selection-rules.md`.
 - Technical rewrite example: `references/technical-rewrite-example.md`.

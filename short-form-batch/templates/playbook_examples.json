@@ -1,0 +1,1105 @@
+{
+  "extraction_scope": "Every explicit example/template/arrow-pattern line and every fenced sample block in the supplied playbook; not claimed to be independently verified real-world evidence.",
+  "source_sha256": "da0ed4cb4f3087e1c4320eb183547c310384bacc2328a14455d2fcf4bc59102d",
+  "example_template_lines": [
+    {
+      "id": "PB001",
+      "section": "Contents",
+      "line": 48,
+      "excerpt": "- [Appendix C: Worked example, start to finish](#appendix-c-worked-example)",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB002",
+      "section": "The core loop (read this first)",
+      "line": 91,
+      "excerpt": "- **Full run (for a client):** Phases 0 \u2192 6 (and 7 and 8 when their conditions are met). If a template bank from the last 90 days",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB003",
+      "section": "How to read this document",
+      "line": 99,
+      "excerpt": "- Do the phases **in order: 0 \u2192 1 \u2192 2 \u2192 3 \u2192 4 \u2192 5 \u2192 6**. Phase 7 runs only when performance data exists.",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB004",
+      "section": "Glossary",
+      "line": 175,
+      "excerpt": "| **Slot** | A labeled blank in a template: `{{NAME:TYPE}}`. |",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB005",
+      "section": "The 5x test",
+      "line": 203,
+      "excerpt": "Example: a creator with 18,000 followers and a reel with 126,000 views has a ratio of 126,000 \u00f7 18,000 = 7.0, so it **PASSES**.",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB006",
+      "section": "The measurable value test",
+      "line": 210,
+      "excerpt": "1. It contains at least one **specific element**: a number, a named step, a named method, a concrete example, a",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB007",
+      "section": "Supadata quick reference",
+      "line": 294,
+      "excerpt": "| Transcript of any video URL | `GET /transcript?url=<URL>&mode=auto&text=false` | `content[]` (`text`, `offset` in ms), `lang`. A response with `jobId` \u2192 poll `GET /transcript/<jobId>` every 5 s until `status` is `completed` or `failed` |",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB008",
+      "section": "Output folder layout",
+      "line": 342,
+      "excerpt": "| Thing | Format | Example |",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB009",
+      "section": "`00_client_profile.json` schema",
+      "line": 373,
+      "excerpt": "  \"handle\": \"@example\",",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB010",
+      "section": "`00_client_profile.json` schema",
+      "line": 387,
+      "excerpt": "  \"offers\": [{\"id\": \"X1\", \"name\": \"6-Week Puppy Foundations\", \"type\": \"paid_offer\", \"link\": \"https://example.com/program\"}],",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB011",
+      "section": "`00_client_profile.json` schema",
+      "line": 388,
+      "excerpt": "  \"freebie\": {\"name\": \"Puppy's First 30 Days Checklist\", \"link\": \"https://example.com/checklist\", \"manychat_keyword\": \"PUPPY\"},",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB012",
+      "section": "Steps",
+      "line": 474,
+      "excerpt": "   - `tofu` \u2192 `educational` (broad and simple; easy structures are allowed)",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB013",
+      "section": "Steps",
+      "line": 475,
+      "excerpt": "   - `mofu` \u2192 `storytelling`",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB014",
+      "section": "Steps",
+      "line": 476,
+      "excerpt": "   - `bofu` \u2192 alternate within the month: the first BOFU slot is `educational` (in-depth), the next is `authority`",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB015",
+      "section": "Step 2.1: Build the keyword list \u2192 `02_keywords.json`",
+      "line": 528,
+      "excerpt": "   problem). Example for \"crate training\": \"crate training puppy\", \"puppy crying in crate\".",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB016",
+      "section": "Step 2.3, Mode A: Instagram research",
+      "line": 582,
+      "excerpt": "1. **Reset the research account's algorithm** (only at the first run for a client): Profile \u2192 \u2630 menu \u2192",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB017",
+      "section": "Step 2.3, Mode A: Instagram research",
+      "line": 583,
+      "excerpt": "   Content preferences \u2192 Reset suggested content \u2192 Next \u2192 Reset suggested content \u2192 Reset suggested content.",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB018",
+      "section": "Step 2.3, Mode A: Instagram research",
+      "line": 584,
+      "excerpt": "2. **Keyword research.** For every keyword in `02_keywords.json`: Explore \u2192 search bar \u2192 type the keyword \u2192 open the",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB019",
+      "section": "Step 2.3, Mode A: Instagram research",
+      "line": 585,
+      "excerpt": "   Reels results \u2192 scroll until you've checked at least 30 reels or the results run out. Run each reel through the candidate procedure.",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB020",
+      "section": "Step 2.3, Mode A: Instagram research",
+      "line": 587,
+      "excerpt": "   1. Search a keyword \u2192 **Accounts** tab \u2192 open the top accounts.",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB021",
+      "section": "Step 2.3, Mode A: Instagram research",
+      "line": 588,
+      "excerpt": "   2. From any good reel you found \u2192 tap the creator's profile picture.",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB022",
+      "section": "Step 2.3, Mode A: Instagram research",
+      "line": 589,
+      "excerpt": "   3. Open a kept account \u2192 tap **Follow** \u2192 browse **Suggested accounts**.",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB023",
+      "section": "Step 2.3, Mode A: Instagram research",
+      "line": 590,
+      "excerpt": "   4. Open a kept account \u2192 open its **Following** list \u2192 look for niche accounts.",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB024",
+      "section": "Step 2.3, Mode A: Instagram research",
+      "line": 592,
+      "excerpt": "   For each kept account: open the Reels tab \u2192 sort by **Most viewed** (on desktop, the Sort Feed Chrome extension:",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB025",
+      "section": "Step 2.3, Mode A: Instagram research",
+      "line": 593,
+      "excerpt": "   All items \u2192 Views \u2192 export CSV) \u2192 run the top 10 reels through the candidate procedure.",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB026",
+      "section": "Step 2.3, Mode C: YouTube Shorts via Supadata",
+      "line": 607,
+      "excerpt": "3. For each **distinct** `channel.id`: `GET /youtube/channel?id=<id>` \u2192 `subscriberCount`. Cache these, and never look up",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB027",
+      "section": "The teardown card",
+      "line": 660,
+      "excerpt": "| 2 | Post type | `post_type`, `carousel_type` | [A14](#a14-post-types), [A10](#a10-other-labels) | Video \u2192 `reel`; several slides \u2192 `carousel` (then pick the carousel type); single image \u2192 `photo` |",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB028",
+      "section": "The teardown card",
+      "line": 667,
+      "excerpt": "| 9 | Video type | `video_type` | [A11](#a11-video-types) | A named type such as ranking, tier list, day in the life or cost breakdown, or `none` |",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB029",
+      "section": "The teardown card",
+      "line": 670,
+      "excerpt": "| 12 | Content type and funnel | `content_type`, `funnel` | [A4](#a4-content-types), [A7](#a7-funnel-stages) | Broad and simple \u2192 `tofu`; personal \u2192 `mofu`; in-depth, proof or offer \u2192 `bofu` |",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB030",
+      "section": "Step 3.2: Fill in the teardown card",
+      "line": 731,
+      "excerpt": "| `structure_pattern` | The beat labels joined with ` \u2192 ` (e.g. `HOOK \u2192 NAME_METHOD \u2192 STEP\u00d73 \u2192 EXAMPLE \u2192 RECAP \u2192 CTA`). Write repeats as `\u00d7N` |",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB031",
+      "section": "Step 3.2: Fill in the teardown card",
+      "line": 734,
+      "excerpt": "| `cta` | `type` from [A6](#a6-cta-types-and-lines), `mechanic` from [A15](#a15-cta-mechanics), and `text` as the exact words. No ask \u2192 `none` |",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB032",
+      "section": "Step 3.2: Fill in the teardown card",
+      "line": 738,
+      "excerpt": "| `editing.audio` | [A13](#a13-audio-types). `uses_original_audio: true` and speech \u2192 `original_voice` (or `voice_plus_music` if music is audible under it). A named song and no speech \u2192 `music_only` or `trending_audio` |",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB033",
+      "section": "Step 3.3: Identify the format",
+      "line": 746,
+      "excerpt": "1. Another video is visible on screen (inset, split screen or stitched) \u2192 `reaction`",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB034",
+      "section": "Step 3.3: Identify the format",
+      "line": 747,
+      "excerpt": "2. The same person appears **twice in one frame** \u2192 `clone`",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB035",
+      "section": "Step 3.3: Identify the format",
+      "line": 748,
+      "excerpt": "3. The same person alternates between two looks, positions or characters in a dialogue \u2192 `talking_back_forth`",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB036",
+      "section": "Step 3.3: Identify the format",
+      "line": 749,
+      "excerpt": "4. A whiteboard (or paper or a tablet) being written on appears in \u2265 30% of the overview frames \u2192 `whiteboard`",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB037",
+      "section": "Step 3.3: Identify the format",
+      "line": 750,
+      "excerpt": "5. The speaker is composited over an image or video background \u2192 `green_screen`",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB038",
+      "section": "Step 3.3: Identify the format",
+      "line": 751,
+      "excerpt": "6. An off-camera voice asks a question and on-camera people answer, often into a handheld mic \u2192 `qa`",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB039",
+      "section": "Step 3.3: Identify the format",
+      "line": 753,
+      "excerpt": "   - the story is carried by on-screen text over music, with a new image every 1 to 3 seconds \u2192 `audio_broll_text`",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB040",
+      "section": "Step 3.3: Identify the format",
+      "line": 754,
+      "excerpt": "   - otherwise \u2192 `voiceover`",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB041",
+      "section": "Step 3.3: Identify the format",
+      "line": 755,
+      "excerpt": "8. The speaker is doing an unrelated task while talking (cooking, cleaning, makeup, driving) \u2192 `multitasking`",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB042",
+      "section": "Step 3.3: Identify the format",
+      "line": 756,
+      "excerpt": "9. The location or background changes **3 or more times** \u2192 `setting_change`",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB043",
+      "section": "Step 3.3: Identify the format",
+      "line": 757,
+      "excerpt": "10. Props or objects are used to demonstrate the point \u2192 `visual_prop`",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB044",
+      "section": "Step 3.3: Identify the format",
+      "line": 758,
+      "excerpt": "11. `avg_shot_s \u2264 2.5` in one location \u2192 `shot_angle_change`",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB045",
+      "section": "Step 3.3: Identify the format",
+      "line": 759,
+      "excerpt": "12. None of the above \u2192 `talking_head`",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB046",
+      "section": "Step 3.4: Detect series content",
+      "line": 772,
+      "excerpt": "   - marker `day N`, and the sibling post dates are mostly 1 to 2 days apart \u2192 `daily`",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB047",
+      "section": "Step 3.4: Detect series content",
+      "line": 773,
+      "excerpt": "   - marker `lesson N`, or each episode teaches a different lesson \u2192 `lesson`",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB048",
+      "section": "Step 3.4: Detect series content",
+      "line": 774,
+      "excerpt": "   - marker `step N` or `part N`, where each episode is one step of the same process \u2192 `step_by_step`",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB049",
+      "section": "Step 3.4: Detect series content",
+      "line": 775,
+      "excerpt": "   - one stated goal with updates that aren't daily (`week N`, \"update\", irregular dates) \u2192 `progress_update`",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB050",
+      "section": "`03_elements/O001.json` schema",
+      "line": 810,
+      "excerpt": "  \"structure_pattern\": \"HOOK \u2192 NAME_METHOD \u2192 STEP\u00d73 \u2192 EXAMPLE \u2192 RECAP \u2192 CTA\",",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB051",
+      "section": "`03_elements/O001.json` schema",
+      "line": 821,
+      "excerpt": "`confidence` is one of `seen`, `cover_only` or `unknown`. A series example:",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB052",
+      "section": "Step 4.1: The templatizing procedure (use it for every hook and every structure)",
+      "line": 858,
+      "excerpt": "4. **Replace each run of content words with one slot** written as `{{NAME:TYPE}}`:",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB053",
+      "section": "Step 4.1: The templatizing procedure (use it for every hook and every structure)",
+      "line": 859,
+      "excerpt": "   - `NAME` is UPPER_SNAKE_CASE, describes the role, and is unique within the template (e.g. `{{GOAL:OUTCOME}}`, `{{STEP_1:STEP_ACTION}}`)",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB054",
+      "section": "Step 4.1: The templatizing procedure (use it for every hook and every structure)",
+      "line": 862,
+      "excerpt": "   into `{{N:NUMBER}}` if the count can change. Repeating parts become a block:",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB055",
+      "section": "Step 4.1: The templatizing procedure (use it for every hook and every structure)",
+      "line": 863,
+      "excerpt": "   `[REPEAT {{N:NUMBER}} times] \u2026 [/REPEAT]`.",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB056",
+      "section": "Step 4.1: The templatizing procedure (use it for every hook and every structure)",
+      "line": 868,
+      "excerpt": "8. **Name the pattern** in plain words (e.g. \"Costly habit \u2192 named rule \u2192 3 steps \u2192 week example \u2192 recap \u2192 freebie\").",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB057",
+      "section": "Step 4.2: Hook templates \u2192 `04_hook_templates.json`",
+      "line": 875,
+      "excerpt": "- A visual hook template describes a filmable action with slots, e.g. \"Pulls {{N:NUMBER}} {{ITEM:ITEM}}s out of a bag one at a time.\"",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB058",
+      "section": "Step 4.2: Hook templates \u2192 `04_hook_templates.json`",
+      "line": 882,
+      "excerpt": "  \"template\": \"I wasted {{COST:COST}} on {{BAD_HABIT:MISTAKE}} until I tried this.\",",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB059",
+      "section": "Step 4.3: Structure templates \u2192 `04_structure_templates.json`",
+      "line": 909,
+      "excerpt": "  \"pattern\": \"Costly habit \u2192 named rule \u2192 N steps \u2192 week example \u2192 recap \u2192 freebie\",",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB060",
+      "section": "Step 4.3: Structure templates \u2192 `04_structure_templates.json`",
+      "line": 913,
+      "excerpt": "    {\"label\": \"NAME_METHOD\", \"line\": \"Here's the {{N:NUMBER}}-{{UNIT:ITEM}} rule.\"},",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB061",
+      "section": "Step 4.3: Structure templates \u2192 `04_structure_templates.json`",
+      "line": 914,
+      "excerpt": "    {\"label\": \"STEP\", \"line\": \"[REPEAT {{N}} times] {{UNIT}} {{ORDINAL}}: {{STEP_ACTION:STEP_ACTION}}, {{STEP_EXAMPLE:EXAMPLE}}. [/REPEAT]\"},",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB062",
+      "section": "Step 4.3: Structure templates \u2192 `04_structure_templates.json`",
+      "line": 915,
+      "excerpt": "    {\"label\": \"EXAMPLE\", \"line\": \"{{SITUATION_1:EXAMPLE}}: {{APPLY_1:EXAMPLE}}. {{SITUATION_2:EXAMPLE}}: {{APPLY_2:EXAMPLE}}.\"},",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB063",
+      "section": "Step 4.3: Structure templates \u2192 `04_structure_templates.json`",
+      "line": 916,
+      "excerpt": "    {\"label\": \"RECAP\", \"line\": \"That's it: {{N}} {{UNIT}}s, {{TIME_COST:TIMEFRAME}}.\"},",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB064",
+      "section": "Step 4.3: Structure templates \u2192 `04_structure_templates.json`",
+      "line": 921,
+      "excerpt": "    {\"name\": \"STEP_EXAMPLE\", \"type\": \"EXAMPLE\", \"rule\": \"first-person detail that shows the step, \u2264 12 words\", \"from\": \"knowledge|stories\"}",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB065",
+      "section": "Step 4.4: Format blueprints \u2192 `04_format_blueprints.json`",
+      "line": 932,
+      "excerpt": "script. Make one blueprint per distinct `format` found in the teardowns, built from the best example (the highest",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB066",
+      "section": "Step 4.4: Format blueprints \u2192 `04_format_blueprints.json`",
+      "line": 940,
+      "excerpt": "6. **Props or locations needed,** as slots (e.g. `{{PROP_1:ITEM}}`).",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB067",
+      "section": "Step 4.4: Format blueprints \u2192 `04_format_blueprints.json`",
+      "line": 946,
+      "excerpt": "  \"roles\": {\"A\": \"{{CONTRAST_A:CONTRAST_A}} version (left, warm outfit)\", \"B\": \"{{CONTRAST_B:CONTRAST_B}} version (right, dark outfit)\"},",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB068",
+      "section": "Step 4.4: Format blueprints \u2192 `04_format_blueprints.json`",
+      "line": 952,
+      "excerpt": "  \"needs\": [\"tripod\", \"two outfits\", \"{{PROP_1:ITEM}}\"]",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB069",
+      "section": "Step 4.5: Series blueprints \u2192 `04_series_blueprints.json`",
+      "line": 962,
+      "excerpt": "   \"Day {{N:NUMBER}} of {{GOAL:OUTCOME}}.\" or \"Lesson {{N:NUMBER}} of {{TOTAL:NUMBER}}: {{LESSON_TITLE:TOPIC}}.\"",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB070",
+      "section": "Step 4.5: Series blueprints \u2192 `04_series_blueprints.json`",
+      "line": 963,
+      "excerpt": "2. **Episode beats:** the beat pattern every episode follows, e.g. `HOOK(marker + goal) \u2192 RESULT(today's update) \u2192 TURN(problem or win) \u2192 LESSON \u2192 LOOP \u2192 CTA(follow)`.",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB071",
+      "section": "Step 4.5: Series blueprints \u2192 `04_series_blueprints.json`",
+      "line": 966,
+      "excerpt": "5. **Cliffhanger line templates:** 2 or 3 `LOOP` madlibs, e.g. \"Tomorrow I find out if {{RISK:STORY_MOMENT}}.\"",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB072",
+      "section": "Step 4.5: Series blueprints \u2192 `04_series_blueprints.json`",
+      "line": 967,
+      "excerpt": "6. **Series plan fields for Phase 5:** `premise_slot` (`{{PREMISE:OUTCOME}}`) and `episodes_planned`.",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB073",
+      "section": "Step 4.5: Series blueprints \u2192 `04_series_blueprints.json`",
+      "line": 972,
+      "excerpt": "  \"episode_hook\": \"Day {{N:NUMBER}} of {{GOAL:OUTCOME}}.\",",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB074",
+      "section": "Step 4.5: Series blueprints \u2192 `04_series_blueprints.json`",
+      "line": 973,
+      "excerpt": "  \"episode_beats\": \"HOOK(marker + goal) \u2192 RESULT \u2192 TURN \u2192 LESSON \u2192 LOOP \u2192 CTA(follow)\",",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB075",
+      "section": "Step 4.5: Series blueprints \u2192 `04_series_blueprints.json`",
+      "line": 975,
+      "excerpt": "  \"loop_templates\": [\"Tomorrow I find out if {{RISK:STORY_MOMENT}}.\", \"But {{PROBLEM:PAIN}}, and I have no idea how to fix it yet.\"],",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB076",
+      "section": "Step 4.5: Series blueprints \u2192 `04_series_blueprints.json`",
+      "line": 976,
+      "excerpt": "  \"premise_slot\": \"{{PREMISE:OUTCOME}}\", \"episodes_planned\": null",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB077",
+      "section": "Step 5.1: Choose the angle and delivery",
+      "line": 1004,
+      "excerpt": "- `content_type = storytelling` \u2192 `delivery = storytelling`, and pick a `story_type` that has a matching story in the bank.",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB078",
+      "section": "Step 5.1: Choose the angle and delivery",
+      "line": 1006,
+      "excerpt": "- `content_type = authority` \u2192 `angle = transformation`, using a `proof` item.",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB079",
+      "section": "Step 5.1: Choose the angle and delivery",
+      "line": 1007,
+      "excerpt": "- `content_type = educational` \u2192 rotate through the 7 angles so none repeats until all have been used, skipping",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB080",
+      "section": "Step 5.1: Choose the angle and delivery",
+      "line": 1009,
+      "excerpt": "- `bucket = double_down` \u2192 skip ahead to [Phase 7, step 7.3](#step-73-double-down-recipe).",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB081",
+      "section": "Step 5.1: Choose the angle and delivery",
+      "line": 1010,
+      "excerpt": "- `series_episode: true` \u2192 use the series blueprint:",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB082",
+      "section": "Step 5.1: Choose the angle and delivery",
+      "line": 1014,
+      "excerpt": "  - the CTA is `follow` (\"Follow so you don't miss Day {{N+1}}\").",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB083",
+      "section": "Step 5.2: Pick the Client Bank material (the value)",
+      "line": 1020,
+      "excerpt": "2. Educational \u2192 pick 1 knowledge item. Storytelling \u2192 pick 1 story (plus knowledge for the lesson). Authority \u2192 pick",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB084",
+      "section": "Step 5.4: Pick and fill the structure template",
+      "line": 1049,
+      "excerpt": "   STEP/EXAMPLE beats, never the hook or CTA.",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB085",
+      "section": "Step 5.5: Choose the format",
+      "line": 1053,
+      "excerpt": "- Storytelling \u2192 `voiceover`, `shot_angle_change` or `audio_broll_text`.",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB086",
+      "section": "Step 5.5: Choose the format",
+      "line": 1054,
+      "excerpt": "- Series episodes \u2192 `shot_angle_change`, `visual_prop`, `voiceover` or `setting_change`.",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB087",
+      "section": "Step 5.5: Choose the format",
+      "line": 1055,
+      "excerpt": "- Comparison or do-vs-don't \u2192 prefer `clone` or `talking_back_forth`.",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB088",
+      "section": "Phase 6: Quality gate",
+      "line": 1148,
+      "excerpt": "| Q6 | No invented facts | Check every claim about the client against the bank items listed | Every claim maps to a listed ID, or is a `[[NEEDS CLIENT INPUT]]` marker |",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB089",
+      "section": "Step 7.2: Define the client's own outliers",
+      "line": 1205,
+      "excerpt": "`own_outlier` if `views \u2265 3 \u00d7 average_views_last_20` (playbook default; the videos' example used about 10\u00d7: a 1K average",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB090",
+      "section": "Step 7.3: Double-down recipe",
+      "line": 1214,
+      "excerpt": "| **A** | Everything | Make one small change to the **value** (the next tip, a different example, a different step) |",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB091",
+      "section": "Step 7.3: Double-down recipe",
+      "line": 1219,
+      "excerpt": "client's own past script. Rule 1 (no invented facts) still does.",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB092",
+      "section": "A6. CTA types and lines",
+      "line": 1337,
+      "excerpt": "| `follow` | TOFU, MOFU, BOFU | \"Follow for more {{NICHE}} {{CONTENT_NOUN}} like this.\" / for series: \"Follow so you don't miss part {{NEXT_N}}.\" |",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB093",
+      "section": "A6. CTA types and lines",
+      "line": 1338,
+      "excerpt": "| `freebie` | TOFU, BOFU | \"Comment {{KEYWORD}} and I'll send you {{FREEBIE_NAME}}.\" (`KEYWORD` = `freebie.manychat_keyword`, ALL CAPS, \u2264 7 letters) |",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB094",
+      "section": "A6. CTA types and lines",
+      "line": 1339,
+      "excerpt": "| `paid_offer` | BOFU | \"Comment {{KEYWORD}} and I'll send you the details on {{OFFER_NAME}}.\" (always pair with proof in the body) |",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB095",
+      "section": "A6. CTA types and lines",
+      "line": 1340,
+      "excerpt": "| `engagement` | any | \"Comment {{QUESTION_ANSWER_OPTIONS}}, and tell me which one you are.\" |",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB096",
+      "section": "A8. Beat labels",
+      "line": 1356,
+      "excerpt": "| `EXAMPLE` | A concrete illustration |",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB097",
+      "section": "A9. Slot types",
+      "line": 1370,
+      "excerpt": "`EXAMPLE`, `TIMEFRAME`, `COST`, `RESULT`, `PROOF`, `STORY_MOMENT`, `EMOTION`, `CONTRAST_A`, `CONTRAST_B`, `QUESTION`,",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB098",
+      "section": "A11. Video types",
+      "line": 1391,
+      "excerpt": "| `good_better_best` | Options ranked bad \u2192 good \u2192 excellent |",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB099",
+      "section": "A15. CTA mechanics",
+      "line": 1439,
+      "excerpt": "`comment_keyword` (comment a word \u2192 automatic DM), `follow`, `link_in_bio`, `dm_keyword`, `save_or_share`, `none`",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB100",
+      "section": "B1. Templatize prompt (Phase 4)",
+      "line": 1459,
+      "excerpt": "   names, brands, places, claims) with one slot written {{NAME:TYPE}}. NAME is UPPER_SNAKE_CASE and unique.",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB101",
+      "section": "B1. Templatize prompt (Phase 4)",
+      "line": 1461,
+      "excerpt": "3. Turn repeated parts into [REPEAT {{N:NUMBER}} times] ... [/REPEAT].",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB102",
+      "section": "B2. Fill prompt (Phase 5)",
+      "line": 1481,
+      "excerpt": "- The value must be specific and actionable (a number, a named step, a concrete example).",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB103",
+      "section": "Appendix C: Worked example",
+      "line": 1523,
+      "excerpt": "A complete walk-through of one slot. **Everything here is invented for illustration.** The \"source video\" isn't a real",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB104",
+      "section": "Appendix C: Worked example",
+      "line": 1524,
+      "excerpt": "video, and the client is fictional. Use it to see what each output looks like.",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB105",
+      "section": "C1. Inputs",
+      "line": 1528,
+      "excerpt": "- **Client:** the profile shown in [Phase 0](#00_client_profilejson-schema) (Maya Ortiz, dog trainer). Additional bank items for this example:",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB106",
+      "section": "C3. Phase 3: extraction of O001",
+      "line": 1546,
+      "excerpt": "Source transcript (invented, 98 words):",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB107",
+      "section": "C3. Phase 3: extraction of O001",
+      "line": 1563,
+      "excerpt": "  \"value\": {\"summary\": \"A 3-part weekly meal-prep system with a day-by-day example.\", \"measurable\": true, \"source_type\": \"personal_experience\"},",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB108",
+      "section": "C3. Phase 3: extraction of O001",
+      "line": 1569,
+      "excerpt": "    {\"label\": \"EXAMPLE\", \"text\": \"Monday is chicken, rice and peanut sauce. Wednesday, same base, salsa verde.\"},",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB109",
+      "section": "C3. Phase 3: extraction of O001",
+      "line": 1574,
+      "excerpt": "  \"structure_pattern\": \"HOOK \u2192 NAME_METHOD \u2192 STEP\u00d73 \u2192 EXAMPLE \u2192 RECAP \u2192 CTA\",",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB110",
+      "section": "C4. Phase 4: the madlibs",
+      "line": 1591,
+      "excerpt": "| H001 | verbal | \"I wasted {{COST:COST}} on {{BAD_HABIT:MISTAKE}} until I tried this.\" | O001 |",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB111",
+      "section": "C4. Phase 4: the madlibs",
+      "line": 1592,
+      "excerpt": "| H014 | written | \"{{N:NUMBER}} steps to {{OUTCOME:OUTCOME}}\" | O006 (its cover read \"3 steps to a debt-free year\", invented) |",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB112",
+      "section": "C4. Phase 4: the madlibs",
+      "line": 1593,
+      "excerpt": "| H027 | visual | \"Pulls {{N:NUMBER}} {{ITEM:ITEM}}s out of a bag one at a time and sets each down.\" | O011 |",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB113",
+      "section": "C4. Phase 4: the madlibs",
+      "line": 1594,
+      "excerpt": "| T001 | structure | HOOK \u2192 \"Here's the {{N}}-{{UNIT}} rule.\" \u2192 [REPEAT N] \"{{UNIT}} {{ORDINAL}}: {{STEP_ACTION}}, {{STEP_EXAMPLE}}.\" \u2192 \"{{SITUATION_1}}: {{APPLY_1}}. {{SITUATION_2}}: {{APPLY_2}}.\" \u2192 \"That's it: {{N}} {{UNIT}}s, {{TIME_COST}}.\" \u2192 CTA | O001 |",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB114",
+      "section": "C4. Phase 4: the madlibs",
+      "line": 1595,
+      "excerpt": "| F003 | format blueprint | `visual_prop`: hold up {{ITEM}} as each one is named; close-up on each item; its label pops in on screen; avg shot ~3 s; voice + low music | O001 |",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB115",
+      "section": "Appendix E: Source map",
+      "line": 1687,
+      "excerpt": "| Script structures; easy vs complex; transcribe \u2192 templatize \u2192 bank; no word-for-word copying | [How to Write a Killer Script in 2026](https://www.youtube.com/watch?v=PJWWGq_Yuoo) |",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB116",
+      "section": "Appendix E: Source map",
+      "line": 1691,
+      "excerpt": "| Carousel types; reel \u2192 carousel; trending audio on carousels | [8 VIRAL Carousel Ideas](https://www.youtube.com/watch?v=eBoc3TmL3yg) |",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    },
+    {
+      "id": "PB117",
+      "section": "Appendix E: Source map",
+      "line": 1692,
+      "excerpt": "| Master prompt; role/context/command/format; SOP \u2192 skill \u2192 agent; human QC; anti-\"AI slop\" rules | [How to Use AI For Your Content](https://www.youtube.com/watch?v=9kfy0VO55kA) |",
+      "classification": "instructional example/template; not verified creator/client performance",
+      "provenance": "uploaded playbook"
+    }
+  ],
+  "sample_blocks": [
+    {
+      "id": "CB001",
+      "language": "",
+      "line": 58,
+      "content": "  1. FIND              2. TEAR DOWN             3. TEMPLATIZE              4. FILL\n  outliers      \u2500\u2500\u25ba    each outlier      \u2500\u2500\u25ba    what made it work   \u2500\u2500\u25ba    for the client's niche\n  (Phase 2)            (Phase 3)                (Phase 4)                  (Phase 5)\n  5x test              17-element card          madlibs + blueprints       client's own words, facts, stories\n",
+      "classification": "sample schema/template/illustration, not a live source result"
+    },
+    {
+      "id": "CB002",
+      "language": "",
+      "line": 194,
+      "content": "outlier_ratio = views / creator_followers\nPASS if outlier_ratio >= 5.0\n      AND creator_followers <= 500,000          (playbook default: \"small to mid-size\")\n      AND post_age_days <= 365                  (playbook default)\n      AND the post is not marked Sponsored / Paid partnership\n      AND views is a real number you observed (not estimated)\n",
+      "classification": "sample schema/template/illustration, not a live source result"
+    },
+    {
+      "id": "CB003",
+      "language": "",
+      "line": 266,
+      "content": "POST https://openrouter.ai/api/v1/chat/completions\nAuthorization: Bearer $OPENROUTER_API_KEY\nContent-Type: application/json\n\n{\"model\": \"<openrouter_model from the client profile>\",\n \"temperature\": <see below>,\n \"messages\": [{\"role\": \"system\", \"content\": \"<Appendix B prompt>\"},\n              {\"role\": \"user\",   \"content\": \"<the inputs, as JSON>\"}]}\n",
+      "classification": "sample schema/template/illustration, not a live source result"
+    },
+    {
+      "id": "CB004",
+      "language": "",
+      "line": 318,
+      "content": "work/<client>/\n  00_client_profile.json            Phase 0  (persists across months)\n  <YYYY-MM>/\n    01_month_plan.json              Phase 1\n    02_keywords.json                Phase 2\n    02_outliers.json                Phase 2\n    02_research_log.md              Phase 2  (credits, mode, notes)\n    03_elements/<outlier_id>.json   Phase 3  (one file per outlier)\n    04_hook_templates.json          Phase 4\n    04_structure_templates.json     Phase 4\n    04_format_blueprints.json       Phase 4\n    04_series_blueprints.json       Phase 4\n    tmp/                            Phase 3  (temporary videos and frames; delete after each teardown)\n    05_scripts/<slot_id>.md         Phase 5  (one file per video)\n    05_ideation.csv                 Phase 5  (one row per video)\n    06_qa_report.md                 Phase 6\n    07_review.json                  Phase 7  (only when analytics exist)\n    08_production/<slot_id>/        Phase 8  (only if producing videos)\n    BLOCKED.md                      only if blocked\n",
+      "classification": "sample schema/template/illustration, not a live source result"
+    },
+    {
+      "id": "CB005",
+      "language": "json",
+      "line": 370,
+      "content": "{\n  \"client_name\": \"Maya Ortiz\",\n  \"handle\": \"@example\",\n  \"platform\": \"instagram\",\n  \"niche\": \"dog training\",\n  \"sub_niches\": [\"crate training\", \"potty training\", \"leash walking\", \"puppy biting\", \"separation anxiety\"],\n  \"occupation_title\": \"certified dog trainer\",\n  \"city\": \"Austin, TX\",\n  \"audience\": \"first-time puppy owners, ages 25-40\",\n  \"primary_goal\": \"leads\",\n  \"account_status\": \"new\",\n  \"followers\": 640,\n  \"average_views_last_20\": 900,\n  \"posting_level\": \"moderate\",\n  \"posts_per_week\": null,\n  \"is_founder_building_in_public\": false,\n  \"offers\": [{\"id\": \"X1\", \"name\": \"6-Week Puppy Foundations\", \"type\": \"paid_offer\", \"link\": \"https://example.com/program\"}],\n  \"freebie\": {\"name\": \"Puppy's First 30 Days Checklist\", \"link\": \"https://example.com/checklist\", \"manychat_keyword\": \"PUPPY\"},\n  \"voice\": {\"uses\": [\"here's the thing\", \"tiny wins\", \"pup\"], \"never_uses\": [\"fur baby\", \"hack\"], \"reading_level\": \"plain, short sentences\"},\n  \"editing_style\": {\"colors\": [\"#1F3A5F\", \"#F4EBDD\", \"#E07A3F\"], \"primary_font\": \"Bold sans\", \"secondary_font\": \"Clean sans\", \"accent_font\": \"Handwritten\", \"visual_types\": [\"screen text callouts\", \"B-roll of dogs\", \"before/after clips\"]},\n  \"credit_budget\": {\"scrapecreators\": 300, \"supadata\": 20},\n  \"openrouter_model\": \"<an OpenRouter model id chosen by the human>\",\n  \"allow_long_transcription\": false,\n  \"produce_videos\": false,\n  \"client_bank\": {\n    \"knowledge\": [{\"id\": \"K1\", \"sub_niche\": \"crate training\", \"text\": \"3-step crate intro: meals in crate door open for 3 days; then close door 1 minute while eating; then leave room 5 minutes once calm.\"}],\n    \"stories\":   [{\"id\": \"S1\", \"story_type\": \"loss\", \"text\": \"First foster dog Biscuit chewed a door frame because I gave him the whole house on day one.\", \"assets\": [\"photo of chewed door frame\"]}],\n    \"proof\":     [{\"id\": \"P1\", \"type\": \"client_result\", \"text\": \"Client Jess: puppy went from crying 2 hours in the crate to sleeping through the night in 9 days.\", \"permission_to_share\": true}],\n    \"faqs\":      [{\"id\": \"F1\", \"text\": \"Should the crate be in my bedroom?\"}],\n    \"myths\":     [{\"id\": \"M1\", \"text\": \"Myth: letting a puppy cry it out builds independence. Client's view: it builds panic.\"}]\n  }\n}\n",
+      "classification": "sample schema/template/illustration, not a live source result"
+    },
+    {
+      "id": "CB006",
+      "language": "json",
+      "line": 495,
+      "content": "{\n  \"month\": \"2026-11\",\n  \"N\": 20,\n  \"rule\": \"90/10\",\n  \"slots\": [\n    {\"slot_id\": \"V01\", \"week\": 1, \"post_day\": \"Mon\", \"bucket\": \"proven\", \"funnel\": \"tofu\", \"content_type\": \"educational\",\n     \"cta_type\": \"follow\", \"topic\": \"crate training\", \"series_episode\": false, \"angle\": null, \"delivery\": null, \"format\": null}\n  ]\n}\n",
+      "classification": "sample schema/template/illustration, not a live source result"
+    },
+    {
+      "id": "CB007",
+      "language": "json",
+      "line": 531,
+      "content": "{\"keywords\": [{\"kw\": \"crate training\", \"source\": \"sub_niche\"}, {\"kw\": \"puppy crying in crate\", \"source\": \"variation\"}]}\n",
+      "classification": "sample schema/template/illustration, not a live source result"
+    },
+    {
+      "id": "CB008",
+      "language": "json",
+      "line": 625,
+      "content": "{\"outliers\": [{\n  \"id\": \"O001\", \"url\": \"https://www.instagram.com/reel/XXXX/\", \"platform\": \"instagram\",\n  \"creator_handle\": \"@somecreator\", \"views\": 126000, \"creator_followers\": 18000, \"outlier_ratio\": 7.0,\n  \"posted_date\": \"2026-08-14\", \"sponsored\": false, \"in_niche\": true, \"sub_niche\": \"crate training\",\n  \"found_via\": \"keyword\", \"why_saved\": \"hook + structure\", \"transcribed\": false\n}]}\n",
+      "classification": "sample schema/template/illustration, not a live source result"
+    },
+    {
+      "id": "CB009",
+      "language": "json",
+      "line": 791,
+      "content": "{\n  \"outlier_id\": \"O001\",\n  \"stats\": {\"views\": 126000, \"creator_followers\": 18000, \"outlier_ratio\": 7.0, \"posted_date\": \"2026-08-14\"},\n  \"post_type\": \"reel\", \"carousel_type\": null,\n  \"transcript_source\": \"scrapecreators\", \"timestamps\": true,\n  \"duration_s\": 41,\n  \"topic\": \"crate training\",\n  \"verbal_hook\": {\"text\": \"<exact words>\", \"end_ms\": 3400},\n  \"written_hook\": {\"text\": \"<exact on-screen text>\", \"confidence\": \"seen\"},\n  \"visual_hook\": {\"text\": \"Creator stacks three glass containers on the counter.\", \"confidence\": \"seen\"},\n  \"hook_pattern\": \"niche_specific\",\n  \"angle\": \"tutorial\",\n  \"video_type\": \"none\",\n  \"delivery\": \"educational\", \"story_type\": null,\n  \"series\": {\"is_series\": false},\n  \"content_type\": \"educational\", \"funnel\": \"tofu\",\n  \"beats\": [{\"label\": \"HOOK\", \"text\": \"...\"}, {\"label\": \"NAME_METHOD\", \"text\": \"...\"}, {\"label\": \"STEP\", \"text\": \"...\"}],\n  \"complexity\": \"easy\", \"structure_class\": \"easy_educational\",\n  \"structure_pattern\": \"HOOK \u2192 NAME_METHOD \u2192 STEP\u00d73 \u2192 EXAMPLE \u2192 RECAP \u2192 CTA\",\n  \"word_count\": 98, \"words_per_second\": 2.4,\n  \"value\": {\"summary\": \"...\", \"measurable\": true, \"source_type\": \"personal_experience\"},\n  \"cta\": {\"type\": \"freebie\", \"mechanic\": \"comment_keyword\", \"text\": \"<exact words>\"},\n  \"format\": \"visual_prop\", \"format_evidence\": \"f_002\u2013f_011: holds up each container as it is named\",\n  \"editing\": {\"captions\": \"word_by_word, center, 2 colors\", \"text_overlays\": 4, \"avg_shot_s\": 2.9,\n              \"audio\": \"voice_plus_music\", \"visual_types\": [\"talking_shot\", \"props\", \"b_roll\"]},\n  \"transcript\": [{\"text\": \"...\", \"offset\": 0, \"duration\": 1800}]\n}\n",
+      "classification": "sample schema/template/illustration, not a live source result"
+    },
+    {
+      "id": "CB010",
+      "language": "json",
+      "line": 878,
+      "content": "{\"hook_templates\": [{\n  \"id\": \"H001\", \"hook_type\": \"verbal\", \"angle\": \"tutorial\", \"hook_pattern\": \"niche_specific\", \"source_outliers\": [\"O001\"],\n  \"source_urls\": [\"https://www.instagram.com/reel/XXXX/\"],\n  \"template\": \"I wasted {{COST:COST}} on {{BAD_HABIT:MISTAKE}} until I tried this.\",\n  \"slots\": [\n    {\"name\": \"COST\", \"type\": \"COST\", \"rule\": \"a real cost from the client bank: money, time or sleep, with a unit\", \"from\": \"stories\"},\n    {\"name\": \"BAD_HABIT\", \"type\": \"MISTAKE\", \"rule\": \"the common costly habit the audience has, 2-6 words\", \"from\": \"knowledge\"}\n  ],\n  \"pattern\": \"Personal cost + 'until I tried this' curiosity gap\",\n  \"max_words_filled\": 15\n}]}\n",
+      "classification": "sample schema/template/illustration, not a live source result"
+    },
+    {
+      "id": "CB011",
+      "language": "json",
+      "line": 904,
+      "content": "{\"structure_templates\": [{\n  \"id\": \"T001\", \"source_outliers\": [\"O001\"], \"source_urls\": [\"https://www.instagram.com/reel/XXXX/\"],\n  \"delivery\": \"educational\", \"angle\": \"tutorial\", \"story_type\": null, \"video_type\": \"none\",\n  \"complexity\": \"easy\", \"structure_class\": \"easy_educational\", \"series_episode\": false,\n  \"pattern\": \"Costly habit \u2192 named rule \u2192 N steps \u2192 week example \u2192 recap \u2192 freebie\",\n  \"target_words\": [78, 118],\n  \"beats\": [\n    {\"label\": \"HOOK\", \"line\": \"<<use a hook stack>>\"},\n    {\"label\": \"NAME_METHOD\", \"line\": \"Here's the {{N:NUMBER}}-{{UNIT:ITEM}} rule.\"},\n    {\"label\": \"STEP\", \"line\": \"[REPEAT {{N}} times] {{UNIT}} {{ORDINAL}}: {{STEP_ACTION:STEP_ACTION}}, {{STEP_EXAMPLE:EXAMPLE}}. [/REPEAT]\"},\n    {\"label\": \"EXAMPLE\", \"line\": \"{{SITUATION_1:EXAMPLE}}: {{APPLY_1:EXAMPLE}}. {{SITUATION_2:EXAMPLE}}: {{APPLY_2:EXAMPLE}}.\"},\n    {\"label\": \"RECAP\", \"line\": \"That's it: {{N}} {{UNIT}}s, {{TIME_COST:TIMEFRAME}}.\"},\n    {\"label\": \"CTA\", \"line\": \"<<use the slot's CTA>>\"}\n  ],\n  \"slots\": [\n    {\"name\": \"STEP_ACTION\", \"type\": \"STEP_ACTION\", \"rule\": \"one concrete action, imperative, \u2264 14 words\", \"from\": \"knowledge\"},\n    {\"name\": \"STEP_EXAMPLE\", \"type\": \"EXAMPLE\", \"rule\": \"first-person detail that shows the step, \u2264 12 words\", \"from\": \"knowledge|stories\"}\n  ]\n}]}\n",
+      "classification": "sample schema/template/illustration, not a live source result"
+    },
+    {
+      "id": "CB012",
+      "language": "json",
+      "line": 943,
+      "content": "{\"format_blueprints\": [{\n  \"id\": \"F001\", \"format\": \"clone\", \"source_outliers\": [\"O014\"], \"source_urls\": [\"https://www.instagram.com/reel/YYYY/\"],\n  \"roles\": {\"A\": \"{{CONTRAST_A:CONTRAST_A}} version (left, warm outfit)\", \"B\": \"{{CONTRAST_B:CONTRAST_B}} version (right, dark outfit)\"},\n  \"shot_rule\": \"Locked-off camera. Film A's lines, then B's lines in the same spot, and composite side by side. Cut on every line.\",\n  \"target_avg_shot_s\": 1.8,\n  \"line_rule\": \"Alternate A and B every line. The last line is A only, delivering the takeaway.\",\n  \"text_rule\": \"Label each side with its role in the primary font. Word-by-word captions under each speaker.\",\n  \"audio_rule\": \"voice_plus_music, music low\",\n  \"needs\": [\"tripod\", \"two outfits\", \"{{PROP_1:ITEM}}\"]\n}]}\n",
+      "classification": "sample schema/template/illustration, not a live source result"
+    },
+    {
+      "id": "CB013",
+      "language": "json",
+      "line": 969,
+      "content": "{\"series_blueprints\": [{\n  \"id\": \"S-BP01\", \"series_type\": \"daily\", \"source_outliers\": [\"O022\"], \"source_urls\": [\"https://www.instagram.com/reel/ZZZZ/\"],\n  \"episode_hook\": \"Day {{N:NUMBER}} of {{GOAL:OUTCOME}}.\",\n  \"episode_beats\": \"HOOK(marker + goal) \u2192 RESULT \u2192 TURN \u2192 LESSON \u2192 LOOP \u2192 CTA(follow)\",\n  \"cadence_days\": 1, \"end_condition\": \"goal reached\",\n  \"loop_templates\": [\"Tomorrow I find out if {{RISK:STORY_MOMENT}}.\", \"But {{PROBLEM:PAIN}}, and I have no idea how to fix it yet.\"],\n  \"premise_slot\": \"{{PREMISE:OUTCOME}}\", \"episodes_planned\": null\n}]}\n",
+      "classification": "sample schema/template/illustration, not a live source result"
+    },
+    {
+      "id": "CB014",
+      "language": "markdown",
+      "line": 1064,
+      "content": "# V01: <working title>\n\n| Field | Value |\n|---|---|\n| Week / day | 1 / Mon |\n| Bucket | proven |\n| Funnel / content type | tofu / educational |\n| Topic | crate training |\n| Angle / delivery / story type | tutorial / educational / \u2014 |\n| Format | visual_prop (blueprint F003) |\n| CTA | freebie, keyword PUPPY |\n| Structure template | T001 (from O001) |\n| Hook templates | verbal H001 (O001), written H014 (O006), visual H027 (O011) |\n| Bank items used | K1, S2 |\n| Word count | 117 (target 78\u2013118) |\n\n## Hook stack\n- **Verbal (heard):** ...\n- **Written (on screen, first 3 s):** ...\n- **Visual (first 3 s):** ...\n\n## Script\nEach line has the words to say (LINE), what to film (SHOT, the \"red\" notes) and editor notes (EDIT, the \"green\" notes).\n\n1. LINE: ...\n   SHOT: ...\n   EDIT: ...\n2. LINE: ...\n   SHOT: ...\n   EDIT: ...\n\n## Caption\n<written hook>\n\n<CTA line>\n\n#<niche> #<audience> #<subtopic>\n\n## Needs from client\n- none   (or a list of every [[NEEDS CLIENT INPUT]] marker in this script)\n",
+      "classification": "sample schema/template/illustration, not a live source result"
+    },
+    {
+      "id": "CB015",
+      "language": "",
+      "line": 1124,
+      "content": "slot_id,week,day,bucket,funnel,content_type,topic,angle,delivery,story_type,format,cta_type,verbal_hook,written_hook,visual_hook,value_statement,structure_template,hook_templates,bank_items,word_count,needs_client_input\n",
+      "classification": "sample schema/template/illustration, not a live source result"
+    },
+    {
+      "id": "CB016",
+      "language": "markdown",
+      "line": 1159,
+      "content": "# QA report: <client> <YYYY-MM>\nSummary: 19/20 PASS, 1 FAILED\nCredits used: 14 (balance before 35, after 21)\n\n| Slot | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Q11 | Q12 | Result | Notes |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| V01 | \u2713 | \u2713 | \u2713 | \u2713 | \u2713 | \u2713 | \u2713 | \u2713 | \u2713 | \u2713 | \u2713 | \u2713 | PASS | |\n\n## Needs from client (all scripts)\n- V04: photo of the chewed door frame (S1)\n\n## Month mix (Q13)\n...\n",
+      "classification": "sample schema/template/illustration, not a live source result"
+    },
+    {
+      "id": "CB017",
+      "language": "json",
+      "line": 1197,
+      "content": "{\"top\": [{\"slot_id\": \"V03\", \"views\": 9100, \"ratio_vs_avg\": 10.1}], \"bottom\": [{\"slot_id\": \"V11\", \"views\": 300}],\n \"patterns\": [{\"factor\": \"format\", \"finding\": \"4 of top 5 used clone; 0 of bottom 5\"}],\n \"own_outliers\": [\"V03\", \"V07\"], \"next_month_changes\": [\"Use clone format on 3 more TOFU slots\"]}\n",
+      "classification": "sample schema/template/illustration, not a live source result"
+    },
+    {
+      "id": "CB018",
+      "language": "",
+      "line": 1451,
+      "content": "You turn viral short-form video text into niche-neutral fill-in-the-blank templates.\n\nINPUT: the exact source text below and its beat labels.\nTASK:\n1. Keep only frame words: words that create the pattern (question openers, time markers, list markers,\n   contrast words, reveal phrases, CTA mechanics).\n2. Replace every run of niche-specific or creator-specific words (nouns, activity verbs, their numbers,\n   names, brands, places, claims) with one slot written {{NAME:TYPE}}. NAME is UPPER_SNAKE_CASE and unique.\n   TYPE is one of: <paste A9 slot types>.\n3. Turn repeated parts into [REPEAT {{N:NUMBER}} times] ... [/REPEAT].\n4. For every slot, write a fill rule: what goes there, max words, and which client field it comes from\n   (knowledge, stories, proof, offers, freebie, profile, any).\n5. Check: with slots hidden, the template must not reveal the original niche. If it does, fix it.\nOUTPUT: JSON matching this schema exactly: <paste the H### or T### schema>.\nSOURCE TEXT: <paste>\nBEATS: <paste>\n",
+      "classification": "sample schema/template/illustration, not a live source result"
+    },
+    {
+      "id": "CB019",
+      "language": "",
+      "line": 1472,
+      "content": "You write one short-form video script for a real client by filling a template.\n\nHARD RULES:\n- Use ONLY facts from the CLIENT BANK ITEMS below. Never invent stories, numbers, results, names or credentials.\n  If a slot needs a fact you don't have, write [[NEEDS CLIENT INPUT: <what>]].\n- Do NOT reuse any wording or facts from the source videos. Only the template's frame words may stay.\n- Write in the client's voice: uses <voice.uses>; never use <voice.never_uses>; <voice.reading_level>.\n- Hooks: verbal \u2264 15 words, written \u2264 7 words, visual = one filmable action under 3 seconds.\n- The value must be specific and actionable (a number, a named step, a concrete example).\n- Total words: <target_words range>.\n\nINPUTS:\nSLOT: <the slot object from 01_month_plan.json>\nHOOK TEMPLATES: <verbal, written and visual templates>\nSTRUCTURE TEMPLATE: <T### object>\nCLIENT BANK ITEMS: <only the picked items, with IDs>\nCTA: <cta_type and the line pattern; keyword; freebie or offer name>\nFORMAT: <format id and meaning>\nEDITING STYLE: <editing_style>\n\nOUTPUT: the script file in exactly this layout: <paste the Step 5.6 layout>. List the bank IDs used.\n",
+      "classification": "sample schema/template/illustration, not a live source result"
+    },
+    {
+      "id": "CB020",
+      "language": "",
+      "line": 1498,
+      "content": "You are a strict reviewer. Check this script against each check below and answer PASS or FAIL for each,\nwith a one-line reason for every FAIL. Do not rewrite the script.\nCHECKS: <paste the Q1\u2013Q12 table>\nSCRIPT: <paste>\nSOURCE TRANSCRIPTS USED: <paste>\nCLIENT BANK ITEMS LISTED: <paste>\nMONTH PLAN SLOT: <paste>\nOUTPUT: JSON {\"slot_id\": \"...\", \"results\": {\"Q1\": \"PASS\", ...}, \"fail_reasons\": {...}}\n",
+      "classification": "sample schema/template/illustration, not a live source result"
+    },
+    {
+      "id": "CB021",
+      "language": "python",
+      "line": 1511,
+      "content": "import re\ndef grams(text, n=6):\n    w = re.findall(r\"[a-z0-9']+\", text.lower())\n    return {\" \".join(w[i:i + n]) for i in range(len(w) - n + 1)}\nshared = grams(script_body) & grams(source_transcript)   # PASS when shared is empty\n",
+      "classification": "sample schema/template/illustration, not a live source result"
+    },
+    {
+      "id": "CB022",
+      "language": "json",
+      "line": 1557,
+      "content": "{\n  \"outlier_id\": \"O001\", \"topic\": \"cross_niche\",\n  \"verbal_hook\": {\"text\": \"I wasted two hundred dollars a month on takeout until I tried this.\", \"end_ms\": 3100},\n  \"written_hook\": {\"text\": \"the 3-container rule\", \"confidence\": \"cover_only\"},\n  \"visual_hook\": {\"text\": \"Creator stacks three glass containers on the counter, one at a time.\", \"confidence\": \"seen\"},\n  \"value\": {\"summary\": \"A 3-part weekly meal-prep system with a day-by-day example.\", \"measurable\": true, \"source_type\": \"personal_experience\"},\n  \"angle\": \"tutorial\", \"delivery\": \"educational\", \"story_type\": null,\n  \"beats\": [\n    {\"label\": \"HOOK\", \"text\": \"I wasted two hundred dollars a month on takeout until I tried this.\"},\n    {\"label\": \"NAME_METHOD\", \"text\": \"Here's the three-container rule.\"},\n    {\"label\": \"STEP\", \"text\": \"Container one: ... Container two: ... Container three: ...\"},\n    {\"label\": \"EXAMPLE\", \"text\": \"Monday is chicken, rice and peanut sauce. Wednesday, same base, salsa verde.\"},\n    {\"label\": \"RECAP\", \"text\": \"That's it: three containers, forty-five minutes on Sunday.\"},\n    {\"label\": \"CTA\", \"text\": \"Comment PREP and I'll send you my five sauces.\"}\n  ],\n  \"complexity\": \"easy\", \"structure_class\": \"easy_educational\",\n  \"structure_pattern\": \"HOOK \u2192 NAME_METHOD \u2192 STEP\u00d73 \u2192 EXAMPLE \u2192 RECAP \u2192 CTA\",\n  \"word_count\": 98, \"words_per_second\": 2.4,\n  \"post_type\": \"reel\", \"hook_pattern\": \"niche_specific\", \"video_type\": \"none\", \"series\": {\"is_series\": false},\n  \"cta\": {\"type\": \"freebie\", \"mechanic\": \"comment_keyword\", \"text\": \"Comment PREP and I'll send you my five sauces.\"},\n  \"format\": \"visual_prop\", \"format_evidence\": \"f_003\u2013f_012: picks up each container as it is named\",\n  \"editing\": {\"captions\": \"word_by_word, center, 2 colors\", \"text_overlays\": 5, \"avg_shot_s\": 2.9,\n              \"audio\": \"voice_plus_music\", \"visual_types\": [\"talking_shot\", \"props\"]},\n  \"content_type\": \"educational\", \"funnel\": \"tofu\"\n}\n",
+      "classification": "sample schema/template/illustration, not a live source result"
+    },
+    {
+      "id": "CB023",
+      "language": "",
+      "line": 1637,
+      "content": "3 steps to a calm crate\n\nComment PUPPY and I'll send you my Puppy's First 30 Days Checklist\n\n#dogtraining #newpuppyowner #cratetraining\n",
+      "classification": "sample schema/template/illustration, not a live source result"
+    }
+  ]
+}
