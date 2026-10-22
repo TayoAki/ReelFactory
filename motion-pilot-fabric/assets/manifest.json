@@ -1,0 +1,25 @@
+{
+  "font": {
+    "name": "Source Serif 4",
+    "source": "https://github.com/google/fonts/tree/main/ofl/sourceserif4",
+    "license": "OFL-1.1; included in SourceSerif4-OFL.txt"
+  },
+  "icons": {
+    "source": "Self-authored SVG paths in build.py, matching generated storyboard silhouettes",
+    "meaning": "shopfront=Store entity; cabinet=Refrigeration Unit; table=source data",
+    "identity": "Generic explanatory symbols, not official Microsoft product icons"
+  },
+  "generated_images": {
+    "master": "storyboard/04-bindings-master.png",
+    "derived": [
+      "storyboard/01-entity.png",
+      "storyboard/03-relationship.png"
+    ],
+    "used_as": "Design targets; editable scene is animated, not flattened storyboard images"
+  },
+  "voice": {
+    "engine": "edge-tts",
+    "voice": "en-US-JennyNeural",
+    "use": "Synthetic preview narration; not a recording of the interview speakers"
+  }
+}

@@ -1,0 +1,224 @@
+Microsoft Fabric and Fabric Ontologies
+Expert interview and product demo script
+Research checked October 22 2026
+This interview follows a retail operations review from business definitions and source data through analysis, verification, and an operational response. The audience is business decision makers, analytics leaders, and practitioners evaluating Fabric IQ. Josh is the host; Guest is the speaking role for a Fabric specialist. Screen directions and source notes are production material, not spoken dialogue.
+1 Opening and the Fabric landscape
+Josh: Hi, I'm Josh. Today we're taking a practical look at Microsoft Fabric and Fabric ontologies. We're going to follow a store operations team that needs to understand inventory risk, refrigeration exceptions, and incoming deliveries. Along the way, we'll look at how existing Power BI definitions become useful context for AI.
+Thanks for joining me. Before we get into ontology, give us the short version of Microsoft Fabric.
+Guest: Fabric brings the data workflow into one software service: bringing data in, preparing it, analyzing historical and streaming information, building models, and delivering reports. Data Factory, engineering and data science experiences, warehouses, databases, Real-Time Intelligence, and Power BI cover different parts of that workflow.
+OneLake is the shared data foundation. Teams can work with the same governed data through different engines, and supported shortcuts let them reference data elsewhere. The right ingestion or access pattern still depends on the source and workload.
+Josh: Where does Fabric IQ fit?
+Guest: Fabric IQ organizes business context over that data. Power BI semantic models provide curated analytics. Ontology defines the business concepts and connections that agents and other experiences can use. An operations team can talk about stores, deliveries, equipment, and business rules while Fabric maps those concepts to the relevant data.
+Josh: And the release status?
+Guest: Ontology is currently in preview. We'll keep that label visible throughout the demo and call out the limits that affect this workflow.
+On screen: Fabric workspace, OneLake catalog, a Power BI semantic model, and an Ontology preview item. Add an October 22 2026 status caption.
+Sources: [Microsoft Fabric overview](https://learn.microsoft.com/en-us/fabric/fundamentals/microsoft-fabric-overview), [OneLake overview](https://learn.microsoft.com/en-us/fabric/onelake/onelake-overview), [Fabric IQ overview](https://learn.microsoft.com/en-us/fabric/iq/overview), [Ontology overview](https://learn.microsoft.com/en-us/fabric/iq/ontology/overview).
+2 Why business context matters
+Josh: We already have tables, dashboards, and language models. What is the problem we're solving?
+Guest: Imagine asking, “Which stores need attention today?” A temperature table alone can't tell you the commercial importance of a store. Sales data doesn't necessarily tell you which refrigeration unit holds the affected goods. A shipment record might contain several dates, and someone needs to explain which one represents the expected arrival.
+Then there are the definitions. Does “inventory at risk” mean stock is already below a threshold, or that it's projected to fall below safety stock before the next delivery? Are two systems using the same product identifier? Is the temperature measured in Celsius?
+Someone usually translates those questions into the right sources, relationships, and calculations. Ontology makes that business meaning explicit and reusable. The quality of the definitions and the data still matters, and we'll inspect both in the demo.
+Josh: So our test is whether the system can answer a useful operational question using the definitions the business actually approved.
+Guest: Exactly. A fluent answer is the beginning of the review. We also need to check the interpretation, calculation, and evidence.
+On screen: The operational question beside the source systems it depends on. Keep the example grounded in stores, products, equipment, inventory, and shipments.
+Sources: [Lakeshore Retail tutorial introduction](https://learn.microsoft.com/en-us/fabric/iq/ontology/tutorial-0-introduction), [Tutorial enrichment and business definitions](https://learn.microsoft.com/en-us/fabric/iq/ontology/tutorial-2-enrich-ontology). The interview's evaluation framing is a proposed approach.
+3 What a Fabric ontology contains
+Josh: Define a Fabric ontology in plain language.
+Guest: It's a shared model of the things the business cares about, what we know about them, how they connect, and where the supporting data lives.
+A Store is an entity type. A particular store is an instance. Region and priority are properties. “Store operates Refrigeration Unit” is a relationship. A data binding connects those concepts to actual source fields.
+We can also attach business rules and metrics. That lets a question refer to an established concept instead of asking every consumer to reconstruct its meaning from table names.
+Josh: How do you organize a larger model?
+Guest: Namespaces provide scopes for definitions. Inheritance lets a specialized entity reuse a base type's structure. In our retail example, Store can derive from Location, and Frozen Product can derive from Product.
+There are details to check. A derived type needs its own data binding, and ordinary relationships aren't inherited automatically. The current agent also doesn't automatically include every derived instance when you query a parent type. For the frozen-goods analysis, we'll name the relevant type explicitly.
+On screen: Open Store and show its properties, source binding, and operates relationship. Show the separate inheritance view without implying it executes a query.
+Sources: [Ontology concepts](https://learn.microsoft.com/en-us/fabric/iq/ontology/overview), [Inheritance](https://learn.microsoft.com/en-us/fabric/iq/ontology/how-to-use-inheritance), [Ontology agent limitations](https://learn.microsoft.com/en-us/fabric/iq/ontology/how-to-use-ontology-agent#current-limitations).
+4 Building on Power BI
+Josh: A lot of viewers have invested years in Power BI models. How does that work carry forward?
+Guest: You can generate an ontology from a semantic model. Tables, columns, and relationships provide a starting structure, and DAX measures surface as metrics. You can also use the ontology agent to bring additional semantic models into an existing ontology and review how overlapping concepts are reconciled.
+Generation gets you started. You still review the keys, relationships, bindings, names, and any time-series information that needs to be added.
+Josh: Who owns a calculation such as revenue after that?
+Guest: The source semantic model still owns its DAX. The ontology metric links back to it. You edit the expression in the semantic model, while an ontology description can add context for agents without changing that source model.
+For the demo, we'll inspect a revenue metric in the SalesReport model. We also need Read and Build permissions to generate from and query that semantic model. Viewing the underlying DAX expression through the metric details requires write permission on the source model.
+On screen: Generate Ontology entry point, then an entity's Metrics section and its source model link. Resolve the DAX only with the appropriate author account.
+Sources: [Generate from semantic models](https://learn.microsoft.com/en-us/fabric/iq/ontology/how-to-generate-from-semantic-models), [Ontology metrics](https://learn.microsoft.com/en-us/fabric/iq/ontology/how-to-use-metrics).
+5 Adding context that a schema cannot explain
+Josh: How much business knowledge do we have to enter ourselves?
+Guest: Start with the knowledge that changes the answer. In this scenario, that includes the meaning of a priority store, how inventory risk is determined, the temperature unit, and the difference between a product ID and a supplier's code.
+Metadata gives us descriptions, synonyms for entity types, and additional attributes. Property and relationship descriptions explain fields and connections. The metadata should answer a real ambiguity someone encounters in the workflow.
+The ontology agent can inspect supported workspace sources, their schemas, and sampled rows to propose a model. You can provide business requirements or a data dictionary as supporting context. A domain expert still needs to review what those proposals mean.
+Josh: What about a business rule?
+Guest: We can describe inventory risk as a position expected to fall below its required buffer before replenishment arrives, then link that rule to Store and Inventory. That makes the definition discoverable to consumers.
+Writing the rule supplies context. Execution is configured in the consuming application or automation system. We'll show that distinction when we get to actions.
+On screen: A TemperatureC property description, an entity synonym, and a business rule linked to the relevant concepts. Avoid treating a metadata classification as an access-control policy.
+Sources: [Metadata](https://learn.microsoft.com/en-us/fabric/iq/ontology/how-to-add-metadata), [Business rules](https://learn.microsoft.com/en-us/fabric/iq/ontology/how-to-use-rules), [Ontology agent privacy and grounding FAQ](https://learn.microsoft.com/en-us/fabric/iq/ontology/resources-privacy-compliance-faq), [Retail enrichment tutorial](https://learn.microsoft.com/en-us/fabric/iq/ontology/tutorial-2-enrich-ontology).
+6 Connecting the model to data
+Josh: Where can those bindings point?
+Guest: The documented source options include lakehouses, eventhouses and KQL databases, warehouses, SQL databases, mirrored databases, and semantic models. A binding records how an entity or property maps to its source.
+Our demo uses three routes. A lakehouse holds operational reference data and inventory and shipment records. An eventhouse holds refrigeration readings. A Power BI semantic model provides the sales context and its defined measures.
+Josh: Does every question run against one new database?
+Guest: The ontology supplies the definitions and mappings. A consuming experience executes against the appropriate engine. The ontology agent can use SQL, KQL, DAX, and, when a suitable graph model exists, GQL.
+That makes freshness a question about the actual execution path. A direct source query, an imported Power BI model, and a materialized graph can have different refresh behavior. We'll check the source timestamps and the reporting period rather than infer freshness from the chat interface.
+On screen: Inspect one binding for each source route. Display the relevant source ingestion or refresh timestamps alongside the reporting period.
+Sources: [Data binding](https://learn.microsoft.com/en-us/fabric/iq/ontology/how-to-bind-data), [Agent integration and query engines](https://learn.microsoft.com/en-us/fabric/iq/ontology/concepts-agent-integration), [Graph refresh](https://learn.microsoft.com/en-us/fabric/iq/ontology/how-to-use-ontology-graph#refresh-the-graph-model).
+7 Creating and reviewing with the ontology agent
+Josh: Let's see how you would add something to the model.
+Guest: I'm opening the ontology agent in Plan mode. I'll ask it to add the sales concept using our existing semantic model.
+Demo prompt: Add a Sale entity using the Sales table in the SalesReport semantic model in this workspace. Preview the proposed definition and bindings, and explain the source evidence. Keep the existing ontology elements intact.
+Guest: Now I can inspect the draft on the canvas, check the source mapping, and review validation results. If the proposal needs a different key or relationship, I can ask for a revision before applying it.
+Plan mode lets us discover, draft, validate, query, and inspect without changing the ontology. I switch to Act mode when I'm ready to apply the reviewed proposal.
+Josh: What if you need to return to an earlier definition?
+Guest: Before a meaningful change, I'll create a named version. Version history lets us restore a saved definition. A restore replaces the definition as a whole, so I also preserve the current version if I may need it later.
+On screen: Use a demo copy for the authoring step. Show draft preview, validation, a named version, and the deliberate Plan-to-Act switch. Continue with the prepared complete ontology for the analysis.
+Sources: [Ontology agent](https://learn.microsoft.com/en-us/fabric/iq/ontology/how-to-use-ontology-agent), [Add Sale in the tutorial](https://learn.microsoft.com/en-us/fabric/iq/ontology/tutorial-1-create-ontology#add-sale-with-the-ontology-agent), [Version history](https://learn.microsoft.com/en-us/fabric/iq/ontology/how-to-use-version-history).
+8 Demo the retail operations review
+Josh: Bring us into the business scenario.
+Guest: We're using Microsoft's fictional Lakeshore Retail scenario. It has store and product information, inventory, shipments, refrigeration data, and a sales semantic model. For this recording, we have prepared the definitions and relationships needed for a regional operations review.
+The question is which stores need attention and what an operator should inspect next.
+Demo prompt: Review priority stores in the West region for frozen-product inventory risk. Include recent refrigeration exceptions, shelf availability, and the next expected inbound delivery. Explain the definitions and time windows you use, identify missing information, and show the supporting queries.
+Guest: It's a short business question, but the meaning is in the configured model. We need to connect the store to its current inventory, the relevant products, its refrigeration equipment and readings, and the deliveries coming to that location.
+For each returned row, I'm checking the store and product, the inventory condition, the observation time, and the delivery context. If the source doesn't establish something, the output needs to make that gap visible.
+Josh: What should viewers focus on while that runs?
+Guest: Whether the agent used our definitions, queried the intended sources, and produced something the operator can check. The answer's wording matters, but the underlying interpretation matters more.
+On screen: Run the prepared question in the built-in ontology agent. Show actual returned rows and queries. Read only names and values returned in the rehearsed tenant. If no records match, inspect the stated filters and period rather than substituting invented results.
+Sources: [Retail scenario and sample resources](https://learn.microsoft.com/en-us/fabric/iq/ontology/tutorial-0-introduction), [Entity and relationship setup](https://learn.microsoft.com/en-us/fabric/iq/ontology/tutorial-1-create-ontology). The prompt is an authored adaptation for this interview.
+9 Inspecting calculations and permissions
+Josh: Pick one conclusion and show us how to check it.
+Guest: I'll start with the query and its time filter, then check the source fields and the business definition it used. For the commercial context, let's also ask for the model's established revenue calculation.
+Demo prompt: Use the governed revenue metric in SalesReport to summarize sales by store for the reporting period selected in that report. Identify the source measure and show the query you execute.
+Guest: This gives us a calculation to compare with the Power BI report under the same filters. We also check what the result actually covers: the agent's displayed results are bounded, so a returned table isn't automatically a complete export of every matching record.
+Josh: And whose access is being used?
+Guest: In this interactive experience, the ontology agent uses the signed-in user's identity. It operates within that user's access to the sources. Sharing an ontology also doesn't automatically give the recipient access to every other item in the workspace.
+So we'll validate the workflow with the actual end-user roles as well as with the author account. An author successfully querying a source doesn't establish that a regional manager can query it.
+On screen: Compare a query result with the source report. Use prepared test identities for permission checks; verify ontology access and source access separately.
+Sources: [Agent query behavior](https://learn.microsoft.com/en-us/fabric/iq/ontology/how-to-use-ontology-agent#query-the-ontology), [Identity and verification FAQ](https://learn.microsoft.com/en-us/fabric/iq/ontology/resources-privacy-compliance-faq), [Sharing permissions](https://learn.microsoft.com/en-us/fabric/iq/ontology/how-to-share-permissions), [Semantic model access](https://learn.microsoft.com/en-us/fabric/iq/ontology/how-to-generate-from-semantic-models).
+10 Follow up on causes and future risk
+Josh: Suppose availability is getting worse. Can we investigate why?
+Guest: We can ask a more focused question and examine the evidence for competing explanations.
+Demo prompt: Compare the affected stores with their prior reporting period. Examine inventory, delivery timing, and refrigeration observations. Separate measured changes from possible explanations, and identify evidence needed to decide between them.
+Guest: A temperature exception and low availability occurring together gives us an investigation lead. To establish the cause, we may need additional evidence: a maintenance record, a product disposal event, or the actual receipt time of a shipment.
+Josh: What about forecasting tomorrow's risk?
+Guest: Define the forecast as its own analytical task: the target, horizon, inputs, method, and validation. Fabric Data Science provides notebooks, experimentation, model tracking, and scoring. We can prepare predictions in that workflow and expose the results to the business review.
+For a forecast segment, I'd show the prepared model's historical evaluation and uncertainty before discussing its output. That gives the operator a basis for deciding whether the prediction is useful.
+On screen: Inspect follow-up queries. The optional forecast segment uses a separately prepared and evaluated model; display its method, horizon, validation, and observation date.
+Source: [Fabric Data Science](https://learn.microsoft.com/en-us/fabric/data-science/data-science-overview). The investigation and forecast evaluation requirements are proposed demo practices.
+11 When a materialized graph helps
+Josh: We've shown connections on the canvas. When would you use Graph?
+Guest: When the relationship path is central to the question: for example, tracing a supplier's exposure through products, shipments, and stores. You can opt in to materializing an eligible subset of the ontology for that kind of traversal.
+That selection has constraints. Current graph projection supports eligible lakehouse or mirrored-database Delta sources, requires entity keys, and excludes semantic-model-bound entities. It also needs a refresh strategy.
+For this demo, we can prepare a small supplier-to-store graph from eligible operational tables. The temperature and Power BI calculations continue through their appropriate source paths.
+Josh: So the diagram of business concepts and a materialized instance graph serve different jobs.
+Guest: Yes. Choose the execution path based on the question, then inspect the data and freshness that path supplies.
+On screen: Optional prepared graph projection using eligible operational entities. Show the selected scope and refresh time; keep Eventhouse telemetry and semantic-model measures outside this projection.
+Sources: [Graph materialization and limitations](https://learn.microsoft.com/en-us/fabric/iq/ontology/how-to-use-ontology-graph), [Ontology execution model](https://learn.microsoft.com/en-us/fabric/iq/ontology/overview#optional-graph-execution).
+12 Choosing an agent experience
+Josh: We've used the ontology agent. How do data agents and operations agents fit?
+Guest: The built-in ontology agent helps create, inspect, query, and improve this model. A Fabric data agent provides a conversational analytics experience. An operations agent monitors a defined business process and recommends responses. Foundry and Copilot Studio offer other application-building paths.
+The consumer's current capabilities matter. The integration guides list a known issue for both data agents and operations agents when the ontology uses semantic-model bindings. Our combined analysis stays in the built-in ontology agent for that reason.
+Josh: How would a developer connect another agent?
+Guest: Fabric documents an ontology MCP endpoint for compatible clients. You configure the endpoint, authenticate, and test the supported interaction. The current MCP guidance also lists service-principal access as unavailable because of a known issue. Check that before planning an unattended integration.
+On screen: A comparison of the agent roles, followed by the relevant integration documentation. Keep any optional external integration as a separately configured example.
+Sources: [Agent integration options](https://learn.microsoft.com/en-us/fabric/iq/ontology/concepts-agent-integration), [Data agent known issue](https://learn.microsoft.com/en-us/fabric/iq/ontology/how-to-create-data-agent), [Operations agent known issue](https://learn.microsoft.com/en-us/fabric/iq/ontology/how-to-create-operations-agent), [Ontology MCP](https://learn.microsoft.com/en-us/fabric/iq/ontology/how-to-use-ontology-mcp-server).
+13 From analysis to an operational response
+Josh: How do we act on a condition we want to keep watching?
+Guest: For this section, we're opening a separate, small operational ontology with no semantic-model bindings. It exposes unit identifiers and Eventhouse-backed temperature observations. We've configured an operations agent to recommend a test notification when one temperature condition is met.
+We're keeping that condition simple. Ontology monitoring currently has limits around combined AND conditions and aggregations, and the documented agent cycle is five minutes. The full cross-source review remains an interactive analysis.
+Josh: Show us the recommendation.
+Guest: Here's the prepared Teams notification from our test event. I can inspect the unit, observation, and proposed action before approving it. Configured actions can invoke Fabric items or a Power Automate flow.
+The execution identity is important: operations-agent queries and actions use the creator's delegated identity. A different person receiving or approving the message doesn't change those credentials.
+Josh: And where does Activator belong?
+Guest: Activator evaluates configured event conditions and can trigger notifications or workflows. In the new ontology experience, saving a natural-language business rule doesn't create that automation. Direct Activator integration isn't currently provided there, so configure and test the execution separately against the supported data path.
+On screen: Show the separate operational item, the reviewed playbook, the actual test notification, action parameters, and the test destination. Use recorded output or allow for the five-minute monitoring cycle. A standalone Activator example, if included, is a separate configuration.
+Sources: [Operations agent setup](https://learn.microsoft.com/en-us/fabric/iq/ontology/how-to-create-operations-agent), [Monitoring limitations](https://learn.microsoft.com/en-us/fabric/real-time-intelligence/operations-agent-limitations), [Actions and execution identity](https://learn.microsoft.com/en-us/fabric/real-time-intelligence/operations-agent-actions), [Business rule execution boundary](https://learn.microsoft.com/en-us/fabric/iq/ontology/how-to-use-rules), [Activator](https://learn.microsoft.com/en-us/fabric/real-time-intelligence/data-activator/activator-introduction).
+14 Turning report analysis into written work
+Josh: What if the next step is a written review for leadership?
+Guest: The Fabric IQ plugin in Copilot Cowork is documented as generally available. It grounds conversations in Power BI reports and their underlying semantic models, then can chain the result into document or email drafting.
+For this segment, we'll attach the sales report. This route doesn't currently ground directly on ontology items. It also doesn't currently include report citations in its data answers, so we'll check the values in the source report before sharing them.
+Demo prompt: Using the attached sales report, draft a one-page regional review for the period selected in the report. State the reporting period, summarize the main changes, and list questions for the operations meeting.
+On screen: Attach the actual Power BI report in a separately licensed and enabled Cowork environment. Verify the source numbers before showing the draft as ready for distribution.
+Source: [Fabric IQ in Copilot Cowork](https://learn.microsoft.com/en-us/fabric/iq/connectors/cowork-overview).
+15 Reuse and maintenance
+Josh: How do we make this useful next week?
+Guest: Save the durable knowledge in the ontology definition and the appropriate agent configuration. The ontology agent's current conversation lasts within the browser session and ends on refresh or tab closure, with a maximum conversation lifetime of 24 hours. We shouldn't use that session as our team's knowledge repository.
+Assign owners to the definitions, review schema changes, and keep named versions before substantial edits. When source definitions change, check the metadata and refresh behavior of the consumers that depend on them.
+Josh: What if the organization already has an external ontology?
+Guest: The preview supports importing supported Turtle, RDF/RDFS, and OWL definitions into an empty item, and exporting supported definitions as Turtle or RDF. Review the import results: some elements are adjusted or skipped, and full lossless OWL behavior isn't promised.
+Existing customers should also check which Fabric ontology experience they use. Microsoft's current guidance sets January 31 2027 as the retirement date for the old experience. Migration creates a separate new item, so reconnect consumers and review the rules and automation configuration.
+On screen: Version history, import summary example, ownership information, and the current migration notice.
+Sources: [Conversation lifetime](https://learn.microsoft.com/en-us/fabric/iq/ontology/how-to-use-ontology-agent#conversation-lifetime), [Version history](https://learn.microsoft.com/en-us/fabric/iq/ontology/how-to-use-version-history), [Import and export](https://learn.microsoft.com/en-us/fabric/iq/ontology/how-to-import-export), [Migration](https://learn.microsoft.com/en-us/fabric/iq/ontology/overview#migrate-from-old-experience).
+16 Evaluating accuracy time and cost
+Josh: How should a buyer evaluate the outcome?
+Guest: Start with representative business questions and known-good answers. Test whether the workflow selects the right concepts, uses the right calculations, respects access, and returns evidence an operator can verify.
+Compare completion time with today's process, including review and correction. Measure consumption across the complete workflow rather than looking only at one query or the time to generate text.
+The current ontology billing documentation distinguishes Discovery, Logic and Operations, AI Reasoning, and OneLake usage. It marks Discovery and AI Reasoning as nonbillable at this point, while child operations and storage can still incur charges. Use the Capacity Metrics app and check the current rates when planning the pilot.
+Josh: We shouldn't borrow a percentage improvement from another vendor or a different workflow.
+Guest: Right. Set a baseline for this team and publish what this evaluation shows. That gives you a credible reason to expand, improve, or pause the workflow.
+On screen: An evaluation worksheet with expected answer, actual answer, source correctness, permissions, human review time, and measured consumption. No unsupported performance figures.
+Source: [Ontology billing and capacity usage](https://learn.microsoft.com/en-us/fabric/iq/ontology/resources-capacity-usage). The benchmark design is a proposed evaluation method.
+17 Getting started and closing
+Josh: Give viewers a practical starting point.
+Guest: Pick one team and one recurring decision. For the retail example, that's the regional inventory review. Bring in the person who owns its definitions, the analyst who knows the data, and the operator who will use the result.
+Prepare a focused Fabric workspace and capacity. Have the administrator enable the settings for creating Fabric and ontology items, then the additional AI and agent settings required by the experiences you select.
+Connect the sources needed for that decision. Define the concepts that change the answer. Test ordinary questions, ambiguous requests, missing data, and different access levels. Then improve the model where those tests reveal a specific gap.
+Expand when the team can complete the workflow with dependable answers, a manageable review burden, and understood operating costs.
+Josh: What's the one idea viewers should take away?
+Guest: The business question should guide the model. Start with a decision people already make, make its meaning and sources explicit, and evaluate the complete path from question to response.
+Josh: Thanks for joining us. We'll link the ontology documentation and the Lakeshore Retail tutorial so viewers can explore the scenario and evaluate it with their own team.
+On screen: Links to the Fabric IQ overview, new ontology experience, tutorial, and evaluation worksheet.
+Sources: [Required tenant settings](https://learn.microsoft.com/en-us/fabric/iq/ontology/overview-tenant-settings), [Sample setup](https://learn.microsoft.com/en-us/fabric/iq/ontology/tutorial-0-introduction). The rollout sequence and acceptance criteria are recommendations.
+Research and production notes
+Capability decisions that shape the script
+Area
+Evidence and implication
+Current ontology experience
+Preview; new items use the new experience. Use its current documentation for the recording. [Overview](https://learn.microsoft.com/en-us/fabric/iq/ontology/overview)
+Existing Power BI investment
+Generation reuses semantic-model definitions and measures; inspect the generated result. [Generation](https://learn.microsoft.com/en-us/fabric/iq/ontology/how-to-generate-from-semantic-models)
+Context quality
+Descriptions and entity synonyms help explain meaning. Metadata use varies by consumer and pipeline stage. [Metadata limits](https://learn.microsoft.com/en-us/fabric/iq/ontology/how-to-add-metadata#data-agent-limitations)
+Primary demo consumer
+Use the built-in ontology agent for the mixed lakehouse, Eventhouse, and semantic-model scenario. [Agent](https://learn.microsoft.com/en-us/fabric/iq/ontology/how-to-use-ontology-agent)
+Alternative consumers
+Known issues affect semantic-model-bound ontologies in data and operations agents. Keep their demos separately configured. [Data agent](https://learn.microsoft.com/en-us/fabric/iq/ontology/how-to-create-data-agent), [Operations agent](https://learn.microsoft.com/en-us/fabric/iq/ontology/how-to-create-operations-agent)
+Business rules and actions
+Natural-language ontology rules supply context. Build the executable monitoring and action path separately. [Rules](https://learn.microsoft.com/en-us/fabric/iq/ontology/how-to-use-rules)
+Graph
+Opt in to eligible operational data only and show its refresh time. [Projection limits](https://learn.microsoft.com/en-us/fabric/iq/ontology/how-to-use-ontology-graph#limitations)
+Monitoring
+Use a simple temperature condition for the separate operational example. [Limitations](https://learn.microsoft.com/en-us/fabric/real-time-intelligence/operations-agent-limitations)
+Written work
+Cowork's Fabric IQ route uses Power BI reports; it currently excludes direct ontology grounding. [Cowork](https://learn.microsoft.com/en-us/fabric/iq/connectors/cowork-overview)
+Measured value
+Benchmark this workflow and measure its complete consumption. [Capacity guidance](https://learn.microsoft.com/en-us/fabric/iq/ontology/resources-capacity-usage)
+
+Demo preparation
+1. Follow the current [Lakeshore tutorial setup](https://learn.microsoft.com/en-us/fabric/iq/ontology/tutorial-0-introduction) and its [Microsoft sample resources](https://github.com/microsoft/fabric-samples/tree/main/docs-samples/iq/ontology/new-experience). Use a dedicated demonstration workspace.
+2. Prepare LakeshoreStaticDataLH, LakeshoreTelemetryDataEH, and SalesReport. Build and review the [entity bindings and relationships](https://learn.microsoft.com/en-us/fabric/iq/ontology/tutorial-1-create-ontology). Apply actual source filters for Store and product subclasses; explanatory metadata alone does not filter source rows.
+3. Add [business descriptions and rules](https://learn.microsoft.com/en-us/fabric/iq/ontology/tutorial-2-enrich-ontology). Verify which availability and revenue calculations the configured sources supply before recording. Keep source-owned DAX and inventory-derived calculations clearly identified.
+4. Pin a reporting period with data in the sample. Choose an explicit recent-events window within that sample period. Rehearse the composed question and its component queries, checking joins, units, missing values, and actual returned rows.
+5. Create an authoring copy and a named version for the Plan/Act demonstration. Validate access separately for the author and intended end-user roles.
+6. For the optional graph, materialize only eligible operational entities with reviewed keys, bindings, and a recorded refresh time.
+7. For monitoring, prepare a separate operational ontology with no semantic-model bindings. Give the monitored entity a static UnitId identifier and a timestamped Eventhouse-backed temperature property. Use one explicit numeric test condition and a dedicated test notification action. Replay a synthetic event and verify the actual result before recording.
+8. For Cowork, prepare a Power BI report with verified values and the required access and licensing. The report segment demonstrates that report's data; it does not carry the entire ontology conversation into Cowork.
+9. Recheck the linked known issues, tenant configuration, regional availability, and billing guidance before recording. Test all optional integrations in the actual environment used for the demo.
+Pilot worksheet
+Evaluation dimension
+What to record
+Business interpretation
+The approved definition and the interpretation used in the answer
+Calculations
+Expected values, source measure or formula, filters, and returned values
+Relationships
+Expected entity links and any missing or duplicated records
+Freshness
+Required period, source timestamps, and graph or semantic-model refresh state
+Access
+Expected results for each test identity and actual behavior
+Useful completion
+Time to a reviewed output, corrections needed, and operator feedback
+Monitoring
+Detection delay, irrelevant recommendations, and correct execution identity
+Cost
+Capacity consumption, storage, other services, and consumption per completed review
+
+Source handling
+Research links point to Microsoft documentation and the Microsoft-owned sample repository. Check current individual feature guidance when rehearsing: broad platform pages and older ontology guidance can describe a different scope from the new experience. The analysis, monitoring, graph, and written-work segments each have their own configuration and acceptance checks.

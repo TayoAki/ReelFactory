@@ -1,0 +1,38 @@
+{
+  "template_id": "converging-sources",
+  "instance_id": "agent-inputs",
+  "selection_reason": "Use when the distinction among source classes matters and they share a real destination.",
+  "alternative_or_misuse": "Use a list for unrelated items; label search/query/tool access rather than implying data ingestion.",
+  "target_narration": "A data binding connects those concepts to actual source fields.",
+  "target_slot_bindings": {},
+  "binding_origin": "Explicit target bindings only; representative-source bindings are not silently transferred to another instance",
+  "sentence_scaffolds": [
+    "{{consumer}} draws on {{source_a}}, {{source_b}} and {{source_c}} to {{job}}.",
+    "These inputs differ, but they contribute to the same {{shared_layer}}."
+  ],
+  "source_quote": "agent bundles data sources, instructions, skills, and memory, and all those come together to create what we might think of as a customized coworker that can answer questions or get work done in a very particular",
+  "source_range": [
+    1475,
+    1484
+  ],
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_order_and_reveal_order_are_separate": true,
+  "original_reference_assets_relative_to_library": [
+    "frames/graphic/0044505.jpg",
+    "frames/graphic/0044259.jpg",
+    "frames/graphic/0044310.jpg"
+  ],
+  "imagegen_request": {
+    "prompt": "Create a single settled storyboard master image for this technical teaching beat.\nTeaching relationship: many inputs \u2192 shared hub. Teaching job: Show several distinct sources contributing context or capabilities to one named consumer..\nTarget narration: A data binding connects those concepts to actual source fields.\nTarget semantic slots: {}\nReference image 1 is the selected original-source style anchor. Further original-source images show earlier/build states. Use their visual hierarchy, icon mass, typography, color roles, surfaces, spacing and persistent relationships when appropriate. Do not use the rejected reconstruction as a reference.\nSource-specific observation: {\"status\": \"Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance.\"}\nThe finished diagram's reading order is separate from its reveal order. For adaptation, align the planned state sequence with the new narration; for reconstruction, follow the observed source sequence.\nMode: adaptation. Replace reference product labels, values, examples and claims with the supplied verified target content. Do not transfer source benchmarks, availability or access guarantees.\nDeliver a polished readable still with exact requested labels and useful whitespace. It is a candidate for human image review before editable reconstruction and motion. Produce only this master still; later states should be derived from it to preserve continuity.",
+    "referenced_image_paths": [
+      "/workspace/ReelFactory/reference-library/frames/graphic/0044505.jpg",
+      "/workspace/ReelFactory/reference-library/frames/graphic/0044259.jpg",
+      "/workspace/ReelFactory/reference-library/frames/graphic/0044310.jpg"
+    ],
+    "transparent_background": false
+  },
+  "storyboard_requirement": "Generate a master still, derive at least three coherent state images, compare to original references, review, reconstruct editable layers, then animate.",
+  "confidence": "Curated references and editorial sentence scaffolds; not a trained selector, word-alignment model or claim verifier."
+}

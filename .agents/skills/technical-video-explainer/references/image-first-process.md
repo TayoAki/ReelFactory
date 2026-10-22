@@ -27,3 +27,11 @@ One reference explanation: Web Search → Generic Models → Accurate Results. T
 ## Original-source reference retrieval
 
 Before designing a new master image, use `reference-library/` to pair original screenshots with the raw transcript, a teaching-relation template, variable slots, selection/misuse rules and source reveal observations. Pass the selected original images into image generation. Reading order and reveal order are distinct: source inspection corrected this pilot from an inferred web-first build to the original model-first build. Record selected library entry IDs and actual reference images in each storyboard.
+
+## Approved direction and first new-script test (2026-10-22)
+
+- **User feedback:** after reviewing `motion-pilot/web-search.mp4`, the user said “the image first approach is way better i like it like that,” and requested a new-transcript test. This approves the direction of that pilot; it does not automatically approve all future scenes.
+- **New artifact:** `motion-pilot-fabric/` adapts the supplied Fabric interview's section 3. Generated master → derived entity/relationship image states → property state from the same editable layout → SVG/HTML layers → narrated motion. The new scene remains pending visual judgment.
+- **Proposed transfer rule:** keep the visual vocabulary separate from the teaching relationship. A source three-card causal flow can provide typography, depth and color roles without forcing a new ontology explanation into a pipeline. The new scene instead distinguishes a solid named business relationship from dashed source mappings.
+- **Proposed selection rule:** when defining an entity, introduce its identity first, then properties inside its boundary, then peers and named connections. Introduce source mappings in a separate spatial band so they cannot be mistaken for additional business relationships. Use another graphic for instance/type distinctions, query execution or graph materialization.
+- **Measured in the pilot:** tracks follow the actual generated segment durations, with automatic word-boundary estimates retained. Preview voice is synthetic. Do not transfer the original reference's timings to unrelated narration.

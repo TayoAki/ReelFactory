@@ -1,0 +1,59 @@
+{
+  "template_id": "input-output",
+  "instance_id": "constrained-web-flow",
+  "selection_reason": "Use when the causal route is the lesson and each arrow has a defensible meaning.",
+  "alternative_or_misuse": "Use real UI for exact interaction steps; do not use an outcome card as evidence that execution succeeded.",
+  "target_narration": "A Store is an entity type. Region and priority are properties. Store operates Refrigeration Unit is a relationship. A data binding connects those concepts to actual source fields.",
+  "target_slot_bindings": {},
+  "binding_origin": "Explicit target bindings only; representative-source bindings are not silently transferred to another instance",
+  "sentence_scaffolds": [
+    "{{input_source}} feeds {{mechanism}}, which produces {{outcome}}.",
+    "For {{bounded_task}}, {{system}} can use {{input_source}} to produce {{qualified_result}}."
+  ],
+  "source_quote": "then we'll talk about Databricks' perspective on how to solve it. Generic models are really good at searching the web or a a code base, anything that's got a really constrained space. But when we start to ask questions about our business, we often get quite strange",
+  "source_range": [
+    110,
+    125
+  ],
+  "source_specific_observation": {
+    "reading_order": [
+      "Web Search",
+      "Generic Models",
+      "Accurate Results"
+    ],
+    "observed_reveal_order": [
+      "Peach model surface grows into place",
+      "Model icon/label settle; card briefly larger than settled size",
+      "Web-search input and its connector appear",
+      "Result card and second connector appear",
+      "Complete three-card flow holds"
+    ],
+    "evidence_notes": {
+      "110.3": "Only a tiny peach model surface is visible.",
+      "111.5": "Model card, icon and label visible at larger transient scale.",
+      "113": "Model card settled by itself.",
+      "115": "Web card and first arrow visible; result card still faint.",
+      "117": "Complete flow is readable.",
+      "123": "Completed flow is retained."
+    },
+    "speech_mapping": "The speaker introduces generic models before describing web search. Finished diagram reading direction is not its reveal order.",
+    "confidence": "Direct visual inspection of source crops at 110.3, 111.5, 113, 115 and 117 seconds."
+  },
+  "reading_order_and_reveal_order_are_separate": true,
+  "original_reference_assets_relative_to_library": [
+    "frames/graphic/0003510.jpg",
+    "frames/graphic/0003390.jpg",
+    "frames/graphic/0003450.jpg"
+  ],
+  "imagegen_request": {
+    "prompt": "Create a single settled storyboard master image for this technical teaching beat.\nTeaching relationship: input \u2192 mechanism \u2192 outcome. Teaching job: Explain how a source becomes an output through a named mechanism..\nTarget narration: A Store is an entity type. Region and priority are properties. Store operates Refrigeration Unit is a relationship. A data binding connects those concepts to actual source fields.\nTarget semantic slots: {}\nReference image 1 is the selected original-source style anchor. Further original-source images show earlier/build states. Use their visual hierarchy, icon mass, typography, color roles, surfaces, spacing and persistent relationships when appropriate. Do not use the rejected reconstruction as a reference.\nSource-specific observation: {\"reading_order\": [\"Web Search\", \"Generic Models\", \"Accurate Results\"], \"observed_reveal_order\": [\"Peach model surface grows into place\", \"Model icon/label settle; card briefly larger than settled size\", \"Web-search input and its connector appear\", \"Result card and second connector appear\", \"Complete three-card flow holds\"], \"evidence_notes\": {\"110.3\": \"Only a tiny peach model surface is visible.\", \"111.5\": \"Model card, icon and label visible at larger transient scale.\", \"113\": \"Model card settled by itself.\", \"115\": \"Web card and first arrow visible; result card still faint.\", \"117\": \"Complete flow is readable.\", \"123\": \"Completed flow is retained.\"}, \"speech_mapping\": \"The speaker introduces generic models before describing web search. Finished diagram reading direction is not its reveal order.\", \"confidence\": \"Direct visual inspection of source crops at 110.3, 111.5, 113, 115 and 117 seconds.\"}\nThe finished diagram's reading order is separate from its reveal order. For adaptation, align the planned state sequence with the new narration; for reconstruction, follow the observed source sequence.\nMode: adaptation. Replace reference product labels, values, examples and claims with the supplied verified target content. Do not transfer source benchmarks, availability or access guarantees.\nDeliver a polished readable still with exact requested labels and useful whitespace. It is a candidate for human image review before editable reconstruction and motion. Produce only this master still; later states should be derived from it to preserve continuity.",
+    "referenced_image_paths": [
+      "/workspace/ReelFactory/reference-library/frames/graphic/0003510.jpg",
+      "/workspace/ReelFactory/reference-library/frames/graphic/0003390.jpg",
+      "/workspace/ReelFactory/reference-library/frames/graphic/0003450.jpg"
+    ],
+    "transparent_background": false
+  },
+  "storyboard_requirement": "Generate a master still, derive at least three coherent state images, compare to original references, review, reconstruct editable layers, then animate.",
+  "confidence": "Curated references and editorial sentence scaffolds; not a trained selector, word-alignment model or claim verifier."
+}
