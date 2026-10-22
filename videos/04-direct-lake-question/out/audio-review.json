@@ -1,0 +1,32 @@
+{
+  "method": "Whisper tiny.en re-transcription of final mixed MP4, compared with intended narration. ASR differences need interpretation; this is not proof of word-perfect audio.",
+  "similarity": 0.9283,
+  "transcript": "A fabric interview question. Your sales data is stored as delta tables in one lake. You want import style query performance without copying the entire data set into the model, which storage mode fits, import, direct query, or direct lake, pause here and choose your answer. Direct lake, it loads the columns needed for queries from delta tables in one lake, or refresh updates metadata. It does not import the entire data set again. Here is the detail to check. Direct Lake on SQL can fall back to direct query. Direct Lake on one lake does not use that fallback. Their security behavior differs too. Read the comparison before choosing a mode. The correct design depends on the source and permissions.",
+  "differences": [
+    {
+      "kind": "replace",
+      "expected": "onelake",
+      "recognized": "one lake"
+    },
+    {
+      "kind": "replace",
+      "expected": "dataset",
+      "recognized": "data set"
+    },
+    {
+      "kind": "replace",
+      "expected": "onelake a",
+      "recognized": "one lake or"
+    },
+    {
+      "kind": "replace",
+      "expected": "dataset",
+      "recognized": "data set"
+    },
+    {
+      "kind": "replace",
+      "expected": "onelake",
+      "recognized": "one lake"
+    }
+  ]
+}

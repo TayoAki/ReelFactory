@@ -1,0 +1,52 @@
+{
+  "method": "Whisper tiny.en re-transcription of final mixed MP4, compared with intended narration. ASR differences need interpretation; this is not proof of word-perfect audio.",
+  "similarity": 0.8155,
+  "transcript": "I clear it a year of New York's 3-1-1 requests. Almost 4 million records. The window is October 1st, 2025, through September 30th, 2026. The biggest category is illegal parking. 611,282 requests. Residential noise is next. With more than 432,000 requests, those residential noise requests peak in the 10 p.m. Sunday is the busiest day. Heat and hot water requests show a different pattern. January is far busier than August. At the other end of the list, exactly one request is filed under trapping pigeon. These are request counts, not unique incidents. The queries and results are saved so you can reproduce the charts.",
+  "differences": [
+    {
+      "kind": "replace",
+      "expected": "queried",
+      "recognized": "clear it"
+    },
+    {
+      "kind": "replace",
+      "expected": "three one one",
+      "recognized": "3 1 1"
+    },
+    {
+      "kind": "replace",
+      "expected": "four",
+      "recognized": "4"
+    },
+    {
+      "kind": "replace",
+      "expected": "first twenty twenty five",
+      "recognized": "1st 2025"
+    },
+    {
+      "kind": "replace",
+      "expected": "thirtieth twenty twenty six",
+      "recognized": "30th 2026"
+    },
+    {
+      "kind": "replace",
+      "expected": "six hundred eleven thousand two hundred eighty two",
+      "recognized": "611 282"
+    },
+    {
+      "kind": "replace",
+      "expected": "four hundred thirty two thousand",
+      "recognized": "432 000"
+    },
+    {
+      "kind": "replace",
+      "expected": "ten",
+      "recognized": "10"
+    },
+    {
+      "kind": "delete",
+      "expected": "hour",
+      "recognized": ""
+    }
+  ]
+}

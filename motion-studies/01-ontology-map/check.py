@@ -1,0 +1,10 @@
+from playwright.sync_api import sync_playwright
+from pathlib import Path
+import json
+r=Path(__file__).resolve().parent
+with sync_playwright() as p:
+ b=p.chromium.launch(executable_path='/usr/bin/chromium',headless=True,args=['--no-sandbox']);page=b.new_page(viewport={'width':1920,'height':1080});errors=[];page.on('pageerror',lambda e:errors.append(str(e)));page.goto('http://127.0.0.1:8765/motion-studies/01-ontology-map/index.html');page.evaluate('document.fonts.ready');page.wait_for_function('!!window.__timelines?.main');targets=[(.8,245,104,153),(2,245,104,153),(3.2,284,109,144),(4,335,118,128),(5.2,323,122,121),(5.4,305,123,119),(6.2,267,128,109),(7,267,128,109)];rows=[]
+ for t,x,y,w in targets:
+  got=page.evaluate('''t=>{window.__timelines.main.seek(t);const r=document.getElementById('main').getBoundingClientRect();return{x:r.x/3,y:r.y/3,w:r.width/3,opacity:document.getElementById('main').getAttribute('opacity')}}''',t);err=max(abs(got['x']-x),abs(got['y']-y),abs(got['w']-w));rows.append({'time':t,'reference':[x,y,w],'reconstruction':got,'max_error_px':round(err,3)});assert err<2
+ page.goto('http://127.0.0.1:8765/motion-studies/01-ontology-map/review.html');page.wait_for_function('[...document.querySelectorAll("video")].every(v=>v.readyState>=1)');page.locator('#next').click();assert page.locator('#replica').evaluate('(v)=>v.currentTime')>.03;page.locator('#speed').select_option('.25' if False else '0.25');assert page.locator('#source').evaluate('(v)=>v.playbackRate')==.25;page.locator('#scrub').evaluate('(e)=>{e.value=120}');page.locator('#scrub').dispatch_event('input');assert abs(page.locator('#replica').evaluate('(v)=>v.currentTime')-4)<.01;assert not errors;b.close()
+ report={'camera_anchor_checks':rows,'scope':'Measured main-card bounds at eight states only; glyph fidelity and all reveal timings are not certified','player_controls':'passed','page_errors':errors};(r/'verification.json').write_text(json.dumps(report,indent=2));print('8 camera anchors and synchronized player controls passed')

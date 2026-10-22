@@ -1,0 +1,545 @@
+{
+  "success": true,
+  "credits_remaining": 16832,
+  "credits_charged": 1,
+  "type": "video",
+  "url": "https://www.youtube.com/watch?v=rfCEmqtaerQ",
+  "transcript": [
+    {
+      "text": "I am building a data agent over my retail data that'll be an expert on shipping information.",
+      "startMs": "750",
+      "endMs": "5950",
+      "startTimeText": "0:00"
+    },
+    {
+      "text": "I've preloaded this data agent with the lake house and an event house data source that includes all the data points that I would need to make this agent an expert.",
+      "startMs": "6510",
+      "endMs": "14870",
+      "startTimeText": "0:06"
+    },
+    {
+      "text": "Data agent has multiple areas where we can configure it in order to set it up and get this ready for production so my consumers can start using it.",
+      "startMs": "15790",
+      "endMs": "23590",
+      "startTimeText": "0:15"
+    },
+    {
+      "text": "I would need to set up agent instructions, data source instructions, and example queries.",
+      "startMs": "24430",
+      "endMs": "29230",
+      "startTimeText": "0:24"
+    },
+    {
+      "text": "Let's start by asking Data Agent a simple question so we can get started.",
+      "startMs": "31390",
+      "endMs": "35710",
+      "startTimeText": "0:31"
+    },
+    {
+      "text": "I want Data Agent to be able to answer a question like what was the carrier name, service level, and maximum delay in minutes, humidity, and temperature observed during transit for a specific shipment tracking number.",
+      "startMs": "36510",
+      "endMs": "48350",
+      "startTimeText": "0:36"
+    },
+    {
+      "text": "What we'll find is that Data Agent is not able to answer this question directly.",
+      "startMs": "51390",
+      "endMs": "56190",
+      "startTimeText": "0:51"
+    },
+    {
+      "text": "I need more context in order for Data Agent to actually reason about my data to answer this question.",
+      "startMs": "56670",
+      "endMs": "62510",
+      "startTimeText": "0:56"
+    },
+    {
+      "text": "While I can go into setup and manually set up agent instructions, data source instructions, and example queries, what we're going to do is we're going to use one of Data Agent's latest features, Build Agent with AI.",
+      "startMs": "62910",
+      "endMs": "74750",
+      "startTimeText": "1:02"
+    },
+    {
+      "text": "To get us started, we can go ahead and make sure that we have all of our data sources loaded that we care about.",
+      "startMs": "78030",
+      "endMs": "84430",
+      "startTimeText": "1:18"
+    },
+    {
+      "text": "So in this case, we already mentioned that we preloaded this data agent with an event house and lake house that includes all the information we need.",
+      "startMs": "84750",
+      "endMs": "91350",
+      "startTimeText": "1:24"
+    },
+    {
+      "text": "Furthermore, I want to validate that I have checked all the relevant tables for this data agent.",
+      "startMs": "91870",
+      "endMs": "97630",
+      "startTimeText": "1:31"
+    },
+    {
+      "text": "And as you can see, I've selected all the tables as an input, and that's just enough information to get started.",
+      "startMs": "98190",
+      "endMs": "103870",
+      "startTimeText": "1:38"
+    },
+    {
+      "text": "Let's start by asking the creator assistant to help us answer the question that we try to with the data agent.",
+      "startMs": "105150",
+      "endMs": "111150",
+      "startTimeText": "1:45"
+    },
+    {
+      "text": "I want the creator assistant to explore my schema and understand which tables and columns are important to answer this question.",
+      "startMs": "112590",
+      "endMs": "119310",
+      "startTimeText": "1:52"
+    },
+    {
+      "text": "Luckily, the creator assistant is able to do just that.",
+      "startMs": "119870",
+      "endMs": "122990",
+      "startTimeText": "1:59"
+    },
+    {
+      "text": "The assistant is pre-built with tools to explore schemas, filter values, and much more.",
+      "startMs": "123390",
+      "endMs": "128750",
+      "startTimeText": "2:03"
+    },
+    {
+      "text": "After a few seconds, the creator assistant responds to collect more contacts.",
+      "startMs": "132870",
+      "endMs": "137230",
+      "startTimeText": "2:12"
+    },
+    {
+      "text": "The assistant is able to help answer this question and provide clarity into how it approached the answer.",
+      "startMs": "137790",
+      "endMs": "143310",
+      "startTimeText": "2:17"
+    },
+    {
+      "text": "Firstly, it made a few key assumptions, such as using the tracking number to uniquely identify carrier data and the shipment information.",
+      "startMs": "143870",
+      "endMs": "153070",
+      "startTimeText": "2:23"
+    },
+    {
+      "text": "Then using the shipment ID to find the transit telemetry directly from the event house database.",
+      "startMs": "153870",
+      "endMs": "160750",
+      "startTimeText": "2:33"
+    },
+    {
+      "text": "Furthermore, you can clearly see that all of this information is reflected in the SQL and KQL queries used to answer the question.",
+      "startMs": "165390",
+      "endMs": "174190",
+      "startTimeText": "2:45"
+    },
+    {
+      "text": "And now we can jump into the magic of the creator assistant.",
+      "startMs": "175670",
+      "endMs": "179150",
+      "startTimeText": "2:55"
+    },
+    {
+      "text": "Based on this information, I'm going to ask the creator assistant to generate me agent instructions to help the data agent answer this question consistently.",
+      "startMs": "180510",
+      "endMs": "189710",
+      "startTimeText": "3:00"
+    },
+    {
+      "text": "After a few seconds, the creator assistant is able to use my conversational history and all of their contacts within my database to help generate agent instructions.",
+      "startMs": "195310",
+      "endMs": "205150",
+      "startTimeText": "3:15"
+    },
+    {
+      "text": "We can review all of the agent instructions to validate that the generated instructions contain the right information.",
+      "startMs": "207390",
+      "endMs": "213790",
+      "startTimeText": "3:27"
+    },
+    {
+      "text": "The generated instructions provide guidance to my data agent to answer questions just like this.",
+      "startMs": "214430",
+      "endMs": "220030",
+      "startTimeText": "3:34"
+    },
+    {
+      "text": "After reviewing the agent instructions, I have one last step.",
+      "startMs": "221790",
+      "endMs": "225070",
+      "startTimeText": "3:41"
+    },
+    {
+      "text": "All I need to do is let the agent know to save my instructions.",
+      "startMs": "225550",
+      "endMs": "229310",
+      "startTimeText": "3:45"
+    },
+    {
+      "text": "And just like that, the Creator Assistant has just added all my agent instructions that are necessary to answer this question.",
+      "startMs": "232430",
+      "endMs": "240190",
+      "startTimeText": "3:52"
+    },
+    {
+      "text": "Now let's jump into the test data agent and try this out.",
+      "startMs": "241630",
+      "endMs": "245710",
+      "startTimeText": "4:01"
+    },
+    {
+      "text": "Let's ask the question one more time.",
+      "startMs": "251590",
+      "endMs": "253230",
+      "startTimeText": "4:11"
+    },
+    {
+      "text": "What was the carrier name, service level, and maximum delay in minutes, humidity, and temperature observed during transit for this specific shipment tracking number?",
+      "startMs": "253310",
+      "endMs": "262029",
+      "startTimeText": "4:13"
+    },
+    {
+      "text": "Now that I've used the creator assistant to generate my agent instructions, I expect the data agent to have the roadmap to answer this question.",
+      "startMs": "264110",
+      "endMs": "272030",
+      "startTimeText": "4:24"
+    },
+    {
+      "text": "The data agent should know that it needs to 1st resolve the carrier information and shipment ID using the lake house, then use the event house database to find more detailed shipment information like humidity and temperature.",
+      "startMs": "272590",
+      "endMs": "285870",
+      "startTimeText": "4:32"
+    },
+    {
+      "text": "As expected, the agent successfully answered the question.",
+      "startMs": "287710",
+      "endMs": "290830",
+      "startTimeText": "4:47"
+    },
+    {
+      "text": "Thanks to the new build agent with AI mode, instead of going through a tedious process of manual trial and error, it took us just minutes to provide the necessary context the data agent needs to answer the question.",
+      "startMs": "290990",
+      "endMs": "302910",
+      "startTimeText": "4:50"
+    },
+    {
+      "text": "The build agent with AI capabilities doesn't just end there.",
+      "startMs": "303790",
+      "endMs": "307390",
+      "startTimeText": "5:03"
+    },
+    {
+      "text": "I can iterate on existing instructions, correct my assistant's assumptions, identify conflicts, and more.",
+      "startMs": "308030",
+      "endMs": "313950",
+      "startTimeText": "5:08"
+    },
+    {
+      "text": "One key capability of the Creator Assistant is the ability to explore query insights, to view historical query executions, and identify query patterns, join logics, and key filter values.",
+      "startMs": "314670",
+      "endMs": "328350",
+      "startTimeText": "5:14"
+    },
+    {
+      "text": "The assistant is then able to use this information to generate example queries we can add as part of the data agent configuration.",
+      "startMs": "329150",
+      "endMs": "336870",
+      "startTimeText": "5:29"
+    },
+    {
+      "text": "walking through the generated example queries, the agent was able to use multiple pieces of context.",
+      "startMs": "339950",
+      "endMs": "346030",
+      "startTimeText": "5:39"
+    },
+    {
+      "text": "First, it used the context from our chat history to generate queries related to shipment and tracking information.",
+      "startMs": "346510",
+      "endMs": "352750",
+      "startTimeText": "5:46"
+    },
+    {
+      "text": "Additionally, it also looked at the historical execution of queries in my lake house and identified key queries related to sales.",
+      "startMs": "353630",
+      "endMs": "362110",
+      "startTimeText": "5:53"
+    },
+    {
+      "text": "And as a final step, we will save and commit these example queries back to our data agent configuration.",
+      "startMs": "364430",
+      "endMs": "370590",
+      "startTimeText": "6:04"
+    },
+    {
+      "text": "Once the step completes, we can open the example query setup and review the recently saved example queries.",
+      "startMs": "373790",
+      "endMs": "380750",
+      "startTimeText": "6:13"
+    },
+    {
+      "text": "As you can see, all 15 of the queries are now saved to the data agent configuration.",
+      "startMs": "381390",
+      "endMs": "386430",
+      "startTimeText": "6:21"
+    },
+    {
+      "text": "And just like that, all of this exploration provides key context for the assistant to help configure a production-ready data agent with less manual effort and faster time to production.",
+      "startMs": "387390",
+      "endMs": "398750",
+      "startTimeText": "6:27"
+    }
+  ],
+  "transcript_only_text": "I am building a data agent over my retail data that'll be an expert on shipping information. I've preloaded this data agent with the lake house and an event house data source that includes all the data points that I would need to make this agent an expert. Data agent has multiple areas where we can configure it in order to set it up and get this ready for production so my consumers can start using it. I would need to set up agent instructions, data source instructions, and example queries. Let's start by asking Data Agent a simple question so we can get started. I want Data Agent to be able to answer a question like what was the carrier name, service level, and maximum delay in minutes, humidity, and temperature observed during transit for a specific shipment tracking number. What we'll find is that Data Agent is not able to answer this question directly. I need more context in order for Data Agent to actually reason about my data to answer this question. While I can go into setup and manually set up agent instructions, data source instructions, and example queries, what we're going to do is we're going to use one of Data Agent's latest features, Build Agent with AI. To get us started, we can go ahead and make sure that we have all of our data sources loaded that we care about. So in this case, we already mentioned that we preloaded this data agent with an event house and lake house that includes all the information we need. Furthermore, I want to validate that I have checked all the relevant tables for this data agent. And as you can see, I've selected all the tables as an input, and that's just enough information to get started. Let's start by asking the creator assistant to help us answer the question that we try to with the data agent. I want the creator assistant to explore my schema and understand which tables and columns are important to answer this question. Luckily, the creator assistant is able to do just that. The assistant is pre-built with tools to explore schemas, filter values, and much more. After a few seconds, the creator assistant responds to collect more contacts. The assistant is able to help answer this question and provide clarity into how it approached the answer. Firstly, it made a few key assumptions, such as using the tracking number to uniquely identify carrier data and the shipment information. Then using the shipment ID to find the transit telemetry directly from the event house database. Furthermore, you can clearly see that all of this information is reflected in the SQL and KQL queries used to answer the question. And now we can jump into the magic of the creator assistant. Based on this information, I'm going to ask the creator assistant to generate me agent instructions to help the data agent answer this question consistently. After a few seconds, the creator assistant is able to use my conversational history and all of their contacts within my database to help generate agent instructions. We can review all of the agent instructions to validate that the generated instructions contain the right information. The generated instructions provide guidance to my data agent to answer questions just like this. After reviewing the agent instructions, I have one last step. All I need to do is let the agent know to save my instructions. And just like that, the Creator Assistant has just added all my agent instructions that are necessary to answer this question. Now let's jump into the test data agent and try this out. Let's ask the question one more time. What was the carrier name, service level, and maximum delay in minutes, humidity, and temperature observed during transit for this specific shipment tracking number? Now that I've used the creator assistant to generate my agent instructions, I expect the data agent to have the roadmap to answer this question. The data agent should know that it needs to 1st resolve the carrier information and shipment ID using the lake house, then use the event house database to find more detailed shipment information like humidity and temperature. As expected, the agent successfully answered the question. Thanks to the new build agent with AI mode, instead of going through a tedious process of manual trial and error, it took us just minutes to provide the necessary context the data agent needs to answer the question. The build agent with AI capabilities doesn't just end there. I can iterate on existing instructions, correct my assistant's assumptions, identify conflicts, and more. One key capability of the Creator Assistant is the ability to explore query insights, to view historical query executions, and identify query patterns, join logics, and key filter values. The assistant is then able to use this information to generate example queries we can add as part of the data agent configuration. walking through the generated example queries, the agent was able to use multiple pieces of context. First, it used the context from our chat history to generate queries related to shipment and tracking information. Additionally, it also looked at the historical execution of queries in my lake house and identified key queries related to sales. And as a final step, we will save and commit these example queries back to our data agent configuration. Once the step completes, we can open the example query setup and review the recently saved example queries. As you can see, all 15 of the queries are now saved to the data agent configuration. And just like that, all of this exploration provides key context for the assistant to help configure a production-ready data agent with less manual effort and faster time to production.",
+  "language": "English",
+  "videoId": "rfCEmqtaerQ",
+  "captionTracks": [
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=mXnZat73Eu7GybgPuY7FiAk&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662537&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=EADE451AFC6CD7A7CA6419E0C1332C7C5CBFAE2F.A953661F6C0A0954E9BC1D04756F180FE54781E8&key=yt8&kind=asr&lang=ar&variant=timing-optimized",
+      "name": {
+        "simpleText": "Arabic (auto-generated)"
+      },
+      "vssId": "a.ar",
+      "languageCode": "ar",
+      "kind": "asr",
+      "rtl": true,
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=mXnZat73Eu7GybgPuY7FiAk&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662537&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=EADE451AFC6CD7A7CA6419E0C1332C7C5CBFAE2F.A953661F6C0A0954E9BC1D04756F180FE54781E8&key=yt8&kind=asr&lang=bn&variant=timing-optimized",
+      "name": {
+        "simpleText": "Bangla (auto-generated)"
+      },
+      "vssId": "a.bn",
+      "languageCode": "bn",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=mXnZat73Eu7GybgPuY7FiAk&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662537&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=EADE451AFC6CD7A7CA6419E0C1332C7C5CBFAE2F.A953661F6C0A0954E9BC1D04756F180FE54781E8&key=yt8&kind=asr&lang=nl-NL&variant=timing-optimized",
+      "name": {
+        "simpleText": "Dutch (Netherlands) (auto-generated)"
+      },
+      "vssId": "a.nl-NL",
+      "languageCode": "nl-NL",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=mXnZat73Eu7GybgPuY7FiAk&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662537&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=EADE451AFC6CD7A7CA6419E0C1332C7C5CBFAE2F.A953661F6C0A0954E9BC1D04756F180FE54781E8&key=yt8&lang=en",
+      "name": {
+        "simpleText": "English"
+      },
+      "vssId": ".en",
+      "languageCode": "en",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=mXnZat73Eu7GybgPuY7FiAk&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662537&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=EADE451AFC6CD7A7CA6419E0C1332C7C5CBFAE2F.A953661F6C0A0954E9BC1D04756F180FE54781E8&key=yt8&kind=asr&lang=en&variant=gemini",
+      "name": {
+        "simpleText": "English (auto-generated)"
+      },
+      "vssId": "a.en",
+      "languageCode": "en",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=mXnZat73Eu7GybgPuY7FiAk&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662537&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=EADE451AFC6CD7A7CA6419E0C1332C7C5CBFAE2F.A953661F6C0A0954E9BC1D04756F180FE54781E8&key=yt8&kind=asr&lang=fr-FR&variant=timing-optimized",
+      "name": {
+        "simpleText": "French (France) (auto-generated)"
+      },
+      "vssId": "a.fr-FR",
+      "languageCode": "fr-FR",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=mXnZat73Eu7GybgPuY7FiAk&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662537&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=EADE451AFC6CD7A7CA6419E0C1332C7C5CBFAE2F.A953661F6C0A0954E9BC1D04756F180FE54781E8&key=yt8&kind=asr&lang=de-DE&variant=timing-optimized",
+      "name": {
+        "simpleText": "German (Germany) (auto-generated)"
+      },
+      "vssId": "a.de-DE",
+      "languageCode": "de-DE",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=mXnZat73Eu7GybgPuY7FiAk&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662537&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=EADE451AFC6CD7A7CA6419E0C1332C7C5CBFAE2F.A953661F6C0A0954E9BC1D04756F180FE54781E8&key=yt8&kind=asr&lang=iw&variant=timing-optimized",
+      "name": {
+        "simpleText": "Hebrew (auto-generated)"
+      },
+      "vssId": "a.iw",
+      "languageCode": "iw",
+      "kind": "asr",
+      "rtl": true,
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=mXnZat73Eu7GybgPuY7FiAk&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662537&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=EADE451AFC6CD7A7CA6419E0C1332C7C5CBFAE2F.A953661F6C0A0954E9BC1D04756F180FE54781E8&key=yt8&kind=asr&lang=hi&variant=timing-optimized",
+      "name": {
+        "simpleText": "Hindi (auto-generated)"
+      },
+      "vssId": "a.hi",
+      "languageCode": "hi",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=mXnZat73Eu7GybgPuY7FiAk&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662537&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=EADE451AFC6CD7A7CA6419E0C1332C7C5CBFAE2F.A953661F6C0A0954E9BC1D04756F180FE54781E8&key=yt8&kind=asr&lang=id&variant=timing-optimized",
+      "name": {
+        "simpleText": "Indonesian (auto-generated)"
+      },
+      "vssId": "a.id",
+      "languageCode": "id",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=mXnZat73Eu7GybgPuY7FiAk&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662537&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=EADE451AFC6CD7A7CA6419E0C1332C7C5CBFAE2F.A953661F6C0A0954E9BC1D04756F180FE54781E8&key=yt8&kind=asr&lang=it&variant=timing-optimized",
+      "name": {
+        "simpleText": "Italian (auto-generated)"
+      },
+      "vssId": "a.it",
+      "languageCode": "it",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=mXnZat73Eu7GybgPuY7FiAk&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662537&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=EADE451AFC6CD7A7CA6419E0C1332C7C5CBFAE2F.A953661F6C0A0954E9BC1D04756F180FE54781E8&key=yt8&kind=asr&lang=ja&variant=timing-optimized",
+      "name": {
+        "simpleText": "Japanese (auto-generated)"
+      },
+      "vssId": "a.ja",
+      "languageCode": "ja",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=mXnZat73Eu7GybgPuY7FiAk&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662537&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=EADE451AFC6CD7A7CA6419E0C1332C7C5CBFAE2F.A953661F6C0A0954E9BC1D04756F180FE54781E8&key=yt8&kind=asr&lang=ko&variant=timing-optimized",
+      "name": {
+        "simpleText": "Korean (auto-generated)"
+      },
+      "vssId": "a.ko",
+      "languageCode": "ko",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=mXnZat73Eu7GybgPuY7FiAk&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662537&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=EADE451AFC6CD7A7CA6419E0C1332C7C5CBFAE2F.A953661F6C0A0954E9BC1D04756F180FE54781E8&key=yt8&kind=asr&lang=ml&variant=timing-optimized",
+      "name": {
+        "simpleText": "Malayalam (auto-generated)"
+      },
+      "vssId": "a.ml",
+      "languageCode": "ml",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=mXnZat73Eu7GybgPuY7FiAk&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662537&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=EADE451AFC6CD7A7CA6419E0C1332C7C5CBFAE2F.A953661F6C0A0954E9BC1D04756F180FE54781E8&key=yt8&kind=asr&lang=pl&variant=timing-optimized",
+      "name": {
+        "simpleText": "Polish (auto-generated)"
+      },
+      "vssId": "a.pl",
+      "languageCode": "pl",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=mXnZat73Eu7GybgPuY7FiAk&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662537&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=EADE451AFC6CD7A7CA6419E0C1332C7C5CBFAE2F.A953661F6C0A0954E9BC1D04756F180FE54781E8&key=yt8&kind=asr&lang=pt-BR&variant=timing-optimized",
+      "name": {
+        "simpleText": "Portuguese (Brazil) (auto-generated)"
+      },
+      "vssId": "a.pt-BR",
+      "languageCode": "pt-BR",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=mXnZat73Eu7GybgPuY7FiAk&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662537&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=EADE451AFC6CD7A7CA6419E0C1332C7C5CBFAE2F.A953661F6C0A0954E9BC1D04756F180FE54781E8&key=yt8&kind=asr&lang=pa&variant=timing-optimized",
+      "name": {
+        "simpleText": "Punjabi (auto-generated)"
+      },
+      "vssId": "a.pa",
+      "languageCode": "pa",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=mXnZat73Eu7GybgPuY7FiAk&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662537&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=EADE451AFC6CD7A7CA6419E0C1332C7C5CBFAE2F.A953661F6C0A0954E9BC1D04756F180FE54781E8&key=yt8&kind=asr&lang=ru&variant=timing-optimized",
+      "name": {
+        "simpleText": "Russian (auto-generated)"
+      },
+      "vssId": "a.ru",
+      "languageCode": "ru",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=mXnZat73Eu7GybgPuY7FiAk&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662537&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=EADE451AFC6CD7A7CA6419E0C1332C7C5CBFAE2F.A953661F6C0A0954E9BC1D04756F180FE54781E8&key=yt8&kind=asr&lang=es-US&variant=timing-optimized",
+      "name": {
+        "simpleText": "Spanish (United States) (auto-generated)"
+      },
+      "vssId": "a.es-US",
+      "languageCode": "es-US",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=mXnZat73Eu7GybgPuY7FiAk&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662537&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=EADE451AFC6CD7A7CA6419E0C1332C7C5CBFAE2F.A953661F6C0A0954E9BC1D04756F180FE54781E8&key=yt8&kind=asr&lang=ta&variant=timing-optimized",
+      "name": {
+        "simpleText": "Tamil (auto-generated)"
+      },
+      "vssId": "a.ta",
+      "languageCode": "ta",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=mXnZat73Eu7GybgPuY7FiAk&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662537&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=EADE451AFC6CD7A7CA6419E0C1332C7C5CBFAE2F.A953661F6C0A0954E9BC1D04756F180FE54781E8&key=yt8&kind=asr&lang=te&variant=timing-optimized",
+      "name": {
+        "simpleText": "Telugu (auto-generated)"
+      },
+      "vssId": "a.te",
+      "languageCode": "te",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=mXnZat73Eu7GybgPuY7FiAk&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662537&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=EADE451AFC6CD7A7CA6419E0C1332C7C5CBFAE2F.A953661F6C0A0954E9BC1D04756F180FE54781E8&key=yt8&kind=asr&lang=uk&variant=timing-optimized",
+      "name": {
+        "simpleText": "Ukrainian (auto-generated)"
+      },
+      "vssId": "a.uk",
+      "languageCode": "uk",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    }
+  ]
+}

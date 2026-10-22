@@ -1,0 +1,28 @@
+{
+  "input": "fabric-watermark-silent.mp4",
+  "sampling_fps": 2.0,
+  "exhaustive": false,
+  "note": "Sampling timestamps approximate FFmpeg fps filter output; use source frame timestamps for frame-exact EDL. No visual review is implied by extraction.",
+  "frames": [
+    {
+      "file": "frame-00001.png",
+      "sample_time_seconds": 0.0,
+      "review_status": "not reviewed"
+    },
+    {
+      "file": "frame-00002.png",
+      "sample_time_seconds": 0.5,
+      "review_status": "not reviewed"
+    },
+    {
+      "file": "frame-00003.png",
+      "sample_time_seconds": 1.0,
+      "review_status": "not reviewed"
+    },
+    {
+      "file": "frame-00004.png",
+      "sample_time_seconds": 1.5,
+      "review_status": "not reviewed"
+    }
+  ]
+}

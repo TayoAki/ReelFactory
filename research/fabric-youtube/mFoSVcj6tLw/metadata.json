@@ -1,0 +1,479 @@
+{
+  "success": true,
+  "credits_remaining": 16844,
+  "credits_charged": 1,
+  "type": "video",
+  "id": "mFoSVcj6tLw",
+  "title": "Build a Microsoft Fabric Data Agent (Step by Step)",
+  "description": "Yooo! \ud83d\ude4c take your data skills to the next level and join fellow data professionals in our community THE CUBE: https://guyinacube.com\n\nWhat if your report consumers could do more than browse reports? In this walkthrough, Marthe demonstrates how to build a Microsoft Fabric Data Agent that combines data from semantic models and lakehouses, adds business context through instructions, improves responses with example queries, validates results against Power BI, and securely shares the experience with users. You'll also see how Data Agents use DAX for semantic models, SQL for lakehouse queries, and how to access the agent with the Fabric Data Agent SDK and Azure AI solutions for enterprise-scale scenarios.\n\n\ud83d\udd17 LINKS\nFabric data agent concepts (preview): https://learn.microsoft.com/fabric/da...\n\n\u2705 KEY TAKEAWAYS\nCreate a Microsoft Fabric Data Agent from scratch.\nConnect semantic models and lakehouse tables as data sources.\nImprove agent accuracy with instructions, metadata, and example queries.\nValidate Data Agent responses by reviewing generated DAX and SQL queries.\nShare agents securely while respecting underlying data permissions.\nUse the Fabric Data Agent SDK and Azure AI integrations for custom applications.\n\n\ud83c\udfa5 RELATED VIDEOS\nMicrosoft Fabric Explained in less than 10 Minutes (Start Here): \u00a0\u00a0\u00a0\u2022\u00a0Microsoft\u00a0Fabric\u00a0Explained\u00a0in\u00a0less\u00a0than\u00a010...\u00a0\u00a0\nWhat is Microsoft Purview? Get the Overview and Unleash Data Governance with Purview & Fabric!: \u00a0\u00a0\u00a0\u2022\u00a0What\u00a0is\u00a0Microsoft\u00a0Purview?\u00a0Get\u00a0the\u00a0Overvie...\u00a0\u00a0\n\n\u23f1\ufe0f CHAPTERS\n00:00 Introduction to Microsoft Fabric Data Agents\n00:17 Why Data Agents Matter for Power BI Consumers\n01:00 Creating a New Data Agent\n01:25 Connecting Semantic Models and Lakehouse Data\n02:50 Teaching the Agent with Instructions\n04:06 Improving Results with Example Queries\n04:48 Testing Questions and Reviewing DAX Queries\n05:37 Advanced Analytics and Validation\n06:12 Publishing and Sharing the Agent\n07:00 Security and Data Permissions\n07:38 Using the Fabric Data Agent SDK with Python\n08:20 Azure AI and Enterprise Integration\n08:34 Final Thoughts and Use Cases\n\n\ud83c\udf10 LET'S CONNECT!\nOfficial website: https://guyinacube.com\nLinkedIn: \u00a0\u00a0/\u00a0guyinacube\u00a0\u00a0\nFacebook: \u00a0\u00a0/\u00a0guyinacube\u00a0\u00a0\nInstagram: \u00a0\u00a0/\u00a0guyinacube\u00a0\u00a0\nBluesky: https://bsky.app/profile/guyinacube.com\nX: https://x.com/guyinacube\n\n\ud83c\udfa4 HOST\nMarthe Moengen\n\n#microsoftfabric #powerbi #ai #guyinacube",
+  "descriptionLinks": [
+    "https://guyinacube.com/",
+    "https://learn.microsoft.com/fabric/data-science/concept-data-agent",
+    "https://www.youtube.com/watch?v=NA9pQdRN3F4&list=PLv2BtOtLblH1RhbtfTpp9ovi3Y-3HiRO2&index=1",
+    "https://www.youtube.com/watch?v=cwl5gzFeOXA&list=PLv2BtOtLblH3l80JW-YyVgvXeyhnH87Rb&index=8",
+    "https://www.youtube.com/watch?v=mFoSVcj6tLw",
+    "https://www.youtube.com/watch?v=mFoSVcj6tLw&t=17s",
+    "https://www.youtube.com/watch?v=mFoSVcj6tLw&t=60s",
+    "https://www.youtube.com/watch?v=mFoSVcj6tLw&t=85s",
+    "https://www.youtube.com/watch?v=mFoSVcj6tLw&t=170s",
+    "https://www.youtube.com/watch?v=mFoSVcj6tLw&t=246s",
+    "https://www.youtube.com/watch?v=mFoSVcj6tLw&t=288s",
+    "https://www.youtube.com/watch?v=mFoSVcj6tLw&t=337s",
+    "https://www.youtube.com/watch?v=mFoSVcj6tLw&t=372s",
+    "https://www.youtube.com/watch?v=mFoSVcj6tLw&t=420s",
+    "https://www.youtube.com/watch?v=mFoSVcj6tLw&t=458s",
+    "https://www.youtube.com/watch?v=mFoSVcj6tLw&t=500s",
+    "https://www.youtube.com/watch?v=mFoSVcj6tLw&t=514s",
+    "https://guyinacube.com/",
+    "https://www.linkedin.com/company/guyinacube",
+    "https://www.facebook.com/guyinacube",
+    "https://instagram.com/guyinacube",
+    "https://bsky.app/profile/guyinacube.com",
+    "https://x.com/guyinacube",
+    "https://www.youtube.com/hashtag/microsoftfabric",
+    "https://www.youtube.com/hashtag/powerbi",
+    "https://www.youtube.com/hashtag/ai",
+    "https://www.youtube.com/hashtag/guyinacube"
+  ],
+  "commentCountText": "60",
+  "commentCountInt": 60,
+  "likeCountText": "863",
+  "likeCountInt": 863,
+  "viewCountText": "50,813",
+  "viewCountInt": 50813,
+  "publishDateText": "May 15, 2025",
+  "collaborators": [],
+  "channel": {
+    "id": "UCFp1vaKzpfvoGai0vE5VJ0w",
+    "url": "https://www.youtube.com/@GuyInACube",
+    "handle": "GuyInACube",
+    "title": "Guy in a Cube",
+    "thumbnail": "https://yt3.ggpht.com/aLaUqocc11VJvhfBJzTy33U022xIkwhulEYUnOiZX9ehWtJTgmtIA-zMW73Wy8fYkxTRrr6jSw=s48-c-k-c0x00ffffff-no-rj"
+  },
+  "chapters": [
+    {
+      "title": "Introduction to Microsoft Fabric Data Agents",
+      "timeDescription": "0:00",
+      "startSeconds": 0
+    },
+    {
+      "title": "Why Data Agents Matter for Power BI Consumers",
+      "timeDescription": "0:17",
+      "startSeconds": 17
+    },
+    {
+      "title": "Creating a New Data Agent",
+      "timeDescription": "1:00",
+      "startSeconds": 60
+    },
+    {
+      "title": "Connecting Semantic Models and Lakehouse Data",
+      "timeDescription": "1:25",
+      "startSeconds": 85
+    },
+    {
+      "title": "Teaching the Agent with Instructions",
+      "timeDescription": "2:50",
+      "startSeconds": 170
+    },
+    {
+      "title": "Improving Results with Example Queries",
+      "timeDescription": "4:06",
+      "startSeconds": 246
+    },
+    {
+      "title": "Testing Questions and Reviewing DAX Queries",
+      "timeDescription": "4:48",
+      "startSeconds": 288
+    },
+    {
+      "title": "Advanced Analytics and Validation",
+      "timeDescription": "5:37",
+      "startSeconds": 337
+    },
+    {
+      "title": "Publishing and Sharing the Agent",
+      "timeDescription": "6:12",
+      "startSeconds": 372
+    },
+    {
+      "title": "Security and Data Permissions",
+      "timeDescription": "7:00",
+      "startSeconds": 420
+    },
+    {
+      "title": "Using the Fabric Data Agent SDK with Python",
+      "timeDescription": "7:38",
+      "startSeconds": 458
+    },
+    {
+      "title": "Azure AI and Enterprise Integration",
+      "timeDescription": "8:20",
+      "startSeconds": 500
+    },
+    {
+      "title": "Final Thoughts and Use Cases",
+      "timeDescription": "8:34",
+      "startSeconds": 514
+    }
+  ],
+  "watchNextVideos": [
+    {
+      "id": "SZSQ70sytlU",
+      "title": "Introduction to Microsoft Fabric Data Agents",
+      "thumbnail": "https://i.ytimg.com/vi/SZSQ70sytlU/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLD5zQmAlLd729nRHApLuXrr9Tmi6Q",
+      "channel": {
+        "title": "Pragmatic Works",
+        "url": "https://www.youtube.com/@PragmaticWorks",
+        "handle": "PragmaticWorks",
+        "id": "UC5CugyvTdOloiuTc9nN09TA"
+      },
+      "publishedTimeText": "8mo ago",
+      "publishedTime": null,
+      "publishDateText": "8mo ago",
+      "publishDate": null,
+      "viewCountText": "20K",
+      "viewCountInt": 20000,
+      "lengthText": "11:15",
+      "lengthInSeconds": 675,
+      "videoUrl": "https://www.youtube.com/watch?v=SZSQ70sytlU"
+    },
+    {
+      "id": "s_OIaF5uGys",
+      "title": "Fabric Data Agents Just Replaced My Power BI Analyst (Here\u2019s Proof)",
+      "thumbnail": "https://i.ytimg.com/vi/s_OIaF5uGys/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDnnZHjIoNqPAWUSwgA0e7oTcakDQ",
+      "channel": {
+        "title": "Mike Dion | AI For Finance",
+        "url": "https://www.youtube.com/@f9finance",
+        "handle": "f9finance",
+        "id": "UC187oCa9Tfs9meqA7OVhEgw"
+      },
+      "publishedTimeText": "1mo ago",
+      "publishedTime": null,
+      "publishDateText": "1mo ago",
+      "publishDate": null,
+      "viewCountText": "10K",
+      "viewCountInt": 10000,
+      "lengthText": "17:01",
+      "lengthInSeconds": 1021,
+      "videoUrl": "https://www.youtube.com/watch?v=s_OIaF5uGys"
+    },
+    {
+      "id": "p0gzrFG868w",
+      "title": "Good Bye Power BI Reports | Welcome Fabric Apps",
+      "thumbnail": "https://i.ytimg.com/vi/p0gzrFG868w/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLABNvVv2Qc7pVAvx-KiNNU92SOXNg",
+      "channel": {
+        "title": "How to Power BI",
+        "url": "https://www.youtube.com/@HowtoPowerBI",
+        "handle": "HowtoPowerBI",
+        "id": "UCcfngi7_ASuo5jdWX0bNauQ"
+      },
+      "publishedTimeText": "3mo ago",
+      "publishedTime": null,
+      "publishDateText": "3mo ago",
+      "publishDate": null,
+      "viewCountText": "185K",
+      "viewCountInt": 185000,
+      "lengthText": "12:31",
+      "lengthInSeconds": 751,
+      "videoUrl": "https://www.youtube.com/watch?v=p0gzrFG868w"
+    },
+    {
+      "id": "BgOb9W14vHI",
+      "title": "What Is Microsoft Fabric? (And Why Should You Care?)",
+      "thumbnail": "https://i.ytimg.com/vi/BgOb9W14vHI/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDkWNgWJA-RLP6XR4AG772toZtEpg",
+      "channel": {
+        "title": "Pragmatic Works",
+        "url": "https://www.youtube.com/@PragmaticWorks",
+        "handle": "PragmaticWorks",
+        "id": "UC5CugyvTdOloiuTc9nN09TA"
+      },
+      "publishedTimeText": "2mo ago",
+      "publishedTime": null,
+      "publishDateText": "2mo ago",
+      "publishDate": null,
+      "viewCountText": "17K",
+      "viewCountInt": 17000,
+      "lengthText": "8:02",
+      "lengthInSeconds": 482,
+      "videoUrl": "https://www.youtube.com/watch?v=BgOb9W14vHI"
+    },
+    {
+      "id": "mUDZwz1Lj1I",
+      "title": "Why Your Fabric Data Agent Needs an Ontology (Microsoft Fabric AI Agent Demo)",
+      "thumbnail": "https://i.ytimg.com/vi/mUDZwz1Lj1I/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCktcUNlRPpkeyV0X3B44DHZZxDoA",
+      "channel": {
+        "title": "Dataracity",
+        "url": "https://www.youtube.com/@Dataracity_Inc",
+        "handle": "Dataracity_Inc",
+        "id": "UC_EGWA6XBRTivElVSUA5fVA"
+      },
+      "publishedTimeText": "2mo ago",
+      "publishedTime": null,
+      "publishDateText": "2mo ago",
+      "publishDate": null,
+      "viewCountText": "1.4K",
+      "viewCountInt": 1400,
+      "lengthText": "20:22",
+      "lengthInSeconds": 1222,
+      "videoUrl": "https://www.youtube.com/watch?v=mUDZwz1Lj1I"
+    },
+    {
+      "id": "pDRSXOK6fq0",
+      "title": "We tested the New Power BI Report Skills: The Future of AI-Powered Reporting? [Step by step demo]",
+      "thumbnail": "https://i.ytimg.com/vi/pDRSXOK6fq0/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLD5HK0S9hCYnlnA5aoL1QuKKi8-iA",
+      "channel": {
+        "title": "Guy in a Cube",
+        "url": "https://www.youtube.com/@GuyInACube",
+        "handle": "GuyInACube",
+        "id": "UCFp1vaKzpfvoGai0vE5VJ0w"
+      },
+      "publishedTimeText": "4mo ago",
+      "publishedTime": null,
+      "publishDateText": "4mo ago",
+      "publishDate": null,
+      "viewCountText": "158K",
+      "viewCountInt": 158000,
+      "lengthText": "8:19",
+      "lengthInSeconds": 499,
+      "videoUrl": "https://www.youtube.com/watch?v=pDRSXOK6fq0"
+    },
+    {
+      "id": "ul16PjHNiVs",
+      "title": "Fabric Data Agents 101",
+      "thumbnail": "https://i.ytimg.com/vi/ul16PjHNiVs/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLBViVDaesLdJfypp-GD0KGZNepM5g",
+      "channel": {
+        "title": "Microsoft Fabric",
+        "url": "https://www.youtube.com/@MicrosoftFabric",
+        "handle": "MicrosoftFabric",
+        "id": "UCH0gDiJ1RSn3kkxRQnQaH1w"
+      },
+      "publishedTimeText": "Streamed 8mo ago",
+      "publishedTime": null,
+      "publishDateText": "Streamed 8mo ago",
+      "publishDate": null,
+      "viewCountText": "13K",
+      "viewCountInt": 13000,
+      "lengthText": "1:01:51",
+      "lengthInSeconds": 3711,
+      "videoUrl": "https://www.youtube.com/watch?v=ul16PjHNiVs"
+    },
+    {
+      "id": "p5mANFEG7Dw",
+      "title": "Connect M365 Copilot to Power BI \u2014 No-Code Fabric Data Agent for Business Users",
+      "thumbnail": "https://i.ytimg.com/vi/p5mANFEG7Dw/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLA0XDhvU6hJej7bf6X3VjNWT6pjPA",
+      "channel": {
+        "title": "RADACAD",
+        "url": "https://www.youtube.com/@RADACAD",
+        "handle": "RADACAD",
+        "id": "UCsOfIwAXj1fT6LDqEDEAb4g"
+      },
+      "publishedTimeText": "2mo ago",
+      "publishedTime": null,
+      "publishDateText": "2mo ago",
+      "publishDate": null,
+      "viewCountText": "22K",
+      "viewCountInt": 22000,
+      "lengthText": "22:14",
+      "lengthInSeconds": 1334,
+      "videoUrl": "https://www.youtube.com/watch?v=p5mANFEG7Dw"
+    },
+    {
+      "id": "J4i5lcROJcs",
+      "title": "Learn the Fundamentals of Microsoft Fabric in 38 minutes",
+      "thumbnail": "https://i.ytimg.com/vi/J4i5lcROJcs/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLB8mDdxHTwviuryRv0PkOh4obpRmA",
+      "channel": {
+        "title": "Learn Microsoft Fabric with Will",
+        "url": "https://www.youtube.com/@FabricFrontiers",
+        "handle": "FabricFrontiers",
+        "id": "UCrvoIYkzS-RvCEb0x7wfmwQ"
+      },
+      "publishedTimeText": "2y ago",
+      "publishedTime": null,
+      "publishDateText": "2y ago",
+      "publishDate": null,
+      "viewCountText": "512K",
+      "viewCountInt": 512000,
+      "lengthText": "38:00",
+      "lengthInSeconds": 2280,
+      "videoUrl": "https://www.youtube.com/watch?v=J4i5lcROJcs"
+    },
+    {
+      "id": "xjizOqvu-EU",
+      "title": "Microsoft Fabric Apps Explained (The SaaS Killer?)",
+      "thumbnail": "https://i.ytimg.com/vi/xjizOqvu-EU/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLAqQywdpB-YEYMdWW79fg-xdFkVJw",
+      "channel": {
+        "title": "How to Power BI",
+        "url": "https://www.youtube.com/@HowtoPowerBI",
+        "handle": "HowtoPowerBI",
+        "id": "UCcfngi7_ASuo5jdWX0bNauQ"
+      },
+      "publishedTimeText": "13d ago",
+      "publishedTime": null,
+      "publishDateText": "13d ago",
+      "publishDate": null,
+      "viewCountText": "131K",
+      "viewCountInt": 131000,
+      "lengthText": "15:11",
+      "lengthInSeconds": 911,
+      "videoUrl": "https://www.youtube.com/watch?v=xjizOqvu-EU"
+    },
+    {
+      "id": "2Pguo-F0imk",
+      "title": "Creating Data Agents in Fabric for Multi-Agent AI Solutions | DEM561",
+      "thumbnail": "https://i.ytimg.com/vi/2Pguo-F0imk/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCHJV4jpT9HKJTj_Ia5sNIEDP6Qhw",
+      "channel": {
+        "title": "Microsoft Developer",
+        "url": "https://www.youtube.com/@MicrosoftDeveloper",
+        "handle": "MicrosoftDeveloper",
+        "id": "UCsMica-v34Irf9KVTh6xx-g"
+      },
+      "publishedTimeText": "1y ago",
+      "publishedTime": null,
+      "publishDateText": "1y ago",
+      "publishDate": null,
+      "viewCountText": "15K",
+      "viewCountInt": 15000,
+      "lengthText": "15:36",
+      "lengthInSeconds": 936,
+      "videoUrl": "https://www.youtube.com/watch?v=2Pguo-F0imk"
+    },
+    {
+      "id": "o1T4-wausaI",
+      "title": "Definitive Guide To Microsoft Fabric Data Agents",
+      "thumbnail": "https://i.ytimg.com/vi/o1T4-wausaI/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDruZGzVA-MRRjCdtzbk-YdV6Vbmw",
+      "channel": {
+        "title": "That Fabric Guy - Bas Land",
+        "url": "https://www.youtube.com/@ThatFabricGuy",
+        "handle": "ThatFabricGuy",
+        "id": "UC4Wca2IylHtim_hCD1tKrMA"
+      },
+      "publishedTimeText": "2mo ago",
+      "publishedTime": null,
+      "publishDateText": "2mo ago",
+      "publishDate": null,
+      "viewCountText": "7.3K",
+      "viewCountInt": 7300,
+      "lengthText": "36:07",
+      "lengthInSeconds": 2167,
+      "videoUrl": "https://www.youtube.com/watch?v=o1T4-wausaI"
+    }
+  ],
+  "thumbnail": "https://img.youtube.com/vi/mFoSVcj6tLw/maxresdefault.jpg",
+  "publishDate": "2025-05-15T08:01:22-07:00",
+  "keywords": [
+    "ai",
+    "data agent",
+    "data agent fabric",
+    "data analyst",
+    "data analytics",
+    "data engineering",
+    "data factory",
+    "data lake",
+    "data platform",
+    "data science",
+    "delta lake",
+    "fabric",
+    "fabric capacity",
+    "lakehouse",
+    "microsoft fabric",
+    "microsoft fabric copilot",
+    "microsoft fabric data agent",
+    "microsoft fabric power bi",
+    "onelake",
+    "power bi premium",
+    "what is microsoft fabric",
+    "microsoft fabric ai"
+  ],
+  "genre": "Science & Technology",
+  "durationMs": 532000,
+  "durationFormatted": "00:08:52",
+  "captionTracks": [
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=mFoSVcj6tLw&ei=fnnZaszePOOXr9gP8NvkYA&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662511&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=ADD2A7F3516A563EA821530FD7AFDAE5D198017D.1C73DAB86E6D9D369A6036C1203E130088A56D37&key=yt8&lang=en",
+      "name": {
+        "simpleText": "English"
+      },
+      "vssId": ".en",
+      "languageCode": "en",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=mFoSVcj6tLw&ei=fnnZaszePOOXr9gP8NvkYA&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662511&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=ADD2A7F3516A563EA821530FD7AFDAE5D198017D.1C73DAB86E6D9D369A6036C1203E130088A56D37&key=yt8&kind=asr&lang=en",
+      "name": {
+        "simpleText": "English (auto-generated)"
+      },
+      "vssId": "a.en",
+      "languageCode": "en",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    }
+  ],
+  "audioTracks": [
+    {
+      "id": "de-DE.10",
+      "displayName": "German (DE)",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "es-US.10",
+      "displayName": "Spanish (US)",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "fr-FR.10",
+      "displayName": "French (FR)",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "hi.10",
+      "displayName": "Hindi",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "id.10",
+      "displayName": "Indonesian",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "it.10",
+      "displayName": "Italian",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "ja.10",
+      "displayName": "Japanese",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "pt-BR.10",
+      "displayName": "Portuguese (BR)",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "en-US.4",
+      "displayName": "English (US) original",
+      "audioIsDefault": true,
+      "isAutoDubbed": null
+    }
+  ],
+  "downloadOptions": {
+    "expiresInSeconds": "21540",
+    "hlsManifestUrl": null,
+    "dashManifestUrl": null,
+    "formats": [],
+    "note": "These are YouTube's muxed audio+video formats when exposed. Links can expire, and some videos may only expose signature-ciphered URLs."
+  },
+  "most_replayed": null,
+  "isPaidPromotion": false
+}

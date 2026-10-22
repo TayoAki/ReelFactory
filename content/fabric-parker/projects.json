@@ -1,0 +1,54 @@
+[
+  {
+    "id": "11-fabric-data-agent",
+    "number": 11,
+    "title": "Build a Microsoft Fabric data agent \u2014 the three-step walkthrough",
+    "reference": "LIK6ZayNndU",
+    "beats": [
+      {
+        "scene": "hook",
+        "text": "Your data is already in Microsoft Fabric. What if you could ask it a question, and inspect the query behind the answer?"
+      },
+      {
+        "scene": "preview",
+        "text": "This is Microsoft's documented data agent example. A question goes in. An answer comes back, with the steps used to retrieve it."
+      },
+      {
+        "scene": "steps",
+        "text": "Here is the workflow. Create the agent. Choose its data. Then ask, inspect, and test."
+      },
+      {
+        "scene": "create",
+        "text": "In your Fabric workspace, select New Item. Search for Fabric data agent, select it, and give your agent a name."
+      },
+      {
+        "scene": "sources",
+        "text": "Next, add your data source from the OneLake catalog. That could be a lakehouse, a warehouse, or a Power BI semantic model."
+      },
+      {
+        "scene": "tables",
+        "text": "In Explorer, choose the relevant tables. Watch the checkboxes. You control which tables are available to the agent."
+      },
+      {
+        "scene": "instructions",
+        "text": "Add instructions that define your business terms. Tell the agent which source to use for different kinds of questions."
+      },
+      {
+        "scene": "ask",
+        "text": "Now ask a concrete question. Microsoft's example asks how many users played Contoso games, and how many users purchased items in those games."
+      },
+      {
+        "scene": "inspect",
+        "text": "Here is the important part. Expand the steps and inspect the generated query. Check the filters, the tables, and the answer."
+      },
+      {
+        "scene": "limits",
+        "text": "A data agent can retrieve structured answers. A question about why sales changed needs more evidence. Retrieving a number does not prove its cause."
+      },
+      {
+        "scene": "close",
+        "text": "Create. Choose. Verify. Start with one question you can check, then test more questions before you publish. That is a useful first Fabric data agent."
+      }
+    ]
+  }
+]

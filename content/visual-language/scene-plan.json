@@ -1,0 +1,42 @@
+{
+  "fps": 30,
+  "durationInFrames": 360,
+  "purpose": "Illustrate why a business question needs a definition and accessible evidence; generic example, not a product implementation claim",
+  "nodes": [
+    {
+      "id": "definition",
+      "symbol": "document",
+      "from": 0,
+      "enterFrames": 18
+    },
+    {
+      "id": "source",
+      "symbol": "database",
+      "from": 90,
+      "enterFrames": 18
+    },
+    {
+      "id": "answer",
+      "symbol": "search",
+      "from": 210,
+      "enterFrames": 18
+    }
+  ],
+  "edges": [
+    {
+      "from": "definition",
+      "to": "source",
+      "startFrame": 150,
+      "durationInFrames": 24,
+      "meaning": "apply business definition to approved evidence"
+    },
+    {
+      "from": "source",
+      "to": "answer",
+      "startFrame": 270,
+      "durationInFrames": 24,
+      "meaning": "ground an answer in defined, accessible evidence"
+    }
+  ],
+  "renderer": "frame-derived HTML/SVG preview; Remotion not yet integrated"
+}

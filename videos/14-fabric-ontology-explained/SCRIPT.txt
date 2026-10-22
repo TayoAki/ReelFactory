@@ -1,0 +1,25 @@
+Our shipment is late. Which customers are affected? A table called shipments is not enough to explain how the business fits together.
+
+That's where an ontology helps. In Microsoft Fabric IQ, it gives people and agents a shared map of business concepts, their properties, and how they connect.
+
+So we're not just drawing a diagram?
+
+Right. Start with four entity types: Customer, Order, Shipment, and Warehouse. A particular shipment, like Shipment seventeen, is an instance. Its status and promised delivery time are properties.
+
+Now name the relationships. A customer places an order. A shipment fulfills that order. A warehouse dispatches the shipment. Those labels explain what each connection means.
+
+But where do the actual values come from?
+
+Data bindings connect those business definitions to real sources. For example, orders can come from a lakehouse, while shipment updates come from an eventhouse. The ontology adds shared meaning; it doesn't become a second copy of the database.
+
+Here's a real retail ontology demo from Guy in a Cube. Watch the entities connect, then see the properties linked to their data sources. This is the interface behind the idea.
+
+Now let's follow our late shipment back to the customer.
+
+Shipment seventeen fulfills Order forty two, placed by Customer one hundred one. Highlight that path, and the business question becomes specific: which customer is connected to this delayed shipment? This animation is illustrative, not a live query result.
+
+An agent can use the definitions and bindings as context, then query the permitted source. But a useful model still needs clear definitions, correct data, and answers checked against trusted results. An ontology doesn't guarantee correctness.
+
+So start small: one business question, a few entities, meaningful relationships, and real source bindings.
+
+Exactly. Model the meaning, connect the data, then verify the answer. Fabric ontology is in preview, so check the current documentation as you build.

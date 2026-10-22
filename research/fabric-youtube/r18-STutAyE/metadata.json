@@ -1,0 +1,469 @@
+{
+  "success": true,
+  "credits_remaining": 16841,
+  "credits_charged": 1,
+  "type": "video",
+  "id": "r18-STutAyE",
+  "title": "Microsoft Fabric: Data Agents Agent Instructions",
+  "description": "We got a GUI, Graphical User Interface, make over for Agent Instructions in Microsoft Fabric Data Agents. Don't worry Bradley Ball aka \u202a@SQLBalls\u202c has got you covered!  Let's dive into the changes and how we use them!\n\n\nFabric data agent concepts (preview)\nhttps://learn.microsoft.com/en-us/fab...\n\nFabric data agent example with the AdventureWorks dataset (preview)\nhttps://learn.microsoft.com/en-us/fab...\n\n/*******************\n/CONNECT WITH US!!\n/*******************\n\nTales from the Field\nBlusky: talesfromthefield.bsky.social\nTwitter/X: https://x.com/TalesftField\nLinkedin: \u00a0\u00a0/\u00a0100091910\u00a0\u00a0\n\nBradley Ball\nBlusky: sqlballs.bsky.social\nTwitter/X: https://x.com/SQLBalls\nLinkedin: \u00a0\u00a0/\u00a0sqlballs\u00a0\u00a0\n\nDaniel Taylor\nBlusky: dbabulldog.bsky.social\nTwitter/X: https://x.com/dbabulldog\nLinkedin: \u00a0\u00a0/\u00a0danieltaylor3\u00a0\u00a0\n\nBradley Schacht\nBlusky: bradleyschacht.bsky.social\nTwitter/X: https://x.com/BradleySchacht\nLinkedIn: \u00a0\u00a0/\u00a0bradleyschacht\u00a0\u00a0\n\nNeeraj Jhaveri\nBlusky: neerajny.bsky.social\nTwitter/X: https://x.com/neeraj_jhaveri\nLinkedin: \u00a0\u00a0/\u00a0neerajjhaveri\u00a0\u00a0\n\nJosh Luedeman\nBlusky: joshluedeman.bsky.social\nTwitter/X: https://x.com/joshluedeman\nLinkedin: \u00a0\u00a0/\u00a0joshluedeman\u00a0\u00a0\n\nChapters\n00:00 Agent Instructions for GUI Changes\n00:47 Demo Data Agent Instructions and GUI Changes\n01:28 Demo Markdown for Agent Instructions\n02:33 Demo Data Source Instructions\n02:42 Demo Example Queries\n04:02 Demo Testing the Data Agent\n05:05 Demo Visualizing the Data\n05:29 Demo Can I do this in Excel?\n\n\n\n\n\n\n#microsoftfabric  #datascience #AI #DataAgents #Agents",
+  "descriptionLinks": [
+    "https://www.youtube.com/@SQLBalls",
+    "https://learn.microsoft.com/en-us/fabric/data-science/concept-data-agent",
+    "https://learn.microsoft.com/en-us/fabric/data-science/data-agent-end-to-end-tutorial",
+    "https://x.com/TalesftField",
+    "https://www.linkedin.com/company/100091910/",
+    "https://x.com/SQLBalls",
+    "https://www.linkedin.com/in/sqlballs/",
+    "https://x.com/dbabulldog",
+    "https://www.linkedin.com/in/danieltaylor3/",
+    "https://x.com/BradleySchacht",
+    "https://www.linkedin.com/in/bradleyschacht/",
+    "https://x.com/neeraj_jhaveri",
+    "https://www.linkedin.com/in/neerajjhaveri/",
+    "https://x.com/joshluedeman",
+    "https://www.linkedin.com/in/joshluedeman/",
+    "https://www.youtube.com/watch?v=r18-STutAyE",
+    "https://www.youtube.com/watch?v=r18-STutAyE&t=47s",
+    "https://www.youtube.com/watch?v=r18-STutAyE&t=88s",
+    "https://www.youtube.com/watch?v=r18-STutAyE&t=153s",
+    "https://www.youtube.com/watch?v=r18-STutAyE&t=162s",
+    "https://www.youtube.com/watch?v=r18-STutAyE&t=242s",
+    "https://www.youtube.com/watch?v=r18-STutAyE&t=305s",
+    "https://www.youtube.com/watch?v=r18-STutAyE&t=329s",
+    "https://www.youtube.com/hashtag/microsoftfabric",
+    "https://www.youtube.com/hashtag/datascience",
+    "https://www.youtube.com/hashtag/ai",
+    "https://www.youtube.com/hashtag/dataagents",
+    "https://www.youtube.com/hashtag/agents"
+  ],
+  "commentCountText": "5",
+  "commentCountInt": 5,
+  "likeCountText": "67",
+  "likeCountInt": 67,
+  "viewCountText": "6,455",
+  "viewCountInt": 6455,
+  "publishDateText": "Dec 4, 2025",
+  "collaborators": [],
+  "channel": {
+    "id": "UC0WSqYstuCm0f9QoO1wmZIA",
+    "url": "https://www.youtube.com/@Tales-from-the-Field",
+    "handle": "Tales-from-the-Field",
+    "title": "Tales From The Field",
+    "thumbnail": "https://yt3.ggpht.com/XDXQXfkTMJGNbADlhL56_NaIdmH8v6A7sNOy3ShPWYedQbzZBzJQvsKfsYI95JUBFDyg5ujcRcE=s48-c-k-c0x00ffffff-no-rj"
+  },
+  "chapters": [
+    {
+      "title": "Agent Instructions for GUI Changes",
+      "timeDescription": "0:00",
+      "startSeconds": 0
+    },
+    {
+      "title": "Demo Data Agent Instructions and GUI Changes",
+      "timeDescription": "0:47",
+      "startSeconds": 47
+    },
+    {
+      "title": "Demo Markdown for Agent Instructions",
+      "timeDescription": "1:28",
+      "startSeconds": 88
+    },
+    {
+      "title": "Demo Data Source Instructions",
+      "timeDescription": "2:33",
+      "startSeconds": 153
+    },
+    {
+      "title": "Demo Example Queries",
+      "timeDescription": "2:42",
+      "startSeconds": 162
+    },
+    {
+      "title": "Demo Testing the Data Agent",
+      "timeDescription": "4:02",
+      "startSeconds": 242
+    },
+    {
+      "title": "Demo Visualizing the Data",
+      "timeDescription": "5:05",
+      "startSeconds": 305
+    },
+    {
+      "title": "Demo Can I do this in Excel?",
+      "timeDescription": "5:29",
+      "startSeconds": 329
+    }
+  ],
+  "watchNextVideos": [
+    {
+      "id": "uzkuj6ii3ec",
+      "title": "Agentic analytics with Power BI and Microsoft Fabric | OD817",
+      "thumbnail": "https://i.ytimg.com/vi/uzkuj6ii3ec/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDAHHiFf0-65mpYg5iII03XYCktoQ",
+      "channel": {
+        "title": "Microsoft Developer",
+        "url": "https://www.youtube.com/@MicrosoftDeveloper",
+        "handle": "MicrosoftDeveloper",
+        "id": "UCsMica-v34Irf9KVTh6xx-g"
+      },
+      "publishedTimeText": "4mo ago",
+      "publishedTime": null,
+      "publishDateText": "4mo ago",
+      "publishDate": null,
+      "viewCountText": "6.3K",
+      "viewCountInt": 6300,
+      "lengthText": "22:37",
+      "lengthInSeconds": 1357,
+      "videoUrl": "https://www.youtube.com/watch?v=uzkuj6ii3ec"
+    },
+    {
+      "id": "o1T4-wausaI",
+      "title": "Definitive Guide To Microsoft Fabric Data Agents",
+      "thumbnail": "https://i.ytimg.com/vi/o1T4-wausaI/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDruZGzVA-MRRjCdtzbk-YdV6Vbmw",
+      "channel": {
+        "title": "That Fabric Guy - Bas Land",
+        "url": "https://www.youtube.com/@ThatFabricGuy",
+        "handle": "ThatFabricGuy",
+        "id": "UC4Wca2IylHtim_hCD1tKrMA"
+      },
+      "publishedTimeText": "2mo ago",
+      "publishedTime": null,
+      "publishDateText": "2mo ago",
+      "publishDate": null,
+      "viewCountText": "7.3K",
+      "viewCountInt": 7300,
+      "lengthText": "36:07",
+      "lengthInSeconds": 2167,
+      "videoUrl": "https://www.youtube.com/watch?v=o1T4-wausaI"
+    },
+    {
+      "id": "qQAnKamYnak",
+      "title": "Who Wins? Fabric vs. Databricks vs. Snowflake",
+      "thumbnail": "https://i.ytimg.com/vi/qQAnKamYnak/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLD_xU1a3v5DroAUa8gTsuO4TdIiww",
+      "channel": {
+        "title": "Microsoft Hates Greg",
+        "url": "https://www.youtube.com/@MicrosoftHatesGreg",
+        "handle": "MicrosoftHatesGreg",
+        "id": "UCwBe41Y8QmLlL5S-_8XVabw"
+      },
+      "publishedTimeText": "11h ago",
+      "publishedTime": null,
+      "publishDateText": "11h ago",
+      "publishDate": null,
+      "viewCountText": "245",
+      "viewCountInt": 245,
+      "lengthText": "8:02",
+      "lengthInSeconds": 482,
+      "videoUrl": "https://www.youtube.com/watch?v=qQAnKamYnak"
+    },
+    {
+      "id": "v0mD01QP5gY",
+      "title": "Microsoft Fabric: How to use Data Agent Example Queries",
+      "thumbnail": "https://i.ytimg.com/vi/v0mD01QP5gY/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLC0b5sQ04KwZzfiUuAXIJnEGozk2w",
+      "channel": {
+        "title": "Tales From The Field",
+        "url": "https://www.youtube.com/@Tales-from-the-Field",
+        "handle": "Tales-from-the-Field",
+        "id": "UC0WSqYstuCm0f9QoO1wmZIA"
+      },
+      "publishedTimeText": "5mo ago",
+      "publishedTime": null,
+      "publishDateText": "5mo ago",
+      "publishDate": null,
+      "viewCountText": "1.5K",
+      "viewCountInt": 1500,
+      "lengthText": "11:41",
+      "lengthInSeconds": 701,
+      "videoUrl": "https://www.youtube.com/watch?v=v0mD01QP5gY"
+    },
+    {
+      "id": "ul16PjHNiVs",
+      "title": "Fabric Data Agents 101",
+      "thumbnail": "https://i.ytimg.com/vi/ul16PjHNiVs/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLBViVDaesLdJfypp-GD0KGZNepM5g",
+      "channel": {
+        "title": "Microsoft Fabric",
+        "url": "https://www.youtube.com/@MicrosoftFabric",
+        "handle": "MicrosoftFabric",
+        "id": "UCH0gDiJ1RSn3kkxRQnQaH1w"
+      },
+      "publishedTimeText": "Streamed 8mo ago",
+      "publishedTime": null,
+      "publishDateText": "Streamed 8mo ago",
+      "publishDate": null,
+      "viewCountText": "13K",
+      "viewCountInt": 13000,
+      "lengthText": "1:01:51",
+      "lengthInSeconds": 3711,
+      "videoUrl": "https://www.youtube.com/watch?v=ul16PjHNiVs"
+    },
+    {
+      "id": "RPLSJq0-xgI",
+      "title": "Microsoft fabric : Stop Using Power Apps! Power BI Write-Back to  Warehouse -Translytical task flows",
+      "thumbnail": "https://i.ytimg.com/vi/RPLSJq0-xgI/hqdefault.jpg?sqp=-oaymwFACKgBEF5IWvKriqkDMwgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAHwAQH4Af4JgALQBYoCDAgAEAEYOyBYKHIwDw==&rs=AOn4CLB1ngGx0EvRuSu_FmQ3PPv4MqqeXA",
+      "channel": {
+        "title": "DataVyom",
+        "url": "https://www.youtube.com/@DataVyom",
+        "handle": "DataVyom",
+        "id": "UCyzPk00lK9n8Nwza3lLuUiA"
+      },
+      "publishedTimeText": "3w ago",
+      "publishedTime": null,
+      "publishDateText": "3w ago",
+      "publishDate": null,
+      "viewCountText": "396",
+      "viewCountInt": 396,
+      "lengthText": "30:10",
+      "lengthInSeconds": 1810,
+      "videoUrl": "https://www.youtube.com/watch?v=RPLSJq0-xgI"
+    },
+    {
+      "id": "lqkxnfhBexY",
+      "title": "What is Fabric App or Rayfin and Why You Should Care",
+      "thumbnail": "https://i.ytimg.com/vi/lqkxnfhBexY/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLC0PZ8zfuvO3i-pVju3clf-5YOZ6w",
+      "channel": {
+        "title": "RADACAD",
+        "url": "https://www.youtube.com/@RADACAD",
+        "handle": "RADACAD",
+        "id": "UCsOfIwAXj1fT6LDqEDEAb4g"
+      },
+      "publishedTimeText": "3mo ago",
+      "publishedTime": null,
+      "publishDateText": "3mo ago",
+      "publishDate": null,
+      "viewCountText": "19K",
+      "viewCountInt": 19000,
+      "lengthText": "29:37",
+      "lengthInSeconds": 1777,
+      "videoUrl": "https://www.youtube.com/watch?v=lqkxnfhBexY"
+    },
+    {
+      "id": "K4FQxaipLIw",
+      "title": "Microsoft Fabric IQ Ontology Step by Step",
+      "thumbnail": "https://i.ytimg.com/vi/K4FQxaipLIw/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLB1yp4OvyspWvgceO8biThSgrbWjA",
+      "channel": {
+        "title": "Dhruvin Shah",
+        "url": "https://www.youtube.com/@iamdhruvinshah",
+        "handle": "iamdhruvinshah",
+        "id": "UCV_fdCIEX3O_YnAPvg8CYmA"
+      },
+      "publishedTimeText": "3mo ago",
+      "publishedTime": null,
+      "publishDateText": "3mo ago",
+      "publishDate": null,
+      "viewCountText": "8.1K",
+      "viewCountInt": 8100,
+      "lengthText": "44:04",
+      "lengthInSeconds": 2644,
+      "videoUrl": "https://www.youtube.com/watch?v=K4FQxaipLIw"
+    },
+    {
+      "id": "QOX6qT3QAMc",
+      "title": "This is how you Optimise Microsoft Fabric Data Agents",
+      "thumbnail": "https://i.ytimg.com/vi/QOX6qT3QAMc/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLA6mWGhUufirKpbErKpNg-05Uot4A",
+      "channel": {
+        "title": "That Fabric Guy - Bas Land",
+        "url": "https://www.youtube.com/@ThatFabricGuy",
+        "handle": "ThatFabricGuy",
+        "id": "UC4Wca2IylHtim_hCD1tKrMA"
+      },
+      "publishedTimeText": "8mo ago",
+      "publishedTime": null,
+      "publishDateText": "8mo ago",
+      "publishDate": null,
+      "viewCountText": "3.2K",
+      "viewCountInt": 3200,
+      "lengthText": "13:51",
+      "lengthInSeconds": 831,
+      "videoUrl": "https://www.youtube.com/watch?v=QOX6qT3QAMc"
+    },
+    {
+      "id": "_F6M410TZtU",
+      "title": "Build Copilot Agents EASILY in Microsoft Copilot Studio | MCP is a Game Changer!",
+      "thumbnail": "https://i.ytimg.com/vi/_F6M410TZtU/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLALZ9DUbsBA-gEq8dRZeDxHnxP3ZA",
+      "channel": {
+        "title": "Collaboration Simplified",
+        "url": "https://www.youtube.com/@CollaborationSimplified",
+        "handle": "CollaborationSimplified",
+        "id": "UCAeJheOWuUrs00ZPnUaOA0A"
+      },
+      "publishedTimeText": "1y ago",
+      "publishedTime": null,
+      "publishDateText": "1y ago",
+      "publishDate": null,
+      "viewCountText": "67K",
+      "viewCountInt": 67000,
+      "lengthText": "28:53",
+      "lengthInSeconds": 1733,
+      "videoUrl": "https://www.youtube.com/watch?v=_F6M410TZtU"
+    },
+    {
+      "id": "8Lw-9OXYm0w",
+      "title": "Fabric Data Agent: Step-by-Step",
+      "thumbnail": "https://i.ytimg.com/vi/8Lw-9OXYm0w/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLBfE77TAW7cBTueFuUVsvVVO2Mo2w",
+      "channel": {
+        "title": "Div Sharma",
+        "url": "https://www.youtube.com/@AnalyticsWithDiv",
+        "handle": "AnalyticsWithDiv",
+        "id": "UCSZz54uevJ_NBQHntMbzUzw"
+      },
+      "publishedTimeText": "6mo ago",
+      "publishedTime": null,
+      "publishDateText": "6mo ago",
+      "publishDate": null,
+      "viewCountText": "1.5K",
+      "viewCountInt": 1500,
+      "lengthText": "15:01",
+      "lengthInSeconds": 901,
+      "videoUrl": "https://www.youtube.com/watch?v=8Lw-9OXYm0w"
+    },
+    {
+      "id": "Jc2fYdxRdEo",
+      "title": "Fabric Data Agents & Beyond (with Mathias Halkj\u00e6r)",
+      "thumbnail": "https://i.ytimg.com/vi/Jc2fYdxRdEo/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDAcQgYHZ7zH30YHRgf6jj7PXelLQ",
+      "channel": {
+        "title": "Havens Consulting",
+        "url": "https://www.youtube.com/@HavensConsulting",
+        "handle": "HavensConsulting",
+        "id": "UCjlfQwqb-0S40XQ8seYPLSw"
+      },
+      "publishedTimeText": "Streamed 10mo ago",
+      "publishedTime": null,
+      "publishDateText": "Streamed 10mo ago",
+      "publishDate": null,
+      "viewCountText": "23K",
+      "viewCountInt": 23000,
+      "lengthText": "1:15:16",
+      "lengthInSeconds": 4516,
+      "videoUrl": "https://www.youtube.com/watch?v=Jc2fYdxRdEo"
+    }
+  ],
+  "thumbnail": "https://img.youtube.com/vi/r18-STutAyE/maxresdefault.jpg",
+  "publishDate": "2025-12-04T07:01:38-08:00",
+  "keywords": [
+    "Microsoft Fabric",
+    "Fabric",
+    "MSFT Fabric",
+    "MS Fabric",
+    "Agent",
+    "Agents",
+    "Data Agents",
+    "AI Foundry",
+    "Azure AI Foundry",
+    "Connect Data Agent to AI Foundry",
+    "Connect Data Agent to Azure AI Foundry",
+    "AI",
+    "Artificial Intelligence",
+    "Data Science",
+    "RAG",
+    "RAG Pattern",
+    "Retrieval Augmentation Generation",
+    "ChatGPT",
+    "ChatGPT 4.1",
+    "Azure OpenAI",
+    "OpenAI",
+    "Anthropic"
+  ],
+  "genre": "Science & Technology",
+  "durationMs": 402000,
+  "durationFormatted": "00:06:42",
+  "captionTracks": [
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=r18-STutAyE&ei=gHnZauqzI_CBkucPhoz7mAQ&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662512&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=290C78D3AEDD9F2F1130D2B2E39ADAD0BC08816C.9AAA6A2D0461C2C74FB3B3770AAA978A2DB8C11D&key=yt8&kind=asr&lang=en",
+      "name": {
+        "simpleText": "English (auto-generated)"
+      },
+      "vssId": "a.en",
+      "languageCode": "en",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    }
+  ],
+  "audioTracks": [
+    {
+      "id": "de-DE.10",
+      "displayName": "German (DE)",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "es-US.10",
+      "displayName": "Spanish (US)",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "fr-FR.10",
+      "displayName": "French (FR)",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "hi.10",
+      "displayName": "Hindi",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "id.10",
+      "displayName": "Indonesian",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "it.10",
+      "displayName": "Italian",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "ja.10",
+      "displayName": "Japanese",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "ml.10",
+      "displayName": "Malayalam",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "nl-NL.10",
+      "displayName": "Dutch (NL)",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "pl.10",
+      "displayName": "Polish",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "pt-BR.10",
+      "displayName": "Portuguese (BR)",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "uk.10",
+      "displayName": "Ukrainian",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "en-US.4",
+      "displayName": "English (US) original",
+      "audioIsDefault": true,
+      "isAutoDubbed": null
+    }
+  ],
+  "downloadOptions": {
+    "expiresInSeconds": "21540",
+    "hlsManifestUrl": null,
+    "dashManifestUrl": null,
+    "formats": [],
+    "note": "These are YouTube's muxed audio+video formats when exposed. Links can expire, and some videos may only expose signature-ciphered URLs."
+  },
+  "most_replayed": null,
+  "isPaidPromotion": false
+}

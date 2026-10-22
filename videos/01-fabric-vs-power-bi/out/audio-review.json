@@ -1,0 +1,17 @@
+{
+  "method": "Whisper tiny.en re-transcription of final mixed MP4, compared with intended narration. ASR differences need interpretation; this is not proof of word-perfect audio.",
+  "similarity": 0.9697,
+  "transcript": "Microsoft Fabric versus Power BI. Power BI is already inside Fabric. Power BI handles reports. Fabric covers the workflow around those reports, getting data in, storing it, transforming it, then serving the result. One lake gives those workloads a shared, logical data lake. Direct lake can read delta tables without importing an entire copy into the model. A direct lake refresh still exists. It updates metadata, rather than copying the whole dataset. Already know Power BI, keep it. Add SQL, a lake house, and an ingestion pipeline. Start with one end to end workflow. Follow the data into the report.",
+  "differences": [
+    {
+      "kind": "replace",
+      "expected": "onelake",
+      "recognized": "one lake"
+    },
+    {
+      "kind": "replace",
+      "expected": "lakehouse",
+      "recognized": "lake house"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "source": "../final.mp4",
+  "review_scope": "one actual rendered frame per semantic beat; not exhaustive frame review",
+  "samples": [
+    {
+      "time": 2.464,
+      "file": "final-01.jpg",
+      "beat_text": "Microsoft Fabric versus Power BI? Power BI is already inside Fabric."
+    },
+    {
+      "time": 7.499,
+      "file": "final-02.jpg",
+      "beat_text": "Power BI handles reports. Fabric covers the workflow around those reports."
+    },
+    {
+      "time": 12.075,
+      "file": "final-03.jpg",
+      "beat_text": "Getting data in. Storing it. Transforming it. Then serving the result."
+    },
+    {
+      "time": 15.968,
+      "file": "final-04.jpg",
+      "beat_text": "OneLake gives those workloads a shared, logical data lake."
+    },
+    {
+      "time": 20.203,
+      "file": "final-05.jpg",
+      "beat_text": "Direct Lake can read Delta tables without importing an entire copy into the model."
+    },
+    {
+      "time": 25.568,
+      "file": "final-06.jpg",
+      "beat_text": "A Direct Lake refresh still exists. It updates metadata, rather than copying the whole dataset."
+    },
+    {
+      "time": 31.296,
+      "file": "final-07.jpg",
+      "beat_text": "Already know Power BI? Keep it. Add SQL, a lakehouse, and an ingestion pipeline."
+    },
+    {
+      "time": 36.181,
+      "file": "final-08.jpg",
+      "beat_text": "Start with one end to end workflow. Follow the data into the report."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "regression": "Hold caching previously skipped unlisted internal animation starts. Renderer now includes explicit internal starts and reuses holds only after animations settle.",
+  "checked_times": {
+    "learned": 337.3,
+    "connectors": 581.3,
+    "actions": 1318.3,
+    "skills": 1365.5,
+    "rollout-one": 1807.6,
+    "demo-context-overlay": 825.3
+  },
+  "frame_time_preserved": true,
+  "learned_fade_337_seconds": {
+    "frames": 20,
+    "distinct_rendered_images": 20
+  },
+  "limit": "This checks renderer continuity at selected cues, not exact source timing or human fidelity."
+}

@@ -1,0 +1,812 @@
+{
+  "id": "08-nyc-311-analysis",
+  "title": "A year of New York's 311 requests",
+  "duration": 42.8373,
+  "beats": [
+    {
+      "text": "I queried a year of New York's three one one requests. Almost four million records.",
+      "asset": "nyc-total",
+      "device": "tile",
+      "key": "3,963,898",
+      "start": 0.0,
+      "end": 4.8533,
+      "voice_end": 4.6933
+    },
+    {
+      "text": "The window is October first, twenty twenty five, through September thirtieth, twenty twenty six.",
+      "asset": "nyc-total",
+      "device": "focus",
+      "start": 4.8533,
+      "end": 10.3467,
+      "voice_end": 10.1867
+    },
+    {
+      "text": "The biggest category is illegal parking. Six hundred eleven thousand, two hundred eighty two requests.",
+      "asset": "nyc-categories",
+      "device": "focus",
+      "key": "611,282",
+      "start": 10.3467,
+      "end": 16.4587,
+      "voice_end": 16.2987
+    },
+    {
+      "text": "Residential noise is next, with more than four hundred thirty two thousand requests.",
+      "asset": "nyc-categories",
+      "device": "sequence",
+      "start": 16.4587,
+      "end": 21.184,
+      "voice_end": 21.024
+    },
+    {
+      "text": "Those residential noise requests peak in the ten p m hour. Sunday is the busiest day.",
+      "asset": "nyc-hours",
+      "device": "focus",
+      "key": "10 p.m.",
+      "start": 21.184,
+      "end": 26.4853,
+      "voice_end": 26.3253
+    },
+    {
+      "text": "Heat and hot water requests show a different pattern. January is far busier than August.",
+      "asset": "nyc-heat",
+      "device": "sequence",
+      "start": 26.4853,
+      "end": 31.7013,
+      "voice_end": 31.5413
+    },
+    {
+      "text": "At the other end of the list, exactly one request is filed under trapping pigeon.",
+      "asset": "nyc-rare",
+      "device": "focus",
+      "key": "Trapping Pigeon",
+      "start": 31.7013,
+      "end": 36.1707,
+      "voice_end": 36.0107
+    },
+    {
+      "text": "These are request counts, not unique incidents. The queries and results are saved so you can reproduce the charts.",
+      "asset": "nyc-categories",
+      "device": "focus",
+      "start": 36.1707,
+      "end": 42.8373,
+      "voice_end": 42.6773
+    }
+  ],
+  "words": [
+    {
+      "w": "I",
+      "s": 0.0,
+      "e": 0.28,
+      "alignment": "asr"
+    },
+    {
+      "w": "queried",
+      "s": 0.28,
+      "e": 0.58,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 0.58,
+      "e": 0.76,
+      "alignment": "asr"
+    },
+    {
+      "w": "year",
+      "s": 0.76,
+      "e": 0.88,
+      "alignment": "asr"
+    },
+    {
+      "w": "of",
+      "s": 0.88,
+      "e": 1.08,
+      "alignment": "asr"
+    },
+    {
+      "w": "New",
+      "s": 1.08,
+      "e": 1.18,
+      "alignment": "asr"
+    },
+    {
+      "w": "York's",
+      "s": 1.18,
+      "e": 1.74,
+      "alignment": "asr"
+    },
+    {
+      "w": "three",
+      "s": 1.74,
+      "e": 1.84,
+      "alignment": "asr"
+    },
+    {
+      "w": "one",
+      "s": 1.84,
+      "e": 1.98,
+      "alignment": "asr"
+    },
+    {
+      "w": "one",
+      "s": 1.98,
+      "e": 2.2,
+      "alignment": "asr"
+    },
+    {
+      "w": "requests.",
+      "s": 2.2,
+      "e": 3.12,
+      "alignment": "asr"
+    },
+    {
+      "w": "Almost",
+      "s": 3.12,
+      "e": 3.42,
+      "alignment": "asr"
+    },
+    {
+      "w": "four",
+      "s": 3.42,
+      "e": 3.9,
+      "alignment": "asr"
+    },
+    {
+      "w": "million",
+      "s": 3.9,
+      "e": 4.14,
+      "alignment": "asr"
+    },
+    {
+      "w": "records.",
+      "s": 4.14,
+      "e": 4.6933,
+      "alignment": "asr"
+    },
+    {
+      "w": "The",
+      "s": 4.8533333333333335,
+      "e": 5.033333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "window",
+      "s": 5.033333333333333,
+      "e": 5.293333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "is",
+      "s": 5.293333333333334,
+      "e": 5.613333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "October",
+      "s": 5.613333333333333,
+      "e": 5.933333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "first,",
+      "s": 5.933333333333334,
+      "e": 6.8533333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "twenty",
+      "s": 6.8533333333333335,
+      "e": 6.913333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "twenty",
+      "s": 6.913333333333334,
+      "e": 7.193333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "five,",
+      "s": 7.193333333333333,
+      "e": 8.053333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "through",
+      "s": 8.053333333333335,
+      "e": 8.133333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "September",
+      "s": 8.133333333333333,
+      "e": 8.513333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "thirtieth,",
+      "s": 8.513333333333334,
+      "e": 9.253333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "twenty",
+      "s": 9.253333333333334,
+      "e": 9.493333333333332,
+      "alignment": "asr"
+    },
+    {
+      "w": "twenty",
+      "s": 9.493333333333332,
+      "e": 9.813333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "six.",
+      "s": 9.813333333333333,
+      "e": 10.186633333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "The",
+      "s": 10.346666666666668,
+      "e": 10.546666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "biggest",
+      "s": 10.546666666666667,
+      "e": 10.886666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "category",
+      "s": 10.886666666666667,
+      "e": 11.286666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "is",
+      "s": 11.286666666666667,
+      "e": 11.746666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "illegal",
+      "s": 11.746666666666668,
+      "e": 12.086666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "parking.",
+      "s": 12.086666666666668,
+      "e": 13.306666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "Six",
+      "s": 13.306666666666668,
+      "e": 13.386666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "hundred",
+      "s": 13.386666666666667,
+      "e": 13.646666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "eleven",
+      "s": 13.646666666666668,
+      "e": 13.986666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "thousand,",
+      "s": 13.986666666666668,
+      "e": 14.926666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "two",
+      "s": 14.926666666666668,
+      "e": 14.986666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "hundred",
+      "s": 14.986666666666668,
+      "e": 15.246666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "eighty",
+      "s": 15.246666666666668,
+      "e": 15.446666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "two",
+      "s": 15.446666666666667,
+      "e": 15.706666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "requests.",
+      "s": 15.706666666666667,
+      "e": 16.29866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "Residential",
+      "s": 16.458666666666666,
+      "e": 16.998666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "noise",
+      "s": 16.998666666666665,
+      "e": 17.498666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "is",
+      "s": 17.498666666666665,
+      "e": 17.758666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "next,",
+      "s": 17.758666666666667,
+      "e": 18.478666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "with",
+      "s": 18.478666666666665,
+      "e": 18.638666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "more",
+      "s": 18.638666666666666,
+      "e": 18.838666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "than",
+      "s": 18.838666666666665,
+      "e": 19.238666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "four",
+      "s": 19.238666666666667,
+      "e": 19.238666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "hundred",
+      "s": 19.238666666666667,
+      "e": 19.598666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "thirty",
+      "s": 19.598666666666666,
+      "e": 19.858666666666664,
+      "alignment": "asr"
+    },
+    {
+      "w": "two",
+      "s": 19.858666666666664,
+      "e": 20.118666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "thousand",
+      "s": 20.118666666666666,
+      "e": 20.398666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "requests.",
+      "s": 20.398666666666667,
+      "e": 21.023966666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "Those",
+      "s": 21.183999999999997,
+      "e": 21.523999999999997,
+      "alignment": "asr"
+    },
+    {
+      "w": "residential",
+      "s": 21.523999999999997,
+      "e": 21.983999999999998,
+      "alignment": "asr"
+    },
+    {
+      "w": "noise",
+      "s": 21.983999999999998,
+      "e": 22.464,
+      "alignment": "asr"
+    },
+    {
+      "w": "requests",
+      "s": 22.464,
+      "e": 22.883999999999997,
+      "alignment": "asr"
+    },
+    {
+      "w": "peak",
+      "s": 22.883999999999997,
+      "e": 23.163999999999998,
+      "alignment": "asr"
+    },
+    {
+      "w": "in",
+      "s": 23.163999999999998,
+      "e": 23.343999999999998,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 23.343999999999998,
+      "e": 23.483999999999998,
+      "alignment": "asr"
+    },
+    {
+      "w": "ten",
+      "s": 23.483999999999998,
+      "e": 23.703999999999997,
+      "alignment": "asr"
+    },
+    {
+      "w": "p",
+      "s": 23.703999999999997,
+      "e": 23.863999999999997,
+      "alignment": "asr"
+    },
+    {
+      "w": "m",
+      "s": 23.863999999999997,
+      "e": 24.023999999999997,
+      "alignment": "asr"
+    },
+    {
+      "w": "hour.",
+      "s": 24.023999999999997,
+      "e": 24.804,
+      "alignment": "asr"
+    },
+    {
+      "w": "Sunday",
+      "s": 24.804,
+      "e": 25.083999999999996,
+      "alignment": "asr"
+    },
+    {
+      "w": "is",
+      "s": 25.083999999999996,
+      "e": 25.523999999999997,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 25.523999999999997,
+      "e": 25.743999999999996,
+      "alignment": "asr"
+    },
+    {
+      "w": "busiest",
+      "s": 25.743999999999996,
+      "e": 25.863999999999997,
+      "alignment": "asr"
+    },
+    {
+      "w": "day.",
+      "s": 25.863999999999997,
+      "e": 26.3253,
+      "alignment": "asr"
+    },
+    {
+      "w": "Heat",
+      "s": 26.48533333333333,
+      "e": 26.82533333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 26.82533333333333,
+      "e": 27.065333333333328,
+      "alignment": "asr"
+    },
+    {
+      "w": "hot",
+      "s": 27.065333333333328,
+      "e": 27.28533333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "water",
+      "s": 27.28533333333333,
+      "e": 27.565333333333328,
+      "alignment": "asr"
+    },
+    {
+      "w": "requests",
+      "s": 27.565333333333328,
+      "e": 27.92533333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "show",
+      "s": 27.92533333333333,
+      "e": 28.225333333333328,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 28.225333333333328,
+      "e": 28.42533333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "different",
+      "s": 28.42533333333333,
+      "e": 28.66533333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "pattern.",
+      "s": 28.66533333333333,
+      "e": 29.565333333333328,
+      "alignment": "asr"
+    },
+    {
+      "w": "January",
+      "s": 29.565333333333328,
+      "e": 29.90533333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "is",
+      "s": 29.90533333333333,
+      "e": 30.28533333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "far",
+      "s": 30.28533333333333,
+      "e": 30.565333333333328,
+      "alignment": "asr"
+    },
+    {
+      "w": "busier",
+      "s": 30.565333333333328,
+      "e": 30.92533333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "than",
+      "s": 30.92533333333333,
+      "e": 31.14533333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "August.",
+      "s": 31.14533333333333,
+      "e": 31.54133333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "At",
+      "s": 31.70133333333333,
+      "e": 31.90133333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 31.90133333333333,
+      "e": 32.08133333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "other",
+      "s": 32.08133333333333,
+      "e": 32.26133333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "end",
+      "s": 32.26133333333333,
+      "e": 32.40133333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "of",
+      "s": 32.40133333333333,
+      "e": 32.52133333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 32.52133333333333,
+      "e": 32.60133333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "list,",
+      "s": 32.60133333333333,
+      "e": 32.92133333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "exactly",
+      "s": 32.92133333333333,
+      "e": 33.62133333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "one",
+      "s": 33.62133333333333,
+      "e": 34.02133333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "request",
+      "s": 34.02133333333333,
+      "e": 34.38133333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "is",
+      "s": 34.38133333333333,
+      "e": 34.66133333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "filed",
+      "s": 34.66133333333333,
+      "e": 34.98133333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "under",
+      "s": 34.98133333333333,
+      "e": 35.24133333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "trapping",
+      "s": 35.24133333333333,
+      "e": 35.56133333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "pigeon.",
+      "s": 35.56133333333333,
+      "e": 36.01063333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "These",
+      "s": 36.17066666666666,
+      "e": 36.43066666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "are",
+      "s": 36.43066666666666,
+      "e": 36.690666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "request",
+      "s": 36.690666666666665,
+      "e": 36.910666666666664,
+      "alignment": "asr"
+    },
+    {
+      "w": "counts,",
+      "s": 36.910666666666664,
+      "e": 37.690666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "not",
+      "s": 37.690666666666665,
+      "e": 37.910666666666664,
+      "alignment": "asr"
+    },
+    {
+      "w": "unique",
+      "s": 37.910666666666664,
+      "e": 38.230666666666664,
+      "alignment": "asr"
+    },
+    {
+      "w": "incidents.",
+      "s": 38.230666666666664,
+      "e": 39.33066666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "The",
+      "s": 39.33066666666666,
+      "e": 39.47066666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "queries",
+      "s": 39.47066666666666,
+      "e": 39.730666666666664,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 39.730666666666664,
+      "e": 40.050666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "results",
+      "s": 40.050666666666665,
+      "e": 40.33066666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "are",
+      "s": 40.33066666666666,
+      "e": 40.67066666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "saved",
+      "s": 40.67066666666666,
+      "e": 41.03066666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "so",
+      "s": 41.03066666666666,
+      "e": 41.35066666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "you",
+      "s": 41.35066666666666,
+      "e": 41.49066666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "can",
+      "s": 41.49066666666666,
+      "e": 41.69066666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "reproduce",
+      "s": 41.69066666666666,
+      "e": 42.03066666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 42.03066666666666,
+      "e": 42.29066666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "charts.",
+      "s": 42.29066666666666,
+      "e": 42.677366666666664,
+      "alignment": "asr"
+    }
+  ],
+  "voice": "Local Kokoro af_heart, synthetic review voice",
+  "alignment_note": "Whisper tiny.en word timestamps, with interpolated unmatched words explicitly flagged. Not manually verified to +/- one frame.",
+  "script_sha256": "bb9176c0c1d88eb6b3447eaf85637ddcd18fe8de6c2c0d460ae2b257e55e10e8"
+}

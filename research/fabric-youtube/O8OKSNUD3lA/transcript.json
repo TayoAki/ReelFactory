@@ -1,0 +1,2933 @@
+{
+  "success": true,
+  "credits_remaining": 16831,
+  "credits_charged": 1,
+  "type": "video",
+  "url": "https://www.youtube.com/watch?v=O8OKSNUD3lA",
+  "transcript": [
+    {
+      "text": "EMILY LISA: Hello, everyone.",
+      "startMs": "3510",
+      "endMs": "4620",
+      "startTimeText": "0:03"
+    },
+    {
+      "text": "We're excited today to talkabout agentic analytics",
+      "startMs": "4620",
+      "endMs": "7350",
+      "startTimeText": "0:04"
+    },
+    {
+      "text": "with Power BI andMicrosoft Fabric.",
+      "startMs": "7350",
+      "endMs": "10320",
+      "startTimeText": "0:07"
+    },
+    {
+      "text": "My name is Emily Lisa, and I'm aPrincipal Group Product Manager",
+      "startMs": "10320",
+      "endMs": "13710",
+      "startTimeText": "0:10"
+    },
+    {
+      "text": "at Microsoft.",
+      "startMs": "13710",
+      "endMs": "15240",
+      "startTimeText": "0:13"
+    },
+    {
+      "text": "SUJATA NARAYANA: AndI'm Sujata Narayana.",
+      "startMs": "15240",
+      "endMs": "16410",
+      "startTimeText": "0:15"
+    },
+    {
+      "text": "I'm also a Principal GroupProduct Manager at Microsoft.",
+      "startMs": "16410",
+      "endMs": "19410",
+      "startTimeText": "0:16"
+    },
+    {
+      "text": "And we're really excited toget into some new innovation",
+      "startMs": "19410",
+      "endMs": "22080",
+      "startTimeText": "0:19"
+    },
+    {
+      "text": "and hopefully some things",
+      "startMs": "22080",
+      "endMs": "23160",
+      "startTimeText": "0:22"
+    },
+    {
+      "text": "that you guys will reallyenjoy seeing here.",
+      "startMs": "23160",
+      "endMs": "25650",
+      "startTimeText": "0:23"
+    },
+    {
+      "text": "EMILY LISA: Great.",
+      "startMs": "25650",
+      "endMs": "26070",
+      "startTimeText": "0:25"
+    },
+    {
+      "text": "So we will startoff this session",
+      "startMs": "26070",
+      "endMs": "27660",
+      "startTimeText": "0:26"
+    },
+    {
+      "text": "with a quick introduction to theconcept of agentic analytics.",
+      "startMs": "27660",
+      "endMs": "31560",
+      "startTimeText": "0:27"
+    },
+    {
+      "text": "Then we will go over in moredetail end-to-end agentic",
+      "startMs": "31560",
+      "endMs": "35070",
+      "startTimeText": "0:31"
+    },
+    {
+      "text": "analytics with Power BIand Microsoft Fabric.",
+      "startMs": "35070",
+      "endMs": "37950",
+      "startTimeText": "0:35"
+    },
+    {
+      "text": "Then I'll hand it off to Sujata,",
+      "startMs": "37950",
+      "endMs": "39420",
+      "startTimeText": "0:37"
+    },
+    {
+      "text": "who will cover analyticswith Fabric apps.",
+      "startMs": "39420",
+      "endMs": "42990",
+      "startTimeText": "0:39"
+    },
+    {
+      "text": "So to go ahead and get started,",
+      "startMs": "42990",
+      "endMs": "44820",
+      "startTimeText": "0:42"
+    },
+    {
+      "text": "what really isagentic development",
+      "startMs": "44820",
+      "endMs": "47010",
+      "startTimeText": "0:44"
+    },
+    {
+      "text": "for Power BI andFabric creators?",
+      "startMs": "47010",
+      "endMs": "49380",
+      "startTimeText": "0:47"
+    },
+    {
+      "text": "What this really means is it's away to use agentic experiences",
+      "startMs": "49380",
+      "endMs": "52770",
+      "startTimeText": "0:49"
+    },
+    {
+      "text": "with AI agents, skills, andMCP servers to help do all",
+      "startMs": "52770",
+      "endMs": "57420",
+      "startTimeText": "0:52"
+    },
+    {
+      "text": "of those different creatoractivities that you know",
+      "startMs": "57420",
+      "endMs": "60360",
+      "startTimeText": "0:57"
+    },
+    {
+      "text": "and love today, but withthe power of AI using LLMs.",
+      "startMs": "60360",
+      "endMs": "64970",
+      "startTimeText": "1:00"
+    },
+    {
+      "text": "And so what we reallyare looking to support",
+      "startMs": "64970",
+      "endMs": "67400",
+      "startTimeText": "1:04"
+    },
+    {
+      "text": "with agentic development withPower BI is both greenfield",
+      "startMs": "67400",
+      "endMs": "70790",
+      "startTimeText": "1:07"
+    },
+    {
+      "text": "and brownfield scenarios.",
+      "startMs": "70790",
+      "endMs": "72390",
+      "startTimeText": "1:10"
+    },
+    {
+      "text": "So these are justsimple examples,",
+      "startMs": "72390",
+      "endMs": "74850",
+      "startTimeText": "1:12"
+    },
+    {
+      "text": "but what we really mean bygreenfield is those creating",
+      "startMs": "74850",
+      "endMs": "77040",
+      "startTimeText": "1:14"
+    },
+    {
+      "text": "from scratch experiences,",
+      "startMs": "77040",
+      "endMs": "78810",
+      "startTimeText": "1:17"
+    },
+    {
+      "text": "such as creating a net newsemantic model, that you bring",
+      "startMs": "78810",
+      "endMs": "82200",
+      "startTimeText": "1:18"
+    },
+    {
+      "text": "in data, transform, do ETL ontop of it, shape the model,",
+      "startMs": "82200",
+      "endMs": "86670",
+      "startTimeText": "1:22"
+    },
+    {
+      "text": "and then build areport afterwards.",
+      "startMs": "86670",
+      "endMs": "88860",
+      "startTimeText": "1:26"
+    },
+    {
+      "text": "Similarly, an example ofa brownfield scenario is",
+      "startMs": "88860",
+      "endMs": "91890",
+      "startTimeText": "1:28"
+    },
+    {
+      "text": "when you're enhancingsomething that already exists.",
+      "startMs": "91890",
+      "endMs": "93990",
+      "startTimeText": "1:31"
+    },
+    {
+      "text": "So you might already haveyour Power BI semantic model",
+      "startMs": "93990",
+      "endMs": "96660",
+      "startTimeText": "1:33"
+    },
+    {
+      "text": "or your Power BI report,and there's some kind",
+      "startMs": "96660",
+      "endMs": "99090",
+      "startTimeText": "1:36"
+    },
+    {
+      "text": "of new requirement that comesin from your leadership chain",
+      "startMs": "99090",
+      "endMs": "101790",
+      "startTimeText": "1:39"
+    },
+    {
+      "text": "or a customer, and you want toadjust what you already have",
+      "startMs": "101790",
+      "endMs": "104880",
+      "startTimeText": "1:41"
+    },
+    {
+      "text": "to be in a shape thatmeets new incoming changes",
+      "startMs": "104880",
+      "endMs": "107910",
+      "startTimeText": "1:44"
+    },
+    {
+      "text": "and requirements.",
+      "startMs": "107910",
+      "endMs": "109140",
+      "startTimeText": "1:47"
+    },
+    {
+      "text": "So we can also helpthose scenarios",
+      "startMs": "109140",
+      "endMs": "111420",
+      "startTimeText": "1:49"
+    },
+    {
+      "text": "with agenticdevelopment as well.",
+      "startMs": "111420",
+      "endMs": "113400",
+      "startTimeText": "1:51"
+    },
+    {
+      "text": "So we're really looking tosupport both of these kind",
+      "startMs": "113400",
+      "endMs": "116130",
+      "startTimeText": "1:53"
+    },
+    {
+      "text": "of scenarios using AI tohelp experts do even more,",
+      "startMs": "116130",
+      "endMs": "120660",
+      "startTimeText": "1:56"
+    },
+    {
+      "text": "even faster than they can today.",
+      "startMs": "120660",
+      "endMs": "123610",
+      "startTimeText": "2:00"
+    },
+    {
+      "text": "And so let's take alook at what we mean",
+      "startMs": "124710",
+      "endMs": "126600",
+      "startTimeText": "2:04"
+    },
+    {
+      "text": "by end-to-end agentic analytics.",
+      "startMs": "126600",
+      "endMs": "130560",
+      "startTimeText": "2:06"
+    },
+    {
+      "text": "So, a few months ago, therewas a GitHub repository",
+      "startMs": "130560",
+      "endMs": "134220",
+      "startTimeText": "2:10"
+    },
+    {
+      "text": "that was shared calledSkills for Fabric.",
+      "startMs": "134220",
+      "endMs": "136320",
+      "startTimeText": "2:14"
+    },
+    {
+      "text": "And what this is is it'sessentially a repository",
+      "startMs": "136320",
+      "endMs": "139200",
+      "startTimeText": "2:16"
+    },
+    {
+      "text": "that supports all sorts ofdifferent agent skills for all",
+      "startMs": "139200",
+      "endMs": "142770",
+      "startTimeText": "2:19"
+    },
+    {
+      "text": "of your different MicrosoftFabric scenarios for you",
+      "startMs": "142770",
+      "endMs": "145290",
+      "startTimeText": "2:22"
+    },
+    {
+      "text": "to be able to useagents to do all sorts",
+      "startMs": "145290",
+      "endMs": "148590",
+      "startTimeText": "2:25"
+    },
+    {
+      "text": "of different Fabricdevelopment tasks.",
+      "startMs": "148590",
+      "endMs": "150750",
+      "startTimeText": "2:28"
+    },
+    {
+      "text": "So this spans across things likelakehouses, notebooks, reports,",
+      "startMs": "150750",
+      "endMs": "154950",
+      "startTimeText": "2:30"
+    },
+    {
+      "text": "semantic models, really thewhole Fabric ecosystem for you",
+      "startMs": "154950",
+      "endMs": "159240",
+      "startTimeText": "2:34"
+    },
+    {
+      "text": "to be more productive andmove faster using AI.",
+      "startMs": "159240",
+      "endMs": "162830",
+      "startTimeText": "2:39"
+    },
+    {
+      "text": "And there's tons of flexibilitywith using this repository.",
+      "startMs": "162830",
+      "endMs": "165530",
+      "startTimeText": "2:42"
+    },
+    {
+      "text": "You could use it in all sorts",
+      "startMs": "165530",
+      "endMs": "167060",
+      "startTimeText": "2:45"
+    },
+    {
+      "text": "of different developerenvironments, such as things",
+      "startMs": "167060",
+      "endMs": "169430",
+      "startTimeText": "2:47"
+    },
+    {
+      "text": "like GitHub CopilotCLI or VS Code.",
+      "startMs": "169430",
+      "endMs": "172740",
+      "startTimeText": "2:49"
+    },
+    {
+      "text": "And this really helps you moveeven faster and allows you",
+      "startMs": "172740",
+      "endMs": "175980",
+      "startTimeText": "2:52"
+    },
+    {
+      "text": "to focus more on definingthe context and really the",
+      "startMs": "175980",
+      "endMs": "179160",
+      "startTimeText": "2:55"
+    },
+    {
+      "text": "\"why\" behind what you'retrying to create,",
+      "startMs": "179160",
+      "endMs": "181080",
+      "startTimeText": "2:59"
+    },
+    {
+      "text": "rather than spendinghours and hours clicking",
+      "startMs": "181080",
+      "endMs": "183990",
+      "startTimeText": "3:01"
+    },
+    {
+      "text": "through every single stepto implement the solution.",
+      "startMs": "183990",
+      "endMs": "186750",
+      "startTimeText": "3:03"
+    },
+    {
+      "text": "Really helps the LLM do someof that heavy lifting work",
+      "startMs": "186750",
+      "endMs": "190110",
+      "startTimeText": "3:06"
+    },
+    {
+      "text": "and allows you to focus on thosehigh-level goals and outcomes.",
+      "startMs": "190110",
+      "endMs": "195480",
+      "startTimeText": "3:10"
+    },
+    {
+      "text": "And so we have this linkhere to try it out.",
+      "startMs": "195480",
+      "endMs": "197250",
+      "startTimeText": "3:15"
+    },
+    {
+      "text": "I'd highly recommend trying outthe Fabric Skills repository",
+      "startMs": "197250",
+      "endMs": "200010",
+      "startTimeText": "3:17"
+    },
+    {
+      "text": "for all of your Fabric needs.",
+      "startMs": "200010",
+      "endMs": "201600",
+      "startTimeText": "3:20"
+    },
+    {
+      "text": "But what we really want to focuson here is how you can use this",
+      "startMs": "201600",
+      "endMs": "204390",
+      "startTimeText": "3:21"
+    },
+    {
+      "text": "for Power BI creation scenarios.",
+      "startMs": "204390",
+      "endMs": "206910",
+      "startTimeText": "3:24"
+    },
+    {
+      "text": "Starting with our modelingexperiences, which we support",
+      "startMs": "206910",
+      "endMs": "210030",
+      "startTimeText": "3:26"
+    },
+    {
+      "text": "with the Power BImodeling MCP server.",
+      "startMs": "210030",
+      "endMs": "213210",
+      "startTimeText": "3:30"
+    },
+    {
+      "text": "Now, in the FabricSkills repository,",
+      "startMs": "213210",
+      "endMs": "215310",
+      "startTimeText": "3:33"
+    },
+    {
+      "text": "there is a skill calledPower BI model authoring.",
+      "startMs": "215310",
+      "endMs": "218250",
+      "startTimeText": "3:35"
+    },
+    {
+      "text": "And what this really does ishelp you craft your semantic",
+      "startMs": "218250",
+      "endMs": "222300",
+      "startTimeText": "3:38"
+    },
+    {
+      "text": "models in a way using naturallanguage to really speed",
+      "startMs": "222300",
+      "endMs": "226470",
+      "startTimeText": "3:42"
+    },
+    {
+      "text": "up things that usedto take a long time",
+      "startMs": "226470",
+      "endMs": "228510",
+      "startTimeText": "3:46"
+    },
+    {
+      "text": "through clicks or scripting.",
+      "startMs": "228510",
+      "endMs": "230460",
+      "startTimeText": "3:48"
+    },
+    {
+      "text": "Now you can do it easier",
+      "startMs": "230460",
+      "endMs": "231510",
+      "startTimeText": "3:50"
+    },
+    {
+      "text": "than ever using themodeling MCP server.",
+      "startMs": "231510",
+      "endMs": "234810",
+      "startTimeText": "3:51"
+    },
+    {
+      "text": "So the skill in the FabricSkills repository calls the",
+      "startMs": "234810",
+      "endMs": "237660",
+      "startTimeText": "3:54"
+    },
+    {
+      "text": "modeling MCP server and hasknowledge in the markdown files",
+      "startMs": "237660",
+      "endMs": "241860",
+      "startTimeText": "3:57"
+    },
+    {
+      "text": "to help you enhance your modelsto follow best practices.",
+      "startMs": "241860",
+      "endMs": "245700",
+      "startTimeText": "4:01"
+    },
+    {
+      "text": "And one additionalenhancement on top",
+      "startMs": "245700",
+      "endMs": "247800",
+      "startTimeText": "4:05"
+    },
+    {
+      "text": "of that is we now makeit easier than ever",
+      "startMs": "247800",
+      "endMs": "250770",
+      "startTimeText": "4:07"
+    },
+    {
+      "text": "to get started usingthe modeling MCP server",
+      "startMs": "250770",
+      "endMs": "253290",
+      "startTimeText": "4:10"
+    },
+    {
+      "text": "from the web modeling view.",
+      "startMs": "253290",
+      "endMs": "255300",
+      "startTimeText": "4:13"
+    },
+    {
+      "text": "All you have to do is clickon the \"Copilot\" button",
+      "startMs": "255300",
+      "endMs": "257730",
+      "startTimeText": "4:15"
+    },
+    {
+      "text": "in web model view, and thiswill pop up a Copilot side chat",
+      "startMs": "257730",
+      "endMs": "262290",
+      "startTimeText": "4:17"
+    },
+    {
+      "text": "where you can use this to giveyour natural language prompts",
+      "startMs": "262290",
+      "endMs": "264930",
+      "startTimeText": "4:22"
+    },
+    {
+      "text": "to make changes to your semanticmodel, to make changes such as",
+      "startMs": "264930",
+      "endMs": "267930",
+      "startTimeText": "4:24"
+    },
+    {
+      "text": "to your DAX measures,relationships,",
+      "startMs": "267930",
+      "endMs": "270420",
+      "startTimeText": "4:27"
+    },
+    {
+      "text": "your column properties, all ofthose different rich semantics,",
+      "startMs": "270420",
+      "endMs": "274110",
+      "startTimeText": "4:30"
+    },
+    {
+      "text": "being able to modify themusing natural language.",
+      "startMs": "274110",
+      "endMs": "277050",
+      "startTimeText": "4:34"
+    },
+    {
+      "text": "You can even get suggestions onhow to make your model better",
+      "startMs": "277050",
+      "endMs": "280440",
+      "startTimeText": "4:37"
+    },
+    {
+      "text": "for your reports andoptimize better for AI.",
+      "startMs": "280440",
+      "endMs": "283980",
+      "startTimeText": "4:40"
+    },
+    {
+      "text": "So you can both use all thesereally rich modeling experiences",
+      "startMs": "283980",
+      "endMs": "288060",
+      "startTimeText": "4:43"
+    },
+    {
+      "text": "in your developer environments,",
+      "startMs": "288060",
+      "endMs": "289650",
+      "startTimeText": "4:48"
+    },
+    {
+      "text": "and even coming soonin web modeling.",
+      "startMs": "289650",
+      "endMs": "293620",
+      "startTimeText": "4:49"
+    },
+    {
+      "text": "Now, the next skillthat we support",
+      "startMs": "294780",
+      "endMs": "296760",
+      "startTimeText": "4:54"
+    },
+    {
+      "text": "in the Fabric Skills repositoryis the much-anticipated report",
+      "startMs": "296760",
+      "endMs": "300000",
+      "startTimeText": "4:56"
+    },
+    {
+      "text": "authoring skill.",
+      "startMs": "300000",
+      "endMs": "301410",
+      "startTimeText": "5:00"
+    },
+    {
+      "text": "We're really excitedto ship this live",
+      "startMs": "301410",
+      "endMs": "303540",
+      "startTimeText": "5:01"
+    },
+    {
+      "text": "for the first time at Build.",
+      "startMs": "303540",
+      "endMs": "304950",
+      "startTimeText": "5:03"
+    },
+    {
+      "text": "And what this really does ishelp you both create net new",
+      "startMs": "304950",
+      "endMs": "307860",
+      "startTimeText": "5:04"
+    },
+    {
+      "text": "reports as well as edit yourexisting Power BI reports.",
+      "startMs": "307860",
+      "endMs": "311910",
+      "startTimeText": "5:07"
+    },
+    {
+      "text": "What this does is you use thePBIP file and desktop to be able",
+      "startMs": "311910",
+      "endMs": "316770",
+      "startTimeText": "5:11"
+    },
+    {
+      "text": "to create and edit your reports.",
+      "startMs": "316770",
+      "endMs": "319260",
+      "startTimeText": "5:16"
+    },
+    {
+      "text": "And it really helps you alot of the heavy lifting",
+      "startMs": "319260",
+      "endMs": "321390",
+      "startTimeText": "5:19"
+    },
+    {
+      "text": "of all those operations thattraditionally take a long time",
+      "startMs": "321390",
+      "endMs": "324900",
+      "startTimeText": "5:21"
+    },
+    {
+      "text": "with doing draggy,clicky, clicky,",
+      "startMs": "324900",
+      "endMs": "326610",
+      "startTimeText": "5:24"
+    },
+    {
+      "text": "draggy, droppy operations.",
+      "startMs": "326610",
+      "endMs": "328650",
+      "startTimeText": "5:26"
+    },
+    {
+      "text": "Now you can use naturallanguage for all of them.",
+      "startMs": "328650",
+      "endMs": "331950",
+      "startTimeText": "5:28"
+    },
+    {
+      "text": "Some key things that you can dois update report themes based",
+      "startMs": "331950",
+      "endMs": "335010",
+      "startTimeText": "5:31"
+    },
+    {
+      "text": "on requirements, maybeeven a screenshot,",
+      "startMs": "335010",
+      "endMs": "337260",
+      "startTimeText": "5:35"
+    },
+    {
+      "text": "as well as modify differentvisuals and report elements",
+      "startMs": "337260",
+      "endMs": "340500",
+      "startTimeText": "5:37"
+    },
+    {
+      "text": "to meet all the requirementsthat you have for your reports.",
+      "startMs": "340500",
+      "endMs": "344430",
+      "startTimeText": "5:40"
+    },
+    {
+      "text": "All right.",
+      "startMs": "344430",
+      "endMs": "344760",
+      "startTimeText": "5:44"
+    },
+    {
+      "text": "Well, enough talkingabout these skills.",
+      "startMs": "344760",
+      "endMs": "346440",
+      "startTimeText": "5:44"
+    },
+    {
+      "text": "Let's see what itlooks like actually",
+      "startMs": "346440",
+      "endMs": "347940",
+      "startTimeText": "5:46"
+    },
+    {
+      "text": "in action with some demos.",
+      "startMs": "347940",
+      "endMs": "350160",
+      "startTimeText": "5:47"
+    },
+    {
+      "text": "So, in the first demo that Iwant to show, this is going",
+      "startMs": "350160",
+      "endMs": "352650",
+      "startTimeText": "5:50"
+    },
+    {
+      "text": "to be a greenfield scenario.",
+      "startMs": "352650",
+      "endMs": "354210",
+      "startTimeText": "5:52"
+    },
+    {
+      "text": "So in this case, I'm creatinga net new semantic model",
+      "startMs": "354210",
+      "endMs": "357210",
+      "startTimeText": "5:54"
+    },
+    {
+      "text": "and report completely fromscratch with the assistance",
+      "startMs": "357210",
+      "endMs": "360240",
+      "startTimeText": "5:57"
+    },
+    {
+      "text": "of AI using the FabricSkills repository.",
+      "startMs": "360240",
+      "endMs": "363330",
+      "startTimeText": "6:00"
+    },
+    {
+      "text": "So here in my setup, I have",
+      "startMs": "363330",
+      "endMs": "365040",
+      "startTimeText": "6:03"
+    },
+    {
+      "text": "on the left-hand sidean empty PBIP file open",
+      "startMs": "365040",
+      "endMs": "368190",
+      "startTimeText": "6:05"
+    },
+    {
+      "text": "in Power BI Desktop.",
+      "startMs": "368190",
+      "endMs": "369720",
+      "startTimeText": "6:08"
+    },
+    {
+      "text": "And on the right-hand side,",
+      "startMs": "369720",
+      "endMs": "370800",
+      "startTimeText": "6:09"
+    },
+    {
+      "text": "I have GitHub CopilotCLI connected",
+      "startMs": "370800",
+      "endMs": "373260",
+      "startTimeText": "6:10"
+    },
+    {
+      "text": "to this instance ofPower BI Desktop.",
+      "startMs": "373260",
+      "endMs": "375570",
+      "startTimeText": "6:13"
+    },
+    {
+      "text": "Now, to create a net newsemantic model within this file,",
+      "startMs": "375570",
+      "endMs": "378420",
+      "startTimeText": "6:15"
+    },
+    {
+      "text": "all I have to do is give areally simple prompt, such as,",
+      "startMs": "378420",
+      "endMs": "380820",
+      "startTimeText": "6:18"
+    },
+    {
+      "text": "\"Create a new semantic modelusing data at SQL database,\"",
+      "startMs": "380820",
+      "endMs": "384600",
+      "startTimeText": "6:20"
+    },
+    {
+      "text": "and it'll just go ahead",
+      "startMs": "384600",
+      "endMs": "385740",
+      "startTimeText": "6:24"
+    },
+    {
+      "text": "and create this newsemantic model for me.",
+      "startMs": "385740",
+      "endMs": "388320",
+      "startTimeText": "6:25"
+    },
+    {
+      "text": "I'm able to see all the changesvalidated on Power BI Desktop",
+      "startMs": "388320",
+      "endMs": "392280",
+      "startTimeText": "6:28"
+    },
+    {
+      "text": "on the left-hand side, whilethe LLM is also giving updates",
+      "startMs": "392280",
+      "endMs": "395760",
+      "startTimeText": "6:32"
+    },
+    {
+      "text": "of all the changes it's makingon the right-hand side,",
+      "startMs": "395760",
+      "endMs": "398130",
+      "startTimeText": "6:35"
+    },
+    {
+      "text": "including a helpful summary.",
+      "startMs": "398130",
+      "endMs": "400170",
+      "startTimeText": "6:38"
+    },
+    {
+      "text": "Now I'm able to see I havea beautiful star schema,",
+      "startMs": "400170",
+      "endMs": "402360",
+      "startTimeText": "6:40"
+    },
+    {
+      "text": "but I want to takethis one step further.",
+      "startMs": "402360",
+      "endMs": "404670",
+      "startTimeText": "6:42"
+    },
+    {
+      "text": "My organization defines oursemantic modeling best practices",
+      "startMs": "404670",
+      "endMs": "407880",
+      "startTimeText": "6:44"
+    },
+    {
+      "text": "in a shared markdown file.",
+      "startMs": "407880",
+      "endMs": "409350",
+      "startTimeText": "6:47"
+    },
+    {
+      "text": "So I just give this file ascontext to the LLM and ask it",
+      "startMs": "409350",
+      "endMs": "412740",
+      "startTimeText": "6:49"
+    },
+    {
+      "text": "to update my semanticmodel to follow all",
+      "startMs": "412740",
+      "endMs": "415080",
+      "startTimeText": "6:52"
+    },
+    {
+      "text": "of those well-known bestpractices, which it goes ahead",
+      "startMs": "415080",
+      "endMs": "417870",
+      "startTimeText": "6:55"
+    },
+    {
+      "text": "and does for me, givinghelpful summaries.",
+      "startMs": "417870",
+      "endMs": "419820",
+      "startTimeText": "6:57"
+    },
+    {
+      "text": "And I even see adescription added",
+      "startMs": "419820",
+      "endMs": "421680",
+      "startTimeText": "6:59"
+    },
+    {
+      "text": "to my column matchingthe best practices.",
+      "startMs": "421680",
+      "endMs": "424710",
+      "startTimeText": "7:01"
+    },
+    {
+      "text": "Now, as a next step, I wantto create a report off",
+      "startMs": "424710",
+      "endMs": "426870",
+      "startTimeText": "7:04"
+    },
+    {
+      "text": "of this semantic model.",
+      "startMs": "426870",
+      "endMs": "428250",
+      "startTimeText": "7:06"
+    },
+    {
+      "text": "What I do is I define each",
+      "startMs": "428250",
+      "endMs": "429870",
+      "startTimeText": "7:08"
+    },
+    {
+      "text": "of the report pages therequirements I have",
+      "startMs": "429870",
+      "endMs": "432030",
+      "startTimeText": "7:09"
+    },
+    {
+      "text": "for that page of whatI want it to look",
+      "startMs": "432030",
+      "endMs": "433860",
+      "startTimeText": "7:12"
+    },
+    {
+      "text": "like within these twodifferent markdown files.",
+      "startMs": "433860",
+      "endMs": "437160",
+      "startTimeText": "7:13"
+    },
+    {
+      "text": "And then I go ahead and give itas context to the LLM and say,",
+      "startMs": "437160",
+      "endMs": "441390",
+      "startTimeText": "7:17"
+    },
+    {
+      "text": "\"Go and make thisreport for me.\"",
+      "startMs": "441390",
+      "endMs": "444060",
+      "startTimeText": "7:21"
+    },
+    {
+      "text": "And then what I'm able",
+      "startMs": "444060",
+      "endMs": "444990",
+      "startTimeText": "7:24"
+    },
+    {
+      "text": "to see afterwards is it createsthis beautiful new report,",
+      "startMs": "444990",
+      "endMs": "448650",
+      "startTimeText": "7:24"
+    },
+    {
+      "text": "all based off of my written --",
+      "startMs": "448650",
+      "endMs": "450930",
+      "startTimeText": "7:28"
+    },
+    {
+      "text": "the requirements withinmy markdown files.",
+      "startMs": "450930",
+      "endMs": "453630",
+      "startTimeText": "7:30"
+    },
+    {
+      "text": "Now I want to take this one stepfurther and style this report",
+      "startMs": "453630",
+      "endMs": "456990",
+      "startTimeText": "7:33"
+    },
+    {
+      "text": "to match theming and branding",
+      "startMs": "456990",
+      "endMs": "458580",
+      "startTimeText": "7:36"
+    },
+    {
+      "text": "that I desire formy organization.",
+      "startMs": "458580",
+      "endMs": "461100",
+      "startTimeText": "7:38"
+    },
+    {
+      "text": "So I give it a referenceimage of a sample report page",
+      "startMs": "461100",
+      "endMs": "464430",
+      "startTimeText": "7:41"
+    },
+    {
+      "text": "that I want the rest ofmy report to look like,",
+      "startMs": "464430",
+      "endMs": "466560",
+      "startTimeText": "7:44"
+    },
+    {
+      "text": "as well as my company's logo,for it to follow as theming",
+      "startMs": "466560",
+      "endMs": "470220",
+      "startTimeText": "7:46"
+    },
+    {
+      "text": "and styling best practices.",
+      "startMs": "470220",
+      "endMs": "472350",
+      "startTimeText": "7:50"
+    },
+    {
+      "text": "All it took was a really simpleprompt and these two pieces",
+      "startMs": "472350",
+      "endMs": "475200",
+      "startTimeText": "7:52"
+    },
+    {
+      "text": "of information as context,and it was able to modify",
+      "startMs": "475200",
+      "endMs": "478020",
+      "startTimeText": "7:55"
+    },
+    {
+      "text": "that entire report for meto match all the styling",
+      "startMs": "478020",
+      "endMs": "481020",
+      "startTimeText": "7:58"
+    },
+    {
+      "text": "and theming guidance that Ireally wanted for this report.",
+      "startMs": "481020",
+      "endMs": "485010",
+      "startTimeText": "8:01"
+    },
+    {
+      "text": "All of these tasks, as many ofyou Power BI creators know,",
+      "startMs": "485010",
+      "endMs": "487740",
+      "startTimeText": "8:05"
+    },
+    {
+      "text": "often take many hours to dofine-tuning and clicking",
+      "startMs": "487740",
+      "endMs": "492420",
+      "startTimeText": "8:07"
+    },
+    {
+      "text": "and moving things around.",
+      "startMs": "492420",
+      "endMs": "493560",
+      "startTimeText": "8:12"
+    },
+    {
+      "text": "Now it's easier than ever,thanks to the help of AI",
+      "startMs": "493560",
+      "endMs": "497280",
+      "startTimeText": "8:13"
+    },
+    {
+      "text": "and the FabricSkills repository,",
+      "startMs": "497280",
+      "endMs": "499230",
+      "startTimeText": "8:17"
+    },
+    {
+      "text": "making it so I could focus ondefining the what of what I want",
+      "startMs": "499230",
+      "endMs": "502620",
+      "startTimeText": "8:19"
+    },
+    {
+      "text": "for my data solution,rather than going",
+      "startMs": "502620",
+      "endMs": "504870",
+      "startTimeText": "8:22"
+    },
+    {
+      "text": "through all the manual processesof making those things happen.",
+      "startMs": "504870",
+      "endMs": "509730",
+      "startTimeText": "8:24"
+    },
+    {
+      "text": "So that was a greenfieldscenario, creating completely",
+      "startMs": "509730",
+      "endMs": "512940",
+      "startTimeText": "8:29"
+    },
+    {
+      "text": "from scratch using AI, a netnew semantic model and report.",
+      "startMs": "512940",
+      "endMs": "517140",
+      "startTimeText": "8:32"
+    },
+    {
+      "text": "But as we talked about earlier,",
+      "startMs": "517140",
+      "endMs": "519090",
+      "startTimeText": "8:37"
+    },
+    {
+      "text": "it's not just greenfieldscenarios we support.",
+      "startMs": "519090",
+      "endMs": "521000",
+      "startTimeText": "8:39"
+    },
+    {
+      "text": "We also support brownfieldscenarios of being able",
+      "startMs": "521000",
+      "endMs": "523700",
+      "startTimeText": "8:41"
+    },
+    {
+      "text": "to edit existing thingsthat you already have.",
+      "startMs": "523700",
+      "endMs": "526160",
+      "startTimeText": "8:43"
+    },
+    {
+      "text": "We know many of you alreadyhave existing semantic models",
+      "startMs": "526160",
+      "endMs": "528680",
+      "startTimeText": "8:46"
+    },
+    {
+      "text": "and reports that youeither want to fine-tune",
+      "startMs": "528680",
+      "endMs": "530510",
+      "startTimeText": "8:48"
+    },
+    {
+      "text": "for new requirements orjust want to modify based",
+      "startMs": "530510",
+      "endMs": "533450",
+      "startTimeText": "8:50"
+    },
+    {
+      "text": "on any new preferences you have.",
+      "startMs": "533450",
+      "endMs": "535860",
+      "startTimeText": "8:53"
+    },
+    {
+      "text": "Let's take a look at what abrownfield scenario looks",
+      "startMs": "535860",
+      "endMs": "538230",
+      "startTimeText": "8:55"
+    },
+    {
+      "text": "like for a report.",
+      "startMs": "538230",
+      "endMs": "541260",
+      "startTimeText": "8:58"
+    },
+    {
+      "text": "So in this case, I want to levelup one of my existing reports",
+      "startMs": "541260",
+      "endMs": "544470",
+      "startTimeText": "9:01"
+    },
+    {
+      "text": "in one prompt using the sameFabric Skills repository.",
+      "startMs": "544470",
+      "endMs": "548580",
+      "startTimeText": "9:04"
+    },
+    {
+      "text": "Here, I have my report page,",
+      "startMs": "548580",
+      "endMs": "549900",
+      "startTimeText": "9:08"
+    },
+    {
+      "text": "which maybe could be a bitmore visually appealing.",
+      "startMs": "549900",
+      "endMs": "553350",
+      "startTimeText": "9:09"
+    },
+    {
+      "text": "It's not following some ofthe reporting best practices.",
+      "startMs": "553350",
+      "endMs": "556380",
+      "startTimeText": "9:13"
+    },
+    {
+      "text": "I want to make it betterand more executive-ready.",
+      "startMs": "556380",
+      "endMs": "559410",
+      "startTimeText": "9:16"
+    },
+    {
+      "text": "So all I do is I ask Copilot",
+      "startMs": "559410",
+      "endMs": "562230",
+      "startTimeText": "9:19"
+    },
+    {
+      "text": "to help improve myAdventure Works report.",
+      "startMs": "562230",
+      "endMs": "564150",
+      "startTimeText": "9:22"
+    },
+    {
+      "text": "I want to have amore modern feel,",
+      "startMs": "564150",
+      "endMs": "565950",
+      "startTimeText": "9:24"
+    },
+    {
+      "text": "have a clean editoriallanding page",
+      "startMs": "565950",
+      "endMs": "568380",
+      "startTimeText": "9:25"
+    },
+    {
+      "text": "with intuitive page navigation,",
+      "startMs": "568380",
+      "endMs": "570390",
+      "startTimeText": "9:28"
+    },
+    {
+      "text": "and really look more polishedand executive-ready.",
+      "startMs": "570390",
+      "endMs": "573360",
+      "startTimeText": "9:30"
+    },
+    {
+      "text": "In Plan mode in GitHub CopilotCLI, I'm given different options",
+      "startMs": "573360",
+      "endMs": "576990",
+      "startTimeText": "9:33"
+    },
+    {
+      "text": "of what this page can look like.",
+      "startMs": "576990",
+      "endMs": "578760",
+      "startTimeText": "9:36"
+    },
+    {
+      "text": "I review these and I go aheadand go with one of the options",
+      "startMs": "578760",
+      "endMs": "581940",
+      "startTimeText": "9:38"
+    },
+    {
+      "text": "that was suggested to me.",
+      "startMs": "581940",
+      "endMs": "583500",
+      "startTimeText": "9:41"
+    },
+    {
+      "text": "And then the LLM goes aheadand makes the changes",
+      "startMs": "583500",
+      "endMs": "585960",
+      "startTimeText": "9:43"
+    },
+    {
+      "text": "to my report based on thatplan, and it looks beautiful",
+      "startMs": "585960",
+      "endMs": "588930",
+      "startTimeText": "9:45"
+    },
+    {
+      "text": "with consistentstyling and theme.",
+      "startMs": "588930",
+      "endMs": "591060",
+      "startTimeText": "9:48"
+    },
+    {
+      "text": "I had that really nice landingpage at the beginning.",
+      "startMs": "591060",
+      "endMs": "594300",
+      "startTimeText": "9:51"
+    },
+    {
+      "text": "This is in a much better state,where I'm ready to share it",
+      "startMs": "594300",
+      "endMs": "597030",
+      "startTimeText": "9:54"
+    },
+    {
+      "text": "with my executivesand my larger team.",
+      "startMs": "597030",
+      "endMs": "599850",
+      "startTimeText": "9:57"
+    },
+    {
+      "text": "And it was so easy to getstarted, all in one prompt,",
+      "startMs": "599850",
+      "endMs": "602760",
+      "startTimeText": "9:59"
+    },
+    {
+      "text": "thanks to the assistance ofthe Fabric Skills repository",
+      "startMs": "602760",
+      "endMs": "605610",
+      "startTimeText": "10:02"
+    },
+    {
+      "text": "with the Power BI reportauthoring skill within there.",
+      "startMs": "605610",
+      "endMs": "609920",
+      "startTimeText": "10:05"
+    },
+    {
+      "text": "So that was really it for theend-to-end agentic analytics",
+      "startMs": "609920",
+      "endMs": "613430",
+      "startTimeText": "10:09"
+    },
+    {
+      "text": "part of the presentation.",
+      "startMs": "613430",
+      "endMs": "614900",
+      "startTimeText": "10:13"
+    },
+    {
+      "text": "Now I'm going to handit off to Sujata",
+      "startMs": "614900",
+      "endMs": "617390",
+      "startTimeText": "10:14"
+    },
+    {
+      "text": "to cover the next section.",
+      "startMs": "617390",
+      "endMs": "620310",
+      "startTimeText": "10:17"
+    },
+    {
+      "text": "SUJATA NARAYANA: All right.",
+      "startMs": "620310",
+      "endMs": "620670",
+      "startTimeText": "10:20"
+    },
+    {
+      "text": "Thank you, Emily, so much",
+      "startMs": "620670",
+      "endMs": "621990",
+      "startTimeText": "10:20"
+    },
+    {
+      "text": "for showing us all theinnovation that's happening",
+      "startMs": "621990",
+      "endMs": "624300",
+      "startTimeText": "10:21"
+    },
+    {
+      "text": "around agentic developmentin Power BI reports",
+      "startMs": "624300",
+      "endMs": "627360",
+      "startTimeText": "10:24"
+    },
+    {
+      "text": "and Power BI semantic models.",
+      "startMs": "627360",
+      "endMs": "629400",
+      "startTimeText": "10:27"
+    },
+    {
+      "text": "Now let's switch gears herea little bit, because I want",
+      "startMs": "629400",
+      "endMs": "632340",
+      "startTimeText": "10:29"
+    },
+    {
+      "text": "to talk about somethingthat is brand new, in fact,",
+      "startMs": "632340",
+      "endMs": "634950",
+      "startTimeText": "10:32"
+    },
+    {
+      "text": "released just at thisconference, which,",
+      "startMs": "634950",
+      "endMs": "637170",
+      "startTimeText": "10:34"
+    },
+    {
+      "text": "let's look at Fabric apps.",
+      "startMs": "637170",
+      "endMs": "638880",
+      "startTimeText": "10:37"
+    },
+    {
+      "text": "And specifically, I want to talk",
+      "startMs": "638880",
+      "endMs": "640350",
+      "startTimeText": "10:38"
+    },
+    {
+      "text": "about analytics use caseswithin Fabric apps.",
+      "startMs": "640350",
+      "endMs": "644130",
+      "startTimeText": "10:40"
+    },
+    {
+      "text": "So AI is really democratizinga lot that's happening",
+      "startMs": "644130",
+      "endMs": "647460",
+      "startTimeText": "10:44"
+    },
+    {
+      "text": "with web app development.",
+      "startMs": "647460",
+      "endMs": "648960",
+      "startTimeText": "10:47"
+    },
+    {
+      "text": "We're seeing all kindsof scenarios where MVPs",
+      "startMs": "648960",
+      "endMs": "651750",
+      "startTimeText": "10:48"
+    },
+    {
+      "text": "like Injae Park, Reid Havens arebuilding end-to-end web apps",
+      "startMs": "651750",
+      "endMs": "655710",
+      "startTimeText": "10:51"
+    },
+    {
+      "text": "for enterprise analytics.",
+      "startMs": "655710",
+      "endMs": "657870",
+      "startTimeText": "10:55"
+    },
+    {
+      "text": "And because AI is making itso much easier to do this,",
+      "startMs": "657870",
+      "endMs": "660750",
+      "startTimeText": "10:57"
+    },
+    {
+      "text": "we're even seeing citizendevelopers being able",
+      "startMs": "660750",
+      "endMs": "663420",
+      "startTimeText": "11:00"
+    },
+    {
+      "text": "to achieve so much more here.",
+      "startMs": "663420",
+      "endMs": "666780",
+      "startTimeText": "11:03"
+    },
+    {
+      "text": "Now, where custom web appsadd value beyond reports is",
+      "startMs": "666780",
+      "endMs": "671490",
+      "startTimeText": "11:06"
+    },
+    {
+      "text": "that developers thatneed more flexibility",
+      "startMs": "671490",
+      "endMs": "673950",
+      "startTimeText": "11:11"
+    },
+    {
+      "text": "or have higher customrequirements can really take",
+      "startMs": "673950",
+      "endMs": "677400",
+      "startTimeText": "11:13"
+    },
+    {
+      "text": "advantage of going thecustom web app route.",
+      "startMs": "677400",
+      "endMs": "680190",
+      "startTimeText": "11:17"
+    },
+    {
+      "text": "Because with a custom web app,you're getting full custom UX.",
+      "startMs": "680190",
+      "endMs": "683670",
+      "startTimeText": "11:20"
+    },
+    {
+      "text": "So if you want thingslike responsive layouts,",
+      "startMs": "683670",
+      "endMs": "686070",
+      "startTimeText": "11:23"
+    },
+    {
+      "text": "unlimited UI controls, or evenfull-blown multi-step workflows,",
+      "startMs": "686070",
+      "endMs": "690750",
+      "startTimeText": "11:26"
+    },
+    {
+      "text": "you can get that witha custom web app.",
+      "startMs": "690750",
+      "endMs": "692970",
+      "startTimeText": "11:30"
+    },
+    {
+      "text": "And also, if you have scenarios",
+      "startMs": "692970",
+      "endMs": "694590",
+      "startTimeText": "11:32"
+    },
+    {
+      "text": "where you want fullycustomizable actions,",
+      "startMs": "694590",
+      "endMs": "697770",
+      "startTimeText": "11:34"
+    },
+    {
+      "text": "these web apps can be reallyhelpful for that as well,",
+      "startMs": "697770",
+      "endMs": "700230",
+      "startTimeText": "11:37"
+    },
+    {
+      "text": "because you're getting a muchmore seamless integration",
+      "startMs": "700230",
+      "endMs": "702870",
+      "startTimeText": "11:40"
+    },
+    {
+      "text": "for building thingslike decision loops,",
+      "startMs": "702870",
+      "endMs": "704820",
+      "startTimeText": "11:42"
+    },
+    {
+      "text": "supporting custom codeand custom integrations,",
+      "startMs": "704820",
+      "endMs": "708000",
+      "startTimeText": "11:44"
+    },
+    {
+      "text": "because at the end of the day,",
+      "startMs": "708000",
+      "endMs": "709140",
+      "startTimeText": "11:48"
+    },
+    {
+      "text": "custom web appsare all just code.",
+      "startMs": "709140",
+      "endMs": "713130",
+      "startTimeText": "11:49"
+    },
+    {
+      "text": "And now, here's the caveat.",
+      "startMs": "713130",
+      "endMs": "714780",
+      "startTimeText": "11:53"
+    },
+    {
+      "text": "Even though AI isdemocratizing a lot",
+      "startMs": "714780",
+      "endMs": "717390",
+      "startTimeText": "11:54"
+    },
+    {
+      "text": "of web app development today,the reality is that a lot",
+      "startMs": "717390",
+      "endMs": "720840",
+      "startTimeText": "11:57"
+    },
+    {
+      "text": "of these vibe-coded appsnever reach production.",
+      "startMs": "720840",
+      "endMs": "724020",
+      "startTimeText": "12:00"
+    },
+    {
+      "text": "So majority of these apps, let'ssay if you built on Lovable,",
+      "startMs": "724020",
+      "endMs": "728010",
+      "startTimeText": "12:04"
+    },
+    {
+      "text": "Streamlit, or other surfaceareas, may not reach production",
+      "startMs": "728010",
+      "endMs": "731820",
+      "startTimeText": "12:08"
+    },
+    {
+      "text": "because they may miss thingslike enterprise-grade security,",
+      "startMs": "731820",
+      "endMs": "735090",
+      "startTimeText": "12:11"
+    },
+    {
+      "text": "governance, reliability, andmore operational controls.",
+      "startMs": "735090",
+      "endMs": "739290",
+      "startTimeText": "12:15"
+    },
+    {
+      "text": "And so even though AI helpsyou get 80% of the way,",
+      "startMs": "739290",
+      "endMs": "742560",
+      "startTimeText": "12:19"
+    },
+    {
+      "text": "that additional 20% of makingit ready for production,",
+      "startMs": "742560",
+      "endMs": "746370",
+      "startTimeText": "12:22"
+    },
+    {
+      "text": "if it's not there, it'sjust not enough to have",
+      "startMs": "746370",
+      "endMs": "749460",
+      "startTimeText": "12:26"
+    },
+    {
+      "text": "to your customersor your end users.",
+      "startMs": "749460",
+      "endMs": "752430",
+      "startTimeText": "12:29"
+    },
+    {
+      "text": "And so this is somethingthat we want to tackle",
+      "startMs": "752430",
+      "endMs": "754770",
+      "startTimeText": "12:32"
+    },
+    {
+      "text": "with Microsoft Fabric.",
+      "startMs": "754770",
+      "endMs": "756960",
+      "startTimeText": "12:34"
+    },
+    {
+      "text": "And that's nowintroducing Fabric apps.",
+      "startMs": "756960",
+      "endMs": "759660",
+      "startTimeText": "12:36"
+    },
+    {
+      "text": "So you may have seen insome of the other sessions,",
+      "startMs": "759660",
+      "endMs": "761640",
+      "startTimeText": "12:39"
+    },
+    {
+      "text": "we made a huge announcementaround Fabric apps,",
+      "startMs": "761640",
+      "endMs": "764280",
+      "startTimeText": "12:41"
+    },
+    {
+      "text": "which basically what thatis, is a Fabric backend",
+      "startMs": "764280",
+      "endMs": "766950",
+      "startTimeText": "12:44"
+    },
+    {
+      "text": "for buildingenterprise-grade apps.",
+      "startMs": "766950",
+      "endMs": "769530",
+      "startTimeText": "12:46"
+    },
+    {
+      "text": "Now, let's talk about thisa little bit more detail.",
+      "startMs": "769530",
+      "endMs": "772680",
+      "startTimeText": "12:49"
+    },
+    {
+      "text": "So what this is, is Rayfinis the project name,",
+      "startMs": "772680",
+      "endMs": "775830",
+      "startTimeText": "12:52"
+    },
+    {
+      "text": "which is allows for aCLI-based experience.",
+      "startMs": "775830",
+      "endMs": "778860",
+      "startTimeText": "12:55"
+    },
+    {
+      "text": "So not only is thisdeveloper-friendly,",
+      "startMs": "778860",
+      "endMs": "780600",
+      "startTimeText": "12:58"
+    },
+    {
+      "text": "but it's very AI-friendly too.",
+      "startMs": "780600",
+      "endMs": "782670",
+      "startTimeText": "13:00"
+    },
+    {
+      "text": "So here, you see an examplefrom our NPM package,",
+      "startMs": "782670",
+      "endMs": "786090",
+      "startTimeText": "13:02"
+    },
+    {
+      "text": "which you can connect to yourCLI experiences in order",
+      "startMs": "786090",
+      "endMs": "789600",
+      "startTimeText": "13:06"
+    },
+    {
+      "text": "to have your codingagent of choice be able",
+      "startMs": "789600",
+      "endMs": "792660",
+      "startTimeText": "13:09"
+    },
+    {
+      "text": "to build end-to-end apps thatare all backed in Fabric.",
+      "startMs": "792660",
+      "endMs": "796650",
+      "startTimeText": "13:12"
+    },
+    {
+      "text": "Now, what does this relate toPower BI or semantic models?",
+      "startMs": "796650",
+      "endMs": "800850",
+      "startTimeText": "13:16"
+    },
+    {
+      "text": "Well, to start with, isFabric apps can be built",
+      "startMs": "800850",
+      "endMs": "804120",
+      "startTimeText": "13:20"
+    },
+    {
+      "text": "on semantic models.",
+      "startMs": "804120",
+      "endMs": "805230",
+      "startTimeText": "13:24"
+    },
+    {
+      "text": "So that same foundationthat you're getting",
+      "startMs": "805230",
+      "endMs": "808140",
+      "startTimeText": "13:25"
+    },
+    {
+      "text": "to build your reportsfrom your analyst,",
+      "startMs": "808140",
+      "endMs": "810900",
+      "startTimeText": "13:28"
+    },
+    {
+      "text": "your developers can now buildcustom web apps on that as well.",
+      "startMs": "810900",
+      "endMs": "815490",
+      "startTimeText": "13:30"
+    },
+    {
+      "text": "And so what thisunlocks is really good",
+      "startMs": "815490",
+      "endMs": "818340",
+      "startTimeText": "13:35"
+    },
+    {
+      "text": "for enterprise analytics.",
+      "startMs": "818340",
+      "endMs": "820710",
+      "startTimeText": "13:38"
+    },
+    {
+      "text": "So not only are you able",
+      "startMs": "820710",
+      "endMs": "822120",
+      "startTimeText": "13:40"
+    },
+    {
+      "text": "to build entirelyblown custom web apps,",
+      "startMs": "822120",
+      "endMs": "825210",
+      "startTimeText": "13:42"
+    },
+    {
+      "text": "but these web apps arelive -- using live data.",
+      "startMs": "825210",
+      "endMs": "828750",
+      "startTimeText": "13:45"
+    },
+    {
+      "text": "They are usingoptimized queries.",
+      "startMs": "828750",
+      "endMs": "830820",
+      "startTimeText": "13:48"
+    },
+    {
+      "text": "And, of course, we are usingvisuals that are very consistent",
+      "startMs": "830820",
+      "endMs": "834120",
+      "startTimeText": "13:50"
+    },
+    {
+      "text": "and meet enterprise-graderequirements while",
+      "startMs": "834120",
+      "endMs": "837060",
+      "startTimeText": "13:54"
+    },
+    {
+      "text": "being AI-first.",
+      "startMs": "837060",
+      "endMs": "838590",
+      "startTimeText": "13:57"
+    },
+    {
+      "text": "And by being secure connectionto your Fabric data,",
+      "startMs": "838590",
+      "endMs": "842610",
+      "startTimeText": "13:58"
+    },
+    {
+      "text": "and also the enterprise scaleand governance that you expect,",
+      "startMs": "842610",
+      "endMs": "845460",
+      "startTimeText": "14:02"
+    },
+    {
+      "text": "you can more safely deploy this",
+      "startMs": "845460",
+      "endMs": "847140",
+      "startTimeText": "14:05"
+    },
+    {
+      "text": "to your enterprisecustomers and end users.",
+      "startMs": "847140",
+      "endMs": "851050",
+      "startTimeText": "14:07"
+    },
+    {
+      "text": "So let's talk a bit about howto get started with this.",
+      "startMs": "853380",
+      "endMs": "857040",
+      "startTimeText": "14:13"
+    },
+    {
+      "text": "So Fabric apps includesa data app template.",
+      "startMs": "857040",
+      "endMs": "860340",
+      "startTimeText": "14:17"
+    },
+    {
+      "text": "So, to start with, is you caneither choose the template",
+      "startMs": "860340",
+      "endMs": "863580",
+      "startTimeText": "14:20"
+    },
+    {
+      "text": "within the CLI experience.",
+      "startMs": "863580",
+      "endMs": "865350",
+      "startTimeText": "14:23"
+    },
+    {
+      "text": "So when you do yourNPM create command,",
+      "startMs": "865350",
+      "endMs": "868110",
+      "startTimeText": "14:25"
+    },
+    {
+      "text": "you'll need to add a statementthat says template data app.",
+      "startMs": "868110",
+      "endMs": "871380",
+      "startTimeText": "14:28"
+    },
+    {
+      "text": "Or if you're in Fabric, you canalso initiate the creation of it",
+      "startMs": "871380",
+      "endMs": "874980",
+      "startTimeText": "14:31"
+    },
+    {
+      "text": "through Fabric as well.",
+      "startMs": "874980",
+      "endMs": "876150",
+      "startTimeText": "14:34"
+    },
+    {
+      "text": "So you can pick thetemplate called Data App.",
+      "startMs": "876150",
+      "endMs": "878760",
+      "startTimeText": "14:36"
+    },
+    {
+      "text": "And let's talk a little bit",
+      "startMs": "878760",
+      "endMs": "879690",
+      "startTimeText": "14:38"
+    },
+    {
+      "text": "of what's happeningbehind the scenes.",
+      "startMs": "879690",
+      "endMs": "881760",
+      "startTimeText": "14:39"
+    },
+    {
+      "text": "So the data app templateis really comprised",
+      "startMs": "881760",
+      "endMs": "884370",
+      "startTimeText": "14:41"
+    },
+    {
+      "text": "of three key things.",
+      "startMs": "884370",
+      "endMs": "886140",
+      "startTimeText": "14:44"
+    },
+    {
+      "text": "First is a data packagethat allows you",
+      "startMs": "886140",
+      "endMs": "888240",
+      "startTimeText": "14:46"
+    },
+    {
+      "text": "to securely connectto your Fabric data.",
+      "startMs": "888240",
+      "endMs": "891120",
+      "startTimeText": "14:48"
+    },
+    {
+      "text": "And next is a visual package,",
+      "startMs": "891120",
+      "endMs": "892680",
+      "startTimeText": "14:51"
+    },
+    {
+      "text": "which is using a Vega-Litecomponent and React components",
+      "startMs": "892680",
+      "endMs": "897420",
+      "startTimeText": "14:52"
+    },
+    {
+      "text": "so that you're gettingvisualizations",
+      "startMs": "897420",
+      "endMs": "899610",
+      "startTimeText": "14:57"
+    },
+    {
+      "text": "that are really optimizedfor AI, make it really great",
+      "startMs": "899610",
+      "endMs": "902580",
+      "startTimeText": "14:59"
+    },
+    {
+      "text": "for building a ton ofdifferent flexible visuals,",
+      "startMs": "902580",
+      "endMs": "906390",
+      "startTimeText": "15:02"
+    },
+    {
+      "text": "while also staying true",
+      "startMs": "906390",
+      "endMs": "907830",
+      "startTimeText": "15:06"
+    },
+    {
+      "text": "to certainenterprise-grade defaults.",
+      "startMs": "907830",
+      "endMs": "910680",
+      "startTimeText": "15:07"
+    },
+    {
+      "text": "And then, of course, wehave a set of agent skills",
+      "startMs": "910680",
+      "endMs": "913740",
+      "startTimeText": "15:10"
+    },
+    {
+      "text": "that are helping teach the LLMhow to properly query the data,",
+      "startMs": "913740",
+      "endMs": "917520",
+      "startTimeText": "15:13"
+    },
+    {
+      "text": "how to handle Fabric formats,write Vega-Lite visual specs,",
+      "startMs": "917520",
+      "endMs": "921810",
+      "startTimeText": "15:17"
+    },
+    {
+      "text": "and, of course, applydesign best practices",
+      "startMs": "921810",
+      "endMs": "924510",
+      "startTimeText": "15:21"
+    },
+    {
+      "text": "so that these applicationslook really polished",
+      "startMs": "924510",
+      "endMs": "927810",
+      "startTimeText": "15:24"
+    },
+    {
+      "text": "and professional.",
+      "startMs": "927810",
+      "endMs": "929160",
+      "startTimeText": "15:27"
+    },
+    {
+      "text": "And all of these templatesare built directly on Rayfin,",
+      "startMs": "929160",
+      "endMs": "932670",
+      "startTimeText": "15:29"
+    },
+    {
+      "text": "so directly on Fabric apps,so that you can leverage it",
+      "startMs": "932670",
+      "endMs": "935700",
+      "startTimeText": "15:32"
+    },
+    {
+      "text": "with your Rayfin experiences.",
+      "startMs": "935700",
+      "endMs": "939210",
+      "startTimeText": "15:35"
+    },
+    {
+      "text": "Now, let's take a look at ademo of what this looks like.",
+      "startMs": "939210",
+      "endMs": "943260",
+      "startTimeText": "15:39"
+    },
+    {
+      "text": "So let's see a scenario whereI'm going to use a few prompts",
+      "startMs": "943260",
+      "endMs": "947040",
+      "startTimeText": "15:43"
+    },
+    {
+      "text": "and an MD file to generatea production-ready app.",
+      "startMs": "947040",
+      "endMs": "951120",
+      "startTimeText": "15:47"
+    },
+    {
+      "text": "So starting with my semanticmodel, you can see here,",
+      "startMs": "951120",
+      "endMs": "954270",
+      "startTimeText": "15:51"
+    },
+    {
+      "text": "it's using a lot ofdifferent tables,",
+      "startMs": "954270",
+      "endMs": "956130",
+      "startTimeText": "15:54"
+    },
+    {
+      "text": "a lot of different data here.",
+      "startMs": "956130",
+      "endMs": "957660",
+      "startTimeText": "15:56"
+    },
+    {
+      "text": "I want to take this data that isin the form of a semantic model.",
+      "startMs": "957660",
+      "endMs": "961830",
+      "startTimeText": "15:57"
+    },
+    {
+      "text": "I want to build an app from it.",
+      "startMs": "961830",
+      "endMs": "963450",
+      "startTimeText": "16:01"
+    },
+    {
+      "text": "So, to start with,is I'll have a spec",
+      "startMs": "963450",
+      "endMs": "966060",
+      "startTimeText": "16:03"
+    },
+    {
+      "text": "that actually AI helped mecreate around my requirements.",
+      "startMs": "966060",
+      "endMs": "969930",
+      "startTimeText": "16:06"
+    },
+    {
+      "text": "And even though AIhelped me create it,",
+      "startMs": "969930",
+      "endMs": "971670",
+      "startTimeText": "16:09"
+    },
+    {
+      "text": "I can always gomanually tweak this.",
+      "startMs": "971670",
+      "endMs": "973830",
+      "startTimeText": "16:11"
+    },
+    {
+      "text": "So here's an example whereI want to add a hover card.",
+      "startMs": "973830",
+      "endMs": "977010",
+      "startTimeText": "16:13"
+    },
+    {
+      "text": "So let's say I wanta image, an email.",
+      "startMs": "977010",
+      "endMs": "979530",
+      "startTimeText": "16:17"
+    },
+    {
+      "text": "I can go add those hovercard tooltips there.",
+      "startMs": "979530",
+      "endMs": "982650",
+      "startTimeText": "16:19"
+    },
+    {
+      "text": "And the next part, I'm goingto go scaffold that project.",
+      "startMs": "982650",
+      "endMs": "985440",
+      "startTimeText": "16:22"
+    },
+    {
+      "text": "So I use that NPMcreate command,",
+      "startMs": "985440",
+      "endMs": "987480",
+      "startTimeText": "16:25"
+    },
+    {
+      "text": "and I make sure I specifythe template of data app.",
+      "startMs": "987480",
+      "endMs": "991140",
+      "startTimeText": "16:27"
+    },
+    {
+      "text": "So as you see here, the CLIexperience is creating --",
+      "startMs": "991140",
+      "endMs": "995610",
+      "startTimeText": "16:31"
+    },
+    {
+      "text": "scaffolding the project for me,",
+      "startMs": "995610",
+      "endMs": "997320",
+      "startTimeText": "16:35"
+    },
+    {
+      "text": "and now I have the filesall available on my local.",
+      "startMs": "997320",
+      "endMs": "1001070",
+      "startTimeText": "16:37"
+    },
+    {
+      "text": "And so once I havethis available,",
+      "startMs": "1001070",
+      "endMs": "1003050",
+      "startTimeText": "16:41"
+    },
+    {
+      "text": "I'm going to navigateto that file.",
+      "startMs": "1003050",
+      "endMs": "1005180",
+      "startTimeText": "16:43"
+    },
+    {
+      "text": "So if I go here, I navigateto my project file,",
+      "startMs": "1005180",
+      "endMs": "1009080",
+      "startTimeText": "16:45"
+    },
+    {
+      "text": "and then I'm going togo and publish this",
+      "startMs": "1009080",
+      "endMs": "1010760",
+      "startTimeText": "16:49"
+    },
+    {
+      "text": "to my Fabric workspace.",
+      "startMs": "1010760",
+      "endMs": "1012290",
+      "startTimeText": "16:50"
+    },
+    {
+      "text": "So, at this point, I'vejust provisioned the app.",
+      "startMs": "1012290",
+      "endMs": "1014420",
+      "startTimeText": "16:52"
+    },
+    {
+      "text": "I haven't yet created theexact app idea I have.",
+      "startMs": "1014420",
+      "endMs": "1017930",
+      "startTimeText": "16:54"
+    },
+    {
+      "text": "And this is where thefun part happens.",
+      "startMs": "1017930",
+      "endMs": "1019700",
+      "startTimeText": "16:57"
+    },
+    {
+      "text": "So, at this point, I'm goingto give my coding agent",
+      "startMs": "1019700",
+      "endMs": "1022730",
+      "startTimeText": "16:59"
+    },
+    {
+      "text": "of choice a link to my spec fileand a link to my semantic model.",
+      "startMs": "1022730",
+      "endMs": "1028250",
+      "startTimeText": "17:02"
+    },
+    {
+      "text": "So once it has thesetwo critical details,",
+      "startMs": "1028250",
+      "endMs": "1030980",
+      "startTimeText": "17:08"
+    },
+    {
+      "text": "I ask it to go build the appand deploy it when it's ready.",
+      "startMs": "1030980",
+      "endMs": "1034970",
+      "startTimeText": "17:10"
+    },
+    {
+      "text": "So this takes roughlyabout 20 minutes or so",
+      "startMs": "1034970",
+      "endMs": "1037460",
+      "startTimeText": "17:14"
+    },
+    {
+      "text": "of your coding agentprocessing this request.",
+      "startMs": "1037460",
+      "endMs": "1040460",
+      "startTimeText": "17:17"
+    },
+    {
+      "text": "And when it's done, you get afull-blown production-ready",
+      "startMs": "1040460",
+      "endMs": "1044510",
+      "startTimeText": "17:20"
+    },
+    {
+      "text": "application that matches therequirements that you put",
+      "startMs": "1044510",
+      "endMs": "1047870",
+      "startTimeText": "17:24"
+    },
+    {
+      "text": "out in your spec. Andso here, for example,",
+      "startMs": "1047870",
+      "endMs": "1050720",
+      "startTimeText": "17:27"
+    },
+    {
+      "text": "I have a three-page applicationhere that includes things",
+      "startMs": "1050720",
+      "endMs": "1054830",
+      "startTimeText": "17:30"
+    },
+    {
+      "text": "like filtering, tooltips, likeI mentioned, that hover card",
+      "startMs": "1054830",
+      "endMs": "1059060",
+      "startTimeText": "17:34"
+    },
+    {
+      "text": "that appears, even havingmore customization",
+      "startMs": "1059060",
+      "endMs": "1062870",
+      "startTimeText": "17:39"
+    },
+    {
+      "text": "like adding afull-blown dark mode.",
+      "startMs": "1062870",
+      "endMs": "1065780",
+      "startTimeText": "17:42"
+    },
+    {
+      "text": "And so it's really quitepowerful of the type",
+      "startMs": "1065780",
+      "endMs": "1068660",
+      "startTimeText": "17:45"
+    },
+    {
+      "text": "of data application thatyou can create here.",
+      "startMs": "1068660",
+      "endMs": "1071960",
+      "startTimeText": "17:48"
+    },
+    {
+      "text": "Now, let's say you want tocustomize this even further.",
+      "startMs": "1071960",
+      "endMs": "1076100",
+      "startTimeText": "17:51"
+    },
+    {
+      "text": "And that's the beautywith working with AI,",
+      "startMs": "1076100",
+      "endMs": "1078500",
+      "startTimeText": "17:56"
+    },
+    {
+      "text": "is you really just needto update that MD spec.",
+      "startMs": "1078500",
+      "endMs": "1082130",
+      "startTimeText": "17:58"
+    },
+    {
+      "text": "So let's see an example of this.",
+      "startMs": "1082130",
+      "endMs": "1083780",
+      "startTimeText": "18:02"
+    },
+    {
+      "text": "So let's say I want to adda little bit more features",
+      "startMs": "1083780",
+      "endMs": "1086000",
+      "startTimeText": "18:03"
+    },
+    {
+      "text": "to this application.",
+      "startMs": "1086000",
+      "endMs": "1087260",
+      "startTimeText": "18:06"
+    },
+    {
+      "text": "Let's say I want a landing page,",
+      "startMs": "1087260",
+      "endMs": "1088940",
+      "startTimeText": "18:07"
+    },
+    {
+      "text": "I want persona-specificselection,",
+      "startMs": "1088940",
+      "endMs": "1091820",
+      "startTimeText": "18:08"
+    },
+    {
+      "text": "and I even want a calendar tab.",
+      "startMs": "1091820",
+      "endMs": "1093860",
+      "startTimeText": "18:11"
+    },
+    {
+      "text": "So I can go add allthese requirements",
+      "startMs": "1093860",
+      "endMs": "1096200",
+      "startTimeText": "18:13"
+    },
+    {
+      "text": "to the spec and update it.",
+      "startMs": "1096200",
+      "endMs": "1098360",
+      "startTimeText": "18:16"
+    },
+    {
+      "text": "And then I just handCopilot that updated spec.",
+      "startMs": "1098360",
+      "endMs": "1100640",
+      "startTimeText": "18:18"
+    },
+    {
+      "text": "So I just say, \"Hey, update theapp using the latest spec.\"",
+      "startMs": "1100640",
+      "endMs": "1104500",
+      "startTimeText": "18:20"
+    },
+    {
+      "text": "And as it's going to go processthrough that request again --",
+      "startMs": "1104500",
+      "endMs": "1108160",
+      "startTimeText": "18:24"
+    },
+    {
+      "text": "again, takes about20 minutes or so,",
+      "startMs": "1108160",
+      "endMs": "1111040",
+      "startTimeText": "18:28"
+    },
+    {
+      "text": "and you have your updatedapplication right here.",
+      "startMs": "1111040",
+      "endMs": "1115330",
+      "startTimeText": "18:31"
+    },
+    {
+      "text": "So you see thepersona-specific selection.",
+      "startMs": "1115330",
+      "endMs": "1119240",
+      "startTimeText": "18:35"
+    },
+    {
+      "text": "So you have different setof pages for each persona.",
+      "startMs": "1119240",
+      "endMs": "1122660",
+      "startTimeText": "18:39"
+    },
+    {
+      "text": "So the executive page is alittle bit more focused.",
+      "startMs": "1122660",
+      "endMs": "1125840",
+      "startTimeText": "18:42"
+    },
+    {
+      "text": "And then, of course, you have",
+      "startMs": "1125840",
+      "endMs": "1127190",
+      "startTimeText": "18:45"
+    },
+    {
+      "text": "that calendar viewlike I mentioned.",
+      "startMs": "1127190",
+      "endMs": "1129350",
+      "startTimeText": "18:47"
+    },
+    {
+      "text": "So this is really bringing in alot more of actionable elements",
+      "startMs": "1129350",
+      "endMs": "1135200",
+      "startTimeText": "18:49"
+    },
+    {
+      "text": "to this application because Ican now track the calendars",
+      "startMs": "1135200",
+      "endMs": "1138740",
+      "startTimeText": "18:55"
+    },
+    {
+      "text": "for the different collaborationsI have coming up.",
+      "startMs": "1138740",
+      "endMs": "1141980",
+      "startTimeText": "18:58"
+    },
+    {
+      "text": "And I can even go and addthose calendar events",
+      "startMs": "1141980",
+      "endMs": "1144710",
+      "startTimeText": "19:01"
+    },
+    {
+      "text": "to my Outlook calendar itself.",
+      "startMs": "1144710",
+      "endMs": "1147560",
+      "startTimeText": "19:04"
+    },
+    {
+      "text": "So you're really kind ofcombining the elements",
+      "startMs": "1147560",
+      "endMs": "1150140",
+      "startTimeText": "19:07"
+    },
+    {
+      "text": "of both the analyticswith also the elements",
+      "startMs": "1150140",
+      "endMs": "1152990",
+      "startTimeText": "19:10"
+    },
+    {
+      "text": "of the action-orientated apps.",
+      "startMs": "1152990",
+      "endMs": "1155750",
+      "startTimeText": "19:12"
+    },
+    {
+      "text": "So it's really aboutbringing your data alive",
+      "startMs": "1155750",
+      "endMs": "1158810",
+      "startTimeText": "19:15"
+    },
+    {
+      "text": "and really customizingyour app however you want,",
+      "startMs": "1158810",
+      "endMs": "1162140",
+      "startTimeText": "19:18"
+    },
+    {
+      "text": "and doing so in aprompt-based way.",
+      "startMs": "1162140",
+      "endMs": "1164090",
+      "startTimeText": "19:22"
+    },
+    {
+      "text": "So leveraging AI withwhat it's best for,",
+      "startMs": "1164090",
+      "endMs": "1167180",
+      "startTimeText": "19:24"
+    },
+    {
+      "text": "especially the coding agents,to really generate that code",
+      "startMs": "1167180",
+      "endMs": "1170480",
+      "startTimeText": "19:27"
+    },
+    {
+      "text": "from you, completelyfrom scratch.",
+      "startMs": "1170480",
+      "endMs": "1172700",
+      "startTimeText": "19:30"
+    },
+    {
+      "text": "And so this is reallyshowing the value",
+      "startMs": "1172700",
+      "endMs": "1174890",
+      "startTimeText": "19:32"
+    },
+    {
+      "text": "of what the data app templatecan offer as you are trying",
+      "startMs": "1174890",
+      "endMs": "1179450",
+      "startTimeText": "19:34"
+    },
+    {
+      "text": "out the new Rayfin andFabric apps experience.",
+      "startMs": "1179450",
+      "endMs": "1183340",
+      "startTimeText": "19:39"
+    },
+    {
+      "text": "So now let's recap what youget with data apps in Fabric.",
+      "startMs": "1183340",
+      "endMs": "1186820",
+      "startTimeText": "19:43"
+    },
+    {
+      "text": "So, to start off with,is that connection",
+      "startMs": "1186820",
+      "endMs": "1189070",
+      "startTimeText": "19:46"
+    },
+    {
+      "text": "to semantic modelsis so critical.",
+      "startMs": "1189070",
+      "endMs": "1191860",
+      "startTimeText": "19:49"
+    },
+    {
+      "text": "Right out of thebox, you're going",
+      "startMs": "1191860",
+      "endMs": "1193120",
+      "startTimeText": "19:51"
+    },
+    {
+      "text": "to get a secure authenticationto your semantic models,",
+      "startMs": "1193120",
+      "endMs": "1196810",
+      "startTimeText": "19:53"
+    },
+    {
+      "text": "which I'm sure many of youhave tons of semantic models",
+      "startMs": "1196810",
+      "endMs": "1199870",
+      "startTimeText": "19:56"
+    },
+    {
+      "text": "where you're eager to trythis new experience with.",
+      "startMs": "1199870",
+      "endMs": "1202990",
+      "startTimeText": "19:59"
+    },
+    {
+      "text": "Next, you're goingto get the AI-driven",
+      "startMs": "1202990",
+      "endMs": "1204970",
+      "startTimeText": "20:02"
+    },
+    {
+      "text": "analytics capabilities.",
+      "startMs": "1204970",
+      "endMs": "1206560",
+      "startTimeText": "20:04"
+    },
+    {
+      "text": "So out of the box, being ableto have AI understand how",
+      "startMs": "1206560",
+      "endMs": "1210190",
+      "startTimeText": "20:06"
+    },
+    {
+      "text": "to write DAX queries,",
+      "startMs": "1210190",
+      "endMs": "1211820",
+      "startTimeText": "20:10"
+    },
+    {
+      "text": "making sure you'regetting optimized queries",
+      "startMs": "1211820",
+      "endMs": "1213680",
+      "startTimeText": "20:11"
+    },
+    {
+      "text": "so that you're visualizing theright data, the right insights,",
+      "startMs": "1213680",
+      "endMs": "1217190",
+      "startTimeText": "20:13"
+    },
+    {
+      "text": "and, of course, formulatingthat really well in visuals.",
+      "startMs": "1217190",
+      "endMs": "1220160",
+      "startTimeText": "20:17"
+    },
+    {
+      "text": "And then speaking of ourvisuals, like I mentioned,",
+      "startMs": "1220160",
+      "endMs": "1223400",
+      "startTimeText": "20:20"
+    },
+    {
+      "text": "these visuals use the Vega-Litevisualization library,",
+      "startMs": "1223400",
+      "endMs": "1228350",
+      "startTimeText": "20:23"
+    },
+    {
+      "text": "which make it really easyto build AI-first visuals",
+      "startMs": "1228350",
+      "endMs": "1232310",
+      "startTimeText": "20:28"
+    },
+    {
+      "text": "and using enterprise-gradedefaults.",
+      "startMs": "1232310",
+      "endMs": "1234590",
+      "startTimeText": "20:32"
+    },
+    {
+      "text": "And so we've added additionalcustomizations on top of that",
+      "startMs": "1234590",
+      "endMs": "1237770",
+      "startTimeText": "20:34"
+    },
+    {
+      "text": "to make sure there'sconsistency in tooltips,",
+      "startMs": "1237770",
+      "endMs": "1240770",
+      "startTimeText": "20:37"
+    },
+    {
+      "text": "make sure there's accessibility,",
+      "startMs": "1240770",
+      "endMs": "1242240",
+      "startTimeText": "20:40"
+    },
+    {
+      "text": "and all the enterprise-graderequirements",
+      "startMs": "1242240",
+      "endMs": "1245090",
+      "startTimeText": "20:42"
+    },
+    {
+      "text": "that you would expect.",
+      "startMs": "1245090",
+      "endMs": "1246590",
+      "startTimeText": "20:45"
+    },
+    {
+      "text": "And more coming soon is thatwe want to add more sources.",
+      "startMs": "1246590",
+      "endMs": "1250010",
+      "startTimeText": "20:46"
+    },
+    {
+      "text": "So we know that there's a lotof other sources in Fabric",
+      "startMs": "1250010",
+      "endMs": "1253760",
+      "startTimeText": "20:50"
+    },
+    {
+      "text": "where you may not wantto connect directly",
+      "startMs": "1253760",
+      "endMs": "1255560",
+      "startTimeText": "20:53"
+    },
+    {
+      "text": "to a semantic model, but youmay want to connect directly",
+      "startMs": "1255560",
+      "endMs": "1257450",
+      "startTimeText": "20:55"
+    },
+    {
+      "text": "to other sources, let'ssay, a SQL DB directly,",
+      "startMs": "1257450",
+      "endMs": "1261080",
+      "startTimeText": "20:57"
+    },
+    {
+      "text": "or maybe a lakehouse ora warehouse directly.",
+      "startMs": "1261080",
+      "endMs": "1263810",
+      "startTimeText": "21:01"
+    },
+    {
+      "text": "So we do plan to add moresources coming soon.",
+      "startMs": "1263810",
+      "endMs": "1267050",
+      "startTimeText": "21:03"
+    },
+    {
+      "text": "We also want to have moreout-of-the-box signal detection.",
+      "startMs": "1267050",
+      "endMs": "1270440",
+      "startTimeText": "21:07"
+    },
+    {
+      "text": "Of course, because web apps arejust code, you can always prompt",
+      "startMs": "1270440",
+      "endMs": "1274490",
+      "startTimeText": "21:10"
+    },
+    {
+      "text": "that yourself, but we want tomake it way easier for you",
+      "startMs": "1274490",
+      "endMs": "1277340",
+      "startTimeText": "21:14"
+    },
+    {
+      "text": "to get that signal detectionright out of the box.",
+      "startMs": "1277340",
+      "endMs": "1281180",
+      "startTimeText": "21:17"
+    },
+    {
+      "text": "And same goes forcustom actions as well.",
+      "startMs": "1281180",
+      "endMs": "1284240",
+      "startTimeText": "21:21"
+    },
+    {
+      "text": "So integration with thingslike user data functions,",
+      "startMs": "1284240",
+      "endMs": "1287390",
+      "startTimeText": "21:24"
+    },
+    {
+      "text": "integration with thingslike operational agents.",
+      "startMs": "1287390",
+      "endMs": "1290180",
+      "startTimeText": "21:27"
+    },
+    {
+      "text": "We want to enable a little bitmore streamlined integration",
+      "startMs": "1290180",
+      "endMs": "1292550",
+      "startTimeText": "21:30"
+    },
+    {
+      "text": "with any sort of custom actionsor custom agents that you want",
+      "startMs": "1292550",
+      "endMs": "1295790",
+      "startTimeText": "21:32"
+    },
+    {
+      "text": "to bring into the picture.",
+      "startMs": "1295790",
+      "endMs": "1297650",
+      "startTimeText": "21:35"
+    },
+    {
+      "text": "And last but not least,we want to make sure",
+      "startMs": "1297650",
+      "endMs": "1299510",
+      "startTimeText": "21:37"
+    },
+    {
+      "text": "that you also supportembedded scenarios.",
+      "startMs": "1299510",
+      "endMs": "1301910",
+      "startTimeText": "21:39"
+    },
+    {
+      "text": "So in the first release -- rightnow, the data app is limited",
+      "startMs": "1301910",
+      "endMs": "1305150",
+      "startTimeText": "21:41"
+    },
+    {
+      "text": "to just being hosted withinFabric, and you see it",
+      "startMs": "1305150",
+      "endMs": "1308000",
+      "startTimeText": "21:45"
+    },
+    {
+      "text": "within the Fabric portal.",
+      "startMs": "1308000",
+      "endMs": "1309890",
+      "startTimeText": "21:48"
+    },
+    {
+      "text": "But we want to also make surethat in the future releases,",
+      "startMs": "1309890",
+      "endMs": "1313040",
+      "startTimeText": "21:49"
+    },
+    {
+      "text": "you can be able to embedthis in your own application",
+      "startMs": "1313040",
+      "endMs": "1315590",
+      "startTimeText": "21:53"
+    },
+    {
+      "text": "or embed it in other areas.",
+      "startMs": "1315590",
+      "endMs": "1318260",
+      "startTimeText": "21:55"
+    },
+    {
+      "text": "So with that, we hope thisgave you a good insight",
+      "startMs": "1318260",
+      "endMs": "1321950",
+      "startTimeText": "21:58"
+    },
+    {
+      "text": "into what we're doingin terms of innovation",
+      "startMs": "1321950",
+      "endMs": "1324650",
+      "startTimeText": "22:01"
+    },
+    {
+      "text": "for our analytics experiences,",
+      "startMs": "1324650",
+      "endMs": "1326930",
+      "startTimeText": "22:04"
+    },
+    {
+      "text": "both across Power BIand Microsoft Fabric.",
+      "startMs": "1326930",
+      "endMs": "1330140",
+      "startTimeText": "22:06"
+    },
+    {
+      "text": "And for those that areinterested in learning more",
+      "startMs": "1330140",
+      "endMs": "1333200",
+      "startTimeText": "22:10"
+    },
+    {
+      "text": "about any of the things you'veseen here check out our blog",
+      "startMs": "1333200",
+      "endMs": "1336980",
+      "startTimeText": "22:13"
+    },
+    {
+      "text": "at aka.ms/Azure-Data-Build26,",
+      "startMs": "1336980",
+      "endMs": "1341150",
+      "startTimeText": "22:16"
+    },
+    {
+      "text": "and also exploreour documentation",
+      "startMs": "1341150",
+      "endMs": "1343370",
+      "startTimeText": "22:21"
+    },
+    {
+      "text": "and our communitysite to learn more",
+      "startMs": "1343370",
+      "endMs": "1346190",
+      "startTimeText": "22:23"
+    },
+    {
+      "text": "and engage with the community.",
+      "startMs": "1346190",
+      "endMs": "1348320",
+      "startTimeText": "22:26"
+    },
+    {
+      "text": "Thank you so much.",
+      "startMs": "1348320",
+      "endMs": "1349010",
+      "startTimeText": "22:28"
+    },
+    {
+      "text": "We hope you enjoyed thispresentation and looking forward",
+      "startMs": "1349010",
+      "endMs": "1352460",
+      "startTimeText": "22:29"
+    },
+    {
+      "text": "to your feedback on allthis new innovation.",
+      "startMs": "1352460",
+      "endMs": "1355860",
+      "startTimeText": "22:32"
+    }
+  ],
+  "transcript_only_text": "EMILY LISA: Hello, everyone. We're excited today to talk\nabout agentic analytics with Power BI and\nMicrosoft Fabric. My name is Emily Lisa, and I'm a\nPrincipal Group Product Manager at Microsoft. SUJATA NARAYANA: And\nI'm Sujata Narayana. I'm also a Principal Group\nProduct Manager at Microsoft. And we're really excited to\nget into some new innovation and hopefully some things that you guys will really\nenjoy seeing here. EMILY LISA: Great. So we will start\noff this session with a quick introduction to the\nconcept of agentic analytics. Then we will go over in more\ndetail end-to-end agentic analytics with Power BI\nand Microsoft Fabric. Then I'll hand it off to Sujata, who will cover analytics\nwith Fabric apps. So to go ahead and get started, what really is\nagentic development for Power BI and\nFabric creators? What this really means is it's a\nway to use agentic experiences with AI agents, skills, and\nMCP servers to help do all of those different creator\nactivities that you know and love today, but with\nthe power of AI using LLMs. And so what we really\nare looking to support with agentic development with\nPower BI is both greenfield and brownfield scenarios. So these are just\nsimple examples, but what we really mean by\ngreenfield is those creating from scratch experiences, such as creating a net new\nsemantic model, that you bring in data, transform, do ETL on\ntop of it, shape the model, and then build a\nreport afterwards. Similarly, an example of\na brownfield scenario is when you're enhancing\nsomething that already exists. So you might already have\nyour Power BI semantic model or your Power BI report,\nand there's some kind of new requirement that comes\nin from your leadership chain or a customer, and you want to\nadjust what you already have to be in a shape that\nmeets new incoming changes and requirements. So we can also help\nthose scenarios with agentic\ndevelopment as well. So we're really looking to\nsupport both of these kind of scenarios using AI to\nhelp experts do even more, even faster than they can today. And so let's take a\nlook at what we mean by end-to-end agentic analytics. So, a few months ago, there\nwas a GitHub repository that was shared called\nSkills for Fabric. And what this is is it's\nessentially a repository that supports all sorts of\ndifferent agent skills for all of your different Microsoft\nFabric scenarios for you to be able to use\nagents to do all sorts of different Fabric\ndevelopment tasks. So this spans across things like\nlakehouses, notebooks, reports, semantic models, really the\nwhole Fabric ecosystem for you to be more productive and\nmove faster using AI. And there's tons of flexibility\nwith using this repository. You could use it in all sorts of different developer\nenvironments, such as things like GitHub Copilot\nCLI or VS Code. And this really helps you move\neven faster and allows you to focus more on defining\nthe context and really the \"why\" behind what you're\ntrying to create, rather than spending\nhours and hours clicking through every single step\nto implement the solution. Really helps the LLM do some\nof that heavy lifting work and allows you to focus on those\nhigh-level goals and outcomes. And so we have this link\nhere to try it out. I'd highly recommend trying out\nthe Fabric Skills repository for all of your Fabric needs. But what we really want to focus\non here is how you can use this for Power BI creation scenarios. Starting with our modeling\nexperiences, which we support with the Power BI\nmodeling MCP server. Now, in the Fabric\nSkills repository, there is a skill called\nPower BI model authoring. And what this really does is\nhelp you craft your semantic models in a way using natural\nlanguage to really speed up things that used\nto take a long time through clicks or scripting. Now you can do it easier than ever using the\nmodeling MCP server. So the skill in the Fabric\nSkills repository calls the modeling MCP server and has\nknowledge in the markdown files to help you enhance your models\nto follow best practices. And one additional\nenhancement on top of that is we now make\nit easier than ever to get started using\nthe modeling MCP server from the web modeling view. All you have to do is click\non the \"Copilot\" button in web model view, and this\nwill pop up a Copilot side chat where you can use this to give\nyour natural language prompts to make changes to your semantic\nmodel, to make changes such as to your DAX measures,\nrelationships, your column properties, all of\nthose different rich semantics, being able to modify them\nusing natural language. You can even get suggestions on\nhow to make your model better for your reports and\noptimize better for AI. So you can both use all these\nreally rich modeling experiences in your developer environments, and even coming soon\nin web modeling. Now, the next skill\nthat we support in the Fabric Skills repository\nis the much-anticipated report authoring skill. We're really excited\nto ship this live for the first time at Build. And what this really does is\nhelp you both create net new reports as well as edit your\nexisting Power BI reports. What this does is you use the\nPBIP file and desktop to be able to create and edit your reports. And it really helps you a\nlot of the heavy lifting of all those operations that\ntraditionally take a long time with doing draggy,\nclicky, clicky, draggy, droppy operations. Now you can use natural\nlanguage for all of them. Some key things that you can do\nis update report themes based on requirements, maybe\neven a screenshot, as well as modify different\nvisuals and report elements to meet all the requirements\nthat you have for your reports. All right. Well, enough talking\nabout these skills. Let's see what it\nlooks like actually in action with some demos. So, in the first demo that I\nwant to show, this is going to be a greenfield scenario. So in this case, I'm creating\na net new semantic model and report completely from\nscratch with the assistance of AI using the Fabric\nSkills repository. So here in my setup, I have on the left-hand side\nan empty PBIP file open in Power BI Desktop. And on the right-hand side, I have GitHub Copilot\nCLI connected to this instance of\nPower BI Desktop. Now, to create a net new\nsemantic model within this file, all I have to do is give a\nreally simple prompt, such as, \"Create a new semantic model\nusing data at SQL database,\" and it'll just go ahead and create this new\nsemantic model for me. I'm able to see all the changes\nvalidated on Power BI Desktop on the left-hand side, while\nthe LLM is also giving updates of all the changes it's making\non the right-hand side, including a helpful summary. Now I'm able to see I have\na beautiful star schema, but I want to take\nthis one step further. My organization defines our\nsemantic modeling best practices in a shared markdown file. So I just give this file as\ncontext to the LLM and ask it to update my semantic\nmodel to follow all of those well-known best\npractices, which it goes ahead and does for me, giving\nhelpful summaries. And I even see a\ndescription added to my column matching\nthe best practices. Now, as a next step, I want\nto create a report off of this semantic model. What I do is I define each of the report pages the\nrequirements I have for that page of what\nI want it to look like within these two\ndifferent markdown files. And then I go ahead and give it\nas context to the LLM and say, \"Go and make this\nreport for me.\" And then what I'm able to see afterwards is it creates\nthis beautiful new report, all based off of my written -- the requirements within\nmy markdown files. Now I want to take this one step\nfurther and style this report to match theming and branding that I desire for\nmy organization. So I give it a reference\nimage of a sample report page that I want the rest of\nmy report to look like, as well as my company's logo,\nfor it to follow as theming and styling best practices. All it took was a really simple\nprompt and these two pieces of information as context,\nand it was able to modify that entire report for me\nto match all the styling and theming guidance that I\nreally wanted for this report. All of these tasks, as many of\nyou Power BI creators know, often take many hours to do\nfine-tuning and clicking and moving things around. Now it's easier than ever,\nthanks to the help of AI and the Fabric\nSkills repository, making it so I could focus on\ndefining the what of what I want for my data solution,\nrather than going through all the manual processes\nof making those things happen. So that was a greenfield\nscenario, creating completely from scratch using AI, a net\nnew semantic model and report. But as we talked about earlier, it's not just greenfield\nscenarios we support. We also support brownfield\nscenarios of being able to edit existing things\nthat you already have. We know many of you already\nhave existing semantic models and reports that you\neither want to fine-tune for new requirements or\njust want to modify based on any new preferences you have. Let's take a look at what a\nbrownfield scenario looks like for a report. So in this case, I want to level\nup one of my existing reports in one prompt using the same\nFabric Skills repository. Here, I have my report page, which maybe could be a bit\nmore visually appealing. It's not following some of\nthe reporting best practices. I want to make it better\nand more executive-ready. So all I do is I ask Copilot to help improve my\nAdventure Works report. I want to have a\nmore modern feel, have a clean editorial\nlanding page with intuitive page navigation, and really look more polished\nand executive-ready. In Plan mode in GitHub Copilot\nCLI, I'm given different options of what this page can look like. I review these and I go ahead\nand go with one of the options that was suggested to me. And then the LLM goes ahead\nand makes the changes to my report based on that\nplan, and it looks beautiful with consistent\nstyling and theme. I had that really nice landing\npage at the beginning. This is in a much better state,\nwhere I'm ready to share it with my executives\nand my larger team. And it was so easy to get\nstarted, all in one prompt, thanks to the assistance of\nthe Fabric Skills repository with the Power BI report\nauthoring skill within there. So that was really it for the\nend-to-end agentic analytics part of the presentation. Now I'm going to hand\nit off to Sujata to cover the next section. SUJATA NARAYANA: All right. Thank you, Emily, so much for showing us all the\ninnovation that's happening around agentic development\nin Power BI reports and Power BI semantic models. Now let's switch gears here\na little bit, because I want to talk about something\nthat is brand new, in fact, released just at this\nconference, which, let's look at Fabric apps. And specifically, I want to talk about analytics use cases\nwithin Fabric apps. So AI is really democratizing\na lot that's happening with web app development. We're seeing all kinds\nof scenarios where MVPs like Injae Park, Reid Havens are\nbuilding end-to-end web apps for enterprise analytics. And because AI is making it\nso much easier to do this, we're even seeing citizen\ndevelopers being able to achieve so much more here. Now, where custom web apps\nadd value beyond reports is that developers that\nneed more flexibility or have higher custom\nrequirements can really take advantage of going the\ncustom web app route. Because with a custom web app,\nyou're getting full custom UX. So if you want things\nlike responsive layouts, unlimited UI controls, or even\nfull-blown multi-step workflows, you can get that with\na custom web app. And also, if you have scenarios where you want fully\ncustomizable actions, these web apps can be really\nhelpful for that as well, because you're getting a much\nmore seamless integration for building things\nlike decision loops, supporting custom code\nand custom integrations, because at the end of the day, custom web apps\nare all just code. And now, here's the caveat. Even though AI is\ndemocratizing a lot of web app development today,\nthe reality is that a lot of these vibe-coded apps\nnever reach production. So majority of these apps, let's\nsay if you built on Lovable, Streamlit, or other surface\nareas, may not reach production because they may miss things\nlike enterprise-grade security, governance, reliability, and\nmore operational controls. And so even though AI helps\nyou get 80% of the way, that additional 20% of making\nit ready for production, if it's not there, it's\njust not enough to have to your customers\nor your end users. And so this is something\nthat we want to tackle with Microsoft Fabric. And that's now\nintroducing Fabric apps. So you may have seen in\nsome of the other sessions, we made a huge announcement\naround Fabric apps, which basically what that\nis, is a Fabric backend for building\nenterprise-grade apps. Now, let's talk about this\na little bit more detail. So what this is, is Rayfin\nis the project name, which is allows for a\nCLI-based experience. So not only is this\ndeveloper-friendly, but it's very AI-friendly too. So here, you see an example\nfrom our NPM package, which you can connect to your\nCLI experiences in order to have your coding\nagent of choice be able to build end-to-end apps that\nare all backed in Fabric. Now, what does this relate to\nPower BI or semantic models? Well, to start with, is\nFabric apps can be built on semantic models. So that same foundation\nthat you're getting to build your reports\nfrom your analyst, your developers can now build\ncustom web apps on that as well. And so what this\nunlocks is really good for enterprise analytics. So not only are you able to build entirely\nblown custom web apps, but these web apps are\nlive -- using live data. They are using\noptimized queries. And, of course, we are using\nvisuals that are very consistent and meet enterprise-grade\nrequirements while being AI-first. And by being secure connection\nto your Fabric data, and also the enterprise scale\nand governance that you expect, you can more safely deploy this to your enterprise\ncustomers and end users. So let's talk a bit about how\nto get started with this. So Fabric apps includes\na data app template. So, to start with, is you can\neither choose the template within the CLI experience. So when you do your\nNPM create command, you'll need to add a statement\nthat says template data app. Or if you're in Fabric, you can\nalso initiate the creation of it through Fabric as well. So you can pick the\ntemplate called Data App. And let's talk a little bit of what's happening\nbehind the scenes. So the data app template\nis really comprised of three key things. First is a data package\nthat allows you to securely connect\nto your Fabric data. And next is a visual package, which is using a Vega-Lite\ncomponent and React components so that you're getting\nvisualizations that are really optimized\nfor AI, make it really great for building a ton of\ndifferent flexible visuals, while also staying true to certain\nenterprise-grade defaults. And then, of course, we\nhave a set of agent skills that are helping teach the LLM\nhow to properly query the data, how to handle Fabric formats,\nwrite Vega-Lite visual specs, and, of course, apply\ndesign best practices so that these applications\nlook really polished and professional. And all of these templates\nare built directly on Rayfin, so directly on Fabric apps,\nso that you can leverage it with your Rayfin experiences. Now, let's take a look at a\ndemo of what this looks like. So let's see a scenario where\nI'm going to use a few prompts and an MD file to generate\na production-ready app. So starting with my semantic\nmodel, you can see here, it's using a lot of\ndifferent tables, a lot of different data here. I want to take this data that is\nin the form of a semantic model. I want to build an app from it. So, to start with,\nis I'll have a spec that actually AI helped me\ncreate around my requirements. And even though AI\nhelped me create it, I can always go\nmanually tweak this. So here's an example where\nI want to add a hover card. So let's say I want\na image, an email. I can go add those hover\ncard tooltips there. And the next part, I'm going\nto go scaffold that project. So I use that NPM\ncreate command, and I make sure I specify\nthe template of data app. So as you see here, the CLI\nexperience is creating -- scaffolding the project for me, and now I have the files\nall available on my local. And so once I have\nthis available, I'm going to navigate\nto that file. So if I go here, I navigate\nto my project file, and then I'm going to\ngo and publish this to my Fabric workspace. So, at this point, I've\njust provisioned the app. I haven't yet created the\nexact app idea I have. And this is where the\nfun part happens. So, at this point, I'm going\nto give my coding agent of choice a link to my spec file\nand a link to my semantic model. So once it has these\ntwo critical details, I ask it to go build the app\nand deploy it when it's ready. So this takes roughly\nabout 20 minutes or so of your coding agent\nprocessing this request. And when it's done, you get a\nfull-blown production-ready application that matches the\nrequirements that you put out in your spec. And\nso here, for example, I have a three-page application\nhere that includes things like filtering, tooltips, like\nI mentioned, that hover card that appears, even having\nmore customization like adding a\nfull-blown dark mode. And so it's really quite\npowerful of the type of data application that\nyou can create here. Now, let's say you want to\ncustomize this even further. And that's the beauty\nwith working with AI, is you really just need\nto update that MD spec. So let's see an example of this. So let's say I want to add\na little bit more features to this application. Let's say I want a landing page, I want persona-specific\nselection, and I even want a calendar tab. So I can go add all\nthese requirements to the spec and update it. And then I just hand\nCopilot that updated spec. So I just say, \"Hey, update the\napp using the latest spec.\" And as it's going to go process\nthrough that request again -- again, takes about\n20 minutes or so, and you have your updated\napplication right here. So you see the\npersona-specific selection. So you have different set\nof pages for each persona. So the executive page is a\nlittle bit more focused. And then, of course, you have that calendar view\nlike I mentioned. So this is really bringing in a\nlot more of actionable elements to this application because I\ncan now track the calendars for the different collaborations\nI have coming up. And I can even go and add\nthose calendar events to my Outlook calendar itself. So you're really kind of\ncombining the elements of both the analytics\nwith also the elements of the action-orientated apps. So it's really about\nbringing your data alive and really customizing\nyour app however you want, and doing so in a\nprompt-based way. So leveraging AI with\nwhat it's best for, especially the coding agents,\nto really generate that code from you, completely\nfrom scratch. And so this is really\nshowing the value of what the data app template\ncan offer as you are trying out the new Rayfin and\nFabric apps experience. So now let's recap what you\nget with data apps in Fabric. So, to start off with,\nis that connection to semantic models\nis so critical. Right out of the\nbox, you're going to get a secure authentication\nto your semantic models, which I'm sure many of you\nhave tons of semantic models where you're eager to try\nthis new experience with. Next, you're going\nto get the AI-driven analytics capabilities. So out of the box, being able\nto have AI understand how to write DAX queries, making sure you're\ngetting optimized queries so that you're visualizing the\nright data, the right insights, and, of course, formulating\nthat really well in visuals. And then speaking of our\nvisuals, like I mentioned, these visuals use the Vega-Lite\nvisualization library, which make it really easy\nto build AI-first visuals and using enterprise-grade\ndefaults. And so we've added additional\ncustomizations on top of that to make sure there's\nconsistency in tooltips, make sure there's accessibility, and all the enterprise-grade\nrequirements that you would expect. And more coming soon is that\nwe want to add more sources. So we know that there's a lot\nof other sources in Fabric where you may not want\nto connect directly to a semantic model, but you\nmay want to connect directly to other sources, let's\nsay, a SQL DB directly, or maybe a lakehouse or\na warehouse directly. So we do plan to add more\nsources coming soon. We also want to have more\nout-of-the-box signal detection. Of course, because web apps are\njust code, you can always prompt that yourself, but we want to\nmake it way easier for you to get that signal detection\nright out of the box. And same goes for\ncustom actions as well. So integration with things\nlike user data functions, integration with things\nlike operational agents. We want to enable a little bit\nmore streamlined integration with any sort of custom actions\nor custom agents that you want to bring into the picture. And last but not least,\nwe want to make sure that you also support\nembedded scenarios. So in the first release -- right\nnow, the data app is limited to just being hosted within\nFabric, and you see it within the Fabric portal. But we want to also make sure\nthat in the future releases, you can be able to embed\nthis in your own application or embed it in other areas. So with that, we hope this\ngave you a good insight into what we're doing\nin terms of innovation for our analytics experiences, both across Power BI\nand Microsoft Fabric. And for those that are\ninterested in learning more about any of the things you've\nseen here check out our blog at aka.ms/Azure-Data-Build26, and also explore\nour documentation and our community\nsite to learn more and engage with the community. Thank you so much. We hope you enjoyed this\npresentation and looking forward to your feedback on all\nthis new innovation.",
+  "language": "English",
+  "videoId": "O8OKSNUD3lA",
+  "captionTracks": [
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=O8OKSNUD3lA&ei=mXnZavnaMvWAkucPz-ipsQY&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662537&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=17C43DC8C0E9F7B8F7E0F7FB020452E0DE8A3D5E.3B4B102E0D50292AA63AC05265A7BA443C08848B&key=yt8&lang=en",
+      "name": {
+        "simpleText": "English"
+      },
+      "vssId": ".en",
+      "languageCode": "en",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=O8OKSNUD3lA&ei=mXnZavnaMvWAkucPz-ipsQY&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662537&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=17C43DC8C0E9F7B8F7E0F7FB020452E0DE8A3D5E.3B4B102E0D50292AA63AC05265A7BA443C08848B&key=yt8&kind=asr&lang=en&variant=gemini",
+      "name": {
+        "simpleText": "English (auto-generated)"
+      },
+      "vssId": "a.en",
+      "languageCode": "en",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    }
+  ]
+}

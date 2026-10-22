@@ -1,0 +1,22 @@
+{
+  "method": "Whisper tiny.en re-transcription of final mixed MP4, compared with intended narration. ASR differences need interpretation; this is not proof of word-perfect audio.",
+  "similarity": 0.9694,
+  "transcript": "A fabric agent answered the question. Then the presenter checked Power BI and spotted rounding. Watch the validation. Guy and a cube built this agent over their YouTube analytics. A semantic model for video statistics and a lake house for comment sentiment. Before testing, they clarify an easy trap. A like on a comment is not a like on a video. Their instructions define those terms and point questions to the right source. Their first test asks for total views on January 10th, 2025. A question with a checkable answer. They open the generated DAX. Then compare the result with a table built from the same Power BI model. The presenter notices that the chat rounds the number. That's a precision issue to evaluate, not proof that the agent invented the answer. Then they test the most viewed video with fabric in its title. Check the text filter, the ranking, and the result against the report. Use that method for your first fabric agent, define the business terms, inspect the query, compare with a trusted result, then share.",
+  "differences": [
+    {
+      "kind": "replace",
+      "expected": "in",
+      "recognized": "and"
+    },
+    {
+      "kind": "replace",
+      "expected": "lakehouse",
+      "recognized": "lake house"
+    },
+    {
+      "kind": "replace",
+      "expected": "tenth twenty twenty five",
+      "recognized": "10th 2025"
+    }
+  ]
+}

@@ -1,0 +1,720 @@
+{
+  "id": "03-analyst-fabric-workflow",
+  "title": "The Fabric workflow beyond charts",
+  "duration": 40.0853,
+  "beats": [
+    {
+      "text": "If you already build Power BI reports, learn what happens before the chart.",
+      "asset": "architecture",
+      "device": "tile",
+      "start": 0.0,
+      "end": 4.32,
+      "voice_end": 4.16
+    },
+    {
+      "text": "Fabric brings ingestion, engineering, storage, analytics and reporting into one platform.",
+      "asset": "architecture",
+      "device": "sequence",
+      "start": 4.32,
+      "end": 10.176,
+      "voice_end": 10.016
+    },
+    {
+      "text": "Start with a lakehouse. Understand where the data lands and how its tables are organized.",
+      "asset": "hierarchy",
+      "device": "focus",
+      "key": "Lakehouse",
+      "start": 10.176,
+      "end": 15.2853,
+      "voice_end": 15.1253
+    },
+    {
+      "text": "Then trace an ingestion pipeline. What arrives, what changes, and what happens when a run fails?",
+      "asset": "pipeline",
+      "device": "sequence",
+      "start": 15.2853,
+      "end": 20.9707,
+      "voice_end": 20.8107
+    },
+    {
+      "text": "Keep SQL and Power BI. Add the shared data layer underneath them.",
+      "asset": "onelake",
+      "device": "focus",
+      "start": 20.9707,
+      "end": 25.2693,
+      "voice_end": 25.1093
+    },
+    {
+      "text": "Fabric data agents can turn questions into queries against supported data sources.",
+      "asset": "agent-ask",
+      "device": "focus",
+      "key": "Data agents",
+      "start": 25.2693,
+      "end": 30.5067,
+      "voice_end": 30.3467
+    },
+    {
+      "text": "That makes a clean model and clear permissions useful beyond the report itself.",
+      "asset": "agent-sources",
+      "device": "sequence",
+      "start": 30.5067,
+      "end": 34.9973,
+      "voice_end": 34.8373
+    },
+    {
+      "text": "Build one small workflow from source to report. Explain each step and show its output.",
+      "asset": "architecture",
+      "device": "focus",
+      "start": 34.9973,
+      "end": 40.0853,
+      "voice_end": 39.9253
+    }
+  ],
+  "words": [
+    {
+      "w": "If",
+      "s": 0.0,
+      "e": 0.22,
+      "alignment": "asr"
+    },
+    {
+      "w": "you",
+      "s": 0.22,
+      "e": 0.38,
+      "alignment": "asr"
+    },
+    {
+      "w": "already",
+      "s": 0.38,
+      "e": 0.64,
+      "alignment": "asr"
+    },
+    {
+      "w": "build",
+      "s": 0.64,
+      "e": 0.92,
+      "alignment": "asr"
+    },
+    {
+      "w": "Power",
+      "s": 0.92,
+      "e": 1.34,
+      "alignment": "asr"
+    },
+    {
+      "w": "BI",
+      "s": 1.34,
+      "e": 1.68,
+      "alignment": "asr"
+    },
+    {
+      "w": "reports,",
+      "s": 1.68,
+      "e": 2.72,
+      "alignment": "asr"
+    },
+    {
+      "w": "learn",
+      "s": 2.72,
+      "e": 2.76,
+      "alignment": "asr"
+    },
+    {
+      "w": "what",
+      "s": 2.76,
+      "e": 3.0,
+      "alignment": "asr"
+    },
+    {
+      "w": "happens",
+      "s": 3.0,
+      "e": 3.3,
+      "alignment": "asr"
+    },
+    {
+      "w": "before",
+      "s": 3.3,
+      "e": 3.64,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 3.64,
+      "e": 3.84,
+      "alignment": "asr"
+    },
+    {
+      "w": "chart.",
+      "s": 3.84,
+      "e": 4.16,
+      "alignment": "asr"
+    },
+    {
+      "w": "Fabric",
+      "s": 4.32,
+      "e": 4.74,
+      "alignment": "asr"
+    },
+    {
+      "w": "brings",
+      "s": 4.74,
+      "e": 5.16,
+      "alignment": "asr"
+    },
+    {
+      "w": "ingestion,",
+      "s": 5.16,
+      "e": 6.84,
+      "alignment": "asr"
+    },
+    {
+      "w": "engineering,",
+      "s": 6.84,
+      "e": 7.74,
+      "alignment": "asr"
+    },
+    {
+      "w": "storage,",
+      "s": 7.74,
+      "e": 8.14,
+      "alignment": "asr"
+    },
+    {
+      "w": "analytics",
+      "s": 8.14,
+      "e": 8.14,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 8.14,
+      "e": 8.5,
+      "alignment": "asr"
+    },
+    {
+      "w": "reporting",
+      "s": 8.5,
+      "e": 8.84,
+      "alignment": "asr"
+    },
+    {
+      "w": "into",
+      "s": 8.84,
+      "e": 9.2,
+      "alignment": "asr"
+    },
+    {
+      "w": "one",
+      "s": 9.2,
+      "e": 9.46,
+      "alignment": "asr"
+    },
+    {
+      "w": "platform.",
+      "s": 9.46,
+      "e": 10.016,
+      "alignment": "asr"
+    },
+    {
+      "w": "Start",
+      "s": 10.176,
+      "e": 10.496,
+      "alignment": "asr"
+    },
+    {
+      "w": "with",
+      "s": 10.496,
+      "e": 10.676,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 10.676,
+      "e": 10.856,
+      "alignment": "asr"
+    },
+    {
+      "w": "lakehouse.",
+      "s": 10.856,
+      "e": 11.936,
+      "alignment": "asr"
+    },
+    {
+      "w": "Understand",
+      "s": 11.936,
+      "e": 12.136,
+      "alignment": "asr"
+    },
+    {
+      "w": "where",
+      "s": 12.136,
+      "e": 12.436,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 12.436,
+      "e": 12.556000000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "data",
+      "s": 12.556000000000001,
+      "e": 12.756,
+      "alignment": "asr"
+    },
+    {
+      "w": "lands",
+      "s": 12.756,
+      "e": 13.176,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 13.176,
+      "e": 13.576,
+      "alignment": "asr"
+    },
+    {
+      "w": "how",
+      "s": 13.576,
+      "e": 13.716000000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "its",
+      "s": 13.716000000000001,
+      "e": 13.936,
+      "alignment": "asr"
+    },
+    {
+      "w": "tables",
+      "s": 13.936,
+      "e": 14.216000000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "are",
+      "s": 14.216000000000001,
+      "e": 14.576,
+      "alignment": "asr"
+    },
+    {
+      "w": "organized.",
+      "s": 14.576,
+      "e": 15.1253,
+      "alignment": "asr"
+    },
+    {
+      "w": "Then",
+      "s": 15.285333333333334,
+      "e": 15.565333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "trace",
+      "s": 15.565333333333333,
+      "e": 15.765333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "an",
+      "s": 15.765333333333334,
+      "e": 16.005333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "ingestion",
+      "s": 16.005333333333333,
+      "e": 16.405333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "pipeline.",
+      "s": 16.405333333333335,
+      "e": 17.445333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "What",
+      "s": 17.445333333333334,
+      "e": 17.605333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "arrives,",
+      "s": 17.605333333333334,
+      "e": 18.385333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "what",
+      "s": 18.385333333333335,
+      "e": 18.525333333333336,
+      "alignment": "asr"
+    },
+    {
+      "w": "changes,",
+      "s": 18.525333333333336,
+      "e": 19.185333333333332,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 19.185333333333332,
+      "e": 19.345333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "what",
+      "s": 19.345333333333333,
+      "e": 19.545333333333332,
+      "alignment": "asr"
+    },
+    {
+      "w": "happens",
+      "s": 19.545333333333332,
+      "e": 19.845333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "when",
+      "s": 19.845333333333333,
+      "e": 20.045333333333332,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 20.045333333333332,
+      "e": 20.225333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "run",
+      "s": 20.225333333333335,
+      "e": 20.325333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "fails?",
+      "s": 20.325333333333333,
+      "e": 20.810633333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "Keep",
+      "s": 20.970666666666666,
+      "e": 21.310666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "SQL",
+      "s": 21.310666666666666,
+      "e": 21.690666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 21.690666666666665,
+      "e": 22.190666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "Power",
+      "s": 22.190666666666665,
+      "e": 22.430666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "BI.",
+      "s": 22.430666666666667,
+      "e": 23.470666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "Add",
+      "s": 23.470666666666666,
+      "e": 23.470666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 23.470666666666666,
+      "e": 23.650666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "shared",
+      "s": 23.650666666666666,
+      "e": 23.850666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "data",
+      "s": 23.850666666666665,
+      "e": 24.130666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "layer",
+      "s": 24.130666666666666,
+      "e": 24.390666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "underneath",
+      "s": 24.390666666666668,
+      "e": 24.670666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "them.",
+      "s": 24.670666666666666,
+      "e": 25.109366666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "Fabric",
+      "s": 25.269333333333332,
+      "e": 25.729333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "data",
+      "s": 25.729333333333333,
+      "e": 26.109333333333332,
+      "alignment": "asr"
+    },
+    {
+      "w": "agents",
+      "s": 26.109333333333332,
+      "e": 26.549333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "can",
+      "s": 26.549333333333333,
+      "e": 26.949333333333332,
+      "alignment": "asr"
+    },
+    {
+      "w": "turn",
+      "s": 26.949333333333332,
+      "e": 27.229333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "questions",
+      "s": 27.229333333333333,
+      "e": 27.66933333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "into",
+      "s": 27.66933333333333,
+      "e": 27.98933333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "queries",
+      "s": 27.98933333333333,
+      "e": 28.389333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "against",
+      "s": 28.389333333333333,
+      "e": 29.109333333333332,
+      "alignment": "asr"
+    },
+    {
+      "w": "supported",
+      "s": 29.109333333333332,
+      "e": 29.50933333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "data",
+      "s": 29.50933333333333,
+      "e": 29.80933333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "sources.",
+      "s": 29.80933333333333,
+      "e": 30.346633333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "That",
+      "s": 30.506666666666668,
+      "e": 30.726666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "makes",
+      "s": 30.726666666666667,
+      "e": 30.94666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 30.94666666666667,
+      "e": 31.12666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "clean",
+      "s": 31.12666666666667,
+      "e": 31.30666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "model",
+      "s": 31.30666666666667,
+      "e": 31.586666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 31.586666666666666,
+      "e": 32.126666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "clear",
+      "s": 32.126666666666665,
+      "e": 32.34666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "permissions",
+      "s": 32.34666666666667,
+      "e": 32.86666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "useful",
+      "s": 32.86666666666667,
+      "e": 33.446666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "beyond",
+      "s": 33.446666666666665,
+      "e": 33.846666666666664,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 33.846666666666664,
+      "e": 34.086666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "report",
+      "s": 34.086666666666666,
+      "e": 34.28666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "itself.",
+      "s": 34.28666666666667,
+      "e": 34.83736666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "Build",
+      "s": 34.99733333333334,
+      "e": 35.297333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "one",
+      "s": 35.297333333333334,
+      "e": 35.59733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "small",
+      "s": 35.59733333333334,
+      "e": 35.87733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "workflow",
+      "s": 35.87733333333334,
+      "e": 36.217333333333336,
+      "alignment": "asr"
+    },
+    {
+      "w": "from",
+      "s": 36.217333333333336,
+      "e": 36.617333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "source",
+      "s": 36.617333333333335,
+      "e": 36.85733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "to",
+      "s": 36.85733333333334,
+      "e": 37.09733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "report.",
+      "s": 37.09733333333334,
+      "e": 38.01733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "Explain",
+      "s": 38.01733333333334,
+      "e": 38.19733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "each",
+      "s": 38.19733333333334,
+      "e": 38.67733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "step",
+      "s": 38.67733333333334,
+      "e": 38.897333333333336,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 38.897333333333336,
+      "e": 39.117333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "show",
+      "s": 39.117333333333335,
+      "e": 39.27733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "its",
+      "s": 39.27733333333334,
+      "e": 39.51733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "output.",
+      "s": 39.51733333333334,
+      "e": 39.925333333333334,
+      "alignment": "asr"
+    }
+  ],
+  "voice": "Local Kokoro af_heart, synthetic review voice",
+  "alignment_note": "Whisper tiny.en word timestamps, with interpolated unmatched words explicitly flagged. Not manually verified to +/- one frame.",
+  "script_sha256": "c683b90d31dda58d40be04d6bf9317d307b208b75a39d4a8f079fb779ed25626"
+}

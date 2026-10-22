@@ -1,0 +1,61 @@
+{
+  "source": "../final.mp4",
+  "review_scope": "one actual rendered frame per semantic beat; not exhaustive frame review",
+  "samples": [
+    {
+      "time": 3.339,
+      "file": "final-01.jpg",
+      "beat_text": "Your data is already in Microsoft Fabric. What if you could ask it a question, and inspect the query behind the answer?"
+    },
+    {
+      "time": 10.901,
+      "file": "final-02.jpg",
+      "beat_text": "This is Microsoft's documented data agent example. A question goes in. An answer comes back, with the steps used to retrieve it."
+    },
+    {
+      "time": 17.824,
+      "file": "final-03.jpg",
+      "beat_text": "Here is the workflow. Create the agent. Choose its data. Then ask, inspect, and test."
+    },
+    {
+      "time": 23.947,
+      "file": "final-04.jpg",
+      "beat_text": "In your Fabric workspace, select New Item. Search for Fabric data agent, select it, and give your agent a name."
+    },
+    {
+      "time": 31.051,
+      "file": "final-05.jpg",
+      "beat_text": "Next, add your data source from the OneLake catalog. That could be a lakehouse, a warehouse, or a Power BI semantic model."
+    },
+    {
+      "time": 38.315,
+      "file": "final-06.jpg",
+      "beat_text": "In Explorer, choose the relevant tables. Watch the checkboxes. You control which tables are available to the agent."
+    },
+    {
+      "time": 45.013,
+      "file": "final-07.jpg",
+      "beat_text": "Add instructions that define your business terms. Tell the agent which source to use for different kinds of questions."
+    },
+    {
+      "time": 52.875,
+      "file": "final-08.jpg",
+      "beat_text": "Now ask a concrete question. Microsoft's example asks how many users played Contoso games, and how many users purchased items in those games."
+    },
+    {
+      "time": 61.387,
+      "file": "final-09.jpg",
+      "beat_text": "Here is the important part. Expand the steps and inspect the generated query. Check the filters, the tables, and the answer."
+    },
+    {
+      "time": 69.749,
+      "file": "final-10.jpg",
+      "beat_text": "A data agent can retrieve structured answers. A question about why sales changed needs more evidence. Retrieving a number does not prove its cause."
+    },
+    {
+      "time": 79.104,
+      "file": "final-11.jpg",
+      "beat_text": "Create. Choose. Verify. Start with one question you can check, then test more questions before you publish. That is a useful first Fabric data agent."
+    }
+  ]
+}

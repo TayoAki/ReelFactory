@@ -1,0 +1,29 @@
+{
+  "design_color_contrast": {
+    "previous_role_text_min": 4.03,
+    "revised_role_text_min": 7.4,
+    "method": "WCAG relative-luminance formula on the declared gradient endpoints and text colors; not an OCR or visual readability score"
+  },
+  "source_caption_observation_fps": 6,
+  "source_caption_timing_precision": "Approximate phrase boundaries and emphasis, not word/frame-certified",
+  "motion_changes": [
+    "110px source-sized flat card -> explicitly measured plane",
+    "backplates expand independently of the front card",
+    "front card shifts out of stationary stack",
+    "peer cards slide out from underneath, rather than fading in from below",
+    "fixed card typography, no animated font-size compensation"
+  ],
+  "fixed_failures": [
+    "tool SVG strokes now visible",
+    "connector arrowheads restored",
+    "caption lettering filled and bold rather than thin outline",
+    "domain annotation kept on one line",
+    "role-label contrast increased"
+  ],
+  "remaining": [
+    "Static fictional presenters intentionally differ",
+    "Genie symbol, fonts and surface texture are approximations",
+    "Exact source easing is unknown",
+    "Caption timing/highlights remain approximate from sampled evidence"
+  ]
+}

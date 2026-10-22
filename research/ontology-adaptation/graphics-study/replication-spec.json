@@ -1,0 +1,716 @@
+{
+  "version": 1,
+  "scope": "Source graphics analysis only; no new Fabric remake",
+  "source": {
+    "parts": 5,
+    "duration": 2068.479674,
+    "width": 640,
+    "height": 360,
+    "fps": 30,
+    "clock": "numbered parts concatenated; not newly aligned to YouTube",
+    "reference_url": "https://www.youtube.com/watch?v=HtR5m5VjaDQ"
+  },
+  "precision": {
+    "bounds": "typically +/-1\u20132 decoded source pixels",
+    "colors": "approximate decoded values",
+    "font_family": null,
+    "original_easing": null,
+    "source_project_files_available": false
+  },
+  "layout": {
+    "frame_thickness": 3,
+    "main_viewport": {
+      "x": 12,
+      "y": 50,
+      "width": 458,
+      "height": 262,
+      "corner_radius_approx": [
+        16,
+        18
+      ]
+    },
+    "presenter": {
+      "x": 482,
+      "y": 84,
+      "width": 145,
+      "height": 179,
+      "corner_radius_approx": [
+        12,
+        14
+      ],
+      "crop": "head and shoulders; do not substitute waist-up framing"
+    },
+    "caption_glyph_band_y": [
+      338,
+      352
+    ],
+    "logo_bounds": [
+      562,
+      324,
+      74,
+      30
+    ],
+    "grid_pitch_approx": [
+      31,
+      32
+    ]
+  },
+  "layer_tree": [
+    "environment brown-grid OR white-grid",
+    "fixed rounded viewport / movable inner diagram world OR real UI capture",
+    "independent presenter layout",
+    "phrase caption with amber word emphasis",
+    "creator mark",
+    "orange frame or transition"
+  ],
+  "invariants": [
+    "No universal large top headline",
+    "Viewport camera does not affect speaker/captions",
+    "Connected nodes/edges/labels share diagram world coordinates",
+    "Retain settled holds",
+    "Preserve inactive object positions",
+    "Match original graphic family before substituting Fabric facts"
+  ],
+  "motion": {
+    "architecture_camera": {
+      "method": "Multi-scale grayscale template match on the highlighted Modeled Ontology heading; estimates only, not original keyframes",
+      "samples": [
+        {
+          "time": 233.8,
+          "match_confidence": 1.0,
+          "scale": 0.995,
+          "label_left": 347,
+          "label_top": 164
+        },
+        {
+          "time": 234.045,
+          "match_confidence": 1.0,
+          "scale": 0.995,
+          "label_left": 347,
+          "label_top": 164
+        },
+        {
+          "time": 234.291,
+          "match_confidence": 0.923,
+          "scale": 1.024,
+          "label_left": 346,
+          "label_top": 164
+        },
+        {
+          "time": 234.536,
+          "match_confidence": 0.95,
+          "scale": 1.054,
+          "label_left": 337,
+          "label_top": 163
+        },
+        {
+          "time": 234.782,
+          "match_confidence": 0.933,
+          "scale": 1.127,
+          "label_left": 315,
+          "label_top": 161
+        },
+        {
+          "time": 235.027,
+          "match_confidence": 0.938,
+          "scale": 1.245,
+          "label_left": 268,
+          "label_top": 158
+        },
+        {
+          "time": 235.273,
+          "match_confidence": 0.93,
+          "scale": 1.511,
+          "label_left": 184,
+          "label_top": 151
+        },
+        {
+          "time": 235.518,
+          "match_confidence": 0.911,
+          "scale": 1.658,
+          "label_left": 137,
+          "label_top": 147
+        },
+        {
+          "time": 235.764,
+          "match_confidence": 0.912,
+          "scale": 1.747,
+          "label_left": 115,
+          "label_top": 145
+        },
+        {
+          "time": 236.009,
+          "match_confidence": 0.905,
+          "scale": 1.776,
+          "label_left": 106,
+          "label_top": 145
+        },
+        {
+          "time": 236.255,
+          "match_confidence": 0.921,
+          "scale": 1.762,
+          "label_left": 106,
+          "label_top": 145
+        },
+        {
+          "time": 236.5,
+          "match_confidence": 0.921,
+          "scale": 1.762,
+          "label_left": 106,
+          "label_top": 145
+        }
+      ],
+      "approximate_symmetric_ease_fit": {
+        "start": 234.0,
+        "duration": 2.3,
+        "power": 3.6,
+        "normalized_RMSE": 0.0051,
+        "status": "approximate fit to a tracked raster heading, not recovered source easing"
+      }
+    },
+    "card_stack_phases": {
+      "id": "card-stack",
+      "roi": [
+        150,
+        90,
+        200,
+        180
+      ],
+      "search_window": [
+        54.8,
+        57
+      ],
+      "visible_change_intervals": [
+        {
+          "start": 55.167,
+          "end": 55.7,
+          "duration": 0.533
+        },
+        {
+          "start": 55.833,
+          "end": 56.3,
+          "duration": 0.467
+        }
+      ]
+    },
+    "governance_flip_phases": {
+      "id": "governance-flip",
+      "roi": [
+        50,
+        124,
+        160,
+        136
+      ],
+      "search_window": [
+        1429,
+        1432
+      ],
+      "visible_change_intervals": [
+        {
+          "start": 1429.233,
+          "end": 1429.833,
+          "duration": 0.6
+        },
+        {
+          "start": 1430.533,
+          "end": 1431.433,
+          "duration": 0.9
+        }
+      ]
+    },
+    "best_practice_focus": {
+      "method": "Median compositing ratio on first-item glyph pixels relative to initial bright frame and estimated background; compressed source limits precision",
+      "sample_start": 1989.3,
+      "ratios": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.205,
+        0.205,
+        0.205,
+        0.205,
+        0.205,
+        0.205,
+        0.205,
+        0.209,
+        0.209,
+        0.209,
+        0.209
+      ],
+      "fade_start_below_90pct": 1989.7333333333333,
+      "fade_end_below_30pct": 1989.7333333333333,
+      "inactive_ratio": 0.209
+    }
+  },
+  "scene_families": [
+    "full speaker",
+    "equal speaker split",
+    "white micro-diagram",
+    "perspective layered cards",
+    "architecture master/detail",
+    "compact connector network",
+    "heading-left/evidence-right",
+    "pale card family",
+    "red chevron chapter card",
+    "native UI inspector",
+    "progressive rollout timeline",
+    "fixed-position emphasis list"
+  ],
+  "sequence_inventory": [
+    {
+      "id": "01-icon-map",
+      "start": 8,
+      "end": 15,
+      "samples": [
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0,
+        13.0,
+        14.0,
+        15.0
+      ],
+      "sheet": "01-icon-map.jpg"
+    },
+    {
+      "id": "02-white-system",
+      "start": 38,
+      "end": 54,
+      "samples": [
+        38.0,
+        40.286,
+        42.571,
+        44.857,
+        47.143,
+        49.429,
+        51.714,
+        54.0
+      ],
+      "sheet": "02-white-system.jpg"
+    },
+    {
+      "id": "03-layered-cards",
+      "start": 55,
+      "end": 81,
+      "samples": [
+        55.0,
+        58.714,
+        62.429,
+        66.143,
+        69.857,
+        73.571,
+        77.286,
+        81.0
+      ],
+      "sheet": "03-layered-cards.jpg"
+    },
+    {
+      "id": "04-context-problem",
+      "start": 110,
+      "end": 137,
+      "samples": [
+        110.0,
+        113.857,
+        117.714,
+        121.571,
+        125.429,
+        129.286,
+        133.143,
+        137.0
+      ],
+      "sheet": "04-context-problem.jpg"
+    },
+    {
+      "id": "05-query-ambiguity",
+      "start": 139,
+      "end": 159,
+      "samples": [
+        139.0,
+        141.857,
+        144.714,
+        147.571,
+        150.429,
+        153.286,
+        156.143,
+        159.0
+      ],
+      "sheet": "05-query-ambiguity.jpg"
+    },
+    {
+      "id": "06-source-context",
+      "start": 174,
+      "end": 208,
+      "samples": [
+        174.0,
+        178.857,
+        183.714,
+        188.571,
+        193.429,
+        198.286,
+        203.143,
+        208.0
+      ],
+      "sheet": "06-source-context.jpg"
+    },
+    {
+      "id": "07-system-to-focus",
+      "start": 209.5,
+      "end": 249,
+      "samples": [
+        209.5,
+        215.143,
+        220.786,
+        226.429,
+        232.071,
+        237.714,
+        243.357,
+        249.0
+      ],
+      "sheet": "07-system-to-focus.jpg"
+    },
+    {
+      "id": "08-modeled-build",
+      "start": 249,
+      "end": 333,
+      "samples": [
+        249.0,
+        261.0,
+        273.0,
+        285.0,
+        297.0,
+        309.0,
+        321.0,
+        333.0
+      ],
+      "sheet": "08-modeled-build.jpg"
+    },
+    {
+      "id": "09-learned-context",
+      "start": 334,
+      "end": 397,
+      "samples": [
+        334.0,
+        343.0,
+        352.0,
+        361.0,
+        370.0,
+        379.0,
+        388.0,
+        397.0
+      ],
+      "sheet": "09-learned-context.jpg"
+    },
+    {
+      "id": "10-overview-rank",
+      "start": 399,
+      "end": 450,
+      "samples": [
+        399.0,
+        406.286,
+        413.571,
+        420.857,
+        428.143,
+        435.429,
+        442.714,
+        450.0
+      ],
+      "sheet": "10-overview-rank.jpg"
+    },
+    {
+      "id": "11-chart-focus",
+      "start": 455,
+      "end": 510,
+      "samples": [
+        455.0,
+        462.857,
+        470.714,
+        478.571,
+        486.429,
+        494.286,
+        502.143,
+        510.0
+      ],
+      "sheet": "11-chart-focus.jpg"
+    },
+    {
+      "id": "12-connectors",
+      "start": 551,
+      "end": 675,
+      "samples": [
+        551.0,
+        568.714,
+        586.429,
+        604.143,
+        621.857,
+        639.571,
+        657.286,
+        675.0
+      ],
+      "sheet": "12-connectors.jpg"
+    },
+    {
+      "id": "13-memory-ui",
+      "start": 680,
+      "end": 711,
+      "samples": [
+        680.0,
+        684.429,
+        688.857,
+        693.286,
+        697.714,
+        702.143,
+        706.571,
+        711.0
+      ],
+      "sheet": "13-memory-ui.jpg"
+    },
+    {
+      "id": "14-demo-context",
+      "start": 777,
+      "end": 866,
+      "samples": [
+        777.0,
+        789.714,
+        802.429,
+        815.143,
+        827.857,
+        840.571,
+        853.286,
+        866.0
+      ],
+      "sheet": "14-demo-context.jpg"
+    },
+    {
+      "id": "15-demo-inspection",
+      "start": 866,
+      "end": 990,
+      "samples": [
+        866.0,
+        883.714,
+        901.429,
+        919.143,
+        936.857,
+        954.571,
+        972.286,
+        990.0
+      ],
+      "sheet": "15-demo-inspection.jpg"
+    },
+    {
+      "id": "16-citations",
+      "start": 990,
+      "end": 1094,
+      "samples": [
+        990.0,
+        1004.857,
+        1019.714,
+        1034.571,
+        1049.429,
+        1064.286,
+        1079.143,
+        1094.0
+      ],
+      "sheet": "16-citations.jpg"
+    },
+    {
+      "id": "17-followups",
+      "start": 1094,
+      "end": 1219,
+      "samples": [
+        1094.0,
+        1111.857,
+        1129.714,
+        1147.571,
+        1165.429,
+        1183.286,
+        1201.143,
+        1219.0
+      ],
+      "sheet": "17-followups.jpg"
+    },
+    {
+      "id": "18-chapter-docs",
+      "start": 1248.5,
+      "end": 1305,
+      "samples": [
+        1248.5,
+        1256.571,
+        1264.643,
+        1272.714,
+        1280.786,
+        1288.857,
+        1296.929,
+        1305.0
+      ],
+      "sheet": "18-chapter-docs.jpg"
+    },
+    {
+      "id": "19-governed-actions",
+      "start": 1305,
+      "end": 1388,
+      "samples": [
+        1305.0,
+        1316.857,
+        1328.714,
+        1340.571,
+        1352.429,
+        1364.286,
+        1376.143,
+        1388.0
+      ],
+      "sheet": "19-governed-actions.jpg"
+    },
+    {
+      "id": "20-governance-cards",
+      "start": 1423,
+      "end": 1462,
+      "samples": [
+        1423.0,
+        1428.571,
+        1434.143,
+        1439.714,
+        1445.286,
+        1450.857,
+        1456.429,
+        1462.0
+      ],
+      "sheet": "20-governance-cards.jpg"
+    },
+    {
+      "id": "21-agent-hierarchy",
+      "start": 1465,
+      "end": 1521,
+      "samples": [
+        1465.0,
+        1473.0,
+        1481.0,
+        1489.0,
+        1497.0,
+        1505.0,
+        1513.0,
+        1521.0
+      ],
+      "sheet": "21-agent-hierarchy.jpg"
+    },
+    {
+      "id": "22-scheduling-surfaces",
+      "start": 1523,
+      "end": 1611,
+      "samples": [
+        1523.0,
+        1535.571,
+        1548.143,
+        1560.714,
+        1573.286,
+        1585.857,
+        1598.429,
+        1611.0
+      ],
+      "sheet": "22-scheduling-surfaces.jpg"
+    },
+    {
+      "id": "23-demo-actions",
+      "start": 1614,
+      "end": 1682,
+      "samples": [
+        1614.0,
+        1623.714,
+        1633.429,
+        1643.143,
+        1652.857,
+        1662.571,
+        1672.286,
+        1682.0
+      ],
+      "sheet": "23-demo-actions.jpg"
+    },
+    {
+      "id": "24-agent-inspection",
+      "start": 1682,
+      "end": 1786,
+      "samples": [
+        1682.0,
+        1696.857,
+        1711.714,
+        1726.571,
+        1741.429,
+        1756.286,
+        1771.143,
+        1786.0
+      ],
+      "sheet": "24-agent-inspection.jpg"
+    },
+    {
+      "id": "25-getting-started",
+      "start": 1795,
+      "end": 1850,
+      "samples": [
+        1795.0,
+        1802.857,
+        1810.714,
+        1818.571,
+        1826.429,
+        1834.286,
+        1842.143,
+        1850.0
+      ],
+      "sheet": "25-getting-started.jpg"
+    },
+    {
+      "id": "26-rollout-build",
+      "start": 1850,
+      "end": 1956,
+      "samples": [
+        1850.0,
+        1865.143,
+        1880.286,
+        1895.429,
+        1910.571,
+        1925.714,
+        1940.857,
+        1956.0
+      ],
+      "sheet": "26-rollout-build.jpg"
+    },
+    {
+      "id": "27-best-practices",
+      "start": 1958,
+      "end": 2043,
+      "samples": [
+        1958.0,
+        1970.143,
+        1982.286,
+        1994.429,
+        2006.571,
+        2018.714,
+        2030.857,
+        2043.0
+      ],
+      "sheet": "27-best-practices.jpg"
+    }
+  ],
+  "acceptance_proposed": {
+    "composition_tolerance_source_px": 2,
+    "diagram_anchor_tolerance_source_px": 3,
+    "key_state_tolerance_source_frames": 2,
+    "caveat": "Proposed future matching tolerances; not a certification of earlier outputs"
+  },
+  "inspection_counts": {
+    "wide_sequences": 27,
+    "wide_frames": 216,
+    "dense_sequences": 6,
+    "dense_frames": 72,
+    "actual_reference_loops": 7
+  }
+}

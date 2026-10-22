@@ -1,0 +1,1421 @@
+{
+  "success": true,
+  "credits_remaining": 16840,
+  "credits_charged": 1,
+  "type": "video",
+  "url": "https://www.youtube.com/watch?v=mFoSVcj6tLw",
+  "transcript": [
+    {
+      "text": "- Yooo!",
+      "startMs": "210",
+      "endMs": "1740",
+      "startTimeText": "0:00"
+    },
+    {
+      "text": "I'm Marthe from \"Gal in a Cube.\"",
+      "startMs": "1740",
+      "endMs": "3870",
+      "startTimeText": "0:01"
+    },
+    {
+      "text": "There were so many cool thingsreleased at FabCon, right?",
+      "startMs": "3870",
+      "endMs": "6960",
+      "startTimeText": "0:03"
+    },
+    {
+      "text": "Was this maybe the coolest one?",
+      "startMs": "6960",
+      "endMs": "9090",
+      "startTimeText": "0:06"
+    },
+    {
+      "text": "Fabric data agents.",
+      "startMs": "9090",
+      "endMs": "10470",
+      "startTimeText": "0:09"
+    },
+    {
+      "text": "Have you checked it out anddived into all of the features?",
+      "startMs": "10470",
+      "endMs": "13470",
+      "startTimeText": "0:10"
+    },
+    {
+      "text": "It's like so cool! So of coursewe have to talk about it.",
+      "startMs": "13470",
+      "endMs": "16680",
+      "startTimeText": "0:13"
+    },
+    {
+      "text": "Now, imagine that you have perfect,",
+      "startMs": "16680",
+      "endMs": "19020",
+      "startTimeText": "0:16"
+    },
+    {
+      "text": "beautiful Power BI report,",
+      "startMs": "19020",
+      "endMs": "20760",
+      "startTimeText": "0:19"
+    },
+    {
+      "text": "you publish it to your Power BI app,",
+      "startMs": "20760",
+      "endMs": "23010",
+      "startTimeText": "0:20"
+    },
+    {
+      "text": "and then you haveconsumers using that data",
+      "startMs": "23010",
+      "endMs": "25560",
+      "startTimeText": "0:23"
+    },
+    {
+      "text": "and diving into the insights and so on.",
+      "startMs": "25560",
+      "endMs": "27360",
+      "startTimeText": "0:25"
+    },
+    {
+      "text": "But what if people could chatand ask questions on that data",
+      "startMs": "27360",
+      "endMs": "31320",
+      "startTimeText": "0:27"
+    },
+    {
+      "text": "and then they're like,\"Marthe, that already exists.",
+      "startMs": "31320",
+      "endMs": "33720",
+      "startTimeText": "0:31"
+    },
+    {
+      "text": "You can do that with Copilot,\"",
+      "startMs": "33720",
+      "endMs": "34860",
+      "startTimeText": "0:33"
+    },
+    {
+      "text": "but what if you couldactually customize that chat",
+      "startMs": "34860",
+      "endMs": "38190",
+      "startTimeText": "0:34"
+    },
+    {
+      "text": "to make it perfect for your consumers?",
+      "startMs": "38190",
+      "endMs": "40770",
+      "startTimeText": "0:38"
+    },
+    {
+      "text": "And maybe you also had anothersemantic model or a lakehouse",
+      "startMs": "40770",
+      "endMs": "44190",
+      "startTimeText": "0:40"
+    },
+    {
+      "text": "or some other data inside of Fabric",
+      "startMs": "44190",
+      "endMs": "46020",
+      "startTimeText": "0:44"
+    },
+    {
+      "text": "or Power BI that you wanted to pull in",
+      "startMs": "46020",
+      "endMs": "48750",
+      "startTimeText": "0:46"
+    },
+    {
+      "text": "and make available for that chat,",
+      "startMs": "48750",
+      "endMs": "50850",
+      "startTimeText": "0:48"
+    },
+    {
+      "text": "so that people could ask questions",
+      "startMs": "50850",
+      "endMs": "53040",
+      "startTimeText": "0:50"
+    },
+    {
+      "text": "and use all that data to make decisions.",
+      "startMs": "53040",
+      "endMs": "54780",
+      "startTimeText": "0:53"
+    },
+    {
+      "text": "So, you know what I like to do?",
+      "startMs": "54780",
+      "endMs": "57150",
+      "startTimeText": "0:54"
+    },
+    {
+      "text": "Enough of all this talking,let's head over to my laptop.",
+      "startMs": "57150",
+      "endMs": "59940",
+      "startTimeText": "0:57"
+    },
+    {
+      "text": "Now, there are someprerequisites you need to",
+      "startMs": "59940",
+      "endMs": "62010",
+      "startTimeText": "0:59"
+    },
+    {
+      "text": "take into account, sowe'll link them somewhere",
+      "startMs": "62010",
+      "endMs": "64740",
+      "startTimeText": "1:02"
+    },
+    {
+      "text": "so you can check them out,",
+      "startMs": "64740",
+      "endMs": "65910",
+      "startTimeText": "1:04"
+    },
+    {
+      "text": "but then when you've done that,",
+      "startMs": "65910",
+      "endMs": "67200",
+      "startTimeText": "1:05"
+    },
+    {
+      "text": "then you can find Data Agents here",
+      "startMs": "67200",
+      "endMs": "70350",
+      "startTimeText": "1:07"
+    },
+    {
+      "text": "and you see it's in Purview,",
+      "startMs": "70350",
+      "endMs": "71460",
+      "startTimeText": "1:10"
+    },
+    {
+      "text": "but let's just create one.",
+      "startMs": "71460",
+      "endMs": "72780",
+      "startTimeText": "1:11"
+    },
+    {
+      "text": "Give it a beautiful name,",
+      "startMs": "72780",
+      "endMs": "74670",
+      "startTimeText": "1:12"
+    },
+    {
+      "text": "and here you see this user interface",
+      "startMs": "74670",
+      "endMs": "76590",
+      "startTimeText": "1:14"
+    },
+    {
+      "text": "just waiting for us to explore.",
+      "startMs": "76590",
+      "endMs": "78330",
+      "startTimeText": "1:16"
+    },
+    {
+      "text": "Now, what type of dataagent should we create?",
+      "startMs": "78330",
+      "endMs": "80970",
+      "startTimeText": "1:18"
+    },
+    {
+      "text": "Well, I have an idea,",
+      "startMs": "80970",
+      "endMs": "82200",
+      "startTimeText": "1:20"
+    },
+    {
+      "text": "because if I dive intoanother workspace here,",
+      "startMs": "82200",
+      "endMs": "85140",
+      "startTimeText": "1:22"
+    },
+    {
+      "text": "this workspace called YouTube Metrics,",
+      "startMs": "85140",
+      "endMs": "87030",
+      "startTimeText": "1:25"
+    },
+    {
+      "text": "you see here the Patrickhas done some amazing work",
+      "startMs": "87030",
+      "endMs": "89940",
+      "startTimeText": "1:27"
+    },
+    {
+      "text": "on creating and data engineering",
+      "startMs": "89940",
+      "endMs": "92100",
+      "startTimeText": "1:29"
+    },
+    {
+      "text": "and pulling in alltypes of data statistics",
+      "startMs": "92100",
+      "endMs": "94620",
+      "startTimeText": "1:32"
+    },
+    {
+      "text": "on the \"Guy in a Cube\" YouTube channel.",
+      "startMs": "94620",
+      "endMs": "96390",
+      "startTimeText": "1:34"
+    },
+    {
+      "text": "He even pulled in somemachine learning things",
+      "startMs": "96390",
+      "endMs": "99000",
+      "startTimeText": "1:36"
+    },
+    {
+      "text": "on sentiment analysis.",
+      "startMs": "99000",
+      "endMs": "100920",
+      "startTimeText": "1:39"
+    },
+    {
+      "text": "I mean, there's all typesof different insights here",
+      "startMs": "100920",
+      "endMs": "102930",
+      "startTimeText": "1:40"
+    },
+    {
+      "text": "that would be useful to know more about.",
+      "startMs": "102930",
+      "endMs": "106230",
+      "startTimeText": "1:42"
+    },
+    {
+      "text": "So, let's create a data agentthat is customized perfectly",
+      "startMs": "106230",
+      "endMs": "111030",
+      "startTimeText": "1:46"
+    },
+    {
+      "text": "to answer questionsabout all these metricses",
+      "startMs": "111030",
+      "endMs": "113460",
+      "startTimeText": "1:51"
+    },
+    {
+      "text": "on the \"Guy in a Cube\" channel.",
+      "startMs": "113460",
+      "endMs": "115410",
+      "startTimeText": "1:53"
+    },
+    {
+      "text": "The first thing we have todo is to add a data source,",
+      "startMs": "115410",
+      "endMs": "117810",
+      "startTimeText": "1:55"
+    },
+    {
+      "text": "so let's do that.",
+      "startMs": "117810",
+      "endMs": "119280",
+      "startTimeText": "1:57"
+    },
+    {
+      "text": "Now, Patrick has createdthis Metrics Analytics",
+      "startMs": "119280",
+      "endMs": "122100",
+      "startTimeText": "1:59"
+    },
+    {
+      "text": "semantic model with a lot of fact tables,",
+      "startMs": "122100",
+      "endMs": "124830",
+      "startTimeText": "2:02"
+    },
+    {
+      "text": "so I'm gonna add that one,",
+      "startMs": "124830",
+      "endMs": "126930",
+      "startTimeText": "2:04"
+    },
+    {
+      "text": "and you see here that thatmodel is going to be added.",
+      "startMs": "126930",
+      "endMs": "130380",
+      "startTimeText": "2:06"
+    },
+    {
+      "text": "Now, the next thing we have to do is",
+      "startMs": "130380",
+      "endMs": "131510",
+      "startTimeText": "2:10"
+    },
+    {
+      "text": "to actually specify the specific tables",
+      "startMs": "131510",
+      "endMs": "134310",
+      "startTimeText": "2:11"
+    },
+    {
+      "text": "that we want to pull in.",
+      "startMs": "134310",
+      "endMs": "135300",
+      "startTimeText": "2:14"
+    },
+    {
+      "text": "I want to use the dimension tables",
+      "startMs": "135300",
+      "endMs": "138870",
+      "startTimeText": "2:15"
+    },
+    {
+      "text": "and also the fact table onthe actual video statistics.",
+      "startMs": "138870",
+      "endMs": "142680",
+      "startTimeText": "2:18"
+    },
+    {
+      "text": "That's what I want this dataagent to be focusing on.",
+      "startMs": "142680",
+      "endMs": "145407",
+      "startTimeText": "2:22"
+    },
+    {
+      "text": "And we also createdsome sentiment analysis",
+      "startMs": "145407",
+      "endMs": "148530",
+      "startTimeText": "2:25"
+    },
+    {
+      "text": "on the comments that people were writing",
+      "startMs": "148530",
+      "endMs": "150750",
+      "startTimeText": "2:28"
+    },
+    {
+      "text": "on the actual YouTube videos,",
+      "startMs": "150750",
+      "endMs": "151980",
+      "startTimeText": "2:30"
+    },
+    {
+      "text": "so I want to pull in data on that as well,",
+      "startMs": "151980",
+      "endMs": "154470",
+      "startTimeText": "2:31"
+    },
+    {
+      "text": "so I'm gonna add that.",
+      "startMs": "154470",
+      "endMs": "155490",
+      "startTimeText": "2:34"
+    },
+    {
+      "text": "And here again, I'm gonna specify",
+      "startMs": "155490",
+      "endMs": "157470",
+      "startTimeText": "2:35"
+    },
+    {
+      "text": "what data I want to pull in",
+      "startMs": "157470",
+      "endMs": "158910",
+      "startTimeText": "2:37"
+    },
+    {
+      "text": "and I want to use the Gold_Dimvideos",
+      "startMs": "158910",
+      "endMs": "161490",
+      "startTimeText": "2:38"
+    },
+    {
+      "text": "and also the CommentWithSentiment,",
+      "startMs": "161490",
+      "endMs": "163860",
+      "startTimeText": "2:41"
+    },
+    {
+      "text": "and you can open up here",
+      "startMs": "163860",
+      "endMs": "164730",
+      "startTimeText": "2:43"
+    },
+    {
+      "text": "and see what type of data we have in here.",
+      "startMs": "164730",
+      "endMs": "167160",
+      "startTimeText": "2:44"
+    },
+    {
+      "text": "Now, we need to help thisdata agent become smart.",
+      "startMs": "167160",
+      "endMs": "171030",
+      "startTimeText": "2:47"
+    },
+    {
+      "text": "So it's not gonna be smart just like that.",
+      "startMs": "171030",
+      "endMs": "173220",
+      "startTimeText": "2:51"
+    },
+    {
+      "text": "For instance, there are somethings here like Author,",
+      "startMs": "173220",
+      "endMs": "175950",
+      "startTimeText": "2:53"
+    },
+    {
+      "text": "that's actually the name of the person",
+      "startMs": "175950",
+      "endMs": "178200",
+      "startTimeText": "2:55"
+    },
+    {
+      "text": "that is commenting.",
+      "startMs": "178200",
+      "endMs": "179490",
+      "startTimeText": "2:58"
+    },
+    {
+      "text": "The like count and reply count",
+      "startMs": "179490",
+      "endMs": "181500",
+      "startTimeText": "2:59"
+    },
+    {
+      "text": "is likes for the actual comment.",
+      "startMs": "181500",
+      "endMs": "183990",
+      "startTimeText": "3:01"
+    },
+    {
+      "text": "The data agent might notunderstand just like that,",
+      "startMs": "183990",
+      "endMs": "187080",
+      "startTimeText": "3:03"
+    },
+    {
+      "text": "so we need to help it a little bit.",
+      "startMs": "187080",
+      "endMs": "188790",
+      "startTimeText": "3:07"
+    },
+    {
+      "text": "Now, as always, I have to just mention",
+      "startMs": "188790",
+      "endMs": "190500",
+      "startTimeText": "3:08"
+    },
+    {
+      "text": "this is a great use case",
+      "startMs": "190500",
+      "endMs": "192180",
+      "startTimeText": "3:10"
+    },
+    {
+      "text": "for you to be very (giggles) motivated",
+      "startMs": "192180",
+      "endMs": "193860",
+      "startTimeText": "3:12"
+    },
+    {
+      "text": "by building beautiful goldtables, gold semantic models",
+      "startMs": "193860",
+      "endMs": "198860",
+      "startTimeText": "3:13"
+    },
+    {
+      "text": "and so on, with column namesand tables' names and so on,",
+      "startMs": "198960",
+      "endMs": "201930",
+      "startTimeText": "3:18"
+    },
+    {
+      "text": "that makes sense.",
+      "startMs": "201930",
+      "endMs": "202770",
+      "startTimeText": "3:21"
+    },
+    {
+      "text": "So the higher quality youhave on your data here,",
+      "startMs": "202770",
+      "endMs": "204900",
+      "startTimeText": "3:22"
+    },
+    {
+      "text": "the less work you're gonnado on the data agent side.",
+      "startMs": "204900",
+      "endMs": "207300",
+      "startTimeText": "3:24"
+    },
+    {
+      "text": "So what we can do is that we can give it",
+      "startMs": "207300",
+      "endMs": "208530",
+      "startTimeText": "3:27"
+    },
+    {
+      "text": "some instructions on the side here.",
+      "startMs": "208530",
+      "endMs": "210300",
+      "startTimeText": "3:28"
+    },
+    {
+      "text": "Now I know, for instance,",
+      "startMs": "210300",
+      "endMs": "212340",
+      "startTimeText": "3:30"
+    },
+    {
+      "text": "that all the video statistic data",
+      "startMs": "212340",
+      "endMs": "215190",
+      "startTimeText": "3:32"
+    },
+    {
+      "text": "is actually inside the MetricsAnalytics sematic model,",
+      "startMs": "215190",
+      "endMs": "219090",
+      "startTimeText": "3:35"
+    },
+    {
+      "text": "so I'm gonna give it a hint on that.",
+      "startMs": "219090",
+      "endMs": "220650",
+      "startTimeText": "3:39"
+    },
+    {
+      "text": "Should also help itunderstand that for instance,",
+      "startMs": "220650",
+      "endMs": "224280",
+      "startTimeText": "3:40"
+    },
+    {
+      "text": "the like count that we haveon the CommentsWithSentiment",
+      "startMs": "224280",
+      "endMs": "228630",
+      "startTimeText": "3:44"
+    },
+    {
+      "text": "is the count of likes on one comment.",
+      "startMs": "228630",
+      "endMs": "230640",
+      "startTimeText": "3:48"
+    },
+    {
+      "text": "Now, we could also specify",
+      "startMs": "230640",
+      "endMs": "231990",
+      "startTimeText": "3:50"
+    },
+    {
+      "text": "that if there are anyquestions on comments,",
+      "startMs": "231990",
+      "endMs": "235410",
+      "startTimeText": "3:51"
+    },
+    {
+      "text": "then Comments Analysis should be used",
+      "startMs": "235410",
+      "endMs": "237390",
+      "startTimeText": "3:55"
+    },
+    {
+      "text": "to answer those questions,",
+      "startMs": "237390",
+      "endMs": "238620",
+      "startTimeText": "3:57"
+    },
+    {
+      "text": "and then also we have Author here,",
+      "startMs": "238620",
+      "endMs": "240000",
+      "startTimeText": "3:58"
+    },
+    {
+      "text": "and if I open up the Gold_Dimvideos,",
+      "startMs": "240000",
+      "endMs": "242520",
+      "startTimeText": "4:00"
+    },
+    {
+      "text": "we have hosts, this is eitherPatrick, Marthe, or Adam.",
+      "startMs": "242520",
+      "endMs": "245130",
+      "startTimeText": "4:02"
+    },
+    {
+      "text": "Now, another thing I can do is to provide",
+      "startMs": "245130",
+      "endMs": "246690",
+      "startTimeText": "4:05"
+    },
+    {
+      "text": "some example queries.",
+      "startMs": "246690",
+      "endMs": "247770",
+      "startTimeText": "4:06"
+    },
+    {
+      "text": "So if I click here, Ican then add the question",
+      "startMs": "247770",
+      "endMs": "250890",
+      "startTimeText": "4:07"
+    },
+    {
+      "text": "and then I will add the actual SQL query",
+      "startMs": "250890",
+      "endMs": "253230",
+      "startTimeText": "4:10"
+    },
+    {
+      "text": "that the agents should useto answer that question.",
+      "startMs": "253230",
+      "endMs": "257460",
+      "startTimeText": "4:13"
+    },
+    {
+      "text": "So the question could be,",
+      "startMs": "257460",
+      "endMs": "258757",
+      "startTimeText": "4:17"
+    },
+    {
+      "text": "\"What host is the most popular",
+      "startMs": "258757",
+      "endMs": "262230",
+      "startTimeText": "4:18"
+    },
+    {
+      "text": "in regards to average sentiment score?\"",
+      "startMs": "262230",
+      "endMs": "266640",
+      "startTimeText": "4:22"
+    },
+    {
+      "text": "Now, I'm gonna add the actual SQL query",
+      "startMs": "266640",
+      "endMs": "269670",
+      "startTimeText": "4:26"
+    },
+    {
+      "text": "that is gonna answer that question.",
+      "startMs": "269670",
+      "endMs": "271230",
+      "startTimeText": "4:29"
+    },
+    {
+      "text": "Now the more queries like this you add,",
+      "startMs": "271230",
+      "endMs": "273600",
+      "startTimeText": "4:31"
+    },
+    {
+      "text": "the better the data agent will perform.",
+      "startMs": "273600",
+      "endMs": "276000",
+      "startTimeText": "4:33"
+    },
+    {
+      "text": "Remember, it's still in preview.",
+      "startMs": "276000",
+      "endMs": "277650",
+      "startTimeText": "4:36"
+    },
+    {
+      "text": "You can't be crazy complicated",
+      "startMs": "277650",
+      "endMs": "280200",
+      "startTimeText": "4:37"
+    },
+    {
+      "text": "with all your questions and so on,",
+      "startMs": "280200",
+      "endMs": "281490",
+      "startTimeText": "4:40"
+    },
+    {
+      "text": "and you should of course also test it",
+      "startMs": "281490",
+      "endMs": "282990",
+      "startTimeText": "4:41"
+    },
+    {
+      "text": "before you actually use it.",
+      "startMs": "282990",
+      "endMs": "284760",
+      "startTimeText": "4:42"
+    },
+    {
+      "text": "So then that's added.",
+      "startMs": "284760",
+      "endMs": "286220",
+      "startTimeText": "4:44"
+    },
+    {
+      "text": "So now, let's try and do some tests.",
+      "startMs": "286220",
+      "endMs": "288630",
+      "startTimeText": "4:46"
+    },
+    {
+      "text": "Let's ask it some questions.",
+      "startMs": "288630",
+      "endMs": "290670",
+      "startTimeText": "4:48"
+    },
+    {
+      "text": "So, what is the total number of views",
+      "startMs": "290670",
+      "endMs": "293070",
+      "startTimeText": "4:50"
+    },
+    {
+      "text": "for January 10th, 2025?",
+      "startMs": "293070",
+      "endMs": "296220",
+      "startTimeText": "4:53"
+    },
+    {
+      "text": "Here we see it gives an answers.",
+      "startMs": "296220",
+      "endMs": "298110",
+      "startTimeText": "4:56"
+    },
+    {
+      "text": "Now if I go down here,I can also check out",
+      "startMs": "298110",
+      "endMs": "300540",
+      "startTimeText": "4:58"
+    },
+    {
+      "text": "what it actually did, whatDAX query it was running.",
+      "startMs": "300540",
+      "endMs": "303510",
+      "startTimeText": "5:00"
+    },
+    {
+      "text": "So if it's running queriestowards the semantic model,",
+      "startMs": "303510",
+      "endMs": "306183",
+      "startTimeText": "5:03"
+    },
+    {
+      "text": "it's gonna use DAX.",
+      "startMs": "306183",
+      "endMs": "307440",
+      "startTimeText": "5:06"
+    },
+    {
+      "text": "If it's running towards thelakehouse, it's gonna use SQL.",
+      "startMs": "307440",
+      "endMs": "311040",
+      "startTimeText": "5:07"
+    },
+    {
+      "text": "So let's check if that's correct.",
+      "startMs": "311040",
+      "endMs": "312390",
+      "startTimeText": "5:11"
+    },
+    {
+      "text": "I'm gonna open up Power BI report",
+      "startMs": "312390",
+      "endMs": "314730",
+      "startTimeText": "5:12"
+    },
+    {
+      "text": "just on top of the semantic model.",
+      "startMs": "314730",
+      "endMs": "316830",
+      "startTimeText": "5:14"
+    },
+    {
+      "text": "Let's pull in Total Views and Date.",
+      "startMs": "316830",
+      "endMs": "320640",
+      "startTimeText": "5:16"
+    },
+    {
+      "text": "Let's make that a table and have a look.",
+      "startMs": "320640",
+      "endMs": "323670",
+      "startTimeText": "5:20"
+    },
+    {
+      "text": "So if we go to 10th of January,",
+      "startMs": "323670",
+      "endMs": "326400",
+      "startTimeText": "5:23"
+    },
+    {
+      "text": "but if we open up the CubeBot here,",
+      "startMs": "326400",
+      "endMs": "329280",
+      "startTimeText": "5:26"
+    },
+    {
+      "text": "we see that it sort ofrounds up the number.",
+      "startMs": "329280",
+      "endMs": "332520",
+      "startTimeText": "5:29"
+    },
+    {
+      "text": "So this is something to be aware of.",
+      "startMs": "332520",
+      "endMs": "334020",
+      "startTimeText": "5:32"
+    },
+    {
+      "text": "Okay, cool. We learned that.",
+      "startMs": "334020",
+      "endMs": "335460",
+      "startTimeText": "5:34"
+    },
+    {
+      "text": "Now let's ask it another question.",
+      "startMs": "335460",
+      "endMs": "337140",
+      "startTimeText": "5:35"
+    },
+    {
+      "text": "What is the title with thehighest number of total views",
+      "startMs": "337140",
+      "endMs": "341370",
+      "startTimeText": "5:37"
+    },
+    {
+      "text": "where we have Fabric in the title?",
+      "startMs": "341370",
+      "endMs": "343500",
+      "startTimeText": "5:41"
+    },
+    {
+      "text": "The title with the highestnumber of total views",
+      "startMs": "343500",
+      "endMs": "345270",
+      "startTimeText": "5:43"
+    },
+    {
+      "text": "with Fabric is \"What isMicrosoft Fabric Public Preview\"",
+      "startMs": "345270",
+      "endMs": "348240",
+      "startTimeText": "5:45"
+    },
+    {
+      "text": "with 270,000 views,",
+      "startMs": "348240",
+      "endMs": "350670",
+      "startTimeText": "5:48"
+    },
+    {
+      "text": "and again, we can also checkout the actual DAX query",
+      "startMs": "350670",
+      "endMs": "353100",
+      "startTimeText": "5:50"
+    },
+    {
+      "text": "that was performed,",
+      "startMs": "353100",
+      "endMs": "354450",
+      "startTimeText": "5:53"
+    },
+    {
+      "text": "and let's also double checkand see if it's correct.",
+      "startMs": "354450",
+      "endMs": "356610",
+      "startTimeText": "5:54"
+    },
+    {
+      "text": "So I'm gonna open up New Page here",
+      "startMs": "356610",
+      "endMs": "359130",
+      "startTimeText": "5:56"
+    },
+    {
+      "text": "and here I pulled in Title and Total Views",
+      "startMs": "359130",
+      "endMs": "361860",
+      "startTimeText": "5:59"
+    },
+    {
+      "text": "and also filter on thatthe title contains Fabric,",
+      "startMs": "361860",
+      "endMs": "364527",
+      "startTimeText": "6:01"
+    },
+    {
+      "text": "and you see here we have\"What is Microsoft Fabric\"",
+      "startMs": "364527",
+      "endMs": "366840",
+      "startTimeText": "6:04"
+    },
+    {
+      "text": "as the title will be 270,000 views.",
+      "startMs": "366840",
+      "endMs": "369840",
+      "startTimeText": "6:06"
+    },
+    {
+      "text": "And that was what theCubeBot gave us. Woo hoo!",
+      "startMs": "369840",
+      "endMs": "372450",
+      "startTimeText": "6:09"
+    },
+    {
+      "text": "Okay, so it looks like it's working,",
+      "startMs": "372450",
+      "endMs": "374280",
+      "startTimeText": "6:12"
+    },
+    {
+      "text": "so I'm just gonna publish it as is.",
+      "startMs": "374280",
+      "endMs": "376110",
+      "startTimeText": "6:14"
+    },
+    {
+      "text": "Now we're gonna giveit a great description",
+      "startMs": "376110",
+      "endMs": "377640",
+      "startTimeText": "6:16"
+    },
+    {
+      "text": "so people understandwhat they can use it for.",
+      "startMs": "377640",
+      "endMs": "378850",
+      "startTimeText": "6:17"
+    },
+    {
+      "text": "This is a data agent toanswer questions on YouTube",
+      "startMs": "378850",
+      "endMs": "381690",
+      "startTimeText": "6:18"
+    },
+    {
+      "text": "statistics for \"Guy in a Cube,\"",
+      "startMs": "381690",
+      "endMs": "383220",
+      "startTimeText": "6:21"
+    },
+    {
+      "text": "and I'm just gonna publish that.",
+      "startMs": "383220",
+      "endMs": "384570",
+      "startTimeText": "6:23"
+    },
+    {
+      "text": "So now obviously, we want people",
+      "startMs": "384570",
+      "endMs": "386160",
+      "startTimeText": "6:24"
+    },
+    {
+      "text": "to use this beautiful dataagent to ask questions,",
+      "startMs": "386160",
+      "endMs": "390030",
+      "startTimeText": "6:26"
+    },
+    {
+      "text": "and I want Patrick andAdam, of course, to use it.",
+      "startMs": "390030",
+      "endMs": "392040",
+      "startTimeText": "6:30"
+    },
+    {
+      "text": "So what I can do now isto share the actual agent.",
+      "startMs": "392040",
+      "endMs": "394470",
+      "startTimeText": "6:32"
+    },
+    {
+      "text": "So I'm gonna do that. ClickManage Your Permissions.",
+      "startMs": "394470",
+      "endMs": "397290",
+      "startTimeText": "6:34"
+    },
+    {
+      "text": "Now I want people to have access to this,",
+      "startMs": "397290",
+      "endMs": "400410",
+      "startTimeText": "6:37"
+    },
+    {
+      "text": "so I'm gonna give it to Adam and Patrick,",
+      "startMs": "400410",
+      "endMs": "403710",
+      "startTimeText": "6:40"
+    },
+    {
+      "text": "and then Justin Case, so I'llgrant these people access.",
+      "startMs": "403710",
+      "endMs": "408090",
+      "startTimeText": "6:43"
+    },
+    {
+      "text": "Now, even though I'm giving people access",
+      "startMs": "408090",
+      "endMs": "410310",
+      "startTimeText": "6:48"
+    },
+    {
+      "text": "to the actual agent,",
+      "startMs": "410310",
+      "endMs": "411780",
+      "startTimeText": "6:50"
+    },
+    {
+      "text": "they will not be able to query the agent",
+      "startMs": "411780",
+      "endMs": "413730",
+      "startTimeText": "6:51"
+    },
+    {
+      "text": "unless they have underlyingaccess to the actual data.",
+      "startMs": "413730",
+      "endMs": "416550",
+      "startTimeText": "6:53"
+    },
+    {
+      "text": "Okay, so now I'm gonnalog in as Justin Case.",
+      "startMs": "416550",
+      "endMs": "420660",
+      "startTimeText": "6:56"
+    },
+    {
+      "text": "Let's go to the OneLake Catalog",
+      "startMs": "420660",
+      "endMs": "421980",
+      "startTimeText": "7:00"
+    },
+    {
+      "text": "and see if we can find this AI agent.",
+      "startMs": "421980",
+      "endMs": "424920",
+      "startTimeText": "7:01"
+    },
+    {
+      "text": "So here we see Justin got access to this,",
+      "startMs": "424920",
+      "endMs": "427740",
+      "startTimeText": "7:04"
+    },
+    {
+      "text": "so let's open up the agent,",
+      "startMs": "427740",
+      "endMs": "430020",
+      "startTimeText": "7:07"
+    },
+    {
+      "text": "and now for Justin, he nowsees this chat user interface",
+      "startMs": "430020",
+      "endMs": "433650",
+      "startTimeText": "7:10"
+    },
+    {
+      "text": "so he can just start asking questions.",
+      "startMs": "433650",
+      "endMs": "435600",
+      "startTimeText": "7:13"
+    },
+    {
+      "text": "Justin is really new to this,",
+      "startMs": "435600",
+      "endMs": "437130",
+      "startTimeText": "7:15"
+    },
+    {
+      "text": "so he doesn't even know who we are.",
+      "startMs": "437130",
+      "endMs": "438930",
+      "startTimeText": "7:17"
+    },
+    {
+      "text": "So he's asking who are the hosts?",
+      "startMs": "438930",
+      "endMs": "441330",
+      "startTimeText": "7:18"
+    },
+    {
+      "text": "Yay! (giggles) Okay.",
+      "startMs": "441330",
+      "endMs": "442260",
+      "startTimeText": "7:21"
+    },
+    {
+      "text": "So it actually answered that the hosts",
+      "startMs": "442260",
+      "endMs": "444090",
+      "startTimeText": "7:22"
+    },
+    {
+      "text": "are Patrick, Marthe, or Adam, cool.",
+      "startMs": "444090",
+      "endMs": "446100",
+      "startTimeText": "7:24"
+    },
+    {
+      "text": "Hopefully you're just as impressed as I am",
+      "startMs": "446100",
+      "endMs": "448320",
+      "startTimeText": "7:26"
+    },
+    {
+      "text": "and you're thinking, \"Wow,that was cool, Marthe,\"",
+      "startMs": "448320",
+      "endMs": "450450",
+      "startTimeText": "7:28"
+    },
+    {
+      "text": "but you know what?",
+      "startMs": "450450",
+      "endMs": "451283",
+      "startTimeText": "7:30"
+    },
+    {
+      "text": "There's more.",
+      "startMs": "451283",
+      "endMs": "452116",
+      "startTimeText": "7:31"
+    },
+    {
+      "text": "There's one more thingthat I want to highlight",
+      "startMs": "452116",
+      "endMs": "453810",
+      "startTimeText": "7:32"
+    },
+    {
+      "text": "that you can do,",
+      "startMs": "453810",
+      "endMs": "454770",
+      "startTimeText": "7:33"
+    },
+    {
+      "text": "and that is that you canactually programmatically",
+      "startMs": "454770",
+      "endMs": "457320",
+      "startTimeText": "7:34"
+    },
+    {
+      "text": "use the data agent.(graphics chime)",
+      "startMs": "457320",
+      "endMs": "458550",
+      "startTimeText": "7:37"
+    },
+    {
+      "text": "So there is this beautifulthing called Fabric data agent,",
+      "startMs": "458550",
+      "endMs": "462600",
+      "startTimeText": "7:38"
+    },
+    {
+      "text": "SDK, that you can utilize.",
+      "startMs": "462600",
+      "endMs": "464820",
+      "startTimeText": "7:42"
+    },
+    {
+      "text": "I'm gonna install this SDK.",
+      "startMs": "464820",
+      "endMs": "467157",
+      "startTimeText": "7:44"
+    },
+    {
+      "text": "Now I'm gonna define thename of the data agent",
+      "startMs": "467157",
+      "endMs": "469260",
+      "startTimeText": "7:47"
+    },
+    {
+      "text": "that I'm using and alsogonna define a little pretty",
+      "startMs": "469260",
+      "endMs": "472320",
+      "startTimeText": "7:49"
+    },
+    {
+      "text": "print solution here,",
+      "startMs": "472320",
+      "endMs": "473850",
+      "startTimeText": "7:52"
+    },
+    {
+      "text": "and then I also want to setthe Fabric client instance,",
+      "startMs": "473850",
+      "endMs": "477960",
+      "startTimeText": "7:53"
+    },
+    {
+      "text": "and here you see that Ican actually ask a question",
+      "startMs": "477960",
+      "endMs": "480540",
+      "startTimeText": "7:57"
+    },
+    {
+      "text": "using Python directly,so I'm gonna use that.",
+      "startMs": "480540",
+      "endMs": "482880",
+      "startTimeText": "8:00"
+    },
+    {
+      "text": "I'm gonna ask top five videos",
+      "startMs": "482880",
+      "endMs": "484680",
+      "startTimeText": "8:02"
+    },
+    {
+      "text": "with Fabric in the title by comments,",
+      "startMs": "484680",
+      "endMs": "487650",
+      "startTimeText": "8:04"
+    },
+    {
+      "text": "and let's then retrieve that data",
+      "startMs": "487650",
+      "endMs": "489750",
+      "startTimeText": "8:07"
+    },
+    {
+      "text": "and see what it looks like.",
+      "startMs": "489750",
+      "endMs": "490950",
+      "startTimeText": "8:09"
+    },
+    {
+      "text": "And here you see the result of that.",
+      "startMs": "490950",
+      "endMs": "492420",
+      "startTimeText": "8:10"
+    },
+    {
+      "text": "So the user, which isme, asked top five videos",
+      "startMs": "492420",
+      "endMs": "495060",
+      "startTimeText": "8:12"
+    },
+    {
+      "text": "with Fabric in the title by comments,",
+      "startMs": "495060",
+      "endMs": "496620",
+      "startTimeText": "8:15"
+    },
+    {
+      "text": "and the assistant replied with this.",
+      "startMs": "496620",
+      "endMs": "498630",
+      "startTimeText": "8:16"
+    },
+    {
+      "text": "Another thing that I want to also mention",
+      "startMs": "498630",
+      "endMs": "500370",
+      "startTimeText": "8:18"
+    },
+    {
+      "text": "is that you can consumethe Fabric data agent",
+      "startMs": "500370",
+      "endMs": "503490",
+      "startTimeText": "8:20"
+    },
+    {
+      "text": "through your Azure AI agentsolution or Azure AI foundry.",
+      "startMs": "503490",
+      "endMs": "508440",
+      "startTimeText": "8:23"
+    },
+    {
+      "text": "It doesn't have to onlybe inside of Fabric.",
+      "startMs": "508440",
+      "endMs": "510030",
+      "startTimeText": "8:28"
+    },
+    {
+      "text": "You can utilize this onthe enterprise scale.",
+      "startMs": "510030",
+      "endMs": "512520",
+      "startTimeText": "8:30"
+    },
+    {
+      "text": "That was kind of cool, right?",
+      "startMs": "512520",
+      "endMs": "514170",
+      "startTimeText": "8:32"
+    },
+    {
+      "text": "Obviously, you have somecooler business use cases",
+      "startMs": "514170",
+      "endMs": "516810",
+      "startTimeText": "8:34"
+    },
+    {
+      "text": "that you want to utilize.",
+      "startMs": "516810",
+      "endMs": "518010",
+      "startTimeText": "8:36"
+    },
+    {
+      "text": "Let me know what youthink about data agents.",
+      "startMs": "518010",
+      "endMs": "520770",
+      "startTimeText": "8:38"
+    },
+    {
+      "text": "Are we gonna use it?",
+      "startMs": "520770",
+      "endMs": "521603",
+      "startTimeText": "8:40"
+    },
+    {
+      "text": "What's the use cases you'regonna test it out on?",
+      "startMs": "521603",
+      "endMs": "523980",
+      "startTimeText": "8:41"
+    },
+    {
+      "text": "And as always, remember to check out",
+      "startMs": "523980",
+      "endMs": "525930",
+      "startTimeText": "8:43"
+    },
+    {
+      "text": "all the other videos fromAdam, Patrick, and myself.",
+      "startMs": "525930",
+      "endMs": "528990",
+      "startTimeText": "8:45"
+    },
+    {
+      "text": "I'm sure it's floating one above my head.",
+      "startMs": "528990",
+      "endMs": "530730",
+      "startTimeText": "8:48"
+    },
+    {
+      "text": "We will see you guys.",
+      "startMs": "530730",
+      "endMs": "531933",
+      "startTimeText": "8:50"
+    }
+  ],
+  "transcript_only_text": "- Yooo! I'm Marthe from \"Gal in a Cube.\" There were so many cool things\nreleased at FabCon, right? Was this maybe the coolest one? Fabric data agents. Have you checked it out and\ndived into all of the features? It's like so cool! So of course\nwe have to talk about it. Now, imagine that you have perfect, beautiful Power BI report, you publish it to your Power BI app, and then you have\nconsumers using that data and diving into the insights and so on. But what if people could chat\nand ask questions on that data and then they're like,\n\"Marthe, that already exists. You can do that with Copilot,\" but what if you could\nactually customize that chat to make it perfect for your consumers? And maybe you also had another\nsemantic model or a lakehouse or some other data inside of Fabric or Power BI that you wanted to pull in and make available for that chat, so that people could ask questions and use all that data to make decisions. So, you know what I like to do? Enough of all this talking,\nlet's head over to my laptop. Now, there are some\nprerequisites you need to take into account, so\nwe'll link them somewhere so you can check them out, but then when you've done that, then you can find Data Agents here and you see it's in Purview, but let's just create one. Give it a beautiful name, and here you see this user interface just waiting for us to explore. Now, what type of data\nagent should we create? Well, I have an idea, because if I dive into\nanother workspace here, this workspace called YouTube Metrics, you see here the Patrick\nhas done some amazing work on creating and data engineering and pulling in all\ntypes of data statistics on the \"Guy in a Cube\" YouTube channel. He even pulled in some\nmachine learning things on sentiment analysis. I mean, there's all types\nof different insights here that would be useful to know more about. So, let's create a data agent\nthat is customized perfectly to answer questions\nabout all these metricses on the \"Guy in a Cube\" channel. The first thing we have to\ndo is to add a data source, so let's do that. Now, Patrick has created\nthis Metrics Analytics semantic model with a lot of fact tables, so I'm gonna add that one, and you see here that that\nmodel is going to be added. Now, the next thing we have to do is to actually specify the specific tables that we want to pull in. I want to use the dimension tables and also the fact table on\nthe actual video statistics. That's what I want this data\nagent to be focusing on. And we also created\nsome sentiment analysis on the comments that people were writing on the actual YouTube videos, so I want to pull in data on that as well, so I'm gonna add that. And here again, I'm gonna specify what data I want to pull in and I want to use the Gold_Dimvideos and also the CommentWithSentiment, and you can open up here and see what type of data we have in here. Now, we need to help this\ndata agent become smart. So it's not gonna be smart just like that. For instance, there are some\nthings here like Author, that's actually the name of the person that is commenting. The like count and reply count is likes for the actual comment. The data agent might not\nunderstand just like that, so we need to help it a little bit. Now, as always, I have to just mention this is a great use case for you to be very (giggles) motivated by building beautiful gold\ntables, gold semantic models and so on, with column names\nand tables' names and so on, that makes sense. So the higher quality you\nhave on your data here, the less work you're gonna\ndo on the data agent side. So what we can do is that we can give it some instructions on the side here. Now I know, for instance, that all the video statistic data is actually inside the Metrics\nAnalytics sematic model, so I'm gonna give it a hint on that. Should also help it\nunderstand that for instance, the like count that we have\non the CommentsWithSentiment is the count of likes on one comment. Now, we could also specify that if there are any\nquestions on comments, then Comments Analysis should be used to answer those questions, and then also we have Author here, and if I open up the Gold_Dimvideos, we have hosts, this is either\nPatrick, Marthe, or Adam. Now, another thing I can do is to provide some example queries. So if I click here, I\ncan then add the question and then I will add the actual SQL query that the agents should use\nto answer that question. So the question could be, \"What host is the most popular in regards to average sentiment score?\" Now, I'm gonna add the actual SQL query that is gonna answer that question. Now the more queries like this you add, the better the data agent will perform. Remember, it's still in preview. You can't be crazy complicated with all your questions and so on, and you should of course also test it before you actually use it. So then that's added. So now, let's try and do some tests. Let's ask it some questions. So, what is the total number of views for January 10th, 2025? Here we see it gives an answers. Now if I go down here,\nI can also check out what it actually did, what\nDAX query it was running. So if it's running queries\ntowards the semantic model, it's gonna use DAX. If it's running towards the\nlakehouse, it's gonna use SQL. So let's check if that's correct. I'm gonna open up Power BI report just on top of the semantic model. Let's pull in Total Views and Date. Let's make that a table and have a look. So if we go to 10th of January, but if we open up the CubeBot here, we see that it sort of\nrounds up the number. So this is something to be aware of. Okay, cool. We learned that. Now let's ask it another question. What is the title with the\nhighest number of total views where we have Fabric in the title? The title with the highest\nnumber of total views with Fabric is \"What is\nMicrosoft Fabric Public Preview\" with 270,000 views, and again, we can also check\nout the actual DAX query that was performed, and let's also double check\nand see if it's correct. So I'm gonna open up New Page here and here I pulled in Title and Total Views and also filter on that\nthe title contains Fabric, and you see here we have\n\"What is Microsoft Fabric\" as the title will be 270,000 views. And that was what the\nCubeBot gave us. Woo hoo! Okay, so it looks like it's working, so I'm just gonna publish it as is. Now we're gonna give\nit a great description so people understand\nwhat they can use it for. This is a data agent to\nanswer questions on YouTube statistics for \"Guy in a Cube,\" and I'm just gonna publish that. So now obviously, we want people to use this beautiful data\nagent to ask questions, and I want Patrick and\nAdam, of course, to use it. So what I can do now is\nto share the actual agent. So I'm gonna do that. Click\nManage Your Permissions. Now I want people to have access to this, so I'm gonna give it to Adam and Patrick, and then Justin Case, so I'll\ngrant these people access. Now, even though I'm giving people access to the actual agent, they will not be able to query the agent unless they have underlying\naccess to the actual data. Okay, so now I'm gonna\nlog in as Justin Case. Let's go to the OneLake Catalog and see if we can find this AI agent. So here we see Justin got access to this, so let's open up the agent, and now for Justin, he now\nsees this chat user interface so he can just start asking questions. Justin is really new to this, so he doesn't even know who we are. So he's asking who are the hosts? Yay! (giggles) Okay. So it actually answered that the hosts are Patrick, Marthe, or Adam, cool. Hopefully you're just as impressed as I am and you're thinking, \"Wow,\nthat was cool, Marthe,\" but you know what? There's more. There's one more thing\nthat I want to highlight that you can do, and that is that you can\nactually programmatically use the data agent.\n(graphics chime) So there is this beautiful\nthing called Fabric data agent, SDK, that you can utilize. I'm gonna install this SDK. Now I'm gonna define the\nname of the data agent that I'm using and also\ngonna define a little pretty print solution here, and then I also want to set\nthe Fabric client instance, and here you see that I\ncan actually ask a question using Python directly,\nso I'm gonna use that. I'm gonna ask top five videos with Fabric in the title by comments, and let's then retrieve that data and see what it looks like. And here you see the result of that. So the user, which is\nme, asked top five videos with Fabric in the title by comments, and the assistant replied with this. Another thing that I want to also mention is that you can consume\nthe Fabric data agent through your Azure AI agent\nsolution or Azure AI foundry. It doesn't have to only\nbe inside of Fabric. You can utilize this on\nthe enterprise scale. That was kind of cool, right? Obviously, you have some\ncooler business use cases that you want to utilize. Let me know what you\nthink about data agents. Are we gonna use it? What's the use cases you're\ngonna test it out on? And as always, remember to check out all the other videos from\nAdam, Patrick, and myself. I'm sure it's floating one above my head. We will see you guys.",
+  "language": "English",
+  "videoId": "mFoSVcj6tLw",
+  "captionTracks": [
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=mFoSVcj6tLw&ei=gHnZaoT-KbiX2_gPkfS58QE&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662512&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=18DABC815D921A18C7A503ED4C0BCA492BCA5B04.EC3CC60544D8817FFC357B39ED46F82D9F52D2CB&key=yt8&lang=en",
+      "name": {
+        "simpleText": "English"
+      },
+      "vssId": ".en",
+      "languageCode": "en",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=mFoSVcj6tLw&ei=gHnZaoT-KbiX2_gPkfS58QE&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662512&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=18DABC815D921A18C7A503ED4C0BCA492BCA5B04.EC3CC60544D8817FFC357B39ED46F82D9F52D2CB&key=yt8&kind=asr&lang=en",
+      "name": {
+        "simpleText": "English (auto-generated)"
+      },
+      "vssId": "a.en",
+      "languageCode": "en",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    }
+  ]
+}

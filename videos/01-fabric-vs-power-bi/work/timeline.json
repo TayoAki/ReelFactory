@@ -1,0 +1,668 @@
+{
+  "id": "01-fabric-vs-power-bi",
+  "title": "Fabric vs Power BI",
+  "duration": 38.3573,
+  "beats": [
+    {
+      "text": "Microsoft Fabric versus Power BI? Power BI is already inside Fabric.",
+      "asset": "architecture",
+      "device": "tile",
+      "key": "Power BI",
+      "start": 0.0,
+      "end": 5.088,
+      "voice_end": 4.928
+    },
+    {
+      "text": "Power BI handles reports. Fabric covers the workflow around those reports.",
+      "asset": "architecture",
+      "device": "focus",
+      "key": "Microsoft Fabric",
+      "start": 5.088,
+      "end": 10.0693,
+      "voice_end": 9.9093
+    },
+    {
+      "text": "Getting data in. Storing it. Transforming it. Then serving the result.",
+      "asset": "onelake",
+      "device": "sequence",
+      "start": 10.0693,
+      "end": 14.24,
+      "voice_end": 14.08
+    },
+    {
+      "text": "OneLake gives those workloads a shared, logical data lake.",
+      "asset": "onelake",
+      "device": "focus",
+      "key": "OneLake",
+      "start": 14.24,
+      "end": 17.856,
+      "voice_end": 17.696
+    },
+    {
+      "text": "Direct Lake can read Delta tables without importing an entire copy into the model.",
+      "asset": "directlake",
+      "device": "focus",
+      "key": "Direct Lake",
+      "start": 17.856,
+      "end": 22.7093,
+      "voice_end": 22.5493
+    },
+    {
+      "text": "A Direct Lake refresh still exists. It updates metadata, rather than copying the whole dataset.",
+      "asset": "framing",
+      "device": "sequence",
+      "start": 22.7093,
+      "end": 28.5867,
+      "voice_end": 28.4267
+    },
+    {
+      "text": "Already know Power BI? Keep it. Add SQL, a lakehouse, and an ingestion pipeline.",
+      "asset": "architecture",
+      "device": "sequence",
+      "start": 28.5867,
+      "end": 34.1653,
+      "voice_end": 34.0053
+    },
+    {
+      "text": "Start with one end to end workflow. Follow the data into the report.",
+      "asset": "onelake",
+      "device": "focus",
+      "start": 34.1653,
+      "end": 38.3573,
+      "voice_end": 38.1973
+    }
+  ],
+  "words": [
+    {
+      "w": "Microsoft",
+      "s": 0.0,
+      "e": 0.56,
+      "alignment": "asr"
+    },
+    {
+      "w": "Fabric",
+      "s": 0.56,
+      "e": 1.0,
+      "alignment": "asr"
+    },
+    {
+      "w": "versus",
+      "s": 1.0,
+      "e": 1.42,
+      "alignment": "asr"
+    },
+    {
+      "w": "Power",
+      "s": 1.42,
+      "e": 1.82,
+      "alignment": "asr"
+    },
+    {
+      "w": "BI?",
+      "s": 1.82,
+      "e": 2.6,
+      "alignment": "asr"
+    },
+    {
+      "w": "Power",
+      "s": 2.6,
+      "e": 2.94,
+      "alignment": "asr"
+    },
+    {
+      "w": "BI",
+      "s": 2.94,
+      "e": 3.32,
+      "alignment": "asr"
+    },
+    {
+      "w": "is",
+      "s": 3.32,
+      "e": 3.66,
+      "alignment": "asr"
+    },
+    {
+      "w": "already",
+      "s": 3.66,
+      "e": 3.9,
+      "alignment": "asr"
+    },
+    {
+      "w": "inside",
+      "s": 3.9,
+      "e": 4.42,
+      "alignment": "asr"
+    },
+    {
+      "w": "Fabric.",
+      "s": 4.42,
+      "e": 4.928,
+      "alignment": "asr"
+    },
+    {
+      "w": "Power",
+      "s": 5.088,
+      "e": 5.448,
+      "alignment": "asr"
+    },
+    {
+      "w": "BI",
+      "s": 5.448,
+      "e": 5.968,
+      "alignment": "asr"
+    },
+    {
+      "w": "handles",
+      "s": 5.968,
+      "e": 6.428,
+      "alignment": "asr"
+    },
+    {
+      "w": "reports.",
+      "s": 6.428,
+      "e": 7.868,
+      "alignment": "asr"
+    },
+    {
+      "w": "Fabric",
+      "s": 7.868,
+      "e": 7.868,
+      "alignment": "asr"
+    },
+    {
+      "w": "covers",
+      "s": 7.868,
+      "e": 8.168,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 8.168,
+      "e": 8.808,
+      "alignment": "asr"
+    },
+    {
+      "w": "workflow",
+      "s": 8.808,
+      "e": 8.808,
+      "alignment": "asr"
+    },
+    {
+      "w": "around",
+      "s": 8.808,
+      "e": 9.108,
+      "alignment": "asr"
+    },
+    {
+      "w": "those",
+      "s": 9.108,
+      "e": 9.388,
+      "alignment": "asr"
+    },
+    {
+      "w": "reports.",
+      "s": 9.388,
+      "e": 9.9093,
+      "alignment": "asr"
+    },
+    {
+      "w": "Getting",
+      "s": 10.069333333333333,
+      "e": 10.409333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "data",
+      "s": 10.409333333333333,
+      "e": 10.729333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "in.",
+      "s": 10.729333333333333,
+      "e": 11.349333333333332,
+      "alignment": "asr"
+    },
+    {
+      "w": "Storing",
+      "s": 11.349333333333332,
+      "e": 11.589333333333332,
+      "alignment": "asr"
+    },
+    {
+      "w": "it.",
+      "s": 11.589333333333332,
+      "e": 12.189333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "Transforming",
+      "s": 12.189333333333334,
+      "e": 12.429333333333332,
+      "alignment": "asr"
+    },
+    {
+      "w": "it.",
+      "s": 12.429333333333332,
+      "e": 13.129333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "Then",
+      "s": 13.129333333333333,
+      "e": 13.189333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "serving",
+      "s": 13.189333333333334,
+      "e": 13.449333333333332,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 13.449333333333332,
+      "e": 13.689333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "result.",
+      "s": 13.689333333333334,
+      "e": 14.080033333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "OneLake",
+      "s": 14.239999999999998,
+      "e": 14.719999999999999,
+      "alignment": "asr"
+    },
+    {
+      "w": "gives",
+      "s": 14.719999999999999,
+      "e": 14.939999999999998,
+      "alignment": "asr"
+    },
+    {
+      "w": "those",
+      "s": 14.939999999999998,
+      "e": 15.179999999999998,
+      "alignment": "asr"
+    },
+    {
+      "w": "workloads",
+      "s": 15.179999999999998,
+      "e": 15.899999999999999,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 15.899999999999999,
+      "e": 16.02,
+      "alignment": "asr"
+    },
+    {
+      "w": "shared,",
+      "s": 16.02,
+      "e": 16.619999999999997,
+      "alignment": "asr"
+    },
+    {
+      "w": "logical",
+      "s": 16.619999999999997,
+      "e": 17.06,
+      "alignment": "asr"
+    },
+    {
+      "w": "data",
+      "s": 17.06,
+      "e": 17.38,
+      "alignment": "asr"
+    },
+    {
+      "w": "lake.",
+      "s": 17.38,
+      "e": 17.695999999999998,
+      "alignment": "asr"
+    },
+    {
+      "w": "Direct",
+      "s": 17.855999999999998,
+      "e": 18.255999999999997,
+      "alignment": "asr"
+    },
+    {
+      "w": "Lake",
+      "s": 18.255999999999997,
+      "e": 18.476,
+      "alignment": "asr"
+    },
+    {
+      "w": "can",
+      "s": 18.476,
+      "e": 18.715999999999998,
+      "alignment": "asr"
+    },
+    {
+      "w": "read",
+      "s": 18.715999999999998,
+      "e": 18.976,
+      "alignment": "asr"
+    },
+    {
+      "w": "Delta",
+      "s": 18.976,
+      "e": 19.235999999999997,
+      "alignment": "asr"
+    },
+    {
+      "w": "tables",
+      "s": 19.235999999999997,
+      "e": 19.676,
+      "alignment": "asr"
+    },
+    {
+      "w": "without",
+      "s": 19.676,
+      "e": 20.355999999999998,
+      "alignment": "asr"
+    },
+    {
+      "w": "importing",
+      "s": 20.355999999999998,
+      "e": 20.836,
+      "alignment": "asr"
+    },
+    {
+      "w": "an",
+      "s": 20.836,
+      "e": 21.176,
+      "alignment": "asr"
+    },
+    {
+      "w": "entire",
+      "s": 21.176,
+      "e": 21.516,
+      "alignment": "asr"
+    },
+    {
+      "w": "copy",
+      "s": 21.516,
+      "e": 21.875999999999998,
+      "alignment": "asr"
+    },
+    {
+      "w": "into",
+      "s": 21.875999999999998,
+      "e": 22.095999999999997,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 22.095999999999997,
+      "e": 22.316,
+      "alignment": "asr"
+    },
+    {
+      "w": "model.",
+      "s": 22.316,
+      "e": 22.5493,
+      "alignment": "asr"
+    },
+    {
+      "w": "A",
+      "s": 22.709333333333333,
+      "e": 22.969333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "Direct",
+      "s": 22.969333333333335,
+      "e": 23.249333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "Lake",
+      "s": 23.249333333333333,
+      "e": 23.449333333333332,
+      "alignment": "asr"
+    },
+    {
+      "w": "refresh",
+      "s": 23.449333333333332,
+      "e": 23.829333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "still",
+      "s": 23.829333333333334,
+      "e": 24.189333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "exists.",
+      "s": 24.189333333333334,
+      "e": 25.349333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "It",
+      "s": 25.349333333333334,
+      "e": 25.349333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "updates",
+      "s": 25.349333333333334,
+      "e": 25.689333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "metadata,",
+      "s": 25.689333333333334,
+      "e": 26.649333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "rather",
+      "s": 26.649333333333335,
+      "e": 26.829333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "than",
+      "s": 26.829333333333334,
+      "e": 27.029333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "copying",
+      "s": 27.029333333333334,
+      "e": 27.329333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 27.329333333333334,
+      "e": 27.629333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "whole",
+      "s": 27.629333333333335,
+      "e": 27.889333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "dataset.",
+      "s": 27.889333333333333,
+      "e": 28.426633333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "Already",
+      "s": 28.586666666666666,
+      "e": 28.946666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "know",
+      "s": 28.946666666666665,
+      "e": 29.246666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "Power",
+      "s": 29.246666666666666,
+      "e": 29.506666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "BI?",
+      "s": 29.506666666666668,
+      "e": 30.126666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "Keep",
+      "s": 30.126666666666665,
+      "e": 30.306666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "it.",
+      "s": 30.306666666666665,
+      "e": 31.266666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "Add",
+      "s": 31.266666666666666,
+      "e": 31.266666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "SQL,",
+      "s": 31.266666666666666,
+      "e": 32.026666666666664,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 32.026666666666664,
+      "e": 32.10666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "lakehouse,",
+      "s": 32.10666666666667,
+      "e": 32.70666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 32.70666666666666,
+      "e": 32.82666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "an",
+      "s": 32.82666666666667,
+      "e": 32.986666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "ingestion",
+      "s": 32.986666666666665,
+      "e": 33.36666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "pipeline.",
+      "s": 33.36666666666667,
+      "e": 34.00536666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "Start",
+      "s": 34.165333333333336,
+      "e": 34.50533333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "with",
+      "s": 34.50533333333334,
+      "e": 34.76533333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "one",
+      "s": 34.76533333333334,
+      "e": 35.00533333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "end",
+      "s": 35.00533333333334,
+      "e": 35.245333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "to",
+      "s": 35.245333333333335,
+      "e": 35.425333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "end",
+      "s": 35.425333333333334,
+      "e": 35.665333333333336,
+      "alignment": "asr"
+    },
+    {
+      "w": "workflow.",
+      "s": 35.665333333333336,
+      "e": 36.605333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "Follow",
+      "s": 36.605333333333334,
+      "e": 36.80533333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 36.80533333333334,
+      "e": 37.04533333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "data",
+      "s": 37.04533333333334,
+      "e": 37.285333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "into",
+      "s": 37.285333333333334,
+      "e": 37.58533333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 37.58533333333334,
+      "e": 37.785333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "report.",
+      "s": 37.785333333333334,
+      "e": 38.19733333333333,
+      "alignment": "asr"
+    }
+  ],
+  "voice": "Local Kokoro af_heart, synthetic review voice",
+  "alignment_note": "Whisper tiny.en word timestamps, with interpolated unmatched words explicitly flagged. Not manually verified to +/- one frame.",
+  "script_sha256": "420483b939d5995927cc2f224ef6c5b3def15aafa481857b7e91d0eafd4a1d28"
+}

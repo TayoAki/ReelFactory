@@ -1,0 +1,39 @@
+{
+  "source": "https://data.cityofnewyork.us/resource/erm2-nwe9.json",
+  "query": {
+    "$select": "date_extract_dow(created_date) as day,count(*) as total",
+    "$where": "created_date >= '2025-10-01T00:00:00' AND created_date < '2026-10-01T00:00:00' AND complaint_type = 'Noise - Residential'",
+    "$group": "day",
+    "$order": "total DESC"
+  },
+  "results": [
+    {
+      "day": "0",
+      "total": "87909"
+    },
+    {
+      "day": "6",
+      "total": "82975"
+    },
+    {
+      "day": "5",
+      "total": "56168"
+    },
+    {
+      "day": "1",
+      "total": "53531"
+    },
+    {
+      "day": "3",
+      "total": "51514"
+    },
+    {
+      "day": "2",
+      "total": "51286"
+    },
+    {
+      "day": "4",
+      "total": "49048"
+    }
+  ]
+}

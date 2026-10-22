@@ -1,0 +1,781 @@
+{
+  "id": "04-direct-lake-question",
+  "title": "The Direct Lake interview question",
+  "duration": 41.952,
+  "beats": [
+    {
+      "text": "A Fabric interview question. Your sales data is stored as Delta tables in OneLake.",
+      "asset": "directlake",
+      "device": "tile",
+      "start": 0.0,
+      "end": 5.3227,
+      "voice_end": 5.1627
+    },
+    {
+      "text": "You want import style query performance without copying the entire dataset into the model.",
+      "asset": "directlake",
+      "device": "focus",
+      "start": 5.3227,
+      "end": 10.688,
+      "voice_end": 10.528
+    },
+    {
+      "text": "Which storage mode fits? Import? Direct Query? Or Direct Lake?",
+      "asset": "directlake",
+      "device": "quiz",
+      "start": 10.688,
+      "end": 14.688,
+      "voice_end": 14.528
+    },
+    {
+      "text": "Pause here and choose your answer.",
+      "asset": "directlake",
+      "device": "focus",
+      "start": 14.688,
+      "end": 16.448,
+      "voice_end": 16.288
+    },
+    {
+      "text": "Direct Lake. It loads the columns needed for queries from Delta tables in OneLake.",
+      "asset": "directlake",
+      "device": "focus",
+      "key": "Direct Lake",
+      "start": 16.448,
+      "end": 21.408,
+      "voice_end": 21.248
+    },
+    {
+      "text": "A refresh updates metadata. It does not import the entire dataset again.",
+      "asset": "framing",
+      "device": "sequence",
+      "start": 21.408,
+      "end": 26.048,
+      "voice_end": 25.888
+    },
+    {
+      "text": "Here is the detail to check. Direct Lake on SQL can fall back to Direct Query.",
+      "asset": "directlake",
+      "device": "focus",
+      "start": 26.048,
+      "end": 31.2427,
+      "voice_end": 31.0827
+    },
+    {
+      "text": "Direct Lake on OneLake does not use that fallback. Their security behavior differs too.",
+      "asset": "framing",
+      "device": "sequence",
+      "start": 31.2427,
+      "end": 36.2027,
+      "voice_end": 36.0427
+    },
+    {
+      "text": "Read the comparison before choosing a mode. The correct design depends on the source and permissions.",
+      "asset": "directlake",
+      "device": "focus",
+      "start": 36.2027,
+      "end": 41.952,
+      "voice_end": 41.792
+    }
+  ],
+  "words": [
+    {
+      "w": "A",
+      "s": 0.0,
+      "e": 0.26,
+      "alignment": "asr"
+    },
+    {
+      "w": "Fabric",
+      "s": 0.26,
+      "e": 0.56,
+      "alignment": "asr"
+    },
+    {
+      "w": "interview",
+      "s": 0.56,
+      "e": 0.94,
+      "alignment": "asr"
+    },
+    {
+      "w": "question.",
+      "s": 0.94,
+      "e": 2.02,
+      "alignment": "asr"
+    },
+    {
+      "w": "Your",
+      "s": 2.02,
+      "e": 2.2,
+      "alignment": "asr"
+    },
+    {
+      "w": "sales",
+      "s": 2.2,
+      "e": 2.5,
+      "alignment": "asr"
+    },
+    {
+      "w": "data",
+      "s": 2.5,
+      "e": 2.94,
+      "alignment": "asr"
+    },
+    {
+      "w": "is",
+      "s": 2.94,
+      "e": 3.24,
+      "alignment": "asr"
+    },
+    {
+      "w": "stored",
+      "s": 3.24,
+      "e": 3.42,
+      "alignment": "asr"
+    },
+    {
+      "w": "as",
+      "s": 3.42,
+      "e": 3.94,
+      "alignment": "asr"
+    },
+    {
+      "w": "Delta",
+      "s": 3.94,
+      "e": 3.96,
+      "alignment": "asr"
+    },
+    {
+      "w": "tables",
+      "s": 3.96,
+      "e": 4.34,
+      "alignment": "asr"
+    },
+    {
+      "w": "in",
+      "s": 4.34,
+      "e": 4.7,
+      "alignment": "asr"
+    },
+    {
+      "w": "OneLake.",
+      "s": 4.7,
+      "e": 5.1627,
+      "alignment": "asr"
+    },
+    {
+      "w": "You",
+      "s": 5.322666666666667,
+      "e": 5.562666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "want",
+      "s": 5.562666666666667,
+      "e": 5.862666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "import",
+      "s": 5.862666666666667,
+      "e": 6.262666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "style",
+      "s": 6.262666666666666,
+      "e": 6.7026666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "query",
+      "s": 6.7026666666666666,
+      "e": 7.022666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "performance",
+      "s": 7.022666666666667,
+      "e": 7.582666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "without",
+      "s": 7.582666666666666,
+      "e": 8.262666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "copying",
+      "s": 8.262666666666666,
+      "e": 8.682666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 8.682666666666666,
+      "e": 9.302666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "entire",
+      "s": 9.302666666666667,
+      "e": 9.342666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "dataset",
+      "s": 9.342666666666666,
+      "e": 9.742666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "into",
+      "s": 9.742666666666667,
+      "e": 10.042666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 10.042666666666666,
+      "e": 10.242666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "model.",
+      "s": 10.242666666666667,
+      "e": 10.527966666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "Which",
+      "s": 10.687999999999999,
+      "e": 10.967999999999998,
+      "alignment": "asr"
+    },
+    {
+      "w": "storage",
+      "s": 10.967999999999998,
+      "e": 11.287999999999998,
+      "alignment": "asr"
+    },
+    {
+      "w": "mode",
+      "s": 11.287999999999998,
+      "e": 11.607999999999999,
+      "alignment": "asr"
+    },
+    {
+      "w": "fits?",
+      "s": 11.607999999999999,
+      "e": 12.328,
+      "alignment": "asr"
+    },
+    {
+      "w": "Import?",
+      "s": 12.328,
+      "e": 13.227999999999998,
+      "alignment": "asr"
+    },
+    {
+      "w": "Direct",
+      "s": 13.227999999999998,
+      "e": 13.227999999999998,
+      "alignment": "asr"
+    },
+    {
+      "w": "Query?",
+      "s": 13.227999999999998,
+      "e": 13.887999999999998,
+      "alignment": "asr"
+    },
+    {
+      "w": "Or",
+      "s": 13.887999999999998,
+      "e": 13.967999999999998,
+      "alignment": "asr"
+    },
+    {
+      "w": "Direct",
+      "s": 13.967999999999998,
+      "e": 14.227999999999998,
+      "alignment": "asr"
+    },
+    {
+      "w": "Lake?",
+      "s": 14.227999999999998,
+      "e": 14.527999999999999,
+      "alignment": "asr"
+    },
+    {
+      "w": "Pause",
+      "s": 14.687999999999999,
+      "e": 15.068,
+      "alignment": "asr"
+    },
+    {
+      "w": "here",
+      "s": 15.068,
+      "e": 15.287999999999998,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 15.287999999999998,
+      "e": 15.488,
+      "alignment": "asr"
+    },
+    {
+      "w": "choose",
+      "s": 15.488,
+      "e": 15.668,
+      "alignment": "asr"
+    },
+    {
+      "w": "your",
+      "s": 15.668,
+      "e": 15.927999999999999,
+      "alignment": "asr"
+    },
+    {
+      "w": "answer.",
+      "s": 15.927999999999999,
+      "e": 16.288,
+      "alignment": "asr"
+    },
+    {
+      "w": "Direct",
+      "s": 16.448,
+      "e": 16.848,
+      "alignment": "asr"
+    },
+    {
+      "w": "Lake.",
+      "s": 16.848,
+      "e": 17.488,
+      "alignment": "asr"
+    },
+    {
+      "w": "It",
+      "s": 17.488,
+      "e": 17.628,
+      "alignment": "asr"
+    },
+    {
+      "w": "loads",
+      "s": 17.628,
+      "e": 17.868000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 17.868000000000002,
+      "e": 18.468,
+      "alignment": "asr"
+    },
+    {
+      "w": "columns",
+      "s": 18.468,
+      "e": 18.468,
+      "alignment": "asr"
+    },
+    {
+      "w": "needed",
+      "s": 18.468,
+      "e": 18.828,
+      "alignment": "asr"
+    },
+    {
+      "w": "for",
+      "s": 18.828,
+      "e": 19.088,
+      "alignment": "asr"
+    },
+    {
+      "w": "queries",
+      "s": 19.088,
+      "e": 19.348,
+      "alignment": "asr"
+    },
+    {
+      "w": "from",
+      "s": 19.348,
+      "e": 19.728,
+      "alignment": "asr"
+    },
+    {
+      "w": "Delta",
+      "s": 19.728,
+      "e": 20.028,
+      "alignment": "asr"
+    },
+    {
+      "w": "tables",
+      "s": 20.028,
+      "e": 20.408,
+      "alignment": "asr"
+    },
+    {
+      "w": "in",
+      "s": 20.408,
+      "e": 20.788,
+      "alignment": "asr"
+    },
+    {
+      "w": "OneLake.",
+      "s": 20.788,
+      "e": 21.248,
+      "alignment": "asr"
+    },
+    {
+      "w": "A",
+      "s": 21.408,
+      "e": 21.668000000000003,
+      "alignment": "asr"
+    },
+    {
+      "w": "refresh",
+      "s": 21.668000000000003,
+      "e": 22.068,
+      "alignment": "asr"
+    },
+    {
+      "w": "updates",
+      "s": 22.068,
+      "e": 22.548000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "metadata.",
+      "s": 22.548000000000002,
+      "e": 23.548000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "It",
+      "s": 23.548000000000002,
+      "e": 23.688000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "does",
+      "s": 23.688000000000002,
+      "e": 23.848000000000003,
+      "alignment": "asr"
+    },
+    {
+      "w": "not",
+      "s": 23.848000000000003,
+      "e": 24.108,
+      "alignment": "asr"
+    },
+    {
+      "w": "import",
+      "s": 24.108,
+      "e": 24.368000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 24.368000000000002,
+      "e": 25.008000000000003,
+      "alignment": "asr"
+    },
+    {
+      "w": "entire",
+      "s": 25.008000000000003,
+      "e": 25.028000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "dataset",
+      "s": 25.028000000000002,
+      "e": 25.408,
+      "alignment": "asr"
+    },
+    {
+      "w": "again.",
+      "s": 25.408,
+      "e": 25.888,
+      "alignment": "asr"
+    },
+    {
+      "w": "Here",
+      "s": 26.048000000000002,
+      "e": 26.388,
+      "alignment": "asr"
+    },
+    {
+      "w": "is",
+      "s": 26.388,
+      "e": 26.588,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 26.588,
+      "e": 26.828000000000003,
+      "alignment": "asr"
+    },
+    {
+      "w": "detail",
+      "s": 26.828000000000003,
+      "e": 27.028000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "to",
+      "s": 27.028000000000002,
+      "e": 27.368000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "check.",
+      "s": 27.368000000000002,
+      "e": 28.148000000000003,
+      "alignment": "asr"
+    },
+    {
+      "w": "Direct",
+      "s": 28.148000000000003,
+      "e": 28.428,
+      "alignment": "asr"
+    },
+    {
+      "w": "Lake",
+      "s": 28.428,
+      "e": 28.588,
+      "alignment": "asr"
+    },
+    {
+      "w": "on",
+      "s": 28.588,
+      "e": 28.848000000000003,
+      "alignment": "asr"
+    },
+    {
+      "w": "SQL",
+      "s": 28.848000000000003,
+      "e": 29.228,
+      "alignment": "asr"
+    },
+    {
+      "w": "can",
+      "s": 29.228,
+      "e": 29.668000000000003,
+      "alignment": "asr"
+    },
+    {
+      "w": "fall",
+      "s": 29.668000000000003,
+      "e": 29.868000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "back",
+      "s": 29.868000000000002,
+      "e": 30.148000000000003,
+      "alignment": "asr"
+    },
+    {
+      "w": "to",
+      "s": 30.148000000000003,
+      "e": 30.348000000000003,
+      "alignment": "asr"
+    },
+    {
+      "w": "Direct",
+      "s": 30.348000000000003,
+      "e": 30.648000000000003,
+      "alignment": "asr"
+    },
+    {
+      "w": "Query.",
+      "s": 30.648000000000003,
+      "e": 31.082700000000003,
+      "alignment": "asr"
+    },
+    {
+      "w": "Direct",
+      "s": 31.24266666666667,
+      "e": 31.66266666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "Lake",
+      "s": 31.66266666666667,
+      "e": 31.84266666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "on",
+      "s": 31.84266666666667,
+      "e": 32.04266666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "OneLake",
+      "s": 32.04266666666667,
+      "e": 32.46266666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "does",
+      "s": 32.46266666666667,
+      "e": 32.76266666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "not",
+      "s": 32.76266666666667,
+      "e": 32.98266666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "use",
+      "s": 32.98266666666667,
+      "e": 33.18266666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "that",
+      "s": 33.18266666666667,
+      "e": 33.46266666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "fallback.",
+      "s": 33.46266666666667,
+      "e": 34.26266666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "Their",
+      "s": 34.26266666666667,
+      "e": 34.44266666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "security",
+      "s": 34.44266666666667,
+      "e": 34.78266666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "behavior",
+      "s": 34.78266666666667,
+      "e": 35.32266666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "differs",
+      "s": 35.32266666666667,
+      "e": 35.56266666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "too.",
+      "s": 35.56266666666667,
+      "e": 36.04266666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "Read",
+      "s": 36.202666666666666,
+      "e": 36.522666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 36.522666666666666,
+      "e": 36.72266666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "comparison",
+      "s": 36.72266666666667,
+      "e": 37.14266666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "before",
+      "s": 37.14266666666666,
+      "e": 37.64266666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "choosing",
+      "s": 37.64266666666666,
+      "e": 37.962666666666664,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 37.962666666666664,
+      "e": 38.18266666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "mode.",
+      "s": 38.18266666666666,
+      "e": 39.022666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "The",
+      "s": 39.022666666666666,
+      "e": 39.14266666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "correct",
+      "s": 39.14266666666666,
+      "e": 39.40266666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "design",
+      "s": 39.40266666666667,
+      "e": 39.962666666666664,
+      "alignment": "asr"
+    },
+    {
+      "w": "depends",
+      "s": 39.962666666666664,
+      "e": 40.26266666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "on",
+      "s": 40.26266666666667,
+      "e": 40.50266666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 40.50266666666666,
+      "e": 40.72266666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "source",
+      "s": 40.72266666666667,
+      "e": 41.00266666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 41.00266666666666,
+      "e": 41.26266666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "permissions.",
+      "s": 41.26266666666667,
+      "e": 41.79196666666667,
+      "alignment": "asr"
+    }
+  ],
+  "voice": "Local Kokoro af_heart, synthetic review voice",
+  "alignment_note": "Whisper tiny.en word timestamps, with interpolated unmatched words explicitly flagged. Not manually verified to +/- one frame.",
+  "script_sha256": "cb77dd56e2ba7dc4735350c7388a4c83a021f06af5e9d5421070b35c96b4ef51"
+}

@@ -1,0 +1,17 @@
+A Fabric interview question. Your sales data is stored as Delta tables in OneLake.
+
+You want import style query performance without copying the entire dataset into the model.
+
+Which storage mode fits? Import? Direct Query? Or Direct Lake?
+
+Pause here and choose your answer.
+
+Direct Lake. It loads the columns needed for queries from Delta tables in OneLake.
+
+A refresh updates metadata. It does not import the entire dataset again.
+
+Here is the detail to check. Direct Lake on SQL can fall back to Direct Query.
+
+Direct Lake on OneLake does not use that fallback. Their security behavior differs too.
+
+Read the comparison before choosing a mode. The correct design depends on the source and permissions.

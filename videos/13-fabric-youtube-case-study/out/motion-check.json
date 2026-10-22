@@ -1,0 +1,86 @@
+{
+  "method": "Two decoded final-video frames per genuine demo segment; compare RGB pixel differences inside the video region, excluding captions and title",
+  "checks": [
+    {
+      "asset": "demo-01.mp4",
+      "times": [
+        0.9,
+        3.6
+      ],
+      "fraction_of_region_pixels_changed_over_10": 0.285116,
+      "visible_change": true
+    },
+    {
+      "asset": "demo-02.mp4",
+      "times": [
+        8.2,
+        10.9
+      ],
+      "fraction_of_region_pixels_changed_over_10": 0.019745,
+      "visible_change": true
+    },
+    {
+      "asset": "demo-03.mp4",
+      "times": [
+        16.526666666666667,
+        19.406666666666666
+      ],
+      "fraction_of_region_pixels_changed_over_10": 0.01353,
+      "visible_change": true
+    },
+    {
+      "asset": "demo-04.mp4",
+      "times": [
+        27.113333333333333,
+        31.153333333333332
+      ],
+      "fraction_of_region_pixels_changed_over_10": 0.117755,
+      "visible_change": true
+    },
+    {
+      "asset": "demo-05.mp4",
+      "times": [
+        33.24,
+        35.46
+      ],
+      "fraction_of_region_pixels_changed_over_10": 0.004444,
+      "visible_change": true
+    },
+    {
+      "asset": "demo-06.mp4",
+      "times": [
+        36.760000000000005,
+        38.44
+      ],
+      "fraction_of_region_pixels_changed_over_10": 0.019468,
+      "visible_change": true
+    },
+    {
+      "asset": "demo-07.mp4",
+      "times": [
+        39.98,
+        42.92
+      ],
+      "fraction_of_region_pixels_changed_over_10": 0.340359,
+      "visible_change": true
+    },
+    {
+      "asset": "demo-08.mp4",
+      "times": [
+        47.79333333333333,
+        50.07333333333334
+      ],
+      "fraction_of_region_pixels_changed_over_10": 0.001204,
+      "visible_change": true
+    },
+    {
+      "asset": "demo-09.mp4",
+      "times": [
+        51.593333333333334,
+        53.873333333333335
+      ],
+      "fraction_of_region_pixels_changed_over_10": 0.234965,
+      "visible_change": true
+    }
+  ]
+}

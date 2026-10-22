@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=1920, height=1080">
+<title>Microsoft Fabric / what a real demo teaches</title>
+<link rel="stylesheet" href="assets/ev1/tokens.css">
+<script src="assets/ev1/vendor/gsap.min.js"></script>
+<style>
+html,body{margin:0;background:#000}
+#root{position:relative;width:100%;height:100%;overflow:hidden;background:var(--ev1-black)}
+*{box-sizing:border-box}html,body{width:1920px;height:1080px;font-family:var(--ev1-sans)}:root{--ev1-cap-size:37px}.scene{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 0%,#4a2873,#24103e 55%,#130b21);color:white}.brand{position:absolute;left:72px;top:27px;font-size:20px;letter-spacing:.12em;color:#d6c6f5}.tag{position:absolute;right:72px;top:27px;font-size:18px;color:#d6c6f5}.title{position:absolute;left:72px;top:73px;width:1776px;height:62px;font-size:43px;line-height:1.3;font-weight:700;letter-spacing:-.025em}.credit{position:absolute;left:72px;top:1033px;font-size:16px;color:#d6c6f5}.provenance{position:absolute;left:96px;top:912px;font-size:18px;color:#d6c6f5}.card{position:absolute;left:150px;top:275px;width:1620px;height:500px;border:2px solid #9e7cd0;border-radius:30px;padding:65px;background:linear-gradient(145deg,#65448e,#2d1849)}.big{font-size:76px;line-height:1.22;letter-spacing:-.035em;font-weight:700}.small{font-size:32px;line-height:1.55;color:#e1d4f4}.label{font-size:24px;color:#d7c1ff;letter-spacing:.06em}.step{position:absolute;top:300px;width:490px;height:340px;border:2px solid #9e7cd0;border-radius:28px;padding:40px;background:linear-gradient(145deg,#65448e,#2d1849)}.verb{font-size:58px;font-weight:700;margin-top:45px}.detail{font-size:28px;line-height:1.4;color:#e1d4f4;margin-top:25px}.ev1-cap{gap:.22em}
+</style></head>
+<body>
+<div id="root" class="ev1-frame" data-composition-id="main" data-start="0" data-width="1920" data-height="1080" data-duration="63.2667">
+<div id="c1" class="clip ev1-layer" data-start="0.0000" data-duration="4.5000" style="z-index:1;"><div class="scene"><div data-safe="header" class="brand">REELFACTORY / FABRIC LAB</div><div data-safe="header" class="tag">DEMO ANALYSIS</div><div data-safe="title" class="title">The answer came back. Then came the check.</div><div data-safe="footer" class="credit">Source: Guy in a Cube · Marthe Moengen · “Build a Microsoft Fabric Data Agent” · May 15, 2025</div><div data-safe="provenance" class="provenance">Creator’s demonstration · original screen footage · our explanatory narration</div></div></div>
+<div id="c3" class="clip ev1-layer" data-start="0.0000" data-duration="4.5000" style="z-index:55;"><div style="position:absolute;left:72px;top:1018px;width:1776px;height:3px;background:#ffffff22"><div id="progress2" style="height:3px;background:#b9a0ff;transform-origin:0 50%"></div></div></div>
+<video id="v4" class="clip ev1-fill" src="assets/media/demo-01.mp4" muted playsinline data-start="0.0000" data-duration="4.5000" data-media-start="0.0000" style="z-index:3;left:280px;top:140px;width:1360px;height:765px;object-fit:contain;border-radius:12px;background:#f8f8f8;transform-origin:50% 50%"></video>
+<div id="c6" class="clip ev1-layer" data-start="4.5000" data-duration="2.8000" style="z-index:1;"><div class="scene"><div data-safe="header" class="brand">REELFACTORY / FABRIC LAB</div><div data-safe="header" class="tag">DEMO ANALYSIS</div><div data-safe="title" class="title">A convincing answer still needs a check.</div><div data-safe="footer" class="credit">Source: Guy in a Cube · Marthe Moengen · “Build a Microsoft Fabric Data Agent” · May 15, 2025</div><div id="card5" data-safe="content" class="card"><div class="big">Watch the validation.</div><div class="small" style="margin-top:45px">A concrete lesson from a real Microsoft Fabric demonstration.</div></div></div></div>
+<div id="c8" class="clip ev1-layer" data-start="4.5000" data-duration="2.8000" style="z-index:55;"><div style="position:absolute;left:72px;top:1018px;width:1776px;height:3px;background:#ffffff22"><div id="progress7" style="height:3px;background:#b9a0ff;transform-origin:0 50%"></div></div></div>
+<div id="c14" class="clip " data-start="0.0000" data-duration="1.6000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w9" class="w">A</span><span id="w10" class="w">Fabric</span><span id="w11" class="w">agent</span><span id="w12" class="w">answered</span><span id="w13" class="w">the</span></div></div>
+<div id="c20" class="clip " data-start="1.6000" data-duration="1.9333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w15" class="w">question.</span><span id="w16" class="w">Then</span><span id="w17" class="w">the</span><span id="w18" class="w">presenter</span><span id="w19" class="w">checked</span></div></div>
+<div id="c26" class="clip " data-start="3.5333" data-duration="2.5000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w21" class="w">Power</span><span id="w22" class="w">BI,</span><span id="w23" class="w">and</span><span id="w24" class="w">spotted</span><span id="w25" class="w">rounding.</span></div></div>
+<div id="c30" class="clip " data-start="6.0333" data-duration="1.2666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w27" class="w">Watch</span><span id="w28" class="w">the</span><span id="w29" class="w">validation.</span></div></div>
+<div id="c31" class="clip ev1-layer" data-start="7.3000" data-duration="4.5000" style="z-index:1;"><div class="scene"><div data-safe="header" class="brand">REELFACTORY / FABRIC LAB</div><div data-safe="header" class="tag">DEMO ANALYSIS</div><div data-safe="title" class="title">A real use case: YouTube analytics</div><div data-safe="footer" class="credit">Source: Guy in a Cube · Marthe Moengen · “Build a Microsoft Fabric Data Agent” · May 15, 2025</div><div data-safe="provenance" class="provenance">Creator’s demonstration · original screen footage · our explanatory narration</div></div></div>
+<div id="c33" class="clip ev1-layer" data-start="7.3000" data-duration="4.5000" style="z-index:55;"><div style="position:absolute;left:72px;top:1018px;width:1776px;height:3px;background:#ffffff22"><div id="progress32" style="height:3px;background:#b9a0ff;transform-origin:0 50%"></div></div></div>
+<video id="v34" class="clip ev1-fill" src="assets/media/demo-02.mp4" muted playsinline data-start="7.3000" data-duration="4.5000" data-media-start="0.0000" style="z-index:3;left:280px;top:140px;width:1360px;height:765px;object-fit:contain;border-radius:12px;background:#f8f8f8;transform-origin:50% 50%"></video>
+<div id="c38" class="clip ev1-layer" data-start="11.8000" data-duration="3.7666" style="z-index:1;"><div class="scene"><div data-safe="header" class="brand">REELFACTORY / FABRIC LAB</div><div data-safe="header" class="tag">DEMO ANALYSIS</div><div data-safe="title" class="title">Two sources. Two different questions.</div><div data-safe="footer" class="credit">Source: Guy in a Cube · Marthe Moengen · “Build a Microsoft Fabric Data Agent” · May 15, 2025</div><div id="step35" data-safe="content" class="step" style="left:150px"><div class="label">01</div><div class="verb">Videos</div><div class="detail">Video statistics in a<br>Power BI semantic model</div></div><div id="step36" data-safe="content" class="step" style="left:705px"><div class="label">02</div><div class="verb">Comments</div><div class="detail">Comment sentiment<br>in a lakehouse</div></div><div id="step37" data-safe="content" class="step" style="left:1260px"><div class="label">03</div><div class="verb">Context</div><div class="detail">Tell the agent which<br>source to use</div></div></div></div>
+<div id="c40" class="clip ev1-layer" data-start="11.8000" data-duration="3.7666" style="z-index:55;"><div style="position:absolute;left:72px;top:1018px;width:1776px;height:3px;background:#ffffff22"><div id="progress39" style="height:3px;background:#b9a0ff;transform-origin:0 50%"></div></div></div>
+<div id="c46" class="clip " data-start="7.3000" data-duration="1.2000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w41" class="w">Guy</span><span id="w42" class="w">in</span><span id="w43" class="w">a</span><span id="w44" class="w">Cube</span><span id="w45" class="w">built</span></div></div>
+<div id="c52" class="clip " data-start="8.5000" data-duration="1.6333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w47" class="w">this</span><span id="w48" class="w">agent</span><span id="w49" class="w">over</span><span id="w50" class="w">their</span><span id="w51" class="w">YouTube</span></div></div>
+<div id="c58" class="clip " data-start="10.1333" data-duration="2.2666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w53" class="w">analytics.</span><span id="w54" class="w">A</span><span id="w55" class="w">semantic</span><span id="w56" class="w">model</span><span id="w57" class="w">for</span></div></div>
+<div id="c64" class="clip " data-start="12.4000" data-duration="1.9666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w59" class="w">video</span><span id="w60" class="w">statistics,</span><span id="w61" class="w">and</span><span id="w62" class="w">a</span><span id="w63" class="w">lakehouse</span></div></div>
+<div id="c68" class="clip " data-start="14.3667" data-duration="1.2000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w65" class="w">for</span><span id="w66" class="w">comment</span><span id="w67" class="w">sentiment.</span></div></div>
+<div id="c69" class="clip ev1-layer" data-start="15.5667" data-duration="4.8000" style="z-index:1;"><div class="scene"><div data-safe="header" class="brand">REELFACTORY / FABRIC LAB</div><div data-safe="header" class="tag">DEMO ANALYSIS</div><div data-safe="title" class="title">Define what the fields actually mean.</div><div data-safe="footer" class="credit">Source: Guy in a Cube · Marthe Moengen · “Build a Microsoft Fabric Data Agent” · May 15, 2025</div><div data-safe="provenance" class="provenance">Creator’s demonstration · original screen footage · our explanatory narration</div></div></div>
+<div id="c71" class="clip ev1-layer" data-start="15.5667" data-duration="4.8000" style="z-index:55;"><div style="position:absolute;left:72px;top:1018px;width:1776px;height:3px;background:#ffffff22"><div id="progress70" style="height:3px;background:#b9a0ff;transform-origin:0 50%"></div></div></div>
+<video id="v72" class="clip ev1-fill" src="assets/media/demo-03.mp4" muted playsinline data-start="15.5667" data-duration="4.8000" data-media-start="0.0000" style="z-index:3;left:280px;top:140px;width:1360px;height:765px;object-fit:contain;border-radius:12px;background:#f8f8f8;transform-origin:50% 50%"></video>
+<div id="c74" class="clip ev1-layer" data-start="20.3667" data-duration="5.4000" style="z-index:1;"><div class="scene"><div data-safe="header" class="brand">REELFACTORY / FABRIC LAB</div><div data-safe="header" class="tag">DEMO ANALYSIS</div><div data-safe="title" class="title">Same word. Different business meaning.</div><div data-safe="footer" class="credit">Source: Guy in a Cube · Marthe Moengen · “Build a Microsoft Fabric Data Agent” · May 15, 2025</div><div id="card73" data-safe="content" class="card"><div class="big">Comment likes ≠ video likes</div><div class="small" style="margin-top:45px">The demo explains the field meanings and routes comment questions to the comment source.</div></div></div></div>
+<div id="c76" class="clip ev1-layer" data-start="20.3667" data-duration="5.4000" style="z-index:55;"><div style="position:absolute;left:72px;top:1018px;width:1776px;height:3px;background:#ffffff22"><div id="progress75" style="height:3px;background:#b9a0ff;transform-origin:0 50%"></div></div></div>
+<div id="c82" class="clip " data-start="15.5667" data-duration="2.0333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w77" class="w">Before</span><span id="w78" class="w">testing,</span><span id="w79" class="w">they</span><span id="w80" class="w">clarify</span><span id="w81" class="w">an</span></div></div>
+<div id="c88" class="clip " data-start="17.6000" data-duration="1.6000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w83" class="w">easy</span><span id="w84" class="w">trap.</span><span id="w85" class="w">A</span><span id="w86" class="w">like</span><span id="w87" class="w">on</span></div></div>
+<div id="c94" class="clip " data-start="19.2000" data-duration="1.1000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w89" class="w">a</span><span id="w90" class="w">comment</span><span id="w91" class="w">is</span><span id="w92" class="w">not</span><span id="w93" class="w">a</span></div></div>
+<div id="c100" class="clip " data-start="20.3000" data-duration="1.6000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w95" class="w">like</span><span id="w96" class="w">on</span><span id="w97" class="w">a</span><span id="w98" class="w">video.</span><span id="w99" class="w">Their</span></div></div>
+<div id="c106" class="clip " data-start="21.9000" data-duration="2.0666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w101" class="w">instructions</span><span id="w102" class="w">define</span><span id="w103" class="w">those</span><span id="w104" class="w">terms</span><span id="w105" class="w">and</span></div></div>
+<div id="c112" class="clip " data-start="23.9667" data-duration="1.2333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w107" class="w">point</span><span id="w108" class="w">questions</span><span id="w109" class="w">to</span><span id="w110" class="w">the</span><span id="w111" class="w">right</span></div></div>
+<div id="c114" class="clip " data-start="25.2000" data-duration="0.5666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w113" class="w">source.</span></div></div>
+<div id="c115" class="clip ev1-layer" data-start="25.7667" data-duration="6.7333" style="z-index:1;"><div class="scene"><div data-safe="header" class="brand">REELFACTORY / FABRIC LAB</div><div data-safe="header" class="tag">DEMO ANALYSIS</div><div data-safe="title" class="title">Test a question with a checkable answer.</div><div data-safe="footer" class="credit">Source: Guy in a Cube · Marthe Moengen · “Build a Microsoft Fabric Data Agent” · May 15, 2025</div><div data-safe="provenance" class="provenance">Creator’s demonstration · original screen footage · our explanatory narration</div></div></div>
+<div id="c117" class="clip ev1-layer" data-start="25.7667" data-duration="6.7333" style="z-index:55;"><div style="position:absolute;left:72px;top:1018px;width:1776px;height:3px;background:#ffffff22"><div id="progress116" style="height:3px;background:#b9a0ff;transform-origin:0 50%"></div></div></div>
+<video id="v118" class="clip ev1-fill" src="assets/media/demo-04.mp4" muted playsinline data-start="25.7667" data-duration="6.7333" data-media-start="0.0000" style="z-index:3;left:280px;top:140px;width:1360px;height:765px;object-fit:contain;border-radius:12px;background:#f8f8f8;transform-origin:50% 50%"></video>
+<div id="c124" class="clip " data-start="25.7667" data-duration="1.5666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w119" class="w">Their</span><span id="w120" class="w">first</span><span id="w121" class="w">test</span><span id="w122" class="w">asks</span><span id="w123" class="w">for</span></div></div>
+<div id="c130" class="clip " data-start="27.3333" data-duration="1.9666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w125" class="w">total</span><span id="w126" class="w">views</span><span id="w127" class="w">on</span><span id="w128" class="w">January</span><span id="w129" class="w">tenth,</span></div></div>
+<div id="c136" class="clip " data-start="29.3000" data-duration="1.7000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w131" class="w">twenty</span><span id="w132" class="w">twenty</span><span id="w133" class="w">five.</span><span id="w134" class="w">A</span><span id="w135" class="w">question</span></div></div>
+<div id="c141" class="clip " data-start="31.0000" data-duration="1.5000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w137" class="w">with</span><span id="w138" class="w">a</span><span id="w139" class="w">checkable</span><span id="w140" class="w">answer.</span></div></div>
+<div id="c142" class="clip ev1-layer" data-start="32.5000" data-duration="3.7000" style="z-index:1;"><div class="scene"><div data-safe="header" class="brand">REELFACTORY / FABRIC LAB</div><div data-safe="header" class="tag">DEMO ANALYSIS</div><div data-safe="title" class="title">Open the query behind the answer.</div><div data-safe="footer" class="credit">Source: Guy in a Cube · Marthe Moengen · “Build a Microsoft Fabric Data Agent” · May 15, 2025</div><div data-safe="provenance" class="provenance">Creator’s demonstration · original screen footage · our explanatory narration</div></div></div>
+<div id="c144" class="clip ev1-layer" data-start="32.5000" data-duration="3.7000" style="z-index:55;"><div style="position:absolute;left:72px;top:1018px;width:1776px;height:3px;background:#ffffff22"><div id="progress143" style="height:3px;background:#b9a0ff;transform-origin:0 50%"></div></div></div>
+<video id="v145" class="clip ev1-fill" src="assets/media/demo-05.mp4" muted playsinline data-start="32.5000" data-duration="3.7000" data-media-start="0.0000" style="z-index:3;left:280px;top:140px;width:1360px;height:765px;object-fit:contain;border-radius:12px;background:#f8f8f8;transform-origin:50% 50%"></video>
+<div id="c146" class="clip ev1-layer" data-start="36.2000" data-duration="2.8000" style="z-index:1;"><div class="scene"><div data-safe="header" class="brand">REELFACTORY / FABRIC LAB</div><div data-safe="header" class="tag">DEMO ANALYSIS</div><div data-safe="title" class="title">Compare with the same Power BI model.</div><div data-safe="footer" class="credit">Source: Guy in a Cube · Marthe Moengen · “Build a Microsoft Fabric Data Agent” · May 15, 2025</div><div data-safe="provenance" class="provenance">Creator’s demonstration · original screen footage · our explanatory narration</div></div></div>
+<div id="c148" class="clip ev1-layer" data-start="36.2000" data-duration="2.8000" style="z-index:55;"><div style="position:absolute;left:72px;top:1018px;width:1776px;height:3px;background:#ffffff22"><div id="progress147" style="height:3px;background:#b9a0ff;transform-origin:0 50%"></div></div></div>
+<video id="v149" class="clip ev1-fill" src="assets/media/demo-06.mp4" muted playsinline data-start="36.2000" data-duration="2.8000" data-media-start="0.0000" style="z-index:3;left:280px;top:140px;width:1360px;height:765px;object-fit:contain;border-radius:12px;background:#f8f8f8;transform-origin:50% 50%"></video>
+<div id="c155" class="clip " data-start="32.5000" data-duration="2.5333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w150" class="w">They</span><span id="w151" class="w">open</span><span id="w152" class="w">the</span><span id="w153" class="w">generated</span><span id="w154" class="w">DAX,</span></div></div>
+<div id="c161" class="clip " data-start="35.0333" data-duration="1.2666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w156" class="w">then</span><span id="w157" class="w">compare</span><span id="w158" class="w">the</span><span id="w159" class="w">result</span><span id="w160" class="w">with</span></div></div>
+<div id="c167" class="clip " data-start="36.3000" data-duration="1.1000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w162" class="w">a</span><span id="w163" class="w">table</span><span id="w164" class="w">built</span><span id="w165" class="w">from</span><span id="w166" class="w">the</span></div></div>
+<div id="c172" class="clip " data-start="37.4000" data-duration="1.6000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w168" class="w">same</span><span id="w169" class="w">Power</span><span id="w170" class="w">BI</span><span id="w171" class="w">model.</span></div></div>
+<div id="c173" class="clip ev1-layer" data-start="39.0000" data-duration="4.9000" style="z-index:1;"><div class="scene"><div data-safe="header" class="brand">REELFACTORY / FABRIC LAB</div><div data-safe="header" class="tag">DEMO ANALYSIS</div><div data-safe="title" class="title">The presenter notices rounding.</div><div data-safe="footer" class="credit">Source: Guy in a Cube · Marthe Moengen · “Build a Microsoft Fabric Data Agent” · May 15, 2025</div><div data-safe="provenance" class="provenance">Creator’s demonstration · original screen footage · our explanatory narration</div></div></div>
+<div id="c175" class="clip ev1-layer" data-start="39.0000" data-duration="4.9000" style="z-index:55;"><div style="position:absolute;left:72px;top:1018px;width:1776px;height:3px;background:#ffffff22"><div id="progress174" style="height:3px;background:#b9a0ff;transform-origin:0 50%"></div></div></div>
+<video id="v176" class="clip ev1-fill" src="assets/media/demo-07.mp4" muted playsinline data-start="39.0000" data-duration="4.9000" data-media-start="0.0000" style="z-index:3;left:280px;top:140px;width:1360px;height:765px;object-fit:contain;border-radius:12px;background:#f8f8f8;transform-origin:50% 50%"></video>
+<div id="c178" class="clip ev1-layer" data-start="43.9000" data-duration="3.1333" style="z-index:1;"><div class="scene"><div data-safe="header" class="brand">REELFACTORY / FABRIC LAB</div><div data-safe="header" class="tag">DEMO ANALYSIS</div><div data-safe="title" class="title">A precision issue to evaluate.</div><div data-safe="footer" class="credit">Source: Guy in a Cube · Marthe Moengen · “Build a Microsoft Fabric Data Agent” · May 15, 2025</div><div id="card177" data-safe="content" class="card"><div class="big">Rounded summary ≠ exact count</div><div class="small" style="margin-top:45px">Decide which level of precision the question requires.<br>This observation alone does not prove an invented answer.</div></div></div></div>
+<div id="c180" class="clip ev1-layer" data-start="43.9000" data-duration="3.1333" style="z-index:55;"><div style="position:absolute;left:72px;top:1018px;width:1776px;height:3px;background:#ffffff22"><div id="progress179" style="height:3px;background:#b9a0ff;transform-origin:0 50%"></div></div></div>
+<div id="c186" class="clip " data-start="39.0000" data-duration="1.5666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w181" class="w">The</span><span id="w182" class="w">presenter</span><span id="w183" class="w">notices</span><span id="w184" class="w">that</span><span id="w185" class="w">the</span></div></div>
+<div id="c192" class="clip " data-start="40.5667" data-duration="1.9666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w187" class="w">chat</span><span id="w188" class="w">rounds</span><span id="w189" class="w">the</span><span id="w190" class="w">number.</span><span id="w191" class="w">That&#x27;s</span></div></div>
+<div id="c198" class="clip " data-start="42.5333" data-duration="1.8666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w193" class="w">a</span><span id="w194" class="w">precision</span><span id="w195" class="w">issue</span><span id="w196" class="w">to</span><span id="w197" class="w">evaluate,</span></div></div>
+<div id="c204" class="clip " data-start="44.4000" data-duration="1.3333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w199" class="w">not</span><span id="w200" class="w">proof</span><span id="w201" class="w">that</span><span id="w202" class="w">the</span><span id="w203" class="w">agent</span></div></div>
+<div id="c208" class="clip " data-start="45.7333" data-duration="1.3000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w205" class="w">invented</span><span id="w206" class="w">the</span><span id="w207" class="w">answer.</span></div></div>
+<div id="c209" class="clip ev1-layer" data-start="47.0333" data-duration="3.8000" style="z-index:1;"><div class="scene"><div data-safe="header" class="brand">REELFACTORY / FABRIC LAB</div><div data-safe="header" class="tag">DEMO ANALYSIS</div><div data-safe="title" class="title">Second test: a title containing “Fabric”.</div><div data-safe="footer" class="credit">Source: Guy in a Cube · Marthe Moengen · “Build a Microsoft Fabric Data Agent” · May 15, 2025</div><div data-safe="provenance" class="provenance">Creator’s demonstration · original screen footage · our explanatory narration</div></div></div>
+<div id="c211" class="clip ev1-layer" data-start="47.0333" data-duration="3.8000" style="z-index:55;"><div style="position:absolute;left:72px;top:1018px;width:1776px;height:3px;background:#ffffff22"><div id="progress210" style="height:3px;background:#b9a0ff;transform-origin:0 50%"></div></div></div>
+<video id="v212" class="clip ev1-fill" src="assets/media/demo-08.mp4" muted playsinline data-start="47.0333" data-duration="3.8000" data-media-start="0.0000" style="z-index:3;left:280px;top:140px;width:1360px;height:765px;object-fit:contain;border-radius:12px;background:#f8f8f8;transform-origin:50% 50%"></video>
+<div id="c213" class="clip ev1-layer" data-start="50.8333" data-duration="3.8000" style="z-index:1;"><div class="scene"><div data-safe="header" class="brand">REELFACTORY / FABRIC LAB</div><div data-safe="header" class="tag">DEMO ANALYSIS</div><div data-safe="title" class="title">Check the filter, ranking and report result.</div><div data-safe="footer" class="credit">Source: Guy in a Cube · Marthe Moengen · “Build a Microsoft Fabric Data Agent” · May 15, 2025</div><div data-safe="provenance" class="provenance">Creator’s demonstration · original screen footage · our explanatory narration</div></div></div>
+<div id="c215" class="clip ev1-layer" data-start="50.8333" data-duration="3.8000" style="z-index:55;"><div style="position:absolute;left:72px;top:1018px;width:1776px;height:3px;background:#ffffff22"><div id="progress214" style="height:3px;background:#b9a0ff;transform-origin:0 50%"></div></div></div>
+<video id="v216" class="clip ev1-fill" src="assets/media/demo-09.mp4" muted playsinline data-start="50.8333" data-duration="3.8000" data-media-start="0.0000" style="z-index:3;left:280px;top:140px;width:1360px;height:765px;object-fit:contain;border-radius:12px;background:#f8f8f8;transform-origin:50% 50%"></video>
+<div id="c222" class="clip " data-start="47.0333" data-duration="1.0666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w217" class="w">Then</span><span id="w218" class="w">they</span><span id="w219" class="w">test</span><span id="w220" class="w">the</span><span id="w221" class="w">most</span></div></div>
+<div id="c228" class="clip " data-start="48.1000" data-duration="1.3333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w223" class="w">viewed</span><span id="w224" class="w">video</span><span id="w225" class="w">with</span><span id="w226" class="w">Fabric</span><span id="w227" class="w">in</span></div></div>
+<div id="c234" class="clip " data-start="49.4333" data-duration="1.8333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w229" class="w">its</span><span id="w230" class="w">title.</span><span id="w231" class="w">Check</span><span id="w232" class="w">the</span><span id="w233" class="w">text</span></div></div>
+<div id="c240" class="clip " data-start="51.2667" data-duration="1.9000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w235" class="w">filter,</span><span id="w236" class="w">the</span><span id="w237" class="w">ranking,</span><span id="w238" class="w">and</span><span id="w239" class="w">the</span></div></div>
+<div id="c245" class="clip " data-start="53.1667" data-duration="1.4666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w241" class="w">result</span><span id="w242" class="w">against</span><span id="w243" class="w">the</span><span id="w244" class="w">report.</span></div></div>
+<div id="c249" class="clip ev1-layer" data-start="54.6333" data-duration="8.2333" style="z-index:1;"><div class="scene"><div data-safe="header" class="brand">REELFACTORY / FABRIC LAB</div><div data-safe="header" class="tag">DEMO ANALYSIS</div><div data-safe="title" class="title">Use this method for your first Fabric agent.</div><div data-safe="footer" class="credit">Source: Guy in a Cube · Marthe Moengen · “Build a Microsoft Fabric Data Agent” · May 15, 2025</div><div id="step246" data-safe="content" class="step" style="left:150px"><div class="label">01</div><div class="verb">Define</div><div class="detail">Business terms<br>and source meanings</div></div><div id="step247" data-safe="content" class="step" style="left:705px"><div class="label">02</div><div class="verb">Inspect</div><div class="detail">Generated query<br>and filters</div></div><div id="step248" data-safe="content" class="step" style="left:1260px"><div class="label">03</div><div class="verb">Compare</div><div class="detail">A trusted result<br>before sharing</div></div></div></div>
+<div id="c251" class="clip ev1-layer" data-start="54.6333" data-duration="8.2333" style="z-index:55;"><div style="position:absolute;left:72px;top:1018px;width:1776px;height:3px;background:#ffffff22"><div id="progress250" style="height:3px;background:#b9a0ff;transform-origin:0 50%"></div></div></div>
+<div id="c257" class="clip " data-start="54.6333" data-duration="1.2333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w252" class="w">Use</span><span id="w253" class="w">that</span><span id="w254" class="w">method</span><span id="w255" class="w">for</span><span id="w256" class="w">your</span></div></div>
+<div id="c263" class="clip " data-start="55.8667" data-duration="2.2333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w258" class="w">first</span><span id="w259" class="w">Fabric</span><span id="w260" class="w">agent.</span><span id="w261" class="w">Define</span><span id="w262" class="w">the</span></div></div>
+<div id="c269" class="clip " data-start="58.1000" data-duration="2.3000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w264" class="w">business</span><span id="w265" class="w">terms.</span><span id="w266" class="w">Inspect</span><span id="w267" class="w">the</span><span id="w268" class="w">query.</span></div></div>
+<div id="c275" class="clip " data-start="60.4000" data-duration="1.6666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w270" class="w">Compare</span><span id="w271" class="w">with</span><span id="w272" class="w">a</span><span id="w273" class="w">trusted</span><span id="w274" class="w">result.</span></div></div>
+<div id="c278" class="clip " data-start="62.0667" data-duration="0.8000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w276" class="w">Then</span><span id="w277" class="w">share.</span></div></div>
+<div id="c279" class="clip ev1-layer" data-start="62.8667" data-duration="0.4000" style="z-index:1;"><div class="scene"></div></div>
+</div>
+<script>
+
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#progress2",{scaleX:0.000000},{scaleX:0.071128,duration:4.5000,ease:"none",immediateRender:false},0.0000);
+tl.fromTo("#v4",{scale:.985},{scale:1,duration:.25,ease:"power2.out",immediateRender:false},0.0000);
+tl.fromTo("#card5",{opacity:0,y:20},{opacity:1,y:0,duration:.3,ease:"power2.out",immediateRender:false},4.5000);
+tl.fromTo("#progress7",{scaleX:0.071128},{scaleX:0.115385,duration:2.8000,ease:"none",immediateRender:false},4.5000);
+tl.set("#w9",{opacity:1},0.0000);
+tl.set("#w10",{opacity:1},0.2667);
+tl.set("#w11",{opacity:1},0.5667);
+tl.set("#w12",{opacity:1},0.9333);
+tl.set("#w13",{opacity:1},1.3000);
+tl.set("#w15",{opacity:1},1.6000);
+tl.set("#w16",{opacity:1},2.5667);
+tl.set("#w17",{opacity:1},2.6667);
+tl.set("#w18",{opacity:1},3.1000);
+tl.set("#w19",{opacity:1},3.1000);
+tl.set("#w21",{opacity:1},3.5333);
+tl.set("#w22",{opacity:1},3.9000);
+tl.set("#w23",{opacity:1},4.7000);
+tl.set("#w24",{opacity:1},4.7667);
+tl.set("#w25",{opacity:1},5.0000);
+tl.set("#w27",{opacity:1},6.0333);
+tl.set("#w28",{opacity:1},6.3333);
+tl.set("#w29",{opacity:1},6.6333);
+tl.fromTo("#progress32",{scaleX:0.115385},{scaleX:0.186512,duration:4.5000,ease:"none",immediateRender:false},7.3000);
+tl.fromTo("#v34",{scale:.985},{scale:1,duration:.25,ease:"power2.out",immediateRender:false},7.3000);
+tl.fromTo("#step35",{opacity:0,y:20},{opacity:1,y:0,duration:.3,ease:"power2.out",immediateRender:false},11.9000);
+tl.fromTo("#step36",{opacity:0,y:20},{opacity:1,y:0,duration:.3,ease:"power2.out",immediateRender:false},12.2500);
+tl.fromTo("#step37",{opacity:0,y:20},{opacity:1,y:0,duration:.3,ease:"power2.out",immediateRender:false},12.6000);
+tl.fromTo("#progress39",{scaleX:0.186512},{scaleX:0.246048,duration:3.7667,ease:"none",immediateRender:false},11.8000);
+tl.set("#w41",{opacity:1},7.3000);
+tl.set("#w42",{opacity:1},7.7000);
+tl.set("#w43",{opacity:1},7.8333);
+tl.set("#w44",{opacity:1},8.0000);
+tl.set("#w45",{opacity:1},8.2333);
+tl.set("#w47",{opacity:1},8.5000);
+tl.set("#w48",{opacity:1},8.8333);
+tl.set("#w49",{opacity:1},9.1333);
+tl.set("#w50",{opacity:1},9.4667);
+tl.set("#w51",{opacity:1},9.8000);
+tl.set("#w53",{opacity:1},10.1333);
+tl.set("#w54",{opacity:1},11.3000);
+tl.set("#w55",{opacity:1},11.4333);
+tl.set("#w56",{opacity:1},11.7333);
+tl.set("#w57",{opacity:1},12.1333);
+tl.set("#w59",{opacity:1},12.4000);
+tl.set("#w60",{opacity:1},12.6333);
+tl.set("#w61",{opacity:1},13.2667);
+tl.set("#w62",{opacity:1},13.8667);
+tl.set("#w63",{opacity:1},13.9667);
+tl.set("#w65",{opacity:1},14.3667);
+tl.set("#w66",{opacity:1},14.6000);
+tl.set("#w67",{opacity:1},14.8333);
+tl.fromTo("#progress70",{scaleX:0.246048},{scaleX:0.321918,duration:4.8000,ease:"none",immediateRender:false},15.5667);
+tl.fromTo("#v72",{scale:.985},{scale:1,duration:.25,ease:"power2.out",immediateRender:false},15.5667);
+tl.fromTo("#card73",{opacity:0,y:20},{opacity:1,y:0,duration:.3,ease:"power2.out",immediateRender:false},20.3667);
+tl.fromTo("#progress75",{scaleX:0.321918},{scaleX:0.407271,duration:5.4000,ease:"none",immediateRender:false},20.3667);
+tl.set("#w77",{opacity:1},15.5667);
+tl.set("#w78",{opacity:1},15.8667);
+tl.set("#w79",{opacity:1},16.6000);
+tl.set("#w80",{opacity:1},16.7667);
+tl.set("#w81",{opacity:1},17.1333);
+tl.set("#w83",{opacity:1},17.6000);
+tl.set("#w84",{opacity:1},17.8667);
+tl.set("#w85",{opacity:1},18.8000);
+tl.set("#w86",{opacity:1},18.9000);
+tl.set("#w87",{opacity:1},19.0667);
+tl.set("#w89",{opacity:1},19.2000);
+tl.set("#w90",{opacity:1},19.4000);
+tl.set("#w91",{opacity:1},19.6000);
+tl.set("#w92",{opacity:1},19.9667);
+tl.set("#w93",{opacity:1},20.1667);
+tl.set("#w95",{opacity:1},20.3000);
+tl.set("#w96",{opacity:1},20.5000);
+tl.set("#w97",{opacity:1},20.6667);
+tl.set("#w98",{opacity:1},20.8000);
+tl.set("#w99",{opacity:1},21.7000);
+tl.set("#w101",{opacity:1},21.9000);
+tl.set("#w102",{opacity:1},22.4667);
+tl.set("#w103",{opacity:1},22.8667);
+tl.set("#w104",{opacity:1},23.2667);
+tl.set("#w105",{opacity:1},23.6667);
+tl.set("#w107",{opacity:1},23.9667);
+tl.set("#w108",{opacity:1},24.1667);
+tl.set("#w109",{opacity:1},24.6000);
+tl.set("#w110",{opacity:1},24.8667);
+tl.set("#w111",{opacity:1},25.0000);
+tl.set("#w113",{opacity:1},25.2000);
+tl.fromTo("#progress116",{scaleX:0.407271},{scaleX:0.513699,duration:6.7333,ease:"none",immediateRender:false},25.7667);
+tl.fromTo("#v118",{scale:.985},{scale:1,duration:.25,ease:"power2.out",immediateRender:false},25.7667);
+tl.set("#w119",{opacity:1},25.7667);
+tl.set("#w120",{opacity:1},26.0333);
+tl.set("#w121",{opacity:1},26.3667);
+tl.set("#w122",{opacity:1},26.7333);
+tl.set("#w123",{opacity:1},27.0667);
+tl.set("#w125",{opacity:1},27.3333);
+tl.set("#w126",{opacity:1},27.5333);
+tl.set("#w127",{opacity:1},27.8667);
+tl.set("#w128",{opacity:1},28.1000);
+tl.set("#w129",{opacity:1},28.4000);
+tl.set("#w131",{opacity:1},29.3000);
+tl.set("#w132",{opacity:1},29.4000);
+tl.set("#w133",{opacity:1},29.6667);
+tl.set("#w134",{opacity:1},30.6000);
+tl.set("#w135",{opacity:1},30.6667);
+tl.set("#w137",{opacity:1},31.0000);
+tl.set("#w138",{opacity:1},31.3333);
+tl.set("#w139",{opacity:1},31.4667);
+tl.set("#w140",{opacity:1},31.8667);
+tl.fromTo("#progress143",{scaleX:0.513699},{scaleX:0.572181,duration:3.7000,ease:"none",immediateRender:false},32.5000);
+tl.fromTo("#v145",{scale:.985},{scale:1,duration:.25,ease:"power2.out",immediateRender:false},32.5000);
+tl.fromTo("#progress147",{scaleX:0.572181},{scaleX:0.616438,duration:2.8000,ease:"none",immediateRender:false},36.2000);
+tl.fromTo("#v149",{scale:.985},{scale:1,duration:.25,ease:"power2.out",immediateRender:false},36.2000);
+tl.set("#w150",{opacity:1},32.5000);
+tl.set("#w151",{opacity:1},32.7667);
+tl.set("#w152",{opacity:1},33.0667);
+tl.set("#w153",{opacity:1},33.3667);
+tl.set("#w154",{opacity:1},33.7667);
+tl.set("#w156",{opacity:1},35.0333);
+tl.set("#w157",{opacity:1},35.2667);
+tl.set("#w158",{opacity:1},35.5000);
+tl.set("#w159",{opacity:1},35.8000);
+tl.set("#w160",{opacity:1},36.0667);
+tl.set("#w162",{opacity:1},36.3000);
+tl.set("#w163",{opacity:1},36.5333);
+tl.set("#w164",{opacity:1},36.6333);
+tl.set("#w165",{opacity:1},36.9667);
+tl.set("#w166",{opacity:1},37.2000);
+tl.set("#w168",{opacity:1},37.4000);
+tl.set("#w169",{opacity:1},37.7000);
+tl.set("#w170",{opacity:1},38.1000);
+tl.set("#w171",{opacity:1},38.4333);
+tl.fromTo("#progress174",{scaleX:0.616438},{scaleX:0.693888,duration:4.9000,ease:"none",immediateRender:false},39.0000);
+tl.fromTo("#v176",{scale:.985},{scale:1,duration:.25,ease:"power2.out",immediateRender:false},39.0000);
+tl.fromTo("#card177",{opacity:0,y:20},{opacity:1,y:0,duration:.3,ease:"power2.out",immediateRender:false},43.9000);
+tl.fromTo("#progress179",{scaleX:0.693888},{scaleX:0.743414,duration:3.1333,ease:"none",immediateRender:false},43.9000);
+tl.set("#w181",{opacity:1},39.0000);
+tl.set("#w182",{opacity:1},39.2000);
+tl.set("#w183",{opacity:1},39.5333);
+tl.set("#w184",{opacity:1},39.9667);
+tl.set("#w185",{opacity:1},40.3333);
+tl.set("#w187",{opacity:1},40.5667);
+tl.set("#w188",{opacity:1},40.8333);
+tl.set("#w189",{opacity:1},41.1000);
+tl.set("#w190",{opacity:1},41.3000);
+tl.set("#w191",{opacity:1},42.2000);
+tl.set("#w193",{opacity:1},42.5333);
+tl.set("#w194",{opacity:1},42.9333);
+tl.set("#w195",{opacity:1},42.9333);
+tl.set("#w196",{opacity:1},43.2667);
+tl.set("#w197",{opacity:1},43.5333);
+tl.set("#w199",{opacity:1},44.4000);
+tl.set("#w200",{opacity:1},44.6667);
+tl.set("#w201",{opacity:1},45.0333);
+tl.set("#w202",{opacity:1},45.3000);
+tl.set("#w203",{opacity:1},45.4333);
+tl.set("#w205",{opacity:1},45.7333);
+tl.set("#w206",{opacity:1},46.2000);
+tl.set("#w207",{opacity:1},46.6000);
+tl.fromTo("#progress210",{scaleX:0.743414},{scaleX:0.803477,duration:3.8000,ease:"none",immediateRender:false},47.0333);
+tl.fromTo("#v212",{scale:.985},{scale:1,duration:.25,ease:"power2.out",immediateRender:false},47.0333);
+tl.fromTo("#progress214",{scaleX:0.803477},{scaleX:0.863541,duration:3.8000,ease:"none",immediateRender:false},50.8333);
+tl.fromTo("#v216",{scale:.985},{scale:1,duration:.25,ease:"power2.out",immediateRender:false},50.8333);
+tl.set("#w217",{opacity:1},47.0333);
+tl.set("#w218",{opacity:1},47.2667);
+tl.set("#w219",{opacity:1},47.4667);
+tl.set("#w220",{opacity:1},47.7000);
+tl.set("#w221",{opacity:1},47.8667);
+tl.set("#w223",{opacity:1},48.1000);
+tl.set("#w224",{opacity:1},48.3667);
+tl.set("#w225",{opacity:1},48.7000);
+tl.set("#w226",{opacity:1},48.9667);
+tl.set("#w227",{opacity:1},49.2667);
+tl.set("#w229",{opacity:1},49.4333);
+tl.set("#w230",{opacity:1},49.6333);
+tl.set("#w231",{opacity:1},50.5667);
+tl.set("#w232",{opacity:1},50.8000);
+tl.set("#w233",{opacity:1},50.9667);
+tl.set("#w235",{opacity:1},51.2667);
+tl.set("#w236",{opacity:1},51.9667);
+tl.set("#w237",{opacity:1},52.1000);
+tl.set("#w238",{opacity:1},52.8667);
+tl.set("#w239",{opacity:1},53.0000);
+tl.set("#w241",{opacity:1},53.1667);
+tl.set("#w242",{opacity:1},53.4333);
+tl.set("#w243",{opacity:1},53.8333);
+tl.set("#w244",{opacity:1},54.0667);
+tl.fromTo("#step246",{opacity:0,y:20},{opacity:1,y:0,duration:.3,ease:"power2.out",immediateRender:false},54.7333);
+tl.fromTo("#step247",{opacity:0,y:20},{opacity:1,y:0,duration:.3,ease:"power2.out",immediateRender:false},55.0833);
+tl.fromTo("#step248",{opacity:0,y:20},{opacity:1,y:0,duration:.3,ease:"power2.out",immediateRender:false},55.4333);
+tl.fromTo("#progress250",{scaleX:0.863541},{scaleX:0.993678,duration:8.2333,ease:"none",immediateRender:false},54.6333);
+tl.set("#w252",{opacity:1},54.6333);
+tl.set("#w253",{opacity:1},55.0000);
+tl.set("#w254",{opacity:1},55.2667);
+tl.set("#w255",{opacity:1},55.5000);
+tl.set("#w256",{opacity:1},55.7000);
+tl.set("#w258",{opacity:1},55.8667);
+tl.set("#w259",{opacity:1},56.2000);
+tl.set("#w260",{opacity:1},56.5667);
+tl.set("#w261",{opacity:1},57.4333);
+tl.set("#w262",{opacity:1},57.7000);
+tl.set("#w264",{opacity:1},58.1000);
+tl.set("#w265",{opacity:1},58.1333);
+tl.set("#w266",{opacity:1},59.2333);
+tl.set("#w267",{opacity:1},59.2333);
+tl.set("#w268",{opacity:1},59.5000);
+tl.set("#w270",{opacity:1},60.4000);
+tl.set("#w271",{opacity:1},60.6000);
+tl.set("#w272",{opacity:1},60.8333);
+tl.set("#w273",{opacity:1},61.0000);
+tl.set("#w274",{opacity:1},61.2667);
+tl.set("#w276",{opacity:1},62.0667);
+tl.set("#w277",{opacity:1},62.3333);
+window.__timelines=window.__timelines||{};window.__timelines["main"] = tl;
+</script>
+</body></html>

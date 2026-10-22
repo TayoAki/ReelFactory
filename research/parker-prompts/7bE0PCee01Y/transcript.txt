@@ -1,0 +1,379 @@
+ Claude  is  one  of  the  best  AI  models  out 
+ there  and  it  still  has  no  way  of  making 
+ an  actual  AI  video.  But  I  wrote  a  prompt 
+ that  makes  the  whole  thing  possible  and 
+ simple  enough  to  run  in  one  chat.  So  I'm 
+ giving  that  prompt  away  for  free  and  by 
+ the  end  you'll  be  making  AI  videos 
+ automatically  inside  Claude  without 
+ opening  any  separate  window. 
+ It's  a  nice  room. 
+ [music] 
+ Look  at  this  beauty. 
+ Which  way? 
+ >> Right. 
+ [music] 
+ For  this  whole  workflow,  we're  using 
+ Claude  with  the  Higsfield  MCP  connected 
+ to  it.  And  the  link  for  that  is  in  the 
+ description.  So,  let's  open  the 
+ Higsfield  MCP  page.  And  as  you  can  see, 
+ the  connector  URL  is  right  there  in  the 
+ first  box.  I'll  copy  that,  go  into 
+ Claude,  and  open  settings.  Under 
+ connectors,  we  add  a  new  one,  call  it 
+ Higsfield,  and  paste  the  URL  straight 
+ in.  Then,  I  sign  in,  and  the  setup  is 
+ done.  The  connector  is  exactly  the  same 
+ in  Claude  desktop  and  on  Cloud.ai,  so  it 
+ makes  no  difference  which  one  you're  in. 
+ And  there  are  no  API  keys  to  manage 
+ anywhere  in  this.  I'll  open  a  fresh  chat 
+ and  paste  the  prompt  in.  The  full  prompt 
+ is  in  the  free  doc  below  as  well,  so  you 
+ can  copy  it  out  and  run  it  alongside  me 
+ while  you  watch.  It  breaks  the  whole  job 
+ into  eight  stages,  something  I'd  call 
+ stage  gating,  and  then  it  stops  at  every 
+ one  of  them  for  my  approval.  So,  it  asks 
+ for  a  brief  first.  With  the  brief 
+ answered,  it  comes  back  with  pitches, 
+ and  the  chosen  pitch  turns  into  a 
+ breakdown  and  then  reference  images.  And 
+ video  is  stage  six  of  the  eight  with  the 
+ upscale  and  the  edit  notes  after  it. 
+ Engaging  it  like  that  means  every 
+ decision  comes  back  to  you  in  writing 
+ first,  so  you  can  change  it  before  it 
+ costs  you  a  single  credit.  Claude  comes 
+ back  saying  the  MCP  is  connected  and 
+ responding  so  it  can  make  images  and 
+ video  inside  this  conversation  now.  But 
+ the  answers  we  give  next  decide  how  the 
+ entire  film  gets  built.  So  Claude  opens 
+ with  nine  questions  split  into  two 
+ batches  so  it  reads  like  a  conversation 
+ instead  of  a  form.  Five  plain  ones  come 
+ first.  It  asks  what  type  of  video  this 
+ is,  what  it's  about,  and  the  genre  and 
+ tone.  Then  the  runtime  and  whether  we 
+ want  dialogue  in  it  or  just  visuals.  So 
+ I  tell  it  we're  making  a  short  film 
+ that's  also  a  heist  and  a  comedy 
+ thriller  and  tone.  45  seconds  and  yes  to 
+ dialogue.  But  the  technical  questions 
+ are  different  because  those  already  have 
+ defaults  in  them.  So  you  don't  need  to 
+ know  which  video  model  is  good  at  what 
+ or  what  resolution  to  start  at  because 
+ the  prompt  has  already  picked  sensible 
+ answers  and  just  asks  you  to  confirm 
+ them.  GPT  Image  2  handles  every  image  at 
+ high  quality  in  4K  and  Cance  2.0  handles 
+ the  video  at  1080p.  Cance  2.5  is  out  now 
+ and  it  doubles  the  cap  to  30  seconds  a 
+ generation.  So  the  same  45  seconds  would 
+ come  down  to  two.  I'm  staying  on  2.0 
+ here  because  it's  the  prompt's  default 
+ and  everything  you're  about  to  see  was 
+ built  on  it.  But  if  2.5  is  in  your  model 
+ list,  the  maths  just  gets  easier.  I'll 
+ personally  set  the  aspect  ratio  to  21x9 
+ because  that's  the  widescreen  ratio 
+ films  get  shot  in.  That  one's  for  the 
+ video  and  the  reference  sheets  come  out 
+ at  16x9  because  none  of  them  are  in  the 
+ finished  film.  And  we  generate  all  the 
+ video  at  1080p  and  then  upscale  right  at 
+ the  end  because  native  4K  costs  far  more 
+ per  render.  So  a  scene  that  comes  back 
+ wrong  at  4K  cost  you  a  lot  more  than  the 
+ same  scene  coming  back  wrong  at  1080p. 
+ Now  with  the  models  and  the  ratio 
+ locked,  the  runtime  [music]  is  the  last 
+ thing  it  has  to  work  out.  Cance  2.0  0 
+ caps  out  at  15  seconds  per  generation. 
+ So,  our  45  seconds  splits  into  exactly 
+ three.  That's  three  generations  and  not 
+ 30  separate  shots.  And  it  works  because 
+ each  one  can  hold  its  own  hard  cuts 
+ inside  it.  That's  a  bit  of  maths  I'd 
+ have  got  wrong  on  a  first  attempt.  And 
+ the  prompt  has  already  done  it.  And  it 
+ locks  the  whole  lot  back  in  one  line. 
+ Models  resolution,  ratio,  and  block 
+ count.  [music]  Then  three  pitches  come 
+ straight  back.  Each  one  three  or  four 
+ sentences  with  a  title  on  it.  And  the 
+ premises  are  properly  different  from 
+ each  other.  Wrong  floor  is  an  office  job 
+ where  they  realize  they're  one  story  too 
+ high.  and  the  long  wait  keeps  the  whole 
+ robbery  offcreen  and  stays  on  the 
+ driver's  face.  I'll  take  the  first  one, 
+ the  nice  room.  It  gives  us  a  safe 
+ cracker  in  her  60s  and  an  enormous, 
+ completely  useless  young  accomplice.  And 
+ the  house  they're  robbing  starts  sealing 
+ itself  while  they're  both  still  inside 
+ it.  And  the  pitch  never  says  how  those 
+ three  renders  are  supposed  to  join  up, 
+ which  is  the  next  thing  the  prompt  sorts 
+ out.  Turning  three  separate  renders  into 
+ one  continuous  take  comes  down  to  one 
+ rule  about  where  a  part  is  allowed  to 
+ end.  Now  Claude  splits  the  film  into 
+ three  parts,  one  for  each  generation, 
+ and  every  part  except  the  last  has  to 
+ end  midaction.  And  the  next  part  opens 
+ as  a  match  cut  on  that  exact  action  from 
+ a  different  angle.  That  is  the  trick  for 
+ making  three  separate  generations  play 
+ as  one  film.  And  the  prompt  writes  every 
+ part  to  that  rule  for  you.  So  the 
+ finished  thing  looks  like  someone  shot 
+ it.  Each  of  the  three  parts  comes  back 
+ with  a  name  and  the  rooms  it's  locked 
+ to.  The  plant  ends  mid  lift  with  the  box 
+ half  clear  of  the  safe.  The  break  runs 
+ the  study  into  the  corridor  and  ends 
+ mid-stride  and  the  leap  goes  through  the 
+ window  and  cuts  to  black  on  the  landing. 
+ Dialogue  gets  written  at  this  stage, 
+ too,  and  there  are  only  five  short  lines 
+ in  the  entire  film.  I'll  approve  every 
+ one  of  them  word  for  word  before 
+ anything  renders.  That  order  matters 
+ because  changing  a  line  after  the  scene 
+ is  generated  means  paying  to  generate  it 
+ all  over  again.  And  the  first  image  it 
+ generates  is  Marggo's  reference  sheet. 
+ And  one  of  the  three  panels  on  it  has  no 
+ head.  Margot  and  Dustin  get  built  as 
+ images  before  anything  moves.  And  so  do 
+ all  three  rooms  they  run  through.  Claude 
+ writes  both  character  sheet  prompts  out 
+ in  full  and  shows  them  to  me  before  it 
+ generates  a  single  thing.  Each  sheet 
+ comes  back  as  one  image  with  three 
+ panels  inside  it.  On  the  left  is  the 
+ full  body  from  the  front  with  no  head, 
+ no  neck,  and  no  hair  on  it,  which  gives 
+ the  video  model  the  wardrobe  on  its  own 
+ as  an  unbroken  silhouette  with  no  face 
+ in  the  shot.  In  the  center,  the  same 
+ body  from  behind  with  the  head  on,  and 
+ that  covers  the  angles  a  chase  actually 
+ needs.  On  the  right,  a  tight  chest  up 
+ shot.  That  one  is  the  identity  lock  for 
+ the  whole  film,  but  both  sheets  close  on 
+ the  same  block  of  instructions  at  the 
+ bottom.  That  block  sets  an  18%  neutral 
+ gray  backdrop,  which  is  the  plain 
+ mid-grade  that  photographers  shoot 
+ against  with  flat  shadowless  light.  And 
+ there's  a  line  telling  it  to  relight 
+ from  scratch.  That  flat  light  is  what 
+ makes  the  sheet  usable  as  a  reference. 
+ Any  lighting  that's  already  in  a 
+ reference  image  shows  up  in  every 
+ generation  after  it,  and  then  the  scene 
+ comes  back  lit  wrong.  It  checks  each 
+ sheet  against  its  own  prompt  panel  by 
+ panel.  So,  I  approve  them  one  at  a  time. 
+ Then,  it  saves  them  as  Margot  and  Dustin 
+ and  moves  straight  on  to  the  locations. 
+ It  comes  back  wanting  five  sheets  and 
+ the  moonlight  on  the  wrong  side.  So,  I 
+ cut  it  back  to  four  and  put  the  light 
+ where  the  study  needs  it.  One  prop  sheet 
+ for  the  jewel  box  first  and  then  three 
+ location  plates.  The  box  gets  its  own 
+ sheet  because  it  appears  in  all  three 
+ generations  and  it  opens  on  camera.  So, 
+ it  gets  a  six  panel  grid  covering  closed 
+ and  open  from  the  front,  the  rear,  3/4 
+ and  straight  down.  Every  plate  is  shot 
+ wide,  empty  of  people,  and  straight  on 
+ at  standing  eye  level.  The  geography 
+ gets  fixed  left  to  right,  so  the  safe  is 
+ always  on  the  left,  and  the  window  is 
+ always  on  the  right.  None  of  the  plates 
+ carry  any  readable  text  either,  and  that 
+ one  is  written  into  the  prompt  as  a  hard 
+ rule.  The  corridor  gets  three  moonlit 
+ stripes  across  the  runner,  one  for  each 
+ window,  put  there  for  later.  And  the 
+ gallery  gets  a  retracted  shutter  housing 
+ above  the  arched  window,  which  explains 
+ why  that  one  window  is  still  open.  So, 
+ let's  approve  them  and  move  on.  So,  six 
+ elements  are  live  in  total.  That's 
+ Margot,  Dustin,  and  Jewelbox  for  the 
+ people  in  the  prop.  Then,  study  corridor 
+ and  gallery  for  the  rooms.  So,  every 
+ prompt  from  here  calls  a  tag  instead  of 
+ describing  anyone  again.  That  tagging  is 
+ what  stops  the  faces  changing  between 
+ renders.  But  the  obvious  way  to  prompt  a 
+ video  is  to  write  the  shot  you  want  as  a 
+ paragraph,  and  this  prompt  never  does 
+ that.  When  I  wrote  video  prompts  as  one 
+ long  paragraph,  my  two  characters  kept 
+ swapping  sides  of  the  frame.  So,  this 
+ prompt  uses  labeled  blocks  instead,  and 
+ we're  filling  in  the  first  of  them  right 
+ now.  The  blocks  cover  the  scene  context, 
+ which  elements  are  active,  and  a  map  of 
+ the  location,  then  the  first  frame,  and 
+ the  format,  followed  by  action,  timing, 
+ physics,  lighting,  and  audio  with  a  set 
+ of  positive  locks  at  the  bottom.  But  the 
+ location  map  is  the  block  that  stops  the 
+ swapping.  It  says  Margot  owns  the  left 
+ of  the  frame  and  Dustin  owns  the  right 
+ in  every  shot  of  every  generation,  so 
+ they  never  swap  sides  between  renders. 
+ By  hand,  you'd  have  to  spell  all  of  that 
+ out  again  for  every  shot.  And  the  blocks 
+ mean  you  just  fill  in  a  short  line  under 
+ each  heading  instead.  So,  scene  one  runs 
+ six  shots  inside  one  15-second 
+ generation  with  hard  cuts  between  all  of 
+ them. 
+ >> Touch  nothing. 
+ >> It's  a  nice  room. 
+ The  very  first  frame  already  has  both  of 
+ them  in  position,  so  we  don't  waste  any 
+ of  the  15  seconds  on  an  empty 
+ establishing  shot.  And  it  ends  exactly 
+ where  part  one  said  it  would.  With  the 
+ box  half  clear  and  her  hands  still 
+ rising,  you  state  what  happens  and  never 
+ what  shouldn't.  And  the  only  sound 
+ allowed  inside  a  generation  is  sound 
+ that's  actually  happening  in  the  room. 
+ So  no  music  and  no  score  anywhere  inside 
+ any  of  the  three.  The  turn  in  this  film 
+ is  a  single  sound,  the  steel  shutter 
+ slamming  into  the  sill  at  the  top  of 
+ scene  two.  And  it's  the  only  alarm 
+ inside  any  of  the  three  generations. 
+ Look  at  this  beauty. 
+ [panting] 
+ >> Which  way? 
+ >> Right. 
+ >> The  shutters  take  out  those  three 
+ moonlight  stripes  one  at  a  time  behind 
+ them,  which  is  the  corridor  plate  paying 
+ off.  He  asks  which  way,  she  says  right. 
+ And  they  cut  right  with  the  camera 
+ behind  them.  So  her  word  and  the  frame 
+ agree  with  each  other.  And  the  last 
+ generation  is  one  speed  ramp  into  the 
+ window  smash.  Then  a  first  person  fall. 
+ That  slow  motion  shot  has  both  faces  and 
+ hundreds  of  individually  spinning  shards 
+ in  the  same  frame,  which  is  the  hardest 
+ thing  in  the  entire  film.  All  three 
+ generations  are  done,  and  the  faces 
+ match  their  sheets  in  every  one  of  them. 
+ But  one  shot  inside  scene  two  still 
+ comes  back  wrong.  Claude  can't  watch  the 
+ video  it  just  made,  so  every  mistake  in 
+ it  is  one  I  have  to  catch  myself.  It 
+ asks  me  to  play  each  one  back  and  tell 
+ it  what  went  wrong.  And  that's  the  only 
+ check  on  the  video  itself.  And  the 
+ opening  close-up  of  scene  two  fails.  The 
+ box  in  frame  doesn't  actually  match  the 
+ prop  sheet  because  the  proportions  are 
+ wrong  and  the  lid  lining  is  off.  But 
+ everything  from  the  shutter  slam  onwards 
+ is  fine.  So  the  obvious  move  is  to 
+ reroll  the  whole  15  seconds,  but  that 
+ throws  away  five  approved  shots  and  the 
+ shutter  slam  along  with  them.  Claude 
+ regenerates  that  one  shot  on  its  own 
+ instead  as  a  standalone  insert  at  4 
+ seconds.  Then  I  trim  it  into  the  2  and 
+ 1/2  second  slot  in  the  edit  and  the 
+ extra  runtime  is  there  so  I  can  find  the 
+ cleanest  cut  point.  So  I  ask  it  to  write 
+ the  insert  prompt  and  two  things  change 
+ in  there  while  nothing  else  moves  at 
+ all.  Jewelbox  gets  named  as  the  single 
+ source  of  truth  and  the  box  gets  spelled 
+ out  explicitly  rather  than  left  to  the 
+ tag.  Then  the  exact  things  that  went 
+ wrong  go  in  by  name  as  hard  exclusions. 
+ So  the  prompt  says  it  must  not  come  back 
+ as  a  ring  box  or  a  tall  box.  The  lining 
+ is  never  colored  and  the  necklace  is 
+ never  multistrand.  And  naming  what 
+ actually  went  wrong  is  the  one  place 
+ where  negative  wording  is  worth  using. 
+ [music]  But  the  framing,  the  underlight, 
+ the  whispered  line,  and  the  audio  locks 
+ all  carry  over  unchanged.  That's  why  the 
+ cut  doesn't  show.  And  as  you  can  see, 
+ the  box  now  matches  the  sheet  wide  and 
+ shallow  with  the  cream  silk  lid.  So 
+ scene  two  keeps  its  other  five  shots, 
+ and  we've  paid  for  a  5-second  render 
+ instead  of  another  15.  On  my  own,  I'd 
+ have  just  rerolled  the  whole  thing  and 
+ paid  for  those  15  seconds  twice.  That's 
+ the  whole  film  approved  and  still  at 
+ 1080p.  So  the  upscale  is  next,  and  the 
+ order  you  run  it  in  decides  what  it 
+ costs.  All  four  pieces  are  approved  now, 
+ which  is  three  scenes  and  the  insert. 
+ So,  I  just  tell  it  all  four  are  approved 
+ and  to  upscale  them  to  4K.  It  runs 
+ through  the  MCP  inside  the  same 
+ conversation  with  no  download  and  no 
+ re-upload  anywhere,  and  they  come  back 
+ at  4K.  Nothing  gets  enlarged  until  it's 
+ already  approved.  So,  we  never  pay  to 
+ upscale  a  shot  that  ends  up  cut.  With 
+ all  four  at  4K,  the  only  thing  left  is 
+ the  edit  notes,  and  honestly,  it's  a  few 
+ plain  lines  rather  than  a  document.  It 
+ says  to  run  scene  one  in  full,  then  drop 
+ the  insert  and  trim  to  about  2  and  1/2 
+ seconds.  Then,  scene  two  runs  from  the 
+ shutter  slam  onwards  with  its  original 
+ opening  dropped,  and  then  scene  three  in 
+ full.  Every  single  join  is  a  hard  cut. 
+ And  then  the  music,  which  is  the  part  we 
+ kept  out  of  every  generation  on  purpose. 
+ A  light  comic  track  runs  under  scene  one 
+ on  its  own.  It  switches  to  a  chase  track 
+ the  moment  the  shutter  hits  the  sill, 
+ cut  dead  on  that  frame  with  no 
+ crossfade.  The  alarm  bell  runs  from  that 
+ same  frame  until  the  glass  smashes  and 
+ then  everything  drops  out  for  the  fall. 
+ And  the  only  thing  that  crossfades 
+ anywhere  is  the  room  tone  held  under 
+ both  joins  so  it  doesn't  jump  while  the 
+ picture  cuts  hard. 
+ >> Touch  nothing. 
+ >> [snorts] 
+ >> It's  a  nice  room. 
+ Look  at  this  beauty. 
+ >> Which  way? 
+ >> Right. 
+ >> [music] 
+ >> And  I  didn't  have  to  work  any  of  that 
+ order  out  myself  because  the  prompt 
+ wrote  those  notes  as  part  of  the  same 
+ run  and  none  of  that  cost  anything 
+ beyond  the  credits  I  already  had.  The 
+ same  connector  opens  every  other  model 
+ on  Higsfield  and  I  only  used  two  of 
+ them.  So  open  Higsfield  through  the  link 
+ below,  connect  the  MCP  and  run  the 
+ prompt  on  your  first  idea.  Thank  you  for 
+ watching  and  I'll  see  you  in  the  next

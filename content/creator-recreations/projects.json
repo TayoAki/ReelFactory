@@ -1,0 +1,90 @@
+[
+ {"id":"01-fabric-vs-power-bi","number":1,"title":"Fabric vs Power BI","reference":"7638031376217853205","changes":"Removed unsupported most-searched hook and no-refresh absolute. Direct Lake refreshes metadata; this isn't a live Fabric demo.","beats":[
+  {"text":"Microsoft Fabric versus Power BI? Power BI is already inside Fabric.","asset":"architecture","device":"tile","key":"Power BI"},
+  {"text":"Power BI handles reports. Fabric covers the workflow around those reports.","asset":"architecture","device":"focus","key":"Microsoft Fabric"},
+  {"text":"Getting data in. Storing it. Transforming it. Then serving the result.","asset":"onelake","device":"sequence"},
+  {"text":"OneLake gives those workloads a shared, logical data lake.","asset":"onelake","device":"focus","key":"OneLake"},
+  {"text":"Direct Lake can read Delta tables without importing an entire copy into the model.","asset":"directlake","device":"focus","key":"Direct Lake"},
+  {"text":"A Direct Lake refresh still exists. It updates metadata, rather than copying the whole dataset.","asset":"framing","device":"sequence"},
+  {"text":"Already know Power BI? Keep it. Add SQL, a lakehouse, and an ingestion pipeline.","asset":"architecture","device":"sequence"},
+  {"text":"Start with one end to end workflow. Follow the data into the report.","asset":"onelake","device":"focus"}
+ ]},
+ {"id":"02-free-dp700-path","number":2,"title":"The free DP-700 preparation path","reference":"7659620910105677076","changes":"Replaced expired voucher promotion and unverified historical frequency with currently documented preparation resources. No promise of future vouchers.","beats":[
+  {"text":"Want to prepare for DP seven hundred without buying a course? Start with Microsoft's own resources.","asset":"dp700","device":"tile","key":"DP-700"},
+  {"text":"First, open the Fabric Data Engineer certification page on Microsoft Learn.","asset":"dp700","device":"focus"},
+  {"text":"Use the study guide to see the skills the exam measures.","asset":"dp700","device":"sequence"},
+  {"text":"Then work through the free, self paced learning material linked from that page.","asset":"dp700","device":"focus"},
+  {"text":"Use the free practice assessment to find the areas you still need to study.","asset":"assessment","device":"focus"},
+  {"text":"Try the exam sandbox so the interface is familiar before exam day.","asset":"assessment","device":"sequence"},
+  {"text":"Preparation is free. An exam booking is a separate purchase unless you have a valid offer.","asset":"dp700","device":"focus"},
+  {"text":"Save the official certification page. Check any voucher's eligibility and deadline before relying on it.","asset":"dp700","device":"focus"}
+ ]},
+ {"id":"03-analyst-fabric-workflow","number":3,"title":"The Fabric workflow beyond charts","reference":"7635415703377448212","changes":"Removed predictions about all analysts, one-bill oversimplification, hiring guarantees and universal job-posting claims.","beats":[
+  {"text":"If you already build Power BI reports, learn what happens before the chart.","asset":"architecture","device":"tile"},
+  {"text":"Fabric brings ingestion, engineering, storage, analytics and reporting into one platform.","asset":"architecture","device":"sequence"},
+  {"text":"Start with a lakehouse. Understand where the data lands and how its tables are organized.","asset":"hierarchy","device":"focus","key":"Lakehouse"},
+  {"text":"Then trace an ingestion pipeline. What arrives, what changes, and what happens when a run fails?", "asset":"pipeline","device":"sequence"},
+  {"text":"Keep SQL and Power BI. Add the shared data layer underneath them.","asset":"onelake","device":"focus"},
+  {"text":"Fabric data agents can turn questions into queries against supported data sources.","asset":"agent-ask","device":"focus","key":"Data agents"},
+  {"text":"That makes a clean model and clear permissions useful beyond the report itself.","asset":"agent-sources","device":"sequence"},
+  {"text":"Build one small workflow from source to report. Explain each step and show its output.","asset":"architecture","device":"focus"}
+ ]},
+ {"id":"04-direct-lake-question","number":4,"title":"The Direct Lake interview question","reference":"7667345672042974481","changes":"Quiz is an original adaptation; the reference demonstrates SQL masking. Replaced blanket security/fallback claims with documented Direct Lake distinctions.","beats":[
+  {"text":"A Fabric interview question. Your sales data is stored as Delta tables in OneLake.","asset":"directlake","device":"tile"},
+  {"text":"You want import style query performance without copying the entire dataset into the model.","asset":"directlake","device":"focus"},
+  {"text":"Which storage mode fits? Import? Direct Query? Or Direct Lake?", "asset":"directlake","device":"quiz"},
+  {"text":"Pause here and choose your answer.","asset":"directlake","device":"focus"},
+  {"text":"Direct Lake. It loads the columns needed for queries from Delta tables in OneLake.","asset":"directlake","device":"focus","key":"Direct Lake"},
+  {"text":"A refresh updates metadata. It does not import the entire dataset again.","asset":"framing","device":"sequence"},
+  {"text":"Here is the detail to check. Direct Lake on SQL can fall back to Direct Query.","asset":"directlake","device":"focus"},
+  {"text":"Direct Lake on OneLake does not use that fallback. Their security behavior differs too.","asset":"framing","device":"sequence"},
+  {"text":"Read the comparison before choosing a mode. The correct design depends on the source and permissions.","asset":"directlake","device":"focus"}
+ ]},
+ {"id":"05-data-agent-walkthrough","number":5,"title":"Ask Fabric data questions in plain English","reference":"7636938088559758593","changes":"Removed unsupported fixed cost, language and trial absolutes. Uses official documentation captures; no fabricated execution or answer.","beats":[
+  {"text":"Your Power BI semantic model can also be a source for a Fabric data agent.","asset":"agent-create","device":"tile","key":"Data agent"},
+  {"text":"Microsoft's documented setup starts by creating the agent and choosing its data sources.","asset":"agent-create","device":"focus"},
+  {"text":"You can add up to five supported sources in one agent.","asset":"agent-sources","device":"sequence"},
+  {"text":"Select the tables it should use. Give columns and tables descriptive names.","asset":"agent-select","device":"focus"},
+  {"text":"Then ask a concrete question. For example, what were total sales in California in twenty twenty three?", "asset":"agent-ask","device":"focus"},
+  {"text":"The agent can generate SQL, DAX or KQL, depending on the data source.","asset":"agent-ask","device":"sequence"},
+  {"text":"It uses your data access permissions. Clear descriptions and a clean model help it choose the right query.","asset":"agent-sources","device":"focus"},
+  {"text":"Before a real demo, check capacity prerequisites, permissions, and the generated query against a known answer.","asset":"agent-ask","device":"focus"}
+ ]},
+ {"id":"06-free-fabric-resources","number":6,"title":"Three free Fabric learning resources","reference":"7660163521614777620","changes":"Removed promise of identical exam wording/difficulty and stale trial exclusions. Trial availability remains subject to Microsoft's eligibility rules.","beats":[
+  {"text":"Three free Microsoft resources for learning Fabric. Save these official pages.","asset":"dp700","device":"tile"},
+  {"text":"One. A Fabric trial gives eligible users sixty days to explore the platform.","asset":"trial","device":"focus","key":"60 days"},
+  {"text":"Use it to practice lakehouses, ingestion and reporting. Check the current trial limits before you start.","asset":"trial-home","device":"sequence"},
+  {"text":"Two. The DP seven hundred practice assessment is available free on Microsoft Learn.","asset":"assessment","device":"focus","key":"Practice assessment"},
+  {"text":"Use the feedback to find gaps. It is a study tool, not a guarantee of an exam result.","asset":"assessment","device":"sequence"},
+  {"text":"Three. The exam sandbox lets you explore the exam interface before booking your test.","asset":"assessment","device":"focus","key":"Exam sandbox"},
+  {"text":"Start with the certification page and follow its official links. Keep the resources together for your next study session.","asset":"dp700","device":"focus"}
+ ]},
+ {"id":"07-claude-dashboards","number":7,"title":"Claude dashboards: connect, ask, inspect","reference":"7695498034079108359","changes":"Verified first-party feature text via Firecrawl. Original source cards replace unlicensed creator footage. Not a recorded product execution; omitted categorical Power BI export exclusion.","beats":[
+  {"text":"Claude Dashboards can connect to Databricks and build a dashboard from a question.","asset":"claude-source","device":"tile","key":"Claude Dashboards"},
+  {"text":"Anthropic announced it on October eighth. The announcement describes a beta on paid plans.","asset":"claude-source","device":"focus"},
+  {"text":"Step one. Connect a supported data platform, such as Databricks, Snowflake or Big Query.","asset":"claude-connect","device":"sequence"},
+  {"text":"Step two. Ask a specific question in plain English, like this week's signups compared with last month's.","asset":"claude-question","device":"focus"},
+  {"text":"Claude retrieves the data and builds the dashboard. This is a source based walkthrough of the announced feature.","asset":"claude-source","device":"focus"},
+  {"text":"Step three. Inspect the answer. The announcement says you can click a number to see its query.","asset":"claude-query","device":"sequence"},
+  {"text":"Each chart also shows when its data was last refreshed.","asset":"claude-query","device":"focus"},
+  {"text":"Enterprise admins must enable the feature. Check access and verify the query before sharing the result.","asset":"claude-source","device":"focus"}
+ ]},
+ {"id":"08-nyc-311-analysis","number":8,"title":"A year of New York's 311 requests","reference":"7683919006683680014","changes":"Recomputed results through NYC's public API. Removed claim of a Fabric execution; chart is original and backed by saved query responses. Date range is Oct 1 2025 through Sep 30 2026.","beats":[
+  {"text":"I queried a year of New York's three one one requests. Almost four million records.","asset":"nyc-total","device":"tile","key":"3,963,898"},
+  {"text":"The window is October first, twenty twenty five, through September thirtieth, twenty twenty six.","asset":"nyc-total","device":"focus"},
+  {"text":"The biggest category is illegal parking. Six hundred eleven thousand, two hundred eighty two requests.","asset":"nyc-categories","device":"focus","key":"611,282"},
+  {"text":"Residential noise is next, with more than four hundred thirty two thousand requests.","asset":"nyc-categories","device":"sequence"},
+  {"text":"Those residential noise requests peak in the ten p m hour. Sunday is the busiest day.","asset":"nyc-hours","device":"focus","key":"10 p.m."},
+  {"text":"Heat and hot water requests show a different pattern. January is far busier than August.","asset":"nyc-heat","device":"sequence"},
+  {"text":"At the other end of the list, exactly one request is filed under trapping pigeon.","asset":"nyc-rare","device":"focus","key":"Trapping Pigeon"},
+  {"text":"These are request counts, not unique incidents. The queries and results are saved so you can reproduce the charts.","asset":"nyc-categories","device":"focus"}
+ ]},
+ {"id":"09-fabric-capacity-costs","number":9,"title":"Before you pause Fabric capacity","reference":"7671004519790054678","changes":"Kept reservation and smoothed-usage caveats; clarified that pausing does not stop the reservation charge. Original reference is a cumulative list, not a visual myth/reveal.","beats":[
+  {"text":"Pausing Fabric capacity does not stop the charge for a reservation you already bought.","asset":"reservation","device":"tile"},
+  {"text":"A reservation discount applies hour by hour. Unused hours do not carry forward.","asset":"reservation","device":"focus"},
+  {"text":"So check how your reservation benefit is being used before you pause capacity.","asset":"reservation","device":"sequence"},
+  {"text":"There is a second check. Remaining cumulative overages and smoothed operations are added to your Azure bill when you pause.","asset":"pause","device":"focus"},
+  {"text":"Use the Capacity Metrics app to inspect the capacity's usage.","asset":"pause","device":"sequence"},
+  {"text":"Before pausing, check the reservation and pending usage together. A green pause button does not erase an existing commitment.","asset":"reservation","device":"focus"}
+ ]}
+]

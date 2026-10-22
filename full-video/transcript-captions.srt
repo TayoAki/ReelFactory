@@ -1,0 +1,3899 @@
+1
+00:00:00,000 --> 00:00:03,480
+Hi, I'm Josh. I'm here today with Elise,
+
+2
+00:00:03,480 --> 00:00:05,960
+who is a product leader at Databricks.
+
+3
+00:00:05,960 --> 00:00:08,600
+We are going to be doing a deep dive on
+
+4
+00:00:08,600 --> 00:00:12,640
+Genie ontology and the capabilities for
+
+5
+00:00:12,640 --> 00:00:15,800
+co-working with Genie. Thank you so much
+
+6
+00:00:15,800 --> 00:00:17,400
+for being here, Elise.
+
+7
+00:00:17,400 --> 00:00:18,840
+>> Thank you for having me. Excited to talk
+
+8
+00:00:18,840 --> 00:00:20,240
+about this.
+
+9
+00:00:20,240 --> 00:00:24,160
+>> Before we dive into Genie ontology,
+
+10
+00:00:24,160 --> 00:00:27,600
+I think it might be worth it for viewers
+
+11
+00:00:27,600 --> 00:00:29,120
+to have a
+
+12
+00:00:29,120 --> 00:00:34,440
+quick little 101 lesson on what Genie
+
+13
+00:00:34,440 --> 00:00:35,720
+is.
+
+14
+00:00:35,720 --> 00:00:38,280
+>> Yeah, absolutely. So, I come from the
+
+15
+00:00:38,280 --> 00:00:41,280
+Genie 1 world. Genie 1 is our AI
+
+16
+00:00:41,280 --> 00:00:43,520
+co-worker for business users. It It
+
+17
+00:00:43,520 --> 00:00:45,920
+connects to your data and tools. It
+
+18
+00:00:45,920 --> 00:00:48,080
+answers questions about your business.
+
+19
+00:00:48,080 --> 00:00:49,720
+It acts on the answers that it gives
+
+20
+00:00:49,720 --> 00:00:51,800
+you, all within the governance framework
+
+21
+00:00:51,800 --> 00:00:54,600
+that you already have. But, Genie 1 sits
+
+22
+00:00:54,600 --> 00:00:58,120
+in a larger stack of of AI co-workers
+
+23
+00:00:58,120 --> 00:01:00,960
+and other AI tools on Databricks. So, if
+
+24
+00:01:00,960 --> 00:01:03,360
+for example, if Genie 1 is our agent for
+
+25
+00:01:03,360 --> 00:01:06,440
+business users, Genie code is our agent
+
+26
+00:01:06,440 --> 00:01:08,640
+for technical users. It helps them write
+
+27
+00:01:08,640 --> 00:01:10,640
+code and and do other work within the
+
+28
+00:01:10,640 --> 00:01:13,480
+lakehouse. We also have Genie agents,
+
+29
+00:01:13,480 --> 00:01:15,400
+which can be accessed by both types of
+
+30
+00:01:15,400 --> 00:01:17,720
+users, and they're really focused on
+
+31
+00:01:17,720 --> 00:01:19,600
+domain-specific work. They're They're
+
+32
+00:01:19,600 --> 00:01:21,160
+essentially domain experts, and I can
+
+33
+00:01:21,160 --> 00:01:22,840
+actually cover that in more depth if we
+
+34
+00:01:22,840 --> 00:01:24,880
+want to. And then, if all those
+
+35
+00:01:24,880 --> 00:01:27,000
+hyper-managed solutions don't kind of
+
+36
+00:01:27,000 --> 00:01:28,440
+satisfy your needs, you can always drop
+
+37
+00:01:28,440 --> 00:01:30,880
+down to our more custom layer, where we
+
+38
+00:01:30,880 --> 00:01:33,080
+have things like Agent Bricks, MLflow,
+
+39
+00:01:33,080 --> 00:01:34,360
+and so on.
+
+40
+00:01:34,360 --> 00:01:40,200
+>> So, what exactly is Genie ontology?
+
+41
+00:01:40,200 --> 00:01:42,800
+>> Yeah, absolutely. Um
+
+42
+00:01:42,800 --> 00:01:45,000
+Yeah, I think it helps to start from the
+
+43
+00:01:45,000 --> 00:01:46,360
+problem that we're trying to solve, and
+
+44
+00:01:46,360 --> 00:01:48,000
+then we'll talk about Databricks'
+
+45
+00:01:48,000 --> 00:01:50,520
+perspective on how to solve it. Generic
+
+46
+00:01:50,520 --> 00:01:53,880
+models are really good at searching the
+
+47
+00:01:53,880 --> 00:01:57,080
+web or a a code base, anything that's
+
+48
+00:01:57,080 --> 00:01:59,840
+got a really constrained space. But when
+
+49
+00:01:59,840 --> 00:02:01,880
+we start to ask questions about our
+
+50
+00:02:01,880 --> 00:02:05,000
+business, we often get quite strange
+
+51
+00:02:05,000 --> 00:02:07,280
+answers. So, for example, it might grab
+
+52
+00:02:07,280 --> 00:02:09,200
+the first revenue table that it finds in
+
+53
+00:02:09,200 --> 00:02:11,520
+some random dashboard rather than the
+
+54
+00:02:11,520 --> 00:02:14,640
+one that finance actually maintains. Uh
+
+55
+00:02:14,640 --> 00:02:16,520
+or if you ask for, you know, a churn
+
+56
+00:02:16,520 --> 00:02:18,600
+rate, it might have no idea that your
+
+57
+00:02:18,600 --> 00:02:20,840
+team excludes free metrics from that or
+
+58
+00:02:20,840 --> 00:02:22,959
+even that the concept of a free met uh a
+
+59
+00:02:22,959 --> 00:02:25,600
+free trial exists. Sorry, free trials.
+
+60
+00:02:25,600 --> 00:02:28,080
+Uh or if you ask like, "What campaign is
+
+61
+00:02:28,080 --> 00:02:30,360
+is performing best?" It might have no
+
+62
+00:02:30,360 --> 00:02:32,480
+idea that like the campaigns table is
+
+63
+00:02:32,480 --> 00:02:34,800
+super laggy. So, if you actually want,
+
+64
+00:02:34,800 --> 00:02:36,000
+you know, the latest data, you have to
+
+65
+00:02:36,000 --> 00:02:39,160
+go straight to HubSpot via MCP. And more
+
+66
+00:02:39,160 --> 00:02:40,920
+broadly, all of our companies, you know,
+
+67
+00:02:40,920 --> 00:02:42,720
+Databricks included, runs on this type
+
+68
+00:02:42,720 --> 00:02:45,360
+of institutional knowledge that is
+
+69
+00:02:45,360 --> 00:02:48,280
+locked in in different dashboards and
+
+70
+00:02:48,280 --> 00:02:50,240
+documents and systems and in people's
+
+71
+00:02:50,240 --> 00:02:52,160
+heads. And then to make matters worse,
+
+72
+00:02:52,160 --> 00:02:54,040
+that knowledge moves, right? Tables get
+
+73
+00:02:54,040 --> 00:02:56,720
+renamed, documents go stale, people
+
+74
+00:02:56,720 --> 00:02:59,120
+leave the company. So, no matter how
+
+75
+00:02:59,120 --> 00:03:00,959
+sophisticated a model is, and these
+
+76
+00:03:00,959 --> 00:03:03,200
+models are really sophisticated. They
+
+77
+00:03:03,200 --> 00:03:05,440
+can do graduate-level math, but they
+
+78
+00:03:05,440 --> 00:03:07,760
+struggle to answer business questions
+
+79
+00:03:07,760 --> 00:03:09,840
+because they're missing that critical
+
+80
+00:03:09,840 --> 00:03:12,560
+context. Uh but Genie was built for
+
+81
+00:03:12,560 --> 00:03:14,320
+exactly those types of questions, and it
+
+82
+00:03:14,320 --> 00:03:15,720
+helps that we've been working on this
+
+83
+00:03:15,720 --> 00:03:18,959
+this context problem for a long time. Uh
+
+84
+00:03:18,959 --> 00:03:20,840
+Genie understands your your data
+
+85
+00:03:20,840 --> 00:03:23,680
+sources, your definitions, even who's
+
+86
+00:03:23,680 --> 00:03:25,080
+most authoritative when it comes to
+
+87
+00:03:25,080 --> 00:03:27,080
+drafting those definitions, and we do
+
+88
+00:03:27,080 --> 00:03:29,720
+that through the Genie ontology.
+
+89
+00:03:29,720 --> 00:03:32,200
+The ontology is a is a unified context
+
+90
+00:03:32,200 --> 00:03:34,640
+layer that gives Genie a a business
+
+91
+00:03:34,640 --> 00:03:36,800
+aware map of your organization. And it
+
+92
+00:03:36,800 --> 00:03:39,280
+brings together two categories of
+
+93
+00:03:39,280 --> 00:03:41,720
+context. We have modeled ontology, and
+
+94
+00:03:41,720 --> 00:03:43,920
+then we have learned ontology.
+
+95
+00:03:43,920 --> 00:03:45,800
+On the modeled side, uh this is really
+
+96
+00:03:45,800 --> 00:03:48,040
+where you need to catalog semantics come
+
+97
+00:03:48,040 --> 00:03:50,519
+into play. It's human-curated context
+
+98
+00:03:50,519 --> 00:03:54,440
+that someone certified and and governed.
+
+99
+00:03:54,440 --> 00:03:56,200
+And there are three components that are
+
+100
+00:03:56,200 --> 00:03:58,040
+worth talking about. Uh the first is
+
+101
+00:03:58,040 --> 00:04:00,280
+metric views. They form your your
+
+102
+00:04:00,280 --> 00:04:02,880
+governed reusable KPI layer. So, it's a
+
+103
+00:04:02,880 --> 00:04:05,120
+certified single source of truth
+
+104
+00:04:05,120 --> 00:04:07,800
+definition for your key business metrics
+
+105
+00:04:07,800 --> 00:04:10,040
+stored as open format Unity Catalog
+
+106
+00:04:10,040 --> 00:04:12,240
+objects. So, for example, you know, this
+
+107
+00:04:12,240 --> 00:04:14,880
+is how we slice and dice revenue. And
+
+108
+00:04:14,880 --> 00:04:17,000
+and metric views are fully GA'd.
+
+109
+00:04:17,000 --> 00:04:19,760
+Pages are a bit newer. Uh it's the it's
+
+110
+00:04:19,760 --> 00:04:21,799
+the qualitative equivalent of a metric
+
+111
+00:04:21,799 --> 00:04:24,160
+view. I think of them as wiki pages in
+
+112
+00:04:24,160 --> 00:04:26,360
+in Unity Catalog. So, if a metric view
+
+113
+00:04:26,360 --> 00:04:28,840
+defines how we slice and dice revenue, a
+
+114
+00:04:28,840 --> 00:04:31,080
+page might tell you, say, the difference
+
+115
+00:04:31,080 --> 00:04:33,480
+between incremental and attributed
+
+116
+00:04:33,480 --> 00:04:36,320
+revenue. Uh and these are in beta and it
+
+117
+00:04:36,320 --> 00:04:38,080
+is actually super easy to get started.
+
+118
+00:04:38,080 --> 00:04:40,280
+You can use Genie code to actually get
+
+119
+00:04:40,280 --> 00:04:42,919
+started on creating your pages. And then
+
+120
+00:04:42,919 --> 00:04:45,080
+finally, domains uh allow you to do
+
+121
+00:04:45,080 --> 00:04:49,080
+tag-based logical collections of assets,
+
+122
+00:04:49,080 --> 00:04:50,840
+uh both Unity Catalog and workspace
+
+123
+00:04:50,840 --> 00:04:53,120
+assets by things like business unit or
+
+124
+00:04:53,120 --> 00:04:55,800
+geo or function. So, you might have a
+
+125
+00:04:55,800 --> 00:04:57,360
+finance domain or you might have a
+
+126
+00:04:57,360 --> 00:04:59,800
+product team domain. And an asset can
+
+127
+00:04:59,800 --> 00:05:01,480
+live in multiple domains. And it's
+
+128
+00:05:01,480 --> 00:05:03,320
+really helpful for reducing the agent's
+
+129
+00:05:03,320 --> 00:05:04,800
+search space. So, if someone asks a
+
+130
+00:05:04,800 --> 00:05:06,440
+question about finance, you know, we can
+
+131
+00:05:06,440 --> 00:05:09,720
+start from from the finance domain. So,
+
+132
+00:05:09,720 --> 00:05:12,120
+together, metric views, pages, and
+
+133
+00:05:12,120 --> 00:05:14,800
+domains form this certified
+
+134
+00:05:14,800 --> 00:05:17,560
+authoritative baseline. But it's hard,
+
+135
+00:05:17,560 --> 00:05:21,240
+if not impossible, to try to codify the
+
+136
+00:05:21,240 --> 00:05:23,360
+entire organization's knowledge that
+
+137
+00:05:23,360 --> 00:05:25,720
+way, to have a centralized data team
+
+138
+00:05:25,720 --> 00:05:27,600
+responsible for codifying the the
+
+139
+00:05:27,600 --> 00:05:30,360
+concepts that every individual team are
+
+140
+00:05:30,360 --> 00:05:32,120
+are kind of experts in.
+
+141
+00:05:32,120 --> 00:05:35,360
+So, we supplement the modeled ontology
+
+142
+00:05:35,360 --> 00:05:37,520
+with what we call learned knowledge.
+
+143
+00:05:37,520 --> 00:05:39,960
+Specifically, we extract ontology
+
+144
+00:05:39,960 --> 00:05:43,520
+snippets from your dashboards, your SQL
+
+145
+00:05:43,520 --> 00:05:46,040
+queries, your Genie agents, notebooks,
+
+146
+00:05:46,040 --> 00:05:48,000
+all the work that people are doing day
+
+147
+00:05:48,000 --> 00:05:50,920
+in and and day out within and outside of
+
+148
+00:05:50,920 --> 00:05:52,800
+Databricks. So, for example, you know,
+
+149
+00:05:52,800 --> 00:05:55,760
+the fact that someone joins table A and
+
+150
+00:05:55,760 --> 00:05:58,640
+table B is very valuable information for
+
+151
+00:05:58,640 --> 00:06:00,640
+a Genie. And then if they add maybe a
+
+152
+00:06:00,640 --> 00:06:03,000
+comment, that's probably making it even
+
+153
+00:06:03,000 --> 00:06:04,640
+more valuable. And then if they share
+
+154
+00:06:04,640 --> 00:06:06,920
+that with other people, we know it's
+
+155
+00:06:06,920 --> 00:06:08,640
+probably valuable for those other
+
+156
+00:06:08,640 --> 00:06:10,760
+people. And then if that query becomes
+
+157
+00:06:10,760 --> 00:06:13,720
+very, very popular, we can surmise that
+
+158
+00:06:13,720 --> 00:06:15,520
+it's probably a pretty authoritative
+
+159
+00:06:15,520 --> 00:06:17,160
+source of information. So, a snippet
+
+160
+00:06:17,160 --> 00:06:19,520
+could be a join hint, but it could also
+
+161
+00:06:19,520 --> 00:06:22,240
+be things like a business rule. So, for
+
+162
+00:06:22,240 --> 00:06:24,400
+example, a lead is only qualified once a
+
+163
+00:06:24,400 --> 00:06:25,480
+meeting is booked, and all that
+
+164
+00:06:25,480 --> 00:06:27,680
+information lives in Salesforce. Or it
+
+165
+00:06:27,680 --> 00:06:29,160
+could be information about, you know,
+
+166
+00:06:29,160 --> 00:06:30,960
+which data is most authoritative. So,
+
+167
+00:06:30,960 --> 00:06:33,720
+for example, you must pull revenue from
+
+168
+00:06:33,720 --> 00:06:36,200
+this finance catalog. Or it could be a
+
+169
+00:06:36,200 --> 00:06:38,160
+metric definition. So, for example, like
+
+170
+00:06:38,160 --> 00:06:41,480
+how might we define churn for our team?
+
+171
+00:06:41,480 --> 00:06:44,520
+And as Genie is amassing all this
+
+172
+00:06:44,520 --> 00:06:47,040
+information, both this modeled and
+
+173
+00:06:47,040 --> 00:06:49,560
+learned knowledge, it's all going into
+
+174
+00:06:49,560 --> 00:06:51,760
+one single ranking algorithm that we
+
+175
+00:06:51,760 --> 00:06:53,720
+call Ontorank.
+
+176
+00:06:53,720 --> 00:06:56,800
+Given a Given a query that someone posts
+
+177
+00:06:56,800 --> 00:06:58,760
+in an agent, what are the assets that
+
+178
+00:06:58,760 --> 00:07:00,360
+are most likely to be helpful in
+
+179
+00:07:00,360 --> 00:07:02,360
+answering that in that question? So, for
+
+180
+00:07:02,360 --> 00:07:04,400
+example, it looks at things like
+
+181
+00:07:04,400 --> 00:07:07,160
+popularity, certification status,
+
+182
+00:07:07,160 --> 00:07:09,480
+authorship to
+
+183
+00:07:09,480 --> 00:07:11,120
+to try to find the most valuable
+
+184
+00:07:11,120 --> 00:07:15,080
+information, to dedupe against across uh
+
+185
+00:07:15,080 --> 00:07:17,560
+conflicting information, and so on. And
+
+186
+00:07:17,560 --> 00:07:19,760
+it's not just questions that you put
+
+187
+00:07:19,760 --> 00:07:22,800
+into Genie, it's also any third-party
+
+188
+00:07:22,800 --> 00:07:25,240
+agent that you choose to hook up via our
+
+189
+00:07:25,240 --> 00:07:27,400
+MCP. So, no matter where you're
+
+190
+00:07:27,400 --> 00:07:29,840
+standardizing your end users, you
+
+191
+00:07:29,840 --> 00:07:32,360
+benefit from this semantic layer. And
+
+192
+00:07:32,360 --> 00:07:35,000
+that that benefit is very significant.
+
+193
+00:07:35,000 --> 00:07:36,720
+Uh when we benchmark Genie with the
+
+194
+00:07:36,720 --> 00:07:38,800
+ontology against the the strongest
+
+195
+00:07:38,800 --> 00:07:41,760
+models available, it's consistently the
+
+196
+00:07:41,760 --> 00:07:43,880
+top-performing agent for business
+
+197
+00:07:43,880 --> 00:07:45,000
+questions and there were no trick
+
+198
+00:07:45,000 --> 00:07:46,520
+questions in this benchmark. This is
+
+199
+00:07:46,520 --> 00:07:48,680
+just real business questions with real
+
+200
+00:07:48,680 --> 00:07:51,080
+business data and we saw more than 30
+
+201
+00:07:51,080 --> 00:07:53,400
+percentage point improvement in accuracy
+
+202
+00:07:53,400 --> 00:07:55,520
+over the next best performing model. And
+
+203
+00:07:55,520 --> 00:07:58,160
+it was also a lot quicker. After all, a
+
+204
+00:07:58,160 --> 00:08:00,560
+generic agent has to make up for the
+
+205
+00:08:00,560 --> 00:08:02,400
+fact that it doesn't know your business.
+
+206
+00:08:02,400 --> 00:08:04,600
+So if it's not going to hallucinate,
+
+207
+00:08:04,600 --> 00:08:06,800
+then it explores, right? It samples a
+
+208
+00:08:06,800 --> 00:08:08,920
+bunch of schemas, it runs a bunch of
+
+209
+00:08:08,920 --> 00:08:10,600
+extra queries, it grabs a bunch of
+
+210
+00:08:10,600 --> 00:08:12,680
+documents and it loads all of that into
+
+211
+00:08:12,680 --> 00:08:14,840
+the model's context in case any of it
+
+212
+00:08:14,840 --> 00:08:16,800
+turns out to matter later. But Genie
+
+213
+00:08:16,800 --> 00:08:19,000
+doesn't have to do as much work because
+
+214
+00:08:19,000 --> 00:08:21,800
+it already knows which sources count and
+
+215
+00:08:21,800 --> 00:08:23,280
+how to use them. And and I'm already
+
+216
+00:08:23,280 --> 00:08:25,680
+really confident that as we continue to
+
+217
+00:08:25,680 --> 00:08:27,640
+tune the onto rank algorithm and expand
+
+218
+00:08:27,640 --> 00:08:29,560
+the depth of the ontology, I think this
+
+219
+00:08:29,560 --> 00:08:31,760
+gap is going to is going to only widen.
+
+220
+00:08:31,760 --> 00:08:34,560
+>> Now, I see accuracy,
+
+221
+00:08:34,560 --> 00:08:37,440
+I see speed, I do not see the cost
+
+222
+00:08:37,440 --> 00:08:40,640
+component. How how did that compare?
+
+223
+00:08:40,640 --> 00:08:42,520
+>> Yeah, the cost component, it's a third
+
+224
+00:08:42,520 --> 00:08:45,080
+version of this slide. Um, it was also
+
+225
+00:08:45,080 --> 00:08:47,560
+favorable if I recall correctly. It ties
+
+226
+00:08:47,560 --> 00:08:49,280
+to the the latency and the token
+
+227
+00:08:49,280 --> 00:08:51,000
+efficiency, which makes sense, right?
+
+228
+00:08:51,000 --> 00:08:53,320
+Genie is doing a lot less trial and
+
+229
+00:08:53,320 --> 00:08:55,520
+error to try to find the assets and to
+
+230
+00:08:55,520 --> 00:08:57,640
+try to make sense of them. So we saw all
+
+231
+00:08:57,640 --> 00:08:58,880
+three
+
+232
+00:08:58,880 --> 00:09:01,880
+all three variables, if you will, um,
+
+233
+00:09:01,880 --> 00:09:03,280
+uh, significantly improved with the
+
+234
+00:09:03,280 --> 00:09:04,080
+ontology.
+
+235
+00:09:04,080 --> 00:09:06,280
+>> Got it. Thank you.
+
+236
+00:09:06,280 --> 00:09:08,839
+>> Um, of course, Genie can only learn from
+
+237
+00:09:08,839 --> 00:09:10,960
+the data that it can actually reach. So
+
+238
+00:09:10,960 --> 00:09:11,960
+it's important to talk a little bit
+
+239
+00:09:11,960 --> 00:09:14,040
+about how Genie also gets access to this
+
+240
+00:09:14,040 --> 00:09:16,640
+data that it's going to make sense of.
+
+241
+00:09:16,640 --> 00:09:18,600
+Uh, we already have text to SQL, uh,
+
+242
+00:09:18,600 --> 00:09:20,480
+which covers structured data that's
+
+243
+00:09:20,480 --> 00:09:22,320
+governed in Unity Catalog. And I don't
+
+244
+00:09:22,320 --> 00:09:24,560
+want to underestimate how much that
+
+245
+00:09:24,560 --> 00:09:26,800
+matters. You know, a lot of agents are
+
+246
+00:09:26,800 --> 00:09:29,440
+just reciting information that lives in
+
+247
+00:09:29,440 --> 00:09:30,880
+a document. But when you're asking
+
+248
+00:09:30,880 --> 00:09:32,560
+questions about your business, there
+
+249
+00:09:32,560 --> 00:09:34,720
+often already isn't already a document
+
+250
+00:09:34,720 --> 00:09:36,000
+that can answer those questions. That's
+
+251
+00:09:36,000 --> 00:09:37,880
+why you're That's why you're asking. So,
+
+252
+00:09:37,880 --> 00:09:41,240
+Genie is not only doing search, but also
+
+253
+00:09:41,240 --> 00:09:43,800
+querying based on your live operational
+
+254
+00:09:43,800 --> 00:09:46,040
+data. And we have dozens of connectors
+
+255
+00:09:46,040 --> 00:09:49,000
+for that. Plus, actually Josh inspired
+
+256
+00:09:49,000 --> 00:09:50,840
+uh a product that we call custom
+
+257
+00:09:50,840 --> 00:09:53,280
+connectors um that allow the community
+
+258
+00:09:53,280 --> 00:09:55,480
+connectors, sorry. Uh that allows you to
+
+259
+00:09:55,480 --> 00:09:58,040
+create a connector to any generic uh
+
+260
+00:09:58,040 --> 00:09:59,600
+application. So, thank you Josh actually
+
+261
+00:09:59,600 --> 00:10:00,880
+for that idea. That That went straight
+
+262
+00:10:00,880 --> 00:10:04,000
+into the product. Um for data that lives
+
+263
+00:10:04,000 --> 00:10:06,360
+in in third-party applications, maybe
+
+264
+00:10:06,360 --> 00:10:08,520
+that you want to query live instead of
+
+265
+00:10:08,520 --> 00:10:10,160
+pulling it in and running that text to
+
+266
+00:10:10,160 --> 00:10:13,760
+SQL, we also have uh MCP connectors.
+
+267
+00:10:13,760 --> 00:10:14,920
+Again, they query live. So, you're
+
+268
+00:10:14,920 --> 00:10:16,520
+getting things like the status of a Jira
+
+269
+00:10:16,520 --> 00:10:19,280
+ticket, uh the status of a lead in
+
+270
+00:10:19,280 --> 00:10:20,800
+Salesforce. It's really good for things
+
+271
+00:10:20,800 --> 00:10:22,920
+like that. Uh we have, you know, maybe a
+
+272
+00:10:22,920 --> 00:10:26,000
+dozen a dozen plus um of those MCP
+
+273
+00:10:26,000 --> 00:10:27,320
+connectors. You can hook up a custom
+
+274
+00:10:27,320 --> 00:10:29,560
+connector, and we're planning to to add
+
+275
+00:10:29,560 --> 00:10:31,600
+quite a bit more here. But, when you
+
+276
+00:10:31,600 --> 00:10:33,680
+want to ask a question across a much
+
+277
+00:10:33,680 --> 00:10:36,360
+larger volume of data um
+
+278
+00:10:36,360 --> 00:10:38,480
+or across a lot of sources at once, a
+
+279
+00:10:38,480 --> 00:10:40,320
+bit of a harder question, you need a
+
+280
+00:10:40,320 --> 00:10:43,240
+little bit more horsepower than MCP. Uh
+
+281
+00:10:43,240 --> 00:10:45,000
+and that's what we're building with the
+
+282
+00:10:45,000 --> 00:10:47,200
+search index. It retrieves and ranks
+
+283
+00:10:47,200 --> 00:10:49,480
+everything together instead of leaning
+
+284
+00:10:49,480 --> 00:10:52,360
+on each provider's siloed search
+
+285
+00:10:52,360 --> 00:10:53,880
+capabilities. And it also feeds the
+
+286
+00:10:53,880 --> 00:10:56,520
+ontology. Uh so, we are
+
+287
+00:10:56,520 --> 00:10:59,120
+ensuring that your your tickets and your
+
+288
+00:10:59,120 --> 00:11:01,040
+wikis, whatever it may be, become part
+
+289
+00:11:01,040 --> 00:11:03,320
+of Genie's context. And just as
+
+290
+00:11:03,320 --> 00:11:06,200
+importantly, we enforce the the sources'
+
+291
+00:11:06,200 --> 00:11:08,360
+permissions. So, for example, you're not
+
+292
+00:11:08,360 --> 00:11:10,240
+seeing emails in Genie that you don't
+
+293
+00:11:10,240 --> 00:11:12,240
+actually have access to in your inbox.
+
+294
+00:11:12,240 --> 00:11:14,440
+And that's a big deal because recreating
+
+295
+00:11:14,440 --> 00:11:16,400
+source permissions in Unity Catalog is a
+
+296
+00:11:16,400 --> 00:11:19,640
+is a pretty hard problem.
+
+297
+00:11:19,960 --> 00:11:21,600
+So, that's organization's context.
+
+298
+00:11:21,600 --> 00:11:22,839
+There's one last thing I want to mention
+
+299
+00:11:22,839 --> 00:11:24,000
+before we actually see this in the
+
+300
+00:11:24,000 --> 00:11:25,960
+product, and that is your personal
+
+301
+00:11:25,960 --> 00:11:28,520
+context. And you can actually ask Genie
+
+302
+00:11:28,520 --> 00:11:30,120
+to preserve things like your
+
+303
+00:11:30,120 --> 00:11:32,600
+preferences, your definitions, and so on
+
+304
+00:11:32,600 --> 00:11:34,840
+through personal memory. And that also
+
+305
+00:11:34,840 --> 00:11:36,680
+allows Genie to, you know, search across
+
+306
+00:11:36,680 --> 00:11:38,000
+chats, things like that. I personally
+
+307
+00:11:38,000 --> 00:11:39,800
+like to save things like style
+
+308
+00:11:39,800 --> 00:11:42,040
+preferences in writing. And And just
+
+309
+00:11:42,040 --> 00:11:43,760
+like all data in the ontology, it's not
+
+310
+00:11:43,760 --> 00:11:45,440
+like this is being shared with people
+
+311
+00:11:45,440 --> 00:11:47,400
+who who shouldn't have access to it. You
+
+312
+00:11:47,400 --> 00:11:49,360
+know, when you steer Genie for yourself,
+
+313
+00:11:49,360 --> 00:11:52,320
+you are impacting only your experience.
+
+314
+00:11:52,320 --> 00:11:55,240
+>> For clarity on this, this means that if
+
+315
+00:11:55,240 --> 00:11:58,920
+I am the CFO and
+
+316
+00:11:58,920 --> 00:12:02,800
+I like to round my values
+
+317
+00:12:02,800 --> 00:12:04,320
+to
+
+318
+00:12:04,320 --> 00:12:06,240
+have zero decimals.
+
+319
+00:12:06,240 --> 00:12:09,160
+I could do it that way. And I don't have
+
+320
+00:12:09,160 --> 00:12:11,640
+to affect your organization, but
+
+321
+00:12:11,640 --> 00:12:14,120
+this other person is the CEO
+
+322
+00:12:14,120 --> 00:12:16,240
+and they have different preferences,
+
+323
+00:12:16,240 --> 00:12:18,240
+like whether it's color preferences on
+
+324
+00:12:18,240 --> 00:12:21,200
+how charts are displayed, whether it's
+
+325
+00:12:21,200 --> 00:12:23,680
+decimal spots, whatever it is.
+
+326
+00:12:23,680 --> 00:12:25,280
+That's basically everything that goes
+
+327
+00:12:25,280 --> 00:12:26,600
+into this, correct?
+
+328
+00:12:26,600 --> 00:12:29,000
+>> Yes. Or perhaps you want to save
+
+329
+00:12:29,000 --> 00:12:30,920
+information about what types of products
+
+330
+00:12:30,920 --> 00:12:32,560
+you work on. So, the next time you asked
+
+331
+00:12:32,560 --> 00:12:34,520
+for a product update, it's more likely
+
+332
+00:12:34,520 --> 00:12:36,160
+just to focus on your products rather
+
+333
+00:12:36,160 --> 00:12:38,400
+than asking you for follow-up questions.
+
+334
+00:12:38,400 --> 00:12:40,080
+>> Yeah, I think this eliminates a lot of
+
+335
+00:12:40,080 --> 00:12:42,520
+back and forth. At least going back a
+
+336
+00:12:42,520 --> 00:12:45,200
+few years ago, I would have made my life
+
+337
+00:12:45,200 --> 00:12:46,839
+a little bit easier on the developer
+
+338
+00:12:46,839 --> 00:12:47,920
+side
+
+339
+00:12:47,920 --> 00:12:49,920
+with fine-tuning certain preferences,
+
+340
+00:12:49,920 --> 00:12:51,560
+too. So.
+
+341
+00:12:51,560 --> 00:12:52,600
+>> Awesome.
+
+342
+00:12:52,600 --> 00:12:54,760
+Um so, let's show this in in the
+
+343
+00:12:54,760 --> 00:12:56,040
+product. Let's see how the ontology
+
+344
+00:12:56,040 --> 00:12:58,040
+actually shows up because it's not It's
+
+345
+00:12:58,040 --> 00:12:59,720
+not a black box. You can actually see
+
+346
+00:12:59,720 --> 00:13:02,839
+the ontology as Genie is thinking. Uh
+
+347
+00:13:02,839 --> 00:13:04,280
+okay, so I'm in a demo workspace here.
+
+348
+00:13:04,280 --> 00:13:06,400
+Of course, every number is is completely
+
+349
+00:13:06,400 --> 00:13:08,600
+made up for the purposes of of the demo,
+
+350
+00:13:08,600 --> 00:13:10,440
+but this is really how we do a lot of
+
+351
+00:13:10,440 --> 00:13:12,960
+our product work uh here at Databricks.
+
+352
+00:13:12,960 --> 00:13:14,720
+So, what I'm showing you here is the
+
+353
+00:13:14,720 --> 00:13:17,160
+Genie 1 web app. And I As you can see,
+
+354
+00:13:17,160 --> 00:13:18,760
+it's a It's a pretty simple interface. I
+
+355
+00:13:18,760 --> 00:13:21,080
+have my chat here, maybe a few suggested
+
+356
+00:13:21,080 --> 00:13:23,520
+actions. I have my my past chats,
+
+357
+00:13:23,520 --> 00:13:25,080
+agents, all the assets that that
+
+358
+00:13:25,080 --> 00:13:26,840
+available to me. Maybe I'll show a bit
+
+359
+00:13:26,840 --> 00:13:29,320
+of that, um, a bit of that later. I
+
+360
+00:13:29,320 --> 00:13:30,960
+could also just as easily be in our
+
+361
+00:13:30,960 --> 00:13:33,840
+desktop or our mobile app. Uh, but I'm
+
+362
+00:13:33,840 --> 00:13:35,880
+going to start by asking Genie about,
+
+363
+00:13:35,880 --> 00:13:37,840
+uh, adoption. And that sounds like a
+
+364
+00:13:37,840 --> 00:13:39,480
+really simple question, but it's
+
+365
+00:13:39,480 --> 00:13:42,120
+actually not, right? Users move between
+
+366
+00:13:42,120 --> 00:13:44,960
+web and mobile and Slack and Teams, and
+
+367
+00:13:44,960 --> 00:13:47,080
+Genie needs to know that. Uh, we also
+
+368
+00:13:47,080 --> 00:13:49,360
+have a bunch of out-of-date dashboards
+
+369
+00:13:49,360 --> 00:13:50,800
+that are just floating around. I don't
+
+370
+00:13:50,800 --> 00:13:52,600
+want Genie to pick those up. And of
+
+371
+00:13:52,600 --> 00:13:53,720
+course, I don't just care about Genie
+
+372
+00:13:53,720 --> 00:13:55,720
+adoption. I also care about individual
+
+373
+00:13:55,720 --> 00:13:58,040
+feature adoption, things like MCPs and
+
+374
+00:13:58,040 --> 00:13:59,680
+skills and and Genie needs to know what
+
+375
+00:13:59,680 --> 00:14:01,520
+those features are. So, to answer this,
+
+376
+00:14:01,520 --> 00:14:03,120
+Genie needs to kind of understand our
+
+377
+00:14:03,120 --> 00:14:05,160
+product, understand our metrics. It's
+
+378
+00:14:05,160 --> 00:14:06,200
+going to probably need to pull from a
+
+379
+00:14:06,200 --> 00:14:08,120
+bunch of not only first-party but also
+
+380
+00:14:08,120 --> 00:14:09,880
+third-party data, uh, and then it's
+
+381
+00:14:09,880 --> 00:14:12,240
+going to need to, um,
+
+382
+00:14:12,240 --> 00:14:14,360
+consolidate that in a way that it aligns
+
+383
+00:14:14,360 --> 00:14:15,920
+with the way that I like to write these
+
+384
+00:14:15,920 --> 00:14:17,680
+these write-ups. So,
+
+385
+00:14:17,680 --> 00:14:19,480
+I'm going to get it started. Uh, and
+
+386
+00:14:19,480 --> 00:14:21,560
+then as Genie is running, again, we can
+
+387
+00:14:21,560 --> 00:14:23,560
+we can click into see what it's
+
+388
+00:14:23,560 --> 00:14:25,240
+thinking. Now, you'll notice that was
+
+389
+00:14:25,240 --> 00:14:26,800
+actually a very simple prompt in spite
+
+390
+00:14:26,800 --> 00:14:28,240
+of all the complexity we've been talking
+
+391
+00:14:28,240 --> 00:14:29,240
+about, and that's because I think
+
+392
+00:14:29,240 --> 00:14:30,640
+Genie's going to be able to navigate our
+
+393
+00:14:30,640 --> 00:14:32,800
+data pretty well because we have this
+
+394
+00:14:32,800 --> 00:14:35,440
+ontology, uh, turned on. And we can
+
+395
+00:14:35,440 --> 00:14:37,520
+actually see it, again, in practice. So,
+
+396
+00:14:37,520 --> 00:14:39,200
+uh, it looks like Genie actually started
+
+397
+00:14:39,200 --> 00:14:41,760
+by going straight to our our data
+
+398
+00:14:41,760 --> 00:14:43,520
+sources. It found some potentially
+
+399
+00:14:43,520 --> 00:14:45,560
+relevant tables here.
+
+400
+00:14:45,560 --> 00:14:47,080
+Uh, and then it did go straight into the
+
+401
+00:14:47,080 --> 00:14:49,440
+ontology. So, we've got pages, again,
+
+402
+00:14:49,440 --> 00:14:52,240
+those wiki pages in Unity Catalog. It
+
+403
+00:14:52,240 --> 00:14:54,440
+may end up using some of these in the
+
+404
+00:14:54,440 --> 00:14:55,920
+actual answer. Again, this is just
+
+405
+00:14:55,920 --> 00:14:58,000
+potentially relevant stuff. And then we
+
+406
+00:14:58,000 --> 00:14:59,920
+have knowledge snippets. So, we have
+
+407
+00:14:59,920 --> 00:15:01,520
+those facts about the business that
+
+408
+00:15:01,520 --> 00:15:03,480
+Genie has learned from all sorts of
+
+409
+00:15:03,480 --> 00:15:04,720
+different sources. And you can see
+
+410
+00:15:04,720 --> 00:15:06,200
+there's business terms, metric
+
+411
+00:15:06,200 --> 00:15:08,160
+definitions, something about data
+
+412
+00:15:08,160 --> 00:15:09,600
+quality,
+
+413
+00:15:09,600 --> 00:15:11,800
+another business term. There's even one,
+
+414
+00:15:11,800 --> 00:15:13,280
+this is kind of a preview of some of the
+
+415
+00:15:13,280 --> 00:15:14,480
+stuff that we're playing around with,
+
+416
+00:15:14,480 --> 00:15:17,200
+but one that reaches into GitHub, uh, to
+
+417
+00:15:17,200 --> 00:15:18,680
+get information because it's also a very
+
+418
+00:15:18,680 --> 00:15:20,880
+semantically rich data source. But the
+
+419
+00:15:20,880 --> 00:15:23,000
+key thing is that we're combining this
+
+420
+00:15:23,000 --> 00:15:25,400
+human curated context with this more
+
+421
+00:15:25,400 --> 00:15:27,120
+learned knowledge because again, it's
+
+422
+00:15:27,120 --> 00:15:28,600
+really difficult to try to curate
+
+423
+00:15:28,600 --> 00:15:31,080
+everything for the entire org. Uh I
+
+424
+00:15:31,080 --> 00:15:32,440
+think I also found the thinking trace
+
+425
+00:15:32,440 --> 00:15:34,560
+before we talk about the document. Uh we
+
+426
+00:15:34,560 --> 00:15:36,040
+also looked at Google Drive, we looked
+
+427
+00:15:36,040 --> 00:15:37,960
+at Jira, and then ran a bunch of those
+
+428
+00:15:37,960 --> 00:15:40,440
+SQL queries. Again, very important uh
+
+429
+00:15:40,440 --> 00:15:42,080
+that we are able to query on live
+
+430
+00:15:42,080 --> 00:15:44,280
+operational data and not just not just
+
+431
+00:15:44,280 --> 00:15:46,040
+reading documents.
+
+432
+00:15:46,040 --> 00:15:47,760
+And then like the again, the data is
+
+433
+00:15:47,760 --> 00:15:49,440
+demo, so what it actually produces is
+
+434
+00:15:49,440 --> 00:15:51,480
+not super interesting. Um but we see a
+
+435
+00:15:51,480 --> 00:15:53,680
+bunch of visualizations. It's able to do
+
+436
+00:15:53,680 --> 00:15:55,440
+things like more advanced like cohort
+
+437
+00:15:55,440 --> 00:15:57,000
+retention analyses. It can do things
+
+438
+00:15:57,000 --> 00:15:58,760
+like forecasts. Maybe I can show you
+
+439
+00:15:58,760 --> 00:16:01,480
+that actually. Um it's able to again
+
+440
+00:16:01,480 --> 00:16:03,520
+pull from those third-party sources. So
+
+441
+00:16:03,520 --> 00:16:05,520
+for example, it's pulling from Jira.
+
+442
+00:16:05,520 --> 00:16:07,720
+It's able to do those recommendations.
+
+443
+00:16:07,720 --> 00:16:09,520
+And a really critical thing to mention
+
+444
+00:16:09,520 --> 00:16:11,280
+is that all of the stuff that you see
+
+445
+00:16:11,280 --> 00:16:14,160
+here is data that I actually have access
+
+446
+00:16:14,160 --> 00:16:16,440
+to. So again, Genie isn't creating any
+
+447
+00:16:16,440 --> 00:16:18,480
+sort of special Genie specific
+
+448
+00:16:18,480 --> 00:16:21,080
+permissions. It's simply enforcing our
+
+449
+00:16:21,080 --> 00:16:23,040
+source permissions through Unity
+
+450
+00:16:23,040 --> 00:16:24,720
+Catalog. And that applies also to the
+
+451
+00:16:24,720 --> 00:16:27,320
+ontology uh that that is derived from
+
+452
+00:16:27,320 --> 00:16:29,360
+any assets that are used here. And we
+
+453
+00:16:29,360 --> 00:16:31,480
+can actually see, you know, what was
+
+454
+00:16:31,480 --> 00:16:33,760
+used to answer this question by popping
+
+455
+00:16:33,760 --> 00:16:35,960
+down here into the citations. So this is
+
+456
+00:16:35,960 --> 00:16:37,360
+everything that Genie ended up pulling
+
+457
+00:16:37,360 --> 00:16:38,880
+from the thinking trace to actually
+
+458
+00:16:38,880 --> 00:16:40,800
+compile that document. So again, we see
+
+459
+00:16:40,800 --> 00:16:43,440
+tables, maybe a couple relevant links
+
+460
+00:16:43,440 --> 00:16:45,640
+from looks like Jira as well as Google
+
+461
+00:16:45,640 --> 00:16:48,080
+Drive. Um this is that personal memory
+
+462
+00:16:48,080 --> 00:16:49,440
+actually. This is how I prefer to write
+
+463
+00:16:49,440 --> 00:16:51,960
+these docs. And then it did end up using
+
+464
+00:16:51,960 --> 00:16:54,800
+some things from the ontology. So if we
+
+465
+00:16:54,800 --> 00:16:57,200
+click in, we can see like my colleague
+
+466
+00:16:57,200 --> 00:16:59,480
+Retta, she's also on the Genie team, she
+
+467
+00:16:59,480 --> 00:17:01,520
+put together this wiki page around the
+
+468
+00:17:01,520 --> 00:17:02,960
+different Genie surfaces, which is
+
+469
+00:17:02,960 --> 00:17:04,800
+highly relevant when we're asking
+
+470
+00:17:04,800 --> 00:17:06,760
+questions about Genie's adoption. So it
+
+471
+00:17:06,760 --> 00:17:09,280
+makes sense that it that it used this.
+
+472
+00:17:09,280 --> 00:17:10,880
+It also makes sense that it that it kind
+
+473
+00:17:10,880 --> 00:17:13,000
+of started from from this kind of
+
+474
+00:17:13,000 --> 00:17:15,199
+information because Genie likes human
+
+475
+00:17:15,199 --> 00:17:17,720
+curated content. We extra trust human
+
+476
+00:17:17,720 --> 00:17:19,640
+curated content, especially because this
+
+477
+00:17:19,640 --> 00:17:22,560
+one has been certified. But, it probably
+
+478
+00:17:22,560 --> 00:17:23,959
+needed to, again, look at those
+
+479
+00:17:23,959 --> 00:17:25,640
+anthology snippets to round out its
+
+480
+00:17:25,640 --> 00:17:27,920
+information. So, if we click in here, we
+
+481
+00:17:27,920 --> 00:17:29,760
+can actually see that snippet in
+
+482
+00:17:29,760 --> 00:17:31,880
+practice. We can get feedback on it. We
+
+483
+00:17:31,880 --> 00:17:33,560
+can see the full definition that Genie
+
+484
+00:17:33,560 --> 00:17:35,440
+learned. We can see that it grabs some
+
+485
+00:17:35,440 --> 00:17:37,320
+information from this particular
+
+486
+00:17:37,320 --> 00:17:39,520
+dashboard, which happens to be authored
+
+487
+00:17:39,520 --> 00:17:41,080
+by our colleague Jeffrey, who is the
+
+488
+00:17:41,080 --> 00:17:43,680
+data scientist working on Genie 1
+
+489
+00:17:43,680 --> 00:17:45,840
+growth. So, it's not surprising that it
+
+490
+00:17:45,840 --> 00:17:47,960
+has, for example, a super high authority
+
+491
+00:17:47,960 --> 00:17:50,320
+score. Genie is recognizing that Jeffrey
+
+492
+00:17:50,320 --> 00:17:52,320
+does a lot of good work, and Jeffrey's
+
+493
+00:17:52,320 --> 00:17:54,400
+work is often very popular. So, even
+
+494
+00:17:54,400 --> 00:17:57,000
+before he's gone and codified something
+
+495
+00:17:57,000 --> 00:17:59,080
+as a Unity Catalog semantic, we can
+
+496
+00:17:59,080 --> 00:18:01,640
+benefit from this work. And we can even
+
+497
+00:18:01,640 --> 00:18:03,200
+click into his profile if we want to
+
+498
+00:18:03,200 --> 00:18:06,160
+like double-check his his creds on this
+
+499
+00:18:06,160 --> 00:18:08,480
+topic, and we can see he's he's done a
+
+500
+00:18:08,480 --> 00:18:10,240
+lot of kind of work in this space in
+
+501
+00:18:10,240 --> 00:18:12,360
+this growth space. And Genie has also
+
+502
+00:18:12,360 --> 00:18:15,120
+extracted a lot of snippets from the
+
+503
+00:18:15,120 --> 00:18:17,760
+assets that he has created. But, you
+
+504
+00:18:17,760 --> 00:18:19,160
+know, we don't need to necessarily just
+
+505
+00:18:19,160 --> 00:18:21,320
+take Genie at its word for this this
+
+506
+00:18:21,320 --> 00:18:22,760
+first answer. Maybe we want to ask a
+
+507
+00:18:22,760 --> 00:18:24,200
+question like,
+
+508
+00:18:24,200 --> 00:18:26,160
+you know, adoption seems to be spiking.
+
+509
+00:18:26,160 --> 00:18:28,440
+What is what is the cause of this? And
+
+510
+00:18:28,440 --> 00:18:30,280
+this type of work, again, is really only
+
+511
+00:18:30,280 --> 00:18:32,160
+possible because Genie is computing
+
+512
+00:18:32,160 --> 00:18:33,840
+these results based on our live
+
+513
+00:18:33,840 --> 00:18:36,000
+operational data. So, we're not just,
+
+514
+00:18:36,000 --> 00:18:38,200
+again, reciting information that already
+
+515
+00:18:38,200 --> 00:18:40,440
+lives in a document. So, let's see if
+
+516
+00:18:40,440 --> 00:18:44,120
+it's able to execute this.
+
+517
+00:18:44,160 --> 00:18:46,120
+Great. We have an answer.
+
+518
+00:18:46,120 --> 00:18:48,800
+Um
+
+519
+00:18:48,800 --> 00:18:50,880
+Looks like the growth is real.
+
+520
+00:18:50,880 --> 00:18:52,720
+It's attributing it to the Teams and the
+
+521
+00:18:52,720 --> 00:18:54,840
+Slack apps. And for context, we we
+
+522
+00:18:54,840 --> 00:18:57,040
+opened up Genie to Teams and to Slack
+
+523
+00:18:57,040 --> 00:18:59,080
+and meeting users where they like to do
+
+524
+00:18:59,080 --> 00:19:00,720
+their work. And every time an
+
+525
+00:19:00,720 --> 00:19:02,760
+organization adopts Slack or adopts
+
+526
+00:19:02,760 --> 00:19:04,600
+Teams, you tend to see a pretty wide
+
+527
+00:19:04,600 --> 00:19:06,240
+increase in adoption because you tend to
+
+528
+00:19:06,240 --> 00:19:08,360
+see folks adopting it and across entire
+
+529
+00:19:08,360 --> 00:19:09,520
+channels or even the entire
+
+530
+00:19:09,520 --> 00:19:11,280
+organization. So, it makes sense that
+
+531
+00:19:11,280 --> 00:19:13,000
+this is attributed to to some of the
+
+532
+00:19:13,000 --> 00:19:15,760
+growth. Now, if that adoption is real, I
+
+533
+00:19:15,760 --> 00:19:17,200
+want to know where it's going. So, I'm
+
+534
+00:19:17,200 --> 00:19:18,960
+also going to ask Genie to do a quick
+
+535
+00:19:18,960 --> 00:19:21,880
+forecast. And that forecast is is a more
+
+536
+00:19:21,880 --> 00:19:23,280
+advanced
+
+537
+00:19:23,280 --> 00:19:24,760
+advanced piece of work, right? It would
+
+538
+00:19:24,760 --> 00:19:27,000
+take me a bit of time to actually model
+
+539
+00:19:27,000 --> 00:19:29,480
+this by hand, but Genie is able to do
+
+540
+00:19:29,480 --> 00:19:32,200
+things like forecasting, like root cause
+
+541
+00:19:32,200 --> 00:19:35,120
+analysis, like anomaly detection. So, I
+
+542
+00:19:35,120 --> 00:19:38,080
+just have to ask it to to to perform
+
+543
+00:19:38,080 --> 00:19:40,400
+that task. Uh but what about maybe an
+
+544
+00:19:40,400 --> 00:19:43,320
+analysis that is totally custom to our
+
+545
+00:19:43,320 --> 00:19:45,960
+team? Uh for example, maybe we build a
+
+546
+00:19:45,960 --> 00:19:47,680
+standardized launch scorecards. Every
+
+547
+00:19:47,680 --> 00:19:50,000
+time a new feature launches, we grade
+
+548
+00:19:50,000 --> 00:19:51,800
+it, you know, against the adoption curve
+
+549
+00:19:51,800 --> 00:19:53,720
+of some of our prior features. And for
+
+550
+00:19:53,720 --> 00:19:55,080
+something like that, we could build a
+
+551
+00:19:55,080 --> 00:19:57,760
+skill. A skill is going to run the same
+
+552
+00:19:57,760 --> 00:19:59,920
+workflow repeatedly. And if once I've
+
+553
+00:19:59,920 --> 00:20:01,920
+created a skill, I can also, you know,
+
+554
+00:20:01,920 --> 00:20:03,600
+share it with my teammates so that they
+
+555
+00:20:03,600 --> 00:20:05,920
+can take advantage. And of course, a
+
+556
+00:20:05,920 --> 00:20:07,600
+shared chill is simply going to be
+
+557
+00:20:07,600 --> 00:20:09,720
+governed through Unity Gateway, always
+
+558
+00:20:09,720 --> 00:20:12,080
+going back to that that centralized
+
+559
+00:20:12,080 --> 00:20:14,440
+governance framework. Um so, with that,
+
+560
+00:20:14,440 --> 00:20:16,480
+I think it might be interesting to go
+
+561
+00:20:16,480 --> 00:20:17,840
+back to our slides. Maybe I'll show you
+
+562
+00:20:17,840 --> 00:20:19,920
+a bit more after, but we'll talk through
+
+563
+00:20:19,920 --> 00:20:22,200
+some additional features.
+
+564
+00:20:22,200 --> 00:20:25,480
+>> That's great from a
+
+565
+00:20:25,480 --> 00:20:28,400
+visibility perspective, from an
+
+566
+00:20:28,400 --> 00:20:30,440
+understanding the business perspective,
+
+567
+00:20:30,440 --> 00:20:32,000
+all of that
+
+568
+00:20:32,000 --> 00:20:34,280
+descriptive analytics,
+
+569
+00:20:34,280 --> 00:20:37,760
+if you will, in a much more tailored
+
+570
+00:20:37,760 --> 00:20:40,880
+way. But what happens when you want to
+
+571
+00:20:40,880 --> 00:20:43,000
+go from
+
+572
+00:20:43,000 --> 00:20:45,160
+just looking at data and you actually
+
+573
+00:20:45,160 --> 00:20:46,280
+want to do
+
+574
+00:20:46,280 --> 00:20:48,640
+something with the data?
+
+575
+00:20:48,640 --> 00:20:50,320
+>> Yeah, I think that's a good point. It's
+
+576
+00:20:50,320 --> 00:20:52,640
+important that Genie evolve from just
+
+577
+00:20:52,640 --> 00:20:55,400
+doing Q&A into actually becoming a
+
+578
+00:20:55,400 --> 00:20:57,480
+co-worker. So, we're building out a lot
+
+579
+00:20:57,480 --> 00:20:59,160
+in this space. I think we started with
+
+580
+00:20:59,160 --> 00:21:01,280
+the ontology because, frankly, I think
+
+581
+00:21:01,280 --> 00:21:02,520
+that's where the differentiation comes
+
+582
+00:21:02,520 --> 00:21:04,440
+from, but we are also trying to build as
+
+583
+00:21:04,440 --> 00:21:06,440
+much as possible on this co-working side
+
+584
+00:21:06,440 --> 00:21:07,520
+as well.
+
+585
+00:21:07,520 --> 00:21:08,720
+So, starting with documents, a very
+
+586
+00:21:08,720 --> 00:21:10,800
+popular feature, Uh uh Genie can now
+
+587
+00:21:10,800 --> 00:21:12,360
+co-author documents with you. You can
+
+588
+00:21:12,360 --> 00:21:14,040
+have it start from scratch, give it a
+
+589
+00:21:14,040 --> 00:21:15,960
+template, ask you to fill something out.
+
+590
+00:21:15,960 --> 00:21:17,720
+You can also work with Genie to edit it,
+
+591
+00:21:17,720 --> 00:21:19,200
+and then you can send it to your doc.
+
+592
+00:21:19,200 --> 00:21:21,560
+Your doc is an email, a PDF, Slack,
+
+593
+00:21:21,560 --> 00:21:24,000
+Teams. We do offer inline collaboration,
+
+594
+00:21:24,000 --> 00:21:25,400
+which is what you're seeing here in the
+
+595
+00:21:25,400 --> 00:21:28,000
+GIF. And going forward, we are adding
+
+596
+00:21:28,000 --> 00:21:29,840
+additional collaboration features, such
+
+597
+00:21:29,840 --> 00:21:31,520
+as working with Genie to resolve
+
+598
+00:21:31,520 --> 00:21:33,320
+comments. We are also building
+
+599
+00:21:33,320 --> 00:21:35,680
+additional document types, like slides,
+
+600
+00:21:35,680 --> 00:21:38,000
+spreadsheets, dashboards, and so on. I
+
+601
+00:21:38,000 --> 00:21:39,240
+think dashboard is kind of one that
+
+602
+00:21:39,240 --> 00:21:41,120
+everyone's expecting
+
+603
+00:21:41,120 --> 00:21:43,040
+of Databricks, given given the context
+
+604
+00:21:43,040 --> 00:21:45,120
+that's in Databricks, and we are seeing
+
+605
+00:21:45,120 --> 00:21:46,280
+a lot of demand for that, so we are
+
+606
+00:21:46,280 --> 00:21:48,080
+building it.
+
+607
+00:21:48,080 --> 00:21:49,600
+Now, documents might live inside of
+
+608
+00:21:49,600 --> 00:21:51,280
+Genie, but of course, a lot of your work
+
+609
+00:21:51,280 --> 00:21:53,520
+doesn't. So, I talked about MCPs to read
+
+610
+00:21:53,520 --> 00:21:55,640
+in data, but of course, you can also use
+
+611
+00:21:55,640 --> 00:21:57,920
+MCPs to write data.
+
+612
+00:21:57,920 --> 00:21:59,840
+The interesting thing here, I think, is
+
+613
+00:21:59,840 --> 00:22:01,600
+that MCPs have been our first
+
+614
+00:22:01,600 --> 00:22:03,600
+integration between Genie and Unity
+
+615
+00:22:03,600 --> 00:22:06,080
+Gateway. So, as an administrator, you
+
+616
+00:22:06,080 --> 00:22:07,600
+can decide, you know, this user gets
+
+617
+00:22:07,600 --> 00:22:09,520
+access to this MCP, that user gets
+
+618
+00:22:09,520 --> 00:22:12,400
+access to that MCP, or even this tool,
+
+619
+00:22:12,400 --> 00:22:14,320
+but not that tool, or even more
+
+620
+00:22:14,320 --> 00:22:16,640
+granularly than that. For example, you
+
+621
+00:22:16,640 --> 00:22:19,240
+can use Genie to post to
+
+622
+00:22:19,240 --> 00:22:21,480
+Slack, but you can't, you know, post to
+
+623
+00:22:21,480 --> 00:22:23,760
+these particular channels, or maybe you
+
+624
+00:22:23,760 --> 00:22:25,920
+can push to this GitHub branch, but not
+
+625
+00:22:25,920 --> 00:22:28,160
+those GitHub branches. So, that becomes
+
+626
+00:22:28,160 --> 00:22:30,080
+a pretty granular control for the
+
+627
+00:22:30,080 --> 00:22:31,680
+administrators, and we've only since
+
+628
+00:22:31,680 --> 00:22:33,880
+then expanded on that as we think about
+
+629
+00:22:33,880 --> 00:22:35,960
+more and more centralized governance of
+
+630
+00:22:35,960 --> 00:22:38,160
+these agents. And actually, the very
+
+631
+00:22:38,160 --> 00:22:40,520
+next thing that we are almost about to
+
+632
+00:22:40,520 --> 00:22:43,080
+announce is skill sharing for Genie 1
+
+633
+00:22:43,080 --> 00:22:45,720
+and Genie code through Unity Gateway.
+
+634
+00:22:45,720 --> 00:22:48,880
+So, with Unity Gateway, you again can
+
+635
+00:22:48,880 --> 00:22:50,840
+control which skills are available to
+
+636
+00:22:50,840 --> 00:22:52,240
+which users. You'll be able to
+
+637
+00:22:52,240 --> 00:22:54,440
+eventually pin specific skills to
+
+638
+00:22:54,440 --> 00:22:56,400
+different users, so that those are, for
+
+639
+00:22:56,400 --> 00:22:58,480
+example, always available for those end
+
+640
+00:22:58,480 --> 00:23:00,200
+users, especially new users, and so on.
+
+641
+00:23:00,200 --> 00:23:02,240
+But in general, like I mentioned before,
+
+642
+00:23:02,240 --> 00:23:04,320
+a skill is a good way to kind of run the
+
+643
+00:23:04,320 --> 00:23:06,920
+same repeatable task the same way over
+
+644
+00:23:06,920 --> 00:23:09,240
+and over uh to share your workflows with
+
+645
+00:23:09,240 --> 00:23:11,000
+your teammates and so on.
+
+646
+00:23:11,000 --> 00:23:13,080
+>> Can you please share a little bit more
+
+647
+00:23:13,080 --> 00:23:15,840
+as to why this one matters? And the
+
+648
+00:23:15,840 --> 00:23:18,160
+reason why I say that is I think
+
+649
+00:23:18,160 --> 00:23:20,080
+that people talk about skills all the
+
+650
+00:23:20,080 --> 00:23:22,080
+time, cloud skills, and all that fun
+
+651
+00:23:22,080 --> 00:23:23,400
+jazz.
+
+652
+00:23:23,400 --> 00:23:25,400
+But,
+
+653
+00:23:25,400 --> 00:23:27,040
+there are
+
+654
+00:23:27,040 --> 00:23:30,760
+a lot of governance elements around it
+
+655
+00:23:30,760 --> 00:23:32,240
+that I think
+
+656
+00:23:32,240 --> 00:23:34,720
+we've ignored for a while. So, can you
+
+657
+00:23:34,720 --> 00:23:36,360
+just, for the sake of business
+
+658
+00:23:36,360 --> 00:23:38,720
+decision-makers, just explain a little
+
+659
+00:23:38,720 --> 00:23:42,240
+bit as to why this is very relevant?
+
+660
+00:23:42,240 --> 00:23:44,920
+>> Yeah, I think we see demand for
+
+661
+00:23:44,920 --> 00:23:48,760
+for a couple things. Um first is,
+
+662
+00:23:48,760 --> 00:23:50,360
+you know, you want everyone to start
+
+663
+00:23:50,360 --> 00:23:51,840
+with a baseline level of skills or
+
+664
+00:23:51,840 --> 00:23:53,280
+everyone within a group to start with a
+
+665
+00:23:53,280 --> 00:23:55,760
+baseline level of skills. Administrators
+
+666
+00:23:55,760 --> 00:23:57,280
+who are ultimately responsible for
+
+667
+00:23:57,280 --> 00:23:58,760
+people having a good experience with
+
+668
+00:23:58,760 --> 00:24:00,400
+Genie want to ensure that they're set up
+
+669
+00:24:00,400 --> 00:24:02,680
+for success. And part of that includes,
+
+670
+00:24:02,680 --> 00:24:04,000
+if you've got, you know,
+
+671
+00:24:04,000 --> 00:24:05,920
+company-specific workflows, making sure
+
+672
+00:24:05,920 --> 00:24:07,440
+that Genie is set up with those
+
+673
+00:24:07,440 --> 00:24:10,720
+workflows. We also see some demand for,
+
+674
+00:24:10,720 --> 00:24:12,880
+you know, limiting or or controlling how
+
+675
+00:24:12,880 --> 00:24:15,040
+people can share skills. So, for that,
+
+676
+00:24:15,040 --> 00:24:16,760
+uh we'd welcome feedback from customers
+
+677
+00:24:16,760 --> 00:24:19,000
+as they continue to see these roll outs.
+
+678
+00:24:19,000 --> 00:24:21,160
+Um but, we're super open to to any and
+
+679
+00:24:21,160 --> 00:24:23,320
+all sorts of governance around skills.
+
+680
+00:24:23,320 --> 00:24:25,320
+All right. Um so, there's also kind of a
+
+681
+00:24:25,320 --> 00:24:26,800
+step up from a skill. You know, if a
+
+682
+00:24:26,800 --> 00:24:29,880
+skill can perform a task, then an agent
+
+683
+00:24:29,880 --> 00:24:32,040
+performs an entire job. So, a Genie
+
+684
+00:24:32,040 --> 00:24:34,440
+agent bundles data sources,
+
+685
+00:24:34,440 --> 00:24:37,160
+instructions, skills, and memory, and
+
+686
+00:24:37,160 --> 00:24:39,360
+all those come together to create what
+
+687
+00:24:39,360 --> 00:24:40,880
+we might think of as a customized
+
+688
+00:24:40,880 --> 00:24:42,840
+coworker that can answer questions or
+
+689
+00:24:42,840 --> 00:24:44,520
+get work done in a very particular
+
+690
+00:24:44,520 --> 00:24:46,200
+domain. So, for example, you might have
+
+691
+00:24:46,200 --> 00:24:48,520
+a a renewals agent that helps your team
+
+692
+00:24:48,520 --> 00:24:51,520
+prep for for QBRs, or a launch agent
+
+693
+00:24:51,520 --> 00:24:52,880
+that helps you kind of track all your
+
+694
+00:24:52,880 --> 00:24:54,680
+feature statuses, or maybe a finance
+
+695
+00:24:54,680 --> 00:24:56,640
+agent that answers questions about about
+
+696
+00:24:56,640 --> 00:24:58,800
+your product's KPIs. And I think most
+
+697
+00:24:58,800 --> 00:25:00,720
+customers are not starting from scratch
+
+698
+00:25:00,720 --> 00:25:02,160
+here. If you've already been using what
+
+699
+00:25:02,160 --> 00:25:03,600
+used to be called Genie Spaces, then
+
+700
+00:25:03,600 --> 00:25:05,520
+you've actually been creating agents
+
+701
+00:25:05,520 --> 00:25:07,440
+because Genie Spaces are now Genie
+
+702
+00:25:07,440 --> 00:25:10,280
+Agents, fully accessible from Genie 1
+
+703
+00:25:10,280 --> 00:25:11,800
+with a couple bells and whistles. It
+
+704
+00:25:11,800 --> 00:25:14,240
+wasn't just a rebrand. So, for example,
+
+705
+00:25:14,240 --> 00:25:15,640
+we're adding the ability to connect a
+
+706
+00:25:15,640 --> 00:25:18,400
+volume to the agent. We're adding MCP
+
+707
+00:25:18,400 --> 00:25:20,960
+connectors. And we are also adding uh
+
+708
+00:25:20,960 --> 00:25:24,080
+sub-agent support.
+
+709
+00:25:25,080 --> 00:25:26,840
+Now, once a task works the way you want,
+
+710
+00:25:26,840 --> 00:25:28,520
+you can set it and forget it, right? You
+
+711
+00:25:28,520 --> 00:25:30,360
+can put it on a cadence, daily, weekly,
+
+712
+00:25:30,360 --> 00:25:31,480
+whatever you pick, and deliver the
+
+713
+00:25:31,480 --> 00:25:33,560
+results to your inbox. You can also
+
+714
+00:25:33,560 --> 00:25:35,320
+trigger based on specific conditions.
+
+715
+00:25:35,320 --> 00:25:36,800
+So, for example, you know, I only want
+
+716
+00:25:36,800 --> 00:25:39,600
+to know if a metric drops or or grows by
+
+717
+00:25:39,600 --> 00:25:41,120
+a certain percentage amount. So, I've
+
+718
+00:25:41,120 --> 00:25:43,320
+I've instructed Genie to do that. Behind
+
+719
+00:25:43,320 --> 00:25:45,120
+the scenes, this is just based on the
+
+720
+00:25:45,120 --> 00:25:46,520
+the tried and tested LinkFlow Jobs
+
+721
+00:25:46,520 --> 00:25:49,120
+platform, so it is highly reliable. And
+
+722
+00:25:49,120 --> 00:25:50,920
+going forward, we are continuing to
+
+723
+00:25:50,920 --> 00:25:52,520
+invest in more orchestration features
+
+724
+00:25:52,520 --> 00:25:54,680
+such as sending to larger groups of
+
+725
+00:25:54,680 --> 00:25:56,280
+people, doing dry runs, things like
+
+726
+00:25:56,280 --> 00:25:58,600
+that.
+
+727
+00:25:59,080 --> 00:26:01,120
+And finally, I think none of this is is
+
+728
+00:26:01,120 --> 00:26:03,000
+really all that useful if people have to
+
+729
+00:26:03,000 --> 00:26:04,880
+leave their favorite tools to use it.
+
+730
+00:26:04,880 --> 00:26:07,280
+So, Genie shows up where they already
+
+731
+00:26:07,280 --> 00:26:08,560
+work. For example, there's support for
+
+732
+00:26:08,560 --> 00:26:10,840
+mobile on iOS and Android, so you can
+
+733
+00:26:10,840 --> 00:26:13,200
+ask Genie questions on the go. We also
+
+734
+00:26:13,200 --> 00:26:15,680
+offer a desktop app. It's very popular
+
+735
+00:26:15,680 --> 00:26:17,520
+among users who who tend to do a lot of
+
+736
+00:26:17,520 --> 00:26:20,000
+their work in in desktop-centric tools
+
+737
+00:26:20,000 --> 00:26:22,600
+like email or or document editing. You
+
+738
+00:26:22,600 --> 00:26:24,560
+can also ping Genie in your third-party
+
+739
+00:26:24,560 --> 00:26:26,720
+chat tools. So, we integrate with Slack
+
+740
+00:26:26,720 --> 00:26:29,000
+and Teams and Co-pilot. We also have
+
+741
+00:26:29,000 --> 00:26:31,520
+Sheets and and Excel.
+
+742
+00:26:31,520 --> 00:26:32,880
+And then if your team lives in another
+
+743
+00:26:32,880 --> 00:26:35,240
+agent entirely, you can plug into the
+
+744
+00:26:35,240 --> 00:26:38,000
+Genie 1 MCP, which is again powered by
+
+745
+00:26:38,000 --> 00:26:39,680
+the ontology behind the scenes. And we
+
+746
+00:26:39,680 --> 00:26:42,000
+do support MCP apps, which gives you the
+
+747
+00:26:42,000 --> 00:26:43,920
+nice kind of embedded charts, deep
+
+748
+00:26:43,920 --> 00:26:45,080
+links, and so on that you're actually
+
+749
+00:26:45,080 --> 00:26:48,840
+seeing in in the GIF here.
+
+750
+00:26:49,080 --> 00:26:50,240
+So, that sounds interesting. I I maybe
+
+751
+00:26:50,240 --> 00:26:52,880
+show a couple more things uh in in our
+
+752
+00:26:52,880 --> 00:26:54,560
+demo.
+
+753
+00:26:54,560 --> 00:26:56,200
+So, going back to my my other screen.
+
+754
+00:26:56,200 --> 00:26:58,040
+So, I've I've Remember I've I've created
+
+755
+00:26:58,040 --> 00:27:00,200
+my my document. I think I'm I'm ready to
+
+756
+00:27:00,200 --> 00:27:01,920
+actually send this to our executive
+
+757
+00:27:01,920 --> 00:27:03,440
+team. And I'm going to include some of
+
+758
+00:27:03,440 --> 00:27:05,640
+those follow-up analyses that that Genie
+
+759
+00:27:05,640 --> 00:27:08,640
+gave Sorry, Genie gave me.
+
+760
+00:27:08,640 --> 00:27:11,360
+So, when it does this, Genie is is
+
+761
+00:27:11,360 --> 00:27:14,720
+writing to Gmail and Jira as me with my
+
+762
+00:27:14,720 --> 00:27:16,680
+credentials. And then behind the scenes,
+
+763
+00:27:16,680 --> 00:27:18,280
+again, this is all governed through
+
+764
+00:27:18,280 --> 00:27:20,720
+Unity Gateway. So, an admin has decided
+
+765
+00:27:20,720 --> 00:27:23,800
+to leave me access to send email with
+
+766
+00:27:23,800 --> 00:27:25,800
+Genie, um but they could certainly have
+
+767
+00:27:25,800 --> 00:27:27,640
+blocked that if they if they chose. Or
+
+768
+00:27:27,640 --> 00:27:29,680
+they could even uh block this
+
+769
+00:27:29,680 --> 00:27:31,680
+execs@demodatabricks.com,
+
+770
+00:27:31,680 --> 00:27:34,360
+which is not a real email uh or for
+
+771
+00:27:34,360 --> 00:27:37,040
+public purposes. Um Now, I don't want to
+
+772
+00:27:37,040 --> 00:27:38,680
+have to ask for these these follow-up
+
+773
+00:27:38,680 --> 00:27:41,320
+analyses every week. So, maybe I'll also
+
+774
+00:27:41,320 --> 00:27:43,760
+ask Genie to always investigate
+
+775
+00:27:43,760 --> 00:27:45,440
+anomalies proactively when I'm doing
+
+776
+00:27:45,440 --> 00:27:46,960
+this kind of review. Again, it goes back
+
+777
+00:27:46,960 --> 00:27:50,240
+to that idea of of personal memory. So,
+
+778
+00:27:50,240 --> 00:27:52,320
+I can save that.
+
+779
+00:27:52,320 --> 00:27:53,840
+And then maybe I don't want to have to
+
+780
+00:27:53,840 --> 00:27:55,960
+remember to run this at all every week.
+
+781
+00:27:55,960 --> 00:27:58,120
+So, maybe I want this analysis to run
+
+782
+00:27:58,120 --> 00:28:00,280
+when I'm out of office. So, I can also,
+
+783
+00:28:00,280 --> 00:28:02,360
+again, put this on a schedule. I can
+
+784
+00:28:02,360 --> 00:28:04,400
+send it to to the Slack channel when I'm
+
+785
+00:28:04,400 --> 00:28:06,120
+out, and it'll still run with my
+
+786
+00:28:06,120 --> 00:28:08,000
+credentials.
+
+787
+00:28:08,000 --> 00:28:09,760
+Great. Of course, now this adoption
+
+788
+00:28:09,760 --> 00:28:11,880
+review isn't the only time people
+
+789
+00:28:11,880 --> 00:28:14,520
+actually ask me about Genie adoption.
+
+790
+00:28:14,520 --> 00:28:17,120
+So, I can also turn this conversation
+
+791
+00:28:17,120 --> 00:28:19,840
+into an agent that can answer questions
+
+792
+00:28:19,840 --> 00:28:21,360
+about it using the context from not
+
+793
+00:28:21,360 --> 00:28:22,840
+only, again, this conversation, but
+
+794
+00:28:22,840 --> 00:28:24,680
+maybe also the other conversations that
+
+795
+00:28:24,680 --> 00:28:27,760
+I've had with Genie uh about this topic.
+
+796
+00:28:27,760 --> 00:28:29,960
+So, I can ask it to actually save as an
+
+797
+00:28:29,960 --> 00:28:32,560
+agent.
+
+798
+00:28:32,720 --> 00:28:35,880
+I can name the agent.
+
+799
+00:28:36,880 --> 00:28:38,320
+And as it's creating, what it's
+
+800
+00:28:38,320 --> 00:28:39,720
+basically creating, again, is that
+
+801
+00:28:39,720 --> 00:28:42,720
+expert coworker that people can use to
+
+802
+00:28:42,720 --> 00:28:44,920
+ask questions and take action related to
+
+803
+00:28:44,920 --> 00:28:47,480
+Genie's performance, Genie's OKRs. And
+
+804
+00:28:47,480 --> 00:28:49,560
+unlike an OKR doc that's going to go
+
+805
+00:28:49,560 --> 00:28:52,320
+stale pretty quickly, the agent remains
+
+806
+00:28:52,320 --> 00:28:55,440
+up-to-date and can compute answers live.
+
+807
+00:28:55,440 --> 00:28:56,880
+To that end, maybe I want to share this
+
+808
+00:28:56,880 --> 00:29:00,000
+with some of the other the other PMs at
+
+809
+00:29:00,000 --> 00:29:01,520
+at Databricks. And I can actually click
+
+810
+00:29:01,520 --> 00:29:03,600
+into this agent, and here I'm going to
+
+811
+00:29:03,600 --> 00:29:06,080
+see that I'm able to chat directly with
+
+812
+00:29:06,080 --> 00:29:08,320
+this agent. So here, I'm in Genie 1, but
+
+813
+00:29:08,320 --> 00:29:10,000
+now I'm talking directly to this very
+
+814
+00:29:10,000 --> 00:29:12,320
+specialized agent. And if we click into
+
+815
+00:29:12,320 --> 00:29:15,000
+the agent's details, we can see uh that
+
+816
+00:29:15,000 --> 00:29:16,640
+has actually been quite customized to
+
+817
+00:29:16,640 --> 00:29:19,680
+the sources that we talked about um in
+
+818
+00:29:19,680 --> 00:29:21,680
+in that in that prior conversations. So
+
+819
+00:29:21,680 --> 00:29:22,960
+it's using the right kinds of data. And
+
+820
+00:29:22,960 --> 00:29:24,560
+more broadly, you can probably imagine
+
+821
+00:29:24,560 --> 00:29:25,800
+the types of teams that might use
+
+822
+00:29:25,800 --> 00:29:26,840
+something like this. I mean, think of
+
+823
+00:29:26,840 --> 00:29:29,360
+any team uh that needs to do the same
+
+824
+00:29:29,360 --> 00:29:31,800
+kinds of workflows over and over, uh
+
+825
+00:29:31,800 --> 00:29:33,360
+answer the same kind of questions over
+
+826
+00:29:33,360 --> 00:29:35,880
+and over. Now, you know, they can create
+
+827
+00:29:35,880 --> 00:29:37,640
+this customized coworker in one single
+
+828
+00:29:37,640 --> 00:29:39,280
+place, and they can certify it, they can
+
+829
+00:29:39,280 --> 00:29:40,960
+do all sorts of things to really elevate
+
+830
+00:29:40,960 --> 00:29:43,560
+it, not only in the onto rank algorithm,
+
+831
+00:29:43,560 --> 00:29:45,680
+but also just in the in the Genie 1
+
+832
+00:29:45,680 --> 00:29:48,720
+experience for all of their coworkers.
+
+833
+00:29:48,720 --> 00:29:51,000
+>> I I I'm on Databricks all the time, but
+
+834
+00:29:51,000 --> 00:29:53,440
+how how do people get started to make
+
+835
+00:29:53,440 --> 00:29:55,120
+the most out of Genie?
+
+836
+00:29:55,120 --> 00:29:56,920
+>> Yeah, my favorite question.
+
+837
+00:29:56,920 --> 00:29:59,280
+Um so for an initial proof of concept, I
+
+838
+00:29:59,280 --> 00:30:01,240
+I recommend starting with one team and a
+
+839
+00:30:01,240 --> 00:30:03,760
+few common recurring workflows. So that
+
+840
+00:30:03,760 --> 00:30:06,080
+might be, you know, legal reviewing
+
+841
+00:30:06,080 --> 00:30:08,280
+incoming contracts, or maybe finance
+
+842
+00:30:08,280 --> 00:30:10,120
+producing a monthly budget, or sales
+
+843
+00:30:10,120 --> 00:30:11,560
+prepping their account briefs. Pick the
+
+844
+00:30:11,560 --> 00:30:13,920
+team that has a lot of recurring work,
+
+845
+00:30:13,920 --> 00:30:15,720
+and pick the work that that team already
+
+846
+00:30:15,720 --> 00:30:17,800
+does pretty often, where getting a
+
+847
+00:30:17,800 --> 00:30:19,720
+better answer, having a faster process
+
+848
+00:30:19,720 --> 00:30:21,400
+is really going to make a difference in
+
+849
+00:30:21,400 --> 00:30:23,200
+in their experience. And then once
+
+850
+00:30:23,200 --> 00:30:25,160
+you've picked a workflow,
+
+851
+00:30:25,160 --> 00:30:26,600
+I recommend defining benchmarking
+
+852
+00:30:26,600 --> 00:30:27,600
+questions. These are going to be
+
+853
+00:30:27,600 --> 00:30:29,360
+representative questions with with kind
+
+854
+00:30:29,360 --> 00:30:31,920
+of known good answers, including the the
+
+855
+00:30:31,920 --> 00:30:34,400
+definitions, the sources, the reasoning
+
+856
+00:30:34,400 --> 00:30:37,240
+that you expect Genie to use. They give
+
+857
+00:30:37,240 --> 00:30:39,560
+you a concrete way to evaluate accuracy
+
+858
+00:30:39,560 --> 00:30:41,520
+before rollout and to track whether
+
+859
+00:30:41,520 --> 00:30:43,320
+Genie's also getting better over time as
+
+860
+00:30:43,320 --> 00:30:45,840
+you continue to invest in your ontology.
+
+861
+00:30:45,840 --> 00:30:47,680
+Uh you'll also probably want to record
+
+862
+00:30:47,680 --> 00:30:49,320
+today's baseline, you know, pre
+
+863
+00:30:49,320 --> 00:30:50,960
+pre-Genie. You know, how accurate is the
+
+864
+00:30:50,960 --> 00:30:52,640
+existing process? How long does it take?
+
+865
+00:30:52,640 --> 00:30:54,400
+Where do people get stuck?
+
+866
+00:30:54,400 --> 00:30:56,400
+Include both straightforward questions
+
+867
+00:30:56,400 --> 00:30:58,520
+and ambiguous questions and then cases
+
+868
+00:30:58,520 --> 00:30:59,880
+where maybe like permissions should
+
+869
+00:30:59,880 --> 00:31:01,800
+produce different answers for different
+
+870
+00:31:01,800 --> 00:31:03,400
+users based on what different people
+
+871
+00:31:03,400 --> 00:31:05,120
+have access to.
+
+872
+00:31:05,120 --> 00:31:06,680
+And then from there, I would recommend
+
+873
+00:31:06,680 --> 00:31:08,480
+bringing in domain experts. Maybe they
+
+874
+00:31:08,480 --> 00:31:09,720
+also help you write the benchmarking
+
+875
+00:31:09,720 --> 00:31:11,240
+questions. But you're going to want
+
+876
+00:31:11,240 --> 00:31:12,960
+someone who actually understands that
+
+877
+00:31:12,960 --> 00:31:15,000
+team and their workflows and their data.
+
+878
+00:31:15,000 --> 00:31:17,280
+So taking the the finance example, that
+
+879
+00:31:17,280 --> 00:31:19,120
+might be something like an FP&A lead who
+
+880
+00:31:19,120 --> 00:31:20,840
+owns the monthly reporting and knows
+
+881
+00:31:20,840 --> 00:31:22,840
+exactly how the company defines things
+
+882
+00:31:22,840 --> 00:31:25,240
+like budgets and and actuals. And they
+
+883
+00:31:25,240 --> 00:31:27,680
+might also be interested in the user
+
+884
+00:31:27,680 --> 00:31:29,520
+feedback that you're getting as part of
+
+885
+00:31:29,520 --> 00:31:31,000
+this pilot. So it's good to keep them in
+
+886
+00:31:31,000 --> 00:31:33,160
+loop with the end users and make sure
+
+887
+00:31:33,160 --> 00:31:34,840
+that they're available um and they're
+
+888
+00:31:34,840 --> 00:31:38,160
+able to see to see those those results.
+
+889
+00:31:38,160 --> 00:31:39,320
+Then you're going to want to connect all
+
+890
+00:31:39,320 --> 00:31:41,320
+your sources that that that are needed
+
+891
+00:31:41,320 --> 00:31:43,120
+for this workflow. So do you need, you
+
+892
+00:31:43,120 --> 00:31:45,920
+know, SharePoint, Gmail, Jira, Slack?
+
+893
+00:31:45,920 --> 00:31:47,240
+You need to make sure that people can
+
+894
+00:31:47,240 --> 00:31:49,840
+read from and optionally write to their
+
+895
+00:31:49,840 --> 00:31:52,280
+third-party tools. And then you can also
+
+896
+00:31:52,280 --> 00:31:53,640
+choose to do things like add
+
+897
+00:31:53,640 --> 00:31:55,720
+instructions where helpful. That'll
+
+898
+00:31:55,720 --> 00:31:57,800
+that'll further steer Genie with
+
+899
+00:31:57,800 --> 00:31:59,880
+whatever prompts you provide. Uh but you
+
+900
+00:31:59,880 --> 00:32:01,880
+probably won't need all that many to
+
+901
+00:32:01,880 --> 00:32:04,320
+start. If the underlying semantics and
+
+902
+00:32:04,320 --> 00:32:06,360
+source materials are really strong, I
+
+903
+00:32:06,360 --> 00:32:07,880
+think you'll find that Genie can do a
+
+904
+00:32:07,880 --> 00:32:10,280
+lot with out really needing a long list
+
+905
+00:32:10,280 --> 00:32:13,120
+of rules. And finally, put that into the
+
+906
+00:32:13,120 --> 00:32:14,880
+the team's hands. See where it succeeds,
+
+907
+00:32:14,880 --> 00:32:16,920
+see it where it gets confused, uh where
+
+908
+00:32:16,920 --> 00:32:19,520
+the ontology needs more context. Iterate
+
+909
+00:32:19,520 --> 00:32:21,480
+on the semantics and optionally the
+
+910
+00:32:21,480 --> 00:32:23,080
+instructions as you need. And then once
+
+911
+00:32:23,080 --> 00:32:24,680
+it's working well, go to the next
+
+912
+00:32:24,680 --> 00:32:26,240
+workflow, the next line of business, and
+
+913
+00:32:26,240 --> 00:32:28,640
+so on. On our end, we are building more
+
+914
+00:32:28,640 --> 00:32:30,480
+and more monitoring tools to make this
+
+915
+00:32:30,480 --> 00:32:32,160
+easier and easier to do. So you're going
+
+916
+00:32:32,160 --> 00:32:34,240
+to start to see more detailed Genie 1
+
+917
+00:32:34,240 --> 00:32:35,760
+monitoring rolling out as well as
+
+918
+00:32:35,760 --> 00:32:38,200
+ontology monitoring. Now as you expand
+
+919
+00:32:38,200 --> 00:32:40,480
+beyond um beyond your PRC, there are a
+
+920
+00:32:40,480 --> 00:32:42,360
+couple best practices to keep in mind.
+
+921
+00:32:42,360 --> 00:32:43,280
+It's actually going to be very similar
+
+922
+00:32:43,280 --> 00:32:45,080
+to what I just said, but it's it's worth
+
+923
+00:32:45,080 --> 00:32:46,400
+repeating because these are these are
+
+924
+00:32:46,400 --> 00:32:48,480
+quite important. The first again is to
+
+925
+00:32:48,480 --> 00:32:49,920
+build that benchmark set for your
+
+926
+00:32:49,920 --> 00:32:51,200
+broader teams. Again, it's a
+
+927
+00:32:51,200 --> 00:32:53,280
+representative collection of real
+
+928
+00:32:53,280 --> 00:32:54,920
+questions with known good answers. You
+
+929
+00:32:54,920 --> 00:32:57,480
+know, keep Genie accountable. Flag to
+
+930
+00:32:57,480 --> 00:32:58,880
+your account teams if you see anything
+
+931
+00:32:58,880 --> 00:33:00,400
+going off the rails. We investigate
+
+932
+00:33:00,400 --> 00:33:02,920
+every single case that we get and and
+
+933
+00:33:02,920 --> 00:33:04,640
+hopefully you'll find that that Genie's
+
+934
+00:33:04,640 --> 00:33:06,320
+actually very strong in answering your
+
+935
+00:33:06,320 --> 00:33:07,800
+business questions and and taking
+
+936
+00:33:07,800 --> 00:33:10,400
+action. Second is to model those
+
+937
+00:33:10,400 --> 00:33:12,280
+semantics that really matter. We're not
+
+938
+00:33:12,280 --> 00:33:14,640
+saying model the entire business's
+
+939
+00:33:14,640 --> 00:33:16,240
+institutional knowledge. We don't think
+
+940
+00:33:16,240 --> 00:33:18,120
+that's possible. We would recommend
+
+941
+00:33:18,120 --> 00:33:20,440
+leaning on the learned context for that,
+
+942
+00:33:20,440 --> 00:33:22,640
+but we do recommend modeling the core
+
+943
+00:33:22,640 --> 00:33:24,320
+that you want to have shared across the
+
+944
+00:33:24,320 --> 00:33:26,000
+business or within a particular line of
+
+945
+00:33:26,000 --> 00:33:27,560
+business.
+
+946
+00:33:27,560 --> 00:33:29,560
+Third is to certify your gold assets.
+
+947
+00:33:29,560 --> 00:33:31,200
+So, make sure that you've identified the
+
+948
+00:33:31,200 --> 00:33:33,400
+tables, the dashboards, the queries, the
+
+949
+00:33:33,400 --> 00:33:35,920
+notebooks that that every workflow
+
+950
+00:33:35,920 --> 00:33:37,360
+actually requires and make sure that
+
+951
+00:33:37,360 --> 00:33:38,680
+they're certified so that Genie
+
+952
+00:33:38,680 --> 00:33:40,520
+prioritizes them when it's searching. It
+
+953
+00:33:40,520 --> 00:33:42,680
+does respect that tag.
+
+954
+00:33:42,680 --> 00:33:43,960
+And then finally, we recommend
+
+955
+00:33:43,960 --> 00:33:47,320
+validating access to that data from your
+
+956
+00:33:47,320 --> 00:33:49,360
+end user's perspective. So again, Genie
+
+957
+00:33:49,360 --> 00:33:51,160
+always respects the permissions of the
+
+958
+00:33:51,160 --> 00:33:53,040
+person who's asking the question. So of
+
+959
+00:33:53,040 --> 00:33:55,000
+course, an asset isn't useful if your
+
+960
+00:33:55,000 --> 00:33:56,560
+users can't see it. So you want to make
+
+961
+00:33:56,560 --> 00:33:58,760
+sure that your users have access to the
+
+962
+00:33:58,760 --> 00:34:00,440
+certified sources
+
+963
+00:34:00,440 --> 00:34:02,280
+and the snippets that you expect Genie
+
+964
+00:34:02,280 --> 00:34:04,440
+to actually use.
+
+965
+00:34:04,440 --> 00:34:05,640
+>> Well, thank you so very much for your
+
+966
+00:34:05,640 --> 00:34:07,720
+time, Elise. I am sure here on the
+
+967
+00:34:07,720 --> 00:34:09,320
+screen there's going to be some pop-ups
+
+968
+00:34:09,320 --> 00:34:13,360
+with some related links, videos, etc. as
+
+969
+00:34:13,360 --> 00:34:15,639
+it relates to to this. So, thank you so
+
+970
+00:34:15,639 --> 00:34:17,040
+much for your time.
+
+971
+00:34:17,040 --> 00:34:18,200
+>> Of course, thank you for your time and
+
+972
+00:34:18,200 --> 00:34:19,560
+thank you to everyone who's been testing
+
+973
+00:34:19,560 --> 00:34:21,200
+Genie and sharing feedback. We can't
+
+974
+00:34:21,200 --> 00:34:22,679
+wait to continue to shape the product
+
+975
+00:34:22,679 --> 00:34:25,080
+together.

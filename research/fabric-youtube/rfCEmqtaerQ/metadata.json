@@ -1,0 +1,684 @@
+{
+  "success": true,
+  "credits_remaining": 16834,
+  "credits_charged": 1,
+  "type": "video",
+  "id": "rfCEmqtaerQ",
+  "title": "Build Agent with AI in Data Agent",
+  "description": "This demo demonstrated the new \"Build Agent with AI\" capability in Data Agent, showing how it streamlines the setup of an agent by automating agent instructions, data source instructions, and example query generation. The process included schema exploration, context gathering, and iterative improvements, resulting in a production-ready agent that efficiently answers complex shipment queries with reduced manual effort and faster deployment.\n\nLearn more: https://msft.it/6051aBPW7\n\n#Microsoft #MicrosoftFabric",
+  "descriptionLinks": [
+    "https://msft.it/6051aBPW7",
+    "https://www.youtube.com/hashtag/microsoft",
+    "https://www.youtube.com/hashtag/microsoftfabric"
+  ],
+  "commentCountText": "1",
+  "commentCountInt": 1,
+  "likeCountText": "76",
+  "likeCountInt": 76,
+  "viewCountText": "5,307",
+  "viewCountInt": 5307,
+  "publishDateText": "Aug 3, 2026",
+  "collaborators": [],
+  "channel": {
+    "id": "UCH0gDiJ1RSn3kkxRQnQaH1w",
+    "url": "https://www.youtube.com/@MicrosoftFabric",
+    "handle": "MicrosoftFabric",
+    "title": "Microsoft Fabric",
+    "thumbnail": "https://yt3.ggpht.com/mU2v0aA_zrEd7nuSLbd43QUokGqXuRwGRVxcMTFVgbmb5HJYpOE2Ufu42EN4JJ_Qnp_PHOpxrg=s48-c-k-c0x00ffffff-no-rj"
+  },
+  "chapters": [
+    {
+      "title": "Setting up the data agent",
+      "timeDescription": "0:00",
+      "startSeconds": 0
+    },
+    {
+      "title": "Building instructions with AI",
+      "timeDescription": "1:14",
+      "startSeconds": 74.400002
+    },
+    {
+      "title": "Validating the agent response",
+      "timeDescription": "4:01",
+      "startSeconds": 241.67999
+    },
+    {
+      "title": "Optimizing with example queries",
+      "timeDescription": "5:05",
+      "startSeconds": 305.04001
+    }
+  ],
+  "watchNextVideos": [
+    {
+      "id": "21SVXuwK50g",
+      "title": "Build your own AI Agent in Copilot Agent Builder (October 2026 UPDATE)",
+      "thumbnail": "https://i.ytimg.com/vi/21SVXuwK50g/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLBVYCz2UYEUDmDfJk7Ds91__qUHkQ",
+      "channel": {
+        "title": "Lisa Crosbie",
+        "url": "https://www.youtube.com/@LisaCrosbie",
+        "handle": "LisaCrosbie",
+        "id": "UCvxCGKv4WSq49LfNIfZEEtg"
+      },
+      "publishedTimeText": "1d ago",
+      "publishedTime": null,
+      "publishDateText": "1d ago",
+      "publishDate": null,
+      "viewCountText": "9.5K",
+      "viewCountInt": 9500,
+      "lengthText": "27:55",
+      "lengthInSeconds": 1675,
+      "videoUrl": "https://www.youtube.com/watch?v=21SVXuwK50g"
+    },
+    {
+      "id": "o1T4-wausaI",
+      "title": "Definitive Guide To Microsoft Fabric Data Agents",
+      "thumbnail": "https://i.ytimg.com/vi/o1T4-wausaI/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDruZGzVA-MRRjCdtzbk-YdV6Vbmw",
+      "channel": {
+        "title": "That Fabric Guy - Bas Land",
+        "url": "https://www.youtube.com/@ThatFabricGuy",
+        "handle": "ThatFabricGuy",
+        "id": "UC4Wca2IylHtim_hCD1tKrMA"
+      },
+      "publishedTimeText": "2mo ago",
+      "publishedTime": null,
+      "publishDateText": "2mo ago",
+      "publishDate": null,
+      "viewCountText": "7.3K",
+      "viewCountInt": 7300,
+      "lengthText": "36:07",
+      "lengthInSeconds": 2167,
+      "videoUrl": "https://www.youtube.com/watch?v=o1T4-wausaI"
+    },
+    {
+      "id": "g6x7Rj9K1ds",
+      "title": "How to Catch Shadow AI with 3 M365 Tools [Walkthrough]",
+      "thumbnail": "https://i.ytimg.com/vi/g6x7Rj9K1ds/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDW9TwSTDjeh6iIZhmPwuT8QzwHMw",
+      "channel": {
+        "title": "Threatscape",
+        "url": "https://www.youtube.com/@threatscape",
+        "handle": "threatscape",
+        "id": "UCMjHyCYvkG1hW8kf_0T-DGA"
+      },
+      "publishedTimeText": "2d ago",
+      "publishedTime": null,
+      "publishDateText": "2d ago",
+      "publishDate": null,
+      "viewCountText": "5.2K",
+      "viewCountInt": 5200,
+      "lengthText": "12:59",
+      "lengthInSeconds": 779,
+      "videoUrl": "https://www.youtube.com/watch?v=g6x7Rj9K1ds"
+    },
+    {
+      "id": "fmLWscLPOEg",
+      "title": "Build AI Agents in 2 Minutes using Microsoft Foundry",
+      "thumbnail": "https://i.ytimg.com/vi/fmLWscLPOEg/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLA_U3YvwSQ2wd0B94m8lP0AGYG2jQ",
+      "channel": {
+        "title": "Rajeev Kanth | BEPEC",
+        "url": "https://www.youtube.com/@BEPEC",
+        "handle": "BEPEC",
+        "id": "UCn1USB9-5UqKJTSHd1JGcVw"
+      },
+      "publishedTimeText": "3mo ago",
+      "publishedTime": null,
+      "publishDateText": "3mo ago",
+      "publishDate": null,
+      "viewCountText": "3.1K",
+      "viewCountInt": 3100,
+      "lengthText": "20:37",
+      "lengthInSeconds": 1237,
+      "videoUrl": "https://www.youtube.com/watch?v=fmLWscLPOEg"
+    },
+    {
+      "id": "5KqI8yJrKl4",
+      "title": "Microsoft Just Changed Power BI (Again): 6 FabCon Announcements You Need to Know",
+      "thumbnail": "https://i.ytimg.com/vi/5KqI8yJrKl4/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLD5juskUiOnKGoO4tXaGI7yUcssAQ",
+      "channel": {
+        "title": "BI with Neema",
+        "url": "https://www.youtube.com/@mvneema",
+        "handle": "mvneema",
+        "id": "UCgRejaXV9kUPCVNYaYZQmCg"
+      },
+      "publishedTimeText": "2w ago",
+      "publishedTime": null,
+      "publishDateText": "2w ago",
+      "publishDate": null,
+      "viewCountText": "561",
+      "viewCountInt": 561,
+      "lengthText": "15:53",
+      "lengthInSeconds": 953,
+      "videoUrl": "https://www.youtube.com/watch?v=5KqI8yJrKl4"
+    },
+    {
+      "id": "-tj6MjS24kA",
+      "title": "AI Agents Now Do My Fabric Data Engineering",
+      "thumbnail": "https://i.ytimg.com/vi/-tj6MjS24kA/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCIQEAIi6DC0mXZOqMNeRxnP2mlOg",
+      "channel": {
+        "title": "Aleksi Partanen - Master Microsoft Fabric",
+        "url": "https://www.youtube.com/@AleksiPartanenTech",
+        "handle": "AleksiPartanenTech",
+        "id": "UChwXzyfZXD9cD7WSRS6flsA"
+      },
+      "publishedTimeText": "2mo ago",
+      "publishedTime": null,
+      "publishDateText": "2mo ago",
+      "publishDate": null,
+      "viewCountText": "12K",
+      "viewCountInt": 12000,
+      "lengthText": "40:09",
+      "lengthInSeconds": 2409,
+      "videoUrl": "https://www.youtube.com/watch?v=-tj6MjS24kA"
+    },
+    {
+      "id": "8Lw-9OXYm0w",
+      "title": "Fabric Data Agent: Step-by-Step",
+      "thumbnail": "https://i.ytimg.com/vi/8Lw-9OXYm0w/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLBfE77TAW7cBTueFuUVsvVVO2Mo2w",
+      "channel": {
+        "title": "Div Sharma",
+        "url": "https://www.youtube.com/@AnalyticsWithDiv",
+        "handle": "AnalyticsWithDiv",
+        "id": "UCSZz54uevJ_NBQHntMbzUzw"
+      },
+      "publishedTimeText": "6mo ago",
+      "publishedTime": null,
+      "publishDateText": "6mo ago",
+      "publishDate": null,
+      "viewCountText": "1.5K",
+      "viewCountInt": 1500,
+      "lengthText": "15:01",
+      "lengthInSeconds": 901,
+      "videoUrl": "https://www.youtube.com/watch?v=8Lw-9OXYm0w"
+    },
+    {
+      "id": "knOhSmOkqMM",
+      "title": "How to Use the NEW Agent Builder in Microsoft Copilot - Build an AI Agent in Minutes (2026)",
+      "thumbnail": "https://i.ytimg.com/vi/knOhSmOkqMM/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDh8kQJm3eSfQr9IVyZdnC3lxCZWA",
+      "channel": {
+        "title": "Mike Tholfsen",
+        "url": "https://www.youtube.com/@MikeTholfsen",
+        "handle": "MikeTholfsen",
+        "id": "UC2dSE9W3lGYbFi_CPmVtA-A"
+      },
+      "publishedTimeText": "3w ago",
+      "publishedTime": null,
+      "publishDateText": "3w ago",
+      "publishDate": null,
+      "viewCountText": "115K",
+      "viewCountInt": 115000,
+      "lengthText": "10:28",
+      "lengthInSeconds": 628,
+      "videoUrl": "https://www.youtube.com/watch?v=knOhSmOkqMM"
+    },
+    {
+      "id": "s_OIaF5uGys",
+      "title": "Fabric Data Agents Just Replaced My Power BI Analyst (Here\u2019s Proof)",
+      "thumbnail": "https://i.ytimg.com/vi/s_OIaF5uGys/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDnnZHjIoNqPAWUSwgA0e7oTcakDQ",
+      "channel": {
+        "title": "Mike Dion | AI For Finance",
+        "url": "https://www.youtube.com/@f9finance",
+        "handle": "f9finance",
+        "id": "UC187oCa9Tfs9meqA7OVhEgw"
+      },
+      "publishedTimeText": "1mo ago",
+      "publishedTime": null,
+      "publishDateText": "1mo ago",
+      "publishDate": null,
+      "viewCountText": "10K",
+      "viewCountInt": 10000,
+      "lengthText": "17:01",
+      "lengthInSeconds": 1021,
+      "videoUrl": "https://www.youtube.com/watch?v=s_OIaF5uGys"
+    },
+    {
+      "id": "xjizOqvu-EU",
+      "title": "Microsoft Fabric Apps Explained (The SaaS Killer?)",
+      "thumbnail": "https://i.ytimg.com/vi/xjizOqvu-EU/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLAqQywdpB-YEYMdWW79fg-xdFkVJw",
+      "channel": {
+        "title": "How to Power BI",
+        "url": "https://www.youtube.com/@HowtoPowerBI",
+        "handle": "HowtoPowerBI",
+        "id": "UCcfngi7_ASuo5jdWX0bNauQ"
+      },
+      "publishedTimeText": "13d ago",
+      "publishedTime": null,
+      "publishDateText": "13d ago",
+      "publishDate": null,
+      "viewCountText": "131K",
+      "viewCountInt": 131000,
+      "lengthText": "15:11",
+      "lengthInSeconds": 911,
+      "videoUrl": "https://www.youtube.com/watch?v=xjizOqvu-EU"
+    },
+    {
+      "id": "uzkuj6ii3ec",
+      "title": "Agentic analytics with Power BI and Microsoft Fabric | OD817",
+      "thumbnail": "https://i.ytimg.com/vi/uzkuj6ii3ec/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDAHHiFf0-65mpYg5iII03XYCktoQ",
+      "channel": {
+        "title": "Microsoft Developer",
+        "url": "https://www.youtube.com/@MicrosoftDeveloper",
+        "handle": "MicrosoftDeveloper",
+        "id": "UCsMica-v34Irf9KVTh6xx-g"
+      },
+      "publishedTimeText": "4mo ago",
+      "publishedTime": null,
+      "publishDateText": "4mo ago",
+      "publishDate": null,
+      "viewCountText": "6.3K",
+      "viewCountInt": 6300,
+      "lengthText": "22:37",
+      "lengthInSeconds": 1357,
+      "videoUrl": "https://www.youtube.com/watch?v=uzkuj6ii3ec"
+    },
+    {
+      "id": "aQLyguIg1Qk",
+      "title": "Fabric Update - September 2026",
+      "thumbnail": "https://i.ytimg.com/vi/aQLyguIg1Qk/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLAZcJ4OX-3WcIAmN9K0d5hprxuH_g",
+      "channel": {
+        "title": "Microsoft Fabric",
+        "url": "https://www.youtube.com/@MicrosoftFabric",
+        "handle": "MicrosoftFabric",
+        "id": "UCH0gDiJ1RSn3kkxRQnQaH1w"
+      },
+      "publishedTimeText": "3w ago",
+      "publishedTime": null,
+      "publishDateText": "3w ago",
+      "publishDate": null,
+      "viewCountText": "20K",
+      "viewCountInt": 20000,
+      "lengthText": "22:19",
+      "lengthInSeconds": 1339,
+      "videoUrl": "https://www.youtube.com/watch?v=aQLyguIg1Qk"
+    }
+  ],
+  "thumbnail": "https://img.youtube.com/vi/rfCEmqtaerQ/maxresdefault.jpg",
+  "publishDate": "2026-08-03T12:52:37-07:00",
+  "keywords": [
+    "#Microsoft",
+    "#MicrosoftFabric"
+  ],
+  "genre": "Education",
+  "durationMs": 404000,
+  "durationFormatted": "00:06:44",
+  "captionTracks": [
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=l3nZaomkIPrM0_wPusrg8Qs&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662535&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=E7034766CC29597C5CFDCE3BE5C728F88075FD0F.EC64EBDDC0E2A584834F4014EA47CA68BFF65085&key=yt8&kind=asr&lang=ar&variant=timing-optimized",
+      "name": {
+        "simpleText": "Arabic (auto-generated)"
+      },
+      "vssId": "a.ar",
+      "languageCode": "ar",
+      "kind": "asr",
+      "rtl": true,
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=l3nZaomkIPrM0_wPusrg8Qs&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662535&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=E7034766CC29597C5CFDCE3BE5C728F88075FD0F.EC64EBDDC0E2A584834F4014EA47CA68BFF65085&key=yt8&kind=asr&lang=bn&variant=timing-optimized",
+      "name": {
+        "simpleText": "Bangla (auto-generated)"
+      },
+      "vssId": "a.bn",
+      "languageCode": "bn",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=l3nZaomkIPrM0_wPusrg8Qs&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662535&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=E7034766CC29597C5CFDCE3BE5C728F88075FD0F.EC64EBDDC0E2A584834F4014EA47CA68BFF65085&key=yt8&kind=asr&lang=nl-NL&variant=timing-optimized",
+      "name": {
+        "simpleText": "Dutch (Netherlands) (auto-generated)"
+      },
+      "vssId": "a.nl-NL",
+      "languageCode": "nl-NL",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=l3nZaomkIPrM0_wPusrg8Qs&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662535&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=E7034766CC29597C5CFDCE3BE5C728F88075FD0F.EC64EBDDC0E2A584834F4014EA47CA68BFF65085&key=yt8&lang=en",
+      "name": {
+        "simpleText": "English"
+      },
+      "vssId": ".en",
+      "languageCode": "en",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=l3nZaomkIPrM0_wPusrg8Qs&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662535&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=E7034766CC29597C5CFDCE3BE5C728F88075FD0F.EC64EBDDC0E2A584834F4014EA47CA68BFF65085&key=yt8&kind=asr&lang=en&variant=gemini",
+      "name": {
+        "simpleText": "English (auto-generated)"
+      },
+      "vssId": "a.en",
+      "languageCode": "en",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=l3nZaomkIPrM0_wPusrg8Qs&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662535&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=E7034766CC29597C5CFDCE3BE5C728F88075FD0F.EC64EBDDC0E2A584834F4014EA47CA68BFF65085&key=yt8&kind=asr&lang=fr-FR&variant=timing-optimized",
+      "name": {
+        "simpleText": "French (France) (auto-generated)"
+      },
+      "vssId": "a.fr-FR",
+      "languageCode": "fr-FR",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=l3nZaomkIPrM0_wPusrg8Qs&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662535&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=E7034766CC29597C5CFDCE3BE5C728F88075FD0F.EC64EBDDC0E2A584834F4014EA47CA68BFF65085&key=yt8&kind=asr&lang=de-DE&variant=timing-optimized",
+      "name": {
+        "simpleText": "German (Germany) (auto-generated)"
+      },
+      "vssId": "a.de-DE",
+      "languageCode": "de-DE",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=l3nZaomkIPrM0_wPusrg8Qs&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662535&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=E7034766CC29597C5CFDCE3BE5C728F88075FD0F.EC64EBDDC0E2A584834F4014EA47CA68BFF65085&key=yt8&kind=asr&lang=iw&variant=timing-optimized",
+      "name": {
+        "simpleText": "Hebrew (auto-generated)"
+      },
+      "vssId": "a.iw",
+      "languageCode": "iw",
+      "kind": "asr",
+      "rtl": true,
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=l3nZaomkIPrM0_wPusrg8Qs&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662535&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=E7034766CC29597C5CFDCE3BE5C728F88075FD0F.EC64EBDDC0E2A584834F4014EA47CA68BFF65085&key=yt8&kind=asr&lang=hi&variant=timing-optimized",
+      "name": {
+        "simpleText": "Hindi (auto-generated)"
+      },
+      "vssId": "a.hi",
+      "languageCode": "hi",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=l3nZaomkIPrM0_wPusrg8Qs&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662535&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=E7034766CC29597C5CFDCE3BE5C728F88075FD0F.EC64EBDDC0E2A584834F4014EA47CA68BFF65085&key=yt8&kind=asr&lang=id&variant=timing-optimized",
+      "name": {
+        "simpleText": "Indonesian (auto-generated)"
+      },
+      "vssId": "a.id",
+      "languageCode": "id",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=l3nZaomkIPrM0_wPusrg8Qs&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662535&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=E7034766CC29597C5CFDCE3BE5C728F88075FD0F.EC64EBDDC0E2A584834F4014EA47CA68BFF65085&key=yt8&kind=asr&lang=it&variant=timing-optimized",
+      "name": {
+        "simpleText": "Italian (auto-generated)"
+      },
+      "vssId": "a.it",
+      "languageCode": "it",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=l3nZaomkIPrM0_wPusrg8Qs&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662535&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=E7034766CC29597C5CFDCE3BE5C728F88075FD0F.EC64EBDDC0E2A584834F4014EA47CA68BFF65085&key=yt8&kind=asr&lang=ja&variant=timing-optimized",
+      "name": {
+        "simpleText": "Japanese (auto-generated)"
+      },
+      "vssId": "a.ja",
+      "languageCode": "ja",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=l3nZaomkIPrM0_wPusrg8Qs&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662535&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=E7034766CC29597C5CFDCE3BE5C728F88075FD0F.EC64EBDDC0E2A584834F4014EA47CA68BFF65085&key=yt8&kind=asr&lang=ko&variant=timing-optimized",
+      "name": {
+        "simpleText": "Korean (auto-generated)"
+      },
+      "vssId": "a.ko",
+      "languageCode": "ko",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=l3nZaomkIPrM0_wPusrg8Qs&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662535&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=E7034766CC29597C5CFDCE3BE5C728F88075FD0F.EC64EBDDC0E2A584834F4014EA47CA68BFF65085&key=yt8&kind=asr&lang=ml&variant=timing-optimized",
+      "name": {
+        "simpleText": "Malayalam (auto-generated)"
+      },
+      "vssId": "a.ml",
+      "languageCode": "ml",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=l3nZaomkIPrM0_wPusrg8Qs&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662535&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=E7034766CC29597C5CFDCE3BE5C728F88075FD0F.EC64EBDDC0E2A584834F4014EA47CA68BFF65085&key=yt8&kind=asr&lang=pl&variant=timing-optimized",
+      "name": {
+        "simpleText": "Polish (auto-generated)"
+      },
+      "vssId": "a.pl",
+      "languageCode": "pl",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=l3nZaomkIPrM0_wPusrg8Qs&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662535&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=E7034766CC29597C5CFDCE3BE5C728F88075FD0F.EC64EBDDC0E2A584834F4014EA47CA68BFF65085&key=yt8&kind=asr&lang=pt-BR&variant=timing-optimized",
+      "name": {
+        "simpleText": "Portuguese (Brazil) (auto-generated)"
+      },
+      "vssId": "a.pt-BR",
+      "languageCode": "pt-BR",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=l3nZaomkIPrM0_wPusrg8Qs&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662535&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=E7034766CC29597C5CFDCE3BE5C728F88075FD0F.EC64EBDDC0E2A584834F4014EA47CA68BFF65085&key=yt8&kind=asr&lang=pa&variant=timing-optimized",
+      "name": {
+        "simpleText": "Punjabi (auto-generated)"
+      },
+      "vssId": "a.pa",
+      "languageCode": "pa",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=l3nZaomkIPrM0_wPusrg8Qs&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662535&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=E7034766CC29597C5CFDCE3BE5C728F88075FD0F.EC64EBDDC0E2A584834F4014EA47CA68BFF65085&key=yt8&kind=asr&lang=ru&variant=timing-optimized",
+      "name": {
+        "simpleText": "Russian (auto-generated)"
+      },
+      "vssId": "a.ru",
+      "languageCode": "ru",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=l3nZaomkIPrM0_wPusrg8Qs&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662535&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=E7034766CC29597C5CFDCE3BE5C728F88075FD0F.EC64EBDDC0E2A584834F4014EA47CA68BFF65085&key=yt8&kind=asr&lang=es-US&variant=timing-optimized",
+      "name": {
+        "simpleText": "Spanish (United States) (auto-generated)"
+      },
+      "vssId": "a.es-US",
+      "languageCode": "es-US",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=l3nZaomkIPrM0_wPusrg8Qs&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662535&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=E7034766CC29597C5CFDCE3BE5C728F88075FD0F.EC64EBDDC0E2A584834F4014EA47CA68BFF65085&key=yt8&kind=asr&lang=ta&variant=timing-optimized",
+      "name": {
+        "simpleText": "Tamil (auto-generated)"
+      },
+      "vssId": "a.ta",
+      "languageCode": "ta",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=l3nZaomkIPrM0_wPusrg8Qs&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662535&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=E7034766CC29597C5CFDCE3BE5C728F88075FD0F.EC64EBDDC0E2A584834F4014EA47CA68BFF65085&key=yt8&kind=asr&lang=te&variant=timing-optimized",
+      "name": {
+        "simpleText": "Telugu (auto-generated)"
+      },
+      "vssId": "a.te",
+      "languageCode": "te",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=rfCEmqtaerQ&ei=l3nZaomkIPrM0_wPusrg8Qs&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662535&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=E7034766CC29597C5CFDCE3BE5C728F88075FD0F.EC64EBDDC0E2A584834F4014EA47CA68BFF65085&key=yt8&kind=asr&lang=uk&variant=timing-optimized",
+      "name": {
+        "simpleText": "Ukrainian (auto-generated)"
+      },
+      "vssId": "a.uk",
+      "languageCode": "uk",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    }
+  ],
+  "audioTracks": [
+    {
+      "id": "ar.10",
+      "displayName": "Arabic",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "bn.10",
+      "displayName": "Bangla",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "de-DE.10",
+      "displayName": "German (DE)",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "es-US.10",
+      "displayName": "Spanish (US)",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "fr-FR.10",
+      "displayName": "French (FR)",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "hi.10",
+      "displayName": "Hindi",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "id.10",
+      "displayName": "Indonesian",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "it.10",
+      "displayName": "Italian",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "iw.10",
+      "displayName": "Hebrew",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "ja.10",
+      "displayName": "Japanese",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "ko.10",
+      "displayName": "Korean",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "ml.10",
+      "displayName": "Malayalam",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "nl-NL.10",
+      "displayName": "Dutch (NL)",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "pa.10",
+      "displayName": "Punjabi",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "pl.10",
+      "displayName": "Polish",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "pt-BR.10",
+      "displayName": "Portuguese (BR)",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "ru.10",
+      "displayName": "Russian",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "ta.10",
+      "displayName": "Tamil",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "te.10",
+      "displayName": "Telugu",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "uk.10",
+      "displayName": "Ukrainian",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "en-US.4",
+      "displayName": "English (US) original",
+      "audioIsDefault": true,
+      "isAutoDubbed": null
+    }
+  ],
+  "downloadOptions": {
+    "expiresInSeconds": "21540",
+    "hlsManifestUrl": null,
+    "dashManifestUrl": null,
+    "formats": [],
+    "note": "These are YouTube's muxed audio+video formats when exposed. Links can expire, and some videos may only expose signature-ciphered URLs."
+  },
+  "most_replayed": null,
+  "isPaidPromotion": false
+}

@@ -1,0 +1,533 @@
+{
+  "success": true,
+  "credits_remaining": 16842,
+  "credits_charged": 1,
+  "type": "video",
+  "id": "SZSQ70sytlU",
+  "title": "Introduction to Microsoft Fabric Data Agents",
+  "description": "Are Microsoft Fabric Data Agents just another buzzword, or can they actually change how your users get answers from their data? In this video, Mitchell Pearson walks through what Fabric Data Agents are, how they use generative AI to power Q&A over your data, and how you can get started in just a few minutes once your data is in Fabric.\n\nYou\u2019ll see how to connect a semantic model, choose which tables and columns are exposed, and ask natural-language questions like \u201cWhat are my total sales by year?\u201d\u2014then inspect the exact DAX Copilot generates behind the scenes. Mitchell also covers the key prerequisites (F2+ Fabric capacity and tenant settings), why good data modeling and \u201cprep for AI\u201d are critical, and how to publish agents so users can reach them from places like Microsoft 365 Copilot or via a Copilot Studio hub agent in Teams.\n\nIf your organization is moving to Fabric and you want to unlock AI-powered self-service analytics\u2014not just more reports\u2014this is a great place to start. If you\u2019d like help migrating to Fabric or building out data agents, reach out to us at Pragmatic Works for training and consulting.\n\n\ud83d\udc49 On-Demand Learning - Start With The FREE Community Plan: https://prag.works/odl-trial-yt\n\n\ud83d\udd17Pragmatic Works On-Demand Learning Packages: https://pragmaticworks.com/pricing/\n\ud83d\udd17Pragmatic Works Boot Camps: https://pragmaticworks.com/boot-camps/\n\ud83d\udd17Pragmatic Works Hackathons: https://pragmaticworks.com/private-tr...\n\ud83d\udd17Pragmatic Works Virtual Mentoring: https://pragmaticworks.com/virtual-me...\n\ud83d\udd17Pragmatic Works Enterprise Private Training: https://pragmaticworks.com/private-tr...\n\ud83d\udd17Pragmatic Works Blog: http://blog.pragmaticworks.com/\n\n00:00 \u2013 Why Fabric Data Agents Matter (and Why They\u2019re Less Scary Than They Sound)\n00:21 \u2013 What Are Microsoft Fabric Data Agents?\n01:12 \u2013 Prerequisites: Capacity, Tenant Settings, and Semantic Models\n02:46 \u2013 Creating Your First Data Agent in a Fabric Workspace\n03:43 \u2013 Connecting Data Sources and Choosing Tables & Columns\n05:23 \u2013 Asking Natural-Language Questions and Reviewing the DAX\n07:18 \u2013 From Proof of Concept to Real Projects (Migration & Data Prep)\n08:14 \u2013 Publishing Agents to M365 Copilot and Teams via Copilot Studio\n09:38 \u2013 Where You Can Consume Fabric Data Agents Today\n10:32 \u2013 Wrap-Up and What\u2019s Next in the Data Agents Series\n\nLet's connect:\n\n\u2714\ufe0fDiscord: https://prag.works/yt-discord\n\u2714\ufe0fFacebook: https://prag.works/yt-fb\n\u2714\ufe0fInstagram: https://prag.works/yt-insta\n\u2714\ufe0fLinkedIn: https://prag.works/yt-li\n \nPragmatic Works\n350 Governor St, Suite 300, Green Cove Springs, FL 32043\nPhone: (904) 638-5743\nEmail: training@pragmaticworks.com\n#PragmaticWorks",
+  "descriptionLinks": [
+    "https://prag.works/odl-trial-yt",
+    "https://pragmaticworks.com/pricing/",
+    "https://pragmaticworks.com/boot-camps/",
+    "https://pragmaticworks.com/private-training/hackathons/",
+    "https://pragmaticworks.com/virtual-mentoring/",
+    "https://pragmaticworks.com/private-training/customized-enterprise-training/",
+    "http://blog.pragmaticworks.com/",
+    "https://www.youtube.com/watch?v=SZSQ70sytlU",
+    "https://www.youtube.com/watch?v=SZSQ70sytlU&t=21s",
+    "https://www.youtube.com/watch?v=SZSQ70sytlU&t=72s",
+    "https://www.youtube.com/watch?v=SZSQ70sytlU&t=166s",
+    "https://www.youtube.com/watch?v=SZSQ70sytlU&t=223s",
+    "https://www.youtube.com/watch?v=SZSQ70sytlU&t=323s",
+    "https://www.youtube.com/watch?v=SZSQ70sytlU&t=438s",
+    "https://www.youtube.com/watch?v=SZSQ70sytlU&t=494s",
+    "https://www.youtube.com/watch?v=SZSQ70sytlU&t=578s",
+    "https://www.youtube.com/watch?v=SZSQ70sytlU&t=632s",
+    "https://prag.works/yt-discord",
+    "https://prag.works/yt-fb",
+    "https://prag.works/yt-insta",
+    "https://prag.works/yt-li",
+    "https://www.youtube.com/hashtag/pragmaticworks"
+  ],
+  "commentCountText": "32",
+  "commentCountInt": 32,
+  "likeCountText": "382",
+  "likeCountInt": 382,
+  "viewCountText": "20,817",
+  "viewCountInt": 20817,
+  "publishDateText": "Jan 29, 2026",
+  "collaborators": [],
+  "channel": {
+    "id": "UC5CugyvTdOloiuTc9nN09TA",
+    "url": "https://www.youtube.com/@PragmaticWorks",
+    "handle": "PragmaticWorks",
+    "title": "Pragmatic Works",
+    "thumbnail": "https://yt3.ggpht.com/Q21rGKQrLs-YrFyq3ClStbt4ynAE-Ma0KdqQnJZGWQq2l9ABRdldAwQWZkp4JjJgejmNpvh_dg=s48-c-k-c0x00ffffff-no-rj"
+  },
+  "chapters": [
+    {
+      "title": "Why Fabric Data Agents Matter (and Why They\u2019re Less Scary Than They Sound)",
+      "timeDescription": "0:00",
+      "startSeconds": 0
+    },
+    {
+      "title": "What Are Microsoft Fabric Data Agents?",
+      "timeDescription": "0:21",
+      "startSeconds": 21
+    },
+    {
+      "title": "Prerequisites: Capacity, Tenant Settings, and Semantic Models",
+      "timeDescription": "1:12",
+      "startSeconds": 72
+    },
+    {
+      "title": "Creating Your First Data Agent in a Fabric Workspace",
+      "timeDescription": "2:46",
+      "startSeconds": 166
+    },
+    {
+      "title": "Connecting Data Sources and Choosing Tables & Columns",
+      "timeDescription": "3:43",
+      "startSeconds": 223
+    },
+    {
+      "title": "Asking Natural-Language Questions and Reviewing the DAX",
+      "timeDescription": "5:23",
+      "startSeconds": 323
+    },
+    {
+      "title": "From Proof of Concept to Real Projects (Migration & Data Prep)",
+      "timeDescription": "7:18",
+      "startSeconds": 438
+    },
+    {
+      "title": "Publishing Agents to M365 Copilot and Teams via Copilot Studio",
+      "timeDescription": "8:14",
+      "startSeconds": 494
+    },
+    {
+      "title": "Where You Can Consume Fabric Data Agents Today",
+      "timeDescription": "9:38",
+      "startSeconds": 578
+    },
+    {
+      "title": "Wrap-Up and What\u2019s Next in the Data Agents Series",
+      "timeDescription": "10:32",
+      "startSeconds": 632
+    }
+  ],
+  "watchNextVideos": [
+    {
+      "id": "vtd4h_LFzbQ",
+      "title": "By the People: The Election of Barack Obama",
+      "thumbnail": "https://lh3.googleusercontent.com/c4DOMInE7ZCVKXY-IAx5AFIcD_lRj_tdDi70rA1BTst4ajyYNYlyH9mSDH_dmwWhLwtnu-0b5pzW",
+      "channel": {
+        "title": "Documentary \u2022 2009",
+        "url": "https://www.youtube.comundefined"
+      },
+      "publishedTimeText": "2y ago",
+      "publishedTime": null,
+      "publishDateText": "2y ago",
+      "publishDate": null,
+      "viewCountInt": null,
+      "lengthText": "1:55:21",
+      "lengthInSeconds": 6921,
+      "videoUrl": "https://www.youtube.com/watch?v=vtd4h_LFzbQ"
+    },
+    {
+      "id": "knOhSmOkqMM",
+      "title": "How to Use the NEW Agent Builder in Microsoft Copilot - Build an AI Agent in Minutes (2026)",
+      "thumbnail": "https://i.ytimg.com/vi/knOhSmOkqMM/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDh8kQJm3eSfQr9IVyZdnC3lxCZWA",
+      "channel": {
+        "title": "Mike Tholfsen",
+        "url": "https://www.youtube.com/@MikeTholfsen",
+        "handle": "MikeTholfsen",
+        "id": "UC2dSE9W3lGYbFi_CPmVtA-A"
+      },
+      "publishedTimeText": "3w ago",
+      "publishedTime": null,
+      "publishDateText": "3w ago",
+      "publishDate": null,
+      "viewCountText": "115K",
+      "viewCountInt": 115000,
+      "lengthText": "10:28",
+      "lengthInSeconds": 628,
+      "videoUrl": "https://www.youtube.com/watch?v=knOhSmOkqMM"
+    },
+    {
+      "id": "ap-TBbTehu8",
+      "title": "Creating Your First Semantic Model in Microsoft Fabric!",
+      "thumbnail": "https://i.ytimg.com/vi/ap-TBbTehu8/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLArGwiZoqK2483aOzvdn3TRketiJA",
+      "channel": {
+        "title": "Pragmatic Works",
+        "url": "https://www.youtube.com/@PragmaticWorks",
+        "handle": "PragmaticWorks",
+        "id": "UC5CugyvTdOloiuTc9nN09TA"
+      },
+      "publishedTimeText": "8mo ago",
+      "publishedTime": null,
+      "publishDateText": "8mo ago",
+      "publishDate": null,
+      "viewCountText": "22K",
+      "viewCountInt": 22000,
+      "lengthText": "16:59",
+      "lengthInSeconds": 1019,
+      "videoUrl": "https://www.youtube.com/watch?v=ap-TBbTehu8"
+    },
+    {
+      "id": "ul16PjHNiVs",
+      "title": "Fabric Data Agents 101",
+      "thumbnail": "https://i.ytimg.com/vi/ul16PjHNiVs/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLBViVDaesLdJfypp-GD0KGZNepM5g",
+      "channel": {
+        "title": "Microsoft Fabric",
+        "url": "https://www.youtube.com/@MicrosoftFabric",
+        "handle": "MicrosoftFabric",
+        "id": "UCH0gDiJ1RSn3kkxRQnQaH1w"
+      },
+      "publishedTimeText": "Streamed 8mo ago",
+      "publishedTime": null,
+      "publishDateText": "Streamed 8mo ago",
+      "publishDate": null,
+      "viewCountText": "13K",
+      "viewCountInt": 13000,
+      "lengthText": "1:01:51",
+      "lengthInSeconds": 3711,
+      "videoUrl": "https://www.youtube.com/watch?v=ul16PjHNiVs"
+    },
+    {
+      "id": "xrII29yiWcE",
+      "title": "Implement Microsoft Fabric data agents (chat with your data) | DP-3029 | Episode 6",
+      "thumbnail": "https://i.ytimg.com/vi/xrII29yiWcE/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDrVoRjAK8wkRPrK227ZkIyRlI6vA",
+      "channel": {
+        "title": "Microsoft Learn",
+        "url": "https://www.youtube.com/@MicrosoftLearn",
+        "handle": "MicrosoftLearn",
+        "id": "UCFs5990vNpA2C2ijzgiJ59Q"
+      },
+      "publishedTimeText": "7mo ago",
+      "publishedTime": null,
+      "publishDateText": "7mo ago",
+      "publishDate": null,
+      "viewCountText": "2.3K",
+      "viewCountInt": 2300,
+      "lengthText": "20:38",
+      "lengthInSeconds": 1238,
+      "videoUrl": "https://www.youtube.com/watch?v=xrII29yiWcE"
+    },
+    {
+      "id": "mUDZwz1Lj1I",
+      "title": "Why Your Fabric Data Agent Needs an Ontology (Microsoft Fabric AI Agent Demo)",
+      "thumbnail": "https://i.ytimg.com/vi/mUDZwz1Lj1I/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCktcUNlRPpkeyV0X3B44DHZZxDoA",
+      "channel": {
+        "title": "Dataracity",
+        "url": "https://www.youtube.com/@Dataracity_Inc",
+        "handle": "Dataracity_Inc",
+        "id": "UC_EGWA6XBRTivElVSUA5fVA"
+      },
+      "publishedTimeText": "2mo ago",
+      "publishedTime": null,
+      "publishDateText": "2mo ago",
+      "publishDate": null,
+      "viewCountText": "1.4K",
+      "viewCountInt": 1400,
+      "lengthText": "20:22",
+      "lengthInSeconds": 1222,
+      "videoUrl": "https://www.youtube.com/watch?v=mUDZwz1Lj1I"
+    },
+    {
+      "id": "GbxVsi94DrE",
+      "title": "Microsoft Fabric Overview",
+      "thumbnail": "https://i.ytimg.com/vi/GbxVsi94DrE/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCHdTiPZ5WTdD4iSOwcuoWo1qszjQ",
+      "channel": {
+        "title": "John Savill's Technical Training",
+        "url": "https://www.youtube.com/@NTFAQGuy",
+        "handle": "NTFAQGuy",
+        "id": "UCpIn7ox7j7bH_OFj7tYouOQ"
+      },
+      "publishedTimeText": "2y ago",
+      "publishedTime": null,
+      "publishDateText": "2y ago",
+      "publishDate": null,
+      "viewCountText": "100K",
+      "viewCountInt": 100000,
+      "lengthText": "1:39:15",
+      "lengthInSeconds": 5955,
+      "videoUrl": "https://www.youtube.com/watch?v=GbxVsi94DrE"
+    },
+    {
+      "id": "CcLjASl-C6A",
+      "title": "How I Save Hours Using These 5 Microsoft Copilot Agents!",
+      "thumbnail": "https://i.ytimg.com/vi/CcLjASl-C6A/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCjNHm0GkQGWsv0tceJcpWJjErYig",
+      "channel": {
+        "title": "Scott Brant",
+        "url": "https://www.youtube.com/@your365coach",
+        "handle": "your365coach",
+        "id": "UC-Iu-wRWwWX8NjVRxDnW8JA"
+      },
+      "publishedTimeText": "1mo ago",
+      "publishedTime": null,
+      "publishDateText": "1mo ago",
+      "publishDate": null,
+      "viewCountText": "91K",
+      "viewCountInt": 91000,
+      "lengthText": "19:59",
+      "lengthInSeconds": 1199,
+      "videoUrl": "https://www.youtube.com/watch?v=CcLjASl-C6A"
+    },
+    {
+      "id": "o1T4-wausaI",
+      "title": "Definitive Guide To Microsoft Fabric Data Agents",
+      "thumbnail": "https://i.ytimg.com/vi/o1T4-wausaI/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDruZGzVA-MRRjCdtzbk-YdV6Vbmw",
+      "channel": {
+        "title": "That Fabric Guy - Bas Land",
+        "url": "https://www.youtube.com/@ThatFabricGuy",
+        "handle": "ThatFabricGuy",
+        "id": "UC4Wca2IylHtim_hCD1tKrMA"
+      },
+      "publishedTimeText": "2mo ago",
+      "publishedTime": null,
+      "publishDateText": "2mo ago",
+      "publishDate": null,
+      "viewCountText": "7.3K",
+      "viewCountInt": 7300,
+      "lengthText": "36:07",
+      "lengthInSeconds": 2167,
+      "videoUrl": "https://www.youtube.com/watch?v=o1T4-wausaI"
+    },
+    {
+      "id": "J4i5lcROJcs",
+      "title": "Learn the Fundamentals of Microsoft Fabric in 38 minutes",
+      "thumbnail": "https://i.ytimg.com/vi/J4i5lcROJcs/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLB8mDdxHTwviuryRv0PkOh4obpRmA",
+      "channel": {
+        "title": "Learn Microsoft Fabric with Will",
+        "url": "https://www.youtube.com/@FabricFrontiers",
+        "handle": "FabricFrontiers",
+        "id": "UCrvoIYkzS-RvCEb0x7wfmwQ"
+      },
+      "publishedTimeText": "2y ago",
+      "publishedTime": null,
+      "publishDateText": "2y ago",
+      "publishDate": null,
+      "viewCountText": "512K",
+      "viewCountInt": 512000,
+      "lengthText": "38:00",
+      "lengthInSeconds": 2280,
+      "videoUrl": "https://www.youtube.com/watch?v=J4i5lcROJcs"
+    },
+    {
+      "id": "ZDq1rvB1VcU",
+      "title": "How Fabric Data Agents Are Powering the Next Wave of AI | BRK1739",
+      "thumbnail": "https://i.ytimg.com/vi/ZDq1rvB1VcU/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLBGcajEdRMUDkcHUWLHYG-SkaTcrA",
+      "channel": {
+        "title": "Microsoft Events",
+        "url": "https://www.youtube.com/@events_msft",
+        "handle": "events_msft",
+        "id": "UCrhJmfAGQ5K81XQ8_od1iTg"
+      },
+      "publishedTimeText": "10mo ago",
+      "publishedTime": null,
+      "publishDateText": "10mo ago",
+      "publishDate": null,
+      "viewCountText": "4.1K",
+      "viewCountInt": 4100,
+      "lengthText": "46:13",
+      "lengthInSeconds": 2773,
+      "videoUrl": "https://www.youtube.com/watch?v=ZDq1rvB1VcU"
+    },
+    {
+      "id": "37LHUPvT1gU",
+      "title": "Fabric IQ Overview",
+      "thumbnail": "https://i.ytimg.com/vi/37LHUPvT1gU/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCp3JhghM_LaVqTPgx4gVyynHLkRg",
+      "channel": {
+        "title": "John Savill's Technical Training",
+        "url": "https://www.youtube.com/@NTFAQGuy",
+        "handle": "NTFAQGuy",
+        "id": "UCpIn7ox7j7bH_OFj7tYouOQ"
+      },
+      "publishedTimeText": "8mo ago",
+      "publishedTime": null,
+      "publishDateText": "8mo ago",
+      "publishDate": null,
+      "viewCountText": "21K",
+      "viewCountInt": 21000,
+      "lengthText": "21:11",
+      "lengthInSeconds": 1271,
+      "videoUrl": "https://www.youtube.com/watch?v=37LHUPvT1gU"
+    }
+  ],
+  "thumbnail": "https://img.youtube.com/vi/SZSQ70sytlU/maxresdefault.jpg",
+  "publishDate": "2026-01-29T03:00:49-08:00",
+  "keywords": [
+    "Microsoft Fabric",
+    "data agents",
+    "Microsoft Fabric data agents",
+    "data agent tutorial",
+    "Fabric data agent Q&amp;A",
+    "Fabric F2 capacity",
+    "Power BI semantic model",
+    "prep data for AI",
+    "AI in Fabric",
+    "Copilot in Power BI",
+    "M365 Copilot",
+    "Azure AI Foundry",
+    "Copilot Studio agent",
+    "Pragmatic Works training",
+    "Pragmatic Works consulting",
+    "Power BI AI",
+    "Q&amp;A over your data"
+  ],
+  "genre": "Education",
+  "durationMs": 675000,
+  "durationFormatted": "00:11:15",
+  "captionTracks": [
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=SZSQ70sytlU&ei=f3nZatXxBM2CkucPvcjCsA0&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662511&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=C69859B77D39D50D363642A9637D6EF4099DA118.606F8DE6CA1AFA47CFB390F32D0D0A1957906FA8&key=yt8&kind=asr&lang=en",
+      "name": {
+        "simpleText": "English (auto-generated)"
+      },
+      "vssId": "a.en",
+      "languageCode": "en",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    }
+  ],
+  "audioTracks": [
+    {
+      "id": "ar.10",
+      "displayName": "Arabic",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "bn.10",
+      "displayName": "Bangla",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "de-DE.10",
+      "displayName": "German (DE)",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "es-US.10",
+      "displayName": "Spanish (US)",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "fr-FR.10",
+      "displayName": "French (FR)",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "hi.10",
+      "displayName": "Hindi",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "id.10",
+      "displayName": "Indonesian",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "it.10",
+      "displayName": "Italian",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "iw.10",
+      "displayName": "Hebrew",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "ja.10",
+      "displayName": "Japanese",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "ko.10",
+      "displayName": "Korean",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "nl-NL.10",
+      "displayName": "Dutch (NL)",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "pa.10",
+      "displayName": "Punjabi",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "pl.10",
+      "displayName": "Polish",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "pt-BR.10",
+      "displayName": "Portuguese (BR)",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "ru.10",
+      "displayName": "Russian",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "ta.10",
+      "displayName": "Tamil",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "te.10",
+      "displayName": "Telugu",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "uk.10",
+      "displayName": "Ukrainian",
+      "audioIsDefault": false,
+      "isAutoDubbed": true
+    },
+    {
+      "id": "en-US.4",
+      "displayName": "English (US) original",
+      "audioIsDefault": true,
+      "isAutoDubbed": null
+    }
+  ],
+  "downloadOptions": {
+    "expiresInSeconds": "21540",
+    "hlsManifestUrl": null,
+    "dashManifestUrl": null,
+    "formats": [
+      {
+        "itag": 18,
+        "url": "https://rr2---sn-ajab55-cx.googlevideo.com/videoplayback?expire=1792658911&ei=f3nZatXxBM2CkucPvcjCsA0&ip=192.230.146.102&id=o-AJwWSgn0fTVEeWuUkokbJE_BMAReQGD1Q8Qbge2cxfD-&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1792637311%2C&mh=V3&mm=31%2C29&mn=sn-ajab55-cx%2Csn-ab5l6nrk&ms=au%2Crdu&mv=m&mvi=2&pl=21&rms=au%2Cau&initcwndbps=4167375&bui=AWzQHwrcWzatF66f44mf9_2EEuC7i7NqKvcs6h3ps28yfrzNWBGye2bXww5o79nYoxbVDRJHPnam-6mR&spc=mpRQ_3Vx-FRtRMof5tkoR5oNZNnIeCswG7oiD_Ymh2yquyWcI3TavrNTZlIssN-Z_cB60iUF90kPjw&vprv=1&svpuc=1&mime=video%2Fmp4&ns=cB-q3tch8ut_JTZ5QTEXxaoZ&rqh=1&gir=yes&clen=18804684&ratebypass=yes&dur=674.400&lmt=1769614232803389&mt=1792636643&fvip=1&fexp=51565116&c=WEB&sefc=1&txp=6309224&n=VzQ8tmD3Ji4ruoyD&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AE0s2JYwRQIgZZ61wD50-Wd3O47pc7-0OE4qFpkrEVta_ykg-V4sk0MCIQD9moawKqpjU2C6q3uKlOULB3Z2_343yaTEYt2p-m9G-A%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIhAMhGJrEhKuzLo44ZSgCKGUWKLB-FAMvIk_Z5oDpaEOeiAiAgCq-taktpfoZwMYJRtjEZ1EnXuelB11RdxOQpQScmUA%3D%3D",
+        "cdnUrl": "https://rr2---sn-ajab55-cx.googlevideo.com/videoplayback?expire=1792658911&ei=f3nZatXxBM2CkucPvcjCsA0&ip=192.230.146.102&id=o-AJwWSgn0fTVEeWuUkokbJE_BMAReQGD1Q8Qbge2cxfD-&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1792637311%2C&mh=V3&mm=31%2C29&mn=sn-ajab55-cx%2Csn-ab5l6nrk&ms=au%2Crdu&mv=m&mvi=2&pl=21&rms=au%2Cau&initcwndbps=4167375&bui=AWzQHwrcWzatF66f44mf9_2EEuC7i7NqKvcs6h3ps28yfrzNWBGye2bXww5o79nYoxbVDRJHPnam-6mR&spc=mpRQ_3Vx-FRtRMof5tkoR5oNZNnIeCswG7oiD_Ymh2yquyWcI3TavrNTZlIssN-Z_cB60iUF90kPjw&vprv=1&svpuc=1&mime=video%2Fmp4&ns=cB-q3tch8ut_JTZ5QTEXxaoZ&rqh=1&gir=yes&clen=18804684&ratebypass=yes&dur=674.400&lmt=1769614232803389&mt=1792636643&fvip=1&fexp=51565116&c=WEB&sefc=1&txp=6309224&n=VzQ8tmD3Ji4ruoyD&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AE0s2JYwRQIgZZ61wD50-Wd3O47pc7-0OE4qFpkrEVta_ykg-V4sk0MCIQD9moawKqpjU2C6q3uKlOULB3Z2_343yaTEYt2p-m9G-A%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIhAMhGJrEhKuzLo44ZSgCKGUWKLB-FAMvIk_Z5oDpaEOeiAiAgCq-taktpfoZwMYJRtjEZ1EnXuelB11RdxOQpQScmUA%3D%3D",
+        "expiresAt": "2026-10-22T08:48:31.000Z",
+        "mimeType": "video/mp4; codecs=\"avc1.42001E, mp4a.40.2\"",
+        "codecs": "avc1.42001E, mp4a.40.2",
+        "bitrate": 223112,
+        "averageBitrate": 223068,
+        "width": 640,
+        "height": 360,
+        "contentLength": "18804684",
+        "quality": "medium",
+        "qualityLabel": "360p",
+        "fps": 30,
+        "audioQuality": "AUDIO_QUALITY_LOW",
+        "audioSampleRate": "22050",
+        "audioChannels": 2,
+        "approxDurationMs": "674400",
+        "projectionType": "RECTANGULAR",
+        "hasVideo": true,
+        "hasAudio": true,
+        "requiresSignatureDecipher": false,
+        "signatureCipher": null
+      }
+    ],
+    "note": "These are YouTube's muxed audio+video formats when exposed. Links can expire, and some videos may only expose signature-ciphered URLs."
+  },
+  "most_replayed": null,
+  "isPaidPromotion": false
+}

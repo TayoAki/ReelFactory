@@ -1,0 +1,96 @@
+{
+  "method": "Multi-scale grayscale template match on the highlighted Modeled Ontology heading; estimates only, not original keyframes",
+  "samples": [
+    {
+      "time": 233.8,
+      "match_confidence": 1.0,
+      "scale": 0.995,
+      "label_left": 347,
+      "label_top": 164
+    },
+    {
+      "time": 234.045,
+      "match_confidence": 1.0,
+      "scale": 0.995,
+      "label_left": 347,
+      "label_top": 164
+    },
+    {
+      "time": 234.291,
+      "match_confidence": 0.923,
+      "scale": 1.024,
+      "label_left": 346,
+      "label_top": 164
+    },
+    {
+      "time": 234.536,
+      "match_confidence": 0.95,
+      "scale": 1.054,
+      "label_left": 337,
+      "label_top": 163
+    },
+    {
+      "time": 234.782,
+      "match_confidence": 0.933,
+      "scale": 1.127,
+      "label_left": 315,
+      "label_top": 161
+    },
+    {
+      "time": 235.027,
+      "match_confidence": 0.938,
+      "scale": 1.245,
+      "label_left": 268,
+      "label_top": 158
+    },
+    {
+      "time": 235.273,
+      "match_confidence": 0.93,
+      "scale": 1.511,
+      "label_left": 184,
+      "label_top": 151
+    },
+    {
+      "time": 235.518,
+      "match_confidence": 0.911,
+      "scale": 1.658,
+      "label_left": 137,
+      "label_top": 147
+    },
+    {
+      "time": 235.764,
+      "match_confidence": 0.912,
+      "scale": 1.747,
+      "label_left": 115,
+      "label_top": 145
+    },
+    {
+      "time": 236.009,
+      "match_confidence": 0.905,
+      "scale": 1.776,
+      "label_left": 106,
+      "label_top": 145
+    },
+    {
+      "time": 236.255,
+      "match_confidence": 0.921,
+      "scale": 1.762,
+      "label_left": 106,
+      "label_top": 145
+    },
+    {
+      "time": 236.5,
+      "match_confidence": 0.921,
+      "scale": 1.762,
+      "label_left": 106,
+      "label_top": 145
+    }
+  ],
+  "approximate_symmetric_ease_fit": {
+    "start": 234.0,
+    "duration": 2.3,
+    "power": 3.6,
+    "normalized_RMSE": 0.0051,
+    "status": "approximate fit to a tracked raster heading, not recovered source easing"
+  }
+}

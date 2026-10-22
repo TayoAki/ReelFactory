@@ -1,0 +1,41 @@
+{
+  "checks": [
+    "44 intervals cover the complete source without gaps or overlaps",
+    "44 rendered sections and 44 motion comparison excerpts exist",
+    "132 matched comparison frames exist",
+    "Storyboard contract validation passed; this does not certify fidelity",
+    "Full reconstruction decoded during comparison render; comparison independently decoded without errors",
+    "206 matched visual-anchor images and portable atlas exported",
+    "Browser check: 44 section panels, embedded video playback, no page errors"
+  ],
+  "media": [
+    {
+      "file": "full-reconstruction.mp4",
+      "duration": 2068.48,
+      "width": 1920,
+      "height": 1080,
+      "fps": "30/1",
+      "nominal_fps": "30/1",
+      "video_frames": "62054",
+      "audio_codec": "aac",
+      "chapters": 44,
+      "full_decode": "Complete native video decoded successfully while rendering the full comparison",
+      "bytes": 82911620
+    },
+    {
+      "file": "full-comparison.mp4",
+      "duration": 2068.48,
+      "width": 1280,
+      "height": 392,
+      "fps": "1861500/62053",
+      "nominal_fps": "30/1",
+      "video_frames": "62050",
+      "audio_codec": "aac",
+      "chapters": 44,
+      "full_decode": "Complete comparison decoded independently without errors",
+      "bytes": 75449617
+    }
+  ],
+  "fidelity": "Human source-relative fidelity review remains pending; no numerical similarity score asserted.",
+  "comparison_cadence": "Nominal 30fps; average 29.99855fps due to inherited source-part timestamp gaps. Reconstruction is constant 30fps."
+}

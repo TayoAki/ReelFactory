@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/ReelFactory/full-video/verify.py", line 10, in <module>
+    path=R/name;probe=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-show_format','-show_chapters','-of','json',str(path)]));v=next(s for s in probe['streams'] if s['codec_type']=='video');a=next(s for s in probe['streams'] if s['codec_type']=='audio');assert (v['width'],v['height'])==size;assert v['avg_frame_rate']=='30/1';assert abs(float(probe['format']['duration'])-P['source_duration'])<.15
+                                                                                                                                                                                                                                                                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

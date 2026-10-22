@@ -1,0 +1,1231 @@
+{
+  "success": true,
+  "credits_remaining": 16837,
+  "credits_charged": 1,
+  "type": "video",
+  "url": "https://www.youtube.com/watch?v=r18-STutAyE",
+  "transcript": [
+    {
+      "text": "Everybody just do your thing.",
+      "startMs": "240",
+      "endMs": "4880",
+      "startTimeText": "0:00"
+    },
+    {
+      "text": ">> Wake [music] up.",
+      "startMs": "1839",
+      "endMs": "7839",
+      "startTimeText": "0:01"
+    },
+    {
+      "text": "Wake up. Today's going to be a good day.",
+      "startMs": "4880",
+      "endMs": "9840",
+      "startTimeText": "0:04"
+    },
+    {
+      "text": "Wake up. [music] Today's going to be a",
+      "startMs": "7839",
+      "endMs": "10960",
+      "startTimeText": "0:07"
+    },
+    {
+      "text": "good day.",
+      "startMs": "9840",
+      "endMs": "12960",
+      "startTimeText": "0:09"
+    },
+    {
+      "text": ">> Welcome, fabricators. Hot off the hills",
+      "startMs": "10960",
+      "endMs": "15360",
+      "startTimeText": "0:10"
+    },
+    {
+      "text": "of Ignite, Live 360, and the Past",
+      "startMs": "12960",
+      "endMs": "16640",
+      "startTimeText": "0:12"
+    },
+    {
+      "text": "Summit. We got a lot of big",
+      "startMs": "15360",
+      "endMs": "18640",
+      "startTimeText": "0:15"
+    },
+    {
+      "text": "announcements for Microsoft Fabric,",
+      "startMs": "16640",
+      "endMs": "20000",
+      "startTimeText": "0:16"
+    },
+    {
+      "text": "especially having to do with data",
+      "startMs": "18640",
+      "endMs": "21600",
+      "startTimeText": "0:18"
+    },
+    {
+      "text": "agents. I was going to tackle a couple",
+      "startMs": "20000",
+      "endMs": "23359",
+      "startTimeText": "0:20"
+    },
+    {
+      "text": "of those, but I realized that some of",
+      "startMs": "21600",
+      "endMs": "25279",
+      "startTimeText": "0:21"
+    },
+    {
+      "text": "the graphical user interface changes are",
+      "startMs": "23359",
+      "endMs": "28160",
+      "startTimeText": "0:23"
+    },
+    {
+      "text": "so big that if you're watching videos",
+      "startMs": "25279",
+      "endMs": "29359",
+      "startTimeText": "0:25"
+    },
+    {
+      "text": "that I've done on the channel before,",
+      "startMs": "28160",
+      "endMs": "30960",
+      "startTimeText": "0:28"
+    },
+    {
+      "text": "you may go, \"Hey, your data agents don't",
+      "startMs": "29359",
+      "endMs": "32640",
+      "startTimeText": "0:29"
+    },
+    {
+      "text": "look like my data agents.\" Well, if",
+      "startMs": "30960",
+      "endMs": "34000",
+      "startTimeText": "0:30"
+    },
+    {
+      "text": "you're saying that, this is the video",
+      "startMs": "32640",
+      "endMs": "35520",
+      "startTimeText": "0:32"
+    },
+    {
+      "text": "for you. We're going to walk through the",
+      "startMs": "34000",
+      "endMs": "37840",
+      "startTimeText": "0:34"
+    },
+    {
+      "text": "what those changes are, why you want to",
+      "startMs": "35520",
+      "endMs": "40000",
+      "startTimeText": "0:35"
+    },
+    {
+      "text": "use them, and how you can use them more",
+      "startMs": "37840",
+      "endMs": "42320",
+      "startTimeText": "0:37"
+    },
+    {
+      "text": "effectively. Okay, I don't just want to",
+      "startMs": "40000",
+      "endMs": "43760",
+      "startTimeText": "0:40"
+    },
+    {
+      "text": "talk about what we're going to do. I",
+      "startMs": "42320",
+      "endMs": "45200",
+      "startTimeText": "0:42"
+    },
+    {
+      "text": "want to show you. Let's go look at this",
+      "startMs": "43760",
+      "endMs": "47520",
+      "startTimeText": "0:43"
+    },
+    {
+      "text": "great content together. All right. And",
+      "startMs": "45200",
+      "endMs": "49360",
+      "startTimeText": "0:45"
+    },
+    {
+      "text": "we're in my Microsoft Fabric tenant. I'm",
+      "startMs": "47520",
+      "endMs": "50800",
+      "startTimeText": "0:47"
+    },
+    {
+      "text": "going to go to my data agent test",
+      "startMs": "49360",
+      "endMs": "52160",
+      "startTimeText": "0:49"
+    },
+    {
+      "text": "workspace and I'm going to go ahead and",
+      "startMs": "50800",
+      "endMs": "53680",
+      "startTimeText": "0:50"
+    },
+    {
+      "text": "select my data agent test. We're not",
+      "startMs": "52160",
+      "endMs": "55120",
+      "startTimeText": "0:52"
+    },
+    {
+      "text": "creating a data agent from scratch.",
+      "startMs": "53680",
+      "endMs": "56399",
+      "startTimeText": "0:53"
+    },
+    {
+      "text": "We're just going to use one we've",
+      "startMs": "55120",
+      "endMs": "58559",
+      "startTimeText": "0:55"
+    },
+    {
+      "text": "already got. So I've already built this",
+      "startMs": "56399",
+      "endMs": "60079",
+      "startTimeText": "0:56"
+    },
+    {
+      "text": "out. We're connected to our box office",
+      "startMs": "58559",
+      "endMs": "61280",
+      "startTimeText": "0:58"
+    },
+    {
+      "text": "data warehouse and I'm going to start",
+      "startMs": "60079",
+      "endMs": "62719",
+      "startTimeText": "1:00"
+    },
+    {
+      "text": "with agent instructions because this is",
+      "startMs": "61280",
+      "endMs": "64720",
+      "startTimeText": "1:01"
+    },
+    {
+      "text": "our first graphical user change. You can",
+      "startMs": "62719",
+      "endMs": "66240",
+      "startTimeText": "1:02"
+    },
+    {
+      "text": "see here are my agent instructions. It",
+      "startMs": "64720",
+      "endMs": "68240",
+      "startTimeText": "1:04"
+    },
+    {
+      "text": "now takes up the entire breadth of the",
+      "startMs": "66240",
+      "endMs": "70799",
+      "startTimeText": "1:06"
+    },
+    {
+      "text": "screen and it's now in markdown. We're",
+      "startMs": "68240",
+      "endMs": "72080",
+      "startTimeText": "1:08"
+    },
+    {
+      "text": "going to get to that in a little bit.",
+      "startMs": "70799",
+      "endMs": "74080",
+      "startTimeText": "1:10"
+    },
+    {
+      "text": "Uh, but also if I was looking for my",
+      "startMs": "72080",
+      "endMs": "75920",
+      "startTimeText": "1:12"
+    },
+    {
+      "text": "data source instructions, if I'm in",
+      "startMs": "74080",
+      "endMs": "78000",
+      "startTimeText": "1:14"
+    },
+    {
+      "text": "data, I need to rightclick to get that.",
+      "startMs": "75920",
+      "endMs": "79600",
+      "startTimeText": "1:15"
+    },
+    {
+      "text": "And I also need to get that for my",
+      "startMs": "78000",
+      "endMs": "81759",
+      "startTimeText": "1:18"
+    },
+    {
+      "text": "example queries as well. And you may be",
+      "startMs": "79600",
+      "endMs": "83200",
+      "startTimeText": "1:19"
+    },
+    {
+      "text": "going, that's a confusing way to be able",
+      "startMs": "81759",
+      "endMs": "85200",
+      "startTimeText": "1:21"
+    },
+    {
+      "text": "to get stuff. We got you covered. That's",
+      "startMs": "83200",
+      "endMs": "87119",
+      "startTimeText": "1:23"
+    },
+    {
+      "text": "what setup is for. Setup now has your",
+      "startMs": "85200",
+      "endMs": "88720",
+      "startTimeText": "1:25"
+    },
+    {
+      "text": "agent instructions, your data source,",
+      "startMs": "87119",
+      "endMs": "90400",
+      "startTimeText": "1:27"
+    },
+    {
+      "text": "and your example. So, let's look at",
+      "startMs": "88720",
+      "endMs": "92000",
+      "startTimeText": "1:28"
+    },
+    {
+      "text": "these agent instructions a little bit",
+      "startMs": "90400",
+      "endMs": "93920",
+      "startTimeText": "1:30"
+    },
+    {
+      "text": "more carefully. As you can see, this is",
+      "startMs": "92000",
+      "endMs": "95439",
+      "startTimeText": "1:32"
+    },
+    {
+      "text": "Markdown. If you're not familiar with",
+      "startMs": "93920",
+      "endMs": "97920",
+      "startTimeText": "1:33"
+    },
+    {
+      "text": "Markdown, Google or Bing, Bing is fine.",
+      "startMs": "95439",
+      "endMs": "100159",
+      "startTimeText": "1:35"
+    },
+    {
+      "text": "Uh, a tutorial on this. And as you can",
+      "startMs": "97920",
+      "endMs": "101759",
+      "startTimeText": "1:37"
+    },
+    {
+      "text": "see, we've got different headings that",
+      "startMs": "100159",
+      "endMs": "103439",
+      "startTimeText": "1:40"
+    },
+    {
+      "text": "control the different size of our text,",
+      "startMs": "101759",
+      "endMs": "105840",
+      "startTimeText": "1:41"
+    },
+    {
+      "text": "H1 through H4. Then we've also got",
+      "startMs": "103439",
+      "endMs": "108479",
+      "startTimeText": "1:43"
+    },
+    {
+      "text": "regular paragraph text as well. We can",
+      "startMs": "105840",
+      "endMs": "110880",
+      "startTimeText": "1:45"
+    },
+    {
+      "text": "bold text with two asterisks, and we can",
+      "startMs": "108479",
+      "endMs": "112880",
+      "startTimeText": "1:48"
+    },
+    {
+      "text": "make italic with one, even though I",
+      "startMs": "110880",
+      "endMs": "114799",
+      "startTimeText": "1:50"
+    },
+    {
+      "text": "spelled itallic with two L's. My bad",
+      "startMs": "112880",
+      "endMs": "117280",
+      "startTimeText": "1:52"
+    },
+    {
+      "text": "everybody. Sorry. If I want space",
+      "startMs": "114799",
+      "endMs": "118560",
+      "startTimeText": "1:54"
+    },
+    {
+      "text": "though, because you can see those two",
+      "startMs": "117280",
+      "endMs": "120240",
+      "startTimeText": "1:57"
+    },
+    {
+      "text": "sentences were on the same line, I need",
+      "startMs": "118560",
+      "endMs": "122479",
+      "startTimeText": "1:58"
+    },
+    {
+      "text": "to add a paragraph space to that.",
+      "startMs": "120240",
+      "endMs": "124240",
+      "startTimeText": "2:00"
+    },
+    {
+      "text": "Something to keep in mind. I can also",
+      "startMs": "122479",
+      "endMs": "126079",
+      "startTimeText": "2:02"
+    },
+    {
+      "text": "highlight and use the tools I've got up",
+      "startMs": "124240",
+      "endMs": "128640",
+      "startTimeText": "2:04"
+    },
+    {
+      "text": "top for paragraph, heading one, bold,",
+      "startMs": "126079",
+      "endMs": "131840",
+      "startTimeText": "2:06"
+    },
+    {
+      "text": "itallic, also for list items. Little",
+      "startMs": "128640",
+      "endMs": "134160",
+      "startTimeText": "2:08"
+    },
+    {
+      "text": "dash gets you a bolded item. If I want",
+      "startMs": "131840",
+      "endMs": "136080",
+      "startTimeText": "2:11"
+    },
+    {
+      "text": "to use numbers, I just use the number",
+      "startMs": "134160",
+      "endMs": "137760",
+      "startTimeText": "2:14"
+    },
+    {
+      "text": "and then the item. But I love this",
+      "startMs": "136080",
+      "endMs": "140000",
+      "startTimeText": "2:16"
+    },
+    {
+      "text": "feature, the capability to add tables",
+      "startMs": "137760",
+      "endMs": "142239",
+      "startTimeText": "2:17"
+    },
+    {
+      "text": "because I think that's super useful.",
+      "startMs": "140000",
+      "endMs": "143680",
+      "startTimeText": "2:20"
+    },
+    {
+      "text": "Now, what I'm going to do is I'm going",
+      "startMs": "142239",
+      "endMs": "145520",
+      "startTimeText": "2:22"
+    },
+    {
+      "text": "to replace the instructions that I",
+      "startMs": "143680",
+      "endMs": "148400",
+      "startTimeText": "2:23"
+    },
+    {
+      "text": "previously had with some now more",
+      "startMs": "145520",
+      "endMs": "150400",
+      "startTimeText": "2:25"
+    },
+    {
+      "text": "markdown formatted. As you can see, this",
+      "startMs": "148400",
+      "endMs": "152319",
+      "startTimeText": "2:28"
+    },
+    {
+      "text": "the legibility of this is really",
+      "startMs": "150400",
+      "endMs": "154239",
+      "startTimeText": "2:30"
+    },
+    {
+      "text": "important for me, the user, anybody I",
+      "startMs": "152319",
+      "endMs": "155760",
+      "startTimeText": "2:32"
+    },
+    {
+      "text": "may be partnering with, but also the",
+      "startMs": "154239",
+      "endMs": "157680",
+      "startTimeText": "2:34"
+    },
+    {
+      "text": "agent. Also, for my data source",
+      "startMs": "155760",
+      "endMs": "159280",
+      "startTimeText": "2:35"
+    },
+    {
+      "text": "instructions, I can now take my table",
+      "startMs": "157680",
+      "endMs": "161680",
+      "startTimeText": "2:37"
+    },
+    {
+      "text": "instructions, put it there, or I may",
+      "startMs": "159280",
+      "endMs": "163280",
+      "startTimeText": "2:39"
+    },
+    {
+      "text": "have this to be able to let the agent",
+      "startMs": "161680",
+      "endMs": "164720",
+      "startTimeText": "2:41"
+    },
+    {
+      "text": "know when join conditions are going to",
+      "startMs": "163280",
+      "endMs": "166879",
+      "startTimeText": "2:43"
+    },
+    {
+      "text": "occur. And now, here's our example",
+      "startMs": "164720",
+      "endMs": "168319",
+      "startTimeText": "2:44"
+    },
+    {
+      "text": "query. So, I'm going to add a couple",
+      "startMs": "166879",
+      "endMs": "169920",
+      "startTimeText": "2:46"
+    },
+    {
+      "text": "example queries because we haven't done",
+      "startMs": "168319",
+      "endMs": "172319",
+      "startTimeText": "2:48"
+    },
+    {
+      "text": "that previously because these example",
+      "startMs": "169920",
+      "endMs": "174720",
+      "startTimeText": "2:49"
+    },
+    {
+      "text": "queries specifically will allow us to be",
+      "startMs": "172319",
+      "endMs": "176480",
+      "startTimeText": "2:52"
+    },
+    {
+      "text": "able to tell the agent when a user asks",
+      "startMs": "174720",
+      "endMs": "179120",
+      "startTimeText": "2:54"
+    },
+    {
+      "text": "this question, run this distinct query.",
+      "startMs": "176480",
+      "endMs": "181920",
+      "startTimeText": "2:56"
+    },
+    {
+      "text": "Now I can use TSQL for a lakehouse and",
+      "startMs": "179120",
+      "endMs": "184400",
+      "startTimeText": "2:59"
+    },
+    {
+      "text": "also for a data warehouse. I can use KQL",
+      "startMs": "181920",
+      "endMs": "188319",
+      "startTimeText": "3:01"
+    },
+    {
+      "text": "for a KQL database or an event house",
+      "startMs": "184400",
+      "endMs": "191280",
+      "startTimeText": "3:04"
+    },
+    {
+      "text": "semantic uh language for semantic models",
+      "startMs": "188319",
+      "endMs": "194080",
+      "startTimeText": "3:08"
+    },
+    {
+      "text": "is coming but very very important and",
+      "startMs": "191280",
+      "endMs": "195599",
+      "startTimeText": "3:11"
+    },
+    {
+      "text": "we've got new data sources. We'll cover",
+      "startMs": "194080",
+      "endMs": "197920",
+      "startTimeText": "3:14"
+    },
+    {
+      "text": "that in another video but right now I",
+      "startMs": "195599",
+      "endMs": "199680",
+      "startTimeText": "3:15"
+    },
+    {
+      "text": "want you to see that what I'm saying is",
+      "startMs": "197920",
+      "endMs": "201760",
+      "startTimeText": "3:17"
+    },
+    {
+      "text": "I'm giving it specific questions and",
+      "startMs": "199680",
+      "endMs": "203680",
+      "startTimeText": "3:19"
+    },
+    {
+      "text": "then it's going to use this query. Now",
+      "startMs": "201760",
+      "endMs": "205440",
+      "startTimeText": "3:21"
+    },
+    {
+      "text": "the neat thing is is if I change up the",
+      "startMs": "203680",
+      "endMs": "207519",
+      "startTimeText": "3:23"
+    },
+    {
+      "text": "question a little bit, it'll derive",
+      "startMs": "205440",
+      "endMs": "209599",
+      "startTimeText": "3:25"
+    },
+    {
+      "text": "these queries and you can see very",
+      "startMs": "207519",
+      "endMs": "211840",
+      "startTimeText": "3:27"
+    },
+    {
+      "text": "simple. All I have to do is click add. I",
+      "startMs": "209599",
+      "endMs": "213440",
+      "startTimeText": "3:29"
+    },
+    {
+      "text": "need to add the question. It's going to",
+      "startMs": "211840",
+      "endMs": "215440",
+      "startTimeText": "3:31"
+    },
+    {
+      "text": "validate the syntax of the question. But",
+      "startMs": "213440",
+      "endMs": "217760",
+      "startTimeText": "3:33"
+    },
+    {
+      "text": "then I add the query, it validates the",
+      "startMs": "215440",
+      "endMs": "221360",
+      "startTimeText": "3:35"
+    },
+    {
+      "text": "query. Now once that occurs, I can and",
+      "startMs": "217760",
+      "endMs": "223200",
+      "startTimeText": "3:37"
+    },
+    {
+      "text": "everything's validated. I can go ahead",
+      "startMs": "221360",
+      "endMs": "224959",
+      "startTimeText": "3:41"
+    },
+    {
+      "text": "and I can close out of this. But what I",
+      "startMs": "223200",
+      "endMs": "226879",
+      "startTimeText": "3:43"
+    },
+    {
+      "text": "love is I can also expand my query",
+      "startMs": "224959",
+      "endMs": "229200",
+      "startTimeText": "3:44"
+    },
+    {
+      "text": "interface and it's a lot easier for us",
+      "startMs": "226879",
+      "endMs": "230640",
+      "startTimeText": "3:46"
+    },
+    {
+      "text": "to be able to read because this is",
+      "startMs": "229200",
+      "endMs": "232159",
+      "startTimeText": "3:49"
+    },
+    {
+      "text": "taking up the whole screen. As you can",
+      "startMs": "230640",
+      "endMs": "233680",
+      "startTimeText": "3:50"
+    },
+    {
+      "text": "see, I've got some interesting case",
+      "startMs": "232159",
+      "endMs": "235519",
+      "startTimeText": "3:52"
+    },
+    {
+      "text": "statements in here to be able to find",
+      "startMs": "233680",
+      "endMs": "238319",
+      "startTimeText": "3:53"
+    },
+    {
+      "text": "the full theatrical run revenue within",
+      "startMs": "235519",
+      "endMs": "241120",
+      "startTimeText": "3:55"
+    },
+    {
+      "text": "the certain a certain time period. Okay,",
+      "startMs": "238319",
+      "endMs": "242799",
+      "startTimeText": "3:58"
+    },
+    {
+      "text": "so I've got all my instructions entered.",
+      "startMs": "241120",
+      "endMs": "244080",
+      "startTimeText": "4:01"
+    },
+    {
+      "text": "Let's go ahead and test this. And as",
+      "startMs": "242799",
+      "endMs": "245200",
+      "startTimeText": "4:02"
+    },
+    {
+      "text": "you'll notice, when you get rid of your",
+      "startMs": "244080",
+      "endMs": "247120",
+      "startTimeText": "4:04"
+    },
+    {
+      "text": "instructions, your data agent goes from",
+      "startMs": "245200",
+      "endMs": "249840",
+      "startTimeText": "4:05"
+    },
+    {
+      "text": "being a sid snap now to the main",
+      "startMs": "247120",
+      "endMs": "252080",
+      "startTimeText": "4:07"
+    },
+    {
+      "text": "interface window. So the question we're",
+      "startMs": "249840",
+      "endMs": "254239",
+      "startTimeText": "4:09"
+    },
+    {
+      "text": "going to ask, what movies were released,",
+      "startMs": "252080",
+      "endMs": "256160",
+      "startTimeText": "4:12"
+    },
+    {
+      "text": "uh, so one of the first five days was on",
+      "startMs": "254239",
+      "endMs": "258880",
+      "startTimeText": "4:14"
+    },
+    {
+      "text": "a holiday. And I can see here's the",
+      "startMs": "256160",
+      "endMs": "261199",
+      "startTimeText": "4:16"
+    },
+    {
+      "text": "results that we get back. Now, let me go",
+      "startMs": "258880",
+      "endMs": "262560",
+      "startTimeText": "4:18"
+    },
+    {
+      "text": "ahead and throw another question in, and",
+      "startMs": "261199",
+      "endMs": "263759",
+      "startTimeText": "4:21"
+    },
+    {
+      "text": "then we're going to look at the result",
+      "startMs": "262560",
+      "endMs": "266000",
+      "startTimeText": "4:22"
+    },
+    {
+      "text": "sets of this. Uh, give me the movies and",
+      "startMs": "263759",
+      "endMs": "267680",
+      "startTimeText": "4:23"
+    },
+    {
+      "text": "the rating for the release for the first",
+      "startMs": "266000",
+      "endMs": "269280",
+      "startTimeText": "4:26"
+    },
+    {
+      "text": "5 days during a holiday. Now, in this",
+      "startMs": "267680",
+      "endMs": "271440",
+      "startTimeText": "4:27"
+    },
+    {
+      "text": "first one, again, step completed. If I",
+      "startMs": "269280",
+      "endMs": "273440",
+      "startTimeText": "4:29"
+    },
+    {
+      "text": "click on this, we've had this before.",
+      "startMs": "271440",
+      "endMs": "275280",
+      "startTimeText": "4:31"
+    },
+    {
+      "text": "What I can do is I can take a look and",
+      "startMs": "273440",
+      "endMs": "277360",
+      "startTimeText": "4:33"
+    },
+    {
+      "text": "you can see the query that was actually",
+      "startMs": "275280",
+      "endMs": "279759",
+      "startTimeText": "4:35"
+    },
+    {
+      "text": "run against the warehouse. And it'll",
+      "startMs": "277360",
+      "endMs": "281680",
+      "startTimeText": "4:37"
+    },
+    {
+      "text": "tell me information about the source.",
+      "startMs": "279759",
+      "endMs": "283680",
+      "startTimeText": "4:39"
+    },
+    {
+      "text": "It'll tell me the information that I got",
+      "startMs": "281680",
+      "endMs": "285360",
+      "startTimeText": "4:41"
+    },
+    {
+      "text": "back. How did it determine the first",
+      "startMs": "283680",
+      "endMs": "287840",
+      "startTimeText": "4:43"
+    },
+    {
+      "text": "five days? And then it needed to",
+      "startMs": "285360",
+      "endMs": "290320",
+      "startTimeText": "4:45"
+    },
+    {
+      "text": "correlate that against another set of",
+      "startMs": "287840",
+      "endMs": "292479",
+      "startTimeText": "4:47"
+    },
+    {
+      "text": "data uh that we had. If we scroll down,",
+      "startMs": "290320",
+      "endMs": "294880",
+      "startTimeText": "4:50"
+    },
+    {
+      "text": "we can see that where it's using um",
+      "startMs": "292479",
+      "endMs": "296400",
+      "startTimeText": "4:52"
+    },
+    {
+      "text": "interesting case statements to be able",
+      "startMs": "294880",
+      "endMs": "298080",
+      "startTimeText": "4:54"
+    },
+    {
+      "text": "to make sure it's pulling some values",
+      "startMs": "296400",
+      "endMs": "300080",
+      "startTimeText": "4:56"
+    },
+    {
+      "text": "within the first seven days for the full",
+      "startMs": "298080",
+      "endMs": "302000",
+      "startTimeText": "4:58"
+    },
+    {
+      "text": "theatrical run. What percent of total",
+      "startMs": "300080",
+      "endMs": "303759",
+      "startTimeText": "5:00"
+    },
+    {
+      "text": "gross revenue was generated in the first",
+      "startMs": "302000",
+      "endMs": "306000",
+      "startTimeText": "5:02"
+    },
+    {
+      "text": "week? This is nice. Great. The data is",
+      "startMs": "303759",
+      "endMs": "308000",
+      "startTimeText": "5:03"
+    },
+    {
+      "text": "here. But I did see that we've got this",
+      "startMs": "306000",
+      "endMs": "310160",
+      "startTimeText": "5:06"
+    },
+    {
+      "text": "interesting capability. Visualize this",
+      "startMs": "308000",
+      "endMs": "313199",
+      "startTimeText": "5:08"
+    },
+    {
+      "text": "for me. Why not? Right? Let's try and",
+      "startMs": "310160",
+      "endMs": "314800",
+      "startTimeText": "5:10"
+    },
+    {
+      "text": "visualize this a little bit more. We've",
+      "startMs": "313199",
+      "endMs": "317840",
+      "startTimeText": "5:13"
+    },
+    {
+      "text": "got the text and we saw a demo that",
+      "startMs": "314800",
+      "endMs": "320880",
+      "startTimeText": "5:14"
+    },
+    {
+      "text": "Nelly did at Ignite. Now, what I can see",
+      "startMs": "317840",
+      "endMs": "322960",
+      "startTimeText": "5:17"
+    },
+    {
+      "text": "is this is all returned. It's now",
+      "startMs": "320880",
+      "endMs": "325680",
+      "startTimeText": "5:20"
+    },
+    {
+      "text": "visualized and I've got the data coming",
+      "startMs": "322960",
+      "endMs": "328240",
+      "startTimeText": "5:22"
+    },
+    {
+      "text": "back. Very, very cool stuff. But I also",
+      "startMs": "325680",
+      "endMs": "330160",
+      "startTimeText": "5:25"
+    },
+    {
+      "text": "saw it said, \"Hey, can you do this in",
+      "startMs": "328240",
+      "endMs": "331840",
+      "startTimeText": "5:28"
+    },
+    {
+      "text": "Excel?\" Well, of course, I want to do it",
+      "startMs": "330160",
+      "endMs": "334400",
+      "startTimeText": "5:30"
+    },
+    {
+      "text": "in Excel. Why don't you tell me how I",
+      "startMs": "331840",
+      "endMs": "336400",
+      "startTimeText": "5:31"
+    },
+    {
+      "text": "can do this in Excel? Sadly, it can't",
+      "startMs": "334400",
+      "endMs": "338800",
+      "startTimeText": "5:34"
+    },
+    {
+      "text": "export the Excel for us just yet in the",
+      "startMs": "336400",
+      "endMs": "340560",
+      "startTimeText": "5:36"
+    },
+    {
+      "text": "format that we would like. But I did",
+      "startMs": "338800",
+      "endMs": "342000",
+      "startTimeText": "5:38"
+    },
+    {
+      "text": "think this was really cool that it at",
+      "startMs": "340560",
+      "endMs": "344160",
+      "startTimeText": "5:40"
+    },
+    {
+      "text": "least offered it. Shows how the agent is",
+      "startMs": "342000",
+      "endMs": "347199",
+      "startTimeText": "5:42"
+    },
+    {
+      "text": "beginning to grow past what we were",
+      "startMs": "344160",
+      "endMs": "349280",
+      "startTimeText": "5:44"
+    },
+    {
+      "text": "traditionally using this for when we",
+      "startMs": "347199",
+      "endMs": "351280",
+      "startTimeText": "5:47"
+    },
+    {
+      "text": "started out with data agents. And boom,",
+      "startMs": "349280",
+      "endMs": "352560",
+      "startTimeText": "5:49"
+    },
+    {
+      "text": "here's a little bit of fabric magic",
+      "startMs": "351280",
+      "endMs": "354720",
+      "startTimeText": "5:51"
+    },
+    {
+      "text": "right here. We have our instructions.",
+      "startMs": "352560",
+      "endMs": "356800",
+      "startTimeText": "5:52"
+    },
+    {
+      "text": "Enter the data. Create a bar chart.",
+      "startMs": "354720",
+      "endMs": "358880",
+      "startTimeText": "5:54"
+    },
+    {
+      "text": "Customize your chart. Finishing touches.",
+      "startMs": "356800",
+      "endMs": "360400",
+      "startTimeText": "5:56"
+    },
+    {
+      "text": "Interesting. What you would expect from",
+      "startMs": "358880",
+      "endMs": "363919",
+      "startTimeText": "5:58"
+    },
+    {
+      "text": "a GPT type of chat experience. Now, the",
+      "startMs": "360400",
+      "endMs": "365520",
+      "startTimeText": "6:00"
+    },
+    {
+      "text": "publishing is still the same, but there",
+      "startMs": "363919",
+      "endMs": "367680",
+      "startTimeText": "6:03"
+    },
+    {
+      "text": "are some nuances of what we can actually",
+      "startMs": "365520",
+      "endMs": "369360",
+      "startTimeText": "6:05"
+    },
+    {
+      "text": "enable and what we can do with the",
+      "startMs": "367680",
+      "endMs": "371360",
+      "startTimeText": "6:07"
+    },
+    {
+      "text": "enable functionality. We will get into",
+      "startMs": "369360",
+      "endMs": "373360",
+      "startTimeText": "6:09"
+    },
+    {
+      "text": "that in another video, but I wanted to",
+      "startMs": "371360",
+      "endMs": "376000",
+      "startTimeText": "6:11"
+    },
+    {
+      "text": "tackle this first sound off. We want to",
+      "startMs": "373360",
+      "endMs": "378080",
+      "startTimeText": "6:13"
+    },
+    {
+      "text": "hear from you. Are you excited about the",
+      "startMs": "376000",
+      "endMs": "379680",
+      "startTimeText": "6:16"
+    },
+    {
+      "text": "new changes? Do you like the changes to",
+      "startMs": "378080",
+      "endMs": "381199",
+      "startTimeText": "6:18"
+    },
+    {
+      "text": "the new guey interface? I love the",
+      "startMs": "379680",
+      "endMs": "382960",
+      "startTimeText": "6:19"
+    },
+    {
+      "text": "markdown. I love how this makes it a lot",
+      "startMs": "381199",
+      "endMs": "384720",
+      "startTimeText": "6:21"
+    },
+    {
+      "text": "easier for me to be able to read or my",
+      "startMs": "382960",
+      "endMs": "386000",
+      "startTimeText": "6:22"
+    },
+    {
+      "text": "colleagues to be able to read if we're",
+      "startMs": "384720",
+      "endMs": "387600",
+      "startTimeText": "6:24"
+    },
+    {
+      "text": "working on a data agent together. What",
+      "startMs": "386000",
+      "endMs": "390000",
+      "startTimeText": "6:26"
+    },
+    {
+      "text": "about you? All right. Thank you so much",
+      "startMs": "387600",
+      "endMs": "391919",
+      "startTimeText": "6:27"
+    },
+    {
+      "text": "for joining us on Tales from the Field.",
+      "startMs": "390000",
+      "endMs": "393520",
+      "startTimeText": "6:30"
+    },
+    {
+      "text": "As always, be good to one another out",
+      "startMs": "391919",
+      "endMs": "394319",
+      "startTimeText": "6:31"
+    },
+    {
+      "text": "there.",
+      "startMs": "393520",
+      "endMs": "397120",
+      "startTimeText": "6:33"
+    },
+    {
+      "text": ">> Today's going to be a good day. Wake up.",
+      "startMs": "394319",
+      "endMs": "397759",
+      "startTimeText": "6:34"
+    },
+    {
+      "text": "Today's going to [music and singing] be",
+      "startMs": "397120",
+      "endMs": "401840",
+      "startTimeText": "6:37"
+    },
+    {
+      "text": "a good day. Wake up.",
+      "startMs": "397759",
+      "endMs": "401840",
+      "startTimeText": "6:37"
+    }
+  ],
+  "transcript_only_text": " Everybody  just  do  your  thing. \n >> Wake  [music]  up. \n Wake  up.  Today's  going  to  be  a  good  day. \n Wake  up.  [music]  Today's  going  to  be  a \n good  day. \n >> Welcome,  fabricators.  Hot  off  the  hills \n of  Ignite,  Live  360,  and  the  Past \n Summit.  We  got  a  lot  of  big \n announcements  for  Microsoft  Fabric, \n especially  having  to  do  with  data \n agents.  I  was  going  to  tackle  a  couple \n of  those,  but  I  realized  that  some  of \n the  graphical  user  interface  changes  are \n so  big  that  if  you're  watching  videos \n that  I've  done  on  the  channel  before, \n you  may  go,  \"Hey,  your  data  agents  don't \n look  like  my  data  agents.\"  Well,  if \n you're  saying  that,  this  is  the  video \n for  you.  We're  going  to  walk  through  the \n what  those  changes  are,  why  you  want  to \n use  them,  and  how  you  can  use  them  more \n effectively.  Okay,  I  don't  just  want  to \n talk  about  what  we're  going  to  do.  I \n want  to  show  you.  Let's  go  look  at  this \n great  content  together.  All right.  And \n we're  in  my  Microsoft  Fabric  tenant.  I'm \n going to  go  to  my  data  agent  test \n workspace  and  I'm  going to  go  ahead  and \n select  my  data  agent  test.  We're  not \n creating  a  data  agent  from  scratch. \n We're  just  going  to  use  one  we've \n already  got.  So  I've  already  built  this \n out.  We're  connected  to  our  box  office \n data  warehouse  and  I'm  going to  start \n with  agent  instructions  because  this  is \n our  first  graphical  user  change.  You  can \n see  here  are  my  agent  instructions.  It \n now  takes  up  the  entire  breadth  of  the \n screen  and  it's  now  in  markdown.  We're \n going  to  get  to  that  in  a  little  bit. \n Uh,  but  also  if  I  was  looking  for  my \n data  source  instructions,  if  I'm  in \n data,  I  need  to  rightclick  to  get  that. \n And  I  also  need  to  get  that  for  my \n example  queries  as  well.  And  you  may  be \n going,  that's  a  confusing  way  to  be  able \n to  get  stuff.  We  got  you  covered.  That's \n what  setup  is  for.  Setup  now  has  your \n agent  instructions,  your  data  source, \n and  your  example.  So,  let's  look  at \n these  agent  instructions  a  little  bit \n more  carefully.  As  you  can  see,  this  is \n Markdown.  If  you're  not  familiar  with \n Markdown,  Google  or  Bing,  Bing  is  fine. \n Uh,  a  tutorial  on  this.  And  as  you  can \n see,  we've  got  different  headings  that \n control  the  different  size  of  our  text, \n H1  through  H4.  Then  we've  also  got \n regular  paragraph  text  as  well.  We  can \n bold  text  with  two  asterisks,  and  we  can \n make  italic  with  one,  even  though  I \n spelled  itallic  with  two  L's.  My  bad \n everybody.  Sorry.  If  I  want  space \n though,  because  you  can  see  those  two \n sentences  were  on  the  same  line,  I  need \n to  add  a  paragraph  space  to  that. \n Something  to  keep  in  mind.  I  can  also \n highlight  and  use  the  tools  I've  got  up \n top  for  paragraph,  heading  one,  bold, \n itallic,  also  for  list  items.  Little \n dash  gets  you  a  bolded  item.  If  I  want \n to  use  numbers,  I  just  use  the  number \n and  then  the  item.  But  I  love  this \n feature,  the  capability  to  add  tables \n because  I  think  that's  super  useful. \n Now,  what  I'm  going  to  do  is  I'm  going \n to  replace  the  instructions  that  I \n previously  had  with  some  now  more \n markdown  formatted.  As  you  can  see,  this \n the  legibility  of  this  is  really \n important  for  me,  the  user,  anybody  I \n may  be  partnering  with,  but  also  the \n agent.  Also,  for  my  data  source \n instructions,  I  can  now  take  my  table \n instructions,  put  it  there,  or  I  may \n have  this  to  be  able  to  let  the  agent \n know  when  join  conditions  are  going  to \n occur.  And  now,  here's  our  example \n query.  So,  I'm  going  to  add  a  couple \n example  queries  because  we  haven't  done \n that  previously  because  these  example \n queries  specifically  will  allow  us  to  be \n able  to  tell  the  agent  when  a  user  asks \n this  question,  run  this  distinct  query. \n Now  I  can  use  TSQL  for  a  lakehouse  and \n also  for  a  data  warehouse.  I  can  use  KQL \n for  a  KQL  database  or  an  event  house \n semantic  uh  language  for  semantic  models \n is  coming  but  very  very  important  and \n we've  got  new  data  sources.  We'll  cover \n that  in  another  video  but  right  now  I \n want  you  to  see  that  what  I'm  saying  is \n I'm  giving  it  specific  questions  and \n then  it's  going  to  use  this  query.  Now \n the  neat  thing  is  is  if  I  change  up  the \n question  a  little  bit,  it'll  derive \n these  queries  and  you  can  see  very \n simple.  All  I  have  to  do  is  click  add.  I \n need  to  add  the  question.  It's  going  to \n validate  the  syntax  of  the  question.  But \n then  I  add  the  query,  it  validates  the \n query.  Now  once  that  occurs,  I  can  and \n everything's  validated.  I  can  go  ahead \n and  I  can  close  out  of  this.  But  what  I \n love  is  I  can  also  expand  my  query \n interface  and  it's  a  lot  easier  for  us \n to  be  able  to  read  because  this  is \n taking  up  the  whole  screen.  As  you  can \n see,  I've  got  some  interesting  case \n statements  in  here  to  be  able  to  find \n the  full  theatrical  run  revenue  within \n the  certain  a  certain  time  period.  Okay, \n so  I've  got  all  my  instructions  entered. \n Let's  go  ahead  and  test  this.  And  as \n you'll  notice,  when  you  get  rid  of  your \n instructions,  your  data  agent  goes  from \n being  a  sid  snap  now  to  the  main \n interface  window.  So  the  question  we're \n going  to  ask,  what  movies  were  released, \n uh,  so  one  of  the  first  five  days  was  on \n a  holiday.  And  I  can  see  here's  the \n results  that  we  get  back.  Now,  let  me  go \n ahead  and  throw  another  question  in,  and \n then  we're  going  to  look  at  the  result \n sets  of  this.  Uh,  give  me  the  movies  and \n the  rating  for  the  release  for  the  first \n 5  days  during  a  holiday.  Now,  in  this \n first  one,  again,  step  completed.  If  I \n click  on  this,  we've  had  this  before. \n What  I  can  do  is  I  can  take  a  look  and \n you  can  see  the  query  that  was  actually \n run  against  the  warehouse.  And  it'll \n tell  me  information  about  the  source. \n It'll  tell  me  the  information  that  I  got \n back.  How  did  it  determine  the  first \n five  days?  And  then  it  needed  to \n correlate  that  against  another  set  of \n data  uh  that  we  had.  If  we  scroll  down, \n we  can  see  that  where  it's  using  um \n interesting  case  statements  to  be  able \n to  make  sure  it's  pulling  some  values \n within  the  first  seven  days  for  the  full \n theatrical  run.  What  percent  of  total \n gross  revenue  was  generated  in  the  first \n week?  This  is  nice.  Great.  The  data  is \n here.  But  I  did  see  that  we've  got  this \n interesting  capability.  Visualize  this \n for  me.  Why  not?  Right?  Let's  try  and \n visualize  this  a  little  bit  more.  We've \n got  the  text  and  we  saw  a  demo  that \n Nelly  did  at  Ignite.  Now,  what  I  can  see \n is  this  is  all  returned.  It's  now \n visualized  and  I've  got  the  data  coming \n back.  Very,  very  cool  stuff.  But  I  also \n saw  it  said,  \"Hey,  can  you  do  this  in \n Excel?\"  Well,  of  course,  I  want  to  do  it \n in  Excel.  Why  don't  you  tell  me  how  I \n can  do  this  in  Excel?  Sadly,  it  can't \n export  the  Excel  for  us  just  yet  in  the \n format  that  we  would  like.  But  I  did \n think  this  was  really  cool  that  it  at \n least  offered  it.  Shows  how  the  agent  is \n beginning  to  grow  past  what  we  were \n traditionally  using  this  for  when  we \n started  out  with  data  agents.  And  boom, \n here's  a  little  bit  of  fabric  magic \n right  here.  We  have  our  instructions. \n Enter  the  data.  Create  a  bar  chart. \n Customize  your  chart.  Finishing  touches. \n Interesting.  What  you  would  expect  from \n a  GPT  type  of  chat  experience.  Now,  the \n publishing  is  still  the  same,  but  there \n are  some  nuances  of  what  we  can  actually \n enable  and  what  we  can  do  with  the \n enable  functionality.  We  will  get  into \n that  in  another  video,  but  I  wanted  to \n tackle  this  first  sound  off.  We  want  to \n hear  from  you.  Are  you  excited  about  the \n new  changes?  Do  you  like  the  changes  to \n the  new  guey  interface?  I  love  the \n markdown.  I  love  how  this  makes  it  a  lot \n easier  for  me  to  be  able  to  read  or  my \n colleagues  to  be  able  to  read  if  we're \n working  on  a  data  agent  together.  What \n about  you?  All  right.  Thank  you  so  much \n for  joining  us  on  Tales  from  the  Field. \n As  always,  be  good  to  one  another  out \n there. \n >> Today's  going  to  be  a  good  day.  Wake  up. \n Today's  going  to  [music and singing]  be \n a  good  day.  Wake  up.",
+  "language": "English",
+  "videoId": "r18-STutAyE",
+  "captionTracks": [
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=r18-STutAyE&ei=g3nZaoy4JpuEut0Ps7rvsQI&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662515&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=306769ED6216AE3AB38684F7645AA9565F9D73B2.276D930E6C2CF97FA5B9A936CBC0E4FA38EA50B7&key=yt8&kind=asr&lang=en",
+      "name": {
+        "simpleText": "English (auto-generated)"
+      },
+      "vssId": "a.en",
+      "languageCode": "en",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    }
+  ]
+}

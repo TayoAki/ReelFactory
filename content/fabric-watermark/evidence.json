@@ -1,0 +1,40 @@
+{
+  "scope": "Local SQLite synthetic snapshot; not a Microsoft Fabric execution",
+  "source": [
+    {
+      "id": 101,
+      "modified": "10:00:00"
+    },
+    {
+      "id": 102,
+      "modified": "10:00:00"
+    },
+    {
+      "id": 103,
+      "modified": "10:01:00"
+    }
+  ],
+  "naive_ids": [
+    101,
+    103
+  ],
+  "missed_ids": [
+    102
+  ],
+  "fixed_ids": [
+    101,
+    102,
+    103
+  ],
+  "target_count_after_two_upserts": 3,
+  "checks": {
+    "counterexample_reproduced": true,
+    "composite_cursor_complete": true,
+    "repeat_upsert_no_duplicates": true
+  },
+  "limitations": [
+    "Composite cursor only demonstrates stable pagination over this fixed snapshot.",
+    "Late arrivals, updates behind the cursor, deletes, null timestamps and concurrent writes need separate source-specific strategies.",
+    "Checkpoint persistence must be coordinated with destination writes."
+  ]
+}

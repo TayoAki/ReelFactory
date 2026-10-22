@@ -1,0 +1,83 @@
+WEBVTT
+
+
+00:00:00.020 --> 00:00:03.460
+Hey guys welcome back to back to basics for Episode 5
+
+00:00:03.461 --> 00:00:06.381
+where we're going to create a Power BI project file
+
+00:00:06.382 --> 00:00:08.101
+aka a PBI P
+
+00:00:08.102 --> 00:00:12.561
+Microsoft's new way of storing Power BI reports and semantic models
+
+00:00:12.562 --> 00:00:14.861
+for my semantic model I'm gonna click on file
+
+00:00:14.862 --> 00:00:18.181
+create new report and that's creating a report in the cloud
+
+00:00:18.182 --> 00:00:22.081
+which we'll need to save and I'm just gonna call it school data report
+
+00:00:22.082 --> 00:00:24.901
+so now that that's saved I'm going to download the file
+
+00:00:24.902 --> 00:00:27.341
+and open up the report in Power BI Desktop
+
+00:00:27.342 --> 00:00:30.341
+which you will need to have installed on your computer
+
+00:00:30.342 --> 00:00:34.221
+you can also just open up a blank report in the desktop click on data
+
+00:00:34.222 --> 00:00:34.901
+Get Data
+
+00:00:34.902 --> 00:00:39.181
+Power BI Semantic Models and select our School Data Semantic Model
+
+00:00:39.182 --> 00:00:42.361
+I prefer the second method but they'll both get you to the same place.
+
+00:00:42.500 --> 00:00:45.620
+Next we wanna make sure we have some preview settings enabled
+
+00:00:45.621 --> 00:00:48.181
+so we're gonna go to File Options and Settings
+
+00:00:48.182 --> 00:00:49.161
+Preview features
+
+00:00:49.240 --> 00:00:52.420
+and make sure you have the Power BI project save option on
+
+00:00:52.421 --> 00:00:54.781
+you'll probably have to restart your Power BI desktop
+
+00:00:54.782 --> 00:00:58.021
+just FYI file save as school data report
+
+00:00:58.022 --> 00:01:02.141
+but we're gonna select the P bip file instead for the file type
+
+00:01:02.142 --> 00:01:06.021
+can even see up here that it's a Power BI project file now
+
+00:01:06.022 --> 00:01:06.941
+so on the back end
+
+00:01:06.942 --> 00:01:10.501
+we've got two files and a folder and the folder has more files in it
+
+00:01:10.502 --> 00:01:14.281
+everything stored in plain text versus one binary file
+
+00:01:14.460 --> 00:01:17.620
+we all Know who loves plain text AI.
+
+00:01:17.621 --> 00:01:19.321
+Stay tuned for next steps.

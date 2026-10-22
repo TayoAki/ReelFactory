@@ -1,0 +1,80 @@
+[
+  {
+    "script_scene": "hook",
+    "output_start": 0.0,
+    "output_end": 8.266666666666667,
+    "reference_device": "hook"
+  },
+  {
+    "script_scene": "meaning",
+    "output_start": 8.266666666666667,
+    "output_end": 17.766666666666666,
+    "reference_device": "meaning"
+  },
+  {
+    "script_scene": "question",
+    "output_start": 17.766666666666666,
+    "output_end": 20.233333333333334,
+    "reference_device": "question"
+  },
+  {
+    "script_scene": "entities",
+    "output_start": 20.233333333333334,
+    "output_end": 31.933333333333334,
+    "reference_device": "entities"
+  },
+  {
+    "script_scene": "relationships",
+    "output_start": 31.933333333333334,
+    "output_end": 42.8,
+    "reference_device": "relationships"
+  },
+  {
+    "script_scene": "binding-question",
+    "output_start": 42.8,
+    "output_end": 45.333333333333336,
+    "reference_device": "binding-question"
+  },
+  {
+    "script_scene": "bindings",
+    "output_start": 45.333333333333336,
+    "output_end": 59.96666666666667,
+    "reference_device": "bindings"
+  },
+  {
+    "script_scene": "demo",
+    "output_start": 59.96666666666667,
+    "output_end": 70.8,
+    "reference_device": "demo"
+  },
+  {
+    "script_scene": "trace-question",
+    "output_start": 70.8,
+    "output_end": 74.1,
+    "reference_device": "trace-question"
+  },
+  {
+    "script_scene": "trace",
+    "output_start": 74.1,
+    "output_end": 89.86666666666666,
+    "reference_device": "trace"
+  },
+  {
+    "script_scene": "verify",
+    "output_start": 89.86666666666666,
+    "output_end": 104.8,
+    "reference_device": "verify"
+  },
+  {
+    "script_scene": "recap",
+    "output_start": 104.8,
+    "output_end": 111.76666666666667,
+    "reference_device": "recap"
+  },
+  {
+    "script_scene": "close",
+    "output_start": 111.76666666666667,
+    "output_end": 121.23333333333333,
+    "reference_device": "close"
+  }
+]

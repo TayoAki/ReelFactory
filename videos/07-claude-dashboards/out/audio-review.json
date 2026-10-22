@@ -1,0 +1,37 @@
+{
+  "method": "Whisper tiny.en re-transcription of final mixed MP4, compared with intended narration. ASR differences need interpretation; this is not proof of word-perfect audio.",
+  "similarity": 0.9417,
+  "transcript": "Claude Dashboards can connect to Databricks and build a dashboard from a question and Thropic announced it on October 8th. The announcement describes a beta on paid plans. Step one, connect to supported data platform such as Databricks, Snowflake or BigQuery. Step two, ask a specific question in plain English, like this week signups compared with last months. Claude retrieves the data and builds the dashboard. This is a source-based walkthrough of the announced feature. Step three, inspect the answer. The announcement says you can click a number to see its query. Each chart also shows when its data was last refreshed. Enterprise admins must enable the feature. Check access and verify the query before sharing the result.",
+  "differences": [
+    {
+      "kind": "replace",
+      "expected": "anthropic",
+      "recognized": "and thropic"
+    },
+    {
+      "kind": "replace",
+      "expected": "eighth",
+      "recognized": "8th"
+    },
+    {
+      "kind": "replace",
+      "expected": "a",
+      "recognized": "to"
+    },
+    {
+      "kind": "replace",
+      "expected": "big query",
+      "recognized": "bigquery"
+    },
+    {
+      "kind": "delete",
+      "expected": "s",
+      "recognized": ""
+    },
+    {
+      "kind": "replace",
+      "expected": "month s",
+      "recognized": "months"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+from playwright.sync_api import sync_playwright
+from pathlib import Path
+import json
+root=Path('/workspace/ReelFactory/videos/14-fabric-ontology-explained')
+with sync_playwright() as p:
+ b=p.chromium.launch(executable_path='/usr/bin/chromium',headless=True,args=['--no-sandbox']);page=b.new_page(viewport={'width':1920,'height':1080});page.goto('http://127.0.0.1:8765/videos/'+root.name+'/index.html');page.evaluate('document.fonts.ready');page.wait_for_function('!!window.__timelines?.main')
+ data=page.evaluate('''()=>{const results=[],tl=window.__timelines.main;for(let f=0;f<=350;f++){const t=20.2347+f/30;tl.seek(t);for(const el of document.querySelectorAll('.clip')){const a=+el.dataset.start,z=a+(+el.dataset.duration);el.style.display=t>=a&&t<z?'':'none'}const target=[...document.querySelectorAll('.m-object')].find(el=>el.querySelector('b')?.textContent==='Shipment'&&el.getClientRects().length);if(target){const r=target.getBoundingClientRect();let opacity=1;for(let e=target;e;e=e.parentElement)opacity*=Number(getComputedStyle(e).opacity);results.push({t,x:r.x,y:r.y,opacity})}}return results}''');b.close()
+steps=[abs(data[i]['x']-data[i-1]['x']) for i in range(1,len(data)) if data[i]['opacity']>.05 and data[i-1]['opacity']>.05];total=max(v['x'] for v in data)-min(v['x'] for v in data);report={'method':'30 fps DOM sampling of the persistent Shipment object; measure visible per-frame displacement during its eased move to property view','frames_sampled':len(data),'total_horizontal_travel_px':round(total,2),'max_visible_horizontal_step_px':round(max(steps),2),'continuous_move':total>400 and max(steps)<50};(root/'out/motion-curve-audit.json').write_text(json.dumps(report,indent=2));print(json.dumps(report));assert report['continuous_move']

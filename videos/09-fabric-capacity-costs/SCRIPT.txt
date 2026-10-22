@@ -1,0 +1,11 @@
+Pausing Fabric capacity does not stop the charge for a reservation you already bought.
+
+A reservation discount applies hour by hour. Unused hours do not carry forward.
+
+So check how your reservation benefit is being used before you pause capacity.
+
+There is a second check. Remaining cumulative overages and smoothed operations are added to your Azure bill when you pause.
+
+Use the Capacity Metrics app to inspect the capacity's usage.
+
+Before pausing, check the reservation and pending usage together. A green pause button does not erase an existing commitment.

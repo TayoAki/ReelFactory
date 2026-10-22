@@ -1,0 +1,695 @@
+{
+  "id": "06-free-fabric-resources",
+  "title": "Three free Fabric learning resources",
+  "duration": 38.9227,
+  "beats": [
+    {
+      "text": "Three free Microsoft resources for learning Fabric. Save these official pages.",
+      "asset": "dp700",
+      "device": "tile",
+      "start": 0.0,
+      "end": 5.0453,
+      "voice_end": 4.8853
+    },
+    {
+      "text": "One. A Fabric trial gives eligible users sixty days to explore the platform.",
+      "asset": "trial",
+      "device": "focus",
+      "key": "60 days",
+      "start": 5.0453,
+      "end": 10.1547,
+      "voice_end": 9.9947
+    },
+    {
+      "text": "Use it to practice lakehouses, ingestion and reporting. Check the current trial limits before you start.",
+      "asset": "trial-home",
+      "device": "sequence",
+      "start": 10.1547,
+      "end": 16.48,
+      "voice_end": 16.32
+    },
+    {
+      "text": "Two. The DP seven hundred practice assessment is available free on Microsoft Learn.",
+      "asset": "assessment",
+      "device": "focus",
+      "key": "Practice assessment",
+      "start": 16.48,
+      "end": 21.952,
+      "voice_end": 21.792
+    },
+    {
+      "text": "Use the feedback to find gaps. It is a study tool, not a guarantee of an exam result.",
+      "asset": "assessment",
+      "device": "sequence",
+      "start": 21.952,
+      "end": 27.2533,
+      "voice_end": 27.0933
+    },
+    {
+      "text": "Three. The exam sandbox lets you explore the exam interface before booking your test.",
+      "asset": "assessment",
+      "device": "focus",
+      "key": "Exam sandbox",
+      "start": 27.2533,
+      "end": 32.2987,
+      "voice_end": 32.1387
+    },
+    {
+      "text": "Start with the certification page and follow its official links. Keep the resources together for your next study session.",
+      "asset": "dp700",
+      "device": "focus",
+      "start": 32.2987,
+      "end": 38.9227,
+      "voice_end": 38.7627
+    }
+  ],
+  "words": [
+    {
+      "w": "Three",
+      "s": 0.0,
+      "e": 0.46,
+      "alignment": "asr"
+    },
+    {
+      "w": "free",
+      "s": 0.46,
+      "e": 0.72,
+      "alignment": "asr"
+    },
+    {
+      "w": "Microsoft",
+      "s": 0.72,
+      "e": 1.22,
+      "alignment": "asr"
+    },
+    {
+      "w": "resources",
+      "s": 1.22,
+      "e": 1.8,
+      "alignment": "asr"
+    },
+    {
+      "w": "for",
+      "s": 1.8,
+      "e": 2.18,
+      "alignment": "asr"
+    },
+    {
+      "w": "learning",
+      "s": 2.18,
+      "e": 2.48,
+      "alignment": "asr"
+    },
+    {
+      "w": "Fabric.",
+      "s": 2.48,
+      "e": 3.42,
+      "alignment": "asr"
+    },
+    {
+      "w": "Save",
+      "s": 3.42,
+      "e": 3.7,
+      "alignment": "asr"
+    },
+    {
+      "w": "these",
+      "s": 3.7,
+      "e": 4.02,
+      "alignment": "asr"
+    },
+    {
+      "w": "official",
+      "s": 4.02,
+      "e": 4.3,
+      "alignment": "asr"
+    },
+    {
+      "w": "pages.",
+      "s": 4.3,
+      "e": 4.8853,
+      "alignment": "asr"
+    },
+    {
+      "w": "One.",
+      "s": 5.045333333333334,
+      "e": 5.685333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "A",
+      "s": 5.685333333333333,
+      "e": 5.8053333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "Fabric",
+      "s": 5.8053333333333335,
+      "e": 6.085333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "trial",
+      "s": 6.085333333333334,
+      "e": 6.405333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "gives",
+      "s": 6.405333333333334,
+      "e": 6.785333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "eligible",
+      "s": 6.785333333333334,
+      "e": 7.185333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "users",
+      "s": 7.185333333333334,
+      "e": 7.725333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "sixty",
+      "s": 7.725333333333333,
+      "e": 8.125333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "days",
+      "s": 8.125333333333334,
+      "e": 8.525333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "to",
+      "s": 8.525333333333334,
+      "e": 9.065333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "explore",
+      "s": 9.065333333333333,
+      "e": 9.265333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 9.265333333333334,
+      "e": 9.505333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "platform.",
+      "s": 9.505333333333333,
+      "e": 9.994633333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "Use",
+      "s": 10.154666666666667,
+      "e": 10.434666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "it",
+      "s": 10.434666666666667,
+      "e": 10.594666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "to",
+      "s": 10.594666666666667,
+      "e": 11.054666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "practice",
+      "s": 11.054666666666668,
+      "e": 11.114666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "lakehouses,",
+      "s": 11.114666666666668,
+      "e": 12.134666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "ingestion",
+      "s": 12.134666666666668,
+      "e": 12.554666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 12.554666666666668,
+      "e": 13.034666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "reporting.",
+      "s": 13.034666666666666,
+      "e": 14.014666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "Check",
+      "s": 14.014666666666667,
+      "e": 14.234666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 14.234666666666667,
+      "e": 14.574666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "current",
+      "s": 14.574666666666667,
+      "e": 14.694666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "trial",
+      "s": 14.694666666666667,
+      "e": 15.034666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "limits",
+      "s": 15.034666666666666,
+      "e": 15.354666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "before",
+      "s": 15.354666666666667,
+      "e": 15.734666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "you",
+      "s": 15.734666666666667,
+      "e": 15.954666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "start.",
+      "s": 15.954666666666668,
+      "e": 16.319966666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "Two.",
+      "s": 16.48,
+      "e": 17.3,
+      "alignment": "asr"
+    },
+    {
+      "w": "The",
+      "s": 17.3,
+      "e": 17.42,
+      "alignment": "asr"
+    },
+    {
+      "w": "DP",
+      "s": 17.42,
+      "e": 17.76,
+      "alignment": "asr"
+    },
+    {
+      "w": "seven",
+      "s": 17.76,
+      "e": 18.14,
+      "alignment": "asr"
+    },
+    {
+      "w": "hundred",
+      "s": 18.14,
+      "e": 18.42,
+      "alignment": "asr"
+    },
+    {
+      "w": "practice",
+      "s": 18.42,
+      "e": 18.78,
+      "alignment": "asr"
+    },
+    {
+      "w": "assessment",
+      "s": 18.78,
+      "e": 19.26,
+      "alignment": "asr"
+    },
+    {
+      "w": "is",
+      "s": 19.26,
+      "e": 19.82,
+      "alignment": "asr"
+    },
+    {
+      "w": "available",
+      "s": 19.82,
+      "e": 20.16,
+      "alignment": "asr"
+    },
+    {
+      "w": "free",
+      "s": 20.16,
+      "e": 20.7,
+      "alignment": "asr"
+    },
+    {
+      "w": "on",
+      "s": 20.7,
+      "e": 20.96,
+      "alignment": "asr"
+    },
+    {
+      "w": "Microsoft",
+      "s": 20.96,
+      "e": 21.26,
+      "alignment": "asr"
+    },
+    {
+      "w": "Learn.",
+      "s": 21.26,
+      "e": 21.792,
+      "alignment": "asr"
+    },
+    {
+      "w": "Use",
+      "s": 21.952,
+      "e": 22.272000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 22.272000000000002,
+      "e": 22.432000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "feedback",
+      "s": 22.432000000000002,
+      "e": 22.692,
+      "alignment": "asr"
+    },
+    {
+      "w": "to",
+      "s": 22.692,
+      "e": 23.012,
+      "alignment": "asr"
+    },
+    {
+      "w": "find",
+      "s": 23.012,
+      "e": 23.252000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "gaps.",
+      "s": 23.252000000000002,
+      "e": 24.132,
+      "alignment": "asr"
+    },
+    {
+      "w": "It",
+      "s": 24.132,
+      "e": 24.192,
+      "alignment": "asr"
+    },
+    {
+      "w": "is",
+      "s": 24.192,
+      "e": 24.352,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 24.352,
+      "e": 24.532000000000004,
+      "alignment": "asr"
+    },
+    {
+      "w": "study",
+      "s": 24.532000000000004,
+      "e": 24.652,
+      "alignment": "asr"
+    },
+    {
+      "w": "tool,",
+      "s": 24.652,
+      "e": 25.392000000000003,
+      "alignment": "asr"
+    },
+    {
+      "w": "not",
+      "s": 25.392000000000003,
+      "e": 25.432000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 25.432000000000002,
+      "e": 25.732000000000003,
+      "alignment": "asr"
+    },
+    {
+      "w": "guarantee",
+      "s": 25.732000000000003,
+      "e": 25.912000000000003,
+      "alignment": "asr"
+    },
+    {
+      "w": "of",
+      "s": 25.912000000000003,
+      "e": 26.192,
+      "alignment": "asr"
+    },
+    {
+      "w": "an",
+      "s": 26.192,
+      "e": 26.372,
+      "alignment": "asr"
+    },
+    {
+      "w": "exam",
+      "s": 26.372,
+      "e": 26.612000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "result.",
+      "s": 26.612000000000002,
+      "e": 27.093300000000003,
+      "alignment": "asr"
+    },
+    {
+      "w": "Three.",
+      "s": 27.253333333333337,
+      "e": 28.01333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "The",
+      "s": 28.01333333333334,
+      "e": 28.19333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "exam",
+      "s": 28.19333333333334,
+      "e": 28.473333333333336,
+      "alignment": "asr"
+    },
+    {
+      "w": "sandbox",
+      "s": 28.473333333333336,
+      "e": 28.893333333333338,
+      "alignment": "asr"
+    },
+    {
+      "w": "lets",
+      "s": 28.893333333333338,
+      "e": 29.35333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "you",
+      "s": 29.35333333333334,
+      "e": 29.87333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "explore",
+      "s": 29.87333333333334,
+      "e": 29.87333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 29.87333333333334,
+      "e": 30.35333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "exam",
+      "s": 30.35333333333334,
+      "e": 30.35333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "interface",
+      "s": 30.35333333333334,
+      "e": 30.773333333333337,
+      "alignment": "asr"
+    },
+    {
+      "w": "before",
+      "s": 30.773333333333337,
+      "e": 31.273333333333337,
+      "alignment": "asr"
+    },
+    {
+      "w": "booking",
+      "s": 31.273333333333337,
+      "e": 31.513333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "your",
+      "s": 31.513333333333335,
+      "e": 31.753333333333337,
+      "alignment": "asr"
+    },
+    {
+      "w": "test.",
+      "s": 31.753333333333337,
+      "e": 32.13863333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "Start",
+      "s": 32.29866666666667,
+      "e": 32.65866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "with",
+      "s": 32.65866666666667,
+      "e": 32.85866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 32.85866666666667,
+      "e": 33.39866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "certification",
+      "s": 33.39866666666667,
+      "e": 33.43866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "page",
+      "s": 33.43866666666667,
+      "e": 33.958666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 33.958666666666666,
+      "e": 34.41866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "follow",
+      "s": 34.41866666666667,
+      "e": 34.69866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "its",
+      "s": 34.69866666666667,
+      "e": 35.03866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "official",
+      "s": 35.03866666666667,
+      "e": 35.278666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "links.",
+      "s": 35.278666666666666,
+      "e": 36.35866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "Keep",
+      "s": 36.35866666666667,
+      "e": 36.35866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 36.35866666666667,
+      "e": 36.55866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "resources",
+      "s": 36.55866666666667,
+      "e": 36.91866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "together",
+      "s": 36.91866666666667,
+      "e": 37.39866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "for",
+      "s": 37.39866666666667,
+      "e": 37.67866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "your",
+      "s": 37.67866666666667,
+      "e": 37.93866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "next",
+      "s": 37.93866666666667,
+      "e": 38.11866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "study",
+      "s": 38.11866666666667,
+      "e": 38.29866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "session.",
+      "s": 38.29866666666667,
+      "e": 38.76266666666667,
+      "alignment": "asr"
+    }
+  ],
+  "voice": "Local Kokoro af_heart, synthetic review voice",
+  "alignment_note": "Whisper tiny.en word timestamps, with interpolated unmatched words explicitly flagged. Not manually verified to +/- one frame.",
+  "script_sha256": "6557d6ced2c269c230122afd0a5701d93808cc353a3aa00b805c5311e6f46899"
+}

@@ -1,0 +1,257 @@
+{
+  "projects": [
+    {
+      "project": "01-fabric-vs-power-bi",
+      "duration": 38.967,
+      "decode": "passed",
+      "lint_errors": 0,
+      "lint_warnings": 74,
+      "asr_similarity": 0.9697,
+      "asr_differences": [
+        {
+          "kind": "replace",
+          "expected": "onelake",
+          "recognized": "one lake"
+        },
+        {
+          "kind": "replace",
+          "expected": "lakehouse",
+          "recognized": "lake house"
+        }
+      ],
+      "visual_review": "Actual MP4 sampled once per semantic beat; full source-based storyboard reviewed. Not exhaustive."
+    },
+    {
+      "project": "02-free-dp700-path",
+      "duration": 39.3,
+      "decode": "passed",
+      "lint_errors": 0,
+      "lint_warnings": 70,
+      "asr_similarity": 0.9725,
+      "asr_differences": [
+        {
+          "kind": "replace",
+          "expected": "seven hundred",
+          "recognized": "700"
+        },
+        {
+          "kind": "replace",
+          "expected": "voucher s",
+          "recognized": "vouchers"
+        }
+      ],
+      "visual_review": "Actual MP4 sampled once per semantic beat; full source-based storyboard reviewed. Not exhaustive."
+    },
+    {
+      "project": "03-analyst-fabric-workflow",
+      "duration": 40.7,
+      "decode": "passed",
+      "lint_errors": 0,
+      "lint_warnings": 72,
+      "asr_similarity": 0.986,
+      "asr_differences": [
+        {
+          "kind": "replace",
+          "expected": "lakehouse",
+          "recognized": "lake house"
+        }
+      ],
+      "visual_review": "Actual MP4 sampled once per semantic beat; full source-based storyboard reviewed. Not exhaustive."
+    },
+    {
+      "project": "04-direct-lake-question",
+      "duration": 42.567,
+      "decode": "passed",
+      "lint_errors": 0,
+      "lint_warnings": 81,
+      "asr_similarity": 0.9283,
+      "asr_differences": [
+        {
+          "kind": "replace",
+          "expected": "onelake",
+          "recognized": "one lake"
+        },
+        {
+          "kind": "replace",
+          "expected": "dataset",
+          "recognized": "data set"
+        },
+        {
+          "kind": "replace",
+          "expected": "onelake a",
+          "recognized": "one lake or"
+        },
+        {
+          "kind": "replace",
+          "expected": "dataset",
+          "recognized": "data set"
+        },
+        {
+          "kind": "replace",
+          "expected": "onelake",
+          "recognized": "one lake"
+        }
+      ],
+      "visual_review": "Actual MP4 sampled once per semantic beat; full source-based storyboard reviewed. Not exhaustive."
+    },
+    {
+      "project": "05-data-agent-walkthrough",
+      "duration": 42.1,
+      "decode": "passed",
+      "lint_errors": 0,
+      "lint_warnings": 79,
+      "asr_similarity": 0.9826,
+      "asr_differences": [
+        {
+          "kind": "replace",
+          "expected": "twenty twenty three",
+          "recognized": "2023"
+        }
+      ],
+      "visual_review": "Actual MP4 sampled once per semantic beat; full source-based storyboard reviewed. Not exhaustive."
+    },
+    {
+      "project": "06-free-fabric-resources",
+      "duration": 39.533333,
+      "decode": "passed",
+      "lint_errors": 0,
+      "lint_warnings": 72,
+      "asr_similarity": 0.9565,
+      "asr_differences": [
+        {
+          "kind": "replace",
+          "expected": "sixty",
+          "recognized": "60"
+        },
+        {
+          "kind": "replace",
+          "expected": "lakehouses",
+          "recognized": "lake houses"
+        },
+        {
+          "kind": "replace",
+          "expected": "dp seven hundred",
+          "recognized": "dp700"
+        }
+      ],
+      "visual_review": "Actual MP4 sampled once per semantic beat; full source-based storyboard reviewed. Not exhaustive."
+    },
+    {
+      "project": "07-claude-dashboards",
+      "duration": 43.0,
+      "decode": "passed",
+      "lint_errors": 0,
+      "lint_warnings": 79,
+      "asr_similarity": 0.9417,
+      "asr_differences": [
+        {
+          "kind": "replace",
+          "expected": "anthropic",
+          "recognized": "and thropic"
+        },
+        {
+          "kind": "replace",
+          "expected": "eighth",
+          "recognized": "8th"
+        },
+        {
+          "kind": "replace",
+          "expected": "a",
+          "recognized": "to"
+        },
+        {
+          "kind": "replace",
+          "expected": "big query",
+          "recognized": "bigquery"
+        },
+        {
+          "kind": "delete",
+          "expected": "s",
+          "recognized": ""
+        },
+        {
+          "kind": "replace",
+          "expected": "month s",
+          "recognized": "months"
+        }
+      ],
+      "visual_review": "Actual MP4 sampled once per semantic beat; full source-based storyboard reviewed. Not exhaustive."
+    },
+    {
+      "project": "08-nyc-311-analysis",
+      "duration": 43.433333,
+      "decode": "passed",
+      "lint_errors": 0,
+      "lint_warnings": 81,
+      "asr_similarity": 0.8155,
+      "asr_differences": [
+        {
+          "kind": "replace",
+          "expected": "queried",
+          "recognized": "clear it"
+        },
+        {
+          "kind": "replace",
+          "expected": "three one one",
+          "recognized": "3 1 1"
+        },
+        {
+          "kind": "replace",
+          "expected": "four",
+          "recognized": "4"
+        },
+        {
+          "kind": "replace",
+          "expected": "first twenty twenty five",
+          "recognized": "1st 2025"
+        },
+        {
+          "kind": "replace",
+          "expected": "thirtieth twenty twenty six",
+          "recognized": "30th 2026"
+        },
+        {
+          "kind": "replace",
+          "expected": "six hundred eleven thousand two hundred eighty two",
+          "recognized": "611 282"
+        },
+        {
+          "kind": "replace",
+          "expected": "four hundred thirty two thousand",
+          "recognized": "432 000"
+        },
+        {
+          "kind": "replace",
+          "expected": "ten",
+          "recognized": "10"
+        },
+        {
+          "kind": "delete",
+          "expected": "hour",
+          "recognized": ""
+        }
+      ],
+      "visual_review": "Actual MP4 sampled once per semantic beat; full source-based storyboard reviewed. Not exhaustive."
+    },
+    {
+      "project": "09-fabric-capacity-costs",
+      "duration": 34.467,
+      "decode": "passed",
+      "lint_errors": 0,
+      "lint_warnings": 59,
+      "asr_similarity": 0.9889,
+      "asr_differences": [
+        {
+          "kind": "replace",
+          "expected": "smoothed",
+          "recognized": "smooth"
+        }
+      ],
+      "visual_review": "Actual MP4 sampled once per semantic beat; full source-based storyboard reviewed. Not exhaustive."
+    }
+  ],
+  "ui_checks": "All nine selectors, scene tabs, notes, mobile layout, and exported video metadata load succeeded; no JS errors.",
+  "audio_review": "Final mixes re-transcribed. Numeric formatting and product-name spelling account for most differences. Tiny-model ASR also flags some short words and the NYC opening queried; these remain review drafts, not certified word-perfect mixes.",
+  "render_review": "All nine 1080x1920/30fps MP4s with AAC audio decoded completely and matched planned duration. All native projects have zero lint errors. Structural warnings come from the legacy V1 library nested markup/media discovery.",
+  "source_review": "11 TikTok references acquired and visually sampled, 7 subtitle tracks retained, 2 YouTube references metadata only due to footage access failure."
+}

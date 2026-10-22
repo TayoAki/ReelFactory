@@ -1,0 +1,249 @@
+{
+  "scene_count": 12,
+  "matched_keyframe_pairs": 36,
+  "source_sequences_catalogued": 27,
+  "media": [
+    {
+      "file": "generated/graphics.mp4",
+      "duration": 46.367,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "generated/comparison.mp4",
+      "duration": 46.366667,
+      "resolution": [
+        1280,
+        392
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "generated/scene-01/motion.mp4",
+      "duration": 2.5,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "generated/scene-01/comparison.mp4",
+      "duration": 2.5,
+      "resolution": [
+        1280,
+        392
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "generated/scene-02/motion.mp4",
+      "duration": 3.833333,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "generated/scene-02/comparison.mp4",
+      "duration": 3.833333,
+      "resolution": [
+        1280,
+        392
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "generated/scene-03/motion.mp4",
+      "duration": 2.4,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "generated/scene-03/comparison.mp4",
+      "duration": 2.4,
+      "resolution": [
+        1280,
+        392
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "generated/scene-04/motion.mp4",
+      "duration": 2.4,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "generated/scene-04/comparison.mp4",
+      "duration": 2.4,
+      "resolution": [
+        1280,
+        392
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "generated/scene-05/motion.mp4",
+      "duration": 1.867,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "generated/scene-05/comparison.mp4",
+      "duration": 1.867,
+      "resolution": [
+        1280,
+        392
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "generated/scene-06/motion.mp4",
+      "duration": 3.4,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "generated/scene-06/comparison.mp4",
+      "duration": 3.4,
+      "resolution": [
+        1280,
+        392
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "generated/scene-07/motion.mp4",
+      "duration": 7.5,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "generated/scene-07/comparison.mp4",
+      "duration": 7.5,
+      "resolution": [
+        1280,
+        392
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "generated/scene-08/motion.mp4",
+      "duration": 3.7,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "generated/scene-08/comparison.mp4",
+      "duration": 3.7,
+      "resolution": [
+        1280,
+        392
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "generated/scene-09/motion.mp4",
+      "duration": 7.133333,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "generated/scene-09/comparison.mp4",
+      "duration": 7.133333,
+      "resolution": [
+        1280,
+        392
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "generated/scene-10/motion.mp4",
+      "duration": 4.333333,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "generated/scene-10/comparison.mp4",
+      "duration": 4.333333,
+      "resolution": [
+        1280,
+        392
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "generated/scene-11/motion.mp4",
+      "duration": 4.633333,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "generated/scene-11/comparison.mp4",
+      "duration": 4.633333,
+      "resolution": [
+        1280,
+        392
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "generated/scene-12/motion.mp4",
+      "duration": 2.667,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "decode": "passed"
+    },
+    {
+      "file": "generated/scene-12/comparison.mp4",
+      "duration": 2.666667,
+      "resolution": [
+        1280,
+        392
+      ],
+      "decode": "passed"
+    }
+  ],
+  "review_controls": "12 scene buttons, 3 phases each, frame step, speed and source-library disclosure passed",
+  "layout_sample_interval_seconds": 0.25,
+  "layout_violations": [],
+  "page_errors": [],
+  "limits": "Bounds/decode checks do not certify overlap semantics, factual correctness, exact easing or caption alignment.",
+  "source_caption_method": "33 phrase blocks reconstructed from source observations sampled at 6fps; timing and highlights remain approximate",
+  "projected_text_check": "Additional SVG text samples at nine source times saved in readability-study/text-projection-check.json; settled labels have no bounding-box corners underneath the front card",
+  "previous_refined_switch": "Passed; retains source clock"
+}

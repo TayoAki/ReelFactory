@@ -1,0 +1,299 @@
+ Making  motion  graphics  the  normal  way 
+ means  hours  in  After  Effects  setting  up 
+ layers,  key  frames,  and  endless  little 
+ tweaks.  But  with  Claude  Opus  5,  you  can 
+ make  results  like  these  straight  out  of 
+ the  chat.  There's  one  technique  you  need 
+ first  though,  because  every  video  model 
+ out  there  messes  up  text  the  second  it 
+ tries  to  animate  a  word.  So  in  this 
+ video,  I'll  show  you  exactly  how  to  get 
+ around  that.  And  by  the  end,  you'll  see 
+ how  easy  it  is  to  make  one  without 
+ opening  [music]  a  design  tool.  The  first 
+ thing  to  do  is  connect  Higgsfield  to 
+ Claude.  So  go  ahead  and  open  Higgsfield 
+ through  the  link  down  in  the  description 
+ and  head  to  the  MCP  page.  Keep  the 
+ Claude  tab  selected  in  the  MCP  toggle 
+ on.  Then  copy  the  connector  URL  set 
+ under  them.  Head  over  to  Claude,  go  into 
+ customize,  then  connectors.  Add  a  new 
+ one,  name  it  Higgsfield,  paste  the  URL 
+ in,  then  connect  and  sign  in.  Every  chat 
+ after  this  already  has  the  models  ready, 
+ and  it  runs  on  your  own  Higgsfield 
+ credits.  So  just  make  sure  your  plan 
+ covers  what  you're  using.  Make  sure 
+ you're  on  Opus  5  as  well,  because  that's 
+ the  model  doing  all  the  thinking  here. 
+ So,  I'll  start  by  explaining  to  Claude 
+ that  we'll  be  working  on  motion  graphics 
+ across  four  levels  of  complexity, 
+ ranging  from  the  most  basic  to  the  most 
+ advanced.  It  returns  the  complete 
+ workflow  follow  to  handle  text 
+ effectively.  We  start  by  generating 
+ stills  using  an  image  model,  then  feed 
+ those  stills  into  the  video  generation 
+ model  to  lock  in  the  visuals  based  on 
+ the  screens  we've  already  approved. 
+ Then,  I'll  ask  for  some  ideas  to  get 
+ started.  Nothing  fancy,  just  something 
+ simple  to  warm  up  with.  And  it  comes 
+ back  with  the  simplest  yet  functional 
+ motion  graphic  we  can  create.  A  stat 
+ card  with  one  big  number  and  a  line 
+ underneath  it.  And  it  brings  four 
+ directions  we  can  follow,  with  text, 
+ colors,  and  mood  already  sorted  for  each 
+ one.  I'll  take  the  2.4  million  one  and 
+ the  48  times  one.  And  then  it  walks  me 
+ through  the  settings.  And  that  bit's  way 
+ simpler  than  it  looks.  It  starts  with 
+ the  image  model,  and  there's  GPT  [music] 
+ Image  2,  both  Nano  Bananas,  Seedream, 
+ Soul,  and  Cinema  Studio  Image.  I'll  take 
+ GPT  Image  2,  and  it's  got  resolution  at 
+ 1K,  2K,  or  4K,  and  quality  at  low, 
+ medium,  or  high.  Quality  defaults  to 
+ low,  and  this  is  all  text  that  people 
+ are  going  to  be  reading  off  the  screen. 
+ So  I'll  go  4K  and  high  and  get  it 
+ looking  really  clean.  Then  it  moves  on 
+ to  the  video  model,  and  [music]  it's 
+ SeaDance,  Cling,  Vio,  Gemini  Omni  Flash, 
+ or  Cinema  Studio.  They  can  all  do  this, 
+ so  it's  really  just  about  the  kind  of 
+ movement  you  want.  I'll  take  Sea  Dance, 
+ [music]  and  it  comes  in  three  versions. 
+ 2.5  runs  from  4  to  30  seconds  at  up  to 
+ 1080p.  2.0  stops  at  15  seconds,  but 
+ pushes  to  4K.  And  Mini  is  the  cheap  one 
+ that  caps  at  720p.  Nothing  here  needs  30 
+ seconds  or  4K,  so  any  of  the  three  would 
+ do  the  job,  and  I'll  take  2.5  at  1080p 
+ because  it's  the  newest.  Then  it  asks 
+ what  shape  I  want,  and  I'll  go  16  by  9, 
+ though  9  by  16,  square,  [music]  and  4  by 
+ 3  are  all  there,  too.  And  it  has  to 
+ match  on  both,  because  if  you  build  the 
+ picture  one  shape  and  animate  it 
+ another,  it  comes  back  cropped  or  with 
+ black  bars  down  the  side.  [music]  And  it 
+ sets  that  as  its  own  setting,  rather 
+ than  writing  it  into  the  prompt,  because 
+ models  get  confused  when  the  prompt 
+ describes  one  shape  and  the  setting  says 
+ another.  And  that's  everything  locked 
+ now,  apart  from  the  length  and  whether 
+ there's  sound,  and  those  two  change  with 
+ each  one.  Now,  every  prompt  from  here 
+ opens  the  same  way,  and  this  is  the  bit 
+ that  makes  the  whole  thing  hold 
+ together.  It  starts  by  listing 
+ everything  that  has  to  stay  exactly  as 
+ it  is.  So,  the  color,  the  lighting,  the 
+ grain,  and  only  then  does  it  name  the 
+ one  thing  that's  changing.  [music] 
+ That's  what  stops  the  background 
+ shifting  between  two  pictures,  because  a 
+ shift  there  turns  into  a  flicker  the 
+ second  it  moves.  So,  the  first  card 
+ starts  on  an  empty  background,  just  a 
+ flat  warm  paper  color  with  nothing  on  it 
+ at  all.  And  every  prompt  and  template  I 
+ use  today  is  in  one  free  kit  linked 
+ below.  So,  you  can  build  these  along 
+ with  me  instead  of  pausing  to  copy 
+ anything  down.  Everything  after  this 
+ takes  its  color  and  its  lighting  from 
+ that  one.  So,  it's  worth  getting  exact 
+ before  anything  goes  on  top.  Then  that 
+ same  background  goes  back  in  as  a 
+ reference,  and  the  words  get  added  onto 
+ it.  And  this  is  the  finished  card. 
+ Honestly,  it  looks  like  something  a 
+ really  top-tier  designer  made.  The  text 
+ is  unbelievably  sharp,  and  that's  the 
+ point,  because  it  was  made  as  a  picture, 
+ rather  than  by  a  video  model.  So,  now 
+ I'll  animate  between  those  two  pictures, 
+ and  it  runs  5  seconds  with  no  sound. 
+ And  every  bit  [music]  of  it  fades  into 
+ place,  and  then  stays  exactly  where  it 
+ lands.  Then  I'll  do  the  48  times  card, 
+ and  it  runs  exactly  the  [music]  same 
+ way,  just  with  a  slight  twist.  So,  I'll 
+ start  it  on  an  empty  mint  background. 
+ Then  the  words  go  on  top  of  it  off  that 
+ same  background  as  the  reference  with 
+ everything  else  held  the  same.  And  where 
+ the  first  card  faded  in,  this  one 
+ springs  with  a  slight  overshoot  before 
+ it  settles.  It's  5  seconds  again  with  no 
+ sound  on  it,  either. 
+ And  that  feels  completely  different  off 
+ exactly  the  same  process.  So,  [music] 
+ that's  two  finished  motion  graphics  and 
+ neither  of  them  needed  more  than  two 
+ pictures  and  one  sentence.  But  in  both 
+ of  them,  everything  just  appears  where 
+ it's  meant  to  be.  And  that  stops  working 
+ the  moment  something  has  to  move  across 
+ the  screen.  And  the  fix  to  that  is  a 
+ third  picture  in  the  middle.  So,  this 
+ one  is  a  logo  animation  and  I'll  get  it 
+ to  invent  the  brand  as  well.  And  I'll 
+ ask  for  something  editorial  because 
+ those  logos  are  usually  designed  really 
+ well.  It  gives  me  Pharaoh,  a  company 
+ that  makes  fonts  and  there's  a  proper 
+ idea  in  the  logo.  The  bottom  of  the  R  is 
+ cut  off  flat  at  an  angle  and  the  cut  is 
+ filled  in  a  dark  red  like  the  stained 
+ edge  of  a  book.  And  I  like  [music]  that 
+ it  picks  the  look  before  it  generates 
+ anything  because  every  picture  after 
+ this  copies  it.  So,  I'll  need  three 
+ pictures  this  time  starting  with  empty 
+ black  and  that  needs  to  be  completely 
+ flat  because  any  grain  or  shadow  in 
+ there  starts  moving  under  the  letters 
+ the  second  it  animates.  Then  I'll  get 
+ the  R  on  its  own  sitting  dead  center  at 
+ about  half  the  height  of  the  frame.  And 
+ that's  exactly  the  shape  I  wanted.  So, 
+ the  full  word  gets  built  straight  off 
+ that  picture  [music]  and  the  lettering 
+ carries  across  instead  of  me  describing 
+ it  all  again.  The  cut  leg  tucking  under 
+ the  O  is  what  gets  me  and  that's  the 
+ sort  of  detail  you'd  normally  be  paying 
+ someone  for.  So,  now  I'll  set  up  the 
+ animation  and  the  black  goes  in  as  the 
+ start  with  the  full  word  as  the  end.  And 
+ the  R  goes  in  between  them  as  a  rough 
+ target  to  head  towards  on  the  way. 
+ And  honestly,  that  came  out  great.  The  R 
+ fades  in  on  its  own  first,  then  it 
+ shrinks  down  into  place  and  the  rest  of 
+ the  letters  fill  in  around  it  all  in  6 
+ seconds.  But  that's  still  just  one  thing 
+ moving  on  a  black  screen  and  most  of 
+ what  you'd  actually  need  has  way  more 
+ going  on  than  that.  So,  this  time  I'm 
+ chaining  the  pictures  together  instead. 
+ This  one's  a  settings  panel  that  looks 
+ like  something  off  an  iPhone.  You  flip 
+ one  master  toggle,  everything  underneath 
+ turns  on  with  it,  then  you  hit  save  and 
+ it  confirms.  By  the  way,  the  Higgs  field 
+ link  is  down  in  the  description  if  you 
+ want  to  follow  along  and  have  your  own 
+ first  motion  graphic  by  the  end  of  this. 
+ And  I'll  do  these  one  at  a  time  so  I  can 
+ check  each  one  before  it  moves  on.  So 
+ the  first  is  the  panel  just  sitting 
+ there,  everything  switched  off  and  save 
+ grayed  out.  Then  I  turn  the  master 
+ toggle  on  and  save  wakes  up  blue.  Then 
+ the  other  three  rows  follow  it  on  and 
+ the  cursor  starts  moving  down  towards 
+ save.  And  the  last  one  is  straight  after 
+ the  click  where  the  save  button 
+ collapses  into  a  green  tick.  And  this 
+ turned  out  really  impressive  because  you 
+ genuinely  can't  tell  it's  four  different 
+ pictures.  And  there's  one  thing  I  always 
+ add  when  it's  an  interface.  So  the 
+ cursor  has  to  land  on  the  toggle  at  the 
+ right  edge,  not  on  the  text  because 
+ that's  the  bit  that  looks  wrong  if  it's 
+ off.  And  it  throws  in  one  I  wouldn't 
+ have  thought  of.  So  the  toggle  circles 
+ stay  perfectly  round  or  they  stretch  as 
+ they  slide.  Then  all  four  go  in  as  one 
+ eight  second  take  with  the  third  in  the 
+ middle  so  the  cursor  travels  down  to 
+ save.  And  this  is  the  first  one  with 
+ sound  and  it's  interface  noise  only.  So 
+ there's  a  whoosh  on  the  cursor,  a  click 
+ as  the  toggles  flip,  a  deeper  click  on 
+ the  press,  and  a  pop  on  the  check  mark. 
+ And  sound  does  way  more  for  a  motion 
+ graphic  than  people  give  it  credit  for. 
+ A  click  landing  at  the  exact  moment  the 
+ toggle  flips  is  what  sells  it  as  an 
+ actual  interface  instead  of  a  just  a 
+ picture  that  moves. 
+ And  honestly,  that  came  out  really 
+ clean.  It  runs  itself  from  start  to 
+ finish  and  every  click  lands  exactly 
+ where  it  should.  But  every  single  one  of 
+ these  has  the  camera  bolted  to  the  floor 
+ and  that's  not  what  a  proper  ad  looks 
+ like.  So  the  last  one  I'm  going  to  make 
+ is  a  product  ad  and  this  time  the  camera 
+ is  the  thing  doing  the  work.  I'll  ask 
+ for  hyper  motion,  fast  camera,  3D 
+ render,  and  say  it  should  pick  the 
+ product  too,  something  with  materials 
+ worth  shooting.  It  goes  with  a 
+ patisserie  candy  bar  called  Halo.  And  it 
+ picks  that  because  it  gives  four 
+ materials  that  all  behave  differently  on 
+ camera.  You've  got  matte  paper,  foil, 
+ stamped  gold,  glossy  chocolate,  and 
+ molten  caramel.  And  that's  a  better 
+ reason  than  I'd  have  come  up  with 
+ because  when  the  camera's  moving  that 
+ fast,  the  only  thing  you  really  see  is 
+ light  sliding  across  the  surfaces.  And 
+ the  product  sheet  came  out  gorgeous. 
+ That  caramel  pull  between  the  two  halves 
+ is  the  shot,  and  it's  what  decides  how 
+ the  bar  looks  for  everything  after  it. 
+ Then  I'll  have  it  lay  out  the 
+ storyboard,  and  I'll  put  in  one  rule  of 
+ my  own,  to  not  add  numbers  in  the 
+ storyboard,  as  they  usually  end  up  in 
+ the  video  and  mess  everything  up.  And 
+ the  board  came  out  exactly  right,  and 
+ every  panel  looks  like  it  came  off  the 
+ same  shoot.  Then  I'll  have  it  animate 
+ the  whole  thing  into  18  seconds  of 
+ video.  Both  the  sheet  and  the  board  go 
+ in  as  references,  and  neither  one  is  the 
+ start  frame,  because  if  you  hand  it  a 
+ grid  as  the  start  frame,  it  animates  the 
+ grid,  and  you  end  up  with  six  panels 
+ sliding  around  instead  of  one  video.  So, 
+ the  sheet  is  what  tells  it  what  the  bar 
+ looks  like,  and  the  board  sets  the  order 
+ the  shots  come  in.  Everything  else  is 
+ down  to  the  camera,  and  it  only  stops 
+ twice  in  the  whole  thing.  And  that's  on 
+ purpose,  because  those  two  stops  are  the 
+ only  moments  the  word  Halo  can  sit 
+ still,  and  text  falls  apart  the  second  a 
+ fast  camera  drags  it  around. 
+ And  this  last  one  is  genuinely  crazy.  It 
+ runs  the  full  18  seconds  without  a 
+ single  cut  in  it,  and  honestly,  it  looks 
+ really  expensive.  I  love  that  the 
+ caramel  actually  behaves  like  caramel 
+ when  the  camera  spirals  through  it, 
+ because  that's  the  part  I  was  sure  it'd 
+ get  wrong.  And  once  you've  got  this  set 
+ up,  you  can  make  title  cards,  logo 
+ animations,  UI  demos  for  your  own 
+ product,  explainer  graphics,  anything 
+ you'd  normally  be  opening  After  Effects 
+ for.  And  the  whole  thing  comes  down  to 
+ one  idea.  So,  make  the  pictures  first, 
+ and  let  it  animate  between  them.  Go 
+ ahead  and  set  Higgs  Field  up  through  the 
+ link  down  in  the  description,  and  try  it 
+ today.  Thank  you  for  watching,  and  I'll 
+ see  you  in  the  next  one.

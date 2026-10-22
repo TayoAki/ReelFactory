@@ -1,0 +1,1475 @@
+{
+  "id": "12-fabric-motion-refined",
+  "title": "Build a Microsoft Fabric data agent \u2014 the three-step walkthrough",
+  "script_sha256": "88481c00251be68b37dde150400d1ac341f314eb47eaf141c5281267c3af1c41",
+  "duration": 84.0213,
+  "beats": [
+    {
+      "scene": "hook",
+      "text": "Your data is already in Microsoft Fabric. What if you could ask it a question, and inspect the query behind the answer?",
+      "start": 0.0,
+      "end": 6.8373,
+      "voice_end": 6.6773
+    },
+    {
+      "scene": "preview",
+      "text": "This is Microsoft's documented data agent example. A question goes in. An answer comes back, with the steps used to retrieve it.",
+      "start": 6.8373,
+      "end": 15.1253,
+      "voice_end": 14.9653
+    },
+    {
+      "scene": "steps",
+      "text": "Here is the workflow. Create the agent. Choose its data. Then ask, inspect, and test.",
+      "start": 15.1253,
+      "end": 20.6827,
+      "voice_end": 20.5227
+    },
+    {
+      "scene": "create",
+      "text": "In your Fabric workspace, select New Item. Search for Fabric data agent, select it, and give your agent a name.",
+      "start": 20.6827,
+      "end": 27.3707,
+      "voice_end": 27.2107
+    },
+    {
+      "scene": "sources",
+      "text": "Next, add your data source from the OneLake catalog. That could be a lakehouse, a warehouse, or a Power BI semantic model.",
+      "start": 27.3707,
+      "end": 34.8907,
+      "voice_end": 34.7307
+    },
+    {
+      "scene": "tables",
+      "text": "In Explorer, choose the relevant tables. Watch the checkboxes. You control which tables are available to the agent.",
+      "start": 34.8907,
+      "end": 41.8987,
+      "voice_end": 41.7387
+    },
+    {
+      "scene": "instructions",
+      "text": "Add instructions that define your business terms. Tell the agent which source to use for different kinds of questions.",
+      "start": 41.8987,
+      "end": 48.288,
+      "voice_end": 48.128
+    },
+    {
+      "scene": "ask",
+      "text": "Now ask a concrete question. Microsoft's example asks how many users played Contoso games, and how many users purchased items in those games.",
+      "start": 48.288,
+      "end": 57.6213,
+      "voice_end": 57.4613
+    },
+    {
+      "scene": "inspect",
+      "text": "Here is the important part. Expand the steps and inspect the generated query. Check the filters, the tables, and the answer.",
+      "start": 57.6213,
+      "end": 65.312,
+      "voice_end": 65.152
+    },
+    {
+      "scene": "limits",
+      "text": "A data agent can retrieve structured answers. A question about why sales changed needs more evidence. Retrieving a number does not prove its cause.",
+      "start": 65.312,
+      "end": 74.3467,
+      "voice_end": 74.1867
+    },
+    {
+      "scene": "close",
+      "text": "Create. Choose. Verify. Start with one question you can check, then test more questions before you publish. That is a useful first Fabric data agent.",
+      "start": 74.3467,
+      "end": 84.0213,
+      "voice_end": 83.8613
+    }
+  ],
+  "words": [
+    {
+      "w": "Your",
+      "s": 0.0,
+      "e": 0.28,
+      "alignment": "asr"
+    },
+    {
+      "w": "data",
+      "s": 0.28,
+      "e": 0.58,
+      "alignment": "asr"
+    },
+    {
+      "w": "is",
+      "s": 0.58,
+      "e": 0.96,
+      "alignment": "asr"
+    },
+    {
+      "w": "already",
+      "s": 0.96,
+      "e": 1.24,
+      "alignment": "asr"
+    },
+    {
+      "w": "in",
+      "s": 1.24,
+      "e": 1.5,
+      "alignment": "asr"
+    },
+    {
+      "w": "Microsoft",
+      "s": 1.5,
+      "e": 1.98,
+      "alignment": "asr"
+    },
+    {
+      "w": "Fabric.",
+      "s": 1.98,
+      "e": 3.06,
+      "alignment": "asr"
+    },
+    {
+      "w": "What",
+      "s": 3.06,
+      "e": 3.2,
+      "alignment": "asr"
+    },
+    {
+      "w": "if",
+      "s": 3.2,
+      "e": 3.3,
+      "alignment": "asr"
+    },
+    {
+      "w": "you",
+      "s": 3.3,
+      "e": 3.4,
+      "alignment": "asr"
+    },
+    {
+      "w": "could",
+      "s": 3.4,
+      "e": 3.54,
+      "alignment": "asr"
+    },
+    {
+      "w": "ask",
+      "s": 3.54,
+      "e": 3.72,
+      "alignment": "asr"
+    },
+    {
+      "w": "it",
+      "s": 3.72,
+      "e": 3.84,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 3.84,
+      "e": 3.98,
+      "alignment": "asr"
+    },
+    {
+      "w": "question,",
+      "s": 3.98,
+      "e": 4.72,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 4.72,
+      "e": 4.8,
+      "alignment": "asr"
+    },
+    {
+      "w": "inspect",
+      "s": 4.8,
+      "e": 5.12,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 5.12,
+      "e": 5.44,
+      "alignment": "asr"
+    },
+    {
+      "w": "query",
+      "s": 5.44,
+      "e": 5.7,
+      "alignment": "asr"
+    },
+    {
+      "w": "behind",
+      "s": 5.7,
+      "e": 6.08,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 6.08,
+      "e": 6.32,
+      "alignment": "asr"
+    },
+    {
+      "w": "answer?",
+      "s": 6.32,
+      "e": 6.6773,
+      "alignment": "asr"
+    },
+    {
+      "w": "This",
+      "s": 6.8373333333333335,
+      "e": 7.077333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "is",
+      "s": 7.077333333333334,
+      "e": 7.357333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "Microsoft's",
+      "s": 7.357333333333333,
+      "e": 8.537333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "documented",
+      "s": 8.537333333333333,
+      "e": 8.617333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "data",
+      "s": 8.617333333333333,
+      "e": 9.097333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "agent",
+      "s": 9.097333333333333,
+      "e": 9.417333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "example.",
+      "s": 9.417333333333334,
+      "e": 10.517333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "A",
+      "s": 10.517333333333333,
+      "e": 10.617333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "question",
+      "s": 10.617333333333333,
+      "e": 10.897333333333332,
+      "alignment": "asr"
+    },
+    {
+      "w": "goes",
+      "s": 10.897333333333332,
+      "e": 11.297333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "in.",
+      "s": 11.297333333333334,
+      "e": 12.037333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "An",
+      "s": 12.037333333333333,
+      "e": 12.217333333333332,
+      "alignment": "asr"
+    },
+    {
+      "w": "answer",
+      "s": 12.217333333333332,
+      "e": 12.457333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "comes",
+      "s": 12.457333333333334,
+      "e": 12.877333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "back,",
+      "s": 12.877333333333333,
+      "e": 13.497333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "with",
+      "s": 13.497333333333334,
+      "e": 13.637333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 13.637333333333334,
+      "e": 13.757333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "steps",
+      "s": 13.757333333333333,
+      "e": 13.937333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "used",
+      "s": 13.937333333333333,
+      "e": 14.237333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "to",
+      "s": 14.237333333333334,
+      "e": 14.437333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "retrieve",
+      "s": 14.437333333333333,
+      "e": 14.657333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "it.",
+      "s": 14.657333333333334,
+      "e": 14.965333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "Here",
+      "s": 15.125333333333334,
+      "e": 15.405333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "is",
+      "s": 15.405333333333333,
+      "e": 15.585333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 15.585333333333335,
+      "e": 15.845333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "workflow.",
+      "s": 15.845333333333334,
+      "e": 16.485333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "Create",
+      "s": 16.485333333333333,
+      "e": 16.725333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 16.725333333333335,
+      "e": 17.005333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "agent.",
+      "s": 17.005333333333333,
+      "e": 17.845333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "Choose",
+      "s": 17.845333333333333,
+      "e": 17.845333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "its",
+      "s": 17.845333333333333,
+      "e": 18.065333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "data.",
+      "s": 18.065333333333335,
+      "e": 18.845333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "Then",
+      "s": 18.845333333333333,
+      "e": 18.985333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "ask,",
+      "s": 18.985333333333333,
+      "e": 19.405333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "inspect,",
+      "s": 19.405333333333335,
+      "e": 19.925333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 19.925333333333334,
+      "e": 20.125333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "test.",
+      "s": 20.125333333333334,
+      "e": 20.522633333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "In",
+      "s": 20.682666666666666,
+      "e": 20.862666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "your",
+      "s": 20.862666666666666,
+      "e": 21.182666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "Fabric",
+      "s": 21.182666666666666,
+      "e": 21.322666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "workspace,",
+      "s": 21.322666666666667,
+      "e": 22.282666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "select",
+      "s": 22.282666666666668,
+      "e": 22.542666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "New",
+      "s": 22.542666666666666,
+      "e": 22.782666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "Item.",
+      "s": 22.782666666666668,
+      "e": 23.862666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "Search",
+      "s": 23.862666666666666,
+      "e": 23.862666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "for",
+      "s": 23.862666666666666,
+      "e": 24.162666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "Fabric",
+      "s": 24.162666666666667,
+      "e": 24.502666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "data",
+      "s": 24.502666666666666,
+      "e": 24.762666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "agent,",
+      "s": 24.762666666666668,
+      "e": 25.662666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "select",
+      "s": 25.662666666666667,
+      "e": 25.662666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "it,",
+      "s": 25.662666666666667,
+      "e": 26.042666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 26.042666666666666,
+      "e": 26.182666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "give",
+      "s": 26.182666666666666,
+      "e": 26.342666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "your",
+      "s": 26.342666666666666,
+      "e": 26.582666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "agent",
+      "s": 26.582666666666668,
+      "e": 26.762666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 26.762666666666668,
+      "e": 26.942666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "name.",
+      "s": 26.942666666666668,
+      "e": 27.210666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "Next,",
+      "s": 27.370666666666665,
+      "e": 27.890666666666664,
+      "alignment": "asr"
+    },
+    {
+      "w": "add",
+      "s": 27.890666666666664,
+      "e": 28.090666666666664,
+      "alignment": "asr"
+    },
+    {
+      "w": "your",
+      "s": 28.090666666666664,
+      "e": 28.270666666666664,
+      "alignment": "asr"
+    },
+    {
+      "w": "data",
+      "s": 28.270666666666664,
+      "e": 28.510666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "source",
+      "s": 28.510666666666665,
+      "e": 28.750666666666664,
+      "alignment": "asr"
+    },
+    {
+      "w": "from",
+      "s": 28.750666666666664,
+      "e": 29.010666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 29.010666666666665,
+      "e": 29.250666666666664,
+      "alignment": "asr"
+    },
+    {
+      "w": "OneLake",
+      "s": 29.250666666666664,
+      "e": 29.450666666666663,
+      "alignment": "asr"
+    },
+    {
+      "w": "catalog.",
+      "s": 29.450666666666663,
+      "e": 30.590666666666664,
+      "alignment": "asr"
+    },
+    {
+      "w": "That",
+      "s": 30.590666666666664,
+      "e": 30.790666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "could",
+      "s": 30.790666666666667,
+      "e": 30.930666666666664,
+      "alignment": "asr"
+    },
+    {
+      "w": "be",
+      "s": 30.930666666666664,
+      "e": 31.050666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 31.050666666666665,
+      "e": 31.250666666666664,
+      "alignment": "asr"
+    },
+    {
+      "w": "lakehouse,",
+      "s": 31.250666666666664,
+      "e": 31.910666666666664,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 31.910666666666664,
+      "e": 31.990666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "warehouse,",
+      "s": 31.990666666666666,
+      "e": 32.590666666666664,
+      "alignment": "asr"
+    },
+    {
+      "w": "or",
+      "s": 32.590666666666664,
+      "e": 32.970666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 32.970666666666666,
+      "e": 33.29066666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "Power",
+      "s": 33.29066666666667,
+      "e": 33.470666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "BI",
+      "s": 33.470666666666666,
+      "e": 33.89066666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "semantic",
+      "s": 33.89066666666666,
+      "e": 34.31066666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "model.",
+      "s": 34.31066666666666,
+      "e": 34.730666666666664,
+      "alignment": "asr"
+    },
+    {
+      "w": "In",
+      "s": 34.89066666666667,
+      "e": 35.13066666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "Explorer,",
+      "s": 35.13066666666667,
+      "e": 35.73066666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "choose",
+      "s": 35.73066666666667,
+      "e": 36.09066666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 36.09066666666667,
+      "e": 36.39066666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "relevant",
+      "s": 36.39066666666667,
+      "e": 36.59066666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "tables.",
+      "s": 36.59066666666667,
+      "e": 37.53066666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "Watch",
+      "s": 37.53066666666667,
+      "e": 37.81066666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 37.81066666666667,
+      "e": 38.07066666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "checkboxes.",
+      "s": 38.07066666666667,
+      "e": 39.150666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "You",
+      "s": 39.150666666666666,
+      "e": 39.21066666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "control",
+      "s": 39.21066666666667,
+      "e": 39.57066666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "which",
+      "s": 39.57066666666667,
+      "e": 39.93066666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "tables",
+      "s": 39.93066666666667,
+      "e": 40.25066666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "are",
+      "s": 40.25066666666667,
+      "e": 40.53066666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "available",
+      "s": 40.53066666666667,
+      "e": 40.89066666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "to",
+      "s": 40.89066666666667,
+      "e": 41.21066666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 41.21066666666667,
+      "e": 41.370666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "agent.",
+      "s": 41.370666666666665,
+      "e": 41.73866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "Add",
+      "s": 41.89866666666667,
+      "e": 42.19866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "instructions",
+      "s": 42.19866666666667,
+      "e": 42.79866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "that",
+      "s": 42.79866666666667,
+      "e": 43.27866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "define",
+      "s": 43.27866666666667,
+      "e": 43.53866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "your",
+      "s": 43.53866666666667,
+      "e": 44.03866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "business",
+      "s": 44.03866666666667,
+      "e": 44.098666666666674,
+      "alignment": "asr"
+    },
+    {
+      "w": "terms.",
+      "s": 44.098666666666674,
+      "e": 45.01866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "Tell",
+      "s": 45.01866666666667,
+      "e": 45.19866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 45.19866666666667,
+      "e": 45.418666666666674,
+      "alignment": "asr"
+    },
+    {
+      "w": "agent",
+      "s": 45.418666666666674,
+      "e": 45.67866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "which",
+      "s": 45.67866666666667,
+      "e": 45.93866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "source",
+      "s": 45.93866666666667,
+      "e": 46.15866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "to",
+      "s": 46.15866666666667,
+      "e": 46.378666666666675,
+      "alignment": "asr"
+    },
+    {
+      "w": "use",
+      "s": 46.378666666666675,
+      "e": 46.67866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "for",
+      "s": 46.67866666666667,
+      "e": 46.89866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "different",
+      "s": 46.89866666666667,
+      "e": 47.15866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "kinds",
+      "s": 47.15866666666667,
+      "e": 47.41866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "of",
+      "s": 47.41866666666667,
+      "e": 48.03866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "questions.",
+      "s": 48.03866666666667,
+      "e": 48.12796666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "Now",
+      "s": 48.288000000000004,
+      "e": 48.748000000000005,
+      "alignment": "asr"
+    },
+    {
+      "w": "ask",
+      "s": 48.748000000000005,
+      "e": 49.068000000000005,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 49.068000000000005,
+      "e": 49.268,
+      "alignment": "asr"
+    },
+    {
+      "w": "concrete",
+      "s": 49.268,
+      "e": 49.528000000000006,
+      "alignment": "asr"
+    },
+    {
+      "w": "question.",
+      "s": 49.528000000000006,
+      "e": 50.908,
+      "alignment": "asr"
+    },
+    {
+      "w": "Microsoft's",
+      "s": 50.908,
+      "e": 51.508,
+      "alignment": "asr"
+    },
+    {
+      "w": "example",
+      "s": 51.508,
+      "e": 51.80800000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "asks",
+      "s": 51.80800000000001,
+      "e": 52.288000000000004,
+      "alignment": "asr"
+    },
+    {
+      "w": "how",
+      "s": 52.288000000000004,
+      "e": 52.608000000000004,
+      "alignment": "asr"
+    },
+    {
+      "w": "many",
+      "s": 52.608000000000004,
+      "e": 52.80800000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "users",
+      "s": 52.80800000000001,
+      "e": 53.168000000000006,
+      "alignment": "asr"
+    },
+    {
+      "w": "played",
+      "s": 53.168000000000006,
+      "e": 53.548,
+      "alignment": "asr"
+    },
+    {
+      "w": "Contoso",
+      "s": 53.548,
+      "e": 54.028000000000006,
+      "alignment": "asr"
+    },
+    {
+      "w": "games,",
+      "s": 54.028000000000006,
+      "e": 54.688,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 54.688,
+      "e": 54.98800000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "how",
+      "s": 54.98800000000001,
+      "e": 55.148,
+      "alignment": "asr"
+    },
+    {
+      "w": "many",
+      "s": 55.148,
+      "e": 55.368,
+      "alignment": "asr"
+    },
+    {
+      "w": "users",
+      "s": 55.368,
+      "e": 55.708000000000006,
+      "alignment": "asr"
+    },
+    {
+      "w": "purchased",
+      "s": 55.708000000000006,
+      "e": 56.168000000000006,
+      "alignment": "asr"
+    },
+    {
+      "w": "items",
+      "s": 56.168000000000006,
+      "e": 56.528000000000006,
+      "alignment": "asr"
+    },
+    {
+      "w": "in",
+      "s": 56.528000000000006,
+      "e": 56.788000000000004,
+      "alignment": "asr"
+    },
+    {
+      "w": "those",
+      "s": 56.788000000000004,
+      "e": 57.008,
+      "alignment": "asr"
+    },
+    {
+      "w": "games.",
+      "s": 57.008,
+      "e": 57.4613,
+      "alignment": "asr"
+    },
+    {
+      "w": "Here",
+      "s": 57.62133333333334,
+      "e": 57.94133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "is",
+      "s": 57.94133333333334,
+      "e": 58.14133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 58.14133333333334,
+      "e": 58.38133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "important",
+      "s": 58.38133333333334,
+      "e": 58.64133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "part.",
+      "s": 58.64133333333334,
+      "e": 59.70133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "Expand",
+      "s": 59.70133333333334,
+      "e": 59.86133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 59.86133333333334,
+      "e": 60.18133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "steps",
+      "s": 60.18133333333334,
+      "e": 60.46133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 60.46133333333334,
+      "e": 60.66133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "inspect",
+      "s": 60.66133333333334,
+      "e": 60.98133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 60.98133333333334,
+      "e": 61.72133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "generated",
+      "s": 61.72133333333334,
+      "e": 61.72133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "query.",
+      "s": 61.72133333333334,
+      "e": 62.70133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "Check",
+      "s": 62.70133333333334,
+      "e": 62.92133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 62.92133333333334,
+      "e": 63.40133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "filters,",
+      "s": 63.40133333333334,
+      "e": 63.98133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 63.98133333333334,
+      "e": 63.98133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "tables,",
+      "s": 63.98133333333334,
+      "e": 64.42133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 64.42133333333334,
+      "e": 64.58133333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 64.58133333333333,
+      "e": 64.78133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "answer.",
+      "s": 64.78133333333334,
+      "e": 65.15203333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "A",
+      "s": 65.31200000000001,
+      "e": 65.552,
+      "alignment": "asr"
+    },
+    {
+      "w": "data",
+      "s": 65.552,
+      "e": 65.83200000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "agent",
+      "s": 65.83200000000001,
+      "e": 66.17200000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "can",
+      "s": 66.17200000000001,
+      "e": 66.632,
+      "alignment": "asr"
+    },
+    {
+      "w": "retrieve",
+      "s": 66.632,
+      "e": 67.052,
+      "alignment": "asr"
+    },
+    {
+      "w": "structured",
+      "s": 67.052,
+      "e": 67.47200000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "answers.",
+      "s": 67.47200000000001,
+      "e": 68.632,
+      "alignment": "asr"
+    },
+    {
+      "w": "A",
+      "s": 68.632,
+      "e": 68.75200000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "question",
+      "s": 68.75200000000001,
+      "e": 69.03200000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "about",
+      "s": 69.03200000000001,
+      "e": 69.412,
+      "alignment": "asr"
+    },
+    {
+      "w": "why",
+      "s": 69.412,
+      "e": 69.73200000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "sales",
+      "s": 69.73200000000001,
+      "e": 70.01200000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "changed",
+      "s": 70.01200000000001,
+      "e": 70.47200000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "needs",
+      "s": 70.47200000000001,
+      "e": 70.79200000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "more",
+      "s": 70.79200000000002,
+      "e": 71.132,
+      "alignment": "asr"
+    },
+    {
+      "w": "evidence.",
+      "s": 71.132,
+      "e": 72.17200000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "Retrieving",
+      "s": 72.17200000000001,
+      "e": 72.47200000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 72.47200000000001,
+      "e": 72.69200000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "number",
+      "s": 72.69200000000001,
+      "e": 72.85200000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "does",
+      "s": 72.85200000000002,
+      "e": 73.09200000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "not",
+      "s": 73.09200000000001,
+      "e": 73.352,
+      "alignment": "asr"
+    },
+    {
+      "w": "prove",
+      "s": 73.352,
+      "e": 73.51200000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "its",
+      "s": 73.51200000000001,
+      "e": 73.75200000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "cause.",
+      "s": 73.75200000000001,
+      "e": 74.18670000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "Create.",
+      "s": 74.34666666666668,
+      "e": 75.12666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "Choose.",
+      "s": 75.12666666666668,
+      "e": 76.10666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "Verify.",
+      "s": 76.10666666666668,
+      "e": 76.78666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "Start",
+      "s": 76.78666666666668,
+      "e": 77.00666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "with",
+      "s": 77.00666666666667,
+      "e": 77.22666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "one",
+      "s": 77.22666666666667,
+      "e": 77.48666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "question",
+      "s": 77.48666666666668,
+      "e": 77.78666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "you",
+      "s": 77.78666666666668,
+      "e": 78.00666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "can",
+      "s": 78.00666666666667,
+      "e": 78.18666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "check,",
+      "s": 78.18666666666668,
+      "e": 78.90666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "then",
+      "s": 78.90666666666668,
+      "e": 79.00666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "test",
+      "s": 79.00666666666667,
+      "e": 79.24666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "more",
+      "s": 79.24666666666668,
+      "e": 79.50666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "questions",
+      "s": 79.50666666666667,
+      "e": 79.98666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "before",
+      "s": 79.98666666666668,
+      "e": 80.34666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "you",
+      "s": 80.34666666666668,
+      "e": 80.54666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "publish.",
+      "s": 80.54666666666668,
+      "e": 81.44666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "That",
+      "s": 81.44666666666667,
+      "e": 81.60666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "is",
+      "s": 81.60666666666668,
+      "e": 81.78666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 81.78666666666668,
+      "e": 82.28666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "useful",
+      "s": 82.28666666666668,
+      "e": 82.28666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "first",
+      "s": 82.28666666666668,
+      "e": 82.68666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "Fabric",
+      "s": 82.68666666666668,
+      "e": 83.08666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "data",
+      "s": 83.08666666666667,
+      "e": 83.36666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "agent.",
+      "s": 83.36666666666667,
+      "e": 83.86136666666668,
+      "alignment": "asr"
+    }
+  ],
+  "voice": "Local Kokoro af_heart, synthetic review voice",
+  "alignment_note": "Whisper tiny.en word timestamps, with interpolated unmatched words explicitly flagged. Not manually verified to +/- one frame."
+}

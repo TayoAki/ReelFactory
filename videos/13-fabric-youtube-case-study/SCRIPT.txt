@@ -1,0 +1,15 @@
+A Fabric agent answered the question. Then the presenter checked Power BI, and spotted rounding. Watch the validation.
+
+Guy in a Cube built this agent over their YouTube analytics. A semantic model for video statistics, and a lakehouse for comment sentiment.
+
+Before testing, they clarify an easy trap. A like on a comment is not a like on a video. Their instructions define those terms and point questions to the right source.
+
+Their first test asks for total views on January tenth, twenty twenty five. A question with a checkable answer.
+
+They open the generated DAX, then compare the result with a table built from the same Power BI model.
+
+The presenter notices that the chat rounds the number. That's a precision issue to evaluate, not proof that the agent invented the answer.
+
+Then they test the most viewed video with Fabric in its title. Check the text filter, the ranking, and the result against the report.
+
+Use that method for your first Fabric agent. Define the business terms. Inspect the query. Compare with a trusted result. Then share.

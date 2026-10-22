@@ -1,0 +1,12 @@
+{
+  "method": "Whisper tiny.en re-transcription of final mixed MP4, compared with intended narration. ASR differences need interpretation; this is not proof of word-perfect audio.",
+  "similarity": 0.9889,
+  "transcript": "Pausing fabric capacity does not stop the charge for a reservation you already bought. A reservation discount applies hour by hour. Unused hours do not carry forward. So check how your reservation benefit is being used before you pause capacity. There is a second check. Remaining cumulative overages and smooth operations are added to your Azure Bill when you pause. Use the Capacity Metrics app to inspect the capacity's usage. Before pausing check the reservation and pending usage together. A green pause button does not erase an existing commitment.",
+  "differences": [
+    {
+      "kind": "replace",
+      "expected": "smoothed",
+      "recognized": "smooth"
+    }
+  ]
+}

@@ -1,0 +1,526 @@
+{
+  "version": 1,
+  "purpose": "Learn reusable mappings from explanatory intent to graphic structure, state transitions and timing; do not infer animation from isolated keywords",
+  "event_contract": [
+    "spoken_span",
+    "teaching_job",
+    "known_context",
+    "entities",
+    "relationships",
+    "visual_family",
+    "previous_state",
+    "next_state",
+    "motion_operation",
+    "reveal_anchor",
+    "settle_and_hold",
+    "why",
+    "evidence_or_asset_requirements",
+    "confidence"
+  ],
+  "pipeline": [
+    "segment transcript into explanatory beats",
+    "resolve entities, relationships and known viewer context",
+    "classify teaching function",
+    "choose visual representation and persistent objects",
+    "plan state changes and camera separately",
+    "align planned changes to the actual narration",
+    "render and compare explanatory clarity plus timing"
+  ],
+  "examples": [
+    {
+      "id": "category-to-family",
+      "window": [
+        51,
+        81
+      ],
+      "anchor": "in a larger stack",
+      "teaching_job": "Locate one product within a larger family, then distinguish audiences and roles",
+      "visual_family": "perspective layered cards",
+      "entities": [
+        "Genie One",
+        "Genie Code",
+        "Genie Agents"
+      ],
+      "relationships": [
+        "belongs to product family",
+        "serves business users",
+        "serves technical users",
+        "serves both audiences"
+      ],
+      "states": [
+        "Established Genie One card",
+        "Existing card tilts and gains layers",
+        "Related product separates from family",
+        "Audience annotation appears",
+        "Third product is introduced with its role"
+      ],
+      "motion": [
+        "persist existing object",
+        "tilt plane",
+        "extrude layers",
+        "separate sibling",
+        "add attached annotation"
+      ],
+      "timing_policy": "Family transformation begins with the larger-stack statement; distinguish products as their names and audiences are introduced",
+      "why": "Preserve the known product while expanding the viewer\u2019s mental model; position and annotations distinguish the siblings",
+      "reuse_rule": "When explaining membership followed by distinctions among related entities, retain the established entity, expand its family, then label the distinctions. Perspective is a style choice, not a requirement of the word stack.",
+      "evidence": "graphics-study/03-layered-cards.jpg",
+      "spoken_segments": [
+        {
+          "start": 51.8,
+          "end": 58.12,
+          "text": "that you already have. But, Genie 1 sits"
+        },
+        {
+          "start": 54.6,
+          "end": 60.96,
+          "text": "in a larger stack of of AI co-workers"
+        },
+        {
+          "start": 58.12,
+          "end": 63.36,
+          "text": "and other AI tools on Databricks. So, if"
+        },
+        {
+          "start": 60.96,
+          "end": 66.44,
+          "text": "for example, if Genie 1 is our agent for"
+        },
+        {
+          "start": 63.36,
+          "end": 68.64,
+          "text": "business users, Genie code is our agent"
+        },
+        {
+          "start": 66.44,
+          "end": 70.64,
+          "text": "for technical users. It helps them write"
+        },
+        {
+          "start": 68.64,
+          "end": 73.48,
+          "text": "code and and do other work within the"
+        },
+        {
+          "start": 70.64,
+          "end": 75.4,
+          "text": "lakehouse. We also have Genie agents,"
+        },
+        {
+          "start": 73.48,
+          "end": 77.72,
+          "text": "which can be accessed by both types of"
+        },
+        {
+          "start": 75.4,
+          "end": 79.6,
+          "text": "users, and they're really focused on"
+        },
+        {
+          "start": 77.72,
+          "end": 81.16,
+          "text": "domain-specific work. They're They're"
+        },
+        {
+          "start": 79.6,
+          "end": 82.84,
+          "text": "essentially domain experts, and I can"
+        }
+      ],
+      "confidence": {
+        "graphic_observation": "observed in source frames",
+        "teaching_job_and_why": "interpretation of explanatory function; not a claim about creator intent or measured learning outcomes",
+        "timing": "source-frame timing where measured; transcript segment timestamps elsewhere, not frame-accurate word alignment"
+      }
+    },
+    {
+      "id": "overview-to-subsystem",
+      "window": [
+        220,
+        245
+      ],
+      "anchor": "On the modeled side",
+      "teaching_job": "Decompose an established system and inspect one subsystem",
+      "visual_family": "architecture master/detail",
+      "entities": [
+        "ontology overview",
+        "modeled ontology",
+        "metric views"
+      ],
+      "relationships": [
+        "subsystem of",
+        "contains component"
+      ],
+      "states": [
+        "Full overview with modeled side highlighted",
+        "Irrelevant regions dim",
+        "Camera moves into selected subsystem",
+        "First internal component appears"
+      ],
+      "motion": [
+        "change emphasis",
+        "pan and zoom inner world inside fixed viewport",
+        "reveal child component"
+      ],
+      "timing_policy": "Focus the modeled side during the transition into its explanation; the measured camera move occurs around 234\u2013236 seconds before metric views are named around 238 seconds",
+      "why": "Show where the detail belongs before introducing internal components, while preserving spatial orientation",
+      "reuse_rule": "When narration moves from a system to one of its parts, reuse the existing overview and focus that part before adding detail.",
+      "evidence": "graphics-study/D2-architecture-camera.jpg",
+      "spoken_segments": [
+        {
+          "start": 221.72,
+          "end": 225.8,
+          "text": "then we have learned ontology."
+        },
+        {
+          "start": 223.92,
+          "end": 228.04,
+          "text": "On the modeled side, uh this is really"
+        },
+        {
+          "start": 225.8,
+          "end": 230.519,
+          "text": "where you need to catalog semantics come"
+        },
+        {
+          "start": 228.04,
+          "end": 234.44,
+          "text": "into play. It's human-curated context"
+        },
+        {
+          "start": 230.519,
+          "end": 236.2,
+          "text": "that someone certified and and governed."
+        },
+        {
+          "start": 234.44,
+          "end": 238.04,
+          "text": "And there are three components that are"
+        },
+        {
+          "start": 236.2,
+          "end": 240.28,
+          "text": "worth talking about. Uh the first is"
+        },
+        {
+          "start": 238.04,
+          "end": 242.88,
+          "text": "metric views. They form your your"
+        },
+        {
+          "start": 240.28,
+          "end": 245.12,
+          "text": "governed reusable KPI layer. So, it's a"
+        },
+        {
+          "start": 242.88,
+          "end": 247.8,
+          "text": "certified single source of truth"
+        }
+      ],
+      "confidence": {
+        "graphic_observation": "observed in source frames",
+        "teaching_job_and_why": "interpretation of explanatory function; not a claim about creator intent or measured learning outcomes",
+        "timing": "source-frame timing where measured; transcript segment timestamps elsewhere, not frame-accurate word alignment"
+      }
+    },
+    {
+      "id": "mechanism-and-integration",
+      "window": [
+        600,
+        625
+      ],
+      "anchor": "data that lives",
+      "teaching_job": "Explain how a system accesses external operational information",
+      "visual_family": "connector network",
+      "entities": [
+        "third-party applications",
+        "data hub",
+        "live query",
+        "MCP connectors"
+      ],
+      "relationships": [
+        "connects to",
+        "queries live"
+      ],
+      "states": [
+        "Prior comparison clears",
+        "Data hub is established",
+        "External source icons and routes build",
+        "Query route and output appear",
+        "Integration category is added",
+        "Completed system holds during examples"
+      ],
+      "motion": [
+        "clear prior detail",
+        "persist hub",
+        "draw rounded branches",
+        "introduce sources",
+        "add category label",
+        "hold"
+      ],
+      "timing_policy": "Establish the new source/mechanism while it is introduced; leave the built network visible as Jira and Salesforce examples are discussed",
+      "why": "Turn an abstract access mechanism into a visible relationship among source, route and result; avoid a new diagram for every example",
+      "reuse_rule": "For a mechanism involving sources and access paths, depict the route and the sources together, then hold while concrete examples are explained.",
+      "evidence": "graphics-study/D3-connector-build.jpg",
+      "spoken_segments": [
+        {
+          "start": 600.88,
+          "end": 606.36,
+          "text": "into the product. Um for data that lives"
+        },
+        {
+          "start": 604.0,
+          "end": 608.52,
+          "text": "in in third-party applications, maybe"
+        },
+        {
+          "start": 606.36,
+          "end": 610.16,
+          "text": "that you want to query live instead of"
+        },
+        {
+          "start": 608.52,
+          "end": 613.76,
+          "text": "pulling it in and running that text to"
+        },
+        {
+          "start": 610.16,
+          "end": 614.92,
+          "text": "SQL, we also have uh MCP connectors."
+        },
+        {
+          "start": 613.76,
+          "end": 616.52,
+          "text": "Again, they query live. So, you're"
+        },
+        {
+          "start": 614.92,
+          "end": 619.28,
+          "text": "getting things like the status of a Jira"
+        },
+        {
+          "start": 616.52,
+          "end": 620.8,
+          "text": "ticket, uh the status of a lead in"
+        },
+        {
+          "start": 619.28,
+          "end": 622.92,
+          "text": "Salesforce. It's really good for things"
+        },
+        {
+          "start": 620.8,
+          "end": 626.0,
+          "text": "like that. Uh we have, you know, maybe a"
+        },
+        {
+          "start": 622.92,
+          "end": 627.32,
+          "text": "dozen a dozen plus um of those MCP"
+        }
+      ],
+      "confidence": {
+        "graphic_observation": "observed in source frames",
+        "teaching_job_and_why": "interpretation of explanatory function; not a claim about creator intent or measured learning outcomes",
+        "timing": "source-frame timing where measured; transcript segment timestamps elsewhere, not frame-accurate word alignment"
+      }
+    },
+    {
+      "id": "enumerate-distinct-needs",
+      "window": [
+        1422,
+        1455
+      ],
+      "anchor": "first is",
+      "teaching_job": "Enumerate distinct governance needs within one category",
+      "visual_family": "aligned card family",
+      "entities": [
+        "baseline skills",
+        "custom workflows",
+        "skill-sharing controls"
+      ],
+      "relationships": [
+        "member of governance needs"
+      ],
+      "states": [
+        "Category tag established",
+        "Tag relocates to make room",
+        "Baseline card flips into place",
+        "Second card joins for custom workflows",
+        "Third card joins for sharing controls"
+      ],
+      "motion": [
+        "relocate category heading",
+        "turn card from edge-on to front-facing",
+        "add aligned siblings",
+        "hold established items"
+      ],
+      "timing_policy": "Each card joins when its need is introduced, spread across the explanation rather than a rapid automatic three-card stagger",
+      "why": "Give each need a stable place and equal status without losing the category that groups them",
+      "reuse_rule": "For enumerated peer concepts, introduce one sibling per explanatory beat, using consistent scale and alignment. Choose a family-specific reveal separately.",
+      "evidence": "graphics-study/D4-governance-card.jpg",
+      "spoken_segments": [
+        {
+          "start": 1422.24,
+          "end": 1428.76,
+          "text": ">> Yeah, I think we see demand for"
+        },
+        {
+          "start": 1424.92,
+          "end": 1430.36,
+          "text": "for a couple things. Um first is,"
+        },
+        {
+          "start": 1428.76,
+          "end": 1431.84,
+          "text": "you know, you want everyone to start"
+        },
+        {
+          "start": 1430.36,
+          "end": 1433.28,
+          "text": "with a baseline level of skills or"
+        },
+        {
+          "start": 1431.84,
+          "end": 1435.76,
+          "text": "everyone within a group to start with a"
+        },
+        {
+          "start": 1433.28,
+          "end": 1437.28,
+          "text": "baseline level of skills. Administrators"
+        },
+        {
+          "start": 1435.76,
+          "end": 1438.76,
+          "text": "who are ultimately responsible for"
+        },
+        {
+          "start": 1437.28,
+          "end": 1440.4,
+          "text": "people having a good experience with"
+        },
+        {
+          "start": 1438.76,
+          "end": 1442.68,
+          "text": "Genie want to ensure that they're set up"
+        },
+        {
+          "start": 1440.4,
+          "end": 1444.0,
+          "text": "for success. And part of that includes,"
+        },
+        {
+          "start": 1442.68,
+          "end": 1445.92,
+          "text": "if you've got, you know,"
+        },
+        {
+          "start": 1444.0,
+          "end": 1447.44,
+          "text": "company-specific workflows, making sure"
+        },
+        {
+          "start": 1445.92,
+          "end": 1450.72,
+          "text": "that Genie is set up with those"
+        },
+        {
+          "start": 1447.44,
+          "end": 1452.88,
+          "text": "workflows. We also see some demand for,"
+        },
+        {
+          "start": 1450.72,
+          "end": 1455.04,
+          "text": "you know, limiting or or controlling how"
+        },
+        {
+          "start": 1452.88,
+          "end": 1456.76,
+          "text": "people can share skills. So, for that,"
+        }
+      ],
+      "confidence": {
+        "graphic_observation": "observed in source frames",
+        "teaching_job_and_why": "interpretation of explanatory function; not a claim about creator intent or measured learning outcomes",
+        "timing": "source-frame timing where measured; transcript segment timestamps elsewhere, not frame-accurate word alignment"
+      }
+    },
+    {
+      "id": "advance-known-list",
+      "window": [
+        1985,
+        2000
+      ],
+      "anchor": "Second is to model",
+      "teaching_job": "Advance through previously established best practices",
+      "visual_family": "fixed emphasis list",
+      "entities": [
+        "benchmark set",
+        "critical semantics",
+        "trusted assets",
+        "source access"
+      ],
+      "relationships": [
+        "next recommendation"
+      ],
+      "states": [
+        "First recommendation active",
+        "Second recommendation becomes active",
+        "Other items remain dimmed in their original positions"
+      ],
+      "motion": [
+        "discrete emphasis switch",
+        "hold geometry"
+      ],
+      "timing_policy": "Switch near the start of the next recommendation; the inspected source switches at about 1989.733 seconds, after the segment-level transcript introduces Second around 1987 seconds",
+      "why": "Indicate progress through a known structure without requiring the viewer to relearn its layout",
+      "reuse_rule": "When advancing a known list, preserve positions and change emphasis. A new point does not automatically require a new scene or moving object.",
+      "evidence": "graphics-study/D6-best-practice-focus.jpg",
+      "spoken_segments": [
+        {
+          "start": 1986.32,
+          "end": 1990.4,
+          "text": "business questions and and taking"
+        },
+        {
+          "start": 1987.8,
+          "end": 1992.28,
+          "text": "action. Second is to model those"
+        },
+        {
+          "start": 1990.4,
+          "end": 1994.64,
+          "text": "semantics that really matter. We're not"
+        },
+        {
+          "start": 1992.28,
+          "end": 1996.24,
+          "text": "saying model the entire business's"
+        },
+        {
+          "start": 1994.64,
+          "end": 1998.12,
+          "text": "institutional knowledge. We don't think"
+        },
+        {
+          "start": 1996.24,
+          "end": 2000.44,
+          "text": "that's possible. We would recommend"
+        },
+        {
+          "start": 1998.12,
+          "end": 2002.64,
+          "text": "leaning on the learned context for that,"
+        }
+      ],
+      "confidence": {
+        "graphic_observation": "observed in source frames",
+        "teaching_job_and_why": "interpretation of explanatory function; not a claim about creator intent or measured learning outcomes",
+        "timing": "source-frame timing where measured; transcript segment timestamps elsewhere, not frame-accurate word alignment"
+      }
+    }
+  ]
+}

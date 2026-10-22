@@ -1,0 +1,88 @@
+[
+  {
+    "id": "14-fabric-ontology-explained",
+    "number": 14,
+    "title": "Microsoft Fabric ontology: from a late shipment to a business answer",
+    "reference": "HtR5m5VjaDQ; full uploaded 34:28 reference visually sampled across all five parts; see research/ontology-adaptation/FULL-VISUAL-BREAKDOWN.md",
+    "beats": [
+      {
+        "scene": "hook",
+        "speaker": "Noah",
+        "voice": "am_michael",
+        "text": "Our shipment is late. Which customers are affected? A table called shipments is not enough to explain how the business fits together."
+      },
+      {
+        "scene": "meaning",
+        "speaker": "Maya",
+        "voice": "af_heart",
+        "text": "That's where an ontology helps. In Microsoft Fabric IQ, it gives people and agents a shared map of business concepts, their properties, and how they connect."
+      },
+      {
+        "scene": "question",
+        "speaker": "Noah",
+        "voice": "am_michael",
+        "text": "So we're not just drawing a diagram?"
+      },
+      {
+        "scene": "entities",
+        "speaker": "Maya",
+        "voice": "af_heart",
+        "text": "Right. Start with four entity types: Customer, Order, Shipment, and Warehouse. A particular shipment, like Shipment seventeen, is an instance. Its status and promised delivery time are properties."
+      },
+      {
+        "scene": "relationships",
+        "speaker": "Maya",
+        "voice": "af_heart",
+        "text": "Now name the relationships. A customer places an order. A shipment fulfills that order. A warehouse dispatches the shipment. Those labels explain what each connection means."
+      },
+      {
+        "scene": "binding-question",
+        "speaker": "Noah",
+        "voice": "am_michael",
+        "text": "But where do the actual values come from?"
+      },
+      {
+        "scene": "bindings",
+        "speaker": "Maya",
+        "voice": "af_heart",
+        "text": "Data bindings connect those business definitions to real sources. For example, orders can come from a lakehouse, while shipment updates come from an eventhouse. The ontology adds shared meaning; it doesn't become a second copy of the database."
+      },
+      {
+        "scene": "demo",
+        "speaker": "Maya",
+        "voice": "af_heart",
+        "text": "Here's a real retail ontology demo from Guy in a Cube. Watch the entities connect, then see the properties linked to their data sources. This is the interface behind the idea."
+      },
+      {
+        "scene": "trace-question",
+        "speaker": "Noah",
+        "voice": "am_michael",
+        "text": "Now let's follow our late shipment back to the customer."
+      },
+      {
+        "scene": "trace",
+        "speaker": "Maya",
+        "voice": "af_heart",
+        "text": "Shipment seventeen fulfills Order forty two, placed by Customer one hundred one. Highlight that path, and the business question becomes specific: which customer is connected to this delayed shipment? This animation is illustrative, not a live query result."
+      },
+      {
+        "scene": "verify",
+        "speaker": "Maya",
+        "voice": "af_heart",
+        "text": "An agent can use the definitions and bindings as context, then query the permitted source. But a useful model still needs clear definitions, correct data, and answers checked against trusted results. An ontology doesn't guarantee correctness."
+      },
+      {
+        "scene": "recap",
+        "speaker": "Noah",
+        "voice": "am_michael",
+        "text": "So start small: one business question, a few entities, meaningful relationships, and real source bindings."
+      },
+      {
+        "scene": "close",
+        "speaker": "Maya",
+        "voice": "af_heart",
+        "text": "Exactly. Model the meaning, connect the data, then verify the answer. Fabric ontology is in preview, so check the current documentation as you build."
+      }
+    ]
+  }
+]

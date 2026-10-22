@@ -1,0 +1,107 @@
+{
+  "source": "https://data.cityofnewyork.us/resource/erm2-nwe9.json",
+  "query": {
+    "$select": "date_extract_hh(created_date) as hour,count(*) as total",
+    "$where": "created_date >= '2025-10-01T00:00:00' AND created_date < '2026-10-01T00:00:00' AND complaint_type = 'Noise - Residential'",
+    "$group": "hour",
+    "$order": "total DESC"
+  },
+  "results": [
+    {
+      "hour": "22",
+      "total": "42705"
+    },
+    {
+      "hour": "23",
+      "total": "41113"
+    },
+    {
+      "hour": "0",
+      "total": "35470"
+    },
+    {
+      "hour": "21",
+      "total": "31761"
+    },
+    {
+      "hour": "20",
+      "total": "26343"
+    },
+    {
+      "hour": "1",
+      "total": "25341"
+    },
+    {
+      "hour": "19",
+      "total": "22212"
+    },
+    {
+      "hour": "18",
+      "total": "18582"
+    },
+    {
+      "hour": "2",
+      "total": "16707"
+    },
+    {
+      "hour": "17",
+      "total": "16487"
+    },
+    {
+      "hour": "16",
+      "total": "14858"
+    },
+    {
+      "hour": "15",
+      "total": "13720"
+    },
+    {
+      "hour": "3",
+      "total": "12655"
+    },
+    {
+      "hour": "14",
+      "total": "12351"
+    },
+    {
+      "hour": "13",
+      "total": "11988"
+    },
+    {
+      "hour": "12",
+      "total": "11767"
+    },
+    {
+      "hour": "11",
+      "total": "11601"
+    },
+    {
+      "hour": "10",
+      "total": "10672"
+    },
+    {
+      "hour": "9",
+      "total": "10212"
+    },
+    {
+      "hour": "4",
+      "total": "9893"
+    },
+    {
+      "hour": "8",
+      "total": "9339"
+    },
+    {
+      "hour": "6",
+      "total": "8938"
+    },
+    {
+      "hour": "5",
+      "total": "8867"
+    },
+    {
+      "hour": "7",
+      "total": "8849"
+    }
+  ]
+}

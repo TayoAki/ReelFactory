@@ -1,0 +1,1169 @@
+ <!DOCTYPE html>
+		<html
+			class="layout layout-single    certification show-breadcrumb default-focus"
+			lang="en-us"
+			dir="ltr"
+			data-authenticated="false"
+			data-auth-status-determined="false"
+			data-target="docs"
+			x-ms-format-detection="none"
+		>
+			
+		<head>
+			<title>Microsoft Certified: Fabric Data Engineer Associate - Certifications | Microsoft Learn</title>
+			<meta charset="utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<meta name="color-scheme" content="light dark" />
+
+			<meta name="description" content="As a Fabric Data Engineer, you should have subject matter expertise with data loading patterns, data architectures, and orchestration processes." />
+			<link rel="canonical" href="https://learn.microsoft.com/en-us/credentials/certifications/fabric-data-engineer-associate/" /> 
+
+			<!-- Non-customizable open graph and sharing-related metadata -->
+			<meta name="twitter:card" content="summary_large_image" />
+			<meta name="twitter:site" content="@MicrosoftLearn" />
+			<meta property="og:type" content="website" />
+			<meta property="og:image:alt" content="Microsoft Learn" />
+			<meta property="og:image" content="https://learn.microsoft.com/en-us/media/open-graph-image.png" />
+			<!-- Page specific open graph and sharing-related metadata -->
+			<meta property="og:title" content="Microsoft Certified: Fabric Data Engineer Associate - Certifications" />
+			<meta property="og:url" content="https://learn.microsoft.com/en-us/credentials/certifications/fabric-data-engineer-associate/" />
+			<meta property="og:description" content="As a Fabric Data Engineer, you should have subject matter expertise with data loading patterns, data architectures, and orchestration processes." />
+			<meta name="platform_id" content="bb2a41eb-bf10-0396-ef48-dd7dbfb96d9c" /> 
+			<meta name="locale" content="en-us" />
+			 
+			<meta name="uhfHeaderId" content="MSDocsHeader-Certifications" />
+
+			<meta name="page_type" content="learn" />
+
+			<!--page specific meta tags-->
+			
+
+			<!-- custom meta tags -->
+			
+		<meta name="uid" content="certification.fabric-data-engineer-associate" />
+	
+		<meta name="version" content="2" />
+	
+		<meta name="practiceAssessmentUid" content="1704375541" />
+	
+		<meta name="schema" content="Certification" />
+	
+		<meta name="short_title" content="Microsoft Certified: Fabric Data Engineer Associate" />
+	
+		<meta name="breadcrumb_path" content="/breadcrumb/toc.json" />
+	
+		<meta name="feedback_system" content="None" />
+	
+		<meta name="author" content="bipach" />
+	
+		<meta name="document_id" content="5bb14e23-db2e-1620-3885-e5fd5ee91eec" />
+	
+		<meta name="document_version_independent_id" content="5bb14e23-db2e-1620-3885-e5fd5ee91eec" />
+	
+		<meta name="updated_at" content="2026-10-19T20:48:00Z" />
+	
+		<meta name="original_content_git_url" content="https://github.com/MicrosoftDocs/learn-certs-pr/blob/live/learn-certs-pr/certifications/fabric-data-engineer-associate/index.yml" />
+	
+		<meta name="gitcommit" content="https://github.com/MicrosoftDocs/learn-certs-pr/blob/54e337e8b9859f03b1a73aa9645c378dd5d10c4e/learn-certs-pr/certifications/fabric-data-engineer-associate/index.yml" />
+	
+		<meta name="git_commit_id" content="54e337e8b9859f03b1a73aa9645c378dd5d10c4e" />
+	
+		<meta name="site_name" content="Docs" />
+	
+		<meta name="depot_name" content="MSDN.learn-certs-pr" />
+	
+		<meta name="page_kind" content="certification" />
+	
+		<meta name="feedback_product_url" content="" />
+	
+		<meta name="feedback_help_link_type" content="" />
+	
+		<meta name="feedback_help_link_url" content="" />
+	
+		<meta name="asset_id" content="certifications/fabric-data-engineer-associate/index" />
+	
+		<meta name="moniker_range_name" content="" />
+	
+		<meta name="item_type" content="Content" />
+	
+		<meta name="source_path" content="learn-certs-pr/certifications/fabric-data-engineer-associate/index.yml" />
+	
+		<meta name="github_feedback_content_git_url" content="https://github.com/MicrosoftDocs/learn-certs-pr/blob/live/learn-certs-pr/certifications/fabric-data-engineer-associate/index.yml" />
+	
+		<meta name="markdown_url" content="https://learn.microsoft.com/en-us/credentials/certifications/fabric-data-engineer-associate/?accept=text/markdown" />
+	 
+		<meta name="cmProducts" content="https://microsoft-devrel.poolparty.biz/DevRelOfferingOntology/c6f99e62-1cf6-4b71-af9b-649b05f80cce" data-source="generated" />
+	
+		<meta name="cmProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/07bb3e10-d135-43ff-bc8b-360497cb39fa" data-source="generated" />
+	
+		<meta name="cmProducts" content="https://microsoft-devrel.poolparty.biz/DevRelOfferingOntology/e7cd09c2-9e9a-4f0d-b160-c15783f45b1f" data-source="generated" />
+	
+		<meta name="spProducts" content="https://microsoft-devrel.poolparty.biz/DevRelOfferingOntology/3f56b378-07a9-4fa1-afe8-9889fdc77628" data-source="generated" />
+	
+		<meta name="spProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/12e559b9-eaf6-4aee-9af7-62334e15f863" data-source="generated" />
+	
+		<meta name="spProducts" content="https://microsoft-devrel.poolparty.biz/DevRelOfferingOntology/1d337399-0ca4-4b4c-acef-8df37820e018" data-source="generated" />
+	
+
+			<!-- Apply persisted/system theme before first paint to prevent wrong-theme flash when scripts are deferred. -->
+			<script id="theme-preference">
+				(function () {
+			try {
+				var stored = localStorage.getItem('theme');
+				var theme = /^(light|dark|high-contrast)$/.test(stored)
+					? stored
+					: matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+				document.documentElement.classList.add('theme-' + theme);
+			} catch (e) {}
+		})();;
+			</script>
+
+			<script id="atlas-layout-preferences">
+				(function () {
+			try {
+				var state = JSON.parse(localStorage.getItem('atlas-layout-preferences') || '{}');
+				var view = state["Certification"] || {};
+				var excludesKey = "";
+				var blocked = {};
+				if (excludesKey) {
+					var exclusions = JSON.parse(localStorage.getItem('atlas-layout-exclusions') || '{}');
+					if (Object.prototype.hasOwnProperty.call(exclusions, excludesKey)) {
+						var scoped = exclusions[excludesKey];
+						if (scoped) {
+							if (typeof scoped === 'object') blocked = scoped;
+						}
+					}
+				}
+				var html = document.documentElement;
+				for (var c in view) {
+					if (Object.prototype.hasOwnProperty.call(blocked, c)) continue;
+					if (view[c]) html.classList.add(c);
+					else html.classList.remove(c);
+				}
+			} catch (e) {}
+		})();;
+			</script>
+
+			<!-- assets and js globals -->
+			
+			<link rel="stylesheet" href="/static/assets/0.4.03574.8308-9505b1c8/styles/site.css" />
+			
+			<script src="https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js"></script>
+			<!-- Keep this URL in sync with oneDSScriptSelector in instrumentation/one-ds.ts. -->
+			<script async src="https://js.monitor.azure.com/scripts/c/ms.jsll-4.min.js"></script>
+			
+
+			<!-- msdocs global object -->
+			<script id="msdocs-script">
+		var msDocs = {
+  "environment": {
+    "accessLevel": "online",
+    "azurePortalHostname": "portal.azure.com",
+    "reviewFeatures": false,
+    "supportLevel": "production",
+    "systemContent": true,
+    "siteName": "learn",
+    "legacyHosting": false
+  },
+  "data": {
+    "contentLocale": "en-us",
+    "contentDir": "ltr",
+    "userLocale": "en-us",
+    "userDir": "ltr",
+    "pageTemplate": "Certification",
+    "layoutStateStorageKey": "Certification",
+    "brand": "",
+    "context": {},
+    "standardFeedback": false,
+    "showFeedbackReport": false,
+    "feedbackHelpLinkType": "",
+    "feedbackHelpLinkUrl": "",
+    "feedbackSystem": "None",
+    "feedbackGitHubRepo": "",
+    "feedbackProductUrl": "",
+    "extendBreadcrumb": true,
+    "isEditDisplayable": false,
+    "isPrivateUnauthorized": false,
+    "hideViewSource": false,
+    "isPermissioned": false,
+    "hasRecommendations": false
+  },
+  "functions": {}
+};;
+	</script>
+
+			<!-- base scripts, msdocs global should be before this -->
+			
+				<script
+					src="/static/assets/0.4.03574.8308-9505b1c8/scripts/en-us/index-learner-experience.js"
+					async
+				></script>
+			
+			
+
+			<!-- json-ld -->
+			
+		</head>
+	
+			<body
+				id="body"
+				data-bi-name="body"
+				class="layout-body "
+				lang="en-us"
+				dir="ltr"
+			>
+				<header class="layout-body-header background-color-body-medium">
+		<div class="header-holder has-default-focus">
+			
+		<a
+			href="#main"
+			
+			style="z-index: 1070"
+			class="outline-color-text visually-hidden-until-focused position-fixed inner-focus focus-visible top-0 left-0 right-0 padding-xs text-align-center background-color-body"
+			
+		>
+			Skip to main content
+		</a>
+	
+
+			<div hidden id="cookie-consent-holder" data-test-id="cookie-consent-container"></div>
+			<!-- Unsupported browser warning -->
+			<div
+				id="unsupported-browser"
+				style="background-color: white; color: black; padding: 16px; border-bottom: 1px solid grey;"
+				hidden
+			>
+				<div style="max-width: 800px; margin: 0 auto;">
+					<p style="font-size: 24px">This browser is no longer supported.</p>
+					<p style="font-size: 16px; margin-top: 16px;">
+						Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support.
+					</p>
+					<div style="margin-top: 12px;">
+						<a
+							href="https://go.microsoft.com/fwlink/p/?LinkID=2092881 "
+							style="background-color: #0078d4; border: 1px solid #0078d4; color: white; padding: 6px 12px; border-radius: 2px; display: inline-block;"
+						>
+							Download Microsoft Edge
+						</a>
+						<a
+							href="https://learn.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge"
+							style="background-color: white; padding: 6px 12px; border: 1px solid #505050; color: #171717; border-radius: 2px; display: inline-block;"
+						>
+							More info about Internet Explorer and Microsoft Edge
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- site header -->
+			<div
+				id="ms--site-header"
+				data-test-id="site-header-wrapper"
+				itemscope="itemscope"
+				itemtype="http://schema.org/Organization"
+			>
+				<div
+					id="ms--mobile-nav"
+					class="site-header display-none-tablet padding-inline-none gap-none"
+					data-bi-name="mobile-header"
+					data-test-id="mobile-header"
+				></div>
+				<div
+					id="ms--primary-nav"
+					class="site-header display-none display-flex-tablet"
+					data-bi-name="L1-header"
+					data-test-id="primary-header"
+				></div>
+				<div
+					id="ms--secondary-nav"
+					class="site-header display-none display-flex-tablet"
+					data-bi-name="L2-header"
+					data-test-id="secondary-header"
+					
+				></div>
+			</div>
+			
+		<!-- banner -->
+		<div data-banner>
+			<div id="disclaimer-holder"></div>
+			
+		</div>
+		<!-- banner end -->
+	
+		</div>
+	</header>
+				 
+
+				<main
+					id="main"
+					role="main"
+					class="layout-body-main "
+					data-bi-name="content"
+					lang="en-us"
+					dir="ltr"
+				>
+					
+			<div
+				data-main-column
+				class=""
+			>
+				<div class="">
+					
+		<div id="article-header" class="background-color-body display-none-print">
+			<div class="display-flex align-items-center justify-content-space-between uhf-container">
+				
+		<details
+			id="article-header-breadcrumbs-overflow-popover"
+			class="popover popover-left"
+			data-for="article-header-breadcrumbs"
+		>
+			<summary
+				class="button button-clear button-primary button-sm inner-focus"
+				aria-label="All breadcrumbs"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-more"></span>
+				</span>
+			</summary>
+			<div id="article-header-breadcrumbs-overflow" class="popover-content"></div>
+		</details>
+
+		<bread-crumbs
+			id="article-header-breadcrumbs"
+			role="group"
+			aria-label="Breadcrumbs"
+			data-test-id="article-header-breadcrumbs"
+			class="overflow-hidden flex-grow-1 margin-right-sm margin-right-md-tablet margin-right-lg-desktop margin-left-negative-xxs padding-left-xxs"
+		></bread-crumbs>
+	 
+		<div
+			id="article-header-page-actions"
+			class="opacity-none margin-left-auto display-flex flex-wrap-no-wrap align-items-stretch"
+		>
+			 
+
+			<details class="popover popover-right" id="article-header-page-actions-overflow">
+				<summary
+					class="justify-content-flex-start button button-clear button-sm button-primary inner-focus"
+					aria-label="More actions"
+					aria-expanded="false"
+					title="More actions"
+				>
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-more-vertical"></span>
+					</span>
+				</summary>
+				<div class="popover-content">
+					  
+		<a
+			id="lang-link-overflow"
+			class="button-sm inner-focus button button-clear button-block justify-content-flex-start text-align-left"
+			data-bi-name="language-toggle"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-read-in-link
+			href="#"
+			hidden
+		>
+			<span class="icon" aria-hidden="true" data-read-in-link-icon>
+				<span class="docon docon-locale-globe"></span>
+			</span>
+			<span data-read-in-link-text>Read in English</span>
+		</a>
+	
+					
+		<button
+			type="button"
+			class="collection button button-clear button-sm button-block justify-content-flex-start text-align-left inner-focus"
+			data-list-type="collection"
+			data-bi-name="collection"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-popover-close
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-circle-addition"></span>
+			</span>
+			<span class="collection-status">Add</span>
+		</button>
+	 
+		<button
+			type="button"
+			class="collection button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+			data-list-type="plan"
+			data-bi-name="plan"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-popover-close
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-circle-addition"></span>
+			</span>
+			<span class="plan-status">Add to Plans</span>
+		</button>
+	 
+					  
+				</div>
+			</details>
+		</div>
+	
+			</div>
+		</div>
+	 
+					<div data-page-content class="">
+
+<script>
+	msDocs.data.certificationRenewalData = {
+		assessmentId: '57c24fcf-9366-4854-b44e-4f3934070fed'
+	};
+</script>
+<div id="certification-expires" class="has-overflow-hidden has-default-focus"></div>
+
+<section id="certification-hero" class="hero hero-sm hero-image background-color-body-accent gradient-border-right gradient-border-body-accent margin-bottom-lg" style="
+		--hero-background-image-light: url('/en-us/learn/media/certifications/hero/cert_hero_light.png?branch=main');
+		--hero-background-image-dark: url('/en-us/learn/media/certifications/hero/cert_hero_dark.png?branch=main');">
+	<div class="hero-content">
+		<div class="margin-right-xs-tablet margin-bottom-xs">
+			<figure class="image is-64x64">
+				<img role="presentation" class="object-fit-contain" src="/en-us/media/learn/certification/badges/microsoft-certified-associate-badge.svg" alt="" data-linktype="absolute-path">
+			</figure>
+		</div>
+		<div>
+			<p class="supertitle justify-content-space-between font-size-sm letter-spacing-wide text-transform-uppercase margin-bottom-xxs">
+				Certification
+			</p>
+			<h1 class="title is-2 is-responsive margin-bottom-xs">Microsoft Certified: Fabric Data Engineer Associate</h1>
+			<p class="color-text-subtle font-size-lg margin-bottom-xs">
+				As a Fabric Data Engineer, you should have subject matter expertise with data loading patterns, data architectures, and orchestration processes.
+			</p>
+		</div>
+	</div>
+</section>
+
+<section id="certification-verifiable-credential" class="modular-content-container padding-inline-xs margin-bottom-lg" hidden="">
+	<div class="gradient-card">
+		<div class="gradient-card-content">
+			<p class="font-size-xs is-uppercase letter-spacing-wide">Congratulations</p>
+			<p class="font-size-h6 font-size-h3-tablet font-weight-semibold">
+				You've earned this credential</p>
+			<hr class="margin-block-sm">
+			<div class="columns align-items-center">
+				<div class="column">
+					<a id="certification-verifiable-credential-url" href="#" class="button button-filled button-primary is-fullwidth-mobile" data-linktype="self-bookmark">View my credential</a>
+				</div>
+				<div class="column is-narrow">
+					<div id="certification-sharing-links"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="certification-at-a-glance" class="modular-content-container padding-inline-xs margin-bottom-lg">
+<div id="at-a-glance" class="padding-sm background-color-body-medium border-radius-lg">
+	<h2 class="title is-4 gradient-text-purple-blue display-inline-block has-line-height-reset">
+		At a glance
+	</h2>
+	<ul class="columns is-multiline">
+<li class=" column is-half">
+	<div class="media">
+		<div class="media-left">
+			<span class="icon">
+				<span class="docon docon-dial-shape1" aria-hidden="true"></span>
+			</span>
+		</div>
+		<div class="media-content">
+			<p class="list-label is-capitalized font-weight-semibold">
+				Level
+			</p>
+			<div class="list-container is-comma-delimited ">
+
+							<a class="certification-browse-page-link" href="/en-us/credentials/browse/?levels=intermediate&amp;credential_types=certification" data-linktype="absolute-path">Intermediate</a>
+
+
+			</div>
+		</div>
+	</div>
+</li>
+<li class=" column is-half">
+	<div class="media">
+		<div class="media-left">
+			<span class="icon">
+				<span class="docon docon-product" aria-hidden="true"></span>
+			</span>
+		</div>
+		<div class="media-content">
+			<p class="list-label is-capitalized font-weight-semibold">
+				Product
+			</p>
+			<div class="list-container is-comma-delimited ">
+
+							<a class="certification-browse-page-link" href="/en-us/credentials/browse/?products=fabric&amp;credential_types=certification" data-linktype="absolute-path">Microsoft Fabric</a>
+
+
+			</div>
+		</div>
+	</div>
+</li>
+<li class=" column is-half">
+	<div class="media">
+		<div class="media-left">
+			<span class="icon">
+				<span class="docon docon-contact" aria-hidden="true"></span>
+			</span>
+		</div>
+		<div class="media-content">
+			<p class="list-label is-capitalized font-weight-semibold">
+				Role
+			</p>
+			<div class="list-container is-comma-delimited ">
+
+							<a class="certification-browse-page-link" href="/en-us/credentials/browse/?roles=data-engineer&amp;credential_types=certification" data-linktype="absolute-path">Data Engineer</a>
+
+
+			</div>
+		</div>
+	</div>
+</li>
+<li class=" column is-half">
+	<div class="media">
+		<div class="media-left">
+			<span class="icon">
+				<span class="docon docon-text-document" aria-hidden="true"></span>
+			</span>
+		</div>
+		<div class="media-content">
+			<p class="list-label is-capitalized font-weight-semibold">
+				Subject
+			</p>
+			<div class="list-container is-comma-delimited ">
+
+							<a class="certification-browse-page-link" href="/en-us/credentials/browse/?subjects=data-engineering&amp;credential_types=certification" data-linktype="absolute-path">Data engineering</a>
+
+
+			</div>
+		</div>
+	</div>
+</li>
+<li class=" column is-half">
+	<div class="media">
+		<div class="media-left">
+			<span class="icon">
+				<span class="docon docon-calendar" aria-hidden="true"></span>
+			</span>
+		</div>
+		<div class="media-content">
+			<p class="list-label is-capitalized font-weight-semibold">
+				Last Updated
+			</p>
+			<div class="list-container is-comma-delimited ">
+
+
+							<span class="">10/19/2026</span>
+
+			</div>
+		</div>
+	</div>
+</li>
+	</ul>
+</div>
+</section>
+
+<section id="certification-jump-to" class="modular-content-container padding-inline-xs margin-bottom-lg">
+	<h2 class="font-size-md margin-bottom-xs">Jump to</h2>
+	<div class="border-left padding-left-sm margin-bottom-xs">
+		<p><a href="#certification-prepare-for-the-exam" data-linktype="self-bookmark">Prepare for the exam</a></p>
+		<p><a href="#certification-practice-for-the-exam" data-linktype="self-bookmark">Practice for the exam</a></p>
+		<p><a href="#certification-take-the-exam" data-linktype="self-bookmark">Take the exam</a></p>
+		<p><a href="#certification-renew-your-certification" data-linktype="self-bookmark">Renew your certification</a></p>
+		
+		<p class="expandable"><a href="#certification-resources" data-linktype="self-bookmark">Certification resources</a></p>
+	</div>
+	<button class="button button-primary button-clear" aria-controls="certification-jump-to" data-title="Show more" data-expanded-title="Show less" data-test-id="certification-jump-to-show-more-button" data-show-more=""><span class="show-more-text">Show more</span></button>
+</section>
+
+<section id="certification-overview" class="modular-content-container padding-inline-xs margin-bottom-sm">
+	<h2 class="font-size-h4 gradient-text-purple-blue display-inline-block">Overview</h2>
+	<div class="content margin-bottom-lg"><p>As a candidate for this certification, you should have subject matter expertise with data loading patterns, data architectures, and orchestration processes. Your responsibilities for this role include:</p>
+<ul>
+<li>Ingesting and transforming data.</li>
+<li>Securing and managing an analytics solution.</li>
+<li>Monitoring and optimizing an analytics solution.</li>
+</ul>
+<p>You work closely with analytics engineers, architects, analysts, and administrators to design and deploy data engineering solutions for analytics.</p>
+<p>You should be skilled at manipulating and transforming data by using Structured Query Language (SQL), PySpark, and Kusto Query Language (KQL).</p>
+</div>
+		<div id="skill-badge-list-container">
+			<div class="margin-block-md">
+<div id="skill-badge-list-section">
+	<h3 class="title is-5">Skills earned upon completion</h3>
+	<ul id="skill-badge-list">
+		<li class="display-inline">
+			<a class="button button-sm line-clamp-1 display-inline-block-tablet is-loading" href="#" data-linktype="self-bookmark">
+				<span>Loading...</span>
+			</a>
+		</li>
+		<li class="display-inline">
+			<a class="button button-sm line-clamp-1 display-inline-block-tablet is-loading" href="#" data-linktype="self-bookmark">
+				<span>Loading...</span>
+			</a>
+		</li>
+		<li class="display-inline">
+			<a class="button button-sm line-clamp-1 display-inline-block-tablet is-loading" href="#" data-linktype="self-bookmark">
+				<span>Loading...</span>
+			</a>
+		</li>
+	</ul>
+</div>
+			</div>
+		</div>
+	<div class="content columns is-gapless-mobile">
+	</div>
+</section>
+
+<section id="certification-prepare-for-the-exam" class="modular-content-container padding-inline-xs margin-bottom-sm">
+	<h2 class="font-size-h4 gradient-text-purple-blue display-inline-block margin-bottom-none">Prepare for the exam</h2>
+<div id="tabpanel-learning-paths">
+	<div class="level margin-none padding-bottom-sm">
+		<div class="level-left margin-none padding-none">
+			<div class="level-item flex-shrink-1 justify-content-flex-start has-line-height-reset">
+				
+			</div>
+		</div>
+		<div class="level-right authenticated margin-top-xxs margin-top-none-tablet">
+			<div class="level-item justify-content-flex-start">
+				<label id="hide-completed-paths-label" class="checkbox checkbox-sm is-hidden authenticated">
+					<input id="path-section-hide-completed" type="checkbox">
+					<span class="checkbox-check" role="presentation"></span>
+					<span class="checkbox-text font-weight-semibold">Hide completed</span>
+				</label>
+			</div>
+		</div>
+	</div>
+	<div class="padding-bottom-none margin-bottom-xxs">
+		<ul id="learning-paths-list" aria-live="polite" aria-relevant="additions" data-learn-type="path" class="grid is-horizontal margin-left-none">
+			<li class="grid-item margin-bottom-sm ">
+				<article class="card border-color-accent border-left-lg has-loading-skeleton" aria-label="Learning Paths" data-learn-uid="course.dp-700t00">
+					<div class="card-template">
+						<p class="card-supertitle"></p>
+						<button class="card-title link-button"></button>
+						<img aria-hidden="true" class="card-template-icon" src="">
+						<div class="card-template-detail">
+							<ul class="card-content-metadata margin-top-xxs has-bullets" id="">
+								<li class="margin-bottom-none margin-bottom-xxs-tablet">
+								</li>
+							</ul>
+							<ul class="metadata page-metadata font-size-xs" id="course.dp-700t00_tags">
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+						<p class="margin-top-xxs">
+							<button class="start-learn-path button button-sm button-primary button-filled" data-bi-name="study-guide-start">
+								<span>Start course</span>
+							</button>
+						</p>
+					</div>
+					<div class="card-footer">
+						<div class="card-footer-item is-hidden">
+							<progress class="progress-bar progress-bar-success" value="0" max="100"></progress><span class="progress-label"></span>
+						</div>
+						<div class="card-footer-item">
+							<div class="buttons">
+								<button class="button button-clear button-sm"></button>
+								<button class="button button-primary button-filled button-sm" type="button"></button>
+							</div>
+						</div>
+					</div>
+				</article>
+			</li>
+		</ul>
+	</div>
+	
+</div>
+</section>
+
+<section id="certification-practice-for-the-exam" class="modular-content-container padding-inline-xs margin-bottom-lg">
+	<h2 class="font-size-h4 gradient-text-purple-blue display-inline-block margin-bottom-sm">Practice for the exam</h2>
+
+	<div class="media">
+		<div class="media-left">
+			<div class="image image-24x24 icon-background">
+				<img alt="" src="/en-us/media/learn/certification/icons/exam.svg?branch=main" aria-hidden="true" role="presentation" data-linktype="absolute-path">
+			</div>
+		</div>
+		<div class="media-content">
+			<p class="supertitle justify-content-space-between font-size-xs letter-spacing-wide text-transform-uppercase margin-bottom-xxs">
+				Practice Assessment</p>
+			<p class="font-weight-semibold">Assess your knowledge</p>
+			<p class="font-size-sm margin-bottom-xxs">Practice assessments provide you with an overview of the style, wording, and difficulty of the questions you're likely to experience on the exam. Through these assessments, you're able to assess your readiness, determine where additional preparation is needed, and fill knowledge gaps bringing you one step closer to the likelihood of passing your exam.</p>
+			<a class="button button-primary" href="./practice/assessment?assessment-type=practice&amp;assessmentId=1704375541&amp;practice-assessment-type=certification" data-linktype="relative-path">Take the practice assessment</a>
+			<details id="certification-practice-assessment-attempts" class="details margin-top-xs" hidden="">
+				<summary class="details-summary-reverse background-color-body-medium border-none">
+					<p class="font-weight-semibold font-size-lg margin-bottom-xxs">
+							Previous attempts</p>
+						<p class="font-size-md">See reports of your previous attempts.</p>
+				</summary>
+				<div id="certification-practice-assessment-attempts-list" class="details-content padding-block-xs padding-left-xl" aria-live="polite" aria-relevant="additions"></div>
+			</details>
+		</div>
+	</div>
+
+	<div class="media">
+		<div class="media-left">
+			<div class="image image-24x24 icon-background">
+				<img alt="" src="/en-us/media/learn/certification/icons/learning-lab.svg?branch=main" aria-hidden="true" role="presentation" data-linktype="absolute-path">
+			</div>
+		</div>
+		<div class="media-content">
+			<p class="supertitle justify-content-space-between font-size-xs letter-spacing-wide text-transform-uppercase margin-bottom-xxs">
+				Exam Sandbox</p>
+			<p class="font-weight-semibold">Experience demo</p>
+			<p class="font-size-sm margin-bottom-xxs">Experience the look and feel of the exam before taking it. You'll be able to interact with different question types in the same user interface you'll use during the exam.</p>
+			<div class="buttons">
+				<a class="button button-primary" href="https://go.microsoft.com/fwlink/?linkid=2226877" data-linktype="external">Launch the sandbox</a>
+			</div>
+		</div>
+	</div>
+
+
+</section>
+
+<section id="certification-take-the-exam" class="modular-content-container padding-inline-xs">
+	<h2 class="font-size-h4 gradient-text-purple-blue display-inline-block margin-bottom-sm">Take the exam</h2>
+
+	<div class="media">
+		<div class="media-left">
+			<span class="docon docon-status-waiting margin-right-xxs" aria-hidden="true"></span>
+		</div>
+		<div class="media-content">
+			<p>You will have <span class="font-weight-semibold">100 minutes</span> to complete this assessment.</p>
+		</div>
+	</div>
+
+	<div class="media">
+		<div class="media-left">
+			<span class="docon docon-book-art64 margin-right-xxs" aria-hidden="true"></span>
+		</div>
+		<div class="media-content">
+			<p class="font-weight-semibold">Exam policy</p>
+			<div><p class="margin-bottom-xs">This exam will be proctored. You may have interactive components to complete as part of this exam. To learn more about exam duration and experience, visit: <a href="/en-us/credentials/support/exam-duration-exam-experience" data-linktype="absolute-path">Exam duration and exam experience</a>.</p><p>If you fail a certification exam, don’t worry. You can retake it 24 hours after the first attempt. For subsequent retakes, the amount of time varies. For full details, visit: <a href="/en-us/credentials/support/retake-policy" data-linktype="absolute-path">Exam retake policy</a>.</p></div>
+		</div>
+	</div>
+
+	<div class="media">
+			<div class="media-left">
+				<span class="docon docon-medical margin-right-xxs" aria-hidden="true"></span>
+			</div>
+			<div class="content">
+				<p class="font-weight-semibold margin-top-none">Assessed on this exam</p>
+				<ul>
+					<li>Implement and manage an analytics solution</li>
+					<li>Ingest and transform data</li>
+					<li>Monitor and optimize an analytics solution</li>
+				</ul>
+			</div>
+	</div>
+
+	<div class="media">
+		<div class="media-left">
+			<span class="docon docon-ease-of-access margin-right-xxs" aria-hidden="true"></span>
+		</div>
+		<div class="media-content">
+			<p class="font-weight-semibold">Need accommodations?</p>
+			<div><p>We offer a variety of accommodations to support you.</p><p><a href="/en-us/credentials/certifications/accommodations" data-linktype="absolute-path">Learn More</a></p></div>
+		</div>
+	</div>
+
+	<div class="media">
+		<div class="media-left">
+			<span class="docon docon-localize-language margin-right-xxs" aria-hidden="true"></span>
+		</div>
+		<div class="media-content">
+			<p class="font-weight-semibold">This exam is offered in the following languages:</p>
+			<p>English, Japanese, Chinese (Simplified), Chinese (Traditional), German, French, Italian, Korean, Spanish, Portuguese (Brazil)</p>
+		</div>
+	</div>
+
+	<div class="columns is-reversed-mobile padding-top-xs padding-bottom-lg">
+		<div class="column is-offset-1">
+			<div class="providers">
+				<div data-provider-type="pearson-vue" data-bi-name="pearson-vue" class="schedule-exam margin-top-sm">
+					<p class="font-size-md font-weight-semibold margin-top-none">Schedule through Pearson Vue
+					</p>
+					<a href="/en-us/credentials/certifications/schedule-through-pearson-vue?examUid=exam.DP-700&amp;examUrl=https://learn.microsoft.com/credentials/certifications" data-exam-provider-link="" class="button button-primary button-filled border-none margin-top-xxs" data-linktype="absolute-path">
+						<span class="schedule-exam-text">Schedule exam</span>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-chevron-right-light"></span>
+						</span>
+					</a>
+				</div>
+<div class="margin-top-xs font-size-sm" data-bi-name="cert-inline-notification">
+	<span class="icon" aria-hidden="true">
+		<span class="docon docon-status-info-outline"></span>
+	</span>
+	<span>We strongly recommend that you register for an exam with a personal MSA account. If you register with an organizational (work/school) AAD account, your exam records will be lost if you leave your organization and they will be unrecoverable.</span>
+</div>
+			</div>
+		</div>
+		<div class="column is-one-third margin-top-sm">
+			<div class="has-loading-skeleton" data-exam-pricing-type="DP">
+				<div class="select select-sm margin-bottom-xs">
+					<select class="exam-countries skeleton" aria-label="Select a country or region" aria-required="true" disabled="">
+					</select>
+				</div>
+				<p class="exam-amount font-size-h5 font-weight-semibold margin-bottom-xxs">&nbsp;
+				</p>
+				<p class="font-size-sm margin-top-none">Price based on the country or region in which the exam is proctored.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="certification-renew-your-certification" class="modular-content-container padding-inline-xs margin-bottom-lg">
+	<h2 class="font-size-h4 gradient-text-purple-blue display-inline-block">Renew your certification</h2>
+	<div class="content">
+		<p class="margin-bottom-xs">
+			Do you know that Microsoft role-based and specialty certifications expire unless they are renewed? Learn the latest updates to the technology for your job role and renew your certification at no cost by passing an online assessment on Microsoft Learn.
+		</p>
+		  <a href="renew/" data-linktype="relative-path">Learn more about renewing  </a>
+	</div>
+</section>
+
+
+<section id="certification-resources" class="modular-content-container padding-inline-xs margin-bottom-lg">
+	<h2 class="font-size-h3 gradient-text-purple-blue display-inline-block">Certification resources
+	</h2>
+	<div class="margin-top-sm">
+
+
+
+
+	<div class="columns is-multiline">
+			<div class="column is-6">
+<article class="card border-color-accent border-left-lg is-full-height">
+	<div class="card-content">
+		<a class="card-title" href="https://aka.ms/DP700-StudyGuide" data-linktype="external">Exam DP-700 study guide</a>
+		<p>Focus your studies as you prepare for the exam. Review the study guide to learn about the topics the exam covers, updates, and additional resources.</p>
+	</div>
+</article>
+			</div>
+			<div class="column is-6">
+<article class="card border-color-accent border-left-lg is-full-height">
+	<div class="card-content">
+		<a class="card-title" href="https://arch-center.azureedge.net/Credentials/Certification-Poster_en-us.pdf" data-linktype="external">Certification poster</a>
+		<p>Check out an overview of fundamentals, role-based, and specialty certifications.</p>
+	</div>
+</article>
+			</div>
+			<div class="column is-6">
+<article class="card border-color-accent border-left-lg is-full-height">
+	<div class="card-content">
+		<a class="card-title" href="/en-us/credentials/certifications/deals" data-linktype="absolute-path">Exam Replay</a>
+		<p>Boost your odds of success with this great offer.</p>
+	</div>
+</article>
+			</div>
+			<div class="column is-6">
+<article class="card border-color-accent border-left-lg is-full-height">
+	<div class="card-content">
+		<a class="card-title" href="/en-us/credentials/support/help" data-linktype="absolute-path">Support for credentials</a>
+		<p>Get help through Microsoft Credentials support forums. A forum moderator will respond in one business day, Monday–Friday.</p>
+	</div>
+</article>
+			</div>
+			<div class="column is-6">
+<article class="card border-color-accent border-left-lg is-full-height">
+	<div class="card-content">
+		<a class="card-title" href="https://arch-center.azureedge.net/Credentials/choose-your-microsoft-credential.pdf" data-linktype="external">Choose your Microsoft Credential</a>
+		<p>Microsoft Applied Skills or Microsoft Certifications? Choose the path that fits your career goals, desired skillset, and schedule.</p>
+	</div>
+</article>
+			</div>
+	</div>
+
+	</div>
+</section>
+
+</div>
+					
+				</div>
+				
+			</div>
+		
+				</main>
+				  <div class="layout-body-footer " data-bi-name="layout-footer">
+		<footer
+			id="footer"
+			data-test-id="footer"
+			data-bi-name="footer"
+			class="footer-layout padding-xs padding-sm-desktop has-default-focus border-top"
+			role="contentinfo"
+		>
+			<div class="display-flex gap-xs flex-wrap-wrap is-full-height padding-right-lg-desktop">
+				
+		<a
+			data-mscc-ic="false"
+			href="#"
+			data-bi-name="select-locale"
+			class="locale-selector-link flex-shrink-0 button button-sm button-clear external-link-indicator"
+			id=""
+			title=""
+			><span class="icon" aria-hidden="true"
+				><span class="docon docon-world"></span></span
+			><span class="local-selector-link-text">en-us</span></a
+		>
+	 <div class="ccpa-privacy-link" data-ccpa-privacy-link hidden>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://aka.ms/yourcaliforniaprivacychoices"
+			data-bi-name="your-privacy-choices"
+			class="button button-sm button-clear flex-shrink-0 external-link-indicator"
+			id=""
+			title=""
+			>
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 30 14"
+			xml:space="preserve"
+			height="16"
+			width="43"
+			aria-hidden="true"
+			focusable="false"
+		>
+			<path
+				d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z"
+				style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"
+			></path>
+			<path
+				d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z"
+				style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"
+			></path>
+			<path
+				d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z"
+				style="fill:#fff"
+			></path>
+			<path
+				d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z"
+				style="fill:#06f"
+			></path>
+		</svg>
+	
+			<span>Your Privacy Choices</span></a
+		>
+	
+	</div>
+				<div class="flex-shrink-0">
+		<div class="dropdown has-caret-up">
+			<button
+				data-test-id="theme-selector-button"
+				class="dropdown-trigger button button-clear button-sm inner-focus theme-dropdown-trigger"
+				aria-controls="{{ themeMenuId }}"
+				aria-haspopup="true"
+				aria-expanded="false"
+				data-bi-name="theme"
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-sun"></span></span>
+				<span>Theme</span>
+				<span class="icon expanded-indicator" aria-hidden="true">
+					<span class="docon docon-chevron-down-light"></span>
+				</span>
+			</button>
+			<div class="dropdown-menu" id="{{ themeMenuId }}" role="menu">
+				<ul class="theme-selector padding-xxs" data-test-id="theme-dropdown-menu" role="none">
+					<li class="theme display-block" role="none">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							role="menuitemradio"
+							aria-checked="false"
+							data-theme-to="light"
+							tabindex="-1"
+						>
+							<span class="theme-light margin-right-xxs">
+								<span
+									class="theme-selector-icon border display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span> Light </span>
+						</button>
+					</li>
+					<li class="theme display-block" role="none">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							role="menuitemradio"
+							aria-checked="false"
+							data-theme-to="dark"
+							tabindex="-1"
+						>
+							<span class="theme-dark margin-right-xxs">
+								<span
+									class="border theme-selector-icon display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span> Dark </span>
+						</button>
+					</li>
+					<li class="theme display-block" role="none">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							role="menuitemradio"
+							aria-checked="false"
+							data-theme-to="high-contrast"
+							tabindex="-1"
+						>
+							<span class="theme-high-contrast margin-right-xxs">
+								<span
+									class="border theme-selector-icon display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span> High contrast </span>
+						</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+			</div>
+			<ul class="links" data-bi-name="footerlinks">
+				<li class="manage-cookies-holder" hidden=""></li>
+				<li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/principles-for-ai-generated-content"
+			data-bi-name="aiDisclaimer"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>AI Disclaimer</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/previous-versions/"
+			data-bi-name="archivelink"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Previous Versions</a
+		>
+	
+	</li> <li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog"
+			data-bi-name="bloglink"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Blog</a
+		>
+	
+	</li> <li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/contribute"
+			data-bi-name="contributorGuide"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Contribute</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://go.microsoft.com/fwlink/?LinkId=521839"
+			data-bi-name="privacy"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Privacy</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://go.microsoft.com/fwlink/?linkid=2259814"
+			data-bi-name="consumer-health-privacy"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Consumer Health Privacy</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/legal/termsofuse"
+			data-bi-name="termsofuse"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Terms of Use</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://www.microsoft.com/legal/intellectualproperty/Trademarks/"
+			data-bi-name="trademarks"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Trademarks</a
+		>
+	
+	</li>
+				<li>&copy; Microsoft 2026</li>
+			</ul>
+		</footer>
+	</footer>
+			</body>
+		</html>

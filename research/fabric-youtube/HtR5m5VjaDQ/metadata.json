@@ -1,0 +1,407 @@
+{
+  "success": true,
+  "credits_remaining": 16830,
+  "credits_charged": 1,
+  "type": "video",
+  "id": "HtR5m5VjaDQ",
+  "title": "Databricks Genie Ontology Explained | Demo with Databricks Product Manager",
+  "description": "How does \u202a@Databricks\u202c Genie Ontology connect Unity Catalog, business definitions, and AI agents? In this technical walkthrough, Databricks\u2019 Elise Georis joins Josue Bogran to explain modeled and learned context, OntoRank, and the sources Genie One uses to answer business questions.\n\nTopics include:\n-Modeled ontology: governed metric views, Pages, and domains.\n-Learned ontology: snippets extracted from existing assets and how teams use them.\n-OntoRank: certification, authorship, popularity, and source authority.\n-Text-to-SQL, Model Context Protocol (MCP) connectors, and search.\n-Source permissions, personal memory, citations, and tool governance.\n-Benchmark questions, domain experts, certified assets, and rollout evaluation.\n\nA Genie One demo shows the context behind a product-adoption analysis, including cited definitions and learned snippets, followed by forecasting, scheduled work, and creating a specialized Genie Agent.\n\nChapters\n00:00 Genie One, Genie Code and Genie Agents\n01:34 What is Databricks Genie Ontology?\n03:37 Unity Catalog: metric views, Pages and domains\n05:34 Learned ontology and knowledge snippets\n06:43 OntoRank: source authority and ranking\n07:33 Genie accuracy, latency and cost\n09:06 Text-to-SQL, MCP connectors and search\n11:21 Personal memory and user preferences\n12:51 Genie Ontology in Genie One demo: product-adoption analysis\n16:31 Citations, ontology snippets and authority scores\n18:15 Follow-up analysis, forecasting and skills\n20:22 Documents, MCP actions and governance\n24:23 Genie Agents, scheduling and integrations\n26:50 Demo: actions, schedules and shared agents\n29:49 Getting started: benchmarks and rollout\n32:37 Best practices: semantics, certification and access\n34:04 Closing",
+  "descriptionLinks": [
+    "https://www.youtube.com/@Databricks",
+    "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+    "https://www.youtube.com/watch?v=HtR5m5VjaDQ&t=94s",
+    "https://www.youtube.com/watch?v=HtR5m5VjaDQ&t=217s",
+    "https://www.youtube.com/watch?v=HtR5m5VjaDQ&t=334s",
+    "https://www.youtube.com/watch?v=HtR5m5VjaDQ&t=403s",
+    "https://www.youtube.com/watch?v=HtR5m5VjaDQ&t=453s",
+    "https://www.youtube.com/watch?v=HtR5m5VjaDQ&t=546s&pp=0gcJCWMAwfN6Pr3D",
+    "https://www.youtube.com/watch?v=HtR5m5VjaDQ&t=681s",
+    "https://www.youtube.com/watch?v=HtR5m5VjaDQ&t=771s",
+    "https://www.youtube.com/watch?v=HtR5m5VjaDQ&t=991s",
+    "https://www.youtube.com/watch?v=HtR5m5VjaDQ&t=1095s",
+    "https://www.youtube.com/watch?v=HtR5m5VjaDQ&t=1222s",
+    "https://www.youtube.com/watch?v=HtR5m5VjaDQ&t=1463s",
+    "https://www.youtube.com/watch?v=HtR5m5VjaDQ&t=1610s",
+    "https://www.youtube.com/watch?v=HtR5m5VjaDQ&t=1789s",
+    "https://www.youtube.com/watch?v=HtR5m5VjaDQ&t=1957s&pp=0gcJCWMAwfN6Pr3D",
+    "https://www.youtube.com/watch?v=HtR5m5VjaDQ&t=2044s&pp=0gcJCWMAwfN6Pr3D"
+  ],
+  "commentCountText": "2",
+  "commentCountInt": 2,
+  "likeCountText": "42",
+  "likeCountInt": 42,
+  "viewCountText": "3,556",
+  "viewCountInt": 3556,
+  "publishDateText": "Oct 18, 2026",
+  "collaborators": [],
+  "channel": {
+    "id": "UCxEBod_kB7IVJ_3GVzrzH_g",
+    "url": "https://www.youtube.com/@JoshBogran",
+    "handle": "JoshBogran",
+    "title": "Josh Bogran",
+    "thumbnail": "https://yt3.ggpht.com/vuCulAh6JcuwhGlan7xpIOeryNWQ_x5Kz4sHslHCXbJps6naRqHtcLBzd7QT4u2hH5YE5DhOVw=s48-c-k-c0x00ffffff-no-rj"
+  },
+  "chapters": [
+    {
+      "title": "Genie One, Genie Code and Genie Agents",
+      "timeDescription": "0:00",
+      "startSeconds": 0
+    },
+    {
+      "title": "What is Databricks Genie Ontology?",
+      "timeDescription": "1:34",
+      "startSeconds": 94
+    },
+    {
+      "title": "Unity Catalog: metric views, Pages and domains",
+      "timeDescription": "3:37",
+      "startSeconds": 217
+    },
+    {
+      "title": "Learned ontology and knowledge snippets",
+      "timeDescription": "5:34",
+      "startSeconds": 334
+    },
+    {
+      "title": "OntoRank: source authority and ranking",
+      "timeDescription": "6:43",
+      "startSeconds": 403
+    },
+    {
+      "title": "Genie accuracy, latency and cost",
+      "timeDescription": "7:33",
+      "startSeconds": 453
+    },
+    {
+      "title": "Text-to-SQL, MCP connectors and search",
+      "timeDescription": "9:06",
+      "startSeconds": 546
+    },
+    {
+      "title": "Personal memory and user preferences",
+      "timeDescription": "11:21",
+      "startSeconds": 681
+    },
+    {
+      "title": "Genie Ontology in Genie One demo: product-adoption analysis",
+      "timeDescription": "12:51",
+      "startSeconds": 771
+    },
+    {
+      "title": "Citations, ontology snippets and authority scores",
+      "timeDescription": "16:31",
+      "startSeconds": 991
+    },
+    {
+      "title": "Follow-up analysis, forecasting and skills",
+      "timeDescription": "18:15",
+      "startSeconds": 1095
+    },
+    {
+      "title": "Documents, MCP actions and governance",
+      "timeDescription": "20:22",
+      "startSeconds": 1222
+    },
+    {
+      "title": "Genie Agents, scheduling and integrations",
+      "timeDescription": "24:23",
+      "startSeconds": 1463
+    },
+    {
+      "title": "Demo: actions, schedules and shared agents",
+      "timeDescription": "26:50",
+      "startSeconds": 1610
+    },
+    {
+      "title": "Getting started: benchmarks and rollout",
+      "timeDescription": "29:49",
+      "startSeconds": 1789
+    },
+    {
+      "title": "Best practices: semantics, certification and access",
+      "timeDescription": "32:37",
+      "startSeconds": 1957
+    },
+    {
+      "title": "Closing",
+      "timeDescription": "34:04",
+      "startSeconds": 2044
+    }
+  ],
+  "watchNextVideos": [
+    {
+      "id": "Z0CYboIzp9M",
+      "title": "SDP-Meta Deep-Dive: Building Data Pipelines at Scale on Databricks (w/ Databricks Sr. Staff FDE)",
+      "thumbnail": "https://i.ytimg.com/vi/Z0CYboIzp9M/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLBnoBEwY2zyk9BLMH0iDim6mtsALw",
+      "channel": {
+        "title": "Josh Bogran",
+        "url": "https://www.youtube.com/@JoshBogran",
+        "handle": "JoshBogran",
+        "id": "UCxEBod_kB7IVJ_3GVzrzH_g"
+      },
+      "publishedTimeText": "1mo ago",
+      "publishedTime": null,
+      "publishDateText": "1mo ago",
+      "publishDate": null,
+      "viewCountText": "3.3K",
+      "viewCountInt": 3300,
+      "lengthText": "32:32",
+      "lengthInSeconds": 1952,
+      "videoUrl": "https://www.youtube.com/watch?v=Z0CYboIzp9M"
+    },
+    {
+      "id": "Sir59K8ZDPU",
+      "title": "Why Agentic Systems Need Ontologies \u2014 Frank Coyle, UC Berkeley",
+      "thumbnail": "https://i.ytimg.com/vi/Sir59K8ZDPU/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLD3OywaSGObBWnJM5F0nHEEy_-AhA",
+      "channel": {
+        "title": "AI Engineer",
+        "url": "https://www.youtube.com/@aiDotEngineer",
+        "handle": "aiDotEngineer",
+        "id": "UCLKPca3kwwd-B59HNr-_lvA"
+      },
+      "publishedTimeText": "2mo ago",
+      "publishedTime": null,
+      "publishDateText": "2mo ago",
+      "publishDate": null,
+      "viewCountText": "462K",
+      "viewCountInt": 462000,
+      "lengthText": "21:18",
+      "lengthInSeconds": 1278,
+      "videoUrl": "https://www.youtube.com/watch?v=Sir59K8ZDPU"
+    },
+    {
+      "id": "sEfz7wyQILw",
+      "title": "What I Actually Do As a Solutions Architect at Databricks",
+      "thumbnail": "https://i.ytimg.com/vi/sEfz7wyQILw/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLBjU09zHVW4UZCWF9OPiTeB1MaRzg",
+      "channel": {
+        "title": "Thomas Hass",
+        "url": "https://www.youtube.com/@DataMyselfAI",
+        "handle": "DataMyselfAI",
+        "id": "UC5N1bpa5-qfpaFYsgkYfy3A"
+      },
+      "publishedTimeText": "3mo ago",
+      "publishedTime": null,
+      "publishDateText": "3mo ago",
+      "publishDate": null,
+      "viewCountText": "5.6K",
+      "viewCountInt": 5600,
+      "lengthText": "14:22",
+      "lengthInSeconds": 862,
+      "videoUrl": "https://www.youtube.com/watch?v=sEfz7wyQILw"
+    },
+    {
+      "id": "7Y4sbZgBdnc",
+      "title": "Is the Agent Harness Dead? \u2014 Jediah Katz, SpaceXAI",
+      "thumbnail": "https://i.ytimg.com/vi/7Y4sbZgBdnc/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDChWahNiqU2QZprINhn9694semvw",
+      "channel": {
+        "title": "AI Engineer",
+        "url": "https://www.youtube.com/@aiDotEngineer",
+        "handle": "aiDotEngineer",
+        "id": "UCLKPca3kwwd-B59HNr-_lvA"
+      },
+      "publishedTimeText": "2d ago",
+      "publishedTime": null,
+      "publishDateText": "2d ago",
+      "publishDate": null,
+      "viewCountText": "153K",
+      "viewCountInt": 153000,
+      "lengthText": "18:15",
+      "lengthInSeconds": 1095,
+      "videoUrl": "https://www.youtube.com/watch?v=7Y4sbZgBdnc"
+    },
+    {
+      "id": "ZuLAAdIjeeE",
+      "title": "Building an Agentic Analytics Foundation on the Lakehouse",
+      "thumbnail": "https://i.ytimg.com/vi/ZuLAAdIjeeE/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCRWOVIYBeaJJleFSp5RnINKrEP_Q",
+      "channel": {
+        "title": "Databricks",
+        "url": "https://www.youtube.com/@Databricks",
+        "handle": "Databricks",
+        "id": "UC3q8O3Bh2Le8Rj1-Q-_UUbA"
+      },
+      "publishedTimeText": "11h ago",
+      "publishedTime": null,
+      "publishDateText": "11h ago",
+      "publishDate": null,
+      "viewCountText": "1.1K",
+      "viewCountInt": 1100,
+      "lengthText": "12:42",
+      "lengthInSeconds": 762,
+      "videoUrl": "https://www.youtube.com/watch?v=ZuLAAdIjeeE"
+    },
+    {
+      "id": "SPGxj0mhTBU",
+      "title": "FULL INTERVIEW: Rep. Ilhan Omar sits down with Chris Hayes after raid on her house",
+      "thumbnail": "https://i.ytimg.com/vi/SPGxj0mhTBU/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDR1QTooBTLXSRMOIw7-bW4YXotZw",
+      "channel": {
+        "title": "MS NOW",
+        "url": "https://www.youtube.com/@msnow",
+        "handle": "msnow",
+        "id": "UCaXkIU1QidjPwiAYu6GcHjg"
+      },
+      "publishedTimeText": "1h ago",
+      "publishedTime": null,
+      "publishDateText": "1h ago",
+      "publishDate": null,
+      "viewCountText": "18K",
+      "viewCountInt": 18000,
+      "lengthText": "29:54",
+      "lengthInSeconds": 1794,
+      "videoUrl": "https://www.youtube.com/watch?v=SPGxj0mhTBU"
+    },
+    {
+      "id": "UsX7cY7UgvA",
+      "title": "Databricks' CRO on Scaling Sales Culture, AI Costs, and SaaS Disruption (w/ Ron Gabrisko)",
+      "thumbnail": "https://i.ytimg.com/vi/UsX7cY7UgvA/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLB9wLk7MnnvetX93Gzi621AZ-n8Tw",
+      "channel": {
+        "title": "Josh Bogran",
+        "url": "https://www.youtube.com/@JoshBogran",
+        "handle": "JoshBogran",
+        "id": "UCxEBod_kB7IVJ_3GVzrzH_g"
+      },
+      "publishedTimeText": "2mo ago",
+      "publishedTime": null,
+      "publishDateText": "2mo ago",
+      "publishDate": null,
+      "viewCountText": "2.5K",
+      "viewCountInt": 2500,
+      "lengthText": "23:15",
+      "lengthInSeconds": 1395,
+      "videoUrl": "https://www.youtube.com/watch?v=UsX7cY7UgvA"
+    },
+    {
+      "id": "DUEazKCIQXc",
+      "title": "'He's That Guy' Watch Barack Obama Rip Trump Apart With Just Three Words | US Midterms 2026 | N18G",
+      "thumbnail": "https://i.ytimg.com/vi/DUEazKCIQXc/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLD1UtOgxsnrOOgFjjBOju01dFuKgw",
+      "channel": {
+        "title": "CNN-News18",
+        "url": "https://www.youtube.com/@cnnnews18",
+        "handle": "cnnnews18",
+        "id": "UCef1-8eOpJgud7szVPlZQAQ"
+      },
+      "publishedTimeText": "1d ago",
+      "publishedTime": null,
+      "publishDateText": "1d ago",
+      "publishDate": null,
+      "viewCountText": "256K",
+      "viewCountInt": 256000,
+      "lengthText": "30:53",
+      "lengthInSeconds": 1853,
+      "videoUrl": "https://www.youtube.com/watch?v=DUEazKCIQXc"
+    },
+    {
+      "id": "YGgNBcIgI4s",
+      "title": "What Is Jev? The AI Model That Doesn't Generate Text",
+      "thumbnail": "https://i.ytimg.com/vi/YGgNBcIgI4s/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCy-1V2sVwzYrqhfpuEjvEXNqMDmQ",
+      "channel": {
+        "title": "IBM Technology",
+        "url": "https://www.youtube.com/@IBMTechnology",
+        "handle": "IBMTechnology",
+        "id": "UCKWaEZ-_VweaEx1j62do_vQ"
+      },
+      "publishedTimeText": "2w ago",
+      "publishedTime": null,
+      "publishDateText": "2w ago",
+      "publishDate": null,
+      "viewCountText": "1.2M",
+      "viewCountInt": 1200000,
+      "lengthText": "15:03",
+      "lengthInSeconds": 903,
+      "videoUrl": "https://www.youtube.com/watch?v=YGgNBcIgI4s"
+    },
+    {
+      "id": "KPkalJzXCTE",
+      "title": "Microsoft Fabric: Synapse Lessons, Open Semantic Models, and Databricks Competition w/ Microsoft CVP",
+      "thumbnail": "https://i.ytimg.com/vi/KPkalJzXCTE/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCs9XNDKmB7KY7YxZFDu04-osIPKA",
+      "channel": {
+        "title": "Josh Bogran",
+        "url": "https://www.youtube.com/@JoshBogran",
+        "handle": "JoshBogran",
+        "id": "UCxEBod_kB7IVJ_3GVzrzH_g"
+      },
+      "publishedTimeText": "3mo ago",
+      "publishedTime": null,
+      "publishDateText": "3mo ago",
+      "publishDate": null,
+      "viewCountText": "902",
+      "viewCountInt": 902,
+      "lengthText": "31:08",
+      "lengthInSeconds": 1868,
+      "videoUrl": "https://www.youtube.com/watch?v=KPkalJzXCTE"
+    },
+    {
+      "id": "K99zQ3h0TK4",
+      "title": "Databricks Omnigent Deep Dive with Matei Zaharia: Collaboration and Control Layer for AI Agents",
+      "thumbnail": "https://i.ytimg.com/vi/K99zQ3h0TK4/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLAIaj2IL_NZctU4AoN0jQO__BoQhg",
+      "channel": {
+        "title": "Josh Bogran",
+        "url": "https://www.youtube.com/@JoshBogran",
+        "handle": "JoshBogran",
+        "id": "UCxEBod_kB7IVJ_3GVzrzH_g"
+      },
+      "publishedTimeText": "2mo ago",
+      "publishedTime": null,
+      "publishDateText": "2mo ago",
+      "publishDate": null,
+      "viewCountText": "2.7K",
+      "viewCountInt": 2700,
+      "lengthText": "41:34",
+      "lengthInSeconds": 2494,
+      "videoUrl": "https://www.youtube.com/watch?v=K99zQ3h0TK4"
+    },
+    {
+      "id": "185XGEMefgc",
+      "title": "MCP vs API: Why traditional APIs are failing AI agents",
+      "thumbnail": "https://i.ytimg.com/vi/185XGEMefgc/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLAPtXXHYB3fQRY45FR-vdsXtSNfTw",
+      "channel": {
+        "title": "Google Cloud Tech and Smitha Kolan - Machine Learning Engineer",
+        "url": "https://www.youtube.comundefined"
+      },
+      "publishedTimeText": "3mo ago",
+      "publishedTime": null,
+      "publishDateText": "3mo ago",
+      "publishDate": null,
+      "viewCountText": "1.2M",
+      "viewCountInt": 1200000,
+      "lengthText": "12:25",
+      "lengthInSeconds": 745,
+      "videoUrl": "https://www.youtube.com/watch?v=185XGEMefgc"
+    }
+  ],
+  "thumbnail": "https://img.youtube.com/vi/HtR5m5VjaDQ/maxresdefault.jpg",
+  "publishDate": "2026-10-18T16:28:49-07:00",
+  "keywords": [
+    "video",
+    "sharing",
+    "camera phone",
+    "video phone",
+    "free",
+    "upload"
+  ],
+  "genre": "Science & Technology",
+  "durationMs": 2069000,
+  "durationFormatted": "00:34:29",
+  "captionTracks": [
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=HtR5m5VjaDQ&ei=ZJPZasGcG-bhkucPhL-YYQ&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792669140&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=4B3EB136728119A24E5824AC79747951F108921C.5DD918B9262E9A4C8CF43792A17439C97108CCCB&key=yt8&kind=asr&lang=en&variant=gemini",
+      "name": {
+        "simpleText": "English (auto-generated)"
+      },
+      "vssId": "a.en",
+      "languageCode": "en",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    }
+  ],
+  "audioTracks": [],
+  "downloadOptions": {
+    "expiresInSeconds": "21540",
+    "hlsManifestUrl": null,
+    "dashManifestUrl": null,
+    "formats": [],
+    "note": "These are YouTube's muxed audio+video formats when exposed. Links can expire, and some videos may only expose signature-ciphered URLs."
+  },
+  "most_replayed": null,
+  "isPaidPromotion": false
+}

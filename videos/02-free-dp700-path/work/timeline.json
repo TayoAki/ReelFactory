@@ -1,0 +1,725 @@
+{
+  "id": "02-free-dp700-path",
+  "title": "The free DP-700 preparation path",
+  "duration": 38.6987,
+  "beats": [
+    {
+      "text": "Want to prepare for DP seven hundred without buying a course? Start with Microsoft's own resources.",
+      "asset": "dp700",
+      "device": "tile",
+      "key": "DP-700",
+      "start": 0.0,
+      "end": 5.8987,
+      "voice_end": 5.7387
+    },
+    {
+      "text": "First, open the Fabric Data Engineer certification page on Microsoft Learn.",
+      "asset": "dp700",
+      "device": "focus",
+      "start": 5.8987,
+      "end": 10.8373,
+      "voice_end": 10.6773
+    },
+    {
+      "text": "Use the study guide to see the skills the exam measures.",
+      "asset": "dp700",
+      "device": "sequence",
+      "start": 10.8373,
+      "end": 14.0267,
+      "voice_end": 13.8667
+    },
+    {
+      "text": "Then work through the free, self paced learning material linked from that page.",
+      "asset": "dp700",
+      "device": "focus",
+      "start": 14.0267,
+      "end": 18.112,
+      "voice_end": 17.952
+    },
+    {
+      "text": "Use the free practice assessment to find the areas you still need to study.",
+      "asset": "assessment",
+      "device": "focus",
+      "start": 18.112,
+      "end": 22.3893,
+      "voice_end": 22.2293
+    },
+    {
+      "text": "Try the exam sandbox so the interface is familiar before exam day.",
+      "asset": "assessment",
+      "device": "sequence",
+      "start": 22.3893,
+      "end": 26.7947,
+      "voice_end": 26.6347
+    },
+    {
+      "text": "Preparation is free. An exam booking is a separate purchase unless you have a valid offer.",
+      "asset": "dp700",
+      "device": "focus",
+      "start": 26.7947,
+      "end": 32.352,
+      "voice_end": 32.192
+    },
+    {
+      "text": "Save the official certification page. Check any voucher's eligibility and deadline before relying on it.",
+      "asset": "dp700",
+      "device": "focus",
+      "start": 32.352,
+      "end": 38.6987,
+      "voice_end": 38.5387
+    }
+  ],
+  "words": [
+    {
+      "w": "Want",
+      "s": 0.0,
+      "e": 0.26,
+      "alignment": "asr"
+    },
+    {
+      "w": "to",
+      "s": 0.26,
+      "e": 0.44,
+      "alignment": "asr"
+    },
+    {
+      "w": "prepare",
+      "s": 0.44,
+      "e": 0.64,
+      "alignment": "asr"
+    },
+    {
+      "w": "for",
+      "s": 0.64,
+      "e": 1.0,
+      "alignment": "asr"
+    },
+    {
+      "w": "DP",
+      "s": 1.0,
+      "e": 1.46,
+      "alignment": "asr"
+    },
+    {
+      "w": "seven",
+      "s": 1.46,
+      "e": 1.8,
+      "alignment": "asr"
+    },
+    {
+      "w": "hundred",
+      "s": 1.8,
+      "e": 2.1,
+      "alignment": "asr"
+    },
+    {
+      "w": "without",
+      "s": 2.1,
+      "e": 2.48,
+      "alignment": "asr"
+    },
+    {
+      "w": "buying",
+      "s": 2.48,
+      "e": 2.78,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 2.78,
+      "e": 3.0,
+      "alignment": "asr"
+    },
+    {
+      "w": "course?",
+      "s": 3.0,
+      "e": 3.74,
+      "alignment": "asr"
+    },
+    {
+      "w": "Start",
+      "s": 3.74,
+      "e": 3.98,
+      "alignment": "asr"
+    },
+    {
+      "w": "with",
+      "s": 3.98,
+      "e": 4.28,
+      "alignment": "asr"
+    },
+    {
+      "w": "Microsoft's",
+      "s": 4.28,
+      "e": 5.04,
+      "alignment": "asr"
+    },
+    {
+      "w": "own",
+      "s": 5.04,
+      "e": 5.1,
+      "alignment": "asr"
+    },
+    {
+      "w": "resources.",
+      "s": 5.1,
+      "e": 5.7387,
+      "alignment": "asr"
+    },
+    {
+      "w": "First,",
+      "s": 5.898666666666667,
+      "e": 6.778666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "open",
+      "s": 6.778666666666667,
+      "e": 6.898666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 6.898666666666667,
+      "e": 7.138666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "Fabric",
+      "s": 7.138666666666667,
+      "e": 7.378666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "Data",
+      "s": 7.378666666666668,
+      "e": 7.7586666666666675,
+      "alignment": "asr"
+    },
+    {
+      "w": "Engineer",
+      "s": 7.7586666666666675,
+      "e": 8.238666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "certification",
+      "s": 8.238666666666667,
+      "e": 8.818666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "page",
+      "s": 8.818666666666667,
+      "e": 9.358666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "on",
+      "s": 9.358666666666668,
+      "e": 9.838666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "Microsoft",
+      "s": 9.838666666666667,
+      "e": 10.158666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "Learn.",
+      "s": 10.158666666666667,
+      "e": 10.677366666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "Use",
+      "s": 10.837333333333333,
+      "e": 11.157333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 11.157333333333334,
+      "e": 11.357333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "study",
+      "s": 11.357333333333333,
+      "e": 11.557333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "guide",
+      "s": 11.557333333333334,
+      "e": 11.897333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "to",
+      "s": 11.897333333333334,
+      "e": 12.257333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "see",
+      "s": 12.257333333333333,
+      "e": 12.417333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 12.417333333333334,
+      "e": 12.597333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "skills",
+      "s": 12.597333333333333,
+      "e": 12.857333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 12.857333333333333,
+      "e": 13.137333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "exam",
+      "s": 13.137333333333334,
+      "e": 13.377333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "measures.",
+      "s": 13.377333333333333,
+      "e": 13.866633333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "Then",
+      "s": 14.026666666666667,
+      "e": 14.266666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "work",
+      "s": 14.266666666666667,
+      "e": 14.466666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "through",
+      "s": 14.466666666666667,
+      "e": 14.666666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 14.666666666666668,
+      "e": 14.866666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "free,",
+      "s": 14.866666666666667,
+      "e": 15.586666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "self",
+      "s": 15.586666666666668,
+      "e": 15.806666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "paced",
+      "s": 15.806666666666667,
+      "e": 16.10666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "learning",
+      "s": 16.10666666666667,
+      "e": 16.406666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "material",
+      "s": 16.406666666666666,
+      "e": 16.906666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "linked",
+      "s": 16.906666666666666,
+      "e": 17.186666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "from",
+      "s": 17.186666666666667,
+      "e": 17.346666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "that",
+      "s": 17.346666666666668,
+      "e": 17.546666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "page.",
+      "s": 17.546666666666667,
+      "e": 17.951966666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "Use",
+      "s": 18.112000000000002,
+      "e": 18.452,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 18.452,
+      "e": 18.672,
+      "alignment": "asr"
+    },
+    {
+      "w": "free",
+      "s": 18.672,
+      "e": 18.872000000000003,
+      "alignment": "asr"
+    },
+    {
+      "w": "practice",
+      "s": 18.872000000000003,
+      "e": 19.192,
+      "alignment": "asr"
+    },
+    {
+      "w": "assessment",
+      "s": 19.192,
+      "e": 19.752000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "to",
+      "s": 19.752000000000002,
+      "e": 20.232000000000003,
+      "alignment": "asr"
+    },
+    {
+      "w": "find",
+      "s": 20.232000000000003,
+      "e": 20.472,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 20.472,
+      "e": 20.712000000000003,
+      "alignment": "asr"
+    },
+    {
+      "w": "areas",
+      "s": 20.712000000000003,
+      "e": 20.912000000000003,
+      "alignment": "asr"
+    },
+    {
+      "w": "you",
+      "s": 20.912000000000003,
+      "e": 21.272000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "still",
+      "s": 21.272000000000002,
+      "e": 21.492,
+      "alignment": "asr"
+    },
+    {
+      "w": "need",
+      "s": 21.492,
+      "e": 21.732000000000003,
+      "alignment": "asr"
+    },
+    {
+      "w": "to",
+      "s": 21.732000000000003,
+      "e": 21.952,
+      "alignment": "asr"
+    },
+    {
+      "w": "study.",
+      "s": 21.952,
+      "e": 22.229300000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "Try",
+      "s": 22.389333333333337,
+      "e": 22.749333333333336,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 22.749333333333336,
+      "e": 23.049333333333337,
+      "alignment": "asr"
+    },
+    {
+      "w": "exam",
+      "s": 23.049333333333337,
+      "e": 23.289333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "sandbox",
+      "s": 23.289333333333335,
+      "e": 23.709333333333337,
+      "alignment": "asr"
+    },
+    {
+      "w": "so",
+      "s": 23.709333333333337,
+      "e": 24.269333333333336,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 24.269333333333336,
+      "e": 24.449333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "interface",
+      "s": 24.449333333333335,
+      "e": 24.729333333333336,
+      "alignment": "asr"
+    },
+    {
+      "w": "is",
+      "s": 24.729333333333336,
+      "e": 25.109333333333336,
+      "alignment": "asr"
+    },
+    {
+      "w": "familiar",
+      "s": 25.109333333333336,
+      "e": 25.449333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "before",
+      "s": 25.449333333333335,
+      "e": 26.009333333333338,
+      "alignment": "asr"
+    },
+    {
+      "w": "exam",
+      "s": 26.009333333333338,
+      "e": 26.309333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "day.",
+      "s": 26.309333333333335,
+      "e": 26.634633333333337,
+      "alignment": "asr"
+    },
+    {
+      "w": "Preparation",
+      "s": 26.79466666666667,
+      "e": 27.45466666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "is",
+      "s": 27.45466666666667,
+      "e": 27.754666666666672,
+      "alignment": "asr"
+    },
+    {
+      "w": "free.",
+      "s": 27.754666666666672,
+      "e": 28.51466666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "An",
+      "s": 28.51466666666667,
+      "e": 28.734666666666673,
+      "alignment": "asr"
+    },
+    {
+      "w": "exam",
+      "s": 28.734666666666673,
+      "e": 29.01466666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "booking",
+      "s": 29.01466666666667,
+      "e": 29.254666666666672,
+      "alignment": "asr"
+    },
+    {
+      "w": "is",
+      "s": 29.254666666666672,
+      "e": 29.594666666666672,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 29.594666666666672,
+      "e": 29.79466666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "separate",
+      "s": 29.79466666666667,
+      "e": 29.99466666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "purchase",
+      "s": 29.99466666666667,
+      "e": 30.51466666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "unless",
+      "s": 30.51466666666667,
+      "e": 30.95466666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "you",
+      "s": 30.95466666666667,
+      "e": 31.17466666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "have",
+      "s": 31.17466666666667,
+      "e": 31.37466666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 31.37466666666667,
+      "e": 31.69466666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "valid",
+      "s": 31.69466666666667,
+      "e": 31.69466666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "offer.",
+      "s": 31.69466666666667,
+      "e": 32.19196666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "Save",
+      "s": 32.352000000000004,
+      "e": 32.712,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 32.712,
+      "e": 33.212,
+      "alignment": "asr"
+    },
+    {
+      "w": "official",
+      "s": 33.212,
+      "e": 33.272000000000006,
+      "alignment": "asr"
+    },
+    {
+      "w": "certification",
+      "s": 33.272000000000006,
+      "e": 33.792,
+      "alignment": "asr"
+    },
+    {
+      "w": "page.",
+      "s": 33.792,
+      "e": 34.892,
+      "alignment": "asr"
+    },
+    {
+      "w": "Check",
+      "s": 34.892,
+      "e": 35.072,
+      "alignment": "asr"
+    },
+    {
+      "w": "any",
+      "s": 35.072,
+      "e": 35.292,
+      "alignment": "asr"
+    },
+    {
+      "w": "voucher's",
+      "s": 35.292,
+      "e": 35.87200000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "eligibility",
+      "s": 35.87200000000001,
+      "e": 36.292,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 36.292,
+      "e": 36.912000000000006,
+      "alignment": "asr"
+    },
+    {
+      "w": "deadline",
+      "s": 36.912000000000006,
+      "e": 37.352000000000004,
+      "alignment": "asr"
+    },
+    {
+      "w": "before",
+      "s": 37.352000000000004,
+      "e": 37.772000000000006,
+      "alignment": "asr"
+    },
+    {
+      "w": "relying",
+      "s": 37.772000000000006,
+      "e": 38.092000000000006,
+      "alignment": "asr"
+    },
+    {
+      "w": "on",
+      "s": 38.092000000000006,
+      "e": 38.372,
+      "alignment": "asr"
+    },
+    {
+      "w": "it.",
+      "s": 38.372,
+      "e": 38.538700000000006,
+      "alignment": "asr"
+    }
+  ],
+  "voice": "Local Kokoro af_heart, synthetic review voice",
+  "alignment_note": "Whisper tiny.en word timestamps, with interpolated unmatched words explicitly flagged. Not manually verified to +/- one frame.",
+  "script_sha256": "5d300820b42c5021b39e8b36ffca7a0671d08181c3837cb9e01fdebb6e278a40"
+}

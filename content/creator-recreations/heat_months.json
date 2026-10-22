@@ -1,0 +1,59 @@
+{
+  "source": "https://data.cityofnewyork.us/resource/erm2-nwe9.json",
+  "query": {
+    "$select": "date_extract_m(created_date) as month,count(*) as total",
+    "$where": "created_date >= '2025-10-01T00:00:00' AND created_date < '2026-10-01T00:00:00' AND complaint_type = 'HEAT/HOT WATER'",
+    "$group": "month",
+    "$order": "month"
+  },
+  "results": [
+    {
+      "month": "1",
+      "total": "79928"
+    },
+    {
+      "month": "2",
+      "total": "59031"
+    },
+    {
+      "month": "3",
+      "total": "29783"
+    },
+    {
+      "month": "4",
+      "total": "19553"
+    },
+    {
+      "month": "5",
+      "total": "9823"
+    },
+    {
+      "month": "6",
+      "total": "4388"
+    },
+    {
+      "month": "7",
+      "total": "4331"
+    },
+    {
+      "month": "8",
+      "total": "3682"
+    },
+    {
+      "month": "9",
+      "total": "4862"
+    },
+    {
+      "month": "10",
+      "total": "31858"
+    },
+    {
+      "month": "11",
+      "total": "47946"
+    },
+    {
+      "month": "12",
+      "total": "63902"
+    }
+  ]
+}

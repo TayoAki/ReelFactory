@@ -1,0 +1,35 @@
+{
+  "changes": [
+    "explicit SVG card planes; fixed text metrics; no double italic or animated font size",
+    "front card separates from stationary stack",
+    "peer cards emerge from beneath front card",
+    "visible tool glyph and directional arrowheads",
+    "single-line domain annotation and stronger text contrast",
+    "caption weight and source-derived phrase alignment"
+  ],
+  "source_measurements": {
+    "flat_family_card": [
+      178,
+      129,
+      110,
+      110
+    ],
+    "tilted_front_matrix": [
+      0.85,
+      -0.02,
+      -0.31,
+      0.85,
+      187,
+      105
+    ],
+    "tilt_interval": [
+      55.167,
+      55.7
+    ],
+    "extrusion_interval": [
+      55.833,
+      56.3
+    ]
+  },
+  "precision": "Geometry and timings are estimates from decoded 640\u00d7360 source frames, not original project keyframes"
+}

@@ -1,0 +1,7 @@
+[SystemMemory] cgroup memory limit detected: 16384 MiB. It governs memory-adaptive render behaviour instead of host RAM.
+◆  Linting 01-ontology-map/index.html
+
+  ⚠ [/workspace/ReelFactory/motion-studies/01-ontology-map/index.html:13:1] nested_structure_needs_subcomposition [c1]: <div id="c1"> is a timeline element that contains nested <div id="study">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.
+    Fix: Move <div id="c1"> and its contents into a sub-composition file and mount it with data-composition-src.
+
+◇  0 error(s), 1 warning(s)

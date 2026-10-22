@@ -1,0 +1,56 @@
+Source: https://docs.databricks.com/aws/en/genie/genie-ontology
+Retrieved: 2026-10-22
+
+[Skip to main content](https://docs.databricks.com/aws/en/genie/genie-ontology#__docusaurus_skipToContent_fallback)
+
+On this page
+
+Last updated on **Sep 11, 2026**
+
+Preview
+
+This feature is in [Public Preview](https://docs.databricks.com/aws/en/release-notes/release-types).
+
+note
+
+At this time, customers do not incur costs for curating ontology snippets. However, Databricks may update pricing for the feature at any time by notifying you and/or by updating our [pricing page](https://www.databricks.com/product/pricing).
+
+Genie Ontology is the unified context layer that gives the [Genie family of AI experiences](https://docs.databricks.com/aws/en/genie/) a business-aware map of your organization. Genie One and Genie Code search the same ontology, so context you curate once applies to both surfaces. The ontology brings together two categories of context:
+
+- **Unity Catalog semantics**: Modeled context that you define, govern, and certify through features like [metric views](https://docs.databricks.com/aws/en/uc-semantics/metric-views/), [domains](https://docs.databricks.com/aws/en/uc-semantics/domains), and [Pages](https://docs.databricks.com/aws/en/uc-semantics/pages).
+- **Inferred context**: A map of snippets that Genie automatically extracts and maintains from your existing assets and usage, including metric views, dashboards, SQL queries, and Genie Agents.
+
+For example, inferred snippets can include:
+
+- **Metric definitions**: For example, "An 'active user' is a distinct user, deduplicated across all platforms."
+- **Authoritative sources**: For example, "Revenue questions should be answered using the curated Finance Genie Agent."
+- **Business rules**: For example, "A 'qualified lead' only counts once a demo is booked."
+
+Each snippet gets an authority score based on where it was generated from, how often it is used, and how fresh it is. Snippets are also gated by Unity Catalog permissions, so Genie only uses snippets extracted from assets you have permission to see. When you ask a question, Genie ranks the most relevant snippets, resolves conflicts, and answers using only the sources you are permitted to see. This generates more accurate responses and reduces latency by reducing the amount of data Genie needs to crawl and query.
+
+To see which knowledge sources Genie used to answer your question, click the ![Snippet icon.](<Base64-Image-Removed>) citation icons in a response.
+
+## Additional resources [​](https://docs.databricks.com/aws/en/genie/genie-ontology\#additional-resources "Direct link to Additional resources")
+
+- [Use Genie One](https://docs.databricks.com/aws/en/genie-one/)
+- [Genie Code](https://docs.databricks.com/aws/en/genie-code/)
+- [Databricks AI assistive features trust and safety](https://docs.databricks.com/aws/en/databricks-ai/databricks-ai-trust)
+
+On this page
+
+- [Additional resources](https://docs.databricks.com/aws/en/genie/genie-ontology#additional-resources)
+
+Was this page helpful?
+
+YesNo
+
+Send feedback
+
+Ask Genie
+
+Open Genie
+
+|     |     |
+| --- | --- |
+|  |  |
+

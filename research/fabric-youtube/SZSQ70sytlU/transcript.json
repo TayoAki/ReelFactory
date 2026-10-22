@@ -1,0 +1,1969 @@
+{
+  "success": true,
+  "credits_remaining": 16838,
+  "credits_charged": 1,
+  "type": "video",
+  "url": "https://www.youtube.com/watch?v=SZSQ70sytlU",
+  "transcript": [
+    {
+      "text": "Hello and welcome to another video here",
+      "startMs": "160",
+      "endMs": "3919",
+      "startTimeText": "0:00"
+    },
+    {
+      "text": "at Pragmatic Works. My name is Mitchell",
+      "startMs": "2000",
+      "endMs": "5520",
+      "startTimeText": "0:02"
+    },
+    {
+      "text": "Pearson and in this video we're going to",
+      "startMs": "3919",
+      "endMs": "8080",
+      "startTimeText": "0:03"
+    },
+    {
+      "text": "be taking a look at Microsoft Fabric",
+      "startMs": "5520",
+      "endMs": "11519",
+      "startTimeText": "0:05"
+    },
+    {
+      "text": "data agents. Data agents is just agents",
+      "startMs": "8080",
+      "endMs": "13440",
+      "startTimeText": "0:08"
+    },
+    {
+      "text": "in general, a very big term over the",
+      "startMs": "11519",
+      "endMs": "15280",
+      "startTimeText": "0:11"
+    },
+    {
+      "text": "last year. When I first started hearing",
+      "startMs": "13440",
+      "endMs": "16960",
+      "startTimeText": "0:13"
+    },
+    {
+      "text": "about agents myself, I was very",
+      "startMs": "15280",
+      "endMs": "18960",
+      "startTimeText": "0:15"
+    },
+    {
+      "text": "intimidated by them and really didn't",
+      "startMs": "16960",
+      "endMs": "20880",
+      "startTimeText": "0:16"
+    },
+    {
+      "text": "understand where they fit in. And so in",
+      "startMs": "18960",
+      "endMs": "22480",
+      "startTimeText": "0:18"
+    },
+    {
+      "text": "this video, we're going to be very",
+      "startMs": "20880",
+      "endMs": "25439",
+      "startTimeText": "0:20"
+    },
+    {
+      "text": "specific, just a quick introduction into",
+      "startMs": "22480",
+      "endMs": "26720",
+      "startTimeText": "0:22"
+    },
+    {
+      "text": "what we can do and what we can",
+      "startMs": "25439",
+      "endMs": "28560",
+      "startTimeText": "0:25"
+    },
+    {
+      "text": "accomplish with Microsoft data agents",
+      "startMs": "26720",
+      "endMs": "31199",
+      "startTimeText": "0:26"
+    },
+    {
+      "text": "and how we can get started. So let's",
+      "startMs": "28560",
+      "endMs": "33760",
+      "startTimeText": "0:28"
+    },
+    {
+      "text": "jump right in.",
+      "startMs": "31199",
+      "endMs": "35920",
+      "startTimeText": "0:31"
+    },
+    {
+      "text": "I'm going to be starting here with the",
+      "startMs": "33760",
+      "endMs": "39040",
+      "startTimeText": "0:33"
+    },
+    {
+      "text": "Microsoft documentation. Effectively, a",
+      "startMs": "35920",
+      "endMs": "42480",
+      "startTimeText": "0:35"
+    },
+    {
+      "text": "fabric data agent is really just a Q&A",
+      "startMs": "39040",
+      "endMs": "44480",
+      "startTimeText": "0:39"
+    },
+    {
+      "text": "feature that exists within Microsoft",
+      "startMs": "42480",
+      "endMs": "46800",
+      "startTimeText": "0:42"
+    },
+    {
+      "text": "Fabric using the generative AI",
+      "startMs": "44480",
+      "endMs": "50079",
+      "startTimeText": "0:44"
+    },
+    {
+      "text": "capabilities. I've helped um more than a",
+      "startMs": "46800",
+      "endMs": "52079",
+      "startTimeText": "0:46"
+    },
+    {
+      "text": "couple customers now migrate their data",
+      "startMs": "50079",
+      "endMs": "54079",
+      "startTimeText": "0:50"
+    },
+    {
+      "text": "to Microsoft fabric and then take",
+      "startMs": "52079",
+      "endMs": "56719",
+      "startTimeText": "0:52"
+    },
+    {
+      "text": "advantage of fabric data agents. In",
+      "startMs": "54079",
+      "endMs": "58719",
+      "startTimeText": "0:54"
+    },
+    {
+      "text": "fact, I've done consulting engagements",
+      "startMs": "56719",
+      "endMs": "61199",
+      "startTimeText": "0:56"
+    },
+    {
+      "text": "directly related to and only for",
+      "startMs": "58719",
+      "endMs": "63760",
+      "startTimeText": "0:58"
+    },
+    {
+      "text": "Microsoft fabric kind of setup and",
+      "startMs": "61199",
+      "endMs": "65920",
+      "startTimeText": "1:01"
+    },
+    {
+      "text": "implementation which is yes a little bit",
+      "startMs": "63760",
+      "endMs": "67680",
+      "startTimeText": "1:03"
+    },
+    {
+      "text": "weird since it's still in preview but",
+      "startMs": "65920",
+      "endMs": "69920",
+      "startTimeText": "1:05"
+    },
+    {
+      "text": "that is how excited people are about",
+      "startMs": "67680",
+      "endMs": "72159",
+      "startTimeText": "1:07"
+    },
+    {
+      "text": "data agents. And so I'm able to now",
+      "startMs": "69920",
+      "endMs": "75040",
+      "startTimeText": "1:09"
+    },
+    {
+      "text": "create within Microsoft Fabric an agent",
+      "startMs": "72159",
+      "endMs": "77920",
+      "startTimeText": "1:12"
+    },
+    {
+      "text": "that answers questions for me using",
+      "startMs": "75040",
+      "endMs": "80159",
+      "startTimeText": "1:15"
+    },
+    {
+      "text": "generative AI capability based on my",
+      "startMs": "77920",
+      "endMs": "82159",
+      "startTimeText": "1:17"
+    },
+    {
+      "text": "data and how that data has been set up",
+      "startMs": "80159",
+      "endMs": "83680",
+      "startTimeText": "1:20"
+    },
+    {
+      "text": "and configured. Now if you want to get",
+      "startMs": "82159",
+      "endMs": "86080",
+      "startTimeText": "1:22"
+    },
+    {
+      "text": "started with data agents, you do need to",
+      "startMs": "83680",
+      "endMs": "89759",
+      "startTimeText": "1:23"
+    },
+    {
+      "text": "have at minimum an F2 paid capacity. So",
+      "startMs": "86080",
+      "endMs": "91280",
+      "startTimeText": "1:26"
+    },
+    {
+      "text": "that means you have to go into your",
+      "startMs": "89759",
+      "endMs": "93439",
+      "startTimeText": "1:29"
+    },
+    {
+      "text": "Azure portal, provision a fabric",
+      "startMs": "91280",
+      "endMs": "95520",
+      "startTimeText": "1:31"
+    },
+    {
+      "text": "capacity and then tie that directly to",
+      "startMs": "93439",
+      "endMs": "97520",
+      "startTimeText": "1:33"
+    },
+    {
+      "text": "your workspace. And then you also have",
+      "startMs": "95520",
+      "endMs": "100880",
+      "startTimeText": "1:35"
+    },
+    {
+      "text": "to have within your fabric.microsoft.com",
+      "startMs": "97520",
+      "endMs": "102479",
+      "startTimeText": "1:37"
+    },
+    {
+      "text": "within your environment within your",
+      "startMs": "100880",
+      "endMs": "104400",
+      "startTimeText": "1:40"
+    },
+    {
+      "text": "tenant settings you have to have a",
+      "startMs": "102479",
+      "endMs": "106000",
+      "startTimeText": "1:42"
+    },
+    {
+      "text": "couple of different prerequisites right",
+      "startMs": "104400",
+      "endMs": "108320",
+      "startTimeText": "1:44"
+    },
+    {
+      "text": "so you'll see the list of prerequisites",
+      "startMs": "106000",
+      "endMs": "109680",
+      "startTimeText": "1:46"
+    },
+    {
+      "text": "right here in the Microsoft",
+      "startMs": "108320",
+      "endMs": "112479",
+      "startTimeText": "1:48"
+    },
+    {
+      "text": "documentation fabric data agent tenant",
+      "startMs": "109680",
+      "endMs": "114479",
+      "startTimeText": "1:49"
+    },
+    {
+      "text": "settings must be enabled cross geo",
+      "startMs": "112479",
+      "endMs": "116479",
+      "startTimeText": "1:52"
+    },
+    {
+      "text": "processing for AI is enabled cross geo",
+      "startMs": "114479",
+      "endMs": "118640",
+      "startTimeText": "1:54"
+    },
+    {
+      "text": "storing this is only relevant if you're",
+      "startMs": "116479",
+      "endMs": "120960",
+      "startTimeText": "1:56"
+    },
+    {
+      "text": "not in the US or I can't remember all",
+      "startMs": "118640",
+      "endMs": "122560",
+      "startTimeText": "1:58"
+    },
+    {
+      "text": "the specifics there but if you're in",
+      "startMs": "120960",
+      "endMs": "123680",
+      "startTimeText": "2:00"
+    },
+    {
+      "text": "Europe but you're storing the data",
+      "startMs": "122560",
+      "endMs": "125040",
+      "startTimeText": "2:02"
+    },
+    {
+      "text": "outside of Europe you got to make sure",
+      "startMs": "123680",
+      "endMs": "127680",
+      "startTimeText": "2:03"
+    },
+    {
+      "text": "you enable these PowerBI semantic models",
+      "startMs": "125040",
+      "endMs": "130319",
+      "startTimeText": "2:05"
+    },
+    {
+      "text": "via XMLA endpoints. So this gives you an",
+      "startMs": "127680",
+      "endMs": "132319",
+      "startTimeText": "2:07"
+    },
+    {
+      "text": "idea of if you go into Fabric and you're",
+      "startMs": "130319",
+      "endMs": "134000",
+      "startTimeText": "2:10"
+    },
+    {
+      "text": "like, \"Hey, I can't create a data agent.",
+      "startMs": "132319",
+      "endMs": "135920",
+      "startTimeText": "2:12"
+    },
+    {
+      "text": "What's going on? You're not on a paid",
+      "startMs": "134000",
+      "endMs": "137680",
+      "startTimeText": "2:14"
+    },
+    {
+      "text": "capacity.\" You haven't had somebody",
+      "startMs": "135920",
+      "endMs": "139520",
+      "startTimeText": "2:15"
+    },
+    {
+      "text": "within your organization, a fabric",
+      "startMs": "137680",
+      "endMs": "141200",
+      "startTimeText": "2:17"
+    },
+    {
+      "text": "administrator, go into the tenant",
+      "startMs": "139520",
+      "endMs": "143360",
+      "startTimeText": "2:19"
+    },
+    {
+      "text": "settings and set that up. So, we'll come",
+      "startMs": "141200",
+      "endMs": "145599",
+      "startTimeText": "2:21"
+    },
+    {
+      "text": "back to this documentation in just a",
+      "startMs": "143360",
+      "endMs": "147040",
+      "startTimeText": "2:23"
+    },
+    {
+      "text": "little bit, but what I want to do is I",
+      "startMs": "145599",
+      "endMs": "148879",
+      "startTimeText": "2:25"
+    },
+    {
+      "text": "just briefly want to go to a workspace",
+      "startMs": "147040",
+      "endMs": "151200",
+      "startTimeText": "2:27"
+    },
+    {
+      "text": "that I've used before for other demos,",
+      "startMs": "148879",
+      "endMs": "153200",
+      "startTimeText": "2:28"
+    },
+    {
+      "text": "and I want to quickly create a fabric",
+      "startMs": "151200",
+      "endMs": "155200",
+      "startTimeText": "2:31"
+    },
+    {
+      "text": "data agent so you can see what we're",
+      "startMs": "153200",
+      "endMs": "157440",
+      "startTimeText": "2:33"
+    },
+    {
+      "text": "trying to accomplish and how this works.",
+      "startMs": "155200",
+      "endMs": "159200",
+      "startTimeText": "2:35"
+    },
+    {
+      "text": "So, the first thing that we'll do is",
+      "startMs": "157440",
+      "endMs": "161120",
+      "startTimeText": "2:37"
+    },
+    {
+      "text": "like we would anything else in Microsoft",
+      "startMs": "159200",
+      "endMs": "162959",
+      "startTimeText": "2:39"
+    },
+    {
+      "text": "Fabric is I'll click new item up here at",
+      "startMs": "161120",
+      "endMs": "165680",
+      "startTimeText": "2:41"
+    },
+    {
+      "text": "the top. And then I'm going to just",
+      "startMs": "162959",
+      "endMs": "168720",
+      "startTimeText": "2:42"
+    },
+    {
+      "text": "quickly search for agent. You can also",
+      "startMs": "165680",
+      "endMs": "170160",
+      "startTimeText": "2:45"
+    },
+    {
+      "text": "just scroll through. There's not that",
+      "startMs": "168720",
+      "endMs": "172319",
+      "startTimeText": "2:48"
+    },
+    {
+      "text": "many items here. And you'll notice right",
+      "startMs": "170160",
+      "endMs": "173920",
+      "startTimeText": "2:50"
+    },
+    {
+      "text": "here at the time of this recording, this",
+      "startMs": "172319",
+      "endMs": "176319",
+      "startTimeText": "2:52"
+    },
+    {
+      "text": "is still a preview feature. So I'll go",
+      "startMs": "173920",
+      "endMs": "178560",
+      "startTimeText": "2:53"
+    },
+    {
+      "text": "ahead and click on that. I will give it",
+      "startMs": "176319",
+      "endMs": "180640",
+      "startTimeText": "2:56"
+    },
+    {
+      "text": "a name. So I'll call mine agent. And",
+      "startMs": "178560",
+      "endMs": "183280",
+      "startTimeText": "2:58"
+    },
+    {
+      "text": "then we'll call this YouTube because",
+      "startMs": "180640",
+      "endMs": "185200",
+      "startTimeText": "3:00"
+    },
+    {
+      "text": "it's for YouTube. And then we'll go",
+      "startMs": "183280",
+      "endMs": "187360",
+      "startTimeText": "3:03"
+    },
+    {
+      "text": "ahead and click on create. So I've just",
+      "startMs": "185200",
+      "endMs": "189200",
+      "startTimeText": "3:05"
+    },
+    {
+      "text": "gone into Microsoft Fabric. I'm creating",
+      "startMs": "187360",
+      "endMs": "192080",
+      "startTimeText": "3:07"
+    },
+    {
+      "text": "a new item. The way that data agents",
+      "startMs": "189200",
+      "endMs": "193440",
+      "startTimeText": "3:09"
+    },
+    {
+      "text": "work, they're very quick. They're very",
+      "startMs": "192080",
+      "endMs": "195200",
+      "startTimeText": "3:12"
+    },
+    {
+      "text": "easy to set up. It does require quite a",
+      "startMs": "193440",
+      "endMs": "196879",
+      "startTimeText": "3:13"
+    },
+    {
+      "text": "bit of tuning after the fact to get",
+      "startMs": "195200",
+      "endMs": "199360",
+      "startTimeText": "3:15"
+    },
+    {
+      "text": "things to work the way you need them to,",
+      "startMs": "196879",
+      "endMs": "201200",
+      "startTimeText": "3:16"
+    },
+    {
+      "text": "but it needs to connect to data that you",
+      "startMs": "199360",
+      "endMs": "203680",
+      "startTimeText": "3:19"
+    },
+    {
+      "text": "have inside of Microsoft Fabric. Right",
+      "startMs": "201200",
+      "endMs": "205519",
+      "startTimeText": "3:21"
+    },
+    {
+      "text": "now, you can do that through shortcuts.",
+      "startMs": "203680",
+      "endMs": "206959",
+      "startTimeText": "3:23"
+    },
+    {
+      "text": "You can do that through mirroring. You",
+      "startMs": "205519",
+      "endMs": "208239",
+      "startTimeText": "3:25"
+    },
+    {
+      "text": "can do that through the multitude of",
+      "startMs": "206959",
+      "endMs": "209680",
+      "startTimeText": "3:26"
+    },
+    {
+      "text": "ways that are available with Microsoft",
+      "startMs": "208239",
+      "endMs": "211760",
+      "startTimeText": "3:28"
+    },
+    {
+      "text": "Fabric, but the data does need to be in",
+      "startMs": "209680",
+      "endMs": "214239",
+      "startTimeText": "3:29"
+    },
+    {
+      "text": "fabric and accessible. So, I'm [snorts]",
+      "startMs": "211760",
+      "endMs": "216239",
+      "startTimeText": "3:31"
+    },
+    {
+      "text": "going to add a data source. When I add",
+      "startMs": "214239",
+      "endMs": "218480",
+      "startTimeText": "3:34"
+    },
+    {
+      "text": "my data source, I can grab, you know, a",
+      "startMs": "216239",
+      "endMs": "220080",
+      "startTimeText": "3:36"
+    },
+    {
+      "text": "bunch of different ones that I have out",
+      "startMs": "218480",
+      "endMs": "222560",
+      "startTimeText": "3:38"
+    },
+    {
+      "text": "here, but I'll keep this one simple. And",
+      "startMs": "220080",
+      "endMs": "225200",
+      "startTimeText": "3:40"
+    },
+    {
+      "text": "I'm going to first connect to this",
+      "startMs": "222560",
+      "endMs": "228000",
+      "startTimeText": "3:42"
+    },
+    {
+      "text": "Fabricam sales, if you will, semantic",
+      "startMs": "225200",
+      "endMs": "230000",
+      "startTimeText": "3:45"
+    },
+    {
+      "text": "model that I have created in, you know,",
+      "startMs": "228000",
+      "endMs": "232080",
+      "startTimeText": "3:48"
+    },
+    {
+      "text": "one of my workspaces here. So, I'll go",
+      "startMs": "230000",
+      "endMs": "233440",
+      "startTimeText": "3:50"
+    },
+    {
+      "text": "ahead and click on that and then I'll",
+      "startMs": "232080",
+      "endMs": "236239",
+      "startTimeText": "3:52"
+    },
+    {
+      "text": "click add and it's going to add that",
+      "startMs": "233440",
+      "endMs": "239280",
+      "startTimeText": "3:53"
+    },
+    {
+      "text": "into my workspace and it'll show up here",
+      "startMs": "236239",
+      "endMs": "241599",
+      "startTimeText": "3:56"
+    },
+    {
+      "text": "on the left in just a moment. Now once",
+      "startMs": "239280",
+      "endMs": "244000",
+      "startTimeText": "3:59"
+    },
+    {
+      "text": "you've added your data source and this",
+      "startMs": "241599",
+      "endMs": "246080",
+      "startTimeText": "4:01"
+    },
+    {
+      "text": "can be you know this can be a lakehouse",
+      "startMs": "244000",
+      "endMs": "248640",
+      "startTimeText": "4:04"
+    },
+    {
+      "text": "this can be a data warehouse this can be",
+      "startMs": "246080",
+      "endMs": "251040",
+      "startTimeText": "4:06"
+    },
+    {
+      "text": "a semantic model that you created either",
+      "startMs": "248640",
+      "endMs": "252959",
+      "startTimeText": "4:08"
+    },
+    {
+      "text": "in PowerBI or a semantic model you",
+      "startMs": "251040",
+      "endMs": "254959",
+      "startTimeText": "4:11"
+    },
+    {
+      "text": "created in Microsoft fabric. Once you've",
+      "startMs": "252959",
+      "endMs": "256639",
+      "startTimeText": "4:12"
+    },
+    {
+      "text": "added your data source the next thing we",
+      "startMs": "254959",
+      "endMs": "258720",
+      "startTimeText": "4:14"
+    },
+    {
+      "text": "want to do is we want to go in here and",
+      "startMs": "256639",
+      "endMs": "260560",
+      "startTimeText": "4:16"
+    },
+    {
+      "text": "we want to select what columns are going",
+      "startMs": "258720",
+      "endMs": "263360",
+      "startTimeText": "4:18"
+    },
+    {
+      "text": "to be part of that conversation. So I'm",
+      "startMs": "260560",
+      "endMs": "265040",
+      "startTimeText": "4:20"
+    },
+    {
+      "text": "going to go ahead and grab my my invoice",
+      "startMs": "263360",
+      "endMs": "267280",
+      "startTimeText": "4:23"
+    },
+    {
+      "text": "numbers. I'm going to grab my products,",
+      "startMs": "265040",
+      "endMs": "269840",
+      "startTimeText": "4:25"
+    },
+    {
+      "text": "my geography, my date. And for this",
+      "startMs": "267280",
+      "endMs": "271120",
+      "startTimeText": "4:27"
+    },
+    {
+      "text": "situation, I'm actually just going to",
+      "startMs": "269840",
+      "endMs": "273040",
+      "startTimeText": "4:29"
+    },
+    {
+      "text": "grab everything, but you do have the",
+      "startMs": "271120",
+      "endMs": "276639",
+      "startTimeText": "4:31"
+    },
+    {
+      "text": "option to deselect certain tables if you",
+      "startMs": "273040",
+      "endMs": "279280",
+      "startTimeText": "4:33"
+    },
+    {
+      "text": "don't want to see those tables. Uh, the",
+      "startMs": "276639",
+      "endMs": "280560",
+      "startTimeText": "4:36"
+    },
+    {
+      "text": "other thing you can do, and I won't get",
+      "startMs": "279280",
+      "endMs": "282000",
+      "startTimeText": "4:39"
+    },
+    {
+      "text": "into it in this video because I want to",
+      "startMs": "280560",
+      "endMs": "283440",
+      "startTimeText": "4:40"
+    },
+    {
+      "text": "keep this as a just a really quick",
+      "startMs": "282000",
+      "endMs": "285440",
+      "startTimeText": "4:42"
+    },
+    {
+      "text": "introduction to get you familiar with",
+      "startMs": "283440",
+      "endMs": "287040",
+      "startTimeText": "4:43"
+    },
+    {
+      "text": "the technology, maybe encourage you to",
+      "startMs": "285440",
+      "endMs": "288800",
+      "startTimeText": "4:45"
+    },
+    {
+      "text": "try this on your own. The other thing",
+      "startMs": "287040",
+      "endMs": "290160",
+      "startTimeText": "4:47"
+    },
+    {
+      "text": "you can do is you can go back because",
+      "startMs": "288800",
+      "endMs": "291680",
+      "startTimeText": "4:48"
+    },
+    {
+      "text": "this is a semantic model and you can",
+      "startMs": "290160",
+      "endMs": "293759",
+      "startTimeText": "4:50"
+    },
+    {
+      "text": "actually prep the model. So you can",
+      "startMs": "291680",
+      "endMs": "296400",
+      "startTimeText": "4:51"
+    },
+    {
+      "text": "remove things in the model, columns,",
+      "startMs": "293759",
+      "endMs": "298160",
+      "startTimeText": "4:53"
+    },
+    {
+      "text": "tables, things like that. So they're not",
+      "startMs": "296400",
+      "endMs": "300080",
+      "startTimeText": "4:56"
+    },
+    {
+      "text": "even available to the generative AI,",
+      "startMs": "298160",
+      "endMs": "301680",
+      "startTimeText": "4:58"
+    },
+    {
+      "text": "which really just helps you to get more",
+      "startMs": "300080",
+      "endMs": "303520",
+      "startTimeText": "5:00"
+    },
+    {
+      "text": "consistent and better answers and",
+      "startMs": "301680",
+      "endMs": "305199",
+      "startTimeText": "5:01"
+    },
+    {
+      "text": "removes, if you will, or eliminates",
+      "startMs": "303520",
+      "endMs": "307039",
+      "startTimeText": "5:03"
+    },
+    {
+      "text": "confusion for the generative AI",
+      "startMs": "305199",
+      "endMs": "309120",
+      "startTimeText": "5:05"
+    },
+    {
+      "text": "capability that's going on here. Now,",
+      "startMs": "307039",
+      "endMs": "311039",
+      "startTimeText": "5:07"
+    },
+    {
+      "text": "once I've added these in, I can now come",
+      "startMs": "309120",
+      "endMs": "313440",
+      "startTimeText": "5:09"
+    },
+    {
+      "text": "in here and ask a question, right? And",
+      "startMs": "311039",
+      "endMs": "315199",
+      "startTimeText": "5:11"
+    },
+    {
+      "text": "this is where you have to do some tuning",
+      "startMs": "313440",
+      "endMs": "318080",
+      "startTimeText": "5:13"
+    },
+    {
+      "text": "because if I look at invoices, if I were",
+      "startMs": "315199",
+      "endMs": "321039",
+      "startTimeText": "5:15"
+    },
+    {
+      "text": "to ask for, let's call it total sales,",
+      "startMs": "318080",
+      "endMs": "323360",
+      "startTimeText": "5:18"
+    },
+    {
+      "text": "the AI has to try to figure out what",
+      "startMs": "321039",
+      "endMs": "325199",
+      "startTimeText": "5:21"
+    },
+    {
+      "text": "total sales is. I actually happen to",
+      "startMs": "323360",
+      "endMs": "326479",
+      "startTimeText": "5:23"
+    },
+    {
+      "text": "have a measure, so we're good to go",
+      "startMs": "325199",
+      "endMs": "328160",
+      "startTimeText": "5:25"
+    },
+    {
+      "text": "there probably, but shouldn't have any",
+      "startMs": "326479",
+      "endMs": "330160",
+      "startTimeText": "5:26"
+    },
+    {
+      "text": "issues because I have a measure. But if",
+      "startMs": "328160",
+      "endMs": "331680",
+      "startTimeText": "5:28"
+    },
+    {
+      "text": "I didn't have a measure, it would have",
+      "startMs": "330160",
+      "endMs": "334320",
+      "startTimeText": "5:30"
+    },
+    {
+      "text": "to figure out what total sales is, which",
+      "startMs": "331680",
+      "endMs": "337600",
+      "startTimeText": "5:31"
+    },
+    {
+      "text": "might be trying to create a a total for",
+      "startMs": "334320",
+      "endMs": "340320",
+      "startTimeText": "5:34"
+    },
+    {
+      "text": "the line. So quantity times unit price",
+      "startMs": "337600",
+      "endMs": "342000",
+      "startTimeText": "5:37"
+    },
+    {
+      "text": "and then summing that up or whatever",
+      "startMs": "340320",
+      "endMs": "343520",
+      "startTimeText": "5:40"
+    },
+    {
+      "text": "that might be and it might be incorrect.",
+      "startMs": "342000",
+      "endMs": "345600",
+      "startTimeText": "5:42"
+    },
+    {
+      "text": "So the more prepared your data the",
+      "startMs": "343520",
+      "endMs": "346960",
+      "startTimeText": "5:43"
+    },
+    {
+      "text": "better your answers are going to be. And",
+      "startMs": "345600",
+      "endMs": "348320",
+      "startTimeText": "5:45"
+    },
+    {
+      "text": "a lot of people are right now jumping",
+      "startMs": "346960",
+      "endMs": "350160",
+      "startTimeText": "5:46"
+    },
+    {
+      "text": "into agents. They're jumping into a lot",
+      "startMs": "348320",
+      "endMs": "352240",
+      "startTimeText": "5:48"
+    },
+    {
+      "text": "of this AI stuff and they haven't taken",
+      "startMs": "350160",
+      "endMs": "353600",
+      "startTimeText": "5:50"
+    },
+    {
+      "text": "time to really build their data model.",
+      "startMs": "352240",
+      "endMs": "356320",
+      "startTimeText": "5:52"
+    },
+    {
+      "text": "So just um that's where I see a lot of",
+      "startMs": "353600",
+      "endMs": "358240",
+      "startTimeText": "5:53"
+    },
+    {
+      "text": "consulting companies like ours doing a",
+      "startMs": "356320",
+      "endMs": "359680",
+      "startTimeText": "5:56"
+    },
+    {
+      "text": "lot of work for customers is helping",
+      "startMs": "358240",
+      "endMs": "361360",
+      "startTimeText": "5:58"
+    },
+    {
+      "text": "them with that data migration and",
+      "startMs": "359680",
+      "endMs": "362880",
+      "startTimeText": "5:59"
+    },
+    {
+      "text": "helping them really prep their data and",
+      "startMs": "361360",
+      "endMs": "364639",
+      "startTimeText": "6:01"
+    },
+    {
+      "text": "get it ready to take advantage of the AI",
+      "startMs": "362880",
+      "endMs": "367039",
+      "startTimeText": "6:02"
+    },
+    {
+      "text": "capability. So if I come over here now I",
+      "startMs": "364639",
+      "endMs": "368960",
+      "startTimeText": "6:04"
+    },
+    {
+      "text": "can ask a question and I can say what",
+      "startMs": "367039",
+      "endMs": "373199",
+      "startTimeText": "6:07"
+    },
+    {
+      "text": "are my total sales by year and instead",
+      "startMs": "368960",
+      "endMs": "374720",
+      "startTimeText": "6:08"
+    },
+    {
+      "text": "of you know sending an email to an",
+      "startMs": "373199",
+      "endMs": "376160",
+      "startTimeText": "6:13"
+    },
+    {
+      "text": "analyst and saying hey I need this",
+      "startMs": "374720",
+      "endMs": "378319",
+      "startTimeText": "6:14"
+    },
+    {
+      "text": "report can you build a report for me",
+      "startMs": "376160",
+      "endMs": "380080",
+      "startTimeText": "6:16"
+    },
+    {
+      "text": "what I can do is I can come in here to",
+      "startMs": "378319",
+      "endMs": "381919",
+      "startTimeText": "6:18"
+    },
+    {
+      "text": "my fabric data agent I can ask a",
+      "startMs": "380080",
+      "endMs": "384720",
+      "startTimeText": "6:20"
+    },
+    {
+      "text": "question and it's going to return a",
+      "startMs": "381919",
+      "endMs": "386880",
+      "startTimeText": "6:21"
+    },
+    {
+      "text": "result for me. So I'll give it a moment",
+      "startMs": "384720",
+      "endMs": "388960",
+      "startTimeText": "6:24"
+    },
+    {
+      "text": "to process what it's trying to do. I",
+      "startMs": "386880",
+      "endMs": "390560",
+      "startTimeText": "6:26"
+    },
+    {
+      "text": "love reading what it says it's doing",
+      "startMs": "388960",
+      "endMs": "393039",
+      "startTimeText": "6:28"
+    },
+    {
+      "text": "here. Show the total sales by year. And",
+      "startMs": "390560",
+      "endMs": "395360",
+      "startTimeText": "6:30"
+    },
+    {
+      "text": "so right out the gate, we have total",
+      "startMs": "393039",
+      "endMs": "397360",
+      "startTimeText": "6:33"
+    },
+    {
+      "text": "sales by year. It's right there. Now,",
+      "startMs": "395360",
+      "endMs": "398479",
+      "startTimeText": "6:35"
+    },
+    {
+      "text": "there's a couple of things I want to",
+      "startMs": "397360",
+      "endMs": "400880",
+      "startTimeText": "6:37"
+    },
+    {
+      "text": "point out. One, it'll tell me what steps",
+      "startMs": "398479",
+      "endMs": "402960",
+      "startTimeText": "6:38"
+    },
+    {
+      "text": "were completed. And then if I go further",
+      "startMs": "400880",
+      "endMs": "404800",
+      "startTimeText": "6:40"
+    },
+    {
+      "text": "into this, I can click on the expand",
+      "startMs": "402960",
+      "endMs": "406880",
+      "startTimeText": "6:42"
+    },
+    {
+      "text": "button. Because this is a semantic",
+      "startMs": "404800",
+      "endMs": "408960",
+      "startTimeText": "6:44"
+    },
+    {
+      "text": "model, it's writing DAX. It will show me",
+      "startMs": "406880",
+      "endMs": "411120",
+      "startTimeText": "6:46"
+    },
+    {
+      "text": "the DAX that it wrote. So, it wrote a",
+      "startMs": "408960",
+      "endMs": "413120",
+      "startTimeText": "6:48"
+    },
+    {
+      "text": "DAX equation here, and it's returning",
+      "startMs": "411120",
+      "endMs": "415600",
+      "startTimeText": "6:51"
+    },
+    {
+      "text": "the year from the date table. It's",
+      "startMs": "413120",
+      "endMs": "417039",
+      "startTimeText": "6:53"
+    },
+    {
+      "text": "returning the measure total cells,",
+      "startMs": "415600",
+      "endMs": "419039",
+      "startTimeText": "6:55"
+    },
+    {
+      "text": "exactly what we would expect. And then",
+      "startMs": "417039",
+      "endMs": "421280",
+      "startTimeText": "6:57"
+    },
+    {
+      "text": "it's doing an order by year ascending.",
+      "startMs": "419039",
+      "endMs": "422800",
+      "startTimeText": "6:59"
+    },
+    {
+      "text": "So, this is perfect. it's giving us",
+      "startMs": "421280",
+      "endMs": "424720",
+      "startTimeText": "7:01"
+    },
+    {
+      "text": "exactly what we want. There's not a lot",
+      "startMs": "422800",
+      "endMs": "426240",
+      "startTimeText": "7:02"
+    },
+    {
+      "text": "of tuning that needs to take place. So",
+      "startMs": "424720",
+      "endMs": "428319",
+      "startTimeText": "7:04"
+    },
+    {
+      "text": "that's number one. From a testing and",
+      "startMs": "426240",
+      "endMs": "430000",
+      "startTimeText": "7:06"
+    },
+    {
+      "text": "data validation perspective, this is",
+      "startMs": "428319",
+      "endMs": "432080",
+      "startTimeText": "7:08"
+    },
+    {
+      "text": "awesome. But the next question is, and",
+      "startMs": "430000",
+      "endMs": "434080",
+      "startTimeText": "7:10"
+    },
+    {
+      "text": "if you have a good data model today, a",
+      "startMs": "432080",
+      "endMs": "436080",
+      "startTimeText": "7:12"
+    },
+    {
+      "text": "semantic model ready to go, you can get",
+      "startMs": "434080",
+      "endMs": "438160",
+      "startTimeText": "7:14"
+    },
+    {
+      "text": "started with fabric very, very quickly.",
+      "startMs": "436080",
+      "endMs": "439919",
+      "startTimeText": "7:16"
+    },
+    {
+      "text": "You really can take advantage of this.",
+      "startMs": "438160",
+      "endMs": "441440",
+      "startTimeText": "7:18"
+    },
+    {
+      "text": "I'm having calls with customers today",
+      "startMs": "439919",
+      "endMs": "442560",
+      "startTimeText": "7:19"
+    },
+    {
+      "text": "that they're like, \"Hey, we need to",
+      "startMs": "441440",
+      "endMs": "443520",
+      "startTimeText": "7:21"
+    },
+    {
+      "text": "migrate to Fabric.\" And we're like,",
+      "startMs": "442560",
+      "endMs": "445120",
+      "startTimeText": "7:22"
+    },
+    {
+      "text": "\"Okay, we can help you with that. That's",
+      "startMs": "443520",
+      "endMs": "446720",
+      "startTimeText": "7:23"
+    },
+    {
+      "text": "going to take depending on where you're",
+      "startMs": "445120",
+      "endMs": "448479",
+      "startTimeText": "7:25"
+    },
+    {
+      "text": "at and what your migration looks like.",
+      "startMs": "446720",
+      "endMs": "450400",
+      "startTimeText": "7:26"
+    },
+    {
+      "text": "Maybe it's going to take two or 3 weeks",
+      "startMs": "448479",
+      "endMs": "452560",
+      "startTimeText": "7:28"
+    },
+    {
+      "text": "to do a bulk of it at the beginning",
+      "startMs": "450400",
+      "endMs": "454000",
+      "startTimeText": "7:30"
+    },
+    {
+      "text": "while we train you so you can do it",
+      "startMs": "452560",
+      "endMs": "455919",
+      "startTimeText": "7:32"
+    },
+    {
+      "text": "after that. Or maybe it's going to be a",
+      "startMs": "454000",
+      "endMs": "457360",
+      "startTimeText": "7:34"
+    },
+    {
+      "text": "3-month project, right? It really",
+      "startMs": "455919",
+      "endMs": "459199",
+      "startTimeText": "7:35"
+    },
+    {
+      "text": "depends on how much of the work you want",
+      "startMs": "457360",
+      "endMs": "460319",
+      "startTimeText": "7:37"
+    },
+    {
+      "text": "us doing for you. And then they're like,",
+      "startMs": "459199",
+      "endMs": "462080",
+      "startTimeText": "7:39"
+    },
+    {
+      "text": "\"Well, sometime in the future, like a",
+      "startMs": "460319",
+      "endMs": "464080",
+      "startTimeText": "7:40"
+    },
+    {
+      "text": "year from now, we might want to get into",
+      "startMs": "462080",
+      "endMs": "466000",
+      "startTimeText": "7:42"
+    },
+    {
+      "text": "agents.\" And I'm like, \"Whoa, whoa. If",
+      "startMs": "464080",
+      "endMs": "467440",
+      "startTimeText": "7:44"
+    },
+    {
+      "text": "we move the data over and build you a",
+      "startMs": "466000",
+      "endMs": "469039",
+      "startTimeText": "7:46"
+    },
+    {
+      "text": "semantic model, you can do we can get",
+      "startMs": "467440",
+      "endMs": "471120",
+      "startTimeText": "7:47"
+    },
+    {
+      "text": "you some agents going right away, like",
+      "startMs": "469039",
+      "endMs": "473280",
+      "startTimeText": "7:49"
+    },
+    {
+      "text": "immediately.\" Um, that's not as far off",
+      "startMs": "471120",
+      "endMs": "475039",
+      "startTimeText": "7:51"
+    },
+    {
+      "text": "as you think. And now you see how quick",
+      "startMs": "473280",
+      "endMs": "477360",
+      "startTimeText": "7:53"
+    },
+    {
+      "text": "it is to get this off the ground. Now, a",
+      "startMs": "475039",
+      "endMs": "479120",
+      "startTimeText": "7:55"
+    },
+    {
+      "text": "couple of things. You're like, Mitchell,",
+      "startMs": "477360",
+      "endMs": "481039",
+      "startTimeText": "7:57"
+    },
+    {
+      "text": "this is cool, but am I really going to",
+      "startMs": "479120",
+      "endMs": "483360",
+      "startTimeText": "7:59"
+    },
+    {
+      "text": "ask my end users to come out to",
+      "startMs": "481039",
+      "endMs": "486160",
+      "startTimeText": "8:01"
+    },
+    {
+      "text": "Microsoft Fabric, fabric.microsoft.com",
+      "startMs": "483360",
+      "endMs": "489199",
+      "startTimeText": "8:03"
+    },
+    {
+      "text": "to ask these questions every time? Can't",
+      "startMs": "486160",
+      "endMs": "491360",
+      "startTimeText": "8:06"
+    },
+    {
+      "text": "they can't they consume this data agent",
+      "startMs": "489199",
+      "endMs": "494000",
+      "startTimeText": "8:09"
+    },
+    {
+      "text": "in other ways? The answer is absolutely.",
+      "startMs": "491360",
+      "endMs": "496160",
+      "startTimeText": "8:11"
+    },
+    {
+      "text": "And so if you want your end users to",
+      "startMs": "494000",
+      "endMs": "497759",
+      "startTimeText": "8:14"
+    },
+    {
+      "text": "consume the data agents that you've",
+      "startMs": "496160",
+      "endMs": "500639",
+      "startTimeText": "8:16"
+    },
+    {
+      "text": "built, the way that we can do that is we",
+      "startMs": "497759",
+      "endMs": "502960",
+      "startTimeText": "8:17"
+    },
+    {
+      "text": "can come over to our fabric environment,",
+      "startMs": "500639",
+      "endMs": "504400",
+      "startTimeText": "8:20"
+    },
+    {
+      "text": "find the agent, and then right here at",
+      "startMs": "502960",
+      "endMs": "506240",
+      "startTimeText": "8:22"
+    },
+    {
+      "text": "the very top, we can come up here and we",
+      "startMs": "504400",
+      "endMs": "508639",
+      "startTimeText": "8:24"
+    },
+    {
+      "text": "can publish this agent. And when I",
+      "startMs": "506240",
+      "endMs": "510160",
+      "startTimeText": "8:26"
+    },
+    {
+      "text": "publish the agent, a couple of things",
+      "startMs": "508639",
+      "endMs": "512240",
+      "startTimeText": "8:28"
+    },
+    {
+      "text": "are going to happen. One, there is a new",
+      "startMs": "510160",
+      "endMs": "514240",
+      "startTimeText": "8:30"
+    },
+    {
+      "text": "button that's been added recently in the",
+      "startMs": "512240",
+      "endMs": "516159",
+      "startTimeText": "8:32"
+    },
+    {
+      "text": "last couple of months, and it's this one",
+      "startMs": "514240",
+      "endMs": "517599",
+      "startTimeText": "8:34"
+    },
+    {
+      "text": "right here that says also publish the",
+      "startMs": "516159",
+      "endMs": "520000",
+      "startTimeText": "8:36"
+    },
+    {
+      "text": "agent to the agent store in Microsoft",
+      "startMs": "517599",
+      "endMs": "523680",
+      "startTimeText": "8:37"
+    },
+    {
+      "text": "365. So that's your 365 co-pilot. If I",
+      "startMs": "520000",
+      "endMs": "526640",
+      "startTimeText": "8:40"
+    },
+    {
+      "text": "go over to my M365 co-pilot, if I go",
+      "startMs": "523680",
+      "endMs": "528399",
+      "startTimeText": "8:43"
+    },
+    {
+      "text": "over there and I open and I got, you",
+      "startMs": "526640",
+      "endMs": "529680",
+      "startTimeText": "8:46"
+    },
+    {
+      "text": "know, I can ask questions and then I can",
+      "startMs": "528399",
+      "endMs": "531760",
+      "startTimeText": "8:48"
+    },
+    {
+      "text": "do different things. Under agents, this",
+      "startMs": "529680",
+      "endMs": "533680",
+      "startTimeText": "8:49"
+    },
+    {
+      "text": "fabric data agent is now going to show",
+      "startMs": "531760",
+      "endMs": "536240",
+      "startTimeText": "8:51"
+    },
+    {
+      "text": "up right there in M365, which is",
+      "startMs": "533680",
+      "endMs": "538560",
+      "startTimeText": "8:53"
+    },
+    {
+      "text": "amazing. For the most recent customer",
+      "startMs": "536240",
+      "endMs": "540240",
+      "startTimeText": "8:56"
+    },
+    {
+      "text": "that I worked with, they wanted it in",
+      "startMs": "538560",
+      "endMs": "541920",
+      "startTimeText": "8:58"
+    },
+    {
+      "text": "Teams. Well, there's not a direct button",
+      "startMs": "540240",
+      "endMs": "544240",
+      "startTimeText": "9:00"
+    },
+    {
+      "text": "to push it into Teams. Not yet. I expect",
+      "startMs": "541920",
+      "endMs": "546720",
+      "startTimeText": "9:01"
+    },
+    {
+      "text": "that's coming. So, what we did is we",
+      "startMs": "544240",
+      "endMs": "549200",
+      "startTimeText": "9:04"
+    },
+    {
+      "text": "went to Copilot Studio. We created a",
+      "startMs": "546720",
+      "endMs": "551360",
+      "startTimeText": "9:06"
+    },
+    {
+      "text": "co-pilot studio agent like a parent",
+      "startMs": "549200",
+      "endMs": "554320",
+      "startTimeText": "9:09"
+    },
+    {
+      "text": "agent, a master agent. And then we had",
+      "startMs": "551360",
+      "endMs": "557200",
+      "startTimeText": "9:11"
+    },
+    {
+      "text": "four different fabric data agents for",
+      "startMs": "554320",
+      "endMs": "559760",
+      "startTimeText": "9:14"
+    },
+    {
+      "text": "very specific purposes underneath that.",
+      "startMs": "557200",
+      "endMs": "561680",
+      "startTimeText": "9:17"
+    },
+    {
+      "text": "And then we took that co-pilot studio",
+      "startMs": "559760",
+      "endMs": "563839",
+      "startTimeText": "9:19"
+    },
+    {
+      "text": "agent and we we just essentially enabled",
+      "startMs": "561680",
+      "endMs": "565839",
+      "startTimeText": "9:21"
+    },
+    {
+      "text": "it so that that could be called from",
+      "startMs": "563839",
+      "endMs": "568000",
+      "startTimeText": "9:23"
+    },
+    {
+      "text": "teams and that worked perfectly. Now",
+      "startMs": "565839",
+      "endMs": "570000",
+      "startTimeText": "9:25"
+    },
+    {
+      "text": "whether you're on your mobile device or",
+      "startMs": "568000",
+      "endMs": "572240",
+      "startTimeText": "9:28"
+    },
+    {
+      "text": "whatever, they were able to access it,",
+      "startMs": "570000",
+      "endMs": "574080",
+      "startTimeText": "9:30"
+    },
+    {
+      "text": "right? And that's where we now pivot",
+      "startMs": "572240",
+      "endMs": "576320",
+      "startTimeText": "9:32"
+    },
+    {
+      "text": "back over if you will to the",
+      "startMs": "574080",
+      "endMs": "578240",
+      "startTimeText": "9:34"
+    },
+    {
+      "text": "documentation. So to give you an idea,",
+      "startMs": "576320",
+      "endMs": "579440",
+      "startTimeText": "9:36"
+    },
+    {
+      "text": "you say, \"Well, Mitchell, this is great.",
+      "startMs": "578240",
+      "endMs": "580880",
+      "startTimeText": "9:38"
+    },
+    {
+      "text": "I'm going to create a data agent as soon",
+      "startMs": "579440",
+      "endMs": "582880",
+      "startTimeText": "9:39"
+    },
+    {
+      "text": "as I get off this call because I just",
+      "startMs": "580880",
+      "endMs": "585200",
+      "startTimeText": "9:40"
+    },
+    {
+      "text": "want to build a quick proof of concept.\"",
+      "startMs": "582880",
+      "endMs": "586720",
+      "startTimeText": "9:42"
+    },
+    {
+      "text": "Well, if you come back over to the",
+      "startMs": "585200",
+      "endMs": "588399",
+      "startTimeText": "9:45"
+    },
+    {
+      "text": "Microsoft documentation, you'll notice",
+      "startMs": "586720",
+      "endMs": "590399",
+      "startTimeText": "9:46"
+    },
+    {
+      "text": "right here there is an option. So, I'm",
+      "startMs": "588399",
+      "endMs": "593200",
+      "startTimeText": "9:48"
+    },
+    {
+      "text": "just at the concept data agent page",
+      "startMs": "590399",
+      "endMs": "595040",
+      "startTimeText": "9:50"
+    },
+    {
+      "text": "right here at the top. You'll notice",
+      "startMs": "593200",
+      "endMs": "596880",
+      "startTimeText": "9:53"
+    },
+    {
+      "text": "that there is an option down here that",
+      "startMs": "595040",
+      "endMs": "600320",
+      "startTimeText": "9:55"
+    },
+    {
+      "text": "says where and how to consume a fabric",
+      "startMs": "596880",
+      "endMs": "601920",
+      "startTimeText": "9:56"
+    },
+    {
+      "text": "data agent. And so, you can do it from",
+      "startMs": "600320",
+      "endMs": "604240",
+      "startTimeText": "10:00"
+    },
+    {
+      "text": "Azure AI Foundry. You can do this",
+      "startMs": "601920",
+      "endMs": "607279",
+      "startTimeText": "10:01"
+    },
+    {
+      "text": "directly from Copilot in PowerBI data",
+      "startMs": "604240",
+      "endMs": "609040",
+      "startTimeText": "10:04"
+    },
+    {
+      "text": "agent from Microsoft Copilot Studio",
+      "startMs": "607279",
+      "endMs": "610959",
+      "startTimeText": "10:07"
+    },
+    {
+      "text": "using the Python SDK if you want to call",
+      "startMs": "609040",
+      "endMs": "613200",
+      "startTimeText": "10:09"
+    },
+    {
+      "text": "it from like a notebook. Consume a data",
+      "startMs": "610959",
+      "endMs": "615279",
+      "startTimeText": "10:10"
+    },
+    {
+      "text": "agent in Microsoft 365. That's the one I",
+      "startMs": "613200",
+      "endMs": "617120",
+      "startTimeText": "10:13"
+    },
+    {
+      "text": "just showed you. And then consume a data",
+      "startMs": "615279",
+      "endMs": "619279",
+      "startTimeText": "10:15"
+    },
+    {
+      "text": "agent as part of the MCP protocol,",
+      "startMs": "617120",
+      "endMs": "620880",
+      "startTimeText": "10:17"
+    },
+    {
+      "text": "right? So your your MCP there, your",
+      "startMs": "619279",
+      "endMs": "623040",
+      "startTimeText": "10:19"
+    },
+    {
+      "text": "model context protocol. So those are the",
+      "startMs": "620880",
+      "endMs": "624240",
+      "startTimeText": "10:20"
+    },
+    {
+      "text": "different options that are currently",
+      "startMs": "623040",
+      "endMs": "625600",
+      "startTimeText": "10:23"
+    },
+    {
+      "text": "available. You notice they're all in",
+      "startMs": "624240",
+      "endMs": "627440",
+      "startTimeText": "10:24"
+    },
+    {
+      "text": "preview. I expect that we're going to",
+      "startMs": "625600",
+      "endMs": "630800",
+      "startTimeText": "10:25"
+    },
+    {
+      "text": "continue to see a lot more of these. So",
+      "startMs": "627440",
+      "endMs": "632480",
+      "startTimeText": "10:27"
+    },
+    {
+      "text": "that's pretty exciting stuff. We didn't",
+      "startMs": "630800",
+      "endMs": "634560",
+      "startTimeText": "10:30"
+    },
+    {
+      "text": "get into the details here of how to tune",
+      "startMs": "632480",
+      "endMs": "636320",
+      "startTimeText": "10:32"
+    },
+    {
+      "text": "this agent. But I think I'm going to do",
+      "startMs": "634560",
+      "endMs": "637680",
+      "startTimeText": "10:34"
+    },
+    {
+      "text": "a full series on this. So, we're going",
+      "startMs": "636320",
+      "endMs": "639519",
+      "startTimeText": "10:36"
+    },
+    {
+      "text": "to start with here's how you get started",
+      "startMs": "637680",
+      "endMs": "640959",
+      "startTimeText": "10:37"
+    },
+    {
+      "text": "and then we'll talk about prepping data",
+      "startMs": "639519",
+      "endMs": "642880",
+      "startTimeText": "10:39"
+    },
+    {
+      "text": "for AI. We'll talk about really getting",
+      "startMs": "640959",
+      "endMs": "644720",
+      "startTimeText": "10:40"
+    },
+    {
+      "text": "more into some of the different ways we",
+      "startMs": "642880",
+      "endMs": "646240",
+      "startTimeText": "10:42"
+    },
+    {
+      "text": "can consume it. So, that'll be exciting.",
+      "startMs": "644720",
+      "endMs": "647600",
+      "startTimeText": "10:44"
+    },
+    {
+      "text": "And if you're interested for this",
+      "startMs": "646240",
+      "endMs": "649040",
+      "startTimeText": "10:46"
+    },
+    {
+      "text": "series, please let us know in the",
+      "startMs": "647600",
+      "endMs": "652320",
+      "startTimeText": "10:47"
+    },
+    {
+      "text": "comments below so that we can um follow",
+      "startMs": "649040",
+      "endMs": "653760",
+      "startTimeText": "10:49"
+    },
+    {
+      "text": "through and make sure that we do that",
+      "startMs": "652320",
+      "endMs": "656079",
+      "startTimeText": "10:52"
+    },
+    {
+      "text": "for you. As always, we just want to say",
+      "startMs": "653760",
+      "endMs": "657519",
+      "startTimeText": "10:53"
+    },
+    {
+      "text": "thank you for watching. Thank you for",
+      "startMs": "656079",
+      "endMs": "659279",
+      "startTimeText": "10:56"
+    },
+    {
+      "text": "joining us. Make sure to hit like and",
+      "startMs": "657519",
+      "endMs": "660800",
+      "startTimeText": "10:57"
+    },
+    {
+      "text": "subscribe and we'll see you in the next",
+      "startMs": "659279",
+      "endMs": "663279",
+      "startTimeText": "10:59"
+    },
+    {
+      "text": "video.",
+      "startMs": "660800",
+      "endMs": "663279",
+      "startTimeText": "11:00"
+    }
+  ],
+  "transcript_only_text": " Hello  and  welcome  to  another  video  here \n at  Pragmatic  Works.  My  name  is  Mitchell \n Pearson  and  in  this  video  we're  going  to \n be  taking  a  look  at  Microsoft  Fabric \n data  agents.  Data  agents  is  just  agents \n in  general,  a  very  big  term  over  the \n last  year.  When  I  first  started  hearing \n about  agents  myself,  I  was  very \n intimidated  by  them  and  really  didn't \n understand  where  they  fit  in.  And  so  in \n this  video,  we're  going  to  be  very \n specific,  just  a  quick  introduction  into \n what  we  can  do  and  what  we  can \n accomplish  with  Microsoft  data  agents \n and  how  we  can  get  started.  So  let's \n jump  right  in. \n I'm  going  to  be  starting  here  with  the \n Microsoft  documentation.  Effectively,  a \n fabric  data  agent  is  really  just  a  Q&A \n feature  that  exists  within  Microsoft \n Fabric  using  the  generative  AI \n capabilities.  I've  helped  um  more  than  a \n couple  customers  now  migrate  their  data \n to  Microsoft  fabric  and  then  take \n advantage  of  fabric  data  agents.  In \n fact,  I've  done  consulting  engagements \n directly  related  to  and  only  for \n Microsoft  fabric  kind  of  setup  and \n implementation  which  is  yes  a  little  bit \n weird  since  it's  still  in  preview  but \n that  is  how  excited  people  are  about \n data  agents.  And  so  I'm  able  to  now \n create  within  Microsoft  Fabric  an  agent \n that  answers  questions  for  me  using \n generative  AI  capability  based  on  my \n data  and  how  that  data  has  been  set  up \n and  configured.  Now  if  you  want  to  get \n started  with  data  agents,  you  do  need  to \n have  at  minimum  an  F2  paid  capacity.  So \n that  means  you  have  to  go  into  your \n Azure  portal,  provision  a  fabric \n capacity  and  then  tie  that  directly  to \n your  workspace.  And  then  you  also  have \n to  have  within  your  fabric.microsoft.com \n within  your  environment  within  your \n tenant  settings  you  have  to  have  a \n couple  of  different  prerequisites  right \n so  you'll  see  the  list  of  prerequisites \n right  here  in  the  Microsoft \n documentation  fabric  data  agent  tenant \n settings  must  be  enabled  cross  geo \n processing  for  AI  is  enabled  cross  geo \n storing  this  is  only  relevant  if  you're \n not  in  the  US  or  I  can't  remember  all \n the  specifics  there  but  if  you're  in \n Europe  but  you're  storing  the  data \n outside  of  Europe  you  got  to  make  sure \n you  enable  these  PowerBI  semantic  models \n via  XMLA  endpoints.  So  this  gives  you  an \n idea  of  if  you  go  into  Fabric  and  you're \n like,  \"Hey,  I  can't  create  a  data  agent. \n What's  going  on?  You're  not  on  a  paid \n capacity.\"  You  haven't  had  somebody \n within  your  organization,  a  fabric \n administrator,  go  into  the  tenant \n settings  and  set  that  up.  So,  we'll  come \n back  to  this  documentation  in  just  a \n little  bit,  but  what  I  want  to  do  is  I \n just  briefly  want  to  go  to  a  workspace \n that  I've  used  before  for  other  demos, \n and  I  want  to  quickly  create  a  fabric \n data  agent  so  you  can  see  what  we're \n trying  to  accomplish  and  how  this  works. \n So,  the  first  thing  that  we'll  do  is \n like  we  would  anything  else  in  Microsoft \n Fabric  is  I'll  click  new  item  up  here  at \n the  top.  And  then  I'm  going  to  just \n quickly  search  for  agent.  You  can  also \n just  scroll  through.  There's  not  that \n many  items  here.  And  you'll  notice  right \n here  at  the  time  of  this  recording,  this \n is  still  a  preview  feature.  So  I'll  go \n ahead  and  click  on  that.  I  will  give  it \n a  name.  So  I'll  call  mine  agent.  And \n then  we'll  call  this  YouTube  because \n it's  for  YouTube.  And  then  we'll  go \n ahead  and  click  on  create.  So  I've  just \n gone  into  Microsoft  Fabric.  I'm  creating \n a  new  item.  The  way  that  data  agents \n work,  they're  very  quick.  They're  very \n easy  to  set  up.  It  does  require  quite  a \n bit  of  tuning  after  the  fact  to  get \n things  to  work  the  way  you  need  them  to, \n but  it  needs  to  connect  to  data  that  you \n have  inside  of  Microsoft  Fabric.  Right \n now,  you  can  do  that  through  shortcuts. \n You  can  do  that  through  mirroring.  You \n can  do  that  through  the  multitude  of \n ways  that  are  available  with  Microsoft \n Fabric,  but  the  data  does  need  to  be  in \n fabric  and  accessible.  So,  I'm  [snorts] \n going  to  add  a  data  source.  When  I  add \n my  data  source,  I  can  grab,  you  know,  a \n bunch  of  different  ones  that  I  have  out \n here,  but  I'll  keep  this  one  simple.  And \n I'm  going  to  first  connect  to  this \n Fabricam  sales,  if  you  will,  semantic \n model  that  I  have  created  in,  you  know, \n one  of  my  workspaces  here.  So,  I'll  go \n ahead  and  click  on  that  and  then  I'll \n click  add  and  it's  going  to  add  that \n into  my  workspace  and  it'll  show  up  here \n on  the  left  in  just  a  moment.  Now  once \n you've  added  your  data  source  and  this \n can  be  you  know  this  can  be  a  lakehouse \n this  can  be  a  data  warehouse  this  can  be \n a  semantic  model  that  you  created  either \n in  PowerBI  or  a  semantic  model  you \n created  in  Microsoft  fabric.  Once  you've \n added  your  data  source  the  next  thing  we \n want  to  do  is  we  want  to  go  in  here  and \n we  want  to  select  what  columns  are  going \n to  be  part  of  that  conversation.  So  I'm \n going  to  go  ahead  and  grab  my  my  invoice \n numbers.  I'm  going  to  grab  my  products, \n my  geography,  my  date.  And  for  this \n situation,  I'm  actually  just  going  to \n grab  everything,  but  you  do  have  the \n option  to  deselect  certain  tables  if  you \n don't  want  to  see  those  tables.  Uh,  the \n other  thing  you  can  do,  and  I  won't  get \n into  it  in  this  video  because  I  want  to \n keep  this  as  a  just  a  really  quick \n introduction  to  get  you  familiar  with \n the  technology,  maybe  encourage  you  to \n try  this  on  your  own.  The  other  thing \n you  can  do  is  you  can  go  back  because \n this  is  a  semantic  model  and  you  can \n actually  prep  the  model.  So  you  can \n remove  things  in  the  model,  columns, \n tables,  things  like  that.  So  they're  not \n even  available  to  the  generative  AI, \n which  really  just  helps  you  to  get  more \n consistent  and  better  answers  and \n removes,  if  you  will,  or  eliminates \n confusion  for  the  generative  AI \n capability  that's  going  on  here.  Now, \n once  I've  added  these  in,  I  can  now  come \n in  here  and  ask  a  question,  right?  And \n this  is  where  you  have  to  do  some  tuning \n because  if  I  look  at  invoices,  if  I  were \n to  ask  for,  let's  call  it  total  sales, \n the  AI  has  to  try  to  figure  out  what \n total  sales  is.  I  actually  happen  to \n have  a  measure,  so  we're  good  to  go \n there  probably,  but  shouldn't  have  any \n issues  because  I  have  a  measure.  But  if \n I  didn't  have  a  measure,  it  would  have \n to  figure  out  what  total  sales  is,  which \n might  be  trying  to  create  a  a  total  for \n the  line.  So  quantity  times  unit  price \n and  then  summing  that  up  or  whatever \n that  might  be  and  it  might  be  incorrect. \n So  the  more  prepared  your  data  the \n better  your  answers  are  going  to  be.  And \n a  lot  of  people  are  right  now  jumping \n into  agents.  They're  jumping  into  a  lot \n of  this  AI  stuff  and  they  haven't  taken \n time  to  really  build  their  data  model. \n So  just  um  that's  where  I  see  a  lot  of \n consulting  companies  like  ours  doing  a \n lot  of  work  for  customers  is  helping \n them  with  that  data  migration  and \n helping  them  really  prep  their  data  and \n get  it  ready  to  take  advantage  of  the  AI \n capability.  So  if  I  come  over  here  now  I \n can  ask  a  question  and  I  can  say  what \n are  my  total  sales  by  year  and  instead \n of  you  know  sending  an  email  to  an \n analyst  and  saying  hey  I  need  this \n report  can  you  build  a  report  for  me \n what  I  can  do  is  I  can  come  in  here  to \n my  fabric  data  agent  I  can  ask  a \n question  and  it's  going  to  return  a \n result  for  me.  So  I'll  give  it  a  moment \n to  process  what  it's  trying  to  do.  I \n love  reading  what  it  says  it's  doing \n here.  Show  the  total  sales  by  year.  And \n so  right  out  the  gate,  we  have  total \n sales  by  year.  It's  right  there.  Now, \n there's  a  couple  of  things  I  want  to \n point  out.  One,  it'll  tell  me  what  steps \n were  completed.  And  then  if  I  go  further \n into  this,  I  can  click  on  the  expand \n button.  Because  this  is  a  semantic \n model,  it's  writing  DAX.  It  will  show  me \n the  DAX  that  it  wrote.  So,  it  wrote  a \n DAX  equation  here,  and  it's  returning \n the  year  from  the  date  table.  It's \n returning  the  measure  total  cells, \n exactly  what  we  would  expect.  And  then \n it's  doing  an  order  by  year  ascending. \n So,  this  is  perfect.  it's  giving  us \n exactly  what  we  want.  There's  not  a  lot \n of  tuning  that  needs  to  take  place.  So \n that's  number  one.  From  a  testing  and \n data  validation  perspective,  this  is \n awesome.  But  the  next  question  is,  and \n if  you  have  a  good  data  model  today,  a \n semantic  model  ready  to  go,  you  can  get \n started  with  fabric  very,  very  quickly. \n You  really  can  take  advantage  of  this. \n I'm  having  calls  with  customers  today \n that  they're  like,  \"Hey,  we  need  to \n migrate  to  Fabric.\"  And  we're  like, \n \"Okay,  we  can  help  you  with  that.  That's \n going  to  take  depending  on  where  you're \n at  and  what  your  migration  looks  like. \n Maybe  it's  going  to  take  two  or  3  weeks \n to  do  a  bulk  of  it  at  the  beginning \n while  we  train  you  so  you  can  do  it \n after  that.  Or  maybe  it's  going  to  be  a \n 3-month  project,  right?  It  really \n depends  on  how  much  of  the  work  you  want \n us  doing  for  you.  And  then  they're  like, \n \"Well,  sometime  in  the  future,  like  a \n year  from  now,  we  might  want  to  get  into \n agents.\"  And  I'm  like,  \"Whoa,  whoa.  If \n we  move  the  data  over  and  build  you  a \n semantic  model,  you  can  do  we  can  get \n you  some  agents  going  right  away,  like \n immediately.\"  Um,  that's  not  as  far  off \n as  you  think.  And  now  you  see  how  quick \n it  is  to  get  this  off  the  ground.  Now,  a \n couple  of  things.  You're  like,  Mitchell, \n this  is  cool,  but  am  I  really  going  to \n ask  my  end  users  to  come  out  to \n Microsoft  Fabric,  fabric.microsoft.com \n to  ask  these  questions  every  time?  Can't \n they  can't  they  consume  this  data  agent \n in  other  ways?  The  answer  is  absolutely. \n And  so  if  you  want  your  end  users  to \n consume  the  data  agents  that  you've \n built,  the  way  that  we  can  do  that  is  we \n can  come  over  to  our  fabric  environment, \n find  the  agent,  and  then  right  here  at \n the  very  top,  we  can  come  up  here  and  we \n can  publish  this  agent.  And  when  I \n publish  the  agent,  a  couple  of  things \n are  going  to  happen.  One,  there  is  a  new \n button  that's  been  added  recently  in  the \n last  couple  of  months,  and  it's  this  one \n right  here  that  says  also  publish  the \n agent  to  the  agent  store  in  Microsoft \n 365.  So  that's  your  365  co-pilot.  If  I \n go  over  to  my  M365  co-pilot,  if  I  go \n over  there  and  I  open  and  I  got,  you \n know,  I  can  ask  questions  and  then  I  can \n do  different  things.  Under  agents,  this \n fabric  data  agent  is  now  going  to  show \n up  right  there  in  M365,  which  is \n amazing.  For  the  most  recent  customer \n that  I  worked  with,  they  wanted  it  in \n Teams.  Well,  there's  not  a  direct  button \n to  push  it  into  Teams.  Not  yet.  I  expect \n that's  coming.  So,  what  we  did  is  we \n went  to  Copilot  Studio.  We  created  a \n co-pilot  studio  agent  like  a  parent \n agent,  a  master  agent.  And  then  we  had \n four  different  fabric  data  agents  for \n very  specific  purposes  underneath  that. \n And  then  we  took  that  co-pilot  studio \n agent  and  we  we  just  essentially  enabled \n it  so  that  that  could  be  called  from \n teams  and  that  worked  perfectly.  Now \n whether  you're  on  your  mobile  device  or \n whatever,  they  were  able  to  access  it, \n right?  And  that's  where  we  now  pivot \n back  over  if  you  will  to  the \n documentation.  So  to  give  you  an  idea, \n you  say, \"Well,  Mitchell,  this  is  great. \n I'm  going  to  create  a  data  agent  as  soon \n as  I  get  off  this  call  because  I  just \n want  to  build  a  quick  proof  of  concept.\" \n Well,  if  you  come  back  over  to  the \n Microsoft  documentation,  you'll  notice \n right  here  there  is  an  option.  So,  I'm \n just  at  the  concept  data  agent  page \n right  here  at  the  top.  You'll  notice \n that  there  is  an  option  down  here  that \n says  where  and  how  to  consume  a  fabric \n data  agent.  And  so,  you  can  do  it  from \n Azure  AI  Foundry.  You  can  do  this \n directly  from  Copilot  in  PowerBI  data \n agent  from  Microsoft  Copilot  Studio \n using  the  Python  SDK  if  you  want  to  call \n it  from  like  a  notebook.  Consume  a  data \n agent  in  Microsoft  365.  That's  the  one  I \n just  showed  you.  And  then  consume  a  data \n agent  as  part  of  the  MCP  protocol, \n right?  So  your  your  MCP  there,  your \n model  context  protocol.  So  those  are  the \n different  options  that  are  currently \n available.  You  notice  they're  all  in \n preview.  I  expect  that  we're  going  to \n continue  to  see  a  lot  more  of  these.  So \n that's  pretty  exciting  stuff.  We  didn't \n get  into  the  details  here  of  how  to  tune \n this  agent.  But  I  think  I'm  going  to  do \n a  full  series  on  this.  So,  we're  going \n to  start  with  here's  how  you  get  started \n and  then  we'll  talk  about  prepping  data \n for  AI.  We'll  talk  about  really  getting \n more  into  some  of  the  different  ways  we \n can  consume  it.  So,  that'll  be  exciting. \n And  if  you're  interested  for  this \n series,  please  let  us  know  in  the \n comments  below  so  that  we  can  um  follow \n through  and  make  sure  that  we  do  that \n for  you.  As  always,  we  just  want  to  say \n thank  you  for  watching.  Thank  you  for \n joining  us.  Make  sure  to  hit  like  and \n subscribe  and  we'll  see  you  in  the  next \n video.",
+  "language": "English",
+  "videoId": "SZSQ70sytlU",
+  "captionTracks": [
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=SZSQ70sytlU&ei=gXnZar9cmYO63Q-NmLPRDQ&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792662513&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=C6008DE67D6F87FC694C55C159A2ED1EC9855839.123DD26702047486E9FAC56BC93A4F8500414D1C&key=yt8&kind=asr&lang=en",
+      "name": {
+        "simpleText": "English (auto-generated)"
+      },
+      "vssId": "a.en",
+      "languageCode": "en",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    }
+  ]
+}

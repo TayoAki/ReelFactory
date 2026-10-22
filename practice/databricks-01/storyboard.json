@@ -1,0 +1,107 @@
+{
+  "mode": "transcript-first",
+  "source": "HtR5m5VjaDQ / user-supplied part00",
+  "source_in": 37.333333333333336,
+  "source_out": 83.7,
+  "duration": 46.36666666666667,
+  "narration": "original source audio, not synthetic or cloned",
+  "word_alignment": "Whisper tiny.en, merged product terms; approximate",
+  "beats": [
+    {
+      "id": "define",
+      "start": 1.1333333333333333,
+      "end": 6.333333333333333,
+      "source_start": 38.46,
+      "source_end": 43.66,
+      "teaching_job": "Define the product",
+      "spoken_summary": "Genie One is an AI co-worker for business users.",
+      "visual": "Establish one product node; attach its audience.",
+      "why": "The viewer needs one stable referent before its capabilities are expanded.",
+      "certainty": "Teaching purpose is an interpretation; word timing is local ASR alignment, not manually frame-certified"
+    },
+    {
+      "id": "connect",
+      "start": 6.333333333333333,
+      "end": 8.733333333333333,
+      "source_start": 43.66,
+      "source_end": 46.06,
+      "teaching_job": "Explain connections",
+      "spoken_summary": "It connects to your data and tools.",
+      "visual": "Add data and tool nodes; draw connections to the existing product.",
+      "why": "A relationship is easier to follow when both endpoints and their link are visible.",
+      "certainty": "Teaching purpose is an interpretation; word timing is local ASR alignment, not manually frame-certified"
+    },
+    {
+      "id": "question-action",
+      "start": 8.733333333333333,
+      "end": 13.0,
+      "source_start": 46.06,
+      "source_end": 50.34,
+      "teaching_job": "Explain a capability and its consequence",
+      "spoken_summary": "It answers questions about your business; it acts on the answers.",
+      "visual": "Illustrative chat: typed question, response totals, then campaign action.",
+      "why": "Express the causal progression without changing the product being discussed.",
+      "certainty": "Teaching purpose is an interpretation; word timing is local ASR alignment, not manually frame-certified"
+    },
+    {
+      "id": "governance",
+      "start": 13.0,
+      "end": 16.4,
+      "source_start": 50.34,
+      "source_end": 53.74,
+      "teaching_job": "Bound the mechanism",
+      "spoken_summary": "All within the governance framework that you already have.",
+      "visual": "Scale down the same chat panel; draw a green governance boundary.",
+      "why": "Containment expresses the scope of the claim; no new product is introduced.",
+      "certainty": "Teaching purpose is an interpretation; word timing is local ASR alignment, not manually frame-certified"
+    },
+    {
+      "id": "family",
+      "start": 16.4,
+      "end": 23.9,
+      "source_start": 53.74,
+      "source_end": 61.24,
+      "teaching_job": "Expand the category",
+      "spoken_summary": "Genie One sits in a larger stack of AI co-workers and tools on Databricks.",
+      "visual": "Keep the same product card; tilt it and reveal related layers.",
+      "why": "Extend the known object into a family instead of resetting the viewer\u2019s context.",
+      "certainty": "Teaching purpose is an interpretation; word timing is local ASR alignment, not manually frame-certified"
+    },
+    {
+      "id": "compare",
+      "start": 23.9,
+      "end": 34.733333333333334,
+      "source_start": 61.24,
+      "source_end": 72.08,
+      "teaching_job": "Distinguish sibling roles",
+      "spoken_summary": "Genie One serves business users; Genie Code serves technical users.",
+      "visual": "Separate related product cards; add audience annotations as each is named.",
+      "why": "Position encodes sibling status; labels encode the actual difference.",
+      "certainty": "Teaching purpose is an interpretation; word timing is local ASR alignment, not manually frame-certified"
+    },
+    {
+      "id": "shared-specialist",
+      "start": 34.733333333333334,
+      "end": 43.7,
+      "source_start": 72.08,
+      "source_end": 81.04,
+      "teaching_job": "Add a shared specialist",
+      "spoken_summary": "Genie Agents can be used by both audiences and focus on domain-specific work.",
+      "visual": "Add the third sibling; label its shared audience; attach its domain role.",
+      "why": "Make shared access and specialization separate visible relationships.",
+      "certainty": "Teaching purpose is an interpretation; word timing is local ASR alignment, not manually frame-certified"
+    },
+    {
+      "id": "hold",
+      "start": 43.7,
+      "end": 46.36666666666667,
+      "source_start": 81.04,
+      "source_end": 83.7,
+      "teaching_job": "Elaborate and close",
+      "spoken_summary": "The speaker offers to cover it in more depth.",
+      "visual": "Cut to the full-frame static presenter placeholder at source 81.53s.",
+      "why": "The reference returns attention to the speaker as she offers to elaborate.",
+      "certainty": "Teaching purpose is an interpretation; word timing is local ASR alignment, not manually frame-certified"
+    }
+  ]
+}

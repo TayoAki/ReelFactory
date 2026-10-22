@@ -1,0 +1,721 @@
+{
+  "ok": true,
+  "errorCount": 0,
+  "warningCount": 72,
+  "infoCount": 0,
+  "findings": [
+    {
+      "code": "duplicate_media_discovery_risk",
+      "severity": "warning",
+      "message": "Detected 14 matching img entries with the same source/start/duration.",
+      "fixHint": "Avoid duplicated media nodes that can be discovered twice during compilation.",
+      "snippet": "img src=assets/img/dp700-0.jpg data-start= data-duration=",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html"
+    },
+    {
+      "code": "duplicate_media_discovery_risk",
+      "severity": "warning",
+      "message": "Detected 4 matching img entries with the same source/start/duration.",
+      "fixHint": "Avoid duplicated media nodes that can be discovered twice during compilation.",
+      "snippet": "img src=assets/img/dp700-1.jpg data-start= data-duration=",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html"
+    },
+    {
+      "code": "duplicate_media_discovery_risk",
+      "severity": "warning",
+      "message": "Detected 2 matching img entries with the same source/start/duration.",
+      "fixHint": "Avoid duplicated media nodes that can be discovered twice during compilation.",
+      "snippet": "img src=assets/img/trial-0.jpg data-start= data-duration=",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html"
+    },
+    {
+      "code": "duplicate_media_discovery_risk",
+      "severity": "warning",
+      "message": "Detected 3 matching img entries with the same source/start/duration.",
+      "fixHint": "Avoid duplicated media nodes that can be discovered twice during compilation.",
+      "snippet": "img src=assets/img/trial-home-0.jpg data-start= data-duration=",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html"
+    },
+    {
+      "code": "duplicate_media_discovery_risk",
+      "severity": "warning",
+      "message": "Detected 16 matching img entries with the same source/start/duration.",
+      "fixHint": "Avoid duplicated media nodes that can be discovered twice during compilation.",
+      "snippet": "img src=assets/img/assessment-0.jpg data-start= data-duration=",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html"
+    },
+    {
+      "code": "duplicate_media_discovery_risk",
+      "severity": "warning",
+      "message": "Detected 6 matching img entries with the same source/start/duration.",
+      "fixHint": "Avoid duplicated media nodes that can be discovered twice during compilation.",
+      "snippet": "img src=assets/img/assessment-1.jpg data-start= data-duration=",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html"
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c2\"> is a timeline element that contains nested <img id=\"img1\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c2",
+      "fixHint": "Move <div id=\"c2\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 13,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c21\"> is a timeline element that contains nested <div id=\"pane3\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c21",
+      "fixHint": "Move <div id=\"c21\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 14,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c23\"> is a timeline element that contains nested <img id=\"img22\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c23",
+      "fixHint": "Move <div id=\"c23\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 15,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c25\"> is a timeline element that contains nested <img id=\"img24\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c25",
+      "fixHint": "Move <div id=\"c25\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 16,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c27\"> is a timeline element that contains nested <img id=\"img26\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c27",
+      "fixHint": "Move <div id=\"c27\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 17,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c32\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c32",
+      "fixHint": "Move <div id=\"c32\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 18,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c37\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c37",
+      "fixHint": "Move <div id=\"c37\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 19,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c41\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c41",
+      "fixHint": "Move <div id=\"c41\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 20,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c43\"> is a timeline element that contains nested <img id=\"img42\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c43",
+      "fixHint": "Move <div id=\"c43\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 21,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c45\"> is a timeline element that contains nested <img id=\"img44\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c45",
+      "fixHint": "Move <div id=\"c45\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 22,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c47\"> is a timeline element that contains nested <img id=\"img46\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c47",
+      "fixHint": "Move <div id=\"c47\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 23,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c49\"> is a timeline element that contains nested <img id=\"img48\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c49",
+      "fixHint": "Move <div id=\"c49\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 24,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c51\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c51",
+      "fixHint": "Move <div id=\"c51\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 25,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c56\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c56",
+      "fixHint": "Move <div id=\"c56\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 26,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c61\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c61",
+      "fixHint": "Move <div id=\"c61\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 27,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c66\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c66",
+      "fixHint": "Move <div id=\"c66\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 28,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c68\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c68",
+      "fixHint": "Move <div id=\"c68\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 29,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c70\"> is a timeline element that contains nested <img id=\"img69\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c70",
+      "fixHint": "Move <div id=\"c70\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 30,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c72\"> is a timeline element that contains nested <img id=\"img71\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c72",
+      "fixHint": "Move <div id=\"c72\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 31,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c74\"> is a timeline element that contains nested <img id=\"img73\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c74",
+      "fixHint": "Move <div id=\"c74\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 32,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c76\"> is a timeline element that contains nested <img id=\"img75\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c76",
+      "fixHint": "Move <div id=\"c76\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 33,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c78\"> is a timeline element that contains nested <img id=\"img77\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c78",
+      "fixHint": "Move <div id=\"c78\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 34,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c83\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c83",
+      "fixHint": "Move <div id=\"c83\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 35,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c88\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c88",
+      "fixHint": "Move <div id=\"c88\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 36,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c93\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c93",
+      "fixHint": "Move <div id=\"c93\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 37,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c98\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c98",
+      "fixHint": "Move <div id=\"c98\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 38,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c100\"> is a timeline element that contains nested <img id=\"img99\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c100",
+      "fixHint": "Move <div id=\"c100\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 39,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c119\"> is a timeline element that contains nested <div id=\"pane101\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c119",
+      "fixHint": "Move <div id=\"c119\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 40,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c121\"> is a timeline element that contains nested <img id=\"img120\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c121",
+      "fixHint": "Move <div id=\"c121\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 41,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c123\"> is a timeline element that contains nested <img id=\"img122\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c123",
+      "fixHint": "Move <div id=\"c123\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 42,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c125\"> is a timeline element that contains nested <img id=\"img124\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c125",
+      "fixHint": "Move <div id=\"c125\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 43,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c127\"> is a timeline element that contains nested <img id=\"img126\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c127",
+      "fixHint": "Move <div id=\"c127\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 44,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c129\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c129",
+      "fixHint": "Move <div id=\"c129\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 45,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c134\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c134",
+      "fixHint": "Move <div id=\"c134\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 46,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c139\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c139",
+      "fixHint": "Move <div id=\"c139\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 47,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c144\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c144",
+      "fixHint": "Move <div id=\"c144\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 48,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c146\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c146",
+      "fixHint": "Move <div id=\"c146\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 49,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c148\"> is a timeline element that contains nested <img id=\"img147\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c148",
+      "fixHint": "Move <div id=\"c148\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 50,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c150\"> is a timeline element that contains nested <img id=\"img149\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c150",
+      "fixHint": "Move <div id=\"c150\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 51,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c152\"> is a timeline element that contains nested <img id=\"img151\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c152",
+      "fixHint": "Move <div id=\"c152\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 52,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c154\"> is a timeline element that contains nested <img id=\"img153\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c154",
+      "fixHint": "Move <div id=\"c154\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 53,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c159\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c159",
+      "fixHint": "Move <div id=\"c159\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 54,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c164\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c164",
+      "fixHint": "Move <div id=\"c164\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 55,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c169\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c169",
+      "fixHint": "Move <div id=\"c169\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 56,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c174\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c174",
+      "fixHint": "Move <div id=\"c174\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 57,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c177\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c177",
+      "fixHint": "Move <div id=\"c177\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 58,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c179\"> is a timeline element that contains nested <img id=\"img178\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c179",
+      "fixHint": "Move <div id=\"c179\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 59,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c181\"> is a timeline element that contains nested <img id=\"img180\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c181",
+      "fixHint": "Move <div id=\"c181\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 60,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c183\"> is a timeline element that contains nested <img id=\"img182\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c183",
+      "fixHint": "Move <div id=\"c183\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 61,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c185\"> is a timeline element that contains nested <img id=\"img184\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c185",
+      "fixHint": "Move <div id=\"c185\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 62,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c187\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c187",
+      "fixHint": "Move <div id=\"c187\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 63,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c192\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c192",
+      "fixHint": "Move <div id=\"c192\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 64,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c197\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c197",
+      "fixHint": "Move <div id=\"c197\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 65,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c202\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c202",
+      "fixHint": "Move <div id=\"c202\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 66,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c205\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c205",
+      "fixHint": "Move <div id=\"c205\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 67,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c207\"> is a timeline element that contains nested <img id=\"img206\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c207",
+      "fixHint": "Move <div id=\"c207\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 68,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c209\"> is a timeline element that contains nested <img id=\"img208\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c209",
+      "fixHint": "Move <div id=\"c209\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 69,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c211\"> is a timeline element that contains nested <img id=\"img210\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c211",
+      "fixHint": "Move <div id=\"c211\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 70,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c213\"> is a timeline element that contains nested <img id=\"img212\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c213",
+      "fixHint": "Move <div id=\"c213\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 71,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c215\"> is a timeline element that contains nested <img id=\"img214\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c215",
+      "fixHint": "Move <div id=\"c215\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 72,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c220\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c220",
+      "fixHint": "Move <div id=\"c220\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 73,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c225\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c225",
+      "fixHint": "Move <div id=\"c225\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 74,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c230\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c230",
+      "fixHint": "Move <div id=\"c230\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 75,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c235\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c235",
+      "fixHint": "Move <div id=\"c235\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 76,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c239\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c239",
+      "fixHint": "Move <div id=\"c239\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 77,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<div id=\"c240\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "c240",
+      "fixHint": "Move <div id=\"c240\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/workspace/ReelFactory/videos/06-free-fabric-resources/index.html",
+      "line": 78,
+      "column": 1
+    }
+  ],
+  "filesScanned": 1,
+  "_meta": {
+    "version": "0.8.181",
+    "updateAvailable": false
+  }
+}

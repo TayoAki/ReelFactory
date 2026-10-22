@@ -1,0 +1,50 @@
+{
+  "method": "Two decoded final-video frames per genuine demo segment; compare RGB pixel differences inside the video region, excluding captions and title",
+  "checks": [
+    {
+      "asset": "advanced-query.mp4",
+      "times": [
+        12.813333333333333,
+        14.553333333333333
+      ],
+      "fraction_of_region_pixels_changed_over_10": 0.049132,
+      "visible_change": true
+    },
+    {
+      "asset": "table-selection.mp4",
+      "times": [
+        35.6,
+        37.699999999999996
+      ],
+      "fraction_of_region_pixels_changed_over_10": 0.013102,
+      "visible_change": true
+    },
+    {
+      "asset": "table-detail.mp4",
+      "times": [
+        39.1,
+        41.199999999999996
+      ],
+      "fraction_of_region_pixels_changed_over_10": 0.011528,
+      "visible_change": true
+    },
+    {
+      "asset": "source-config.mp4",
+      "times": [
+        42.379999999999995,
+        43.82
+      ],
+      "fraction_of_region_pixels_changed_over_10": 0.060185,
+      "visible_change": true
+    },
+    {
+      "asset": "config-detail.mp4",
+      "times": [
+        45.099999999999994,
+        47.5
+      ],
+      "fraction_of_region_pixels_changed_over_10": 0.082025,
+      "visible_change": true
+    }
+  ]
+}

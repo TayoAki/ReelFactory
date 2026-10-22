@@ -1,0 +1,594 @@
+{
+  "id": "09-fabric-capacity-costs",
+  "title": "Before you pause Fabric capacity",
+  "duration": 33.856,
+  "beats": [
+    {
+      "text": "Pausing Fabric capacity does not stop the charge for a reservation you already bought.",
+      "asset": "reservation",
+      "device": "tile",
+      "start": 0.0,
+      "end": 5.1733,
+      "voice_end": 5.0133
+    },
+    {
+      "text": "A reservation discount applies hour by hour. Unused hours do not carry forward.",
+      "asset": "reservation",
+      "device": "focus",
+      "start": 5.1733,
+      "end": 10.4107,
+      "voice_end": 10.2507
+    },
+    {
+      "text": "So check how your reservation benefit is being used before you pause capacity.",
+      "asset": "reservation",
+      "device": "sequence",
+      "start": 10.4107,
+      "end": 15.136,
+      "voice_end": 14.976
+    },
+    {
+      "text": "There is a second check. Remaining cumulative overages and smoothed operations are added to your Azure bill when you pause.",
+      "asset": "pause",
+      "device": "focus",
+      "start": 15.136,
+      "end": 22.4213,
+      "voice_end": 22.2613
+    },
+    {
+      "text": "Use the Capacity Metrics app to inspect the capacity's usage.",
+      "asset": "pause",
+      "device": "sequence",
+      "start": 22.4213,
+      "end": 26.208,
+      "voice_end": 26.048
+    },
+    {
+      "text": "Before pausing, check the reservation and pending usage together. A green pause button does not erase an existing commitment.",
+      "asset": "reservation",
+      "device": "focus",
+      "start": 26.208,
+      "end": 33.856,
+      "voice_end": 33.696
+    }
+  ],
+  "words": [
+    {
+      "w": "Pausing",
+      "s": 0.0,
+      "e": 0.52,
+      "alignment": "asr"
+    },
+    {
+      "w": "Fabric",
+      "s": 0.52,
+      "e": 0.9,
+      "alignment": "asr"
+    },
+    {
+      "w": "capacity",
+      "s": 0.9,
+      "e": 1.42,
+      "alignment": "asr"
+    },
+    {
+      "w": "does",
+      "s": 1.42,
+      "e": 2.06,
+      "alignment": "asr"
+    },
+    {
+      "w": "not",
+      "s": 2.06,
+      "e": 2.38,
+      "alignment": "asr"
+    },
+    {
+      "w": "stop",
+      "s": 2.38,
+      "e": 2.58,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 2.58,
+      "e": 2.8,
+      "alignment": "asr"
+    },
+    {
+      "w": "charge",
+      "s": 2.8,
+      "e": 3.06,
+      "alignment": "asr"
+    },
+    {
+      "w": "for",
+      "s": 3.06,
+      "e": 3.34,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 3.34,
+      "e": 3.44,
+      "alignment": "asr"
+    },
+    {
+      "w": "reservation",
+      "s": 3.44,
+      "e": 3.86,
+      "alignment": "asr"
+    },
+    {
+      "w": "you",
+      "s": 3.86,
+      "e": 4.36,
+      "alignment": "asr"
+    },
+    {
+      "w": "already",
+      "s": 4.36,
+      "e": 4.66,
+      "alignment": "asr"
+    },
+    {
+      "w": "bought.",
+      "s": 4.66,
+      "e": 5.0133,
+      "alignment": "asr"
+    },
+    {
+      "w": "A",
+      "s": 5.173333333333334,
+      "e": 5.493333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "reservation",
+      "s": 5.493333333333334,
+      "e": 5.8133333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "discount",
+      "s": 5.8133333333333335,
+      "e": 6.453333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "applies",
+      "s": 6.453333333333334,
+      "e": 6.933333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "hour",
+      "s": 6.933333333333334,
+      "e": 7.313333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "by",
+      "s": 7.313333333333334,
+      "e": 7.593333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "hour.",
+      "s": 7.593333333333334,
+      "e": 8.433333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "Unused",
+      "s": 8.433333333333334,
+      "e": 8.773333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "hours",
+      "s": 8.773333333333333,
+      "e": 9.193333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "do",
+      "s": 9.193333333333333,
+      "e": 9.373333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "not",
+      "s": 9.373333333333335,
+      "e": 9.573333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "carry",
+      "s": 9.573333333333334,
+      "e": 9.833333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "forward.",
+      "s": 9.833333333333334,
+      "e": 10.250633333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "So",
+      "s": 10.410666666666668,
+      "e": 10.790666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "check",
+      "s": 10.790666666666668,
+      "e": 11.030666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "how",
+      "s": 11.030666666666667,
+      "e": 11.310666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "your",
+      "s": 11.310666666666668,
+      "e": 11.670666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "reservation",
+      "s": 11.670666666666667,
+      "e": 11.950666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "benefit",
+      "s": 11.950666666666667,
+      "e": 12.490666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "is",
+      "s": 12.490666666666668,
+      "e": 12.930666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "being",
+      "s": 12.930666666666667,
+      "e": 13.210666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "used",
+      "s": 13.210666666666668,
+      "e": 13.590666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "before",
+      "s": 13.590666666666667,
+      "e": 13.890666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "you",
+      "s": 13.890666666666668,
+      "e": 14.110666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "pause",
+      "s": 14.110666666666667,
+      "e": 14.350666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "capacity.",
+      "s": 14.350666666666667,
+      "e": 14.975966666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "There",
+      "s": 15.136000000000001,
+      "e": 15.336,
+      "alignment": "asr"
+    },
+    {
+      "w": "is",
+      "s": 15.336,
+      "e": 15.536000000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 15.536000000000001,
+      "e": 15.836,
+      "alignment": "asr"
+    },
+    {
+      "w": "second",
+      "s": 15.836,
+      "e": 15.896,
+      "alignment": "asr"
+    },
+    {
+      "w": "check.",
+      "s": 15.896,
+      "e": 16.816000000000003,
+      "alignment": "asr"
+    },
+    {
+      "w": "Remaining",
+      "s": 16.816000000000003,
+      "e": 17.216,
+      "alignment": "asr"
+    },
+    {
+      "w": "cumulative",
+      "s": 17.216,
+      "e": 17.776,
+      "alignment": "asr"
+    },
+    {
+      "w": "overages",
+      "s": 17.776,
+      "e": 18.496000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 18.496000000000002,
+      "e": 18.956,
+      "alignment": "asr"
+    },
+    {
+      "w": "smoothed",
+      "s": 18.956,
+      "e": 19.356,
+      "alignment": "asr"
+    },
+    {
+      "w": "operations",
+      "s": 19.356,
+      "e": 19.876,
+      "alignment": "asr"
+    },
+    {
+      "w": "are",
+      "s": 19.876,
+      "e": 20.536,
+      "alignment": "asr"
+    },
+    {
+      "w": "added",
+      "s": 20.536,
+      "e": 20.696,
+      "alignment": "asr"
+    },
+    {
+      "w": "to",
+      "s": 20.696,
+      "e": 20.856,
+      "alignment": "asr"
+    },
+    {
+      "w": "your",
+      "s": 20.856,
+      "e": 21.076,
+      "alignment": "asr"
+    },
+    {
+      "w": "Azure",
+      "s": 21.076,
+      "e": 21.296,
+      "alignment": "asr"
+    },
+    {
+      "w": "bill",
+      "s": 21.296,
+      "e": 21.516000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "when",
+      "s": 21.516000000000002,
+      "e": 21.676000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "you",
+      "s": 21.676000000000002,
+      "e": 21.856,
+      "alignment": "asr"
+    },
+    {
+      "w": "pause.",
+      "s": 21.856,
+      "e": 22.261300000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "Use",
+      "s": 22.421333333333337,
+      "e": 22.761333333333337,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 22.761333333333337,
+      "e": 22.981333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "Capacity",
+      "s": 22.981333333333335,
+      "e": 23.321333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "Metrics",
+      "s": 23.321333333333335,
+      "e": 23.761333333333337,
+      "alignment": "asr"
+    },
+    {
+      "w": "app",
+      "s": 23.761333333333337,
+      "e": 24.121333333333336,
+      "alignment": "asr"
+    },
+    {
+      "w": "to",
+      "s": 24.121333333333336,
+      "e": 24.461333333333336,
+      "alignment": "asr"
+    },
+    {
+      "w": "inspect",
+      "s": 24.461333333333336,
+      "e": 24.84133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 24.84133333333334,
+      "e": 25.401333333333337,
+      "alignment": "asr"
+    },
+    {
+      "w": "capacity's",
+      "s": 25.401333333333337,
+      "e": 25.681333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "usage.",
+      "s": 25.681333333333335,
+      "e": 26.048033333333336,
+      "alignment": "asr"
+    },
+    {
+      "w": "Before",
+      "s": 26.208000000000002,
+      "e": 26.548000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "pausing,",
+      "s": 26.548000000000002,
+      "e": 27.048000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "check",
+      "s": 27.048000000000002,
+      "e": 27.588,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 27.588,
+      "e": 27.828000000000003,
+      "alignment": "asr"
+    },
+    {
+      "w": "reservation",
+      "s": 27.828000000000003,
+      "e": 28.308000000000003,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 28.308000000000003,
+      "e": 28.808000000000003,
+      "alignment": "asr"
+    },
+    {
+      "w": "pending",
+      "s": 28.808000000000003,
+      "e": 29.148000000000003,
+      "alignment": "asr"
+    },
+    {
+      "w": "usage",
+      "s": 29.148000000000003,
+      "e": 29.468000000000004,
+      "alignment": "asr"
+    },
+    {
+      "w": "together.",
+      "s": 29.468000000000004,
+      "e": 30.728,
+      "alignment": "asr"
+    },
+    {
+      "w": "A",
+      "s": 30.728,
+      "e": 30.728,
+      "alignment": "asr"
+    },
+    {
+      "w": "green",
+      "s": 30.728,
+      "e": 30.968000000000004,
+      "alignment": "asr"
+    },
+    {
+      "w": "pause",
+      "s": 30.968000000000004,
+      "e": 31.328000000000003,
+      "alignment": "asr"
+    },
+    {
+      "w": "button",
+      "s": 31.328000000000003,
+      "e": 31.648000000000003,
+      "alignment": "asr"
+    },
+    {
+      "w": "does",
+      "s": 31.648000000000003,
+      "e": 31.888,
+      "alignment": "asr"
+    },
+    {
+      "w": "not",
+      "s": 31.888,
+      "e": 32.128,
+      "alignment": "asr"
+    },
+    {
+      "w": "erase",
+      "s": 32.128,
+      "e": 32.448,
+      "alignment": "asr"
+    },
+    {
+      "w": "an",
+      "s": 32.448,
+      "e": 32.748000000000005,
+      "alignment": "asr"
+    },
+    {
+      "w": "existing",
+      "s": 32.748000000000005,
+      "e": 33.108000000000004,
+      "alignment": "asr"
+    },
+    {
+      "w": "commitment.",
+      "s": 33.108000000000004,
+      "e": 33.696000000000005,
+      "alignment": "asr"
+    }
+  ],
+  "voice": "Local Kokoro af_heart, synthetic review voice",
+  "alignment_note": "Whisper tiny.en word timestamps, with interpolated unmatched words explicitly flagged. Not manually verified to +/- one frame.",
+  "script_sha256": "ff850b5dadaaa4d9a7205cf0cad5bb73856e0d6427c57768f9d1963d8257dfd7"
+}

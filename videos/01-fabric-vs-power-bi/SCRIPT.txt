@@ -1,0 +1,15 @@
+Microsoft Fabric versus Power BI? Power BI is already inside Fabric.
+
+Power BI handles reports. Fabric covers the workflow around those reports.
+
+Getting data in. Storing it. Transforming it. Then serving the result.
+
+OneLake gives those workloads a shared, logical data lake.
+
+Direct Lake can read Delta tables without importing an entire copy into the model.
+
+A Direct Lake refresh still exists. It updates metadata, rather than copying the whole dataset.
+
+Already know Power BI? Keep it. Add SQL, a lakehouse, and an ingestion pipeline.
+
+Start with one end to end workflow. Follow the data into the report.

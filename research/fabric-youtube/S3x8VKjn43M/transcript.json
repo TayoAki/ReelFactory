@@ -1,0 +1,1595 @@
+{
+  "success": true,
+  "credits_remaining": 16825,
+  "credits_charged": 1,
+  "type": "video",
+  "url": "https://www.youtube.com/watch?v=S3x8VKjn43M",
+  "transcript": [
+    {
+      "text": "The agents you build and use",
+      "startMs": "2700",
+      "endMs": "4200",
+      "startTimeText": "0:02"
+    },
+    {
+      "text": "need the right operationalcontext of how your business runs",
+      "startMs": "4200",
+      "endMs": "7260",
+      "startTimeText": "0:04"
+    },
+    {
+      "text": "to deliver the best outcomes.",
+      "startMs": "7260",
+      "endMs": "8850",
+      "startTimeText": "0:07"
+    },
+    {
+      "text": "Today, that context is oftenfragmented across systems,",
+      "startMs": "8850",
+      "endMs": "12480",
+      "startTimeText": "0:08"
+    },
+    {
+      "text": "defined differently by different teams,",
+      "startMs": "12480",
+      "endMs": "14850",
+      "startTimeText": "0:12"
+    },
+    {
+      "text": "or buried in dashboards and logic,",
+      "startMs": "14850",
+      "endMs": "17160",
+      "startTimeText": "0:14"
+    },
+    {
+      "text": "making outcomes inconsistent",
+      "startMs": "17160",
+      "endMs": "19170",
+      "startTimeText": "0:17"
+    },
+    {
+      "text": "and agent behavior hard to predict.",
+      "startMs": "19170",
+      "endMs": "21660",
+      "startTimeText": "0:19"
+    },
+    {
+      "text": "That's where Microsoft Fabric IQ comes in.",
+      "startMs": "21660",
+      "endMs": "24240",
+      "startTimeText": "0:21"
+    },
+    {
+      "text": "Fabric IQ introduces a semantic foundation",
+      "startMs": "24240",
+      "endMs": "26970",
+      "startTimeText": "0:24"
+    },
+    {
+      "text": "that unifies models anddata through an ontology.",
+      "startMs": "26970",
+      "endMs": "30630",
+      "startTimeText": "0:26"
+    },
+    {
+      "text": "It defines the shared business entities",
+      "startMs": "30630",
+      "endMs": "32760",
+      "startTimeText": "0:30"
+    },
+    {
+      "text": "and their relationships,",
+      "startMs": "32760",
+      "endMs": "34140",
+      "startTimeText": "0:32"
+    },
+    {
+      "text": "and connects them to your data.",
+      "startMs": "34140",
+      "endMs": "36180",
+      "startTimeText": "0:34"
+    },
+    {
+      "text": "It provides the operational context needed",
+      "startMs": "36180",
+      "endMs": "38280",
+      "startTimeText": "0:36"
+    },
+    {
+      "text": "to understand how thebusiness actually runs,",
+      "startMs": "38280",
+      "endMs": "40890",
+      "startTimeText": "0:38"
+    },
+    {
+      "text": "without altering any underlying data.",
+      "startMs": "40890",
+      "endMs": "43770",
+      "startTimeText": "0:40"
+    },
+    {
+      "text": "Analysts can not only work withthe data they already trust,",
+      "startMs": "43770",
+      "endMs": "47040",
+      "startTimeText": "0:43"
+    },
+    {
+      "text": "but also model how the business works.",
+      "startMs": "47040",
+      "endMs": "49320",
+      "startTimeText": "0:47"
+    },
+    {
+      "text": "And agents can use thatsame shared context",
+      "startMs": "49320",
+      "endMs": "51870",
+      "startTimeText": "0:49"
+    },
+    {
+      "text": "to reason and act more consistently.",
+      "startMs": "51870",
+      "endMs": "54600",
+      "startTimeText": "0:51"
+    },
+    {
+      "text": "Today, I'll show you both sides.",
+      "startMs": "54600",
+      "endMs": "56670",
+      "startTimeText": "0:54"
+    },
+    {
+      "text": "First, how a data analystleverages Fabric IQ",
+      "startMs": "56670",
+      "endMs": "60150",
+      "startTimeText": "0:56"
+    },
+    {
+      "text": "inside a Fabric workspace,",
+      "startMs": "60150",
+      "endMs": "61860",
+      "startTimeText": "1:00"
+    },
+    {
+      "text": "using ontology to modelthe business concepts.",
+      "startMs": "61860",
+      "endMs": "65220",
+      "startTimeText": "1:01"
+    },
+    {
+      "text": "Then, how Fabric IQ uses the same context",
+      "startMs": "65220",
+      "endMs": "68490",
+      "startTimeText": "1:05"
+    },
+    {
+      "text": "to drive more reliable andpredictable insights from agents.",
+      "startMs": "68490",
+      "endMs": "72270",
+      "startTimeText": "1:08"
+    },
+    {
+      "text": "I'll start from the pointof view of an analyst",
+      "startMs": "72270",
+      "endMs": "74310",
+      "startTimeText": "1:12"
+    },
+    {
+      "text": "looking to create a full fidelity view",
+      "startMs": "74310",
+      "endMs": "76470",
+      "startTimeText": "1:14"
+    },
+    {
+      "text": "of how an airline operates,",
+      "startMs": "76470",
+      "endMs": "78000",
+      "startTimeText": "1:16"
+    },
+    {
+      "text": "including processes such as ticketing,",
+      "startMs": "78000",
+      "endMs": "80010",
+      "startTimeText": "1:18"
+    },
+    {
+      "text": "maintenance, and more.",
+      "startMs": "80010",
+      "endMs": "82020",
+      "startTimeText": "1:20"
+    },
+    {
+      "text": "The first thing I need to dois to create a new ontology.",
+      "startMs": "82020",
+      "endMs": "85110",
+      "startTimeText": "1:22"
+    },
+    {
+      "text": "I can either build one from scratch,",
+      "startMs": "85110",
+      "endMs": "87060",
+      "startTimeText": "1:25"
+    },
+    {
+      "text": "or jumpstart by using anexisting Power BI semantic model.",
+      "startMs": "87060",
+      "endMs": "91260",
+      "startTimeText": "1:27"
+    },
+    {
+      "text": "As you see here, there's a new option",
+      "startMs": "91260",
+      "endMs": "93330",
+      "startTimeText": "1:31"
+    },
+    {
+      "text": "to generate an ontologyfrom this semantic model.",
+      "startMs": "93330",
+      "endMs": "96510",
+      "startTimeText": "1:33"
+    },
+    {
+      "text": "I just need to choose theworkspace, give it a name.",
+      "startMs": "96510",
+      "endMs": "99360",
+      "startTimeText": "1:36"
+    },
+    {
+      "text": "I'll choose AirlineOperationsOntology.",
+      "startMs": "99360",
+      "endMs": "101670",
+      "startTimeText": "1:39"
+    },
+    {
+      "text": "Then confirm by hitting Create.",
+      "startMs": "101670",
+      "endMs": "103980",
+      "startTimeText": "1:41"
+    },
+    {
+      "text": "In just a few clicks,",
+      "startMs": "103980",
+      "endMs": "105270",
+      "startTimeText": "1:43"
+    },
+    {
+      "text": "I'm able to see the different entities",
+      "startMs": "105270",
+      "endMs": "107250",
+      "startTimeText": "1:45"
+    },
+    {
+      "text": "of our airline business.",
+      "startMs": "107250",
+      "endMs": "108810",
+      "startTimeText": "1:47"
+    },
+    {
+      "text": "All data is now linkednot only through keys,",
+      "startMs": "108810",
+      "endMs": "111810",
+      "startTimeText": "1:48"
+    },
+    {
+      "text": "but also businessrelationships and semantics.",
+      "startMs": "111810",
+      "endMs": "115200",
+      "startTimeText": "1:51"
+    },
+    {
+      "text": "We can see flights,airlines, routes, and more.",
+      "startMs": "115200",
+      "endMs": "118800",
+      "startTimeText": "1:55"
+    },
+    {
+      "text": "If I click into airports,",
+      "startMs": "118800",
+      "endMs": "120690",
+      "startTimeText": "1:58"
+    },
+    {
+      "text": "because Fabric IQ is semantically aware",
+      "startMs": "120690",
+      "endMs": "123060",
+      "startTimeText": "2:00"
+    },
+    {
+      "text": "of the relationships between entities,",
+      "startMs": "123060",
+      "endMs": "125220",
+      "startTimeText": "2:03"
+    },
+    {
+      "text": "it shows the routes connected to runways",
+      "startMs": "125220",
+      "endMs": "127380",
+      "startTimeText": "2:05"
+    },
+    {
+      "text": "which are in turn connected to airports",
+      "startMs": "127380",
+      "endMs": "129780",
+      "startTimeText": "2:07"
+    },
+    {
+      "text": "And for any entity, I can choose to add",
+      "startMs": "129780",
+      "endMs": "132690",
+      "startTimeText": "2:09"
+    },
+    {
+      "text": "more live operational signals.",
+      "startMs": "132690",
+      "endMs": "135150",
+      "startTimeText": "2:12"
+    },
+    {
+      "text": "In this case, I want to add details",
+      "startMs": "135150",
+      "endMs": "137408",
+      "startTimeText": "2:15"
+    },
+    {
+      "text": "about the runway conditionsusing real-time data,",
+      "startMs": "137408",
+      "endMs": "140580",
+      "startTimeText": "2:17"
+    },
+    {
+      "text": "including contamination,visual range for visibility,",
+      "startMs": "140580",
+      "endMs": "143970",
+      "startTimeText": "2:20"
+    },
+    {
+      "text": "as well as the availablecleared width and more.",
+      "startMs": "143970",
+      "endMs": "147117",
+      "startTimeText": "2:23"
+    },
+    {
+      "text": "And you can also bringin your Power BI reports",
+      "startMs": "147117",
+      "endMs": "149820",
+      "startTimeText": "2:27"
+    },
+    {
+      "text": "for a canonical view of how to monitor",
+      "startMs": "149820",
+      "endMs": "152280",
+      "startTimeText": "2:29"
+    },
+    {
+      "text": "and manage these aircrafts.",
+      "startMs": "152280",
+      "endMs": "154140",
+      "startTimeText": "2:32"
+    },
+    {
+      "text": "From the ontology, I'll headover to the Report links tab",
+      "startMs": "154140",
+      "endMs": "158070",
+      "startTimeText": "2:34"
+    },
+    {
+      "text": "that opens the OneLake catalogwith all of my reports.",
+      "startMs": "158070",
+      "endMs": "161640",
+      "startTimeText": "2:38"
+    },
+    {
+      "text": "I'll search for air and thereare three matching reports",
+      "startMs": "161640",
+      "endMs": "164460",
+      "startTimeText": "2:41"
+    },
+    {
+      "text": "for gates, ground service,plus safety and runway.",
+      "startMs": "164460",
+      "endMs": "167790",
+      "startTimeText": "2:44"
+    },
+    {
+      "text": "So I'll add them andhit Connect to confirm.",
+      "startMs": "167790",
+      "endMs": "171060",
+      "startTimeText": "2:47"
+    },
+    {
+      "text": "So, in just a few clicks,",
+      "startMs": "171060",
+      "endMs": "172920",
+      "startTimeText": "2:51"
+    },
+    {
+      "text": "we've expanded our ontologywith the live operational view,",
+      "startMs": "172920",
+      "endMs": "176730",
+      "startTimeText": "2:52"
+    },
+    {
+      "text": "using real-time signal,geospatial data, and more.",
+      "startMs": "176730",
+      "endMs": "181170",
+      "startTimeText": "2:56"
+    },
+    {
+      "text": "Now, as an analyst, I canwork immediately with it,",
+      "startMs": "181170",
+      "endMs": "185070",
+      "startTimeText": "3:01"
+    },
+    {
+      "text": "and our agents can act on it as well.",
+      "startMs": "185070",
+      "endMs": "188040",
+      "startTimeText": "3:05"
+    },
+    {
+      "text": "Let's fast\u2011forward andsee what I've unlocked.",
+      "startMs": "188040",
+      "endMs": "190620",
+      "startTimeText": "3:08"
+    },
+    {
+      "text": "You can see that I now havea richer view over my data,",
+      "startMs": "190620",
+      "endMs": "193740",
+      "startTimeText": "3:10"
+    },
+    {
+      "text": "which is connected toreal\u2011world operations.",
+      "startMs": "193740",
+      "endMs": "196890",
+      "startTimeText": "3:13"
+    },
+    {
+      "text": "We're no longer optimizing one report",
+      "startMs": "196890",
+      "endMs": "199320",
+      "startTimeText": "3:16"
+    },
+    {
+      "text": "or one dataset at a time.",
+      "startMs": "199320",
+      "endMs": "201240",
+      "startTimeText": "3:19"
+    },
+    {
+      "text": "We're looking at our operations",
+      "startMs": "201240",
+      "endMs": "202740",
+      "startTimeText": "3:21"
+    },
+    {
+      "text": "across multiple data sources,",
+      "startMs": "202740",
+      "endMs": "204990",
+      "startTimeText": "3:22"
+    },
+    {
+      "text": "in the language of our business,",
+      "startMs": "204990",
+      "endMs": "206970",
+      "startTimeText": "3:24"
+    },
+    {
+      "text": "with meaning and relationshipsalready understood.",
+      "startMs": "206970",
+      "endMs": "210450",
+      "startTimeText": "3:26"
+    },
+    {
+      "text": "Now let me show you howthis makes it easier",
+      "startMs": "210450",
+      "endMs": "212760",
+      "startTimeText": "3:30"
+    },
+    {
+      "text": "to turn insights into concretedecisions and actions.",
+      "startMs": "212760",
+      "endMs": "216480",
+      "startTimeText": "3:32"
+    },
+    {
+      "text": "First, in the flight entity type overview,",
+      "startMs": "216480",
+      "endMs": "219330",
+      "startTimeText": "3:36"
+    },
+    {
+      "text": "I can see how it relates tomy other business processes.",
+      "startMs": "219330",
+      "endMs": "222600",
+      "startTimeText": "3:39"
+    },
+    {
+      "text": "I see entities likebookings, gates, airlines,",
+      "startMs": "222600",
+      "endMs": "226170",
+      "startTimeText": "3:42"
+    },
+    {
+      "text": "and more as a graph.",
+      "startMs": "226170",
+      "endMs": "227580",
+      "startTimeText": "3:46"
+    },
+    {
+      "text": "I have links to all of myconnected Power BI reports.",
+      "startMs": "227580",
+      "endMs": "230910",
+      "startTimeText": "3:47"
+    },
+    {
+      "text": "There is a real-time weatherdata, including wind knots,",
+      "startMs": "230910",
+      "endMs": "234180",
+      "startTimeText": "3:50"
+    },
+    {
+      "text": "as well as geo-spatial insightsshowing all of my flights.",
+      "startMs": "234180",
+      "endMs": "238710",
+      "startTimeText": "3:54"
+    },
+    {
+      "text": "Using Fabric Maps, Ihave a fleet level view",
+      "startMs": "238710",
+      "endMs": "241620",
+      "startTimeText": "3:58"
+    },
+    {
+      "text": "of all my active flights,",
+      "startMs": "241620",
+      "endMs": "243150",
+      "startTimeText": "4:01"
+    },
+    {
+      "text": "and I can see live airtraffic across the fleet.",
+      "startMs": "243150",
+      "endMs": "246630",
+      "startTimeText": "4:03"
+    },
+    {
+      "text": "This, in fact, is a heat map view",
+      "startMs": "246630",
+      "endMs": "248940",
+      "startTimeText": "4:06"
+    },
+    {
+      "text": "of three New York City area airports,",
+      "startMs": "248940",
+      "endMs": "251460",
+      "startTimeText": "4:08"
+    },
+    {
+      "text": "and we can see that JFK in this case",
+      "startMs": "251460",
+      "endMs": "253740",
+      "startTimeText": "4:11"
+    },
+    {
+      "text": "is impacted with lots of runway activity.",
+      "startMs": "253740",
+      "endMs": "256620",
+      "startTimeText": "4:13"
+    },
+    {
+      "text": "I can now understandthe system as a whole,",
+      "startMs": "256620",
+      "endMs": "259170",
+      "startTimeText": "4:16"
+    },
+    {
+      "text": "across bookings, flights, airports,",
+      "startMs": "259170",
+      "endMs": "261840",
+      "startTimeText": "4:19"
+    },
+    {
+      "text": "and real\u2011time conditions.",
+      "startMs": "261840",
+      "endMs": "263520",
+      "startTimeText": "4:21"
+    },
+    {
+      "text": "And I can drill in further tounderstand what is going on:",
+      "startMs": "263520",
+      "endMs": "267510",
+      "startTimeText": "4:23"
+    },
+    {
+      "text": "I have opened the runways entity,",
+      "startMs": "267510",
+      "endMs": "269430",
+      "startTimeText": "4:27"
+    },
+    {
+      "text": "and you'll remember some ofthese categories from before.",
+      "startMs": "269430",
+      "endMs": "272010",
+      "startTimeText": "4:29"
+    },
+    {
+      "text": "Since there's snow in the area,",
+      "startMs": "272010",
+      "endMs": "273840",
+      "startTimeText": "4:32"
+    },
+    {
+      "text": "I can immediately seethe runway conditions",
+      "startMs": "273840",
+      "endMs": "276240",
+      "startTimeText": "4:33"
+    },
+    {
+      "text": "that affect operations,",
+      "startMs": "276240",
+      "endMs": "277380",
+      "startTimeText": "4:36"
+    },
+    {
+      "text": "things like surface frictionand contamination levels,",
+      "startMs": "277380",
+      "endMs": "280320",
+      "startTimeText": "4:37"
+    },
+    {
+      "text": "so I understand how safe it is",
+      "startMs": "280320",
+      "endMs": "282660",
+      "startTimeText": "4:40"
+    },
+    {
+      "text": "for planes to take off and land.",
+      "startMs": "282660",
+      "endMs": "284820",
+      "startTimeText": "4:42"
+    },
+    {
+      "text": "Beyond connecting raw data,",
+      "startMs": "284820",
+      "endMs": "286980",
+      "startTimeText": "4:44"
+    },
+    {
+      "text": "I can also define rulesdirectly in the ontology,",
+      "startMs": "286980",
+      "endMs": "290070",
+      "startTimeText": "4:46"
+    },
+    {
+      "text": "so this logic lives with thedata and its business meaning,",
+      "startMs": "290070",
+      "endMs": "293460",
+      "startTimeText": "4:50"
+    },
+    {
+      "text": "instead of being hardcoded somewhere else.",
+      "startMs": "293460",
+      "endMs": "295950",
+      "startTimeText": "4:53"
+    },
+    {
+      "text": "In this case, I'll add a rule that says",
+      "startMs": "295950",
+      "endMs": "297810",
+      "startTimeText": "4:55"
+    },
+    {
+      "text": "if runway contamination exceeds",
+      "startMs": "297810",
+      "endMs": "299850",
+      "startTimeText": "4:57"
+    },
+    {
+      "text": "high threshold value of 25%,",
+      "startMs": "299850",
+      "endMs": "302460",
+      "startTimeText": "4:59"
+    },
+    {
+      "text": "notify the passengersproactively of upcoming delays.",
+      "startMs": "302460",
+      "endMs": "305520",
+      "startTimeText": "5:02"
+    },
+    {
+      "text": "We'll also notify the ground crew,",
+      "startMs": "305520",
+      "endMs": "307290",
+      "startTimeText": "5:05"
+    },
+    {
+      "text": "so they know that therunways need to be cleared.",
+      "startMs": "307290",
+      "endMs": "310050",
+      "startTimeText": "5:07"
+    },
+    {
+      "text": "The rules are nowembedded in the ontology,",
+      "startMs": "310050",
+      "endMs": "313140",
+      "startTimeText": "5:10"
+    },
+    {
+      "text": "and the value comes fromseeing how runway conditions",
+      "startMs": "313140",
+      "endMs": "316620",
+      "startTimeText": "5:13"
+    },
+    {
+      "text": "impact the rest of the operations.",
+      "startMs": "316620",
+      "endMs": "318840",
+      "startTimeText": "5:16"
+    },
+    {
+      "text": "That's where the built\u2011inontology graph helps.",
+      "startMs": "318840",
+      "endMs": "321600",
+      "startTimeText": "5:18"
+    },
+    {
+      "text": "Let's look at the relationship graph.",
+      "startMs": "321600",
+      "endMs": "323610",
+      "startTimeText": "5:21"
+    },
+    {
+      "text": "I'll expand the graph view.",
+      "startMs": "323610",
+      "endMs": "325140",
+      "startTimeText": "5:23"
+    },
+    {
+      "text": "And add a filter for JFK airport",
+      "startMs": "325140",
+      "endMs": "327720",
+      "startTimeText": "5:25"
+    },
+    {
+      "text": "Then run the query.",
+      "startMs": "327720",
+      "endMs": "329040",
+      "startTimeText": "5:27"
+    },
+    {
+      "text": "No code needed here.",
+      "startMs": "329040",
+      "endMs": "330540",
+      "startTimeText": "5:29"
+    },
+    {
+      "text": "And I get a filtered view for JFK.",
+      "startMs": "330540",
+      "endMs": "332430",
+      "startTimeText": "5:30"
+    },
+    {
+      "text": "And immediately, I cansee a poor condition",
+      "startMs": "332430",
+      "endMs": "335070",
+      "startTimeText": "5:32"
+    },
+    {
+      "text": "that's affecting Runway 25R.",
+      "startMs": "335070",
+      "endMs": "337410",
+      "startTimeText": "5:35"
+    },
+    {
+      "text": "From that insight,",
+      "startMs": "337410",
+      "endMs": "338610",
+      "startTimeText": "5:37"
+    },
+    {
+      "text": "it's easy to see the downstream impact.",
+      "startMs": "338610",
+      "endMs": "340620",
+      "startTimeText": "5:38"
+    },
+    {
+      "text": "This runway issue is already affecting",
+      "startMs": "340620",
+      "endMs": "342900",
+      "startTimeText": "5:40"
+    },
+    {
+      "text": "related gates and baggage operations",
+      "startMs": "342900",
+      "endMs": "345060",
+      "startTimeText": "5:42"
+    },
+    {
+      "text": "that will need to be rescheduled.",
+      "startMs": "345060",
+      "endMs": "347160",
+      "startTimeText": "5:45"
+    },
+    {
+      "text": "This is a unified viewof our entire operations",
+      "startMs": "347160",
+      "endMs": "350430",
+      "startTimeText": "5:47"
+    },
+    {
+      "text": "and how connected events",
+      "startMs": "350430",
+      "endMs": "351900",
+      "startTimeText": "5:50"
+    },
+    {
+      "text": "will cascade acrossrelated business entities.",
+      "startMs": "351900",
+      "endMs": "354810",
+      "startTimeText": "5:51"
+    },
+    {
+      "text": "This is how ontologyhelps you as an analyst.",
+      "startMs": "354810",
+      "endMs": "357150",
+      "startTimeText": "5:54"
+    },
+    {
+      "text": "But remember, the same operational context",
+      "startMs": "357150",
+      "endMs": "359670",
+      "startTimeText": "5:57"
+    },
+    {
+      "text": "is also available to AI agents,",
+      "startMs": "359670",
+      "endMs": "361920",
+      "startTimeText": "5:59"
+    },
+    {
+      "text": "no matter how you build them.",
+      "startMs": "361920",
+      "endMs": "363780",
+      "startTimeText": "6:01"
+    },
+    {
+      "text": "Let me demonstrate this in the context of",
+      "startMs": "363780",
+      "endMs": "366000",
+      "startTimeText": "6:03"
+    },
+    {
+      "text": "one our built-in Fabric IQ agents.",
+      "startMs": "366000",
+      "endMs": "368760",
+      "startTimeText": "6:06"
+    },
+    {
+      "text": "From the New Item catalog,",
+      "startMs": "368760",
+      "endMs": "370350",
+      "startTimeText": "6:08"
+    },
+    {
+      "text": "you can find the built-in agents",
+      "startMs": "370350",
+      "endMs": "372180",
+      "startTimeText": "6:10"
+    },
+    {
+      "text": "by searching for agent.",
+      "startMs": "372180",
+      "endMs": "373950",
+      "startTimeText": "6:12"
+    },
+    {
+      "text": "There is a Data agentdesigned to answer questions,",
+      "startMs": "373950",
+      "endMs": "376950",
+      "startTimeText": "6:13"
+    },
+    {
+      "text": "and an Operations agentdesigned for real-time data",
+      "startMs": "376950",
+      "endMs": "379890",
+      "startTimeText": "6:16"
+    },
+    {
+      "text": "and business action recommendations.",
+      "startMs": "379890",
+      "endMs": "382590",
+      "startTimeText": "6:19"
+    },
+    {
+      "text": "The Operations agent is a perfect fit",
+      "startMs": "382590",
+      "endMs": "384750",
+      "startTimeText": "6:22"
+    },
+    {
+      "text": "for our airline operations scenario,",
+      "startMs": "384750",
+      "endMs": "387000",
+      "startTimeText": "6:24"
+    },
+    {
+      "text": "so I'll choose that one.",
+      "startMs": "387000",
+      "endMs": "388500",
+      "startTimeText": "6:27"
+    },
+    {
+      "text": "I want this agent to help with",
+      "startMs": "388500",
+      "endMs": "389820",
+      "startTimeText": "6:28"
+    },
+    {
+      "text": "runway-related analysis and actions,",
+      "startMs": "389820",
+      "endMs": "391920",
+      "startTimeText": "6:29"
+    },
+    {
+      "text": "so I'll name it RunwayConditionsAgent,",
+      "startMs": "391920",
+      "endMs": "394380",
+      "startTimeText": "6:31"
+    },
+    {
+      "text": "leave the location, and create it.",
+      "startMs": "394380",
+      "endMs": "396300",
+      "startTimeText": "6:34"
+    },
+    {
+      "text": "From there, I can adda bit more information",
+      "startMs": "396300",
+      "endMs": "398760",
+      "startTimeText": "6:36"
+    },
+    {
+      "text": "to set up the agent,",
+      "startMs": "398760",
+      "endMs": "399780",
+      "startTimeText": "6:38"
+    },
+    {
+      "text": "like adding the business goalsfor what it should accomplish",
+      "startMs": "399780",
+      "endMs": "403170",
+      "startTimeText": "6:39"
+    },
+    {
+      "text": "I want this one to monitorsurface conditions for runways",
+      "startMs": "403170",
+      "endMs": "406110",
+      "startTimeText": "6:43"
+    },
+    {
+      "text": "and ensure things run smoothly",
+      "startMs": "406110",
+      "endMs": "408000",
+      "startTimeText": "6:46"
+    },
+    {
+      "text": "based on logic like we used before.",
+      "startMs": "408000",
+      "endMs": "410460",
+      "startTimeText": "6:48"
+    },
+    {
+      "text": "In fact, in the Agent instructions,",
+      "startMs": "410460",
+      "endMs": "412590",
+      "startTimeText": "6:50"
+    },
+    {
+      "text": "using natural language, no code,",
+      "startMs": "412590",
+      "endMs": "415230",
+      "startTimeText": "6:52"
+    },
+    {
+      "text": "I'll describe that ifsurface contamination",
+      "startMs": "415230",
+      "endMs": "417420",
+      "startTimeText": "6:55"
+    },
+    {
+      "text": "is reported above 10%,",
+      "startMs": "417420",
+      "endMs": "419460",
+      "startTimeText": "6:57"
+    },
+    {
+      "text": "send ground crews to take care of it.",
+      "startMs": "419460",
+      "endMs": "421680",
+      "startTimeText": "6:59"
+    },
+    {
+      "text": "Likewise, the clear widthshould be more than 25 meters,",
+      "startMs": "421680",
+      "endMs": "424890",
+      "startTimeText": "7:01"
+    },
+    {
+      "text": "and the agent should send ground crew",
+      "startMs": "424890",
+      "endMs": "426510",
+      "startTimeText": "7:04"
+    },
+    {
+      "text": "to visually assess whetherplanes can safely brake.",
+      "startMs": "426510",
+      "endMs": "429780",
+      "startTimeText": "7:06"
+    },
+    {
+      "text": "Now let's add some knowledge.",
+      "startMs": "429780",
+      "endMs": "431730",
+      "startTimeText": "7:09"
+    },
+    {
+      "text": "And for that, I'll chooseour AirlineOntology.",
+      "startMs": "431730",
+      "endMs": "435270",
+      "startTimeText": "7:11"
+    },
+    {
+      "text": "And here's where I can add actions.",
+      "startMs": "435270",
+      "endMs": "437430",
+      "startTimeText": "7:15"
+    },
+    {
+      "text": "I'll add one to assignground crew for clearing,",
+      "startMs": "437430",
+      "endMs": "439680",
+      "startTimeText": "7:17"
+    },
+    {
+      "text": "along with descriptionfor what needs to be done.",
+      "startMs": "439680",
+      "endMs": "442530",
+      "startTimeText": "7:19"
+    },
+    {
+      "text": "Then I'll give it the RunwayID as the one to clear",
+      "startMs": "442530",
+      "endMs": "445320",
+      "startTimeText": "7:22"
+    },
+    {
+      "text": "and the Temperature to predictthe type of clearing needed.",
+      "startMs": "445320",
+      "endMs": "448080",
+      "startTimeText": "7:25"
+    },
+    {
+      "text": "And Create to add that one.",
+      "startMs": "448080",
+      "endMs": "450180",
+      "startTimeText": "7:28"
+    },
+    {
+      "text": "Now I'll add another forrequesting visual assessment,",
+      "startMs": "450180",
+      "endMs": "453330",
+      "startTimeText": "7:30"
+    },
+    {
+      "text": "and perform similarsteps for the parameters.",
+      "startMs": "453330",
+      "endMs": "456090",
+      "startTimeText": "7:33"
+    },
+    {
+      "text": "These will send statusupdates in Microsoft Teams.",
+      "startMs": "456090",
+      "endMs": "459330",
+      "startTimeText": "7:36"
+    },
+    {
+      "text": "Now everything is defined and ready.",
+      "startMs": "459330",
+      "endMs": "461610",
+      "startTimeText": "7:39"
+    },
+    {
+      "text": "I just need to save this new agent.",
+      "startMs": "461610",
+      "endMs": "464040",
+      "startTimeText": "7:41"
+    },
+    {
+      "text": "That takes a moment.",
+      "startMs": "464040",
+      "endMs": "465330",
+      "startTimeText": "7:44"
+    },
+    {
+      "text": "And once it's finished,",
+      "startMs": "465330",
+      "endMs": "466560",
+      "startTimeText": "7:45"
+    },
+    {
+      "text": "it creates a nice agent playbook",
+      "startMs": "466560",
+      "endMs": "468990",
+      "startTimeText": "7:46"
+    },
+    {
+      "text": "with what it's designed to do.",
+      "startMs": "468990",
+      "endMs": "471390",
+      "startTimeText": "7:48"
+    },
+    {
+      "text": "Now, with the agent running,",
+      "startMs": "471390",
+      "endMs": "472920",
+      "startTimeText": "7:51"
+    },
+    {
+      "text": "the right people will get notified",
+      "startMs": "472920",
+      "endMs": "474840",
+      "startTimeText": "7:52"
+    },
+    {
+      "text": "of what to do in Microsoft Teams",
+      "startMs": "474840",
+      "endMs": "477000",
+      "startTimeText": "7:54"
+    },
+    {
+      "text": "Here, I'm looking at the Operations agent",
+      "startMs": "477000",
+      "endMs": "479430",
+      "startTimeText": "7:57"
+    },
+    {
+      "text": "It's alerting us that Runway 29L",
+      "startMs": "479430",
+      "endMs": "482070",
+      "startTimeText": "7:59"
+    },
+    {
+      "text": "has only 22 meters of clear path.",
+      "startMs": "482070",
+      "endMs": "485040",
+      "startTimeText": "8:02"
+    },
+    {
+      "text": "This is under our 25 meter threshold.",
+      "startMs": "485040",
+      "endMs": "488280",
+      "startTimeText": "8:05"
+    },
+    {
+      "text": "It recommends to deploy the ground crew",
+      "startMs": "488280",
+      "endMs": "490350",
+      "startTimeText": "8:08"
+    },
+    {
+      "text": "for a runway clearance operation.",
+      "startMs": "490350",
+      "endMs": "492450",
+      "startTimeText": "8:10"
+    },
+    {
+      "text": "As the human in the loop,",
+      "startMs": "492450",
+      "endMs": "493740",
+      "startTimeText": "8:12"
+    },
+    {
+      "text": "I can choose whether or not",
+      "startMs": "493740",
+      "endMs": "495510",
+      "startTimeText": "8:13"
+    },
+    {
+      "text": "to proceed with the recommendation.",
+      "startMs": "495510",
+      "endMs": "497340",
+      "startTimeText": "8:15"
+    },
+    {
+      "text": "I'll do that.",
+      "startMs": "497340",
+      "endMs": "498300",
+      "startTimeText": "8:17"
+    },
+    {
+      "text": "Then it asks to confirm a few details.",
+      "startMs": "498300",
+      "endMs": "500850",
+      "startTimeText": "8:18"
+    },
+    {
+      "text": "They look good, so I'll confirm,",
+      "startMs": "500850",
+      "endMs": "502860",
+      "startTimeText": "8:20"
+    },
+    {
+      "text": "and the ground crew is on its way.",
+      "startMs": "502860",
+      "endMs": "504840",
+      "startTimeText": "8:22"
+    },
+    {
+      "text": "And here is the good news.",
+      "startMs": "504840",
+      "endMs": "506220",
+      "startTimeText": "8:24"
+    },
+    {
+      "text": "If you're building your own agent",
+      "startMs": "506220",
+      "endMs": "508170",
+      "startTimeText": "8:26"
+    },
+    {
+      "text": "in Microsoft Copilot Studioor using Microsoft Foundry,",
+      "startMs": "508170",
+      "endMs": "511530",
+      "startTimeText": "8:28"
+    },
+    {
+      "text": "Fabric IQ ontology will be anintegrated knowledge source",
+      "startMs": "511530",
+      "endMs": "514950",
+      "startTimeText": "8:31"
+    },
+    {
+      "text": "that you will be able to choose from.",
+      "startMs": "514950",
+      "endMs": "517290",
+      "startTimeText": "8:34"
+    },
+    {
+      "text": "As you choose your knowledge types,",
+      "startMs": "517290",
+      "endMs": "519030",
+      "startTimeText": "8:37"
+    },
+    {
+      "text": "you can select Fabric IQ.",
+      "startMs": "519030",
+      "endMs": "520710",
+      "startTimeText": "8:39"
+    },
+    {
+      "text": "This will ground agents inthe same semantic foundation",
+      "startMs": "520710",
+      "endMs": "524340",
+      "startTimeText": "8:40"
+    },
+    {
+      "text": "that already runs your operations.",
+      "startMs": "524340",
+      "endMs": "526590",
+      "startTimeText": "8:44"
+    },
+    {
+      "text": "And of course, the agents youbuild and connect to Fabric IQ",
+      "startMs": "526590",
+      "endMs": "529530",
+      "startTimeText": "8:46"
+    },
+    {
+      "text": "will respect the permissionsand security policies",
+      "startMs": "529530",
+      "endMs": "532110",
+      "startTimeText": "8:49"
+    },
+    {
+      "text": "you already use in Fabric today.",
+      "startMs": "532110",
+      "endMs": "534630",
+      "startTimeText": "8:52"
+    },
+    {
+      "text": "As I have shown, Microsoft Fabric IQ",
+      "startMs": "534630",
+      "endMs": "536910",
+      "startTimeText": "8:54"
+    },
+    {
+      "text": "gives agents shared understanding,",
+      "startMs": "536910",
+      "endMs": "538770",
+      "startTimeText": "8:56"
+    },
+    {
+      "text": "with entities, relationships,rules, and actions",
+      "startMs": "538770",
+      "endMs": "542520",
+      "startTimeText": "8:58"
+    },
+    {
+      "text": "so they can move from insightto decision more reliably.",
+      "startMs": "542520",
+      "endMs": "546330",
+      "startTimeText": "9:02"
+    },
+    {
+      "text": "To learn more and get started,check out aka.ms/FabricIQ.",
+      "startMs": "546330",
+      "endMs": "551330",
+      "startTimeText": "9:06"
+    },
+    {
+      "text": "Keep watching Microsoft Mechanics",
+      "startMs": "551970",
+      "endMs": "553560",
+      "startTimeText": "9:11"
+    },
+    {
+      "text": "for the latest news and deep dives.",
+      "startMs": "553560",
+      "endMs": "555750",
+      "startTimeText": "9:13"
+    },
+    {
+      "text": "And thank you for watching.",
+      "startMs": "555750",
+      "endMs": "558000",
+      "startTimeText": "9:15"
+    }
+  ],
+  "transcript_only_text": "The agents you build and use need the right operational\ncontext of how your business runs to deliver the best outcomes. Today, that context is often\nfragmented across systems, defined differently by different teams, or buried in dashboards and logic, making outcomes inconsistent and agent behavior hard to predict. That's where Microsoft Fabric IQ comes in. Fabric IQ introduces a semantic foundation that unifies models and\ndata through an ontology. It defines the shared business entities and their relationships, and connects them to your data. It provides the operational context needed to understand how the\nbusiness actually runs, without altering any underlying data. Analysts can not only work with\nthe data they already trust, but also model how the business works. And agents can use that\nsame shared context to reason and act more consistently. Today, I'll show you both sides. First, how a data analyst\nleverages Fabric IQ inside a Fabric workspace, using ontology to model\nthe business concepts. Then, how Fabric IQ uses the same context to drive more reliable and\npredictable insights from agents. I'll start from the point\nof view of an analyst looking to create a full fidelity view of how an airline operates, including processes such as ticketing, maintenance, and more. The first thing I need to do\nis to create a new ontology. I can either build one from scratch, or jumpstart by using an\nexisting Power BI semantic model. As you see here, there's a new option to generate an ontology\nfrom this semantic model. I just need to choose the\nworkspace, give it a name. I'll choose AirlineOperationsOntology. Then confirm by hitting Create. In just a few clicks, I'm able to see the different entities of our airline business. All data is now linked\nnot only through keys, but also business\nrelationships and semantics. We can see flights,\nairlines, routes, and more. If I click into airports, because Fabric IQ is semantically aware of the relationships between entities, it shows the routes connected to runways which are in turn connected to airports And for any entity, I can choose to add more live operational signals. In this case, I want to add details about the runway conditions\nusing real-time data, including contamination,\nvisual range for visibility, as well as the available\ncleared width and more. And you can also bring\nin your Power BI reports for a canonical view of how to monitor and manage these aircrafts. From the ontology, I'll head\nover to the Report links tab that opens the OneLake catalog\nwith all of my reports. I'll search for air and there\nare three matching reports for gates, ground service,\nplus safety and runway. So I'll add them and\nhit Connect to confirm. So, in just a few clicks, we've expanded our ontology\nwith the live operational view, using real-time signal,\ngeospatial data, and more. Now, as an analyst, I can\nwork immediately with it, and our agents can act on it as well. Let's fast\u2011forward and\nsee what I've unlocked. You can see that I now have\na richer view over my data, which is connected to\nreal\u2011world operations. We're no longer optimizing one report or one dataset at a time. We're looking at our operations across multiple data sources, in the language of our business, with meaning and relationships\nalready understood. Now let me show you how\nthis makes it easier to turn insights into concrete\ndecisions and actions. First, in the flight entity type overview, I can see how it relates to\nmy other business processes. I see entities like\nbookings, gates, airlines, and more as a graph. I have links to all of my\nconnected Power BI reports. There is a real-time weather\ndata, including wind knots, as well as geo-spatial insights\nshowing all of my flights. Using Fabric Maps, I\nhave a fleet level view of all my active flights, and I can see live air\ntraffic across the fleet. This, in fact, is a heat map view of three New York City area airports, and we can see that JFK in this case is impacted with lots of runway activity. I can now understand\nthe system as a whole, across bookings, flights, airports, and real\u2011time conditions. And I can drill in further to\nunderstand what is going on: I have opened the runways entity, and you'll remember some of\nthese categories from before. Since there's snow in the area, I can immediately see\nthe runway conditions that affect operations, things like surface friction\nand contamination levels, so I understand how safe it is for planes to take off and land. Beyond connecting raw data, I can also define rules\ndirectly in the ontology, so this logic lives with the\ndata and its business meaning, instead of being hard\ncoded somewhere else. In this case, I'll add a rule that says if runway contamination exceeds high threshold value of 25%, notify the passengers\nproactively of upcoming delays. We'll also notify the ground crew, so they know that the\nrunways need to be cleared. The rules are now\nembedded in the ontology, and the value comes from\nseeing how runway conditions impact the rest of the operations. That's where the built\u2011in\nontology graph helps. Let's look at the relationship graph. I'll expand the graph view. And add a filter for JFK airport Then run the query. No code needed here. And I get a filtered view for JFK. And immediately, I can\nsee a poor condition that's affecting Runway 25R. From that insight, it's easy to see the downstream impact. This runway issue is already affecting related gates and baggage operations that will need to be rescheduled. This is a unified view\nof our entire operations and how connected events will cascade across\nrelated business entities. This is how ontology\nhelps you as an analyst. But remember, the same operational context is also available to AI agents, no matter how you build them. Let me demonstrate this in the context of one our built-in Fabric IQ agents. From the New Item catalog, you can find the built-in agents by searching for agent. There is a Data agent\ndesigned to answer questions, and an Operations agent\ndesigned for real-time data and business action recommendations. The Operations agent is a perfect fit for our airline operations scenario, so I'll choose that one. I want this agent to help with runway-related analysis and actions, so I'll name it RunwayConditionsAgent, leave the location, and create it. From there, I can add\na bit more information to set up the agent, like adding the business goals\nfor what it should accomplish I want this one to monitor\nsurface conditions for runways and ensure things run smoothly based on logic like we used before. In fact, in the Agent instructions, using natural language, no code, I'll describe that if\nsurface contamination is reported above 10%, send ground crews to take care of it. Likewise, the clear width\nshould be more than 25 meters, and the agent should send ground crew to visually assess whether\nplanes can safely brake. Now let's add some knowledge. And for that, I'll choose\nour AirlineOntology. And here's where I can add actions. I'll add one to assign\nground crew for clearing, along with description\nfor what needs to be done. Then I'll give it the Runway\nID as the one to clear and the Temperature to predict\nthe type of clearing needed. And Create to add that one. Now I'll add another for\nrequesting visual assessment, and perform similar\nsteps for the parameters. These will send status\nupdates in Microsoft Teams. Now everything is defined and ready. I just need to save this new agent. That takes a moment. And once it's finished, it creates a nice agent playbook with what it's designed to do. Now, with the agent running, the right people will get notified of what to do in Microsoft Teams Here, I'm looking at the Operations agent It's alerting us that Runway 29L has only 22 meters of clear path. This is under our 25 meter threshold. It recommends to deploy the ground crew for a runway clearance operation. As the human in the loop, I can choose whether or not to proceed with the recommendation. I'll do that. Then it asks to confirm a few details. They look good, so I'll confirm, and the ground crew is on its way. And here is the good news. If you're building your own agent in Microsoft Copilot Studio\nor using Microsoft Foundry, Fabric IQ ontology will be an\nintegrated knowledge source that you will be able to choose from. As you choose your knowledge types, you can select Fabric IQ. This will ground agents in\nthe same semantic foundation that already runs your operations. And of course, the agents you\nbuild and connect to Fabric IQ will respect the permissions\nand security policies you already use in Fabric today. As I have shown, Microsoft Fabric IQ gives agents shared understanding, with entities, relationships,\nrules, and actions so they can move from insight\nto decision more reliably. To learn more and get started,\ncheck out aka.ms/FabricIQ. Keep watching Microsoft Mechanics for the latest news and deep dives. And thank you for watching.",
+  "language": "English",
+  "videoId": "S3x8VKjn43M",
+  "captionTracks": [
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=S3x8VKjn43M&ei=VJTZat-RC56GzLUPzNfqKQ&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792669380&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=220CF2CFE06783FC547109677AB4B09BAA2A9AA5.DDA2A1674795F3E72018CE2871D64A9A478E8100&key=yt8&lang=ar",
+      "name": {
+        "simpleText": "Arabic"
+      },
+      "vssId": ".ar",
+      "languageCode": "ar",
+      "rtl": true,
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=S3x8VKjn43M&ei=VJTZat-RC56GzLUPzNfqKQ&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792669380&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=220CF2CFE06783FC547109677AB4B09BAA2A9AA5.DDA2A1674795F3E72018CE2871D64A9A478E8100&key=yt8&lang=bn",
+      "name": {
+        "simpleText": "Bangla"
+      },
+      "vssId": ".bn",
+      "languageCode": "bn",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=S3x8VKjn43M&ei=VJTZat-RC56GzLUPzNfqKQ&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792669380&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=220CF2CFE06783FC547109677AB4B09BAA2A9AA5.DDA2A1674795F3E72018CE2871D64A9A478E8100&key=yt8&lang=zh",
+      "name": {
+        "simpleText": "Chinese"
+      },
+      "vssId": ".zh",
+      "languageCode": "zh",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=S3x8VKjn43M&ei=VJTZat-RC56GzLUPzNfqKQ&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792669380&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=220CF2CFE06783FC547109677AB4B09BAA2A9AA5.DDA2A1674795F3E72018CE2871D64A9A478E8100&key=yt8&lang=nl-NL",
+      "name": {
+        "simpleText": "Dutch (Netherlands)"
+      },
+      "vssId": ".nl-NL",
+      "languageCode": "nl-NL",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=S3x8VKjn43M&ei=VJTZat-RC56GzLUPzNfqKQ&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792669380&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=220CF2CFE06783FC547109677AB4B09BAA2A9AA5.DDA2A1674795F3E72018CE2871D64A9A478E8100&key=yt8&lang=en",
+      "name": {
+        "simpleText": "English"
+      },
+      "vssId": ".en",
+      "languageCode": "en",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=S3x8VKjn43M&ei=VJTZat-RC56GzLUPzNfqKQ&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792669380&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=220CF2CFE06783FC547109677AB4B09BAA2A9AA5.DDA2A1674795F3E72018CE2871D64A9A478E8100&key=yt8&kind=asr&lang=en&variant=gemini",
+      "name": {
+        "simpleText": "English (auto-generated)"
+      },
+      "vssId": "a.en",
+      "languageCode": "en",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=S3x8VKjn43M&ei=VJTZat-RC56GzLUPzNfqKQ&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792669380&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=220CF2CFE06783FC547109677AB4B09BAA2A9AA5.DDA2A1674795F3E72018CE2871D64A9A478E8100&key=yt8&lang=fr-FR",
+      "name": {
+        "simpleText": "French (France)"
+      },
+      "vssId": ".fr-FR",
+      "languageCode": "fr-FR",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=S3x8VKjn43M&ei=VJTZat-RC56GzLUPzNfqKQ&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792669380&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=220CF2CFE06783FC547109677AB4B09BAA2A9AA5.DDA2A1674795F3E72018CE2871D64A9A478E8100&key=yt8&lang=de-DE",
+      "name": {
+        "simpleText": "German (Germany)"
+      },
+      "vssId": ".de-DE",
+      "languageCode": "de-DE",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=S3x8VKjn43M&ei=VJTZat-RC56GzLUPzNfqKQ&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792669380&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=220CF2CFE06783FC547109677AB4B09BAA2A9AA5.DDA2A1674795F3E72018CE2871D64A9A478E8100&key=yt8&lang=iw",
+      "name": {
+        "simpleText": "Hebrew"
+      },
+      "vssId": ".iw",
+      "languageCode": "iw",
+      "rtl": true,
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=S3x8VKjn43M&ei=VJTZat-RC56GzLUPzNfqKQ&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792669380&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=220CF2CFE06783FC547109677AB4B09BAA2A9AA5.DDA2A1674795F3E72018CE2871D64A9A478E8100&key=yt8&lang=hi",
+      "name": {
+        "simpleText": "Hindi"
+      },
+      "vssId": ".hi",
+      "languageCode": "hi",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=S3x8VKjn43M&ei=VJTZat-RC56GzLUPzNfqKQ&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792669380&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=220CF2CFE06783FC547109677AB4B09BAA2A9AA5.DDA2A1674795F3E72018CE2871D64A9A478E8100&key=yt8&lang=id",
+      "name": {
+        "simpleText": "Indonesian"
+      },
+      "vssId": ".id",
+      "languageCode": "id",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=S3x8VKjn43M&ei=VJTZat-RC56GzLUPzNfqKQ&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792669380&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=220CF2CFE06783FC547109677AB4B09BAA2A9AA5.DDA2A1674795F3E72018CE2871D64A9A478E8100&key=yt8&lang=it",
+      "name": {
+        "simpleText": "Italian"
+      },
+      "vssId": ".it",
+      "languageCode": "it",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=S3x8VKjn43M&ei=VJTZat-RC56GzLUPzNfqKQ&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792669380&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=220CF2CFE06783FC547109677AB4B09BAA2A9AA5.DDA2A1674795F3E72018CE2871D64A9A478E8100&key=yt8&lang=ja",
+      "name": {
+        "simpleText": "Japanese"
+      },
+      "vssId": ".ja",
+      "languageCode": "ja",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=S3x8VKjn43M&ei=VJTZat-RC56GzLUPzNfqKQ&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792669380&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=220CF2CFE06783FC547109677AB4B09BAA2A9AA5.DDA2A1674795F3E72018CE2871D64A9A478E8100&key=yt8&lang=ko",
+      "name": {
+        "simpleText": "Korean"
+      },
+      "vssId": ".ko",
+      "languageCode": "ko",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=S3x8VKjn43M&ei=VJTZat-RC56GzLUPzNfqKQ&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792669380&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=220CF2CFE06783FC547109677AB4B09BAA2A9AA5.DDA2A1674795F3E72018CE2871D64A9A478E8100&key=yt8&lang=ml",
+      "name": {
+        "simpleText": "Malayalam"
+      },
+      "vssId": ".ml",
+      "languageCode": "ml",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=S3x8VKjn43M&ei=VJTZat-RC56GzLUPzNfqKQ&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792669380&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=220CF2CFE06783FC547109677AB4B09BAA2A9AA5.DDA2A1674795F3E72018CE2871D64A9A478E8100&key=yt8&lang=pl",
+      "name": {
+        "simpleText": "Polish"
+      },
+      "vssId": ".pl",
+      "languageCode": "pl",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=S3x8VKjn43M&ei=VJTZat-RC56GzLUPzNfqKQ&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792669380&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=220CF2CFE06783FC547109677AB4B09BAA2A9AA5.DDA2A1674795F3E72018CE2871D64A9A478E8100&key=yt8&lang=pt-BR",
+      "name": {
+        "simpleText": "Portuguese (Brazil)"
+      },
+      "vssId": ".pt-BR",
+      "languageCode": "pt-BR",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=S3x8VKjn43M&ei=VJTZat-RC56GzLUPzNfqKQ&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792669380&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=220CF2CFE06783FC547109677AB4B09BAA2A9AA5.DDA2A1674795F3E72018CE2871D64A9A478E8100&key=yt8&lang=pa",
+      "name": {
+        "simpleText": "Punjabi"
+      },
+      "vssId": ".pa",
+      "languageCode": "pa",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=S3x8VKjn43M&ei=VJTZat-RC56GzLUPzNfqKQ&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792669380&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=220CF2CFE06783FC547109677AB4B09BAA2A9AA5.DDA2A1674795F3E72018CE2871D64A9A478E8100&key=yt8&lang=ru",
+      "name": {
+        "simpleText": "Russian"
+      },
+      "vssId": ".ru",
+      "languageCode": "ru",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=S3x8VKjn43M&ei=VJTZat-RC56GzLUPzNfqKQ&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792669380&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=220CF2CFE06783FC547109677AB4B09BAA2A9AA5.DDA2A1674795F3E72018CE2871D64A9A478E8100&key=yt8&lang=es-US",
+      "name": {
+        "simpleText": "Spanish (United States)"
+      },
+      "vssId": ".es-US",
+      "languageCode": "es-US",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=S3x8VKjn43M&ei=VJTZat-RC56GzLUPzNfqKQ&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792669380&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=220CF2CFE06783FC547109677AB4B09BAA2A9AA5.DDA2A1674795F3E72018CE2871D64A9A478E8100&key=yt8&lang=sv",
+      "name": {
+        "simpleText": "Swedish"
+      },
+      "vssId": ".sv",
+      "languageCode": "sv",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=S3x8VKjn43M&ei=VJTZat-RC56GzLUPzNfqKQ&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792669380&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=220CF2CFE06783FC547109677AB4B09BAA2A9AA5.DDA2A1674795F3E72018CE2871D64A9A478E8100&key=yt8&lang=ta",
+      "name": {
+        "simpleText": "Tamil"
+      },
+      "vssId": ".ta",
+      "languageCode": "ta",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=S3x8VKjn43M&ei=VJTZat-RC56GzLUPzNfqKQ&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792669380&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=220CF2CFE06783FC547109677AB4B09BAA2A9AA5.DDA2A1674795F3E72018CE2871D64A9A478E8100&key=yt8&lang=te",
+      "name": {
+        "simpleText": "Telugu"
+      },
+      "vssId": ".te",
+      "languageCode": "te",
+      "isTranslatable": true,
+      "trackName": ""
+    },
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=S3x8VKjn43M&ei=VJTZat-RC56GzLUPzNfqKQ&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792669380&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=220CF2CFE06783FC547109677AB4B09BAA2A9AA5.DDA2A1674795F3E72018CE2871D64A9A478E8100&key=yt8&lang=uk",
+      "name": {
+        "simpleText": "Ukrainian"
+      },
+      "vssId": ".uk",
+      "languageCode": "uk",
+      "isTranslatable": true,
+      "trackName": ""
+    }
+  ]
+}

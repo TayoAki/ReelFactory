@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=1920, height=1080">
+<title>Transcript-first practice / Databricks product family</title>
+<link rel="stylesheet" href="assets/ev1/tokens.css">
+<script src="assets/ev1/vendor/gsap.min.js"></script>
+<style>
+html,body{margin:0;background:#000}
+#root{position:relative;width:100%;height:100%;overflow:hidden;background:var(--ev1-black)}
+@font-face{font-family:PracticeSans;src:url(assets/regular.ttf)}*{box-sizing:border-box}html,body{width:1920px;height:1080px}:root{--ev1-cap-size:43px}.world{position:absolute;inset:0;background-color:#fffefa;background-image:linear-gradient(#b9c6bc20 1px,transparent 1px),linear-gradient(90deg,#b9c6bc20 1px,transparent 1px);background-size:94.5px 94.5px}.border{position:absolute;inset:0;border:9px solid #ff6600;pointer-events:none}.stage{position:absolute;left:0;top:0;width:640px;height:360px;transform:scale(3);transform-origin:0 0;font-family:PracticeSans,Arial,sans-serif;color:#5d4e43;perspective:1100px}.speaker{position:absolute;left:1434px;top:276px;width:438px;height:534px;border-radius:36px;overflow:hidden;background:linear-gradient(120deg,#e3e7de,#b1c6b4)}.speaker img{position:absolute;width:480%;height:auto;max-width:none;left:-310%;bottom:-506px}.family{position:absolute;left:175px;top:108px;width:124px;height:124px;transform-style:preserve-3d;transform-origin:62px 62px}.product,.layer{position:absolute;width:124px;height:124px;border-radius:5px;background:linear-gradient(135deg,#ffe3ce,#ffcba4);box-shadow:0 3px 7px #8c755b12;backface-visibility:hidden}.product{text-align:center;padding:23px 8px 10px;z-index:20}.product img{width:34px;height:34px;object-fit:contain}.product strong{display:block;font-size:13px;font-weight:400;line-height:1.3;margin-top:8px;color:#b65c48}.product small{display:block;font-size:8px;line-height:1.4;margin-top:4px;color:#805c4c}.layer{z-index:1;background:linear-gradient(140deg,#ffe7d6,#f8b989)}#code{left:144px;z-index:20}#agents{left:288px;z-index:20}.symbol{height:34px;color:#d76b55;font-size:29px;line-height:34px}.svg-world{position:absolute;inset:0;width:640px;height:360px;pointer-events:none}.node{position:absolute;top:145px;width:65px;height:65px;border:1px solid #e1e4df;border-radius:6px;background:#fffefb;color:#ad5b42;text-align:center;padding:12px 6px;font-size:11px}.node svg{display:block;margin:0 auto 5px;width:24px;height:24px;stroke:currentColor;fill:none;stroke-width:1.5}.bubble{position:absolute;border:1px solid #dfdfd8;border-radius:7px;background:#fffdf9;box-shadow:0 4px 11px #4e5b4d12;padding:11px 14px;font-size:12px;line-height:1.4;color:#55564e;text-align:center}.label{position:absolute;font-size:10px;line-height:1.4;color:#58614f;text-align:center}.outline{fill:none;stroke:#6f8a54;stroke-width:1.4;stroke-linecap:round}.line{fill:none;stroke:#b49b82;stroke-width:1.05;stroke-linecap:round}.ev1-cap{gap:.22em}.ev1-cap .w{font-weight:800;text-transform:uppercase;color:#fff;-webkit-text-stroke:2.5px #342b22;paint-order:stroke fill;text-shadow:0 2px 3px #342b22}.ev1-cap{max-width:1800px}
+ .world{background-color:#fff;background-image:linear-gradient(#a5b4b520 1px,transparent 1px),linear-gradient(90deg,#a5b4b520 1px,transparent 1px)}.speaker{left:1425px;top:273px}.family{left:173px;top:108px;transform-style:flat}.product,.layer{width:140px;height:140px;transform-origin:center center}.product{padding:24px 6px 8px}.product strong{font-family:Georgia,serif;font-style:italic;font-size:13px;margin-top:5px}.product small{font-family:Georgia,serif;font-style:italic;font-size:8px;margin-top:3px}.product img{width:43px;height:43px}.layer{background:linear-gradient(135deg,#ffdec7,#ffbd8c)}#one{z-index:30}#code{left:-88px;top:12px;z-index:21;transform:skewX(-20deg) rotate(-2deg) scale(.66,.64)}#agents{left:88px;top:17px;z-index:21;transform:skewX(-20deg) rotate(-2deg) scale(.66,.64)}#one-audience,#technical-label{display:none}.label{color:#353735;font-size:10px}#business-label{left:287px!important;top:57px!important;width:110px!important;text-align:left}#code-role{left:35px!important;top:244px!important;width:135px!important}#domain-label{left:307px!important;top:267px!important;width:120px!important}.line{stroke:#6a6c68;stroke-width:1.15}#data,#tools{border:0;background:transparent;padding:15px 0;font-size:0;color:#ee777d}#data{left:63px!important}#tools{left:348px!important}#data svg,#tools svg{width:29px;height:29px;stroke-width:2.4}#data-line{d:path('M119 177H184')}#tool-line{d:path('M284 177H350')}#chat{position:absolute;left:51px;top:45px;width:378px;height:258px;border-radius:8px;background:radial-gradient(ellipse at 50% 90%,#ffe2cc,#f7f7f6 85%);box-shadow:0 0 7px #0003;transform-origin:center center;color:#494949;font-size:10px}#query{position:absolute;right:34px;top:30px;background:#ececeb;box-shadow:0 0 5px #0002;border-radius:3px;padding:9px 18px;font-size:9px}#response{position:absolute;left:32px;top:86px;font-size:9px}#response span{display:inline-block;color:#ee8e69;background:#ffd0aa;border-radius:50%;padding:4px;margin-right:5px}#results{position:absolute;left:59px;top:110px;display:flex;gap:10px}#results div{width:72px;height:44px;background:white;box-shadow:0 1px 4px #0001;border-radius:4px;text-align:center;padding-top:11px;font-size:7px}#results b{font-size:9px}#campaign{position:absolute;left:59px;top:169px;color:#c36b24;font-size:10px}#input{position:absolute;left:32px;bottom:20px;width:310px;height:27px;background:white;border-radius:3px;box-shadow:0 0 5px #0002;padding:8px 12px;font-size:9px}#input span{position:absolute;right:9px;color:#d66a4d}#chat-boundary{position:absolute;inset:-2px;border:2px solid #438848;border-radius:12px;box-shadow:0 0 4px #438848}#chat-boundary b{position:absolute;left:48%;top:-15px;border-radius:50%;background:#666c64;color:white;width:27px;height:27px;text-align:center;padding-top:4px;font-size:16px}.full-speaker{position:absolute;inset:9px;overflow:hidden;background:linear-gradient(120deg,#dce4d7,#869c83)}.full-speaker img{position:absolute;width:250%;max-width:none;left:-146%;top:-25%}.ev1-cap .w{font-weight:900;text-shadow:0 1px 3px #000}
+#question,#answer,#action,#gov-label{display:none}.ev1-cap .w{opacity:1!important;padding:0 3px;border-radius:6px}
+#business-arrow,#technical-arrow,#domain-arrow{marker-end:url(#arrowtip)}#input-text{display:inline-block;overflow:hidden;white-space:nowrap;vertical-align:top}
+</style></head>
+<body>
+<div id="root" class="ev1-frame" data-composition-id="main" data-start="0" data-width="1920" data-height="1080" data-duration="46.3667">
+<div id="c1" class="clip ev1-layer" data-start="0.0000" data-duration="46.3666" style="z-index:1;"><div class="world"></div><div class="stage"><div id="chat"><div id="chat-boundary"><b>◈</b></div><div id="query">Which products generated the most sales?</div><div id="response"><span>☻</span> Here are the products that generated most sales:</div><div id="results"><div><b>$40,800</b><br>Laptops</div><div><b>$20,540</b><br>Monitors</div><div><b>$10,200</b><br>Accessories</div></div><div id="campaign">+ Create campaign for top-selling products →</div><div id="input"><em id="input-text" style="font-style:normal">Which products generated the most sales?</em><span>➤</span></div></div><svg class="svg-world"><path id="data-line" class="line" d="M100 177H175" pathLength="1"/><path id="tool-line" class="line" d="M299 177H350" pathLength="1"/><path id="question-line" class="line" d="M237 108V99" pathLength="1"/><path id="answer-line" class="line" d="M237 232V255" pathLength="1"/><path id="action-line" class="line" d="M340 279Q382 279 382 210" pathLength="1"/><rect id="governance" x="18" y="42" width="430" height="279" rx="12" class="outline" pathLength="1"/></svg><div id="data" class="node" style="left:35px"><svg viewBox="0 0 32 32"><ellipse cx="16" cy="7" rx="10" ry="4"/><path d="M6 7v17c0 6 20 6 20 0V7M6 15c0 6 20 6 20 0"/></svg>Data</div><div id="tools" class="node" style="left:350px"><svg viewBox="0 0 32 32"><path d="M5 5 27 27M6 27 27 6M4 4l7 2-4 5ZM22 22l6 2-4 4Z"/></svg>Tools</div><div id="question" class="bubble" style="left:125px;top:58px;width:224px">Questions about your business</div><div id="answer" class="bubble" style="left:130px;top:255px;width:210px">Answers</div><div id="action" class="label" style="left:345px;top:235px;width:83px">Acts on<br>the answers</div><div id="gov-label" class="label" style="left:128px;top:30px;width:210px;background:#fffefa">Your existing governance framework</div><div id="family" class="family"><div id="layer5" class="layer"></div><div id="layer4" class="layer"></div><div id="layer3" class="layer"></div><div id="layer2" class="layer"></div><div id="layer1" class="layer"></div><div id="one" class="product"><img src="assets/genie.svg"><strong>Genie One</strong><small id="one-role">Agent for business users</small><small id="one-audience"></small></div><div id="code" class="product"><img src="assets/genie.svg"><strong>Genie Code</strong><small>Agent for technical users</small></div><div id="agents" class="product"><img src="assets/genie.svg"><strong>Genie Agents</strong><small id="both-label">Agent for business &amp;<br>technical users</small></div></div><svg class="svg-world"><defs><marker id="arrowtip" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10L3 5Z" fill="#6a6c68"/></marker></defs><path id="business-arrow" class="line" d="M259 96Q261 70 285 65" pathLength="1"/><path id="technical-arrow" class="line" d="M118 208Q95 218 97 239" pathLength="1"/><path id="both-branch" class="line" d="M151 230V251H406V230M278 230V251" pathLength="1"/><path id="domain-arrow" class="line" d="M369 216Q390 231 377 262" pathLength="1"/></svg><div id="business-label" class="label" style="left:122px;top:46px;width:104px">For Business Users</div><div id="technical-label" class="label" style="left:264px;top:46px;width:104px">Technical users</div><div id="domain-label" class="label" style="left:328px;top:293px;width:122px">Focused on<br>domain-specific work</div><div id="code-role" class="label" style="left:213px;top:263px;width:117px">Writes code &amp; works within<br>the Lakehouse</div></div><div class="speaker" data-safe="presenter"><img src="assets/presenters.png"></div><div id="full-speaker" class="full-speaker"><img src="assets/presenters.png"></div><div id="intro-speaker" class="full-speaker"><img src="assets/presenters.png"></div><div class="border"></div></div>
+<div id="c2" class="clip " data-start="0.1000" data-duration="1.0333" style="z-index:60;position:absolute;inset:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(95% - .6 * var(--ev1-cap-size))"><span id="cap-0-0" class="w">So</span><span id="cap-0-1" class="w">I</span><span id="cap-0-2" class="w">come</span><span id="cap-0-3" class="w">from</span><span id="cap-0-4" class="w">the</span></div></div>
+<div id="c3" class="clip " data-start="1.1333" data-duration="1.3666" style="z-index:60;position:absolute;inset:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(95% - .6 * var(--ev1-cap-size))"><span id="cap-1-0" class="w">Genie</span><span id="cap-1-1" class="w">One</span><span id="cap-1-2" class="w">world.</span></div></div>
+<div id="c4" class="clip " data-start="2.5000" data-duration="0.8333" style="z-index:60;position:absolute;inset:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(95% - .6 * var(--ev1-cap-size))"><span id="cap-2-0" class="w">Genie</span><span id="cap-2-1" class="w">One</span><span id="cap-2-2" class="w">is</span></div></div>
+<div id="c5" class="clip " data-start="3.3333" data-duration="3.0000" style="z-index:60;position:absolute;inset:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(95% - .6 * var(--ev1-cap-size))"><span id="cap-3-0" class="w">our</span><span id="cap-3-1" class="w">AI</span><span id="cap-3-2" class="w">co-worker</span><span id="cap-3-3" class="w">for</span><span id="cap-3-4" class="w">business</span><span id="cap-3-5" class="w">users.</span></div></div>
+<div id="c6" class="clip " data-start="6.3333" data-duration="2.4000" style="z-index:60;position:absolute;inset:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(95% - .6 * var(--ev1-cap-size))"><span id="cap-4-0" class="w">It</span><span id="cap-4-1" class="w">connects</span><span id="cap-4-2" class="w">to</span><span id="cap-4-3" class="w">your</span><span id="cap-4-4" class="w">data</span><span id="cap-4-5" class="w">and</span><span id="cap-4-6" class="w">tools.</span></div></div>
+<div id="c7" class="clip " data-start="8.7333" data-duration="0.9333" style="z-index:60;position:absolute;inset:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(95% - .6 * var(--ev1-cap-size))"><span id="cap-5-0" class="w">It</span><span id="cap-5-1" class="w">answers</span><span id="cap-5-2" class="w">questions</span></div></div>
+<div id="c8" class="clip " data-start="9.6667" data-duration="1.4666" style="z-index:60;position:absolute;inset:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(95% - .6 * var(--ev1-cap-size))"><span id="cap-6-0" class="w">about</span><span id="cap-6-1" class="w">your</span><span id="cap-6-2" class="w">business.</span></div></div>
+<div id="c9" class="clip " data-start="11.1333" data-duration="0.8333" style="z-index:60;position:absolute;inset:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(95% - .6 * var(--ev1-cap-size))"><span id="cap-7-0" class="w">It</span><span id="cap-7-1" class="w">acts</span><span id="cap-7-2" class="w">on</span><span id="cap-7-3" class="w">the</span><span id="cap-7-4" class="w">answers</span></div></div>
+<div id="c10" class="clip " data-start="11.9667" data-duration="1.0333" style="z-index:60;position:absolute;inset:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(95% - .6 * var(--ev1-cap-size))"><span id="cap-8-0" class="w">that</span><span id="cap-8-1" class="w">it</span><span id="cap-8-2" class="w">gives</span><span id="cap-8-3" class="w">you</span></div></div>
+<div id="c11" class="clip " data-start="13.0000" data-duration="1.1333" style="z-index:60;position:absolute;inset:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(95% - .6 * var(--ev1-cap-size))"><span id="cap-9-0" class="w">all</span><span id="cap-9-1" class="w">within</span><span id="cap-9-2" class="w">the</span></div></div>
+<div id="c12" class="clip " data-start="14.1333" data-duration="2.2666" style="z-index:60;position:absolute;inset:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(95% - .6 * var(--ev1-cap-size))"><span id="cap-10-0" class="w">governance</span><span id="cap-10-1" class="w">framework</span><span id="cap-10-2" class="w">that</span><span id="cap-10-3" class="w">you</span><span id="cap-10-4" class="w">already</span><span id="cap-10-5" class="w">have.</span></div></div>
+<div id="c13" class="clip " data-start="16.4000" data-duration="1.5333" style="z-index:60;position:absolute;inset:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(95% - .6 * var(--ev1-cap-size))"><span id="cap-11-0" class="w">But</span><span id="cap-11-1" class="w">Genie</span><span id="cap-11-2" class="w">One</span><span id="cap-11-3" class="w">sits</span><span id="cap-11-4" class="w">in</span></div></div>
+<div id="c14" class="clip " data-start="17.9333" data-duration="2.1333" style="z-index:60;position:absolute;inset:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(95% - .6 * var(--ev1-cap-size))"><span id="cap-12-0" class="w">a</span><span id="cap-12-1" class="w">larger</span><span id="cap-12-2" class="w">stack</span><span id="cap-12-3" class="w">of</span></div></div>
+<div id="c15" class="clip " data-start="20.0667" data-duration="1.0000" style="z-index:60;position:absolute;inset:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(95% - .6 * var(--ev1-cap-size))"><span id="cap-13-0" class="w">AI</span><span id="cap-13-1" class="w">co-workers</span><span id="cap-13-2" class="w">and</span></div></div>
+<div id="c16" class="clip " data-start="21.0667" data-duration="2.0000" style="z-index:60;position:absolute;inset:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(95% - .6 * var(--ev1-cap-size))"><span id="cap-14-0" class="w">other</span><span id="cap-14-1" class="w">AI</span><span id="cap-14-2" class="w">tools</span><span id="cap-14-3" class="w">on</span><span id="cap-14-4" class="w">Databricks.</span></div></div>
+<div id="c17" class="clip " data-start="23.0667" data-duration="1.2666" style="z-index:60;position:absolute;inset:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(95% - .6 * var(--ev1-cap-size))"><span id="cap-15-0" class="w">So,</span><span id="cap-15-1" class="w">for</span><span id="cap-15-2" class="w">example,</span></div></div>
+<div id="c18" class="clip " data-start="24.3333" data-duration="1.6000" style="z-index:60;position:absolute;inset:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(95% - .6 * var(--ev1-cap-size))"><span id="cap-16-0" class="w">if</span><span id="cap-16-1" class="w">Genie</span><span id="cap-16-2" class="w">One</span><span id="cap-16-3" class="w">is</span><span id="cap-16-4" class="w">our</span><span id="cap-16-5" class="w">agent</span></div></div>
+<div id="c19" class="clip " data-start="25.9333" data-duration="1.6666" style="z-index:60;position:absolute;inset:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(95% - .6 * var(--ev1-cap-size))"><span id="cap-17-0" class="w">for</span><span id="cap-17-1" class="w">business</span><span id="cap-17-2" class="w">users,</span></div></div>
+<div id="c20" class="clip " data-start="27.6000" data-duration="1.0333" style="z-index:60;position:absolute;inset:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(95% - .6 * var(--ev1-cap-size))"><span id="cap-18-0" class="w">Genie</span><span id="cap-18-1" class="w">Code</span><span id="cap-18-2" class="w">is</span></div></div>
+<div id="c21" class="clip " data-start="28.6333" data-duration="1.8666" style="z-index:60;position:absolute;inset:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(95% - .6 * var(--ev1-cap-size))"><span id="cap-19-0" class="w">our</span><span id="cap-19-1" class="w">agent</span><span id="cap-19-2" class="w">for</span><span id="cap-19-3" class="w">technical</span><span id="cap-19-4" class="w">users.</span></div></div>
+<div id="c22" class="clip " data-start="30.5000" data-duration="1.4333" style="z-index:60;position:absolute;inset:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(95% - .6 * var(--ev1-cap-size))"><span id="cap-20-0" class="w">It</span><span id="cap-20-1" class="w">helps</span><span id="cap-20-2" class="w">them</span><span id="cap-20-3" class="w">write</span><span id="cap-20-4" class="w">code</span></div></div>
+<div id="c23" class="clip " data-start="31.9333" data-duration="2.8000" style="z-index:60;position:absolute;inset:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(95% - .6 * var(--ev1-cap-size))"><span id="cap-21-0" class="w">and</span><span id="cap-21-1" class="w">do</span><span id="cap-21-2" class="w">other</span><span id="cap-21-3" class="w">work</span><span id="cap-21-4" class="w">within</span><span id="cap-21-5" class="w">the</span><span id="cap-21-6" class="w">lakehouse.</span></div></div>
+<div id="c24" class="clip " data-start="34.7333" data-duration="1.7000" style="z-index:60;position:absolute;inset:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(95% - .6 * var(--ev1-cap-size))"><span id="cap-22-0" class="w">We</span><span id="cap-22-1" class="w">also</span><span id="cap-22-2" class="w">have</span><span id="cap-22-3" class="w">Genie</span><span id="cap-22-4" class="w">Agents,</span></div></div>
+<div id="c25" class="clip " data-start="36.4333" data-duration="1.4000" style="z-index:60;position:absolute;inset:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(95% - .6 * var(--ev1-cap-size))"><span id="cap-23-0" class="w">which</span><span id="cap-23-1" class="w">can</span><span id="cap-23-2" class="w">be</span><span id="cap-23-3" class="w">accessed</span><span id="cap-23-4" class="w">by</span><span id="cap-23-5" class="w">both</span></div></div>
+<div id="c26" class="clip " data-start="37.8333" data-duration="1.2333" style="z-index:60;position:absolute;inset:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(95% - .6 * var(--ev1-cap-size))"><span id="cap-24-0" class="w">types</span><span id="cap-24-1" class="w">of</span><span id="cap-24-2" class="w">users.</span></div></div>
+<div id="c27" class="clip " data-start="39.0667" data-duration="1.5333" style="z-index:60;position:absolute;inset:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(95% - .6 * var(--ev1-cap-size))"><span id="cap-25-0" class="w">And</span><span id="cap-25-1" class="w">they&#x27;re</span><span id="cap-25-2" class="w">really</span><span id="cap-25-3" class="w">focused</span><span id="cap-25-4" class="w">on</span></div></div>
+<div id="c28" class="clip " data-start="40.6000" data-duration="1.6666" style="z-index:60;position:absolute;inset:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(95% - .6 * var(--ev1-cap-size))"><span id="cap-26-0" class="w">domain-specific</span><span id="cap-26-1" class="w">work.</span></div></div>
+<div id="c29" class="clip " data-start="42.2667" data-duration="1.4333" style="z-index:60;position:absolute;inset:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(95% - .6 * var(--ev1-cap-size))"><span id="cap-27-0" class="w">They&#x27;re</span><span id="cap-27-1" class="w">essentially</span><span id="cap-27-2" class="w">domain</span><span id="cap-27-3" class="w">experts.</span></div></div>
+<div id="c30" class="clip " data-start="43.7000" data-duration="1.1666" style="z-index:60;position:absolute;inset:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(95% - .6 * var(--ev1-cap-size))"><span id="cap-28-0" class="w">And</span><span id="cap-28-1" class="w">I</span><span id="cap-28-2" class="w">can</span><span id="cap-28-3" class="w">actually</span><span id="cap-28-4" class="w">cover</span><span id="cap-28-5" class="w">that</span></div></div>
+<div id="c31" class="clip " data-start="44.8667" data-duration="1.5000" style="z-index:60;position:absolute;inset:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(95% - .6 * var(--ev1-cap-size))"><span id="cap-29-0" class="w">in</span><span id="cap-29-1" class="w">more</span><span id="cap-29-2" class="w">depth</span><span id="cap-29-3" class="w">if</span><span id="cap-29-4" class="w">we</span><span id="cap-29-5" class="w">want</span><span id="cap-29-6" class="w">to.</span></div></div>
+</div>
+<script>
+gsap.set("#input-text",{width:0});
+gsap.set("#family",{opacity:0,y:20});
+gsap.set("#one-audience",{opacity:0,y:5});
+gsap.set("#data",{opacity:0,y:7});
+gsap.set("#tools",{opacity:0,y:7});
+document.querySelector("#data-line").setAttribute("stroke-dasharray","1");document.querySelector("#data-line").setAttribute("stroke-dashoffset","1");
+document.querySelector("#tool-line").setAttribute("stroke-dasharray","1");document.querySelector("#tool-line").setAttribute("stroke-dashoffset","1");
+gsap.set("#chat",{opacity:0,y:0});
+gsap.set("#query",{opacity:0,y:0});
+gsap.set("#response",{opacity:0,y:0});
+gsap.set("#results",{opacity:0,y:6});
+gsap.set("#campaign",{opacity:0,y:0});
+gsap.set("#chat-boundary",{opacity:0,y:0});
+gsap.set("#layer1",{opacity:0,skewX:-20,rotationZ:-2,scaleY:.64,scaleX:.66});
+gsap.set("#layer2",{opacity:0,skewX:-20,rotationZ:-2,scaleY:.64,scaleX:.66});
+gsap.set("#layer3",{opacity:0,skewX:-20,rotationZ:-2,scaleY:.64,scaleX:.66});
+gsap.set("#layer4",{opacity:0,skewX:-20,rotationZ:-2,scaleY:.64,scaleX:.66});
+gsap.set("#layer5",{opacity:0,skewX:-20,rotationZ:-2,scaleY:.64,scaleX:.66});
+gsap.set("#business-label",{opacity:0,y:0});
+document.querySelector("#business-arrow").setAttribute("stroke-dasharray","1");document.querySelector("#business-arrow").setAttribute("stroke-dashoffset","1");
+gsap.set("#code",{opacity:0,y:0});
+gsap.set("#code-role",{opacity:0,y:0});
+document.querySelector("#technical-arrow").setAttribute("stroke-dasharray","1");document.querySelector("#technical-arrow").setAttribute("stroke-dashoffset","1");
+gsap.set("#agents",{opacity:0,y:0});
+gsap.set("#both-label",{opacity:0,y:0});
+document.querySelector("#domain-arrow").setAttribute("stroke-dasharray","1");document.querySelector("#domain-arrow").setAttribute("stroke-dashoffset","1");
+gsap.set("#domain-label",{opacity:0,y:0});
+gsap.set("#full-speaker",{opacity:0,y:0});
+gsap.set("#data-line",{opacity:0});
+gsap.set("#tool-line",{opacity:0});
+gsap.set("#question-line",{opacity:0});
+gsap.set("#answer-line",{opacity:0});
+gsap.set("#action-line",{opacity:0});
+gsap.set("#governance",{opacity:0});
+gsap.set("#business-arrow",{opacity:0});
+gsap.set("#technical-arrow",{opacity:0});
+gsap.set("#both-branch",{opacity:0});
+gsap.set("#domain-arrow",{opacity:0});
+gsap.set("#chat",{opacity:0});
+gsap.set("#query",{opacity:0});
+gsap.set("#response",{opacity:0});
+gsap.set("#results",{opacity:0});
+gsap.set("#campaign",{opacity:0});
+gsap.set("#chat-boundary",{opacity:0});
+gsap.set("#full-speaker",{opacity:0});
+const tl = gsap.timeline({ paused: true });
+tl.to("#input-text",{...{"width": 245},duration:1.0,ease:"none",immediateRender:false},8.866666666666667);
+tl.to("#intro-speaker",{...{"opacity": 0},duration:0.033,ease:"power2.inOut",immediateRender:false},1.8666666666666667);
+tl.to("#input-text",{...{"opacity": 0},duration:0.033,ease:"power2.inOut",immediateRender:false},10.3);
+tl.to("#family",{...{"opacity": 1, "y": 0},duration:1,ease:"power2.out",immediateRender:false},1.1333333333333333);
+tl.to("#one-audience",{...{"opacity": 1, "y": 0},duration:0.55,ease:"power2.out",immediateRender:false},5.133333333333334);
+tl.to("#data",{...{"opacity": 1, "y": 0},duration:0.6,ease:"power2.out",immediateRender:false},7.0);
+tl.to("#tools",{...{"opacity": 1, "y": 0},duration:0.6,ease:"power2.out",immediateRender:false},7.533333333333333);
+tl.to("#data-line",{...{"attr": {"stroke-dashoffset": 0}, "opacity": 1},duration:0.7,ease:"power2.inOut",immediateRender:false},6.4);
+tl.to("#tool-line",{...{"attr": {"stroke-dashoffset": 0}, "opacity": 1},duration:0.7,ease:"power2.inOut",immediateRender:false},7.3);
+tl.to("#data",{...{"opacity": 0},duration:0.65,ease:"power2.inOut",immediateRender:false},16.466666666666665);
+tl.to("#tools",{...{"opacity": 0},duration:0.65,ease:"power2.inOut",immediateRender:false},16.466666666666665);
+tl.to("#question",{...{"opacity": 0},duration:0.65,ease:"power2.inOut",immediateRender:false},16.466666666666665);
+tl.to("#answer",{...{"opacity": 0},duration:0.65,ease:"power2.inOut",immediateRender:false},16.466666666666665);
+tl.to("#action",{...{"opacity": 0},duration:0.65,ease:"power2.inOut",immediateRender:false},16.466666666666665);
+tl.to("#gov-label",{...{"opacity": 0},duration:0.65,ease:"power2.inOut",immediateRender:false},16.466666666666665);
+tl.to("#data-line",{...{"opacity": 0},duration:0.65,ease:"power2.inOut",immediateRender:false},16.466666666666665);
+tl.to("#tool-line",{...{"opacity": 0},duration:0.65,ease:"power2.inOut",immediateRender:false},16.466666666666665);
+tl.to("#question-line",{...{"opacity": 0},duration:0.65,ease:"power2.inOut",immediateRender:false},16.466666666666665);
+tl.to("#answer-line",{...{"opacity": 0},duration:0.65,ease:"power2.inOut",immediateRender:false},16.466666666666665);
+tl.to("#action-line",{...{"opacity": 0},duration:0.65,ease:"power2.inOut",immediateRender:false},16.466666666666665);
+tl.to("#governance",{...{"opacity": 0},duration:0.65,ease:"power2.inOut",immediateRender:false},16.466666666666665);
+tl.to("#one",{...{"scale": 0.58},duration:0.65,ease:"power2.inOut",immediateRender:false},6.166666666666667);
+tl.to("#data",{...{"opacity": 0},duration:0.3,ease:"power2.inOut",immediateRender:false},8.666666666666666);
+tl.to("#tools",{...{"opacity": 0},duration:0.3,ease:"power2.inOut",immediateRender:false},8.666666666666666);
+tl.to("#data-line",{...{"opacity": 0},duration:0.3,ease:"power2.inOut",immediateRender:false},8.666666666666666);
+tl.to("#tool-line",{...{"opacity": 0},duration:0.3,ease:"power2.inOut",immediateRender:false},8.666666666666666);
+tl.to("#family",{...{"opacity": 0},duration:0.3,ease:"power2.inOut",immediateRender:false},8.666666666666666);
+tl.to("#chat",{...{"opacity": 1, "y": 0},duration:0.5,ease:"power2.out",immediateRender:false},8.666666666666666);
+tl.to("#query",{...{"opacity": 1, "y": 0},duration:0.35,ease:"power2.out",immediateRender:false},10.3);
+tl.to("#response",{...{"opacity": 1, "y": 0},duration:0.45,ease:"power2.out",immediateRender:false},10.7);
+tl.to("#results",{...{"opacity": 1, "y": 0},duration:0.5,ease:"power2.out",immediateRender:false},10.966666666666667);
+tl.to("#campaign",{...{"opacity": 1, "y": 0},duration:0.4,ease:"power2.out",immediateRender:false},11.533333333333333);
+tl.to("#chat",{...{"scale": 0.83},duration:0.7,ease:"power2.inOut",immediateRender:false},13.133333333333333);
+tl.to("#chat-boundary",{...{"opacity": 1, "y": 0},duration:0.65,ease:"power2.out",immediateRender:false},13.266666666666667);
+tl.to("#chat",{...{"opacity": 0},duration:0.35,ease:"power2.inOut",immediateRender:false},16.366666666666667);
+tl.to("#family",{...{"opacity": 1},duration:0.35,ease:"power2.inOut",immediateRender:false},16.466666666666665);
+tl.to("#one",{...{"scale": 1},duration:0.4,ease:"power2.inOut",immediateRender:false},16.466666666666665);
+tl.to("#family",{...{"y": -25},duration:0.533,ease:"power2.inOut",immediateRender:false},17.833333333333332);
+tl.to("#one",{...{"skewX": -20, "rotationZ": -2, "scaleY": 0.64, "scaleX": 0.66},duration:0.533,ease:"power2.inOut",immediateRender:false},17.833333333333332);
+tl.to("#layer1",{...{"opacity": 1, "x": 7, "y": 10},duration:0.467,ease:"power2.inOut",immediateRender:false},18.5);
+tl.to("#layer2",{...{"opacity": 1, "x": 14, "y": 20},duration:0.467,ease:"power2.inOut",immediateRender:false},18.5);
+tl.to("#layer3",{...{"opacity": 1, "x": 21, "y": 30},duration:0.467,ease:"power2.inOut",immediateRender:false},18.5);
+tl.to("#layer4",{...{"opacity": 1, "x": 28, "y": 40},duration:0.467,ease:"power2.inOut",immediateRender:false},18.5);
+tl.to("#layer5",{...{"opacity": 1, "x": 35, "y": 50},duration:0.467,ease:"power2.inOut",immediateRender:false},18.5);
+tl.to("#business-label",{...{"opacity": 1, "y": 0},duration:0.5,ease:"power2.out",immediateRender:false},26.2);
+tl.to("#business-arrow",{...{"attr": {"stroke-dashoffset": 0}, "opacity": 1},duration:0.5,ease:"power2.inOut",immediateRender:false},26.2);
+tl.to("#code",{...{"opacity": 1, "y": 0},duration:0.8,ease:"power2.out",immediateRender:false},27.6);
+tl.to("#code-role",{...{"opacity": 1, "y": 0},duration:0.55,ease:"power2.out",immediateRender:false},31.233333333333334);
+tl.to("#technical-arrow",{...{"attr": {"stroke-dashoffset": 0}, "opacity": 1},duration:0.55,ease:"power2.inOut",immediateRender:false},31.233333333333334);
+tl.to("#agents",{...{"opacity": 1, "y": 0},duration:0.8,ease:"power2.out",immediateRender:false},35.233333333333334);
+tl.to("#both-label",{...{"opacity": 1, "y": 0},duration:0.55,ease:"power2.out",immediateRender:false},37.833333333333336);
+tl.to("#domain-arrow",{...{"attr": {"stroke-dashoffset": 0}, "opacity": 1},duration:0.65,ease:"power2.inOut",immediateRender:false},39.666666666666664);
+tl.to("#domain-label",{...{"opacity": 1, "y": 0},duration:0.55,ease:"power2.out",immediateRender:false},40.6);
+tl.to("#full-speaker",{...{"opacity": 1, "y": 0},duration:0.033,ease:"power2.out",immediateRender:false},44.2);
+tl.set("#cap-0-0",{backgroundColor:"#ae6200"},0.1);
+tl.set("#cap-0-0",{backgroundColor:"transparent"},0.23333333333333334);
+tl.set("#cap-0-1",{backgroundColor:"#ae6200"},0.23333333333333334);
+tl.set("#cap-0-1",{backgroundColor:"transparent"},0.5666666666666667);
+tl.set("#cap-0-2",{backgroundColor:"#ae6200"},0.5666666666666667);
+tl.set("#cap-0-2",{backgroundColor:"transparent"},0.7666666666666667);
+tl.set("#cap-0-3",{backgroundColor:"#ae6200"},0.7666666666666667);
+tl.set("#cap-0-3",{backgroundColor:"transparent"},1.0);
+tl.set("#cap-0-4",{backgroundColor:"#ae6200"},1.0);
+tl.set("#cap-0-4",{backgroundColor:"transparent"},1.1333333333333333);
+tl.set("#cap-1-0",{backgroundColor:"#ae6200"},1.1333333333333333);
+tl.set("#cap-1-0",{backgroundColor:"transparent"},1.4);
+tl.set("#cap-1-1",{backgroundColor:"#ae6200"},1.4);
+tl.set("#cap-1-1",{backgroundColor:"transparent"},1.7);
+tl.set("#cap-1-2",{backgroundColor:"#ae6200"},1.7);
+tl.set("#cap-1-2",{backgroundColor:"transparent"},2.5);
+tl.set("#cap-2-0",{backgroundColor:"#ae6200"},2.5);
+tl.set("#cap-2-0",{backgroundColor:"transparent"},2.7);
+tl.set("#cap-2-1",{backgroundColor:"#ae6200"},2.7);
+tl.set("#cap-2-1",{backgroundColor:"transparent"},3.1);
+tl.set("#cap-2-2",{backgroundColor:"#ae6200"},3.1);
+tl.set("#cap-2-2",{backgroundColor:"transparent"},3.3333333333333335);
+tl.set("#cap-3-0",{backgroundColor:"#ae6200"},3.3333333333333335);
+tl.set("#cap-3-0",{backgroundColor:"transparent"},3.8333333333333335);
+tl.set("#cap-3-1",{backgroundColor:"#ae6200"},3.8333333333333335);
+tl.set("#cap-3-1",{backgroundColor:"transparent"},4.2);
+tl.set("#cap-3-2",{backgroundColor:"#ae6200"},4.2);
+tl.set("#cap-3-2",{backgroundColor:"transparent"},4.7);
+tl.set("#cap-3-3",{backgroundColor:"#ae6200"},4.7);
+tl.set("#cap-3-3",{backgroundColor:"transparent"},5.133333333333334);
+tl.set("#cap-3-4",{backgroundColor:"#ae6200"},5.133333333333334);
+tl.set("#cap-3-4",{backgroundColor:"transparent"},5.433333333333334);
+tl.set("#cap-3-5",{backgroundColor:"#ae6200"},5.433333333333334);
+tl.set("#cap-3-5",{backgroundColor:"transparent"},6.333333333333333);
+tl.set("#cap-4-0",{backgroundColor:"#ae6200"},6.333333333333333);
+tl.set("#cap-4-0",{backgroundColor:"transparent"},6.4);
+tl.set("#cap-4-1",{backgroundColor:"#ae6200"},6.4);
+tl.set("#cap-4-1",{backgroundColor:"transparent"},6.7);
+tl.set("#cap-4-2",{backgroundColor:"#ae6200"},6.7);
+tl.set("#cap-4-2",{backgroundColor:"transparent"},6.9);
+tl.set("#cap-4-3",{backgroundColor:"#ae6200"},6.9);
+tl.set("#cap-4-3",{backgroundColor:"transparent"},7.0);
+tl.set("#cap-4-4",{backgroundColor:"#ae6200"},7.0);
+tl.set("#cap-4-4",{backgroundColor:"transparent"},7.3);
+tl.set("#cap-4-5",{backgroundColor:"#ae6200"},7.3);
+tl.set("#cap-4-5",{backgroundColor:"transparent"},7.533333333333333);
+tl.set("#cap-4-6",{backgroundColor:"#ae6200"},7.533333333333333);
+tl.set("#cap-4-6",{backgroundColor:"transparent"},8.733333333333333);
+tl.set("#cap-5-0",{backgroundColor:"#ae6200"},8.733333333333333);
+tl.set("#cap-5-0",{backgroundColor:"transparent"},8.866666666666667);
+tl.set("#cap-5-1",{backgroundColor:"#ae6200"},8.866666666666667);
+tl.set("#cap-5-1",{backgroundColor:"transparent"},9.0);
+tl.set("#cap-5-2",{backgroundColor:"#ae6200"},9.0);
+tl.set("#cap-5-2",{backgroundColor:"transparent"},9.666666666666666);
+tl.set("#cap-6-0",{backgroundColor:"#ae6200"},9.666666666666666);
+tl.set("#cap-6-0",{backgroundColor:"transparent"},10.0);
+tl.set("#cap-6-1",{backgroundColor:"#ae6200"},10.0);
+tl.set("#cap-6-1",{backgroundColor:"transparent"},10.133333333333333);
+tl.set("#cap-6-2",{backgroundColor:"#ae6200"},10.133333333333333);
+tl.set("#cap-6-2",{backgroundColor:"transparent"},11.133333333333333);
+tl.set("#cap-7-0",{backgroundColor:"#ae6200"},11.133333333333333);
+tl.set("#cap-7-0",{backgroundColor:"transparent"},11.3);
+tl.set("#cap-7-1",{backgroundColor:"#ae6200"},11.3);
+tl.set("#cap-7-1",{backgroundColor:"transparent"},11.433333333333334);
+tl.set("#cap-7-2",{backgroundColor:"#ae6200"},11.433333333333334);
+tl.set("#cap-7-2",{backgroundColor:"transparent"},11.566666666666666);
+tl.set("#cap-7-3",{backgroundColor:"#ae6200"},11.566666666666666);
+tl.set("#cap-7-3",{backgroundColor:"transparent"},11.7);
+tl.set("#cap-7-4",{backgroundColor:"#ae6200"},11.7);
+tl.set("#cap-7-4",{backgroundColor:"transparent"},11.966666666666667);
+tl.set("#cap-8-0",{backgroundColor:"#ae6200"},11.966666666666667);
+tl.set("#cap-8-0",{backgroundColor:"transparent"},12.2);
+tl.set("#cap-8-1",{backgroundColor:"#ae6200"},12.2);
+tl.set("#cap-8-1",{backgroundColor:"transparent"},12.3);
+tl.set("#cap-8-2",{backgroundColor:"#ae6200"},12.3);
+tl.set("#cap-8-2",{backgroundColor:"transparent"},12.533333333333333);
+tl.set("#cap-8-3",{backgroundColor:"#ae6200"},12.533333333333333);
+tl.set("#cap-8-3",{backgroundColor:"transparent"},13.0);
+tl.set("#cap-9-0",{backgroundColor:"#ae6200"},13.0);
+tl.set("#cap-9-0",{backgroundColor:"transparent"},13.233333333333333);
+tl.set("#cap-9-1",{backgroundColor:"#ae6200"},13.233333333333333);
+tl.set("#cap-9-1",{backgroundColor:"transparent"},13.533333333333333);
+tl.set("#cap-9-2",{backgroundColor:"#ae6200"},13.533333333333333);
+tl.set("#cap-9-2",{backgroundColor:"transparent"},14.133333333333333);
+tl.set("#cap-10-0",{backgroundColor:"#ae6200"},14.133333333333333);
+tl.set("#cap-10-0",{backgroundColor:"transparent"},14.133333333333333);
+tl.set("#cap-10-1",{backgroundColor:"#ae6200"},14.133333333333333);
+tl.set("#cap-10-1",{backgroundColor:"transparent"},14.566666666666666);
+tl.set("#cap-10-2",{backgroundColor:"#ae6200"},14.566666666666666);
+tl.set("#cap-10-2",{backgroundColor:"transparent"},14.8);
+tl.set("#cap-10-3",{backgroundColor:"#ae6200"},14.8);
+tl.set("#cap-10-3",{backgroundColor:"transparent"},14.966666666666667);
+tl.set("#cap-10-4",{backgroundColor:"#ae6200"},14.966666666666667);
+tl.set("#cap-10-4",{backgroundColor:"transparent"},15.3);
+tl.set("#cap-10-5",{backgroundColor:"#ae6200"},15.3);
+tl.set("#cap-10-5",{backgroundColor:"transparent"},16.4);
+tl.set("#cap-11-0",{backgroundColor:"#ae6200"},16.4);
+tl.set("#cap-11-0",{backgroundColor:"transparent"},16.466666666666665);
+tl.set("#cap-11-1",{backgroundColor:"#ae6200"},16.466666666666665);
+tl.set("#cap-11-1",{backgroundColor:"transparent"},16.733333333333334);
+tl.set("#cap-11-2",{backgroundColor:"#ae6200"},16.733333333333334);
+tl.set("#cap-11-2",{backgroundColor:"transparent"},17.066666666666666);
+tl.set("#cap-11-3",{backgroundColor:"#ae6200"},17.066666666666666);
+tl.set("#cap-11-3",{backgroundColor:"transparent"},17.4);
+tl.set("#cap-11-4",{backgroundColor:"#ae6200"},17.4);
+tl.set("#cap-11-4",{backgroundColor:"transparent"},17.933333333333334);
+tl.set("#cap-12-0",{backgroundColor:"#ae6200"},17.933333333333334);
+tl.set("#cap-12-0",{backgroundColor:"transparent"},18.1);
+tl.set("#cap-12-1",{backgroundColor:"#ae6200"},18.1);
+tl.set("#cap-12-1",{backgroundColor:"transparent"},18.533333333333335);
+tl.set("#cap-12-2",{backgroundColor:"#ae6200"},18.533333333333335);
+tl.set("#cap-12-2",{backgroundColor:"transparent"},19.266666666666666);
+tl.set("#cap-12-3",{backgroundColor:"#ae6200"},19.266666666666666);
+tl.set("#cap-12-3",{backgroundColor:"transparent"},20.066666666666666);
+tl.set("#cap-13-0",{backgroundColor:"#ae6200"},20.066666666666666);
+tl.set("#cap-13-0",{backgroundColor:"transparent"},20.4);
+tl.set("#cap-13-1",{backgroundColor:"#ae6200"},20.4);
+tl.set("#cap-13-1",{backgroundColor:"transparent"},20.866666666666667);
+tl.set("#cap-13-2",{backgroundColor:"#ae6200"},20.866666666666667);
+tl.set("#cap-13-2",{backgroundColor:"transparent"},21.066666666666666);
+tl.set("#cap-14-0",{backgroundColor:"#ae6200"},21.066666666666666);
+tl.set("#cap-14-0",{backgroundColor:"transparent"},21.3);
+tl.set("#cap-14-1",{backgroundColor:"#ae6200"},21.3);
+tl.set("#cap-14-1",{backgroundColor:"transparent"},21.6);
+tl.set("#cap-14-2",{backgroundColor:"#ae6200"},21.6);
+tl.set("#cap-14-2",{backgroundColor:"transparent"},22.0);
+tl.set("#cap-14-3",{backgroundColor:"#ae6200"},22.0);
+tl.set("#cap-14-3",{backgroundColor:"transparent"},22.466666666666665);
+tl.set("#cap-14-4",{backgroundColor:"#ae6200"},22.466666666666665);
+tl.set("#cap-14-4",{backgroundColor:"transparent"},23.066666666666666);
+tl.set("#cap-15-0",{backgroundColor:"#ae6200"},23.066666666666666);
+tl.set("#cap-15-0",{backgroundColor:"transparent"},23.9);
+tl.set("#cap-15-1",{backgroundColor:"#ae6200"},23.9);
+tl.set("#cap-15-1",{backgroundColor:"transparent"},23.933333333333334);
+tl.set("#cap-15-2",{backgroundColor:"#ae6200"},23.933333333333334);
+tl.set("#cap-15-2",{backgroundColor:"transparent"},24.333333333333332);
+tl.set("#cap-16-0",{backgroundColor:"#ae6200"},24.333333333333332);
+tl.set("#cap-16-0",{backgroundColor:"transparent"},24.4);
+tl.set("#cap-16-1",{backgroundColor:"#ae6200"},24.4);
+tl.set("#cap-16-1",{backgroundColor:"transparent"},24.666666666666668);
+tl.set("#cap-16-2",{backgroundColor:"#ae6200"},24.666666666666668);
+tl.set("#cap-16-2",{backgroundColor:"transparent"},25.133333333333333);
+tl.set("#cap-16-3",{backgroundColor:"#ae6200"},25.133333333333333);
+tl.set("#cap-16-3",{backgroundColor:"transparent"},25.433333333333334);
+tl.set("#cap-16-4",{backgroundColor:"#ae6200"},25.433333333333334);
+tl.set("#cap-16-4",{backgroundColor:"transparent"},25.7);
+tl.set("#cap-16-5",{backgroundColor:"#ae6200"},25.7);
+tl.set("#cap-16-5",{backgroundColor:"transparent"},25.933333333333334);
+tl.set("#cap-17-0",{backgroundColor:"#ae6200"},25.933333333333334);
+tl.set("#cap-17-0",{backgroundColor:"transparent"},26.2);
+tl.set("#cap-17-1",{backgroundColor:"#ae6200"},26.2);
+tl.set("#cap-17-1",{backgroundColor:"transparent"},26.5);
+tl.set("#cap-17-2",{backgroundColor:"#ae6200"},26.5);
+tl.set("#cap-17-2",{backgroundColor:"transparent"},27.6);
+tl.set("#cap-18-0",{backgroundColor:"#ae6200"},27.6);
+tl.set("#cap-18-0",{backgroundColor:"transparent"},27.933333333333334);
+tl.set("#cap-18-1",{backgroundColor:"#ae6200"},27.933333333333334);
+tl.set("#cap-18-1",{backgroundColor:"transparent"},28.3);
+tl.set("#cap-18-2",{backgroundColor:"#ae6200"},28.3);
+tl.set("#cap-18-2",{backgroundColor:"transparent"},28.633333333333333);
+tl.set("#cap-19-0",{backgroundColor:"#ae6200"},28.633333333333333);
+tl.set("#cap-19-0",{backgroundColor:"transparent"},28.9);
+tl.set("#cap-19-1",{backgroundColor:"#ae6200"},28.9);
+tl.set("#cap-19-1",{backgroundColor:"transparent"},29.233333333333334);
+tl.set("#cap-19-2",{backgroundColor:"#ae6200"},29.233333333333334);
+tl.set("#cap-19-2",{backgroundColor:"transparent"},29.533333333333335);
+tl.set("#cap-19-3",{backgroundColor:"#ae6200"},29.533333333333335);
+tl.set("#cap-19-3",{backgroundColor:"transparent"},29.9);
+tl.set("#cap-19-4",{backgroundColor:"#ae6200"},29.9);
+tl.set("#cap-19-4",{backgroundColor:"transparent"},30.5);
+tl.set("#cap-20-0",{backgroundColor:"#ae6200"},30.5);
+tl.set("#cap-20-0",{backgroundColor:"transparent"},30.5);
+tl.set("#cap-20-1",{backgroundColor:"#ae6200"},30.5);
+tl.set("#cap-20-1",{backgroundColor:"transparent"},30.7);
+tl.set("#cap-20-2",{backgroundColor:"#ae6200"},30.7);
+tl.set("#cap-20-2",{backgroundColor:"transparent"},31.233333333333334);
+tl.set("#cap-20-3",{backgroundColor:"#ae6200"},31.233333333333334);
+tl.set("#cap-20-3",{backgroundColor:"transparent"},31.566666666666666);
+tl.set("#cap-20-4",{backgroundColor:"#ae6200"},31.566666666666666);
+tl.set("#cap-20-4",{backgroundColor:"transparent"},31.933333333333334);
+tl.set("#cap-21-0",{backgroundColor:"#ae6200"},31.933333333333334);
+tl.set("#cap-21-0",{backgroundColor:"transparent"},32.3);
+tl.set("#cap-21-1",{backgroundColor:"#ae6200"},32.3);
+tl.set("#cap-21-1",{backgroundColor:"transparent"},32.5);
+tl.set("#cap-21-2",{backgroundColor:"#ae6200"},32.5);
+tl.set("#cap-21-2",{backgroundColor:"transparent"},32.766666666666666);
+tl.set("#cap-21-3",{backgroundColor:"#ae6200"},32.766666666666666);
+tl.set("#cap-21-3",{backgroundColor:"transparent"},33.1);
+tl.set("#cap-21-4",{backgroundColor:"#ae6200"},33.1);
+tl.set("#cap-21-4",{backgroundColor:"transparent"},33.333333333333336);
+tl.set("#cap-21-5",{backgroundColor:"#ae6200"},33.333333333333336);
+tl.set("#cap-21-5",{backgroundColor:"transparent"},33.6);
+tl.set("#cap-21-6",{backgroundColor:"#ae6200"},33.6);
+tl.set("#cap-21-6",{backgroundColor:"transparent"},34.733333333333334);
+tl.set("#cap-22-0",{backgroundColor:"#ae6200"},34.733333333333334);
+tl.set("#cap-22-0",{backgroundColor:"transparent"},34.733333333333334);
+tl.set("#cap-22-1",{backgroundColor:"#ae6200"},34.733333333333334);
+tl.set("#cap-22-1",{backgroundColor:"transparent"},35.0);
+tl.set("#cap-22-2",{backgroundColor:"#ae6200"},35.0);
+tl.set("#cap-22-2",{backgroundColor:"transparent"},35.233333333333334);
+tl.set("#cap-22-3",{backgroundColor:"#ae6200"},35.233333333333334);
+tl.set("#cap-22-3",{backgroundColor:"transparent"},35.56666666666667);
+tl.set("#cap-22-4",{backgroundColor:"#ae6200"},35.56666666666667);
+tl.set("#cap-22-4",{backgroundColor:"transparent"},36.43333333333333);
+tl.set("#cap-23-0",{backgroundColor:"#ae6200"},36.43333333333333);
+tl.set("#cap-23-0",{backgroundColor:"transparent"},36.53333333333333);
+tl.set("#cap-23-1",{backgroundColor:"#ae6200"},36.53333333333333);
+tl.set("#cap-23-1",{backgroundColor:"transparent"},36.833333333333336);
+tl.set("#cap-23-2",{backgroundColor:"#ae6200"},36.833333333333336);
+tl.set("#cap-23-2",{backgroundColor:"transparent"},37.13333333333333);
+tl.set("#cap-23-3",{backgroundColor:"#ae6200"},37.13333333333333);
+tl.set("#cap-23-3",{backgroundColor:"transparent"},37.4);
+tl.set("#cap-23-4",{backgroundColor:"#ae6200"},37.4);
+tl.set("#cap-23-4",{backgroundColor:"transparent"},37.63333333333333);
+tl.set("#cap-23-5",{backgroundColor:"#ae6200"},37.63333333333333);
+tl.set("#cap-23-5",{backgroundColor:"transparent"},37.833333333333336);
+tl.set("#cap-24-0",{backgroundColor:"#ae6200"},37.833333333333336);
+tl.set("#cap-24-0",{backgroundColor:"transparent"},38.1);
+tl.set("#cap-24-1",{backgroundColor:"#ae6200"},38.1);
+tl.set("#cap-24-1",{backgroundColor:"transparent"},38.3);
+tl.set("#cap-24-2",{backgroundColor:"#ae6200"},38.3);
+tl.set("#cap-24-2",{backgroundColor:"transparent"},39.06666666666667);
+tl.set("#cap-25-0",{backgroundColor:"#ae6200"},39.06666666666667);
+tl.set("#cap-25-0",{backgroundColor:"transparent"},39.13333333333333);
+tl.set("#cap-25-1",{backgroundColor:"#ae6200"},39.13333333333333);
+tl.set("#cap-25-1",{backgroundColor:"transparent"},39.56666666666667);
+tl.set("#cap-25-2",{backgroundColor:"#ae6200"},39.56666666666667);
+tl.set("#cap-25-2",{backgroundColor:"transparent"},39.6);
+tl.set("#cap-25-3",{backgroundColor:"#ae6200"},39.6);
+tl.set("#cap-25-3",{backgroundColor:"transparent"},40.13333333333333);
+tl.set("#cap-25-4",{backgroundColor:"#ae6200"},40.13333333333333);
+tl.set("#cap-25-4",{backgroundColor:"transparent"},40.6);
+tl.set("#cap-26-0",{backgroundColor:"#ae6200"},40.6);
+tl.set("#cap-26-0",{backgroundColor:"transparent"},41.6);
+tl.set("#cap-26-1",{backgroundColor:"#ae6200"},41.6);
+tl.set("#cap-26-1",{backgroundColor:"transparent"},42.266666666666666);
+tl.set("#cap-27-0",{backgroundColor:"#ae6200"},42.266666666666666);
+tl.set("#cap-27-0",{backgroundColor:"transparent"},42.43333333333333);
+tl.set("#cap-27-1",{backgroundColor:"#ae6200"},42.43333333333333);
+tl.set("#cap-27-1",{backgroundColor:"transparent"},42.8);
+tl.set("#cap-27-2",{backgroundColor:"#ae6200"},42.8);
+tl.set("#cap-27-2",{backgroundColor:"transparent"},43.3);
+tl.set("#cap-27-3",{backgroundColor:"#ae6200"},43.3);
+tl.set("#cap-27-3",{backgroundColor:"transparent"},43.7);
+tl.set("#cap-28-0",{backgroundColor:"#ae6200"},43.7);
+tl.set("#cap-28-0",{backgroundColor:"transparent"},43.833333333333336);
+tl.set("#cap-28-1",{backgroundColor:"#ae6200"},43.833333333333336);
+tl.set("#cap-28-1",{backgroundColor:"transparent"},43.9);
+tl.set("#cap-28-2",{backgroundColor:"#ae6200"},43.9);
+tl.set("#cap-28-2",{backgroundColor:"transparent"},44.1);
+tl.set("#cap-28-3",{backgroundColor:"#ae6200"},44.1);
+tl.set("#cap-28-3",{backgroundColor:"transparent"},44.266666666666666);
+tl.set("#cap-28-4",{backgroundColor:"#ae6200"},44.266666666666666);
+tl.set("#cap-28-4",{backgroundColor:"transparent"},44.4);
+tl.set("#cap-28-5",{backgroundColor:"#ae6200"},44.4);
+tl.set("#cap-28-5",{backgroundColor:"transparent"},44.86666666666667);
+tl.set("#cap-29-0",{backgroundColor:"#ae6200"},44.86666666666667);
+tl.set("#cap-29-0",{backgroundColor:"transparent"},45.03333333333333);
+tl.set("#cap-29-1",{backgroundColor:"#ae6200"},45.03333333333333);
+tl.set("#cap-29-1",{backgroundColor:"transparent"},45.2);
+tl.set("#cap-29-2",{backgroundColor:"#ae6200"},45.2);
+tl.set("#cap-29-2",{backgroundColor:"transparent"},45.43333333333333);
+tl.set("#cap-29-3",{backgroundColor:"#ae6200"},45.43333333333333);
+tl.set("#cap-29-3",{backgroundColor:"transparent"},45.53333333333333);
+tl.set("#cap-29-4",{backgroundColor:"#ae6200"},45.53333333333333);
+tl.set("#cap-29-4",{backgroundColor:"transparent"},45.7);
+tl.set("#cap-29-5",{backgroundColor:"#ae6200"},45.7);
+tl.set("#cap-29-5",{backgroundColor:"transparent"},45.9);
+tl.set("#cap-29-6",{backgroundColor:"#ae6200"},45.9);
+tl.set("#cap-29-6",{backgroundColor:"transparent"},46.36666666666667);
+window.__timelines=window.__timelines||{};window.__timelines["main"] = tl;
+</script>
+</body></html>

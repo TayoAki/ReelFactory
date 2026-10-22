@@ -1,0 +1,173 @@
+{
+  "motion": [
+    {
+      "start": 12.233333333333333,
+      "end": 15.133333333333333,
+      "asset": "advanced-query.mp4",
+      "source_start": 9.5,
+      "type": "actual Microsoft animated screen demo",
+      "bounds": [
+        240,
+        190,
+        1440,
+        700
+      ]
+    },
+    {
+      "start": 34.9,
+      "end": 38.4,
+      "asset": "table-selection.mp4",
+      "source_start": 10.5,
+      "type": "actual Microsoft animated screen demo",
+      "bounds": [
+        240,
+        190,
+        1440,
+        700
+      ]
+    },
+    {
+      "start": 38.4,
+      "end": 41.9,
+      "asset": "table-detail.mp4",
+      "source_start": 14,
+      "type": "actual Microsoft animated screen demo",
+      "bounds": [
+        240,
+        195,
+        650,
+        690
+      ]
+    },
+    {
+      "start": 41.9,
+      "end": 44.3,
+      "asset": "source-config.mp4",
+      "source_start": 3.8,
+      "type": "actual Microsoft animated screen demo",
+      "bounds": [
+        240,
+        190,
+        1440,
+        700
+      ]
+    },
+    {
+      "start": 44.3,
+      "end": 48.3,
+      "asset": "config-detail.mp4",
+      "source_start": 6.2,
+      "type": "actual Microsoft animated screen demo",
+      "bounds": [
+        240,
+        215,
+        1440,
+        650
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "file": "answer-focus.png",
+      "x": 780,
+      "y": 195,
+      "width": 1035,
+      "height": 680,
+      "fit": "contain",
+      "image_scale": "1; wrapper reveal 0.98 \u2192 1, no source clipping"
+    },
+    {
+      "file": "ask.png",
+      "x": 240,
+      "y": 195,
+      "width": 1440,
+      "height": 680,
+      "fit": "contain",
+      "image_scale": "1; wrapper reveal 0.98 \u2192 1, no source clipping"
+    },
+    {
+      "file": "create-data-agent.png",
+      "x": 240,
+      "y": 195,
+      "width": 1440,
+      "height": 680,
+      "fit": "contain",
+      "image_scale": "1; wrapper reveal 0.98 \u2192 1, no source clipping"
+    },
+    {
+      "file": "create-focus.png",
+      "x": 340,
+      "y": 195,
+      "width": 1240,
+      "height": 680,
+      "fit": "contain",
+      "image_scale": "1; wrapper reveal 0.98 \u2192 1, no source clipping"
+    },
+    {
+      "file": "name-focus.png",
+      "x": 450,
+      "y": 195,
+      "width": 1020,
+      "height": 680,
+      "fit": "contain",
+      "image_scale": "1; wrapper reveal 0.98 \u2192 1, no source clipping"
+    },
+    {
+      "file": "change-datasource.png",
+      "x": 650,
+      "y": 195,
+      "width": 1120,
+      "height": 680,
+      "fit": "contain",
+      "image_scale": "1; wrapper reveal 0.98 \u2192 1, no source clipping"
+    },
+    {
+      "file": "ask.png",
+      "x": 240,
+      "y": 195,
+      "width": 1440,
+      "height": 680,
+      "fit": "contain",
+      "image_scale": "1; wrapper reveal 0.98 \u2192 1, no source clipping"
+    },
+    {
+      "file": "ask-focus.png",
+      "x": 200,
+      "y": 310,
+      "width": 1520,
+      "height": 310,
+      "fit": "contain",
+      "image_scale": "1; wrapper reveal 0.98 \u2192 1, no source clipping"
+    },
+    {
+      "file": "answer-focus.png",
+      "x": 650,
+      "y": 195,
+      "width": 1120,
+      "height": 690,
+      "fit": "contain",
+      "image_scale": "1; wrapper reveal 0.98 \u2192 1, no source clipping"
+    }
+  ],
+  "safe_layout": {
+    "content": [
+      72,
+      190,
+      1848,
+      900
+    ],
+    "caption_band": [
+      72,
+      950,
+      1848,
+      1005
+    ],
+    "footer": [
+      72,
+      1030,
+      1848,
+      1060
+    ]
+  },
+  "genuine_screen_motion_seconds": 16.3
+}

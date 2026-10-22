@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=1920, height=1080">
+<title>Fabric ontology / reference adaptation</title>
+<link rel="stylesheet" href="assets/ev1/tokens.css">
+<script src="assets/ev1/vendor/gsap.min.js"></script>
+<style>
+html,body{margin:0;background:#000}
+#root{position:relative;width:100%;height:100%;overflow:hidden;background:var(--ev1-black)}
+*{box-sizing:border-box}html,body{width:1920px;height:1080px}:root{--ev1-cap-size:38px}.world{position:absolute;inset:0;color:#fff2dc;font-family:var(--ev1-sans);background-color:#21130c;background-image:linear-gradient(#db7d2510 1px,transparent 1px),linear-gradient(90deg,#db7d2510 1px,transparent 1px),radial-gradient(ellipse at 60% 0%,#4b2414,transparent 70%);background-size:60px 60px,60px 60px,100% 100%;border:5px solid #e58a20}.brand{position:absolute;left:65px;top:28px;font-size:19px;letter-spacing:.14em;color:#e5b785}.status{position:absolute;right:65px;top:28px;font-size:18px;color:#e5b785}.panel{position:absolute;left:72px;top:140px;width:1300px;height:750px;border-radius:28px;background:#18333b;box-shadow:0 24px 55px #0004;overflow:hidden}.light{background:#f7f7f2;color:#203c42}.panel h1{margin:38px 45px 12px;font-size:46px;line-height:1.15;letter-spacing:-.035em}.subtitle{margin:0 45px;font-size:24px;color:#b7cfd0;line-height:1.5}.light .subtitle{color:#507075}.portrait{position:absolute;left:1430px;top:267px;width:410px;height:546px;border:2px solid #cda56b77;border-radius:25px;overflow:hidden;background:radial-gradient(ellipse at 50% 35%,#52665d,#172a28 80%)}.portrait:before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,#ffffff0a 1px,transparent 1px);background-size:50px 100%}.portrait img{position:absolute;bottom:0;width:200%;height:auto;max-width:none}.maya img{left:-100%}.noah img{left:0}.portrait:not(.speaker-full):not(.split-left):not(.split-right) img{width:280%}.portrait.maya:not(.speaker-full):not(.split-left):not(.split-right) img{left:-160%}.portrait.noah:not(.speaker-full):not(.split-left):not(.split-right) img{left:-20%}.who{position:absolute;bottom:16px;left:22px;font-size:22px;line-height:1.5;text-shadow:0 2px 8px #000}.who small{display:block;font-size:14px;color:#e6c394}.footer{position:absolute;left:72px;bottom:34px;font-size:17px;color:#dbb88b}.folio{position:absolute;right:72px;bottom:34px;font-size:17px;color:#dbb88b}.note{position:absolute;left:96px;top:907px;font-size:18px;color:#dfb887}.node{position:absolute;width:260px;height:120px;border:2px solid #62b6a8;border-radius:16px;background:#21464c;padding:24px;box-shadow:0 8px 24px #0003}.node strong{font-size:32px;display:block;line-height:1.1}.node small{font-size:20px;color:#b7d7d0;display:block;margin-top:10px}.node.active{border:3px solid #f5b448;background:#4c4030}.edge-label{position:absolute;font-size:22px;color:#f1ca8c;background:#18333b;padding:5px 12px;white-space:nowrap}.property{position:absolute;left:700px;top:205px;width:500px;background:#fbf6eb;color:#233b3c;border-radius:20px;padding:35px;font-size:25px;line-height:1.7}.property strong{font-size:36px;display:block;margin-bottom:18px}.property span{display:flex;justify-content:space-between;border-top:1px solid #b7c8c2;padding:8px 0}.property b{font-weight:600}.tile{position:absolute;width:330px;height:225px;border:1px solid #75a69b;border-radius:18px;padding:30px;background:#21464c}.tile b{font-size:33px;display:block;line-height:1.25}.tile p{font-size:24px;line-height:1.45;color:#bfd8d0}.big{font-size:68px;line-height:1.13;letter-spacing:-.035em;font-weight:700}.question{position:absolute;left:985px;top:275px;width:750px;line-height:1.15;font-size:73px;font-weight:700;color:#fff4df}.speaker-full{left:100px;top:130px;width:800px;height:780px}.split-left{left:110px;top:140px;width:790px;height:750px}.split-right{left:1020px;top:140px;width:790px;height:750px}.chapter{background:#d93625}.chapter .big{position:absolute;left:65px;top:235px;font-size:100px;max-width:1150px}.ev1-cap{gap:.24em}.ev1-cap .w{font-weight:700;text-transform:uppercase;text-shadow:0 3px 7px #000}
+.m-stage{position:absolute;inset:0;transform-origin:650px 410px}.m-object{position:absolute;display:flex;align-items:center;gap:14px;border:1.5px solid #6ea99b;border-radius:18px;background:#21464c;padding:20px;color:#f7ead4;box-shadow:0 12px 25px #0002;transform-origin:50% 50%}.m-object b{display:block;font-size:26px;font-weight:600;line-height:1.2}.m-object small{display:block;font-size:19px;color:#bcd6ce;line-height:1.45;margin-top:10px}.m-icon{color:#9ccebb;flex:0 0 45px;display:flex;align-items:center}.m-svg{position:absolute;inset:0;width:1300px;height:750px;overflow:visible;pointer-events:none}.m-edge-label{position:absolute;font-size:23px;color:#f2ca8b;background:#18333b;padding:4px 10px;border-radius:8px}.panel{background-image:radial-gradient(ellipse at 45% 20%,#29505955,transparent 65%)}
+</style></head>
+<body>
+<div id="root" class="ev1-frame" data-composition-id="main" data-start="0" data-width="1920" data-height="1080" data-duration="121.7333">
+<div id="c1" class="clip ev1-layer" data-start="0.0000" data-duration="2.2000" style="z-index:1;"><div class="world"><div data-safe="header" class="brand">REELFACTORY / MICROSOFT FABRIC</div><div data-safe="header" class="status">ONTOLOGY · PREVIEW</div><div data-safe="footer" class="footer">Original illustrated example · synthetic dialogue · static presenter placeholders</div><div data-safe="footer" class="folio">FABRIC IQ</div><div data-safe="presenter" class="portrait maya split-left"><img src="assets/media/presenters.png"><div class="who">Maya<small>STATIC PRESENTER PLACEHOLDER</small></div></div><div data-safe="presenter" class="portrait noah split-right"><img src="assets/media/presenters.png"><div class="who">Noah<small>STATIC PRESENTER PLACEHOLDER</small></div></div></div></div>
+<div id="c2" class="clip ev1-layer" data-start="2.2000" data-duration="2.8000" style="z-index:1;"><div class="world"><div data-safe="header" class="brand">REELFACTORY / MICROSOFT FABRIC</div><div data-safe="header" class="status">ONTOLOGY · PREVIEW</div><div data-safe="footer" class="footer">Original illustrated example · synthetic dialogue · static presenter placeholders</div><div data-safe="footer" class="folio">FABRIC IQ</div><div data-safe="presenter" class="portrait noah speaker-full"><img src="assets/media/presenters.png"><div class="who">Noah<small>STATIC PRESENTER PLACEHOLDER</small></div></div><div data-safe="title" class="question">Our shipment<br>is late.</div></div></div>
+<div id="c4" class="clip ev1-layer" data-start="5.0000" data-duration="3.2666" style="z-index:1;"><div class="world"><div data-safe="header" class="brand">REELFACTORY / MICROSOFT FABRIC</div><div data-safe="header" class="status">ONTOLOGY · PREVIEW</div><div data-safe="footer" class="footer">Original illustrated example · synthetic dialogue · static presenter placeholders</div><div data-safe="footer" class="folio">FABRIC IQ</div><div data-safe="content" class="panel light"><h1>Which customers are affected?</h1><div class="subtitle"></div><img src="assets/media/retail.png" style="position:absolute;left:25px;top:180px;width:1250px;height:490px;object-fit:contain"><div id="reveal3" style="position:absolute;inset:0;opacity:0"><div style="position:absolute;left:470px;top:570px;background:#e8a43a;color:#281f14;border-radius:12px;padding:15px 24px;font-size:31px;font-weight:700">Shipment 17 · LATE</div></div></div><div data-safe="presenter" class="portrait maya "><img src="assets/media/presenters.png"><div class="who">Maya<small>STATIC PRESENTER PLACEHOLDER</small></div></div></div></div>
+<div id="c6" class="clip ev1-layer" data-start="5.0000" data-duration="0.5000" style="z-index:90;"><div id="wipe5" style="position:absolute;inset:0;background:#eb8a16"></div></div>
+<div id="c12" class="clip " data-start="0.0000" data-duration="2.0000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w7" class="w">Our</span><span id="w8" class="w">shipment</span><span id="w9" class="w">is</span><span id="w10" class="w">late.</span><span id="w11" class="w">Which</span></div></div>
+<div id="c18" class="clip " data-start="2.0000" data-duration="2.0666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w13" class="w">customers</span><span id="w14" class="w">are</span><span id="w15" class="w">affected?</span><span id="w16" class="w">A</span><span id="w17" class="w">table</span></div></div>
+<div id="c24" class="clip " data-start="4.0667" data-duration="1.7666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w19" class="w">called</span><span id="w20" class="w">shipments</span><span id="w21" class="w">is</span><span id="w22" class="w">not</span><span id="w23" class="w">enough</span></div></div>
+<div id="c30" class="clip " data-start="5.8333" data-duration="1.4000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w25" class="w">to</span><span id="w26" class="w">explain</span><span id="w27" class="w">how</span><span id="w28" class="w">the</span><span id="w29" class="w">business</span></div></div>
+<div id="c33" class="clip " data-start="7.2333" data-duration="1.0333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w31" class="w">fits</span><span id="w32" class="w">together.</span></div></div>
+<div id="c49" class="clip ev1-layer" data-start="8.2667" data-duration="9.5000" style="z-index:1;"><div class="world"><div data-safe="header" class="brand">REELFACTORY / MICROSOFT FABRIC</div><div data-safe="header" class="status">ONTOLOGY · PREVIEW</div><div data-safe="footer" class="footer">Original illustrated example · synthetic dialogue · static presenter placeholders</div><div data-safe="footer" class="folio">FABRIC IQ</div><div data-safe="content" class="panel "><h1>A shared map of the business</h1><div class="subtitle">Microsoft Fabric IQ · ontology</div><div id="camera48" class="m-stage"><div id="motion35" style="position:absolute;inset:0;opacity:0;transform-origin:650px 410px"><div id="object34" class="m-object" style="left:470px;top:330px;width:360px;height:150px"><div class="m-icon"><svg width="45" height="45" viewBox="0 0 64 68" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="32" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="52" cy="12" r="5"/><circle cx="12" cy="52" r="5"/><circle cx="52" cy="52" r="5"/><path d="m16 16 10 10m12 0 10-10M16 48l10-10m12 0 10 10"/></svg></div><div><b>Ontology</b><small>Shared business meaning</small></div></div></div><div id="motion37" style="position:absolute;inset:0;opacity:0;transform-origin:650px 410px"><div id="object36" class="m-object" style="left:75px;top:235px;width:240px;height:142px"><div class="m-icon"><svg width="45" height="45" viewBox="0 0 64 68" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="18" r="9"/><path d="M13 53v-8c0-18 38-18 38 0v8"/></svg></div><div><b>Concepts</b><small>Customer · Order</small></div></div></div><svg class="m-svg" viewBox="0 0 1300 750"><path id="stroke38" d="M315 306 C380 306 380 380 470 400" style="opacity:0" fill="none" stroke="#74c4b3" stroke-width="3" stroke-linecap="round" pathLength="1"/><path id="flow39" d="M315 306 C380 306 380 380 470 400" style="opacity:0" fill="none" stroke="#ffcf83" stroke-width="6" stroke-linecap="round" pathLength="1"/></svg><div id="motion41" style="position:absolute;inset:0;opacity:0;transform-origin:650px 410px"><div id="object40" class="m-object" style="left:75px;top:510px;width:240px;height:142px"><div class="m-icon"><svg width="45" height="45" viewBox="0 0 64 68" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><rect x="15" y="9" width="34" height="46" rx="5"/><path d="M24 22h16M24 32h16M24 42h10"/></svg></div><div><b>Properties</b><small>Status · Delivery time</small></div></div></div><svg class="m-svg" viewBox="0 0 1300 750"><path id="stroke42" d="M315 581 C390 581 390 450 470 415" style="opacity:0" fill="none" stroke="#74c4b3" stroke-width="3" stroke-linecap="round" pathLength="1"/><path id="flow43" d="M315 581 C390 581 390 450 470 415" style="opacity:0" fill="none" stroke="#ffcf83" stroke-width="6" stroke-linecap="round" pathLength="1"/></svg><div id="motion45" style="position:absolute;inset:0;opacity:0;transform-origin:650px 410px"><div id="object44" class="m-object" style="left:955px;top:370px;width:315px;height:142px"><div class="m-icon"><svg width="45" height="45" viewBox="0 0 64 68" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="m26 21 8-8c17-17 36 2 19 19l-9 9M38 43l-8 8C13 68-6 49 11 32l9-9M22 42l20-20"/></svg></div><div><b>Relationships</b><small>Places · Fulfills</small></div></div></div><svg class="m-svg" viewBox="0 0 1300 750"><path id="stroke46" d="M830 405 C890 405 890 441 955 441" style="opacity:0" fill="none" stroke="#74c4b3" stroke-width="3" stroke-linecap="round" pathLength="1"/><path id="flow47" d="M830 405 C890 405 890 441 955 441" style="opacity:0" fill="none" stroke="#ffcf83" stroke-width="6" stroke-linecap="round" pathLength="1"/></svg></div></div><div data-safe="presenter" class="portrait maya "><img src="assets/media/presenters.png"><div class="who">Maya<small>STATIC PRESENTER PLACEHOLDER</small></div></div></div></div>
+<div id="c55" class="clip " data-start="8.2667" data-duration="2.1666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w50" class="w">That&#x27;s</span><span id="w51" class="w">where</span><span id="w52" class="w">an</span><span id="w53" class="w">ontology</span><span id="w54" class="w">helps.</span></div></div>
+<div id="c61" class="clip " data-start="10.4333" data-duration="1.9333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w56" class="w">In</span><span id="w57" class="w">Microsoft</span><span id="w58" class="w">Fabric</span><span id="w59" class="w">IQ,</span><span id="w60" class="w">it</span></div></div>
+<div id="c67" class="clip " data-start="12.3667" data-duration="1.4666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w62" class="w">gives</span><span id="w63" class="w">people</span><span id="w64" class="w">and</span><span id="w65" class="w">agents</span><span id="w66" class="w">a</span></div></div>
+<div id="c73" class="clip " data-start="13.8333" data-duration="1.8000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w68" class="w">shared</span><span id="w69" class="w">map</span><span id="w70" class="w">of</span><span id="w71" class="w">business</span><span id="w72" class="w">concepts,</span></div></div>
+<div id="c79" class="clip " data-start="15.6333" data-duration="1.5666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w74" class="w">their</span><span id="w75" class="w">properties,</span><span id="w76" class="w">and</span><span id="w77" class="w">how</span><span id="w78" class="w">they</span></div></div>
+<div id="c81" class="clip " data-start="17.2000" data-duration="0.5666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w80" class="w">connect.</span></div></div>
+<div id="c82" class="clip ev1-layer" data-start="17.7667" data-duration="2.4666" style="z-index:1;"><div class="world"><div data-safe="header" class="brand">REELFACTORY / MICROSOFT FABRIC</div><div data-safe="header" class="status">ONTOLOGY · PREVIEW</div><div data-safe="footer" class="footer">Original illustrated example · synthetic dialogue · static presenter placeholders</div><div data-safe="footer" class="folio">FABRIC IQ</div><div data-safe="presenter" class="portrait noah speaker-full"><img src="assets/media/presenters.png"><div class="who">Noah<small>STATIC PRESENTER PLACEHOLDER</small></div></div><div data-safe="title" class="question">More than<br>a diagram?</div></div></div>
+<div id="c84" class="clip ev1-layer" data-start="17.7667" data-duration="0.5000" style="z-index:90;"><div id="wipe83" style="position:absolute;inset:0;background:#eb8a16"></div></div>
+<div id="c90" class="clip " data-start="17.7667" data-duration="1.3000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w85" class="w">So</span><span id="w86" class="w">we&#x27;re</span><span id="w87" class="w">not</span><span id="w88" class="w">just</span><span id="w89" class="w">drawing</span></div></div>
+<div id="c93" class="clip " data-start="19.0667" data-duration="1.1666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w91" class="w">a</span><span id="w92" class="w">diagram?</span></div></div>
+<div id="c106" class="clip ev1-layer" data-start="20.2333" data-duration="11.7000" style="z-index:1;"><div class="world"><div data-safe="header" class="brand">REELFACTORY / MICROSOFT FABRIC</div><div data-safe="header" class="status">ONTOLOGY · PREVIEW</div><div data-safe="footer" class="footer">Original illustrated example · synthetic dialogue · static presenter placeholders</div><div data-safe="footer" class="folio">FABRIC IQ</div><div data-safe="content" class="panel "><h1>From entity types to a particular shipment</h1><div class="subtitle">One continuous model: focus on a type, then inspect an instance.</div><div id="motion95" style="position:absolute;inset:0;opacity:0;transform-origin:650px 410px"><div id="object94" class="m-object" style="left:60px;top:310px;width:250px;height:155px"><div class="m-icon"><svg width="45" height="45" viewBox="0 0 64 68" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="18" r="9"/><path d="M13 53v-8c0-18 38-18 38 0v8"/></svg></div><div><b>Customer</b><small>Entity type</small></div></div></div><div id="motion97" style="position:absolute;inset:0;opacity:0;transform-origin:650px 410px"><div id="object96" class="m-object" style="left:370px;top:310px;width:250px;height:155px"><div class="m-icon"><svg width="45" height="45" viewBox="0 0 64 68" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><rect x="15" y="9" width="34" height="46" rx="5"/><path d="M24 22h16M24 32h16M24 42h10"/></svg></div><div><b>Order</b><small>Entity type</small></div></div></div><div id="motion99" style="position:absolute;inset:0;opacity:0;transform-origin:650px 410px"><div id="object98" class="m-object" style="left:680px;top:310px;width:250px;height:155px"><div class="m-icon"><svg width="45" height="45" viewBox="0 0 64 68" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 21 32 8l25 13v28L32 61 7 49ZM7 21l25 13 25-13M32 34v27M20 15l25 13"/></svg></div><div><b>Shipment</b><small>Entity type</small></div></div></div><div id="motion101" style="position:absolute;inset:0;opacity:0;transform-origin:650px 410px"><div id="object100" class="m-object" style="left:990px;top:310px;width:250px;height:155px"><div class="m-icon"><svg width="45" height="45" viewBox="0 0 64 68" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 28 32 7l27 21v31H5ZM21 59V34h22v25M5 28h54"/></svg></div><div><b>Warehouse</b><small>Entity type</small></div></div></div><div id="motion103" style="position:absolute;inset:0;opacity:0;transform-origin:650px 410px"><div id="property102" class="property" style="left:690px;top:220px;width:520px"><div id="property102r0"><strong>Shipment 17</strong></div><div id="property102r1"><span>Instance <b>17</b></span></div><div id="property102r2"><span>Status <b>Late</b></span></div><div id="property102r3"><span>Promised delivery <b>14:00</b></span></div></div></div><svg class="m-svg" viewBox="0 0 1300 750"><path id="stroke104" d="M430 410 C540 410 540 335 690 335" style="opacity:0" fill="none" stroke="#74c4b3" stroke-width="3" stroke-linecap="round" pathLength="1"/></svg></div><div data-safe="presenter" class="portrait maya "><img src="assets/media/presenters.png"><div class="who">Maya<small>STATIC PRESENTER PLACEHOLDER</small></div></div><div data-safe="provenance" class="note">Illustrative property values · not a live Fabric result</div></div></div>
+<div id="c112" class="clip " data-start="20.2333" data-duration="1.5666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w107" class="w">Right.</span><span id="w108" class="w">Start</span><span id="w109" class="w">with</span><span id="w110" class="w">four</span><span id="w111" class="w">entity</span></div></div>
+<div id="c118" class="clip " data-start="21.8000" data-duration="2.5666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w113" class="w">types:</span><span id="w114" class="w">Customer,</span><span id="w115" class="w">Order,</span><span id="w116" class="w">Shipment,</span><span id="w117" class="w">and</span></div></div>
+<div id="c124" class="clip " data-start="24.3667" data-duration="2.4000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w119" class="w">Warehouse.</span><span id="w120" class="w">A</span><span id="w121" class="w">particular</span><span id="w122" class="w">shipment,</span><span id="w123" class="w">like</span></div></div>
+<div id="c130" class="clip " data-start="26.7667" data-duration="2.3333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w125" class="w">Shipment</span><span id="w126" class="w">seventeen,</span><span id="w127" class="w">is</span><span id="w128" class="w">an</span><span id="w129" class="w">instance.</span></div></div>
+<div id="c136" class="clip " data-start="29.1000" data-duration="1.5333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w131" class="w">Its</span><span id="w132" class="w">status</span><span id="w133" class="w">and</span><span id="w134" class="w">promised</span><span id="w135" class="w">delivery</span></div></div>
+<div id="c140" class="clip " data-start="30.6333" data-duration="1.3000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w137" class="w">time</span><span id="w138" class="w">are</span><span id="w139" class="w">properties.</span></div></div>
+<div id="c155" class="clip ev1-layer" data-start="31.9333" data-duration="10.8666" style="z-index:1;"><div class="world"><div data-safe="header" class="brand">REELFACTORY / MICROSOFT FABRIC</div><div data-safe="header" class="status">ONTOLOGY · PREVIEW</div><div data-safe="footer" class="footer">Original illustrated example · synthetic dialogue · static presenter placeholders</div><div data-safe="footer" class="folio">FABRIC IQ</div><div data-safe="content" class="panel "><h1>Name what each connection means</h1><div class="subtitle">Relationships give the connections business meaning.</div><div id="camera154" class="m-stage"><div id="object141" class="m-object" style="opacity:.25;left:65px;top:255px;width:260px;height:135px"><div class="m-icon"><svg width="45" height="45" viewBox="0 0 64 68" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="18" r="9"/><path d="M13 53v-8c0-18 38-18 38 0v8"/></svg></div><div><b>Customer</b><small>Customer 101</small></div></div><div id="object142" class="m-object" style="opacity:.25;left:510px;top:255px;width:260px;height:135px"><div class="m-icon"><svg width="45" height="45" viewBox="0 0 64 68" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><rect x="15" y="9" width="34" height="46" rx="5"/><path d="M24 22h16M24 32h16M24 42h10"/></svg></div><div><b>Order</b><small>Order 42</small></div></div><div id="object143" class="m-object" style="opacity:.25;left:955px;top:255px;width:260px;height:135px"><div class="m-icon"><svg width="45" height="45" viewBox="0 0 64 68" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 21 32 8l25 13v28L32 61 7 49ZM7 21l25 13 25-13M32 34v27M20 15l25 13"/></svg></div><div><b>Shipment</b><small>Shipment 17</small></div></div><div id="object144" class="m-object" style="opacity:.25;left:955px;top:555px;width:260px;height:135px"><div class="m-icon"><svg width="45" height="45" viewBox="0 0 64 68" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 28 32 7l27 21v31H5ZM21 59V34h22v25M5 28h54"/></svg></div><div><b>Warehouse</b><small>Warehouse 2</small></div></div><svg class="m-svg" viewBox="0 0 1300 750"><path id="stroke145" d="M325 322 C390 322 445 322 510 322" style="opacity:0" fill="none" stroke="#74c4b3" stroke-width="3" stroke-linecap="round" pathLength="1"/><path id="flow146" d="M325 322 C390 322 445 322 510 322" style="opacity:0" fill="none" stroke="#ffcf83" stroke-width="6" stroke-linecap="round" pathLength="1"/></svg><div id="motion147" style="position:absolute;inset:0;opacity:0;transform-origin:650px 410px"><div class="m-edge-label" style="left:355px;top:275px">places</div></div><svg class="m-svg" viewBox="0 0 1300 750"><path id="stroke148" d="M955 322 C895 322 830 322 770 322" style="opacity:0" fill="none" stroke="#74c4b3" stroke-width="3" stroke-linecap="round" pathLength="1"/><path id="flow149" d="M955 322 C895 322 830 322 770 322" style="opacity:0" fill="none" stroke="#ffcf83" stroke-width="6" stroke-linecap="round" pathLength="1"/></svg><div id="motion150" style="position:absolute;inset:0;opacity:0;transform-origin:650px 410px"><div class="m-edge-label" style="left:790px;top:275px">fulfills</div></div><svg class="m-svg" viewBox="0 0 1300 750"><path id="stroke151" d="M1085 555 C1085 495 1085 450 1085 390" style="opacity:0" fill="none" stroke="#74c4b3" stroke-width="3" stroke-linecap="round" pathLength="1"/><path id="flow152" d="M1085 555 C1085 495 1085 450 1085 390" style="opacity:0" fill="none" stroke="#ffcf83" stroke-width="6" stroke-linecap="round" pathLength="1"/></svg><div id="motion153" style="position:absolute;inset:0;opacity:0;transform-origin:650px 410px"><div class="m-edge-label" style="left:1100px;top:455px">dispatches</div></div></div></div><div data-safe="presenter" class="portrait maya "><img src="assets/media/presenters.png"><div class="who">Maya<small>STATIC PRESENTER PLACEHOLDER</small></div></div><div data-safe="provenance" class="note">Illustrative business model</div></div></div>
+<div id="c161" class="clip " data-start="31.9333" data-duration="2.2333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w156" class="w">Now</span><span id="w157" class="w">name</span><span id="w158" class="w">the</span><span id="w159" class="w">relationships.</span><span id="w160" class="w">A</span></div></div>
+<div id="c167" class="clip " data-start="34.1667" data-duration="1.7666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w162" class="w">customer</span><span id="w163" class="w">places</span><span id="w164" class="w">an</span><span id="w165" class="w">order.</span><span id="w166" class="w">A</span></div></div>
+<div id="c173" class="clip " data-start="35.9333" data-duration="2.1000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w168" class="w">shipment</span><span id="w169" class="w">fulfills</span><span id="w170" class="w">that</span><span id="w171" class="w">order.</span><span id="w172" class="w">A</span></div></div>
+<div id="c179" class="clip " data-start="38.0333" data-duration="2.2666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w174" class="w">warehouse</span><span id="w175" class="w">dispatches</span><span id="w176" class="w">the</span><span id="w177" class="w">shipment.</span><span id="w178" class="w">Those</span></div></div>
+<div id="c185" class="clip " data-start="40.3000" data-duration="1.8000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w180" class="w">labels</span><span id="w181" class="w">explain</span><span id="w182" class="w">what</span><span id="w183" class="w">each</span><span id="w184" class="w">connection</span></div></div>
+<div id="c187" class="clip " data-start="42.1000" data-duration="0.7000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w186" class="w">means.</span></div></div>
+<div id="c188" class="clip ev1-layer" data-start="42.8000" data-duration="2.5333" style="z-index:1;"><div class="world"><div data-safe="header" class="brand">REELFACTORY / MICROSOFT FABRIC</div><div data-safe="header" class="status">ONTOLOGY · PREVIEW</div><div data-safe="footer" class="footer">Original illustrated example · synthetic dialogue · static presenter placeholders</div><div data-safe="footer" class="folio">FABRIC IQ</div><div data-safe="presenter" class="portrait noah speaker-full"><img src="assets/media/presenters.png"><div class="who">Noah<small>STATIC PRESENTER PLACEHOLDER</small></div></div><div data-safe="title" class="question">Where do the<br>values come from?</div></div></div>
+<div id="c190" class="clip ev1-layer" data-start="42.8000" data-duration="0.5000" style="z-index:90;"><div id="wipe189" style="position:absolute;inset:0;background:#eb8a16"></div></div>
+<div id="c196" class="clip " data-start="42.8000" data-duration="1.1333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w191" class="w">But</span><span id="w192" class="w">where</span><span id="w193" class="w">do</span><span id="w194" class="w">the</span><span id="w195" class="w">actual</span></div></div>
+<div id="c200" class="clip " data-start="43.9333" data-duration="1.4000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w197" class="w">values</span><span id="w198" class="w">come</span><span id="w199" class="w">from?</span></div></div>
+<div id="c217" class="clip ev1-layer" data-start="45.3333" data-duration="8.0000" style="z-index:1;"><div class="world"><div data-safe="header" class="brand">REELFACTORY / MICROSOFT FABRIC</div><div data-safe="header" class="status">ONTOLOGY · PREVIEW</div><div data-safe="footer" class="footer">Original illustrated example · synthetic dialogue · static presenter placeholders</div><div data-safe="footer" class="folio">FABRIC IQ</div><div data-safe="content" class="panel "><h1>Bind meaning to actual data</h1><div class="subtitle">The ontology adds context; source systems retain the values.</div><div id="camera216" class="m-stage"><div id="motion202" style="position:absolute;inset:0;opacity:0;transform-origin:650px 410px"><div id="object201" class="m-object" style="left:85px;top:305px;width:250px;height:180px"><div class="m-icon"><svg width="45" height="45" viewBox="0 0 64 68" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><rect x="15" y="9" width="34" height="46" rx="5"/><path d="M24 22h16M24 32h16M24 42h10"/></svg></div><div><b>Orders</b><small>Business definition</small></div></div></div><div id="motion204" style="position:absolute;inset:0;opacity:0;transform-origin:650px 410px"><div id="object203" class="m-object" style="left:530px;top:305px;width:250px;height:180px"><div class="m-icon"><svg width="45" height="45" viewBox="0 0 64 68" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="m26 21 8-8c17-17 36 2 19 19l-9 9M38 43l-8 8C13 68-6 49 11 32l9-9M22 42l20-20"/></svg></div><div><b>Data binding</b><small>Connect the definition</small></div></div></div><svg class="m-svg" viewBox="0 0 1300 750"><path id="stroke205" d="M335 395 C415 395 450 395 530 395" style="opacity:0" fill="none" stroke="#74c4b3" stroke-width="3" stroke-linecap="round" pathLength="1"/><path id="flow206" d="M335 395 C415 395 450 395 530 395" style="opacity:0" fill="none" stroke="#ffcf83" stroke-width="6" stroke-linecap="round" pathLength="1"/></svg><div id="motion208" style="position:absolute;inset:0;opacity:0;transform-origin:650px 410px"><div id="object207" class="m-object" style="left:975px;top:305px;width:250px;height:180px"><div class="m-icon"><svg width="45" height="45" viewBox="0 0 64 68" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="32" cy="13" rx="23" ry="9"/><path d="M9 13v36c0 13 46 13 46 0V13M9 31c0 13 46 13 46 0"/></svg></div><div><b>Lakehouse</b><small>Actual order values</small></div></div></div><svg class="m-svg" viewBox="0 0 1300 750"><path id="stroke209" d="M780 395 C860 395 895 395 975 395" style="opacity:0" fill="none" stroke="#74c4b3" stroke-width="3" stroke-linecap="round" pathLength="1"/><path id="flow210" d="M780 395 C860 395 895 395 975 395" style="opacity:0" fill="none" stroke="#ffcf83" stroke-width="6" stroke-linecap="round" pathLength="1"/></svg><div id="motion212" style="position:absolute;inset:0;opacity:0;transform-origin:650px 410px"><div id="object211" class="m-object" style="left:780px;top:565px;width:410px;height:120px"><div class="m-icon"><svg width="45" height="45" viewBox="0 0 64 68" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="32" cy="13" rx="23" ry="9"/><path d="M9 13v36c0 13 46 13 46 0V13M9 31c0 13 46 13 46 0"/></svg></div><div><b>Eventhouse</b><small>Live shipment updates</small></div></div></div><svg class="m-svg" viewBox="0 0 1300 750"><path id="stroke213" d="M655 485 C655 625 680 625 780 625" style="opacity:0" fill="none" stroke="#74c4b3" stroke-width="3" stroke-linecap="round" pathLength="1"/><path id="flow214" d="M655 485 C655 625 680 625 780 625" style="opacity:0" fill="none" stroke="#ffcf83" stroke-width="6" stroke-linecap="round" pathLength="1"/></svg><div id="motion215" style="position:absolute;inset:0;opacity:0;transform-origin:650px 410px"><div style="position:absolute;left:90px;top:595px;width:530px;font-size:27px;color:#efd0a0">The data stays in its source.</div></div></div></div><div data-safe="presenter" class="portrait maya "><img src="assets/media/presenters.png"><div class="who">Maya<small>STATIC PRESENTER PLACEHOLDER</small></div></div></div></div>
+<div id="c219" class="clip ev1-layer" data-start="45.3333" data-duration="0.5000" style="z-index:90;"><div id="wipe218" style="position:absolute;inset:0;background:#eb8a16"></div></div>
+<div id="c221" class="clip ev1-layer" data-start="53.3333" data-duration="6.6333" style="z-index:1;"><div class="world"><div data-safe="header" class="brand">REELFACTORY / MICROSOFT FABRIC</div><div data-safe="header" class="status">ONTOLOGY · PREVIEW</div><div data-safe="footer" class="footer">Original illustrated example · synthetic dialogue · static presenter placeholders</div><div data-safe="footer" class="folio">FABRIC IQ</div><div data-safe="content" class="panel "><h1>Property → source column</h1><div class="subtitle">A real example from Microsoft Learn: a Freezer entity.</div><div style="position:absolute;left:35px;top:190px;width:1230px;height:500px;overflow:hidden;border-radius:14px;background:#fff"><img id="doc220" src="assets/media/entity-doc.png" style="position:absolute;width:1230px;height:auto;left:0;top:0;transform-origin:55% 42%"></div></div><div data-safe="presenter" class="portrait maya "><img src="assets/media/presenters.png"><div class="who">Maya<small>STATIC PRESENTER PLACEHOLDER</small></div></div><div data-safe="provenance" class="note">Microsoft Learn · Fabric ontology data bindings · CC BY 4.0</div></div></div>
+<div id="c227" class="clip " data-start="45.3333" data-duration="2.0666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w222" class="w">Data</span><span id="w223" class="w">bindings</span><span id="w224" class="w">connect</span><span id="w225" class="w">those</span><span id="w226" class="w">business</span></div></div>
+<div id="c233" class="clip " data-start="47.4000" data-duration="2.4333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w228" class="w">definitions</span><span id="w229" class="w">to</span><span id="w230" class="w">real</span><span id="w231" class="w">sources.</span><span id="w232" class="w">For</span></div></div>
+<div id="c239" class="clip " data-start="49.8333" data-duration="1.6666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w234" class="w">example,</span><span id="w235" class="w">orders</span><span id="w236" class="w">can</span><span id="w237" class="w">come</span><span id="w238" class="w">from</span></div></div>
+<div id="c245" class="clip " data-start="51.5000" data-duration="1.9000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w240" class="w">a</span><span id="w241" class="w">lakehouse,</span><span id="w242" class="w">while</span><span id="w243" class="w">shipment</span><span id="w244" class="w">updates</span></div></div>
+<div id="c251" class="clip " data-start="53.4000" data-duration="1.9000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w246" class="w">come</span><span id="w247" class="w">from</span><span id="w248" class="w">an</span><span id="w249" class="w">eventhouse.</span><span id="w250" class="w">The</span></div></div>
+<div id="c257" class="clip " data-start="55.3000" data-duration="2.1333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w252" class="w">ontology</span><span id="w253" class="w">adds</span><span id="w254" class="w">shared</span><span id="w255" class="w">meaning;</span><span id="w256" class="w">it</span></div></div>
+<div id="c263" class="clip " data-start="57.4333" data-duration="1.4333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w258" class="w">doesn&#x27;t</span><span id="w259" class="w">become</span><span id="w260" class="w">a</span><span id="w261" class="w">second</span><span id="w262" class="w">copy</span></div></div>
+<div id="c267" class="clip " data-start="58.8667" data-duration="1.1000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w264" class="w">of</span><span id="w265" class="w">the</span><span id="w266" class="w">database.</span></div></div>
+<div id="c268" class="clip ev1-layer" data-start="59.9667" data-duration="1.0000" style="z-index:1;"><div class="world"><div data-safe="header" class="brand">REELFACTORY / MICROSOFT FABRIC</div><div data-safe="header" class="status">ONTOLOGY · PREVIEW</div><div data-safe="footer" class="footer">Original illustrated example · synthetic dialogue · static presenter placeholders</div><div data-safe="footer" class="folio">FABRIC IQ</div><div data-safe="content" class="panel chapter"><h1></h1><div class="subtitle"></div><div class="big" style="position:absolute;left:65px;top:250px">Demo</div></div><div data-safe="presenter" class="portrait maya "><img src="assets/media/presenters.png"><div class="who">Maya<small>STATIC PRESENTER PLACEHOLDER</small></div></div></div></div>
+<div id="c270" class="clip ev1-layer" data-start="59.9667" data-duration="0.5000" style="z-index:90;"><div id="wipe269" style="position:absolute;inset:0;background:#eb8a16"></div></div>
+<div id="c271" class="clip ev1-layer" data-start="60.9667" data-duration="4.9000" style="z-index:1;"><div class="world"><div data-safe="header" class="brand">REELFACTORY / MICROSOFT FABRIC</div><div data-safe="header" class="status">ONTOLOGY · PREVIEW</div><div data-safe="footer" class="footer">Original illustrated example · synthetic dialogue · static presenter placeholders</div><div data-safe="footer" class="folio">FABRIC IQ</div><div data-safe="content" class="panel "><h1>Entity types and relationships</h1><div class="subtitle">Guy in a Cube · real retail ontology demonstration</div></div><div data-safe="presenter" class="portrait maya "><img src="assets/media/presenters.png"><div class="who">Maya<small>STATIC PRESENTER PLACEHOLDER</small></div></div><div data-safe="provenance" class="note">Guy in a Cube · Feb 2026 preview UI · source audio removed</div></div></div>
+<video id="v272" class="clip ev1-fill" src="assets/media/ontology-demo-0.mp4" muted playsinline data-start="60.9667" data-duration="4.9000" data-media-start="0.0000" style="z-index:3;left:107px;top:344px;width:1230px;height:510px;object-fit:contain;background:#fff;border-radius:12px"></video>
+<div id="c273" class="clip ev1-layer" data-start="65.8667" data-duration="4.9333" style="z-index:1;"><div class="world"><div data-safe="header" class="brand">REELFACTORY / MICROSOFT FABRIC</div><div data-safe="header" class="status">ONTOLOGY · PREVIEW</div><div data-safe="footer" class="footer">Original illustrated example · synthetic dialogue · static presenter placeholders</div><div data-safe="footer" class="folio">FABRIC IQ</div><div data-safe="content" class="panel "><h1>Properties linked to a data source</h1><div class="subtitle">Guy in a Cube · real retail ontology demonstration</div></div><div data-safe="presenter" class="portrait maya "><img src="assets/media/presenters.png"><div class="who">Maya<small>STATIC PRESENTER PLACEHOLDER</small></div></div><div data-safe="provenance" class="note">Guy in a Cube · Feb 2026 preview UI · source audio removed</div></div></div>
+<video id="v274" class="clip ev1-fill" src="assets/media/ontology-demo-1.mp4" muted playsinline data-start="65.8667" data-duration="4.9333" data-media-start="0.0000" style="z-index:3;left:107px;top:344px;width:1230px;height:510px;object-fit:contain;background:#fff;border-radius:12px"></video>
+<div id="c280" class="clip " data-start="59.9667" data-duration="2.0000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w275" class="w">Here&#x27;s</span><span id="w276" class="w">a</span><span id="w277" class="w">real</span><span id="w278" class="w">retail</span><span id="w279" class="w">ontology</span></div></div>
+<div id="c286" class="clip " data-start="61.9667" data-duration="1.3000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w281" class="w">demo</span><span id="w282" class="w">from</span><span id="w283" class="w">Guy</span><span id="w284" class="w">in</span><span id="w285" class="w">a</span></div></div>
+<div id="c292" class="clip " data-start="63.2667" data-duration="2.2666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w287" class="w">Cube.</span><span id="w288" class="w">Watch</span><span id="w289" class="w">the</span><span id="w290" class="w">entities</span><span id="w291" class="w">connect,</span></div></div>
+<div id="c298" class="clip " data-start="65.5333" data-duration="1.3333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w293" class="w">then</span><span id="w294" class="w">see</span><span id="w295" class="w">the</span><span id="w296" class="w">properties</span><span id="w297" class="w">linked</span></div></div>
+<div id="c304" class="clip " data-start="66.8667" data-duration="1.9333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w299" class="w">to</span><span id="w300" class="w">their</span><span id="w301" class="w">data</span><span id="w302" class="w">sources.</span><span id="w303" class="w">This</span></div></div>
+<div id="c310" class="clip " data-start="68.8000" data-duration="1.4666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w305" class="w">is</span><span id="w306" class="w">the</span><span id="w307" class="w">interface</span><span id="w308" class="w">behind</span><span id="w309" class="w">the</span></div></div>
+<div id="c312" class="clip " data-start="70.2667" data-duration="0.5333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w311" class="w">idea.</span></div></div>
+<div id="c313" class="clip ev1-layer" data-start="70.8000" data-duration="3.3000" style="z-index:1;"><div class="world"><div data-safe="header" class="brand">REELFACTORY / MICROSOFT FABRIC</div><div data-safe="header" class="status">ONTOLOGY · PREVIEW</div><div data-safe="footer" class="footer">Original illustrated example · synthetic dialogue · static presenter placeholders</div><div data-safe="footer" class="folio">FABRIC IQ</div><div data-safe="presenter" class="portrait noah speaker-full"><img src="assets/media/presenters.png"><div class="who">Noah<small>STATIC PRESENTER PLACEHOLDER</small></div></div><div data-safe="title" class="question">Follow the<br>late shipment.</div></div></div>
+<div id="c315" class="clip ev1-layer" data-start="70.8000" data-duration="0.5000" style="z-index:90;"><div id="wipe314" style="position:absolute;inset:0;background:#eb8a16"></div></div>
+<div id="c321" class="clip " data-start="70.8000" data-duration="1.5000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w316" class="w">Now</span><span id="w317" class="w">let&#x27;s</span><span id="w318" class="w">follow</span><span id="w319" class="w">our</span><span id="w320" class="w">late</span></div></div>
+<div id="c327" class="clip " data-start="72.3000" data-duration="1.8000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w322" class="w">shipment</span><span id="w323" class="w">back</span><span id="w324" class="w">to</span><span id="w325" class="w">the</span><span id="w326" class="w">customer.</span></div></div>
+<div id="c347" class="clip ev1-layer" data-start="74.1000" data-duration="9.0000" style="z-index:1;"><div class="world"><div data-safe="header" class="brand">REELFACTORY / MICROSOFT FABRIC</div><div data-safe="header" class="status">ONTOLOGY · PREVIEW</div><div data-safe="footer" class="footer">Original illustrated example · synthetic dialogue · static presenter placeholders</div><div data-safe="footer" class="folio">FABRIC IQ</div><div data-safe="content" class="panel "><h1>Trace the late shipment</h1><div class="subtitle">Shipment → Order → Customer</div><div id="camera346" class="m-stage"><div id="object328" class="m-object" style="opacity:.25;left:65px;top:255px;width:260px;height:135px"><div class="m-icon"><svg width="45" height="45" viewBox="0 0 64 68" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="18" r="9"/><path d="M13 53v-8c0-18 38-18 38 0v8"/></svg></div><div><b>Customer</b><small>Customer 101</small></div></div><div id="object329" class="m-object" style="opacity:.25;left:510px;top:255px;width:260px;height:135px"><div class="m-icon"><svg width="45" height="45" viewBox="0 0 64 68" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><rect x="15" y="9" width="34" height="46" rx="5"/><path d="M24 22h16M24 32h16M24 42h10"/></svg></div><div><b>Order</b><small>Order 42</small></div></div><div id="object330" class="m-object" style="opacity:.25;left:955px;top:255px;width:260px;height:135px"><div class="m-icon"><svg width="45" height="45" viewBox="0 0 64 68" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 21 32 8l25 13v28L32 61 7 49ZM7 21l25 13 25-13M32 34v27M20 15l25 13"/></svg></div><div><b>Shipment</b><small>Shipment 17</small></div></div><div id="object331" class="m-object" style="opacity:.25;left:955px;top:555px;width:260px;height:135px"><div class="m-icon"><svg width="45" height="45" viewBox="0 0 64 68" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 28 32 7l27 21v31H5ZM21 59V34h22v25M5 28h54"/></svg></div><div><b>Warehouse</b><small>Warehouse 2</small></div></div><svg class="m-svg" viewBox="0 0 1300 750"><path id="stroke332" d="M325 322 L510 322" style="opacity:0" fill="none" stroke="#74c4b3" stroke-width="3" stroke-linecap="round" pathLength="1"/></svg><div id="motion334" style="position:absolute;inset:0;opacity:0;transform-origin:650px 410px"><div class="m-edge-label" style="left:355px;top:275px">places</div></div><svg class="m-svg" viewBox="0 0 1300 750"><path id="stroke335" d="M955 322 L770 322" style="opacity:0" fill="none" stroke="#74c4b3" stroke-width="3" stroke-linecap="round" pathLength="1"/></svg><div id="motion337" style="position:absolute;inset:0;opacity:0;transform-origin:650px 410px"><div class="m-edge-label" style="left:790px;top:275px">fulfills</div></div><svg class="m-svg" viewBox="0 0 1300 750"><path id="stroke338" d="M1085 555 L1085 390" style="opacity:0" fill="none" stroke="#74c4b3" stroke-width="3" stroke-linecap="round" pathLength="1"/></svg><div id="motion340" style="position:absolute;inset:0;opacity:0;transform-origin:650px 410px"><div class="m-edge-label" style="left:1100px;top:455px">dispatches</div></div><svg class="m-svg" viewBox="0 0 1300 750"><path id="stroke341" d="M955 322 C890 322 830 322 770 322" style="opacity:0" fill="none" stroke="#ffc76a" stroke-width="3" stroke-linecap="round" pathLength="1"/><path id="flow342" d="M955 322 C890 322 830 322 770 322" style="opacity:0" fill="none" stroke="#ffcf83" stroke-width="6" stroke-linecap="round" pathLength="1"/></svg><svg class="m-svg" viewBox="0 0 1300 750"><path id="stroke343" d="M510 322 C445 322 390 322 325 322" style="opacity:0" fill="none" stroke="#ffc76a" stroke-width="3" stroke-linecap="round" pathLength="1"/><path id="flow344" d="M510 322 C445 322 390 322 325 322" style="opacity:0" fill="none" stroke="#ffcf83" stroke-width="6" stroke-linecap="round" pathLength="1"/></svg><div id="motion345" style="position:absolute;inset:0;opacity:0;transform-origin:650px 410px"><div style="position:absolute;left:80px;top:545px;color:#ffd08a;font-size:38px;line-height:1.4">Shipment 17 is late.<br>Follow the connections to Customer 101.</div></div></div></div><div data-safe="presenter" class="portrait maya "><img src="assets/media/presenters.png"><div class="who">Maya<small>STATIC PRESENTER PLACEHOLDER</small></div></div><div data-safe="provenance" class="note">Illustrative animation · not a live query result</div></div></div>
+<div id="c349" class="clip ev1-layer" data-start="74.1000" data-duration="0.5000" style="z-index:90;"><div id="wipe348" style="position:absolute;inset:0;background:#eb8a16"></div></div>
+<div id="c351" class="clip ev1-layer" data-start="83.1000" data-duration="6.7666" style="z-index:1;"><div class="world"><div data-safe="header" class="brand">REELFACTORY / MICROSOFT FABRIC</div><div data-safe="header" class="status">ONTOLOGY · PREVIEW</div><div data-safe="footer" class="footer">Original illustrated example · synthetic dialogue · static presenter placeholders</div><div data-safe="footer" class="folio">FABRIC IQ</div><div data-safe="content" class="panel "><h1>Make the business question specific</h1><div class="subtitle"></div><div id="reveal350" style="position:absolute;inset:0;opacity:0"><div class="big" style="position:absolute;left:65px;top:270px;color:#ffd17e">Customer 101</div><div style="position:absolute;left:65px;top:400px;font-size:35px;line-height:1.6">Connected through Order 42<br>to delayed Shipment 17.</div></div></div><div data-safe="presenter" class="portrait maya "><img src="assets/media/presenters.png"><div class="who">Maya<small>STATIC PRESENTER PLACEHOLDER</small></div></div><div data-safe="provenance" class="note">Illustrative animation · not a live query result</div></div></div>
+<div id="c357" class="clip " data-start="74.1000" data-duration="2.3333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w352" class="w">Shipment</span><span id="w353" class="w">seventeen</span><span id="w354" class="w">fulfills</span><span id="w355" class="w">Order</span><span id="w356" class="w">forty</span></div></div>
+<div id="c363" class="clip " data-start="76.4333" data-duration="1.9000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w358" class="w">two,</span><span id="w359" class="w">placed</span><span id="w360" class="w">by</span><span id="w361" class="w">Customer</span><span id="w362" class="w">one</span></div></div>
+<div id="c369" class="clip " data-start="78.3333" data-duration="2.3666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w364" class="w">hundred</span><span id="w365" class="w">one.</span><span id="w366" class="w">Highlight</span><span id="w367" class="w">that</span><span id="w368" class="w">path,</span></div></div>
+<div id="c375" class="clip " data-start="80.7000" data-duration="1.3666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w370" class="w">and</span><span id="w371" class="w">the</span><span id="w372" class="w">business</span><span id="w373" class="w">question</span><span id="w374" class="w">becomes</span></div></div>
+<div id="c381" class="clip " data-start="82.0667" data-duration="2.3666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w376" class="w">specific:</span><span id="w377" class="w">which</span><span id="w378" class="w">customer</span><span id="w379" class="w">is</span><span id="w380" class="w">connected</span></div></div>
+<div id="c387" class="clip " data-start="84.4333" data-duration="2.0000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w382" class="w">to</span><span id="w383" class="w">this</span><span id="w384" class="w">delayed</span><span id="w385" class="w">shipment?</span><span id="w386" class="w">This</span></div></div>
+<div id="c393" class="clip " data-start="86.4333" data-duration="2.2000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w388" class="w">animation</span><span id="w389" class="w">is</span><span id="w390" class="w">illustrative,</span><span id="w391" class="w">not</span><span id="w392" class="w">a</span></div></div>
+<div id="c397" class="clip " data-start="88.6333" data-duration="1.2333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w394" class="w">live</span><span id="w395" class="w">query</span><span id="w396" class="w">result.</span></div></div>
+<div id="c409" class="clip ev1-layer" data-start="89.8667" data-duration="7.0000" style="z-index:1;"><div class="world"><div data-safe="header" class="brand">REELFACTORY / MICROSOFT FABRIC</div><div data-safe="header" class="status">ONTOLOGY · PREVIEW</div><div data-safe="footer" class="footer">Original illustrated example · synthetic dialogue · static presenter placeholders</div><div data-safe="footer" class="folio">FABRIC IQ</div><div data-safe="content" class="panel "><h1>Use the model as context</h1><div class="subtitle"></div><div id="camera408" class="m-stage"><div id="motion399" style="position:absolute;inset:0;opacity:0;transform-origin:650px 410px"><div id="object398" class="m-object" style="left:85px;top:305px;width:250px;height:180px"><div class="m-icon"><svg width="45" height="45" viewBox="0 0 64 68" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="32" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="52" cy="12" r="5"/><circle cx="12" cy="52" r="5"/><circle cx="52" cy="52" r="5"/><path d="m16 16 10 10m12 0 10-10M16 48l10-10m12 0 10 10"/></svg></div><div><b>Definitions</b><small>Meaning and bindings</small></div></div></div><div id="motion401" style="position:absolute;inset:0;opacity:0;transform-origin:650px 410px"><div id="object400" class="m-object" style="left:530px;top:305px;width:250px;height:180px"><div class="m-icon"><svg width="45" height="45" viewBox="0 0 64 68" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="32" cy="13" rx="23" ry="9"/><path d="M9 13v36c0 13 46 13 46 0V13M9 31c0 13 46 13 46 0"/></svg></div><div><b>Source query</b><small>Permitted data</small></div></div></div><svg class="m-svg" viewBox="0 0 1300 750"><path id="stroke402" d="M335 395 C415 395 450 395 530 395" style="opacity:0" fill="none" stroke="#74c4b3" stroke-width="3" stroke-linecap="round" pathLength="1"/><path id="flow403" d="M335 395 C415 395 450 395 530 395" style="opacity:0" fill="none" stroke="#ffcf83" stroke-width="6" stroke-linecap="round" pathLength="1"/></svg><div id="motion405" style="position:absolute;inset:0;opacity:0;transform-origin:650px 410px"><div id="object404" class="m-object" style="left:975px;top:305px;width:250px;height:180px"><div class="m-icon"><svg width="45" height="45" viewBox="0 0 64 68" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="32" r="25"/><path d="m18 32 10 10 20-23"/></svg></div><div><b>Answer</b><small>Check trusted results</small></div></div></div><svg class="m-svg" viewBox="0 0 1300 750"><path id="stroke406" d="M780 395 C860 395 895 395 975 395" style="opacity:0" fill="none" stroke="#74c4b3" stroke-width="3" stroke-linecap="round" pathLength="1"/><path id="flow407" d="M780 395 C860 395 895 395 975 395" style="opacity:0" fill="none" stroke="#ffcf83" stroke-width="6" stroke-linecap="round" pathLength="1"/></svg></div></div><div data-safe="presenter" class="portrait maya "><img src="assets/media/presenters.png"><div class="who">Maya<small>STATIC PRESENTER PLACEHOLDER</small></div></div></div></div>
+<div id="c411" class="clip ev1-layer" data-start="89.8667" data-duration="0.5000" style="z-index:90;"><div id="wipe410" style="position:absolute;inset:0;background:#eb8a16"></div></div>
+<div id="c415" class="clip ev1-layer" data-start="96.8667" data-duration="7.9333" style="z-index:1;"><div class="world"><div data-safe="header" class="brand">REELFACTORY / MICROSOFT FABRIC</div><div data-safe="header" class="status">ONTOLOGY · PREVIEW</div><div data-safe="footer" class="footer">Original illustrated example · synthetic dialogue · static presenter placeholders</div><div data-safe="footer" class="folio">FABRIC IQ</div><div data-safe="content" class="panel "><h1>An ontology does not guarantee correctness</h1><div class="subtitle"></div><div id="reveal412" style="position:absolute;inset:0;opacity:0"><div style="position:absolute;left:65px;top:225px;width:1170px;display:flex;gap:30px;font-size:37px;line-height:1.35"><span style="color:#f4b64b">01</span><span>Clear definitions</span></div></div><div id="reveal413" style="position:absolute;inset:0;opacity:0"><div style="position:absolute;left:65px;top:350px;width:1170px;display:flex;gap:30px;font-size:37px;line-height:1.35"><span style="color:#f4b64b">02</span><span>Correct source data</span></div></div><div id="reveal414" style="position:absolute;inset:0;opacity:0"><div style="position:absolute;left:65px;top:475px;width:1170px;display:flex;gap:30px;font-size:37px;line-height:1.35"><span style="color:#f4b64b">03</span><span>Answers checked against trusted results</span></div></div></div><div data-safe="presenter" class="portrait maya "><img src="assets/media/presenters.png"><div class="who">Maya<small>STATIC PRESENTER PLACEHOLDER</small></div></div></div></div>
+<div id="c421" class="clip " data-start="89.8667" data-duration="1.2000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w416" class="w">An</span><span id="w417" class="w">agent</span><span id="w418" class="w">can</span><span id="w419" class="w">use</span><span id="w420" class="w">the</span></div></div>
+<div id="c427" class="clip " data-start="91.0667" data-duration="2.6333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w422" class="w">definitions</span><span id="w423" class="w">and</span><span id="w424" class="w">bindings</span><span id="w425" class="w">as</span><span id="w426" class="w">context,</span></div></div>
+<div id="c433" class="clip " data-start="93.7000" data-duration="1.9666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w428" class="w">then</span><span id="w429" class="w">query</span><span id="w430" class="w">the</span><span id="w431" class="w">permitted</span><span id="w432" class="w">source.</span></div></div>
+<div id="c439" class="clip " data-start="95.6667" data-duration="1.3000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w434" class="w">But</span><span id="w435" class="w">a</span><span id="w436" class="w">useful</span><span id="w437" class="w">model</span><span id="w438" class="w">still</span></div></div>
+<div id="c445" class="clip " data-start="96.9667" data-duration="2.6666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w440" class="w">needs</span><span id="w441" class="w">clear</span><span id="w442" class="w">definitions,</span><span id="w443" class="w">correct</span><span id="w444" class="w">data,</span></div></div>
+<div id="c451" class="clip " data-start="99.6333" data-duration="1.7333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w446" class="w">and</span><span id="w447" class="w">answers</span><span id="w448" class="w">checked</span><span id="w449" class="w">against</span><span id="w450" class="w">trusted</span></div></div>
+<div id="c457" class="clip " data-start="101.3667" data-duration="2.6000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w452" class="w">results.</span><span id="w453" class="w">An</span><span id="w454" class="w">ontology</span><span id="w455" class="w">doesn&#x27;t</span><span id="w456" class="w">guarantee</span></div></div>
+<div id="c459" class="clip " data-start="103.9667" data-duration="0.8333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w458" class="w">correctness.</span></div></div>
+<div id="c463" class="clip ev1-layer" data-start="104.8000" data-duration="6.9666" style="z-index:1;"><div class="world"><div data-safe="header" class="brand">REELFACTORY / MICROSOFT FABRIC</div><div data-safe="header" class="status">ONTOLOGY · PREVIEW</div><div data-safe="footer" class="footer">Original illustrated example · synthetic dialogue · static presenter placeholders</div><div data-safe="footer" class="folio">FABRIC IQ</div><div data-safe="content" class="panel "><h1>Start small</h1><div class="subtitle"></div><div style="position:absolute;left:175px;top:340px;width:935px;height:2px;background:#547e7b"></div><div id="step460" style="position:absolute;left:80px;top:250px;width:290px;opacity:.25"><div style="width:150px;height:150px;border:2px solid #76b6a9;border-radius:50%;background:#18333b;margin:auto;display:grid;place-items:center;color:#e7c38a"><svg width="70" height="70" viewBox="0 0 64 68" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="32" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="52" cy="12" r="5"/><circle cx="12" cy="52" r="5"/><circle cx="52" cy="52" r="5"/><path d="m16 16 10 10m12 0 10-10M16 48l10-10m12 0 10 10"/></svg></div><b style="display:block;text-align:center;font-size:34px;margin-top:30px">One question</b><p style="font-size:23px;line-height:1.5;text-align:center;color:#b7d1c9">A real business problem</p></div><div id="step461" style="position:absolute;left:500px;top:250px;width:290px;opacity:.25"><div style="width:150px;height:150px;border:2px solid #76b6a9;border-radius:50%;background:#18333b;margin:auto;display:grid;place-items:center;color:#e7c38a"><svg width="70" height="70" viewBox="0 0 64 68" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="32" cy="13" rx="23" ry="9"/><path d="M9 13v36c0 13 46 13 46 0V13M9 31c0 13 46 13 46 0"/></svg></div><b style="display:block;text-align:center;font-size:34px;margin-top:30px">A few entities</b><p style="font-size:23px;line-height:1.5;text-align:center;color:#b7d1c9">Meaningful relationships</p></div><div id="step462" style="position:absolute;left:920px;top:250px;width:290px;opacity:.25"><div style="width:150px;height:150px;border:2px solid #76b6a9;border-radius:50%;background:#18333b;margin:auto;display:grid;place-items:center;color:#e7c38a"><svg width="70" height="70" viewBox="0 0 64 68" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="32" r="25"/><path d="m18 32 10 10 20-23"/></svg></div><b style="display:block;text-align:center;font-size:34px;margin-top:30px">Real bindings</b><p style="font-size:23px;line-height:1.5;text-align:center;color:#b7d1c9">Connect to the sources</p></div></div><div data-safe="presenter" class="portrait maya "><img src="assets/media/presenters.png"><div class="who">Maya<small>STATIC PRESENTER PLACEHOLDER</small></div></div></div></div>
+<div id="c465" class="clip ev1-layer" data-start="104.8000" data-duration="0.5000" style="z-index:90;"><div id="wipe464" style="position:absolute;inset:0;background:#eb8a16"></div></div>
+<div id="c471" class="clip " data-start="104.8000" data-duration="2.1666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w466" class="w">So</span><span id="w467" class="w">start</span><span id="w468" class="w">small:</span><span id="w469" class="w">one</span><span id="w470" class="w">business</span></div></div>
+<div id="c477" class="clip " data-start="106.9667" data-duration="2.2666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w472" class="w">question,</span><span id="w473" class="w">a</span><span id="w474" class="w">few</span><span id="w475" class="w">entities,</span><span id="w476" class="w">meaningful</span></div></div>
+<div id="c483" class="clip " data-start="109.2333" data-duration="2.5333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w478" class="w">relationships,</span><span id="w479" class="w">and</span><span id="w480" class="w">real</span><span id="w481" class="w">source</span><span id="w482" class="w">bindings.</span></div></div>
+<div id="c487" class="clip ev1-layer" data-start="111.7667" data-duration="6.3000" style="z-index:1;"><div class="world"><div data-safe="header" class="brand">REELFACTORY / MICROSOFT FABRIC</div><div data-safe="header" class="status">ONTOLOGY · PREVIEW</div><div data-safe="footer" class="footer">Original illustrated example · synthetic dialogue · static presenter placeholders</div><div data-safe="footer" class="folio">FABRIC IQ</div><div data-safe="content" class="panel "><h1>Model → connect → verify</h1><div class="subtitle"></div><div style="position:absolute;left:175px;top:340px;width:935px;height:2px;background:#547e7b"></div><div id="step484" style="position:absolute;left:80px;top:250px;width:290px;opacity:.25"><div style="width:150px;height:150px;border:2px solid #76b6a9;border-radius:50%;background:#18333b;margin:auto;display:grid;place-items:center;color:#e7c38a"><svg width="70" height="70" viewBox="0 0 64 68" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="32" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="52" cy="12" r="5"/><circle cx="12" cy="52" r="5"/><circle cx="52" cy="52" r="5"/><path d="m16 16 10 10m12 0 10-10M16 48l10-10m12 0 10 10"/></svg></div><b style="display:block;text-align:center;font-size:34px;margin-top:30px">Model</b><p style="font-size:23px;line-height:1.5;text-align:center;color:#b7d1c9">Define the meaning</p></div><div id="step485" style="position:absolute;left:500px;top:250px;width:290px;opacity:.25"><div style="width:150px;height:150px;border:2px solid #76b6a9;border-radius:50%;background:#18333b;margin:auto;display:grid;place-items:center;color:#e7c38a"><svg width="70" height="70" viewBox="0 0 64 68" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="32" cy="13" rx="23" ry="9"/><path d="M9 13v36c0 13 46 13 46 0V13M9 31c0 13 46 13 46 0"/></svg></div><b style="display:block;text-align:center;font-size:34px;margin-top:30px">Connect</b><p style="font-size:23px;line-height:1.5;text-align:center;color:#b7d1c9">Bind real source data</p></div><div id="step486" style="position:absolute;left:920px;top:250px;width:290px;opacity:.25"><div style="width:150px;height:150px;border:2px solid #76b6a9;border-radius:50%;background:#18333b;margin:auto;display:grid;place-items:center;color:#e7c38a"><svg width="70" height="70" viewBox="0 0 64 68" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="32" r="25"/><path d="m18 32 10 10 20-23"/></svg></div><b style="display:block;text-align:center;font-size:34px;margin-top:30px">Verify</b><p style="font-size:23px;line-height:1.5;text-align:center;color:#b7d1c9">Check the answer</p></div></div><div data-safe="presenter" class="portrait maya "><img src="assets/media/presenters.png"><div class="who">Maya<small>STATIC PRESENTER PLACEHOLDER</small></div></div><div data-safe="provenance" class="note">Fabric ontology is in preview · check current Microsoft Learn documentation</div></div></div>
+<div id="c488" class="clip ev1-layer" data-start="118.0667" data-duration="3.1666" style="z-index:1;"><div class="world"><div data-safe="header" class="brand">REELFACTORY / MICROSOFT FABRIC</div><div data-safe="header" class="status">ONTOLOGY · PREVIEW</div><div data-safe="footer" class="footer">Original illustrated example · synthetic dialogue · static presenter placeholders</div><div data-safe="footer" class="folio">FABRIC IQ</div><div data-safe="presenter" class="portrait maya split-left"><img src="assets/media/presenters.png"><div class="who">Maya<small>STATIC PRESENTER PLACEHOLDER</small></div></div><div data-safe="presenter" class="portrait noah split-right"><img src="assets/media/presenters.png"><div class="who">Noah<small>STATIC PRESENTER PLACEHOLDER</small></div></div><div data-safe="provenance" class="note">learn.microsoft.com/fabric/iq/ontology/overview</div></div></div>
+<div id="c490" class="clip ev1-layer" data-start="118.0667" data-duration="0.5000" style="z-index:90;"><div id="wipe489" style="position:absolute;inset:0;background:#eb8a16"></div></div>
+<div id="c496" class="clip " data-start="111.7667" data-duration="2.1333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w491" class="w">Exactly.</span><span id="w492" class="w">Model</span><span id="w493" class="w">the</span><span id="w494" class="w">meaning,</span><span id="w495" class="w">connect</span></div></div>
+<div id="c502" class="clip " data-start="113.9000" data-duration="1.8333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w497" class="w">the</span><span id="w498" class="w">data,</span><span id="w499" class="w">then</span><span id="w500" class="w">verify</span><span id="w501" class="w">the</span></div></div>
+<div id="c508" class="clip " data-start="115.7333" data-duration="2.3000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w503" class="w">answer.</span><span id="w504" class="w">Fabric</span><span id="w505" class="w">ontology</span><span id="w506" class="w">is</span><span id="w507" class="w">in</span></div></div>
+<div id="c514" class="clip " data-start="118.0333" data-duration="1.5333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w509" class="w">preview,</span><span id="w510" class="w">so</span><span id="w511" class="w">check</span><span id="w512" class="w">the</span><span id="w513" class="w">current</span></div></div>
+<div id="c519" class="clip " data-start="119.5667" data-duration="1.6666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w515" class="w">documentation</span><span id="w516" class="w">as</span><span id="w517" class="w">you</span><span id="w518" class="w">build.</span></div></div>
+<div id="c520" class="clip ev1-layer" data-start="121.2333" data-duration="0.5000" style="z-index:1;"><div class="world"><div data-safe="header" class="brand">REELFACTORY / MICROSOFT FABRIC</div><div data-safe="header" class="status">ONTOLOGY · PREVIEW</div><div data-safe="footer" class="footer">Original illustrated example · synthetic dialogue · static presenter placeholders</div><div data-safe="footer" class="folio">FABRIC IQ</div><div data-safe="presenter" class="portrait maya split-left"><img src="assets/media/presenters.png"><div class="who">Maya<small>STATIC PRESENTER PLACEHOLDER</small></div></div><div data-safe="presenter" class="portrait noah split-right"><img src="assets/media/presenters.png"><div class="who">Noah<small>STATIC PRESENTER PLACEHOLDER</small></div></div></div></div>
+</div>
+<script>
+
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#reveal3",{opacity:0,y:18},{opacity:1,y:0,duration:.85,ease:"power3.out",immediateRender:false},5.4);
+tl.fromTo("#wipe5",{xPercent:0},{xPercent:100,duration:.5,ease:"power3.inOut",immediateRender:false},5.0);
+tl.set("#w7",{opacity:1},0.0000);
+tl.set("#w8",{opacity:1},0.4000);
+tl.set("#w9",{opacity:1},0.6333);
+tl.set("#w10",{opacity:1},1.0333);
+tl.set("#w11",{opacity:1},1.7667);
+tl.set("#w13",{opacity:1},2.0000);
+tl.set("#w14",{opacity:1},2.4000);
+tl.set("#w15",{opacity:1},2.9667);
+tl.set("#w16",{opacity:1},3.7333);
+tl.set("#w17",{opacity:1},3.8667);
+tl.set("#w19",{opacity:1},4.0667);
+tl.set("#w20",{opacity:1},4.5333);
+tl.set("#w21",{opacity:1},4.9333);
+tl.set("#w22",{opacity:1},5.3333);
+tl.set("#w23",{opacity:1},5.5333);
+tl.set("#w25",{opacity:1},5.8333);
+tl.set("#w26",{opacity:1},6.0667);
+tl.set("#w27",{opacity:1},6.4333);
+tl.set("#w28",{opacity:1},6.7333);
+tl.set("#w29",{opacity:1},6.9667);
+tl.set("#w31",{opacity:1},7.2333);
+tl.set("#w32",{opacity:1},7.5667);
+tl.fromTo("#motion35",{opacity:0,x:0,y:35,scale:.96},{opacity:1,x:0,y:0,scale:1,duration:1.1,ease:"power3.out",immediateRender:false},8.4167);
+tl.fromTo("#motion37",{opacity:0,x:-30,y:0,scale:.96},{opacity:1,x:0,y:0,scale:1,duration:1,ease:"power3.out",immediateRender:false},9.7667);
+tl.fromTo("#stroke38",{strokeDasharray:1,strokeDashoffset:1,opacity:0},{strokeDashoffset:0,opacity:1,duration:1,ease:"power2.inOut",immediateRender:false},10.3167);
+tl.fromTo("#flow39",{strokeDasharray:"0.06 0.94",strokeDashoffset:.07,opacity:0},{strokeDashoffset:-1,opacity:1,duration:1.65,ease:"none",immediateRender:false},11.3167);
+tl.to("#flow39",{...{"opacity": 0},duration:0.3000,ease:"power2.inOut",immediateRender:false},12.8667);
+tl.fromTo("#motion41",{opacity:0,x:-30,y:0,scale:.96},{opacity:1,x:0,y:0,scale:1,duration:1,ease:"power3.out",immediateRender:false},11.6667);
+tl.fromTo("#stroke42",{strokeDasharray:1,strokeDashoffset:1,opacity:0},{strokeDashoffset:0,opacity:1,duration:1,ease:"power2.inOut",immediateRender:false},12.2167);
+tl.fromTo("#flow43",{strokeDasharray:"0.06 0.94",strokeDashoffset:.07,opacity:0},{strokeDashoffset:-1,opacity:1,duration:1.65,ease:"none",immediateRender:false},13.2167);
+tl.to("#flow43",{...{"opacity": 0},duration:0.3000,ease:"power2.inOut",immediateRender:false},14.7667);
+tl.fromTo("#motion45",{opacity:0,x:30,y:0,scale:.96},{opacity:1,x:0,y:0,scale:1,duration:1,ease:"power3.out",immediateRender:false},13.8667);
+tl.fromTo("#stroke46",{strokeDasharray:1,strokeDashoffset:1,opacity:0},{strokeDashoffset:0,opacity:1,duration:1,ease:"power2.inOut",immediateRender:false},14.4167);
+tl.fromTo("#flow47",{strokeDasharray:"0.06 0.94",strokeDashoffset:.07,opacity:0},{strokeDashoffset:-1,opacity:1,duration:1.65,ease:"none",immediateRender:false},15.4167);
+tl.to("#flow47",{...{"opacity": 0},duration:0.3000,ease:"power2.inOut",immediateRender:false},16.9667);
+tl.fromTo("#camera48",{scale:1},{scale:1.02,duration:9.5000,ease:"sine.inOut",immediateRender:false},8.2667);
+tl.set("#w50",{opacity:1},8.2667);
+tl.set("#w51",{opacity:1},8.6333);
+tl.set("#w52",{opacity:1},8.8000);
+tl.set("#w53",{opacity:1},9.0000);
+tl.set("#w54",{opacity:1},9.3667);
+tl.set("#w56",{opacity:1},10.4333);
+tl.set("#w57",{opacity:1},10.5333);
+tl.set("#w58",{opacity:1},11.0667);
+tl.set("#w59",{opacity:1},11.5000);
+tl.set("#w60",{opacity:1},12.3000);
+tl.set("#w62",{opacity:1},12.3667);
+tl.set("#w63",{opacity:1},12.6000);
+tl.set("#w64",{opacity:1},13.0000);
+tl.set("#w65",{opacity:1},13.1667);
+tl.set("#w66",{opacity:1},13.5333);
+tl.set("#w68",{opacity:1},13.8333);
+tl.set("#w69",{opacity:1},14.0333);
+tl.set("#w70",{opacity:1},14.2667);
+tl.set("#w71",{opacity:1},14.6667);
+tl.set("#w72",{opacity:1},14.7667);
+tl.set("#w74",{opacity:1},15.6333);
+tl.set("#w75",{opacity:1},15.8000);
+tl.set("#w76",{opacity:1},16.5000);
+tl.set("#w77",{opacity:1},16.7667);
+tl.set("#w78",{opacity:1},17.0000);
+tl.set("#w80",{opacity:1},17.2000);
+tl.fromTo("#wipe83",{xPercent:0},{xPercent:100,duration:.5,ease:"power3.inOut",immediateRender:false},17.766666666666666);
+tl.set("#w85",{opacity:1},17.7667);
+tl.set("#w86",{opacity:1},18.0667);
+tl.set("#w87",{opacity:1},18.2333);
+tl.set("#w88",{opacity:1},18.4667);
+tl.set("#w89",{opacity:1},18.8000);
+tl.set("#w91",{opacity:1},19.0667);
+tl.set("#w92",{opacity:1},19.4000);
+tl.fromTo("#motion95",{opacity:0,x:0,y:40,scale:.96},{opacity:1,x:0,y:0,scale:1,duration:0.9,ease:"power3.out",immediateRender:false},22.6847);
+tl.fromTo("#motion97",{opacity:0,x:0,y:40,scale:.96},{opacity:1,x:0,y:0,scale:1,duration:0.9,ease:"power3.out",immediateRender:false},22.9247);
+tl.fromTo("#motion99",{opacity:0,x:0,y:40,scale:.96},{opacity:1,x:0,y:0,scale:1,duration:0.9,ease:"power3.out",immediateRender:false},23.3847);
+tl.fromTo("#motion101",{opacity:0,x:0,y:40,scale:.96},{opacity:1,x:0,y:0,scale:1,duration:0.9,ease:"power3.out",immediateRender:false},24.0047);
+tl.to("#object94",{...{"opacity": 0.13, "scale": 0.9},duration:1.0000,ease:"power2.inOut",immediateRender:false},25.5747);
+tl.to("#object96",{...{"opacity": 0.13, "scale": 0.9},duration:1.0000,ease:"power2.inOut",immediateRender:false},25.5747);
+tl.to("#object98",{...{"x": -520, "y": 25, "scale": 1.08, "borderColor": "#f2be71"},duration:1.2000,ease:"power2.inOut",immediateRender:false},25.5747);
+tl.to("#object100",{...{"opacity": 0.13, "scale": 0.9},duration:1.0000,ease:"power2.inOut",immediateRender:false},25.5747);
+tl.fromTo("#motion103",{opacity:0,x:80,y:0,scale:.96},{opacity:1,x:0,y:0,scale:1,duration:1.15,ease:"power3.out",immediateRender:false},25.9747);
+tl.fromTo("#stroke104",{strokeDasharray:1,strokeDashoffset:1,opacity:0},{strokeDashoffset:0,opacity:1,duration:1.2,ease:"power2.inOut",immediateRender:false},25.8747);
+tl.fromTo("#property102r1",{opacity:0,y:12},{opacity:1,y:0,duration:.7,ease:"power2.out",immediateRender:false},28.0147);
+tl.fromTo("#property102r2",{opacity:0,y:12},{opacity:1,y:0,duration:.7,ease:"power2.out",immediateRender:false},29.1547);
+tl.fromTo("#property102r3",{opacity:0,y:12},{opacity:1,y:0,duration:.7,ease:"power2.out",immediateRender:false},29.8147);
+tl.set("#w107",{opacity:1},20.2333);
+tl.set("#w108",{opacity:1},20.8667);
+tl.set("#w109",{opacity:1},21.0667);
+tl.set("#w110",{opacity:1},21.3000);
+tl.set("#w111",{opacity:1},21.5667);
+tl.set("#w113",{opacity:1},21.8000);
+tl.set("#w114",{opacity:1},23.0333);
+tl.set("#w115",{opacity:1},23.2667);
+tl.set("#w116",{opacity:1},23.7333);
+tl.set("#w117",{opacity:1},24.2000);
+tl.set("#w119",{opacity:1},24.3667);
+tl.set("#w120",{opacity:1},25.4667);
+tl.set("#w121",{opacity:1},25.5667);
+tl.set("#w122",{opacity:1},26.0000);
+tl.set("#w123",{opacity:1},26.5000);
+tl.set("#w125",{opacity:1},26.7667);
+tl.set("#w126",{opacity:1},27.0333);
+tl.set("#w127",{opacity:1},27.9000);
+tl.set("#w128",{opacity:1},28.0667);
+tl.set("#w129",{opacity:1},28.2000);
+tl.set("#w131",{opacity:1},29.1000);
+tl.set("#w132",{opacity:1},29.3667);
+tl.set("#w133",{opacity:1},29.7000);
+tl.set("#w134",{opacity:1},30.0000);
+tl.set("#w135",{opacity:1},30.3333);
+tl.set("#w137",{opacity:1},30.6333);
+tl.set("#w138",{opacity:1},31.0000);
+tl.set("#w139",{opacity:1},31.2000);
+tl.fromTo("#object141",{opacity:.25},{opacity:1,duration:.9,ease:"power2.inOut",immediateRender:false},32.0833);
+tl.fromTo("#object142",{opacity:.25},{opacity:1,duration:.9,ease:"power2.inOut",immediateRender:false},32.0833);
+tl.fromTo("#object143",{opacity:.25},{opacity:1,duration:.9,ease:"power2.inOut",immediateRender:false},32.0833);
+tl.fromTo("#object144",{opacity:.25},{opacity:1,duration:.9,ease:"power2.inOut",immediateRender:false},32.0833);
+tl.fromTo("#stroke145",{strokeDasharray:1,strokeDashoffset:1,opacity:0},{strokeDashoffset:0,opacity:1,duration:1.1,ease:"power2.inOut",immediateRender:false},34.1260);
+tl.fromTo("#flow146",{strokeDasharray:"0.06 0.94",strokeDashoffset:.07,opacity:0},{strokeDashoffset:-1,opacity:1,duration:1.65,ease:"none",immediateRender:false},35.2260);
+tl.to("#flow146",{...{"opacity": 0},duration:0.3000,ease:"power2.inOut",immediateRender:false},36.7760);
+tl.fromTo("#motion147",{opacity:0,x:0,y:5,scale:.96},{opacity:1,x:0,y:0,scale:1,duration:0.6,ease:"power3.out",immediateRender:false},34.6760);
+tl.to("#object141",{...{"opacity": 1, "borderColor": "#f2be71"},duration:0.8500,ease:"power2.inOut",immediateRender:false},34.1260);
+tl.to("#object142",{...{"opacity": 1, "borderColor": "#f2be71"},duration:0.8500,ease:"power2.inOut",immediateRender:false},34.1260);
+tl.to("#object143",{...{"opacity": 0.28, "borderColor": "#466b6d"},duration:0.8500,ease:"power2.inOut",immediateRender:false},34.1260);
+tl.to("#object144",{...{"opacity": 0.28, "borderColor": "#466b6d"},duration:0.8500,ease:"power2.inOut",immediateRender:false},34.1260);
+tl.fromTo("#stroke148",{strokeDasharray:1,strokeDashoffset:1,opacity:0},{strokeDashoffset:0,opacity:1,duration:1.1,ease:"power2.inOut",immediateRender:false},36.0060);
+tl.fromTo("#flow149",{strokeDasharray:"0.06 0.94",strokeDashoffset:.07,opacity:0},{strokeDashoffset:-1,opacity:1,duration:1.65,ease:"none",immediateRender:false},37.1060);
+tl.to("#flow149",{...{"opacity": 0},duration:0.3000,ease:"power2.inOut",immediateRender:false},38.6560);
+tl.fromTo("#motion150",{opacity:0,x:0,y:5,scale:.96},{opacity:1,x:0,y:0,scale:1,duration:0.6,ease:"power3.out",immediateRender:false},36.5560);
+tl.to("#object141",{...{"opacity": 0.28, "borderColor": "#466b6d"},duration:0.8500,ease:"power2.inOut",immediateRender:false},36.0060);
+tl.to("#object142",{...{"opacity": 1, "borderColor": "#f2be71"},duration:0.8500,ease:"power2.inOut",immediateRender:false},36.0060);
+tl.to("#object143",{...{"opacity": 1, "borderColor": "#f2be71"},duration:0.8500,ease:"power2.inOut",immediateRender:false},36.0060);
+tl.to("#object144",{...{"opacity": 0.28, "borderColor": "#466b6d"},duration:0.8500,ease:"power2.inOut",immediateRender:false},36.0060);
+tl.fromTo("#stroke151",{strokeDasharray:1,strokeDashoffset:1,opacity:0},{strokeDashoffset:0,opacity:1,duration:1.1,ease:"power2.inOut",immediateRender:false},38.1860);
+tl.fromTo("#flow152",{strokeDasharray:"0.06 0.94",strokeDashoffset:.07,opacity:0},{strokeDashoffset:-1,opacity:1,duration:1.65,ease:"none",immediateRender:false},39.2860);
+tl.to("#flow152",{...{"opacity": 0},duration:0.3000,ease:"power2.inOut",immediateRender:false},40.8360);
+tl.fromTo("#motion153",{opacity:0,x:0,y:5,scale:.96},{opacity:1,x:0,y:0,scale:1,duration:0.6,ease:"power3.out",immediateRender:false},38.7360);
+tl.to("#object141",{...{"opacity": 0.28, "borderColor": "#466b6d"},duration:0.8500,ease:"power2.inOut",immediateRender:false},38.1860);
+tl.to("#object142",{...{"opacity": 0.28, "borderColor": "#466b6d"},duration:0.8500,ease:"power2.inOut",immediateRender:false},38.1860);
+tl.to("#object143",{...{"opacity": 1, "borderColor": "#f2be71"},duration:0.8500,ease:"power2.inOut",immediateRender:false},38.1860);
+tl.to("#object144",{...{"opacity": 1, "borderColor": "#f2be71"},duration:0.8500,ease:"power2.inOut",immediateRender:false},38.1860);
+tl.to("#object141",{...{"opacity": 1, "borderColor": "#70baaa"},duration:1.0000,ease:"power2.inOut",immediateRender:false},41.4000);
+tl.to("#object142",{...{"opacity": 1, "borderColor": "#70baaa"},duration:1.0000,ease:"power2.inOut",immediateRender:false},41.4000);
+tl.to("#object143",{...{"opacity": 1, "borderColor": "#70baaa"},duration:1.0000,ease:"power2.inOut",immediateRender:false},41.4000);
+tl.to("#object144",{...{"opacity": 1, "borderColor": "#70baaa"},duration:1.0000,ease:"power2.inOut",immediateRender:false},41.4000);
+tl.fromTo("#camera154",{scale:1},{scale:1.025,duration:10.8667,ease:"sine.inOut",immediateRender:false},31.9333);
+tl.set("#w156",{opacity:1},31.9333);
+tl.set("#w157",{opacity:1},32.3000);
+tl.set("#w158",{opacity:1},32.5667);
+tl.set("#w159",{opacity:1},32.7667);
+tl.set("#w160",{opacity:1},33.9667);
+tl.set("#w162",{opacity:1},34.1667);
+tl.set("#w163",{opacity:1},34.3667);
+tl.set("#w164",{opacity:1},34.8667);
+tl.set("#w165",{opacity:1},35.1000);
+tl.set("#w166",{opacity:1},35.7667);
+tl.set("#w168",{opacity:1},35.9333);
+tl.set("#w169",{opacity:1},36.2667);
+tl.set("#w170",{opacity:1},36.8667);
+tl.set("#w171",{opacity:1},37.1667);
+tl.set("#w172",{opacity:1},37.9667);
+tl.set("#w174",{opacity:1},38.0333);
+tl.set("#w175",{opacity:1},38.4333);
+tl.set("#w176",{opacity:1},39.0000);
+tl.set("#w177",{opacity:1},39.2333);
+tl.set("#w178",{opacity:1},40.1000);
+tl.set("#w180",{opacity:1},40.3000);
+tl.set("#w181",{opacity:1},40.6000);
+tl.set("#w182",{opacity:1},41.2000);
+tl.set("#w183",{opacity:1},41.5000);
+tl.set("#w184",{opacity:1},41.7667);
+tl.set("#w186",{opacity:1},42.1000);
+tl.fromTo("#wipe189",{xPercent:0},{xPercent:100,duration:.5,ease:"power3.inOut",immediateRender:false},42.8);
+tl.set("#w191",{opacity:1},42.8000);
+tl.set("#w192",{opacity:1},43.0667);
+tl.set("#w193",{opacity:1},43.2000);
+tl.set("#w194",{opacity:1},43.4333);
+tl.set("#w195",{opacity:1},43.7000);
+tl.set("#w197",{opacity:1},43.9333);
+tl.set("#w198",{opacity:1},44.3000);
+tl.set("#w199",{opacity:1},44.6667);
+tl.fromTo("#motion202",{opacity:0,x:-45,y:0,scale:.96},{opacity:1,x:0,y:0,scale:1,duration:1.1,ease:"power3.out",immediateRender:false},45.5833);
+tl.fromTo("#motion204",{opacity:0,x:-45,y:0,scale:.96},{opacity:1,x:0,y:0,scale:1,duration:1.1,ease:"power3.out",immediateRender:false},46.9333);
+tl.fromTo("#stroke205",{strokeDasharray:1,strokeDashoffset:1,opacity:0},{strokeDashoffset:0,opacity:1,duration:1.25,ease:"power2.inOut",immediateRender:false},46.0333);
+tl.fromTo("#flow206",{strokeDasharray:"0.06 0.94",strokeDashoffset:.07,opacity:0},{strokeDashoffset:-1,opacity:1,duration:1.65,ease:"none",immediateRender:false},47.2833);
+tl.to("#flow206",{...{"opacity": 0},duration:0.3000,ease:"power2.inOut",immediateRender:false},48.8333);
+tl.fromTo("#motion208",{opacity:0,x:-45,y:0,scale:.96},{opacity:1,x:0,y:0,scale:1,duration:1.1,ease:"power3.out",immediateRender:false},48.2833);
+tl.fromTo("#stroke209",{strokeDasharray:1,strokeDashoffset:1,opacity:0},{strokeDashoffset:0,opacity:1,duration:1.25,ease:"power2.inOut",immediateRender:false},47.3833);
+tl.fromTo("#flow210",{strokeDasharray:"0.06 0.94",strokeDashoffset:.07,opacity:0},{strokeDashoffset:-1,opacity:1,duration:1.65,ease:"none",immediateRender:false},48.6333);
+tl.to("#flow210",{...{"opacity": 0},duration:0.3000,ease:"power2.inOut",immediateRender:false},50.1833);
+tl.fromTo("#motion212",{opacity:0,x:40,y:0,scale:.96},{opacity:1,x:0,y:0,scale:1,duration:1,ease:"power3.out",immediateRender:false},49.6333);
+tl.fromTo("#stroke213",{strokeDasharray:1,strokeDashoffset:1,opacity:0},{strokeDashoffset:0,opacity:1,duration:1.1,ease:"power2.inOut",immediateRender:false},49.9333);
+tl.fromTo("#flow214",{strokeDasharray:"0.06 0.94",strokeDashoffset:.07,opacity:0},{strokeDashoffset:-1,opacity:1,duration:1.65,ease:"none",immediateRender:false},51.0333);
+tl.to("#flow214",{...{"opacity": 0},duration:0.3000,ease:"power2.inOut",immediateRender:false},52.5833);
+tl.fromTo("#motion215",{opacity:0,x:0,y:12,scale:.96},{opacity:1,x:0,y:0,scale:1,duration:0.85,ease:"power3.out",immediateRender:false},50.4333);
+tl.to("#object201",{...{"borderColor": "#ffd08a", "backgroundColor": "#345457"},duration:0.7000,ease:"power2.inOut",immediateRender:false},50.1333);
+tl.to("#object203",{...{"borderColor": "#ffd08a", "backgroundColor": "#345457"},duration:0.7000,ease:"power2.inOut",immediateRender:false},50.6833);
+tl.to("#object207",{...{"borderColor": "#ffd08a", "backgroundColor": "#345457"},duration:0.7000,ease:"power2.inOut",immediateRender:false},51.2333);
+tl.fromTo("#camera216",{scale:1},{scale:1.02,duration:8.0000,ease:"sine.inOut",immediateRender:false},45.3333);
+tl.fromTo("#wipe218",{xPercent:0},{xPercent:100,duration:.5,ease:"power3.inOut",immediateRender:false},45.333333333333336);
+tl.fromTo("#doc220",{scale:1,x:0,y:0},{scale:1.36,x:-80,y:-25,duration:3.8,ease:"power2.inOut",immediateRender:false},53.7333);
+tl.set("#w222",{opacity:1},45.3333);
+tl.set("#w223",{opacity:1},45.7333);
+tl.set("#w224",{opacity:1},46.1667);
+tl.set("#w225",{opacity:1},46.6667);
+tl.set("#w226",{opacity:1},47.1333);
+tl.set("#w228",{opacity:1},47.4000);
+tl.set("#w229",{opacity:1},47.9000);
+tl.set("#w230",{opacity:1},48.3667);
+tl.set("#w231",{opacity:1},48.5667);
+tl.set("#w232",{opacity:1},49.7667);
+tl.set("#w234",{opacity:1},49.8333);
+tl.set("#w235",{opacity:1},50.8000);
+tl.set("#w236",{opacity:1},50.8000);
+tl.set("#w237",{opacity:1},51.0667);
+tl.set("#w238",{opacity:1},51.3000);
+tl.set("#w240",{opacity:1},51.5000);
+tl.set("#w241",{opacity:1},51.6667);
+tl.set("#w242",{opacity:1},52.4667);
+tl.set("#w243",{opacity:1},52.6667);
+tl.set("#w244",{opacity:1},52.9333);
+tl.set("#w246",{opacity:1},53.4000);
+tl.set("#w247",{opacity:1},53.7333);
+tl.set("#w248",{opacity:1},53.9000);
+tl.set("#w249",{opacity:1},54.0000);
+tl.set("#w250",{opacity:1},55.1667);
+tl.set("#w252",{opacity:1},55.3000);
+tl.set("#w253",{opacity:1},55.7667);
+tl.set("#w254",{opacity:1},56.2000);
+tl.set("#w255",{opacity:1},56.5667);
+tl.set("#w256",{opacity:1},57.3000);
+tl.set("#w258",{opacity:1},57.4333);
+tl.set("#w259",{opacity:1},57.7333);
+tl.set("#w260",{opacity:1},57.9667);
+tl.set("#w261",{opacity:1},58.2667);
+tl.set("#w262",{opacity:1},58.5667);
+tl.set("#w264",{opacity:1},58.8667);
+tl.set("#w265",{opacity:1},59.1000);
+tl.set("#w266",{opacity:1},59.2667);
+tl.fromTo("#wipe269",{xPercent:0},{xPercent:100,duration:.5,ease:"power3.inOut",immediateRender:false},59.96666666666667);
+tl.set("#w275",{opacity:1},59.9667);
+tl.set("#w276",{opacity:1},60.3333);
+tl.set("#w277",{opacity:1},60.5667);
+tl.set("#w278",{opacity:1},60.8333);
+tl.set("#w279",{opacity:1},61.3333);
+tl.set("#w281",{opacity:1},61.9667);
+tl.set("#w282",{opacity:1},62.2333);
+tl.set("#w283",{opacity:1},62.6000);
+tl.set("#w284",{opacity:1},62.9333);
+tl.set("#w285",{opacity:1},63.1333);
+tl.set("#w287",{opacity:1},63.2667);
+tl.set("#w288",{opacity:1},64.0000);
+tl.set("#w289",{opacity:1},64.3333);
+tl.set("#w290",{opacity:1},64.5667);
+tl.set("#w291",{opacity:1},64.7667);
+tl.set("#w293",{opacity:1},65.5333);
+tl.set("#w294",{opacity:1},65.8000);
+tl.set("#w295",{opacity:1},65.9667);
+tl.set("#w296",{opacity:1},66.5000);
+tl.set("#w297",{opacity:1},66.5000);
+tl.set("#w299",{opacity:1},66.8667);
+tl.set("#w300",{opacity:1},67.0667);
+tl.set("#w301",{opacity:1},67.2333);
+tl.set("#w302",{opacity:1},67.4667);
+tl.set("#w303",{opacity:1},68.5333);
+tl.set("#w305",{opacity:1},68.8000);
+tl.set("#w306",{opacity:1},68.9667);
+tl.set("#w307",{opacity:1},69.1667);
+tl.set("#w308",{opacity:1},69.5667);
+tl.set("#w309",{opacity:1},70.0000);
+tl.set("#w311",{opacity:1},70.2667);
+tl.fromTo("#wipe314",{xPercent:0},{xPercent:100,duration:.5,ease:"power3.inOut",immediateRender:false},70.8);
+tl.set("#w316",{opacity:1},70.8000);
+tl.set("#w317",{opacity:1},71.2000);
+tl.set("#w318",{opacity:1},71.8667);
+tl.set("#w319",{opacity:1},71.8667);
+tl.set("#w320",{opacity:1},72.1000);
+tl.set("#w322",{opacity:1},72.3000);
+tl.set("#w323",{opacity:1},72.6333);
+tl.set("#w324",{opacity:1},73.0000);
+tl.set("#w325",{opacity:1},73.1667);
+tl.set("#w326",{opacity:1},73.5000);
+tl.fromTo("#stroke332",{strokeDasharray:1,strokeDashoffset:1,opacity:0},{strokeDashoffset:0,opacity:1,duration:0.65,ease:"power2.inOut",immediateRender:false},74.1000);
+tl.fromTo("#motion334",{opacity:0,x:0,y:5,scale:.96},{opacity:1,x:0,y:0,scale:1,duration:0.6,ease:"power3.out",immediateRender:false},74.4250);
+tl.fromTo("#stroke335",{strokeDasharray:1,strokeDashoffset:1,opacity:0},{strokeDashoffset:0,opacity:1,duration:0.65,ease:"power2.inOut",immediateRender:false},74.1000);
+tl.fromTo("#motion337",{opacity:0,x:0,y:5,scale:.96},{opacity:1,x:0,y:0,scale:1,duration:0.6,ease:"power3.out",immediateRender:false},74.4250);
+tl.fromTo("#stroke338",{strokeDasharray:1,strokeDashoffset:1,opacity:0},{strokeDashoffset:0,opacity:1,duration:0.65,ease:"power2.inOut",immediateRender:false},74.1000);
+tl.fromTo("#motion340",{opacity:0,x:0,y:5,scale:.96},{opacity:1,x:0,y:0,scale:1,duration:0.6,ease:"power3.out",immediateRender:false},74.4250);
+tl.to("#object328",{...{"opacity": 0.24},duration:0.6000,ease:"power2.inOut",immediateRender:false},74.1000);
+tl.to("#object329",{...{"opacity": 0.24},duration:0.6000,ease:"power2.inOut",immediateRender:false},74.1000);
+tl.to("#object330",{...{"opacity": 0.24},duration:0.6000,ease:"power2.inOut",immediateRender:false},74.1000);
+tl.to("#object331",{...{"opacity": 0.24},duration:0.6000,ease:"power2.inOut",immediateRender:false},74.1000);
+tl.to("#object330",{...{"opacity": 1, "borderColor": "#ffc76a", "backgroundColor": "#4b4030"},duration:1.0000,ease:"power2.inOut",immediateRender:false},74.6000);
+tl.to("#object329",{...{"opacity": 1, "borderColor": "#ffc76a", "backgroundColor": "#4b4030"},duration:1.0000,ease:"power2.inOut",immediateRender:false},75.7613);
+tl.to("#object328",{...{"opacity": 1, "borderColor": "#ffc76a", "backgroundColor": "#4b4030"},duration:1.0000,ease:"power2.inOut",immediateRender:false},77.8613);
+tl.fromTo("#stroke341",{strokeDasharray:1,strokeDashoffset:1,opacity:0},{strokeDashoffset:0,opacity:1,duration:1.4,ease:"power2.inOut",immediateRender:false},75.1000);
+tl.fromTo("#flow342",{strokeDasharray:"0.06 0.94",strokeDashoffset:.07,opacity:0},{strokeDashoffset:-1,opacity:1,duration:1.65,ease:"none",immediateRender:false},76.5000);
+tl.to("#flow342",{...{"opacity": 0},duration:0.3000,ease:"power2.inOut",immediateRender:false},78.0500);
+tl.fromTo("#stroke343",{strokeDasharray:1,strokeDashoffset:1,opacity:0},{strokeDashoffset:0,opacity:1,duration:1.4,ease:"power2.inOut",immediateRender:false},76.7000);
+tl.fromTo("#flow344",{strokeDasharray:"0.06 0.94",strokeDashoffset:.07,opacity:0},{strokeDashoffset:-1,opacity:1,duration:1.65,ease:"none",immediateRender:false},78.1000);
+tl.to("#flow344",{...{"opacity": 0},duration:0.3000,ease:"power2.inOut",immediateRender:false},79.6500);
+tl.fromTo("#motion345",{opacity:0,x:0,y:20,scale:.96},{opacity:1,x:0,y:0,scale:1,duration:1,ease:"power3.out",immediateRender:false},78.7000);
+tl.fromTo("#camera346",{scale:1},{scale:1.025,duration:9.0000,ease:"sine.inOut",immediateRender:false},74.1000);
+tl.fromTo("#wipe348",{xPercent:0},{xPercent:100,duration:.5,ease:"power3.inOut",immediateRender:false},74.1);
+tl.fromTo("#reveal350",{opacity:0,y:18},{opacity:1,y:0,duration:.85,ease:"power3.out",immediateRender:false},83.2);
+tl.set("#w352",{opacity:1},74.1000);
+tl.set("#w353",{opacity:1},74.5000);
+tl.set("#w354",{opacity:1},75.1333);
+tl.set("#w355",{opacity:1},75.7667);
+tl.set("#w356",{opacity:1},76.0333);
+tl.set("#w358",{opacity:1},76.4333);
+tl.set("#w359",{opacity:1},77.2333);
+tl.set("#w360",{opacity:1},77.2333);
+tl.set("#w361",{opacity:1},77.8667);
+tl.set("#w362",{opacity:1},77.9667);
+tl.set("#w364",{opacity:1},78.3333);
+tl.set("#w365",{opacity:1},78.5667);
+tl.set("#w366",{opacity:1},79.5000);
+tl.set("#w367",{opacity:1},79.8667);
+tl.set("#w368",{opacity:1},80.1333);
+tl.set("#w370",{opacity:1},80.7000);
+tl.set("#w371",{opacity:1},80.7667);
+tl.set("#w372",{opacity:1},80.9333);
+tl.set("#w373",{opacity:1},81.1667);
+tl.set("#w374",{opacity:1},81.6667);
+tl.set("#w376",{opacity:1},82.0667);
+tl.set("#w377",{opacity:1},83.1667);
+tl.set("#w378",{opacity:1},83.3667);
+tl.set("#w379",{opacity:1},83.7667);
+tl.set("#w380",{opacity:1},84.4333);
+tl.set("#w382",{opacity:1},84.4333);
+tl.set("#w383",{opacity:1},84.7333);
+tl.set("#w384",{opacity:1},84.9667);
+tl.set("#w385",{opacity:1},85.2333);
+tl.set("#w386",{opacity:1},86.3000);
+tl.set("#w388",{opacity:1},86.4333);
+tl.set("#w389",{opacity:1},86.8667);
+tl.set("#w390",{opacity:1},87.4000);
+tl.set("#w391",{opacity:1},88.3333);
+tl.set("#w392",{opacity:1},88.4667);
+tl.set("#w394",{opacity:1},88.6333);
+tl.set("#w395",{opacity:1},88.8667);
+tl.set("#w396",{opacity:1},89.1667);
+tl.fromTo("#motion399",{opacity:0,x:-45,y:0,scale:.96},{opacity:1,x:0,y:0,scale:1,duration:1.1,ease:"power3.out",immediateRender:false},90.1167);
+tl.fromTo("#motion401",{opacity:0,x:-45,y:0,scale:.96},{opacity:1,x:0,y:0,scale:1,duration:1.1,ease:"power3.out",immediateRender:false},91.4667);
+tl.fromTo("#stroke402",{strokeDasharray:1,strokeDashoffset:1,opacity:0},{strokeDashoffset:0,opacity:1,duration:1.25,ease:"power2.inOut",immediateRender:false},90.5667);
+tl.fromTo("#flow403",{strokeDasharray:"0.06 0.94",strokeDashoffset:.07,opacity:0},{strokeDashoffset:-1,opacity:1,duration:1.65,ease:"none",immediateRender:false},91.8167);
+tl.to("#flow403",{...{"opacity": 0},duration:0.3000,ease:"power2.inOut",immediateRender:false},93.3667);
+tl.fromTo("#motion405",{opacity:0,x:-45,y:0,scale:.96},{opacity:1,x:0,y:0,scale:1,duration:1.1,ease:"power3.out",immediateRender:false},92.8167);
+tl.fromTo("#stroke406",{strokeDasharray:1,strokeDashoffset:1,opacity:0},{strokeDashoffset:0,opacity:1,duration:1.25,ease:"power2.inOut",immediateRender:false},91.9167);
+tl.fromTo("#flow407",{strokeDasharray:"0.06 0.94",strokeDashoffset:.07,opacity:0},{strokeDashoffset:-1,opacity:1,duration:1.65,ease:"none",immediateRender:false},93.1667);
+tl.to("#flow407",{...{"opacity": 0},duration:0.3000,ease:"power2.inOut",immediateRender:false},94.7167);
+tl.to("#object398",{...{"borderColor": "#ffd08a", "backgroundColor": "#345457"},duration:0.7000,ease:"power2.inOut",immediateRender:false},94.6667);
+tl.to("#object400",{...{"borderColor": "#ffd08a", "backgroundColor": "#345457"},duration:0.7000,ease:"power2.inOut",immediateRender:false},95.2167);
+tl.to("#object404",{...{"borderColor": "#ffd08a", "backgroundColor": "#345457"},duration:0.7000,ease:"power2.inOut",immediateRender:false},95.7667);
+tl.fromTo("#camera408",{scale:1},{scale:1.02,duration:7.0000,ease:"sine.inOut",immediateRender:false},89.8667);
+tl.fromTo("#wipe410",{xPercent:0},{xPercent:100,duration:.5,ease:"power3.inOut",immediateRender:false},89.86666666666666);
+tl.fromTo("#reveal412",{opacity:0,y:18},{opacity:1,y:0,duration:.85,ease:"power3.out",immediateRender:false},96.86666666666666);
+tl.fromTo("#reveal413",{opacity:0,y:18},{opacity:1,y:0,duration:.85,ease:"power3.out",immediateRender:false},97.56666666666666);
+tl.fromTo("#reveal414",{opacity:0,y:18},{opacity:1,y:0,duration:.85,ease:"power3.out",immediateRender:false},98.26666666666667);
+tl.set("#w416",{opacity:1},89.8667);
+tl.set("#w417",{opacity:1},90.1000);
+tl.set("#w418",{opacity:1},90.3667);
+tl.set("#w419",{opacity:1},90.6333);
+tl.set("#w420",{opacity:1},90.8333);
+tl.set("#w422",{opacity:1},91.0667);
+tl.set("#w423",{opacity:1},91.4667);
+tl.set("#w424",{opacity:1},91.9000);
+tl.set("#w425",{opacity:1},92.2333);
+tl.set("#w426",{opacity:1},92.6333);
+tl.set("#w428",{opacity:1},93.7000);
+tl.set("#w429",{opacity:1},93.9000);
+tl.set("#w430",{opacity:1},94.1667);
+tl.set("#w431",{opacity:1},94.4667);
+tl.set("#w432",{opacity:1},94.7000);
+tl.set("#w434",{opacity:1},95.6667);
+tl.set("#w435",{opacity:1},95.8667);
+tl.set("#w436",{opacity:1},96.0333);
+tl.set("#w437",{opacity:1},96.2667);
+tl.set("#w438",{opacity:1},96.5667);
+tl.set("#w440",{opacity:1},96.9667);
+tl.set("#w441",{opacity:1},97.3000);
+tl.set("#w442",{opacity:1},97.6000);
+tl.set("#w443",{opacity:1},98.6667);
+tl.set("#w444",{opacity:1},98.9333);
+tl.set("#w446",{opacity:1},99.6333);
+tl.set("#w447",{opacity:1},99.7667);
+tl.set("#w448",{opacity:1},100.1667);
+tl.set("#w449",{opacity:1},100.6000);
+tl.set("#w450",{opacity:1},101.0333);
+tl.set("#w452",{opacity:1},101.3667);
+tl.set("#w453",{opacity:1},102.6000);
+tl.set("#w454",{opacity:1},102.6333);
+tl.set("#w455",{opacity:1},103.1333);
+tl.set("#w456",{opacity:1},103.5000);
+tl.set("#w458",{opacity:1},103.9667);
+tl.to("#step460",{...{"opacity": 1, "y": -8},duration:1.0000,ease:"power2.inOut",immediateRender:false},105.0500);
+tl.to("#step461",{...{"opacity": 1, "y": -8},duration:1.0000,ease:"power2.inOut",immediateRender:false},107.0389);
+tl.to("#step460",{...{"opacity": 0.42, "y": 0},duration:1.0000,ease:"power2.inOut",immediateRender:false},107.0389);
+tl.to("#step462",{...{"opacity": 1, "y": -8},duration:1.0000,ease:"power2.inOut",immediateRender:false},109.0278);
+tl.to("#step461",{...{"opacity": 0.42, "y": 0},duration:1.0000,ease:"power2.inOut",immediateRender:false},109.0278);
+tl.fromTo("#wipe464",{xPercent:0},{xPercent:100,duration:.5,ease:"power3.inOut",immediateRender:false},104.8);
+tl.set("#w466",{opacity:1},104.8000);
+tl.set("#w467",{opacity:1},105.1333);
+tl.set("#w468",{opacity:1},105.3667);
+tl.set("#w469",{opacity:1},106.5667);
+tl.set("#w470",{opacity:1},106.6000);
+tl.set("#w472",{opacity:1},106.9667);
+tl.set("#w473",{opacity:1},107.8333);
+tl.set("#w474",{opacity:1},107.8667);
+tl.set("#w475",{opacity:1},108.0667);
+tl.set("#w476",{opacity:1},109.0667);
+tl.set("#w478",{opacity:1},109.2333);
+tl.set("#w479",{opacity:1},110.3667);
+tl.set("#w480",{opacity:1},110.3667);
+tl.set("#w481",{opacity:1},110.6667);
+tl.set("#w482",{opacity:1},111.0000);
+tl.to("#step484",{...{"opacity": 1, "y": -8},duration:1.0000,ease:"power2.inOut",immediateRender:false},112.0167);
+tl.to("#step485",{...{"opacity": 1, "y": -8},duration:1.0000,ease:"power2.inOut",immediateRender:false},113.7833);
+tl.to("#step484",{...{"opacity": 0.42, "y": 0},duration:1.0000,ease:"power2.inOut",immediateRender:false},113.7833);
+tl.to("#step486",{...{"opacity": 1, "y": -8},duration:1.0000,ease:"power2.inOut",immediateRender:false},115.5500);
+tl.to("#step485",{...{"opacity": 0.42, "y": 0},duration:1.0000,ease:"power2.inOut",immediateRender:false},115.5500);
+tl.fromTo("#wipe489",{xPercent:0},{xPercent:100,duration:.5,ease:"power3.inOut",immediateRender:false},118.06666666666666);
+tl.set("#w491",{opacity:1},111.7667);
+tl.set("#w492",{opacity:1},112.8000);
+tl.set("#w493",{opacity:1},113.0000);
+tl.set("#w494",{opacity:1},113.2333);
+tl.set("#w495",{opacity:1},113.7333);
+tl.set("#w497",{opacity:1},113.9000);
+tl.set("#w498",{opacity:1},114.2000);
+tl.set("#w499",{opacity:1},114.9000);
+tl.set("#w500",{opacity:1},115.0000);
+tl.set("#w501",{opacity:1},115.3333);
+tl.set("#w503",{opacity:1},115.7333);
+tl.set("#w504",{opacity:1},116.9000);
+tl.set("#w505",{opacity:1},117.0000);
+tl.set("#w506",{opacity:1},117.6333);
+tl.set("#w507",{opacity:1},117.8667);
+tl.set("#w509",{opacity:1},118.0333);
+tl.set("#w510",{opacity:1},118.8000);
+tl.set("#w511",{opacity:1},118.9333);
+tl.set("#w512",{opacity:1},119.1333);
+tl.set("#w513",{opacity:1},119.5333);
+tl.set("#w515",{opacity:1},119.5667);
+tl.set("#w516",{opacity:1},120.2333);
+tl.set("#w517",{opacity:1},120.6000);
+tl.set("#w518",{opacity:1},120.7333);
+window.__timelines=window.__timelines||{};window.__timelines["main"] = tl;
+</script>
+</body></html>

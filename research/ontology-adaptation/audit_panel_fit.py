@@ -1,0 +1,7 @@
+from playwright.sync_api import sync_playwright
+from pathlib import Path
+import json
+root=Path('/workspace/ReelFactory/videos/14-fabric-ontology-explained');shots=json.loads((root/'work/shots.json').read_text());times=[s['start']+(s['end']-s['start'])*.8 for s in shots]
+with sync_playwright() as p:
+ b=p.chromium.launch(executable_path='/usr/bin/chromium',headless=True,args=['--no-sandbox']);page=b.new_page(viewport={'width':1920,'height':1080});page.goto('http://127.0.0.1:8765/videos/'+root.name+'/index.html');page.evaluate('document.fonts.ready');page.wait_for_function('!!window.__timelines?.main')
+ bad=page.evaluate('''times=>{const bad=[];for(const t of times){window.__timelines.main.seek(t);for(const e of document.querySelectorAll('.clip')){const a=+e.dataset.start,z=a+(+e.dataset.duration);e.style.display=t>=a&&t<z?'':'none'}for(const panel of document.querySelectorAll('.panel')){if(!panel.getClientRects().length)continue;const r=panel.getBoundingClientRect();for(const e of panel.querySelectorAll('.m-object,.m-edge-label,.property,h1,.subtitle')){const q=e.getBoundingClientRect();if(q.left<r.left-1||q.right>r.right+1||q.top<r.top-1||q.bottom>r.bottom+1||e.scrollHeight>e.clientHeight+2||e.scrollWidth>e.clientWidth+2)bad.push({t,text:e.textContent,rect:q.toJSON()})}}}return bad}''',times);(root/'out/panel-fit-audit.json').write_text(json.dumps({'samples':len(times),'violations':bad},indent=2));print('Panel audit',len(bad),'violations');b.close();assert not bad

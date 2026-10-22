@@ -1,0 +1,1983 @@
+{
+  "id": "14-fabric-ontology-explained",
+  "title": "Microsoft Fabric ontology: from a late shipment to a business answer",
+  "script_sha256": "106d58df5d396188fb6e772cb3667cc27e9cad28e5bd8fd1cc9e23055e5807b5",
+  "duration": 121.2267,
+  "beats": [
+    {
+      "scene": "hook",
+      "speaker": "Noah",
+      "voice": "am_michael",
+      "text": "Our shipment is late. Which customers are affected? A table called shipments is not enough to explain how the business fits together.",
+      "start": 0.0,
+      "end": 8.2667,
+      "voice_end": 8.1067
+    },
+    {
+      "scene": "meaning",
+      "speaker": "Maya",
+      "voice": "af_heart",
+      "text": "That's where an ontology helps. In Microsoft Fabric IQ, it gives people and agents a shared map of business concepts, their properties, and how they connect.",
+      "start": 8.2667,
+      "end": 17.7707,
+      "voice_end": 17.6107
+    },
+    {
+      "scene": "question",
+      "speaker": "Noah",
+      "voice": "am_michael",
+      "text": "So we're not just drawing a diagram?",
+      "start": 17.7707,
+      "end": 20.2347,
+      "voice_end": 20.0747
+    },
+    {
+      "scene": "entities",
+      "speaker": "Maya",
+      "voice": "af_heart",
+      "text": "Right. Start with four entity types: Customer, Order, Shipment, and Warehouse. A particular shipment, like Shipment seventeen, is an instance. Its status and promised delivery time are properties.",
+      "start": 20.2347,
+      "end": 31.936,
+      "voice_end": 31.776
+    },
+    {
+      "scene": "relationships",
+      "speaker": "Maya",
+      "voice": "af_heart",
+      "text": "Now name the relationships. A customer places an order. A shipment fulfills that order. A warehouse dispatches the shipment. Those labels explain what each connection means.",
+      "start": 31.936,
+      "end": 42.8053,
+      "voice_end": 42.6453
+    },
+    {
+      "scene": "binding-question",
+      "speaker": "Noah",
+      "voice": "am_michael",
+      "text": "But where do the actual values come from?",
+      "start": 42.8053,
+      "end": 45.3333,
+      "voice_end": 45.1733
+    },
+    {
+      "scene": "bindings",
+      "speaker": "Maya",
+      "voice": "af_heart",
+      "text": "Data bindings connect those business definitions to real sources. For example, orders can come from a lakehouse, while shipment updates come from an eventhouse. The ontology adds shared meaning; it doesn't become a second copy of the database.",
+      "start": 45.3333,
+      "end": 59.9573,
+      "voice_end": 59.7973
+    },
+    {
+      "scene": "demo",
+      "speaker": "Maya",
+      "voice": "af_heart",
+      "text": "Here's a real retail ontology demo from Guy in a Cube. Watch the entities connect, then see the properties linked to their data sources. This is the interface behind the idea.",
+      "start": 59.9573,
+      "end": 70.784,
+      "voice_end": 70.624
+    },
+    {
+      "scene": "trace-question",
+      "speaker": "Noah",
+      "voice": "am_michael",
+      "text": "Now let's follow our late shipment back to the customer.",
+      "start": 70.784,
+      "end": 74.1013,
+      "voice_end": 73.9413
+    },
+    {
+      "scene": "trace",
+      "speaker": "Maya",
+      "voice": "af_heart",
+      "text": "Shipment seventeen fulfills Order forty two, placed by Customer one hundred one. Highlight that path, and the business question becomes specific: which customer is connected to this delayed shipment? This animation is illustrative, not a live query result.",
+      "start": 74.1013,
+      "end": 89.856,
+      "voice_end": 89.696
+    },
+    {
+      "scene": "verify",
+      "speaker": "Maya",
+      "voice": "af_heart",
+      "text": "An agent can use the definitions and bindings as context, then query the permitted source. But a useful model still needs clear definitions, correct data, and answers checked against trusted results. An ontology doesn't guarantee correctness.",
+      "start": 89.856,
+      "end": 104.8,
+      "voice_end": 104.64
+    },
+    {
+      "scene": "recap",
+      "speaker": "Noah",
+      "voice": "am_michael",
+      "text": "So start small: one business question, a few entities, meaningful relationships, and real source bindings.",
+      "start": 104.8,
+      "end": 111.7653,
+      "voice_end": 111.6053
+    },
+    {
+      "scene": "close",
+      "speaker": "Maya",
+      "voice": "af_heart",
+      "text": "Exactly. Model the meaning, connect the data, then verify the answer. Fabric ontology is in preview, so check the current documentation as you build.",
+      "start": 111.7653,
+      "end": 121.2267,
+      "voice_end": 121.0667
+    }
+  ],
+  "words": [
+    {
+      "w": "Our",
+      "s": 0.0,
+      "e": 0.4,
+      "alignment": "asr"
+    },
+    {
+      "w": "shipment",
+      "s": 0.4,
+      "e": 0.64,
+      "alignment": "asr"
+    },
+    {
+      "w": "is",
+      "s": 0.64,
+      "e": 1.02,
+      "alignment": "asr"
+    },
+    {
+      "w": "late.",
+      "s": 1.02,
+      "e": 1.76,
+      "alignment": "asr"
+    },
+    {
+      "w": "Which",
+      "s": 1.76,
+      "e": 2.0,
+      "alignment": "asr"
+    },
+    {
+      "w": "customers",
+      "s": 2.0,
+      "e": 2.4,
+      "alignment": "asr"
+    },
+    {
+      "w": "are",
+      "s": 2.4,
+      "e": 2.98,
+      "alignment": "asr"
+    },
+    {
+      "w": "affected?",
+      "s": 2.98,
+      "e": 3.74,
+      "alignment": "asr"
+    },
+    {
+      "w": "A",
+      "s": 3.74,
+      "e": 3.88,
+      "alignment": "asr"
+    },
+    {
+      "w": "table",
+      "s": 3.88,
+      "e": 4.08,
+      "alignment": "asr"
+    },
+    {
+      "w": "called",
+      "s": 4.08,
+      "e": 4.54,
+      "alignment": "asr"
+    },
+    {
+      "w": "shipments",
+      "s": 4.54,
+      "e": 4.92,
+      "alignment": "asr"
+    },
+    {
+      "w": "is",
+      "s": 4.92,
+      "e": 5.32,
+      "alignment": "asr"
+    },
+    {
+      "w": "not",
+      "s": 5.32,
+      "e": 5.52,
+      "alignment": "asr"
+    },
+    {
+      "w": "enough",
+      "s": 5.52,
+      "e": 5.82,
+      "alignment": "asr"
+    },
+    {
+      "w": "to",
+      "s": 5.82,
+      "e": 6.06,
+      "alignment": "asr"
+    },
+    {
+      "w": "explain",
+      "s": 6.06,
+      "e": 6.42,
+      "alignment": "asr"
+    },
+    {
+      "w": "how",
+      "s": 6.42,
+      "e": 6.72,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 6.72,
+      "e": 6.96,
+      "alignment": "asr"
+    },
+    {
+      "w": "business",
+      "s": 6.96,
+      "e": 7.22,
+      "alignment": "asr"
+    },
+    {
+      "w": "fits",
+      "s": 7.22,
+      "e": 7.58,
+      "alignment": "asr"
+    },
+    {
+      "w": "together.",
+      "s": 7.58,
+      "e": 8.1067,
+      "alignment": "asr"
+    },
+    {
+      "w": "That's",
+      "s": 8.266666666666667,
+      "e": 8.626666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "where",
+      "s": 8.626666666666667,
+      "e": 8.786666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "an",
+      "s": 8.786666666666667,
+      "e": 8.986666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "ontology",
+      "s": 8.986666666666668,
+      "e": 9.366666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "helps.",
+      "s": 9.366666666666667,
+      "e": 10.426666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "In",
+      "s": 10.426666666666668,
+      "e": 10.546666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "Microsoft",
+      "s": 10.546666666666667,
+      "e": 11.066666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "Fabric",
+      "s": 11.066666666666666,
+      "e": 11.486666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "IQ,",
+      "s": 11.486666666666668,
+      "e": 12.286666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "it",
+      "s": 12.286666666666667,
+      "e": 12.366666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "gives",
+      "s": 12.366666666666667,
+      "e": 12.586666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "people",
+      "s": 12.586666666666668,
+      "e": 12.986666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 12.986666666666668,
+      "e": 13.166666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "agents",
+      "s": 13.166666666666668,
+      "e": 13.526666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 13.526666666666667,
+      "e": 13.826666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "shared",
+      "s": 13.826666666666668,
+      "e": 14.046666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "map",
+      "s": 14.046666666666667,
+      "e": 14.266666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "of",
+      "s": 14.266666666666667,
+      "e": 14.666666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "business",
+      "s": 14.666666666666668,
+      "e": 14.766666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "concepts,",
+      "s": 14.766666666666667,
+      "e": 15.626666666666669,
+      "alignment": "asr"
+    },
+    {
+      "w": "their",
+      "s": 15.626666666666669,
+      "e": 15.806666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "properties,",
+      "s": 15.806666666666668,
+      "e": 16.486666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 16.486666666666668,
+      "e": 16.766666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "how",
+      "s": 16.766666666666666,
+      "e": 16.986666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "they",
+      "s": 16.986666666666668,
+      "e": 17.186666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "connect.",
+      "s": 17.186666666666667,
+      "e": 17.610666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "So",
+      "s": 17.770666666666667,
+      "e": 18.070666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "we're",
+      "s": 18.070666666666668,
+      "e": 18.230666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "not",
+      "s": 18.230666666666668,
+      "e": 18.470666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "just",
+      "s": 18.470666666666666,
+      "e": 18.790666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "drawing",
+      "s": 18.790666666666667,
+      "e": 19.070666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 19.070666666666668,
+      "e": 19.410666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "diagram?",
+      "s": 19.410666666666668,
+      "e": 20.074666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "Right.",
+      "s": 20.234666666666666,
+      "e": 20.874666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "Start",
+      "s": 20.874666666666666,
+      "e": 21.074666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "with",
+      "s": 21.074666666666666,
+      "e": 21.314666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "four",
+      "s": 21.314666666666668,
+      "e": 21.574666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "entity",
+      "s": 21.574666666666666,
+      "e": 21.814666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "types:",
+      "s": 21.814666666666668,
+      "e": 23.034666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "Customer,",
+      "s": 23.034666666666666,
+      "e": 23.274666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "Order,",
+      "s": 23.274666666666665,
+      "e": 23.734666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "Shipment,",
+      "s": 23.734666666666666,
+      "e": 24.214666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 24.214666666666666,
+      "e": 24.354666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "Warehouse.",
+      "s": 24.354666666666667,
+      "e": 25.454666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "A",
+      "s": 25.454666666666665,
+      "e": 25.574666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "particular",
+      "s": 25.574666666666666,
+      "e": 25.994666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "shipment,",
+      "s": 25.994666666666667,
+      "e": 26.494666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "like",
+      "s": 26.494666666666667,
+      "e": 26.754666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "Shipment",
+      "s": 26.754666666666665,
+      "e": 27.034666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "seventeen,",
+      "s": 27.034666666666666,
+      "e": 27.894666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "is",
+      "s": 27.894666666666666,
+      "e": 28.074666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "an",
+      "s": 28.074666666666666,
+      "e": 28.214666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "instance.",
+      "s": 28.214666666666666,
+      "e": 29.114666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "Its",
+      "s": 29.114666666666665,
+      "e": 29.354666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "status",
+      "s": 29.354666666666667,
+      "e": 29.714666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 29.714666666666666,
+      "e": 30.014666666666663,
+      "alignment": "asr"
+    },
+    {
+      "w": "promised",
+      "s": 30.014666666666663,
+      "e": 30.334666666666664,
+      "alignment": "asr"
+    },
+    {
+      "w": "delivery",
+      "s": 30.334666666666664,
+      "e": 30.634666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "time",
+      "s": 30.634666666666668,
+      "e": 31.014666666666663,
+      "alignment": "asr"
+    },
+    {
+      "w": "are",
+      "s": 31.014666666666663,
+      "e": 31.214666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "properties.",
+      "s": 31.214666666666666,
+      "e": 31.775966666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "Now",
+      "s": 31.936,
+      "e": 32.316,
+      "alignment": "asr"
+    },
+    {
+      "w": "name",
+      "s": 32.316,
+      "e": 32.556,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 32.556,
+      "e": 32.776,
+      "alignment": "asr"
+    },
+    {
+      "w": "relationships.",
+      "s": 32.776,
+      "e": 33.976,
+      "alignment": "asr"
+    },
+    {
+      "w": "A",
+      "s": 33.976,
+      "e": 34.176,
+      "alignment": "asr"
+    },
+    {
+      "w": "customer",
+      "s": 34.176,
+      "e": 34.376,
+      "alignment": "asr"
+    },
+    {
+      "w": "places",
+      "s": 34.376,
+      "e": 34.856,
+      "alignment": "asr"
+    },
+    {
+      "w": "an",
+      "s": 34.856,
+      "e": 35.096000000000004,
+      "alignment": "asr"
+    },
+    {
+      "w": "order.",
+      "s": 35.096000000000004,
+      "e": 35.775999999999996,
+      "alignment": "asr"
+    },
+    {
+      "w": "A",
+      "s": 35.775999999999996,
+      "e": 35.936,
+      "alignment": "asr"
+    },
+    {
+      "w": "shipment",
+      "s": 35.936,
+      "e": 36.256,
+      "alignment": "asr"
+    },
+    {
+      "w": "fulfills",
+      "s": 36.256,
+      "e": 36.856,
+      "alignment": "asr"
+    },
+    {
+      "w": "that",
+      "s": 36.856,
+      "e": 37.176,
+      "alignment": "asr"
+    },
+    {
+      "w": "order.",
+      "s": 37.176,
+      "e": 37.956,
+      "alignment": "asr"
+    },
+    {
+      "w": "A",
+      "s": 37.956,
+      "e": 38.036,
+      "alignment": "asr"
+    },
+    {
+      "w": "warehouse",
+      "s": 38.036,
+      "e": 38.436,
+      "alignment": "asr"
+    },
+    {
+      "w": "dispatches",
+      "s": 38.436,
+      "e": 38.996,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 38.996,
+      "e": 39.236,
+      "alignment": "asr"
+    },
+    {
+      "w": "shipment.",
+      "s": 39.236,
+      "e": 40.096000000000004,
+      "alignment": "asr"
+    },
+    {
+      "w": "Those",
+      "s": 40.096000000000004,
+      "e": 40.296,
+      "alignment": "asr"
+    },
+    {
+      "w": "labels",
+      "s": 40.296,
+      "e": 40.616,
+      "alignment": "asr"
+    },
+    {
+      "w": "explain",
+      "s": 40.616,
+      "e": 41.196,
+      "alignment": "asr"
+    },
+    {
+      "w": "what",
+      "s": 41.196,
+      "e": 41.496,
+      "alignment": "asr"
+    },
+    {
+      "w": "each",
+      "s": 41.496,
+      "e": 41.775999999999996,
+      "alignment": "asr"
+    },
+    {
+      "w": "connection",
+      "s": 41.775999999999996,
+      "e": 42.116,
+      "alignment": "asr"
+    },
+    {
+      "w": "means.",
+      "s": 42.116,
+      "e": 42.6453,
+      "alignment": "asr"
+    },
+    {
+      "w": "But",
+      "s": 42.80533333333334,
+      "e": 43.065333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "where",
+      "s": 43.065333333333335,
+      "e": 43.205333333333336,
+      "alignment": "asr"
+    },
+    {
+      "w": "do",
+      "s": 43.205333333333336,
+      "e": 43.425333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 43.425333333333334,
+      "e": 43.705333333333336,
+      "alignment": "asr"
+    },
+    {
+      "w": "actual",
+      "s": 43.705333333333336,
+      "e": 43.925333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "values",
+      "s": 43.925333333333334,
+      "e": 44.285333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "come",
+      "s": 44.285333333333334,
+      "e": 44.665333333333336,
+      "alignment": "asr"
+    },
+    {
+      "w": "from?",
+      "s": 44.665333333333336,
+      "e": 45.17333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "Data",
+      "s": 45.333333333333336,
+      "e": 45.733333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "bindings",
+      "s": 45.733333333333334,
+      "e": 46.17333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "connect",
+      "s": 46.17333333333334,
+      "e": 46.67333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "those",
+      "s": 46.67333333333334,
+      "e": 47.13333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "business",
+      "s": 47.13333333333333,
+      "e": 47.413333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "definitions",
+      "s": 47.413333333333334,
+      "e": 47.89333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "to",
+      "s": 47.89333333333334,
+      "e": 48.373333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "real",
+      "s": 48.373333333333335,
+      "e": 48.57333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "sources.",
+      "s": 48.57333333333334,
+      "e": 49.77333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "For",
+      "s": 49.77333333333333,
+      "e": 49.833333333333336,
+      "alignment": "asr"
+    },
+    {
+      "w": "example,",
+      "s": 49.833333333333336,
+      "e": 50.81333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "orders",
+      "s": 50.81333333333333,
+      "e": 50.81333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "can",
+      "s": 50.81333333333333,
+      "e": 51.07333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "come",
+      "s": 51.07333333333334,
+      "e": 51.29333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "from",
+      "s": 51.29333333333334,
+      "e": 51.49333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 51.49333333333334,
+      "e": 51.653333333333336,
+      "alignment": "asr"
+    },
+    {
+      "w": "lakehouse,",
+      "s": 51.653333333333336,
+      "e": 52.45333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "while",
+      "s": 52.45333333333333,
+      "e": 52.67333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "shipment",
+      "s": 52.67333333333333,
+      "e": 52.93333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "updates",
+      "s": 52.93333333333334,
+      "e": 53.39333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "come",
+      "s": 53.39333333333334,
+      "e": 53.733333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "from",
+      "s": 53.733333333333334,
+      "e": 53.89333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "an",
+      "s": 53.89333333333334,
+      "e": 53.99333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "eventhouse.",
+      "s": 53.99333333333334,
+      "e": 55.153333333333336,
+      "alignment": "asr"
+    },
+    {
+      "w": "The",
+      "s": 55.153333333333336,
+      "e": 55.29333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "ontology",
+      "s": 55.29333333333334,
+      "e": 55.77333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "adds",
+      "s": 55.77333333333333,
+      "e": 56.21333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "shared",
+      "s": 56.21333333333334,
+      "e": 56.553333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "meaning;",
+      "s": 56.553333333333335,
+      "e": 57.31333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "it",
+      "s": 57.31333333333333,
+      "e": 57.43333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "doesn't",
+      "s": 57.43333333333334,
+      "e": 57.733333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "become",
+      "s": 57.733333333333334,
+      "e": 57.95333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 57.95333333333333,
+      "e": 58.27333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "second",
+      "s": 58.27333333333333,
+      "e": 58.553333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "copy",
+      "s": 58.553333333333335,
+      "e": 58.85333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "of",
+      "s": 58.85333333333334,
+      "e": 59.11333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 59.11333333333334,
+      "e": 59.27333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "database.",
+      "s": 59.27333333333333,
+      "e": 59.797333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "Here's",
+      "s": 59.95733333333334,
+      "e": 60.33733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 60.33733333333334,
+      "e": 60.55733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "real",
+      "s": 60.55733333333334,
+      "e": 60.83733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "retail",
+      "s": 60.83733333333334,
+      "e": 61.31733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "ontology",
+      "s": 61.31733333333334,
+      "e": 61.95733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "demo",
+      "s": 61.95733333333334,
+      "e": 62.23733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "from",
+      "s": 62.23733333333334,
+      "e": 62.59733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "Guy",
+      "s": 62.59733333333334,
+      "e": 62.91733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "in",
+      "s": 62.91733333333334,
+      "e": 63.13733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 63.13733333333334,
+      "e": 63.257333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "Cube.",
+      "s": 63.257333333333335,
+      "e": 63.99733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "Watch",
+      "s": 63.99733333333334,
+      "e": 64.33733333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 64.33733333333333,
+      "e": 64.57733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "entities",
+      "s": 64.57733333333334,
+      "e": 64.75733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "connect,",
+      "s": 64.75733333333334,
+      "e": 65.53733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "then",
+      "s": 65.53733333333334,
+      "e": 65.79733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "see",
+      "s": 65.79733333333334,
+      "e": 65.95733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 65.95733333333334,
+      "e": 66.49733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "properties",
+      "s": 66.49733333333334,
+      "e": 66.49733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "linked",
+      "s": 66.49733333333334,
+      "e": 66.87733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "to",
+      "s": 66.87733333333334,
+      "e": 67.05733333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "their",
+      "s": 67.05733333333333,
+      "e": 67.23733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "data",
+      "s": 67.23733333333334,
+      "e": 67.45733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "sources.",
+      "s": 67.45733333333334,
+      "e": 68.51733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "This",
+      "s": 68.51733333333334,
+      "e": 68.79733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "is",
+      "s": 68.79733333333334,
+      "e": 68.97733333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 68.97733333333333,
+      "e": 69.17733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "interface",
+      "s": 69.17733333333334,
+      "e": 69.55733333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "behind",
+      "s": 69.55733333333333,
+      "e": 69.99733333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 69.99733333333333,
+      "e": 70.25733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "idea.",
+      "s": 70.25733333333334,
+      "e": 70.62403333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "Now",
+      "s": 70.784,
+      "e": 71.18400000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "let's",
+      "s": 71.18400000000001,
+      "e": 71.864,
+      "alignment": "asr"
+    },
+    {
+      "w": "follow",
+      "s": 71.864,
+      "e": 71.864,
+      "alignment": "asr"
+    },
+    {
+      "w": "our",
+      "s": 71.864,
+      "e": 72.084,
+      "alignment": "asr"
+    },
+    {
+      "w": "late",
+      "s": 72.084,
+      "e": 72.304,
+      "alignment": "asr"
+    },
+    {
+      "w": "shipment",
+      "s": 72.304,
+      "e": 72.62400000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "back",
+      "s": 72.62400000000001,
+      "e": 73.004,
+      "alignment": "asr"
+    },
+    {
+      "w": "to",
+      "s": 73.004,
+      "e": 73.164,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 73.164,
+      "e": 73.48400000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "customer.",
+      "s": 73.48400000000001,
+      "e": 73.94130000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "Shipment",
+      "s": 74.10133333333334,
+      "e": 74.50133333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "seventeen",
+      "s": 74.50133333333335,
+      "e": 75.12133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "fulfills",
+      "s": 75.12133333333334,
+      "e": 75.76133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "Order",
+      "s": 75.76133333333334,
+      "e": 76.04133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "forty",
+      "s": 76.04133333333334,
+      "e": 76.42133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "two,",
+      "s": 76.42133333333334,
+      "e": 77.24133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "placed",
+      "s": 77.24133333333334,
+      "e": 77.24133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "by",
+      "s": 77.24133333333334,
+      "e": 77.86133333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "Customer",
+      "s": 77.86133333333335,
+      "e": 77.96133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "one",
+      "s": 77.96133333333334,
+      "e": 78.34133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "hundred",
+      "s": 78.34133333333334,
+      "e": 78.58133333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "one.",
+      "s": 78.58133333333335,
+      "e": 79.50133333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "Highlight",
+      "s": 79.50133333333335,
+      "e": 79.88133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "that",
+      "s": 79.88133333333334,
+      "e": 80.12133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "path,",
+      "s": 80.12133333333334,
+      "e": 80.70133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 80.70133333333334,
+      "e": 80.78133333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 80.78133333333335,
+      "e": 80.94133333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "business",
+      "s": 80.94133333333335,
+      "e": 81.18133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "question",
+      "s": 81.18133333333334,
+      "e": 81.66133333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "becomes",
+      "s": 81.66133333333335,
+      "e": 82.08133333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "specific:",
+      "s": 82.08133333333335,
+      "e": 83.18133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "which",
+      "s": 83.18133333333334,
+      "e": 83.36133333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "customer",
+      "s": 83.36133333333335,
+      "e": 83.76133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "is",
+      "s": 83.76133333333334,
+      "e": 84.42133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "connected",
+      "s": 84.42133333333334,
+      "e": 84.42133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "to",
+      "s": 84.42133333333334,
+      "e": 84.74133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "this",
+      "s": 84.74133333333334,
+      "e": 84.96133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "delayed",
+      "s": 84.96133333333334,
+      "e": 85.24133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "shipment?",
+      "s": 85.24133333333334,
+      "e": 86.30133333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "This",
+      "s": 86.30133333333335,
+      "e": 86.44133333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "animation",
+      "s": 86.44133333333335,
+      "e": 86.88133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "is",
+      "s": 86.88133333333334,
+      "e": 87.40133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "illustrative,",
+      "s": 87.40133333333334,
+      "e": 88.34133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "not",
+      "s": 88.34133333333334,
+      "e": 88.46133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 88.46133333333334,
+      "e": 88.62133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "live",
+      "s": 88.62133333333334,
+      "e": 88.88133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "query",
+      "s": 88.88133333333334,
+      "e": 89.18133333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "result.",
+      "s": 89.18133333333334,
+      "e": 89.69603333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "An",
+      "s": 89.85600000000001,
+      "e": 90.096,
+      "alignment": "asr"
+    },
+    {
+      "w": "agent",
+      "s": 90.096,
+      "e": 90.35600000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "can",
+      "s": 90.35600000000001,
+      "e": 90.63600000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "use",
+      "s": 90.63600000000001,
+      "e": 90.83600000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 90.83600000000001,
+      "e": 91.05600000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "definitions",
+      "s": 91.05600000000001,
+      "e": 91.456,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 91.456,
+      "e": 91.91600000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "bindings",
+      "s": 91.91600000000001,
+      "e": 92.236,
+      "alignment": "asr"
+    },
+    {
+      "w": "as",
+      "s": 92.236,
+      "e": 92.63600000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "context,",
+      "s": 92.63600000000001,
+      "e": 93.71600000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "then",
+      "s": 93.71600000000001,
+      "e": 93.89600000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "query",
+      "s": 93.89600000000002,
+      "e": 94.156,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 94.156,
+      "e": 94.47600000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "permitted",
+      "s": 94.47600000000001,
+      "e": 94.71600000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "source.",
+      "s": 94.71600000000001,
+      "e": 95.67600000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "But",
+      "s": 95.67600000000002,
+      "e": 95.85600000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 95.85600000000001,
+      "e": 96.036,
+      "alignment": "asr"
+    },
+    {
+      "w": "useful",
+      "s": 96.036,
+      "e": 96.25600000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "model",
+      "s": 96.25600000000001,
+      "e": 96.55600000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "still",
+      "s": 96.55600000000001,
+      "e": 96.956,
+      "alignment": "asr"
+    },
+    {
+      "w": "needs",
+      "s": 96.956,
+      "e": 97.296,
+      "alignment": "asr"
+    },
+    {
+      "w": "clear",
+      "s": 97.296,
+      "e": 97.596,
+      "alignment": "asr"
+    },
+    {
+      "w": "definitions,",
+      "s": 97.596,
+      "e": 98.67600000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "correct",
+      "s": 98.67600000000002,
+      "e": 98.936,
+      "alignment": "asr"
+    },
+    {
+      "w": "data,",
+      "s": 98.936,
+      "e": 99.63600000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 99.63600000000001,
+      "e": 99.77600000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "answers",
+      "s": 99.77600000000001,
+      "e": 100.156,
+      "alignment": "asr"
+    },
+    {
+      "w": "checked",
+      "s": 100.156,
+      "e": 100.61600000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "against",
+      "s": 100.61600000000001,
+      "e": 101.036,
+      "alignment": "asr"
+    },
+    {
+      "w": "trusted",
+      "s": 101.036,
+      "e": 101.376,
+      "alignment": "asr"
+    },
+    {
+      "w": "results.",
+      "s": 101.376,
+      "e": 102.596,
+      "alignment": "asr"
+    },
+    {
+      "w": "An",
+      "s": 102.596,
+      "e": 102.63600000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "ontology",
+      "s": 102.63600000000001,
+      "e": 103.13600000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "doesn't",
+      "s": 103.13600000000001,
+      "e": 103.516,
+      "alignment": "asr"
+    },
+    {
+      "w": "guarantee",
+      "s": 103.516,
+      "e": 103.956,
+      "alignment": "asr"
+    },
+    {
+      "w": "correctness.",
+      "s": 103.956,
+      "e": 104.64000000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "So",
+      "s": 104.80000000000001,
+      "e": 105.12,
+      "alignment": "asr"
+    },
+    {
+      "w": "start",
+      "s": 105.12,
+      "e": 105.38000000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "small:",
+      "s": 105.38000000000001,
+      "e": 106.56000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "one",
+      "s": 106.56000000000002,
+      "e": 106.60000000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "business",
+      "s": 106.60000000000001,
+      "e": 106.98000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "question,",
+      "s": 106.98000000000002,
+      "e": 107.82000000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 107.82000000000001,
+      "e": 107.88000000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "few",
+      "s": 107.88000000000001,
+      "e": 108.08000000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "entities,",
+      "s": 108.08000000000001,
+      "e": 109.08000000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "meaningful",
+      "s": 109.08000000000001,
+      "e": 109.22000000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "relationships,",
+      "s": 109.22000000000001,
+      "e": 110.36000000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 110.36000000000001,
+      "e": 110.36000000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "real",
+      "s": 110.36000000000001,
+      "e": 110.68,
+      "alignment": "asr"
+    },
+    {
+      "w": "source",
+      "s": 110.68,
+      "e": 111.00000000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "bindings.",
+      "s": 111.00000000000001,
+      "e": 111.60530000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "Exactly.",
+      "s": 111.76533333333334,
+      "e": 112.78533333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "Model",
+      "s": 112.78533333333334,
+      "e": 112.98533333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 112.98533333333334,
+      "e": 113.22533333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "meaning,",
+      "s": 113.22533333333334,
+      "e": 113.72533333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "connect",
+      "s": 113.72533333333334,
+      "e": 113.90533333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 113.90533333333335,
+      "e": 114.20533333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "data,",
+      "s": 114.20533333333334,
+      "e": 114.90533333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "then",
+      "s": 114.90533333333335,
+      "e": 114.98533333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "verify",
+      "s": 114.98533333333334,
+      "e": 115.32533333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 115.32533333333335,
+      "e": 115.74533333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "answer.",
+      "s": 115.74533333333335,
+      "e": 116.88533333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "Fabric",
+      "s": 116.88533333333335,
+      "e": 117.00533333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "ontology",
+      "s": 117.00533333333334,
+      "e": 117.64533333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "is",
+      "s": 117.64533333333334,
+      "e": 117.86533333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "in",
+      "s": 117.86533333333334,
+      "e": 118.04533333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "preview,",
+      "s": 118.04533333333335,
+      "e": 118.80533333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "so",
+      "s": 118.80533333333335,
+      "e": 118.92533333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "check",
+      "s": 118.92533333333334,
+      "e": 119.14533333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 119.14533333333334,
+      "e": 119.52533333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "current",
+      "s": 119.52533333333335,
+      "e": 119.56533333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "documentation",
+      "s": 119.56533333333334,
+      "e": 120.24533333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "as",
+      "s": 120.24533333333335,
+      "e": 120.58533333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "you",
+      "s": 120.58533333333335,
+      "e": 120.74533333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "build.",
+      "s": 120.74533333333335,
+      "e": 121.06663333333334,
+      "alignment": "asr"
+    }
+  ],
+  "voice": "Local Kokoro synthetic review narration; per-beat voices: af_heart, am_michael",
+  "alignment_note": "Whisper tiny.en word timestamps, with interpolated unmatched words explicitly flagged. Not manually verified to +/- one frame."
+}

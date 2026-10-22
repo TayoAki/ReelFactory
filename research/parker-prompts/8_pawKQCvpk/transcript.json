@@ -1,0 +1,1819 @@
+{
+  "success": true,
+  "credits_remaining": 16852,
+  "credits_charged": 1,
+  "type": "video",
+  "url": "https://www.youtube.com/watch?v=8_pawKQCvpk",
+  "transcript": [
+    {
+      "text": "Making motion graphics the normal way",
+      "startMs": "0",
+      "endMs": "3600",
+      "startTimeText": "0:00"
+    },
+    {
+      "text": "means hours in After Effects setting up",
+      "startMs": "1760",
+      "endMs": "5520",
+      "startTimeText": "0:01"
+    },
+    {
+      "text": "layers, key frames, and endless little",
+      "startMs": "3600",
+      "endMs": "7480",
+      "startTimeText": "0:03"
+    },
+    {
+      "text": "tweaks. But with Claude Opus 5, you can",
+      "startMs": "5520",
+      "endMs": "9160",
+      "startTimeText": "0:05"
+    },
+    {
+      "text": "make results like these straight out of",
+      "startMs": "7480",
+      "endMs": "10800",
+      "startTimeText": "0:07"
+    },
+    {
+      "text": "the chat. There's one technique you need",
+      "startMs": "9160",
+      "endMs": "12560",
+      "startTimeText": "0:09"
+    },
+    {
+      "text": "first though, because every video model",
+      "startMs": "10800",
+      "endMs": "14480",
+      "startTimeText": "0:10"
+    },
+    {
+      "text": "out there messes up text the second it",
+      "startMs": "12560",
+      "endMs": "16120",
+      "startTimeText": "0:12"
+    },
+    {
+      "text": "tries to animate a word. So in this",
+      "startMs": "14480",
+      "endMs": "17920",
+      "startTimeText": "0:14"
+    },
+    {
+      "text": "video, I'll show you exactly how to get",
+      "startMs": "16120",
+      "endMs": "19640",
+      "startTimeText": "0:16"
+    },
+    {
+      "text": "around that. And by the end, you'll see",
+      "startMs": "17920",
+      "endMs": "21400",
+      "startTimeText": "0:17"
+    },
+    {
+      "text": "how easy it is to make one without",
+      "startMs": "19640",
+      "endMs": "23000",
+      "startTimeText": "0:19"
+    },
+    {
+      "text": "opening [music] a design tool. The first",
+      "startMs": "21400",
+      "endMs": "24560",
+      "startTimeText": "0:21"
+    },
+    {
+      "text": "thing to do is connect Higgsfield to",
+      "startMs": "23000",
+      "endMs": "26320",
+      "startTimeText": "0:23"
+    },
+    {
+      "text": "Claude. So go ahead and open Higgsfield",
+      "startMs": "24560",
+      "endMs": "27840",
+      "startTimeText": "0:24"
+    },
+    {
+      "text": "through the link down in the description",
+      "startMs": "26320",
+      "endMs": "29680",
+      "startTimeText": "0:26"
+    },
+    {
+      "text": "and head to the MCP page. Keep the",
+      "startMs": "27840",
+      "endMs": "31920",
+      "startTimeText": "0:27"
+    },
+    {
+      "text": "Claude tab selected in the MCP toggle",
+      "startMs": "29680",
+      "endMs": "34120",
+      "startTimeText": "0:29"
+    },
+    {
+      "text": "on. Then copy the connector URL set",
+      "startMs": "31920",
+      "endMs": "35920",
+      "startTimeText": "0:31"
+    },
+    {
+      "text": "under them. Head over to Claude, go into",
+      "startMs": "34120",
+      "endMs": "37880",
+      "startTimeText": "0:34"
+    },
+    {
+      "text": "customize, then connectors. Add a new",
+      "startMs": "35920",
+      "endMs": "39880",
+      "startTimeText": "0:35"
+    },
+    {
+      "text": "one, name it Higgsfield, paste the URL",
+      "startMs": "37880",
+      "endMs": "41680",
+      "startTimeText": "0:37"
+    },
+    {
+      "text": "in, then connect and sign in. Every chat",
+      "startMs": "39880",
+      "endMs": "43440",
+      "startTimeText": "0:39"
+    },
+    {
+      "text": "after this already has the models ready,",
+      "startMs": "41680",
+      "endMs": "44680",
+      "startTimeText": "0:41"
+    },
+    {
+      "text": "and it runs on your own Higgsfield",
+      "startMs": "43440",
+      "endMs": "46160",
+      "startTimeText": "0:43"
+    },
+    {
+      "text": "credits. So just make sure your plan",
+      "startMs": "44680",
+      "endMs": "47520",
+      "startTimeText": "0:44"
+    },
+    {
+      "text": "covers what you're using. Make sure",
+      "startMs": "46160",
+      "endMs": "49120",
+      "startTimeText": "0:46"
+    },
+    {
+      "text": "you're on Opus 5 as well, because that's",
+      "startMs": "47520",
+      "endMs": "50840",
+      "startTimeText": "0:47"
+    },
+    {
+      "text": "the model doing all the thinking here.",
+      "startMs": "49120",
+      "endMs": "52720",
+      "startTimeText": "0:49"
+    },
+    {
+      "text": "So, I'll start by explaining to Claude",
+      "startMs": "50840",
+      "endMs": "54280",
+      "startTimeText": "0:50"
+    },
+    {
+      "text": "that we'll be working on motion graphics",
+      "startMs": "52720",
+      "endMs": "56080",
+      "startTimeText": "0:52"
+    },
+    {
+      "text": "across four levels of complexity,",
+      "startMs": "54280",
+      "endMs": "57800",
+      "startTimeText": "0:54"
+    },
+    {
+      "text": "ranging from the most basic to the most",
+      "startMs": "56080",
+      "endMs": "59440",
+      "startTimeText": "0:56"
+    },
+    {
+      "text": "advanced. It returns the complete",
+      "startMs": "57800",
+      "endMs": "61200",
+      "startTimeText": "0:57"
+    },
+    {
+      "text": "workflow follow to handle text",
+      "startMs": "59440",
+      "endMs": "62880",
+      "startTimeText": "0:59"
+    },
+    {
+      "text": "effectively. We start by generating",
+      "startMs": "61200",
+      "endMs": "64879",
+      "startTimeText": "1:01"
+    },
+    {
+      "text": "stills using an image model, then feed",
+      "startMs": "62880",
+      "endMs": "66520",
+      "startTimeText": "1:02"
+    },
+    {
+      "text": "those stills into the video generation",
+      "startMs": "64879",
+      "endMs": "68320",
+      "startTimeText": "1:04"
+    },
+    {
+      "text": "model to lock in the visuals based on",
+      "startMs": "66520",
+      "endMs": "69880",
+      "startTimeText": "1:06"
+    },
+    {
+      "text": "the screens we've already approved.",
+      "startMs": "68320",
+      "endMs": "71360",
+      "startTimeText": "1:08"
+    },
+    {
+      "text": "Then, I'll ask for some ideas to get",
+      "startMs": "69880",
+      "endMs": "73120",
+      "startTimeText": "1:09"
+    },
+    {
+      "text": "started. Nothing fancy, just something",
+      "startMs": "71360",
+      "endMs": "74560",
+      "startTimeText": "1:11"
+    },
+    {
+      "text": "simple to warm up with. And it comes",
+      "startMs": "73120",
+      "endMs": "76280",
+      "startTimeText": "1:13"
+    },
+    {
+      "text": "back with the simplest yet functional",
+      "startMs": "74560",
+      "endMs": "78200",
+      "startTimeText": "1:14"
+    },
+    {
+      "text": "motion graphic we can create. A stat",
+      "startMs": "76280",
+      "endMs": "79800",
+      "startTimeText": "1:16"
+    },
+    {
+      "text": "card with one big number and a line",
+      "startMs": "78200",
+      "endMs": "81120",
+      "startTimeText": "1:18"
+    },
+    {
+      "text": "underneath it. And it brings four",
+      "startMs": "79800",
+      "endMs": "82920",
+      "startTimeText": "1:19"
+    },
+    {
+      "text": "directions we can follow, with text,",
+      "startMs": "81120",
+      "endMs": "84840",
+      "startTimeText": "1:21"
+    },
+    {
+      "text": "colors, and mood already sorted for each",
+      "startMs": "82920",
+      "endMs": "87000",
+      "startTimeText": "1:22"
+    },
+    {
+      "text": "one. I'll take the 2.4 million one and",
+      "startMs": "84840",
+      "endMs": "89080",
+      "startTimeText": "1:24"
+    },
+    {
+      "text": "the 48 times one. And then it walks me",
+      "startMs": "87000",
+      "endMs": "90680",
+      "startTimeText": "1:27"
+    },
+    {
+      "text": "through the settings. And that bit's way",
+      "startMs": "89080",
+      "endMs": "92160",
+      "startTimeText": "1:29"
+    },
+    {
+      "text": "simpler than it looks. It starts with",
+      "startMs": "90680",
+      "endMs": "93920",
+      "startTimeText": "1:30"
+    },
+    {
+      "text": "the image model, and there's GPT [music]",
+      "startMs": "92160",
+      "endMs": "96320",
+      "startTimeText": "1:32"
+    },
+    {
+      "text": "Image 2, both Nano Bananas, Seedream,",
+      "startMs": "93920",
+      "endMs": "98320",
+      "startTimeText": "1:33"
+    },
+    {
+      "text": "Soul, and Cinema Studio Image. I'll take",
+      "startMs": "96320",
+      "endMs": "100920",
+      "startTimeText": "1:36"
+    },
+    {
+      "text": "GPT Image 2, and it's got resolution at",
+      "startMs": "98320",
+      "endMs": "103600",
+      "startTimeText": "1:38"
+    },
+    {
+      "text": "1K, 2K, or 4K, and quality at low,",
+      "startMs": "100920",
+      "endMs": "105480",
+      "startTimeText": "1:40"
+    },
+    {
+      "text": "medium, or high. Quality defaults to",
+      "startMs": "103600",
+      "endMs": "107160",
+      "startTimeText": "1:43"
+    },
+    {
+      "text": "low, and this is all text that people",
+      "startMs": "105480",
+      "endMs": "108760",
+      "startTimeText": "1:45"
+    },
+    {
+      "text": "are going to be reading off the screen.",
+      "startMs": "107160",
+      "endMs": "110680",
+      "startTimeText": "1:47"
+    },
+    {
+      "text": "So I'll go 4K and high and get it",
+      "startMs": "108760",
+      "endMs": "112160",
+      "startTimeText": "1:48"
+    },
+    {
+      "text": "looking really clean. Then it moves on",
+      "startMs": "110680",
+      "endMs": "113440",
+      "startTimeText": "1:50"
+    },
+    {
+      "text": "to the video model, and [music] it's",
+      "startMs": "112160",
+      "endMs": "115960",
+      "startTimeText": "1:52"
+    },
+    {
+      "text": "SeaDance, Cling, Vio, Gemini Omni Flash,",
+      "startMs": "113440",
+      "endMs": "117880",
+      "startTimeText": "1:53"
+    },
+    {
+      "text": "or Cinema Studio. They can all do this,",
+      "startMs": "115960",
+      "endMs": "119200",
+      "startTimeText": "1:55"
+    },
+    {
+      "text": "so it's really just about the kind of",
+      "startMs": "117880",
+      "endMs": "120539",
+      "startTimeText": "1:57"
+    },
+    {
+      "text": "movement you want. I'll take Sea Dance,",
+      "startMs": "119200",
+      "endMs": "122360",
+      "startTimeText": "1:59"
+    },
+    {
+      "text": "[music] and it comes in three versions.",
+      "startMs": "120539",
+      "endMs": "124840",
+      "startTimeText": "2:00"
+    },
+    {
+      "text": "2.5 runs from 4 to 30 seconds at up to",
+      "startMs": "122360",
+      "endMs": "127600",
+      "startTimeText": "2:02"
+    },
+    {
+      "text": "1080p. 2.0 stops at 15 seconds, but",
+      "startMs": "124840",
+      "endMs": "129560",
+      "startTimeText": "2:04"
+    },
+    {
+      "text": "pushes to 4K. And Mini is the cheap one",
+      "startMs": "127600",
+      "endMs": "131959",
+      "startTimeText": "2:07"
+    },
+    {
+      "text": "that caps at 720p. Nothing here needs 30",
+      "startMs": "129560",
+      "endMs": "134040",
+      "startTimeText": "2:09"
+    },
+    {
+      "text": "seconds or 4K, so any of the three would",
+      "startMs": "131959",
+      "endMs": "136720",
+      "startTimeText": "2:11"
+    },
+    {
+      "text": "do the job, and I'll take 2.5 at 1080p",
+      "startMs": "134040",
+      "endMs": "138400",
+      "startTimeText": "2:14"
+    },
+    {
+      "text": "because it's the newest. Then it asks",
+      "startMs": "136720",
+      "endMs": "140760",
+      "startTimeText": "2:16"
+    },
+    {
+      "text": "what shape I want, and I'll go 16 by 9,",
+      "startMs": "138400",
+      "endMs": "142959",
+      "startTimeText": "2:18"
+    },
+    {
+      "text": "though 9 by 16, square, [music] and 4 by",
+      "startMs": "140760",
+      "endMs": "144760",
+      "startTimeText": "2:20"
+    },
+    {
+      "text": "3 are all there, too. And it has to",
+      "startMs": "142959",
+      "endMs": "146400",
+      "startTimeText": "2:22"
+    },
+    {
+      "text": "match on both, because if you build the",
+      "startMs": "144760",
+      "endMs": "147880",
+      "startTimeText": "2:24"
+    },
+    {
+      "text": "picture one shape and animate it",
+      "startMs": "146400",
+      "endMs": "149600",
+      "startTimeText": "2:26"
+    },
+    {
+      "text": "another, it comes back cropped or with",
+      "startMs": "147880",
+      "endMs": "151240",
+      "startTimeText": "2:27"
+    },
+    {
+      "text": "black bars down the side. [music] And it",
+      "startMs": "149600",
+      "endMs": "153280",
+      "startTimeText": "2:29"
+    },
+    {
+      "text": "sets that as its own setting, rather",
+      "startMs": "151240",
+      "endMs": "154880",
+      "startTimeText": "2:31"
+    },
+    {
+      "text": "than writing it into the prompt, because",
+      "startMs": "153280",
+      "endMs": "156600",
+      "startTimeText": "2:33"
+    },
+    {
+      "text": "models get confused when the prompt",
+      "startMs": "154880",
+      "endMs": "158520",
+      "startTimeText": "2:34"
+    },
+    {
+      "text": "describes one shape and the setting says",
+      "startMs": "156600",
+      "endMs": "160120",
+      "startTimeText": "2:36"
+    },
+    {
+      "text": "another. And that's everything locked",
+      "startMs": "158520",
+      "endMs": "161760",
+      "startTimeText": "2:38"
+    },
+    {
+      "text": "now, apart from the length and whether",
+      "startMs": "160120",
+      "endMs": "163360",
+      "startTimeText": "2:40"
+    },
+    {
+      "text": "there's sound, and those two change with",
+      "startMs": "161760",
+      "endMs": "165120",
+      "startTimeText": "2:41"
+    },
+    {
+      "text": "each one. Now, every prompt from here",
+      "startMs": "163360",
+      "endMs": "166880",
+      "startTimeText": "2:43"
+    },
+    {
+      "text": "opens the same way, and this is the bit",
+      "startMs": "165120",
+      "endMs": "168120",
+      "startTimeText": "2:45"
+    },
+    {
+      "text": "that makes the whole thing hold",
+      "startMs": "166880",
+      "endMs": "169600",
+      "startTimeText": "2:46"
+    },
+    {
+      "text": "together. It starts by listing",
+      "startMs": "168120",
+      "endMs": "171600",
+      "startTimeText": "2:48"
+    },
+    {
+      "text": "everything that has to stay exactly as",
+      "startMs": "169600",
+      "endMs": "173840",
+      "startTimeText": "2:49"
+    },
+    {
+      "text": "it is. So, the color, the lighting, the",
+      "startMs": "171600",
+      "endMs": "175840",
+      "startTimeText": "2:51"
+    },
+    {
+      "text": "grain, and only then does it name the",
+      "startMs": "173840",
+      "endMs": "177120",
+      "startTimeText": "2:53"
+    },
+    {
+      "text": "one thing that's changing. [music]",
+      "startMs": "175840",
+      "endMs": "178440",
+      "startTimeText": "2:55"
+    },
+    {
+      "text": "That's what stops the background",
+      "startMs": "177120",
+      "endMs": "180239",
+      "startTimeText": "2:57"
+    },
+    {
+      "text": "shifting between two pictures, because a",
+      "startMs": "178440",
+      "endMs": "181880",
+      "startTimeText": "2:58"
+    },
+    {
+      "text": "shift there turns into a flicker the",
+      "startMs": "180239",
+      "endMs": "183600",
+      "startTimeText": "3:00"
+    },
+    {
+      "text": "second it moves. So, the first card",
+      "startMs": "181880",
+      "endMs": "185160",
+      "startTimeText": "3:01"
+    },
+    {
+      "text": "starts on an empty background, just a",
+      "startMs": "183600",
+      "endMs": "187280",
+      "startTimeText": "3:03"
+    },
+    {
+      "text": "flat warm paper color with nothing on it",
+      "startMs": "185160",
+      "endMs": "188920",
+      "startTimeText": "3:05"
+    },
+    {
+      "text": "at all. And every prompt and template I",
+      "startMs": "187280",
+      "endMs": "191080",
+      "startTimeText": "3:07"
+    },
+    {
+      "text": "use today is in one free kit linked",
+      "startMs": "188920",
+      "endMs": "192880",
+      "startTimeText": "3:08"
+    },
+    {
+      "text": "below. So, you can build these along",
+      "startMs": "191080",
+      "endMs": "194640",
+      "startTimeText": "3:11"
+    },
+    {
+      "text": "with me instead of pausing to copy",
+      "startMs": "192880",
+      "endMs": "196280",
+      "startTimeText": "3:12"
+    },
+    {
+      "text": "anything down. Everything after this",
+      "startMs": "194640",
+      "endMs": "197880",
+      "startTimeText": "3:14"
+    },
+    {
+      "text": "takes its color and its lighting from",
+      "startMs": "196280",
+      "endMs": "199840",
+      "startTimeText": "3:16"
+    },
+    {
+      "text": "that one. So, it's worth getting exact",
+      "startMs": "197880",
+      "endMs": "201519",
+      "startTimeText": "3:17"
+    },
+    {
+      "text": "before anything goes on top. Then that",
+      "startMs": "199840",
+      "endMs": "202840",
+      "startTimeText": "3:19"
+    },
+    {
+      "text": "same background goes back in as a",
+      "startMs": "201519",
+      "endMs": "204600",
+      "startTimeText": "3:21"
+    },
+    {
+      "text": "reference, and the words get added onto",
+      "startMs": "202840",
+      "endMs": "206160",
+      "startTimeText": "3:22"
+    },
+    {
+      "text": "it. And this is the finished card.",
+      "startMs": "204600",
+      "endMs": "207560",
+      "startTimeText": "3:24"
+    },
+    {
+      "text": "Honestly, it looks like something a",
+      "startMs": "206160",
+      "endMs": "209720",
+      "startTimeText": "3:26"
+    },
+    {
+      "text": "really top-tier designer made. The text",
+      "startMs": "207560",
+      "endMs": "211560",
+      "startTimeText": "3:27"
+    },
+    {
+      "text": "is unbelievably sharp, and that's the",
+      "startMs": "209720",
+      "endMs": "213320",
+      "startTimeText": "3:29"
+    },
+    {
+      "text": "point, because it was made as a picture,",
+      "startMs": "211560",
+      "endMs": "215239",
+      "startTimeText": "3:31"
+    },
+    {
+      "text": "rather than by a video model. So, now",
+      "startMs": "213320",
+      "endMs": "217040",
+      "startTimeText": "3:33"
+    },
+    {
+      "text": "I'll animate between those two pictures,",
+      "startMs": "215239",
+      "endMs": "221160",
+      "startTimeText": "3:35"
+    },
+    {
+      "text": "and it runs 5 seconds with no sound.",
+      "startMs": "217040",
+      "endMs": "221160",
+      "startTimeText": "3:37"
+    },
+    {
+      "text": "And every bit [music] of it fades into",
+      "startMs": "224200",
+      "endMs": "227320",
+      "startTimeText": "3:44"
+    },
+    {
+      "text": "place, and then stays exactly where it",
+      "startMs": "225480",
+      "endMs": "229600",
+      "startTimeText": "3:45"
+    },
+    {
+      "text": "lands. Then I'll do the 48 times card,",
+      "startMs": "227320",
+      "endMs": "230920",
+      "startTimeText": "3:47"
+    },
+    {
+      "text": "and it runs exactly the [music] same",
+      "startMs": "229600",
+      "endMs": "232800",
+      "startTimeText": "3:49"
+    },
+    {
+      "text": "way, just with a slight twist. So, I'll",
+      "startMs": "230920",
+      "endMs": "234560",
+      "startTimeText": "3:50"
+    },
+    {
+      "text": "start it on an empty mint background.",
+      "startMs": "232800",
+      "endMs": "236280",
+      "startTimeText": "3:52"
+    },
+    {
+      "text": "Then the words go on top of it off that",
+      "startMs": "234560",
+      "endMs": "238000",
+      "startTimeText": "3:54"
+    },
+    {
+      "text": "same background as the reference with",
+      "startMs": "236280",
+      "endMs": "239440",
+      "startTimeText": "3:56"
+    },
+    {
+      "text": "everything else held the same. And where",
+      "startMs": "238000",
+      "endMs": "241080",
+      "startTimeText": "3:58"
+    },
+    {
+      "text": "the first card faded in, this one",
+      "startMs": "239440",
+      "endMs": "242920",
+      "startTimeText": "3:59"
+    },
+    {
+      "text": "springs with a slight overshoot before",
+      "startMs": "241080",
+      "endMs": "244960",
+      "startTimeText": "4:01"
+    },
+    {
+      "text": "it settles. It's 5 seconds again with no",
+      "startMs": "242920",
+      "endMs": "248000",
+      "startTimeText": "4:02"
+    },
+    {
+      "text": "sound on it, either.",
+      "startMs": "244960",
+      "endMs": "248000",
+      "startTimeText": "4:04"
+    },
+    {
+      "text": "And that feels completely different off",
+      "startMs": "251080",
+      "endMs": "254240",
+      "startTimeText": "4:11"
+    },
+    {
+      "text": "exactly the same process. So, [music]",
+      "startMs": "252640",
+      "endMs": "256160",
+      "startTimeText": "4:12"
+    },
+    {
+      "text": "that's two finished motion graphics and",
+      "startMs": "254240",
+      "endMs": "257480",
+      "startTimeText": "4:14"
+    },
+    {
+      "text": "neither of them needed more than two",
+      "startMs": "256160",
+      "endMs": "259239",
+      "startTimeText": "4:16"
+    },
+    {
+      "text": "pictures and one sentence. But in both",
+      "startMs": "257480",
+      "endMs": "260880",
+      "startTimeText": "4:17"
+    },
+    {
+      "text": "of them, everything just appears where",
+      "startMs": "259239",
+      "endMs": "262600",
+      "startTimeText": "4:19"
+    },
+    {
+      "text": "it's meant to be. And that stops working",
+      "startMs": "260880",
+      "endMs": "264120",
+      "startTimeText": "4:20"
+    },
+    {
+      "text": "the moment something has to move across",
+      "startMs": "262600",
+      "endMs": "265560",
+      "startTimeText": "4:22"
+    },
+    {
+      "text": "the screen. And the fix to that is a",
+      "startMs": "264120",
+      "endMs": "267040",
+      "startTimeText": "4:24"
+    },
+    {
+      "text": "third picture in the middle. So, this",
+      "startMs": "265560",
+      "endMs": "268840",
+      "startTimeText": "4:25"
+    },
+    {
+      "text": "one is a logo animation and I'll get it",
+      "startMs": "267040",
+      "endMs": "270320",
+      "startTimeText": "4:27"
+    },
+    {
+      "text": "to invent the brand as well. And I'll",
+      "startMs": "268840",
+      "endMs": "271919",
+      "startTimeText": "4:28"
+    },
+    {
+      "text": "ask for something editorial because",
+      "startMs": "270320",
+      "endMs": "273600",
+      "startTimeText": "4:30"
+    },
+    {
+      "text": "those logos are usually designed really",
+      "startMs": "271919",
+      "endMs": "275280",
+      "startTimeText": "4:31"
+    },
+    {
+      "text": "well. It gives me Pharaoh, a company",
+      "startMs": "273600",
+      "endMs": "276880",
+      "startTimeText": "4:33"
+    },
+    {
+      "text": "that makes fonts and there's a proper",
+      "startMs": "275280",
+      "endMs": "278760",
+      "startTimeText": "4:35"
+    },
+    {
+      "text": "idea in the logo. The bottom of the R is",
+      "startMs": "276880",
+      "endMs": "280600",
+      "startTimeText": "4:36"
+    },
+    {
+      "text": "cut off flat at an angle and the cut is",
+      "startMs": "278760",
+      "endMs": "282480",
+      "startTimeText": "4:38"
+    },
+    {
+      "text": "filled in a dark red like the stained",
+      "startMs": "280600",
+      "endMs": "283880",
+      "startTimeText": "4:40"
+    },
+    {
+      "text": "edge of a book. And I like [music] that",
+      "startMs": "282480",
+      "endMs": "285480",
+      "startTimeText": "4:42"
+    },
+    {
+      "text": "it picks the look before it generates",
+      "startMs": "283880",
+      "endMs": "287120",
+      "startTimeText": "4:43"
+    },
+    {
+      "text": "anything because every picture after",
+      "startMs": "285480",
+      "endMs": "288600",
+      "startTimeText": "4:45"
+    },
+    {
+      "text": "this copies it. So, I'll need three",
+      "startMs": "287120",
+      "endMs": "290280",
+      "startTimeText": "4:47"
+    },
+    {
+      "text": "pictures this time starting with empty",
+      "startMs": "288600",
+      "endMs": "291919",
+      "startTimeText": "4:48"
+    },
+    {
+      "text": "black and that needs to be completely",
+      "startMs": "290280",
+      "endMs": "293760",
+      "startTimeText": "4:50"
+    },
+    {
+      "text": "flat because any grain or shadow in",
+      "startMs": "291919",
+      "endMs": "295280",
+      "startTimeText": "4:51"
+    },
+    {
+      "text": "there starts moving under the letters",
+      "startMs": "293760",
+      "endMs": "296840",
+      "startTimeText": "4:53"
+    },
+    {
+      "text": "the second it animates. Then I'll get",
+      "startMs": "295280",
+      "endMs": "298760",
+      "startTimeText": "4:55"
+    },
+    {
+      "text": "the R on its own sitting dead center at",
+      "startMs": "296840",
+      "endMs": "300280",
+      "startTimeText": "4:56"
+    },
+    {
+      "text": "about half the height of the frame. And",
+      "startMs": "298760",
+      "endMs": "301840",
+      "startTimeText": "4:58"
+    },
+    {
+      "text": "that's exactly the shape I wanted. So,",
+      "startMs": "300280",
+      "endMs": "303360",
+      "startTimeText": "5:00"
+    },
+    {
+      "text": "the full word gets built straight off",
+      "startMs": "301840",
+      "endMs": "304640",
+      "startTimeText": "5:01"
+    },
+    {
+      "text": "that picture [music] and the lettering",
+      "startMs": "303360",
+      "endMs": "306400",
+      "startTimeText": "5:03"
+    },
+    {
+      "text": "carries across instead of me describing",
+      "startMs": "304640",
+      "endMs": "308040",
+      "startTimeText": "5:04"
+    },
+    {
+      "text": "it all again. The cut leg tucking under",
+      "startMs": "306400",
+      "endMs": "309520",
+      "startTimeText": "5:06"
+    },
+    {
+      "text": "the O is what gets me and that's the",
+      "startMs": "308040",
+      "endMs": "311040",
+      "startTimeText": "5:08"
+    },
+    {
+      "text": "sort of detail you'd normally be paying",
+      "startMs": "309520",
+      "endMs": "312560",
+      "startTimeText": "5:09"
+    },
+    {
+      "text": "someone for. So, now I'll set up the",
+      "startMs": "311040",
+      "endMs": "314600",
+      "startTimeText": "5:11"
+    },
+    {
+      "text": "animation and the black goes in as the",
+      "startMs": "312560",
+      "endMs": "316440",
+      "startTimeText": "5:12"
+    },
+    {
+      "text": "start with the full word as the end. And",
+      "startMs": "314600",
+      "endMs": "318040",
+      "startTimeText": "5:14"
+    },
+    {
+      "text": "the R goes in between them as a rough",
+      "startMs": "316440",
+      "endMs": "321600",
+      "startTimeText": "5:16"
+    },
+    {
+      "text": "target to head towards on the way.",
+      "startMs": "318040",
+      "endMs": "321600",
+      "startTimeText": "5:18"
+    },
+    {
+      "text": "And honestly, that came out great. The R",
+      "startMs": "325600",
+      "endMs": "329200",
+      "startTimeText": "5:25"
+    },
+    {
+      "text": "fades in on its own first, then it",
+      "startMs": "327560",
+      "endMs": "330680",
+      "startTimeText": "5:27"
+    },
+    {
+      "text": "shrinks down into place and the rest of",
+      "startMs": "329200",
+      "endMs": "332400",
+      "startTimeText": "5:29"
+    },
+    {
+      "text": "the letters fill in around it all in 6",
+      "startMs": "330680",
+      "endMs": "334120",
+      "startTimeText": "5:30"
+    },
+    {
+      "text": "seconds. But that's still just one thing",
+      "startMs": "332400",
+      "endMs": "335720",
+      "startTimeText": "5:32"
+    },
+    {
+      "text": "moving on a black screen and most of",
+      "startMs": "334120",
+      "endMs": "337320",
+      "startTimeText": "5:34"
+    },
+    {
+      "text": "what you'd actually need has way more",
+      "startMs": "335720",
+      "endMs": "338919",
+      "startTimeText": "5:35"
+    },
+    {
+      "text": "going on than that. So, this time I'm",
+      "startMs": "337320",
+      "endMs": "340760",
+      "startTimeText": "5:37"
+    },
+    {
+      "text": "chaining the pictures together instead.",
+      "startMs": "338919",
+      "endMs": "342160",
+      "startTimeText": "5:38"
+    },
+    {
+      "text": "This one's a settings panel that looks",
+      "startMs": "340760",
+      "endMs": "343840",
+      "startTimeText": "5:40"
+    },
+    {
+      "text": "like something off an iPhone. You flip",
+      "startMs": "342160",
+      "endMs": "345880",
+      "startTimeText": "5:42"
+    },
+    {
+      "text": "one master toggle, everything underneath",
+      "startMs": "343840",
+      "endMs": "347840",
+      "startTimeText": "5:43"
+    },
+    {
+      "text": "turns on with it, then you hit save and",
+      "startMs": "345880",
+      "endMs": "349680",
+      "startTimeText": "5:45"
+    },
+    {
+      "text": "it confirms. By the way, the Higgs field",
+      "startMs": "347840",
+      "endMs": "351120",
+      "startTimeText": "5:47"
+    },
+    {
+      "text": "link is down in the description if you",
+      "startMs": "349680",
+      "endMs": "352640",
+      "startTimeText": "5:49"
+    },
+    {
+      "text": "want to follow along and have your own",
+      "startMs": "351120",
+      "endMs": "354600",
+      "startTimeText": "5:51"
+    },
+    {
+      "text": "first motion graphic by the end of this.",
+      "startMs": "352640",
+      "endMs": "356400",
+      "startTimeText": "5:52"
+    },
+    {
+      "text": "And I'll do these one at a time so I can",
+      "startMs": "354600",
+      "endMs": "358200",
+      "startTimeText": "5:54"
+    },
+    {
+      "text": "check each one before it moves on. So",
+      "startMs": "356400",
+      "endMs": "359680",
+      "startTimeText": "5:56"
+    },
+    {
+      "text": "the first is the panel just sitting",
+      "startMs": "358200",
+      "endMs": "361320",
+      "startTimeText": "5:58"
+    },
+    {
+      "text": "there, everything switched off and save",
+      "startMs": "359680",
+      "endMs": "362720",
+      "startTimeText": "5:59"
+    },
+    {
+      "text": "grayed out. Then I turn the master",
+      "startMs": "361320",
+      "endMs": "364920",
+      "startTimeText": "6:01"
+    },
+    {
+      "text": "toggle on and save wakes up blue. Then",
+      "startMs": "362720",
+      "endMs": "366720",
+      "startTimeText": "6:02"
+    },
+    {
+      "text": "the other three rows follow it on and",
+      "startMs": "364920",
+      "endMs": "368320",
+      "startTimeText": "6:04"
+    },
+    {
+      "text": "the cursor starts moving down towards",
+      "startMs": "366720",
+      "endMs": "370000",
+      "startTimeText": "6:06"
+    },
+    {
+      "text": "save. And the last one is straight after",
+      "startMs": "368320",
+      "endMs": "371200",
+      "startTimeText": "6:08"
+    },
+    {
+      "text": "the click where the save button",
+      "startMs": "370000",
+      "endMs": "373040",
+      "startTimeText": "6:10"
+    },
+    {
+      "text": "collapses into a green tick. And this",
+      "startMs": "371200",
+      "endMs": "374760",
+      "startTimeText": "6:11"
+    },
+    {
+      "text": "turned out really impressive because you",
+      "startMs": "373040",
+      "endMs": "376200",
+      "startTimeText": "6:13"
+    },
+    {
+      "text": "genuinely can't tell it's four different",
+      "startMs": "374760",
+      "endMs": "377880",
+      "startTimeText": "6:14"
+    },
+    {
+      "text": "pictures. And there's one thing I always",
+      "startMs": "376200",
+      "endMs": "379560",
+      "startTimeText": "6:16"
+    },
+    {
+      "text": "add when it's an interface. So the",
+      "startMs": "377880",
+      "endMs": "381400",
+      "startTimeText": "6:17"
+    },
+    {
+      "text": "cursor has to land on the toggle at the",
+      "startMs": "379560",
+      "endMs": "383400",
+      "startTimeText": "6:19"
+    },
+    {
+      "text": "right edge, not on the text because",
+      "startMs": "381400",
+      "endMs": "384880",
+      "startTimeText": "6:21"
+    },
+    {
+      "text": "that's the bit that looks wrong if it's",
+      "startMs": "383400",
+      "endMs": "386400",
+      "startTimeText": "6:23"
+    },
+    {
+      "text": "off. And it throws in one I wouldn't",
+      "startMs": "384880",
+      "endMs": "387960",
+      "startTimeText": "6:24"
+    },
+    {
+      "text": "have thought of. So the toggle circles",
+      "startMs": "386400",
+      "endMs": "389840",
+      "startTimeText": "6:26"
+    },
+    {
+      "text": "stay perfectly round or they stretch as",
+      "startMs": "387960",
+      "endMs": "391720",
+      "startTimeText": "6:27"
+    },
+    {
+      "text": "they slide. Then all four go in as one",
+      "startMs": "389840",
+      "endMs": "393200",
+      "startTimeText": "6:29"
+    },
+    {
+      "text": "eight second take with the third in the",
+      "startMs": "391720",
+      "endMs": "394880",
+      "startTimeText": "6:31"
+    },
+    {
+      "text": "middle so the cursor travels down to",
+      "startMs": "393200",
+      "endMs": "396440",
+      "startTimeText": "6:33"
+    },
+    {
+      "text": "save. And this is the first one with",
+      "startMs": "394880",
+      "endMs": "398480",
+      "startTimeText": "6:34"
+    },
+    {
+      "text": "sound and it's interface noise only. So",
+      "startMs": "396440",
+      "endMs": "400240",
+      "startTimeText": "6:36"
+    },
+    {
+      "text": "there's a whoosh on the cursor, a click",
+      "startMs": "398480",
+      "endMs": "402000",
+      "startTimeText": "6:38"
+    },
+    {
+      "text": "as the toggles flip, a deeper click on",
+      "startMs": "400240",
+      "endMs": "403880",
+      "startTimeText": "6:40"
+    },
+    {
+      "text": "the press, and a pop on the check mark.",
+      "startMs": "402000",
+      "endMs": "405440",
+      "startTimeText": "6:42"
+    },
+    {
+      "text": "And sound does way more for a motion",
+      "startMs": "403880",
+      "endMs": "407160",
+      "startTimeText": "6:43"
+    },
+    {
+      "text": "graphic than people give it credit for.",
+      "startMs": "405440",
+      "endMs": "408960",
+      "startTimeText": "6:45"
+    },
+    {
+      "text": "A click landing at the exact moment the",
+      "startMs": "407160",
+      "endMs": "410720",
+      "startTimeText": "6:47"
+    },
+    {
+      "text": "toggle flips is what sells it as an",
+      "startMs": "408960",
+      "endMs": "412560",
+      "startTimeText": "6:48"
+    },
+    {
+      "text": "actual interface instead of a just a",
+      "startMs": "410720",
+      "endMs": "415600",
+      "startTimeText": "6:50"
+    },
+    {
+      "text": "picture that moves.",
+      "startMs": "412560",
+      "endMs": "415600",
+      "startTimeText": "6:52"
+    },
+    {
+      "text": "And honestly, that came out really",
+      "startMs": "421600",
+      "endMs": "424720",
+      "startTimeText": "7:01"
+    },
+    {
+      "text": "clean. It runs itself from start to",
+      "startMs": "423040",
+      "endMs": "426480",
+      "startTimeText": "7:03"
+    },
+    {
+      "text": "finish and every click lands exactly",
+      "startMs": "424720",
+      "endMs": "427960",
+      "startTimeText": "7:04"
+    },
+    {
+      "text": "where it should. But every single one of",
+      "startMs": "426480",
+      "endMs": "429919",
+      "startTimeText": "7:06"
+    },
+    {
+      "text": "these has the camera bolted to the floor",
+      "startMs": "427960",
+      "endMs": "431400",
+      "startTimeText": "7:07"
+    },
+    {
+      "text": "and that's not what a proper ad looks",
+      "startMs": "429919",
+      "endMs": "433120",
+      "startTimeText": "7:09"
+    },
+    {
+      "text": "like. So the last one I'm going to make",
+      "startMs": "431400",
+      "endMs": "435040",
+      "startTimeText": "7:11"
+    },
+    {
+      "text": "is a product ad and this time the camera",
+      "startMs": "433120",
+      "endMs": "436680",
+      "startTimeText": "7:13"
+    },
+    {
+      "text": "is the thing doing the work. I'll ask",
+      "startMs": "435040",
+      "endMs": "439000",
+      "startTimeText": "7:15"
+    },
+    {
+      "text": "for hyper motion, fast camera, 3D",
+      "startMs": "436680",
+      "endMs": "440320",
+      "startTimeText": "7:16"
+    },
+    {
+      "text": "render, and say it should pick the",
+      "startMs": "439000",
+      "endMs": "442160",
+      "startTimeText": "7:19"
+    },
+    {
+      "text": "product too, something with materials",
+      "startMs": "440320",
+      "endMs": "443400",
+      "startTimeText": "7:20"
+    },
+    {
+      "text": "worth shooting. It goes with a",
+      "startMs": "442160",
+      "endMs": "445360",
+      "startTimeText": "7:22"
+    },
+    {
+      "text": "patisserie candy bar called Halo. And it",
+      "startMs": "443400",
+      "endMs": "446680",
+      "startTimeText": "7:23"
+    },
+    {
+      "text": "picks that because it gives four",
+      "startMs": "445360",
+      "endMs": "448560",
+      "startTimeText": "7:25"
+    },
+    {
+      "text": "materials that all behave differently on",
+      "startMs": "446680",
+      "endMs": "450560",
+      "startTimeText": "7:26"
+    },
+    {
+      "text": "camera. You've got matte paper, foil,",
+      "startMs": "448560",
+      "endMs": "452400",
+      "startTimeText": "7:28"
+    },
+    {
+      "text": "stamped gold, glossy chocolate, and",
+      "startMs": "450560",
+      "endMs": "453919",
+      "startTimeText": "7:30"
+    },
+    {
+      "text": "molten caramel. And that's a better",
+      "startMs": "452400",
+      "endMs": "455160",
+      "startTimeText": "7:32"
+    },
+    {
+      "text": "reason than I'd have come up with",
+      "startMs": "453919",
+      "endMs": "456520",
+      "startTimeText": "7:33"
+    },
+    {
+      "text": "because when the camera's moving that",
+      "startMs": "455160",
+      "endMs": "458320",
+      "startTimeText": "7:35"
+    },
+    {
+      "text": "fast, the only thing you really see is",
+      "startMs": "456520",
+      "endMs": "460240",
+      "startTimeText": "7:36"
+    },
+    {
+      "text": "light sliding across the surfaces. And",
+      "startMs": "458320",
+      "endMs": "461800",
+      "startTimeText": "7:38"
+    },
+    {
+      "text": "the product sheet came out gorgeous.",
+      "startMs": "460240",
+      "endMs": "463480",
+      "startTimeText": "7:40"
+    },
+    {
+      "text": "That caramel pull between the two halves",
+      "startMs": "461800",
+      "endMs": "465200",
+      "startTimeText": "7:41"
+    },
+    {
+      "text": "is the shot, and it's what decides how",
+      "startMs": "463480",
+      "endMs": "466920",
+      "startTimeText": "7:43"
+    },
+    {
+      "text": "the bar looks for everything after it.",
+      "startMs": "465200",
+      "endMs": "467840",
+      "startTimeText": "7:45"
+    },
+    {
+      "text": "Then I'll have it lay out the",
+      "startMs": "466920",
+      "endMs": "469640",
+      "startTimeText": "7:46"
+    },
+    {
+      "text": "storyboard, and I'll put in one rule of",
+      "startMs": "467840",
+      "endMs": "471200",
+      "startTimeText": "7:47"
+    },
+    {
+      "text": "my own, to not add numbers in the",
+      "startMs": "469640",
+      "endMs": "473040",
+      "startTimeText": "7:49"
+    },
+    {
+      "text": "storyboard, as they usually end up in",
+      "startMs": "471200",
+      "endMs": "474640",
+      "startTimeText": "7:51"
+    },
+    {
+      "text": "the video and mess everything up. And",
+      "startMs": "473040",
+      "endMs": "476320",
+      "startTimeText": "7:53"
+    },
+    {
+      "text": "the board came out exactly right, and",
+      "startMs": "474640",
+      "endMs": "477760",
+      "startTimeText": "7:54"
+    },
+    {
+      "text": "every panel looks like it came off the",
+      "startMs": "476320",
+      "endMs": "479240",
+      "startTimeText": "7:56"
+    },
+    {
+      "text": "same shoot. Then I'll have it animate",
+      "startMs": "477760",
+      "endMs": "480960",
+      "startTimeText": "7:57"
+    },
+    {
+      "text": "the whole thing into 18 seconds of",
+      "startMs": "479240",
+      "endMs": "482800",
+      "startTimeText": "7:59"
+    },
+    {
+      "text": "video. Both the sheet and the board go",
+      "startMs": "480960",
+      "endMs": "484440",
+      "startTimeText": "8:00"
+    },
+    {
+      "text": "in as references, and neither one is the",
+      "startMs": "482800",
+      "endMs": "486040",
+      "startTimeText": "8:02"
+    },
+    {
+      "text": "start frame, because if you hand it a",
+      "startMs": "484440",
+      "endMs": "488040",
+      "startTimeText": "8:04"
+    },
+    {
+      "text": "grid as the start frame, it animates the",
+      "startMs": "486040",
+      "endMs": "490080",
+      "startTimeText": "8:06"
+    },
+    {
+      "text": "grid, and you end up with six panels",
+      "startMs": "488040",
+      "endMs": "491880",
+      "startTimeText": "8:08"
+    },
+    {
+      "text": "sliding around instead of one video. So,",
+      "startMs": "490080",
+      "endMs": "493400",
+      "startTimeText": "8:10"
+    },
+    {
+      "text": "the sheet is what tells it what the bar",
+      "startMs": "491880",
+      "endMs": "495440",
+      "startTimeText": "8:11"
+    },
+    {
+      "text": "looks like, and the board sets the order",
+      "startMs": "493400",
+      "endMs": "497160",
+      "startTimeText": "8:13"
+    },
+    {
+      "text": "the shots come in. Everything else is",
+      "startMs": "495440",
+      "endMs": "498919",
+      "startTimeText": "8:15"
+    },
+    {
+      "text": "down to the camera, and it only stops",
+      "startMs": "497160",
+      "endMs": "500480",
+      "startTimeText": "8:17"
+    },
+    {
+      "text": "twice in the whole thing. And that's on",
+      "startMs": "498919",
+      "endMs": "502240",
+      "startTimeText": "8:18"
+    },
+    {
+      "text": "purpose, because those two stops are the",
+      "startMs": "500480",
+      "endMs": "503840",
+      "startTimeText": "8:20"
+    },
+    {
+      "text": "only moments the word Halo can sit",
+      "startMs": "502240",
+      "endMs": "505840",
+      "startTimeText": "8:22"
+    },
+    {
+      "text": "still, and text falls apart the second a",
+      "startMs": "503840",
+      "endMs": "509560",
+      "startTimeText": "8:23"
+    },
+    {
+      "text": "fast camera drags it around.",
+      "startMs": "505840",
+      "endMs": "509560",
+      "startTimeText": "8:25"
+    },
+    {
+      "text": "And this last one is genuinely crazy. It",
+      "startMs": "525560",
+      "endMs": "529400",
+      "startTimeText": "8:45"
+    },
+    {
+      "text": "runs the full 18 seconds without a",
+      "startMs": "527720",
+      "endMs": "531320",
+      "startTimeText": "8:47"
+    },
+    {
+      "text": "single cut in it, and honestly, it looks",
+      "startMs": "529400",
+      "endMs": "532800",
+      "startTimeText": "8:49"
+    },
+    {
+      "text": "really expensive. I love that the",
+      "startMs": "531320",
+      "endMs": "534520",
+      "startTimeText": "8:51"
+    },
+    {
+      "text": "caramel actually behaves like caramel",
+      "startMs": "532800",
+      "endMs": "535920",
+      "startTimeText": "8:52"
+    },
+    {
+      "text": "when the camera spirals through it,",
+      "startMs": "534520",
+      "endMs": "537360",
+      "startTimeText": "8:54"
+    },
+    {
+      "text": "because that's the part I was sure it'd",
+      "startMs": "535920",
+      "endMs": "539000",
+      "startTimeText": "8:55"
+    },
+    {
+      "text": "get wrong. And once you've got this set",
+      "startMs": "537360",
+      "endMs": "540560",
+      "startTimeText": "8:57"
+    },
+    {
+      "text": "up, you can make title cards, logo",
+      "startMs": "539000",
+      "endMs": "542440",
+      "startTimeText": "8:59"
+    },
+    {
+      "text": "animations, UI demos for your own",
+      "startMs": "540560",
+      "endMs": "544400",
+      "startTimeText": "9:00"
+    },
+    {
+      "text": "product, explainer graphics, anything",
+      "startMs": "542440",
+      "endMs": "545960",
+      "startTimeText": "9:02"
+    },
+    {
+      "text": "you'd normally be opening After Effects",
+      "startMs": "544400",
+      "endMs": "547480",
+      "startTimeText": "9:04"
+    },
+    {
+      "text": "for. And the whole thing comes down to",
+      "startMs": "545960",
+      "endMs": "549480",
+      "startTimeText": "9:05"
+    },
+    {
+      "text": "one idea. So, make the pictures first,",
+      "startMs": "547480",
+      "endMs": "551000",
+      "startTimeText": "9:07"
+    },
+    {
+      "text": "and let it animate between them. Go",
+      "startMs": "549480",
+      "endMs": "552440",
+      "startTimeText": "9:09"
+    },
+    {
+      "text": "ahead and set Higgs Field up through the",
+      "startMs": "551000",
+      "endMs": "554240",
+      "startTimeText": "9:11"
+    },
+    {
+      "text": "link down in the description, and try it",
+      "startMs": "552440",
+      "endMs": "555880",
+      "startTimeText": "9:12"
+    },
+    {
+      "text": "today. Thank you for watching, and I'll",
+      "startMs": "554240",
+      "endMs": "559000",
+      "startTimeText": "9:14"
+    },
+    {
+      "text": "see you in the next one.",
+      "startMs": "555880",
+      "endMs": "559000",
+      "startTimeText": "9:15"
+    }
+  ],
+  "transcript_only_text": " Making  motion  graphics  the  normal  way \n means  hours  in  After  Effects  setting  up \n layers,  key  frames,  and  endless  little \n tweaks.  But  with  Claude  Opus  5,  you  can \n make  results  like  these  straight  out  of \n the  chat.  There's  one  technique  you  need \n first  though,  because  every  video  model \n out  there  messes  up  text  the  second  it \n tries  to  animate  a  word.  So  in  this \n video,  I'll  show  you  exactly  how  to  get \n around  that.  And  by  the  end,  you'll  see \n how  easy  it  is  to  make  one  without \n opening  [music]  a  design  tool.  The  first \n thing  to  do  is  connect  Higgsfield  to \n Claude.  So  go  ahead  and  open  Higgsfield \n through  the  link  down  in  the  description \n and  head  to  the  MCP  page.  Keep  the \n Claude  tab  selected  in  the  MCP  toggle \n on.  Then  copy  the  connector  URL  set \n under  them.  Head  over  to  Claude,  go  into \n customize,  then  connectors.  Add  a  new \n one,  name  it  Higgsfield,  paste  the  URL \n in,  then  connect  and  sign  in.  Every  chat \n after  this  already  has  the  models  ready, \n and  it  runs  on  your  own  Higgsfield \n credits.  So  just  make  sure  your  plan \n covers  what  you're  using.  Make  sure \n you're  on  Opus  5  as  well,  because  that's \n the  model  doing  all  the  thinking  here. \n So,  I'll  start  by  explaining  to  Claude \n that  we'll  be  working  on  motion  graphics \n across  four  levels  of  complexity, \n ranging  from  the  most  basic  to  the  most \n advanced.  It  returns  the  complete \n workflow  follow  to  handle  text \n effectively.  We  start  by  generating \n stills  using  an  image  model,  then  feed \n those  stills  into  the  video  generation \n model  to  lock  in  the  visuals  based  on \n the  screens  we've  already  approved. \n Then,  I'll  ask  for  some  ideas  to  get \n started.  Nothing  fancy,  just  something \n simple  to  warm  up  with.  And  it  comes \n back  with  the  simplest  yet  functional \n motion  graphic  we  can  create.  A  stat \n card  with  one  big  number  and  a  line \n underneath  it.  And  it  brings  four \n directions  we  can  follow,  with  text, \n colors,  and  mood  already  sorted  for  each \n one.  I'll  take  the  2.4  million  one  and \n the  48  times  one.  And  then  it  walks  me \n through  the  settings.  And  that  bit's  way \n simpler  than  it  looks.  It  starts  with \n the  image  model,  and  there's  GPT  [music] \n Image  2,  both  Nano  Bananas,  Seedream, \n Soul,  and  Cinema  Studio  Image.  I'll  take \n GPT  Image  2,  and  it's  got  resolution  at \n 1K,  2K,  or  4K,  and  quality  at  low, \n medium,  or  high.  Quality  defaults  to \n low,  and  this  is  all  text  that  people \n are  going  to  be  reading  off  the  screen. \n So  I'll  go  4K  and  high  and  get  it \n looking  really  clean.  Then  it  moves  on \n to  the  video  model,  and  [music]  it's \n SeaDance,  Cling,  Vio,  Gemini  Omni  Flash, \n or  Cinema  Studio.  They  can  all  do  this, \n so  it's  really  just  about  the  kind  of \n movement  you  want.  I'll  take  Sea  Dance, \n [music]  and  it  comes  in  three  versions. \n 2.5  runs  from  4  to  30  seconds  at  up  to \n 1080p.  2.0  stops  at  15  seconds,  but \n pushes  to  4K.  And  Mini  is  the  cheap  one \n that  caps  at  720p.  Nothing  here  needs  30 \n seconds  or  4K,  so  any  of  the  three  would \n do  the  job,  and  I'll  take  2.5  at  1080p \n because  it's  the  newest.  Then  it  asks \n what  shape  I  want,  and  I'll  go  16  by  9, \n though  9  by  16,  square,  [music]  and  4  by \n 3  are  all  there,  too.  And  it  has  to \n match  on  both,  because  if  you  build  the \n picture  one  shape  and  animate  it \n another,  it  comes  back  cropped  or  with \n black  bars  down  the  side.  [music]  And  it \n sets  that  as  its  own  setting,  rather \n than  writing  it  into  the  prompt,  because \n models  get  confused  when  the  prompt \n describes  one  shape  and  the  setting  says \n another.  And  that's  everything  locked \n now,  apart  from  the  length  and  whether \n there's  sound,  and  those  two  change  with \n each  one.  Now,  every  prompt  from  here \n opens  the  same  way,  and  this  is  the  bit \n that  makes  the  whole  thing  hold \n together.  It  starts  by  listing \n everything  that  has  to  stay  exactly  as \n it  is.  So,  the  color,  the  lighting,  the \n grain,  and  only  then  does  it  name  the \n one  thing  that's  changing.  [music] \n That's  what  stops  the  background \n shifting  between  two  pictures,  because  a \n shift  there  turns  into  a  flicker  the \n second  it  moves.  So,  the  first  card \n starts  on  an  empty  background,  just  a \n flat  warm  paper  color  with  nothing  on  it \n at  all.  And  every  prompt  and  template  I \n use  today  is  in  one  free  kit  linked \n below.  So,  you  can  build  these  along \n with  me  instead  of  pausing  to  copy \n anything  down.  Everything  after  this \n takes  its  color  and  its  lighting  from \n that  one.  So,  it's  worth  getting  exact \n before  anything  goes  on  top.  Then  that \n same  background  goes  back  in  as  a \n reference,  and  the  words  get  added  onto \n it.  And  this  is  the  finished  card. \n Honestly,  it  looks  like  something  a \n really  top-tier  designer  made.  The  text \n is  unbelievably  sharp,  and  that's  the \n point,  because  it  was  made  as  a  picture, \n rather  than  by  a  video  model.  So,  now \n I'll  animate  between  those  two  pictures, \n and  it  runs  5  seconds  with  no  sound. \n And  every  bit  [music]  of  it  fades  into \n place,  and  then  stays  exactly  where  it \n lands.  Then  I'll  do  the  48  times  card, \n and  it  runs  exactly  the  [music]  same \n way,  just  with  a  slight  twist.  So,  I'll \n start  it  on  an  empty  mint  background. \n Then  the  words  go  on  top  of  it  off  that \n same  background  as  the  reference  with \n everything  else  held  the  same.  And  where \n the  first  card  faded  in,  this  one \n springs  with  a  slight  overshoot  before \n it  settles.  It's  5  seconds  again  with  no \n sound  on  it,  either. \n And  that  feels  completely  different  off \n exactly  the  same  process.  So,  [music] \n that's  two  finished  motion  graphics  and \n neither  of  them  needed  more  than  two \n pictures  and  one  sentence.  But  in  both \n of  them,  everything  just  appears  where \n it's  meant  to  be.  And  that  stops  working \n the  moment  something  has  to  move  across \n the  screen.  And  the  fix  to  that  is  a \n third  picture  in  the  middle.  So,  this \n one  is  a  logo  animation  and  I'll  get  it \n to  invent  the  brand  as  well.  And  I'll \n ask  for  something  editorial  because \n those  logos  are  usually  designed  really \n well.  It  gives  me  Pharaoh,  a  company \n that  makes  fonts  and  there's  a  proper \n idea  in  the  logo.  The  bottom  of  the  R  is \n cut  off  flat  at  an  angle  and  the  cut  is \n filled  in  a  dark  red  like  the  stained \n edge  of  a  book.  And  I  like  [music]  that \n it  picks  the  look  before  it  generates \n anything  because  every  picture  after \n this  copies  it.  So,  I'll  need  three \n pictures  this  time  starting  with  empty \n black  and  that  needs  to  be  completely \n flat  because  any  grain  or  shadow  in \n there  starts  moving  under  the  letters \n the  second  it  animates.  Then  I'll  get \n the  R  on  its  own  sitting  dead  center  at \n about  half  the  height  of  the  frame.  And \n that's  exactly  the  shape  I  wanted.  So, \n the  full  word  gets  built  straight  off \n that  picture  [music]  and  the  lettering \n carries  across  instead  of  me  describing \n it  all  again.  The  cut  leg  tucking  under \n the  O  is  what  gets  me  and  that's  the \n sort  of  detail  you'd  normally  be  paying \n someone  for.  So,  now  I'll  set  up  the \n animation  and  the  black  goes  in  as  the \n start  with  the  full  word  as  the  end.  And \n the  R  goes  in  between  them  as  a  rough \n target  to  head  towards  on  the  way. \n And  honestly,  that  came  out  great.  The  R \n fades  in  on  its  own  first,  then  it \n shrinks  down  into  place  and  the  rest  of \n the  letters  fill  in  around  it  all  in  6 \n seconds.  But  that's  still  just  one  thing \n moving  on  a  black  screen  and  most  of \n what  you'd  actually  need  has  way  more \n going  on  than  that.  So,  this  time  I'm \n chaining  the  pictures  together  instead. \n This  one's  a  settings  panel  that  looks \n like  something  off  an  iPhone.  You  flip \n one  master  toggle,  everything  underneath \n turns  on  with  it,  then  you  hit  save  and \n it  confirms.  By  the  way,  the  Higgs  field \n link  is  down  in  the  description  if  you \n want  to  follow  along  and  have  your  own \n first  motion  graphic  by  the  end  of  this. \n And  I'll  do  these  one  at  a  time  so  I  can \n check  each  one  before  it  moves  on.  So \n the  first  is  the  panel  just  sitting \n there,  everything  switched  off  and  save \n grayed  out.  Then  I  turn  the  master \n toggle  on  and  save  wakes  up  blue.  Then \n the  other  three  rows  follow  it  on  and \n the  cursor  starts  moving  down  towards \n save.  And  the  last  one  is  straight  after \n the  click  where  the  save  button \n collapses  into  a  green  tick.  And  this \n turned  out  really  impressive  because  you \n genuinely  can't  tell  it's  four  different \n pictures.  And  there's  one  thing  I  always \n add  when  it's  an  interface.  So  the \n cursor  has  to  land  on  the  toggle  at  the \n right  edge,  not  on  the  text  because \n that's  the  bit  that  looks  wrong  if  it's \n off.  And  it  throws  in  one  I  wouldn't \n have  thought  of.  So  the  toggle  circles \n stay  perfectly  round  or  they  stretch  as \n they  slide.  Then  all  four  go  in  as  one \n eight  second  take  with  the  third  in  the \n middle  so  the  cursor  travels  down  to \n save.  And  this  is  the  first  one  with \n sound  and  it's  interface  noise  only.  So \n there's  a  whoosh  on  the  cursor,  a  click \n as  the  toggles  flip,  a  deeper  click  on \n the  press,  and  a  pop  on  the  check  mark. \n And  sound  does  way  more  for  a  motion \n graphic  than  people  give  it  credit  for. \n A  click  landing  at  the  exact  moment  the \n toggle  flips  is  what  sells  it  as  an \n actual  interface  instead  of  a  just  a \n picture  that  moves. \n And  honestly,  that  came  out  really \n clean.  It  runs  itself  from  start  to \n finish  and  every  click  lands  exactly \n where  it  should.  But  every  single  one  of \n these  has  the  camera  bolted  to  the  floor \n and  that's  not  what  a  proper  ad  looks \n like.  So  the  last  one  I'm  going  to  make \n is  a  product  ad  and  this  time  the  camera \n is  the  thing  doing  the  work.  I'll  ask \n for  hyper  motion,  fast  camera,  3D \n render,  and  say  it  should  pick  the \n product  too,  something  with  materials \n worth  shooting.  It  goes  with  a \n patisserie  candy  bar  called  Halo.  And  it \n picks  that  because  it  gives  four \n materials  that  all  behave  differently  on \n camera.  You've  got  matte  paper,  foil, \n stamped  gold,  glossy  chocolate,  and \n molten  caramel.  And  that's  a  better \n reason  than  I'd  have  come  up  with \n because  when  the  camera's  moving  that \n fast,  the  only  thing  you  really  see  is \n light  sliding  across  the  surfaces.  And \n the  product  sheet  came  out  gorgeous. \n That  caramel  pull  between  the  two  halves \n is  the  shot,  and  it's  what  decides  how \n the  bar  looks  for  everything  after  it. \n Then  I'll  have  it  lay  out  the \n storyboard,  and  I'll  put  in  one  rule  of \n my  own,  to  not  add  numbers  in  the \n storyboard,  as  they  usually  end  up  in \n the  video  and  mess  everything  up.  And \n the  board  came  out  exactly  right,  and \n every  panel  looks  like  it  came  off  the \n same  shoot.  Then  I'll  have  it  animate \n the  whole  thing  into  18  seconds  of \n video.  Both  the  sheet  and  the  board  go \n in  as  references,  and  neither  one  is  the \n start  frame,  because  if  you  hand  it  a \n grid  as  the  start  frame,  it  animates  the \n grid,  and  you  end  up  with  six  panels \n sliding  around  instead  of  one  video.  So, \n the  sheet  is  what  tells  it  what  the  bar \n looks  like,  and  the  board  sets  the  order \n the  shots  come  in.  Everything  else  is \n down  to  the  camera,  and  it  only  stops \n twice  in  the  whole  thing.  And  that's  on \n purpose,  because  those  two  stops  are  the \n only  moments  the  word  Halo  can  sit \n still,  and  text  falls  apart  the  second  a \n fast  camera  drags  it  around. \n And  this  last  one  is  genuinely  crazy.  It \n runs  the  full  18  seconds  without  a \n single  cut  in  it,  and  honestly,  it  looks \n really  expensive.  I  love  that  the \n caramel  actually  behaves  like  caramel \n when  the  camera  spirals  through  it, \n because  that's  the  part  I  was  sure  it'd \n get  wrong.  And  once  you've  got  this  set \n up,  you  can  make  title  cards,  logo \n animations,  UI  demos  for  your  own \n product,  explainer  graphics,  anything \n you'd  normally  be  opening  After  Effects \n for.  And  the  whole  thing  comes  down  to \n one  idea.  So,  make  the  pictures  first, \n and  let  it  animate  between  them.  Go \n ahead  and  set  Higgs  Field  up  through  the \n link  down  in  the  description,  and  try  it \n today.  Thank  you  for  watching,  and  I'll \n see  you  in  the  next  one.",
+  "language": "English",
+  "videoId": "8_pawKQCvpk",
+  "captionTracks": [
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=8_pawKQCvpk&ei=2GzZavCNFL2qybgPxJau6Aw&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792659272&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=60B415237B81F2281E2158A85D21AA7F5B4A2B12.395F45EC7A7DB457229F0A6A44CEA6352AEE5225&key=yt8&kind=asr&lang=en&variant=gemini",
+      "name": {
+        "simpleText": "English (auto-generated)"
+      },
+      "vssId": "a.en",
+      "languageCode": "en",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    }
+  ]
+}

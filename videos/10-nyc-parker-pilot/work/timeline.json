@@ -1,0 +1,722 @@
+{
+  "id": "10-nyc-parker-pilot",
+  "title": "What almost four million New York requests reveal",
+  "script_sha256": "4e2b01f01bf6f7706473d17d09a7b28ce6035b6071c9f0bfad2bfa44e853e846",
+  "duration": 38.528,
+  "beats": [
+    {
+      "text": "Almost four million New York requests. The biggest category wasn't noise.",
+      "scene": "overview",
+      "start": 0.0,
+      "end": 4.4267,
+      "voice_end": 4.2667
+    },
+    {
+      "text": "Illegal parking came first. Six hundred eleven thousand, two hundred eighty two requests.",
+      "scene": "parking",
+      "start": 4.4267,
+      "end": 9.664,
+      "voice_end": 9.504
+    },
+    {
+      "text": "I analyzed one year of three one one data. Here is the exact date window.",
+      "scene": "query",
+      "start": 9.664,
+      "end": 14.176,
+      "voice_end": 14.016
+    },
+    {
+      "text": "Then I filtered residential noise and grouped the requests by hour.",
+      "scene": "noise",
+      "start": 14.176,
+      "end": 18.0907,
+      "voice_end": 17.9307
+    },
+    {
+      "text": "The peak is ten to eleven at night. Sunday has the most requests.",
+      "scene": "noise-proof",
+      "start": 18.0907,
+      "end": 21.9413,
+      "voice_end": 21.7813
+    },
+    {
+      "text": "Heat follows a different pattern. Switch the same view to monthly requests.",
+      "scene": "heat",
+      "start": 21.9413,
+      "end": 26.2187,
+      "voice_end": 26.0587
+    },
+    {
+      "text": "January is around twenty two times August. And exactly one request was filed under trapping pigeon.",
+      "scene": "contrast",
+      "start": 26.2187,
+      "end": 32.2667,
+      "voice_end": 32.1067
+    },
+    {
+      "text": "Requests aren't unique incidents. Keep the queries and results with the chart, so anyone can check the story.",
+      "scene": "close",
+      "start": 32.2667,
+      "end": 38.528,
+      "voice_end": 38.368
+    }
+  ],
+  "words": [
+    {
+      "w": "Almost",
+      "s": 0.0,
+      "e": 0.52,
+      "alignment": "asr"
+    },
+    {
+      "w": "four",
+      "s": 0.52,
+      "e": 0.94,
+      "alignment": "asr"
+    },
+    {
+      "w": "million",
+      "s": 0.94,
+      "e": 1.18,
+      "alignment": "asr"
+    },
+    {
+      "w": "New",
+      "s": 1.18,
+      "e": 1.42,
+      "alignment": "asr"
+    },
+    {
+      "w": "York",
+      "s": 1.42,
+      "e": 1.64,
+      "alignment": "asr"
+    },
+    {
+      "w": "requests.",
+      "s": 1.64,
+      "e": 2.58,
+      "alignment": "asr"
+    },
+    {
+      "w": "The",
+      "s": 2.58,
+      "e": 2.7,
+      "alignment": "asr"
+    },
+    {
+      "w": "biggest",
+      "s": 2.7,
+      "e": 2.98,
+      "alignment": "asr"
+    },
+    {
+      "w": "category",
+      "s": 2.98,
+      "e": 3.42,
+      "alignment": "asr"
+    },
+    {
+      "w": "wasn't",
+      "s": 3.42,
+      "e": 3.92,
+      "alignment": "asr"
+    },
+    {
+      "w": "noise.",
+      "s": 3.92,
+      "e": 4.2667,
+      "alignment": "asr"
+    },
+    {
+      "w": "Illegal",
+      "s": 4.426666666666667,
+      "e": 4.886666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "parking",
+      "s": 4.886666666666667,
+      "e": 5.226666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "came",
+      "s": 5.226666666666667,
+      "e": 5.586666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "first.",
+      "s": 5.586666666666667,
+      "e": 6.626666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "Six",
+      "s": 6.626666666666667,
+      "e": 6.6866666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "hundred",
+      "s": 6.6866666666666665,
+      "e": 6.926666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "eleven",
+      "s": 6.926666666666667,
+      "e": 7.286666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "thousand,",
+      "s": 7.286666666666667,
+      "e": 8.126666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "two",
+      "s": 8.126666666666667,
+      "e": 8.206666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "hundred",
+      "s": 8.206666666666667,
+      "e": 8.466666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "eighty",
+      "s": 8.466666666666667,
+      "e": 8.646666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "two",
+      "s": 8.646666666666667,
+      "e": 8.946666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "requests.",
+      "s": 8.946666666666665,
+      "e": 9.503966666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "I",
+      "s": 9.664000000000001,
+      "e": 9.944,
+      "alignment": "asr"
+    },
+    {
+      "w": "analyzed",
+      "s": 9.944,
+      "e": 10.324000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "one",
+      "s": 10.324000000000002,
+      "e": 10.664000000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "year",
+      "s": 10.664000000000001,
+      "e": 10.844000000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "of",
+      "s": 10.844000000000001,
+      "e": 11.224000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "three",
+      "s": 11.224000000000002,
+      "e": 11.304000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "one",
+      "s": 11.304000000000002,
+      "e": 11.484000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "one",
+      "s": 11.484000000000002,
+      "e": 11.724000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "data.",
+      "s": 11.724000000000002,
+      "e": 12.484000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "Here",
+      "s": 12.484000000000002,
+      "e": 12.724000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "is",
+      "s": 12.724000000000002,
+      "e": 12.904000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 12.904000000000002,
+      "e": 13.104000000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "exact",
+      "s": 13.104000000000001,
+      "e": 13.404000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "date",
+      "s": 13.404000000000002,
+      "e": 13.664000000000001,
+      "alignment": "asr"
+    },
+    {
+      "w": "window.",
+      "s": 13.664000000000001,
+      "e": 14.016000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "Then",
+      "s": 14.176000000000002,
+      "e": 14.436000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "I",
+      "s": 14.436000000000002,
+      "e": 14.756000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "filtered",
+      "s": 14.756000000000002,
+      "e": 14.976000000000003,
+      "alignment": "asr"
+    },
+    {
+      "w": "residential",
+      "s": 14.976000000000003,
+      "e": 15.496000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "noise",
+      "s": 15.496000000000002,
+      "e": 16.016000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 16.016000000000002,
+      "e": 16.516000000000002,
+      "alignment": "asr"
+    },
+    {
+      "w": "grouped",
+      "s": 16.516000000000002,
+      "e": 16.736,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 16.736,
+      "e": 16.976000000000003,
+      "alignment": "asr"
+    },
+    {
+      "w": "requests",
+      "s": 16.976000000000003,
+      "e": 17.236,
+      "alignment": "asr"
+    },
+    {
+      "w": "by",
+      "s": 17.236,
+      "e": 17.596000000000004,
+      "alignment": "asr"
+    },
+    {
+      "w": "hour.",
+      "s": 17.596000000000004,
+      "e": 17.9307,
+      "alignment": "asr"
+    },
+    {
+      "w": "The",
+      "s": 18.090666666666667,
+      "e": 18.310666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "peak",
+      "s": 18.310666666666666,
+      "e": 18.470666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "is",
+      "s": 18.470666666666666,
+      "e": 18.730666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "ten",
+      "s": 18.730666666666668,
+      "e": 18.950666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "to",
+      "s": 18.950666666666667,
+      "e": 19.110666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "eleven",
+      "s": 19.110666666666667,
+      "e": 19.35066666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "at",
+      "s": 19.35066666666667,
+      "e": 19.590666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "night.",
+      "s": 19.590666666666667,
+      "e": 20.21066666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "Sunday",
+      "s": 20.21066666666667,
+      "e": 20.510666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "has",
+      "s": 20.510666666666665,
+      "e": 20.87066666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 20.87066666666667,
+      "e": 21.010666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "most",
+      "s": 21.010666666666665,
+      "e": 21.19066666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "requests.",
+      "s": 21.19066666666667,
+      "e": 21.781366666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "Heat",
+      "s": 21.941333333333333,
+      "e": 22.32133333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "follows",
+      "s": 22.32133333333333,
+      "e": 22.621333333333332,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 22.621333333333332,
+      "e": 22.881333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "different",
+      "s": 22.881333333333334,
+      "e": 23.081333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "pattern.",
+      "s": 23.081333333333333,
+      "e": 23.921333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "Switch",
+      "s": 23.921333333333333,
+      "e": 24.121333333333332,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 24.121333333333332,
+      "e": 24.401333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "same",
+      "s": 24.401333333333334,
+      "e": 24.641333333333332,
+      "alignment": "asr"
+    },
+    {
+      "w": "view",
+      "s": 24.641333333333332,
+      "e": 24.901333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "to",
+      "s": 24.901333333333334,
+      "e": 25.221333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "monthly",
+      "s": 25.221333333333334,
+      "e": 25.421333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "requests.",
+      "s": 25.421333333333333,
+      "e": 26.058633333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "January",
+      "s": 26.218666666666667,
+      "e": 26.758666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "is",
+      "s": 26.758666666666667,
+      "e": 27.098666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "around",
+      "s": 27.098666666666666,
+      "e": 27.458666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "twenty",
+      "s": 27.458666666666666,
+      "e": 27.758666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "two",
+      "s": 27.758666666666667,
+      "e": 27.958666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "times",
+      "s": 27.958666666666666,
+      "e": 28.238666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "August.",
+      "s": 28.238666666666667,
+      "e": 29.138666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "And",
+      "s": 29.138666666666666,
+      "e": 29.31866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "exactly",
+      "s": 29.31866666666667,
+      "e": 29.618666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "one",
+      "s": 29.618666666666666,
+      "e": 30.038666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "request",
+      "s": 30.038666666666668,
+      "e": 30.398666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "was",
+      "s": 30.398666666666667,
+      "e": 30.738666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "filed",
+      "s": 30.738666666666667,
+      "e": 31.038666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "under",
+      "s": 31.038666666666668,
+      "e": 31.318666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "trapping",
+      "s": 31.318666666666665,
+      "e": 31.65866666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "pigeon.",
+      "s": 31.65866666666667,
+      "e": 32.10666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "Requests",
+      "s": 32.266666666666666,
+      "e": 32.846666666666664,
+      "alignment": "asr"
+    },
+    {
+      "w": "aren't",
+      "s": 32.846666666666664,
+      "e": 33.14666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "unique",
+      "s": 33.14666666666667,
+      "e": 33.46666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "incidents.",
+      "s": 33.46666666666667,
+      "e": 34.50666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "Keep",
+      "s": 34.50666666666667,
+      "e": 34.68666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 34.68666666666667,
+      "e": 34.906666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "queries",
+      "s": 34.906666666666666,
+      "e": 35.166666666666664,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 35.166666666666664,
+      "e": 35.486666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "results",
+      "s": 35.486666666666665,
+      "e": 35.78666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "with",
+      "s": 35.78666666666667,
+      "e": 36.06666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 36.06666666666666,
+      "e": 36.20666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "chart,",
+      "s": 36.20666666666666,
+      "e": 36.806666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "so",
+      "s": 36.806666666666665,
+      "e": 36.986666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "anyone",
+      "s": 36.986666666666665,
+      "e": 37.306666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "can",
+      "s": 37.306666666666665,
+      "e": 37.56666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "check",
+      "s": 37.56666666666666,
+      "e": 37.806666666666665,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 37.806666666666665,
+      "e": 38.04666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "story.",
+      "s": 38.04666666666667,
+      "e": 38.36796666666667,
+      "alignment": "asr"
+    }
+  ],
+  "voice": "Local Kokoro af_heart, synthetic review voice",
+  "alignment_note": "Whisper tiny.en word timestamps, with interpolated unmatched words explicitly flagged. Not manually verified to +/- one frame."
+}

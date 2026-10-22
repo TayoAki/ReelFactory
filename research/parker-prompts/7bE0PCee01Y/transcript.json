@@ -1,0 +1,2299 @@
+{
+  "success": true,
+  "credits_remaining": 16853,
+  "credits_charged": 1,
+  "type": "video",
+  "url": "https://www.youtube.com/watch?v=7bE0PCee01Y",
+  "transcript": [
+    {
+      "text": "Claude is one of the best AI models out",
+      "startMs": "80",
+      "endMs": "3360",
+      "startTimeText": "0:00"
+    },
+    {
+      "text": "there and it still has no way of making",
+      "startMs": "1760",
+      "endMs": "5359",
+      "startTimeText": "0:01"
+    },
+    {
+      "text": "an actual AI video. But I wrote a prompt",
+      "startMs": "3360",
+      "endMs": "6960",
+      "startTimeText": "0:03"
+    },
+    {
+      "text": "that makes the whole thing possible and",
+      "startMs": "5359",
+      "endMs": "8880",
+      "startTimeText": "0:05"
+    },
+    {
+      "text": "simple enough to run in one chat. So I'm",
+      "startMs": "6960",
+      "endMs": "10480",
+      "startTimeText": "0:06"
+    },
+    {
+      "text": "giving that prompt away for free and by",
+      "startMs": "8880",
+      "endMs": "12000",
+      "startTimeText": "0:08"
+    },
+    {
+      "text": "the end you'll be making AI videos",
+      "startMs": "10480",
+      "endMs": "13759",
+      "startTimeText": "0:10"
+    },
+    {
+      "text": "automatically inside Claude without",
+      "startMs": "12000",
+      "endMs": "17719",
+      "startTimeText": "0:12"
+    },
+    {
+      "text": "opening any separate window.",
+      "startMs": "13759",
+      "endMs": "17719",
+      "startTimeText": "0:13"
+    },
+    {
+      "text": "It's a nice room.",
+      "startMs": "20240",
+      "endMs": "23800",
+      "startTimeText": "0:20"
+    },
+    {
+      "text": "[music]",
+      "startMs": "25545",
+      "endMs": "31039",
+      "startTimeText": "0:25"
+    },
+    {
+      "text": "Look at this beauty.",
+      "startMs": "27439",
+      "endMs": "31039",
+      "startTimeText": "0:27"
+    },
+    {
+      "text": "Which way?",
+      "startMs": "39360",
+      "endMs": "43320",
+      "startTimeText": "0:39"
+    },
+    {
+      "text": ">> Right.",
+      "startMs": "40320",
+      "endMs": "43320",
+      "startTimeText": "0:40"
+    },
+    {
+      "text": "[music]",
+      "startMs": "46505",
+      "endMs": "48525",
+      "startTimeText": "0:46"
+    },
+    {
+      "text": "For this whole workflow, we're using",
+      "startMs": "55039",
+      "endMs": "58399",
+      "startTimeText": "0:55"
+    },
+    {
+      "text": "Claude with the Higsfield MCP connected",
+      "startMs": "56480",
+      "endMs": "60000",
+      "startTimeText": "0:56"
+    },
+    {
+      "text": "to it. And the link for that is in the",
+      "startMs": "58399",
+      "endMs": "61120",
+      "startTimeText": "0:58"
+    },
+    {
+      "text": "description. So, let's open the",
+      "startMs": "60000",
+      "endMs": "63359",
+      "startTimeText": "1:00"
+    },
+    {
+      "text": "Higsfield MCP page. And as you can see,",
+      "startMs": "61120",
+      "endMs": "65360",
+      "startTimeText": "1:01"
+    },
+    {
+      "text": "the connector URL is right there in the",
+      "startMs": "63359",
+      "endMs": "67200",
+      "startTimeText": "1:03"
+    },
+    {
+      "text": "first box. I'll copy that, go into",
+      "startMs": "65360",
+      "endMs": "68880",
+      "startTimeText": "1:05"
+    },
+    {
+      "text": "Claude, and open settings. Under",
+      "startMs": "67200",
+      "endMs": "70320",
+      "startTimeText": "1:07"
+    },
+    {
+      "text": "connectors, we add a new one, call it",
+      "startMs": "68880",
+      "endMs": "72240",
+      "startTimeText": "1:08"
+    },
+    {
+      "text": "Higsfield, and paste the URL straight",
+      "startMs": "70320",
+      "endMs": "74000",
+      "startTimeText": "1:10"
+    },
+    {
+      "text": "in. Then, I sign in, and the setup is",
+      "startMs": "72240",
+      "endMs": "75680",
+      "startTimeText": "1:12"
+    },
+    {
+      "text": "done. The connector is exactly the same",
+      "startMs": "74000",
+      "endMs": "78080",
+      "startTimeText": "1:14"
+    },
+    {
+      "text": "in Claude desktop and on Cloud.ai, so it",
+      "startMs": "75680",
+      "endMs": "79600",
+      "startTimeText": "1:15"
+    },
+    {
+      "text": "makes no difference which one you're in.",
+      "startMs": "78080",
+      "endMs": "81360",
+      "startTimeText": "1:18"
+    },
+    {
+      "text": "And there are no API keys to manage",
+      "startMs": "79600",
+      "endMs": "83119",
+      "startTimeText": "1:19"
+    },
+    {
+      "text": "anywhere in this. I'll open a fresh chat",
+      "startMs": "81360",
+      "endMs": "84640",
+      "startTimeText": "1:21"
+    },
+    {
+      "text": "and paste the prompt in. The full prompt",
+      "startMs": "83119",
+      "endMs": "86240",
+      "startTimeText": "1:23"
+    },
+    {
+      "text": "is in the free doc below as well, so you",
+      "startMs": "84640",
+      "endMs": "87840",
+      "startTimeText": "1:24"
+    },
+    {
+      "text": "can copy it out and run it alongside me",
+      "startMs": "86240",
+      "endMs": "89520",
+      "startTimeText": "1:26"
+    },
+    {
+      "text": "while you watch. It breaks the whole job",
+      "startMs": "87840",
+      "endMs": "91119",
+      "startTimeText": "1:27"
+    },
+    {
+      "text": "into eight stages, something I'd call",
+      "startMs": "89520",
+      "endMs": "92880",
+      "startTimeText": "1:29"
+    },
+    {
+      "text": "stage gating, and then it stops at every",
+      "startMs": "91119",
+      "endMs": "94479",
+      "startTimeText": "1:31"
+    },
+    {
+      "text": "one of them for my approval. So, it asks",
+      "startMs": "92880",
+      "endMs": "95920",
+      "startTimeText": "1:32"
+    },
+    {
+      "text": "for a brief first. With the brief",
+      "startMs": "94479",
+      "endMs": "97600",
+      "startTimeText": "1:34"
+    },
+    {
+      "text": "answered, it comes back with pitches,",
+      "startMs": "95920",
+      "endMs": "99280",
+      "startTimeText": "1:35"
+    },
+    {
+      "text": "and the chosen pitch turns into a",
+      "startMs": "97600",
+      "endMs": "101360",
+      "startTimeText": "1:37"
+    },
+    {
+      "text": "breakdown and then reference images. And",
+      "startMs": "99280",
+      "endMs": "103119",
+      "startTimeText": "1:39"
+    },
+    {
+      "text": "video is stage six of the eight with the",
+      "startMs": "101360",
+      "endMs": "104880",
+      "startTimeText": "1:41"
+    },
+    {
+      "text": "upscale and the edit notes after it.",
+      "startMs": "103119",
+      "endMs": "106399",
+      "startTimeText": "1:43"
+    },
+    {
+      "text": "Engaging it like that means every",
+      "startMs": "104880",
+      "endMs": "107920",
+      "startTimeText": "1:44"
+    },
+    {
+      "text": "decision comes back to you in writing",
+      "startMs": "106399",
+      "endMs": "109600",
+      "startTimeText": "1:46"
+    },
+    {
+      "text": "first, so you can change it before it",
+      "startMs": "107920",
+      "endMs": "111280",
+      "startTimeText": "1:47"
+    },
+    {
+      "text": "costs you a single credit. Claude comes",
+      "startMs": "109600",
+      "endMs": "113040",
+      "startTimeText": "1:49"
+    },
+    {
+      "text": "back saying the MCP is connected and",
+      "startMs": "111280",
+      "endMs": "114799",
+      "startTimeText": "1:51"
+    },
+    {
+      "text": "responding so it can make images and",
+      "startMs": "113040",
+      "endMs": "116640",
+      "startTimeText": "1:53"
+    },
+    {
+      "text": "video inside this conversation now. But",
+      "startMs": "114799",
+      "endMs": "118320",
+      "startTimeText": "1:54"
+    },
+    {
+      "text": "the answers we give next decide how the",
+      "startMs": "116640",
+      "endMs": "120240",
+      "startTimeText": "1:56"
+    },
+    {
+      "text": "entire film gets built. So Claude opens",
+      "startMs": "118320",
+      "endMs": "121920",
+      "startTimeText": "1:58"
+    },
+    {
+      "text": "with nine questions split into two",
+      "startMs": "120240",
+      "endMs": "123680",
+      "startTimeText": "2:00"
+    },
+    {
+      "text": "batches so it reads like a conversation",
+      "startMs": "121920",
+      "endMs": "125680",
+      "startTimeText": "2:01"
+    },
+    {
+      "text": "instead of a form. Five plain ones come",
+      "startMs": "123680",
+      "endMs": "127439",
+      "startTimeText": "2:03"
+    },
+    {
+      "text": "first. It asks what type of video this",
+      "startMs": "125680",
+      "endMs": "129360",
+      "startTimeText": "2:05"
+    },
+    {
+      "text": "is, what it's about, and the genre and",
+      "startMs": "127439",
+      "endMs": "131120",
+      "startTimeText": "2:07"
+    },
+    {
+      "text": "tone. Then the runtime and whether we",
+      "startMs": "129360",
+      "endMs": "133200",
+      "startTimeText": "2:09"
+    },
+    {
+      "text": "want dialogue in it or just visuals. So",
+      "startMs": "131120",
+      "endMs": "134640",
+      "startTimeText": "2:11"
+    },
+    {
+      "text": "I tell it we're making a short film",
+      "startMs": "133200",
+      "endMs": "136160",
+      "startTimeText": "2:13"
+    },
+    {
+      "text": "that's also a heist and a comedy",
+      "startMs": "134640",
+      "endMs": "138640",
+      "startTimeText": "2:14"
+    },
+    {
+      "text": "thriller and tone. 45 seconds and yes to",
+      "startMs": "136160",
+      "endMs": "140239",
+      "startTimeText": "2:16"
+    },
+    {
+      "text": "dialogue. But the technical questions",
+      "startMs": "138640",
+      "endMs": "141760",
+      "startTimeText": "2:18"
+    },
+    {
+      "text": "are different because those already have",
+      "startMs": "140239",
+      "endMs": "143280",
+      "startTimeText": "2:20"
+    },
+    {
+      "text": "defaults in them. So you don't need to",
+      "startMs": "141760",
+      "endMs": "144879",
+      "startTimeText": "2:21"
+    },
+    {
+      "text": "know which video model is good at what",
+      "startMs": "143280",
+      "endMs": "146720",
+      "startTimeText": "2:23"
+    },
+    {
+      "text": "or what resolution to start at because",
+      "startMs": "144879",
+      "endMs": "148319",
+      "startTimeText": "2:24"
+    },
+    {
+      "text": "the prompt has already picked sensible",
+      "startMs": "146720",
+      "endMs": "150000",
+      "startTimeText": "2:26"
+    },
+    {
+      "text": "answers and just asks you to confirm",
+      "startMs": "148319",
+      "endMs": "152319",
+      "startTimeText": "2:28"
+    },
+    {
+      "text": "them. GPT Image 2 handles every image at",
+      "startMs": "150000",
+      "endMs": "155120",
+      "startTimeText": "2:30"
+    },
+    {
+      "text": "high quality in 4K and Cance 2.0 handles",
+      "startMs": "152319",
+      "endMs": "158000",
+      "startTimeText": "2:32"
+    },
+    {
+      "text": "the video at 1080p. Cance 2.5 is out now",
+      "startMs": "155120",
+      "endMs": "159840",
+      "startTimeText": "2:35"
+    },
+    {
+      "text": "and it doubles the cap to 30 seconds a",
+      "startMs": "158000",
+      "endMs": "161840",
+      "startTimeText": "2:38"
+    },
+    {
+      "text": "generation. So the same 45 seconds would",
+      "startMs": "159840",
+      "endMs": "163840",
+      "startTimeText": "2:39"
+    },
+    {
+      "text": "come down to two. I'm staying on 2.0",
+      "startMs": "161840",
+      "endMs": "165200",
+      "startTimeText": "2:41"
+    },
+    {
+      "text": "here because it's the prompt's default",
+      "startMs": "163840",
+      "endMs": "166640",
+      "startTimeText": "2:43"
+    },
+    {
+      "text": "and everything you're about to see was",
+      "startMs": "165200",
+      "endMs": "168560",
+      "startTimeText": "2:45"
+    },
+    {
+      "text": "built on it. But if 2.5 is in your model",
+      "startMs": "166640",
+      "endMs": "170400",
+      "startTimeText": "2:46"
+    },
+    {
+      "text": "list, the maths just gets easier. I'll",
+      "startMs": "168560",
+      "endMs": "172640",
+      "startTimeText": "2:48"
+    },
+    {
+      "text": "personally set the aspect ratio to 21x9",
+      "startMs": "170400",
+      "endMs": "174000",
+      "startTimeText": "2:50"
+    },
+    {
+      "text": "because that's the widescreen ratio",
+      "startMs": "172640",
+      "endMs": "175760",
+      "startTimeText": "2:52"
+    },
+    {
+      "text": "films get shot in. That one's for the",
+      "startMs": "174000",
+      "endMs": "177200",
+      "startTimeText": "2:54"
+    },
+    {
+      "text": "video and the reference sheets come out",
+      "startMs": "175760",
+      "endMs": "179519",
+      "startTimeText": "2:55"
+    },
+    {
+      "text": "at 16x9 because none of them are in the",
+      "startMs": "177200",
+      "endMs": "181200",
+      "startTimeText": "2:57"
+    },
+    {
+      "text": "finished film. And we generate all the",
+      "startMs": "179519",
+      "endMs": "183519",
+      "startTimeText": "2:59"
+    },
+    {
+      "text": "video at 1080p and then upscale right at",
+      "startMs": "181200",
+      "endMs": "185599",
+      "startTimeText": "3:01"
+    },
+    {
+      "text": "the end because native 4K costs far more",
+      "startMs": "183519",
+      "endMs": "187599",
+      "startTimeText": "3:03"
+    },
+    {
+      "text": "per render. So a scene that comes back",
+      "startMs": "185599",
+      "endMs": "189760",
+      "startTimeText": "3:05"
+    },
+    {
+      "text": "wrong at 4K cost you a lot more than the",
+      "startMs": "187599",
+      "endMs": "191760",
+      "startTimeText": "3:07"
+    },
+    {
+      "text": "same scene coming back wrong at 1080p.",
+      "startMs": "189760",
+      "endMs": "193120",
+      "startTimeText": "3:09"
+    },
+    {
+      "text": "Now with the models and the ratio",
+      "startMs": "191760",
+      "endMs": "194640",
+      "startTimeText": "3:11"
+    },
+    {
+      "text": "locked, the runtime [music] is the last",
+      "startMs": "193120",
+      "endMs": "196879",
+      "startTimeText": "3:13"
+    },
+    {
+      "text": "thing it has to work out. Cance 2.0 0",
+      "startMs": "194640",
+      "endMs": "198800",
+      "startTimeText": "3:14"
+    },
+    {
+      "text": "caps out at 15 seconds per generation.",
+      "startMs": "196879",
+      "endMs": "200879",
+      "startTimeText": "3:16"
+    },
+    {
+      "text": "So, our 45 seconds splits into exactly",
+      "startMs": "198800",
+      "endMs": "202800",
+      "startTimeText": "3:18"
+    },
+    {
+      "text": "three. That's three generations and not",
+      "startMs": "200879",
+      "endMs": "204560",
+      "startTimeText": "3:20"
+    },
+    {
+      "text": "30 separate shots. And it works because",
+      "startMs": "202800",
+      "endMs": "206159",
+      "startTimeText": "3:22"
+    },
+    {
+      "text": "each one can hold its own hard cuts",
+      "startMs": "204560",
+      "endMs": "207760",
+      "startTimeText": "3:24"
+    },
+    {
+      "text": "inside it. That's a bit of maths I'd",
+      "startMs": "206159",
+      "endMs": "209440",
+      "startTimeText": "3:26"
+    },
+    {
+      "text": "have got wrong on a first attempt. And",
+      "startMs": "207760",
+      "endMs": "211120",
+      "startTimeText": "3:27"
+    },
+    {
+      "text": "the prompt has already done it. And it",
+      "startMs": "209440",
+      "endMs": "212879",
+      "startTimeText": "3:29"
+    },
+    {
+      "text": "locks the whole lot back in one line.",
+      "startMs": "211120",
+      "endMs": "214720",
+      "startTimeText": "3:31"
+    },
+    {
+      "text": "Models resolution, ratio, and block",
+      "startMs": "212879",
+      "endMs": "216239",
+      "startTimeText": "3:32"
+    },
+    {
+      "text": "count. [music] Then three pitches come",
+      "startMs": "214720",
+      "endMs": "217840",
+      "startTimeText": "3:34"
+    },
+    {
+      "text": "straight back. Each one three or four",
+      "startMs": "216239",
+      "endMs": "219440",
+      "startTimeText": "3:36"
+    },
+    {
+      "text": "sentences with a title on it. And the",
+      "startMs": "217840",
+      "endMs": "220959",
+      "startTimeText": "3:37"
+    },
+    {
+      "text": "premises are properly different from",
+      "startMs": "219440",
+      "endMs": "222879",
+      "startTimeText": "3:39"
+    },
+    {
+      "text": "each other. Wrong floor is an office job",
+      "startMs": "220959",
+      "endMs": "224560",
+      "startTimeText": "3:40"
+    },
+    {
+      "text": "where they realize they're one story too",
+      "startMs": "222879",
+      "endMs": "226239",
+      "startTimeText": "3:42"
+    },
+    {
+      "text": "high. and the long wait keeps the whole",
+      "startMs": "224560",
+      "endMs": "228000",
+      "startTimeText": "3:44"
+    },
+    {
+      "text": "robbery offcreen and stays on the",
+      "startMs": "226239",
+      "endMs": "229680",
+      "startTimeText": "3:46"
+    },
+    {
+      "text": "driver's face. I'll take the first one,",
+      "startMs": "228000",
+      "endMs": "231280",
+      "startTimeText": "3:48"
+    },
+    {
+      "text": "the nice room. It gives us a safe",
+      "startMs": "229680",
+      "endMs": "233040",
+      "startTimeText": "3:49"
+    },
+    {
+      "text": "cracker in her 60s and an enormous,",
+      "startMs": "231280",
+      "endMs": "234799",
+      "startTimeText": "3:51"
+    },
+    {
+      "text": "completely useless young accomplice. And",
+      "startMs": "233040",
+      "endMs": "236319",
+      "startTimeText": "3:53"
+    },
+    {
+      "text": "the house they're robbing starts sealing",
+      "startMs": "234799",
+      "endMs": "237840",
+      "startTimeText": "3:54"
+    },
+    {
+      "text": "itself while they're both still inside",
+      "startMs": "236319",
+      "endMs": "239519",
+      "startTimeText": "3:56"
+    },
+    {
+      "text": "it. And the pitch never says how those",
+      "startMs": "237840",
+      "endMs": "241120",
+      "startTimeText": "3:57"
+    },
+    {
+      "text": "three renders are supposed to join up,",
+      "startMs": "239519",
+      "endMs": "242640",
+      "startTimeText": "3:59"
+    },
+    {
+      "text": "which is the next thing the prompt sorts",
+      "startMs": "241120",
+      "endMs": "244480",
+      "startTimeText": "4:01"
+    },
+    {
+      "text": "out. Turning three separate renders into",
+      "startMs": "242640",
+      "endMs": "246400",
+      "startTimeText": "4:02"
+    },
+    {
+      "text": "one continuous take comes down to one",
+      "startMs": "244480",
+      "endMs": "248159",
+      "startTimeText": "4:04"
+    },
+    {
+      "text": "rule about where a part is allowed to",
+      "startMs": "246400",
+      "endMs": "249920",
+      "startTimeText": "4:06"
+    },
+    {
+      "text": "end. Now Claude splits the film into",
+      "startMs": "248159",
+      "endMs": "251760",
+      "startTimeText": "4:08"
+    },
+    {
+      "text": "three parts, one for each generation,",
+      "startMs": "249920",
+      "endMs": "253519",
+      "startTimeText": "4:09"
+    },
+    {
+      "text": "and every part except the last has to",
+      "startMs": "251760",
+      "endMs": "255439",
+      "startTimeText": "4:11"
+    },
+    {
+      "text": "end midaction. And the next part opens",
+      "startMs": "253519",
+      "endMs": "257680",
+      "startTimeText": "4:13"
+    },
+    {
+      "text": "as a match cut on that exact action from",
+      "startMs": "255439",
+      "endMs": "259440",
+      "startTimeText": "4:15"
+    },
+    {
+      "text": "a different angle. That is the trick for",
+      "startMs": "257680",
+      "endMs": "261199",
+      "startTimeText": "4:17"
+    },
+    {
+      "text": "making three separate generations play",
+      "startMs": "259440",
+      "endMs": "263199",
+      "startTimeText": "4:19"
+    },
+    {
+      "text": "as one film. And the prompt writes every",
+      "startMs": "261199",
+      "endMs": "264720",
+      "startTimeText": "4:21"
+    },
+    {
+      "text": "part to that rule for you. So the",
+      "startMs": "263199",
+      "endMs": "266240",
+      "startTimeText": "4:23"
+    },
+    {
+      "text": "finished thing looks like someone shot",
+      "startMs": "264720",
+      "endMs": "267840",
+      "startTimeText": "4:24"
+    },
+    {
+      "text": "it. Each of the three parts comes back",
+      "startMs": "266240",
+      "endMs": "269440",
+      "startTimeText": "4:26"
+    },
+    {
+      "text": "with a name and the rooms it's locked",
+      "startMs": "267840",
+      "endMs": "271680",
+      "startTimeText": "4:27"
+    },
+    {
+      "text": "to. The plant ends mid lift with the box",
+      "startMs": "269440",
+      "endMs": "273520",
+      "startTimeText": "4:29"
+    },
+    {
+      "text": "half clear of the safe. The break runs",
+      "startMs": "271680",
+      "endMs": "275120",
+      "startTimeText": "4:31"
+    },
+    {
+      "text": "the study into the corridor and ends",
+      "startMs": "273520",
+      "endMs": "276960",
+      "startTimeText": "4:33"
+    },
+    {
+      "text": "mid-stride and the leap goes through the",
+      "startMs": "275120",
+      "endMs": "278880",
+      "startTimeText": "4:35"
+    },
+    {
+      "text": "window and cuts to black on the landing.",
+      "startMs": "276960",
+      "endMs": "280400",
+      "startTimeText": "4:36"
+    },
+    {
+      "text": "Dialogue gets written at this stage,",
+      "startMs": "278880",
+      "endMs": "282240",
+      "startTimeText": "4:38"
+    },
+    {
+      "text": "too, and there are only five short lines",
+      "startMs": "280400",
+      "endMs": "284160",
+      "startTimeText": "4:40"
+    },
+    {
+      "text": "in the entire film. I'll approve every",
+      "startMs": "282240",
+      "endMs": "285520",
+      "startTimeText": "4:42"
+    },
+    {
+      "text": "one of them word for word before",
+      "startMs": "284160",
+      "endMs": "287360",
+      "startTimeText": "4:44"
+    },
+    {
+      "text": "anything renders. That order matters",
+      "startMs": "285520",
+      "endMs": "289040",
+      "startTimeText": "4:45"
+    },
+    {
+      "text": "because changing a line after the scene",
+      "startMs": "287360",
+      "endMs": "290960",
+      "startTimeText": "4:47"
+    },
+    {
+      "text": "is generated means paying to generate it",
+      "startMs": "289040",
+      "endMs": "292880",
+      "startTimeText": "4:49"
+    },
+    {
+      "text": "all over again. And the first image it",
+      "startMs": "290960",
+      "endMs": "294400",
+      "startTimeText": "4:50"
+    },
+    {
+      "text": "generates is Marggo's reference sheet.",
+      "startMs": "292880",
+      "endMs": "296000",
+      "startTimeText": "4:52"
+    },
+    {
+      "text": "And one of the three panels on it has no",
+      "startMs": "294400",
+      "endMs": "297840",
+      "startTimeText": "4:54"
+    },
+    {
+      "text": "head. Margot and Dustin get built as",
+      "startMs": "296000",
+      "endMs": "299680",
+      "startTimeText": "4:56"
+    },
+    {
+      "text": "images before anything moves. And so do",
+      "startMs": "297840",
+      "endMs": "301280",
+      "startTimeText": "4:57"
+    },
+    {
+      "text": "all three rooms they run through. Claude",
+      "startMs": "299680",
+      "endMs": "302720",
+      "startTimeText": "4:59"
+    },
+    {
+      "text": "writes both character sheet prompts out",
+      "startMs": "301280",
+      "endMs": "304400",
+      "startTimeText": "5:01"
+    },
+    {
+      "text": "in full and shows them to me before it",
+      "startMs": "302720",
+      "endMs": "306160",
+      "startTimeText": "5:02"
+    },
+    {
+      "text": "generates a single thing. Each sheet",
+      "startMs": "304400",
+      "endMs": "307759",
+      "startTimeText": "5:04"
+    },
+    {
+      "text": "comes back as one image with three",
+      "startMs": "306160",
+      "endMs": "309600",
+      "startTimeText": "5:06"
+    },
+    {
+      "text": "panels inside it. On the left is the",
+      "startMs": "307759",
+      "endMs": "311199",
+      "startTimeText": "5:07"
+    },
+    {
+      "text": "full body from the front with no head,",
+      "startMs": "309600",
+      "endMs": "312960",
+      "startTimeText": "5:09"
+    },
+    {
+      "text": "no neck, and no hair on it, which gives",
+      "startMs": "311199",
+      "endMs": "314720",
+      "startTimeText": "5:11"
+    },
+    {
+      "text": "the video model the wardrobe on its own",
+      "startMs": "312960",
+      "endMs": "316479",
+      "startTimeText": "5:12"
+    },
+    {
+      "text": "as an unbroken silhouette with no face",
+      "startMs": "314720",
+      "endMs": "318160",
+      "startTimeText": "5:14"
+    },
+    {
+      "text": "in the shot. In the center, the same",
+      "startMs": "316479",
+      "endMs": "319840",
+      "startTimeText": "5:16"
+    },
+    {
+      "text": "body from behind with the head on, and",
+      "startMs": "318160",
+      "endMs": "321600",
+      "startTimeText": "5:18"
+    },
+    {
+      "text": "that covers the angles a chase actually",
+      "startMs": "319840",
+      "endMs": "323520",
+      "startTimeText": "5:19"
+    },
+    {
+      "text": "needs. On the right, a tight chest up",
+      "startMs": "321600",
+      "endMs": "325360",
+      "startTimeText": "5:21"
+    },
+    {
+      "text": "shot. That one is the identity lock for",
+      "startMs": "323520",
+      "endMs": "327280",
+      "startTimeText": "5:23"
+    },
+    {
+      "text": "the whole film, but both sheets close on",
+      "startMs": "325360",
+      "endMs": "328720",
+      "startTimeText": "5:25"
+    },
+    {
+      "text": "the same block of instructions at the",
+      "startMs": "327280",
+      "endMs": "330960",
+      "startTimeText": "5:27"
+    },
+    {
+      "text": "bottom. That block sets an 18% neutral",
+      "startMs": "328720",
+      "endMs": "332400",
+      "startTimeText": "5:28"
+    },
+    {
+      "text": "gray backdrop, which is the plain",
+      "startMs": "330960",
+      "endMs": "333919",
+      "startTimeText": "5:30"
+    },
+    {
+      "text": "mid-grade that photographers shoot",
+      "startMs": "332400",
+      "endMs": "335759",
+      "startTimeText": "5:32"
+    },
+    {
+      "text": "against with flat shadowless light. And",
+      "startMs": "333919",
+      "endMs": "337360",
+      "startTimeText": "5:33"
+    },
+    {
+      "text": "there's a line telling it to relight",
+      "startMs": "335759",
+      "endMs": "339280",
+      "startTimeText": "5:35"
+    },
+    {
+      "text": "from scratch. That flat light is what",
+      "startMs": "337360",
+      "endMs": "341120",
+      "startTimeText": "5:37"
+    },
+    {
+      "text": "makes the sheet usable as a reference.",
+      "startMs": "339280",
+      "endMs": "342400",
+      "startTimeText": "5:39"
+    },
+    {
+      "text": "Any lighting that's already in a",
+      "startMs": "341120",
+      "endMs": "343919",
+      "startTimeText": "5:41"
+    },
+    {
+      "text": "reference image shows up in every",
+      "startMs": "342400",
+      "endMs": "345680",
+      "startTimeText": "5:42"
+    },
+    {
+      "text": "generation after it, and then the scene",
+      "startMs": "343919",
+      "endMs": "347360",
+      "startTimeText": "5:43"
+    },
+    {
+      "text": "comes back lit wrong. It checks each",
+      "startMs": "345680",
+      "endMs": "349120",
+      "startTimeText": "5:45"
+    },
+    {
+      "text": "sheet against its own prompt panel by",
+      "startMs": "347360",
+      "endMs": "350960",
+      "startTimeText": "5:47"
+    },
+    {
+      "text": "panel. So, I approve them one at a time.",
+      "startMs": "349120",
+      "endMs": "352639",
+      "startTimeText": "5:49"
+    },
+    {
+      "text": "Then, it saves them as Margot and Dustin",
+      "startMs": "350960",
+      "endMs": "354400",
+      "startTimeText": "5:50"
+    },
+    {
+      "text": "and moves straight on to the locations.",
+      "startMs": "352639",
+      "endMs": "355919",
+      "startTimeText": "5:52"
+    },
+    {
+      "text": "It comes back wanting five sheets and",
+      "startMs": "354400",
+      "endMs": "357680",
+      "startTimeText": "5:54"
+    },
+    {
+      "text": "the moonlight on the wrong side. So, I",
+      "startMs": "355919",
+      "endMs": "359280",
+      "startTimeText": "5:55"
+    },
+    {
+      "text": "cut it back to four and put the light",
+      "startMs": "357680",
+      "endMs": "361199",
+      "startTimeText": "5:57"
+    },
+    {
+      "text": "where the study needs it. One prop sheet",
+      "startMs": "359280",
+      "endMs": "363120",
+      "startTimeText": "5:59"
+    },
+    {
+      "text": "for the jewel box first and then three",
+      "startMs": "361199",
+      "endMs": "364880",
+      "startTimeText": "6:01"
+    },
+    {
+      "text": "location plates. The box gets its own",
+      "startMs": "363120",
+      "endMs": "366400",
+      "startTimeText": "6:03"
+    },
+    {
+      "text": "sheet because it appears in all three",
+      "startMs": "364880",
+      "endMs": "368319",
+      "startTimeText": "6:04"
+    },
+    {
+      "text": "generations and it opens on camera. So,",
+      "startMs": "366400",
+      "endMs": "370160",
+      "startTimeText": "6:06"
+    },
+    {
+      "text": "it gets a six panel grid covering closed",
+      "startMs": "368319",
+      "endMs": "372560",
+      "startTimeText": "6:08"
+    },
+    {
+      "text": "and open from the front, the rear, 3/4",
+      "startMs": "370160",
+      "endMs": "374400",
+      "startTimeText": "6:10"
+    },
+    {
+      "text": "and straight down. Every plate is shot",
+      "startMs": "372560",
+      "endMs": "376000",
+      "startTimeText": "6:12"
+    },
+    {
+      "text": "wide, empty of people, and straight on",
+      "startMs": "374400",
+      "endMs": "377680",
+      "startTimeText": "6:14"
+    },
+    {
+      "text": "at standing eye level. The geography",
+      "startMs": "376000",
+      "endMs": "379600",
+      "startTimeText": "6:16"
+    },
+    {
+      "text": "gets fixed left to right, so the safe is",
+      "startMs": "377680",
+      "endMs": "381199",
+      "startTimeText": "6:17"
+    },
+    {
+      "text": "always on the left, and the window is",
+      "startMs": "379600",
+      "endMs": "382639",
+      "startTimeText": "6:19"
+    },
+    {
+      "text": "always on the right. None of the plates",
+      "startMs": "381199",
+      "endMs": "384479",
+      "startTimeText": "6:21"
+    },
+    {
+      "text": "carry any readable text either, and that",
+      "startMs": "382639",
+      "endMs": "386080",
+      "startTimeText": "6:22"
+    },
+    {
+      "text": "one is written into the prompt as a hard",
+      "startMs": "384479",
+      "endMs": "387840",
+      "startTimeText": "6:24"
+    },
+    {
+      "text": "rule. The corridor gets three moonlit",
+      "startMs": "386080",
+      "endMs": "389520",
+      "startTimeText": "6:26"
+    },
+    {
+      "text": "stripes across the runner, one for each",
+      "startMs": "387840",
+      "endMs": "391120",
+      "startTimeText": "6:27"
+    },
+    {
+      "text": "window, put there for later. And the",
+      "startMs": "389520",
+      "endMs": "393120",
+      "startTimeText": "6:29"
+    },
+    {
+      "text": "gallery gets a retracted shutter housing",
+      "startMs": "391120",
+      "endMs": "394960",
+      "startTimeText": "6:31"
+    },
+    {
+      "text": "above the arched window, which explains",
+      "startMs": "393120",
+      "endMs": "396960",
+      "startTimeText": "6:33"
+    },
+    {
+      "text": "why that one window is still open. So,",
+      "startMs": "394960",
+      "endMs": "398639",
+      "startTimeText": "6:34"
+    },
+    {
+      "text": "let's approve them and move on. So, six",
+      "startMs": "396960",
+      "endMs": "400240",
+      "startTimeText": "6:36"
+    },
+    {
+      "text": "elements are live in total. That's",
+      "startMs": "398639",
+      "endMs": "401840",
+      "startTimeText": "6:38"
+    },
+    {
+      "text": "Margot, Dustin, and Jewelbox for the",
+      "startMs": "400240",
+      "endMs": "403600",
+      "startTimeText": "6:40"
+    },
+    {
+      "text": "people in the prop. Then, study corridor",
+      "startMs": "401840",
+      "endMs": "405199",
+      "startTimeText": "6:41"
+    },
+    {
+      "text": "and gallery for the rooms. So, every",
+      "startMs": "403600",
+      "endMs": "407039",
+      "startTimeText": "6:43"
+    },
+    {
+      "text": "prompt from here calls a tag instead of",
+      "startMs": "405199",
+      "endMs": "409039",
+      "startTimeText": "6:45"
+    },
+    {
+      "text": "describing anyone again. That tagging is",
+      "startMs": "407039",
+      "endMs": "410639",
+      "startTimeText": "6:47"
+    },
+    {
+      "text": "what stops the faces changing between",
+      "startMs": "409039",
+      "endMs": "412560",
+      "startTimeText": "6:49"
+    },
+    {
+      "text": "renders. But the obvious way to prompt a",
+      "startMs": "410639",
+      "endMs": "414240",
+      "startTimeText": "6:50"
+    },
+    {
+      "text": "video is to write the shot you want as a",
+      "startMs": "412560",
+      "endMs": "415840",
+      "startTimeText": "6:52"
+    },
+    {
+      "text": "paragraph, and this prompt never does",
+      "startMs": "414240",
+      "endMs": "417680",
+      "startTimeText": "6:54"
+    },
+    {
+      "text": "that. When I wrote video prompts as one",
+      "startMs": "415840",
+      "endMs": "419520",
+      "startTimeText": "6:55"
+    },
+    {
+      "text": "long paragraph, my two characters kept",
+      "startMs": "417680",
+      "endMs": "420960",
+      "startTimeText": "6:57"
+    },
+    {
+      "text": "swapping sides of the frame. So, this",
+      "startMs": "419520",
+      "endMs": "422960",
+      "startTimeText": "6:59"
+    },
+    {
+      "text": "prompt uses labeled blocks instead, and",
+      "startMs": "420960",
+      "endMs": "424319",
+      "startTimeText": "7:00"
+    },
+    {
+      "text": "we're filling in the first of them right",
+      "startMs": "422960",
+      "endMs": "426160",
+      "startTimeText": "7:02"
+    },
+    {
+      "text": "now. The blocks cover the scene context,",
+      "startMs": "424319",
+      "endMs": "428000",
+      "startTimeText": "7:04"
+    },
+    {
+      "text": "which elements are active, and a map of",
+      "startMs": "426160",
+      "endMs": "429759",
+      "startTimeText": "7:06"
+    },
+    {
+      "text": "the location, then the first frame, and",
+      "startMs": "428000",
+      "endMs": "431759",
+      "startTimeText": "7:08"
+    },
+    {
+      "text": "the format, followed by action, timing,",
+      "startMs": "429759",
+      "endMs": "433599",
+      "startTimeText": "7:09"
+    },
+    {
+      "text": "physics, lighting, and audio with a set",
+      "startMs": "431759",
+      "endMs": "435440",
+      "startTimeText": "7:11"
+    },
+    {
+      "text": "of positive locks at the bottom. But the",
+      "startMs": "433599",
+      "endMs": "437199",
+      "startTimeText": "7:13"
+    },
+    {
+      "text": "location map is the block that stops the",
+      "startMs": "435440",
+      "endMs": "438960",
+      "startTimeText": "7:15"
+    },
+    {
+      "text": "swapping. It says Margot owns the left",
+      "startMs": "437199",
+      "endMs": "440479",
+      "startTimeText": "7:17"
+    },
+    {
+      "text": "of the frame and Dustin owns the right",
+      "startMs": "438960",
+      "endMs": "442160",
+      "startTimeText": "7:18"
+    },
+    {
+      "text": "in every shot of every generation, so",
+      "startMs": "440479",
+      "endMs": "443919",
+      "startTimeText": "7:20"
+    },
+    {
+      "text": "they never swap sides between renders.",
+      "startMs": "442160",
+      "endMs": "445360",
+      "startTimeText": "7:22"
+    },
+    {
+      "text": "By hand, you'd have to spell all of that",
+      "startMs": "443919",
+      "endMs": "447120",
+      "startTimeText": "7:23"
+    },
+    {
+      "text": "out again for every shot. And the blocks",
+      "startMs": "445360",
+      "endMs": "448560",
+      "startTimeText": "7:25"
+    },
+    {
+      "text": "mean you just fill in a short line under",
+      "startMs": "447120",
+      "endMs": "450479",
+      "startTimeText": "7:27"
+    },
+    {
+      "text": "each heading instead. So, scene one runs",
+      "startMs": "448560",
+      "endMs": "452240",
+      "startTimeText": "7:28"
+    },
+    {
+      "text": "six shots inside one 15-second",
+      "startMs": "450479",
+      "endMs": "454000",
+      "startTimeText": "7:30"
+    },
+    {
+      "text": "generation with hard cuts between all of",
+      "startMs": "452240",
+      "endMs": "455759",
+      "startTimeText": "7:32"
+    },
+    {
+      "text": "them.",
+      "startMs": "454000",
+      "endMs": "459240",
+      "startTimeText": "7:34"
+    },
+    {
+      "text": ">> Touch nothing.",
+      "startMs": "455759",
+      "endMs": "459240",
+      "startTimeText": "7:35"
+    },
+    {
+      "text": ">> It's a nice room.",
+      "startMs": "464240",
+      "endMs": "467880",
+      "startTimeText": "7:44"
+    },
+    {
+      "text": "The very first frame already has both of",
+      "startMs": "469199",
+      "endMs": "472639",
+      "startTimeText": "7:49"
+    },
+    {
+      "text": "them in position, so we don't waste any",
+      "startMs": "471039",
+      "endMs": "474080",
+      "startTimeText": "7:51"
+    },
+    {
+      "text": "of the 15 seconds on an empty",
+      "startMs": "472639",
+      "endMs": "475919",
+      "startTimeText": "7:52"
+    },
+    {
+      "text": "establishing shot. And it ends exactly",
+      "startMs": "474080",
+      "endMs": "477360",
+      "startTimeText": "7:54"
+    },
+    {
+      "text": "where part one said it would. With the",
+      "startMs": "475919",
+      "endMs": "479039",
+      "startTimeText": "7:55"
+    },
+    {
+      "text": "box half clear and her hands still",
+      "startMs": "477360",
+      "endMs": "481039",
+      "startTimeText": "7:57"
+    },
+    {
+      "text": "rising, you state what happens and never",
+      "startMs": "479039",
+      "endMs": "482400",
+      "startTimeText": "7:59"
+    },
+    {
+      "text": "what shouldn't. And the only sound",
+      "startMs": "481039",
+      "endMs": "484080",
+      "startTimeText": "8:01"
+    },
+    {
+      "text": "allowed inside a generation is sound",
+      "startMs": "482400",
+      "endMs": "485599",
+      "startTimeText": "8:02"
+    },
+    {
+      "text": "that's actually happening in the room.",
+      "startMs": "484080",
+      "endMs": "487599",
+      "startTimeText": "8:04"
+    },
+    {
+      "text": "So no music and no score anywhere inside",
+      "startMs": "485599",
+      "endMs": "489199",
+      "startTimeText": "8:05"
+    },
+    {
+      "text": "any of the three. The turn in this film",
+      "startMs": "487599",
+      "endMs": "490960",
+      "startTimeText": "8:07"
+    },
+    {
+      "text": "is a single sound, the steel shutter",
+      "startMs": "489199",
+      "endMs": "492319",
+      "startTimeText": "8:09"
+    },
+    {
+      "text": "slamming into the sill at the top of",
+      "startMs": "490960",
+      "endMs": "494000",
+      "startTimeText": "8:10"
+    },
+    {
+      "text": "scene two. And it's the only alarm",
+      "startMs": "492319",
+      "endMs": "496560",
+      "startTimeText": "8:12"
+    },
+    {
+      "text": "inside any of the three generations.",
+      "startMs": "494000",
+      "endMs": "500360",
+      "startTimeText": "8:14"
+    },
+    {
+      "text": "Look at this beauty.",
+      "startMs": "496560",
+      "endMs": "500360",
+      "startTimeText": "8:16"
+    },
+    {
+      "text": "[panting]",
+      "startMs": "505665",
+      "endMs": "507685",
+      "startTimeText": "8:25"
+    },
+    {
+      "text": ">> Which way?",
+      "startMs": "508240",
+      "endMs": "510879",
+      "startTimeText": "8:28"
+    },
+    {
+      "text": ">> Right.",
+      "startMs": "509120",
+      "endMs": "512240",
+      "startTimeText": "8:29"
+    },
+    {
+      "text": ">> The shutters take out those three",
+      "startMs": "510879",
+      "endMs": "513919",
+      "startTimeText": "8:30"
+    },
+    {
+      "text": "moonlight stripes one at a time behind",
+      "startMs": "512240",
+      "endMs": "515519",
+      "startTimeText": "8:32"
+    },
+    {
+      "text": "them, which is the corridor plate paying",
+      "startMs": "513919",
+      "endMs": "517839",
+      "startTimeText": "8:33"
+    },
+    {
+      "text": "off. He asks which way, she says right.",
+      "startMs": "515519",
+      "endMs": "519039",
+      "startTimeText": "8:35"
+    },
+    {
+      "text": "And they cut right with the camera",
+      "startMs": "517839",
+      "endMs": "520719",
+      "startTimeText": "8:37"
+    },
+    {
+      "text": "behind them. So her word and the frame",
+      "startMs": "519039",
+      "endMs": "522240",
+      "startTimeText": "8:39"
+    },
+    {
+      "text": "agree with each other. And the last",
+      "startMs": "520719",
+      "endMs": "523919",
+      "startTimeText": "8:40"
+    },
+    {
+      "text": "generation is one speed ramp into the",
+      "startMs": "522240",
+      "endMs": "528600",
+      "startTimeText": "8:42"
+    },
+    {
+      "text": "window smash. Then a first person fall.",
+      "startMs": "523919",
+      "endMs": "528600",
+      "startTimeText": "8:43"
+    },
+    {
+      "text": "That slow motion shot has both faces and",
+      "startMs": "536800",
+      "endMs": "540640",
+      "startTimeText": "8:56"
+    },
+    {
+      "text": "hundreds of individually spinning shards",
+      "startMs": "538959",
+      "endMs": "542320",
+      "startTimeText": "8:58"
+    },
+    {
+      "text": "in the same frame, which is the hardest",
+      "startMs": "540640",
+      "endMs": "544000",
+      "startTimeText": "9:00"
+    },
+    {
+      "text": "thing in the entire film. All three",
+      "startMs": "542320",
+      "endMs": "545680",
+      "startTimeText": "9:02"
+    },
+    {
+      "text": "generations are done, and the faces",
+      "startMs": "544000",
+      "endMs": "547360",
+      "startTimeText": "9:04"
+    },
+    {
+      "text": "match their sheets in every one of them.",
+      "startMs": "545680",
+      "endMs": "549120",
+      "startTimeText": "9:05"
+    },
+    {
+      "text": "But one shot inside scene two still",
+      "startMs": "547360",
+      "endMs": "550880",
+      "startTimeText": "9:07"
+    },
+    {
+      "text": "comes back wrong. Claude can't watch the",
+      "startMs": "549120",
+      "endMs": "552560",
+      "startTimeText": "9:09"
+    },
+    {
+      "text": "video it just made, so every mistake in",
+      "startMs": "550880",
+      "endMs": "554399",
+      "startTimeText": "9:10"
+    },
+    {
+      "text": "it is one I have to catch myself. It",
+      "startMs": "552560",
+      "endMs": "556000",
+      "startTimeText": "9:12"
+    },
+    {
+      "text": "asks me to play each one back and tell",
+      "startMs": "554399",
+      "endMs": "557680",
+      "startTimeText": "9:14"
+    },
+    {
+      "text": "it what went wrong. And that's the only",
+      "startMs": "556000",
+      "endMs": "559360",
+      "startTimeText": "9:16"
+    },
+    {
+      "text": "check on the video itself. And the",
+      "startMs": "557680",
+      "endMs": "561279",
+      "startTimeText": "9:17"
+    },
+    {
+      "text": "opening close-up of scene two fails. The",
+      "startMs": "559360",
+      "endMs": "562880",
+      "startTimeText": "9:19"
+    },
+    {
+      "text": "box in frame doesn't actually match the",
+      "startMs": "561279",
+      "endMs": "564480",
+      "startTimeText": "9:21"
+    },
+    {
+      "text": "prop sheet because the proportions are",
+      "startMs": "562880",
+      "endMs": "566240",
+      "startTimeText": "9:22"
+    },
+    {
+      "text": "wrong and the lid lining is off. But",
+      "startMs": "564480",
+      "endMs": "567680",
+      "startTimeText": "9:24"
+    },
+    {
+      "text": "everything from the shutter slam onwards",
+      "startMs": "566240",
+      "endMs": "569519",
+      "startTimeText": "9:26"
+    },
+    {
+      "text": "is fine. So the obvious move is to",
+      "startMs": "567680",
+      "endMs": "571600",
+      "startTimeText": "9:27"
+    },
+    {
+      "text": "reroll the whole 15 seconds, but that",
+      "startMs": "569519",
+      "endMs": "573440",
+      "startTimeText": "9:29"
+    },
+    {
+      "text": "throws away five approved shots and the",
+      "startMs": "571600",
+      "endMs": "575120",
+      "startTimeText": "9:31"
+    },
+    {
+      "text": "shutter slam along with them. Claude",
+      "startMs": "573440",
+      "endMs": "576880",
+      "startTimeText": "9:33"
+    },
+    {
+      "text": "regenerates that one shot on its own",
+      "startMs": "575120",
+      "endMs": "578959",
+      "startTimeText": "9:35"
+    },
+    {
+      "text": "instead as a standalone insert at 4",
+      "startMs": "576880",
+      "endMs": "580560",
+      "startTimeText": "9:36"
+    },
+    {
+      "text": "seconds. Then I trim it into the 2 and",
+      "startMs": "578959",
+      "endMs": "582160",
+      "startTimeText": "9:38"
+    },
+    {
+      "text": "1/2 second slot in the edit and the",
+      "startMs": "580560",
+      "endMs": "583920",
+      "startTimeText": "9:40"
+    },
+    {
+      "text": "extra runtime is there so I can find the",
+      "startMs": "582160",
+      "endMs": "585680",
+      "startTimeText": "9:42"
+    },
+    {
+      "text": "cleanest cut point. So I ask it to write",
+      "startMs": "583920",
+      "endMs": "587360",
+      "startTimeText": "9:43"
+    },
+    {
+      "text": "the insert prompt and two things change",
+      "startMs": "585680",
+      "endMs": "588880",
+      "startTimeText": "9:45"
+    },
+    {
+      "text": "in there while nothing else moves at",
+      "startMs": "587360",
+      "endMs": "590480",
+      "startTimeText": "9:47"
+    },
+    {
+      "text": "all. Jewelbox gets named as the single",
+      "startMs": "588880",
+      "endMs": "592160",
+      "startTimeText": "9:48"
+    },
+    {
+      "text": "source of truth and the box gets spelled",
+      "startMs": "590480",
+      "endMs": "593920",
+      "startTimeText": "9:50"
+    },
+    {
+      "text": "out explicitly rather than left to the",
+      "startMs": "592160",
+      "endMs": "595440",
+      "startTimeText": "9:52"
+    },
+    {
+      "text": "tag. Then the exact things that went",
+      "startMs": "593920",
+      "endMs": "597680",
+      "startTimeText": "9:53"
+    },
+    {
+      "text": "wrong go in by name as hard exclusions.",
+      "startMs": "595440",
+      "endMs": "599440",
+      "startTimeText": "9:55"
+    },
+    {
+      "text": "So the prompt says it must not come back",
+      "startMs": "597680",
+      "endMs": "601680",
+      "startTimeText": "9:57"
+    },
+    {
+      "text": "as a ring box or a tall box. The lining",
+      "startMs": "599440",
+      "endMs": "603360",
+      "startTimeText": "9:59"
+    },
+    {
+      "text": "is never colored and the necklace is",
+      "startMs": "601680",
+      "endMs": "605200",
+      "startTimeText": "10:01"
+    },
+    {
+      "text": "never multistrand. And naming what",
+      "startMs": "603360",
+      "endMs": "606640",
+      "startTimeText": "10:03"
+    },
+    {
+      "text": "actually went wrong is the one place",
+      "startMs": "605200",
+      "endMs": "608501",
+      "startTimeText": "10:05"
+    },
+    {
+      "text": "where negative wording is worth using.",
+      "startMs": "606640",
+      "endMs": "610080",
+      "startTimeText": "10:06"
+    },
+    {
+      "text": "[music] But the framing, the underlight,",
+      "startMs": "608501",
+      "endMs": "611839",
+      "startTimeText": "10:08"
+    },
+    {
+      "text": "the whispered line, and the audio locks",
+      "startMs": "610080",
+      "endMs": "613760",
+      "startTimeText": "10:10"
+    },
+    {
+      "text": "all carry over unchanged. That's why the",
+      "startMs": "611839",
+      "endMs": "615279",
+      "startTimeText": "10:11"
+    },
+    {
+      "text": "cut doesn't show. And as you can see,",
+      "startMs": "613760",
+      "endMs": "617120",
+      "startTimeText": "10:13"
+    },
+    {
+      "text": "the box now matches the sheet wide and",
+      "startMs": "615279",
+      "endMs": "619040",
+      "startTimeText": "10:15"
+    },
+    {
+      "text": "shallow with the cream silk lid. So",
+      "startMs": "617120",
+      "endMs": "620959",
+      "startTimeText": "10:17"
+    },
+    {
+      "text": "scene two keeps its other five shots,",
+      "startMs": "619040",
+      "endMs": "622640",
+      "startTimeText": "10:19"
+    },
+    {
+      "text": "and we've paid for a 5-second render",
+      "startMs": "620959",
+      "endMs": "624880",
+      "startTimeText": "10:20"
+    },
+    {
+      "text": "instead of another 15. On my own, I'd",
+      "startMs": "622640",
+      "endMs": "626240",
+      "startTimeText": "10:22"
+    },
+    {
+      "text": "have just rerolled the whole thing and",
+      "startMs": "624880",
+      "endMs": "628320",
+      "startTimeText": "10:24"
+    },
+    {
+      "text": "paid for those 15 seconds twice. That's",
+      "startMs": "626240",
+      "endMs": "629760",
+      "startTimeText": "10:26"
+    },
+    {
+      "text": "the whole film approved and still at",
+      "startMs": "628320",
+      "endMs": "631839",
+      "startTimeText": "10:28"
+    },
+    {
+      "text": "1080p. So the upscale is next, and the",
+      "startMs": "629760",
+      "endMs": "633200",
+      "startTimeText": "10:29"
+    },
+    {
+      "text": "order you run it in decides what it",
+      "startMs": "631839",
+      "endMs": "635120",
+      "startTimeText": "10:31"
+    },
+    {
+      "text": "costs. All four pieces are approved now,",
+      "startMs": "633200",
+      "endMs": "636959",
+      "startTimeText": "10:33"
+    },
+    {
+      "text": "which is three scenes and the insert.",
+      "startMs": "635120",
+      "endMs": "638800",
+      "startTimeText": "10:35"
+    },
+    {
+      "text": "So, I just tell it all four are approved",
+      "startMs": "636959",
+      "endMs": "640880",
+      "startTimeText": "10:36"
+    },
+    {
+      "text": "and to upscale them to 4K. It runs",
+      "startMs": "638800",
+      "endMs": "642560",
+      "startTimeText": "10:38"
+    },
+    {
+      "text": "through the MCP inside the same",
+      "startMs": "640880",
+      "endMs": "644399",
+      "startTimeText": "10:40"
+    },
+    {
+      "text": "conversation with no download and no",
+      "startMs": "642560",
+      "endMs": "646079",
+      "startTimeText": "10:42"
+    },
+    {
+      "text": "re-upload anywhere, and they come back",
+      "startMs": "644399",
+      "endMs": "648320",
+      "startTimeText": "10:44"
+    },
+    {
+      "text": "at 4K. Nothing gets enlarged until it's",
+      "startMs": "646079",
+      "endMs": "649839",
+      "startTimeText": "10:46"
+    },
+    {
+      "text": "already approved. So, we never pay to",
+      "startMs": "648320",
+      "endMs": "651760",
+      "startTimeText": "10:48"
+    },
+    {
+      "text": "upscale a shot that ends up cut. With",
+      "startMs": "649839",
+      "endMs": "653680",
+      "startTimeText": "10:49"
+    },
+    {
+      "text": "all four at 4K, the only thing left is",
+      "startMs": "651760",
+      "endMs": "655440",
+      "startTimeText": "10:51"
+    },
+    {
+      "text": "the edit notes, and honestly, it's a few",
+      "startMs": "653680",
+      "endMs": "657200",
+      "startTimeText": "10:53"
+    },
+    {
+      "text": "plain lines rather than a document. It",
+      "startMs": "655440",
+      "endMs": "659040",
+      "startTimeText": "10:55"
+    },
+    {
+      "text": "says to run scene one in full, then drop",
+      "startMs": "657200",
+      "endMs": "660800",
+      "startTimeText": "10:57"
+    },
+    {
+      "text": "the insert and trim to about 2 and 1/2",
+      "startMs": "659040",
+      "endMs": "662399",
+      "startTimeText": "10:59"
+    },
+    {
+      "text": "seconds. Then, scene two runs from the",
+      "startMs": "660800",
+      "endMs": "664000",
+      "startTimeText": "11:00"
+    },
+    {
+      "text": "shutter slam onwards with its original",
+      "startMs": "662399",
+      "endMs": "665920",
+      "startTimeText": "11:02"
+    },
+    {
+      "text": "opening dropped, and then scene three in",
+      "startMs": "664000",
+      "endMs": "667839",
+      "startTimeText": "11:04"
+    },
+    {
+      "text": "full. Every single join is a hard cut.",
+      "startMs": "665920",
+      "endMs": "669600",
+      "startTimeText": "11:05"
+    },
+    {
+      "text": "And then the music, which is the part we",
+      "startMs": "667839",
+      "endMs": "671519",
+      "startTimeText": "11:07"
+    },
+    {
+      "text": "kept out of every generation on purpose.",
+      "startMs": "669600",
+      "endMs": "673600",
+      "startTimeText": "11:09"
+    },
+    {
+      "text": "A light comic track runs under scene one",
+      "startMs": "671519",
+      "endMs": "675680",
+      "startTimeText": "11:11"
+    },
+    {
+      "text": "on its own. It switches to a chase track",
+      "startMs": "673600",
+      "endMs": "677279",
+      "startTimeText": "11:13"
+    },
+    {
+      "text": "the moment the shutter hits the sill,",
+      "startMs": "675680",
+      "endMs": "678640",
+      "startTimeText": "11:15"
+    },
+    {
+      "text": "cut dead on that frame with no",
+      "startMs": "677279",
+      "endMs": "680480",
+      "startTimeText": "11:17"
+    },
+    {
+      "text": "crossfade. The alarm bell runs from that",
+      "startMs": "678640",
+      "endMs": "682320",
+      "startTimeText": "11:18"
+    },
+    {
+      "text": "same frame until the glass smashes and",
+      "startMs": "680480",
+      "endMs": "684000",
+      "startTimeText": "11:20"
+    },
+    {
+      "text": "then everything drops out for the fall.",
+      "startMs": "682320",
+      "endMs": "685360",
+      "startTimeText": "11:22"
+    },
+    {
+      "text": "And the only thing that crossfades",
+      "startMs": "684000",
+      "endMs": "687200",
+      "startTimeText": "11:24"
+    },
+    {
+      "text": "anywhere is the room tone held under",
+      "startMs": "685360",
+      "endMs": "689040",
+      "startTimeText": "11:25"
+    },
+    {
+      "text": "both joins so it doesn't jump while the",
+      "startMs": "687200",
+      "endMs": "691519",
+      "startTimeText": "11:27"
+    },
+    {
+      "text": "picture cuts hard.",
+      "startMs": "689040",
+      "endMs": "694307",
+      "startTimeText": "11:29"
+    },
+    {
+      "text": ">> Touch nothing.",
+      "startMs": "691519",
+      "endMs": "696327",
+      "startTimeText": "11:31"
+    },
+    {
+      "text": ">> [snorts]",
+      "startMs": "694307",
+      "endMs": "696327",
+      "startTimeText": "11:34"
+    },
+    {
+      "text": ">> It's a nice room.",
+      "startMs": "699920",
+      "endMs": "703560",
+      "startTimeText": "11:39"
+    },
+    {
+      "text": "Look at this beauty.",
+      "startMs": "707200",
+      "endMs": "710839",
+      "startTimeText": "11:47"
+    },
+    {
+      "text": ">> Which way?",
+      "startMs": "719120",
+      "endMs": "723079",
+      "startTimeText": "11:59"
+    },
+    {
+      "text": ">> Right.",
+      "startMs": "720079",
+      "endMs": "723079",
+      "startTimeText": "12:00"
+    },
+    {
+      "text": ">> [music]",
+      "startMs": "726403",
+      "endMs": "728423",
+      "startTimeText": "12:06"
+    },
+    {
+      "text": ">> And I didn't have to work any of that",
+      "startMs": "734880",
+      "endMs": "737920",
+      "startTimeText": "12:14"
+    },
+    {
+      "text": "order out myself because the prompt",
+      "startMs": "736240",
+      "endMs": "739519",
+      "startTimeText": "12:16"
+    },
+    {
+      "text": "wrote those notes as part of the same",
+      "startMs": "737920",
+      "endMs": "741040",
+      "startTimeText": "12:17"
+    },
+    {
+      "text": "run and none of that cost anything",
+      "startMs": "739519",
+      "endMs": "742720",
+      "startTimeText": "12:19"
+    },
+    {
+      "text": "beyond the credits I already had. The",
+      "startMs": "741040",
+      "endMs": "744240",
+      "startTimeText": "12:21"
+    },
+    {
+      "text": "same connector opens every other model",
+      "startMs": "742720",
+      "endMs": "745920",
+      "startTimeText": "12:22"
+    },
+    {
+      "text": "on Higsfield and I only used two of",
+      "startMs": "744240",
+      "endMs": "747519",
+      "startTimeText": "12:24"
+    },
+    {
+      "text": "them. So open Higsfield through the link",
+      "startMs": "745920",
+      "endMs": "749360",
+      "startTimeText": "12:25"
+    },
+    {
+      "text": "below, connect the MCP and run the",
+      "startMs": "747519",
+      "endMs": "751279",
+      "startTimeText": "12:27"
+    },
+    {
+      "text": "prompt on your first idea. Thank you for",
+      "startMs": "749360",
+      "endMs": "754480",
+      "startTimeText": "12:29"
+    },
+    {
+      "text": "watching and I'll see you in the next",
+      "startMs": "751279",
+      "endMs": "754480",
+      "startTimeText": "12:31"
+    }
+  ],
+  "transcript_only_text": " Claude  is  one  of  the  best  AI  models  out \n there  and  it  still  has  no  way  of  making \n an  actual  AI  video.  But  I  wrote  a  prompt \n that  makes  the  whole  thing  possible  and \n simple  enough  to  run  in  one  chat.  So  I'm \n giving  that  prompt  away  for  free  and  by \n the  end  you'll  be  making  AI  videos \n automatically  inside  Claude  without \n opening  any  separate  window. \n It's  a  nice  room. \n [music] \n Look  at  this  beauty. \n Which  way? \n >> Right. \n [music] \n For  this  whole  workflow,  we're  using \n Claude  with  the  Higsfield  MCP  connected \n to  it.  And  the  link  for  that  is  in  the \n description.  So,  let's  open  the \n Higsfield  MCP  page.  And  as  you  can  see, \n the  connector  URL  is  right  there  in  the \n first  box.  I'll  copy  that,  go  into \n Claude,  and  open  settings.  Under \n connectors,  we  add  a  new  one,  call  it \n Higsfield,  and  paste  the  URL  straight \n in.  Then,  I  sign  in,  and  the  setup  is \n done.  The  connector  is  exactly  the  same \n in  Claude  desktop  and  on  Cloud.ai,  so  it \n makes  no  difference  which  one  you're  in. \n And  there  are  no  API  keys  to  manage \n anywhere  in  this.  I'll  open  a  fresh  chat \n and  paste  the  prompt  in.  The  full  prompt \n is  in  the  free  doc  below  as  well,  so  you \n can  copy  it  out  and  run  it  alongside  me \n while  you  watch.  It  breaks  the  whole  job \n into  eight  stages,  something  I'd  call \n stage  gating,  and  then  it  stops  at  every \n one  of  them  for  my  approval.  So,  it  asks \n for  a  brief  first.  With  the  brief \n answered,  it  comes  back  with  pitches, \n and  the  chosen  pitch  turns  into  a \n breakdown  and  then  reference  images.  And \n video  is  stage  six  of  the  eight  with  the \n upscale  and  the  edit  notes  after  it. \n Engaging  it  like  that  means  every \n decision  comes  back  to  you  in  writing \n first,  so  you  can  change  it  before  it \n costs  you  a  single  credit.  Claude  comes \n back  saying  the  MCP  is  connected  and \n responding  so  it  can  make  images  and \n video  inside  this  conversation  now.  But \n the  answers  we  give  next  decide  how  the \n entire  film  gets  built.  So  Claude  opens \n with  nine  questions  split  into  two \n batches  so  it  reads  like  a  conversation \n instead  of  a  form.  Five  plain  ones  come \n first.  It  asks  what  type  of  video  this \n is,  what  it's  about,  and  the  genre  and \n tone.  Then  the  runtime  and  whether  we \n want  dialogue  in  it  or  just  visuals.  So \n I  tell  it  we're  making  a  short  film \n that's  also  a  heist  and  a  comedy \n thriller  and  tone.  45  seconds  and  yes  to \n dialogue.  But  the  technical  questions \n are  different  because  those  already  have \n defaults  in  them.  So  you  don't  need  to \n know  which  video  model  is  good  at  what \n or  what  resolution  to  start  at  because \n the  prompt  has  already  picked  sensible \n answers  and  just  asks  you  to  confirm \n them.  GPT  Image  2  handles  every  image  at \n high  quality  in  4K  and  Cance  2.0  handles \n the  video  at  1080p.  Cance  2.5  is  out  now \n and  it  doubles  the  cap  to  30  seconds  a \n generation.  So  the  same  45  seconds  would \n come  down  to  two.  I'm  staying  on  2.0 \n here  because  it's  the  prompt's  default \n and  everything  you're  about  to  see  was \n built  on  it.  But  if  2.5  is  in  your  model \n list,  the  maths  just  gets  easier.  I'll \n personally  set  the  aspect  ratio  to  21x9 \n because  that's  the  widescreen  ratio \n films  get  shot  in.  That  one's  for  the \n video  and  the  reference  sheets  come  out \n at  16x9  because  none  of  them  are  in  the \n finished  film.  And  we  generate  all  the \n video  at  1080p  and  then  upscale  right  at \n the  end  because  native  4K  costs  far  more \n per  render.  So  a  scene  that  comes  back \n wrong  at  4K  cost  you  a  lot  more  than  the \n same  scene  coming  back  wrong  at  1080p. \n Now  with  the  models  and  the  ratio \n locked,  the  runtime  [music]  is  the  last \n thing  it  has  to  work  out.  Cance  2.0  0 \n caps  out  at  15  seconds  per  generation. \n So,  our  45  seconds  splits  into  exactly \n three.  That's  three  generations  and  not \n 30  separate  shots.  And  it  works  because \n each  one  can  hold  its  own  hard  cuts \n inside  it.  That's  a  bit  of  maths  I'd \n have  got  wrong  on  a  first  attempt.  And \n the  prompt  has  already  done  it.  And  it \n locks  the  whole  lot  back  in  one  line. \n Models  resolution,  ratio,  and  block \n count.  [music]  Then  three  pitches  come \n straight  back.  Each  one  three  or  four \n sentences  with  a  title  on  it.  And  the \n premises  are  properly  different  from \n each  other.  Wrong  floor  is  an  office  job \n where  they  realize  they're  one  story  too \n high.  and  the  long  wait  keeps  the  whole \n robbery  offcreen  and  stays  on  the \n driver's  face.  I'll  take  the  first  one, \n the  nice  room.  It  gives  us  a  safe \n cracker  in  her  60s  and  an  enormous, \n completely  useless  young  accomplice.  And \n the  house  they're  robbing  starts  sealing \n itself  while  they're  both  still  inside \n it.  And  the  pitch  never  says  how  those \n three  renders  are  supposed  to  join  up, \n which  is  the  next  thing  the  prompt  sorts \n out.  Turning  three  separate  renders  into \n one  continuous  take  comes  down  to  one \n rule  about  where  a  part  is  allowed  to \n end.  Now  Claude  splits  the  film  into \n three  parts,  one  for  each  generation, \n and  every  part  except  the  last  has  to \n end  midaction.  And  the  next  part  opens \n as  a  match  cut  on  that  exact  action  from \n a  different  angle.  That  is  the  trick  for \n making  three  separate  generations  play \n as  one  film.  And  the  prompt  writes  every \n part  to  that  rule  for  you.  So  the \n finished  thing  looks  like  someone  shot \n it.  Each  of  the  three  parts  comes  back \n with  a  name  and  the  rooms  it's  locked \n to.  The  plant  ends  mid  lift  with  the  box \n half  clear  of  the  safe.  The  break  runs \n the  study  into  the  corridor  and  ends \n mid-stride  and  the  leap  goes  through  the \n window  and  cuts  to  black  on  the  landing. \n Dialogue  gets  written  at  this  stage, \n too,  and  there  are  only  five  short  lines \n in  the  entire  film.  I'll  approve  every \n one  of  them  word  for  word  before \n anything  renders.  That  order  matters \n because  changing  a  line  after  the  scene \n is  generated  means  paying  to  generate  it \n all  over  again.  And  the  first  image  it \n generates  is  Marggo's  reference  sheet. \n And  one  of  the  three  panels  on  it  has  no \n head.  Margot  and  Dustin  get  built  as \n images  before  anything  moves.  And  so  do \n all  three  rooms  they  run  through.  Claude \n writes  both  character  sheet  prompts  out \n in  full  and  shows  them  to  me  before  it \n generates  a  single  thing.  Each  sheet \n comes  back  as  one  image  with  three \n panels  inside  it.  On  the  left  is  the \n full  body  from  the  front  with  no  head, \n no  neck,  and  no  hair  on  it,  which  gives \n the  video  model  the  wardrobe  on  its  own \n as  an  unbroken  silhouette  with  no  face \n in  the  shot.  In  the  center,  the  same \n body  from  behind  with  the  head  on,  and \n that  covers  the  angles  a  chase  actually \n needs.  On  the  right,  a  tight  chest  up \n shot.  That  one  is  the  identity  lock  for \n the  whole  film,  but  both  sheets  close  on \n the  same  block  of  instructions  at  the \n bottom.  That  block  sets  an  18%  neutral \n gray  backdrop,  which  is  the  plain \n mid-grade  that  photographers  shoot \n against  with  flat  shadowless  light.  And \n there's  a  line  telling  it  to  relight \n from  scratch.  That  flat  light  is  what \n makes  the  sheet  usable  as  a  reference. \n Any  lighting  that's  already  in  a \n reference  image  shows  up  in  every \n generation  after  it,  and  then  the  scene \n comes  back  lit  wrong.  It  checks  each \n sheet  against  its  own  prompt  panel  by \n panel.  So,  I  approve  them  one  at  a  time. \n Then,  it  saves  them  as  Margot  and  Dustin \n and  moves  straight  on  to  the  locations. \n It  comes  back  wanting  five  sheets  and \n the  moonlight  on  the  wrong  side.  So,  I \n cut  it  back  to  four  and  put  the  light \n where  the  study  needs  it.  One  prop  sheet \n for  the  jewel  box  first  and  then  three \n location  plates.  The  box  gets  its  own \n sheet  because  it  appears  in  all  three \n generations  and  it  opens  on  camera.  So, \n it  gets  a  six  panel  grid  covering  closed \n and  open  from  the  front,  the  rear,  3/4 \n and  straight  down.  Every  plate  is  shot \n wide,  empty  of  people,  and  straight  on \n at  standing  eye  level.  The  geography \n gets  fixed  left  to  right,  so  the  safe  is \n always  on  the  left,  and  the  window  is \n always  on  the  right.  None  of  the  plates \n carry  any  readable  text  either,  and  that \n one  is  written  into  the  prompt  as  a  hard \n rule.  The  corridor  gets  three  moonlit \n stripes  across  the  runner,  one  for  each \n window,  put  there  for  later.  And  the \n gallery  gets  a  retracted  shutter  housing \n above  the  arched  window,  which  explains \n why  that  one  window  is  still  open.  So, \n let's  approve  them  and  move  on.  So,  six \n elements  are  live  in  total.  That's \n Margot,  Dustin,  and  Jewelbox  for  the \n people  in  the  prop.  Then,  study  corridor \n and  gallery  for  the  rooms.  So,  every \n prompt  from  here  calls  a  tag  instead  of \n describing  anyone  again.  That  tagging  is \n what  stops  the  faces  changing  between \n renders.  But  the  obvious  way  to  prompt  a \n video  is  to  write  the  shot  you  want  as  a \n paragraph,  and  this  prompt  never  does \n that.  When  I  wrote  video  prompts  as  one \n long  paragraph,  my  two  characters  kept \n swapping  sides  of  the  frame.  So,  this \n prompt  uses  labeled  blocks  instead,  and \n we're  filling  in  the  first  of  them  right \n now.  The  blocks  cover  the  scene  context, \n which  elements  are  active,  and  a  map  of \n the  location,  then  the  first  frame,  and \n the  format,  followed  by  action,  timing, \n physics,  lighting,  and  audio  with  a  set \n of  positive  locks  at  the  bottom.  But  the \n location  map  is  the  block  that  stops  the \n swapping.  It  says  Margot  owns  the  left \n of  the  frame  and  Dustin  owns  the  right \n in  every  shot  of  every  generation,  so \n they  never  swap  sides  between  renders. \n By  hand,  you'd  have  to  spell  all  of  that \n out  again  for  every  shot.  And  the  blocks \n mean  you  just  fill  in  a  short  line  under \n each  heading  instead.  So,  scene  one  runs \n six  shots  inside  one  15-second \n generation  with  hard  cuts  between  all  of \n them. \n >> Touch  nothing. \n >> It's  a  nice  room. \n The  very  first  frame  already  has  both  of \n them  in  position,  so  we  don't  waste  any \n of  the  15  seconds  on  an  empty \n establishing  shot.  And  it  ends  exactly \n where  part  one  said  it  would.  With  the \n box  half  clear  and  her  hands  still \n rising,  you  state  what  happens  and  never \n what  shouldn't.  And  the  only  sound \n allowed  inside  a  generation  is  sound \n that's  actually  happening  in  the  room. \n So  no  music  and  no  score  anywhere  inside \n any  of  the  three.  The  turn  in  this  film \n is  a  single  sound,  the  steel  shutter \n slamming  into  the  sill  at  the  top  of \n scene  two.  And  it's  the  only  alarm \n inside  any  of  the  three  generations. \n Look  at  this  beauty. \n [panting] \n >> Which  way? \n >> Right. \n >> The  shutters  take  out  those  three \n moonlight  stripes  one  at  a  time  behind \n them,  which  is  the  corridor  plate  paying \n off.  He  asks  which  way,  she  says  right. \n And  they  cut  right  with  the  camera \n behind  them.  So  her  word  and  the  frame \n agree  with  each  other.  And  the  last \n generation  is  one  speed  ramp  into  the \n window  smash.  Then  a  first  person  fall. \n That  slow  motion  shot  has  both  faces  and \n hundreds  of  individually  spinning  shards \n in  the  same  frame,  which  is  the  hardest \n thing  in  the  entire  film.  All  three \n generations  are  done,  and  the  faces \n match  their  sheets  in  every  one  of  them. \n But  one  shot  inside  scene  two  still \n comes  back  wrong.  Claude  can't  watch  the \n video  it  just  made,  so  every  mistake  in \n it  is  one  I  have  to  catch  myself.  It \n asks  me  to  play  each  one  back  and  tell \n it  what  went  wrong.  And  that's  the  only \n check  on  the  video  itself.  And  the \n opening  close-up  of  scene  two  fails.  The \n box  in  frame  doesn't  actually  match  the \n prop  sheet  because  the  proportions  are \n wrong  and  the  lid  lining  is  off.  But \n everything  from  the  shutter  slam  onwards \n is  fine.  So  the  obvious  move  is  to \n reroll  the  whole  15  seconds,  but  that \n throws  away  five  approved  shots  and  the \n shutter  slam  along  with  them.  Claude \n regenerates  that  one  shot  on  its  own \n instead  as  a  standalone  insert  at  4 \n seconds.  Then  I  trim  it  into  the  2  and \n 1/2  second  slot  in  the  edit  and  the \n extra  runtime  is  there  so  I  can  find  the \n cleanest  cut  point.  So  I  ask  it  to  write \n the  insert  prompt  and  two  things  change \n in  there  while  nothing  else  moves  at \n all.  Jewelbox  gets  named  as  the  single \n source  of  truth  and  the  box  gets  spelled \n out  explicitly  rather  than  left  to  the \n tag.  Then  the  exact  things  that  went \n wrong  go  in  by  name  as  hard  exclusions. \n So  the  prompt  says  it  must  not  come  back \n as  a  ring  box  or  a  tall  box.  The  lining \n is  never  colored  and  the  necklace  is \n never  multistrand.  And  naming  what \n actually  went  wrong  is  the  one  place \n where  negative  wording  is  worth  using. \n [music]  But  the  framing,  the  underlight, \n the  whispered  line,  and  the  audio  locks \n all  carry  over  unchanged.  That's  why  the \n cut  doesn't  show.  And  as  you  can  see, \n the  box  now  matches  the  sheet  wide  and \n shallow  with  the  cream  silk  lid.  So \n scene  two  keeps  its  other  five  shots, \n and  we've  paid  for  a  5-second  render \n instead  of  another  15.  On  my  own,  I'd \n have  just  rerolled  the  whole  thing  and \n paid  for  those  15  seconds  twice.  That's \n the  whole  film  approved  and  still  at \n 1080p.  So  the  upscale  is  next,  and  the \n order  you  run  it  in  decides  what  it \n costs.  All  four  pieces  are  approved  now, \n which  is  three  scenes  and  the  insert. \n So,  I  just  tell  it  all  four  are  approved \n and  to  upscale  them  to  4K.  It  runs \n through  the  MCP  inside  the  same \n conversation  with  no  download  and  no \n re-upload  anywhere,  and  they  come  back \n at  4K.  Nothing  gets  enlarged  until  it's \n already  approved.  So,  we  never  pay  to \n upscale  a  shot  that  ends  up  cut.  With \n all  four  at  4K,  the  only  thing  left  is \n the  edit  notes,  and  honestly,  it's  a  few \n plain  lines  rather  than  a  document.  It \n says  to  run  scene  one  in  full,  then  drop \n the  insert  and  trim  to  about  2  and  1/2 \n seconds.  Then,  scene  two  runs  from  the \n shutter  slam  onwards  with  its  original \n opening  dropped,  and  then  scene  three  in \n full.  Every  single  join  is  a  hard  cut. \n And  then  the  music,  which  is  the  part  we \n kept  out  of  every  generation  on  purpose. \n A  light  comic  track  runs  under  scene  one \n on  its  own.  It  switches  to  a  chase  track \n the  moment  the  shutter  hits  the  sill, \n cut  dead  on  that  frame  with  no \n crossfade.  The  alarm  bell  runs  from  that \n same  frame  until  the  glass  smashes  and \n then  everything  drops  out  for  the  fall. \n And  the  only  thing  that  crossfades \n anywhere  is  the  room  tone  held  under \n both  joins  so  it  doesn't  jump  while  the \n picture  cuts  hard. \n >> Touch  nothing. \n >> [snorts] \n >> It's  a  nice  room. \n Look  at  this  beauty. \n >> Which  way? \n >> Right. \n >> [music] \n >> And  I  didn't  have  to  work  any  of  that \n order  out  myself  because  the  prompt \n wrote  those  notes  as  part  of  the  same \n run  and  none  of  that  cost  anything \n beyond  the  credits  I  already  had.  The \n same  connector  opens  every  other  model \n on  Higsfield  and  I  only  used  two  of \n them.  So  open  Higsfield  through  the  link \n below,  connect  the  MCP  and  run  the \n prompt  on  your  first  idea.  Thank  you  for \n watching  and  I'll  see  you  in  the  next",
+  "language": "English",
+  "videoId": "7bE0PCee01Y",
+  "captionTracks": [
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=7bE0PCee01Y&ei=12zZav_2JJyNvPEPxaXhkAI&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792659271&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=AE57387C2ADE5D4AE4C953C6AA7C3CF895569086.EA703E6F124A52DE727351FB490ED7B37427A168&key=yt8&kind=asr&lang=en",
+      "name": {
+        "simpleText": "English (auto-generated)"
+      },
+      "vssId": "a.en",
+      "languageCode": "en",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    }
+  ]
+}

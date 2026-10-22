@@ -1,0 +1,51 @@
+{
+  "source": "../final.mp4",
+  "review_scope": "one actual rendered frame per semantic beat; not exhaustive frame review",
+  "samples": [
+    {
+      "time": 2.581,
+      "file": "final-01.jpg",
+      "beat_text": "A Fabric interview question. Your sales data is stored as Delta tables in OneLake."
+    },
+    {
+      "time": 7.925,
+      "file": "final-02.jpg",
+      "beat_text": "You want import style query performance without copying the entire dataset into the model."
+    },
+    {
+      "time": 12.608,
+      "file": "final-03.jpg",
+      "beat_text": "Which storage mode fits? Import? Direct Query? Or Direct Lake?"
+    },
+    {
+      "time": 15.488,
+      "file": "final-04.jpg",
+      "beat_text": "Pause here and choose your answer."
+    },
+    {
+      "time": 18.848,
+      "file": "final-05.jpg",
+      "beat_text": "Direct Lake. It loads the columns needed for queries from Delta tables in OneLake."
+    },
+    {
+      "time": 23.648,
+      "file": "final-06.jpg",
+      "beat_text": "A refresh updates metadata. It does not import the entire dataset again."
+    },
+    {
+      "time": 28.565,
+      "file": "final-07.jpg",
+      "beat_text": "Here is the detail to check. Direct Lake on SQL can fall back to Direct Query."
+    },
+    {
+      "time": 33.643,
+      "file": "final-08.jpg",
+      "beat_text": "Direct Lake on OneLake does not use that fallback. Their security behavior differs too."
+    },
+    {
+      "time": 38.997,
+      "file": "final-09.jpg",
+      "beat_text": "Read the comparison before choosing a mode. The correct design depends on the source and permissions."
+    }
+  ]
+}

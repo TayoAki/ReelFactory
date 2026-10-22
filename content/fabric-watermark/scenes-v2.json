@@ -1,0 +1,114 @@
+[
+  {
+    "id": "hook",
+    "duration": 4,
+    "eyebrow": "THE GREEN CHECKMARK TRAP",
+    "title": [
+      "Your pipeline passed.",
+      "A row went missing."
+    ],
+    "caption": "A successful run is not a completeness test.",
+    "kind": "hook"
+  },
+  {
+    "id": "official-pipeline",
+    "duration": 5,
+    "eyebrow": "OFFICIAL MICROSOFT DOCUMENTATION",
+    "title": [
+      "Start with the",
+      "real Fabric workflow."
+    ],
+    "caption": "Two lookups feed the copy activity.",
+    "kind": "docs",
+    "asset": "connect-lookup-copy.png"
+  },
+  {
+    "id": "official-boundary",
+    "duration": 5,
+    "eyebrow": "THE IMPORTANT DISTINCTION",
+    "title": [
+      "Copy the range.",
+      "Then save the mark."
+    ],
+    "caption": "The next example deliberately changes that checkpoint behavior.",
+    "kind": "docs",
+    "asset": "logic-introduction.png"
+  },
+  {
+    "id": "source",
+    "duration": 5,
+    "eyebrow": "01 / THE SOURCE",
+    "title": [
+      "Two rows.",
+      "One timestamp."
+    ],
+    "caption": "Synthetic snapshot. Page size: one row.",
+    "kind": "table"
+  },
+  {
+    "id": "checkpoint",
+    "duration": 5,
+    "eyebrow": "02 / THE CHECKPOINT",
+    "title": [
+      "Page one saves",
+      "10:00:00."
+    ],
+    "caption": "The checkpoint advances after the first page.",
+    "kind": "checkpoint"
+  },
+  {
+    "id": "miss",
+    "duration": 5,
+    "eyebrow": "03 / THE NEXT PAGE",
+    "title": [
+      "Greater than skips",
+      "the timestamp tie."
+    ],
+    "caption": "ID 102 never reaches the destination.",
+    "kind": "miss"
+  },
+  {
+    "id": "fix",
+    "duration": 6,
+    "eyebrow": "04 / THE CONTROLLED FIX",
+    "title": [
+      "Keep the timestamp.",
+      "Add a stable ID."
+    ],
+    "caption": "For this fixed snapshot, use a composite cursor.",
+    "kind": "code"
+  },
+  {
+    "id": "proof",
+    "duration": 5,
+    "eyebrow": "05 / THE RERUN",
+    "title": [
+      "Three keys in.",
+      "Three keys out."
+    ],
+    "caption": "Upsert twice. Still three destination rows.",
+    "kind": "proof"
+  },
+  {
+    "id": "boundary",
+    "duration": 5,
+    "eyebrow": "06 / THE BOUNDARY",
+    "title": [
+      "This fixes the tie.",
+      "Not every failure."
+    ],
+    "caption": "Late arrivals and concurrent changes need separate tests.",
+    "kind": "boundary"
+  },
+  {
+    "id": "close",
+    "duration": 5,
+    "eyebrow": "FABRIC WORKFLOW READINESS",
+    "title": [
+      "Test the output.",
+      "Not just the status."
+    ],
+    "caption": "Start with equal timestamps. Then test recovery.",
+    "kind": "close"
+  }
+]

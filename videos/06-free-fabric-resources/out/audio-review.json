@@ -1,0 +1,22 @@
+{
+  "method": "Whisper tiny.en re-transcription of final mixed MP4, compared with intended narration. ASR differences need interpretation; this is not proof of word-perfect audio.",
+  "similarity": 0.9565,
+  "transcript": "three free Microsoft resources for learning fabric. Save these official pages. One, a fabric trial gives eligible users 60 days to explore the platform. Use it to practice lake houses, ingestion and reporting. Check the current trial limits before you start. Two, the DP700 Practice Assessment is available free on Microsoft Learn. Use the feedback to find gaps. It is a study tool, not a guarantee of an exam result. Three, the exam sandbox lets you explore the exam interface before booking your test. Start with the certification page and follow its official links. Keep the resources together for your next study session.",
+  "differences": [
+    {
+      "kind": "replace",
+      "expected": "sixty",
+      "recognized": "60"
+    },
+    {
+      "kind": "replace",
+      "expected": "lakehouses",
+      "recognized": "lake houses"
+    },
+    {
+      "kind": "replace",
+      "expected": "dp seven hundred",
+      "recognized": "dp700"
+    }
+  ]
+}

@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=1920, height=1080">
+<title>Microsoft Fabric / refined motion edit</title>
+<link rel="stylesheet" href="assets/ev1/tokens.css">
+<script src="assets/ev1/vendor/gsap.min.js"></script>
+<style>
+html,body{margin:0;background:#000}
+#root{position:relative;width:100%;height:100%;overflow:hidden;background:var(--ev1-black)}
+*{box-sizing:border-box}html,body{width:1920px;height:1080px;font-family:var(--ev1-sans)}:root{--film-purple:#24103e;--film-bright:#b9a0ff;--ev1-cap-size:36px}.scene{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 0%,#4a2873 0%,#24103e 55%,#130b21 100%);font-family:var(--ev1-sans);color:white}.brand{position:absolute;left:72px;top:32px;font-size:20px;letter-spacing:.13em;color:#d6c6f5}.tag{position:absolute;right:72px;top:32px;font-size:19px;color:#d6c6f5}.headline{position:absolute;left:72px;top:87px;width:1776px;height:90px;max-height:90px;font-size:52px;line-height:1.25;letter-spacing:-.035em;font-weight:700}.screen{position:absolute;background:#f7f7f7;border:2px solid #d6c6f5;border-radius:16px;box-shadow:0 22px 65px #09040b66}.screen img{width:100%;height:100%;object-fit:contain;display:block;border-radius:14px}.bottom{position:absolute;left:72px;top:1032px;font-size:16px;color:#d6c6f5}.step{position:absolute;top:290px;width:490px;height:310px;border:2px solid #9e7cd0;border-radius:30px;background:linear-gradient(145deg,#65448e,#2d1849);padding:40px}.num{font-size:25px;color:#d7c1ff}.verb{font-size:64px;font-weight:700;margin-top:34px}.detail{font-size:27px;margin-top:22px;color:#e1d4f4}.note{position:absolute;font-size:29px;line-height:1.45;color:#e1d4f4}.big{font-size:78px;line-height:1.15;font-weight:700;letter-spacing:-.035em}.label{font-size:24px;color:#d7c1ff}.badge{position:absolute;left:96px;top:904px;color:#e1d4f4;font-size:19px;line-height:1.3}.ev1-cap{gap:.22em}.cursor{position:absolute;width:42px;height:50px;filter:drop-shadow(0 2px 3px #1118)}.rail{position:absolute;left:72px;top:1018px;width:1776px;height:3px;background:#ffffff22}.progress{height:3px;background:#b9a0ff;transform-origin:0 50%}.flowline{position:absolute;height:4px;background:#b9a0ff;transform-origin:0 50%}.metric{font-size:42px;font-weight:700}.chip{padding:14px 22px;border:1px solid #9e7cd0;border-radius:28px;display:inline-block;font-size:26px}
+</style></head>
+<body>
+<div id="root" class="ev1-frame" data-composition-id="main" data-start="0" data-width="1920" data-height="1080" data-duration="84.4333">
+<div id="c6" class="clip ev1-layer" data-start="0.0000" data-duration="6.8333" style="z-index:1;"><div class="scene"><div data-safe="header" class="brand">REELFACTORY / FABRIC LAB</div><div data-safe="header" class="tag">MICROSOFT FABRIC</div><div data-safe="title" class="headline">Ask your Fabric data. Inspect the answer.</div><div class="rail"><div id="progress1" class="progress"></div></div><div data-safe="footer" class="bottom">Microsoft Learn · CC BY 4.0 · Documentation examples · Animated and annotated</div><div id="hook2" data-safe="content" class="big" style="position:absolute;left:96px;top:270px;width:560px;color:white">A question.</div><div id="hook3" data-safe="content" class="big" style="position:absolute;left:96px;top:390px;width:560px;color:white">An answer.</div><div id="hook4" data-safe="content" class="big" style="position:absolute;left:96px;top:510px;width:560px;color:#b9a0ff">The query.</div><div id="screen5" data-safe="content" class="screen" style="left:780px;top:195px;width:1035px;height:680px"><img src="assets/media/answer-focus.png"></div><div data-safe="provenance" class="badge">Walkthrough of Microsoft’s documented example</div></div></div>
+<div id="c8" class="clip ev1-layer" data-start="0.0000" data-duration="6.8333" style="z-index:55;"><div style="position:absolute;left:72px;top:1018px;width:1776px;height:3px;background:#ffffff22"><div id="playhead7" style="height:3px;background:#b9a0ff;transform-origin:0 50%"></div></div></div>
+<div id="c14" class="clip " data-start="0.0000" data-duration="1.5000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w9" class="w">Your</span><span id="w10" class="w">data</span><span id="w11" class="w">is</span><span id="w12" class="w">already</span><span id="w13" class="w">in</span></div></div>
+<div id="c20" class="clip " data-start="1.5000" data-duration="1.9000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w15" class="w">Microsoft</span><span id="w16" class="w">Fabric.</span><span id="w17" class="w">What</span><span id="w18" class="w">if</span><span id="w19" class="w">you</span></div></div>
+<div id="c26" class="clip " data-start="3.4000" data-duration="1.3333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w21" class="w">could</span><span id="w22" class="w">ask</span><span id="w23" class="w">it</span><span id="w24" class="w">a</span><span id="w25" class="w">question,</span></div></div>
+<div id="c32" class="clip " data-start="4.7333" data-duration="1.3333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w27" class="w">and</span><span id="w28" class="w">inspect</span><span id="w29" class="w">the</span><span id="w30" class="w">query</span><span id="w31" class="w">behind</span></div></div>
+<div id="c35" class="clip " data-start="6.0667" data-duration="0.7666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w33" class="w">the</span><span id="w34" class="w">answer?</span></div></div>
+<div id="c38" class="clip ev1-layer" data-start="6.8333" data-duration="5.4000" style="z-index:1;"><div class="scene"><div data-safe="header" class="brand">REELFACTORY / FABRIC LAB</div><div data-safe="header" class="tag">DOCUMENTED EXAMPLE</div><div data-safe="title" class="headline">First, see the question.</div><div class="rail"><div id="progress36" class="progress"></div></div><div data-safe="footer" class="bottom">Microsoft Learn · CC BY 4.0 · Documentation examples · Animated and annotated</div><div id="screen37" data-safe="content" class="screen" style="left:240px;top:195px;width:1440px;height:680px"><img src="assets/media/ask.png"></div></div></div>
+<div id="c40" class="clip ev1-layer" data-start="6.8333" data-duration="5.4000" style="z-index:55;"><div style="position:absolute;left:72px;top:1018px;width:1776px;height:3px;background:#ffffff22"><div id="playhead39" style="height:3px;background:#b9a0ff;transform-origin:0 50%"></div></div></div>
+<div id="c42" class="clip ev1-layer" data-start="12.2333" data-duration="2.9000" style="z-index:1;"><div class="scene"><div data-safe="header" class="brand">REELFACTORY / FABRIC LAB</div><div data-safe="header" class="tag">MICROSOFT MOTION DEMO</div><div data-safe="title" class="headline">Then inspect how the answer was produced.</div><div class="rail"><div id="progress41" class="progress"></div></div><div data-safe="footer" class="bottom">Microsoft Learn · CC BY 4.0 · Documentation examples · Animated and annotated</div><div data-safe="provenance" class="badge">Advanced NL2SQL example · preview runtime · separate Microsoft sample</div></div></div>
+<div id="c44" class="clip ev1-layer" data-start="12.2333" data-duration="2.9000" style="z-index:55;"><div style="position:absolute;left:72px;top:1018px;width:1776px;height:3px;background:#ffffff22"><div id="playhead43" style="height:3px;background:#b9a0ff;transform-origin:0 50%"></div></div></div>
+<video id="v45" class="clip ev1-fill" src="assets/media/advanced-query.mp4" muted playsinline data-start="12.2333" data-duration="2.9000" data-media-start="9.5000" style="z-index:3;left:240px;top:190px;width:1440px;height:700px;object-fit:contain;background:#f7f7f7;border-radius:14px"></video>
+<div id="c51" class="clip " data-start="6.8333" data-duration="2.2666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w46" class="w">This</span><span id="w47" class="w">is</span><span id="w48" class="w">Microsoft&#x27;s</span><span id="w49" class="w">documented</span><span id="w50" class="w">data</span></div></div>
+<div id="c57" class="clip " data-start="9.1000" data-duration="2.2000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w52" class="w">agent</span><span id="w53" class="w">example.</span><span id="w54" class="w">A</span><span id="w55" class="w">question</span><span id="w56" class="w">goes</span></div></div>
+<div id="c63" class="clip " data-start="11.3000" data-duration="2.2000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w58" class="w">in.</span><span id="w59" class="w">An</span><span id="w60" class="w">answer</span><span id="w61" class="w">comes</span><span id="w62" class="w">back,</span></div></div>
+<div id="c69" class="clip " data-start="13.5000" data-duration="0.9333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w64" class="w">with</span><span id="w65" class="w">the</span><span id="w66" class="w">steps</span><span id="w67" class="w">used</span><span id="w68" class="w">to</span></div></div>
+<div id="c72" class="clip " data-start="14.4333" data-duration="0.7000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w70" class="w">retrieve</span><span id="w71" class="w">it.</span></div></div>
+<div id="c79" class="clip ev1-layer" data-start="15.1333" data-duration="5.5333" style="z-index:1;"><div class="scene"><div data-safe="header" class="brand">REELFACTORY / FABRIC LAB</div><div data-safe="header" class="tag">MICROSOFT FABRIC</div><div data-safe="title" class="headline">Three steps. One checkable result.</div><div class="rail"><div id="progress73" class="progress"></div></div><div data-safe="footer" class="bottom">Microsoft Learn · CC BY 4.0 · Documentation examples · Animated and annotated</div><div id="step74" data-safe="content" class="step" style="left:150px"><div class="num">01</div><div class="verb">Create</div><div class="detail">A Fabric data agent</div></div><div id="link75" class="flowline" style="left:650px;top:445px;width:45px"></div><div id="step76" data-safe="content" class="step" style="left:705px"><div class="num">02</div><div class="verb">Choose</div><div class="detail">Your source + tables</div></div><div id="link77" class="flowline" style="left:1205px;top:445px;width:45px"></div><div id="step78" data-safe="content" class="step" style="left:1260px"><div class="num">03</div><div class="verb">Verify</div><div class="detail">The question + query</div></div><div data-safe="content" class="note" style="left:150px;top:690px;width:1600px">Setup: supported paid capacity · required tenant settings · read access</div></div></div>
+<div id="c81" class="clip ev1-layer" data-start="15.1333" data-duration="5.5333" style="z-index:55;"><div style="position:absolute;left:72px;top:1018px;width:1776px;height:3px;background:#ffffff22"><div id="playhead80" style="height:3px;background:#b9a0ff;transform-origin:0 50%"></div></div></div>
+<div id="c87" class="clip " data-start="15.1333" data-duration="1.6000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w82" class="w">Here</span><span id="w83" class="w">is</span><span id="w84" class="w">the</span><span id="w85" class="w">workflow.</span><span id="w86" class="w">Create</span></div></div>
+<div id="c93" class="clip " data-start="16.7333" data-duration="2.1000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w88" class="w">the</span><span id="w89" class="w">agent.</span><span id="w90" class="w">Choose</span><span id="w91" class="w">its</span><span id="w92" class="w">data.</span></div></div>
+<div id="c99" class="clip " data-start="18.8333" data-duration="1.8333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w94" class="w">Then</span><span id="w95" class="w">ask,</span><span id="w96" class="w">inspect,</span><span id="w97" class="w">and</span><span id="w98" class="w">test.</span></div></div>
+<div id="c102" class="clip ev1-layer" data-start="20.6667" data-duration="3.2000" style="z-index:1;"><div class="scene"><div data-safe="header" class="brand">REELFACTORY / FABRIC LAB</div><div data-safe="header" class="tag">MICROSOFT FABRIC</div><div data-safe="title" class="headline">01 / Start in your Fabric workspace</div><div class="rail"><div id="progress100" class="progress"></div></div><div data-safe="footer" class="bottom">Microsoft Learn · CC BY 4.0 · Documentation examples · Animated and annotated</div><div id="screen101" data-safe="content" class="screen" style="left:240px;top:195px;width:1440px;height:680px"><img src="assets/media/create-data-agent.png"></div></div></div>
+<div id="c104" class="clip ev1-layer" data-start="20.6667" data-duration="3.2000" style="z-index:55;"><div style="position:absolute;left:72px;top:1018px;width:1776px;height:3px;background:#ffffff22"><div id="playhead103" style="height:3px;background:#b9a0ff;transform-origin:0 50%"></div></div></div>
+<div id="c106" class="clip ev1-layer" data-start="20.6667" data-duration="3.2000" style="z-index:10;"><div id="cursor105" class="cursor" style="left:0;top:0"><svg viewBox="0 0 42 50"><path d="M5 3L34 29L21 31L17 46L5 3Z" fill="white" stroke="#2b1746" stroke-width="3"/></svg></div></div>
+<div id="c108" class="clip ev1-layer" data-start="21.3667" data-duration="2.5000" style="z-index:9;"><div id="ring107" data-safe="annotation" style="position:absolute;left:300px;top:230px;width:155px;height:55px;border:4px solid #9d75e0;border-radius:10px;box-shadow:0 0 0 5px #b9a0ff33"></div></div>
+<div id="c111" class="clip ev1-layer" data-start="23.8667" data-duration="2.3000" style="z-index:1;"><div class="scene"><div data-safe="header" class="brand">REELFACTORY / FABRIC LAB</div><div data-safe="header" class="tag">MICROSOFT FABRIC</div><div data-safe="title" class="headline">Search for Fabric data agent.</div><div class="rail"><div id="progress109" class="progress"></div></div><div data-safe="footer" class="bottom">Microsoft Learn · CC BY 4.0 · Documentation examples · Animated and annotated</div><div id="screen110" data-safe="content" class="screen" style="left:340px;top:195px;width:1240px;height:680px"><img src="assets/media/create-focus.png"></div></div></div>
+<div id="c113" class="clip ev1-layer" data-start="23.8667" data-duration="2.3000" style="z-index:55;"><div style="position:absolute;left:72px;top:1018px;width:1776px;height:3px;background:#ffffff22"><div id="playhead112" style="height:3px;background:#b9a0ff;transform-origin:0 50%"></div></div></div>
+<div id="c115" class="clip ev1-layer" data-start="23.8667" data-duration="2.3000" style="z-index:10;"><div id="cursor114" class="cursor" style="left:0;top:0"><svg viewBox="0 0 42 50"><path d="M5 3L34 29L21 31L17 46L5 3Z" fill="white" stroke="#2b1746" stroke-width="3"/></svg></div></div>
+<div id="c118" class="clip ev1-layer" data-start="26.1667" data-duration="1.2000" style="z-index:1;"><div class="scene"><div data-safe="header" class="brand">REELFACTORY / FABRIC LAB</div><div data-safe="header" class="tag">MICROSOFT FABRIC</div><div data-safe="title" class="headline">Give your agent a name.</div><div class="rail"><div id="progress116" class="progress"></div></div><div data-safe="footer" class="bottom">Microsoft Learn · CC BY 4.0 · Documentation examples · Animated and annotated</div><div id="screen117" data-safe="content" class="screen" style="left:450px;top:195px;width:1020px;height:680px"><img src="assets/media/name-focus.png"></div></div></div>
+<div id="c120" class="clip ev1-layer" data-start="26.1667" data-duration="1.2000" style="z-index:55;"><div style="position:absolute;left:72px;top:1018px;width:1776px;height:3px;background:#ffffff22"><div id="playhead119" style="height:3px;background:#b9a0ff;transform-origin:0 50%"></div></div></div>
+<div id="c126" class="clip " data-start="20.6667" data-duration="1.8666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w121" class="w">In</span><span id="w122" class="w">your</span><span id="w123" class="w">Fabric</span><span id="w124" class="w">workspace,</span><span id="w125" class="w">select</span></div></div>
+<div id="c132" class="clip " data-start="22.5333" data-duration="1.9666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w127" class="w">New</span><span id="w128" class="w">Item.</span><span id="w129" class="w">Search</span><span id="w130" class="w">for</span><span id="w131" class="w">Fabric</span></div></div>
+<div id="c138" class="clip " data-start="24.5000" data-duration="1.6666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w133" class="w">data</span><span id="w134" class="w">agent,</span><span id="w135" class="w">select</span><span id="w136" class="w">it,</span><span id="w137" class="w">and</span></div></div>
+<div id="c144" class="clip " data-start="26.1667" data-duration="1.2000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w139" class="w">give</span><span id="w140" class="w">your</span><span id="w141" class="w">agent</span><span id="w142" class="w">a</span><span id="w143" class="w">name.</span></div></div>
+<div id="c147" class="clip ev1-layer" data-start="27.3667" data-duration="7.5333" style="z-index:1;"><div class="scene"><div data-safe="header" class="brand">REELFACTORY / FABRIC LAB</div><div data-safe="header" class="tag">ONELAKE CATALOG</div><div data-safe="title" class="headline">02 / Choose your source</div><div class="rail"><div id="progress145" class="progress"></div></div><div data-safe="footer" class="bottom">Microsoft Learn · CC BY 4.0 · Documentation examples · Animated and annotated</div><div id="screen146" data-safe="content" class="screen" style="left:650px;top:195px;width:1120px;height:680px"><img src="assets/media/change-datasource.png"></div><div data-safe="content" class="note" style="left:100px;top:300px;width:490px;font-size:38px;line-height:1.7">Lakehouse<br>Warehouse<br>Power BI<br>semantic model</div></div></div>
+<div id="c149" class="clip ev1-layer" data-start="27.3667" data-duration="7.5333" style="z-index:55;"><div style="position:absolute;left:72px;top:1018px;width:1776px;height:3px;background:#ffffff22"><div id="playhead148" style="height:3px;background:#b9a0ff;transform-origin:0 50%"></div></div></div>
+<div id="c151" class="clip ev1-layer" data-start="27.9667" data-duration="6.9333" style="z-index:10;"><div id="cursor150" class="cursor" style="left:0;top:0"><svg viewBox="0 0 42 50"><path d="M5 3L34 29L21 31L17 46L5 3Z" fill="white" stroke="#2b1746" stroke-width="3"/></svg></div></div>
+<div id="c153" class="clip ev1-layer" data-start="28.8667" data-duration="1.8000" style="z-index:9;"><div id="ring152" data-safe="annotation" style="position:absolute;left:1495px;top:244px;width:130px;height:42px;border:4px solid #9d75e0;border-radius:10px;box-shadow:0 0 0 5px #b9a0ff33"></div></div>
+<div id="c159" class="clip " data-start="27.3667" data-duration="1.4000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w154" class="w">Next,</span><span id="w155" class="w">add</span><span id="w156" class="w">your</span><span id="w157" class="w">data</span><span id="w158" class="w">source</span></div></div>
+<div id="c165" class="clip " data-start="28.7667" data-duration="2.0333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w160" class="w">from</span><span id="w161" class="w">the</span><span id="w162" class="w">OneLake</span><span id="w163" class="w">catalog.</span><span id="w164" class="w">That</span></div></div>
+<div id="c171" class="clip " data-start="30.8000" data-duration="1.2000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w166" class="w">could</span><span id="w167" class="w">be</span><span id="w168" class="w">a</span><span id="w169" class="w">lakehouse,</span><span id="w170" class="w">a</span></div></div>
+<div id="c177" class="clip " data-start="32.0000" data-duration="1.9000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w172" class="w">warehouse,</span><span id="w173" class="w">or</span><span id="w174" class="w">a</span><span id="w175" class="w">Power</span><span id="w176" class="w">BI</span></div></div>
+<div id="c180" class="clip " data-start="33.9000" data-duration="1.0000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w178" class="w">semantic</span><span id="w179" class="w">model.</span></div></div>
+<div id="c182" class="clip ev1-layer" data-start="34.9000" data-duration="3.5000" style="z-index:1;"><div class="scene"><div data-safe="header" class="brand">REELFACTORY / FABRIC LAB</div><div data-safe="header" class="tag">MICROSOFT MOTION DEMO</div><div data-safe="title" class="headline">Choose the tables the agent can use.</div><div class="rail"><div id="progress181" class="progress"></div></div><div data-safe="footer" class="bottom">Microsoft Learn · CC BY 4.0 · Documentation examples · Animated and annotated</div><div data-safe="provenance" class="badge">AdventureWorks example · Microsoft documentation recording</div></div></div>
+<div id="c184" class="clip ev1-layer" data-start="34.9000" data-duration="3.5000" style="z-index:55;"><div style="position:absolute;left:72px;top:1018px;width:1776px;height:3px;background:#ffffff22"><div id="playhead183" style="height:3px;background:#b9a0ff;transform-origin:0 50%"></div></div></div>
+<video id="v185" class="clip ev1-fill" src="assets/media/table-selection.mp4" muted playsinline data-start="34.9000" data-duration="3.5000" data-media-start="10.5000" style="z-index:3;left:240px;top:190px;width:1440px;height:700px;object-fit:contain;background:#f7f7f7;border-radius:14px"></video>
+<div id="c187" class="clip ev1-layer" data-start="38.4000" data-duration="3.5000" style="z-index:1;"><div class="scene"><div data-safe="header" class="brand">REELFACTORY / FABRIC LAB</div><div data-safe="header" class="tag">MICROSOFT MOTION DEMO</div><div data-safe="title" class="headline">Watch the Explorer checkboxes.</div><div class="rail"><div id="progress186" class="progress"></div></div><div data-safe="footer" class="bottom">Microsoft Learn · CC BY 4.0 · Documentation examples · Animated and annotated</div><div data-safe="provenance" class="badge">Same recording · enlarged Explorer view</div></div></div>
+<div id="c189" class="clip ev1-layer" data-start="38.4000" data-duration="3.5000" style="z-index:55;"><div style="position:absolute;left:72px;top:1018px;width:1776px;height:3px;background:#ffffff22"><div id="playhead188" style="height:3px;background:#b9a0ff;transform-origin:0 50%"></div></div></div>
+<video id="v190" class="clip ev1-fill" src="assets/media/table-detail.mp4" muted playsinline data-start="38.4000" data-duration="3.5000" data-media-start="14.0000" style="z-index:3;left:240px;top:195px;width:650px;height:690px;object-fit:contain;background:#f7f7f7;border-radius:14px"></video>
+<div id="c191" class="clip ev1-layer" data-start="38.4000" data-duration="3.5000" style="z-index:4;"><div data-safe="content" class="note" style="left:1030px;top:340px;width:700px;font-size:42px;line-height:1.6">Choose the relevant tables.<br><br>Only selected tables<br>are available to the agent.</div></div>
+<div id="c197" class="clip " data-start="34.9000" data-duration="1.7000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w192" class="w">In</span><span id="w193" class="w">Explorer,</span><span id="w194" class="w">choose</span><span id="w195" class="w">the</span><span id="w196" class="w">relevant</span></div></div>
+<div id="c203" class="clip " data-start="36.6000" data-duration="2.6000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w198" class="w">tables.</span><span id="w199" class="w">Watch</span><span id="w200" class="w">the</span><span id="w201" class="w">checkboxes.</span><span id="w202" class="w">You</span></div></div>
+<div id="c209" class="clip " data-start="39.2000" data-duration="1.7000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w204" class="w">control</span><span id="w205" class="w">which</span><span id="w206" class="w">tables</span><span id="w207" class="w">are</span><span id="w208" class="w">available</span></div></div>
+<div id="c213" class="clip " data-start="40.9000" data-duration="1.0000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w210" class="w">to</span><span id="w211" class="w">the</span><span id="w212" class="w">agent.</span></div></div>
+<div id="c215" class="clip ev1-layer" data-start="41.9000" data-duration="2.4000" style="z-index:1;"><div class="scene"><div data-safe="header" class="brand">REELFACTORY / FABRIC LAB</div><div data-safe="header" class="tag">MICROSOFT MOTION DEMO</div><div data-safe="title" class="headline">Define terms. Give source-specific guidance.</div><div class="rail"><div id="progress214" class="progress"></div></div><div data-safe="footer" class="bottom">Microsoft Learn · CC BY 4.0 · Documentation examples · Animated and annotated</div><div data-safe="provenance" class="badge">Source configuration in Microsoft’s ontology example · separate sample</div></div></div>
+<div id="c217" class="clip ev1-layer" data-start="41.9000" data-duration="2.4000" style="z-index:55;"><div style="position:absolute;left:72px;top:1018px;width:1776px;height:3px;background:#ffffff22"><div id="playhead216" style="height:3px;background:#b9a0ff;transform-origin:0 50%"></div></div></div>
+<video id="v218" class="clip ev1-fill" src="assets/media/source-config.mp4" muted playsinline data-start="41.9000" data-duration="2.4000" data-media-start="3.8000" style="z-index:3;left:240px;top:190px;width:1440px;height:700px;object-fit:contain;background:#f7f7f7;border-radius:14px"></video>
+<div id="c220" class="clip ev1-layer" data-start="44.3000" data-duration="4.0000" style="z-index:1;"><div class="scene"><div data-safe="header" class="brand">REELFACTORY / FABRIC LAB</div><div data-safe="header" class="tag">MICROSOFT MOTION DEMO</div><div data-safe="title" class="headline">Show the source-specific instructions.</div><div class="rail"><div id="progress219" class="progress"></div></div><div data-safe="footer" class="bottom">Microsoft Learn · CC BY 4.0 · Documentation examples · Animated and annotated</div><div data-safe="provenance" class="badge">Same recording · source instructions panel enlarged</div></div></div>
+<div id="c222" class="clip ev1-layer" data-start="44.3000" data-duration="4.0000" style="z-index:55;"><div style="position:absolute;left:72px;top:1018px;width:1776px;height:3px;background:#ffffff22"><div id="playhead221" style="height:3px;background:#b9a0ff;transform-origin:0 50%"></div></div></div>
+<video id="v223" class="clip ev1-fill" src="assets/media/config-detail.mp4" muted playsinline data-start="44.3000" data-duration="4.0000" data-media-start="6.2000" style="z-index:3;left:240px;top:215px;width:1440px;height:650px;object-fit:contain;background:#f7f7f7;border-radius:14px"></video>
+<div id="c229" class="clip " data-start="41.9000" data-duration="2.1333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w224" class="w">Add</span><span id="w225" class="w">instructions</span><span id="w226" class="w">that</span><span id="w227" class="w">define</span><span id="w228" class="w">your</span></div></div>
+<div id="c235" class="clip " data-start="44.0333" data-duration="1.6333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w230" class="w">business</span><span id="w231" class="w">terms.</span><span id="w232" class="w">Tell</span><span id="w233" class="w">the</span><span id="w234" class="w">agent</span></div></div>
+<div id="c241" class="clip " data-start="45.6667" data-duration="1.2333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w236" class="w">which</span><span id="w237" class="w">source</span><span id="w238" class="w">to</span><span id="w239" class="w">use</span><span id="w240" class="w">for</span></div></div>
+<div id="c246" class="clip " data-start="46.9000" data-duration="1.4000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w242" class="w">different</span><span id="w243" class="w">kinds</span><span id="w244" class="w">of</span><span id="w245" class="w">questions.</span></div></div>
+<div id="c249" class="clip ev1-layer" data-start="48.3000" data-duration="3.2000" style="z-index:1;"><div class="scene"><div data-safe="header" class="brand">REELFACTORY / FABRIC LAB</div><div data-safe="header" class="tag">MICROSOFT FABRIC</div><div data-safe="title" class="headline">03 / Ask a concrete question.</div><div class="rail"><div id="progress247" class="progress"></div></div><div data-safe="footer" class="bottom">Microsoft Learn · CC BY 4.0 · Documentation examples · Animated and annotated</div><div id="screen248" data-safe="content" class="screen" style="left:240px;top:195px;width:1440px;height:680px"><img src="assets/media/ask.png"></div></div></div>
+<div id="c251" class="clip ev1-layer" data-start="48.3000" data-duration="3.2000" style="z-index:55;"><div style="position:absolute;left:72px;top:1018px;width:1776px;height:3px;background:#ffffff22"><div id="playhead250" style="height:3px;background:#b9a0ff;transform-origin:0 50%"></div></div></div>
+<div id="c254" class="clip ev1-layer" data-start="51.5000" data-duration="6.1333" style="z-index:1;"><div class="scene"><div data-safe="header" class="brand">REELFACTORY / FABRIC LAB</div><div data-safe="header" class="tag">MICROSOFT FABRIC</div><div data-safe="title" class="headline">Make the question specific.</div><div class="rail"><div id="progress252" class="progress"></div></div><div data-safe="footer" class="bottom">Microsoft Learn · CC BY 4.0 · Documentation examples · Animated and annotated</div><div id="screen253" data-safe="content" class="screen" style="left:200px;top:310px;width:1520px;height:310px"><img src="assets/media/ask-focus.png"></div><div data-safe="content" class="note" style="left:220px;top:700px;width:1480px">Microsoft’s example: users who played Contoso games<br>and users who purchased items in those games.</div></div></div>
+<div id="c256" class="clip ev1-layer" data-start="51.5000" data-duration="6.1333" style="z-index:55;"><div style="position:absolute;left:72px;top:1018px;width:1776px;height:3px;background:#ffffff22"><div id="playhead255" style="height:3px;background:#b9a0ff;transform-origin:0 50%"></div></div></div>
+<div id="c258" class="clip ev1-layer" data-start="51.5000" data-duration="6.1333" style="z-index:10;"><div id="cursor257" class="cursor" style="left:0;top:0"><svg viewBox="0 0 42 50"><path d="M5 3L34 29L21 31L17 46L5 3Z" fill="white" stroke="#2b1746" stroke-width="3"/></svg></div></div>
+<div id="c264" class="clip " data-start="48.3000" data-duration="2.6000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w259" class="w">Now</span><span id="w260" class="w">ask</span><span id="w261" class="w">a</span><span id="w262" class="w">concrete</span><span id="w263" class="w">question.</span></div></div>
+<div id="c270" class="clip " data-start="50.9000" data-duration="1.9000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w265" class="w">Microsoft&#x27;s</span><span id="w266" class="w">example</span><span id="w267" class="w">asks</span><span id="w268" class="w">how</span><span id="w269" class="w">many</span></div></div>
+<div id="c276" class="clip " data-start="52.8000" data-duration="2.2000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w271" class="w">users</span><span id="w272" class="w">played</span><span id="w273" class="w">Contoso</span><span id="w274" class="w">games,</span><span id="w275" class="w">and</span></div></div>
+<div id="c282" class="clip " data-start="55.0000" data-duration="1.5333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w277" class="w">how</span><span id="w278" class="w">many</span><span id="w279" class="w">users</span><span id="w280" class="w">purchased</span><span id="w281" class="w">items</span></div></div>
+<div id="c286" class="clip " data-start="56.5333" data-duration="1.1000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w283" class="w">in</span><span id="w284" class="w">those</span><span id="w285" class="w">games.</span></div></div>
+<div id="c289" class="clip ev1-layer" data-start="57.6333" data-duration="7.6666" style="z-index:1;"><div class="scene"><div data-safe="header" class="brand">REELFACTORY / FABRIC LAB</div><div data-safe="header" class="tag">03 / VERIFY</div><div data-safe="title" class="headline">Expand the steps. Inspect the generated query.</div><div class="rail"><div id="progress287" class="progress"></div></div><div data-safe="footer" class="bottom">Microsoft Learn · CC BY 4.0 · Documentation examples · Animated and annotated</div><div id="screen288" data-safe="content" class="screen" style="left:650px;top:195px;width:1120px;height:690px"><img src="assets/media/answer-focus.png"></div><div data-safe="content" class="note" style="left:100px;top:315px;width:470px;font-size:37px">Check the filters.<br><br>Check the tables.<br><br>Check the answer.</div></div></div>
+<div id="c291" class="clip ev1-layer" data-start="57.6333" data-duration="7.6666" style="z-index:55;"><div style="position:absolute;left:72px;top:1018px;width:1776px;height:3px;background:#ffffff22"><div id="playhead290" style="height:3px;background:#b9a0ff;transform-origin:0 50%"></div></div></div>
+<div id="c293" class="clip ev1-layer" data-start="63.4000" data-duration="0.8666" style="z-index:9;"><div id="ring292" data-safe="annotation" style="position:absolute;left:831px;top:493px;width:411px;height:22px;border:4px solid #9d75e0;border-radius:10px;box-shadow:0 0 0 5px #b9a0ff33"></div></div>
+<div id="c295" class="clip ev1-layer" data-start="63.9667" data-duration="0.8333" style="z-index:9;"><div id="ring294" data-safe="annotation" style="position:absolute;left:831px;top:477px;width:122px;height:20px;border:4px solid #9d75e0;border-radius:10px;box-shadow:0 0 0 5px #b9a0ff33"></div></div>
+<div id="c297" class="clip ev1-layer" data-start="64.7667" data-duration="0.5333" style="z-index:9;"><div id="ring296" data-safe="annotation" style="position:absolute;left:790px;top:255px;width:786px;height:43px;border:4px solid #9d75e0;border-radius:10px;box-shadow:0 0 0 5px #b9a0ff33"></div></div>
+<div id="c303" class="clip " data-start="57.6333" data-duration="2.0666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w298" class="w">Here</span><span id="w299" class="w">is</span><span id="w300" class="w">the</span><span id="w301" class="w">important</span><span id="w302" class="w">part.</span></div></div>
+<div id="c309" class="clip " data-start="59.7000" data-duration="1.2666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w304" class="w">Expand</span><span id="w305" class="w">the</span><span id="w306" class="w">steps</span><span id="w307" class="w">and</span><span id="w308" class="w">inspect</span></div></div>
+<div id="c315" class="clip " data-start="60.9667" data-duration="2.4333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w310" class="w">the</span><span id="w311" class="w">generated</span><span id="w312" class="w">query.</span><span id="w313" class="w">Check</span><span id="w314" class="w">the</span></div></div>
+<div id="c321" class="clip " data-start="63.4000" data-duration="1.3666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w316" class="w">filters,</span><span id="w317" class="w">the</span><span id="w318" class="w">tables,</span><span id="w319" class="w">and</span><span id="w320" class="w">the</span></div></div>
+<div id="c323" class="clip " data-start="64.7667" data-duration="0.5333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w322" class="w">answer.</span></div></div>
+<div id="c327" class="clip ev1-layer" data-start="65.3000" data-duration="9.0333" style="z-index:1;"><div class="scene"><div data-safe="header" class="brand">REELFACTORY / FABRIC LAB</div><div data-safe="header" class="tag">MICROSOFT FABRIC</div><div data-safe="title" class="headline">Retrieving a number does not prove its cause.</div><div class="rail"><div id="progress324" class="progress"></div></div><div data-safe="footer" class="bottom">Microsoft Learn · CC BY 4.0 · Documentation examples · Animated and annotated</div><div id="contrast325" data-safe="content" style="position:absolute;left:140px;top:280px;width:740px;height:450px"><div class="label">STRUCTURED ANSWER</div><div class="big" style="font-size:63px;margin-top:42px">“What were<br>total sales?”</div><div class="chip" style="margin-top:36px">Retrieve + verify</div></div><div id="contrast326" data-safe="content" style="position:absolute;left:1040px;top:280px;width:740px;height:450px"><div class="label">NEEDS MORE EVIDENCE</div><div class="big" style="font-size:63px;margin-top:42px">“Why did<br>sales change?”</div><div class="chip" style="margin-top:36px">Investigate causes</div></div></div></div>
+<div id="c329" class="clip ev1-layer" data-start="65.3000" data-duration="9.0333" style="z-index:55;"><div style="position:absolute;left:72px;top:1018px;width:1776px;height:3px;background:#ffffff22"><div id="playhead328" style="height:3px;background:#b9a0ff;transform-origin:0 50%"></div></div></div>
+<div id="c335" class="clip " data-start="65.3000" data-duration="1.7666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w330" class="w">A</span><span id="w331" class="w">data</span><span id="w332" class="w">agent</span><span id="w333" class="w">can</span><span id="w334" class="w">retrieve</span></div></div>
+<div id="c341" class="clip " data-start="67.0667" data-duration="2.3333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w336" class="w">structured</span><span id="w337" class="w">answers.</span><span id="w338" class="w">A</span><span id="w339" class="w">question</span><span id="w340" class="w">about</span></div></div>
+<div id="c347" class="clip " data-start="69.4000" data-duration="1.7333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w342" class="w">why</span><span id="w343" class="w">sales</span><span id="w344" class="w">changed</span><span id="w345" class="w">needs</span><span id="w346" class="w">more</span></div></div>
+<div id="c353" class="clip " data-start="71.1333" data-duration="1.9666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w348" class="w">evidence.</span><span id="w349" class="w">Retrieving</span><span id="w350" class="w">a</span><span id="w351" class="w">number</span><span id="w352" class="w">does</span></div></div>
+<div id="c358" class="clip " data-start="73.1000" data-duration="1.2333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w354" class="w">not</span><span id="w355" class="w">prove</span><span id="w356" class="w">its</span><span id="w357" class="w">cause.</span></div></div>
+<div id="c365" class="clip ev1-layer" data-start="74.3333" data-duration="9.7000" style="z-index:1;"><div class="scene"><div data-safe="header" class="brand">REELFACTORY / FABRIC LAB</div><div data-safe="header" class="tag">MICROSOFT FABRIC</div><div data-safe="title" class="headline">Your first Fabric data agent.</div><div class="rail"><div id="progress359" class="progress"></div></div><div data-safe="footer" class="bottom">Microsoft Learn · CC BY 4.0 · Documentation examples · Animated and annotated</div><div id="step360" data-safe="content" class="step" style="left:150px"><div class="num">01</div><div class="verb">Create</div><div class="detail">A Fabric data agent</div></div><div id="link361" class="flowline" style="left:650px;top:445px;width:45px"></div><div id="step362" data-safe="content" class="step" style="left:705px"><div class="num">02</div><div class="verb">Choose</div><div class="detail">Your source + tables</div></div><div id="link363" class="flowline" style="left:1205px;top:445px;width:45px"></div><div id="step364" data-safe="content" class="step" style="left:1260px"><div class="num">03</div><div class="verb">Verify</div><div class="detail">The question + query</div></div><div data-safe="content" class="note" style="left:150px;top:680px;width:1600px;font-size:36px">Start with one question you can check.<br>Test more questions before you publish.</div></div></div>
+<div id="c367" class="clip ev1-layer" data-start="74.3333" data-duration="9.7000" style="z-index:55;"><div style="position:absolute;left:72px;top:1018px;width:1776px;height:3px;background:#ffffff22"><div id="playhead366" style="height:3px;background:#b9a0ff;transform-origin:0 50%"></div></div></div>
+<div id="c373" class="clip " data-start="74.3333" data-duration="2.9000" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w368" class="w">Create.</span><span id="w369" class="w">Choose.</span><span id="w370" class="w">Verify.</span><span id="w371" class="w">Start</span><span id="w372" class="w">with</span></div></div>
+<div id="c379" class="clip " data-start="77.2333" data-duration="1.6666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w374" class="w">one</span><span id="w375" class="w">question</span><span id="w376" class="w">you</span><span id="w377" class="w">can</span><span id="w378" class="w">check,</span></div></div>
+<div id="c385" class="clip " data-start="78.9000" data-duration="1.4333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w380" class="w">then</span><span id="w381" class="w">test</span><span id="w382" class="w">more</span><span id="w383" class="w">questions</span><span id="w384" class="w">before</span></div></div>
+<div id="c391" class="clip " data-start="80.3333" data-duration="1.9666" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w386" class="w">you</span><span id="w387" class="w">publish.</span><span id="w388" class="w">That</span><span id="w389" class="w">is</span><span id="w390" class="w">a</span></div></div>
+<div id="c397" class="clip " data-start="82.3000" data-duration="1.7333" style="z-index:60;position:absolute;left:0;top:0;width:1920px;height:1080px"><div class="ev1-cap" style="top:calc(91% - 0.6 * var(--ev1-cap-size));"><span id="w392" class="w">useful</span><span id="w393" class="w">first</span><span id="w394" class="w">Fabric</span><span id="w395" class="w">data</span><span id="w396" class="w">agent.</span></div></div>
+<div id="c398" class="clip ev1-layer" data-start="84.0333" data-duration="0.4000" style="z-index:1;"><div class="scene"></div></div>
+</div>
+<script>
+
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#hook2",{y:16,scale:.98,opacity:0},{y:0,scale:1,opacity:1,duration:.3,ease:"power2.out",immediateRender:false},0.3000);
+tl.fromTo("#hook3",{y:16,scale:.98,opacity:0},{y:0,scale:1,opacity:1,duration:.3,ease:"power2.out",immediateRender:false},1.2000);
+tl.fromTo("#hook4",{y:16,scale:.98,opacity:0},{y:0,scale:1,opacity:1,duration:.3,ease:"power2.out",immediateRender:false},2.1000);
+tl.fromTo("#screen5",{y:16,scale:.98,opacity:0},{y:0,scale:1,opacity:1,duration:.3,ease:"power2.out",immediateRender:false},0.0000);
+tl.fromTo("#playhead7",{scaleX:0.000000},{scaleX:0.080932,duration:6.8333,ease:"none",immediateRender:false},0.0000);
+tl.set("#w9",{opacity:1},0.0000);
+tl.set("#w10",{opacity:1},0.2667);
+tl.set("#w11",{opacity:1},0.5667);
+tl.set("#w12",{opacity:1},0.9667);
+tl.set("#w13",{opacity:1},1.2333);
+tl.set("#w15",{opacity:1},1.5000);
+tl.set("#w16",{opacity:1},1.9667);
+tl.set("#w17",{opacity:1},3.0667);
+tl.set("#w18",{opacity:1},3.2000);
+tl.set("#w19",{opacity:1},3.3000);
+tl.set("#w21",{opacity:1},3.4000);
+tl.set("#w22",{opacity:1},3.5333);
+tl.set("#w23",{opacity:1},3.7333);
+tl.set("#w24",{opacity:1},3.8333);
+tl.set("#w25",{opacity:1},3.9667);
+tl.set("#w27",{opacity:1},4.7333);
+tl.set("#w28",{opacity:1},4.8000);
+tl.set("#w29",{opacity:1},5.1333);
+tl.set("#w30",{opacity:1},5.4333);
+tl.set("#w31",{opacity:1},5.7000);
+tl.set("#w33",{opacity:1},6.0667);
+tl.set("#w34",{opacity:1},6.3333);
+tl.fromTo("#screen37",{y:16,scale:.98,opacity:0},{y:0,scale:1,opacity:1,duration:.3,ease:"power2.out",immediateRender:false},6.8333);
+tl.fromTo("#playhead39",{scaleX:0.080932},{scaleX:0.144887,duration:5.4000,ease:"none",immediateRender:false},6.8333);
+tl.fromTo("#playhead43",{scaleX:0.144887},{scaleX:0.179234,duration:2.9000,ease:"none",immediateRender:false},12.2333);
+tl.set("#w46",{opacity:1},6.8333);
+tl.set("#w47",{opacity:1},7.0667);
+tl.set("#w48",{opacity:1},7.3667);
+tl.set("#w49",{opacity:1},8.5333);
+tl.set("#w50",{opacity:1},8.6333);
+tl.set("#w52",{opacity:1},9.1000);
+tl.set("#w53",{opacity:1},9.4333);
+tl.set("#w54",{opacity:1},10.5333);
+tl.set("#w55",{opacity:1},10.6333);
+tl.set("#w56",{opacity:1},10.9000);
+tl.set("#w58",{opacity:1},11.3000);
+tl.set("#w59",{opacity:1},12.0333);
+tl.set("#w60",{opacity:1},12.2333);
+tl.set("#w61",{opacity:1},12.4667);
+tl.set("#w62",{opacity:1},12.8667);
+tl.set("#w64",{opacity:1},13.5000);
+tl.set("#w65",{opacity:1},13.6333);
+tl.set("#w66",{opacity:1},13.7667);
+tl.set("#w67",{opacity:1},13.9333);
+tl.set("#w68",{opacity:1},14.2333);
+tl.set("#w70",{opacity:1},14.4333);
+tl.set("#w71",{opacity:1},14.6667);
+tl.fromTo("#step74",{y:16,scale:.98,opacity:0},{y:0,scale:1,opacity:1,duration:.3,ease:"power2.out",immediateRender:false},15.2333);
+tl.fromTo("#link75",{scaleX:0},{scaleX:1,duration:.35,immediateRender:false},15.5833);
+tl.fromTo("#step76",{y:16,scale:.98,opacity:0},{y:0,scale:1,opacity:1,duration:.3,ease:"power2.out",immediateRender:false},15.5833);
+tl.fromTo("#link77",{scaleX:0},{scaleX:1,duration:.35,immediateRender:false},15.9333);
+tl.fromTo("#step78",{y:16,scale:.98,opacity:0},{y:0,scale:1,opacity:1,duration:.3,ease:"power2.out",immediateRender:false},15.9333);
+tl.fromTo("#playhead80",{scaleX:0.179234},{scaleX:0.244769,duration:5.5333,ease:"none",immediateRender:false},15.1333);
+tl.set("#w82",{opacity:1},15.1333);
+tl.set("#w83",{opacity:1},15.4000);
+tl.set("#w84",{opacity:1},15.6000);
+tl.set("#w85",{opacity:1},15.8333);
+tl.set("#w86",{opacity:1},16.5000);
+tl.set("#w88",{opacity:1},16.7333);
+tl.set("#w89",{opacity:1},17.0000);
+tl.set("#w90",{opacity:1},17.8333);
+tl.set("#w91",{opacity:1},17.8333);
+tl.set("#w92",{opacity:1},18.0667);
+tl.set("#w94",{opacity:1},18.8333);
+tl.set("#w95",{opacity:1},19.0000);
+tl.set("#w96",{opacity:1},19.4000);
+tl.set("#w97",{opacity:1},19.9333);
+tl.set("#w98",{opacity:1},20.1333);
+tl.fromTo("#screen101",{y:16,scale:.98,opacity:0},{y:0,scale:1,opacity:1,duration:.3,ease:"power2.out",immediateRender:false},20.6667);
+tl.fromTo("#playhead103",{scaleX:0.244769},{scaleX:0.282669,duration:3.2000,ease:"none",immediateRender:false},20.6667);
+gsap.set("#cursor105",{x:560,y:480});
+tl.to("#cursor105",{x:350,y:245,duration:.65,ease:"power2.inOut"},20.8667);
+tl.fromTo("#ring107",{opacity:0,scale:1.04},{opacity:1,scale:1,duration:.18,immediateRender:false},21.3667);
+tl.fromTo("#screen110",{y:16,scale:.98,opacity:0},{y:0,scale:1,opacity:1,duration:.3,ease:"power2.out",immediateRender:false},23.8667);
+tl.fromTo("#playhead112",{scaleX:0.282669},{scaleX:0.309909,duration:2.3000,ease:"none",immediateRender:false},23.8667);
+gsap.set("#cursor114",{x:1250,y:390});
+tl.to("#cursor114",{x:660,y:540,duration:.65,ease:"power2.inOut"},24.0667);
+tl.fromTo("#screen117",{y:16,scale:.98,opacity:0},{y:0,scale:1,opacity:1,duration:.3,ease:"power2.out",immediateRender:false},26.1667);
+tl.fromTo("#playhead119",{scaleX:0.309909},{scaleX:0.324122,duration:1.2000,ease:"none",immediateRender:false},26.1667);
+tl.set("#w121",{opacity:1},20.6667);
+tl.set("#w122",{opacity:1},20.8667);
+tl.set("#w123",{opacity:1},21.1667);
+tl.set("#w124",{opacity:1},21.3333);
+tl.set("#w125",{opacity:1},22.2667);
+tl.set("#w127",{opacity:1},22.5333);
+tl.set("#w128",{opacity:1},22.7667);
+tl.set("#w129",{opacity:1},23.8667);
+tl.set("#w130",{opacity:1},23.8667);
+tl.set("#w131",{opacity:1},24.1667);
+tl.set("#w133",{opacity:1},24.5000);
+tl.set("#w134",{opacity:1},24.7667);
+tl.set("#w135",{opacity:1},25.6667);
+tl.set("#w136",{opacity:1},25.6667);
+tl.set("#w137",{opacity:1},26.0333);
+tl.set("#w139",{opacity:1},26.1667);
+tl.set("#w140",{opacity:1},26.3333);
+tl.set("#w141",{opacity:1},26.5667);
+tl.set("#w142",{opacity:1},26.7667);
+tl.set("#w143",{opacity:1},26.9333);
+tl.fromTo("#screen146",{y:16,scale:.98,opacity:0},{y:0,scale:1,opacity:1,duration:.3,ease:"power2.out",immediateRender:false},27.3667);
+tl.fromTo("#playhead148",{scaleX:0.324122},{scaleX:0.413344,duration:7.5333,ease:"none",immediateRender:false},27.3667);
+gsap.set("#cursor150",{x:1100,y:470});
+tl.to("#cursor150",{x:1550,y:280,duration:.65,ease:"power2.inOut"},28.1667);
+tl.to("#cursor150",{x:1200,y:420,duration:.65,ease:"power2.inOut"},29.1167);
+tl.fromTo("#ring152",{opacity:0,scale:1.04},{opacity:1,scale:1,duration:.18,immediateRender:false},28.8667);
+tl.set("#w154",{opacity:1},27.3667);
+tl.set("#w155",{opacity:1},27.9000);
+tl.set("#w156",{opacity:1},28.1000);
+tl.set("#w157",{opacity:1},28.2667);
+tl.set("#w158",{opacity:1},28.5000);
+tl.set("#w160",{opacity:1},28.7667);
+tl.set("#w161",{opacity:1},29.0000);
+tl.set("#w162",{opacity:1},29.2667);
+tl.set("#w163",{opacity:1},29.4667);
+tl.set("#w164",{opacity:1},30.6000);
+tl.set("#w166",{opacity:1},30.8000);
+tl.set("#w167",{opacity:1},30.9333);
+tl.set("#w168",{opacity:1},31.0667);
+tl.set("#w169",{opacity:1},31.2667);
+tl.set("#w170",{opacity:1},31.9000);
+tl.set("#w172",{opacity:1},32.0000);
+tl.set("#w173",{opacity:1},32.6000);
+tl.set("#w174",{opacity:1},32.9667);
+tl.set("#w175",{opacity:1},33.3000);
+tl.set("#w176",{opacity:1},33.4667);
+tl.set("#w178",{opacity:1},33.9000);
+tl.set("#w179",{opacity:1},34.3000);
+tl.fromTo("#playhead183",{scaleX:0.413344},{scaleX:0.454797,duration:3.5000,ease:"none",immediateRender:false},34.9000);
+tl.fromTo("#playhead188",{scaleX:0.454797},{scaleX:0.496250,duration:3.5000,ease:"none",immediateRender:false},38.4000);
+tl.set("#w192",{opacity:1},34.9000);
+tl.set("#w193",{opacity:1},35.1333);
+tl.set("#w194",{opacity:1},35.7333);
+tl.set("#w195",{opacity:1},36.1000);
+tl.set("#w196",{opacity:1},36.4000);
+tl.set("#w198",{opacity:1},36.6000);
+tl.set("#w199",{opacity:1},37.5333);
+tl.set("#w200",{opacity:1},37.8000);
+tl.set("#w201",{opacity:1},38.0667);
+tl.set("#w202",{opacity:1},39.1667);
+tl.set("#w204",{opacity:1},39.2000);
+tl.set("#w205",{opacity:1},39.5667);
+tl.set("#w206",{opacity:1},39.9333);
+tl.set("#w207",{opacity:1},40.2667);
+tl.set("#w208",{opacity:1},40.5333);
+tl.set("#w210",{opacity:1},40.9000);
+tl.set("#w211",{opacity:1},41.2000);
+tl.set("#w212",{opacity:1},41.3667);
+tl.fromTo("#playhead216",{scaleX:0.496250},{scaleX:0.524674,duration:2.4000,ease:"none",immediateRender:false},41.9000);
+tl.fromTo("#playhead221",{scaleX:0.524674},{scaleX:0.572049,duration:4.0000,ease:"none",immediateRender:false},44.3000);
+tl.set("#w224",{opacity:1},41.9000);
+tl.set("#w225",{opacity:1},42.2000);
+tl.set("#w226",{opacity:1},42.8000);
+tl.set("#w227",{opacity:1},43.2667);
+tl.set("#w228",{opacity:1},43.5333);
+tl.set("#w230",{opacity:1},44.0333);
+tl.set("#w231",{opacity:1},44.1000);
+tl.set("#w232",{opacity:1},45.0333);
+tl.set("#w233",{opacity:1},45.2000);
+tl.set("#w234",{opacity:1},45.4333);
+tl.set("#w236",{opacity:1},45.6667);
+tl.set("#w237",{opacity:1},45.9333);
+tl.set("#w238",{opacity:1},46.1667);
+tl.set("#w239",{opacity:1},46.3667);
+tl.set("#w240",{opacity:1},46.6667);
+tl.set("#w242",{opacity:1},46.9000);
+tl.set("#w243",{opacity:1},47.1667);
+tl.set("#w244",{opacity:1},47.4333);
+tl.set("#w245",{opacity:1},48.0333);
+tl.fromTo("#screen248",{y:16,scale:.98,opacity:0},{y:0,scale:1,opacity:1,duration:.3,ease:"power2.out",immediateRender:false},48.3000);
+tl.fromTo("#playhead250",{scaleX:0.572049},{scaleX:0.609949,duration:3.2000,ease:"none",immediateRender:false},48.3000);
+tl.fromTo("#screen253",{y:16,scale:.98,opacity:0},{y:0,scale:1,opacity:1,duration:.3,ease:"power2.out",immediateRender:false},51.5000);
+tl.fromTo("#playhead255",{scaleX:0.609949},{scaleX:0.682590,duration:6.1333,ease:"none",immediateRender:false},51.5000);
+gsap.set("#cursor257",{x:1450,y:580});
+tl.to("#cursor257",{x:1200,y:480,duration:.65,ease:"power2.inOut"},51.7000);
+tl.set("#w259",{opacity:1},48.3000);
+tl.set("#w260",{opacity:1},48.7333);
+tl.set("#w261",{opacity:1},49.0667);
+tl.set("#w262",{opacity:1},49.2667);
+tl.set("#w263",{opacity:1},49.5333);
+tl.set("#w265",{opacity:1},50.9000);
+tl.set("#w266",{opacity:1},51.5000);
+tl.set("#w267",{opacity:1},51.8000);
+tl.set("#w268",{opacity:1},52.3000);
+tl.set("#w269",{opacity:1},52.6000);
+tl.set("#w271",{opacity:1},52.8000);
+tl.set("#w272",{opacity:1},53.1667);
+tl.set("#w273",{opacity:1},53.5333);
+tl.set("#w274",{opacity:1},54.0333);
+tl.set("#w275",{opacity:1},54.7000);
+tl.set("#w277",{opacity:1},55.0000);
+tl.set("#w278",{opacity:1},55.1333);
+tl.set("#w279",{opacity:1},55.3667);
+tl.set("#w280",{opacity:1},55.7000);
+tl.set("#w281",{opacity:1},56.1667);
+tl.set("#w283",{opacity:1},56.5333);
+tl.set("#w284",{opacity:1},56.8000);
+tl.set("#w285",{opacity:1},57.0000);
+tl.fromTo("#screen288",{y:16,scale:.98,opacity:0},{y:0,scale:1,opacity:1,duration:.3,ease:"power2.out",immediateRender:false},57.6333);
+tl.fromTo("#playhead290",{scaleX:0.682590},{scaleX:0.773391,duration:7.6667,ease:"none",immediateRender:false},57.6333);
+tl.fromTo("#ring292",{opacity:0,scale:1.04},{opacity:1,scale:1,duration:.18,immediateRender:false},63.4000);
+tl.fromTo("#ring294",{opacity:0,scale:1.04},{opacity:1,scale:1,duration:.18,immediateRender:false},63.9667);
+tl.fromTo("#ring296",{opacity:0,scale:1.04},{opacity:1,scale:1,duration:.18,immediateRender:false},64.7667);
+tl.set("#w298",{opacity:1},57.6333);
+tl.set("#w299",{opacity:1},57.9333);
+tl.set("#w300",{opacity:1},58.1333);
+tl.set("#w301",{opacity:1},58.3667);
+tl.set("#w302",{opacity:1},58.6333);
+tl.set("#w304",{opacity:1},59.7000);
+tl.set("#w305",{opacity:1},59.8667);
+tl.set("#w306",{opacity:1},60.1667);
+tl.set("#w307",{opacity:1},60.4667);
+tl.set("#w308",{opacity:1},60.6667);
+tl.set("#w310",{opacity:1},60.9667);
+tl.set("#w311",{opacity:1},61.7333);
+tl.set("#w312",{opacity:1},61.7333);
+tl.set("#w313",{opacity:1},62.7000);
+tl.set("#w314",{opacity:1},62.9333);
+tl.set("#w316",{opacity:1},63.4000);
+tl.set("#w317",{opacity:1},63.9667);
+tl.set("#w318",{opacity:1},63.9667);
+tl.set("#w319",{opacity:1},64.4333);
+tl.set("#w320",{opacity:1},64.5667);
+tl.set("#w322",{opacity:1},64.7667);
+tl.fromTo("#contrast325",{y:16,scale:.98,opacity:0},{y:0,scale:1,opacity:1,duration:.3,ease:"power2.out",immediateRender:false},65.5000);
+tl.fromTo("#contrast326",{y:16,scale:.98,opacity:0},{y:0,scale:1,opacity:1,duration:.3,ease:"power2.out",immediateRender:false},66.7000);
+tl.fromTo("#playhead328",{scaleX:0.773391},{scaleX:0.880379,duration:9.0333,ease:"none",immediateRender:false},65.3000);
+tl.set("#w330",{opacity:1},65.3000);
+tl.set("#w331",{opacity:1},65.5667);
+tl.set("#w332",{opacity:1},65.8333);
+tl.set("#w333",{opacity:1},66.1667);
+tl.set("#w334",{opacity:1},66.6333);
+tl.set("#w336",{opacity:1},67.0667);
+tl.set("#w337",{opacity:1},67.4667);
+tl.set("#w338",{opacity:1},68.6333);
+tl.set("#w339",{opacity:1},68.7667);
+tl.set("#w340",{opacity:1},69.0333);
+tl.set("#w342",{opacity:1},69.4000);
+tl.set("#w343",{opacity:1},69.7333);
+tl.set("#w344",{opacity:1},70.0000);
+tl.set("#w345",{opacity:1},70.4667);
+tl.set("#w346",{opacity:1},70.8000);
+tl.set("#w348",{opacity:1},71.1333);
+tl.set("#w349",{opacity:1},72.1667);
+tl.set("#w350",{opacity:1},72.4667);
+tl.set("#w351",{opacity:1},72.7000);
+tl.set("#w352",{opacity:1},72.8667);
+tl.set("#w354",{opacity:1},73.1000);
+tl.set("#w355",{opacity:1},73.3667);
+tl.set("#w356",{opacity:1},73.5000);
+tl.set("#w357",{opacity:1},73.7667);
+tl.fromTo("#step360",{y:16,scale:.98,opacity:0},{y:0,scale:1,opacity:1,duration:.3,ease:"power2.out",immediateRender:false},74.4333);
+tl.fromTo("#link361",{scaleX:0},{scaleX:1,duration:.35,immediateRender:false},74.7833);
+tl.fromTo("#step362",{y:16,scale:.98,opacity:0},{y:0,scale:1,opacity:1,duration:.3,ease:"power2.out",immediateRender:false},74.7833);
+tl.fromTo("#link363",{scaleX:0},{scaleX:1,duration:.35,immediateRender:false},75.1333);
+tl.fromTo("#step364",{y:16,scale:.98,opacity:0},{y:0,scale:1,opacity:1,duration:.3,ease:"power2.out",immediateRender:false},75.1333);
+tl.fromTo("#playhead366",{scaleX:0.880379},{scaleX:0.995263,duration:9.7000,ease:"none",immediateRender:false},74.3333);
+tl.set("#w368",{opacity:1},74.3333);
+tl.set("#w369",{opacity:1},75.1333);
+tl.set("#w370",{opacity:1},76.1000);
+tl.set("#w371",{opacity:1},76.8000);
+tl.set("#w372",{opacity:1},77.0000);
+tl.set("#w374",{opacity:1},77.2333);
+tl.set("#w375",{opacity:1},77.5000);
+tl.set("#w376",{opacity:1},77.8000);
+tl.set("#w377",{opacity:1},78.0000);
+tl.set("#w378",{opacity:1},78.2000);
+tl.set("#w380",{opacity:1},78.9000);
+tl.set("#w381",{opacity:1},79.0000);
+tl.set("#w382",{opacity:1},79.2333);
+tl.set("#w383",{opacity:1},79.5000);
+tl.set("#w384",{opacity:1},80.0000);
+tl.set("#w386",{opacity:1},80.3333);
+tl.set("#w387",{opacity:1},80.5333);
+tl.set("#w388",{opacity:1},81.4333);
+tl.set("#w389",{opacity:1},81.6000);
+tl.set("#w390",{opacity:1},81.8000);
+tl.set("#w392",{opacity:1},82.3000);
+tl.set("#w393",{opacity:1},82.3000);
+tl.set("#w394",{opacity:1},82.7000);
+tl.set("#w395",{opacity:1},83.1000);
+tl.set("#w396",{opacity:1},83.3667);
+window.__timelines=window.__timelines||{};window.__timelines["main"] = tl;
+</script>
+</body></html>

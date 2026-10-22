@@ -1,0 +1,5875 @@
+{
+  "success": true,
+  "credits_remaining": 16829,
+  "credits_charged": 1,
+  "type": "video",
+  "url": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "transcript": [
+    {
+      "text": "Hi, I'm Josh. I'm here today with Elise,",
+      "startMs": "0",
+      "endMs": "5960",
+      "startTimeText": "0:00"
+    },
+    {
+      "text": "who is a product leader at Databricks.",
+      "startMs": "3480",
+      "endMs": "8600",
+      "startTimeText": "0:03"
+    },
+    {
+      "text": "We are going to be doing a deep dive on",
+      "startMs": "5960",
+      "endMs": "12640",
+      "startTimeText": "0:05"
+    },
+    {
+      "text": "Genie ontology and the capabilities for",
+      "startMs": "8600",
+      "endMs": "15800",
+      "startTimeText": "0:08"
+    },
+    {
+      "text": "co-working with Genie. Thank you so much",
+      "startMs": "12640",
+      "endMs": "17400",
+      "startTimeText": "0:12"
+    },
+    {
+      "text": "for being here, Elise.",
+      "startMs": "15800",
+      "endMs": "18840",
+      "startTimeText": "0:15"
+    },
+    {
+      "text": ">> Thank you for having me. Excited to talk",
+      "startMs": "17400",
+      "endMs": "20240",
+      "startTimeText": "0:17"
+    },
+    {
+      "text": "about this.",
+      "startMs": "18840",
+      "endMs": "24160",
+      "startTimeText": "0:18"
+    },
+    {
+      "text": ">> Before we dive into Genie ontology,",
+      "startMs": "20240",
+      "endMs": "27600",
+      "startTimeText": "0:20"
+    },
+    {
+      "text": "I think it might be worth it for viewers",
+      "startMs": "24160",
+      "endMs": "29120",
+      "startTimeText": "0:24"
+    },
+    {
+      "text": "to have a",
+      "startMs": "27600",
+      "endMs": "34440",
+      "startTimeText": "0:27"
+    },
+    {
+      "text": "quick little 101 lesson on what Genie",
+      "startMs": "29120",
+      "endMs": "35720",
+      "startTimeText": "0:29"
+    },
+    {
+      "text": "is.",
+      "startMs": "34440",
+      "endMs": "38280",
+      "startTimeText": "0:34"
+    },
+    {
+      "text": ">> Yeah, absolutely. So, I come from the",
+      "startMs": "35720",
+      "endMs": "41280",
+      "startTimeText": "0:35"
+    },
+    {
+      "text": "Genie 1 world. Genie 1 is our AI",
+      "startMs": "38280",
+      "endMs": "43520",
+      "startTimeText": "0:38"
+    },
+    {
+      "text": "co-worker for business users. It It",
+      "startMs": "41280",
+      "endMs": "45920",
+      "startTimeText": "0:41"
+    },
+    {
+      "text": "connects to your data and tools. It",
+      "startMs": "43520",
+      "endMs": "48080",
+      "startTimeText": "0:43"
+    },
+    {
+      "text": "answers questions about your business.",
+      "startMs": "45920",
+      "endMs": "49720",
+      "startTimeText": "0:45"
+    },
+    {
+      "text": "It acts on the answers that it gives",
+      "startMs": "48080",
+      "endMs": "51800",
+      "startTimeText": "0:48"
+    },
+    {
+      "text": "you, all within the governance framework",
+      "startMs": "49720",
+      "endMs": "54600",
+      "startTimeText": "0:49"
+    },
+    {
+      "text": "that you already have. But, Genie 1 sits",
+      "startMs": "51800",
+      "endMs": "58120",
+      "startTimeText": "0:51"
+    },
+    {
+      "text": "in a larger stack of of AI co-workers",
+      "startMs": "54600",
+      "endMs": "60960",
+      "startTimeText": "0:54"
+    },
+    {
+      "text": "and other AI tools on Databricks. So, if",
+      "startMs": "58120",
+      "endMs": "63360",
+      "startTimeText": "0:58"
+    },
+    {
+      "text": "for example, if Genie 1 is our agent for",
+      "startMs": "60960",
+      "endMs": "66440",
+      "startTimeText": "1:00"
+    },
+    {
+      "text": "business users, Genie code is our agent",
+      "startMs": "63360",
+      "endMs": "68640",
+      "startTimeText": "1:03"
+    },
+    {
+      "text": "for technical users. It helps them write",
+      "startMs": "66440",
+      "endMs": "70640",
+      "startTimeText": "1:06"
+    },
+    {
+      "text": "code and and do other work within the",
+      "startMs": "68640",
+      "endMs": "73480",
+      "startTimeText": "1:08"
+    },
+    {
+      "text": "lakehouse. We also have Genie agents,",
+      "startMs": "70640",
+      "endMs": "75400",
+      "startTimeText": "1:10"
+    },
+    {
+      "text": "which can be accessed by both types of",
+      "startMs": "73480",
+      "endMs": "77720",
+      "startTimeText": "1:13"
+    },
+    {
+      "text": "users, and they're really focused on",
+      "startMs": "75400",
+      "endMs": "79600",
+      "startTimeText": "1:15"
+    },
+    {
+      "text": "domain-specific work. They're They're",
+      "startMs": "77720",
+      "endMs": "81160",
+      "startTimeText": "1:17"
+    },
+    {
+      "text": "essentially domain experts, and I can",
+      "startMs": "79600",
+      "endMs": "82840",
+      "startTimeText": "1:19"
+    },
+    {
+      "text": "actually cover that in more depth if we",
+      "startMs": "81160",
+      "endMs": "84880",
+      "startTimeText": "1:21"
+    },
+    {
+      "text": "want to. And then, if all those",
+      "startMs": "82840",
+      "endMs": "87000",
+      "startTimeText": "1:22"
+    },
+    {
+      "text": "hyper-managed solutions don't kind of",
+      "startMs": "84880",
+      "endMs": "88440",
+      "startTimeText": "1:24"
+    },
+    {
+      "text": "satisfy your needs, you can always drop",
+      "startMs": "87000",
+      "endMs": "90880",
+      "startTimeText": "1:27"
+    },
+    {
+      "text": "down to our more custom layer, where we",
+      "startMs": "88440",
+      "endMs": "93080",
+      "startTimeText": "1:28"
+    },
+    {
+      "text": "have things like Agent Bricks, MLflow,",
+      "startMs": "90880",
+      "endMs": "94360",
+      "startTimeText": "1:30"
+    },
+    {
+      "text": "and so on.",
+      "startMs": "93080",
+      "endMs": "100200",
+      "startTimeText": "1:33"
+    },
+    {
+      "text": ">> So, what exactly is Genie ontology?",
+      "startMs": "94360",
+      "endMs": "102800",
+      "startTimeText": "1:34"
+    },
+    {
+      "text": ">> Yeah, absolutely. Um",
+      "startMs": "100200",
+      "endMs": "105000",
+      "startTimeText": "1:40"
+    },
+    {
+      "text": "Yeah, I think it helps to start from the",
+      "startMs": "102800",
+      "endMs": "106360",
+      "startTimeText": "1:42"
+    },
+    {
+      "text": "problem that we're trying to solve, and",
+      "startMs": "105000",
+      "endMs": "108000",
+      "startTimeText": "1:45"
+    },
+    {
+      "text": "then we'll talk about Databricks'",
+      "startMs": "106360",
+      "endMs": "110520",
+      "startTimeText": "1:46"
+    },
+    {
+      "text": "perspective on how to solve it. Generic",
+      "startMs": "108000",
+      "endMs": "113880",
+      "startTimeText": "1:48"
+    },
+    {
+      "text": "models are really good at searching the",
+      "startMs": "110520",
+      "endMs": "117080",
+      "startTimeText": "1:50"
+    },
+    {
+      "text": "web or a a code base, anything that's",
+      "startMs": "113880",
+      "endMs": "119840",
+      "startTimeText": "1:53"
+    },
+    {
+      "text": "got a really constrained space. But when",
+      "startMs": "117080",
+      "endMs": "121880",
+      "startTimeText": "1:57"
+    },
+    {
+      "text": "we start to ask questions about our",
+      "startMs": "119840",
+      "endMs": "125000",
+      "startTimeText": "1:59"
+    },
+    {
+      "text": "business, we often get quite strange",
+      "startMs": "121880",
+      "endMs": "127280",
+      "startTimeText": "2:01"
+    },
+    {
+      "text": "answers. So, for example, it might grab",
+      "startMs": "125000",
+      "endMs": "129200",
+      "startTimeText": "2:05"
+    },
+    {
+      "text": "the first revenue table that it finds in",
+      "startMs": "127280",
+      "endMs": "131520",
+      "startTimeText": "2:07"
+    },
+    {
+      "text": "some random dashboard rather than the",
+      "startMs": "129200",
+      "endMs": "134640",
+      "startTimeText": "2:09"
+    },
+    {
+      "text": "one that finance actually maintains. Uh",
+      "startMs": "131520",
+      "endMs": "136520",
+      "startTimeText": "2:11"
+    },
+    {
+      "text": "or if you ask for, you know, a churn",
+      "startMs": "134640",
+      "endMs": "138600",
+      "startTimeText": "2:14"
+    },
+    {
+      "text": "rate, it might have no idea that your",
+      "startMs": "136520",
+      "endMs": "140840",
+      "startTimeText": "2:16"
+    },
+    {
+      "text": "team excludes free metrics from that or",
+      "startMs": "138600",
+      "endMs": "142959",
+      "startTimeText": "2:18"
+    },
+    {
+      "text": "even that the concept of a free met uh a",
+      "startMs": "140840",
+      "endMs": "145600",
+      "startTimeText": "2:20"
+    },
+    {
+      "text": "free trial exists. Sorry, free trials.",
+      "startMs": "142959",
+      "endMs": "148080",
+      "startTimeText": "2:22"
+    },
+    {
+      "text": "Uh or if you ask like, \"What campaign is",
+      "startMs": "145600",
+      "endMs": "150360",
+      "startTimeText": "2:25"
+    },
+    {
+      "text": "is performing best?\" It might have no",
+      "startMs": "148080",
+      "endMs": "152480",
+      "startTimeText": "2:28"
+    },
+    {
+      "text": "idea that like the campaigns table is",
+      "startMs": "150360",
+      "endMs": "154800",
+      "startTimeText": "2:30"
+    },
+    {
+      "text": "super laggy. So, if you actually want,",
+      "startMs": "152480",
+      "endMs": "156000",
+      "startTimeText": "2:32"
+    },
+    {
+      "text": "you know, the latest data, you have to",
+      "startMs": "154800",
+      "endMs": "159160",
+      "startTimeText": "2:34"
+    },
+    {
+      "text": "go straight to HubSpot via MCP. And more",
+      "startMs": "156000",
+      "endMs": "160920",
+      "startTimeText": "2:36"
+    },
+    {
+      "text": "broadly, all of our companies, you know,",
+      "startMs": "159160",
+      "endMs": "162720",
+      "startTimeText": "2:39"
+    },
+    {
+      "text": "Databricks included, runs on this type",
+      "startMs": "160920",
+      "endMs": "165360",
+      "startTimeText": "2:40"
+    },
+    {
+      "text": "of institutional knowledge that is",
+      "startMs": "162720",
+      "endMs": "168280",
+      "startTimeText": "2:42"
+    },
+    {
+      "text": "locked in in different dashboards and",
+      "startMs": "165360",
+      "endMs": "170240",
+      "startTimeText": "2:45"
+    },
+    {
+      "text": "documents and systems and in people's",
+      "startMs": "168280",
+      "endMs": "172160",
+      "startTimeText": "2:48"
+    },
+    {
+      "text": "heads. And then to make matters worse,",
+      "startMs": "170240",
+      "endMs": "174040",
+      "startTimeText": "2:50"
+    },
+    {
+      "text": "that knowledge moves, right? Tables get",
+      "startMs": "172160",
+      "endMs": "176720",
+      "startTimeText": "2:52"
+    },
+    {
+      "text": "renamed, documents go stale, people",
+      "startMs": "174040",
+      "endMs": "179120",
+      "startTimeText": "2:54"
+    },
+    {
+      "text": "leave the company. So, no matter how",
+      "startMs": "176720",
+      "endMs": "180959",
+      "startTimeText": "2:56"
+    },
+    {
+      "text": "sophisticated a model is, and these",
+      "startMs": "179120",
+      "endMs": "183200",
+      "startTimeText": "2:59"
+    },
+    {
+      "text": "models are really sophisticated. They",
+      "startMs": "180959",
+      "endMs": "185440",
+      "startTimeText": "3:00"
+    },
+    {
+      "text": "can do graduate-level math, but they",
+      "startMs": "183200",
+      "endMs": "187760",
+      "startTimeText": "3:03"
+    },
+    {
+      "text": "struggle to answer business questions",
+      "startMs": "185440",
+      "endMs": "189840",
+      "startTimeText": "3:05"
+    },
+    {
+      "text": "because they're missing that critical",
+      "startMs": "187760",
+      "endMs": "192560",
+      "startTimeText": "3:07"
+    },
+    {
+      "text": "context. Uh but Genie was built for",
+      "startMs": "189840",
+      "endMs": "194320",
+      "startTimeText": "3:09"
+    },
+    {
+      "text": "exactly those types of questions, and it",
+      "startMs": "192560",
+      "endMs": "195720",
+      "startTimeText": "3:12"
+    },
+    {
+      "text": "helps that we've been working on this",
+      "startMs": "194320",
+      "endMs": "198959",
+      "startTimeText": "3:14"
+    },
+    {
+      "text": "this context problem for a long time. Uh",
+      "startMs": "195720",
+      "endMs": "200840",
+      "startTimeText": "3:15"
+    },
+    {
+      "text": "Genie understands your your data",
+      "startMs": "198959",
+      "endMs": "203680",
+      "startTimeText": "3:18"
+    },
+    {
+      "text": "sources, your definitions, even who's",
+      "startMs": "200840",
+      "endMs": "205080",
+      "startTimeText": "3:20"
+    },
+    {
+      "text": "most authoritative when it comes to",
+      "startMs": "203680",
+      "endMs": "207080",
+      "startTimeText": "3:23"
+    },
+    {
+      "text": "drafting those definitions, and we do",
+      "startMs": "205080",
+      "endMs": "209720",
+      "startTimeText": "3:25"
+    },
+    {
+      "text": "that through the Genie ontology.",
+      "startMs": "207080",
+      "endMs": "212200",
+      "startTimeText": "3:27"
+    },
+    {
+      "text": "The ontology is a is a unified context",
+      "startMs": "209720",
+      "endMs": "214640",
+      "startTimeText": "3:29"
+    },
+    {
+      "text": "layer that gives Genie a a business",
+      "startMs": "212200",
+      "endMs": "216800",
+      "startTimeText": "3:32"
+    },
+    {
+      "text": "aware map of your organization. And it",
+      "startMs": "214640",
+      "endMs": "219280",
+      "startTimeText": "3:34"
+    },
+    {
+      "text": "brings together two categories of",
+      "startMs": "216800",
+      "endMs": "221720",
+      "startTimeText": "3:36"
+    },
+    {
+      "text": "context. We have modeled ontology, and",
+      "startMs": "219280",
+      "endMs": "223920",
+      "startTimeText": "3:39"
+    },
+    {
+      "text": "then we have learned ontology.",
+      "startMs": "221720",
+      "endMs": "225800",
+      "startTimeText": "3:41"
+    },
+    {
+      "text": "On the modeled side, uh this is really",
+      "startMs": "223920",
+      "endMs": "228040",
+      "startTimeText": "3:43"
+    },
+    {
+      "text": "where you need to catalog semantics come",
+      "startMs": "225800",
+      "endMs": "230519",
+      "startTimeText": "3:45"
+    },
+    {
+      "text": "into play. It's human-curated context",
+      "startMs": "228040",
+      "endMs": "234440",
+      "startTimeText": "3:48"
+    },
+    {
+      "text": "that someone certified and and governed.",
+      "startMs": "230519",
+      "endMs": "236200",
+      "startTimeText": "3:50"
+    },
+    {
+      "text": "And there are three components that are",
+      "startMs": "234440",
+      "endMs": "238040",
+      "startTimeText": "3:54"
+    },
+    {
+      "text": "worth talking about. Uh the first is",
+      "startMs": "236200",
+      "endMs": "240280",
+      "startTimeText": "3:56"
+    },
+    {
+      "text": "metric views. They form your your",
+      "startMs": "238040",
+      "endMs": "242880",
+      "startTimeText": "3:58"
+    },
+    {
+      "text": "governed reusable KPI layer. So, it's a",
+      "startMs": "240280",
+      "endMs": "245120",
+      "startTimeText": "4:00"
+    },
+    {
+      "text": "certified single source of truth",
+      "startMs": "242880",
+      "endMs": "247800",
+      "startTimeText": "4:02"
+    },
+    {
+      "text": "definition for your key business metrics",
+      "startMs": "245120",
+      "endMs": "250040",
+      "startTimeText": "4:05"
+    },
+    {
+      "text": "stored as open format Unity Catalog",
+      "startMs": "247800",
+      "endMs": "252240",
+      "startTimeText": "4:07"
+    },
+    {
+      "text": "objects. So, for example, you know, this",
+      "startMs": "250040",
+      "endMs": "254880",
+      "startTimeText": "4:10"
+    },
+    {
+      "text": "is how we slice and dice revenue. And",
+      "startMs": "252240",
+      "endMs": "257000",
+      "startTimeText": "4:12"
+    },
+    {
+      "text": "and metric views are fully GA'd.",
+      "startMs": "254880",
+      "endMs": "259760",
+      "startTimeText": "4:14"
+    },
+    {
+      "text": "Pages are a bit newer. Uh it's the it's",
+      "startMs": "257000",
+      "endMs": "261799",
+      "startTimeText": "4:17"
+    },
+    {
+      "text": "the qualitative equivalent of a metric",
+      "startMs": "259760",
+      "endMs": "264160",
+      "startTimeText": "4:19"
+    },
+    {
+      "text": "view. I think of them as wiki pages in",
+      "startMs": "261799",
+      "endMs": "266360",
+      "startTimeText": "4:21"
+    },
+    {
+      "text": "in Unity Catalog. So, if a metric view",
+      "startMs": "264160",
+      "endMs": "268840",
+      "startTimeText": "4:24"
+    },
+    {
+      "text": "defines how we slice and dice revenue, a",
+      "startMs": "266360",
+      "endMs": "271080",
+      "startTimeText": "4:26"
+    },
+    {
+      "text": "page might tell you, say, the difference",
+      "startMs": "268840",
+      "endMs": "273480",
+      "startTimeText": "4:28"
+    },
+    {
+      "text": "between incremental and attributed",
+      "startMs": "271080",
+      "endMs": "276320",
+      "startTimeText": "4:31"
+    },
+    {
+      "text": "revenue. Uh and these are in beta and it",
+      "startMs": "273480",
+      "endMs": "278080",
+      "startTimeText": "4:33"
+    },
+    {
+      "text": "is actually super easy to get started.",
+      "startMs": "276320",
+      "endMs": "280280",
+      "startTimeText": "4:36"
+    },
+    {
+      "text": "You can use Genie code to actually get",
+      "startMs": "278080",
+      "endMs": "282919",
+      "startTimeText": "4:38"
+    },
+    {
+      "text": "started on creating your pages. And then",
+      "startMs": "280280",
+      "endMs": "285080",
+      "startTimeText": "4:40"
+    },
+    {
+      "text": "finally, domains uh allow you to do",
+      "startMs": "282919",
+      "endMs": "289080",
+      "startTimeText": "4:42"
+    },
+    {
+      "text": "tag-based logical collections of assets,",
+      "startMs": "285080",
+      "endMs": "290840",
+      "startTimeText": "4:45"
+    },
+    {
+      "text": "uh both Unity Catalog and workspace",
+      "startMs": "289080",
+      "endMs": "293120",
+      "startTimeText": "4:49"
+    },
+    {
+      "text": "assets by things like business unit or",
+      "startMs": "290840",
+      "endMs": "295800",
+      "startTimeText": "4:50"
+    },
+    {
+      "text": "geo or function. So, you might have a",
+      "startMs": "293120",
+      "endMs": "297360",
+      "startTimeText": "4:53"
+    },
+    {
+      "text": "finance domain or you might have a",
+      "startMs": "295800",
+      "endMs": "299800",
+      "startTimeText": "4:55"
+    },
+    {
+      "text": "product team domain. And an asset can",
+      "startMs": "297360",
+      "endMs": "301480",
+      "startTimeText": "4:57"
+    },
+    {
+      "text": "live in multiple domains. And it's",
+      "startMs": "299800",
+      "endMs": "303320",
+      "startTimeText": "4:59"
+    },
+    {
+      "text": "really helpful for reducing the agent's",
+      "startMs": "301480",
+      "endMs": "304800",
+      "startTimeText": "5:01"
+    },
+    {
+      "text": "search space. So, if someone asks a",
+      "startMs": "303320",
+      "endMs": "306440",
+      "startTimeText": "5:03"
+    },
+    {
+      "text": "question about finance, you know, we can",
+      "startMs": "304800",
+      "endMs": "309720",
+      "startTimeText": "5:04"
+    },
+    {
+      "text": "start from from the finance domain. So,",
+      "startMs": "306440",
+      "endMs": "312120",
+      "startTimeText": "5:06"
+    },
+    {
+      "text": "together, metric views, pages, and",
+      "startMs": "309720",
+      "endMs": "314800",
+      "startTimeText": "5:09"
+    },
+    {
+      "text": "domains form this certified",
+      "startMs": "312120",
+      "endMs": "317560",
+      "startTimeText": "5:12"
+    },
+    {
+      "text": "authoritative baseline. But it's hard,",
+      "startMs": "314800",
+      "endMs": "321240",
+      "startTimeText": "5:14"
+    },
+    {
+      "text": "if not impossible, to try to codify the",
+      "startMs": "317560",
+      "endMs": "323360",
+      "startTimeText": "5:17"
+    },
+    {
+      "text": "entire organization's knowledge that",
+      "startMs": "321240",
+      "endMs": "325720",
+      "startTimeText": "5:21"
+    },
+    {
+      "text": "way, to have a centralized data team",
+      "startMs": "323360",
+      "endMs": "327600",
+      "startTimeText": "5:23"
+    },
+    {
+      "text": "responsible for codifying the the",
+      "startMs": "325720",
+      "endMs": "330360",
+      "startTimeText": "5:25"
+    },
+    {
+      "text": "concepts that every individual team are",
+      "startMs": "327600",
+      "endMs": "332120",
+      "startTimeText": "5:27"
+    },
+    {
+      "text": "are kind of experts in.",
+      "startMs": "330360",
+      "endMs": "335360",
+      "startTimeText": "5:30"
+    },
+    {
+      "text": "So, we supplement the modeled ontology",
+      "startMs": "332120",
+      "endMs": "337520",
+      "startTimeText": "5:32"
+    },
+    {
+      "text": "with what we call learned knowledge.",
+      "startMs": "335360",
+      "endMs": "339960",
+      "startTimeText": "5:35"
+    },
+    {
+      "text": "Specifically, we extract ontology",
+      "startMs": "337520",
+      "endMs": "343520",
+      "startTimeText": "5:37"
+    },
+    {
+      "text": "snippets from your dashboards, your SQL",
+      "startMs": "339960",
+      "endMs": "346040",
+      "startTimeText": "5:39"
+    },
+    {
+      "text": "queries, your Genie agents, notebooks,",
+      "startMs": "343520",
+      "endMs": "348000",
+      "startTimeText": "5:43"
+    },
+    {
+      "text": "all the work that people are doing day",
+      "startMs": "346040",
+      "endMs": "350920",
+      "startTimeText": "5:46"
+    },
+    {
+      "text": "in and and day out within and outside of",
+      "startMs": "348000",
+      "endMs": "352800",
+      "startTimeText": "5:48"
+    },
+    {
+      "text": "Databricks. So, for example, you know,",
+      "startMs": "350920",
+      "endMs": "355760",
+      "startTimeText": "5:50"
+    },
+    {
+      "text": "the fact that someone joins table A and",
+      "startMs": "352800",
+      "endMs": "358640",
+      "startTimeText": "5:52"
+    },
+    {
+      "text": "table B is very valuable information for",
+      "startMs": "355760",
+      "endMs": "360640",
+      "startTimeText": "5:55"
+    },
+    {
+      "text": "a Genie. And then if they add maybe a",
+      "startMs": "358640",
+      "endMs": "363000",
+      "startTimeText": "5:58"
+    },
+    {
+      "text": "comment, that's probably making it even",
+      "startMs": "360640",
+      "endMs": "364640",
+      "startTimeText": "6:00"
+    },
+    {
+      "text": "more valuable. And then if they share",
+      "startMs": "363000",
+      "endMs": "366920",
+      "startTimeText": "6:03"
+    },
+    {
+      "text": "that with other people, we know it's",
+      "startMs": "364640",
+      "endMs": "368640",
+      "startTimeText": "6:04"
+    },
+    {
+      "text": "probably valuable for those other",
+      "startMs": "366920",
+      "endMs": "370760",
+      "startTimeText": "6:06"
+    },
+    {
+      "text": "people. And then if that query becomes",
+      "startMs": "368640",
+      "endMs": "373720",
+      "startTimeText": "6:08"
+    },
+    {
+      "text": "very, very popular, we can surmise that",
+      "startMs": "370760",
+      "endMs": "375520",
+      "startTimeText": "6:10"
+    },
+    {
+      "text": "it's probably a pretty authoritative",
+      "startMs": "373720",
+      "endMs": "377160",
+      "startTimeText": "6:13"
+    },
+    {
+      "text": "source of information. So, a snippet",
+      "startMs": "375520",
+      "endMs": "379520",
+      "startTimeText": "6:15"
+    },
+    {
+      "text": "could be a join hint, but it could also",
+      "startMs": "377160",
+      "endMs": "382240",
+      "startTimeText": "6:17"
+    },
+    {
+      "text": "be things like a business rule. So, for",
+      "startMs": "379520",
+      "endMs": "384400",
+      "startTimeText": "6:19"
+    },
+    {
+      "text": "example, a lead is only qualified once a",
+      "startMs": "382240",
+      "endMs": "385480",
+      "startTimeText": "6:22"
+    },
+    {
+      "text": "meeting is booked, and all that",
+      "startMs": "384400",
+      "endMs": "387680",
+      "startTimeText": "6:24"
+    },
+    {
+      "text": "information lives in Salesforce. Or it",
+      "startMs": "385480",
+      "endMs": "389160",
+      "startTimeText": "6:25"
+    },
+    {
+      "text": "could be information about, you know,",
+      "startMs": "387680",
+      "endMs": "390960",
+      "startTimeText": "6:27"
+    },
+    {
+      "text": "which data is most authoritative. So,",
+      "startMs": "389160",
+      "endMs": "393720",
+      "startTimeText": "6:29"
+    },
+    {
+      "text": "for example, you must pull revenue from",
+      "startMs": "390960",
+      "endMs": "396200",
+      "startTimeText": "6:30"
+    },
+    {
+      "text": "this finance catalog. Or it could be a",
+      "startMs": "393720",
+      "endMs": "398160",
+      "startTimeText": "6:33"
+    },
+    {
+      "text": "metric definition. So, for example, like",
+      "startMs": "396200",
+      "endMs": "401480",
+      "startTimeText": "6:36"
+    },
+    {
+      "text": "how might we define churn for our team?",
+      "startMs": "398160",
+      "endMs": "404520",
+      "startTimeText": "6:38"
+    },
+    {
+      "text": "And as Genie is amassing all this",
+      "startMs": "401480",
+      "endMs": "407040",
+      "startTimeText": "6:41"
+    },
+    {
+      "text": "information, both this modeled and",
+      "startMs": "404520",
+      "endMs": "409560",
+      "startTimeText": "6:44"
+    },
+    {
+      "text": "learned knowledge, it's all going into",
+      "startMs": "407040",
+      "endMs": "411760",
+      "startTimeText": "6:47"
+    },
+    {
+      "text": "one single ranking algorithm that we",
+      "startMs": "409560",
+      "endMs": "413720",
+      "startTimeText": "6:49"
+    },
+    {
+      "text": "call Ontorank.",
+      "startMs": "411760",
+      "endMs": "416800",
+      "startTimeText": "6:51"
+    },
+    {
+      "text": "Given a Given a query that someone posts",
+      "startMs": "413720",
+      "endMs": "418760",
+      "startTimeText": "6:53"
+    },
+    {
+      "text": "in an agent, what are the assets that",
+      "startMs": "416800",
+      "endMs": "420360",
+      "startTimeText": "6:56"
+    },
+    {
+      "text": "are most likely to be helpful in",
+      "startMs": "418760",
+      "endMs": "422360",
+      "startTimeText": "6:58"
+    },
+    {
+      "text": "answering that in that question? So, for",
+      "startMs": "420360",
+      "endMs": "424400",
+      "startTimeText": "7:00"
+    },
+    {
+      "text": "example, it looks at things like",
+      "startMs": "422360",
+      "endMs": "427160",
+      "startTimeText": "7:02"
+    },
+    {
+      "text": "popularity, certification status,",
+      "startMs": "424400",
+      "endMs": "429480",
+      "startTimeText": "7:04"
+    },
+    {
+      "text": "authorship to",
+      "startMs": "427160",
+      "endMs": "431120",
+      "startTimeText": "7:07"
+    },
+    {
+      "text": "to try to find the most valuable",
+      "startMs": "429480",
+      "endMs": "435080",
+      "startTimeText": "7:09"
+    },
+    {
+      "text": "information, to dedupe against across uh",
+      "startMs": "431120",
+      "endMs": "437560",
+      "startTimeText": "7:11"
+    },
+    {
+      "text": "conflicting information, and so on. And",
+      "startMs": "435080",
+      "endMs": "439760",
+      "startTimeText": "7:15"
+    },
+    {
+      "text": "it's not just questions that you put",
+      "startMs": "437560",
+      "endMs": "442800",
+      "startTimeText": "7:17"
+    },
+    {
+      "text": "into Genie, it's also any third-party",
+      "startMs": "439760",
+      "endMs": "445240",
+      "startTimeText": "7:19"
+    },
+    {
+      "text": "agent that you choose to hook up via our",
+      "startMs": "442800",
+      "endMs": "447400",
+      "startTimeText": "7:22"
+    },
+    {
+      "text": "MCP. So, no matter where you're",
+      "startMs": "445240",
+      "endMs": "449840",
+      "startTimeText": "7:25"
+    },
+    {
+      "text": "standardizing your end users, you",
+      "startMs": "447400",
+      "endMs": "452360",
+      "startTimeText": "7:27"
+    },
+    {
+      "text": "benefit from this semantic layer. And",
+      "startMs": "449840",
+      "endMs": "455000",
+      "startTimeText": "7:29"
+    },
+    {
+      "text": "that that benefit is very significant.",
+      "startMs": "452360",
+      "endMs": "456720",
+      "startTimeText": "7:32"
+    },
+    {
+      "text": "Uh when we benchmark Genie with the",
+      "startMs": "455000",
+      "endMs": "458800",
+      "startTimeText": "7:35"
+    },
+    {
+      "text": "ontology against the the strongest",
+      "startMs": "456720",
+      "endMs": "461760",
+      "startTimeText": "7:36"
+    },
+    {
+      "text": "models available, it's consistently the",
+      "startMs": "458800",
+      "endMs": "463880",
+      "startTimeText": "7:38"
+    },
+    {
+      "text": "top-performing agent for business",
+      "startMs": "461760",
+      "endMs": "465000",
+      "startTimeText": "7:41"
+    },
+    {
+      "text": "questions and there were no trick",
+      "startMs": "463880",
+      "endMs": "466520",
+      "startTimeText": "7:43"
+    },
+    {
+      "text": "questions in this benchmark. This is",
+      "startMs": "465000",
+      "endMs": "468680",
+      "startTimeText": "7:45"
+    },
+    {
+      "text": "just real business questions with real",
+      "startMs": "466520",
+      "endMs": "471080",
+      "startTimeText": "7:46"
+    },
+    {
+      "text": "business data and we saw more than 30",
+      "startMs": "468680",
+      "endMs": "473400",
+      "startTimeText": "7:48"
+    },
+    {
+      "text": "percentage point improvement in accuracy",
+      "startMs": "471080",
+      "endMs": "475520",
+      "startTimeText": "7:51"
+    },
+    {
+      "text": "over the next best performing model. And",
+      "startMs": "473400",
+      "endMs": "478160",
+      "startTimeText": "7:53"
+    },
+    {
+      "text": "it was also a lot quicker. After all, a",
+      "startMs": "475520",
+      "endMs": "480560",
+      "startTimeText": "7:55"
+    },
+    {
+      "text": "generic agent has to make up for the",
+      "startMs": "478160",
+      "endMs": "482400",
+      "startTimeText": "7:58"
+    },
+    {
+      "text": "fact that it doesn't know your business.",
+      "startMs": "480560",
+      "endMs": "484600",
+      "startTimeText": "8:00"
+    },
+    {
+      "text": "So if it's not going to hallucinate,",
+      "startMs": "482400",
+      "endMs": "486800",
+      "startTimeText": "8:02"
+    },
+    {
+      "text": "then it explores, right? It samples a",
+      "startMs": "484600",
+      "endMs": "488920",
+      "startTimeText": "8:04"
+    },
+    {
+      "text": "bunch of schemas, it runs a bunch of",
+      "startMs": "486800",
+      "endMs": "490600",
+      "startTimeText": "8:06"
+    },
+    {
+      "text": "extra queries, it grabs a bunch of",
+      "startMs": "488920",
+      "endMs": "492680",
+      "startTimeText": "8:08"
+    },
+    {
+      "text": "documents and it loads all of that into",
+      "startMs": "490600",
+      "endMs": "494840",
+      "startTimeText": "8:10"
+    },
+    {
+      "text": "the model's context in case any of it",
+      "startMs": "492680",
+      "endMs": "496800",
+      "startTimeText": "8:12"
+    },
+    {
+      "text": "turns out to matter later. But Genie",
+      "startMs": "494840",
+      "endMs": "499000",
+      "startTimeText": "8:14"
+    },
+    {
+      "text": "doesn't have to do as much work because",
+      "startMs": "496800",
+      "endMs": "501800",
+      "startTimeText": "8:16"
+    },
+    {
+      "text": "it already knows which sources count and",
+      "startMs": "499000",
+      "endMs": "503280",
+      "startTimeText": "8:19"
+    },
+    {
+      "text": "how to use them. And and I'm already",
+      "startMs": "501800",
+      "endMs": "505680",
+      "startTimeText": "8:21"
+    },
+    {
+      "text": "really confident that as we continue to",
+      "startMs": "503280",
+      "endMs": "507640",
+      "startTimeText": "8:23"
+    },
+    {
+      "text": "tune the onto rank algorithm and expand",
+      "startMs": "505680",
+      "endMs": "509560",
+      "startTimeText": "8:25"
+    },
+    {
+      "text": "the depth of the ontology, I think this",
+      "startMs": "507640",
+      "endMs": "511760",
+      "startTimeText": "8:27"
+    },
+    {
+      "text": "gap is going to is going to only widen.",
+      "startMs": "509560",
+      "endMs": "514560",
+      "startTimeText": "8:29"
+    },
+    {
+      "text": ">> Now, I see accuracy,",
+      "startMs": "511760",
+      "endMs": "517440",
+      "startTimeText": "8:31"
+    },
+    {
+      "text": "I see speed, I do not see the cost",
+      "startMs": "514560",
+      "endMs": "520640",
+      "startTimeText": "8:34"
+    },
+    {
+      "text": "component. How how did that compare?",
+      "startMs": "517440",
+      "endMs": "522520",
+      "startTimeText": "8:37"
+    },
+    {
+      "text": ">> Yeah, the cost component, it's a third",
+      "startMs": "520640",
+      "endMs": "525080",
+      "startTimeText": "8:40"
+    },
+    {
+      "text": "version of this slide. Um, it was also",
+      "startMs": "522520",
+      "endMs": "527560",
+      "startTimeText": "8:42"
+    },
+    {
+      "text": "favorable if I recall correctly. It ties",
+      "startMs": "525080",
+      "endMs": "529280",
+      "startTimeText": "8:45"
+    },
+    {
+      "text": "to the the latency and the token",
+      "startMs": "527560",
+      "endMs": "531000",
+      "startTimeText": "8:47"
+    },
+    {
+      "text": "efficiency, which makes sense, right?",
+      "startMs": "529280",
+      "endMs": "533320",
+      "startTimeText": "8:49"
+    },
+    {
+      "text": "Genie is doing a lot less trial and",
+      "startMs": "531000",
+      "endMs": "535520",
+      "startTimeText": "8:51"
+    },
+    {
+      "text": "error to try to find the assets and to",
+      "startMs": "533320",
+      "endMs": "537640",
+      "startTimeText": "8:53"
+    },
+    {
+      "text": "try to make sense of them. So we saw all",
+      "startMs": "535520",
+      "endMs": "538880",
+      "startTimeText": "8:55"
+    },
+    {
+      "text": "three",
+      "startMs": "537640",
+      "endMs": "541880",
+      "startTimeText": "8:57"
+    },
+    {
+      "text": "all three variables, if you will, um,",
+      "startMs": "538880",
+      "endMs": "543280",
+      "startTimeText": "8:58"
+    },
+    {
+      "text": "uh, significantly improved with the",
+      "startMs": "541880",
+      "endMs": "544080",
+      "startTimeText": "9:01"
+    },
+    {
+      "text": "ontology.",
+      "startMs": "543280",
+      "endMs": "546280",
+      "startTimeText": "9:03"
+    },
+    {
+      "text": ">> Got it. Thank you.",
+      "startMs": "544080",
+      "endMs": "548839",
+      "startTimeText": "9:04"
+    },
+    {
+      "text": ">> Um, of course, Genie can only learn from",
+      "startMs": "546280",
+      "endMs": "550960",
+      "startTimeText": "9:06"
+    },
+    {
+      "text": "the data that it can actually reach. So",
+      "startMs": "548839",
+      "endMs": "551960",
+      "startTimeText": "9:08"
+    },
+    {
+      "text": "it's important to talk a little bit",
+      "startMs": "550960",
+      "endMs": "554040",
+      "startTimeText": "9:10"
+    },
+    {
+      "text": "about how Genie also gets access to this",
+      "startMs": "551960",
+      "endMs": "556640",
+      "startTimeText": "9:11"
+    },
+    {
+      "text": "data that it's going to make sense of.",
+      "startMs": "554040",
+      "endMs": "558600",
+      "startTimeText": "9:14"
+    },
+    {
+      "text": "Uh, we already have text to SQL, uh,",
+      "startMs": "556640",
+      "endMs": "560480",
+      "startTimeText": "9:16"
+    },
+    {
+      "text": "which covers structured data that's",
+      "startMs": "558600",
+      "endMs": "562320",
+      "startTimeText": "9:18"
+    },
+    {
+      "text": "governed in Unity Catalog. And I don't",
+      "startMs": "560480",
+      "endMs": "564560",
+      "startTimeText": "9:20"
+    },
+    {
+      "text": "want to underestimate how much that",
+      "startMs": "562320",
+      "endMs": "566800",
+      "startTimeText": "9:22"
+    },
+    {
+      "text": "matters. You know, a lot of agents are",
+      "startMs": "564560",
+      "endMs": "569440",
+      "startTimeText": "9:24"
+    },
+    {
+      "text": "just reciting information that lives in",
+      "startMs": "566800",
+      "endMs": "570880",
+      "startTimeText": "9:26"
+    },
+    {
+      "text": "a document. But when you're asking",
+      "startMs": "569440",
+      "endMs": "572560",
+      "startTimeText": "9:29"
+    },
+    {
+      "text": "questions about your business, there",
+      "startMs": "570880",
+      "endMs": "574720",
+      "startTimeText": "9:30"
+    },
+    {
+      "text": "often already isn't already a document",
+      "startMs": "572560",
+      "endMs": "576000",
+      "startTimeText": "9:32"
+    },
+    {
+      "text": "that can answer those questions. That's",
+      "startMs": "574720",
+      "endMs": "577880",
+      "startTimeText": "9:34"
+    },
+    {
+      "text": "why you're That's why you're asking. So,",
+      "startMs": "576000",
+      "endMs": "581240",
+      "startTimeText": "9:36"
+    },
+    {
+      "text": "Genie is not only doing search, but also",
+      "startMs": "577880",
+      "endMs": "583800",
+      "startTimeText": "9:37"
+    },
+    {
+      "text": "querying based on your live operational",
+      "startMs": "581240",
+      "endMs": "586040",
+      "startTimeText": "9:41"
+    },
+    {
+      "text": "data. And we have dozens of connectors",
+      "startMs": "583800",
+      "endMs": "589000",
+      "startTimeText": "9:43"
+    },
+    {
+      "text": "for that. Plus, actually Josh inspired",
+      "startMs": "586040",
+      "endMs": "590840",
+      "startTimeText": "9:46"
+    },
+    {
+      "text": "uh a product that we call custom",
+      "startMs": "589000",
+      "endMs": "593280",
+      "startTimeText": "9:49"
+    },
+    {
+      "text": "connectors um that allow the community",
+      "startMs": "590840",
+      "endMs": "595480",
+      "startTimeText": "9:50"
+    },
+    {
+      "text": "connectors, sorry. Uh that allows you to",
+      "startMs": "593280",
+      "endMs": "598040",
+      "startTimeText": "9:53"
+    },
+    {
+      "text": "create a connector to any generic uh",
+      "startMs": "595480",
+      "endMs": "599600",
+      "startTimeText": "9:55"
+    },
+    {
+      "text": "application. So, thank you Josh actually",
+      "startMs": "598040",
+      "endMs": "600880",
+      "startTimeText": "9:58"
+    },
+    {
+      "text": "for that idea. That That went straight",
+      "startMs": "599600",
+      "endMs": "604000",
+      "startTimeText": "9:59"
+    },
+    {
+      "text": "into the product. Um for data that lives",
+      "startMs": "600880",
+      "endMs": "606360",
+      "startTimeText": "10:00"
+    },
+    {
+      "text": "in in third-party applications, maybe",
+      "startMs": "604000",
+      "endMs": "608520",
+      "startTimeText": "10:04"
+    },
+    {
+      "text": "that you want to query live instead of",
+      "startMs": "606360",
+      "endMs": "610160",
+      "startTimeText": "10:06"
+    },
+    {
+      "text": "pulling it in and running that text to",
+      "startMs": "608520",
+      "endMs": "613760",
+      "startTimeText": "10:08"
+    },
+    {
+      "text": "SQL, we also have uh MCP connectors.",
+      "startMs": "610160",
+      "endMs": "614920",
+      "startTimeText": "10:10"
+    },
+    {
+      "text": "Again, they query live. So, you're",
+      "startMs": "613760",
+      "endMs": "616520",
+      "startTimeText": "10:13"
+    },
+    {
+      "text": "getting things like the status of a Jira",
+      "startMs": "614920",
+      "endMs": "619280",
+      "startTimeText": "10:14"
+    },
+    {
+      "text": "ticket, uh the status of a lead in",
+      "startMs": "616520",
+      "endMs": "620800",
+      "startTimeText": "10:16"
+    },
+    {
+      "text": "Salesforce. It's really good for things",
+      "startMs": "619280",
+      "endMs": "622920",
+      "startTimeText": "10:19"
+    },
+    {
+      "text": "like that. Uh we have, you know, maybe a",
+      "startMs": "620800",
+      "endMs": "626000",
+      "startTimeText": "10:20"
+    },
+    {
+      "text": "dozen a dozen plus um of those MCP",
+      "startMs": "622920",
+      "endMs": "627320",
+      "startTimeText": "10:22"
+    },
+    {
+      "text": "connectors. You can hook up a custom",
+      "startMs": "626000",
+      "endMs": "629560",
+      "startTimeText": "10:26"
+    },
+    {
+      "text": "connector, and we're planning to to add",
+      "startMs": "627320",
+      "endMs": "631600",
+      "startTimeText": "10:27"
+    },
+    {
+      "text": "quite a bit more here. But, when you",
+      "startMs": "629560",
+      "endMs": "633680",
+      "startTimeText": "10:29"
+    },
+    {
+      "text": "want to ask a question across a much",
+      "startMs": "631600",
+      "endMs": "636360",
+      "startTimeText": "10:31"
+    },
+    {
+      "text": "larger volume of data um",
+      "startMs": "633680",
+      "endMs": "638480",
+      "startTimeText": "10:33"
+    },
+    {
+      "text": "or across a lot of sources at once, a",
+      "startMs": "636360",
+      "endMs": "640320",
+      "startTimeText": "10:36"
+    },
+    {
+      "text": "bit of a harder question, you need a",
+      "startMs": "638480",
+      "endMs": "643240",
+      "startTimeText": "10:38"
+    },
+    {
+      "text": "little bit more horsepower than MCP. Uh",
+      "startMs": "640320",
+      "endMs": "645000",
+      "startTimeText": "10:40"
+    },
+    {
+      "text": "and that's what we're building with the",
+      "startMs": "643240",
+      "endMs": "647200",
+      "startTimeText": "10:43"
+    },
+    {
+      "text": "search index. It retrieves and ranks",
+      "startMs": "645000",
+      "endMs": "649480",
+      "startTimeText": "10:45"
+    },
+    {
+      "text": "everything together instead of leaning",
+      "startMs": "647200",
+      "endMs": "652360",
+      "startTimeText": "10:47"
+    },
+    {
+      "text": "on each provider's siloed search",
+      "startMs": "649480",
+      "endMs": "653880",
+      "startTimeText": "10:49"
+    },
+    {
+      "text": "capabilities. And it also feeds the",
+      "startMs": "652360",
+      "endMs": "656520",
+      "startTimeText": "10:52"
+    },
+    {
+      "text": "ontology. Uh so, we are",
+      "startMs": "653880",
+      "endMs": "659120",
+      "startTimeText": "10:53"
+    },
+    {
+      "text": "ensuring that your your tickets and your",
+      "startMs": "656520",
+      "endMs": "661040",
+      "startTimeText": "10:56"
+    },
+    {
+      "text": "wikis, whatever it may be, become part",
+      "startMs": "659120",
+      "endMs": "663320",
+      "startTimeText": "10:59"
+    },
+    {
+      "text": "of Genie's context. And just as",
+      "startMs": "661040",
+      "endMs": "666200",
+      "startTimeText": "11:01"
+    },
+    {
+      "text": "importantly, we enforce the the sources'",
+      "startMs": "663320",
+      "endMs": "668360",
+      "startTimeText": "11:03"
+    },
+    {
+      "text": "permissions. So, for example, you're not",
+      "startMs": "666200",
+      "endMs": "670240",
+      "startTimeText": "11:06"
+    },
+    {
+      "text": "seeing emails in Genie that you don't",
+      "startMs": "668360",
+      "endMs": "672240",
+      "startTimeText": "11:08"
+    },
+    {
+      "text": "actually have access to in your inbox.",
+      "startMs": "670240",
+      "endMs": "674440",
+      "startTimeText": "11:10"
+    },
+    {
+      "text": "And that's a big deal because recreating",
+      "startMs": "672240",
+      "endMs": "676400",
+      "startTimeText": "11:12"
+    },
+    {
+      "text": "source permissions in Unity Catalog is a",
+      "startMs": "674440",
+      "endMs": "679640",
+      "startTimeText": "11:14"
+    },
+    {
+      "text": "is a pretty hard problem.",
+      "startMs": "676400",
+      "endMs": "679640",
+      "startTimeText": "11:16"
+    },
+    {
+      "text": "So, that's organization's context.",
+      "startMs": "679960",
+      "endMs": "682839",
+      "startTimeText": "11:19"
+    },
+    {
+      "text": "There's one last thing I want to mention",
+      "startMs": "681600",
+      "endMs": "684000",
+      "startTimeText": "11:21"
+    },
+    {
+      "text": "before we actually see this in the",
+      "startMs": "682839",
+      "endMs": "685960",
+      "startTimeText": "11:22"
+    },
+    {
+      "text": "product, and that is your personal",
+      "startMs": "684000",
+      "endMs": "688520",
+      "startTimeText": "11:24"
+    },
+    {
+      "text": "context. And you can actually ask Genie",
+      "startMs": "685960",
+      "endMs": "690120",
+      "startTimeText": "11:25"
+    },
+    {
+      "text": "to preserve things like your",
+      "startMs": "688520",
+      "endMs": "692600",
+      "startTimeText": "11:28"
+    },
+    {
+      "text": "preferences, your definitions, and so on",
+      "startMs": "690120",
+      "endMs": "694840",
+      "startTimeText": "11:30"
+    },
+    {
+      "text": "through personal memory. And that also",
+      "startMs": "692600",
+      "endMs": "696680",
+      "startTimeText": "11:32"
+    },
+    {
+      "text": "allows Genie to, you know, search across",
+      "startMs": "694840",
+      "endMs": "698000",
+      "startTimeText": "11:34"
+    },
+    {
+      "text": "chats, things like that. I personally",
+      "startMs": "696680",
+      "endMs": "699800",
+      "startTimeText": "11:36"
+    },
+    {
+      "text": "like to save things like style",
+      "startMs": "698000",
+      "endMs": "702040",
+      "startTimeText": "11:38"
+    },
+    {
+      "text": "preferences in writing. And And just",
+      "startMs": "699800",
+      "endMs": "703760",
+      "startTimeText": "11:39"
+    },
+    {
+      "text": "like all data in the ontology, it's not",
+      "startMs": "702040",
+      "endMs": "705440",
+      "startTimeText": "11:42"
+    },
+    {
+      "text": "like this is being shared with people",
+      "startMs": "703760",
+      "endMs": "707400",
+      "startTimeText": "11:43"
+    },
+    {
+      "text": "who who shouldn't have access to it. You",
+      "startMs": "705440",
+      "endMs": "709360",
+      "startTimeText": "11:45"
+    },
+    {
+      "text": "know, when you steer Genie for yourself,",
+      "startMs": "707400",
+      "endMs": "712320",
+      "startTimeText": "11:47"
+    },
+    {
+      "text": "you are impacting only your experience.",
+      "startMs": "709360",
+      "endMs": "715240",
+      "startTimeText": "11:49"
+    },
+    {
+      "text": ">> For clarity on this, this means that if",
+      "startMs": "712320",
+      "endMs": "718920",
+      "startTimeText": "11:52"
+    },
+    {
+      "text": "I am the CFO and",
+      "startMs": "715240",
+      "endMs": "722800",
+      "startTimeText": "11:55"
+    },
+    {
+      "text": "I like to round my values",
+      "startMs": "718920",
+      "endMs": "724320",
+      "startTimeText": "11:58"
+    },
+    {
+      "text": "to",
+      "startMs": "722800",
+      "endMs": "726240",
+      "startTimeText": "12:02"
+    },
+    {
+      "text": "have zero decimals.",
+      "startMs": "724320",
+      "endMs": "729160",
+      "startTimeText": "12:04"
+    },
+    {
+      "text": "I could do it that way. And I don't have",
+      "startMs": "726240",
+      "endMs": "731640",
+      "startTimeText": "12:06"
+    },
+    {
+      "text": "to affect your organization, but",
+      "startMs": "729160",
+      "endMs": "734120",
+      "startTimeText": "12:09"
+    },
+    {
+      "text": "this other person is the CEO",
+      "startMs": "731640",
+      "endMs": "736240",
+      "startTimeText": "12:11"
+    },
+    {
+      "text": "and they have different preferences,",
+      "startMs": "734120",
+      "endMs": "738240",
+      "startTimeText": "12:14"
+    },
+    {
+      "text": "like whether it's color preferences on",
+      "startMs": "736240",
+      "endMs": "741200",
+      "startTimeText": "12:16"
+    },
+    {
+      "text": "how charts are displayed, whether it's",
+      "startMs": "738240",
+      "endMs": "743680",
+      "startTimeText": "12:18"
+    },
+    {
+      "text": "decimal spots, whatever it is.",
+      "startMs": "741200",
+      "endMs": "745280",
+      "startTimeText": "12:21"
+    },
+    {
+      "text": "That's basically everything that goes",
+      "startMs": "743680",
+      "endMs": "746600",
+      "startTimeText": "12:23"
+    },
+    {
+      "text": "into this, correct?",
+      "startMs": "745280",
+      "endMs": "749000",
+      "startTimeText": "12:25"
+    },
+    {
+      "text": ">> Yes. Or perhaps you want to save",
+      "startMs": "746600",
+      "endMs": "750920",
+      "startTimeText": "12:26"
+    },
+    {
+      "text": "information about what types of products",
+      "startMs": "749000",
+      "endMs": "752560",
+      "startTimeText": "12:29"
+    },
+    {
+      "text": "you work on. So, the next time you asked",
+      "startMs": "750920",
+      "endMs": "754520",
+      "startTimeText": "12:30"
+    },
+    {
+      "text": "for a product update, it's more likely",
+      "startMs": "752560",
+      "endMs": "756160",
+      "startTimeText": "12:32"
+    },
+    {
+      "text": "just to focus on your products rather",
+      "startMs": "754520",
+      "endMs": "758400",
+      "startTimeText": "12:34"
+    },
+    {
+      "text": "than asking you for follow-up questions.",
+      "startMs": "756160",
+      "endMs": "760080",
+      "startTimeText": "12:36"
+    },
+    {
+      "text": ">> Yeah, I think this eliminates a lot of",
+      "startMs": "758400",
+      "endMs": "762520",
+      "startTimeText": "12:38"
+    },
+    {
+      "text": "back and forth. At least going back a",
+      "startMs": "760080",
+      "endMs": "765200",
+      "startTimeText": "12:40"
+    },
+    {
+      "text": "few years ago, I would have made my life",
+      "startMs": "762520",
+      "endMs": "766839",
+      "startTimeText": "12:42"
+    },
+    {
+      "text": "a little bit easier on the developer",
+      "startMs": "765200",
+      "endMs": "767920",
+      "startTimeText": "12:45"
+    },
+    {
+      "text": "side",
+      "startMs": "766839",
+      "endMs": "769920",
+      "startTimeText": "12:46"
+    },
+    {
+      "text": "with fine-tuning certain preferences,",
+      "startMs": "767920",
+      "endMs": "771560",
+      "startTimeText": "12:47"
+    },
+    {
+      "text": "too. So.",
+      "startMs": "769920",
+      "endMs": "772600",
+      "startTimeText": "12:49"
+    },
+    {
+      "text": ">> Awesome.",
+      "startMs": "771560",
+      "endMs": "774760",
+      "startTimeText": "12:51"
+    },
+    {
+      "text": "Um so, let's show this in in the",
+      "startMs": "772600",
+      "endMs": "776040",
+      "startTimeText": "12:52"
+    },
+    {
+      "text": "product. Let's see how the ontology",
+      "startMs": "774760",
+      "endMs": "778040",
+      "startTimeText": "12:54"
+    },
+    {
+      "text": "actually shows up because it's not It's",
+      "startMs": "776040",
+      "endMs": "779720",
+      "startTimeText": "12:56"
+    },
+    {
+      "text": "not a black box. You can actually see",
+      "startMs": "778040",
+      "endMs": "782839",
+      "startTimeText": "12:58"
+    },
+    {
+      "text": "the ontology as Genie is thinking. Uh",
+      "startMs": "779720",
+      "endMs": "784280",
+      "startTimeText": "12:59"
+    },
+    {
+      "text": "okay, so I'm in a demo workspace here.",
+      "startMs": "782839",
+      "endMs": "786400",
+      "startTimeText": "13:02"
+    },
+    {
+      "text": "Of course, every number is is completely",
+      "startMs": "784280",
+      "endMs": "788600",
+      "startTimeText": "13:04"
+    },
+    {
+      "text": "made up for the purposes of of the demo,",
+      "startMs": "786400",
+      "endMs": "790440",
+      "startTimeText": "13:06"
+    },
+    {
+      "text": "but this is really how we do a lot of",
+      "startMs": "788600",
+      "endMs": "792960",
+      "startTimeText": "13:08"
+    },
+    {
+      "text": "our product work uh here at Databricks.",
+      "startMs": "790440",
+      "endMs": "794720",
+      "startTimeText": "13:10"
+    },
+    {
+      "text": "So, what I'm showing you here is the",
+      "startMs": "792960",
+      "endMs": "797160",
+      "startTimeText": "13:12"
+    },
+    {
+      "text": "Genie 1 web app. And I As you can see,",
+      "startMs": "794720",
+      "endMs": "798760",
+      "startTimeText": "13:14"
+    },
+    {
+      "text": "it's a It's a pretty simple interface. I",
+      "startMs": "797160",
+      "endMs": "801080",
+      "startTimeText": "13:17"
+    },
+    {
+      "text": "have my chat here, maybe a few suggested",
+      "startMs": "798760",
+      "endMs": "803520",
+      "startTimeText": "13:18"
+    },
+    {
+      "text": "actions. I have my my past chats,",
+      "startMs": "801080",
+      "endMs": "805080",
+      "startTimeText": "13:21"
+    },
+    {
+      "text": "agents, all the assets that that",
+      "startMs": "803520",
+      "endMs": "806840",
+      "startTimeText": "13:23"
+    },
+    {
+      "text": "available to me. Maybe I'll show a bit",
+      "startMs": "805080",
+      "endMs": "809320",
+      "startTimeText": "13:25"
+    },
+    {
+      "text": "of that, um, a bit of that later. I",
+      "startMs": "806840",
+      "endMs": "810960",
+      "startTimeText": "13:26"
+    },
+    {
+      "text": "could also just as easily be in our",
+      "startMs": "809320",
+      "endMs": "813840",
+      "startTimeText": "13:29"
+    },
+    {
+      "text": "desktop or our mobile app. Uh, but I'm",
+      "startMs": "810960",
+      "endMs": "815880",
+      "startTimeText": "13:30"
+    },
+    {
+      "text": "going to start by asking Genie about,",
+      "startMs": "813840",
+      "endMs": "817840",
+      "startTimeText": "13:33"
+    },
+    {
+      "text": "uh, adoption. And that sounds like a",
+      "startMs": "815880",
+      "endMs": "819480",
+      "startTimeText": "13:35"
+    },
+    {
+      "text": "really simple question, but it's",
+      "startMs": "817840",
+      "endMs": "822120",
+      "startTimeText": "13:37"
+    },
+    {
+      "text": "actually not, right? Users move between",
+      "startMs": "819480",
+      "endMs": "824960",
+      "startTimeText": "13:39"
+    },
+    {
+      "text": "web and mobile and Slack and Teams, and",
+      "startMs": "822120",
+      "endMs": "827080",
+      "startTimeText": "13:42"
+    },
+    {
+      "text": "Genie needs to know that. Uh, we also",
+      "startMs": "824960",
+      "endMs": "829360",
+      "startTimeText": "13:44"
+    },
+    {
+      "text": "have a bunch of out-of-date dashboards",
+      "startMs": "827080",
+      "endMs": "830800",
+      "startTimeText": "13:47"
+    },
+    {
+      "text": "that are just floating around. I don't",
+      "startMs": "829360",
+      "endMs": "832600",
+      "startTimeText": "13:49"
+    },
+    {
+      "text": "want Genie to pick those up. And of",
+      "startMs": "830800",
+      "endMs": "833720",
+      "startTimeText": "13:50"
+    },
+    {
+      "text": "course, I don't just care about Genie",
+      "startMs": "832600",
+      "endMs": "835720",
+      "startTimeText": "13:52"
+    },
+    {
+      "text": "adoption. I also care about individual",
+      "startMs": "833720",
+      "endMs": "838040",
+      "startTimeText": "13:53"
+    },
+    {
+      "text": "feature adoption, things like MCPs and",
+      "startMs": "835720",
+      "endMs": "839680",
+      "startTimeText": "13:55"
+    },
+    {
+      "text": "skills and and Genie needs to know what",
+      "startMs": "838040",
+      "endMs": "841520",
+      "startTimeText": "13:58"
+    },
+    {
+      "text": "those features are. So, to answer this,",
+      "startMs": "839680",
+      "endMs": "843120",
+      "startTimeText": "13:59"
+    },
+    {
+      "text": "Genie needs to kind of understand our",
+      "startMs": "841520",
+      "endMs": "845160",
+      "startTimeText": "14:01"
+    },
+    {
+      "text": "product, understand our metrics. It's",
+      "startMs": "843120",
+      "endMs": "846200",
+      "startTimeText": "14:03"
+    },
+    {
+      "text": "going to probably need to pull from a",
+      "startMs": "845160",
+      "endMs": "848120",
+      "startTimeText": "14:05"
+    },
+    {
+      "text": "bunch of not only first-party but also",
+      "startMs": "846200",
+      "endMs": "849880",
+      "startTimeText": "14:06"
+    },
+    {
+      "text": "third-party data, uh, and then it's",
+      "startMs": "848120",
+      "endMs": "852240",
+      "startTimeText": "14:08"
+    },
+    {
+      "text": "going to need to, um,",
+      "startMs": "849880",
+      "endMs": "854360",
+      "startTimeText": "14:09"
+    },
+    {
+      "text": "consolidate that in a way that it aligns",
+      "startMs": "852240",
+      "endMs": "855920",
+      "startTimeText": "14:12"
+    },
+    {
+      "text": "with the way that I like to write these",
+      "startMs": "854360",
+      "endMs": "857680",
+      "startTimeText": "14:14"
+    },
+    {
+      "text": "these write-ups. So,",
+      "startMs": "855920",
+      "endMs": "859480",
+      "startTimeText": "14:15"
+    },
+    {
+      "text": "I'm going to get it started. Uh, and",
+      "startMs": "857680",
+      "endMs": "861560",
+      "startTimeText": "14:17"
+    },
+    {
+      "text": "then as Genie is running, again, we can",
+      "startMs": "859480",
+      "endMs": "863560",
+      "startTimeText": "14:19"
+    },
+    {
+      "text": "we can click into see what it's",
+      "startMs": "861560",
+      "endMs": "865240",
+      "startTimeText": "14:21"
+    },
+    {
+      "text": "thinking. Now, you'll notice that was",
+      "startMs": "863560",
+      "endMs": "866800",
+      "startTimeText": "14:23"
+    },
+    {
+      "text": "actually a very simple prompt in spite",
+      "startMs": "865240",
+      "endMs": "868240",
+      "startTimeText": "14:25"
+    },
+    {
+      "text": "of all the complexity we've been talking",
+      "startMs": "866800",
+      "endMs": "869240",
+      "startTimeText": "14:26"
+    },
+    {
+      "text": "about, and that's because I think",
+      "startMs": "868240",
+      "endMs": "870640",
+      "startTimeText": "14:28"
+    },
+    {
+      "text": "Genie's going to be able to navigate our",
+      "startMs": "869240",
+      "endMs": "872800",
+      "startTimeText": "14:29"
+    },
+    {
+      "text": "data pretty well because we have this",
+      "startMs": "870640",
+      "endMs": "875440",
+      "startTimeText": "14:30"
+    },
+    {
+      "text": "ontology, uh, turned on. And we can",
+      "startMs": "872800",
+      "endMs": "877520",
+      "startTimeText": "14:32"
+    },
+    {
+      "text": "actually see it, again, in practice. So,",
+      "startMs": "875440",
+      "endMs": "879200",
+      "startTimeText": "14:35"
+    },
+    {
+      "text": "uh, it looks like Genie actually started",
+      "startMs": "877520",
+      "endMs": "881760",
+      "startTimeText": "14:37"
+    },
+    {
+      "text": "by going straight to our our data",
+      "startMs": "879200",
+      "endMs": "883520",
+      "startTimeText": "14:39"
+    },
+    {
+      "text": "sources. It found some potentially",
+      "startMs": "881760",
+      "endMs": "885560",
+      "startTimeText": "14:41"
+    },
+    {
+      "text": "relevant tables here.",
+      "startMs": "883520",
+      "endMs": "887080",
+      "startTimeText": "14:43"
+    },
+    {
+      "text": "Uh, and then it did go straight into the",
+      "startMs": "885560",
+      "endMs": "889440",
+      "startTimeText": "14:45"
+    },
+    {
+      "text": "ontology. So, we've got pages, again,",
+      "startMs": "887080",
+      "endMs": "892240",
+      "startTimeText": "14:47"
+    },
+    {
+      "text": "those wiki pages in Unity Catalog. It",
+      "startMs": "889440",
+      "endMs": "894440",
+      "startTimeText": "14:49"
+    },
+    {
+      "text": "may end up using some of these in the",
+      "startMs": "892240",
+      "endMs": "895920",
+      "startTimeText": "14:52"
+    },
+    {
+      "text": "actual answer. Again, this is just",
+      "startMs": "894440",
+      "endMs": "898000",
+      "startTimeText": "14:54"
+    },
+    {
+      "text": "potentially relevant stuff. And then we",
+      "startMs": "895920",
+      "endMs": "899920",
+      "startTimeText": "14:55"
+    },
+    {
+      "text": "have knowledge snippets. So, we have",
+      "startMs": "898000",
+      "endMs": "901520",
+      "startTimeText": "14:58"
+    },
+    {
+      "text": "those facts about the business that",
+      "startMs": "899920",
+      "endMs": "903480",
+      "startTimeText": "14:59"
+    },
+    {
+      "text": "Genie has learned from all sorts of",
+      "startMs": "901520",
+      "endMs": "904720",
+      "startTimeText": "15:01"
+    },
+    {
+      "text": "different sources. And you can see",
+      "startMs": "903480",
+      "endMs": "906200",
+      "startTimeText": "15:03"
+    },
+    {
+      "text": "there's business terms, metric",
+      "startMs": "904720",
+      "endMs": "908160",
+      "startTimeText": "15:04"
+    },
+    {
+      "text": "definitions, something about data",
+      "startMs": "906200",
+      "endMs": "909600",
+      "startTimeText": "15:06"
+    },
+    {
+      "text": "quality,",
+      "startMs": "908160",
+      "endMs": "911800",
+      "startTimeText": "15:08"
+    },
+    {
+      "text": "another business term. There's even one,",
+      "startMs": "909600",
+      "endMs": "913280",
+      "startTimeText": "15:09"
+    },
+    {
+      "text": "this is kind of a preview of some of the",
+      "startMs": "911800",
+      "endMs": "914480",
+      "startTimeText": "15:11"
+    },
+    {
+      "text": "stuff that we're playing around with,",
+      "startMs": "913280",
+      "endMs": "917200",
+      "startTimeText": "15:13"
+    },
+    {
+      "text": "but one that reaches into GitHub, uh, to",
+      "startMs": "914480",
+      "endMs": "918680",
+      "startTimeText": "15:14"
+    },
+    {
+      "text": "get information because it's also a very",
+      "startMs": "917200",
+      "endMs": "920880",
+      "startTimeText": "15:17"
+    },
+    {
+      "text": "semantically rich data source. But the",
+      "startMs": "918680",
+      "endMs": "923000",
+      "startTimeText": "15:18"
+    },
+    {
+      "text": "key thing is that we're combining this",
+      "startMs": "920880",
+      "endMs": "925400",
+      "startTimeText": "15:20"
+    },
+    {
+      "text": "human curated context with this more",
+      "startMs": "923000",
+      "endMs": "927120",
+      "startTimeText": "15:23"
+    },
+    {
+      "text": "learned knowledge because again, it's",
+      "startMs": "925400",
+      "endMs": "928600",
+      "startTimeText": "15:25"
+    },
+    {
+      "text": "really difficult to try to curate",
+      "startMs": "927120",
+      "endMs": "931080",
+      "startTimeText": "15:27"
+    },
+    {
+      "text": "everything for the entire org. Uh I",
+      "startMs": "928600",
+      "endMs": "932440",
+      "startTimeText": "15:28"
+    },
+    {
+      "text": "think I also found the thinking trace",
+      "startMs": "931080",
+      "endMs": "934560",
+      "startTimeText": "15:31"
+    },
+    {
+      "text": "before we talk about the document. Uh we",
+      "startMs": "932440",
+      "endMs": "936040",
+      "startTimeText": "15:32"
+    },
+    {
+      "text": "also looked at Google Drive, we looked",
+      "startMs": "934560",
+      "endMs": "937960",
+      "startTimeText": "15:34"
+    },
+    {
+      "text": "at Jira, and then ran a bunch of those",
+      "startMs": "936040",
+      "endMs": "940440",
+      "startTimeText": "15:36"
+    },
+    {
+      "text": "SQL queries. Again, very important uh",
+      "startMs": "937960",
+      "endMs": "942080",
+      "startTimeText": "15:37"
+    },
+    {
+      "text": "that we are able to query on live",
+      "startMs": "940440",
+      "endMs": "944280",
+      "startTimeText": "15:40"
+    },
+    {
+      "text": "operational data and not just not just",
+      "startMs": "942080",
+      "endMs": "946040",
+      "startTimeText": "15:42"
+    },
+    {
+      "text": "reading documents.",
+      "startMs": "944280",
+      "endMs": "947760",
+      "startTimeText": "15:44"
+    },
+    {
+      "text": "And then like the again, the data is",
+      "startMs": "946040",
+      "endMs": "949440",
+      "startTimeText": "15:46"
+    },
+    {
+      "text": "demo, so what it actually produces is",
+      "startMs": "947760",
+      "endMs": "951480",
+      "startTimeText": "15:47"
+    },
+    {
+      "text": "not super interesting. Um but we see a",
+      "startMs": "949440",
+      "endMs": "953680",
+      "startTimeText": "15:49"
+    },
+    {
+      "text": "bunch of visualizations. It's able to do",
+      "startMs": "951480",
+      "endMs": "955440",
+      "startTimeText": "15:51"
+    },
+    {
+      "text": "things like more advanced like cohort",
+      "startMs": "953680",
+      "endMs": "957000",
+      "startTimeText": "15:53"
+    },
+    {
+      "text": "retention analyses. It can do things",
+      "startMs": "955440",
+      "endMs": "958760",
+      "startTimeText": "15:55"
+    },
+    {
+      "text": "like forecasts. Maybe I can show you",
+      "startMs": "957000",
+      "endMs": "961480",
+      "startTimeText": "15:57"
+    },
+    {
+      "text": "that actually. Um it's able to again",
+      "startMs": "958760",
+      "endMs": "963520",
+      "startTimeText": "15:58"
+    },
+    {
+      "text": "pull from those third-party sources. So",
+      "startMs": "961480",
+      "endMs": "965520",
+      "startTimeText": "16:01"
+    },
+    {
+      "text": "for example, it's pulling from Jira.",
+      "startMs": "963520",
+      "endMs": "967720",
+      "startTimeText": "16:03"
+    },
+    {
+      "text": "It's able to do those recommendations.",
+      "startMs": "965520",
+      "endMs": "969520",
+      "startTimeText": "16:05"
+    },
+    {
+      "text": "And a really critical thing to mention",
+      "startMs": "967720",
+      "endMs": "971280",
+      "startTimeText": "16:07"
+    },
+    {
+      "text": "is that all of the stuff that you see",
+      "startMs": "969520",
+      "endMs": "974160",
+      "startTimeText": "16:09"
+    },
+    {
+      "text": "here is data that I actually have access",
+      "startMs": "971280",
+      "endMs": "976440",
+      "startTimeText": "16:11"
+    },
+    {
+      "text": "to. So again, Genie isn't creating any",
+      "startMs": "974160",
+      "endMs": "978480",
+      "startTimeText": "16:14"
+    },
+    {
+      "text": "sort of special Genie specific",
+      "startMs": "976440",
+      "endMs": "981080",
+      "startTimeText": "16:16"
+    },
+    {
+      "text": "permissions. It's simply enforcing our",
+      "startMs": "978480",
+      "endMs": "983040",
+      "startTimeText": "16:18"
+    },
+    {
+      "text": "source permissions through Unity",
+      "startMs": "981080",
+      "endMs": "984720",
+      "startTimeText": "16:21"
+    },
+    {
+      "text": "Catalog. And that applies also to the",
+      "startMs": "983040",
+      "endMs": "987320",
+      "startTimeText": "16:23"
+    },
+    {
+      "text": "ontology uh that that is derived from",
+      "startMs": "984720",
+      "endMs": "989360",
+      "startTimeText": "16:24"
+    },
+    {
+      "text": "any assets that are used here. And we",
+      "startMs": "987320",
+      "endMs": "991480",
+      "startTimeText": "16:27"
+    },
+    {
+      "text": "can actually see, you know, what was",
+      "startMs": "989360",
+      "endMs": "993760",
+      "startTimeText": "16:29"
+    },
+    {
+      "text": "used to answer this question by popping",
+      "startMs": "991480",
+      "endMs": "995960",
+      "startTimeText": "16:31"
+    },
+    {
+      "text": "down here into the citations. So this is",
+      "startMs": "993760",
+      "endMs": "997360",
+      "startTimeText": "16:33"
+    },
+    {
+      "text": "everything that Genie ended up pulling",
+      "startMs": "995960",
+      "endMs": "998880",
+      "startTimeText": "16:35"
+    },
+    {
+      "text": "from the thinking trace to actually",
+      "startMs": "997360",
+      "endMs": "1000800",
+      "startTimeText": "16:37"
+    },
+    {
+      "text": "compile that document. So again, we see",
+      "startMs": "998880",
+      "endMs": "1003440",
+      "startTimeText": "16:38"
+    },
+    {
+      "text": "tables, maybe a couple relevant links",
+      "startMs": "1000800",
+      "endMs": "1005640",
+      "startTimeText": "16:40"
+    },
+    {
+      "text": "from looks like Jira as well as Google",
+      "startMs": "1003440",
+      "endMs": "1008080",
+      "startTimeText": "16:43"
+    },
+    {
+      "text": "Drive. Um this is that personal memory",
+      "startMs": "1005640",
+      "endMs": "1009440",
+      "startTimeText": "16:45"
+    },
+    {
+      "text": "actually. This is how I prefer to write",
+      "startMs": "1008080",
+      "endMs": "1011960",
+      "startTimeText": "16:48"
+    },
+    {
+      "text": "these docs. And then it did end up using",
+      "startMs": "1009440",
+      "endMs": "1014800",
+      "startTimeText": "16:49"
+    },
+    {
+      "text": "some things from the ontology. So if we",
+      "startMs": "1011960",
+      "endMs": "1017200",
+      "startTimeText": "16:51"
+    },
+    {
+      "text": "click in, we can see like my colleague",
+      "startMs": "1014800",
+      "endMs": "1019480",
+      "startTimeText": "16:54"
+    },
+    {
+      "text": "Retta, she's also on the Genie team, she",
+      "startMs": "1017200",
+      "endMs": "1021520",
+      "startTimeText": "16:57"
+    },
+    {
+      "text": "put together this wiki page around the",
+      "startMs": "1019480",
+      "endMs": "1022960",
+      "startTimeText": "16:59"
+    },
+    {
+      "text": "different Genie surfaces, which is",
+      "startMs": "1021520",
+      "endMs": "1024800",
+      "startTimeText": "17:01"
+    },
+    {
+      "text": "highly relevant when we're asking",
+      "startMs": "1022960",
+      "endMs": "1026760",
+      "startTimeText": "17:02"
+    },
+    {
+      "text": "questions about Genie's adoption. So it",
+      "startMs": "1024800",
+      "endMs": "1029280",
+      "startTimeText": "17:04"
+    },
+    {
+      "text": "makes sense that it that it used this.",
+      "startMs": "1026760",
+      "endMs": "1030880",
+      "startTimeText": "17:06"
+    },
+    {
+      "text": "It also makes sense that it that it kind",
+      "startMs": "1029280",
+      "endMs": "1033000",
+      "startTimeText": "17:09"
+    },
+    {
+      "text": "of started from from this kind of",
+      "startMs": "1030880",
+      "endMs": "1035199",
+      "startTimeText": "17:10"
+    },
+    {
+      "text": "information because Genie likes human",
+      "startMs": "1033000",
+      "endMs": "1037720",
+      "startTimeText": "17:13"
+    },
+    {
+      "text": "curated content. We extra trust human",
+      "startMs": "1035199",
+      "endMs": "1039640",
+      "startTimeText": "17:15"
+    },
+    {
+      "text": "curated content, especially because this",
+      "startMs": "1037720",
+      "endMs": "1042560",
+      "startTimeText": "17:17"
+    },
+    {
+      "text": "one has been certified. But, it probably",
+      "startMs": "1039640",
+      "endMs": "1043959",
+      "startTimeText": "17:19"
+    },
+    {
+      "text": "needed to, again, look at those",
+      "startMs": "1042560",
+      "endMs": "1045640",
+      "startTimeText": "17:22"
+    },
+    {
+      "text": "anthology snippets to round out its",
+      "startMs": "1043959",
+      "endMs": "1047920",
+      "startTimeText": "17:23"
+    },
+    {
+      "text": "information. So, if we click in here, we",
+      "startMs": "1045640",
+      "endMs": "1049760",
+      "startTimeText": "17:25"
+    },
+    {
+      "text": "can actually see that snippet in",
+      "startMs": "1047920",
+      "endMs": "1051880",
+      "startTimeText": "17:27"
+    },
+    {
+      "text": "practice. We can get feedback on it. We",
+      "startMs": "1049760",
+      "endMs": "1053560",
+      "startTimeText": "17:29"
+    },
+    {
+      "text": "can see the full definition that Genie",
+      "startMs": "1051880",
+      "endMs": "1055440",
+      "startTimeText": "17:31"
+    },
+    {
+      "text": "learned. We can see that it grabs some",
+      "startMs": "1053560",
+      "endMs": "1057320",
+      "startTimeText": "17:33"
+    },
+    {
+      "text": "information from this particular",
+      "startMs": "1055440",
+      "endMs": "1059520",
+      "startTimeText": "17:35"
+    },
+    {
+      "text": "dashboard, which happens to be authored",
+      "startMs": "1057320",
+      "endMs": "1061080",
+      "startTimeText": "17:37"
+    },
+    {
+      "text": "by our colleague Jeffrey, who is the",
+      "startMs": "1059520",
+      "endMs": "1063680",
+      "startTimeText": "17:39"
+    },
+    {
+      "text": "data scientist working on Genie 1",
+      "startMs": "1061080",
+      "endMs": "1065840",
+      "startTimeText": "17:41"
+    },
+    {
+      "text": "growth. So, it's not surprising that it",
+      "startMs": "1063680",
+      "endMs": "1067960",
+      "startTimeText": "17:43"
+    },
+    {
+      "text": "has, for example, a super high authority",
+      "startMs": "1065840",
+      "endMs": "1070320",
+      "startTimeText": "17:45"
+    },
+    {
+      "text": "score. Genie is recognizing that Jeffrey",
+      "startMs": "1067960",
+      "endMs": "1072320",
+      "startTimeText": "17:47"
+    },
+    {
+      "text": "does a lot of good work, and Jeffrey's",
+      "startMs": "1070320",
+      "endMs": "1074400",
+      "startTimeText": "17:50"
+    },
+    {
+      "text": "work is often very popular. So, even",
+      "startMs": "1072320",
+      "endMs": "1077000",
+      "startTimeText": "17:52"
+    },
+    {
+      "text": "before he's gone and codified something",
+      "startMs": "1074400",
+      "endMs": "1079080",
+      "startTimeText": "17:54"
+    },
+    {
+      "text": "as a Unity Catalog semantic, we can",
+      "startMs": "1077000",
+      "endMs": "1081640",
+      "startTimeText": "17:57"
+    },
+    {
+      "text": "benefit from this work. And we can even",
+      "startMs": "1079080",
+      "endMs": "1083200",
+      "startTimeText": "17:59"
+    },
+    {
+      "text": "click into his profile if we want to",
+      "startMs": "1081640",
+      "endMs": "1086160",
+      "startTimeText": "18:01"
+    },
+    {
+      "text": "like double-check his his creds on this",
+      "startMs": "1083200",
+      "endMs": "1088480",
+      "startTimeText": "18:03"
+    },
+    {
+      "text": "topic, and we can see he's he's done a",
+      "startMs": "1086160",
+      "endMs": "1090240",
+      "startTimeText": "18:06"
+    },
+    {
+      "text": "lot of kind of work in this space in",
+      "startMs": "1088480",
+      "endMs": "1092360",
+      "startTimeText": "18:08"
+    },
+    {
+      "text": "this growth space. And Genie has also",
+      "startMs": "1090240",
+      "endMs": "1095120",
+      "startTimeText": "18:10"
+    },
+    {
+      "text": "extracted a lot of snippets from the",
+      "startMs": "1092360",
+      "endMs": "1097760",
+      "startTimeText": "18:12"
+    },
+    {
+      "text": "assets that he has created. But, you",
+      "startMs": "1095120",
+      "endMs": "1099160",
+      "startTimeText": "18:15"
+    },
+    {
+      "text": "know, we don't need to necessarily just",
+      "startMs": "1097760",
+      "endMs": "1101320",
+      "startTimeText": "18:17"
+    },
+    {
+      "text": "take Genie at its word for this this",
+      "startMs": "1099160",
+      "endMs": "1102760",
+      "startTimeText": "18:19"
+    },
+    {
+      "text": "first answer. Maybe we want to ask a",
+      "startMs": "1101320",
+      "endMs": "1104200",
+      "startTimeText": "18:21"
+    },
+    {
+      "text": "question like,",
+      "startMs": "1102760",
+      "endMs": "1106160",
+      "startTimeText": "18:22"
+    },
+    {
+      "text": "you know, adoption seems to be spiking.",
+      "startMs": "1104200",
+      "endMs": "1108440",
+      "startTimeText": "18:24"
+    },
+    {
+      "text": "What is what is the cause of this? And",
+      "startMs": "1106160",
+      "endMs": "1110280",
+      "startTimeText": "18:26"
+    },
+    {
+      "text": "this type of work, again, is really only",
+      "startMs": "1108440",
+      "endMs": "1112160",
+      "startTimeText": "18:28"
+    },
+    {
+      "text": "possible because Genie is computing",
+      "startMs": "1110280",
+      "endMs": "1113840",
+      "startTimeText": "18:30"
+    },
+    {
+      "text": "these results based on our live",
+      "startMs": "1112160",
+      "endMs": "1116000",
+      "startTimeText": "18:32"
+    },
+    {
+      "text": "operational data. So, we're not just,",
+      "startMs": "1113840",
+      "endMs": "1118200",
+      "startTimeText": "18:33"
+    },
+    {
+      "text": "again, reciting information that already",
+      "startMs": "1116000",
+      "endMs": "1120440",
+      "startTimeText": "18:36"
+    },
+    {
+      "text": "lives in a document. So, let's see if",
+      "startMs": "1118200",
+      "endMs": "1124120",
+      "startTimeText": "18:38"
+    },
+    {
+      "text": "it's able to execute this.",
+      "startMs": "1120440",
+      "endMs": "1124120",
+      "startTimeText": "18:40"
+    },
+    {
+      "text": "Great. We have an answer.",
+      "startMs": "1124160",
+      "endMs": "1128800",
+      "startTimeText": "18:44"
+    },
+    {
+      "text": "Um",
+      "startMs": "1126120",
+      "endMs": "1130880",
+      "startTimeText": "18:46"
+    },
+    {
+      "text": "Looks like the growth is real.",
+      "startMs": "1128800",
+      "endMs": "1132720",
+      "startTimeText": "18:48"
+    },
+    {
+      "text": "It's attributing it to the Teams and the",
+      "startMs": "1130880",
+      "endMs": "1134840",
+      "startTimeText": "18:50"
+    },
+    {
+      "text": "Slack apps. And for context, we we",
+      "startMs": "1132720",
+      "endMs": "1137040",
+      "startTimeText": "18:52"
+    },
+    {
+      "text": "opened up Genie to Teams and to Slack",
+      "startMs": "1134840",
+      "endMs": "1139080",
+      "startTimeText": "18:54"
+    },
+    {
+      "text": "and meeting users where they like to do",
+      "startMs": "1137040",
+      "endMs": "1140720",
+      "startTimeText": "18:57"
+    },
+    {
+      "text": "their work. And every time an",
+      "startMs": "1139080",
+      "endMs": "1142760",
+      "startTimeText": "18:59"
+    },
+    {
+      "text": "organization adopts Slack or adopts",
+      "startMs": "1140720",
+      "endMs": "1144600",
+      "startTimeText": "19:00"
+    },
+    {
+      "text": "Teams, you tend to see a pretty wide",
+      "startMs": "1142760",
+      "endMs": "1146240",
+      "startTimeText": "19:02"
+    },
+    {
+      "text": "increase in adoption because you tend to",
+      "startMs": "1144600",
+      "endMs": "1148360",
+      "startTimeText": "19:04"
+    },
+    {
+      "text": "see folks adopting it and across entire",
+      "startMs": "1146240",
+      "endMs": "1149520",
+      "startTimeText": "19:06"
+    },
+    {
+      "text": "channels or even the entire",
+      "startMs": "1148360",
+      "endMs": "1151280",
+      "startTimeText": "19:08"
+    },
+    {
+      "text": "organization. So, it makes sense that",
+      "startMs": "1149520",
+      "endMs": "1153000",
+      "startTimeText": "19:09"
+    },
+    {
+      "text": "this is attributed to to some of the",
+      "startMs": "1151280",
+      "endMs": "1155760",
+      "startTimeText": "19:11"
+    },
+    {
+      "text": "growth. Now, if that adoption is real, I",
+      "startMs": "1153000",
+      "endMs": "1157200",
+      "startTimeText": "19:13"
+    },
+    {
+      "text": "want to know where it's going. So, I'm",
+      "startMs": "1155760",
+      "endMs": "1158960",
+      "startTimeText": "19:15"
+    },
+    {
+      "text": "also going to ask Genie to do a quick",
+      "startMs": "1157200",
+      "endMs": "1161880",
+      "startTimeText": "19:17"
+    },
+    {
+      "text": "forecast. And that forecast is is a more",
+      "startMs": "1158960",
+      "endMs": "1163280",
+      "startTimeText": "19:18"
+    },
+    {
+      "text": "advanced",
+      "startMs": "1161880",
+      "endMs": "1164760",
+      "startTimeText": "19:21"
+    },
+    {
+      "text": "advanced piece of work, right? It would",
+      "startMs": "1163280",
+      "endMs": "1167000",
+      "startTimeText": "19:23"
+    },
+    {
+      "text": "take me a bit of time to actually model",
+      "startMs": "1164760",
+      "endMs": "1169480",
+      "startTimeText": "19:24"
+    },
+    {
+      "text": "this by hand, but Genie is able to do",
+      "startMs": "1167000",
+      "endMs": "1172200",
+      "startTimeText": "19:27"
+    },
+    {
+      "text": "things like forecasting, like root cause",
+      "startMs": "1169480",
+      "endMs": "1175120",
+      "startTimeText": "19:29"
+    },
+    {
+      "text": "analysis, like anomaly detection. So, I",
+      "startMs": "1172200",
+      "endMs": "1178080",
+      "startTimeText": "19:32"
+    },
+    {
+      "text": "just have to ask it to to to perform",
+      "startMs": "1175120",
+      "endMs": "1180400",
+      "startTimeText": "19:35"
+    },
+    {
+      "text": "that task. Uh but what about maybe an",
+      "startMs": "1178080",
+      "endMs": "1183320",
+      "startTimeText": "19:38"
+    },
+    {
+      "text": "analysis that is totally custom to our",
+      "startMs": "1180400",
+      "endMs": "1185960",
+      "startTimeText": "19:40"
+    },
+    {
+      "text": "team? Uh for example, maybe we build a",
+      "startMs": "1183320",
+      "endMs": "1187680",
+      "startTimeText": "19:43"
+    },
+    {
+      "text": "standardized launch scorecards. Every",
+      "startMs": "1185960",
+      "endMs": "1190000",
+      "startTimeText": "19:45"
+    },
+    {
+      "text": "time a new feature launches, we grade",
+      "startMs": "1187680",
+      "endMs": "1191800",
+      "startTimeText": "19:47"
+    },
+    {
+      "text": "it, you know, against the adoption curve",
+      "startMs": "1190000",
+      "endMs": "1193720",
+      "startTimeText": "19:50"
+    },
+    {
+      "text": "of some of our prior features. And for",
+      "startMs": "1191800",
+      "endMs": "1195080",
+      "startTimeText": "19:51"
+    },
+    {
+      "text": "something like that, we could build a",
+      "startMs": "1193720",
+      "endMs": "1197760",
+      "startTimeText": "19:53"
+    },
+    {
+      "text": "skill. A skill is going to run the same",
+      "startMs": "1195080",
+      "endMs": "1199920",
+      "startTimeText": "19:55"
+    },
+    {
+      "text": "workflow repeatedly. And if once I've",
+      "startMs": "1197760",
+      "endMs": "1201920",
+      "startTimeText": "19:57"
+    },
+    {
+      "text": "created a skill, I can also, you know,",
+      "startMs": "1199920",
+      "endMs": "1203600",
+      "startTimeText": "19:59"
+    },
+    {
+      "text": "share it with my teammates so that they",
+      "startMs": "1201920",
+      "endMs": "1205920",
+      "startTimeText": "20:01"
+    },
+    {
+      "text": "can take advantage. And of course, a",
+      "startMs": "1203600",
+      "endMs": "1207600",
+      "startTimeText": "20:03"
+    },
+    {
+      "text": "shared chill is simply going to be",
+      "startMs": "1205920",
+      "endMs": "1209720",
+      "startTimeText": "20:05"
+    },
+    {
+      "text": "governed through Unity Gateway, always",
+      "startMs": "1207600",
+      "endMs": "1212080",
+      "startTimeText": "20:07"
+    },
+    {
+      "text": "going back to that that centralized",
+      "startMs": "1209720",
+      "endMs": "1214440",
+      "startTimeText": "20:09"
+    },
+    {
+      "text": "governance framework. Um so, with that,",
+      "startMs": "1212080",
+      "endMs": "1216480",
+      "startTimeText": "20:12"
+    },
+    {
+      "text": "I think it might be interesting to go",
+      "startMs": "1214440",
+      "endMs": "1217840",
+      "startTimeText": "20:14"
+    },
+    {
+      "text": "back to our slides. Maybe I'll show you",
+      "startMs": "1216480",
+      "endMs": "1219920",
+      "startTimeText": "20:16"
+    },
+    {
+      "text": "a bit more after, but we'll talk through",
+      "startMs": "1217840",
+      "endMs": "1222200",
+      "startTimeText": "20:17"
+    },
+    {
+      "text": "some additional features.",
+      "startMs": "1219920",
+      "endMs": "1225480",
+      "startTimeText": "20:19"
+    },
+    {
+      "text": ">> That's great from a",
+      "startMs": "1222200",
+      "endMs": "1228400",
+      "startTimeText": "20:22"
+    },
+    {
+      "text": "visibility perspective, from an",
+      "startMs": "1225480",
+      "endMs": "1230440",
+      "startTimeText": "20:25"
+    },
+    {
+      "text": "understanding the business perspective,",
+      "startMs": "1228400",
+      "endMs": "1232000",
+      "startTimeText": "20:28"
+    },
+    {
+      "text": "all of that",
+      "startMs": "1230440",
+      "endMs": "1234280",
+      "startTimeText": "20:30"
+    },
+    {
+      "text": "descriptive analytics,",
+      "startMs": "1232000",
+      "endMs": "1237760",
+      "startTimeText": "20:32"
+    },
+    {
+      "text": "if you will, in a much more tailored",
+      "startMs": "1234280",
+      "endMs": "1240880",
+      "startTimeText": "20:34"
+    },
+    {
+      "text": "way. But what happens when you want to",
+      "startMs": "1237760",
+      "endMs": "1243000",
+      "startTimeText": "20:37"
+    },
+    {
+      "text": "go from",
+      "startMs": "1240880",
+      "endMs": "1245160",
+      "startTimeText": "20:40"
+    },
+    {
+      "text": "just looking at data and you actually",
+      "startMs": "1243000",
+      "endMs": "1246280",
+      "startTimeText": "20:43"
+    },
+    {
+      "text": "want to do",
+      "startMs": "1245160",
+      "endMs": "1248640",
+      "startTimeText": "20:45"
+    },
+    {
+      "text": "something with the data?",
+      "startMs": "1246280",
+      "endMs": "1250320",
+      "startTimeText": "20:46"
+    },
+    {
+      "text": ">> Yeah, I think that's a good point. It's",
+      "startMs": "1248640",
+      "endMs": "1252640",
+      "startTimeText": "20:48"
+    },
+    {
+      "text": "important that Genie evolve from just",
+      "startMs": "1250320",
+      "endMs": "1255400",
+      "startTimeText": "20:50"
+    },
+    {
+      "text": "doing Q&A into actually becoming a",
+      "startMs": "1252640",
+      "endMs": "1257480",
+      "startTimeText": "20:52"
+    },
+    {
+      "text": "co-worker. So, we're building out a lot",
+      "startMs": "1255400",
+      "endMs": "1259160",
+      "startTimeText": "20:55"
+    },
+    {
+      "text": "in this space. I think we started with",
+      "startMs": "1257480",
+      "endMs": "1261280",
+      "startTimeText": "20:57"
+    },
+    {
+      "text": "the ontology because, frankly, I think",
+      "startMs": "1259160",
+      "endMs": "1262520",
+      "startTimeText": "20:59"
+    },
+    {
+      "text": "that's where the differentiation comes",
+      "startMs": "1261280",
+      "endMs": "1264440",
+      "startTimeText": "21:01"
+    },
+    {
+      "text": "from, but we are also trying to build as",
+      "startMs": "1262520",
+      "endMs": "1266440",
+      "startTimeText": "21:02"
+    },
+    {
+      "text": "much as possible on this co-working side",
+      "startMs": "1264440",
+      "endMs": "1267520",
+      "startTimeText": "21:04"
+    },
+    {
+      "text": "as well.",
+      "startMs": "1266440",
+      "endMs": "1268720",
+      "startTimeText": "21:06"
+    },
+    {
+      "text": "So, starting with documents, a very",
+      "startMs": "1267520",
+      "endMs": "1270800",
+      "startTimeText": "21:07"
+    },
+    {
+      "text": "popular feature, Uh uh Genie can now",
+      "startMs": "1268720",
+      "endMs": "1272360",
+      "startTimeText": "21:08"
+    },
+    {
+      "text": "co-author documents with you. You can",
+      "startMs": "1270800",
+      "endMs": "1274040",
+      "startTimeText": "21:10"
+    },
+    {
+      "text": "have it start from scratch, give it a",
+      "startMs": "1272360",
+      "endMs": "1275960",
+      "startTimeText": "21:12"
+    },
+    {
+      "text": "template, ask you to fill something out.",
+      "startMs": "1274040",
+      "endMs": "1277720",
+      "startTimeText": "21:14"
+    },
+    {
+      "text": "You can also work with Genie to edit it,",
+      "startMs": "1275960",
+      "endMs": "1279200",
+      "startTimeText": "21:15"
+    },
+    {
+      "text": "and then you can send it to your doc.",
+      "startMs": "1277720",
+      "endMs": "1281560",
+      "startTimeText": "21:17"
+    },
+    {
+      "text": "Your doc is an email, a PDF, Slack,",
+      "startMs": "1279200",
+      "endMs": "1284000",
+      "startTimeText": "21:19"
+    },
+    {
+      "text": "Teams. We do offer inline collaboration,",
+      "startMs": "1281560",
+      "endMs": "1285400",
+      "startTimeText": "21:21"
+    },
+    {
+      "text": "which is what you're seeing here in the",
+      "startMs": "1284000",
+      "endMs": "1288000",
+      "startTimeText": "21:24"
+    },
+    {
+      "text": "GIF. And going forward, we are adding",
+      "startMs": "1285400",
+      "endMs": "1289840",
+      "startTimeText": "21:25"
+    },
+    {
+      "text": "additional collaboration features, such",
+      "startMs": "1288000",
+      "endMs": "1291520",
+      "startTimeText": "21:28"
+    },
+    {
+      "text": "as working with Genie to resolve",
+      "startMs": "1289840",
+      "endMs": "1293320",
+      "startTimeText": "21:29"
+    },
+    {
+      "text": "comments. We are also building",
+      "startMs": "1291520",
+      "endMs": "1295680",
+      "startTimeText": "21:31"
+    },
+    {
+      "text": "additional document types, like slides,",
+      "startMs": "1293320",
+      "endMs": "1298000",
+      "startTimeText": "21:33"
+    },
+    {
+      "text": "spreadsheets, dashboards, and so on. I",
+      "startMs": "1295680",
+      "endMs": "1299240",
+      "startTimeText": "21:35"
+    },
+    {
+      "text": "think dashboard is kind of one that",
+      "startMs": "1298000",
+      "endMs": "1301120",
+      "startTimeText": "21:38"
+    },
+    {
+      "text": "everyone's expecting",
+      "startMs": "1299240",
+      "endMs": "1303040",
+      "startTimeText": "21:39"
+    },
+    {
+      "text": "of Databricks, given given the context",
+      "startMs": "1301120",
+      "endMs": "1305120",
+      "startTimeText": "21:41"
+    },
+    {
+      "text": "that's in Databricks, and we are seeing",
+      "startMs": "1303040",
+      "endMs": "1306280",
+      "startTimeText": "21:43"
+    },
+    {
+      "text": "a lot of demand for that, so we are",
+      "startMs": "1305120",
+      "endMs": "1308080",
+      "startTimeText": "21:45"
+    },
+    {
+      "text": "building it.",
+      "startMs": "1306280",
+      "endMs": "1309600",
+      "startTimeText": "21:46"
+    },
+    {
+      "text": "Now, documents might live inside of",
+      "startMs": "1308080",
+      "endMs": "1311280",
+      "startTimeText": "21:48"
+    },
+    {
+      "text": "Genie, but of course, a lot of your work",
+      "startMs": "1309600",
+      "endMs": "1313520",
+      "startTimeText": "21:49"
+    },
+    {
+      "text": "doesn't. So, I talked about MCPs to read",
+      "startMs": "1311280",
+      "endMs": "1315640",
+      "startTimeText": "21:51"
+    },
+    {
+      "text": "in data, but of course, you can also use",
+      "startMs": "1313520",
+      "endMs": "1317920",
+      "startTimeText": "21:53"
+    },
+    {
+      "text": "MCPs to write data.",
+      "startMs": "1315640",
+      "endMs": "1319840",
+      "startTimeText": "21:55"
+    },
+    {
+      "text": "The interesting thing here, I think, is",
+      "startMs": "1317920",
+      "endMs": "1321600",
+      "startTimeText": "21:57"
+    },
+    {
+      "text": "that MCPs have been our first",
+      "startMs": "1319840",
+      "endMs": "1323600",
+      "startTimeText": "21:59"
+    },
+    {
+      "text": "integration between Genie and Unity",
+      "startMs": "1321600",
+      "endMs": "1326080",
+      "startTimeText": "22:01"
+    },
+    {
+      "text": "Gateway. So, as an administrator, you",
+      "startMs": "1323600",
+      "endMs": "1327600",
+      "startTimeText": "22:03"
+    },
+    {
+      "text": "can decide, you know, this user gets",
+      "startMs": "1326080",
+      "endMs": "1329520",
+      "startTimeText": "22:06"
+    },
+    {
+      "text": "access to this MCP, that user gets",
+      "startMs": "1327600",
+      "endMs": "1332400",
+      "startTimeText": "22:07"
+    },
+    {
+      "text": "access to that MCP, or even this tool,",
+      "startMs": "1329520",
+      "endMs": "1334320",
+      "startTimeText": "22:09"
+    },
+    {
+      "text": "but not that tool, or even more",
+      "startMs": "1332400",
+      "endMs": "1336640",
+      "startTimeText": "22:12"
+    },
+    {
+      "text": "granularly than that. For example, you",
+      "startMs": "1334320",
+      "endMs": "1339240",
+      "startTimeText": "22:14"
+    },
+    {
+      "text": "can use Genie to post to",
+      "startMs": "1336640",
+      "endMs": "1341480",
+      "startTimeText": "22:16"
+    },
+    {
+      "text": "Slack, but you can't, you know, post to",
+      "startMs": "1339240",
+      "endMs": "1343760",
+      "startTimeText": "22:19"
+    },
+    {
+      "text": "these particular channels, or maybe you",
+      "startMs": "1341480",
+      "endMs": "1345920",
+      "startTimeText": "22:21"
+    },
+    {
+      "text": "can push to this GitHub branch, but not",
+      "startMs": "1343760",
+      "endMs": "1348160",
+      "startTimeText": "22:23"
+    },
+    {
+      "text": "those GitHub branches. So, that becomes",
+      "startMs": "1345920",
+      "endMs": "1350080",
+      "startTimeText": "22:25"
+    },
+    {
+      "text": "a pretty granular control for the",
+      "startMs": "1348160",
+      "endMs": "1351680",
+      "startTimeText": "22:28"
+    },
+    {
+      "text": "administrators, and we've only since",
+      "startMs": "1350080",
+      "endMs": "1353880",
+      "startTimeText": "22:30"
+    },
+    {
+      "text": "then expanded on that as we think about",
+      "startMs": "1351680",
+      "endMs": "1355960",
+      "startTimeText": "22:31"
+    },
+    {
+      "text": "more and more centralized governance of",
+      "startMs": "1353880",
+      "endMs": "1358160",
+      "startTimeText": "22:33"
+    },
+    {
+      "text": "these agents. And actually, the very",
+      "startMs": "1355960",
+      "endMs": "1360520",
+      "startTimeText": "22:35"
+    },
+    {
+      "text": "next thing that we are almost about to",
+      "startMs": "1358160",
+      "endMs": "1363080",
+      "startTimeText": "22:38"
+    },
+    {
+      "text": "announce is skill sharing for Genie 1",
+      "startMs": "1360520",
+      "endMs": "1365720",
+      "startTimeText": "22:40"
+    },
+    {
+      "text": "and Genie code through Unity Gateway.",
+      "startMs": "1363080",
+      "endMs": "1368880",
+      "startTimeText": "22:43"
+    },
+    {
+      "text": "So, with Unity Gateway, you again can",
+      "startMs": "1365720",
+      "endMs": "1370840",
+      "startTimeText": "22:45"
+    },
+    {
+      "text": "control which skills are available to",
+      "startMs": "1368880",
+      "endMs": "1372240",
+      "startTimeText": "22:48"
+    },
+    {
+      "text": "which users. You'll be able to",
+      "startMs": "1370840",
+      "endMs": "1374440",
+      "startTimeText": "22:50"
+    },
+    {
+      "text": "eventually pin specific skills to",
+      "startMs": "1372240",
+      "endMs": "1376400",
+      "startTimeText": "22:52"
+    },
+    {
+      "text": "different users, so that those are, for",
+      "startMs": "1374440",
+      "endMs": "1378480",
+      "startTimeText": "22:54"
+    },
+    {
+      "text": "example, always available for those end",
+      "startMs": "1376400",
+      "endMs": "1380200",
+      "startTimeText": "22:56"
+    },
+    {
+      "text": "users, especially new users, and so on.",
+      "startMs": "1378480",
+      "endMs": "1382240",
+      "startTimeText": "22:58"
+    },
+    {
+      "text": "But in general, like I mentioned before,",
+      "startMs": "1380200",
+      "endMs": "1384320",
+      "startTimeText": "23:00"
+    },
+    {
+      "text": "a skill is a good way to kind of run the",
+      "startMs": "1382240",
+      "endMs": "1386920",
+      "startTimeText": "23:02"
+    },
+    {
+      "text": "same repeatable task the same way over",
+      "startMs": "1384320",
+      "endMs": "1389240",
+      "startTimeText": "23:04"
+    },
+    {
+      "text": "and over uh to share your workflows with",
+      "startMs": "1386920",
+      "endMs": "1391000",
+      "startTimeText": "23:06"
+    },
+    {
+      "text": "your teammates and so on.",
+      "startMs": "1389240",
+      "endMs": "1393080",
+      "startTimeText": "23:09"
+    },
+    {
+      "text": ">> Can you please share a little bit more",
+      "startMs": "1391000",
+      "endMs": "1395840",
+      "startTimeText": "23:11"
+    },
+    {
+      "text": "as to why this one matters? And the",
+      "startMs": "1393080",
+      "endMs": "1398160",
+      "startTimeText": "23:13"
+    },
+    {
+      "text": "reason why I say that is I think",
+      "startMs": "1395840",
+      "endMs": "1400080",
+      "startTimeText": "23:15"
+    },
+    {
+      "text": "that people talk about skills all the",
+      "startMs": "1398160",
+      "endMs": "1402080",
+      "startTimeText": "23:18"
+    },
+    {
+      "text": "time, cloud skills, and all that fun",
+      "startMs": "1400080",
+      "endMs": "1403400",
+      "startTimeText": "23:20"
+    },
+    {
+      "text": "jazz.",
+      "startMs": "1402080",
+      "endMs": "1405400",
+      "startTimeText": "23:22"
+    },
+    {
+      "text": "But,",
+      "startMs": "1403400",
+      "endMs": "1407040",
+      "startTimeText": "23:23"
+    },
+    {
+      "text": "there are",
+      "startMs": "1405400",
+      "endMs": "1410760",
+      "startTimeText": "23:25"
+    },
+    {
+      "text": "a lot of governance elements around it",
+      "startMs": "1407040",
+      "endMs": "1412240",
+      "startTimeText": "23:27"
+    },
+    {
+      "text": "that I think",
+      "startMs": "1410760",
+      "endMs": "1414720",
+      "startTimeText": "23:30"
+    },
+    {
+      "text": "we've ignored for a while. So, can you",
+      "startMs": "1412240",
+      "endMs": "1416360",
+      "startTimeText": "23:32"
+    },
+    {
+      "text": "just, for the sake of business",
+      "startMs": "1414720",
+      "endMs": "1418720",
+      "startTimeText": "23:34"
+    },
+    {
+      "text": "decision-makers, just explain a little",
+      "startMs": "1416360",
+      "endMs": "1422240",
+      "startTimeText": "23:36"
+    },
+    {
+      "text": "bit as to why this is very relevant?",
+      "startMs": "1418720",
+      "endMs": "1424920",
+      "startTimeText": "23:38"
+    },
+    {
+      "text": ">> Yeah, I think we see demand for",
+      "startMs": "1422240",
+      "endMs": "1428760",
+      "startTimeText": "23:42"
+    },
+    {
+      "text": "for a couple things. Um first is,",
+      "startMs": "1424920",
+      "endMs": "1430360",
+      "startTimeText": "23:44"
+    },
+    {
+      "text": "you know, you want everyone to start",
+      "startMs": "1428760",
+      "endMs": "1431840",
+      "startTimeText": "23:48"
+    },
+    {
+      "text": "with a baseline level of skills or",
+      "startMs": "1430360",
+      "endMs": "1433280",
+      "startTimeText": "23:50"
+    },
+    {
+      "text": "everyone within a group to start with a",
+      "startMs": "1431840",
+      "endMs": "1435760",
+      "startTimeText": "23:51"
+    },
+    {
+      "text": "baseline level of skills. Administrators",
+      "startMs": "1433280",
+      "endMs": "1437280",
+      "startTimeText": "23:53"
+    },
+    {
+      "text": "who are ultimately responsible for",
+      "startMs": "1435760",
+      "endMs": "1438760",
+      "startTimeText": "23:55"
+    },
+    {
+      "text": "people having a good experience with",
+      "startMs": "1437280",
+      "endMs": "1440400",
+      "startTimeText": "23:57"
+    },
+    {
+      "text": "Genie want to ensure that they're set up",
+      "startMs": "1438760",
+      "endMs": "1442680",
+      "startTimeText": "23:58"
+    },
+    {
+      "text": "for success. And part of that includes,",
+      "startMs": "1440400",
+      "endMs": "1444000",
+      "startTimeText": "24:00"
+    },
+    {
+      "text": "if you've got, you know,",
+      "startMs": "1442680",
+      "endMs": "1445920",
+      "startTimeText": "24:02"
+    },
+    {
+      "text": "company-specific workflows, making sure",
+      "startMs": "1444000",
+      "endMs": "1447440",
+      "startTimeText": "24:04"
+    },
+    {
+      "text": "that Genie is set up with those",
+      "startMs": "1445920",
+      "endMs": "1450720",
+      "startTimeText": "24:05"
+    },
+    {
+      "text": "workflows. We also see some demand for,",
+      "startMs": "1447440",
+      "endMs": "1452880",
+      "startTimeText": "24:07"
+    },
+    {
+      "text": "you know, limiting or or controlling how",
+      "startMs": "1450720",
+      "endMs": "1455040",
+      "startTimeText": "24:10"
+    },
+    {
+      "text": "people can share skills. So, for that,",
+      "startMs": "1452880",
+      "endMs": "1456760",
+      "startTimeText": "24:12"
+    },
+    {
+      "text": "uh we'd welcome feedback from customers",
+      "startMs": "1455040",
+      "endMs": "1459000",
+      "startTimeText": "24:15"
+    },
+    {
+      "text": "as they continue to see these roll outs.",
+      "startMs": "1456760",
+      "endMs": "1461160",
+      "startTimeText": "24:16"
+    },
+    {
+      "text": "Um but, we're super open to to any and",
+      "startMs": "1459000",
+      "endMs": "1463320",
+      "startTimeText": "24:19"
+    },
+    {
+      "text": "all sorts of governance around skills.",
+      "startMs": "1461160",
+      "endMs": "1465320",
+      "startTimeText": "24:21"
+    },
+    {
+      "text": "All right. Um so, there's also kind of a",
+      "startMs": "1463320",
+      "endMs": "1466800",
+      "startTimeText": "24:23"
+    },
+    {
+      "text": "step up from a skill. You know, if a",
+      "startMs": "1465320",
+      "endMs": "1469880",
+      "startTimeText": "24:25"
+    },
+    {
+      "text": "skill can perform a task, then an agent",
+      "startMs": "1466800",
+      "endMs": "1472040",
+      "startTimeText": "24:26"
+    },
+    {
+      "text": "performs an entire job. So, a Genie",
+      "startMs": "1469880",
+      "endMs": "1474440",
+      "startTimeText": "24:29"
+    },
+    {
+      "text": "agent bundles data sources,",
+      "startMs": "1472040",
+      "endMs": "1477160",
+      "startTimeText": "24:32"
+    },
+    {
+      "text": "instructions, skills, and memory, and",
+      "startMs": "1474440",
+      "endMs": "1479360",
+      "startTimeText": "24:34"
+    },
+    {
+      "text": "all those come together to create what",
+      "startMs": "1477160",
+      "endMs": "1480880",
+      "startTimeText": "24:37"
+    },
+    {
+      "text": "we might think of as a customized",
+      "startMs": "1479360",
+      "endMs": "1482840",
+      "startTimeText": "24:39"
+    },
+    {
+      "text": "coworker that can answer questions or",
+      "startMs": "1480880",
+      "endMs": "1484520",
+      "startTimeText": "24:40"
+    },
+    {
+      "text": "get work done in a very particular",
+      "startMs": "1482840",
+      "endMs": "1486200",
+      "startTimeText": "24:42"
+    },
+    {
+      "text": "domain. So, for example, you might have",
+      "startMs": "1484520",
+      "endMs": "1488520",
+      "startTimeText": "24:44"
+    },
+    {
+      "text": "a a renewals agent that helps your team",
+      "startMs": "1486200",
+      "endMs": "1491520",
+      "startTimeText": "24:46"
+    },
+    {
+      "text": "prep for for QBRs, or a launch agent",
+      "startMs": "1488520",
+      "endMs": "1492880",
+      "startTimeText": "24:48"
+    },
+    {
+      "text": "that helps you kind of track all your",
+      "startMs": "1491520",
+      "endMs": "1494680",
+      "startTimeText": "24:51"
+    },
+    {
+      "text": "feature statuses, or maybe a finance",
+      "startMs": "1492880",
+      "endMs": "1496640",
+      "startTimeText": "24:52"
+    },
+    {
+      "text": "agent that answers questions about about",
+      "startMs": "1494680",
+      "endMs": "1498800",
+      "startTimeText": "24:54"
+    },
+    {
+      "text": "your product's KPIs. And I think most",
+      "startMs": "1496640",
+      "endMs": "1500720",
+      "startTimeText": "24:56"
+    },
+    {
+      "text": "customers are not starting from scratch",
+      "startMs": "1498800",
+      "endMs": "1502160",
+      "startTimeText": "24:58"
+    },
+    {
+      "text": "here. If you've already been using what",
+      "startMs": "1500720",
+      "endMs": "1503600",
+      "startTimeText": "25:00"
+    },
+    {
+      "text": "used to be called Genie Spaces, then",
+      "startMs": "1502160",
+      "endMs": "1505520",
+      "startTimeText": "25:02"
+    },
+    {
+      "text": "you've actually been creating agents",
+      "startMs": "1503600",
+      "endMs": "1507440",
+      "startTimeText": "25:03"
+    },
+    {
+      "text": "because Genie Spaces are now Genie",
+      "startMs": "1505520",
+      "endMs": "1510280",
+      "startTimeText": "25:05"
+    },
+    {
+      "text": "Agents, fully accessible from Genie 1",
+      "startMs": "1507440",
+      "endMs": "1511800",
+      "startTimeText": "25:07"
+    },
+    {
+      "text": "with a couple bells and whistles. It",
+      "startMs": "1510280",
+      "endMs": "1514240",
+      "startTimeText": "25:10"
+    },
+    {
+      "text": "wasn't just a rebrand. So, for example,",
+      "startMs": "1511800",
+      "endMs": "1515640",
+      "startTimeText": "25:11"
+    },
+    {
+      "text": "we're adding the ability to connect a",
+      "startMs": "1514240",
+      "endMs": "1518400",
+      "startTimeText": "25:14"
+    },
+    {
+      "text": "volume to the agent. We're adding MCP",
+      "startMs": "1515640",
+      "endMs": "1520960",
+      "startTimeText": "25:15"
+    },
+    {
+      "text": "connectors. And we are also adding uh",
+      "startMs": "1518400",
+      "endMs": "1524080",
+      "startTimeText": "25:18"
+    },
+    {
+      "text": "sub-agent support.",
+      "startMs": "1520960",
+      "endMs": "1524080",
+      "startTimeText": "25:20"
+    },
+    {
+      "text": "Now, once a task works the way you want,",
+      "startMs": "1525080",
+      "endMs": "1528520",
+      "startTimeText": "25:25"
+    },
+    {
+      "text": "you can set it and forget it, right? You",
+      "startMs": "1526840",
+      "endMs": "1530360",
+      "startTimeText": "25:26"
+    },
+    {
+      "text": "can put it on a cadence, daily, weekly,",
+      "startMs": "1528520",
+      "endMs": "1531480",
+      "startTimeText": "25:28"
+    },
+    {
+      "text": "whatever you pick, and deliver the",
+      "startMs": "1530360",
+      "endMs": "1533560",
+      "startTimeText": "25:30"
+    },
+    {
+      "text": "results to your inbox. You can also",
+      "startMs": "1531480",
+      "endMs": "1535320",
+      "startTimeText": "25:31"
+    },
+    {
+      "text": "trigger based on specific conditions.",
+      "startMs": "1533560",
+      "endMs": "1536800",
+      "startTimeText": "25:33"
+    },
+    {
+      "text": "So, for example, you know, I only want",
+      "startMs": "1535320",
+      "endMs": "1539600",
+      "startTimeText": "25:35"
+    },
+    {
+      "text": "to know if a metric drops or or grows by",
+      "startMs": "1536800",
+      "endMs": "1541120",
+      "startTimeText": "25:36"
+    },
+    {
+      "text": "a certain percentage amount. So, I've",
+      "startMs": "1539600",
+      "endMs": "1543320",
+      "startTimeText": "25:39"
+    },
+    {
+      "text": "I've instructed Genie to do that. Behind",
+      "startMs": "1541120",
+      "endMs": "1545120",
+      "startTimeText": "25:41"
+    },
+    {
+      "text": "the scenes, this is just based on the",
+      "startMs": "1543320",
+      "endMs": "1546520",
+      "startTimeText": "25:43"
+    },
+    {
+      "text": "the tried and tested LinkFlow Jobs",
+      "startMs": "1545120",
+      "endMs": "1549120",
+      "startTimeText": "25:45"
+    },
+    {
+      "text": "platform, so it is highly reliable. And",
+      "startMs": "1546520",
+      "endMs": "1550920",
+      "startTimeText": "25:46"
+    },
+    {
+      "text": "going forward, we are continuing to",
+      "startMs": "1549120",
+      "endMs": "1552520",
+      "startTimeText": "25:49"
+    },
+    {
+      "text": "invest in more orchestration features",
+      "startMs": "1550920",
+      "endMs": "1554680",
+      "startTimeText": "25:50"
+    },
+    {
+      "text": "such as sending to larger groups of",
+      "startMs": "1552520",
+      "endMs": "1556280",
+      "startTimeText": "25:52"
+    },
+    {
+      "text": "people, doing dry runs, things like",
+      "startMs": "1554680",
+      "endMs": "1558600",
+      "startTimeText": "25:54"
+    },
+    {
+      "text": "that.",
+      "startMs": "1556280",
+      "endMs": "1558600",
+      "startTimeText": "25:56"
+    },
+    {
+      "text": "And finally, I think none of this is is",
+      "startMs": "1559080",
+      "endMs": "1563000",
+      "startTimeText": "25:59"
+    },
+    {
+      "text": "really all that useful if people have to",
+      "startMs": "1561120",
+      "endMs": "1564880",
+      "startTimeText": "26:01"
+    },
+    {
+      "text": "leave their favorite tools to use it.",
+      "startMs": "1563000",
+      "endMs": "1567280",
+      "startTimeText": "26:03"
+    },
+    {
+      "text": "So, Genie shows up where they already",
+      "startMs": "1564880",
+      "endMs": "1568560",
+      "startTimeText": "26:04"
+    },
+    {
+      "text": "work. For example, there's support for",
+      "startMs": "1567280",
+      "endMs": "1570840",
+      "startTimeText": "26:07"
+    },
+    {
+      "text": "mobile on iOS and Android, so you can",
+      "startMs": "1568560",
+      "endMs": "1573200",
+      "startTimeText": "26:08"
+    },
+    {
+      "text": "ask Genie questions on the go. We also",
+      "startMs": "1570840",
+      "endMs": "1575680",
+      "startTimeText": "26:10"
+    },
+    {
+      "text": "offer a desktop app. It's very popular",
+      "startMs": "1573200",
+      "endMs": "1577520",
+      "startTimeText": "26:13"
+    },
+    {
+      "text": "among users who who tend to do a lot of",
+      "startMs": "1575680",
+      "endMs": "1580000",
+      "startTimeText": "26:15"
+    },
+    {
+      "text": "their work in in desktop-centric tools",
+      "startMs": "1577520",
+      "endMs": "1582600",
+      "startTimeText": "26:17"
+    },
+    {
+      "text": "like email or or document editing. You",
+      "startMs": "1580000",
+      "endMs": "1584560",
+      "startTimeText": "26:20"
+    },
+    {
+      "text": "can also ping Genie in your third-party",
+      "startMs": "1582600",
+      "endMs": "1586720",
+      "startTimeText": "26:22"
+    },
+    {
+      "text": "chat tools. So, we integrate with Slack",
+      "startMs": "1584560",
+      "endMs": "1589000",
+      "startTimeText": "26:24"
+    },
+    {
+      "text": "and Teams and Co-pilot. We also have",
+      "startMs": "1586720",
+      "endMs": "1591520",
+      "startTimeText": "26:26"
+    },
+    {
+      "text": "Sheets and and Excel.",
+      "startMs": "1589000",
+      "endMs": "1592880",
+      "startTimeText": "26:29"
+    },
+    {
+      "text": "And then if your team lives in another",
+      "startMs": "1591520",
+      "endMs": "1595240",
+      "startTimeText": "26:31"
+    },
+    {
+      "text": "agent entirely, you can plug into the",
+      "startMs": "1592880",
+      "endMs": "1598000",
+      "startTimeText": "26:32"
+    },
+    {
+      "text": "Genie 1 MCP, which is again powered by",
+      "startMs": "1595240",
+      "endMs": "1599680",
+      "startTimeText": "26:35"
+    },
+    {
+      "text": "the ontology behind the scenes. And we",
+      "startMs": "1598000",
+      "endMs": "1602000",
+      "startTimeText": "26:38"
+    },
+    {
+      "text": "do support MCP apps, which gives you the",
+      "startMs": "1599680",
+      "endMs": "1603920",
+      "startTimeText": "26:39"
+    },
+    {
+      "text": "nice kind of embedded charts, deep",
+      "startMs": "1602000",
+      "endMs": "1605080",
+      "startTimeText": "26:42"
+    },
+    {
+      "text": "links, and so on that you're actually",
+      "startMs": "1603920",
+      "endMs": "1608840",
+      "startTimeText": "26:43"
+    },
+    {
+      "text": "seeing in in the GIF here.",
+      "startMs": "1605080",
+      "endMs": "1608840",
+      "startTimeText": "26:45"
+    },
+    {
+      "text": "So, that sounds interesting. I I maybe",
+      "startMs": "1609080",
+      "endMs": "1612880",
+      "startTimeText": "26:49"
+    },
+    {
+      "text": "show a couple more things uh in in our",
+      "startMs": "1610240",
+      "endMs": "1614560",
+      "startTimeText": "26:50"
+    },
+    {
+      "text": "demo.",
+      "startMs": "1612880",
+      "endMs": "1616200",
+      "startTimeText": "26:52"
+    },
+    {
+      "text": "So, going back to my my other screen.",
+      "startMs": "1614560",
+      "endMs": "1618040",
+      "startTimeText": "26:54"
+    },
+    {
+      "text": "So, I've I've Remember I've I've created",
+      "startMs": "1616200",
+      "endMs": "1620200",
+      "startTimeText": "26:56"
+    },
+    {
+      "text": "my my document. I think I'm I'm ready to",
+      "startMs": "1618040",
+      "endMs": "1621920",
+      "startTimeText": "26:58"
+    },
+    {
+      "text": "actually send this to our executive",
+      "startMs": "1620200",
+      "endMs": "1623440",
+      "startTimeText": "27:00"
+    },
+    {
+      "text": "team. And I'm going to include some of",
+      "startMs": "1621920",
+      "endMs": "1625640",
+      "startTimeText": "27:01"
+    },
+    {
+      "text": "those follow-up analyses that that Genie",
+      "startMs": "1623440",
+      "endMs": "1628640",
+      "startTimeText": "27:03"
+    },
+    {
+      "text": "gave Sorry, Genie gave me.",
+      "startMs": "1625640",
+      "endMs": "1631360",
+      "startTimeText": "27:05"
+    },
+    {
+      "text": "So, when it does this, Genie is is",
+      "startMs": "1628640",
+      "endMs": "1634720",
+      "startTimeText": "27:08"
+    },
+    {
+      "text": "writing to Gmail and Jira as me with my",
+      "startMs": "1631360",
+      "endMs": "1636680",
+      "startTimeText": "27:11"
+    },
+    {
+      "text": "credentials. And then behind the scenes,",
+      "startMs": "1634720",
+      "endMs": "1638280",
+      "startTimeText": "27:14"
+    },
+    {
+      "text": "again, this is all governed through",
+      "startMs": "1636680",
+      "endMs": "1640720",
+      "startTimeText": "27:16"
+    },
+    {
+      "text": "Unity Gateway. So, an admin has decided",
+      "startMs": "1638280",
+      "endMs": "1643800",
+      "startTimeText": "27:18"
+    },
+    {
+      "text": "to leave me access to send email with",
+      "startMs": "1640720",
+      "endMs": "1645800",
+      "startTimeText": "27:20"
+    },
+    {
+      "text": "Genie, um but they could certainly have",
+      "startMs": "1643800",
+      "endMs": "1647640",
+      "startTimeText": "27:23"
+    },
+    {
+      "text": "blocked that if they if they chose. Or",
+      "startMs": "1645800",
+      "endMs": "1649680",
+      "startTimeText": "27:25"
+    },
+    {
+      "text": "they could even uh block this",
+      "startMs": "1647640",
+      "endMs": "1651680",
+      "startTimeText": "27:27"
+    },
+    {
+      "text": "execs@demodatabricks.com,",
+      "startMs": "1649680",
+      "endMs": "1654360",
+      "startTimeText": "27:29"
+    },
+    {
+      "text": "which is not a real email uh or for",
+      "startMs": "1651680",
+      "endMs": "1657040",
+      "startTimeText": "27:31"
+    },
+    {
+      "text": "public purposes. Um Now, I don't want to",
+      "startMs": "1654360",
+      "endMs": "1658680",
+      "startTimeText": "27:34"
+    },
+    {
+      "text": "have to ask for these these follow-up",
+      "startMs": "1657040",
+      "endMs": "1661320",
+      "startTimeText": "27:37"
+    },
+    {
+      "text": "analyses every week. So, maybe I'll also",
+      "startMs": "1658680",
+      "endMs": "1663760",
+      "startTimeText": "27:38"
+    },
+    {
+      "text": "ask Genie to always investigate",
+      "startMs": "1661320",
+      "endMs": "1665440",
+      "startTimeText": "27:41"
+    },
+    {
+      "text": "anomalies proactively when I'm doing",
+      "startMs": "1663760",
+      "endMs": "1666960",
+      "startTimeText": "27:43"
+    },
+    {
+      "text": "this kind of review. Again, it goes back",
+      "startMs": "1665440",
+      "endMs": "1670240",
+      "startTimeText": "27:45"
+    },
+    {
+      "text": "to that idea of of personal memory. So,",
+      "startMs": "1666960",
+      "endMs": "1672320",
+      "startTimeText": "27:46"
+    },
+    {
+      "text": "I can save that.",
+      "startMs": "1670240",
+      "endMs": "1673840",
+      "startTimeText": "27:50"
+    },
+    {
+      "text": "And then maybe I don't want to have to",
+      "startMs": "1672320",
+      "endMs": "1675960",
+      "startTimeText": "27:52"
+    },
+    {
+      "text": "remember to run this at all every week.",
+      "startMs": "1673840",
+      "endMs": "1678120",
+      "startTimeText": "27:53"
+    },
+    {
+      "text": "So, maybe I want this analysis to run",
+      "startMs": "1675960",
+      "endMs": "1680280",
+      "startTimeText": "27:55"
+    },
+    {
+      "text": "when I'm out of office. So, I can also,",
+      "startMs": "1678120",
+      "endMs": "1682360",
+      "startTimeText": "27:58"
+    },
+    {
+      "text": "again, put this on a schedule. I can",
+      "startMs": "1680280",
+      "endMs": "1684400",
+      "startTimeText": "28:00"
+    },
+    {
+      "text": "send it to to the Slack channel when I'm",
+      "startMs": "1682360",
+      "endMs": "1686120",
+      "startTimeText": "28:02"
+    },
+    {
+      "text": "out, and it'll still run with my",
+      "startMs": "1684400",
+      "endMs": "1688000",
+      "startTimeText": "28:04"
+    },
+    {
+      "text": "credentials.",
+      "startMs": "1686120",
+      "endMs": "1689760",
+      "startTimeText": "28:06"
+    },
+    {
+      "text": "Great. Of course, now this adoption",
+      "startMs": "1688000",
+      "endMs": "1691880",
+      "startTimeText": "28:08"
+    },
+    {
+      "text": "review isn't the only time people",
+      "startMs": "1689760",
+      "endMs": "1694520",
+      "startTimeText": "28:09"
+    },
+    {
+      "text": "actually ask me about Genie adoption.",
+      "startMs": "1691880",
+      "endMs": "1697120",
+      "startTimeText": "28:11"
+    },
+    {
+      "text": "So, I can also turn this conversation",
+      "startMs": "1694520",
+      "endMs": "1699840",
+      "startTimeText": "28:14"
+    },
+    {
+      "text": "into an agent that can answer questions",
+      "startMs": "1697120",
+      "endMs": "1701360",
+      "startTimeText": "28:17"
+    },
+    {
+      "text": "about it using the context from not",
+      "startMs": "1699840",
+      "endMs": "1702840",
+      "startTimeText": "28:19"
+    },
+    {
+      "text": "only, again, this conversation, but",
+      "startMs": "1701360",
+      "endMs": "1704680",
+      "startTimeText": "28:21"
+    },
+    {
+      "text": "maybe also the other conversations that",
+      "startMs": "1702840",
+      "endMs": "1707760",
+      "startTimeText": "28:22"
+    },
+    {
+      "text": "I've had with Genie uh about this topic.",
+      "startMs": "1704680",
+      "endMs": "1709960",
+      "startTimeText": "28:24"
+    },
+    {
+      "text": "So, I can ask it to actually save as an",
+      "startMs": "1707760",
+      "endMs": "1712560",
+      "startTimeText": "28:27"
+    },
+    {
+      "text": "agent.",
+      "startMs": "1709960",
+      "endMs": "1712560",
+      "startTimeText": "28:29"
+    },
+    {
+      "text": "I can name the agent.",
+      "startMs": "1712720",
+      "endMs": "1715880",
+      "startTimeText": "28:32"
+    },
+    {
+      "text": "And as it's creating, what it's",
+      "startMs": "1716880",
+      "endMs": "1719720",
+      "startTimeText": "28:36"
+    },
+    {
+      "text": "basically creating, again, is that",
+      "startMs": "1718320",
+      "endMs": "1722720",
+      "startTimeText": "28:38"
+    },
+    {
+      "text": "expert coworker that people can use to",
+      "startMs": "1719720",
+      "endMs": "1724920",
+      "startTimeText": "28:39"
+    },
+    {
+      "text": "ask questions and take action related to",
+      "startMs": "1722720",
+      "endMs": "1727480",
+      "startTimeText": "28:42"
+    },
+    {
+      "text": "Genie's performance, Genie's OKRs. And",
+      "startMs": "1724920",
+      "endMs": "1729560",
+      "startTimeText": "28:44"
+    },
+    {
+      "text": "unlike an OKR doc that's going to go",
+      "startMs": "1727480",
+      "endMs": "1732320",
+      "startTimeText": "28:47"
+    },
+    {
+      "text": "stale pretty quickly, the agent remains",
+      "startMs": "1729560",
+      "endMs": "1735440",
+      "startTimeText": "28:49"
+    },
+    {
+      "text": "up-to-date and can compute answers live.",
+      "startMs": "1732320",
+      "endMs": "1736880",
+      "startTimeText": "28:52"
+    },
+    {
+      "text": "To that end, maybe I want to share this",
+      "startMs": "1735440",
+      "endMs": "1740000",
+      "startTimeText": "28:55"
+    },
+    {
+      "text": "with some of the other the other PMs at",
+      "startMs": "1736880",
+      "endMs": "1741520",
+      "startTimeText": "28:56"
+    },
+    {
+      "text": "at Databricks. And I can actually click",
+      "startMs": "1740000",
+      "endMs": "1743600",
+      "startTimeText": "29:00"
+    },
+    {
+      "text": "into this agent, and here I'm going to",
+      "startMs": "1741520",
+      "endMs": "1746080",
+      "startTimeText": "29:01"
+    },
+    {
+      "text": "see that I'm able to chat directly with",
+      "startMs": "1743600",
+      "endMs": "1748320",
+      "startTimeText": "29:03"
+    },
+    {
+      "text": "this agent. So here, I'm in Genie 1, but",
+      "startMs": "1746080",
+      "endMs": "1750000",
+      "startTimeText": "29:06"
+    },
+    {
+      "text": "now I'm talking directly to this very",
+      "startMs": "1748320",
+      "endMs": "1752320",
+      "startTimeText": "29:08"
+    },
+    {
+      "text": "specialized agent. And if we click into",
+      "startMs": "1750000",
+      "endMs": "1755000",
+      "startTimeText": "29:10"
+    },
+    {
+      "text": "the agent's details, we can see uh that",
+      "startMs": "1752320",
+      "endMs": "1756640",
+      "startTimeText": "29:12"
+    },
+    {
+      "text": "has actually been quite customized to",
+      "startMs": "1755000",
+      "endMs": "1759680",
+      "startTimeText": "29:15"
+    },
+    {
+      "text": "the sources that we talked about um in",
+      "startMs": "1756640",
+      "endMs": "1761680",
+      "startTimeText": "29:16"
+    },
+    {
+      "text": "in that in that prior conversations. So",
+      "startMs": "1759680",
+      "endMs": "1762960",
+      "startTimeText": "29:19"
+    },
+    {
+      "text": "it's using the right kinds of data. And",
+      "startMs": "1761680",
+      "endMs": "1764560",
+      "startTimeText": "29:21"
+    },
+    {
+      "text": "more broadly, you can probably imagine",
+      "startMs": "1762960",
+      "endMs": "1765800",
+      "startTimeText": "29:22"
+    },
+    {
+      "text": "the types of teams that might use",
+      "startMs": "1764560",
+      "endMs": "1766840",
+      "startTimeText": "29:24"
+    },
+    {
+      "text": "something like this. I mean, think of",
+      "startMs": "1765800",
+      "endMs": "1769360",
+      "startTimeText": "29:25"
+    },
+    {
+      "text": "any team uh that needs to do the same",
+      "startMs": "1766840",
+      "endMs": "1771800",
+      "startTimeText": "29:26"
+    },
+    {
+      "text": "kinds of workflows over and over, uh",
+      "startMs": "1769360",
+      "endMs": "1773360",
+      "startTimeText": "29:29"
+    },
+    {
+      "text": "answer the same kind of questions over",
+      "startMs": "1771800",
+      "endMs": "1775880",
+      "startTimeText": "29:31"
+    },
+    {
+      "text": "and over. Now, you know, they can create",
+      "startMs": "1773360",
+      "endMs": "1777640",
+      "startTimeText": "29:33"
+    },
+    {
+      "text": "this customized coworker in one single",
+      "startMs": "1775880",
+      "endMs": "1779280",
+      "startTimeText": "29:35"
+    },
+    {
+      "text": "place, and they can certify it, they can",
+      "startMs": "1777640",
+      "endMs": "1780960",
+      "startTimeText": "29:37"
+    },
+    {
+      "text": "do all sorts of things to really elevate",
+      "startMs": "1779280",
+      "endMs": "1783560",
+      "startTimeText": "29:39"
+    },
+    {
+      "text": "it, not only in the onto rank algorithm,",
+      "startMs": "1780960",
+      "endMs": "1785680",
+      "startTimeText": "29:40"
+    },
+    {
+      "text": "but also just in the in the Genie 1",
+      "startMs": "1783560",
+      "endMs": "1788720",
+      "startTimeText": "29:43"
+    },
+    {
+      "text": "experience for all of their coworkers.",
+      "startMs": "1785680",
+      "endMs": "1791000",
+      "startTimeText": "29:45"
+    },
+    {
+      "text": ">> I I I'm on Databricks all the time, but",
+      "startMs": "1788720",
+      "endMs": "1793440",
+      "startTimeText": "29:48"
+    },
+    {
+      "text": "how how do people get started to make",
+      "startMs": "1791000",
+      "endMs": "1795120",
+      "startTimeText": "29:51"
+    },
+    {
+      "text": "the most out of Genie?",
+      "startMs": "1793440",
+      "endMs": "1796920",
+      "startTimeText": "29:53"
+    },
+    {
+      "text": ">> Yeah, my favorite question.",
+      "startMs": "1795120",
+      "endMs": "1799280",
+      "startTimeText": "29:55"
+    },
+    {
+      "text": "Um so for an initial proof of concept, I",
+      "startMs": "1796920",
+      "endMs": "1801240",
+      "startTimeText": "29:56"
+    },
+    {
+      "text": "I recommend starting with one team and a",
+      "startMs": "1799280",
+      "endMs": "1803760",
+      "startTimeText": "29:59"
+    },
+    {
+      "text": "few common recurring workflows. So that",
+      "startMs": "1801240",
+      "endMs": "1806080",
+      "startTimeText": "30:01"
+    },
+    {
+      "text": "might be, you know, legal reviewing",
+      "startMs": "1803760",
+      "endMs": "1808280",
+      "startTimeText": "30:03"
+    },
+    {
+      "text": "incoming contracts, or maybe finance",
+      "startMs": "1806080",
+      "endMs": "1810120",
+      "startTimeText": "30:06"
+    },
+    {
+      "text": "producing a monthly budget, or sales",
+      "startMs": "1808280",
+      "endMs": "1811560",
+      "startTimeText": "30:08"
+    },
+    {
+      "text": "prepping their account briefs. Pick the",
+      "startMs": "1810120",
+      "endMs": "1813920",
+      "startTimeText": "30:10"
+    },
+    {
+      "text": "team that has a lot of recurring work,",
+      "startMs": "1811560",
+      "endMs": "1815720",
+      "startTimeText": "30:11"
+    },
+    {
+      "text": "and pick the work that that team already",
+      "startMs": "1813920",
+      "endMs": "1817800",
+      "startTimeText": "30:13"
+    },
+    {
+      "text": "does pretty often, where getting a",
+      "startMs": "1815720",
+      "endMs": "1819720",
+      "startTimeText": "30:15"
+    },
+    {
+      "text": "better answer, having a faster process",
+      "startMs": "1817800",
+      "endMs": "1821400",
+      "startTimeText": "30:17"
+    },
+    {
+      "text": "is really going to make a difference in",
+      "startMs": "1819720",
+      "endMs": "1823200",
+      "startTimeText": "30:19"
+    },
+    {
+      "text": "in their experience. And then once",
+      "startMs": "1821400",
+      "endMs": "1825160",
+      "startTimeText": "30:21"
+    },
+    {
+      "text": "you've picked a workflow,",
+      "startMs": "1823200",
+      "endMs": "1826600",
+      "startTimeText": "30:23"
+    },
+    {
+      "text": "I recommend defining benchmarking",
+      "startMs": "1825160",
+      "endMs": "1827600",
+      "startTimeText": "30:25"
+    },
+    {
+      "text": "questions. These are going to be",
+      "startMs": "1826600",
+      "endMs": "1829360",
+      "startTimeText": "30:26"
+    },
+    {
+      "text": "representative questions with with kind",
+      "startMs": "1827600",
+      "endMs": "1831920",
+      "startTimeText": "30:27"
+    },
+    {
+      "text": "of known good answers, including the the",
+      "startMs": "1829360",
+      "endMs": "1834400",
+      "startTimeText": "30:29"
+    },
+    {
+      "text": "definitions, the sources, the reasoning",
+      "startMs": "1831920",
+      "endMs": "1837240",
+      "startTimeText": "30:31"
+    },
+    {
+      "text": "that you expect Genie to use. They give",
+      "startMs": "1834400",
+      "endMs": "1839560",
+      "startTimeText": "30:34"
+    },
+    {
+      "text": "you a concrete way to evaluate accuracy",
+      "startMs": "1837240",
+      "endMs": "1841520",
+      "startTimeText": "30:37"
+    },
+    {
+      "text": "before rollout and to track whether",
+      "startMs": "1839560",
+      "endMs": "1843320",
+      "startTimeText": "30:39"
+    },
+    {
+      "text": "Genie's also getting better over time as",
+      "startMs": "1841520",
+      "endMs": "1845840",
+      "startTimeText": "30:41"
+    },
+    {
+      "text": "you continue to invest in your ontology.",
+      "startMs": "1843320",
+      "endMs": "1847680",
+      "startTimeText": "30:43"
+    },
+    {
+      "text": "Uh you'll also probably want to record",
+      "startMs": "1845840",
+      "endMs": "1849320",
+      "startTimeText": "30:45"
+    },
+    {
+      "text": "today's baseline, you know, pre",
+      "startMs": "1847680",
+      "endMs": "1850960",
+      "startTimeText": "30:47"
+    },
+    {
+      "text": "pre-Genie. You know, how accurate is the",
+      "startMs": "1849320",
+      "endMs": "1852640",
+      "startTimeText": "30:49"
+    },
+    {
+      "text": "existing process? How long does it take?",
+      "startMs": "1850960",
+      "endMs": "1854400",
+      "startTimeText": "30:50"
+    },
+    {
+      "text": "Where do people get stuck?",
+      "startMs": "1852640",
+      "endMs": "1856400",
+      "startTimeText": "30:52"
+    },
+    {
+      "text": "Include both straightforward questions",
+      "startMs": "1854400",
+      "endMs": "1858520",
+      "startTimeText": "30:54"
+    },
+    {
+      "text": "and ambiguous questions and then cases",
+      "startMs": "1856400",
+      "endMs": "1859880",
+      "startTimeText": "30:56"
+    },
+    {
+      "text": "where maybe like permissions should",
+      "startMs": "1858520",
+      "endMs": "1861800",
+      "startTimeText": "30:58"
+    },
+    {
+      "text": "produce different answers for different",
+      "startMs": "1859880",
+      "endMs": "1863400",
+      "startTimeText": "30:59"
+    },
+    {
+      "text": "users based on what different people",
+      "startMs": "1861800",
+      "endMs": "1865120",
+      "startTimeText": "31:01"
+    },
+    {
+      "text": "have access to.",
+      "startMs": "1863400",
+      "endMs": "1866680",
+      "startTimeText": "31:03"
+    },
+    {
+      "text": "And then from there, I would recommend",
+      "startMs": "1865120",
+      "endMs": "1868480",
+      "startTimeText": "31:05"
+    },
+    {
+      "text": "bringing in domain experts. Maybe they",
+      "startMs": "1866680",
+      "endMs": "1869720",
+      "startTimeText": "31:06"
+    },
+    {
+      "text": "also help you write the benchmarking",
+      "startMs": "1868480",
+      "endMs": "1871240",
+      "startTimeText": "31:08"
+    },
+    {
+      "text": "questions. But you're going to want",
+      "startMs": "1869720",
+      "endMs": "1872960",
+      "startTimeText": "31:09"
+    },
+    {
+      "text": "someone who actually understands that",
+      "startMs": "1871240",
+      "endMs": "1875000",
+      "startTimeText": "31:11"
+    },
+    {
+      "text": "team and their workflows and their data.",
+      "startMs": "1872960",
+      "endMs": "1877280",
+      "startTimeText": "31:12"
+    },
+    {
+      "text": "So taking the the finance example, that",
+      "startMs": "1875000",
+      "endMs": "1879120",
+      "startTimeText": "31:15"
+    },
+    {
+      "text": "might be something like an FP&A lead who",
+      "startMs": "1877280",
+      "endMs": "1880840",
+      "startTimeText": "31:17"
+    },
+    {
+      "text": "owns the monthly reporting and knows",
+      "startMs": "1879120",
+      "endMs": "1882840",
+      "startTimeText": "31:19"
+    },
+    {
+      "text": "exactly how the company defines things",
+      "startMs": "1880840",
+      "endMs": "1885240",
+      "startTimeText": "31:20"
+    },
+    {
+      "text": "like budgets and and actuals. And they",
+      "startMs": "1882840",
+      "endMs": "1887680",
+      "startTimeText": "31:22"
+    },
+    {
+      "text": "might also be interested in the user",
+      "startMs": "1885240",
+      "endMs": "1889520",
+      "startTimeText": "31:25"
+    },
+    {
+      "text": "feedback that you're getting as part of",
+      "startMs": "1887680",
+      "endMs": "1891000",
+      "startTimeText": "31:27"
+    },
+    {
+      "text": "this pilot. So it's good to keep them in",
+      "startMs": "1889520",
+      "endMs": "1893160",
+      "startTimeText": "31:29"
+    },
+    {
+      "text": "loop with the end users and make sure",
+      "startMs": "1891000",
+      "endMs": "1894840",
+      "startTimeText": "31:31"
+    },
+    {
+      "text": "that they're available um and they're",
+      "startMs": "1893160",
+      "endMs": "1898160",
+      "startTimeText": "31:33"
+    },
+    {
+      "text": "able to see to see those those results.",
+      "startMs": "1894840",
+      "endMs": "1899320",
+      "startTimeText": "31:34"
+    },
+    {
+      "text": "Then you're going to want to connect all",
+      "startMs": "1898160",
+      "endMs": "1901320",
+      "startTimeText": "31:38"
+    },
+    {
+      "text": "your sources that that that are needed",
+      "startMs": "1899320",
+      "endMs": "1903120",
+      "startTimeText": "31:39"
+    },
+    {
+      "text": "for this workflow. So do you need, you",
+      "startMs": "1901320",
+      "endMs": "1905920",
+      "startTimeText": "31:41"
+    },
+    {
+      "text": "know, SharePoint, Gmail, Jira, Slack?",
+      "startMs": "1903120",
+      "endMs": "1907240",
+      "startTimeText": "31:43"
+    },
+    {
+      "text": "You need to make sure that people can",
+      "startMs": "1905920",
+      "endMs": "1909840",
+      "startTimeText": "31:45"
+    },
+    {
+      "text": "read from and optionally write to their",
+      "startMs": "1907240",
+      "endMs": "1912280",
+      "startTimeText": "31:47"
+    },
+    {
+      "text": "third-party tools. And then you can also",
+      "startMs": "1909840",
+      "endMs": "1913640",
+      "startTimeText": "31:49"
+    },
+    {
+      "text": "choose to do things like add",
+      "startMs": "1912280",
+      "endMs": "1915720",
+      "startTimeText": "31:52"
+    },
+    {
+      "text": "instructions where helpful. That'll",
+      "startMs": "1913640",
+      "endMs": "1917800",
+      "startTimeText": "31:53"
+    },
+    {
+      "text": "that'll further steer Genie with",
+      "startMs": "1915720",
+      "endMs": "1919880",
+      "startTimeText": "31:55"
+    },
+    {
+      "text": "whatever prompts you provide. Uh but you",
+      "startMs": "1917800",
+      "endMs": "1921880",
+      "startTimeText": "31:57"
+    },
+    {
+      "text": "probably won't need all that many to",
+      "startMs": "1919880",
+      "endMs": "1924320",
+      "startTimeText": "31:59"
+    },
+    {
+      "text": "start. If the underlying semantics and",
+      "startMs": "1921880",
+      "endMs": "1926360",
+      "startTimeText": "32:01"
+    },
+    {
+      "text": "source materials are really strong, I",
+      "startMs": "1924320",
+      "endMs": "1927880",
+      "startTimeText": "32:04"
+    },
+    {
+      "text": "think you'll find that Genie can do a",
+      "startMs": "1926360",
+      "endMs": "1930280",
+      "startTimeText": "32:06"
+    },
+    {
+      "text": "lot with out really needing a long list",
+      "startMs": "1927880",
+      "endMs": "1933120",
+      "startTimeText": "32:07"
+    },
+    {
+      "text": "of rules. And finally, put that into the",
+      "startMs": "1930280",
+      "endMs": "1934880",
+      "startTimeText": "32:10"
+    },
+    {
+      "text": "the team's hands. See where it succeeds,",
+      "startMs": "1933120",
+      "endMs": "1936920",
+      "startTimeText": "32:13"
+    },
+    {
+      "text": "see it where it gets confused, uh where",
+      "startMs": "1934880",
+      "endMs": "1939520",
+      "startTimeText": "32:14"
+    },
+    {
+      "text": "the ontology needs more context. Iterate",
+      "startMs": "1936920",
+      "endMs": "1941480",
+      "startTimeText": "32:16"
+    },
+    {
+      "text": "on the semantics and optionally the",
+      "startMs": "1939520",
+      "endMs": "1943080",
+      "startTimeText": "32:19"
+    },
+    {
+      "text": "instructions as you need. And then once",
+      "startMs": "1941480",
+      "endMs": "1944680",
+      "startTimeText": "32:21"
+    },
+    {
+      "text": "it's working well, go to the next",
+      "startMs": "1943080",
+      "endMs": "1946240",
+      "startTimeText": "32:23"
+    },
+    {
+      "text": "workflow, the next line of business, and",
+      "startMs": "1944680",
+      "endMs": "1948640",
+      "startTimeText": "32:24"
+    },
+    {
+      "text": "so on. On our end, we are building more",
+      "startMs": "1946240",
+      "endMs": "1950480",
+      "startTimeText": "32:26"
+    },
+    {
+      "text": "and more monitoring tools to make this",
+      "startMs": "1948640",
+      "endMs": "1952160",
+      "startTimeText": "32:28"
+    },
+    {
+      "text": "easier and easier to do. So you're going",
+      "startMs": "1950480",
+      "endMs": "1954240",
+      "startTimeText": "32:30"
+    },
+    {
+      "text": "to start to see more detailed Genie 1",
+      "startMs": "1952160",
+      "endMs": "1955760",
+      "startTimeText": "32:32"
+    },
+    {
+      "text": "monitoring rolling out as well as",
+      "startMs": "1954240",
+      "endMs": "1958200",
+      "startTimeText": "32:34"
+    },
+    {
+      "text": "ontology monitoring. Now as you expand",
+      "startMs": "1955760",
+      "endMs": "1960480",
+      "startTimeText": "32:35"
+    },
+    {
+      "text": "beyond um beyond your PRC, there are a",
+      "startMs": "1958200",
+      "endMs": "1962360",
+      "startTimeText": "32:38"
+    },
+    {
+      "text": "couple best practices to keep in mind.",
+      "startMs": "1960480",
+      "endMs": "1963280",
+      "startTimeText": "32:40"
+    },
+    {
+      "text": "It's actually going to be very similar",
+      "startMs": "1962360",
+      "endMs": "1965080",
+      "startTimeText": "32:42"
+    },
+    {
+      "text": "to what I just said, but it's it's worth",
+      "startMs": "1963280",
+      "endMs": "1966400",
+      "startTimeText": "32:43"
+    },
+    {
+      "text": "repeating because these are these are",
+      "startMs": "1965080",
+      "endMs": "1968480",
+      "startTimeText": "32:45"
+    },
+    {
+      "text": "quite important. The first again is to",
+      "startMs": "1966400",
+      "endMs": "1969920",
+      "startTimeText": "32:46"
+    },
+    {
+      "text": "build that benchmark set for your",
+      "startMs": "1968480",
+      "endMs": "1971200",
+      "startTimeText": "32:48"
+    },
+    {
+      "text": "broader teams. Again, it's a",
+      "startMs": "1969920",
+      "endMs": "1973280",
+      "startTimeText": "32:49"
+    },
+    {
+      "text": "representative collection of real",
+      "startMs": "1971200",
+      "endMs": "1974920",
+      "startTimeText": "32:51"
+    },
+    {
+      "text": "questions with known good answers. You",
+      "startMs": "1973280",
+      "endMs": "1977480",
+      "startTimeText": "32:53"
+    },
+    {
+      "text": "know, keep Genie accountable. Flag to",
+      "startMs": "1974920",
+      "endMs": "1978880",
+      "startTimeText": "32:54"
+    },
+    {
+      "text": "your account teams if you see anything",
+      "startMs": "1977480",
+      "endMs": "1980400",
+      "startTimeText": "32:57"
+    },
+    {
+      "text": "going off the rails. We investigate",
+      "startMs": "1978880",
+      "endMs": "1982920",
+      "startTimeText": "32:58"
+    },
+    {
+      "text": "every single case that we get and and",
+      "startMs": "1980400",
+      "endMs": "1984640",
+      "startTimeText": "33:00"
+    },
+    {
+      "text": "hopefully you'll find that that Genie's",
+      "startMs": "1982920",
+      "endMs": "1986320",
+      "startTimeText": "33:02"
+    },
+    {
+      "text": "actually very strong in answering your",
+      "startMs": "1984640",
+      "endMs": "1987800",
+      "startTimeText": "33:04"
+    },
+    {
+      "text": "business questions and and taking",
+      "startMs": "1986320",
+      "endMs": "1990400",
+      "startTimeText": "33:06"
+    },
+    {
+      "text": "action. Second is to model those",
+      "startMs": "1987800",
+      "endMs": "1992280",
+      "startTimeText": "33:07"
+    },
+    {
+      "text": "semantics that really matter. We're not",
+      "startMs": "1990400",
+      "endMs": "1994640",
+      "startTimeText": "33:10"
+    },
+    {
+      "text": "saying model the entire business's",
+      "startMs": "1992280",
+      "endMs": "1996240",
+      "startTimeText": "33:12"
+    },
+    {
+      "text": "institutional knowledge. We don't think",
+      "startMs": "1994640",
+      "endMs": "1998120",
+      "startTimeText": "33:14"
+    },
+    {
+      "text": "that's possible. We would recommend",
+      "startMs": "1996240",
+      "endMs": "2000440",
+      "startTimeText": "33:16"
+    },
+    {
+      "text": "leaning on the learned context for that,",
+      "startMs": "1998120",
+      "endMs": "2002640",
+      "startTimeText": "33:18"
+    },
+    {
+      "text": "but we do recommend modeling the core",
+      "startMs": "2000440",
+      "endMs": "2004320",
+      "startTimeText": "33:20"
+    },
+    {
+      "text": "that you want to have shared across the",
+      "startMs": "2002640",
+      "endMs": "2006000",
+      "startTimeText": "33:22"
+    },
+    {
+      "text": "business or within a particular line of",
+      "startMs": "2004320",
+      "endMs": "2007560",
+      "startTimeText": "33:24"
+    },
+    {
+      "text": "business.",
+      "startMs": "2006000",
+      "endMs": "2009560",
+      "startTimeText": "33:26"
+    },
+    {
+      "text": "Third is to certify your gold assets.",
+      "startMs": "2007560",
+      "endMs": "2011200",
+      "startTimeText": "33:27"
+    },
+    {
+      "text": "So, make sure that you've identified the",
+      "startMs": "2009560",
+      "endMs": "2013400",
+      "startTimeText": "33:29"
+    },
+    {
+      "text": "tables, the dashboards, the queries, the",
+      "startMs": "2011200",
+      "endMs": "2015920",
+      "startTimeText": "33:31"
+    },
+    {
+      "text": "notebooks that that every workflow",
+      "startMs": "2013400",
+      "endMs": "2017360",
+      "startTimeText": "33:33"
+    },
+    {
+      "text": "actually requires and make sure that",
+      "startMs": "2015920",
+      "endMs": "2018680",
+      "startTimeText": "33:35"
+    },
+    {
+      "text": "they're certified so that Genie",
+      "startMs": "2017360",
+      "endMs": "2020520",
+      "startTimeText": "33:37"
+    },
+    {
+      "text": "prioritizes them when it's searching. It",
+      "startMs": "2018680",
+      "endMs": "2022680",
+      "startTimeText": "33:38"
+    },
+    {
+      "text": "does respect that tag.",
+      "startMs": "2020520",
+      "endMs": "2023960",
+      "startTimeText": "33:40"
+    },
+    {
+      "text": "And then finally, we recommend",
+      "startMs": "2022680",
+      "endMs": "2027320",
+      "startTimeText": "33:42"
+    },
+    {
+      "text": "validating access to that data from your",
+      "startMs": "2023960",
+      "endMs": "2029360",
+      "startTimeText": "33:43"
+    },
+    {
+      "text": "end user's perspective. So again, Genie",
+      "startMs": "2027320",
+      "endMs": "2031160",
+      "startTimeText": "33:47"
+    },
+    {
+      "text": "always respects the permissions of the",
+      "startMs": "2029360",
+      "endMs": "2033040",
+      "startTimeText": "33:49"
+    },
+    {
+      "text": "person who's asking the question. So of",
+      "startMs": "2031160",
+      "endMs": "2035000",
+      "startTimeText": "33:51"
+    },
+    {
+      "text": "course, an asset isn't useful if your",
+      "startMs": "2033040",
+      "endMs": "2036560",
+      "startTimeText": "33:53"
+    },
+    {
+      "text": "users can't see it. So you want to make",
+      "startMs": "2035000",
+      "endMs": "2038760",
+      "startTimeText": "33:55"
+    },
+    {
+      "text": "sure that your users have access to the",
+      "startMs": "2036560",
+      "endMs": "2040440",
+      "startTimeText": "33:56"
+    },
+    {
+      "text": "certified sources",
+      "startMs": "2038760",
+      "endMs": "2042280",
+      "startTimeText": "33:58"
+    },
+    {
+      "text": "and the snippets that you expect Genie",
+      "startMs": "2040440",
+      "endMs": "2044440",
+      "startTimeText": "34:00"
+    },
+    {
+      "text": "to actually use.",
+      "startMs": "2042280",
+      "endMs": "2045640",
+      "startTimeText": "34:02"
+    },
+    {
+      "text": ">> Well, thank you so very much for your",
+      "startMs": "2044440",
+      "endMs": "2047720",
+      "startTimeText": "34:04"
+    },
+    {
+      "text": "time, Elise. I am sure here on the",
+      "startMs": "2045640",
+      "endMs": "2049320",
+      "startTimeText": "34:05"
+    },
+    {
+      "text": "screen there's going to be some pop-ups",
+      "startMs": "2047720",
+      "endMs": "2053360",
+      "startTimeText": "34:07"
+    },
+    {
+      "text": "with some related links, videos, etc. as",
+      "startMs": "2049320",
+      "endMs": "2055639",
+      "startTimeText": "34:09"
+    },
+    {
+      "text": "it relates to to this. So, thank you so",
+      "startMs": "2053360",
+      "endMs": "2057040",
+      "startTimeText": "34:13"
+    },
+    {
+      "text": "much for your time.",
+      "startMs": "2055639",
+      "endMs": "2058200",
+      "startTimeText": "34:15"
+    },
+    {
+      "text": ">> Of course, thank you for your time and",
+      "startMs": "2057040",
+      "endMs": "2059560",
+      "startTimeText": "34:17"
+    },
+    {
+      "text": "thank you to everyone who's been testing",
+      "startMs": "2058200",
+      "endMs": "2061200",
+      "startTimeText": "34:18"
+    },
+    {
+      "text": "Genie and sharing feedback. We can't",
+      "startMs": "2059560",
+      "endMs": "2062679",
+      "startTimeText": "34:19"
+    },
+    {
+      "text": "wait to continue to shape the product",
+      "startMs": "2061200",
+      "endMs": "2065080",
+      "startTimeText": "34:21"
+    },
+    {
+      "text": "together.",
+      "startMs": "2062679",
+      "endMs": "2065080",
+      "startTimeText": "34:22"
+    }
+  ],
+  "transcript_only_text": " Hi,  I'm  Josh.  I'm  here  today  with  Elise, \n who  is  a  product  leader  at  Databricks. \n We  are  going  to  be  doing  a  deep  dive  on \n Genie  ontology  and  the  capabilities  for \n co-working  with  Genie.  Thank  you  so  much \n for  being  here,  Elise. \n >> Thank  you  for  having  me.  Excited  to  talk \n about  this. \n >> Before  we  dive  into  Genie  ontology, \n I  think  it  might  be  worth  it  for  viewers \n to  have  a \n quick  little  101  lesson  on  what  Genie \n is. \n >> Yeah,  absolutely.  So,  I  come  from  the \n Genie  1  world.  Genie  1  is  our  AI \n co-worker  for  business  users.  It  It \n connects  to  your  data  and  tools.  It \n answers  questions  about  your  business. \n It  acts  on  the  answers  that  it  gives \n you,  all  within  the  governance  framework \n that  you  already  have.  But,  Genie  1  sits \n in  a  larger  stack  of  of  AI  co-workers \n and  other  AI  tools  on  Databricks.  So,  if \n for  example,  if  Genie  1  is  our  agent  for \n business  users,  Genie  code  is  our  agent \n for  technical  users.  It  helps  them  write \n code  and  and  do  other  work  within  the \n lakehouse.  We  also  have  Genie  agents, \n which  can  be  accessed  by  both  types  of \n users,  and  they're  really  focused  on \n domain-specific  work.  They're  They're \n essentially  domain  experts,  and  I  can \n actually  cover  that  in  more  depth  if  we \n want  to.  And  then,  if  all  those \n hyper-managed  solutions  don't  kind  of \n satisfy  your  needs,  you  can  always  drop \n down  to  our  more  custom  layer,  where  we \n have  things  like  Agent  Bricks,  MLflow, \n and  so  on. \n >> So,  what  exactly  is  Genie  ontology? \n >> Yeah,  absolutely.  Um \n Yeah,  I  think  it  helps  to  start  from  the \n problem  that  we're  trying  to  solve,  and \n then  we'll  talk  about  Databricks' \n perspective  on  how  to  solve  it.  Generic \n models  are  really  good  at  searching  the \n web  or  a  a  code  base,  anything  that's \n got  a  really  constrained  space.  But  when \n we  start  to  ask  questions  about  our \n business,  we  often  get  quite  strange \n answers.  So,  for  example,  it  might  grab \n the  first  revenue  table  that  it  finds  in \n some  random  dashboard  rather  than  the \n one  that  finance  actually  maintains.  Uh \n or  if  you  ask  for,  you  know,  a  churn \n rate,  it  might  have  no  idea  that  your \n team  excludes  free  metrics  from  that  or \n even  that  the  concept  of  a  free  met  uh  a \n free  trial  exists.  Sorry,  free  trials. \n Uh  or  if  you  ask  like,  \"What  campaign  is \n is  performing  best?\"  It  might  have  no \n idea  that  like  the  campaigns  table  is \n super  laggy.  So,  if  you  actually  want, \n you  know,  the  latest  data,  you  have  to \n go  straight  to  HubSpot  via  MCP.  And  more \n broadly,  all  of  our  companies,  you  know, \n Databricks  included,  runs  on  this  type \n of  institutional  knowledge  that  is \n locked  in  in  different  dashboards  and \n documents  and  systems  and  in  people's \n heads.  And  then  to  make  matters  worse, \n that  knowledge  moves,  right?  Tables  get \n renamed,  documents  go  stale,  people \n leave  the  company.  So,  no  matter  how \n sophisticated  a  model  is,  and  these \n models  are  really  sophisticated.  They \n can  do  graduate-level  math,  but  they \n struggle  to  answer  business  questions \n because  they're  missing  that  critical \n context.  Uh  but  Genie  was  built  for \n exactly  those  types  of  questions,  and  it \n helps  that  we've  been  working  on  this \n this  context  problem  for  a  long  time.  Uh \n Genie  understands  your  your  data \n sources,  your  definitions,  even  who's \n most  authoritative  when  it  comes  to \n drafting  those  definitions,  and  we  do \n that  through  the  Genie  ontology. \n The  ontology  is  a  is  a  unified  context \n layer  that  gives  Genie  a  a  business \n aware  map  of  your  organization.  And  it \n brings  together  two  categories  of \n context.  We  have  modeled  ontology,  and \n then  we  have  learned  ontology. \n On  the  modeled  side,  uh  this  is  really \n where  you  need  to  catalog  semantics  come \n into  play.  It's  human-curated  context \n that  someone  certified  and  and  governed. \n And  there  are  three  components  that  are \n worth  talking  about.  Uh  the  first  is \n metric  views.  They  form  your  your \n governed  reusable  KPI  layer.  So,  it's  a \n certified  single  source  of  truth \n definition  for  your  key  business  metrics \n stored  as  open  format  Unity  Catalog \n objects.  So,  for  example,  you  know,  this \n is  how  we  slice  and  dice  revenue.  And \n and  metric  views  are  fully  GA'd. \n Pages  are  a  bit  newer.  Uh  it's  the  it's \n the  qualitative  equivalent  of  a  metric \n view.  I  think  of  them  as  wiki  pages  in \n in  Unity  Catalog.  So,  if  a  metric  view \n defines  how  we  slice  and  dice  revenue,  a \n page  might  tell  you,  say,  the  difference \n between  incremental  and  attributed \n revenue.  Uh  and  these  are  in  beta  and  it \n is  actually  super  easy  to  get  started. \n You  can  use  Genie  code  to  actually  get \n started  on  creating  your  pages.  And  then \n finally,  domains  uh  allow  you  to  do \n tag-based  logical  collections  of  assets, \n uh  both  Unity  Catalog  and  workspace \n assets  by  things  like  business  unit  or \n geo  or  function.  So,  you  might  have  a \n finance  domain  or  you  might  have  a \n product  team  domain.  And  an  asset  can \n live  in  multiple  domains.  And  it's \n really  helpful  for  reducing  the  agent's \n search  space.  So,  if  someone  asks  a \n question  about  finance,  you  know,  we  can \n start  from  from  the  finance  domain.  So, \n together,  metric  views,  pages,  and \n domains  form  this  certified \n authoritative  baseline.  But  it's  hard, \n if  not  impossible,  to  try  to  codify  the \n entire  organization's  knowledge  that \n way,  to  have  a  centralized  data  team \n responsible  for  codifying  the  the \n concepts  that  every  individual  team  are \n are  kind  of  experts  in. \n So,  we  supplement  the  modeled  ontology \n with  what  we  call  learned  knowledge. \n Specifically,  we  extract  ontology \n snippets  from  your  dashboards,  your  SQL \n queries,  your  Genie  agents,  notebooks, \n all  the  work  that  people  are  doing  day \n in  and  and  day  out  within  and  outside  of \n Databricks.  So,  for  example,  you  know, \n the  fact  that  someone  joins  table  A  and \n table  B  is  very  valuable  information  for \n a  Genie.  And  then  if  they  add  maybe  a \n comment,  that's  probably  making  it  even \n more  valuable.  And  then  if  they  share \n that  with  other  people,  we  know  it's \n probably  valuable  for  those  other \n people.  And  then  if  that  query  becomes \n very,  very  popular,  we  can  surmise  that \n it's  probably  a  pretty  authoritative \n source  of  information.  So,  a  snippet \n could  be  a  join  hint,  but  it  could  also \n be  things  like  a  business  rule.  So,  for \n example,  a  lead  is  only  qualified  once  a \n meeting  is  booked,  and  all  that \n information  lives  in  Salesforce.  Or  it \n could  be  information  about,  you  know, \n which  data  is  most  authoritative.  So, \n for  example,  you  must  pull  revenue  from \n this  finance  catalog.  Or  it  could  be  a \n metric  definition.  So,  for  example,  like \n how  might  we  define  churn  for  our  team? \n And  as  Genie  is  amassing  all  this \n information,  both  this  modeled  and \n learned  knowledge,  it's  all  going  into \n one  single  ranking  algorithm  that  we \n call  Ontorank. \n Given  a  Given  a  query  that  someone  posts \n in  an  agent,  what  are  the  assets  that \n are  most  likely  to  be  helpful  in \n answering  that  in  that  question?  So,  for \n example,  it  looks  at  things  like \n popularity,  certification  status, \n authorship  to \n to  try  to  find  the  most  valuable \n information,  to  dedupe  against  across  uh \n conflicting  information,  and  so  on.  And \n it's  not  just  questions  that  you  put \n into  Genie,  it's  also  any  third-party \n agent  that  you  choose  to  hook  up  via  our \n MCP.  So,  no  matter  where  you're \n standardizing  your  end  users,  you \n benefit  from  this  semantic  layer.  And \n that  that  benefit  is  very  significant. \n Uh  when  we  benchmark  Genie  with  the \n ontology  against  the  the  strongest \n models  available,  it's  consistently  the \n top-performing  agent  for  business \n questions  and  there  were  no  trick \n questions  in  this  benchmark.  This  is \n just  real  business  questions  with  real \n business  data  and  we  saw  more  than  30 \n percentage  point  improvement  in  accuracy \n over  the  next  best  performing  model.  And \n it  was  also  a  lot  quicker.  After  all,  a \n generic  agent  has  to  make  up  for  the \n fact  that  it  doesn't  know  your  business. \n So  if  it's  not  going  to  hallucinate, \n then  it  explores,  right?  It  samples  a \n bunch  of  schemas,  it  runs  a  bunch  of \n extra  queries,  it  grabs  a  bunch  of \n documents  and  it  loads  all  of  that  into \n the  model's  context  in  case  any  of  it \n turns  out  to  matter  later.  But  Genie \n doesn't  have  to  do  as  much  work  because \n it  already  knows  which  sources  count  and \n how  to  use  them.  And  and  I'm  already \n really  confident  that  as  we  continue  to \n tune  the  onto  rank  algorithm  and  expand \n the  depth  of  the  ontology,  I  think  this \n gap  is  going  to  is  going  to  only  widen. \n >> Now,  I  see  accuracy, \n I  see  speed,  I  do  not  see  the  cost \n component.  How  how  did  that  compare? \n >> Yeah,  the  cost  component,  it's  a  third \n version  of  this  slide.  Um,  it  was  also \n favorable  if  I  recall  correctly.  It  ties \n to  the  the  latency  and  the  token \n efficiency,  which  makes  sense,  right? \n Genie  is  doing  a  lot  less  trial  and \n error  to  try  to  find  the  assets  and  to \n try  to  make  sense  of  them.  So  we  saw  all \n three \n all  three  variables,  if  you  will,  um, \n uh,  significantly  improved  with  the \n ontology. \n >> Got  it.  Thank  you. \n >> Um,  of  course,  Genie  can  only  learn  from \n the  data  that  it  can  actually  reach.  So \n it's  important  to  talk  a  little  bit \n about  how  Genie  also  gets  access  to  this \n data  that  it's  going  to  make  sense  of. \n Uh,  we  already  have  text  to  SQL,  uh, \n which  covers  structured  data  that's \n governed  in  Unity  Catalog.  And  I  don't \n want  to  underestimate  how  much  that \n matters.  You  know,  a  lot  of  agents  are \n just  reciting  information  that  lives  in \n a  document.  But  when  you're  asking \n questions  about  your  business,  there \n often  already  isn't  already  a  document \n that  can  answer  those  questions.  That's \n why  you're  That's  why  you're  asking.  So, \n Genie  is  not  only  doing  search,  but  also \n querying  based  on  your  live  operational \n data.  And  we  have  dozens  of  connectors \n for  that.  Plus,  actually  Josh  inspired \n uh  a  product  that  we  call  custom \n connectors  um  that  allow  the  community \n connectors,  sorry.  Uh  that  allows  you  to \n create  a  connector  to  any  generic  uh \n application.  So,  thank  you  Josh  actually \n for  that  idea.  That  That  went  straight \n into  the  product.  Um  for  data  that  lives \n in  in  third-party  applications,  maybe \n that  you  want  to  query  live  instead  of \n pulling  it  in  and  running  that  text  to \n SQL,  we  also  have  uh  MCP  connectors. \n Again,  they  query  live.  So,  you're \n getting  things  like  the  status  of  a  Jira \n ticket,  uh  the  status  of  a  lead  in \n Salesforce.  It's  really  good  for  things \n like  that.  Uh  we  have,  you  know,  maybe  a \n dozen  a  dozen  plus  um  of  those  MCP \n connectors.  You  can  hook  up  a  custom \n connector,  and  we're  planning  to  to  add \n quite  a  bit  more  here.  But,  when  you \n want  to  ask  a  question  across  a  much \n larger  volume  of  data  um \n or  across  a  lot  of  sources  at  once,  a \n bit  of  a  harder  question,  you  need  a \n little  bit  more  horsepower  than  MCP.  Uh \n and  that's  what  we're  building  with  the \n search  index.  It  retrieves  and  ranks \n everything  together  instead  of  leaning \n on  each  provider's  siloed  search \n capabilities.  And  it  also  feeds  the \n ontology.  Uh  so,  we  are \n ensuring  that  your  your  tickets  and  your \n wikis,  whatever  it  may  be,  become  part \n of  Genie's  context.  And  just  as \n importantly,  we  enforce  the  the  sources' \n permissions.  So,  for  example,  you're  not \n seeing  emails  in  Genie  that  you  don't \n actually  have  access  to  in  your  inbox. \n And  that's  a  big  deal  because  recreating \n source  permissions  in  Unity  Catalog  is  a \n is  a  pretty  hard  problem. \n So,  that's  organization's  context. \n There's  one  last  thing  I  want  to  mention \n before  we  actually  see  this  in  the \n product,  and  that  is  your  personal \n context.  And  you  can  actually  ask  Genie \n to  preserve  things  like  your \n preferences,  your  definitions,  and  so  on \n through  personal  memory.  And  that  also \n allows  Genie  to,  you  know,  search  across \n chats,  things  like  that.  I  personally \n like  to  save  things  like  style \n preferences  in  writing.  And  And  just \n like  all  data  in  the  ontology,  it's  not \n like  this  is  being  shared  with  people \n who  who  shouldn't  have  access  to  it.  You \n know,  when  you  steer  Genie  for  yourself, \n you  are  impacting  only  your  experience. \n >> For  clarity  on  this,  this  means  that  if \n I  am  the  CFO  and \n I  like  to  round  my  values \n to \n have  zero  decimals. \n I  could  do  it  that  way.  And  I  don't  have \n to  affect  your  organization,  but \n this  other  person  is  the  CEO \n and  they  have  different  preferences, \n like  whether  it's  color  preferences  on \n how  charts  are  displayed,  whether  it's \n decimal  spots,  whatever  it  is. \n That's  basically  everything  that  goes \n into  this,  correct? \n >> Yes.  Or  perhaps  you  want  to  save \n information  about  what  types  of  products \n you  work  on.  So,  the  next  time  you  asked \n for  a  product  update,  it's  more  likely \n just  to  focus  on  your  products  rather \n than  asking  you  for  follow-up  questions. \n >> Yeah,  I  think  this  eliminates  a  lot  of \n back  and  forth.  At  least  going  back  a \n few  years  ago,  I  would  have  made  my  life \n a  little  bit  easier  on  the  developer \n side \n with  fine-tuning  certain  preferences, \n too.  So. \n >> Awesome. \n Um  so,  let's  show  this  in  in  the \n product.  Let's  see  how  the  ontology \n actually  shows  up  because  it's  not  It's \n not  a  black  box.  You  can  actually  see \n the  ontology  as  Genie  is  thinking.  Uh \n okay,  so  I'm  in  a  demo  workspace  here. \n Of  course,  every  number  is  is  completely \n made  up  for  the  purposes  of  of  the  demo, \n but  this  is  really  how  we  do  a  lot  of \n our  product  work  uh  here  at  Databricks. \n So,  what  I'm  showing  you  here  is  the \n Genie  1  web  app.  And  I  As  you  can  see, \n it's  a  It's  a  pretty  simple  interface.  I \n have  my  chat  here,  maybe  a  few  suggested \n actions.  I  have  my  my  past  chats, \n agents,  all  the  assets  that  that \n available  to  me.  Maybe  I'll  show  a  bit \n of  that,  um,  a  bit  of  that  later.  I \n could  also  just  as  easily  be  in  our \n desktop  or  our  mobile  app.  Uh,  but  I'm \n going  to  start  by  asking  Genie  about, \n uh,  adoption.  And  that  sounds  like  a \n really  simple  question,  but  it's \n actually  not,  right?  Users  move  between \n web  and  mobile  and  Slack  and  Teams,  and \n Genie  needs  to  know  that.  Uh,  we  also \n have  a  bunch  of  out-of-date  dashboards \n that  are  just  floating  around.  I  don't \n want  Genie  to  pick  those  up.  And  of \n course,  I  don't  just  care  about  Genie \n adoption.  I  also  care  about  individual \n feature  adoption,  things  like  MCPs  and \n skills  and  and  Genie  needs  to  know  what \n those  features  are.  So,  to  answer  this, \n Genie  needs  to  kind  of  understand  our \n product,  understand  our  metrics.  It's \n going  to  probably  need  to  pull  from  a \n bunch  of  not  only  first-party  but  also \n third-party  data,  uh,  and  then  it's \n going  to  need  to,  um, \n consolidate  that  in  a  way  that  it  aligns \n with  the  way  that  I  like  to  write  these \n these  write-ups.  So, \n I'm  going  to  get  it  started.  Uh,  and \n then  as  Genie  is  running,  again,  we  can \n we  can  click  into  see  what  it's \n thinking.  Now,  you'll  notice  that  was \n actually  a  very  simple  prompt  in  spite \n of  all  the  complexity  we've  been  talking \n about,  and  that's  because  I  think \n Genie's  going  to  be  able  to  navigate  our \n data  pretty  well  because  we  have  this \n ontology,  uh,  turned  on.  And  we  can \n actually  see  it,  again,  in  practice.  So, \n uh,  it  looks  like  Genie  actually  started \n by  going  straight  to  our  our  data \n sources.  It  found  some  potentially \n relevant  tables  here. \n Uh,  and  then  it  did  go  straight  into  the \n ontology.  So,  we've  got  pages,  again, \n those  wiki  pages  in  Unity  Catalog.  It \n may  end  up  using  some  of  these  in  the \n actual  answer.  Again,  this  is  just \n potentially  relevant  stuff.  And  then  we \n have  knowledge  snippets.  So,  we  have \n those  facts  about  the  business  that \n Genie  has  learned  from  all  sorts  of \n different  sources.  And  you  can  see \n there's  business  terms,  metric \n definitions,  something  about  data \n quality, \n another  business  term.  There's  even  one, \n this  is  kind  of  a  preview  of  some  of  the \n stuff  that  we're  playing  around  with, \n but  one  that  reaches  into  GitHub,  uh,  to \n get  information  because  it's  also  a  very \n semantically  rich  data  source.  But  the \n key  thing  is  that  we're  combining  this \n human  curated  context  with  this  more \n learned  knowledge  because  again,  it's \n really  difficult  to  try  to  curate \n everything  for  the  entire  org.  Uh  I \n think  I  also  found  the  thinking  trace \n before  we  talk  about  the  document.  Uh  we \n also  looked  at  Google  Drive,  we  looked \n at  Jira,  and  then  ran  a  bunch  of  those \n SQL  queries.  Again,  very  important  uh \n that  we  are  able  to  query  on  live \n operational  data  and  not  just  not  just \n reading  documents. \n And  then  like  the  again,  the  data  is \n demo,  so  what  it  actually  produces  is \n not  super  interesting.  Um  but  we  see  a \n bunch  of  visualizations.  It's  able  to  do \n things  like  more  advanced  like  cohort \n retention  analyses.  It  can  do  things \n like  forecasts.  Maybe  I  can  show  you \n that  actually.  Um  it's  able  to  again \n pull  from  those  third-party  sources.  So \n for  example,  it's  pulling  from  Jira. \n It's  able  to  do  those  recommendations. \n And  a  really  critical  thing  to  mention \n is  that  all  of  the  stuff  that  you  see \n here  is  data  that  I  actually  have  access \n to.  So  again,  Genie  isn't  creating  any \n sort  of  special  Genie  specific \n permissions.  It's  simply  enforcing  our \n source  permissions  through  Unity \n Catalog.  And  that  applies  also  to  the \n ontology  uh  that  that  is  derived  from \n any  assets  that  are  used  here.  And  we \n can  actually  see,  you  know,  what  was \n used  to  answer  this  question  by  popping \n down  here  into  the  citations.  So  this  is \n everything  that  Genie  ended  up  pulling \n from  the  thinking  trace  to  actually \n compile  that  document.  So  again,  we  see \n tables,  maybe  a  couple  relevant  links \n from  looks  like  Jira  as  well  as  Google \n Drive.  Um  this  is  that  personal  memory \n actually.  This  is  how  I  prefer  to  write \n these  docs.  And  then  it  did  end  up  using \n some  things  from  the  ontology.  So  if  we \n click  in,  we  can  see  like  my  colleague \n Retta,  she's  also  on  the  Genie  team,  she \n put  together  this  wiki  page  around  the \n different  Genie  surfaces,  which  is \n highly  relevant  when  we're  asking \n questions  about  Genie's  adoption.  So  it \n makes  sense  that  it  that  it  used  this. \n It  also  makes  sense  that  it  that  it  kind \n of  started  from  from  this  kind  of \n information  because  Genie  likes  human \n curated  content.  We  extra  trust  human \n curated  content,  especially  because  this \n one  has  been  certified.  But,  it  probably \n needed  to,  again,  look  at  those \n anthology  snippets  to  round  out  its \n information.  So,  if  we  click  in  here,  we \n can  actually  see  that  snippet  in \n practice.  We  can  get  feedback  on  it.  We \n can  see  the  full  definition  that  Genie \n learned.  We  can  see  that  it  grabs  some \n information  from  this  particular \n dashboard,  which  happens  to  be  authored \n by  our  colleague  Jeffrey,  who  is  the \n data  scientist  working  on  Genie  1 \n growth.  So,  it's  not  surprising  that  it \n has,  for  example,  a  super  high  authority \n score.  Genie  is  recognizing  that  Jeffrey \n does  a  lot  of  good  work,  and  Jeffrey's \n work  is  often  very  popular.  So,  even \n before  he's  gone  and  codified  something \n as  a  Unity  Catalog  semantic,  we  can \n benefit  from  this  work.  And  we  can  even \n click  into  his  profile  if  we  want  to \n like  double-check  his  his  creds  on  this \n topic,  and  we  can  see  he's  he's  done  a \n lot  of  kind  of  work  in  this  space  in \n this  growth  space.  And  Genie  has  also \n extracted  a  lot  of  snippets  from  the \n assets  that  he  has  created.  But,  you \n know,  we  don't  need  to  necessarily  just \n take  Genie  at  its  word  for  this  this \n first  answer.  Maybe  we  want  to  ask  a \n question  like, \n you  know,  adoption  seems  to  be  spiking. \n What  is  what  is  the  cause  of  this?  And \n this  type  of  work,  again,  is  really  only \n possible  because  Genie  is  computing \n these  results  based  on  our  live \n operational  data.  So,  we're  not  just, \n again,  reciting  information  that  already \n lives  in  a  document.  So,  let's  see  if \n it's  able  to  execute  this. \n Great.  We  have  an  answer. \n Um \n Looks  like  the  growth  is  real. \n It's  attributing  it  to  the  Teams  and  the \n Slack  apps.  And  for  context,  we  we \n opened  up  Genie  to  Teams  and  to  Slack \n and  meeting  users  where  they  like  to  do \n their  work.  And  every  time  an \n organization  adopts  Slack  or  adopts \n Teams,  you  tend  to  see  a  pretty  wide \n increase  in  adoption  because  you  tend  to \n see  folks  adopting  it  and  across  entire \n channels  or  even  the  entire \n organization.  So,  it  makes  sense  that \n this  is  attributed  to  to  some  of  the \n growth.  Now,  if  that  adoption  is  real,  I \n want  to  know  where  it's  going.  So,  I'm \n also  going  to  ask  Genie  to  do  a  quick \n forecast.  And  that  forecast  is  is  a  more \n advanced \n advanced  piece  of  work,  right?  It  would \n take  me  a  bit  of  time  to  actually  model \n this  by  hand,  but  Genie  is  able  to  do \n things  like  forecasting,  like  root  cause \n analysis,  like  anomaly  detection.  So,  I \n just  have  to  ask  it  to  to  to  perform \n that  task.  Uh  but  what  about  maybe  an \n analysis  that  is  totally  custom  to  our \n team?  Uh  for  example,  maybe  we  build  a \n standardized  launch  scorecards.  Every \n time  a  new  feature  launches,  we  grade \n it,  you  know,  against  the  adoption  curve \n of  some  of  our  prior  features.  And  for \n something  like  that,  we  could  build  a \n skill.  A  skill  is  going  to  run  the  same \n workflow  repeatedly.  And  if  once  I've \n created  a  skill,  I  can  also,  you  know, \n share  it  with  my  teammates  so  that  they \n can  take  advantage.  And  of  course,  a \n shared  chill  is  simply  going  to  be \n governed  through  Unity  Gateway,  always \n going  back  to  that  that  centralized \n governance  framework.  Um  so,  with  that, \n I  think  it  might  be  interesting  to  go \n back  to  our  slides.  Maybe  I'll  show  you \n a  bit  more  after,  but  we'll  talk  through \n some  additional  features. \n >> That's  great  from  a \n visibility  perspective,  from  an \n understanding  the  business  perspective, \n all  of  that \n descriptive  analytics, \n if  you  will,  in  a  much  more  tailored \n way.  But  what  happens  when  you  want  to \n go  from \n just  looking  at  data  and  you  actually \n want  to  do \n something  with  the  data? \n >> Yeah,  I  think  that's  a  good  point.  It's \n important  that  Genie  evolve  from  just \n doing  Q&A  into  actually  becoming  a \n co-worker.  So,  we're  building  out  a  lot \n in  this  space.  I  think  we  started  with \n the  ontology  because,  frankly,  I  think \n that's  where  the  differentiation  comes \n from,  but  we  are  also  trying  to  build  as \n much  as  possible  on  this  co-working  side \n as  well. \n So,  starting  with  documents,  a  very \n popular  feature,  Uh  uh  Genie  can  now \n co-author  documents  with  you.  You  can \n have  it  start  from  scratch,  give  it  a \n template,  ask  you  to  fill  something  out. \n You  can  also  work  with  Genie  to  edit  it, \n and  then  you  can  send  it  to  your  doc. \n Your  doc  is  an  email,  a  PDF,  Slack, \n Teams.  We  do  offer  inline  collaboration, \n which  is  what  you're  seeing  here  in  the \n GIF.  And  going  forward,  we  are  adding \n additional  collaboration  features,  such \n as  working  with  Genie  to  resolve \n comments.  We  are  also  building \n additional  document  types,  like  slides, \n spreadsheets,  dashboards,  and  so  on.  I \n think  dashboard  is  kind  of  one  that \n everyone's  expecting \n of  Databricks,  given  given  the  context \n that's  in  Databricks,  and  we  are  seeing \n a  lot  of  demand  for  that,  so  we  are \n building  it. \n Now,  documents  might  live  inside  of \n Genie,  but  of  course,  a  lot  of  your  work \n doesn't.  So,  I  talked  about  MCPs  to  read \n in  data,  but  of  course,  you  can  also  use \n MCPs  to  write  data. \n The  interesting  thing  here,  I  think,  is \n that  MCPs  have  been  our  first \n integration  between  Genie  and  Unity \n Gateway.  So,  as  an  administrator,  you \n can  decide,  you  know,  this  user  gets \n access  to  this  MCP,  that  user  gets \n access  to  that  MCP,  or  even  this  tool, \n but  not  that  tool,  or  even  more \n granularly  than  that.  For  example,  you \n can  use  Genie  to  post  to \n Slack,  but  you  can't,  you  know,  post  to \n these  particular  channels,  or  maybe  you \n can  push  to  this  GitHub  branch,  but  not \n those  GitHub  branches.  So,  that  becomes \n a  pretty  granular  control  for  the \n administrators,  and  we've  only  since \n then  expanded  on  that  as  we  think  about \n more  and  more  centralized  governance  of \n these  agents.  And  actually,  the  very \n next  thing  that  we  are  almost  about  to \n announce  is  skill  sharing  for  Genie  1 \n and  Genie  code  through  Unity  Gateway. \n So,  with  Unity  Gateway,  you  again  can \n control  which  skills  are  available  to \n which  users.  You'll  be  able  to \n eventually  pin  specific  skills  to \n different  users,  so  that  those  are,  for \n example,  always  available  for  those  end \n users,  especially  new  users,  and  so  on. \n But  in  general,  like  I  mentioned  before, \n a  skill  is  a  good  way  to  kind  of  run  the \n same  repeatable  task  the  same  way  over \n and  over  uh  to  share  your  workflows  with \n your  teammates  and  so  on. \n >> Can  you  please  share  a  little  bit  more \n as  to  why  this  one  matters?  And  the \n reason  why  I  say  that  is  I  think \n that  people  talk  about  skills  all  the \n time,  cloud  skills,  and  all  that  fun \n jazz. \n But, \n there  are \n a  lot  of  governance  elements  around  it \n that  I  think \n we've  ignored  for  a  while.  So,  can  you \n just,  for  the  sake  of  business \n decision-makers,  just  explain  a  little \n bit  as  to  why  this  is  very  relevant? \n >> Yeah,  I  think  we  see  demand  for \n for  a  couple  things.  Um  first  is, \n you  know,  you  want  everyone  to  start \n with  a  baseline  level  of  skills  or \n everyone  within  a  group  to  start  with  a \n baseline  level  of  skills.  Administrators \n who  are  ultimately  responsible  for \n people  having  a  good  experience  with \n Genie  want  to  ensure  that  they're  set  up \n for  success.  And  part  of  that  includes, \n if  you've  got,  you  know, \n company-specific  workflows,  making  sure \n that  Genie  is  set  up  with  those \n workflows.  We  also  see  some  demand  for, \n you  know,  limiting  or  or  controlling  how \n people  can  share  skills.  So,  for  that, \n uh  we'd  welcome  feedback  from  customers \n as  they  continue  to  see  these  roll  outs. \n Um  but,  we're  super  open  to  to  any  and \n all  sorts  of  governance  around  skills. \n All right.  Um  so,  there's  also  kind  of  a \n step  up  from  a  skill.  You  know,  if  a \n skill  can  perform  a  task,  then  an  agent \n performs  an  entire  job.  So,  a  Genie \n agent  bundles  data  sources, \n instructions,  skills,  and  memory,  and \n all  those  come  together  to  create  what \n we  might  think  of  as  a  customized \n coworker  that  can  answer  questions  or \n get  work  done  in  a  very  particular \n domain.  So,  for  example,  you  might  have \n a  a  renewals  agent  that  helps  your  team \n prep  for  for  QBRs,  or  a  launch  agent \n that  helps  you  kind  of  track  all  your \n feature  statuses,  or  maybe  a  finance \n agent  that  answers  questions  about  about \n your  product's  KPIs.  And  I  think  most \n customers  are  not  starting  from  scratch \n here.  If  you've  already  been  using  what \n used  to  be  called  Genie  Spaces,  then \n you've  actually  been  creating  agents \n because  Genie  Spaces  are  now  Genie \n Agents,  fully  accessible  from  Genie  1 \n with  a  couple  bells  and  whistles.  It \n wasn't  just  a  rebrand.  So,  for  example, \n we're  adding  the  ability  to  connect  a \n volume  to  the  agent.  We're  adding  MCP \n connectors.  And  we  are  also  adding  uh \n sub-agent  support. \n Now,  once  a  task  works  the  way  you  want, \n you  can  set  it  and  forget  it,  right?  You \n can  put  it  on  a  cadence,  daily,  weekly, \n whatever  you  pick,  and  deliver  the \n results  to  your  inbox.  You  can  also \n trigger  based  on  specific  conditions. \n So,  for  example,  you  know,  I  only  want \n to  know  if  a  metric  drops  or  or  grows  by \n a  certain  percentage  amount.  So,  I've \n I've  instructed  Genie  to  do  that.  Behind \n the  scenes,  this  is  just  based  on  the \n the  tried  and  tested  LinkFlow  Jobs \n platform,  so  it  is  highly  reliable.  And \n going  forward,  we  are  continuing  to \n invest  in  more  orchestration  features \n such  as  sending  to  larger  groups  of \n people,  doing  dry  runs,  things  like \n that. \n And  finally,  I  think  none  of  this  is  is \n really  all  that  useful  if  people  have  to \n leave  their  favorite  tools  to  use  it. \n So,  Genie  shows  up  where  they  already \n work.  For  example,  there's  support  for \n mobile  on  iOS  and  Android,  so  you  can \n ask  Genie  questions  on  the  go.  We  also \n offer  a  desktop  app.  It's  very  popular \n among  users  who  who  tend  to  do  a  lot  of \n their  work  in  in  desktop-centric  tools \n like  email  or  or  document  editing.  You \n can  also  ping  Genie  in  your  third-party \n chat  tools.  So,  we  integrate  with  Slack \n and  Teams  and  Co-pilot.  We  also  have \n Sheets  and  and  Excel. \n And  then  if  your  team  lives  in  another \n agent  entirely,  you  can  plug  into  the \n Genie  1  MCP,  which  is  again  powered  by \n the  ontology  behind  the  scenes.  And  we \n do  support  MCP  apps,  which  gives  you  the \n nice  kind  of  embedded  charts,  deep \n links,  and  so  on  that  you're  actually \n seeing  in  in  the  GIF  here. \n So,  that  sounds  interesting.  I  I  maybe \n show  a  couple  more  things  uh  in  in  our \n demo. \n So,  going  back  to  my  my  other  screen. \n So,  I've  I've  Remember  I've  I've  created \n my  my  document.  I  think  I'm  I'm  ready  to \n actually  send  this  to  our  executive \n team.  And  I'm  going  to  include  some  of \n those  follow-up  analyses  that  that  Genie \n gave  Sorry,  Genie  gave  me. \n So,  when  it  does  this,  Genie  is  is \n writing  to  Gmail  and  Jira  as  me  with  my \n credentials.  And  then  behind  the  scenes, \n again,  this  is  all  governed  through \n Unity  Gateway.  So,  an  admin  has  decided \n to  leave  me  access  to  send  email  with \n Genie,  um  but  they  could  certainly  have \n blocked  that  if  they  if  they  chose.  Or \n they  could  even  uh  block  this \n execs@demodatabricks.com, \n which  is  not  a  real  email  uh  or  for \n public  purposes.  Um  Now,  I  don't  want  to \n have  to  ask  for  these  these  follow-up \n analyses  every  week.  So,  maybe  I'll  also \n ask  Genie  to  always  investigate \n anomalies  proactively  when  I'm  doing \n this  kind  of  review.  Again,  it  goes  back \n to  that  idea  of  of  personal  memory.  So, \n I  can  save  that. \n And  then  maybe  I  don't  want  to  have  to \n remember  to  run  this  at  all  every  week. \n So,  maybe  I  want  this  analysis  to  run \n when  I'm  out  of  office.  So,  I  can  also, \n again,  put  this  on  a  schedule.  I  can \n send  it  to  to  the  Slack  channel  when  I'm \n out,  and  it'll  still  run  with  my \n credentials. \n Great.  Of  course,  now  this  adoption \n review  isn't  the  only  time  people \n actually  ask  me  about  Genie  adoption. \n So,  I  can  also  turn  this  conversation \n into  an  agent  that  can  answer  questions \n about  it  using  the  context  from  not \n only,  again,  this  conversation,  but \n maybe  also  the  other  conversations  that \n I've  had  with  Genie  uh  about  this  topic. \n So,  I  can  ask  it  to  actually  save  as  an \n agent. \n I  can  name  the  agent. \n And  as  it's  creating,  what  it's \n basically  creating,  again,  is  that \n expert  coworker  that  people  can  use  to \n ask  questions  and  take  action  related  to \n Genie's  performance,  Genie's  OKRs.  And \n unlike  an  OKR  doc  that's  going  to  go \n stale  pretty  quickly,  the  agent  remains \n up-to-date  and  can  compute  answers  live. \n To  that  end,  maybe  I  want  to  share  this \n with  some  of  the  other  the  other  PMs  at \n at  Databricks.  And  I  can  actually  click \n into  this  agent,  and  here  I'm  going  to \n see  that  I'm  able  to  chat  directly  with \n this  agent.  So  here,  I'm  in  Genie  1,  but \n now  I'm  talking  directly  to  this  very \n specialized  agent.  And  if  we  click  into \n the  agent's  details,  we  can  see  uh  that \n has  actually  been  quite  customized  to \n the  sources  that  we  talked  about  um  in \n in  that  in  that  prior  conversations.  So \n it's  using  the  right  kinds  of  data.  And \n more  broadly,  you  can  probably  imagine \n the  types  of  teams  that  might  use \n something  like  this.  I  mean,  think  of \n any  team  uh  that  needs  to  do  the  same \n kinds  of  workflows  over  and  over,  uh \n answer  the  same  kind  of  questions  over \n and  over.  Now,  you  know,  they  can  create \n this  customized  coworker  in  one  single \n place,  and  they  can  certify  it,  they  can \n do  all  sorts  of  things  to  really  elevate \n it,  not  only  in  the  onto  rank  algorithm, \n but  also  just  in  the  in the  Genie  1 \n experience  for  all  of  their  coworkers. \n >> I  I  I'm  on  Databricks  all  the  time,  but \n how  how  do  people  get  started  to  make \n the  most  out  of  Genie? \n >> Yeah,  my  favorite  question. \n Um  so  for  an  initial  proof  of  concept,  I \n I  recommend  starting  with  one  team  and  a \n few  common  recurring  workflows.  So  that \n might  be,  you  know,  legal  reviewing \n incoming  contracts,  or  maybe  finance \n producing  a  monthly  budget,  or  sales \n prepping  their  account  briefs.  Pick  the \n team  that  has  a  lot  of  recurring  work, \n and  pick  the  work  that  that  team  already \n does  pretty  often,  where  getting  a \n better  answer,  having  a  faster  process \n is  really  going  to  make  a  difference  in \n in  their  experience.  And  then  once \n you've  picked  a  workflow, \n I  recommend  defining  benchmarking \n questions.  These  are  going  to  be \n representative  questions  with  with  kind \n of  known  good  answers,  including  the  the \n definitions,  the  sources,  the  reasoning \n that  you  expect  Genie  to  use.  They  give \n you  a  concrete  way  to  evaluate  accuracy \n before  rollout  and  to  track  whether \n Genie's  also  getting  better  over  time  as \n you  continue  to  invest  in  your  ontology. \n Uh  you'll  also  probably  want  to  record \n today's  baseline,  you  know,  pre \n pre-Genie.  You  know,  how  accurate  is  the \n existing  process?  How  long  does  it  take? \n Where  do  people  get  stuck? \n Include  both  straightforward  questions \n and  ambiguous  questions  and  then  cases \n where  maybe  like  permissions  should \n produce  different  answers  for  different \n users  based  on  what  different  people \n have  access  to. \n And  then  from  there,  I  would  recommend \n bringing  in  domain  experts.  Maybe  they \n also  help  you  write  the  benchmarking \n questions.  But  you're  going  to  want \n someone  who  actually  understands  that \n team  and  their  workflows  and  their  data. \n So  taking  the  the  finance  example,  that \n might  be  something  like  an  FP&A  lead  who \n owns  the  monthly  reporting  and  knows \n exactly  how  the  company  defines  things \n like  budgets  and  and  actuals.  And  they \n might  also  be  interested  in  the  user \n feedback  that  you're  getting  as  part  of \n this  pilot.  So  it's  good  to  keep  them  in \n loop  with  the  end  users  and  make  sure \n that  they're  available  um  and  they're \n able  to  see  to  see  those  those  results. \n Then  you're  going  to  want  to  connect  all \n your  sources  that  that  that  are  needed \n for  this  workflow.  So  do  you  need,  you \n know,  SharePoint,  Gmail,  Jira,  Slack? \n You  need  to  make  sure  that  people  can \n read  from  and  optionally  write  to  their \n third-party  tools.  And  then  you  can  also \n choose  to  do  things  like  add \n instructions  where  helpful.  That'll \n that'll  further  steer  Genie  with \n whatever  prompts  you  provide.  Uh  but  you \n probably  won't  need  all  that  many  to \n start.  If  the  underlying  semantics  and \n source  materials  are  really  strong,  I \n think  you'll  find  that  Genie  can  do  a \n lot  with  out  really  needing  a  long  list \n of  rules.  And  finally,  put  that  into  the \n the  team's  hands.  See  where  it  succeeds, \n see  it  where  it  gets  confused,  uh  where \n the  ontology  needs  more  context.  Iterate \n on  the  semantics  and  optionally  the \n instructions  as  you  need.  And  then  once \n it's  working  well,  go  to  the  next \n workflow,  the  next  line  of  business,  and \n so  on.  On  our  end,  we  are  building  more \n and  more  monitoring  tools  to  make  this \n easier  and  easier  to  do.  So  you're  going \n to  start  to  see  more  detailed  Genie  1 \n monitoring  rolling  out  as  well  as \n ontology  monitoring.  Now  as  you  expand \n beyond  um  beyond  your  PRC,  there  are  a \n couple  best  practices  to  keep  in  mind. \n It's  actually  going  to  be  very  similar \n to  what  I  just  said,  but  it's  it's  worth \n repeating  because  these  are  these  are \n quite  important.  The  first  again  is  to \n build  that  benchmark  set  for  your \n broader  teams.  Again,  it's  a \n representative  collection  of  real \n questions  with  known  good  answers.  You \n know,  keep  Genie  accountable.  Flag  to \n your  account  teams  if  you  see  anything \n going  off  the  rails.  We  investigate \n every  single  case  that  we  get  and  and \n hopefully  you'll  find  that  that  Genie's \n actually  very  strong  in  answering  your \n business  questions  and  and  taking \n action.  Second  is  to  model  those \n semantics  that  really  matter.  We're  not \n saying  model  the  entire  business's \n institutional  knowledge.  We  don't  think \n that's  possible.  We  would  recommend \n leaning  on  the  learned  context  for  that, \n but  we  do  recommend  modeling  the  core \n that  you  want  to  have  shared  across  the \n business  or  within  a  particular  line  of \n business. \n Third  is  to  certify  your  gold  assets. \n So,  make  sure  that  you've  identified  the \n tables,  the  dashboards,  the  queries,  the \n notebooks  that  that  every  workflow \n actually  requires  and  make  sure  that \n they're  certified  so  that  Genie \n prioritizes  them  when  it's  searching.  It \n does  respect  that  tag. \n And  then  finally,  we  recommend \n validating  access  to  that  data  from  your \n end  user's  perspective.  So  again,  Genie \n always  respects  the  permissions  of  the \n person  who's  asking  the  question.  So  of \n course,  an  asset  isn't  useful  if  your \n users  can't  see  it.  So  you  want  to  make \n sure  that  your  users  have  access  to  the \n certified  sources \n and  the  snippets  that  you  expect  Genie \n to  actually  use. \n >> Well,  thank  you  so  very  much  for  your \n time,  Elise.  I  am  sure  here  on  the \n screen  there's  going  to  be  some  pop-ups \n with  some  related  links,  videos,  etc.  as \n it  relates  to  to  this.  So,  thank  you  so \n much  for  your  time. \n >> Of  course,  thank  you  for  your  time  and \n thank  you  to  everyone  who's  been  testing \n Genie  and  sharing  feedback.  We  can't \n wait  to  continue  to  shape  the  product \n together.",
+  "language": "English",
+  "videoId": "HtR5m5VjaDQ",
+  "captionTracks": [
+    {
+      "baseUrl": "https://www.youtube.com/api/timedtext?v=HtR5m5VjaDQ&ei=ZpPZaqLuD8GF0_wP59SCoA4&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1792669142&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=9885591A0895B79DE873924F1568D3FFCB125CDF.D28F6EE6878E750D74EC028A0E4A205CEA7841C7&key=yt8&kind=asr&lang=en&variant=gemini",
+      "name": {
+        "simpleText": "English (auto-generated)"
+      },
+      "vssId": "a.en",
+      "languageCode": "en",
+      "kind": "asr",
+      "isTranslatable": true,
+      "trackName": ""
+    }
+  ]
+}

@@ -1,0 +1,791 @@
+{
+  "id": "07-claude-dashboards",
+  "title": "Claude dashboards: connect, ask, inspect",
+  "duration": 42.4107,
+  "beats": [
+    {
+      "text": "Claude Dashboards can connect to Databricks and build a dashboard from a question.",
+      "asset": "claude-source",
+      "device": "tile",
+      "key": "Claude Dashboards",
+      "start": 0.0,
+      "end": 4.3413,
+      "voice_end": 4.1813
+    },
+    {
+      "text": "Anthropic announced it on October eighth. The announcement describes a beta on paid plans.",
+      "asset": "claude-source",
+      "device": "focus",
+      "start": 4.3413,
+      "end": 9.5147,
+      "voice_end": 9.3547
+    },
+    {
+      "text": "Step one. Connect a supported data platform, such as Databricks, Snowflake or Big Query.",
+      "asset": "claude-connect",
+      "device": "sequence",
+      "start": 9.5147,
+      "end": 15.0293,
+      "voice_end": 14.8693
+    },
+    {
+      "text": "Step two. Ask a specific question in plain English, like this week's signups compared with last month's.",
+      "asset": "claude-question",
+      "device": "focus",
+      "start": 15.0293,
+      "end": 21.2053,
+      "voice_end": 21.0453
+    },
+    {
+      "text": "Claude retrieves the data and builds the dashboard. This is a source based walkthrough of the announced feature.",
+      "asset": "claude-source",
+      "device": "focus",
+      "start": 21.2053,
+      "end": 27.3173,
+      "voice_end": 27.1573
+    },
+    {
+      "text": "Step three. Inspect the answer. The announcement says you can click a number to see its query.",
+      "asset": "claude-query",
+      "device": "sequence",
+      "start": 27.3173,
+      "end": 32.4907,
+      "voice_end": 32.3307
+    },
+    {
+      "text": "Each chart also shows when its data was last refreshed.",
+      "asset": "claude-query",
+      "device": "focus",
+      "start": 32.4907,
+      "end": 35.8933,
+      "voice_end": 35.7333
+    },
+    {
+      "text": "Enterprise admins must enable the feature. Check access and verify the query before sharing the result.",
+      "asset": "claude-source",
+      "device": "focus",
+      "start": 35.8933,
+      "end": 42.4107,
+      "voice_end": 42.2507
+    }
+  ],
+  "words": [
+    {
+      "w": "Claude",
+      "s": 0.0,
+      "e": 0.38,
+      "alignment": "asr"
+    },
+    {
+      "w": "Dashboards",
+      "s": 0.38,
+      "e": 0.94,
+      "alignment": "asr"
+    },
+    {
+      "w": "can",
+      "s": 0.94,
+      "e": 1.28,
+      "alignment": "asr"
+    },
+    {
+      "w": "connect",
+      "s": 1.28,
+      "e": 1.52,
+      "alignment": "asr"
+    },
+    {
+      "w": "to",
+      "s": 1.52,
+      "e": 1.82,
+      "alignment": "asr"
+    },
+    {
+      "w": "Databricks",
+      "s": 1.82,
+      "e": 2.22,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 2.22,
+      "e": 2.74,
+      "alignment": "asr"
+    },
+    {
+      "w": "build",
+      "s": 2.74,
+      "e": 2.88,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 2.88,
+      "e": 3.1,
+      "alignment": "asr"
+    },
+    {
+      "w": "dashboard",
+      "s": 3.1,
+      "e": 3.32,
+      "alignment": "asr"
+    },
+    {
+      "w": "from",
+      "s": 3.32,
+      "e": 3.62,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 3.62,
+      "e": 3.84,
+      "alignment": "asr"
+    },
+    {
+      "w": "question.",
+      "s": 3.84,
+      "e": 4.1813,
+      "alignment": "asr"
+    },
+    {
+      "w": "Anthropic",
+      "s": 4.341333333333333,
+      "e": 5.001333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "announced",
+      "s": 5.001333333333333,
+      "e": 5.3213333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "it",
+      "s": 5.3213333333333335,
+      "e": 5.581333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "on",
+      "s": 5.581333333333333,
+      "e": 5.801333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "October",
+      "s": 5.801333333333333,
+      "e": 6.061333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "eighth.",
+      "s": 6.061333333333333,
+      "e": 6.921333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "The",
+      "s": 6.921333333333333,
+      "e": 7.141333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "announcement",
+      "s": 7.141333333333333,
+      "e": 7.421333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "describes",
+      "s": 7.421333333333333,
+      "e": 8.001333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 8.001333333333333,
+      "e": 8.181333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "beta",
+      "s": 8.181333333333333,
+      "e": 8.381333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "on",
+      "s": 8.381333333333334,
+      "e": 8.681333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "paid",
+      "s": 8.681333333333333,
+      "e": 8.921333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "plans.",
+      "s": 8.921333333333333,
+      "e": 9.354633333333332,
+      "alignment": "asr"
+    },
+    {
+      "w": "Step",
+      "s": 9.514666666666667,
+      "e": 9.834666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "one.",
+      "s": 9.834666666666667,
+      "e": 10.654666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "Connect",
+      "s": 10.654666666666667,
+      "e": 10.814666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 10.814666666666668,
+      "e": 11.094666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "supported",
+      "s": 11.094666666666667,
+      "e": 11.454666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "data",
+      "s": 11.454666666666666,
+      "e": 11.754666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "platform,",
+      "s": 11.754666666666667,
+      "e": 12.534666666666666,
+      "alignment": "asr"
+    },
+    {
+      "w": "such",
+      "s": 12.534666666666666,
+      "e": 12.674666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "as",
+      "s": 12.674666666666667,
+      "e": 12.974666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "Databricks,",
+      "s": 12.974666666666668,
+      "e": 13.694666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "Snowflake",
+      "s": 13.694666666666667,
+      "e": 13.994666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "or",
+      "s": 13.994666666666667,
+      "e": 14.194666666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "Big",
+      "s": 14.194666666666667,
+      "e": 14.454666666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "Query.",
+      "s": 14.454666666666668,
+      "e": 14.869366666666668,
+      "alignment": "asr"
+    },
+    {
+      "w": "Step",
+      "s": 15.029333333333334,
+      "e": 15.349333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "two.",
+      "s": 15.349333333333334,
+      "e": 16.089333333333332,
+      "alignment": "asr"
+    },
+    {
+      "w": "Ask",
+      "s": 16.089333333333332,
+      "e": 16.229333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 16.229333333333333,
+      "e": 16.489333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "specific",
+      "s": 16.489333333333335,
+      "e": 16.789333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "question",
+      "s": 16.789333333333335,
+      "e": 17.249333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "in",
+      "s": 17.249333333333333,
+      "e": 17.529333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "plain",
+      "s": 17.529333333333334,
+      "e": 17.769333333333336,
+      "alignment": "asr"
+    },
+    {
+      "w": "English,",
+      "s": 17.769333333333336,
+      "e": 18.469333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "like",
+      "s": 18.469333333333335,
+      "e": 18.729333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "this",
+      "s": 18.729333333333333,
+      "e": 19.009333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "week's",
+      "s": 19.009333333333334,
+      "e": 19.409333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "signups",
+      "s": 19.409333333333333,
+      "e": 19.749333333333333,
+      "alignment": "asr"
+    },
+    {
+      "w": "compared",
+      "s": 19.749333333333333,
+      "e": 20.029333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "with",
+      "s": 20.029333333333334,
+      "e": 20.349333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "last",
+      "s": 20.349333333333334,
+      "e": 20.649333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "month's.",
+      "s": 20.649333333333335,
+      "e": 21.045333333333332,
+      "alignment": "asr"
+    },
+    {
+      "w": "Claude",
+      "s": 21.205333333333336,
+      "e": 21.625333333333337,
+      "alignment": "asr"
+    },
+    {
+      "w": "retrieves",
+      "s": 21.625333333333337,
+      "e": 22.105333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 22.105333333333334,
+      "e": 22.285333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "data",
+      "s": 22.285333333333334,
+      "e": 22.525333333333336,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 22.525333333333336,
+      "e": 22.965333333333337,
+      "alignment": "asr"
+    },
+    {
+      "w": "builds",
+      "s": 22.965333333333337,
+      "e": 23.125333333333337,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 23.125333333333337,
+      "e": 23.385333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "dashboard.",
+      "s": 23.385333333333335,
+      "e": 24.445333333333338,
+      "alignment": "asr"
+    },
+    {
+      "w": "This",
+      "s": 24.445333333333338,
+      "e": 24.525333333333336,
+      "alignment": "asr"
+    },
+    {
+      "w": "is",
+      "s": 24.525333333333336,
+      "e": 24.725333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 24.725333333333335,
+      "e": 24.905333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "source",
+      "s": 24.905333333333335,
+      "e": 25.025333333333336,
+      "alignment": "asr"
+    },
+    {
+      "w": "based",
+      "s": 25.025333333333336,
+      "e": 25.385333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "walkthrough",
+      "s": 25.385333333333335,
+      "e": 25.945333333333338,
+      "alignment": "asr"
+    },
+    {
+      "w": "of",
+      "s": 25.945333333333338,
+      "e": 26.185333333333336,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 26.185333333333336,
+      "e": 26.325333333333337,
+      "alignment": "asr"
+    },
+    {
+      "w": "announced",
+      "s": 26.325333333333337,
+      "e": 26.645333333333337,
+      "alignment": "asr"
+    },
+    {
+      "w": "feature.",
+      "s": 26.645333333333337,
+      "e": 27.157333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "Step",
+      "s": 27.317333333333337,
+      "e": 27.637333333333338,
+      "alignment": "asr"
+    },
+    {
+      "w": "three.",
+      "s": 27.637333333333338,
+      "e": 28.397333333333336,
+      "alignment": "asr"
+    },
+    {
+      "w": "Inspect",
+      "s": 28.397333333333336,
+      "e": 28.57733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 28.57733333333334,
+      "e": 28.91733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "answer.",
+      "s": 28.91733333333334,
+      "e": 29.77733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "The",
+      "s": 29.77733333333334,
+      "e": 29.91733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "announcement",
+      "s": 29.91733333333334,
+      "e": 30.177333333333337,
+      "alignment": "asr"
+    },
+    {
+      "w": "says",
+      "s": 30.177333333333337,
+      "e": 30.55733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "you",
+      "s": 30.55733333333334,
+      "e": 30.717333333333336,
+      "alignment": "asr"
+    },
+    {
+      "w": "can",
+      "s": 30.717333333333336,
+      "e": 30.897333333333336,
+      "alignment": "asr"
+    },
+    {
+      "w": "click",
+      "s": 30.897333333333336,
+      "e": 31.037333333333336,
+      "alignment": "asr"
+    },
+    {
+      "w": "a",
+      "s": 31.037333333333336,
+      "e": 31.197333333333336,
+      "alignment": "asr"
+    },
+    {
+      "w": "number",
+      "s": 31.197333333333336,
+      "e": 31.317333333333337,
+      "alignment": "asr"
+    },
+    {
+      "w": "to",
+      "s": 31.317333333333337,
+      "e": 31.59733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "see",
+      "s": 31.59733333333334,
+      "e": 31.717333333333336,
+      "alignment": "asr"
+    },
+    {
+      "w": "its",
+      "s": 31.717333333333336,
+      "e": 31.91733333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "query.",
+      "s": 31.91733333333334,
+      "e": 32.33063333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "Each",
+      "s": 32.49066666666667,
+      "e": 32.85066666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "chart",
+      "s": 32.85066666666667,
+      "e": 33.27066666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "also",
+      "s": 33.27066666666667,
+      "e": 33.71066666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "shows",
+      "s": 33.71066666666667,
+      "e": 34.03066666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "when",
+      "s": 34.03066666666667,
+      "e": 34.19066666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "its",
+      "s": 34.19066666666667,
+      "e": 34.39066666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "data",
+      "s": 34.39066666666667,
+      "e": 34.63066666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "was",
+      "s": 34.63066666666667,
+      "e": 34.93066666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "last",
+      "s": 34.93066666666667,
+      "e": 35.17066666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "refreshed.",
+      "s": 35.17066666666667,
+      "e": 35.73336666666667,
+      "alignment": "asr"
+    },
+    {
+      "w": "Enterprise",
+      "s": 35.89333333333334,
+      "e": 36.41333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "admins",
+      "s": 36.41333333333334,
+      "e": 36.95333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "must",
+      "s": 36.95333333333334,
+      "e": 37.43333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "enable",
+      "s": 37.43333333333334,
+      "e": 37.77333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 37.77333333333334,
+      "e": 38.59333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "feature.",
+      "s": 38.59333333333334,
+      "e": 39.11333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "Check",
+      "s": 39.11333333333334,
+      "e": 39.21333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "access",
+      "s": 39.21333333333334,
+      "e": 39.693333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "and",
+      "s": 39.693333333333335,
+      "e": 40.17333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "verify",
+      "s": 40.17333333333334,
+      "e": 40.29333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 40.29333333333334,
+      "e": 40.59333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "query",
+      "s": 40.59333333333334,
+      "e": 40.91333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "before",
+      "s": 40.91333333333334,
+      "e": 41.29333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "sharing",
+      "s": 41.29333333333334,
+      "e": 41.63333333333334,
+      "alignment": "asr"
+    },
+    {
+      "w": "the",
+      "s": 41.63333333333334,
+      "e": 41.873333333333335,
+      "alignment": "asr"
+    },
+    {
+      "w": "result.",
+      "s": 41.873333333333335,
+      "e": 42.25063333333334,
+      "alignment": "asr"
+    }
+  ],
+  "voice": "Local Kokoro af_heart, synthetic review voice",
+  "alignment_note": "Whisper tiny.en word timestamps, with interpolated unmatched words explicitly flagged. Not manually verified to +/- one frame.",
+  "script_sha256": "c6d3569c0ea753b6b2a6d0710a05dfac7de2e1b3ed0a3fc7cb1ccd791fb93603"
+}

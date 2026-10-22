@@ -1,0 +1,37 @@
+{
+  "method": "Whisper tiny.en re-transcription of final mixed MP4, compared with intended narration. ASR differences need interpretation; this is not proof of word-perfect audio.",
+  "similarity": 0.8837,
+  "transcript": "Almost four million New York requests. The biggest category wasn't noise. Illegal parking came first. 611,282 requests. I analyzed one year of 3-1-1 data. Here is the exact date window. Then I filtered residential noise and grouped the requests by hour. The peak is 10 to 11 at night. Sunday has the most requests. Heat follows a different pattern. Switch the same view to monthly requests. January is around 22 times August. An exactly one request was filed under trapping pigeon. Requests aren't unique incidents. Keep the queries and results with the chart, so anyone can check the story.",
+  "differences": [
+    {
+      "kind": "replace",
+      "expected": "six hundred eleven thousand two hundred eighty two",
+      "recognized": "611 282"
+    },
+    {
+      "kind": "replace",
+      "expected": "three one one",
+      "recognized": "3 1 1"
+    },
+    {
+      "kind": "replace",
+      "expected": "ten",
+      "recognized": "10"
+    },
+    {
+      "kind": "replace",
+      "expected": "eleven",
+      "recognized": "11"
+    },
+    {
+      "kind": "replace",
+      "expected": "twenty two",
+      "recognized": "22"
+    },
+    {
+      "kind": "replace",
+      "expected": "and",
+      "recognized": "an"
+    }
+  ]
+}

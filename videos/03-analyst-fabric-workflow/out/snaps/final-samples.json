@@ -1,0 +1,46 @@
+{
+  "source": "../final.mp4",
+  "review_scope": "one actual rendered frame per semantic beat; not exhaustive frame review",
+  "samples": [
+    {
+      "time": 2.08,
+      "file": "final-01.jpg",
+      "beat_text": "If you already build Power BI reports, learn what happens before the chart."
+    },
+    {
+      "time": 7.168,
+      "file": "final-02.jpg",
+      "beat_text": "Fabric brings ingestion, engineering, storage, analytics and reporting into one platform."
+    },
+    {
+      "time": 12.651,
+      "file": "final-03.jpg",
+      "beat_text": "Start with a lakehouse. Understand where the data lands and how its tables are organized."
+    },
+    {
+      "time": 18.048,
+      "file": "final-04.jpg",
+      "beat_text": "Then trace an ingestion pipeline. What arrives, what changes, and what happens when a run fails?"
+    },
+    {
+      "time": 23.04,
+      "file": "final-05.jpg",
+      "beat_text": "Keep SQL and Power BI. Add the shared data layer underneath them."
+    },
+    {
+      "time": 27.808,
+      "file": "final-06.jpg",
+      "beat_text": "Fabric data agents can turn questions into queries against supported data sources."
+    },
+    {
+      "time": 32.672,
+      "file": "final-07.jpg",
+      "beat_text": "That makes a clean model and clear permissions useful beyond the report itself."
+    },
+    {
+      "time": 37.461,
+      "file": "final-08.jpg",
+      "beat_text": "Build one small workflow from source to report. Explain each step and show its output."
+    }
+  ]
+}

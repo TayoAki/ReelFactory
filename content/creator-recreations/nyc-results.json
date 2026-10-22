@@ -1,0 +1,804 @@
+{
+  "query": {
+    "$select": "complaint_type,count(*) as total",
+    "$where": "created_date >= '2025-10-01T00:00:00' AND created_date < '2026-10-01T00:00:00'",
+    "$group": "complaint_type",
+    "$order": "total DESC",
+    "$limit": "1000"
+  },
+  "source": "https://data.cityofnewyork.us/resource/erm2-nwe9.json",
+  "results": [
+    {
+      "complaint_type": "Illegal Parking",
+      "total": "611282"
+    },
+    {
+      "complaint_type": "Noise - Residential",
+      "total": "432431"
+    },
+    {
+      "complaint_type": "HEAT/HOT WATER",
+      "total": "359087"
+    },
+    {
+      "complaint_type": "Blocked Driveway",
+      "total": "194672"
+    },
+    {
+      "complaint_type": "Noise - Street/Sidewalk",
+      "total": "174340"
+    },
+    {
+      "complaint_type": "UNSANITARY CONDITION",
+      "total": "136881"
+    },
+    {
+      "complaint_type": "Street Condition",
+      "total": "120655"
+    },
+    {
+      "complaint_type": "PLUMBING",
+      "total": "84463"
+    },
+    {
+      "complaint_type": "Abandoned Vehicle",
+      "total": "71290"
+    },
+    {
+      "complaint_type": "Water System",
+      "total": "69418"
+    },
+    {
+      "complaint_type": "Dirty Condition",
+      "total": "68731"
+    },
+    {
+      "complaint_type": "PAINT/PLASTER",
+      "total": "68400"
+    },
+    {
+      "complaint_type": "Snow or Ice",
+      "total": "63941"
+    },
+    {
+      "complaint_type": "Noise - Commercial",
+      "total": "60244"
+    },
+    {
+      "complaint_type": "Noise",
+      "total": "59947"
+    },
+    {
+      "complaint_type": "Traffic Signal Condition",
+      "total": "58013"
+    },
+    {
+      "complaint_type": "DOOR/WINDOW",
+      "total": "53287"
+    },
+    {
+      "complaint_type": "Noise - Vehicle",
+      "total": "51416"
+    },
+    {
+      "complaint_type": "WATER LEAK",
+      "total": "48254"
+    },
+    {
+      "complaint_type": "Encampment",
+      "total": "48235"
+    },
+    {
+      "complaint_type": "Damaged Tree",
+      "total": "45893"
+    },
+    {
+      "complaint_type": "GENERAL",
+      "total": "43355"
+    },
+    {
+      "complaint_type": "General Construction/Plumbing",
+      "total": "39974"
+    },
+    {
+      "complaint_type": "Street Light Condition",
+      "total": "38041"
+    },
+    {
+      "complaint_type": "Illegal Dumping",
+      "total": "37414"
+    },
+    {
+      "complaint_type": "Derelict Vehicles",
+      "total": "36238"
+    },
+    {
+      "complaint_type": "ELECTRIC",
+      "total": "35670"
+    },
+    {
+      "complaint_type": "Missed Collection",
+      "total": "35590"
+    },
+    {
+      "complaint_type": "Homeless Person Assistance",
+      "total": "34303"
+    },
+    {
+      "complaint_type": "FLOORING/STAIRS",
+      "total": "30906"
+    },
+    {
+      "complaint_type": "Maintenance or Facility",
+      "total": "28357"
+    },
+    {
+      "complaint_type": "Sidewalk Condition",
+      "total": "26457"
+    },
+    {
+      "complaint_type": "Sewer",
+      "total": "26092"
+    },
+    {
+      "complaint_type": "APPLIANCE",
+      "total": "25967"
+    },
+    {
+      "complaint_type": "Building/Use",
+      "total": "25865"
+    },
+    {
+      "complaint_type": "Elevator",
+      "total": "25664"
+    },
+    {
+      "complaint_type": "Rodent",
+      "total": "25266"
+    },
+    {
+      "complaint_type": "Non-Emergency Police Matter",
+      "total": "24294"
+    },
+    {
+      "complaint_type": "Vendor Enforcement",
+      "total": "24153"
+    },
+    {
+      "complaint_type": "Overgrown Tree/Branches",
+      "total": "23835"
+    },
+    {
+      "complaint_type": "Obstruction",
+      "total": "21988"
+    },
+    {
+      "complaint_type": "Consumer Complaint",
+      "total": "20615"
+    },
+    {
+      "complaint_type": "For Hire Vehicle Complaint",
+      "total": "19439"
+    },
+    {
+      "complaint_type": "Graffiti",
+      "total": "17612"
+    },
+    {
+      "complaint_type": "Water Maintenance",
+      "total": "17093"
+    },
+    {
+      "complaint_type": "Lead",
+      "total": "15313"
+    },
+    {
+      "complaint_type": "SAFETY",
+      "total": "14674"
+    },
+    {
+      "complaint_type": "Food Establishment",
+      "total": "14271"
+    },
+    {
+      "complaint_type": "Residential Disposal Complaint",
+      "total": "13469"
+    },
+    {
+      "complaint_type": "Noise - Helicopter",
+      "total": "12503"
+    },
+    {
+      "complaint_type": "Animal-Abuse",
+      "total": "11549"
+    },
+    {
+      "complaint_type": "Dead/Dying Tree",
+      "total": "11541"
+    },
+    {
+      "complaint_type": "Panhandling",
+      "total": "11433"
+    },
+    {
+      "complaint_type": "Illegal Fireworks",
+      "total": "11282"
+    },
+    {
+      "complaint_type": "Dead Animal",
+      "total": "10851"
+    },
+    {
+      "complaint_type": "Indoor Air Quality",
+      "total": "10632"
+    },
+    {
+      "complaint_type": "Taxi Complaint",
+      "total": "10511"
+    },
+    {
+      "complaint_type": "Root/Sewer/Sidewalk Condition",
+      "total": "10240"
+    },
+    {
+      "complaint_type": "Sewer Maintenance",
+      "total": "10136"
+    },
+    {
+      "complaint_type": "Drug Activity",
+      "total": "9743"
+    },
+    {
+      "complaint_type": "Air Quality",
+      "total": "9582"
+    },
+    {
+      "complaint_type": "Traffic",
+      "total": "9411"
+    },
+    {
+      "complaint_type": "Curb Condition",
+      "total": "8863"
+    },
+    {
+      "complaint_type": "Noise - Park",
+      "total": "8369"
+    },
+    {
+      "complaint_type": "Smoking or Vaping",
+      "total": "8143"
+    },
+    {
+      "complaint_type": "Street Sweeping Complaint",
+      "total": "8072"
+    },
+    {
+      "complaint_type": "Illegal Tree Damage",
+      "total": "7117"
+    },
+    {
+      "complaint_type": "Lost Property",
+      "total": "6970"
+    },
+    {
+      "complaint_type": "Highway Condition",
+      "total": "6460"
+    },
+    {
+      "complaint_type": "Water Conservation",
+      "total": "6440"
+    },
+    {
+      "complaint_type": "Real Time Enforcement",
+      "total": "6258"
+    },
+    {
+      "complaint_type": "Animal in a Park",
+      "total": "5706"
+    },
+    {
+      "complaint_type": "Illegal Posting",
+      "total": "5503"
+    },
+    {
+      "complaint_type": "Street Sign - Damaged",
+      "total": "5459"
+    },
+    {
+      "complaint_type": "Violation of Park Rules",
+      "total": "4880"
+    },
+    {
+      "complaint_type": "Drinking",
+      "total": "4402"
+    },
+    {
+      "complaint_type": "Cannabis Retailer",
+      "total": "4392"
+    },
+    {
+      "complaint_type": "Boilers",
+      "total": "4193"
+    },
+    {
+      "complaint_type": "Street Sign - Dangling",
+      "total": "4112"
+    },
+    {
+      "complaint_type": "Litter Basket Request",
+      "total": "4032"
+    },
+    {
+      "complaint_type": "Special Projects Inspection Team (SPIT)",
+      "total": "4027"
+    },
+    {
+      "complaint_type": "Plumbing",
+      "total": "3861"
+    },
+    {
+      "complaint_type": "Emergency Response Team (ERT)",
+      "total": "3545"
+    },
+    {
+      "complaint_type": "Street Sign - Missing",
+      "total": "3506"
+    },
+    {
+      "complaint_type": "Sanitation Worker or Vehicle Complaint",
+      "total": "3271"
+    },
+    {
+      "complaint_type": "Outdoor Dining",
+      "total": "3191"
+    },
+    {
+      "complaint_type": "Food Poisoning",
+      "total": "3082"
+    },
+    {
+      "complaint_type": "Unsanitary Animal Pvt Property",
+      "total": "3070"
+    },
+    {
+      "complaint_type": "Mobile Food Vendor",
+      "total": "2872"
+    },
+    {
+      "complaint_type": "Noise - House of Worship",
+      "total": "2855"
+    },
+    {
+      "complaint_type": "Broken Parking Meter",
+      "total": "2817"
+    },
+    {
+      "complaint_type": "Electrical",
+      "total": "2517"
+    },
+    {
+      "complaint_type": "Dumpster Complaint",
+      "total": "2189"
+    },
+    {
+      "complaint_type": "ELEVATOR",
+      "total": "2172"
+    },
+    {
+      "complaint_type": "Abandoned Bike",
+      "total": "2134"
+    },
+    {
+      "complaint_type": "Construction Safety Enforcement",
+      "total": "2112"
+    },
+    {
+      "complaint_type": "Bus Stop Shelter Complaint",
+      "total": "1974"
+    },
+    {
+      "complaint_type": "Unleashed Dog",
+      "total": "1866"
+    },
+    {
+      "complaint_type": "Wood Pile Remaining",
+      "total": "1862"
+    },
+    {
+      "complaint_type": "Unsanitary Pigeon Condition",
+      "total": "1834"
+    },
+    {
+      "complaint_type": "Bike/Roller/Skate",
+      "total": "1800"
+    },
+    {
+      "complaint_type": "Urinating in Public",
+      "total": "1689"
+    },
+    {
+      "complaint_type": "Day Care",
+      "total": "1685"
+    },
+    {
+      "complaint_type": "Hazardous Materials",
+      "total": "1675"
+    },
+    {
+      "complaint_type": "Lot Condition",
+      "total": "1664"
+    },
+    {
+      "complaint_type": "Standing Water",
+      "total": "1608"
+    },
+    {
+      "complaint_type": "Non-Residential Heat",
+      "total": "1603"
+    },
+    {
+      "complaint_type": "Asbestos",
+      "total": "1552"
+    },
+    {
+      "complaint_type": "Litter Basket Complaint",
+      "total": "1480"
+    },
+    {
+      "complaint_type": "Commercial Disposal Complaint",
+      "total": "1456"
+    },
+    {
+      "complaint_type": "Construction Lead Dust",
+      "total": "1355"
+    },
+    {
+      "complaint_type": "Water Quality",
+      "total": "1236"
+    },
+    {
+      "complaint_type": "Industrial Waste",
+      "total": "1183"
+    },
+    {
+      "complaint_type": "OUTSIDE BUILDING",
+      "total": "1166"
+    },
+    {
+      "complaint_type": "School Maintenance",
+      "total": "1045"
+    },
+    {
+      "complaint_type": "Taxi Report",
+      "total": "810"
+    },
+    {
+      "complaint_type": "New Tree Request",
+      "total": "804"
+    },
+    {
+      "complaint_type": "Investigations and Discipline (IAD)",
+      "total": "739"
+    },
+    {
+      "complaint_type": "Bike Rack",
+      "total": "736"
+    },
+    {
+      "complaint_type": "For Hire Vehicle Report",
+      "total": "698"
+    },
+    {
+      "complaint_type": "Indoor Sewage",
+      "total": "691"
+    },
+    {
+      "complaint_type": "Hazardous Material",
+      "total": "658"
+    },
+    {
+      "complaint_type": "Mosquitoes",
+      "total": "623"
+    },
+    {
+      "complaint_type": "Illegal Animal Kept as Pet",
+      "total": "618"
+    },
+    {
+      "complaint_type": "BEST/Site Safety",
+      "total": "506"
+    },
+    {
+      "complaint_type": "Bridge Condition",
+      "total": "489"
+    },
+    {
+      "complaint_type": "E-Scooter",
+      "total": "454"
+    },
+    {
+      "complaint_type": "Harboring Bees/Wasps",
+      "total": "431"
+    },
+    {
+      "complaint_type": "Green Taxi Complaint",
+      "total": "404"
+    },
+    {
+      "complaint_type": "Ferry Inquiry",
+      "total": "396"
+    },
+    {
+      "complaint_type": "Uprooted Stump",
+      "total": "380"
+    },
+    {
+      "complaint_type": "Mold",
+      "total": "379"
+    },
+    {
+      "complaint_type": "Drinking Water",
+      "total": "361"
+    },
+    {
+      "complaint_type": "Bus Stop Shelter Placement",
+      "total": "321"
+    },
+    {
+      "complaint_type": "Green Infrastructure",
+      "total": "280"
+    },
+    {
+      "complaint_type": "Bike/Roller/Skate Chronic",
+      "total": "275"
+    },
+    {
+      "complaint_type": "LinkNYC",
+      "total": "259"
+    },
+    {
+      "complaint_type": "Pet Sale",
+      "total": "258"
+    },
+    {
+      "complaint_type": "Beach/Pool/Sauna Complaint",
+      "total": "255"
+    },
+    {
+      "complaint_type": "Tattooing",
+      "total": "242"
+    },
+    {
+      "complaint_type": "Ferry Complaint",
+      "total": "207"
+    },
+    {
+      "complaint_type": "Disorderly Youth",
+      "total": "203"
+    },
+    {
+      "complaint_type": "Plant",
+      "total": "195"
+    },
+    {
+      "complaint_type": "Poison Ivy",
+      "total": "173"
+    },
+    {
+      "complaint_type": "Animal Facility - No Permit",
+      "total": "168"
+    },
+    {
+      "complaint_type": "Special Operations",
+      "total": "158"
+    },
+    {
+      "complaint_type": "Tobacco or Non-Tobacco Sale",
+      "total": "150"
+    },
+    {
+      "complaint_type": "Bench",
+      "total": "149"
+    },
+    {
+      "complaint_type": "Scaffold Safety",
+      "total": "140"
+    },
+    {
+      "complaint_type": "Posting Advertisement",
+      "total": "128"
+    },
+    {
+      "complaint_type": "Illegal Animal Sold",
+      "total": "124"
+    },
+    {
+      "complaint_type": "AHV Inspection Unit",
+      "total": "119"
+    },
+    {
+      "complaint_type": "Taxi Compliment",
+      "total": "111"
+    },
+    {
+      "complaint_type": "Recycling Basket Complaint",
+      "total": "99"
+    },
+    {
+      "complaint_type": "Building Drinking Water Tank",
+      "total": "82"
+    },
+    {
+      "complaint_type": "Highway Sign - Damaged",
+      "total": "79"
+    },
+    {
+      "complaint_type": "Cooling Tower",
+      "total": "79"
+    },
+    {
+      "complaint_type": "Cranes and Derricks",
+      "total": "76"
+    },
+    {
+      "complaint_type": "Unsanitary Animal Facility",
+      "total": "75"
+    },
+    {
+      "complaint_type": "Found Property",
+      "total": "73"
+    },
+    {
+      "complaint_type": "Municipal Parking Facility",
+      "total": "73"
+    },
+    {
+      "complaint_type": "Public Toilet",
+      "total": "66"
+    },
+    {
+      "complaint_type": "Waste Water Treatment Plant",
+      "total": "47"
+    },
+    {
+      "complaint_type": "Institution Disposal Complaint",
+      "total": "46"
+    },
+    {
+      "complaint_type": "Highway Sign - Missing",
+      "total": "43"
+    },
+    {
+      "complaint_type": "Green Taxi Report",
+      "total": "41"
+    },
+    {
+      "complaint_type": "Special Natural Area District (SNAD)",
+      "total": "37"
+    },
+    {
+      "complaint_type": "SNW",
+      "total": "33"
+    },
+    {
+      "complaint_type": "Lifeguard",
+      "total": "30"
+    },
+    {
+      "complaint_type": "Incorrect Data",
+      "total": "28"
+    },
+    {
+      "complaint_type": "Window Guard",
+      "total": "27"
+    },
+    {
+      "complaint_type": "Highway Sign - Dangling",
+      "total": "23"
+    },
+    {
+      "complaint_type": "Wayfinding",
+      "total": "22"
+    },
+    {
+      "complaint_type": "Dept of Investigations",
+      "total": "20"
+    },
+    {
+      "complaint_type": "Building Marshal's Office",
+      "total": "18"
+    },
+    {
+      "complaint_type": "Borough Office",
+      "total": "17"
+    },
+    {
+      "complaint_type": "DEP Street Condition",
+      "total": "15"
+    },
+    {
+      "complaint_type": "Radioactive Material",
+      "total": "15"
+    },
+    {
+      "complaint_type": "X-Ray Machine/Equipment",
+      "total": "12"
+    },
+    {
+      "complaint_type": "Transfer Station Complaint",
+      "total": "12"
+    },
+    {
+      "complaint_type": "Taxi Licensee Complaint",
+      "total": "10"
+    },
+    {
+      "complaint_type": "Tanning",
+      "total": "9"
+    },
+    {
+      "complaint_type": "Oil or Gas Spill",
+      "total": "8"
+    },
+    {
+      "complaint_type": "Calorie Labeling",
+      "total": "8"
+    },
+    {
+      "complaint_type": "Squeegee",
+      "total": "6"
+    },
+    {
+      "complaint_type": "Tunnel Condition",
+      "total": "6"
+    },
+    {
+      "complaint_type": "Dry Weather Discharge",
+      "total": "6"
+    },
+    {
+      "complaint_type": "Public Payphone Complaint",
+      "total": "5"
+    },
+    {
+      "complaint_type": "DEP Sidewalk Condition",
+      "total": "5"
+    },
+    {
+      "complaint_type": "DEP Highway Condition",
+      "total": "5"
+    },
+    {
+      "complaint_type": "Leaning Bar",
+      "total": "4"
+    },
+    {
+      "complaint_type": "Building Condition",
+      "total": "3"
+    },
+    {
+      "complaint_type": "FHV Licensee Complaint",
+      "total": "3"
+    },
+    {
+      "complaint_type": "DSNY Internal",
+      "total": "2"
+    },
+    {
+      "complaint_type": "Safety",
+      "total": "1"
+    },
+    {
+      "complaint_type": "Unspecified",
+      "total": "1"
+    },
+    {
+      "complaint_type": "Building Marshals office",
+      "total": "1"
+    },
+    {
+      "complaint_type": "Trapping Pigeon",
+      "total": "1"
+    }
+  ]
+}

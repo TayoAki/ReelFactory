@@ -1,0 +1,23 @@
+{
+  "method": "Two decoded final-video frames per genuine demo segment; compare RGB pixel differences inside the video region, excluding captions and title",
+  "checks": [
+    {
+      "asset": "ontology-demo-0.mp4",
+      "times": [
+        61.946666666666665,
+        64.88666666666666
+      ],
+      "fraction_of_region_pixels_changed_over_10": 0.022465,
+      "visible_change": true
+    },
+    {
+      "asset": "ontology-demo-1.mp4",
+      "times": [
+        66.85333333333332,
+        69.81333333333333
+      ],
+      "fraction_of_region_pixels_changed_over_10": 0.08831,
+      "visible_change": true
+    }
+  ]
+}
