@@ -1,0 +1,114 @@
+{
+  "mode": "technical-adaptation",
+  "audience": "Technical practitioners and analytics leaders",
+  "scope": "One 42-second rewritten technical segment with burned-in bottom captions",
+  "visual_workflow": "image-first",
+  "source_library_required": true,
+  "generation_authorization": "User explicitly requested a rewritten segment with motion graphic and words at the bottom.",
+  "technical_rewrite": {
+    "original": "../motion-pilot-fabric/input-transcript.txt section 3",
+    "proposed": "Which refrigeration units does a store operate? Model Store and Refrigeration Unit as entity types: reusable definitions of business concepts. Region and priority are properties that describe a store. Name the relationship operates. In Microsoft's example, the store's Location ID matches the unit's Store ID. Data bindings map the definitions to their source tables in a lakehouse. A consuming application uses these mappings to query the sources. The ontology defines the connection; source records stay in their owning systems.",
+    "reason": "Question \u2192 definitions \u2192 relationship mechanism \u2192 source mapping \u2192 execution boundary.",
+    "details": "rewrite.md"
+  },
+  "scenes": [
+    {
+      "id": "fabric-question-led-captioned",
+      "transcript": "Which refrigeration units does a store operate? Model Store and Refrigeration Unit as entity types: reusable definitions of business concepts. Region and priority are properties that describe a store. Name the relationship operates. In Microsoft's example, the store's Location ID matches the unit's Store ID. Data bindings map the definitions to their source tables in a lakehouse. A consuming application uses these mappings to query the sources. The ontology defines the connection; source records stay in their owning systems.",
+      "intended_understanding": "Explain a named entity relationship through its matching ID fields and separate source mappings, without implying query execution.",
+      "template_id": "product-mechanism-example",
+      "template_variant": "Question-led technical mechanism; conceptual walkthrough, no invented result/action.",
+      "reference_sequence": "02-white-system",
+      "composition": "Fixed question at top; stable mint Store and neutral Refrigeration Unit; properties inside Store; operates edge and key pill; separate source band; dedicated bottom captions.",
+      "assets": "Self-authored editable SVG symbols; approved Fabric theme; generated master; official Microsoft screenshot as evidence; synthetic preview narration; burned-in captions.",
+      "reason": "A bounded question motivates the relation. Concrete key mapping explains how definitions relate to source structure.",
+      "alternative_and_tradeoff": "Use actual UI and verified records for execution; this conceptual diagram isolates the model and mapping, without pretending to answer with actual unit instances.",
+      "state_plan": "Question \u2192 types \u2192 properties \u2192 relation \u2192 keys \u2192 bindings \u2192 execution boundary hold.",
+      "clarity_check": "Every one of 19 caption phrases checked for fit and exact phrase text. Every graphic stays above dedicated caption band. Word timings retained from generated audio.",
+      "sources": [
+        "https://learn.microsoft.com/en-us/fabric/iq/ontology/overview",
+        "https://learn.microsoft.com/en-us/fabric/iq/ontology/tutorial-1-create-ontology",
+        "https://learn.microsoft.com/en-us/fabric/iq/ontology/how-to-bind-data"
+      ],
+      "status": "animation_rendered",
+      "master_image": "storyboard/master.png",
+      "state_images": [
+        {
+          "id": "question",
+          "image": "rebuilt-00-question.png",
+          "narration_role": "Question",
+          "new_understanding": "Orient to the relation the model must express.",
+          "persistent": "Question, card identities and known connections remain stable.",
+          "next_transition": "Reveal entity types."
+        },
+        {
+          "id": "types",
+          "image": "rebuilt-01-entities.png",
+          "narration_role": "Definitions",
+          "new_understanding": "Identify the two business concepts.",
+          "persistent": "Question, card identities and known connections remain stable.",
+          "next_transition": "Reveal Store properties."
+        },
+        {
+          "id": "properties",
+          "image": "rebuilt-02-properties.png",
+          "narration_role": "Properties",
+          "new_understanding": "Properties are inside the entity boundary.",
+          "persistent": "Question, card identities and known connections remain stable.",
+          "next_transition": "Add named relationship."
+        },
+        {
+          "id": "relationship",
+          "image": "rebuilt-03-relationship.png",
+          "narration_role": "Relationship and IDs",
+          "new_understanding": "Understand operates and its matching key fields.",
+          "persistent": "Question, card identities and known connections remain stable.",
+          "next_transition": "Reveal source mappings."
+        },
+        {
+          "id": "bindings",
+          "image": "rebuilt-04-bindings.png",
+          "narration_role": "Data bindings",
+          "new_understanding": "Distinguish business connection and source mapping.",
+          "persistent": "Question, card identities and known connections remain stable.",
+          "next_transition": "Hold while explaining execution boundary."
+        }
+      ],
+      "visual_approved_by_user": false,
+      "generation_authorized_by_user": true,
+      "reference_library_entry": "../reference-library/entries/question-answer-action.json",
+      "reference_images": [
+        "../reference-library/frames/graphic/0001518.jpg",
+        "../reference-library/frames/graphic/0001398.jpg"
+      ],
+      "reference_selection_reason": "Question/answer reference supplies the question-led teaching purpose; Fabric-specific relationship semantics come from Microsoft documentation. Result/action step omitted because no executed result exists.",
+      "source_observations": {
+        "observed": "Original introduces a concrete business question and response within a stable card.",
+        "proposed": "Retain question, then expose entity types, relation keys and source mappings. Technical claims come from Microsoft tutorial, not source video."
+      },
+      "layer_reconstruction": {
+        "scene": "scene.html",
+        "still": "rebuilt-master.png",
+        "layers": [
+          "question",
+          "grid",
+          "entity surfaces",
+          "SVG icons",
+          "labels",
+          "property chips",
+          "relationship stroke",
+          "arrowhead",
+          "matching key pill",
+          "source tiles",
+          "binding strokes",
+          "caption band",
+          "per-word caption spans"
+        ]
+      },
+      "source_start": 0,
+      "source_end": 41.816,
+      "render_start": 0,
+      "render_end": 41.816
+    }
+  ]
+}

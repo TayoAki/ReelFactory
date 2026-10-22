@@ -1,0 +1,38 @@
+{
+  "template_id": "worked-example",
+  "instance_id": "question-answer-action",
+  "selection_reason": "Use after a capability needs a tangible demonstration.",
+  "alternative_or_misuse": "Use genuine product footage for actual execution; label invented chat examples as illustrative.",
+  "target_narration": "Which refrigeration units does a store operate? Model the entity types, name the operates relationship, and map its keys to source data.",
+  "target_slot_bindings": {},
+  "binding_origin": "Explicit target bindings only; representative-source bindings are not silently transferred to another instance",
+  "sentence_scaffolds": [
+    "Suppose you ask {{concrete_question}}. {{system}} uses {{evidence}} to {{result}}.",
+    "From that answer, you can {{next_action}}, subject to {{constraint}}."
+  ],
+  "source_quote": "connects to your data and tools. It answers questions about your business. It acts on the answers that it gives you, all within the governance framework",
+  "source_range": [
+    46.5,
+    50.8
+  ],
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_order_and_reveal_order_are_separate": true,
+  "original_reference_assets_relative_to_library": [
+    "frames/graphic/0001518.jpg",
+    "frames/graphic/0001398.jpg",
+    "frames/graphic/0001428.jpg"
+  ],
+  "imagegen_request": {
+    "prompt": "Create a single settled storyboard master image for this technical teaching beat.\nTeaching relationship: question \u2192 reasoning/result \u2192 action. Teaching job: Turn an abstract capability into a concrete question and observable answer or suggested action..\nTarget narration: Which refrigeration units does a store operate? Model the entity types, name the operates relationship, and map its keys to source data.\nTarget semantic slots: {}\nReference image 1 is the selected original-source style anchor. Further original-source images show earlier/build states. Use their visual hierarchy, icon mass, typography, color roles, surfaces, spacing and persistent relationships when appropriate. Do not use the rejected reconstruction as a reference.\nSource-specific observation: {\"status\": \"Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance.\"}\nThe finished diagram's reading order is separate from its reveal order. For adaptation, align the planned state sequence with the new narration; for reconstruction, follow the observed source sequence.\nMode: adaptation. Replace reference product labels, values, examples and claims with the supplied verified target content. Do not transfer source benchmarks, availability or access guarantees.\nDeliver a polished readable still with exact requested labels and useful whitespace. It is a candidate for human image review before editable reconstruction and motion. Produce only this master still; later states should be derived from it to preserve continuity.",
+    "referenced_image_paths": [
+      "/workspace/ReelFactory/reference-library/frames/graphic/0001518.jpg",
+      "/workspace/ReelFactory/reference-library/frames/graphic/0001398.jpg",
+      "/workspace/ReelFactory/reference-library/frames/graphic/0001428.jpg"
+    ],
+    "transparent_background": false
+  },
+  "storyboard_requirement": "Generate a master still, derive at least three coherent state images, compare to original references, review, reconstruct editable layers, then animate.",
+  "confidence": "Curated references and editorial sentence scaffolds; not a trained selector, word-alignment model or claim verifier."
+}

@@ -31,6 +31,8 @@ Build a claim ledger with source URL, retrieved date, supported statement and ca
 
 ## 2. Rewrite for a technical audience
 
+Use the script-and-graphic development loop in `references/script-graphic-caption-loop.md`: analyze the original → choose an explanation recipe → draft a technically precise rewrite → retrieve a reference explaining the same relationship → revise the wording and visual plan together → generate master/state images → rebuild editable layers → record narration → align motion and bottom captions. Do not force unsupported facts into a convenient graphic. The reference is selected by the explanation's relationship and wording, not merely its visual appeal.
+
 For adaptation, supply original → proposed wording → reason → claim/source IDs. Explain mechanism, relevant inputs/outputs, constraints and a concrete example; remove marketing repetition. Define unfamiliar terms before using them. Technical does not mean adding jargon. Preserve calibrated statements and separate suggestion, execution and verified result. Do not add an implementation or security guarantee absent from evidence.
 
 Use the intended duration to budget narration. A starting estimate is 130–160 words/minute, adjusted for technical density, pauses and demos; mark this as an estimate. A longer rewrite requires a changed duration or fewer ideas, not unreadably fast captions. Time final motion from actual narration; script punctuation alone is not word alignment.

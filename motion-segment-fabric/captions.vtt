@@ -1,0 +1,58 @@
+WEBVTT
+
+00:00:00.102 --> 00:00:01.508
+Which refrigeration units
+
+00:00:01.508 --> 00:00:02.900
+does a store operate?
+
+00:00:04.252 --> 00:00:06.205
+Model Store and Refrigeration Unit
+
+00:00:06.205 --> 00:00:07.454
+as entity types:
+
+00:00:07.468 --> 00:00:10.279
+reusable definitions of business concepts.
+
+00:00:11.618 --> 00:00:13.428
+Region and priority are properties
+
+00:00:13.428 --> 00:00:14.820
+that describe a store.
+
+00:00:16.152 --> 00:00:18.156
+Name the relationship operates.
+
+00:00:18.836 --> 00:00:20.477
+In Microsoft’s example,
+
+00:00:20.477 --> 00:00:21.844
+the store’s Location ID
+
+00:00:21.844 --> 00:00:23.783
+matches the unit’s Store ID.
+
+00:00:25.126 --> 00:00:27.066
+Data bindings map the definitions
+
+00:00:27.066 --> 00:00:28.082
+to their source tables
+
+00:00:28.082 --> 00:00:29.226
+in a lakehouse.
+
+00:00:30.572 --> 00:00:33.033
+A consuming application uses these mappings
+
+00:00:33.033 --> 00:00:34.594
+to query the sources.
+
+00:00:35.275 --> 00:00:37.552
+The ontology defines the connection;
+
+00:00:37.553 --> 00:00:38.530
+source records stay
+
+00:00:38.530 --> 00:00:40.078
+in their owning systems.
