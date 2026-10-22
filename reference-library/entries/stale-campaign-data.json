@@ -1,0 +1,507 @@
+{
+  "id": "stale-campaign-data",
+  "index": 12,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 147,
+  "source_end": 159.3,
+  "source_timecode": "02:27.00\u201302:39.30",
+  "template_id": "stale-context",
+  "label": "Campaign answer based on stale data",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Distinguish freshness failure from a missing metric definition.",
+  "relationship": "prior context \u2192 change \u2192 mismatch",
+  "original_transcript": "free trial exists. Sorry, free trials. Uh or if you ask like, \"What campaign is is performing best?\" It might have no idea that like the campaigns table is super laggy. So, if you actually want, you know, the latest data, you have to go straight to HubSpot via MCP. And more broadly, all of our companies, you know,",
+  "original_transcript_segments": [
+    {
+      "text": "free trial exists. Sorry, free trials.",
+      "start": 142.959,
+      "end": 148.08
+    },
+    {
+      "text": "Uh or if you ask like, \"What campaign is",
+      "start": 145.6,
+      "end": 150.36
+    },
+    {
+      "text": "is performing best?\" It might have no",
+      "start": 148.08,
+      "end": 152.48
+    },
+    {
+      "text": "idea that like the campaigns table is",
+      "start": 150.36,
+      "end": 154.8
+    },
+    {
+      "text": "super laggy. So, if you actually want,",
+      "start": 152.48,
+      "end": 156.0
+    },
+    {
+      "text": "you know, the latest data, you have to",
+      "start": 154.8,
+      "end": 159.16
+    },
+    {
+      "text": "go straight to HubSpot via MCP. And more",
+      "start": 156.0,
+      "end": 160.92
+    },
+    {
+      "text": "broadly, all of our companies, you know,",
+      "start": 159.16,
+      "end": 162.72
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Explain why yesterday\u2019s context or assets no longer match today\u2019s question.",
+  "parameterized_transcript_patterns": [
+    "{{asset_or_rule}} changed, but {{system}} still uses {{old_context}}.",
+    "The {{entity}} was {{change}}, so the previous {{reference}} is now unreliable."
+  ],
+  "semantic_slots": [
+    "asset_or_rule",
+    "change",
+    "entity",
+    "old_context",
+    "reference",
+    "system"
+  ],
+  "selection_rule": "Use when time or organizational change breaks relevance.",
+  "better_alternative_or_misuse": "A stale icon does not prove freshness checks exist; show the changed reference and its consequence.",
+  "motion_recipe": "Reveal the original reference, mark the concrete change, then show the resulting mismatch.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 147.2,
+      "timecode": "02:27.20",
+      "images": {
+        "full_frame": "frames/full/0004416.jpg",
+        "graphic_region": "frames/graphic/0004416.jpg",
+        "requested_seconds": 147.2,
+        "sample_frame": 4416,
+        "normalized_source_seconds": 147.2,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "even that the concept of a free met uh a",
+          "start": 140.84,
+          "end": 145.6
+        },
+        {
+          "text": "free trial exists. Sorry, free trials.",
+          "start": 142.959,
+          "end": 148.08
+        },
+        {
+          "text": "Uh or if you ask like, \"What campaign is",
+          "start": 145.6,
+          "end": 150.36
+        },
+        {
+          "text": "is performing best?\" It might have no",
+          "start": 148.08,
+          "end": 152.48
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 149,
+      "timecode": "02:29.00",
+      "images": {
+        "full_frame": "frames/full/0004470.jpg",
+        "graphic_region": "frames/graphic/0004470.jpg",
+        "requested_seconds": 149,
+        "sample_frame": 4470,
+        "normalized_source_seconds": 149.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "free trial exists. Sorry, free trials.",
+          "start": 142.959,
+          "end": 148.08
+        },
+        {
+          "text": "Uh or if you ask like, \"What campaign is",
+          "start": 145.6,
+          "end": 150.36
+        },
+        {
+          "text": "is performing best?\" It might have no",
+          "start": 148.08,
+          "end": 152.48
+        },
+        {
+          "text": "idea that like the campaigns table is",
+          "start": 150.36,
+          "end": 154.8
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 152,
+      "timecode": "02:32.00",
+      "images": {
+        "full_frame": "frames/full/0004560.jpg",
+        "graphic_region": "frames/graphic/0004560.jpg",
+        "requested_seconds": 152,
+        "sample_frame": 4560,
+        "normalized_source_seconds": 152.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "Uh or if you ask like, \"What campaign is",
+          "start": 145.6,
+          "end": 150.36
+        },
+        {
+          "text": "is performing best?\" It might have no",
+          "start": 148.08,
+          "end": 152.48
+        },
+        {
+          "text": "idea that like the campaigns table is",
+          "start": 150.36,
+          "end": 154.8
+        },
+        {
+          "text": "super laggy. So, if you actually want,",
+          "start": 152.48,
+          "end": 156.0
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "intermediate observed state",
+      "time": 155,
+      "timecode": "02:35.00",
+      "images": {
+        "full_frame": "frames/full/0004650.jpg",
+        "graphic_region": "frames/graphic/0004650.jpg",
+        "requested_seconds": 155,
+        "sample_frame": 4650,
+        "normalized_source_seconds": 155.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "idea that like the campaigns table is",
+          "start": 150.36,
+          "end": 154.8
+        },
+        {
+          "text": "super laggy. So, if you actually want,",
+          "start": 152.48,
+          "end": 156.0
+        },
+        {
+          "text": "you know, the latest data, you have to",
+          "start": 154.8,
+          "end": 159.16
+        },
+        {
+          "text": "go straight to HubSpot via MCP. And more",
+          "start": 156.0,
+          "end": 160.92
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-05",
+      "sequence_role": "later observed state",
+      "time": 158.5,
+      "timecode": "02:38.50",
+      "images": {
+        "full_frame": "frames/full/0004755.jpg",
+        "graphic_region": "frames/graphic/0004755.jpg",
+        "requested_seconds": 158.5,
+        "sample_frame": 4755,
+        "normalized_source_seconds": 158.5,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "you know, the latest data, you have to",
+          "start": 154.8,
+          "end": 159.16
+        },
+        {
+          "text": "go straight to HubSpot via MCP. And more",
+          "start": 156.0,
+          "end": 160.92
+        },
+        {
+          "text": "broadly, all of our companies, you know,",
+          "start": 159.16,
+          "end": 162.72
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 147,
+      "nearby_original_transcript": [
+        {
+          "text": "even that the concept of a free met uh a",
+          "start": 140.84,
+          "end": 145.6
+        },
+        {
+          "text": "free trial exists. Sorry, free trials.",
+          "start": 142.959,
+          "end": 148.08
+        },
+        {
+          "text": "Uh or if you ask like, \"What campaign is",
+          "start": 145.6,
+          "end": 150.36
+        },
+        {
+          "text": "is performing best?\" It might have no",
+          "start": 148.08,
+          "end": 152.48
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0004410.jpg",
+          "graphic_region": "frames/graphic/0004410.jpg",
+          "requested_seconds": 147,
+          "sample_frame": 4410,
+          "normalized_source_seconds": 147.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0004418.jpg",
+          "graphic_region": "frames/graphic/0004418.jpg",
+          "requested_seconds": 147.25,
+          "sample_frame": 4418,
+          "normalized_source_seconds": 147.26666666666668,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0004440.jpg",
+          "graphic_region": "frames/graphic/0004440.jpg",
+          "requested_seconds": 148,
+          "sample_frame": 4440,
+          "normalized_source_seconds": 148.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 151,
+      "nearby_original_transcript": [
+        {
+          "text": "Uh or if you ask like, \"What campaign is",
+          "start": 145.6,
+          "end": 150.36
+        },
+        {
+          "text": "is performing best?\" It might have no",
+          "start": 148.08,
+          "end": 152.48
+        },
+        {
+          "text": "idea that like the campaigns table is",
+          "start": 150.36,
+          "end": 154.8
+        },
+        {
+          "text": "super laggy. So, if you actually want,",
+          "start": 152.48,
+          "end": 156.0
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0004522.jpg",
+          "graphic_region": "frames/graphic/0004522.jpg",
+          "requested_seconds": 150.75,
+          "sample_frame": 4522,
+          "normalized_source_seconds": 150.73333333333332,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0004538.jpg",
+          "graphic_region": "frames/graphic/0004538.jpg",
+          "requested_seconds": 151.25,
+          "sample_frame": 4538,
+          "normalized_source_seconds": 151.26666666666668,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0004560.jpg",
+          "graphic_region": "frames/graphic/0004560.jpg",
+          "requested_seconds": 152,
+          "sample_frame": 4560,
+          "normalized_source_seconds": 152.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 154,
+      "nearby_original_transcript": [
+        {
+          "text": "is performing best?\" It might have no",
+          "start": 148.08,
+          "end": 152.48
+        },
+        {
+          "text": "idea that like the campaigns table is",
+          "start": 150.36,
+          "end": 154.8
+        },
+        {
+          "text": "super laggy. So, if you actually want,",
+          "start": 152.48,
+          "end": 156.0
+        },
+        {
+          "text": "you know, the latest data, you have to",
+          "start": 154.8,
+          "end": 159.16
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0004612.jpg",
+          "graphic_region": "frames/graphic/0004612.jpg",
+          "requested_seconds": 153.75,
+          "sample_frame": 4612,
+          "normalized_source_seconds": 153.73333333333332,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0004628.jpg",
+          "graphic_region": "frames/graphic/0004628.jpg",
+          "requested_seconds": 154.25,
+          "sample_frame": 4628,
+          "normalized_source_seconds": 154.26666666666668,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0004650.jpg",
+          "graphic_region": "frames/graphic/0004650.jpg",
+          "requested_seconds": 155,
+          "sample_frame": 4650,
+          "normalized_source_seconds": 155.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 157,
+      "nearby_original_transcript": [
+        {
+          "text": "super laggy. So, if you actually want,",
+          "start": 152.48,
+          "end": 156.0
+        },
+        {
+          "text": "you know, the latest data, you have to",
+          "start": 154.8,
+          "end": 159.16
+        },
+        {
+          "text": "go straight to HubSpot via MCP. And more",
+          "start": 156.0,
+          "end": 160.92
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0004702.jpg",
+          "graphic_region": "frames/graphic/0004702.jpg",
+          "requested_seconds": 156.75,
+          "sample_frame": 4702,
+          "normalized_source_seconds": 156.73333333333332,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0004718.jpg",
+          "graphic_region": "frames/graphic/0004718.jpg",
+          "requested_seconds": 157.25,
+          "sample_frame": 4718,
+          "normalized_source_seconds": 157.26666666666668,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0004740.jpg",
+          "graphic_region": "frames/graphic/0004740.jpg",
+          "requested_seconds": 158,
+          "sample_frame": 4740,
+          "normalized_source_seconds": 158.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "05-query-ambiguity",
+      "observed_state_pattern": "Business metric example \u2192 user question \u2192 rule/freshness problem \u2192 visible answer consequence.",
+      "persistent_context": "The relevant question and source route remain visible for each example.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0004755.jpg",
+      "frames/graphic/0004416.jpg",
+      "frames/graphic/0004560.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0004755.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

@@ -1,6 +1,7 @@
 {
   "mode": "reference-reconstruction",
   "visual_workflow": "image-first",
+  "source_library_required": true,
   "audience": "Technical practitioners learning the reference explanation",
   "scope": "One image-first design pilot, not another whole-video motion render",
   "generation_authorization": "User explicitly requested generated graphic images and multiple storyboard images before motion.",
@@ -16,7 +17,7 @@
       "assets": "Generated master still and two image edits, source reference and rejected baseline. Editable layers are specified but not yet implemented.",
       "reason": "A left-to-right input, mechanism and outcome flow makes the relationship explicit. It is not a business-data architecture or a hierarchy.",
       "alternative_and_tradeoff": "A screenshot of search results. A screenshot could prove a specific result, but would obscure the conceptual input-to-model-to-output relationship being introduced here.",
-      "state_plan": "Input \u2192 input and model \u2192 completed flow. Earlier states derived from the selected candidate master. Actual motion alignment is pending.",
+      "state_plan": "Model introduced \u2192 web input added \u2192 completed result flow. Earlier states derived from the selected candidate master. Actual motion alignment is pending.",
       "clarity_check": "Review source versus candidate for typography, icon mass, card scale, shadow, spacing and continuity. Model-card relative scale remains a refinement; no visual approval asserted.",
       "sources": [
         "https://www.youtube.com/watch?v=HtR5m5VjaDQ"
@@ -25,32 +26,64 @@
       "source_end": 119,
       "status": "assets_ready",
       "master_image": "web-search/03-settled-master.png",
+      "reference_library_entry": "../reference-library/entries/constrained-web-flow.json",
+      "reference_images": [
+        "../reference-library/frames/graphic/0003510.jpg",
+        "../reference-library/frames/graphic/0003390.jpg",
+        "../reference-library/frames/graphic/0003450.jpg"
+      ],
+      "reference_selection_reason": "The source teaches the same constrained-context input/mechanism/outcome relationship; its inspected model-first reveal corrects the earlier inferred web-first order.",
+      "source_observations": {
+        "reading_order": [
+          "Web Search",
+          "Generic Models",
+          "Accurate Results"
+        ],
+        "observed_reveal_order": [
+          "Peach model surface grows into place",
+          "Model icon/label settle; card briefly larger than settled size",
+          "Web-search input and its connector appear",
+          "Result card and second connector appear",
+          "Complete three-card flow holds"
+        ],
+        "evidence_notes": {
+          "110.3": "Only a tiny peach model surface is visible.",
+          "111.5": "Model card, icon and label visible at larger transient scale.",
+          "113": "Model card settled by itself.",
+          "115": "Web card and first arrow visible; result card still faint.",
+          "117": "Complete flow is readable.",
+          "123": "Completed flow is retained."
+        },
+        "speech_mapping": "The speaker introduces generic models before describing web search. Finished diagram reading direction is not its reveal order.",
+        "confidence": "Direct visual inspection of source crops at 110.3, 111.5, 113, 115 and 117 seconds."
+      },
       "state_images": [
         {
-          "id": "input",
-          "image": "web-search/01-input.png",
-          "narration_role": "Introduce the web-search input as it is named.",
+          "id": "model-introduction",
+          "image": "web-search/01-model-first.png",
+          "narration_role": "The speaker first introduces generic models; establish that focal object before its web-search input.",
           "visible": [
-            "web-card",
-            "web-icon",
-            "web-label",
+            "model-card",
+            "model-icon",
+            "model-label",
             "presenter-slot",
             "background"
           ],
-          "new_understanding": "Identify the input source before showing its route.",
-          "next_transition": "Reveal first connector, then the model surface, icon and label.",
+          "new_understanding": "Identify the mechanism the speaker introduces first.",
+          "next_transition": "Add the web-search input and its connector while retaining the model in place.",
           "persistent": [
             "background",
-            "web-card",
-            "web-icon",
-            "web-label",
+            "model-card",
+            "model-icon",
+            "model-label",
             "presenter-slot"
-          ]
+          ],
+          "source_reference_seconds": 113
         },
         {
-          "id": "model",
+          "id": "add-web-input",
           "image": "web-search/02-model.png",
-          "narration_role": "Show the generic model using the constrained search input.",
+          "narration_role": "As web search is named, attach the input to the already-established generic model.",
           "visible": [
             "web-card",
             "web-icon",
@@ -62,7 +95,7 @@
             "presenter-slot",
             "background"
           ],
-          "new_understanding": "Make the input-to-model relationship visible; the model is the focal object.",
+          "new_understanding": "Understand what information feeds the model.",
           "next_transition": "Reveal second connector and result components, then hold the complete flow.",
           "persistent": [
             "background",
@@ -74,7 +107,8 @@
             "model-icon",
             "model-label",
             "presenter-slot"
-          ]
+          ],
+          "source_reference_seconds": 115
         },
         {
           "id": "result",
@@ -99,7 +133,8 @@
           "next_transition": "Reading hold, then the separately storyboarded business-context counterexample.",
           "persistent": [
             "all components until the next conceptual change"
-          ]
+          ],
+          "source_reference_seconds": 117
         }
       ],
       "visual_approved_by_user": false,

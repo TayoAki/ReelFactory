@@ -1,0 +1,52 @@
+{
+  "id": "context-repair",
+  "relationship": "broken route \u2192 missing context \u2192 repaired route",
+  "teaching_job": "Show how named business context improves an otherwise ambiguous route.",
+  "transcript_patterns": [
+    "To answer {{question}} correctly, connect {{data}} with {{definition_or_context}}.",
+    "The missing piece is {{business_context}}, which tells {{system}} how to interpret {{asset}}."
+  ],
+  "semantic_slots": [
+    "asset",
+    "business_context",
+    "data",
+    "definition_or_context",
+    "question",
+    "system"
+  ],
+  "choose_when": "Use after a concrete failure has established why the missing context matters.",
+  "choose_something_else_when": "Do not promise that context fixes all data-quality, model or authorization failures.",
+  "motion_grammar": "Retain the failed route, add the specific missing context, reconnect the relevant paths and hold the repaired relationship.",
+  "instances": [
+    "context-repairs-route"
+  ],
+  "classification": "Curated editorial teaching template; not a trained classifier or a product fact.",
+  "required_pattern_slots": [
+    [
+      "data",
+      "definition_or_context",
+      "question"
+    ],
+    [
+      "asset",
+      "business_context",
+      "system"
+    ]
+  ],
+  "filled_source_sentence_scaffolds": [
+    "To answer A business question correctly, connect Company data with Business definitions and relevant context.",
+    "The missing piece is Meaning, authority and rules the generic model lacks, which tells The answering system how to interpret The connected business source."
+  ],
+  "unbound_source_example_slots": [],
+  "representative_entry": "context-repairs-route",
+  "example_source_bindings": {
+    "question": "A business question",
+    "data": "Company data",
+    "definition_or_context": "Business definitions and relevant context",
+    "business_context": "Meaning, authority and rules the generic model lacks",
+    "system": "The answering system",
+    "asset": "The connected business source"
+  },
+  "paired_source_quote": "sophisticated a model is, and these models are really sophisticated. They can do graduate-level math, but they struggle to answer business questions because they're missing that critical context. Uh but Genie was built for exactly those types of questions, and it helps that we've been working on this this context problem for a long time. Uh Genie understands your your data sources, your definitions, even who's most authoritative when it comes to drafting those definitions, and we do that through the Genie ontology.",
+  "source_binding_status": "Editorial binding/paraphrase of source roles; raw transcript remains separately preserved. Do not treat bindings as word-for-word quotation."
+}

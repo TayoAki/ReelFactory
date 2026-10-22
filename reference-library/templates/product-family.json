@@ -1,0 +1,63 @@
+{
+  "id": "product-family",
+  "relationship": "shared foundation \u2192 different roles",
+  "teaching_job": "Compare related offerings while distinguishing their jobs.",
+  "transcript_patterns": [
+    "{{family}} shares {{foundation}}, while {{product_a}} serves {{job_a}} and {{product_b}} serves {{job_b}}.",
+    "These are different ways to use {{shared_capability}}, depending on {{user_job}}."
+  ],
+  "semantic_slots": [
+    "family",
+    "foundation",
+    "job_a",
+    "job_b",
+    "jobs",
+    "product_a",
+    "product_b",
+    "products",
+    "shared_capability",
+    "user_job"
+  ],
+  "choose_when": "Use when the products are peers with shared foundations.",
+  "choose_something_else_when": "Do not turn peer products into an execution pipeline or imply dependency from card depth.",
+  "motion_grammar": "Show a shared stack, then spread peer cards while preserving the front card and each readable plane.",
+  "instances": [
+    "family-stack",
+    "family-peers"
+  ],
+  "classification": "Curated editorial teaching template; not a trained classifier or a product fact.",
+  "required_pattern_slots": [
+    [
+      "family",
+      "foundation",
+      "job_a",
+      "job_b",
+      "product_a",
+      "product_b"
+    ],
+    [
+      "shared_capability",
+      "user_job"
+    ]
+  ],
+  "filled_source_sentence_scaffolds": [
+    "Databricks AI coworkers shares Shared context and platform capabilities, while Genie One serves business-user coworker tasks and Genie Code serves coding coworker tasks.",
+    "These are different ways to use platform context, depending on The work and audience being served."
+  ],
+  "unbound_source_example_slots": [],
+  "representative_entry": "family-peers",
+  "example_source_bindings": {
+    "family": "Databricks AI coworkers",
+    "foundation": "Shared context and platform capabilities",
+    "products": "Genie One, Genie Agents and Genie Code as introduced in the source",
+    "jobs": "Distinct business-user, custom-agent and coding roles",
+    "user_job": "The work and audience being served",
+    "product_a": "Genie One",
+    "product_b": "Genie Code",
+    "job_a": "business-user coworker tasks",
+    "job_b": "coding coworker tasks",
+    "shared_capability": "platform context"
+  },
+  "paired_source_quote": "and other AI tools on Databricks. So, if for example, if Genie 1 is our agent for business users, Genie code is our agent for technical users. It helps them write code and and do other work within the lakehouse. We also have Genie agents, which can be accessed by both types of users, and they're really focused on domain-specific work. They're They're essentially domain experts, and I can actually cover that in more depth if we want to. And then, if all those",
+  "source_binding_status": "Editorial binding/paraphrase of source roles; raw transcript remains separately preserved. Do not treat bindings as word-for-word quotation."
+}

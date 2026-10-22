@@ -1,0 +1,53 @@
+{
+  "id": "stale-context",
+  "relationship": "prior context \u2192 change \u2192 mismatch",
+  "teaching_job": "Explain why yesterday\u2019s context or assets no longer match today\u2019s question.",
+  "transcript_patterns": [
+    "{{asset_or_rule}} changed, but {{system}} still uses {{old_context}}.",
+    "The {{entity}} was {{change}}, so the previous {{reference}} is now unreliable."
+  ],
+  "semantic_slots": [
+    "asset_or_rule",
+    "change",
+    "entity",
+    "old_context",
+    "reference",
+    "system"
+  ],
+  "choose_when": "Use when time or organizational change breaks relevance.",
+  "choose_something_else_when": "A stale icon does not prove freshness checks exist; show the changed reference and its consequence.",
+  "motion_grammar": "Reveal the original reference, mark the concrete change, then show the resulting mismatch.",
+  "instances": [
+    "stale-campaign-data",
+    "context-drifts"
+  ],
+  "classification": "Curated editorial teaching template; not a trained classifier or a product fact.",
+  "required_pattern_slots": [
+    [
+      "asset_or_rule",
+      "old_context",
+      "system"
+    ],
+    [
+      "change",
+      "entity",
+      "reference"
+    ]
+  ],
+  "filled_source_sentence_scaffolds": [
+    "Business references and institutional context changed, but the answering system still uses The earlier reference or explanation.",
+    "The Table, document or person was A table renamed, a reference outdated, or a knowledgeable person leaving, so the previous The prior business-context source is now unreliable."
+  ],
+  "unbound_source_example_slots": [],
+  "representative_entry": "context-drifts",
+  "example_source_bindings": {
+    "asset_or_rule": "Business references and institutional context",
+    "change": "A table renamed, a reference outdated, or a knowledgeable person leaving",
+    "old_context": "The earlier reference or explanation",
+    "entity": "Table, document or person",
+    "reference": "The prior business-context source",
+    "system": "the answering system"
+  },
+  "paired_source_quote": "that knowledge moves, right? Tables get renamed, documents go stale, people leave the company. So, no matter how sophisticated a model is, and these models are really sophisticated. They",
+  "source_binding_status": "Editorial binding/paraphrase of source roles; raw transcript remains separately preserved. Do not treat bindings as word-for-word quotation."
+}

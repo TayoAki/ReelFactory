@@ -1,0 +1,46 @@
+{
+  "id": "callout",
+  "relationship": "spoken concept \u2192 concise emphasis",
+  "teaching_job": "Make a named phrase visible without adding an unspoken relationship.",
+  "transcript_patterns": [
+    "The key idea is {{concept}}.",
+    "We need both {{concern_a}} and {{concern_b}}."
+  ],
+  "semantic_slots": [
+    "concept",
+    "concern_a",
+    "concern_b",
+    "concerns"
+  ],
+  "choose_when": "Use for a short framing or recap phrase.",
+  "choose_something_else_when": "Use a diagram when the mechanism needs explanation; a floating word is insufficient.",
+  "motion_grammar": "Reveal the named phrase or pill at the speech cue, retain it only while it supports the point.",
+  "instances": [
+    "topic-callout",
+    "outcome-callouts"
+  ],
+  "classification": "Curated editorial teaching template; not a trained classifier or a product fact.",
+  "required_pattern_slots": [
+    [
+      "concept"
+    ],
+    [
+      "concern_a",
+      "concern_b"
+    ]
+  ],
+  "filled_source_sentence_scaffolds": [
+    "The key idea is The business concerns the host names.",
+    "We need both visibility and business context."
+  ],
+  "unbound_source_example_slots": [],
+  "representative_entry": "outcome-callouts",
+  "example_source_bindings": {
+    "concept": "The business concerns the host names",
+    "concerns": "Visibility and business context",
+    "concern_a": "visibility",
+    "concern_b": "business context"
+  },
+  "paired_source_quote": "visibility perspective, from an understanding the business perspective, all of that descriptive analytics, if you will, in a much more tailored way. But what happens when you want to go from just looking at data and you actually want to do something with the data?",
+  "source_binding_status": "Editorial binding/paraphrase of source roles; raw transcript remains separately preserved. Do not treat bindings as word-for-word quotation."
+}

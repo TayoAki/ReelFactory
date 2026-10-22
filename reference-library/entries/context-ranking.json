@@ -1,0 +1,652 @@
+{
+  "id": "context-ranking",
+  "index": 21,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 402,
+  "source_end": 438,
+  "source_timecode": "06:42.00\u201307:18.00",
+  "template_id": "ranked-context",
+  "label": "OntoRank and named relevance criteria",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Explain why context candidates differ in relevance and authority.",
+  "relationship": "candidate context \u2192 ranking criteria \u2192 relevant context",
+  "original_transcript": "how might we define churn for our team? And as Genie is amassing all this information, both this modeled and learned knowledge, it's all going into one single ranking algorithm that we call Ontorank. Given a Given a query that someone posts in an agent, what are the assets that are most likely to be helpful in answering that in that question? So, for example, it looks at things like popularity, certification status, authorship to to try to find the most valuable information, to dedupe against across uh conflicting information, and so on. And it's not just questions that you put",
+  "original_transcript_segments": [
+    {
+      "text": "how might we define churn for our team?",
+      "start": 398.16,
+      "end": 404.52
+    },
+    {
+      "text": "And as Genie is amassing all this",
+      "start": 401.48,
+      "end": 407.04
+    },
+    {
+      "text": "information, both this modeled and",
+      "start": 404.52,
+      "end": 409.56
+    },
+    {
+      "text": "learned knowledge, it's all going into",
+      "start": 407.04,
+      "end": 411.76
+    },
+    {
+      "text": "one single ranking algorithm that we",
+      "start": 409.56,
+      "end": 413.72
+    },
+    {
+      "text": "call Ontorank.",
+      "start": 411.76,
+      "end": 416.8
+    },
+    {
+      "text": "Given a Given a query that someone posts",
+      "start": 413.72,
+      "end": 418.76
+    },
+    {
+      "text": "in an agent, what are the assets that",
+      "start": 416.8,
+      "end": 420.36
+    },
+    {
+      "text": "are most likely to be helpful in",
+      "start": 418.76,
+      "end": 422.36
+    },
+    {
+      "text": "answering that in that question? So, for",
+      "start": 420.36,
+      "end": 424.4
+    },
+    {
+      "text": "example, it looks at things like",
+      "start": 422.36,
+      "end": 427.16
+    },
+    {
+      "text": "popularity, certification status,",
+      "start": 424.4,
+      "end": 429.48
+    },
+    {
+      "text": "authorship to",
+      "start": 427.16,
+      "end": 431.12
+    },
+    {
+      "text": "to try to find the most valuable",
+      "start": 429.48,
+      "end": 435.08
+    },
+    {
+      "text": "information, to dedupe against across uh",
+      "start": 431.12,
+      "end": 437.56
+    },
+    {
+      "text": "conflicting information, and so on. And",
+      "start": 435.08,
+      "end": 439.76
+    },
+    {
+      "text": "it's not just questions that you put",
+      "start": 437.56,
+      "end": 442.8
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Explain how a system chooses among contextual candidates.",
+  "parameterized_transcript_patterns": [
+    "{{system}} prioritizes {{context}} using {{criterion_a}}, {{criterion_b}} and {{criterion_c}}.",
+    "Not every {{candidate}} is equally useful; {{ranking_rule}} changes which ones matter for {{question}}."
+  ],
+  "semantic_slots": [
+    "candidate",
+    "context",
+    "criteria",
+    "criterion_a",
+    "criterion_b",
+    "criterion_c",
+    "question",
+    "ranking_rule",
+    "system"
+  ],
+  "selection_rule": "Use when relevance or prioritization is the causal lesson.",
+  "better_alternative_or_misuse": "A generic node graph does not explain ranking; name the criteria and avoid inventing numerical weights.",
+  "motion_recipe": "Establish candidates, focus the ranking mechanism, expose named criteria and return to consumers.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 403,
+      "timecode": "06:43.00",
+      "images": {
+        "full_frame": "frames/full/0012090.jpg",
+        "graphic_region": "frames/graphic/0012090.jpg",
+        "requested_seconds": 403,
+        "sample_frame": 12090,
+        "normalized_source_seconds": 403.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "metric definition. So, for example, like",
+          "start": 396.2,
+          "end": 401.48
+        },
+        {
+          "text": "how might we define churn for our team?",
+          "start": 398.16,
+          "end": 404.52
+        },
+        {
+          "text": "And as Genie is amassing all this",
+          "start": 401.48,
+          "end": 407.04
+        },
+        {
+          "text": "information, both this modeled and",
+          "start": 404.52,
+          "end": 409.56
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 410,
+      "timecode": "06:50.00",
+      "images": {
+        "full_frame": "frames/full/0012300.jpg",
+        "graphic_region": "frames/graphic/0012300.jpg",
+        "requested_seconds": 410,
+        "sample_frame": 12300,
+        "normalized_source_seconds": 410.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "information, both this modeled and",
+          "start": 404.52,
+          "end": 409.56
+        },
+        {
+          "text": "learned knowledge, it's all going into",
+          "start": 407.04,
+          "end": 411.76
+        },
+        {
+          "text": "one single ranking algorithm that we",
+          "start": 409.56,
+          "end": 413.72
+        },
+        {
+          "text": "call Ontorank.",
+          "start": 411.76,
+          "end": 416.8
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 414,
+      "timecode": "06:54.00",
+      "images": {
+        "full_frame": "frames/full/0012420.jpg",
+        "graphic_region": "frames/graphic/0012420.jpg",
+        "requested_seconds": 414,
+        "sample_frame": 12420,
+        "normalized_source_seconds": 414.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "one single ranking algorithm that we",
+          "start": 409.56,
+          "end": 413.72
+        },
+        {
+          "text": "call Ontorank.",
+          "start": 411.76,
+          "end": 416.8
+        },
+        {
+          "text": "Given a Given a query that someone posts",
+          "start": 413.72,
+          "end": 418.76
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "intermediate observed state",
+      "time": 420,
+      "timecode": "07:00.00",
+      "images": {
+        "full_frame": "frames/full/0012600.jpg",
+        "graphic_region": "frames/graphic/0012600.jpg",
+        "requested_seconds": 420,
+        "sample_frame": 12600,
+        "normalized_source_seconds": 420.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "Given a Given a query that someone posts",
+          "start": 413.72,
+          "end": 418.76
+        },
+        {
+          "text": "in an agent, what are the assets that",
+          "start": 416.8,
+          "end": 420.36
+        },
+        {
+          "text": "are most likely to be helpful in",
+          "start": 418.76,
+          "end": 422.36
+        },
+        {
+          "text": "answering that in that question? So, for",
+          "start": 420.36,
+          "end": 424.4
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-05",
+      "sequence_role": "intermediate observed state",
+      "time": 429,
+      "timecode": "07:09.00",
+      "images": {
+        "full_frame": "frames/full/0012870.jpg",
+        "graphic_region": "frames/graphic/0012870.jpg",
+        "requested_seconds": 429,
+        "sample_frame": 12870,
+        "normalized_source_seconds": 429.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "example, it looks at things like",
+          "start": 422.36,
+          "end": 427.16
+        },
+        {
+          "text": "popularity, certification status,",
+          "start": 424.4,
+          "end": 429.48
+        },
+        {
+          "text": "authorship to",
+          "start": 427.16,
+          "end": 431.12
+        },
+        {
+          "text": "to try to find the most valuable",
+          "start": 429.48,
+          "end": 435.08
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-06",
+      "sequence_role": "later observed state",
+      "time": 437,
+      "timecode": "07:17.00",
+      "images": {
+        "full_frame": "frames/full/0013110.jpg",
+        "graphic_region": "frames/graphic/0013110.jpg",
+        "requested_seconds": 437,
+        "sample_frame": 13110,
+        "normalized_source_seconds": 437.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "to try to find the most valuable",
+          "start": 429.48,
+          "end": 435.08
+        },
+        {
+          "text": "information, to dedupe against across uh",
+          "start": 431.12,
+          "end": 437.56
+        },
+        {
+          "text": "conflicting information, and so on. And",
+          "start": 435.08,
+          "end": 439.76
+        },
+        {
+          "text": "it's not just questions that you put",
+          "start": 437.56,
+          "end": 442.8
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 403,
+      "nearby_original_transcript": [
+        {
+          "text": "metric definition. So, for example, like",
+          "start": 396.2,
+          "end": 401.48
+        },
+        {
+          "text": "how might we define churn for our team?",
+          "start": 398.16,
+          "end": 404.52
+        },
+        {
+          "text": "And as Genie is amassing all this",
+          "start": 401.48,
+          "end": 407.04
+        },
+        {
+          "text": "information, both this modeled and",
+          "start": 404.52,
+          "end": 409.56
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0012082.jpg",
+          "graphic_region": "frames/graphic/0012082.jpg",
+          "requested_seconds": 402.75,
+          "sample_frame": 12082,
+          "normalized_source_seconds": 402.73333333333335,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0012098.jpg",
+          "graphic_region": "frames/graphic/0012098.jpg",
+          "requested_seconds": 403.25,
+          "sample_frame": 12098,
+          "normalized_source_seconds": 403.26666666666665,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0012120.jpg",
+          "graphic_region": "frames/graphic/0012120.jpg",
+          "requested_seconds": 404,
+          "sample_frame": 12120,
+          "normalized_source_seconds": 404.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 409,
+      "nearby_original_transcript": [
+        {
+          "text": "And as Genie is amassing all this",
+          "start": 401.48,
+          "end": 407.04
+        },
+        {
+          "text": "information, both this modeled and",
+          "start": 404.52,
+          "end": 409.56
+        },
+        {
+          "text": "learned knowledge, it's all going into",
+          "start": 407.04,
+          "end": 411.76
+        },
+        {
+          "text": "one single ranking algorithm that we",
+          "start": 409.56,
+          "end": 413.72
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0012262.jpg",
+          "graphic_region": "frames/graphic/0012262.jpg",
+          "requested_seconds": 408.75,
+          "sample_frame": 12262,
+          "normalized_source_seconds": 408.73333333333335,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0012278.jpg",
+          "graphic_region": "frames/graphic/0012278.jpg",
+          "requested_seconds": 409.25,
+          "sample_frame": 12278,
+          "normalized_source_seconds": 409.26666666666665,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0012300.jpg",
+          "graphic_region": "frames/graphic/0012300.jpg",
+          "requested_seconds": 410,
+          "sample_frame": 12300,
+          "normalized_source_seconds": 410.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 413,
+      "nearby_original_transcript": [
+        {
+          "text": "learned knowledge, it's all going into",
+          "start": 407.04,
+          "end": 411.76
+        },
+        {
+          "text": "one single ranking algorithm that we",
+          "start": 409.56,
+          "end": 413.72
+        },
+        {
+          "text": "call Ontorank.",
+          "start": 411.76,
+          "end": 416.8
+        },
+        {
+          "text": "Given a Given a query that someone posts",
+          "start": 413.72,
+          "end": 418.76
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0012382.jpg",
+          "graphic_region": "frames/graphic/0012382.jpg",
+          "requested_seconds": 412.75,
+          "sample_frame": 12382,
+          "normalized_source_seconds": 412.73333333333335,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0012398.jpg",
+          "graphic_region": "frames/graphic/0012398.jpg",
+          "requested_seconds": 413.25,
+          "sample_frame": 12398,
+          "normalized_source_seconds": 413.26666666666665,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0012420.jpg",
+          "graphic_region": "frames/graphic/0012420.jpg",
+          "requested_seconds": 414,
+          "sample_frame": 12420,
+          "normalized_source_seconds": 414.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 419,
+      "nearby_original_transcript": [
+        {
+          "text": "Given a Given a query that someone posts",
+          "start": 413.72,
+          "end": 418.76
+        },
+        {
+          "text": "in an agent, what are the assets that",
+          "start": 416.8,
+          "end": 420.36
+        },
+        {
+          "text": "are most likely to be helpful in",
+          "start": 418.76,
+          "end": 422.36
+        },
+        {
+          "text": "answering that in that question? So, for",
+          "start": 420.36,
+          "end": 424.4
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0012562.jpg",
+          "graphic_region": "frames/graphic/0012562.jpg",
+          "requested_seconds": 418.75,
+          "sample_frame": 12562,
+          "normalized_source_seconds": 418.73333333333335,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0012578.jpg",
+          "graphic_region": "frames/graphic/0012578.jpg",
+          "requested_seconds": 419.25,
+          "sample_frame": 12578,
+          "normalized_source_seconds": 419.26666666666665,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0012600.jpg",
+          "graphic_region": "frames/graphic/0012600.jpg",
+          "requested_seconds": 420,
+          "sample_frame": 12600,
+          "normalized_source_seconds": 420.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 430,
+      "nearby_original_transcript": [
+        {
+          "text": "popularity, certification status,",
+          "start": 424.4,
+          "end": 429.48
+        },
+        {
+          "text": "authorship to",
+          "start": 427.16,
+          "end": 431.12
+        },
+        {
+          "text": "to try to find the most valuable",
+          "start": 429.48,
+          "end": 435.08
+        },
+        {
+          "text": "information, to dedupe against across uh",
+          "start": 431.12,
+          "end": 437.56
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0012892.jpg",
+          "graphic_region": "frames/graphic/0012892.jpg",
+          "requested_seconds": 429.75,
+          "sample_frame": 12892,
+          "normalized_source_seconds": 429.73333333333335,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0012908.jpg",
+          "graphic_region": "frames/graphic/0012908.jpg",
+          "requested_seconds": 430.25,
+          "sample_frame": 12908,
+          "normalized_source_seconds": 430.26666666666665,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0012930.jpg",
+          "graphic_region": "frames/graphic/0012930.jpg",
+          "requested_seconds": 431,
+          "sample_frame": 12930,
+          "normalized_source_seconds": 431.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "10-overview-rank",
+      "observed_state_pattern": "Return to master \u2192 ranking region emphasis \u2192 application/consumer focus.",
+      "persistent_context": "Master positions reappear rather than being redesigned between focuses.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0012600.jpg",
+      "frames/graphic/0012090.jpg",
+      "frames/graphic/0012420.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0012600.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

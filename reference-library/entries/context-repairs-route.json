@@ -1,0 +1,619 @@
+{
+  "id": "context-repairs-route",
+  "index": 14,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 183,
+  "source_end": 209.5,
+  "source_timecode": "03:03.00\u201303:29.50",
+  "template_id": "context-repair",
+  "label": "Add context to the data-to-result route",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Connect the missing business context to the existing question/result mechanism.",
+  "relationship": "broken route \u2192 missing context \u2192 repaired route",
+  "original_transcript": "sophisticated a model is, and these models are really sophisticated. They can do graduate-level math, but they struggle to answer business questions because they're missing that critical context. Uh but Genie was built for exactly those types of questions, and it helps that we've been working on this this context problem for a long time. Uh Genie understands your your data sources, your definitions, even who's most authoritative when it comes to drafting those definitions, and we do that through the Genie ontology.",
+  "original_transcript_segments": [
+    {
+      "text": "sophisticated a model is, and these",
+      "start": 179.12,
+      "end": 183.2
+    },
+    {
+      "text": "models are really sophisticated. They",
+      "start": 180.959,
+      "end": 185.44
+    },
+    {
+      "text": "can do graduate-level math, but they",
+      "start": 183.2,
+      "end": 187.76
+    },
+    {
+      "text": "struggle to answer business questions",
+      "start": 185.44,
+      "end": 189.84
+    },
+    {
+      "text": "because they're missing that critical",
+      "start": 187.76,
+      "end": 192.56
+    },
+    {
+      "text": "context. Uh but Genie was built for",
+      "start": 189.84,
+      "end": 194.32
+    },
+    {
+      "text": "exactly those types of questions, and it",
+      "start": 192.56,
+      "end": 195.72
+    },
+    {
+      "text": "helps that we've been working on this",
+      "start": 194.32,
+      "end": 198.959
+    },
+    {
+      "text": "this context problem for a long time. Uh",
+      "start": 195.72,
+      "end": 200.84
+    },
+    {
+      "text": "Genie understands your your data",
+      "start": 198.959,
+      "end": 203.68
+    },
+    {
+      "text": "sources, your definitions, even who's",
+      "start": 200.84,
+      "end": 205.08
+    },
+    {
+      "text": "most authoritative when it comes to",
+      "start": 203.68,
+      "end": 207.08
+    },
+    {
+      "text": "drafting those definitions, and we do",
+      "start": 205.08,
+      "end": 209.72
+    },
+    {
+      "text": "that through the Genie ontology.",
+      "start": 207.08,
+      "end": 212.2
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Show how named business context improves an otherwise ambiguous route.",
+  "parameterized_transcript_patterns": [
+    "To answer {{question}} correctly, connect {{data}} with {{definition_or_context}}.",
+    "The missing piece is {{business_context}}, which tells {{system}} how to interpret {{asset}}."
+  ],
+  "semantic_slots": [
+    "asset",
+    "business_context",
+    "data",
+    "definition_or_context",
+    "question",
+    "system"
+  ],
+  "selection_rule": "Use after a concrete failure has established why the missing context matters.",
+  "better_alternative_or_misuse": "Do not promise that context fixes all data-quality, model or authorization failures.",
+  "motion_recipe": "Retain the failed route, add the specific missing context, reconnect the relevant paths and hold the repaired relationship.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 183.3,
+      "timecode": "03:03.30",
+      "images": {
+        "full_frame": "frames/full/0005499.jpg",
+        "graphic_region": "frames/graphic/0005499.jpg",
+        "requested_seconds": 183.3,
+        "sample_frame": 5499,
+        "normalized_source_seconds": 183.3,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "sophisticated a model is, and these",
+          "start": 179.12,
+          "end": 183.2
+        },
+        {
+          "text": "models are really sophisticated. They",
+          "start": 180.959,
+          "end": 185.44
+        },
+        {
+          "text": "can do graduate-level math, but they",
+          "start": 183.2,
+          "end": 187.76
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 186,
+      "timecode": "03:06.00",
+      "images": {
+        "full_frame": "frames/full/0005580.jpg",
+        "graphic_region": "frames/graphic/0005580.jpg",
+        "requested_seconds": 186,
+        "sample_frame": 5580,
+        "normalized_source_seconds": 186.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "models are really sophisticated. They",
+          "start": 180.959,
+          "end": 185.44
+        },
+        {
+          "text": "can do graduate-level math, but they",
+          "start": 183.2,
+          "end": 187.76
+        },
+        {
+          "text": "struggle to answer business questions",
+          "start": 185.44,
+          "end": 189.84
+        },
+        {
+          "text": "because they're missing that critical",
+          "start": 187.76,
+          "end": 192.56
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 190,
+      "timecode": "03:10.00",
+      "images": {
+        "full_frame": "frames/full/0005700.jpg",
+        "graphic_region": "frames/graphic/0005700.jpg",
+        "requested_seconds": 190,
+        "sample_frame": 5700,
+        "normalized_source_seconds": 190.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "struggle to answer business questions",
+          "start": 185.44,
+          "end": 189.84
+        },
+        {
+          "text": "because they're missing that critical",
+          "start": 187.76,
+          "end": 192.56
+        },
+        {
+          "text": "context. Uh but Genie was built for",
+          "start": 189.84,
+          "end": 194.32
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "intermediate observed state",
+      "time": 198,
+      "timecode": "03:18.00",
+      "images": {
+        "full_frame": "frames/full/0005940.jpg",
+        "graphic_region": "frames/graphic/0005940.jpg",
+        "requested_seconds": 198,
+        "sample_frame": 5940,
+        "normalized_source_seconds": 198.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "helps that we've been working on this",
+          "start": 194.32,
+          "end": 198.959
+        },
+        {
+          "text": "this context problem for a long time. Uh",
+          "start": 195.72,
+          "end": 200.84
+        },
+        {
+          "text": "Genie understands your your data",
+          "start": 198.959,
+          "end": 203.68
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-05",
+      "sequence_role": "intermediate observed state",
+      "time": 203,
+      "timecode": "03:23.00",
+      "images": {
+        "full_frame": "frames/full/0006090.jpg",
+        "graphic_region": "frames/graphic/0006090.jpg",
+        "requested_seconds": 203,
+        "sample_frame": 6090,
+        "normalized_source_seconds": 203.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "Genie understands your your data",
+          "start": 198.959,
+          "end": 203.68
+        },
+        {
+          "text": "sources, your definitions, even who's",
+          "start": 200.84,
+          "end": 205.08
+        },
+        {
+          "text": "most authoritative when it comes to",
+          "start": 203.68,
+          "end": 207.08
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-06",
+      "sequence_role": "later observed state",
+      "time": 208,
+      "timecode": "03:28.00",
+      "images": {
+        "full_frame": "frames/full/0006240.jpg",
+        "graphic_region": "frames/graphic/0006240.jpg",
+        "requested_seconds": 208,
+        "sample_frame": 6240,
+        "normalized_source_seconds": 208.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "most authoritative when it comes to",
+          "start": 203.68,
+          "end": 207.08
+        },
+        {
+          "text": "drafting those definitions, and we do",
+          "start": 205.08,
+          "end": 209.72
+        },
+        {
+          "text": "that through the Genie ontology.",
+          "start": 207.08,
+          "end": 212.2
+        },
+        {
+          "text": "The ontology is a is a unified context",
+          "start": 209.72,
+          "end": 214.64
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 184,
+      "nearby_original_transcript": [
+        {
+          "text": "sophisticated a model is, and these",
+          "start": 179.12,
+          "end": 183.2
+        },
+        {
+          "text": "models are really sophisticated. They",
+          "start": 180.959,
+          "end": 185.44
+        },
+        {
+          "text": "can do graduate-level math, but they",
+          "start": 183.2,
+          "end": 187.76
+        },
+        {
+          "text": "struggle to answer business questions",
+          "start": 185.44,
+          "end": 189.84
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0005512.jpg",
+          "graphic_region": "frames/graphic/0005512.jpg",
+          "requested_seconds": 183.75,
+          "sample_frame": 5512,
+          "normalized_source_seconds": 183.73333333333332,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0005528.jpg",
+          "graphic_region": "frames/graphic/0005528.jpg",
+          "requested_seconds": 184.25,
+          "sample_frame": 5528,
+          "normalized_source_seconds": 184.26666666666668,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0005550.jpg",
+          "graphic_region": "frames/graphic/0005550.jpg",
+          "requested_seconds": 185,
+          "sample_frame": 5550,
+          "normalized_source_seconds": 185.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 189,
+      "nearby_original_transcript": [
+        {
+          "text": "can do graduate-level math, but they",
+          "start": 183.2,
+          "end": 187.76
+        },
+        {
+          "text": "struggle to answer business questions",
+          "start": 185.44,
+          "end": 189.84
+        },
+        {
+          "text": "because they're missing that critical",
+          "start": 187.76,
+          "end": 192.56
+        },
+        {
+          "text": "context. Uh but Genie was built for",
+          "start": 189.84,
+          "end": 194.32
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0005662.jpg",
+          "graphic_region": "frames/graphic/0005662.jpg",
+          "requested_seconds": 188.75,
+          "sample_frame": 5662,
+          "normalized_source_seconds": 188.73333333333332,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0005678.jpg",
+          "graphic_region": "frames/graphic/0005678.jpg",
+          "requested_seconds": 189.25,
+          "sample_frame": 5678,
+          "normalized_source_seconds": 189.26666666666668,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0005700.jpg",
+          "graphic_region": "frames/graphic/0005700.jpg",
+          "requested_seconds": 190,
+          "sample_frame": 5700,
+          "normalized_source_seconds": 190.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 196,
+      "nearby_original_transcript": [
+        {
+          "text": "context. Uh but Genie was built for",
+          "start": 189.84,
+          "end": 194.32
+        },
+        {
+          "text": "exactly those types of questions, and it",
+          "start": 192.56,
+          "end": 195.72
+        },
+        {
+          "text": "helps that we've been working on this",
+          "start": 194.32,
+          "end": 198.959
+        },
+        {
+          "text": "this context problem for a long time. Uh",
+          "start": 195.72,
+          "end": 200.84
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0005872.jpg",
+          "graphic_region": "frames/graphic/0005872.jpg",
+          "requested_seconds": 195.75,
+          "sample_frame": 5872,
+          "normalized_source_seconds": 195.73333333333332,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0005888.jpg",
+          "graphic_region": "frames/graphic/0005888.jpg",
+          "requested_seconds": 196.25,
+          "sample_frame": 5888,
+          "normalized_source_seconds": 196.26666666666668,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0005910.jpg",
+          "graphic_region": "frames/graphic/0005910.jpg",
+          "requested_seconds": 197,
+          "sample_frame": 5910,
+          "normalized_source_seconds": 197.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 202,
+      "nearby_original_transcript": [
+        {
+          "text": "this context problem for a long time. Uh",
+          "start": 195.72,
+          "end": 200.84
+        },
+        {
+          "text": "Genie understands your your data",
+          "start": 198.959,
+          "end": 203.68
+        },
+        {
+          "text": "sources, your definitions, even who's",
+          "start": 200.84,
+          "end": 205.08
+        },
+        {
+          "text": "most authoritative when it comes to",
+          "start": 203.68,
+          "end": 207.08
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0006052.jpg",
+          "graphic_region": "frames/graphic/0006052.jpg",
+          "requested_seconds": 201.75,
+          "sample_frame": 6052,
+          "normalized_source_seconds": 201.73333333333332,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0006068.jpg",
+          "graphic_region": "frames/graphic/0006068.jpg",
+          "requested_seconds": 202.25,
+          "sample_frame": 6068,
+          "normalized_source_seconds": 202.26666666666668,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0006090.jpg",
+          "graphic_region": "frames/graphic/0006090.jpg",
+          "requested_seconds": 203,
+          "sample_frame": 6090,
+          "normalized_source_seconds": 203.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 206,
+      "nearby_original_transcript": [
+        {
+          "text": "sources, your definitions, even who's",
+          "start": 200.84,
+          "end": 205.08
+        },
+        {
+          "text": "most authoritative when it comes to",
+          "start": 203.68,
+          "end": 207.08
+        },
+        {
+          "text": "drafting those definitions, and we do",
+          "start": 205.08,
+          "end": 209.72
+        },
+        {
+          "text": "that through the Genie ontology.",
+          "start": 207.08,
+          "end": 212.2
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0006172.jpg",
+          "graphic_region": "frames/graphic/0006172.jpg",
+          "requested_seconds": 205.75,
+          "sample_frame": 6172,
+          "normalized_source_seconds": 205.73333333333332,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0006188.jpg",
+          "graphic_region": "frames/graphic/0006188.jpg",
+          "requested_seconds": 206.25,
+          "sample_frame": 6188,
+          "normalized_source_seconds": 206.26666666666668,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0006210.jpg",
+          "graphic_region": "frames/graphic/0006210.jpg",
+          "requested_seconds": 207,
+          "sample_frame": 6210,
+          "normalized_source_seconds": 207.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "06-source-context",
+      "observed_state_pattern": "Existing assets \u2192 central model \u2192 context source added \u2192 corrected or enriched outputs.",
+      "persistent_context": "Prior sources and model survive the addition of context.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0006240.jpg",
+      "frames/graphic/0005499.jpg",
+      "frames/graphic/0005700.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0006240.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

@@ -1,0 +1,759 @@
+{
+  "id": "accuracy-runtime",
+  "index": 23,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 454,
+  "source_end": 512,
+  "source_timecode": "07:34.00\u201308:32.00",
+  "template_id": "benchmark",
+  "label": "Source-reported accuracy and runtime comparison",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Show two evaluation dimensions and retain their historical/source-reported scope.",
+  "relationship": "methods \u00d7 measures \u2192 qualified comparison",
+  "original_transcript": "benefit from this semantic layer. And that that benefit is very significant. Uh when we benchmark Genie with the ontology against the the strongest models available, it's consistently the top-performing agent for business questions and there were no trick questions in this benchmark. This is just real business questions with real business data and we saw more than 30 percentage point improvement in accuracy over the next best performing model. And it was also a lot quicker. After all, a generic agent has to make up for the fact that it doesn't know your business. So if it's not going to hallucinate, then it explores, right? It samples a bunch of schemas, it runs a bunch of extra queries, it grabs a bunch of documents and it loads all of that into the model's context in case any of it turns out to matter later. But Genie doesn't have to do as much work because it already knows which sources count and how to use them. And and I'm already really confident that as we continue to tune the onto rank algorithm and expand the depth of the ontology, I think this gap is going to is going to only widen. >> Now, I see accuracy,",
+  "original_transcript_segments": [
+    {
+      "text": "benefit from this semantic layer. And",
+      "start": 449.84,
+      "end": 455.0
+    },
+    {
+      "text": "that that benefit is very significant.",
+      "start": 452.36,
+      "end": 456.72
+    },
+    {
+      "text": "Uh when we benchmark Genie with the",
+      "start": 455.0,
+      "end": 458.8
+    },
+    {
+      "text": "ontology against the the strongest",
+      "start": 456.72,
+      "end": 461.76
+    },
+    {
+      "text": "models available, it's consistently the",
+      "start": 458.8,
+      "end": 463.88
+    },
+    {
+      "text": "top-performing agent for business",
+      "start": 461.76,
+      "end": 465.0
+    },
+    {
+      "text": "questions and there were no trick",
+      "start": 463.88,
+      "end": 466.52
+    },
+    {
+      "text": "questions in this benchmark. This is",
+      "start": 465.0,
+      "end": 468.68
+    },
+    {
+      "text": "just real business questions with real",
+      "start": 466.52,
+      "end": 471.08
+    },
+    {
+      "text": "business data and we saw more than 30",
+      "start": 468.68,
+      "end": 473.4
+    },
+    {
+      "text": "percentage point improvement in accuracy",
+      "start": 471.08,
+      "end": 475.52
+    },
+    {
+      "text": "over the next best performing model. And",
+      "start": 473.4,
+      "end": 478.16
+    },
+    {
+      "text": "it was also a lot quicker. After all, a",
+      "start": 475.52,
+      "end": 480.56
+    },
+    {
+      "text": "generic agent has to make up for the",
+      "start": 478.16,
+      "end": 482.4
+    },
+    {
+      "text": "fact that it doesn't know your business.",
+      "start": 480.56,
+      "end": 484.6
+    },
+    {
+      "text": "So if it's not going to hallucinate,",
+      "start": 482.4,
+      "end": 486.8
+    },
+    {
+      "text": "then it explores, right? It samples a",
+      "start": 484.6,
+      "end": 488.92
+    },
+    {
+      "text": "bunch of schemas, it runs a bunch of",
+      "start": 486.8,
+      "end": 490.6
+    },
+    {
+      "text": "extra queries, it grabs a bunch of",
+      "start": 488.92,
+      "end": 492.68
+    },
+    {
+      "text": "documents and it loads all of that into",
+      "start": 490.6,
+      "end": 494.84
+    },
+    {
+      "text": "the model's context in case any of it",
+      "start": 492.68,
+      "end": 496.8
+    },
+    {
+      "text": "turns out to matter later. But Genie",
+      "start": 494.84,
+      "end": 499.0
+    },
+    {
+      "text": "doesn't have to do as much work because",
+      "start": 496.8,
+      "end": 501.8
+    },
+    {
+      "text": "it already knows which sources count and",
+      "start": 499.0,
+      "end": 503.28
+    },
+    {
+      "text": "how to use them. And and I'm already",
+      "start": 501.8,
+      "end": 505.68
+    },
+    {
+      "text": "really confident that as we continue to",
+      "start": 503.28,
+      "end": 507.64
+    },
+    {
+      "text": "tune the onto rank algorithm and expand",
+      "start": 505.68,
+      "end": 509.56
+    },
+    {
+      "text": "the depth of the ontology, I think this",
+      "start": 507.64,
+      "end": 511.76
+    },
+    {
+      "text": "gap is going to is going to only widen.",
+      "start": 509.56,
+      "end": 514.56
+    },
+    {
+      "text": ">> Now, I see accuracy,",
+      "start": 511.76,
+      "end": 517.44
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Compare measured alternatives on explicit dimensions with source qualifications.",
+  "parameterized_transcript_patterns": [
+    "On {{evaluation_scope}}, {{method_a}} achieved {{measure_a}}, compared with {{method_b}} at {{measure_b}}.",
+    "The trade-off is {{dimension_a}} versus {{dimension_b}}, under {{test_conditions}}."
+  ],
+  "semantic_slots": [
+    "dimension_a",
+    "dimension_b",
+    "dimensions",
+    "evaluation_scope",
+    "measure_a",
+    "measure_b",
+    "measures",
+    "method_a",
+    "method_b",
+    "methods",
+    "test_conditions"
+  ],
+  "selection_rule": "Use for comparable measured data with a credible evaluation scope.",
+  "better_alternative_or_misuse": "Do not transfer source benchmark values to another product or imply universal results from one evaluation.",
+  "motion_recipe": "Fix axes and method order, build bars, introduce the interpretation after values, retain the qualification.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 454.4,
+      "timecode": "07:34.40",
+      "images": {
+        "full_frame": "frames/full/0013632.jpg",
+        "graphic_region": "frames/graphic/0013632.jpg",
+        "requested_seconds": 454.4,
+        "sample_frame": 13632,
+        "normalized_source_seconds": 454.4,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "benefit from this semantic layer. And",
+          "start": 449.84,
+          "end": 455.0
+        },
+        {
+          "text": "that that benefit is very significant.",
+          "start": 452.36,
+          "end": 456.72
+        },
+        {
+          "text": "Uh when we benchmark Genie with the",
+          "start": 455.0,
+          "end": 458.8
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 456,
+      "timecode": "07:36.00",
+      "images": {
+        "full_frame": "frames/full/0013680.jpg",
+        "graphic_region": "frames/graphic/0013680.jpg",
+        "requested_seconds": 456,
+        "sample_frame": 13680,
+        "normalized_source_seconds": 456.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "benefit from this semantic layer. And",
+          "start": 449.84,
+          "end": 455.0
+        },
+        {
+          "text": "that that benefit is very significant.",
+          "start": 452.36,
+          "end": 456.72
+        },
+        {
+          "text": "Uh when we benchmark Genie with the",
+          "start": 455.0,
+          "end": 458.8
+        },
+        {
+          "text": "ontology against the the strongest",
+          "start": 456.72,
+          "end": 461.76
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 462,
+      "timecode": "07:42.00",
+      "images": {
+        "full_frame": "frames/full/0013860.jpg",
+        "graphic_region": "frames/graphic/0013860.jpg",
+        "requested_seconds": 462,
+        "sample_frame": 13860,
+        "normalized_source_seconds": 462.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "ontology against the the strongest",
+          "start": 456.72,
+          "end": 461.76
+        },
+        {
+          "text": "models available, it's consistently the",
+          "start": 458.8,
+          "end": 463.88
+        },
+        {
+          "text": "top-performing agent for business",
+          "start": 461.76,
+          "end": 465.0
+        },
+        {
+          "text": "questions and there were no trick",
+          "start": 463.88,
+          "end": 466.52
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "intermediate observed state",
+      "time": 470,
+      "timecode": "07:50.00",
+      "images": {
+        "full_frame": "frames/full/0014100.jpg",
+        "graphic_region": "frames/graphic/0014100.jpg",
+        "requested_seconds": 470,
+        "sample_frame": 14100,
+        "normalized_source_seconds": 470.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "questions in this benchmark. This is",
+          "start": 465.0,
+          "end": 468.68
+        },
+        {
+          "text": "just real business questions with real",
+          "start": 466.52,
+          "end": 471.08
+        },
+        {
+          "text": "business data and we saw more than 30",
+          "start": 468.68,
+          "end": 473.4
+        },
+        {
+          "text": "percentage point improvement in accuracy",
+          "start": 471.08,
+          "end": 475.52
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-05",
+      "sequence_role": "intermediate observed state",
+      "time": 490,
+      "timecode": "08:10.00",
+      "images": {
+        "full_frame": "frames/full/0014700.jpg",
+        "graphic_region": "frames/graphic/0014700.jpg",
+        "requested_seconds": 490,
+        "sample_frame": 14700,
+        "normalized_source_seconds": 490.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "then it explores, right? It samples a",
+          "start": 484.6,
+          "end": 488.92
+        },
+        {
+          "text": "bunch of schemas, it runs a bunch of",
+          "start": 486.8,
+          "end": 490.6
+        },
+        {
+          "text": "extra queries, it grabs a bunch of",
+          "start": 488.92,
+          "end": 492.68
+        },
+        {
+          "text": "documents and it loads all of that into",
+          "start": 490.6,
+          "end": 494.84
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-06",
+      "sequence_role": "later observed state",
+      "time": 509,
+      "timecode": "08:29.00",
+      "images": {
+        "full_frame": "frames/full/0015270.jpg",
+        "graphic_region": "frames/graphic/0015270.jpg",
+        "requested_seconds": 509,
+        "sample_frame": 15270,
+        "normalized_source_seconds": 509.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "really confident that as we continue to",
+          "start": 503.28,
+          "end": 507.64
+        },
+        {
+          "text": "tune the onto rank algorithm and expand",
+          "start": 505.68,
+          "end": 509.56
+        },
+        {
+          "text": "the depth of the ontology, I think this",
+          "start": 507.64,
+          "end": 511.76
+        },
+        {
+          "text": "gap is going to is going to only widen.",
+          "start": 509.56,
+          "end": 514.56
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 454.5,
+      "nearby_original_transcript": [
+        {
+          "text": "benefit from this semantic layer. And",
+          "start": 449.84,
+          "end": 455.0
+        },
+        {
+          "text": "that that benefit is very significant.",
+          "start": 452.36,
+          "end": 456.72
+        },
+        {
+          "text": "Uh when we benchmark Genie with the",
+          "start": 455.0,
+          "end": 458.8
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0013628.jpg",
+          "graphic_region": "frames/graphic/0013628.jpg",
+          "requested_seconds": 454.25,
+          "sample_frame": 13628,
+          "normalized_source_seconds": 454.26666666666665,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0013642.jpg",
+          "graphic_region": "frames/graphic/0013642.jpg",
+          "requested_seconds": 454.75,
+          "sample_frame": 13642,
+          "normalized_source_seconds": 454.73333333333335,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0013665.jpg",
+          "graphic_region": "frames/graphic/0013665.jpg",
+          "requested_seconds": 455.5,
+          "sample_frame": 13665,
+          "normalized_source_seconds": 455.5,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 461,
+      "nearby_original_transcript": [
+        {
+          "text": "ontology against the the strongest",
+          "start": 456.72,
+          "end": 461.76
+        },
+        {
+          "text": "models available, it's consistently the",
+          "start": 458.8,
+          "end": 463.88
+        },
+        {
+          "text": "top-performing agent for business",
+          "start": 461.76,
+          "end": 465.0
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0013822.jpg",
+          "graphic_region": "frames/graphic/0013822.jpg",
+          "requested_seconds": 460.75,
+          "sample_frame": 13822,
+          "normalized_source_seconds": 460.73333333333335,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0013838.jpg",
+          "graphic_region": "frames/graphic/0013838.jpg",
+          "requested_seconds": 461.25,
+          "sample_frame": 13838,
+          "normalized_source_seconds": 461.26666666666665,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0013860.jpg",
+          "graphic_region": "frames/graphic/0013860.jpg",
+          "requested_seconds": 462,
+          "sample_frame": 13860,
+          "normalized_source_seconds": 462.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 469,
+      "nearby_original_transcript": [
+        {
+          "text": "questions in this benchmark. This is",
+          "start": 465.0,
+          "end": 468.68
+        },
+        {
+          "text": "just real business questions with real",
+          "start": 466.52,
+          "end": 471.08
+        },
+        {
+          "text": "business data and we saw more than 30",
+          "start": 468.68,
+          "end": 473.4
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0014062.jpg",
+          "graphic_region": "frames/graphic/0014062.jpg",
+          "requested_seconds": 468.75,
+          "sample_frame": 14062,
+          "normalized_source_seconds": 468.73333333333335,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0014078.jpg",
+          "graphic_region": "frames/graphic/0014078.jpg",
+          "requested_seconds": 469.25,
+          "sample_frame": 14078,
+          "normalized_source_seconds": 469.26666666666665,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0014100.jpg",
+          "graphic_region": "frames/graphic/0014100.jpg",
+          "requested_seconds": 470,
+          "sample_frame": 14100,
+          "normalized_source_seconds": 470.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 479,
+      "nearby_original_transcript": [
+        {
+          "text": "over the next best performing model. And",
+          "start": 473.4,
+          "end": 478.16
+        },
+        {
+          "text": "it was also a lot quicker. After all, a",
+          "start": 475.52,
+          "end": 480.56
+        },
+        {
+          "text": "generic agent has to make up for the",
+          "start": 478.16,
+          "end": 482.4
+        },
+        {
+          "text": "fact that it doesn't know your business.",
+          "start": 480.56,
+          "end": 484.6
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0014362.jpg",
+          "graphic_region": "frames/graphic/0014362.jpg",
+          "requested_seconds": 478.75,
+          "sample_frame": 14362,
+          "normalized_source_seconds": 478.73333333333335,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0014378.jpg",
+          "graphic_region": "frames/graphic/0014378.jpg",
+          "requested_seconds": 479.25,
+          "sample_frame": 14378,
+          "normalized_source_seconds": 479.26666666666665,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0014400.jpg",
+          "graphic_region": "frames/graphic/0014400.jpg",
+          "requested_seconds": 480,
+          "sample_frame": 14400,
+          "normalized_source_seconds": 480.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 490,
+      "nearby_original_transcript": [
+        {
+          "text": "then it explores, right? It samples a",
+          "start": 484.6,
+          "end": 488.92
+        },
+        {
+          "text": "bunch of schemas, it runs a bunch of",
+          "start": 486.8,
+          "end": 490.6
+        },
+        {
+          "text": "extra queries, it grabs a bunch of",
+          "start": 488.92,
+          "end": 492.68
+        },
+        {
+          "text": "documents and it loads all of that into",
+          "start": 490.6,
+          "end": 494.84
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0014692.jpg",
+          "graphic_region": "frames/graphic/0014692.jpg",
+          "requested_seconds": 489.75,
+          "sample_frame": 14692,
+          "normalized_source_seconds": 489.73333333333335,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0014708.jpg",
+          "graphic_region": "frames/graphic/0014708.jpg",
+          "requested_seconds": 490.25,
+          "sample_frame": 14708,
+          "normalized_source_seconds": 490.26666666666665,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0014730.jpg",
+          "graphic_region": "frames/graphic/0014730.jpg",
+          "requested_seconds": 491,
+          "sample_frame": 14730,
+          "normalized_source_seconds": 491.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 500,
+      "nearby_original_transcript": [
+        {
+          "text": "turns out to matter later. But Genie",
+          "start": 494.84,
+          "end": 499.0
+        },
+        {
+          "text": "doesn't have to do as much work because",
+          "start": 496.8,
+          "end": 501.8
+        },
+        {
+          "text": "it already knows which sources count and",
+          "start": 499.0,
+          "end": 503.28
+        },
+        {
+          "text": "how to use them. And and I'm already",
+          "start": 501.8,
+          "end": 505.68
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0014992.jpg",
+          "graphic_region": "frames/graphic/0014992.jpg",
+          "requested_seconds": 499.75,
+          "sample_frame": 14992,
+          "normalized_source_seconds": 499.73333333333335,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0015008.jpg",
+          "graphic_region": "frames/graphic/0015008.jpg",
+          "requested_seconds": 500.25,
+          "sample_frame": 15008,
+          "normalized_source_seconds": 500.26666666666665,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0015030.jpg",
+          "graphic_region": "frames/graphic/0015030.jpg",
+          "requested_seconds": 501,
+          "sample_frame": 15030,
+          "normalized_source_seconds": 501.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "11-chart-focus",
+      "observed_state_pattern": "Two labelled chart groups \u2192 selective highlights/callouts \u2192 settled comparison.",
+      "persistent_context": "Axes, group positions and baselines remain fixed.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0015270.jpg",
+      "frames/graphic/0013632.jpg",
+      "frames/graphic/0013860.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0015270.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

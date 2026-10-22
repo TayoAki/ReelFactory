@@ -1,0 +1,499 @@
+{
+  "id": "demo-orientation",
+  "index": 30,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 776.5,
+  "source_end": 822,
+  "source_timecode": "12:56.50\u201313:42.00",
+  "template_id": "ui-evidence",
+  "label": "Orient in the real Genie interface",
+  "category": "authentic-ui-evidence",
+  "teaching_intent": "Show the real entry surface before the interaction.",
+  "relationship": "actual workflow \u2192 visible execution/result",
+  "original_transcript": "product. Let's see how the ontology actually shows up because it's not It's not a black box. You can actually see the ontology as Genie is thinking. Uh okay, so I'm in a demo workspace here. Of course, every number is is completely made up for the purposes of of the demo, but this is really how we do a lot of our product work uh here at Databricks. So, what I'm showing you here is the Genie 1 web app. And I As you can see, it's a It's a pretty simple interface. I have my chat here, maybe a few suggested actions. I have my my past chats, agents, all the assets that that available to me. Maybe I'll show a bit of that, um, a bit of that later. I could also just as easily be in our desktop or our mobile app. Uh, but I'm going to start by asking Genie about, uh, adoption. And that sounds like a really simple question, but it's actually not, right? Users move between",
+  "original_transcript_segments": [
+    {
+      "text": "product. Let's see how the ontology",
+      "start": 774.76,
+      "end": 778.04
+    },
+    {
+      "text": "actually shows up because it's not It's",
+      "start": 776.04,
+      "end": 779.72
+    },
+    {
+      "text": "not a black box. You can actually see",
+      "start": 778.04,
+      "end": 782.839
+    },
+    {
+      "text": "the ontology as Genie is thinking. Uh",
+      "start": 779.72,
+      "end": 784.28
+    },
+    {
+      "text": "okay, so I'm in a demo workspace here.",
+      "start": 782.839,
+      "end": 786.4
+    },
+    {
+      "text": "Of course, every number is is completely",
+      "start": 784.28,
+      "end": 788.6
+    },
+    {
+      "text": "made up for the purposes of of the demo,",
+      "start": 786.4,
+      "end": 790.44
+    },
+    {
+      "text": "but this is really how we do a lot of",
+      "start": 788.6,
+      "end": 792.96
+    },
+    {
+      "text": "our product work uh here at Databricks.",
+      "start": 790.44,
+      "end": 794.72
+    },
+    {
+      "text": "So, what I'm showing you here is the",
+      "start": 792.96,
+      "end": 797.16
+    },
+    {
+      "text": "Genie 1 web app. And I As you can see,",
+      "start": 794.72,
+      "end": 798.76
+    },
+    {
+      "text": "it's a It's a pretty simple interface. I",
+      "start": 797.16,
+      "end": 801.08
+    },
+    {
+      "text": "have my chat here, maybe a few suggested",
+      "start": 798.76,
+      "end": 803.52
+    },
+    {
+      "text": "actions. I have my my past chats,",
+      "start": 801.08,
+      "end": 805.08
+    },
+    {
+      "text": "agents, all the assets that that",
+      "start": 803.52,
+      "end": 806.84
+    },
+    {
+      "text": "available to me. Maybe I'll show a bit",
+      "start": 805.08,
+      "end": 809.32
+    },
+    {
+      "text": "of that, um, a bit of that later. I",
+      "start": 806.84,
+      "end": 810.96
+    },
+    {
+      "text": "could also just as easily be in our",
+      "start": 809.32,
+      "end": 813.84
+    },
+    {
+      "text": "desktop or our mobile app. Uh, but I'm",
+      "start": 810.96,
+      "end": 815.88
+    },
+    {
+      "text": "going to start by asking Genie about,",
+      "start": 813.84,
+      "end": 817.84
+    },
+    {
+      "text": "uh, adoption. And that sounds like a",
+      "start": 815.88,
+      "end": 819.48
+    },
+    {
+      "text": "really simple question, but it's",
+      "start": 817.84,
+      "end": 822.12
+    },
+    {
+      "text": "actually not, right? Users move between",
+      "start": 819.48,
+      "end": 824.96
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Show the authentic product steps and results rather than inventing them.",
+  "parameterized_transcript_patterns": [
+    "Here is {{question_or_task}}. We {{interaction}}, then inspect {{result_or_evidence}}.",
+    "To verify {{claim}}, look at {{visible_evidence}} in the product."
+  ],
+  "semantic_slots": [
+    "claim",
+    "interaction",
+    "question_or_task",
+    "result_or_evidence",
+    "visible_evidence"
+  ],
+  "selection_rule": "Use when exact interaction or observed execution is central.",
+  "better_alternative_or_misuse": "Illustrative diagrams cannot verify real execution. Keep reference UI separate from generated conceptual graphics.",
+  "motion_recipe": "Retain real viewport changes and source timing; focus on the evidence the narrator discusses.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 778,
+      "timecode": "12:58.00",
+      "images": {
+        "full_frame": "frames/full/0023340.jpg",
+        "graphic_region": "frames/graphic/0023340.jpg",
+        "requested_seconds": 778,
+        "sample_frame": 23340,
+        "normalized_source_seconds": 778.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "Um so, let's show this in in the",
+          "start": 772.6,
+          "end": 776.04
+        },
+        {
+          "text": "product. Let's see how the ontology",
+          "start": 774.76,
+          "end": 778.04
+        },
+        {
+          "text": "actually shows up because it's not It's",
+          "start": 776.04,
+          "end": 779.72
+        },
+        {
+          "text": "not a black box. You can actually see",
+          "start": 778.04,
+          "end": 782.839
+        },
+        {
+          "text": "the ontology as Genie is thinking. Uh",
+          "start": 779.72,
+          "end": 784.28
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 790,
+      "timecode": "13:10.00",
+      "images": {
+        "full_frame": "frames/full/0023700.jpg",
+        "graphic_region": "frames/graphic/0023700.jpg",
+        "requested_seconds": 790,
+        "sample_frame": 23700,
+        "normalized_source_seconds": 790.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "Of course, every number is is completely",
+          "start": 784.28,
+          "end": 788.6
+        },
+        {
+          "text": "made up for the purposes of of the demo,",
+          "start": 786.4,
+          "end": 790.44
+        },
+        {
+          "text": "but this is really how we do a lot of",
+          "start": 788.6,
+          "end": 792.96
+        },
+        {
+          "text": "our product work uh here at Databricks.",
+          "start": 790.44,
+          "end": 794.72
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 808,
+      "timecode": "13:28.00",
+      "images": {
+        "full_frame": "frames/full/0024240.jpg",
+        "graphic_region": "frames/graphic/0024240.jpg",
+        "requested_seconds": 808,
+        "sample_frame": 24240,
+        "normalized_source_seconds": 808.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "agents, all the assets that that",
+          "start": 803.52,
+          "end": 806.84
+        },
+        {
+          "text": "available to me. Maybe I'll show a bit",
+          "start": 805.08,
+          "end": 809.32
+        },
+        {
+          "text": "of that, um, a bit of that later. I",
+          "start": 806.84,
+          "end": 810.96
+        },
+        {
+          "text": "could also just as easily be in our",
+          "start": 809.32,
+          "end": 813.84
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "later observed state",
+      "time": 820,
+      "timecode": "13:40.00",
+      "images": {
+        "full_frame": "frames/full/0024600.jpg",
+        "graphic_region": "frames/graphic/0024600.jpg",
+        "requested_seconds": 820,
+        "sample_frame": 24600,
+        "normalized_source_seconds": 820.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "uh, adoption. And that sounds like a",
+          "start": 815.88,
+          "end": 819.48
+        },
+        {
+          "text": "really simple question, but it's",
+          "start": 817.84,
+          "end": 822.12
+        },
+        {
+          "text": "actually not, right? Users move between",
+          "start": 819.48,
+          "end": 824.96
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 789,
+      "nearby_original_transcript": [
+        {
+          "text": "Of course, every number is is completely",
+          "start": 784.28,
+          "end": 788.6
+        },
+        {
+          "text": "made up for the purposes of of the demo,",
+          "start": 786.4,
+          "end": 790.44
+        },
+        {
+          "text": "but this is really how we do a lot of",
+          "start": 788.6,
+          "end": 792.96
+        },
+        {
+          "text": "our product work uh here at Databricks.",
+          "start": 790.44,
+          "end": 794.72
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0023662.jpg",
+          "graphic_region": "frames/graphic/0023662.jpg",
+          "requested_seconds": 788.75,
+          "sample_frame": 23662,
+          "normalized_source_seconds": 788.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0023678.jpg",
+          "graphic_region": "frames/graphic/0023678.jpg",
+          "requested_seconds": 789.25,
+          "sample_frame": 23678,
+          "normalized_source_seconds": 789.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0023700.jpg",
+          "graphic_region": "frames/graphic/0023700.jpg",
+          "requested_seconds": 790,
+          "sample_frame": 23700,
+          "normalized_source_seconds": 790.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 808,
+      "nearby_original_transcript": [
+        {
+          "text": "agents, all the assets that that",
+          "start": 803.52,
+          "end": 806.84
+        },
+        {
+          "text": "available to me. Maybe I'll show a bit",
+          "start": 805.08,
+          "end": 809.32
+        },
+        {
+          "text": "of that, um, a bit of that later. I",
+          "start": 806.84,
+          "end": 810.96
+        },
+        {
+          "text": "could also just as easily be in our",
+          "start": 809.32,
+          "end": 813.84
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0024232.jpg",
+          "graphic_region": "frames/graphic/0024232.jpg",
+          "requested_seconds": 807.75,
+          "sample_frame": 24232,
+          "normalized_source_seconds": 807.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0024248.jpg",
+          "graphic_region": "frames/graphic/0024248.jpg",
+          "requested_seconds": 808.25,
+          "sample_frame": 24248,
+          "normalized_source_seconds": 808.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0024270.jpg",
+          "graphic_region": "frames/graphic/0024270.jpg",
+          "requested_seconds": 809,
+          "sample_frame": 24270,
+          "normalized_source_seconds": 809.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 817,
+      "nearby_original_transcript": [
+        {
+          "text": "desktop or our mobile app. Uh, but I'm",
+          "start": 810.96,
+          "end": 815.88
+        },
+        {
+          "text": "going to start by asking Genie about,",
+          "start": 813.84,
+          "end": 817.84
+        },
+        {
+          "text": "uh, adoption. And that sounds like a",
+          "start": 815.88,
+          "end": 819.48
+        },
+        {
+          "text": "really simple question, but it's",
+          "start": 817.84,
+          "end": 822.12
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0024502.jpg",
+          "graphic_region": "frames/graphic/0024502.jpg",
+          "requested_seconds": 816.75,
+          "sample_frame": 24502,
+          "normalized_source_seconds": 816.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0024518.jpg",
+          "graphic_region": "frames/graphic/0024518.jpg",
+          "requested_seconds": 817.25,
+          "sample_frame": 24518,
+          "normalized_source_seconds": 817.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0024540.jpg",
+          "graphic_region": "frames/graphic/0024540.jpg",
+          "requested_seconds": 818,
+          "sample_frame": 24540,
+          "normalized_source_seconds": 818.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "14-demo-context",
+      "observed_state_pattern": "Application home \u2192 user question \u2192 source/context overlay.",
+      "persistent_context": "Same app and presenter rail; overlay relates to visible prompt.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0024600.jpg",
+      "frames/graphic/0023340.jpg",
+      "frames/graphic/0023700.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0024600.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

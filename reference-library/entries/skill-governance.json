@@ -1,0 +1,458 @@
+{
+  "id": "skill-governance",
+  "index": 41,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 1363,
+  "source_end": 1380,
+  "source_timecode": "22:43.00\u201323:00.00",
+  "template_id": "permissioned-action",
+  "label": "Skill sharing under a governance layer",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Explain distribution and governance as a route and control relationship.",
+  "relationship": "actor \u2192 control point \u2192 allowed/denied route",
+  "original_transcript": "next thing that we are almost about to announce is skill sharing for Genie 1 and Genie code through Unity Gateway. So, with Unity Gateway, you again can control which skills are available to which users. You'll be able to eventually pin specific skills to different users, so that those are, for example, always available for those end users, especially new users, and so on.",
+  "original_transcript_segments": [
+    {
+      "text": "next thing that we are almost about to",
+      "start": 1358.16,
+      "end": 1363.08
+    },
+    {
+      "text": "announce is skill sharing for Genie 1",
+      "start": 1360.52,
+      "end": 1365.72
+    },
+    {
+      "text": "and Genie code through Unity Gateway.",
+      "start": 1363.08,
+      "end": 1368.88
+    },
+    {
+      "text": "So, with Unity Gateway, you again can",
+      "start": 1365.72,
+      "end": 1370.84
+    },
+    {
+      "text": "control which skills are available to",
+      "start": 1368.88,
+      "end": 1372.24
+    },
+    {
+      "text": "which users. You'll be able to",
+      "start": 1370.84,
+      "end": 1374.44
+    },
+    {
+      "text": "eventually pin specific skills to",
+      "start": 1372.24,
+      "end": 1376.4
+    },
+    {
+      "text": "different users, so that those are, for",
+      "start": 1374.44,
+      "end": 1378.48
+    },
+    {
+      "text": "example, always available for those end",
+      "start": 1376.4,
+      "end": 1380.2
+    },
+    {
+      "text": "users, especially new users, and so on.",
+      "start": 1378.48,
+      "end": 1382.24
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Explain how tool use or write actions are governed.",
+  "parameterized_transcript_patterns": [
+    "{{actor}} reaches {{tool}} through {{control_point}}, which enforces {{scope}}.",
+    "{{action}} is allowed for {{allowed_scope}} and denied for {{denied_scope}}."
+  ],
+  "semantic_slots": [
+    "action",
+    "actor",
+    "allowed_scope",
+    "control_point",
+    "denied_scope",
+    "scope",
+    "tool"
+  ],
+  "selection_rule": "Use when the permission boundary or action route matters.",
+  "better_alternative_or_misuse": "Compatibility logos are not proof of authorization or successful execution.",
+  "motion_recipe": "Establish actor and destination, add the gateway, draw the route and reveal access distinctions.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 1363.3,
+      "timecode": "22:43.30",
+      "images": {
+        "full_frame": "frames/full/0040899.jpg",
+        "graphic_region": "frames/graphic/0040899.jpg",
+        "requested_seconds": 1363.3,
+        "sample_frame": 40899,
+        "normalized_source_seconds": 1363.3,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "next thing that we are almost about to",
+          "start": 1358.16,
+          "end": 1363.08
+        },
+        {
+          "text": "announce is skill sharing for Genie 1",
+          "start": 1360.52,
+          "end": 1365.72
+        },
+        {
+          "text": "and Genie code through Unity Gateway.",
+          "start": 1363.08,
+          "end": 1368.88
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 1366,
+      "timecode": "22:46.00",
+      "images": {
+        "full_frame": "frames/full/0040980.jpg",
+        "graphic_region": "frames/graphic/0040980.jpg",
+        "requested_seconds": 1366,
+        "sample_frame": 40980,
+        "normalized_source_seconds": 1366.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "announce is skill sharing for Genie 1",
+          "start": 1360.52,
+          "end": 1365.72
+        },
+        {
+          "text": "and Genie code through Unity Gateway.",
+          "start": 1363.08,
+          "end": 1368.88
+        },
+        {
+          "text": "So, with Unity Gateway, you again can",
+          "start": 1365.72,
+          "end": 1370.84
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 1371,
+      "timecode": "22:51.00",
+      "images": {
+        "full_frame": "frames/full/0041130.jpg",
+        "graphic_region": "frames/graphic/0041130.jpg",
+        "requested_seconds": 1371,
+        "sample_frame": 41130,
+        "normalized_source_seconds": 1371.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "So, with Unity Gateway, you again can",
+          "start": 1365.72,
+          "end": 1370.84
+        },
+        {
+          "text": "control which skills are available to",
+          "start": 1368.88,
+          "end": 1372.24
+        },
+        {
+          "text": "which users. You'll be able to",
+          "start": 1370.84,
+          "end": 1374.44
+        },
+        {
+          "text": "eventually pin specific skills to",
+          "start": 1372.24,
+          "end": 1376.4
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "intermediate observed state",
+      "time": 1376,
+      "timecode": "22:56.00",
+      "images": {
+        "full_frame": "frames/full/0041280.jpg",
+        "graphic_region": "frames/graphic/0041280.jpg",
+        "requested_seconds": 1376,
+        "sample_frame": 41280,
+        "normalized_source_seconds": 1376.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "which users. You'll be able to",
+          "start": 1370.84,
+          "end": 1374.44
+        },
+        {
+          "text": "eventually pin specific skills to",
+          "start": 1372.24,
+          "end": 1376.4
+        },
+        {
+          "text": "different users, so that those are, for",
+          "start": 1374.44,
+          "end": 1378.48
+        },
+        {
+          "text": "example, always available for those end",
+          "start": 1376.4,
+          "end": 1380.2
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-05",
+      "sequence_role": "later observed state",
+      "time": 1379.5,
+      "timecode": "22:59.50",
+      "images": {
+        "full_frame": "frames/full/0041385.jpg",
+        "graphic_region": "frames/graphic/0041385.jpg",
+        "requested_seconds": 1379.5,
+        "sample_frame": 41385,
+        "normalized_source_seconds": 1379.5,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "different users, so that those are, for",
+          "start": 1374.44,
+          "end": 1378.48
+        },
+        {
+          "text": "example, always available for those end",
+          "start": 1376.4,
+          "end": 1380.2
+        },
+        {
+          "text": "users, especially new users, and so on.",
+          "start": 1378.48,
+          "end": 1382.24
+        },
+        {
+          "text": "But in general, like I mentioned before,",
+          "start": 1380.2,
+          "end": 1384.32
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 1363,
+      "nearby_original_transcript": [
+        {
+          "text": "next thing that we are almost about to",
+          "start": 1358.16,
+          "end": 1363.08
+        },
+        {
+          "text": "announce is skill sharing for Genie 1",
+          "start": 1360.52,
+          "end": 1365.72
+        },
+        {
+          "text": "and Genie code through Unity Gateway.",
+          "start": 1363.08,
+          "end": 1368.88
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0040890.jpg",
+          "graphic_region": "frames/graphic/0040890.jpg",
+          "requested_seconds": 1363,
+          "sample_frame": 40890,
+          "normalized_source_seconds": 1363.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0040898.jpg",
+          "graphic_region": "frames/graphic/0040898.jpg",
+          "requested_seconds": 1363.25,
+          "sample_frame": 40898,
+          "normalized_source_seconds": 1363.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0040920.jpg",
+          "graphic_region": "frames/graphic/0040920.jpg",
+          "requested_seconds": 1364,
+          "sample_frame": 40920,
+          "normalized_source_seconds": 1364.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1371,
+      "nearby_original_transcript": [
+        {
+          "text": "So, with Unity Gateway, you again can",
+          "start": 1365.72,
+          "end": 1370.84
+        },
+        {
+          "text": "control which skills are available to",
+          "start": 1368.88,
+          "end": 1372.24
+        },
+        {
+          "text": "which users. You'll be able to",
+          "start": 1370.84,
+          "end": 1374.44
+        },
+        {
+          "text": "eventually pin specific skills to",
+          "start": 1372.24,
+          "end": 1376.4
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0041122.jpg",
+          "graphic_region": "frames/graphic/0041122.jpg",
+          "requested_seconds": 1370.75,
+          "sample_frame": 41122,
+          "normalized_source_seconds": 1370.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0041138.jpg",
+          "graphic_region": "frames/graphic/0041138.jpg",
+          "requested_seconds": 1371.25,
+          "sample_frame": 41138,
+          "normalized_source_seconds": 1371.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0041160.jpg",
+          "graphic_region": "frames/graphic/0041160.jpg",
+          "requested_seconds": 1372,
+          "sample_frame": 41160,
+          "normalized_source_seconds": 1372.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1378,
+      "nearby_original_transcript": [
+        {
+          "text": "eventually pin specific skills to",
+          "start": 1372.24,
+          "end": 1376.4
+        },
+        {
+          "text": "different users, so that those are, for",
+          "start": 1374.44,
+          "end": 1378.48
+        },
+        {
+          "text": "example, always available for those end",
+          "start": 1376.4,
+          "end": 1380.2
+        },
+        {
+          "text": "users, especially new users, and so on.",
+          "start": 1378.48,
+          "end": 1382.24
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0041332.jpg",
+          "graphic_region": "frames/graphic/0041332.jpg",
+          "requested_seconds": 1377.75,
+          "sample_frame": 41332,
+          "normalized_source_seconds": 1377.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0041348.jpg",
+          "graphic_region": "frames/graphic/0041348.jpg",
+          "requested_seconds": 1378.25,
+          "sample_frame": 41348,
+          "normalized_source_seconds": 1378.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0041370.jpg",
+          "graphic_region": "frames/graphic/0041370.jpg",
+          "requested_seconds": 1379,
+          "sample_frame": 41370,
+          "normalized_source_seconds": 1379.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "19-governed-actions",
+      "observed_state_pattern": "Evidence feature \u2192 action route \u2192 permissions/tools \u2192 saved reusable task.",
+      "persistent_context": "Keep action endpoints and permission markers attached to the route they constrain.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0041385.jpg",
+      "frames/graphic/0040899.jpg",
+      "frames/graphic/0041130.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0041385.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

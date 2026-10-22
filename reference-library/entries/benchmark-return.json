@@ -1,0 +1,443 @@
+{
+  "id": "benchmark-return",
+  "index": 24,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 525,
+  "source_end": 546,
+  "source_timecode": "08:45.00\u201309:06.00",
+  "template_id": "benchmark",
+  "label": "Reuse the benchmark during the follow-up",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Reuse a familiar chart while the host and guest interpret it.",
+  "relationship": "methods \u00d7 measures \u2192 qualified comparison",
+  "original_transcript": ">> Yeah, the cost component, it's a third version of this slide. Um, it was also favorable if I recall correctly. It ties to the the latency and the token efficiency, which makes sense, right? Genie is doing a lot less trial and error to try to find the assets and to try to make sense of them. So we saw all three all three variables, if you will, um, uh, significantly improved with the ontology. >> Got it. Thank you.",
+  "original_transcript_segments": [
+    {
+      "text": ">> Yeah, the cost component, it's a third",
+      "start": 520.64,
+      "end": 525.08
+    },
+    {
+      "text": "version of this slide. Um, it was also",
+      "start": 522.52,
+      "end": 527.56
+    },
+    {
+      "text": "favorable if I recall correctly. It ties",
+      "start": 525.08,
+      "end": 529.28
+    },
+    {
+      "text": "to the the latency and the token",
+      "start": 527.56,
+      "end": 531.0
+    },
+    {
+      "text": "efficiency, which makes sense, right?",
+      "start": 529.28,
+      "end": 533.32
+    },
+    {
+      "text": "Genie is doing a lot less trial and",
+      "start": 531.0,
+      "end": 535.52
+    },
+    {
+      "text": "error to try to find the assets and to",
+      "start": 533.32,
+      "end": 537.64
+    },
+    {
+      "text": "try to make sense of them. So we saw all",
+      "start": 535.52,
+      "end": 538.88
+    },
+    {
+      "text": "three",
+      "start": 537.64,
+      "end": 541.88
+    },
+    {
+      "text": "all three variables, if you will, um,",
+      "start": 538.88,
+      "end": 543.28
+    },
+    {
+      "text": "uh, significantly improved with the",
+      "start": 541.88,
+      "end": 544.08
+    },
+    {
+      "text": "ontology.",
+      "start": 543.28,
+      "end": 546.28
+    },
+    {
+      "text": ">> Got it. Thank you.",
+      "start": 544.08,
+      "end": 548.839
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Compare measured alternatives on explicit dimensions with source qualifications.",
+  "parameterized_transcript_patterns": [
+    "On {{evaluation_scope}}, {{method_a}} achieved {{measure_a}}, compared with {{method_b}} at {{measure_b}}.",
+    "The trade-off is {{dimension_a}} versus {{dimension_b}}, under {{test_conditions}}."
+  ],
+  "semantic_slots": [
+    "dimension_a",
+    "dimension_b",
+    "dimensions",
+    "evaluation_scope",
+    "measure_a",
+    "measure_b",
+    "measures",
+    "method_a",
+    "method_b",
+    "methods",
+    "test_conditions"
+  ],
+  "selection_rule": "Use for comparable measured data with a credible evaluation scope.",
+  "better_alternative_or_misuse": "Do not transfer source benchmark values to another product or imply universal results from one evaluation.",
+  "motion_recipe": "Fix axes and method order, build bars, introduce the interpretation after values, retain the qualification.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 525.3,
+      "timecode": "08:45.30",
+      "images": {
+        "full_frame": "frames/full/0015759.jpg",
+        "graphic_region": "frames/graphic/0015759.jpg",
+        "requested_seconds": 525.3,
+        "sample_frame": 15759,
+        "normalized_source_seconds": 525.3,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": ">> Yeah, the cost component, it's a third",
+          "start": 520.64,
+          "end": 525.08
+        },
+        {
+          "text": "version of this slide. Um, it was also",
+          "start": 522.52,
+          "end": 527.56
+        },
+        {
+          "text": "favorable if I recall correctly. It ties",
+          "start": 525.08,
+          "end": 529.28
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 532,
+      "timecode": "08:52.00",
+      "images": {
+        "full_frame": "frames/full/0015960.jpg",
+        "graphic_region": "frames/graphic/0015960.jpg",
+        "requested_seconds": 532,
+        "sample_frame": 15960,
+        "normalized_source_seconds": 532.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "to the the latency and the token",
+          "start": 527.56,
+          "end": 531.0
+        },
+        {
+          "text": "efficiency, which makes sense, right?",
+          "start": 529.28,
+          "end": 533.32
+        },
+        {
+          "text": "Genie is doing a lot less trial and",
+          "start": 531.0,
+          "end": 535.52
+        },
+        {
+          "text": "error to try to find the assets and to",
+          "start": 533.32,
+          "end": 537.64
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 539,
+      "timecode": "08:59.00",
+      "images": {
+        "full_frame": "frames/full/0016170.jpg",
+        "graphic_region": "frames/graphic/0016170.jpg",
+        "requested_seconds": 539,
+        "sample_frame": 16170,
+        "normalized_source_seconds": 539.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "error to try to find the assets and to",
+          "start": 533.32,
+          "end": 537.64
+        },
+        {
+          "text": "try to make sense of them. So we saw all",
+          "start": 535.52,
+          "end": 538.88
+        },
+        {
+          "text": "three",
+          "start": 537.64,
+          "end": 541.88
+        },
+        {
+          "text": "all three variables, if you will, um,",
+          "start": 538.88,
+          "end": 543.28
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "later observed state",
+      "time": 545,
+      "timecode": "09:05.00",
+      "images": {
+        "full_frame": "frames/full/0016350.jpg",
+        "graphic_region": "frames/graphic/0016350.jpg",
+        "requested_seconds": 545,
+        "sample_frame": 16350,
+        "normalized_source_seconds": 545.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "all three variables, if you will, um,",
+          "start": 538.88,
+          "end": 543.28
+        },
+        {
+          "text": "uh, significantly improved with the",
+          "start": 541.88,
+          "end": 544.08
+        },
+        {
+          "text": "ontology.",
+          "start": 543.28,
+          "end": 546.28
+        },
+        {
+          "text": ">> Got it. Thank you.",
+          "start": 544.08,
+          "end": 548.839
+        },
+        {
+          "text": ">> Um, of course, Genie can only learn from",
+          "start": 546.28,
+          "end": 550.96
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 525,
+      "nearby_original_transcript": [
+        {
+          "text": ">> Yeah, the cost component, it's a third",
+          "start": 520.64,
+          "end": 525.08
+        },
+        {
+          "text": "version of this slide. Um, it was also",
+          "start": 522.52,
+          "end": 527.56
+        },
+        {
+          "text": "favorable if I recall correctly. It ties",
+          "start": 525.08,
+          "end": 529.28
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0015750.jpg",
+          "graphic_region": "frames/graphic/0015750.jpg",
+          "requested_seconds": 525,
+          "sample_frame": 15750,
+          "normalized_source_seconds": 525.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0015758.jpg",
+          "graphic_region": "frames/graphic/0015758.jpg",
+          "requested_seconds": 525.25,
+          "sample_frame": 15758,
+          "normalized_source_seconds": 525.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0015780.jpg",
+          "graphic_region": "frames/graphic/0015780.jpg",
+          "requested_seconds": 526,
+          "sample_frame": 15780,
+          "normalized_source_seconds": 526.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 531,
+      "nearby_original_transcript": [
+        {
+          "text": "favorable if I recall correctly. It ties",
+          "start": 525.08,
+          "end": 529.28
+        },
+        {
+          "text": "to the the latency and the token",
+          "start": 527.56,
+          "end": 531.0
+        },
+        {
+          "text": "efficiency, which makes sense, right?",
+          "start": 529.28,
+          "end": 533.32
+        },
+        {
+          "text": "Genie is doing a lot less trial and",
+          "start": 531.0,
+          "end": 535.52
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0015922.jpg",
+          "graphic_region": "frames/graphic/0015922.jpg",
+          "requested_seconds": 530.75,
+          "sample_frame": 15922,
+          "normalized_source_seconds": 530.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0015938.jpg",
+          "graphic_region": "frames/graphic/0015938.jpg",
+          "requested_seconds": 531.25,
+          "sample_frame": 15938,
+          "normalized_source_seconds": 531.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0015960.jpg",
+          "graphic_region": "frames/graphic/0015960.jpg",
+          "requested_seconds": 532,
+          "sample_frame": 15960,
+          "normalized_source_seconds": 532.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 539,
+      "nearby_original_transcript": [
+        {
+          "text": "error to try to find the assets and to",
+          "start": 533.32,
+          "end": 537.64
+        },
+        {
+          "text": "try to make sense of them. So we saw all",
+          "start": 535.52,
+          "end": 538.88
+        },
+        {
+          "text": "three",
+          "start": 537.64,
+          "end": 541.88
+        },
+        {
+          "text": "all three variables, if you will, um,",
+          "start": 538.88,
+          "end": 543.28
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0016162.jpg",
+          "graphic_region": "frames/graphic/0016162.jpg",
+          "requested_seconds": 538.75,
+          "sample_frame": 16162,
+          "normalized_source_seconds": 538.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0016178.jpg",
+          "graphic_region": "frames/graphic/0016178.jpg",
+          "requested_seconds": 539.25,
+          "sample_frame": 16178,
+          "normalized_source_seconds": 539.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0016200.jpg",
+          "graphic_region": "frames/graphic/0016200.jpg",
+          "requested_seconds": 540,
+          "sample_frame": 16200,
+          "normalized_source_seconds": 540.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0016350.jpg",
+      "frames/graphic/0015759.jpg",
+      "frames/graphic/0015960.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0016350.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

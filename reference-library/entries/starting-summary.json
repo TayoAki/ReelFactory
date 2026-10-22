@@ -1,0 +1,403 @@
+{
+  "id": "starting-summary",
+  "index": 54,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 1796.5,
+  "source_end": 1805,
+  "source_timecode": "29:56.50\u201330:05.00",
+  "template_id": "peer-categories",
+  "label": "Pick a workflow, ground the data, land and expand",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Give an equal-weight overview before the detailed rollout sequence.",
+  "relationship": "equal-rank needs or choices",
+  "original_transcript": "the most out of Genie? >> Yeah, my favorite question. Um so for an initial proof of concept, I I recommend starting with one team and a few common recurring workflows. So that might be, you know, legal reviewing",
+  "original_transcript_segments": [
+    {
+      "text": "the most out of Genie?",
+      "start": 1793.44,
+      "end": 1796.92
+    },
+    {
+      "text": ">> Yeah, my favorite question.",
+      "start": 1795.12,
+      "end": 1799.28
+    },
+    {
+      "text": "Um so for an initial proof of concept, I",
+      "start": 1796.92,
+      "end": 1801.24
+    },
+    {
+      "text": "I recommend starting with one team and a",
+      "start": 1799.28,
+      "end": 1803.76
+    },
+    {
+      "text": "few common recurring workflows. So that",
+      "start": 1801.24,
+      "end": 1806.08
+    },
+    {
+      "text": "might be, you know, legal reviewing",
+      "start": 1803.76,
+      "end": 1808.28
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Compare distinct needs at the same conceptual level.",
+  "parameterized_transcript_patterns": [
+    "We need {{need_a}}, {{need_b}} and {{need_c}} for {{goal}}.",
+    "There are three distinct concerns: {{concern_a}}, {{concern_b}} and {{concern_c}}."
+  ],
+  "semantic_slots": [
+    "concern_a",
+    "concern_b",
+    "concern_c",
+    "concerns",
+    "goal",
+    "need_a",
+    "need_b",
+    "need_c",
+    "needs"
+  ],
+  "selection_rule": "Use when equal conceptual rank is the lesson.",
+  "better_alternative_or_misuse": "Use a timeline when order matters and a hierarchy when one item contains another.",
+  "motion_recipe": "Settle one card, make room coherently, then introduce equal peers on a shared baseline.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 1796.7,
+      "timecode": "29:56.70",
+      "images": {
+        "full_frame": "frames/full/0053901.jpg",
+        "graphic_region": "frames/graphic/0053901.jpg",
+        "requested_seconds": 1796.7,
+        "sample_frame": 53901,
+        "normalized_source_seconds": 1796.7,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "how how do people get started to make",
+          "start": 1791.0,
+          "end": 1795.12
+        },
+        {
+          "text": "the most out of Genie?",
+          "start": 1793.44,
+          "end": 1796.92
+        },
+        {
+          "text": ">> Yeah, my favorite question.",
+          "start": 1795.12,
+          "end": 1799.28
+        },
+        {
+          "text": "Um so for an initial proof of concept, I",
+          "start": 1796.92,
+          "end": 1801.24
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 1799,
+      "timecode": "29:59.00",
+      "images": {
+        "full_frame": "frames/full/0053970.jpg",
+        "graphic_region": "frames/graphic/0053970.jpg",
+        "requested_seconds": 1799,
+        "sample_frame": 53970,
+        "normalized_source_seconds": 1799.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": ">> Yeah, my favorite question.",
+          "start": 1795.12,
+          "end": 1799.28
+        },
+        {
+          "text": "Um so for an initial proof of concept, I",
+          "start": 1796.92,
+          "end": 1801.24
+        },
+        {
+          "text": "I recommend starting with one team and a",
+          "start": 1799.28,
+          "end": 1803.76
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 1802,
+      "timecode": "30:02.00",
+      "images": {
+        "full_frame": "frames/full/0054060.jpg",
+        "graphic_region": "frames/graphic/0054060.jpg",
+        "requested_seconds": 1802,
+        "sample_frame": 54060,
+        "normalized_source_seconds": 1802.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "Um so for an initial proof of concept, I",
+          "start": 1796.92,
+          "end": 1801.24
+        },
+        {
+          "text": "I recommend starting with one team and a",
+          "start": 1799.28,
+          "end": 1803.76
+        },
+        {
+          "text": "few common recurring workflows. So that",
+          "start": 1801.24,
+          "end": 1806.08
+        },
+        {
+          "text": "might be, you know, legal reviewing",
+          "start": 1803.76,
+          "end": 1808.28
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "later observed state",
+      "time": 1804.5,
+      "timecode": "30:04.50",
+      "images": {
+        "full_frame": "frames/full/0054135.jpg",
+        "graphic_region": "frames/graphic/0054135.jpg",
+        "requested_seconds": 1804.5,
+        "sample_frame": 54135,
+        "normalized_source_seconds": 1804.5,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "I recommend starting with one team and a",
+          "start": 1799.28,
+          "end": 1803.76
+        },
+        {
+          "text": "few common recurring workflows. So that",
+          "start": 1801.24,
+          "end": 1806.08
+        },
+        {
+          "text": "might be, you know, legal reviewing",
+          "start": 1803.76,
+          "end": 1808.28
+        },
+        {
+          "text": "incoming contracts, or maybe finance",
+          "start": 1806.08,
+          "end": 1810.12
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 1796.5,
+      "nearby_original_transcript": [
+        {
+          "text": "how how do people get started to make",
+          "start": 1791.0,
+          "end": 1795.12
+        },
+        {
+          "text": "the most out of Genie?",
+          "start": 1793.44,
+          "end": 1796.92
+        },
+        {
+          "text": ">> Yeah, my favorite question.",
+          "start": 1795.12,
+          "end": 1799.28
+        },
+        {
+          "text": "Um so for an initial proof of concept, I",
+          "start": 1796.92,
+          "end": 1801.24
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0053895.jpg",
+          "graphic_region": "frames/graphic/0053895.jpg",
+          "requested_seconds": 1796.5,
+          "sample_frame": 53895,
+          "normalized_source_seconds": 1796.5,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0053902.jpg",
+          "graphic_region": "frames/graphic/0053902.jpg",
+          "requested_seconds": 1796.75,
+          "sample_frame": 53902,
+          "normalized_source_seconds": 1796.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0053925.jpg",
+          "graphic_region": "frames/graphic/0053925.jpg",
+          "requested_seconds": 1797.5,
+          "sample_frame": 53925,
+          "normalized_source_seconds": 1797.5,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1799,
+      "nearby_original_transcript": [
+        {
+          "text": ">> Yeah, my favorite question.",
+          "start": 1795.12,
+          "end": 1799.28
+        },
+        {
+          "text": "Um so for an initial proof of concept, I",
+          "start": 1796.92,
+          "end": 1801.24
+        },
+        {
+          "text": "I recommend starting with one team and a",
+          "start": 1799.28,
+          "end": 1803.76
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0053962.jpg",
+          "graphic_region": "frames/graphic/0053962.jpg",
+          "requested_seconds": 1798.75,
+          "sample_frame": 53962,
+          "normalized_source_seconds": 1798.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0053978.jpg",
+          "graphic_region": "frames/graphic/0053978.jpg",
+          "requested_seconds": 1799.25,
+          "sample_frame": 53978,
+          "normalized_source_seconds": 1799.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0054000.jpg",
+          "graphic_region": "frames/graphic/0054000.jpg",
+          "requested_seconds": 1800,
+          "sample_frame": 54000,
+          "normalized_source_seconds": 1800.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1801.5,
+      "nearby_original_transcript": [
+        {
+          "text": "Um so for an initial proof of concept, I",
+          "start": 1796.92,
+          "end": 1801.24
+        },
+        {
+          "text": "I recommend starting with one team and a",
+          "start": 1799.28,
+          "end": 1803.76
+        },
+        {
+          "text": "few common recurring workflows. So that",
+          "start": 1801.24,
+          "end": 1806.08
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0054038.jpg",
+          "graphic_region": "frames/graphic/0054038.jpg",
+          "requested_seconds": 1801.25,
+          "sample_frame": 54038,
+          "normalized_source_seconds": 1801.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0054052.jpg",
+          "graphic_region": "frames/graphic/0054052.jpg",
+          "requested_seconds": 1801.75,
+          "sample_frame": 54052,
+          "normalized_source_seconds": 1801.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0054075.jpg",
+          "graphic_region": "frames/graphic/0054075.jpg",
+          "requested_seconds": 1802.5,
+          "sample_frame": 54075,
+          "normalized_source_seconds": 1802.5,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "25-getting-started",
+      "observed_state_pattern": "Chapter plate \u2192 first milestone \u2192 supporting example cards \u2192 next milestone.",
+      "persistent_context": "Timeline spine and completed milestones persist.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0054135.jpg",
+      "frames/graphic/0053901.jpg",
+      "frames/graphic/0053970.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0054135.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

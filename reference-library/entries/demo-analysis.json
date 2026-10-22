@@ -1,0 +1,797 @@
+{
+  "id": "demo-analysis",
+  "index": 32,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 855,
+  "source_end": 990,
+  "source_timecode": "14:15.00\u201316:30.00",
+  "template_id": "ui-evidence",
+  "label": "Question, analysis and source inspection",
+  "category": "authentic-ui-evidence",
+  "teaching_intent": "Ground the explanation in the actual question and inspection workflow.",
+  "relationship": "actual workflow \u2192 visible execution/result",
+  "original_transcript": "consolidate that in a way that it aligns with the way that I like to write these these write-ups. So, I'm going to get it started. Uh, and then as Genie is running, again, we can we can click into see what it's thinking. Now, you'll notice that was actually a very simple prompt in spite of all the complexity we've been talking about, and that's because I think Genie's going to be able to navigate our data pretty well because we have this ontology, uh, turned on. And we can actually see it, again, in practice. So, uh, it looks like Genie actually started by going straight to our our data sources. It found some potentially relevant tables here. Uh, and then it did go straight into the ontology. So, we've got pages, again, those wiki pages in Unity Catalog. It may end up using some of these in the actual answer. Again, this is just potentially relevant stuff. And then we have knowledge snippets. So, we have those facts about the business that Genie has learned from all sorts of different sources. And you can see there's business terms, metric definitions, something about data quality, another business term. There's even one, this is kind of a preview of some of the stuff that we're playing around with, but one that reaches into GitHub, uh, to get information because it's also a very semantically rich data source. But the key thing is that we're combining this human curated context with this more learned knowledge because again, it's really difficult to try to curate everything for the entire org. Uh I think I also found the thinking trace before we talk about the document. Uh we also looked at Google Drive, we looked at Jira, and then ran a bunch of those SQL queries. Again, very important uh that we are able to query on live operational data and not just not just reading documents. And then like the again, the data is demo, so what it actually produces is not super interesting. Um but we see a bunch of visualizations. It's able to do things like more advanced like cohort retention analyses. It can do things like forecasts. Maybe I can show you that actually. Um it's able to again pull from those third-party sources. So for example, it's pulling from Jira. It's able to do those recommendations. And a really critical thing to mention is that all of the stuff that you see here is data that I actually have access to. So again, Genie isn't creating any sort of special Genie specific permissions. It's simply enforcing our source permissions through Unity Catalog. And that applies also to the ontology uh that that is derived from any assets that are used here. And we can actually see, you know, what was",
+  "original_transcript_segments": [
+    {
+      "text": "consolidate that in a way that it aligns",
+      "start": 852.24,
+      "end": 855.92
+    },
+    {
+      "text": "with the way that I like to write these",
+      "start": 854.36,
+      "end": 857.68
+    },
+    {
+      "text": "these write-ups. So,",
+      "start": 855.92,
+      "end": 859.48
+    },
+    {
+      "text": "I'm going to get it started. Uh, and",
+      "start": 857.68,
+      "end": 861.56
+    },
+    {
+      "text": "then as Genie is running, again, we can",
+      "start": 859.48,
+      "end": 863.56
+    },
+    {
+      "text": "we can click into see what it's",
+      "start": 861.56,
+      "end": 865.24
+    },
+    {
+      "text": "thinking. Now, you'll notice that was",
+      "start": 863.56,
+      "end": 866.8
+    },
+    {
+      "text": "actually a very simple prompt in spite",
+      "start": 865.24,
+      "end": 868.24
+    },
+    {
+      "text": "of all the complexity we've been talking",
+      "start": 866.8,
+      "end": 869.24
+    },
+    {
+      "text": "about, and that's because I think",
+      "start": 868.24,
+      "end": 870.64
+    },
+    {
+      "text": "Genie's going to be able to navigate our",
+      "start": 869.24,
+      "end": 872.8
+    },
+    {
+      "text": "data pretty well because we have this",
+      "start": 870.64,
+      "end": 875.44
+    },
+    {
+      "text": "ontology, uh, turned on. And we can",
+      "start": 872.8,
+      "end": 877.52
+    },
+    {
+      "text": "actually see it, again, in practice. So,",
+      "start": 875.44,
+      "end": 879.2
+    },
+    {
+      "text": "uh, it looks like Genie actually started",
+      "start": 877.52,
+      "end": 881.76
+    },
+    {
+      "text": "by going straight to our our data",
+      "start": 879.2,
+      "end": 883.52
+    },
+    {
+      "text": "sources. It found some potentially",
+      "start": 881.76,
+      "end": 885.56
+    },
+    {
+      "text": "relevant tables here.",
+      "start": 883.52,
+      "end": 887.08
+    },
+    {
+      "text": "Uh, and then it did go straight into the",
+      "start": 885.56,
+      "end": 889.44
+    },
+    {
+      "text": "ontology. So, we've got pages, again,",
+      "start": 887.08,
+      "end": 892.24
+    },
+    {
+      "text": "those wiki pages in Unity Catalog. It",
+      "start": 889.44,
+      "end": 894.44
+    },
+    {
+      "text": "may end up using some of these in the",
+      "start": 892.24,
+      "end": 895.92
+    },
+    {
+      "text": "actual answer. Again, this is just",
+      "start": 894.44,
+      "end": 898.0
+    },
+    {
+      "text": "potentially relevant stuff. And then we",
+      "start": 895.92,
+      "end": 899.92
+    },
+    {
+      "text": "have knowledge snippets. So, we have",
+      "start": 898.0,
+      "end": 901.52
+    },
+    {
+      "text": "those facts about the business that",
+      "start": 899.92,
+      "end": 903.48
+    },
+    {
+      "text": "Genie has learned from all sorts of",
+      "start": 901.52,
+      "end": 904.72
+    },
+    {
+      "text": "different sources. And you can see",
+      "start": 903.48,
+      "end": 906.2
+    },
+    {
+      "text": "there's business terms, metric",
+      "start": 904.72,
+      "end": 908.16
+    },
+    {
+      "text": "definitions, something about data",
+      "start": 906.2,
+      "end": 909.6
+    },
+    {
+      "text": "quality,",
+      "start": 908.16,
+      "end": 911.8
+    },
+    {
+      "text": "another business term. There's even one,",
+      "start": 909.6,
+      "end": 913.28
+    },
+    {
+      "text": "this is kind of a preview of some of the",
+      "start": 911.8,
+      "end": 914.48
+    },
+    {
+      "text": "stuff that we're playing around with,",
+      "start": 913.28,
+      "end": 917.2
+    },
+    {
+      "text": "but one that reaches into GitHub, uh, to",
+      "start": 914.48,
+      "end": 918.68
+    },
+    {
+      "text": "get information because it's also a very",
+      "start": 917.2,
+      "end": 920.88
+    },
+    {
+      "text": "semantically rich data source. But the",
+      "start": 918.68,
+      "end": 923.0
+    },
+    {
+      "text": "key thing is that we're combining this",
+      "start": 920.88,
+      "end": 925.4
+    },
+    {
+      "text": "human curated context with this more",
+      "start": 923.0,
+      "end": 927.12
+    },
+    {
+      "text": "learned knowledge because again, it's",
+      "start": 925.4,
+      "end": 928.6
+    },
+    {
+      "text": "really difficult to try to curate",
+      "start": 927.12,
+      "end": 931.08
+    },
+    {
+      "text": "everything for the entire org. Uh I",
+      "start": 928.6,
+      "end": 932.44
+    },
+    {
+      "text": "think I also found the thinking trace",
+      "start": 931.08,
+      "end": 934.56
+    },
+    {
+      "text": "before we talk about the document. Uh we",
+      "start": 932.44,
+      "end": 936.04
+    },
+    {
+      "text": "also looked at Google Drive, we looked",
+      "start": 934.56,
+      "end": 937.96
+    },
+    {
+      "text": "at Jira, and then ran a bunch of those",
+      "start": 936.04,
+      "end": 940.44
+    },
+    {
+      "text": "SQL queries. Again, very important uh",
+      "start": 937.96,
+      "end": 942.08
+    },
+    {
+      "text": "that we are able to query on live",
+      "start": 940.44,
+      "end": 944.28
+    },
+    {
+      "text": "operational data and not just not just",
+      "start": 942.08,
+      "end": 946.04
+    },
+    {
+      "text": "reading documents.",
+      "start": 944.28,
+      "end": 947.76
+    },
+    {
+      "text": "And then like the again, the data is",
+      "start": 946.04,
+      "end": 949.44
+    },
+    {
+      "text": "demo, so what it actually produces is",
+      "start": 947.76,
+      "end": 951.48
+    },
+    {
+      "text": "not super interesting. Um but we see a",
+      "start": 949.44,
+      "end": 953.68
+    },
+    {
+      "text": "bunch of visualizations. It's able to do",
+      "start": 951.48,
+      "end": 955.44
+    },
+    {
+      "text": "things like more advanced like cohort",
+      "start": 953.68,
+      "end": 957.0
+    },
+    {
+      "text": "retention analyses. It can do things",
+      "start": 955.44,
+      "end": 958.76
+    },
+    {
+      "text": "like forecasts. Maybe I can show you",
+      "start": 957.0,
+      "end": 961.48
+    },
+    {
+      "text": "that actually. Um it's able to again",
+      "start": 958.76,
+      "end": 963.52
+    },
+    {
+      "text": "pull from those third-party sources. So",
+      "start": 961.48,
+      "end": 965.52
+    },
+    {
+      "text": "for example, it's pulling from Jira.",
+      "start": 963.52,
+      "end": 967.72
+    },
+    {
+      "text": "It's able to do those recommendations.",
+      "start": 965.52,
+      "end": 969.52
+    },
+    {
+      "text": "And a really critical thing to mention",
+      "start": 967.72,
+      "end": 971.28
+    },
+    {
+      "text": "is that all of the stuff that you see",
+      "start": 969.52,
+      "end": 974.16
+    },
+    {
+      "text": "here is data that I actually have access",
+      "start": 971.28,
+      "end": 976.44
+    },
+    {
+      "text": "to. So again, Genie isn't creating any",
+      "start": 974.16,
+      "end": 978.48
+    },
+    {
+      "text": "sort of special Genie specific",
+      "start": 976.44,
+      "end": 981.08
+    },
+    {
+      "text": "permissions. It's simply enforcing our",
+      "start": 978.48,
+      "end": 983.04
+    },
+    {
+      "text": "source permissions through Unity",
+      "start": 981.08,
+      "end": 984.72
+    },
+    {
+      "text": "Catalog. And that applies also to the",
+      "start": 983.04,
+      "end": 987.32
+    },
+    {
+      "text": "ontology uh that that is derived from",
+      "start": 984.72,
+      "end": 989.36
+    },
+    {
+      "text": "any assets that are used here. And we",
+      "start": 987.32,
+      "end": 991.48
+    },
+    {
+      "text": "can actually see, you know, what was",
+      "start": 989.36,
+      "end": 993.76
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Show the authentic product steps and results rather than inventing them.",
+  "parameterized_transcript_patterns": [
+    "Here is {{question_or_task}}. We {{interaction}}, then inspect {{result_or_evidence}}.",
+    "To verify {{claim}}, look at {{visible_evidence}} in the product."
+  ],
+  "semantic_slots": [
+    "claim",
+    "interaction",
+    "question_or_task",
+    "result_or_evidence",
+    "visible_evidence"
+  ],
+  "selection_rule": "Use when exact interaction or observed execution is central.",
+  "better_alternative_or_misuse": "Illustrative diagrams cannot verify real execution. Keep reference UI separate from generated conceptual graphics.",
+  "motion_recipe": "Retain real viewport changes and source timing; focus on the evidence the narrator discusses.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 862,
+      "timecode": "14:22.00",
+      "images": {
+        "full_frame": "frames/full/0025860.jpg",
+        "graphic_region": "frames/graphic/0025860.jpg",
+        "requested_seconds": 862,
+        "sample_frame": 25860,
+        "normalized_source_seconds": 862.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "I'm going to get it started. Uh, and",
+          "start": 857.68,
+          "end": 861.56
+        },
+        {
+          "text": "then as Genie is running, again, we can",
+          "start": 859.48,
+          "end": 863.56
+        },
+        {
+          "text": "we can click into see what it's",
+          "start": 861.56,
+          "end": 865.24
+        },
+        {
+          "text": "thinking. Now, you'll notice that was",
+          "start": 863.56,
+          "end": 866.8
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 881,
+      "timecode": "14:41.00",
+      "images": {
+        "full_frame": "frames/full/0026430.jpg",
+        "graphic_region": "frames/graphic/0026430.jpg",
+        "requested_seconds": 881,
+        "sample_frame": 26430,
+        "normalized_source_seconds": 881.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "actually see it, again, in practice. So,",
+          "start": 875.44,
+          "end": 879.2
+        },
+        {
+          "text": "uh, it looks like Genie actually started",
+          "start": 877.52,
+          "end": 881.76
+        },
+        {
+          "text": "by going straight to our our data",
+          "start": 879.2,
+          "end": 883.52
+        },
+        {
+          "text": "sources. It found some potentially",
+          "start": 881.76,
+          "end": 885.56
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 910,
+      "timecode": "15:10.00",
+      "images": {
+        "full_frame": "frames/full/0027300.jpg",
+        "graphic_region": "frames/graphic/0027300.jpg",
+        "requested_seconds": 910,
+        "sample_frame": 27300,
+        "normalized_source_seconds": 910.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "there's business terms, metric",
+          "start": 904.72,
+          "end": 908.16
+        },
+        {
+          "text": "definitions, something about data",
+          "start": 906.2,
+          "end": 909.6
+        },
+        {
+          "text": "quality,",
+          "start": 908.16,
+          "end": 911.8
+        },
+        {
+          "text": "another business term. There's even one,",
+          "start": 909.6,
+          "end": 913.28
+        },
+        {
+          "text": "this is kind of a preview of some of the",
+          "start": 911.8,
+          "end": 914.48
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "intermediate observed state",
+      "time": 945,
+      "timecode": "15:45.00",
+      "images": {
+        "full_frame": "frames/full/0028350.jpg",
+        "graphic_region": "frames/graphic/0028350.jpg",
+        "requested_seconds": 945,
+        "sample_frame": 28350,
+        "normalized_source_seconds": 945.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "that we are able to query on live",
+          "start": 940.44,
+          "end": 944.28
+        },
+        {
+          "text": "operational data and not just not just",
+          "start": 942.08,
+          "end": 946.04
+        },
+        {
+          "text": "reading documents.",
+          "start": 944.28,
+          "end": 947.76
+        },
+        {
+          "text": "And then like the again, the data is",
+          "start": 946.04,
+          "end": 949.44
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-05",
+      "sequence_role": "later observed state",
+      "time": 985,
+      "timecode": "16:25.00",
+      "images": {
+        "full_frame": "frames/full/0029550.jpg",
+        "graphic_region": "frames/graphic/0029550.jpg",
+        "requested_seconds": 985,
+        "sample_frame": 29550,
+        "normalized_source_seconds": 985.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "permissions. It's simply enforcing our",
+          "start": 978.48,
+          "end": 983.04
+        },
+        {
+          "text": "source permissions through Unity",
+          "start": 981.08,
+          "end": 984.72
+        },
+        {
+          "text": "Catalog. And that applies also to the",
+          "start": 983.04,
+          "end": 987.32
+        },
+        {
+          "text": "ontology uh that that is derived from",
+          "start": 984.72,
+          "end": 989.36
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 879,
+      "nearby_original_transcript": [
+        {
+          "text": "ontology, uh, turned on. And we can",
+          "start": 872.8,
+          "end": 877.52
+        },
+        {
+          "text": "actually see it, again, in practice. So,",
+          "start": 875.44,
+          "end": 879.2
+        },
+        {
+          "text": "uh, it looks like Genie actually started",
+          "start": 877.52,
+          "end": 881.76
+        },
+        {
+          "text": "by going straight to our our data",
+          "start": 879.2,
+          "end": 883.52
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0026362.jpg",
+          "graphic_region": "frames/graphic/0026362.jpg",
+          "requested_seconds": 878.75,
+          "sample_frame": 26362,
+          "normalized_source_seconds": 878.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0026378.jpg",
+          "graphic_region": "frames/graphic/0026378.jpg",
+          "requested_seconds": 879.25,
+          "sample_frame": 26378,
+          "normalized_source_seconds": 879.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0026400.jpg",
+          "graphic_region": "frames/graphic/0026400.jpg",
+          "requested_seconds": 880,
+          "sample_frame": 26400,
+          "normalized_source_seconds": 880.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 908,
+      "nearby_original_transcript": [
+        {
+          "text": "different sources. And you can see",
+          "start": 903.48,
+          "end": 906.2
+        },
+        {
+          "text": "there's business terms, metric",
+          "start": 904.72,
+          "end": 908.16
+        },
+        {
+          "text": "definitions, something about data",
+          "start": 906.2,
+          "end": 909.6
+        },
+        {
+          "text": "quality,",
+          "start": 908.16,
+          "end": 911.8
+        },
+        {
+          "text": "another business term. There's even one,",
+          "start": 909.6,
+          "end": 913.28
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0027232.jpg",
+          "graphic_region": "frames/graphic/0027232.jpg",
+          "requested_seconds": 907.75,
+          "sample_frame": 27232,
+          "normalized_source_seconds": 907.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0027248.jpg",
+          "graphic_region": "frames/graphic/0027248.jpg",
+          "requested_seconds": 908.25,
+          "sample_frame": 27248,
+          "normalized_source_seconds": 908.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0027270.jpg",
+          "graphic_region": "frames/graphic/0027270.jpg",
+          "requested_seconds": 909,
+          "sample_frame": 27270,
+          "normalized_source_seconds": 909.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 941,
+      "nearby_original_transcript": [
+        {
+          "text": "at Jira, and then ran a bunch of those",
+          "start": 936.04,
+          "end": 940.44
+        },
+        {
+          "text": "SQL queries. Again, very important uh",
+          "start": 937.96,
+          "end": 942.08
+        },
+        {
+          "text": "that we are able to query on live",
+          "start": 940.44,
+          "end": 944.28
+        },
+        {
+          "text": "operational data and not just not just",
+          "start": 942.08,
+          "end": 946.04
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0028222.jpg",
+          "graphic_region": "frames/graphic/0028222.jpg",
+          "requested_seconds": 940.75,
+          "sample_frame": 28222,
+          "normalized_source_seconds": 940.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0028238.jpg",
+          "graphic_region": "frames/graphic/0028238.jpg",
+          "requested_seconds": 941.25,
+          "sample_frame": 28238,
+          "normalized_source_seconds": 941.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0028260.jpg",
+          "graphic_region": "frames/graphic/0028260.jpg",
+          "requested_seconds": 942,
+          "sample_frame": 28260,
+          "normalized_source_seconds": 942.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "14-demo-context",
+      "observed_state_pattern": "Application home \u2192 user question \u2192 source/context overlay.",
+      "persistent_context": "Same app and presenter rail; overlay relates to visible prompt.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    },
+    {
+      "id": "15-demo-inspection",
+      "observed_state_pattern": "Prompt \u2192 analysis/query states \u2192 source/result inspection with crops.",
+      "persistent_context": "Keep conversation identity and enough UI landmarks to preserve orientation.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0029550.jpg",
+      "frames/graphic/0025860.jpg",
+      "frames/graphic/0027300.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0029550.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

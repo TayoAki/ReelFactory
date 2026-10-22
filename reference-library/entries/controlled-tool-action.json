@@ -1,0 +1,715 @@
+{
+  "id": "controlled-tool-action",
+  "index": 39,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 1316,
+  "source_end": 1355,
+  "source_timecode": "21:56.00\u201322:35.00",
+  "template_id": "permissioned-action",
+  "label": "Tool route, gateway and access checks",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Make the control point and action scope explicit.",
+  "relationship": "actor \u2192 control point \u2192 allowed/denied route",
+  "original_transcript": "in data, but of course, you can also use MCPs to write data. The interesting thing here, I think, is that MCPs have been our first integration between Genie and Unity Gateway. So, as an administrator, you can decide, you know, this user gets access to this MCP, that user gets access to that MCP, or even this tool, but not that tool, or even more granularly than that. For example, you can use Genie to post to Slack, but you can't, you know, post to these particular channels, or maybe you can push to this GitHub branch, but not those GitHub branches. So, that becomes a pretty granular control for the administrators, and we've only since then expanded on that as we think about more and more centralized governance of",
+  "original_transcript_segments": [
+    {
+      "text": "in data, but of course, you can also use",
+      "start": 1313.52,
+      "end": 1317.92
+    },
+    {
+      "text": "MCPs to write data.",
+      "start": 1315.64,
+      "end": 1319.84
+    },
+    {
+      "text": "The interesting thing here, I think, is",
+      "start": 1317.92,
+      "end": 1321.6
+    },
+    {
+      "text": "that MCPs have been our first",
+      "start": 1319.84,
+      "end": 1323.6
+    },
+    {
+      "text": "integration between Genie and Unity",
+      "start": 1321.6,
+      "end": 1326.08
+    },
+    {
+      "text": "Gateway. So, as an administrator, you",
+      "start": 1323.6,
+      "end": 1327.6
+    },
+    {
+      "text": "can decide, you know, this user gets",
+      "start": 1326.08,
+      "end": 1329.52
+    },
+    {
+      "text": "access to this MCP, that user gets",
+      "start": 1327.6,
+      "end": 1332.4
+    },
+    {
+      "text": "access to that MCP, or even this tool,",
+      "start": 1329.52,
+      "end": 1334.32
+    },
+    {
+      "text": "but not that tool, or even more",
+      "start": 1332.4,
+      "end": 1336.64
+    },
+    {
+      "text": "granularly than that. For example, you",
+      "start": 1334.32,
+      "end": 1339.24
+    },
+    {
+      "text": "can use Genie to post to",
+      "start": 1336.64,
+      "end": 1341.48
+    },
+    {
+      "text": "Slack, but you can't, you know, post to",
+      "start": 1339.24,
+      "end": 1343.76
+    },
+    {
+      "text": "these particular channels, or maybe you",
+      "start": 1341.48,
+      "end": 1345.92
+    },
+    {
+      "text": "can push to this GitHub branch, but not",
+      "start": 1343.76,
+      "end": 1348.16
+    },
+    {
+      "text": "those GitHub branches. So, that becomes",
+      "start": 1345.92,
+      "end": 1350.08
+    },
+    {
+      "text": "a pretty granular control for the",
+      "start": 1348.16,
+      "end": 1351.68
+    },
+    {
+      "text": "administrators, and we've only since",
+      "start": 1350.08,
+      "end": 1353.88
+    },
+    {
+      "text": "then expanded on that as we think about",
+      "start": 1351.68,
+      "end": 1355.96
+    },
+    {
+      "text": "more and more centralized governance of",
+      "start": 1353.88,
+      "end": 1358.16
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Explain how tool use or write actions are governed.",
+  "parameterized_transcript_patterns": [
+    "{{actor}} reaches {{tool}} through {{control_point}}, which enforces {{scope}}.",
+    "{{action}} is allowed for {{allowed_scope}} and denied for {{denied_scope}}."
+  ],
+  "semantic_slots": [
+    "action",
+    "actor",
+    "allowed_scope",
+    "control_point",
+    "denied_scope",
+    "scope",
+    "tool"
+  ],
+  "selection_rule": "Use when the permission boundary or action route matters.",
+  "better_alternative_or_misuse": "Compatibility logos are not proof of authorization or successful execution.",
+  "motion_recipe": "Establish actor and destination, add the gateway, draw the route and reveal access distinctions.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 1316.3,
+      "timecode": "21:56.30",
+      "images": {
+        "full_frame": "frames/full/0039489.jpg",
+        "graphic_region": "frames/graphic/0039489.jpg",
+        "requested_seconds": 1316.3,
+        "sample_frame": 39489,
+        "normalized_source_seconds": 1316.3,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "doesn't. So, I talked about MCPs to read",
+          "start": 1311.28,
+          "end": 1315.64
+        },
+        {
+          "text": "in data, but of course, you can also use",
+          "start": 1313.52,
+          "end": 1317.92
+        },
+        {
+          "text": "MCPs to write data.",
+          "start": 1315.64,
+          "end": 1319.84
+        },
+        {
+          "text": "The interesting thing here, I think, is",
+          "start": 1317.92,
+          "end": 1321.6
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 1322,
+      "timecode": "22:02.00",
+      "images": {
+        "full_frame": "frames/full/0039660.jpg",
+        "graphic_region": "frames/graphic/0039660.jpg",
+        "requested_seconds": 1322,
+        "sample_frame": 39660,
+        "normalized_source_seconds": 1322.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "The interesting thing here, I think, is",
+          "start": 1317.92,
+          "end": 1321.6
+        },
+        {
+          "text": "that MCPs have been our first",
+          "start": 1319.84,
+          "end": 1323.6
+        },
+        {
+          "text": "integration between Genie and Unity",
+          "start": 1321.6,
+          "end": 1326.08
+        },
+        {
+          "text": "Gateway. So, as an administrator, you",
+          "start": 1323.6,
+          "end": 1327.6
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 1327,
+      "timecode": "22:07.00",
+      "images": {
+        "full_frame": "frames/full/0039810.jpg",
+        "graphic_region": "frames/graphic/0039810.jpg",
+        "requested_seconds": 1327,
+        "sample_frame": 39810,
+        "normalized_source_seconds": 1327.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "integration between Genie and Unity",
+          "start": 1321.6,
+          "end": 1326.08
+        },
+        {
+          "text": "Gateway. So, as an administrator, you",
+          "start": 1323.6,
+          "end": 1327.6
+        },
+        {
+          "text": "can decide, you know, this user gets",
+          "start": 1326.08,
+          "end": 1329.52
+        },
+        {
+          "text": "access to this MCP, that user gets",
+          "start": 1327.6,
+          "end": 1332.4
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "intermediate observed state",
+      "time": 1333,
+      "timecode": "22:13.00",
+      "images": {
+        "full_frame": "frames/full/0039990.jpg",
+        "graphic_region": "frames/graphic/0039990.jpg",
+        "requested_seconds": 1333,
+        "sample_frame": 39990,
+        "normalized_source_seconds": 1333.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "access to this MCP, that user gets",
+          "start": 1327.6,
+          "end": 1332.4
+        },
+        {
+          "text": "access to that MCP, or even this tool,",
+          "start": 1329.52,
+          "end": 1334.32
+        },
+        {
+          "text": "but not that tool, or even more",
+          "start": 1332.4,
+          "end": 1336.64
+        },
+        {
+          "text": "granularly than that. For example, you",
+          "start": 1334.32,
+          "end": 1339.24
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-05",
+      "sequence_role": "intermediate observed state",
+      "time": 1340,
+      "timecode": "22:20.00",
+      "images": {
+        "full_frame": "frames/full/0040200.jpg",
+        "graphic_region": "frames/graphic/0040200.jpg",
+        "requested_seconds": 1340,
+        "sample_frame": 40200,
+        "normalized_source_seconds": 1340.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "granularly than that. For example, you",
+          "start": 1334.32,
+          "end": 1339.24
+        },
+        {
+          "text": "can use Genie to post to",
+          "start": 1336.64,
+          "end": 1341.48
+        },
+        {
+          "text": "Slack, but you can't, you know, post to",
+          "start": 1339.24,
+          "end": 1343.76
+        },
+        {
+          "text": "these particular channels, or maybe you",
+          "start": 1341.48,
+          "end": 1345.92
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-06",
+      "sequence_role": "later observed state",
+      "time": 1353,
+      "timecode": "22:33.00",
+      "images": {
+        "full_frame": "frames/full/0040590.jpg",
+        "graphic_region": "frames/graphic/0040590.jpg",
+        "requested_seconds": 1353,
+        "sample_frame": 40590,
+        "normalized_source_seconds": 1353.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "a pretty granular control for the",
+          "start": 1348.16,
+          "end": 1351.68
+        },
+        {
+          "text": "administrators, and we've only since",
+          "start": 1350.08,
+          "end": 1353.88
+        },
+        {
+          "text": "then expanded on that as we think about",
+          "start": 1351.68,
+          "end": 1355.96
+        },
+        {
+          "text": "more and more centralized governance of",
+          "start": 1353.88,
+          "end": 1358.16
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 1316,
+      "nearby_original_transcript": [
+        {
+          "text": "doesn't. So, I talked about MCPs to read",
+          "start": 1311.28,
+          "end": 1315.64
+        },
+        {
+          "text": "in data, but of course, you can also use",
+          "start": 1313.52,
+          "end": 1317.92
+        },
+        {
+          "text": "MCPs to write data.",
+          "start": 1315.64,
+          "end": 1319.84
+        },
+        {
+          "text": "The interesting thing here, I think, is",
+          "start": 1317.92,
+          "end": 1321.6
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0039480.jpg",
+          "graphic_region": "frames/graphic/0039480.jpg",
+          "requested_seconds": 1316,
+          "sample_frame": 39480,
+          "normalized_source_seconds": 1316.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0039488.jpg",
+          "graphic_region": "frames/graphic/0039488.jpg",
+          "requested_seconds": 1316.25,
+          "sample_frame": 39488,
+          "normalized_source_seconds": 1316.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0039510.jpg",
+          "graphic_region": "frames/graphic/0039510.jpg",
+          "requested_seconds": 1317,
+          "sample_frame": 39510,
+          "normalized_source_seconds": 1317.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1321,
+      "nearby_original_transcript": [
+        {
+          "text": "MCPs to write data.",
+          "start": 1315.64,
+          "end": 1319.84
+        },
+        {
+          "text": "The interesting thing here, I think, is",
+          "start": 1317.92,
+          "end": 1321.6
+        },
+        {
+          "text": "that MCPs have been our first",
+          "start": 1319.84,
+          "end": 1323.6
+        },
+        {
+          "text": "integration between Genie and Unity",
+          "start": 1321.6,
+          "end": 1326.08
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0039622.jpg",
+          "graphic_region": "frames/graphic/0039622.jpg",
+          "requested_seconds": 1320.75,
+          "sample_frame": 39622,
+          "normalized_source_seconds": 1320.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0039638.jpg",
+          "graphic_region": "frames/graphic/0039638.jpg",
+          "requested_seconds": 1321.25,
+          "sample_frame": 39638,
+          "normalized_source_seconds": 1321.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0039660.jpg",
+          "graphic_region": "frames/graphic/0039660.jpg",
+          "requested_seconds": 1322,
+          "sample_frame": 39660,
+          "normalized_source_seconds": 1322.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1326,
+      "nearby_original_transcript": [
+        {
+          "text": "integration between Genie and Unity",
+          "start": 1321.6,
+          "end": 1326.08
+        },
+        {
+          "text": "Gateway. So, as an administrator, you",
+          "start": 1323.6,
+          "end": 1327.6
+        },
+        {
+          "text": "can decide, you know, this user gets",
+          "start": 1326.08,
+          "end": 1329.52
+        },
+        {
+          "text": "access to this MCP, that user gets",
+          "start": 1327.6,
+          "end": 1332.4
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0039772.jpg",
+          "graphic_region": "frames/graphic/0039772.jpg",
+          "requested_seconds": 1325.75,
+          "sample_frame": 39772,
+          "normalized_source_seconds": 1325.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0039788.jpg",
+          "graphic_region": "frames/graphic/0039788.jpg",
+          "requested_seconds": 1326.25,
+          "sample_frame": 39788,
+          "normalized_source_seconds": 1326.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0039810.jpg",
+          "graphic_region": "frames/graphic/0039810.jpg",
+          "requested_seconds": 1327,
+          "sample_frame": 39810,
+          "normalized_source_seconds": 1327.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1332,
+      "nearby_original_transcript": [
+        {
+          "text": "access to this MCP, that user gets",
+          "start": 1327.6,
+          "end": 1332.4
+        },
+        {
+          "text": "access to that MCP, or even this tool,",
+          "start": 1329.52,
+          "end": 1334.32
+        },
+        {
+          "text": "but not that tool, or even more",
+          "start": 1332.4,
+          "end": 1336.64
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0039952.jpg",
+          "graphic_region": "frames/graphic/0039952.jpg",
+          "requested_seconds": 1331.75,
+          "sample_frame": 39952,
+          "normalized_source_seconds": 1331.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0039968.jpg",
+          "graphic_region": "frames/graphic/0039968.jpg",
+          "requested_seconds": 1332.25,
+          "sample_frame": 39968,
+          "normalized_source_seconds": 1332.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0039990.jpg",
+          "graphic_region": "frames/graphic/0039990.jpg",
+          "requested_seconds": 1333,
+          "sample_frame": 39990,
+          "normalized_source_seconds": 1333.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1338,
+      "nearby_original_transcript": [
+        {
+          "text": "but not that tool, or even more",
+          "start": 1332.4,
+          "end": 1336.64
+        },
+        {
+          "text": "granularly than that. For example, you",
+          "start": 1334.32,
+          "end": 1339.24
+        },
+        {
+          "text": "can use Genie to post to",
+          "start": 1336.64,
+          "end": 1341.48
+        },
+        {
+          "text": "Slack, but you can't, you know, post to",
+          "start": 1339.24,
+          "end": 1343.76
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0040132.jpg",
+          "graphic_region": "frames/graphic/0040132.jpg",
+          "requested_seconds": 1337.75,
+          "sample_frame": 40132,
+          "normalized_source_seconds": 1337.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0040148.jpg",
+          "graphic_region": "frames/graphic/0040148.jpg",
+          "requested_seconds": 1338.25,
+          "sample_frame": 40148,
+          "normalized_source_seconds": 1338.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0040170.jpg",
+          "graphic_region": "frames/graphic/0040170.jpg",
+          "requested_seconds": 1339,
+          "sample_frame": 40170,
+          "normalized_source_seconds": 1339.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1346,
+      "nearby_original_transcript": [
+        {
+          "text": "these particular channels, or maybe you",
+          "start": 1341.48,
+          "end": 1345.92
+        },
+        {
+          "text": "can push to this GitHub branch, but not",
+          "start": 1343.76,
+          "end": 1348.16
+        },
+        {
+          "text": "those GitHub branches. So, that becomes",
+          "start": 1345.92,
+          "end": 1350.08
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0040372.jpg",
+          "graphic_region": "frames/graphic/0040372.jpg",
+          "requested_seconds": 1345.75,
+          "sample_frame": 40372,
+          "normalized_source_seconds": 1345.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0040388.jpg",
+          "graphic_region": "frames/graphic/0040388.jpg",
+          "requested_seconds": 1346.25,
+          "sample_frame": 40388,
+          "normalized_source_seconds": 1346.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0040410.jpg",
+          "graphic_region": "frames/graphic/0040410.jpg",
+          "requested_seconds": 1347,
+          "sample_frame": 40410,
+          "normalized_source_seconds": 1347.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "19-governed-actions",
+      "observed_state_pattern": "Evidence feature \u2192 action route \u2192 permissions/tools \u2192 saved reusable task.",
+      "persistent_context": "Keep action endpoints and permission markers attached to the route they constrain.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0040590.jpg",
+      "frames/graphic/0039489.jpg",
+      "frames/graphic/0039810.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0040590.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

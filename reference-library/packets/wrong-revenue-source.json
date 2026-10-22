@@ -1,0 +1,46 @@
+{
+  "template_id": "wrong-source",
+  "instance_id": "wrong-revenue-source",
+  "selection_reason": "Use when the failure is asset authority or relevance rather than arithmetic.",
+  "alternative_or_misuse": "Use a definition comparison for metric ambiguity; avoid showing a random table when the problem is a formula.",
+  "target_narration": "business, we often get quite strange answers. So, for example, it might grab the first revenue table that it finds in some random dashboard rather than the one that finance actually maintains. Uh or if you ask for, you know, a churn rate, it might have no idea that your",
+  "target_slot_bindings": {
+    "business_question": "A revenue question",
+    "system": "A generic model",
+    "easy_but_wrong_asset": "The first revenue table in a random dashboard",
+    "authoritative_asset": "The revenue source maintained by Finance",
+    "owner": "Finance",
+    "candidate": "the first revenue table found in a random dashboard",
+    "trusted_definition_or_source": "Finance\u2019s maintained revenue source"
+  },
+  "binding_origin": "Representative source example",
+  "sentence_scaffolds": [
+    "For A revenue question, A generic model may select The first revenue table in a random dashboard instead of The revenue source maintained by Finance.",
+    "It finds the first revenue table found in a random dashboard, but that is not the Finance\u2019s maintained revenue source used by Finance."
+  ],
+  "source_quote": "business, we often get quite strange answers. So, for example, it might grab the first revenue table that it finds in some random dashboard rather than the one that finance actually maintains. Uh or if you ask for, you know, a churn rate, it might have no idea that your",
+  "source_range": [
+    125,
+    138
+  ],
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_order_and_reveal_order_are_separate": true,
+  "original_reference_assets_relative_to_library": [
+    "frames/graphic/0004095.jpg",
+    "frames/graphic/0003756.jpg",
+    "frames/graphic/0003870.jpg"
+  ],
+  "imagegen_request": {
+    "prompt": "Create a single settled storyboard master image for this technical teaching beat.\nTeaching relationship: question \u2192 plausible but wrong asset \u2192 wrong answer. Teaching job: Expose a source-selection failure using a concrete business example..\nTarget narration: business, we often get quite strange answers. So, for example, it might grab the first revenue table that it finds in some random dashboard rather than the one that finance actually maintains. Uh or if you ask for, you know, a churn rate, it might have no idea that your\nTarget semantic slots: {\"business_question\": \"A revenue question\", \"system\": \"A generic model\", \"easy_but_wrong_asset\": \"The first revenue table in a random dashboard\", \"authoritative_asset\": \"The revenue source maintained by Finance\", \"owner\": \"Finance\", \"candidate\": \"the first revenue table found in a random dashboard\", \"trusted_definition_or_source\": \"Finance\u2019s maintained revenue source\"}\nReference image 1 is the selected original-source style anchor. Further original-source images show earlier/build states. Use their visual hierarchy, icon mass, typography, color roles, surfaces, spacing and persistent relationships when appropriate. Do not use the rejected reconstruction as a reference.\nSource-specific observation: {\"status\": \"Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance.\"}\nThe finished diagram's reading order is separate from its reveal order. For adaptation, align the planned state sequence with the new narration; for reconstruction, follow the observed source sequence.\nMode: reconstruction. Preserve the reference content and label source claims accurately.\nDeliver a polished readable still with exact requested labels and useful whitespace. It is a candidate for human image review before editable reconstruction and motion. Produce only this master still; later states should be derived from it to preserve continuity.",
+    "referenced_image_paths": [
+      "/workspace/ReelFactory/reference-library/frames/graphic/0004095.jpg",
+      "/workspace/ReelFactory/reference-library/frames/graphic/0003756.jpg",
+      "/workspace/ReelFactory/reference-library/frames/graphic/0003870.jpg"
+    ],
+    "transparent_background": false
+  },
+  "storyboard_requirement": "Generate a master still, derive at least three coherent state images, compare to original references, review, reconstruct editable layers, then animate.",
+  "confidence": "Curated references and editorial sentence scaffolds; not a trained selector, word-alignment model or claim verifier."
+}

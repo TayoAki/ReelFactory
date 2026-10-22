@@ -1,0 +1,66 @@
+{
+  "id": "agent-delegation",
+  "relationship": "parent \u2192 specialists \u2192 resources",
+  "teaching_job": "Distinguish an orchestrating agent from delegated specialists and their resources.",
+  "transcript_patterns": [
+    "{{parent_agent}} delegates {{job_a}} to {{specialist_a}} and {{job_b}} to {{specialist_b}}.",
+    "Each {{specialist}} receives {{inputs}} and can use {{resources}} within {{scope}}."
+  ],
+  "semantic_slots": [
+    "inputs",
+    "job_a",
+    "job_b",
+    "jobs",
+    "parent_agent",
+    "resources",
+    "scope",
+    "specialist",
+    "specialist_a",
+    "specialist_b",
+    "specialists"
+  ],
+  "choose_when": "Use when delegation or ownership is a real relationship in the supported system.",
+  "choose_something_else_when": "Use an input map for context sources; do not present source connectors as subordinate agents.",
+  "motion_grammar": "Establish the parent or inputs, reveal specialists individually, then show each named branch/resource.",
+  "instances": [
+    "specialized-agents",
+    "agent-hierarchy"
+  ],
+  "classification": "Curated editorial teaching template; not a trained classifier or a product fact.",
+  "required_pattern_slots": [
+    [
+      "job_a",
+      "job_b",
+      "parent_agent",
+      "specialist_a",
+      "specialist_b"
+    ],
+    [
+      "inputs",
+      "resources",
+      "scope",
+      "specialist"
+    ]
+  ],
+  "filled_source_sentence_scaffolds": [
+    "The custom/parent agent shown in the source delegates the renewals workflow to the renewals agent and the launch workflow to the launch agent.",
+    "Each a named custom agent receives Sources, instructions, skills and memory introduced earlier and can use The connected resources shown in the subsequent hierarchy within The supported business task and permissions."
+  ],
+  "unbound_source_example_slots": [],
+  "representative_entry": "specialized-agents",
+  "example_source_bindings": {
+    "parent_agent": "The custom/parent agent shown in the source",
+    "specialists": "Renewals, launch and finance agents",
+    "jobs": "Distinct business tasks for renewals, launch and finance",
+    "inputs": "Sources, instructions, skills and memory introduced earlier",
+    "resources": "The connected resources shown in the subsequent hierarchy",
+    "scope": "The supported business task and permissions",
+    "job_a": "the renewals workflow",
+    "specialist_a": "the renewals agent",
+    "job_b": "the launch workflow",
+    "specialist_b": "the launch agent",
+    "specialist": "a named custom agent"
+  },
+  "paired_source_quote": "coworker that can answer questions or get work done in a very particular domain. So, for example, you might have a a renewals agent that helps your team prep for for QBRs, or a launch agent that helps you kind of track all your feature statuses, or maybe a finance agent that answers questions about about your product's KPIs. And I think most customers are not starting from scratch here. If you've already been using what used to be called Genie Spaces, then",
+  "source_binding_status": "Editorial binding/paraphrase of source roles; raw transcript remains separately preserved. Do not treat bindings as word-for-word quotation."
+}

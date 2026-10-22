@@ -18,16 +18,16 @@ Rejected reconstruction:
 
 Generated image direction for review. The first two images are derived from the same settled master; slight generative differences still require shared tokens in the editable reconstruction. No human visual approval is asserted.
 
-### 1. Input
-Identify the input source before showing its route.
-![State 1](web-search/01-input.png)
-**Narration:** Introduce the web-search input as it is named.
-**Next motion:** Reveal first connector, then the model surface, icon and label.
+### 1. Model-Introduction
+Identify the mechanism the speaker introduces first.
+![State 1](web-search/01-model-first.png)
+**Narration:** The speaker first introduces generic models; establish that focal object before its web-search input.
+**Next motion:** Add the web-search input and its connector while retaining the model in place.
 
-### 2. Model
-Make the input-to-model relationship visible; the model is the focal object.
+### 2. Add-Web-Input
+Understand what information feeds the model.
 ![State 2](web-search/02-model.png)
-**Narration:** Show the generic model using the constrained search input.
+**Narration:** As web search is named, attach the input to the already-established generic model.
 **Next motion:** Reveal second connector and result components, then hold the complete flow.
 
 ### 3. Result

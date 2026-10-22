@@ -1,0 +1,326 @@
+{
+  "id": "topic-callout",
+  "index": 2,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 27,
+  "source_end": 35,
+  "source_timecode": "00:27.00\u201300:35.00",
+  "template_id": "callout",
+  "label": "Genie Ontology topic callout",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Name the topic while the host frames the conversation.",
+  "relationship": "spoken concept \u2192 concise emphasis",
+  "original_transcript": ">> Before we dive into Genie ontology, I think it might be worth it for viewers to have a quick little 101 lesson on what Genie is.",
+  "original_transcript_segments": [
+    {
+      "text": ">> Before we dive into Genie ontology,",
+      "start": 20.24,
+      "end": 27.6
+    },
+    {
+      "text": "I think it might be worth it for viewers",
+      "start": 24.16,
+      "end": 29.12
+    },
+    {
+      "text": "to have a",
+      "start": 27.6,
+      "end": 34.44
+    },
+    {
+      "text": "quick little 101 lesson on what Genie",
+      "start": 29.12,
+      "end": 35.72
+    },
+    {
+      "text": "is.",
+      "start": 34.44,
+      "end": 38.28
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Make a named phrase visible without adding an unspoken relationship.",
+  "parameterized_transcript_patterns": [
+    "The key idea is {{concept}}.",
+    "We need both {{concern_a}} and {{concern_b}}."
+  ],
+  "semantic_slots": [
+    "concept",
+    "concern_a",
+    "concern_b",
+    "concerns"
+  ],
+  "selection_rule": "Use for a short framing or recap phrase.",
+  "better_alternative_or_misuse": "Use a diagram when the mechanism needs explanation; a floating word is insufficient.",
+  "motion_recipe": "Reveal the named phrase or pill at the speech cue, retain it only while it supports the point.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 27.2,
+      "timecode": "00:27.20",
+      "images": {
+        "full_frame": "frames/full/0000816.jpg",
+        "graphic_region": "frames/graphic/0000816.jpg",
+        "requested_seconds": 27.2,
+        "sample_frame": 816,
+        "normalized_source_seconds": 27.2,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": ">> Before we dive into Genie ontology,",
+          "start": 20.24,
+          "end": 27.6
+        },
+        {
+          "text": "I think it might be worth it for viewers",
+          "start": 24.16,
+          "end": 29.12
+        },
+        {
+          "text": "to have a",
+          "start": 27.6,
+          "end": 34.44
+        },
+        {
+          "text": "quick little 101 lesson on what Genie",
+          "start": 29.12,
+          "end": 35.72
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 29,
+      "timecode": "00:29.00",
+      "images": {
+        "full_frame": "frames/full/0000870.jpg",
+        "graphic_region": "frames/graphic/0000870.jpg",
+        "requested_seconds": 29,
+        "sample_frame": 870,
+        "normalized_source_seconds": 29.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": ">> Before we dive into Genie ontology,",
+          "start": 20.24,
+          "end": 27.6
+        },
+        {
+          "text": "I think it might be worth it for viewers",
+          "start": 24.16,
+          "end": 29.12
+        },
+        {
+          "text": "to have a",
+          "start": 27.6,
+          "end": 34.44
+        },
+        {
+          "text": "quick little 101 lesson on what Genie",
+          "start": 29.12,
+          "end": 35.72
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 32,
+      "timecode": "00:32.00",
+      "images": {
+        "full_frame": "frames/full/0000960.jpg",
+        "graphic_region": "frames/graphic/0000960.jpg",
+        "requested_seconds": 32,
+        "sample_frame": 960,
+        "normalized_source_seconds": 32.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "to have a",
+          "start": 27.6,
+          "end": 34.44
+        },
+        {
+          "text": "quick little 101 lesson on what Genie",
+          "start": 29.12,
+          "end": 35.72
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "later observed state",
+      "time": 34,
+      "timecode": "00:34.00",
+      "images": {
+        "full_frame": "frames/full/0001020.jpg",
+        "graphic_region": "frames/graphic/0001020.jpg",
+        "requested_seconds": 34,
+        "sample_frame": 1020,
+        "normalized_source_seconds": 34.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "to have a",
+          "start": 27.6,
+          "end": 34.44
+        },
+        {
+          "text": "quick little 101 lesson on what Genie",
+          "start": 29.12,
+          "end": 35.72
+        },
+        {
+          "text": "is.",
+          "start": 34.44,
+          "end": 38.28
+        },
+        {
+          "text": ">> Yeah, absolutely. So, I come from the",
+          "start": 35.72,
+          "end": 41.28
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 27,
+      "nearby_original_transcript": [
+        {
+          "text": ">> Before we dive into Genie ontology,",
+          "start": 20.24,
+          "end": 27.6
+        },
+        {
+          "text": "I think it might be worth it for viewers",
+          "start": 24.16,
+          "end": 29.12
+        },
+        {
+          "text": "to have a",
+          "start": 27.6,
+          "end": 34.44
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0000810.jpg",
+          "graphic_region": "frames/graphic/0000810.jpg",
+          "requested_seconds": 27,
+          "sample_frame": 810,
+          "normalized_source_seconds": 27.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0000818.jpg",
+          "graphic_region": "frames/graphic/0000818.jpg",
+          "requested_seconds": 27.25,
+          "sample_frame": 818,
+          "normalized_source_seconds": 27.266666666666666,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0000840.jpg",
+          "graphic_region": "frames/graphic/0000840.jpg",
+          "requested_seconds": 28,
+          "sample_frame": 840,
+          "normalized_source_seconds": 28.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 30,
+      "nearby_original_transcript": [
+        {
+          "text": "I think it might be worth it for viewers",
+          "start": 24.16,
+          "end": 29.12
+        },
+        {
+          "text": "to have a",
+          "start": 27.6,
+          "end": 34.44
+        },
+        {
+          "text": "quick little 101 lesson on what Genie",
+          "start": 29.12,
+          "end": 35.72
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0000892.jpg",
+          "graphic_region": "frames/graphic/0000892.jpg",
+          "requested_seconds": 29.75,
+          "sample_frame": 892,
+          "normalized_source_seconds": 29.733333333333334,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0000908.jpg",
+          "graphic_region": "frames/graphic/0000908.jpg",
+          "requested_seconds": 30.25,
+          "sample_frame": 908,
+          "normalized_source_seconds": 30.266666666666666,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0000930.jpg",
+          "graphic_region": "frames/graphic/0000930.jpg",
+          "requested_seconds": 31,
+          "sample_frame": 930,
+          "normalized_source_seconds": 31.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0001020.jpg",
+      "frames/graphic/0000816.jpg",
+      "frames/graphic/0000870.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0001020.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

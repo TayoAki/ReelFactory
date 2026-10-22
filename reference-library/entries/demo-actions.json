@@ -1,0 +1,534 @@
+{
+  "id": "demo-actions",
+  "index": 51,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 1614,
+  "source_end": 1682,
+  "source_timecode": "26:54.00\u201328:02.00",
+  "template_id": "ui-evidence",
+  "label": "Actual action and scheduled-work demo",
+  "category": "authentic-ui-evidence",
+  "teaching_intent": "Show observed execution and resulting interface states.",
+  "relationship": "actual workflow \u2192 visible execution/result",
+  "original_transcript": "show a couple more things uh in in our demo. So, going back to my my other screen. So, I've I've Remember I've I've created my my document. I think I'm I'm ready to actually send this to our executive team. And I'm going to include some of those follow-up analyses that that Genie gave Sorry, Genie gave me. So, when it does this, Genie is is writing to Gmail and Jira as me with my credentials. And then behind the scenes, again, this is all governed through Unity Gateway. So, an admin has decided to leave me access to send email with Genie, um but they could certainly have blocked that if they if they chose. Or they could even uh block this execs@demodatabricks.com, which is not a real email uh or for public purposes. Um Now, I don't want to have to ask for these these follow-up analyses every week. So, maybe I'll also ask Genie to always investigate anomalies proactively when I'm doing this kind of review. Again, it goes back to that idea of of personal memory. So, I can save that. And then maybe I don't want to have to remember to run this at all every week. So, maybe I want this analysis to run when I'm out of office. So, I can also, again, put this on a schedule. I can",
+  "original_transcript_segments": [
+    {
+      "text": "show a couple more things uh in in our",
+      "start": 1610.24,
+      "end": 1614.56
+    },
+    {
+      "text": "demo.",
+      "start": 1612.88,
+      "end": 1616.2
+    },
+    {
+      "text": "So, going back to my my other screen.",
+      "start": 1614.56,
+      "end": 1618.04
+    },
+    {
+      "text": "So, I've I've Remember I've I've created",
+      "start": 1616.2,
+      "end": 1620.2
+    },
+    {
+      "text": "my my document. I think I'm I'm ready to",
+      "start": 1618.04,
+      "end": 1621.92
+    },
+    {
+      "text": "actually send this to our executive",
+      "start": 1620.2,
+      "end": 1623.44
+    },
+    {
+      "text": "team. And I'm going to include some of",
+      "start": 1621.92,
+      "end": 1625.64
+    },
+    {
+      "text": "those follow-up analyses that that Genie",
+      "start": 1623.44,
+      "end": 1628.64
+    },
+    {
+      "text": "gave Sorry, Genie gave me.",
+      "start": 1625.64,
+      "end": 1631.36
+    },
+    {
+      "text": "So, when it does this, Genie is is",
+      "start": 1628.64,
+      "end": 1634.72
+    },
+    {
+      "text": "writing to Gmail and Jira as me with my",
+      "start": 1631.36,
+      "end": 1636.68
+    },
+    {
+      "text": "credentials. And then behind the scenes,",
+      "start": 1634.72,
+      "end": 1638.28
+    },
+    {
+      "text": "again, this is all governed through",
+      "start": 1636.68,
+      "end": 1640.72
+    },
+    {
+      "text": "Unity Gateway. So, an admin has decided",
+      "start": 1638.28,
+      "end": 1643.8
+    },
+    {
+      "text": "to leave me access to send email with",
+      "start": 1640.72,
+      "end": 1645.8
+    },
+    {
+      "text": "Genie, um but they could certainly have",
+      "start": 1643.8,
+      "end": 1647.64
+    },
+    {
+      "text": "blocked that if they if they chose. Or",
+      "start": 1645.8,
+      "end": 1649.68
+    },
+    {
+      "text": "they could even uh block this",
+      "start": 1647.64,
+      "end": 1651.68
+    },
+    {
+      "text": "execs@demodatabricks.com,",
+      "start": 1649.68,
+      "end": 1654.36
+    },
+    {
+      "text": "which is not a real email uh or for",
+      "start": 1651.68,
+      "end": 1657.04
+    },
+    {
+      "text": "public purposes. Um Now, I don't want to",
+      "start": 1654.36,
+      "end": 1658.68
+    },
+    {
+      "text": "have to ask for these these follow-up",
+      "start": 1657.04,
+      "end": 1661.32
+    },
+    {
+      "text": "analyses every week. So, maybe I'll also",
+      "start": 1658.68,
+      "end": 1663.76
+    },
+    {
+      "text": "ask Genie to always investigate",
+      "start": 1661.32,
+      "end": 1665.44
+    },
+    {
+      "text": "anomalies proactively when I'm doing",
+      "start": 1663.76,
+      "end": 1666.96
+    },
+    {
+      "text": "this kind of review. Again, it goes back",
+      "start": 1665.44,
+      "end": 1670.24
+    },
+    {
+      "text": "to that idea of of personal memory. So,",
+      "start": 1666.96,
+      "end": 1672.32
+    },
+    {
+      "text": "I can save that.",
+      "start": 1670.24,
+      "end": 1673.84
+    },
+    {
+      "text": "And then maybe I don't want to have to",
+      "start": 1672.32,
+      "end": 1675.96
+    },
+    {
+      "text": "remember to run this at all every week.",
+      "start": 1673.84,
+      "end": 1678.12
+    },
+    {
+      "text": "So, maybe I want this analysis to run",
+      "start": 1675.96,
+      "end": 1680.28
+    },
+    {
+      "text": "when I'm out of office. So, I can also,",
+      "start": 1678.12,
+      "end": 1682.36
+    },
+    {
+      "text": "again, put this on a schedule. I can",
+      "start": 1680.28,
+      "end": 1684.4
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Show the authentic product steps and results rather than inventing them.",
+  "parameterized_transcript_patterns": [
+    "Here is {{question_or_task}}. We {{interaction}}, then inspect {{result_or_evidence}}.",
+    "To verify {{claim}}, look at {{visible_evidence}} in the product."
+  ],
+  "semantic_slots": [
+    "claim",
+    "interaction",
+    "question_or_task",
+    "result_or_evidence",
+    "visible_evidence"
+  ],
+  "selection_rule": "Use when exact interaction or observed execution is central.",
+  "better_alternative_or_misuse": "Illustrative diagrams cannot verify real execution. Keep reference UI separate from generated conceptual graphics.",
+  "motion_recipe": "Retain real viewport changes and source timing; focus on the evidence the narrator discusses.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 1616,
+      "timecode": "26:56.00",
+      "images": {
+        "full_frame": "frames/full/0048480.jpg",
+        "graphic_region": "frames/graphic/0048480.jpg",
+        "requested_seconds": 1616,
+        "sample_frame": 48480,
+        "normalized_source_seconds": 1616.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "show a couple more things uh in in our",
+          "start": 1610.24,
+          "end": 1614.56
+        },
+        {
+          "text": "demo.",
+          "start": 1612.88,
+          "end": 1616.2
+        },
+        {
+          "text": "So, going back to my my other screen.",
+          "start": 1614.56,
+          "end": 1618.04
+        },
+        {
+          "text": "So, I've I've Remember I've I've created",
+          "start": 1616.2,
+          "end": 1620.2
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 1643,
+      "timecode": "27:23.00",
+      "images": {
+        "full_frame": "frames/full/0049290.jpg",
+        "graphic_region": "frames/graphic/0049290.jpg",
+        "requested_seconds": 1643,
+        "sample_frame": 49290,
+        "normalized_source_seconds": 1643.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "Unity Gateway. So, an admin has decided",
+          "start": 1638.28,
+          "end": 1643.8
+        },
+        {
+          "text": "to leave me access to send email with",
+          "start": 1640.72,
+          "end": 1645.8
+        },
+        {
+          "text": "Genie, um but they could certainly have",
+          "start": 1643.8,
+          "end": 1647.64
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 1669,
+      "timecode": "27:49.00",
+      "images": {
+        "full_frame": "frames/full/0050070.jpg",
+        "graphic_region": "frames/graphic/0050070.jpg",
+        "requested_seconds": 1669,
+        "sample_frame": 50070,
+        "normalized_source_seconds": 1669.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "this kind of review. Again, it goes back",
+          "start": 1665.44,
+          "end": 1670.24
+        },
+        {
+          "text": "to that idea of of personal memory. So,",
+          "start": 1666.96,
+          "end": 1672.32
+        },
+        {
+          "text": "I can save that.",
+          "start": 1670.24,
+          "end": 1673.84
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "later observed state",
+      "time": 1680,
+      "timecode": "28:00.00",
+      "images": {
+        "full_frame": "frames/full/0050400.jpg",
+        "graphic_region": "frames/graphic/0050400.jpg",
+        "requested_seconds": 1680,
+        "sample_frame": 50400,
+        "normalized_source_seconds": 1680.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "remember to run this at all every week.",
+          "start": 1673.84,
+          "end": 1678.12
+        },
+        {
+          "text": "So, maybe I want this analysis to run",
+          "start": 1675.96,
+          "end": 1680.28
+        },
+        {
+          "text": "when I'm out of office. So, I can also,",
+          "start": 1678.12,
+          "end": 1682.36
+        },
+        {
+          "text": "again, put this on a schedule. I can",
+          "start": 1680.28,
+          "end": 1684.4
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 1623,
+      "nearby_original_transcript": [
+        {
+          "text": "my my document. I think I'm I'm ready to",
+          "start": 1618.04,
+          "end": 1621.92
+        },
+        {
+          "text": "actually send this to our executive",
+          "start": 1620.2,
+          "end": 1623.44
+        },
+        {
+          "text": "team. And I'm going to include some of",
+          "start": 1621.92,
+          "end": 1625.64
+        },
+        {
+          "text": "those follow-up analyses that that Genie",
+          "start": 1623.44,
+          "end": 1628.64
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0048682.jpg",
+          "graphic_region": "frames/graphic/0048682.jpg",
+          "requested_seconds": 1622.75,
+          "sample_frame": 48682,
+          "normalized_source_seconds": 1622.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0048698.jpg",
+          "graphic_region": "frames/graphic/0048698.jpg",
+          "requested_seconds": 1623.25,
+          "sample_frame": 48698,
+          "normalized_source_seconds": 1623.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0048720.jpg",
+          "graphic_region": "frames/graphic/0048720.jpg",
+          "requested_seconds": 1624,
+          "sample_frame": 48720,
+          "normalized_source_seconds": 1624.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1642,
+      "nearby_original_transcript": [
+        {
+          "text": "again, this is all governed through",
+          "start": 1636.68,
+          "end": 1640.72
+        },
+        {
+          "text": "Unity Gateway. So, an admin has decided",
+          "start": 1638.28,
+          "end": 1643.8
+        },
+        {
+          "text": "to leave me access to send email with",
+          "start": 1640.72,
+          "end": 1645.8
+        },
+        {
+          "text": "Genie, um but they could certainly have",
+          "start": 1643.8,
+          "end": 1647.64
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0049252.jpg",
+          "graphic_region": "frames/graphic/0049252.jpg",
+          "requested_seconds": 1641.75,
+          "sample_frame": 49252,
+          "normalized_source_seconds": 1641.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0049268.jpg",
+          "graphic_region": "frames/graphic/0049268.jpg",
+          "requested_seconds": 1642.25,
+          "sample_frame": 49268,
+          "normalized_source_seconds": 1642.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0049290.jpg",
+          "graphic_region": "frames/graphic/0049290.jpg",
+          "requested_seconds": 1643,
+          "sample_frame": 49290,
+          "normalized_source_seconds": 1643.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1668,
+      "nearby_original_transcript": [
+        {
+          "text": "anomalies proactively when I'm doing",
+          "start": 1663.76,
+          "end": 1666.96
+        },
+        {
+          "text": "this kind of review. Again, it goes back",
+          "start": 1665.44,
+          "end": 1670.24
+        },
+        {
+          "text": "to that idea of of personal memory. So,",
+          "start": 1666.96,
+          "end": 1672.32
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0050032.jpg",
+          "graphic_region": "frames/graphic/0050032.jpg",
+          "requested_seconds": 1667.75,
+          "sample_frame": 50032,
+          "normalized_source_seconds": 1667.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0050048.jpg",
+          "graphic_region": "frames/graphic/0050048.jpg",
+          "requested_seconds": 1668.25,
+          "sample_frame": 50048,
+          "normalized_source_seconds": 1668.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0050070.jpg",
+          "graphic_region": "frames/graphic/0050070.jpg",
+          "requested_seconds": 1669,
+          "sample_frame": 50070,
+          "normalized_source_seconds": 1669.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "23-demo-actions",
+      "observed_state_pattern": "Existing response \u2192 action request/configuration \u2192 next visible conversation state.",
+      "persistent_context": "Same live conversation and source evidence, with presenter rail.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0050400.jpg",
+      "frames/graphic/0048480.jpg",
+      "frames/graphic/0049290.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0050400.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

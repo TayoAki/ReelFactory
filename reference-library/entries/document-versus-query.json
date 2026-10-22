@@ -1,0 +1,677 @@
+{
+  "id": "document-versus-query",
+  "index": 26,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 557,
+  "source_end": 604,
+  "source_timecode": "09:17.00\u201310:04.00",
+  "template_id": "access-paths",
+  "label": "Existing knowledge versus live-data calculation",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Contrast finding a documented answer with calculating a new answer over data.",
+  "relationship": "distinct access modes \u2192 different jobs",
+  "original_transcript": "data that it's going to make sense of. Uh, we already have text to SQL, uh, which covers structured data that's governed in Unity Catalog. And I don't want to underestimate how much that matters. You know, a lot of agents are just reciting information that lives in a document. But when you're asking questions about your business, there often already isn't already a document that can answer those questions. That's why you're That's why you're asking. So, Genie is not only doing search, but also querying based on your live operational data. And we have dozens of connectors for that. Plus, actually Josh inspired uh a product that we call custom connectors um that allow the community connectors, sorry. Uh that allows you to create a connector to any generic uh application. So, thank you Josh actually for that idea. That That went straight into the product. Um for data that lives",
+  "original_transcript_segments": [
+    {
+      "text": "data that it's going to make sense of.",
+      "start": 554.04,
+      "end": 558.6
+    },
+    {
+      "text": "Uh, we already have text to SQL, uh,",
+      "start": 556.64,
+      "end": 560.48
+    },
+    {
+      "text": "which covers structured data that's",
+      "start": 558.6,
+      "end": 562.32
+    },
+    {
+      "text": "governed in Unity Catalog. And I don't",
+      "start": 560.48,
+      "end": 564.56
+    },
+    {
+      "text": "want to underestimate how much that",
+      "start": 562.32,
+      "end": 566.8
+    },
+    {
+      "text": "matters. You know, a lot of agents are",
+      "start": 564.56,
+      "end": 569.44
+    },
+    {
+      "text": "just reciting information that lives in",
+      "start": 566.8,
+      "end": 570.88
+    },
+    {
+      "text": "a document. But when you're asking",
+      "start": 569.44,
+      "end": 572.56
+    },
+    {
+      "text": "questions about your business, there",
+      "start": 570.88,
+      "end": 574.72
+    },
+    {
+      "text": "often already isn't already a document",
+      "start": 572.56,
+      "end": 576.0
+    },
+    {
+      "text": "that can answer those questions. That's",
+      "start": 574.72,
+      "end": 577.88
+    },
+    {
+      "text": "why you're That's why you're asking. So,",
+      "start": 576.0,
+      "end": 581.24
+    },
+    {
+      "text": "Genie is not only doing search, but also",
+      "start": 577.88,
+      "end": 583.8
+    },
+    {
+      "text": "querying based on your live operational",
+      "start": 581.24,
+      "end": 586.04
+    },
+    {
+      "text": "data. And we have dozens of connectors",
+      "start": 583.8,
+      "end": 589.0
+    },
+    {
+      "text": "for that. Plus, actually Josh inspired",
+      "start": 586.04,
+      "end": 590.84
+    },
+    {
+      "text": "uh a product that we call custom",
+      "start": 589.0,
+      "end": 593.28
+    },
+    {
+      "text": "connectors um that allow the community",
+      "start": 590.84,
+      "end": 595.48
+    },
+    {
+      "text": "connectors, sorry. Uh that allows you to",
+      "start": 593.28,
+      "end": 598.04
+    },
+    {
+      "text": "create a connector to any generic uh",
+      "start": 595.48,
+      "end": 599.6
+    },
+    {
+      "text": "application. So, thank you Josh actually",
+      "start": 598.04,
+      "end": 600.88
+    },
+    {
+      "text": "for that idea. That That went straight",
+      "start": 599.6,
+      "end": 604.0
+    },
+    {
+      "text": "into the product. Um for data that lives",
+      "start": 600.88,
+      "end": 606.36
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Separate retrieval, live query and tool calls by the work each performs.",
+  "parameterized_transcript_patterns": [
+    "Use {{access_mode_a}} for {{job_a}}, and {{access_mode_b}} for {{job_b}}.",
+    "Finding an existing {{document}} differs from calculating {{answer}} over live {{data}}."
+  ],
+  "semantic_slots": [
+    "access_mode_a",
+    "access_mode_b",
+    "access_modes",
+    "answer",
+    "data",
+    "document",
+    "job_a",
+    "job_b",
+    "jobs"
+  ],
+  "selection_rule": "Use when superficially similar access paths have different semantics.",
+  "better_alternative_or_misuse": "A collage of logos cannot distinguish retrieval from execution or ingestion.",
+  "motion_recipe": "Introduce categories, demonstrate one contrast, then connect the supported paths to a shared consumer.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 557.3,
+      "timecode": "09:17.30",
+      "images": {
+        "full_frame": "frames/full/0016719.jpg",
+        "graphic_region": "frames/graphic/0016719.jpg",
+        "requested_seconds": 557.3,
+        "sample_frame": 16719,
+        "normalized_source_seconds": 557.3,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "about how Genie also gets access to this",
+          "start": 551.96,
+          "end": 556.64
+        },
+        {
+          "text": "data that it's going to make sense of.",
+          "start": 554.04,
+          "end": 558.6
+        },
+        {
+          "text": "Uh, we already have text to SQL, uh,",
+          "start": 556.64,
+          "end": 560.48
+        },
+        {
+          "text": "which covers structured data that's",
+          "start": 558.6,
+          "end": 562.32
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 567,
+      "timecode": "09:27.00",
+      "images": {
+        "full_frame": "frames/full/0017010.jpg",
+        "graphic_region": "frames/graphic/0017010.jpg",
+        "requested_seconds": 567,
+        "sample_frame": 17010,
+        "normalized_source_seconds": 567.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "want to underestimate how much that",
+          "start": 562.32,
+          "end": 566.8
+        },
+        {
+          "text": "matters. You know, a lot of agents are",
+          "start": 564.56,
+          "end": 569.44
+        },
+        {
+          "text": "just reciting information that lives in",
+          "start": 566.8,
+          "end": 570.88
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 577,
+      "timecode": "09:37.00",
+      "images": {
+        "full_frame": "frames/full/0017310.jpg",
+        "graphic_region": "frames/graphic/0017310.jpg",
+        "requested_seconds": 577,
+        "sample_frame": 17310,
+        "normalized_source_seconds": 577.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "often already isn't already a document",
+          "start": 572.56,
+          "end": 576.0
+        },
+        {
+          "text": "that can answer those questions. That's",
+          "start": 574.72,
+          "end": 577.88
+        },
+        {
+          "text": "why you're That's why you're asking. So,",
+          "start": 576.0,
+          "end": 581.24
+        },
+        {
+          "text": "Genie is not only doing search, but also",
+          "start": 577.88,
+          "end": 583.8
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "intermediate observed state",
+      "time": 582,
+      "timecode": "09:42.00",
+      "images": {
+        "full_frame": "frames/full/0017460.jpg",
+        "graphic_region": "frames/graphic/0017460.jpg",
+        "requested_seconds": 582,
+        "sample_frame": 17460,
+        "normalized_source_seconds": 582.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "why you're That's why you're asking. So,",
+          "start": 576.0,
+          "end": 581.24
+        },
+        {
+          "text": "Genie is not only doing search, but also",
+          "start": 577.88,
+          "end": 583.8
+        },
+        {
+          "text": "querying based on your live operational",
+          "start": 581.24,
+          "end": 586.04
+        },
+        {
+          "text": "data. And we have dozens of connectors",
+          "start": 583.8,
+          "end": 589.0
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-05",
+      "sequence_role": "intermediate observed state",
+      "time": 588,
+      "timecode": "09:48.00",
+      "images": {
+        "full_frame": "frames/full/0017640.jpg",
+        "graphic_region": "frames/graphic/0017640.jpg",
+        "requested_seconds": 588,
+        "sample_frame": 17640,
+        "normalized_source_seconds": 588.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "querying based on your live operational",
+          "start": 581.24,
+          "end": 586.04
+        },
+        {
+          "text": "data. And we have dozens of connectors",
+          "start": 583.8,
+          "end": 589.0
+        },
+        {
+          "text": "for that. Plus, actually Josh inspired",
+          "start": 586.04,
+          "end": 590.84
+        },
+        {
+          "text": "uh a product that we call custom",
+          "start": 589.0,
+          "end": 593.28
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-06",
+      "sequence_role": "later observed state",
+      "time": 601,
+      "timecode": "10:01.00",
+      "images": {
+        "full_frame": "frames/full/0018030.jpg",
+        "graphic_region": "frames/graphic/0018030.jpg",
+        "requested_seconds": 601,
+        "sample_frame": 18030,
+        "normalized_source_seconds": 601.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "create a connector to any generic uh",
+          "start": 595.48,
+          "end": 599.6
+        },
+        {
+          "text": "application. So, thank you Josh actually",
+          "start": 598.04,
+          "end": 600.88
+        },
+        {
+          "text": "for that idea. That That went straight",
+          "start": 599.6,
+          "end": 604.0
+        },
+        {
+          "text": "into the product. Um for data that lives",
+          "start": 600.88,
+          "end": 606.36
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 557,
+      "nearby_original_transcript": [
+        {
+          "text": "about how Genie also gets access to this",
+          "start": 551.96,
+          "end": 556.64
+        },
+        {
+          "text": "data that it's going to make sense of.",
+          "start": 554.04,
+          "end": 558.6
+        },
+        {
+          "text": "Uh, we already have text to SQL, uh,",
+          "start": 556.64,
+          "end": 560.48
+        },
+        {
+          "text": "which covers structured data that's",
+          "start": 558.6,
+          "end": 562.32
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0016710.jpg",
+          "graphic_region": "frames/graphic/0016710.jpg",
+          "requested_seconds": 557,
+          "sample_frame": 16710,
+          "normalized_source_seconds": 557.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0016718.jpg",
+          "graphic_region": "frames/graphic/0016718.jpg",
+          "requested_seconds": 557.25,
+          "sample_frame": 16718,
+          "normalized_source_seconds": 557.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0016740.jpg",
+          "graphic_region": "frames/graphic/0016740.jpg",
+          "requested_seconds": 558,
+          "sample_frame": 16740,
+          "normalized_source_seconds": 558.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 567,
+      "nearby_original_transcript": [
+        {
+          "text": "want to underestimate how much that",
+          "start": 562.32,
+          "end": 566.8
+        },
+        {
+          "text": "matters. You know, a lot of agents are",
+          "start": 564.56,
+          "end": 569.44
+        },
+        {
+          "text": "just reciting information that lives in",
+          "start": 566.8,
+          "end": 570.88
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0017002.jpg",
+          "graphic_region": "frames/graphic/0017002.jpg",
+          "requested_seconds": 566.75,
+          "sample_frame": 17002,
+          "normalized_source_seconds": 566.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0017018.jpg",
+          "graphic_region": "frames/graphic/0017018.jpg",
+          "requested_seconds": 567.25,
+          "sample_frame": 17018,
+          "normalized_source_seconds": 567.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0017040.jpg",
+          "graphic_region": "frames/graphic/0017040.jpg",
+          "requested_seconds": 568,
+          "sample_frame": 17040,
+          "normalized_source_seconds": 568.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 577,
+      "nearby_original_transcript": [
+        {
+          "text": "often already isn't already a document",
+          "start": 572.56,
+          "end": 576.0
+        },
+        {
+          "text": "that can answer those questions. That's",
+          "start": 574.72,
+          "end": 577.88
+        },
+        {
+          "text": "why you're That's why you're asking. So,",
+          "start": 576.0,
+          "end": 581.24
+        },
+        {
+          "text": "Genie is not only doing search, but also",
+          "start": 577.88,
+          "end": 583.8
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0017302.jpg",
+          "graphic_region": "frames/graphic/0017302.jpg",
+          "requested_seconds": 576.75,
+          "sample_frame": 17302,
+          "normalized_source_seconds": 576.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0017318.jpg",
+          "graphic_region": "frames/graphic/0017318.jpg",
+          "requested_seconds": 577.25,
+          "sample_frame": 17318,
+          "normalized_source_seconds": 577.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0017340.jpg",
+          "graphic_region": "frames/graphic/0017340.jpg",
+          "requested_seconds": 578,
+          "sample_frame": 17340,
+          "normalized_source_seconds": 578.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 587,
+      "nearby_original_transcript": [
+        {
+          "text": "querying based on your live operational",
+          "start": 581.24,
+          "end": 586.04
+        },
+        {
+          "text": "data. And we have dozens of connectors",
+          "start": 583.8,
+          "end": 589.0
+        },
+        {
+          "text": "for that. Plus, actually Josh inspired",
+          "start": 586.04,
+          "end": 590.84
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0017602.jpg",
+          "graphic_region": "frames/graphic/0017602.jpg",
+          "requested_seconds": 586.75,
+          "sample_frame": 17602,
+          "normalized_source_seconds": 586.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0017618.jpg",
+          "graphic_region": "frames/graphic/0017618.jpg",
+          "requested_seconds": 587.25,
+          "sample_frame": 17618,
+          "normalized_source_seconds": 587.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0017640.jpg",
+          "graphic_region": "frames/graphic/0017640.jpg",
+          "requested_seconds": 588,
+          "sample_frame": 17640,
+          "normalized_source_seconds": 588.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 600,
+      "nearby_original_transcript": [
+        {
+          "text": "connectors, sorry. Uh that allows you to",
+          "start": 593.28,
+          "end": 598.04
+        },
+        {
+          "text": "create a connector to any generic uh",
+          "start": 595.48,
+          "end": 599.6
+        },
+        {
+          "text": "application. So, thank you Josh actually",
+          "start": 598.04,
+          "end": 600.88
+        },
+        {
+          "text": "for that idea. That That went straight",
+          "start": 599.6,
+          "end": 604.0
+        },
+        {
+          "text": "into the product. Um for data that lives",
+          "start": 600.88,
+          "end": 606.36
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0017992.jpg",
+          "graphic_region": "frames/graphic/0017992.jpg",
+          "requested_seconds": 599.75,
+          "sample_frame": 17992,
+          "normalized_source_seconds": 599.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0018008.jpg",
+          "graphic_region": "frames/graphic/0018008.jpg",
+          "requested_seconds": 600.25,
+          "sample_frame": 18008,
+          "normalized_source_seconds": 600.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0018030.jpg",
+          "graphic_region": "frames/graphic/0018030.jpg",
+          "requested_seconds": 601,
+          "sample_frame": 18030,
+          "normalized_source_seconds": 601.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "12-connectors",
+      "observed_state_pattern": "Integration categories \u2192 retained data hub \u2192 logos/routes \u2192 query/result path.",
+      "persistent_context": "Thin rounded routes attach to stable endpoints; presenter stays independent.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0018030.jpg",
+      "frames/graphic/0016719.jpg",
+      "frames/graphic/0017310.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0018030.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

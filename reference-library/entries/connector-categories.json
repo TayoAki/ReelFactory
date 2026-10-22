@@ -1,0 +1,308 @@
+{
+  "id": "connector-categories",
+  "index": 25,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 546,
+  "source_end": 557,
+  "source_timecode": "09:06.00\u201309:17.00",
+  "template_id": "access-paths",
+  "label": "Access-mode categories",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Separate input/access modes before showing their internal routes.",
+  "relationship": "distinct access modes \u2192 different jobs",
+  "original_transcript": "ontology. >> Got it. Thank you. >> Um, of course, Genie can only learn from the data that it can actually reach. So it's important to talk a little bit about how Genie also gets access to this data that it's going to make sense of. Uh, we already have text to SQL, uh,",
+  "original_transcript_segments": [
+    {
+      "text": "ontology.",
+      "start": 543.28,
+      "end": 546.28
+    },
+    {
+      "text": ">> Got it. Thank you.",
+      "start": 544.08,
+      "end": 548.839
+    },
+    {
+      "text": ">> Um, of course, Genie can only learn from",
+      "start": 546.28,
+      "end": 550.96
+    },
+    {
+      "text": "the data that it can actually reach. So",
+      "start": 548.839,
+      "end": 551.96
+    },
+    {
+      "text": "it's important to talk a little bit",
+      "start": 550.96,
+      "end": 554.04
+    },
+    {
+      "text": "about how Genie also gets access to this",
+      "start": 551.96,
+      "end": 556.64
+    },
+    {
+      "text": "data that it's going to make sense of.",
+      "start": 554.04,
+      "end": 558.6
+    },
+    {
+      "text": "Uh, we already have text to SQL, uh,",
+      "start": 556.64,
+      "end": 560.48
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Separate retrieval, live query and tool calls by the work each performs.",
+  "parameterized_transcript_patterns": [
+    "Use {{access_mode_a}} for {{job_a}}, and {{access_mode_b}} for {{job_b}}.",
+    "Finding an existing {{document}} differs from calculating {{answer}} over live {{data}}."
+  ],
+  "semantic_slots": [
+    "access_mode_a",
+    "access_mode_b",
+    "access_modes",
+    "answer",
+    "data",
+    "document",
+    "job_a",
+    "job_b",
+    "jobs"
+  ],
+  "selection_rule": "Use when superficially similar access paths have different semantics.",
+  "better_alternative_or_misuse": "A collage of logos cannot distinguish retrieval from execution or ingestion.",
+  "motion_recipe": "Introduce categories, demonstrate one contrast, then connect the supported paths to a shared consumer.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 546.3,
+      "timecode": "09:06.30",
+      "images": {
+        "full_frame": "frames/full/0016389.jpg",
+        "graphic_region": "frames/graphic/0016389.jpg",
+        "requested_seconds": 546.3,
+        "sample_frame": 16389,
+        "normalized_source_seconds": 546.3,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "ontology.",
+          "start": 543.28,
+          "end": 546.28
+        },
+        {
+          "text": ">> Got it. Thank you.",
+          "start": 544.08,
+          "end": 548.839
+        },
+        {
+          "text": ">> Um, of course, Genie can only learn from",
+          "start": 546.28,
+          "end": 550.96
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 549,
+      "timecode": "09:09.00",
+      "images": {
+        "full_frame": "frames/full/0016470.jpg",
+        "graphic_region": "frames/graphic/0016470.jpg",
+        "requested_seconds": 549,
+        "sample_frame": 16470,
+        "normalized_source_seconds": 549.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": ">> Got it. Thank you.",
+          "start": 544.08,
+          "end": 548.839
+        },
+        {
+          "text": ">> Um, of course, Genie can only learn from",
+          "start": 546.28,
+          "end": 550.96
+        },
+        {
+          "text": "the data that it can actually reach. So",
+          "start": 548.839,
+          "end": 551.96
+        },
+        {
+          "text": "it's important to talk a little bit",
+          "start": 550.96,
+          "end": 554.04
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 553,
+      "timecode": "09:13.00",
+      "images": {
+        "full_frame": "frames/full/0016590.jpg",
+        "graphic_region": "frames/graphic/0016590.jpg",
+        "requested_seconds": 553,
+        "sample_frame": 16590,
+        "normalized_source_seconds": 553.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "the data that it can actually reach. So",
+          "start": 548.839,
+          "end": 551.96
+        },
+        {
+          "text": "it's important to talk a little bit",
+          "start": 550.96,
+          "end": 554.04
+        },
+        {
+          "text": "about how Genie also gets access to this",
+          "start": 551.96,
+          "end": 556.64
+        },
+        {
+          "text": "data that it's going to make sense of.",
+          "start": 554.04,
+          "end": 558.6
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "later observed state",
+      "time": 556.5,
+      "timecode": "09:16.50",
+      "images": {
+        "full_frame": "frames/full/0016695.jpg",
+        "graphic_region": "frames/graphic/0016695.jpg",
+        "requested_seconds": 556.5,
+        "sample_frame": 16695,
+        "normalized_source_seconds": 556.5,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "about how Genie also gets access to this",
+          "start": 551.96,
+          "end": 556.64
+        },
+        {
+          "text": "data that it's going to make sense of.",
+          "start": 554.04,
+          "end": 558.6
+        },
+        {
+          "text": "Uh, we already have text to SQL, uh,",
+          "start": 556.64,
+          "end": 560.48
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 546,
+      "nearby_original_transcript": [
+        {
+          "text": "uh, significantly improved with the",
+          "start": 541.88,
+          "end": 544.08
+        },
+        {
+          "text": "ontology.",
+          "start": 543.28,
+          "end": 546.28
+        },
+        {
+          "text": ">> Got it. Thank you.",
+          "start": 544.08,
+          "end": 548.839
+        },
+        {
+          "text": ">> Um, of course, Genie can only learn from",
+          "start": 546.28,
+          "end": 550.96
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0016380.jpg",
+          "graphic_region": "frames/graphic/0016380.jpg",
+          "requested_seconds": 546,
+          "sample_frame": 16380,
+          "normalized_source_seconds": 546.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0016388.jpg",
+          "graphic_region": "frames/graphic/0016388.jpg",
+          "requested_seconds": 546.25,
+          "sample_frame": 16388,
+          "normalized_source_seconds": 546.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0016410.jpg",
+          "graphic_region": "frames/graphic/0016410.jpg",
+          "requested_seconds": 547,
+          "sample_frame": 16410,
+          "normalized_source_seconds": 547.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "12-connectors",
+      "observed_state_pattern": "Integration categories \u2192 retained data hub \u2192 logos/routes \u2192 query/result path.",
+      "persistent_context": "Thin rounded routes attach to stable endpoints; presenter stays independent.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0016695.jpg",
+      "frames/graphic/0016389.jpg",
+      "frames/graphic/0016470.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0016695.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

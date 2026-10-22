@@ -1,0 +1,59 @@
+{
+  "id": "learned-signals",
+  "relationship": "work evidence \u2192 contextual signals",
+  "teaching_job": "Explain where inferred context comes from using concrete examples of real work.",
+  "transcript_patterns": [
+    "When people {{work_action}}, they leave {{signal}} that helps {{system}} infer {{context}}.",
+    "{{example_a}} and {{example_b}} provide clues about {{business_relationship}}."
+  ],
+  "semantic_slots": [
+    "business_relationship",
+    "context",
+    "example_a",
+    "example_b",
+    "examples",
+    "signal",
+    "system",
+    "work_action"
+  ],
+  "choose_when": "Use when the lesson is how evidence contributes contextual clues.",
+  "choose_something_else_when": "Do not represent learned signals as certified definitions or guaranteed truth.",
+  "motion_grammar": "Accumulate labeled source examples, show the new signal, and retain the distinction between evidence and authority.",
+  "instances": [
+    "learned-inputs",
+    "learning-actions",
+    "learned-snippets"
+  ],
+  "classification": "Curated editorial teaching template; not a trained classifier or a product fact.",
+  "required_pattern_slots": [
+    [
+      "context",
+      "signal",
+      "system",
+      "work_action"
+    ],
+    [
+      "business_relationship",
+      "example_a",
+      "example_b"
+    ]
+  ],
+  "filled_source_sentence_scaffolds": [
+    "When people Join tables, add comments, share queries and use popular queries, they leave Evidence left in existing work that helps The learned-context mechanism described in the video infer Relationships and business understanding.",
+    "joining tables and adding comments provide clues about How assets and business concepts are used together."
+  ],
+  "unbound_source_example_slots": [],
+  "representative_entry": "learning-actions",
+  "example_source_bindings": {
+    "work_action": "Join tables, add comments, share queries and use popular queries",
+    "signal": "Evidence left in existing work",
+    "system": "The learned-context mechanism described in the video",
+    "context": "Relationships and business understanding",
+    "examples": "Joins, comments, sharing and usage",
+    "business_relationship": "How assets and business concepts are used together",
+    "example_a": "joining tables",
+    "example_b": "adding comments"
+  },
+  "paired_source_quote": "Databricks. So, for example, you know, the fact that someone joins table A and table B is very valuable information for a Genie. And then if they add maybe a comment, that's probably making it even more valuable. And then if they share that with other people, we know it's probably valuable for those other people. And then if that query becomes very, very popular, we can surmise that it's probably a pretty authoritative source of information. So, a snippet could be a join hint, but it could also",
+  "source_binding_status": "Editorial binding/paraphrase of source roles; raw transcript remains separately preserved. Do not treat bindings as word-for-word quotation."
+}

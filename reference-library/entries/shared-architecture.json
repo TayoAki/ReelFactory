@@ -1,0 +1,512 @@
+{
+  "id": "shared-architecture",
+  "index": 15,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 209.5,
+  "source_end": 234.367,
+  "source_timecode": "03:29.50\u201303:54.37",
+  "template_id": "architecture-focus",
+  "label": "Shared modeled and learned context layer",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Locate modeled and learned context within the broader architecture.",
+  "relationship": "system overview \u2192 located detail",
+  "original_transcript": "drafting those definitions, and we do that through the Genie ontology. The ontology is a is a unified context layer that gives Genie a a business aware map of your organization. And it brings together two categories of context. We have modeled ontology, and then we have learned ontology. On the modeled side, uh this is really where you need to catalog semantics come into play. It's human-curated context that someone certified and and governed.",
+  "original_transcript_segments": [
+    {
+      "text": "drafting those definitions, and we do",
+      "start": 205.08,
+      "end": 209.72
+    },
+    {
+      "text": "that through the Genie ontology.",
+      "start": 207.08,
+      "end": 212.2
+    },
+    {
+      "text": "The ontology is a is a unified context",
+      "start": 209.72,
+      "end": 214.64
+    },
+    {
+      "text": "layer that gives Genie a a business",
+      "start": 212.2,
+      "end": 216.8
+    },
+    {
+      "text": "aware map of your organization. And it",
+      "start": 214.64,
+      "end": 219.28
+    },
+    {
+      "text": "brings together two categories of",
+      "start": 216.8,
+      "end": 221.72
+    },
+    {
+      "text": "context. We have modeled ontology, and",
+      "start": 219.28,
+      "end": 223.92
+    },
+    {
+      "text": "then we have learned ontology.",
+      "start": 221.72,
+      "end": 225.8
+    },
+    {
+      "text": "On the modeled side, uh this is really",
+      "start": 223.92,
+      "end": 228.04
+    },
+    {
+      "text": "where you need to catalog semantics come",
+      "start": 225.8,
+      "end": 230.519
+    },
+    {
+      "text": "into play. It's human-curated context",
+      "start": 228.04,
+      "end": 234.44
+    },
+    {
+      "text": "that someone certified and and governed.",
+      "start": 230.519,
+      "end": 236.2
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Locate a component within an architecture before examining it.",
+  "parameterized_transcript_patterns": [
+    "At a high level, {{system}} contains {{components}}. Let\u2019s focus on {{component}}.",
+    "{{component}} sits between {{upstream}} and {{downstream}} and is responsible for {{responsibility}}."
+  ],
+  "semantic_slots": [
+    "component",
+    "components",
+    "downstream",
+    "responsibility",
+    "system",
+    "upstream"
+  ],
+  "selection_rule": "Use when placement in the larger system is part of the explanation.",
+  "better_alternative_or_misuse": "Use a standalone example when the architecture adds no relevant context.",
+  "motion_recipe": "Establish the overview, preserve context, move the inner camera or selectively emphasize the active region.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 209.8,
+      "timecode": "03:29.80",
+      "images": {
+        "full_frame": "frames/full/0006294.jpg",
+        "graphic_region": "frames/graphic/0006294.jpg",
+        "requested_seconds": 209.8,
+        "sample_frame": 6294,
+        "normalized_source_seconds": 209.8,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "drafting those definitions, and we do",
+          "start": 205.08,
+          "end": 209.72
+        },
+        {
+          "text": "that through the Genie ontology.",
+          "start": 207.08,
+          "end": 212.2
+        },
+        {
+          "text": "The ontology is a is a unified context",
+          "start": 209.72,
+          "end": 214.64
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 215,
+      "timecode": "03:35.00",
+      "images": {
+        "full_frame": "frames/full/0006450.jpg",
+        "graphic_region": "frames/graphic/0006450.jpg",
+        "requested_seconds": 215,
+        "sample_frame": 6450,
+        "normalized_source_seconds": 215.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "The ontology is a is a unified context",
+          "start": 209.72,
+          "end": 214.64
+        },
+        {
+          "text": "layer that gives Genie a a business",
+          "start": 212.2,
+          "end": 216.8
+        },
+        {
+          "text": "aware map of your organization. And it",
+          "start": 214.64,
+          "end": 219.28
+        },
+        {
+          "text": "brings together two categories of",
+          "start": 216.8,
+          "end": 221.72
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 221,
+      "timecode": "03:41.00",
+      "images": {
+        "full_frame": "frames/full/0006630.jpg",
+        "graphic_region": "frames/graphic/0006630.jpg",
+        "requested_seconds": 221,
+        "sample_frame": 6630,
+        "normalized_source_seconds": 221.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "aware map of your organization. And it",
+          "start": 214.64,
+          "end": 219.28
+        },
+        {
+          "text": "brings together two categories of",
+          "start": 216.8,
+          "end": 221.72
+        },
+        {
+          "text": "context. We have modeled ontology, and",
+          "start": 219.28,
+          "end": 223.92
+        },
+        {
+          "text": "then we have learned ontology.",
+          "start": 221.72,
+          "end": 225.8
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "intermediate observed state",
+      "time": 228,
+      "timecode": "03:48.00",
+      "images": {
+        "full_frame": "frames/full/0006840.jpg",
+        "graphic_region": "frames/graphic/0006840.jpg",
+        "requested_seconds": 228,
+        "sample_frame": 6840,
+        "normalized_source_seconds": 228.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "On the modeled side, uh this is really",
+          "start": 223.92,
+          "end": 228.04
+        },
+        {
+          "text": "where you need to catalog semantics come",
+          "start": 225.8,
+          "end": 230.519
+        },
+        {
+          "text": "into play. It's human-curated context",
+          "start": 228.04,
+          "end": 234.44
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-05",
+      "sequence_role": "later observed state",
+      "time": 233.5,
+      "timecode": "03:53.50",
+      "images": {
+        "full_frame": "frames/full/0007005.jpg",
+        "graphic_region": "frames/graphic/0007005.jpg",
+        "requested_seconds": 233.5,
+        "sample_frame": 7005,
+        "normalized_source_seconds": 233.5,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "into play. It's human-curated context",
+          "start": 228.04,
+          "end": 234.44
+        },
+        {
+          "text": "that someone certified and and governed.",
+          "start": 230.519,
+          "end": 236.2
+        },
+        {
+          "text": "And there are three components that are",
+          "start": 234.44,
+          "end": 238.04
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 209.5,
+      "nearby_original_transcript": [
+        {
+          "text": "drafting those definitions, and we do",
+          "start": 205.08,
+          "end": 209.72
+        },
+        {
+          "text": "that through the Genie ontology.",
+          "start": 207.08,
+          "end": 212.2
+        },
+        {
+          "text": "The ontology is a is a unified context",
+          "start": 209.72,
+          "end": 214.64
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0006285.jpg",
+          "graphic_region": "frames/graphic/0006285.jpg",
+          "requested_seconds": 209.5,
+          "sample_frame": 6285,
+          "normalized_source_seconds": 209.5,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0006292.jpg",
+          "graphic_region": "frames/graphic/0006292.jpg",
+          "requested_seconds": 209.75,
+          "sample_frame": 6292,
+          "normalized_source_seconds": 209.73333333333332,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0006315.jpg",
+          "graphic_region": "frames/graphic/0006315.jpg",
+          "requested_seconds": 210.5,
+          "sample_frame": 6315,
+          "normalized_source_seconds": 210.5,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 215,
+      "nearby_original_transcript": [
+        {
+          "text": "The ontology is a is a unified context",
+          "start": 209.72,
+          "end": 214.64
+        },
+        {
+          "text": "layer that gives Genie a a business",
+          "start": 212.2,
+          "end": 216.8
+        },
+        {
+          "text": "aware map of your organization. And it",
+          "start": 214.64,
+          "end": 219.28
+        },
+        {
+          "text": "brings together two categories of",
+          "start": 216.8,
+          "end": 221.72
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0006442.jpg",
+          "graphic_region": "frames/graphic/0006442.jpg",
+          "requested_seconds": 214.75,
+          "sample_frame": 6442,
+          "normalized_source_seconds": 214.73333333333332,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0006458.jpg",
+          "graphic_region": "frames/graphic/0006458.jpg",
+          "requested_seconds": 215.25,
+          "sample_frame": 6458,
+          "normalized_source_seconds": 215.26666666666668,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0006480.jpg",
+          "graphic_region": "frames/graphic/0006480.jpg",
+          "requested_seconds": 216,
+          "sample_frame": 6480,
+          "normalized_source_seconds": 216.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 221,
+      "nearby_original_transcript": [
+        {
+          "text": "aware map of your organization. And it",
+          "start": 214.64,
+          "end": 219.28
+        },
+        {
+          "text": "brings together two categories of",
+          "start": 216.8,
+          "end": 221.72
+        },
+        {
+          "text": "context. We have modeled ontology, and",
+          "start": 219.28,
+          "end": 223.92
+        },
+        {
+          "text": "then we have learned ontology.",
+          "start": 221.72,
+          "end": 225.8
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0006622.jpg",
+          "graphic_region": "frames/graphic/0006622.jpg",
+          "requested_seconds": 220.75,
+          "sample_frame": 6622,
+          "normalized_source_seconds": 220.73333333333332,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0006638.jpg",
+          "graphic_region": "frames/graphic/0006638.jpg",
+          "requested_seconds": 221.25,
+          "sample_frame": 6638,
+          "normalized_source_seconds": 221.26666666666668,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0006660.jpg",
+          "graphic_region": "frames/graphic/0006660.jpg",
+          "requested_seconds": 222,
+          "sample_frame": 6660,
+          "normalized_source_seconds": 222.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 228,
+      "nearby_original_transcript": [
+        {
+          "text": "On the modeled side, uh this is really",
+          "start": 223.92,
+          "end": 228.04
+        },
+        {
+          "text": "where you need to catalog semantics come",
+          "start": 225.8,
+          "end": 230.519
+        },
+        {
+          "text": "into play. It's human-curated context",
+          "start": 228.04,
+          "end": 234.44
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0006832.jpg",
+          "graphic_region": "frames/graphic/0006832.jpg",
+          "requested_seconds": 227.75,
+          "sample_frame": 6832,
+          "normalized_source_seconds": 227.73333333333332,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0006848.jpg",
+          "graphic_region": "frames/graphic/0006848.jpg",
+          "requested_seconds": 228.25,
+          "sample_frame": 6848,
+          "normalized_source_seconds": 228.26666666666668,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0006870.jpg",
+          "graphic_region": "frames/graphic/0006870.jpg",
+          "requested_seconds": 229,
+          "sample_frame": 6870,
+          "normalized_source_seconds": 229.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "07-system-to-focus",
+      "observed_state_pattern": "Master architecture \u2192 emphasis/dimming \u2192 inner camera move \u2192 first detail component.",
+      "persistent_context": "Fixed viewport, presenter and captions; nodes and edges move in one diagram coordinate system.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0006450.jpg",
+      "frames/graphic/0006294.jpg",
+      "frames/graphic/0006840.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0006450.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

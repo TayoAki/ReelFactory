@@ -1,0 +1,281 @@
+{
+  "project_library": "reference-library/library.json",
+  "source_only": true,
+  "templates": [
+    {
+      "id": "input-output",
+      "relationship": "input \u2192 mechanism \u2192 outcome",
+      "choose_when": "Use when the causal route is the lesson and each arrow has a defensible meaning.",
+      "choose_something_else_when": "Use real UI for exact interaction steps; do not use an outcome card as evidence that execution succeeded.",
+      "representative_entry": "constrained-web-flow",
+      "transcript_patterns": [
+        "{{input_source}} feeds {{mechanism}}, which produces {{outcome}}.",
+        "For {{bounded_task}}, {{system}} can use {{input_source}} to produce {{qualified_result}}."
+      ]
+    },
+    {
+      "id": "converging-sources",
+      "relationship": "many inputs \u2192 shared hub",
+      "choose_when": "Use when the distinction among source classes matters and they share a real destination.",
+      "choose_something_else_when": "Use a list for unrelated items; label search/query/tool access rather than implying data ingestion.",
+      "representative_entry": "agent-inputs",
+      "transcript_patterns": [
+        "{{consumer}} draws on {{source_a}}, {{source_b}} and {{source_c}} to {{job}}.",
+        "These inputs differ, but they contribute to the same {{shared_layer}}."
+      ]
+    },
+    {
+      "id": "product-definition",
+      "relationship": "name \u2192 role \u2192 concrete capability",
+      "choose_when": "Use when the viewer needs a definition before a mechanism or example.",
+      "choose_something_else_when": "Do not use a logo reveal to explain an internal architecture.",
+      "representative_entry": "product-definition",
+      "transcript_patterns": [
+        "{{concept}} is {{category}} that {{capability}}.",
+        "You give {{system}} {{input}}; it helps you {{specific_job}}."
+      ]
+    },
+    {
+      "id": "worked-example",
+      "relationship": "question \u2192 reasoning/result \u2192 action",
+      "choose_when": "Use after a capability needs a tangible demonstration.",
+      "choose_something_else_when": "Use genuine product footage for actual execution; label invented chat examples as illustrative.",
+      "representative_entry": "question-answer-action",
+      "transcript_patterns": [
+        "Suppose you ask {{concrete_question}}. {{system}} uses {{evidence}} to {{result}}.",
+        "From that answer, you can {{next_action}}, subject to {{constraint}}."
+      ]
+    },
+    {
+      "id": "governance-boundary",
+      "relationship": "capability inside a constraint",
+      "choose_when": "Use when a boundary constrains an otherwise understandable flow.",
+      "choose_something_else_when": "A shield alone does not explain a permission model; identify the actor, scope and enforcement point.",
+      "representative_entry": "governance-enclosure",
+      "transcript_patterns": [
+        "{{system}} can {{capability}}, but only within {{policy_boundary}}.",
+        "{{governance_layer}} controls which {{assets_or_actions}} {{actor}} may use."
+      ]
+    },
+    {
+      "id": "product-family",
+      "relationship": "shared foundation \u2192 different roles",
+      "choose_when": "Use when the products are peers with shared foundations.",
+      "choose_something_else_when": "Do not turn peer products into an execution pipeline or imply dependency from card depth.",
+      "representative_entry": "family-peers",
+      "transcript_patterns": [
+        "{{family}} shares {{foundation}}, while {{product_a}} serves {{job_a}} and {{product_b}} serves {{job_b}}.",
+        "These are different ways to use {{shared_capability}}, depending on {{user_job}}."
+      ]
+    },
+    {
+      "id": "wrong-source",
+      "relationship": "question \u2192 plausible but wrong asset \u2192 wrong answer",
+      "choose_when": "Use when the failure is asset authority or relevance rather than arithmetic.",
+      "choose_something_else_when": "Use a definition comparison for metric ambiguity; avoid showing a random table when the problem is a formula.",
+      "representative_entry": "wrong-revenue-source",
+      "transcript_patterns": [
+        "For {{business_question}}, {{system}} may select {{easy_but_wrong_asset}} instead of {{authoritative_asset}}.",
+        "It finds {{candidate}}, but that is not the {{trusted_definition_or_source}} used by {{owner}}."
+      ]
+    },
+    {
+      "id": "metric-ambiguity",
+      "relationship": "same term \u2192 missing rule \u2192 changed interpretation",
+      "choose_when": "Use when scope, exclusions or semantics cause ambiguity.",
+      "choose_something_else_when": "Use a source-authority graphic for choosing among tables; do not imply a definition alone repairs stale data.",
+      "representative_entry": "churn-definition",
+      "transcript_patterns": [
+        "When we say {{metric}}, we mean {{definition}}, including {{included_population}} and excluding {{excluded_population}}.",
+        "Without {{business_rule}}, {{system}} interprets {{term}} differently from {{team}}."
+      ]
+    },
+    {
+      "id": "stale-context",
+      "relationship": "prior context \u2192 change \u2192 mismatch",
+      "choose_when": "Use when time or organizational change breaks relevance.",
+      "choose_something_else_when": "A stale icon does not prove freshness checks exist; show the changed reference and its consequence.",
+      "representative_entry": "context-drifts",
+      "transcript_patterns": [
+        "{{asset_or_rule}} changed, but {{system}} still uses {{old_context}}.",
+        "The {{entity}} was {{change}}, so the previous {{reference}} is now unreliable."
+      ]
+    },
+    {
+      "id": "context-repair",
+      "relationship": "broken route \u2192 missing context \u2192 repaired route",
+      "choose_when": "Use after a concrete failure has established why the missing context matters.",
+      "choose_something_else_when": "Do not promise that context fixes all data-quality, model or authorization failures.",
+      "representative_entry": "context-repairs-route",
+      "transcript_patterns": [
+        "To answer {{question}} correctly, connect {{data}} with {{definition_or_context}}.",
+        "The missing piece is {{business_context}}, which tells {{system}} how to interpret {{asset}}."
+      ]
+    },
+    {
+      "id": "architecture-focus",
+      "relationship": "system overview \u2192 located detail",
+      "choose_when": "Use when placement in the larger system is part of the explanation.",
+      "choose_something_else_when": "Use a standalone example when the architecture adds no relevant context.",
+      "representative_entry": "architecture-camera",
+      "transcript_patterns": [
+        "At a high level, {{system}} contains {{components}}. Let\u2019s focus on {{component}}.",
+        "{{component}} sits between {{upstream}} and {{downstream}} and is responsible for {{responsibility}}."
+      ]
+    },
+    {
+      "id": "governed-hierarchy",
+      "relationship": "governing parent \u2192 peers \u2192 logical groups",
+      "choose_when": "Use for a real parent, containment or grouping relationship.",
+      "choose_something_else_when": "Use equal peer cards when no parent-child relationship exists; do not invent permission inheritance.",
+      "representative_entry": "modeled-hierarchy",
+      "transcript_patterns": [
+        "{{governance_parent}} manages {{object_a}} and {{object_b}}; {{group}} organizes them by {{business_scope}}.",
+        "Start with {{definition_object}}, add {{context_object}}, then organize them into {{domain}}."
+      ]
+    },
+    {
+      "id": "learned-signals",
+      "relationship": "work evidence \u2192 contextual signals",
+      "choose_when": "Use when the lesson is how evidence contributes contextual clues.",
+      "choose_something_else_when": "Do not represent learned signals as certified definitions or guaranteed truth.",
+      "representative_entry": "learning-actions",
+      "transcript_patterns": [
+        "When people {{work_action}}, they leave {{signal}} that helps {{system}} infer {{context}}.",
+        "{{example_a}} and {{example_b}} provide clues about {{business_relationship}}."
+      ]
+    },
+    {
+      "id": "ranked-context",
+      "relationship": "candidate context \u2192 ranking criteria \u2192 relevant context",
+      "choose_when": "Use when relevance or prioritization is the causal lesson.",
+      "choose_something_else_when": "A generic node graph does not explain ranking; name the criteria and avoid inventing numerical weights.",
+      "representative_entry": "context-ranking",
+      "transcript_patterns": [
+        "{{system}} prioritizes {{context}} using {{criterion_a}}, {{criterion_b}} and {{criterion_c}}.",
+        "Not every {{candidate}} is equally useful; {{ranking_rule}} changes which ones matter for {{question}}."
+      ]
+    },
+    {
+      "id": "benchmark",
+      "relationship": "methods \u00d7 measures \u2192 qualified comparison",
+      "choose_when": "Use for comparable measured data with a credible evaluation scope.",
+      "choose_something_else_when": "Do not transfer source benchmark values to another product or imply universal results from one evaluation.",
+      "representative_entry": "accuracy-runtime",
+      "transcript_patterns": [
+        "On {{evaluation_scope}}, {{method_a}} achieved {{measure_a}}, compared with {{method_b}} at {{measure_b}}.",
+        "The trade-off is {{dimension_a}} versus {{dimension_b}}, under {{test_conditions}}."
+      ]
+    },
+    {
+      "id": "access-paths",
+      "relationship": "distinct access modes \u2192 different jobs",
+      "choose_when": "Use when superficially similar access paths have different semantics.",
+      "choose_something_else_when": "A collage of logos cannot distinguish retrieval from execution or ingestion.",
+      "representative_entry": "document-versus-query",
+      "transcript_patterns": [
+        "Use {{access_mode_a}} for {{job_a}}, and {{access_mode_b}} for {{job_b}}.",
+        "Finding an existing {{document}} differs from calculating {{answer}} over live {{data}}."
+      ]
+    },
+    {
+      "id": "feature-evidence",
+      "relationship": "stable capability \u2192 supporting product evidence",
+      "choose_when": "Use when the actual visible product interaction supports the claim.",
+      "choose_something_else_when": "Do not fabricate UI or infer availability beyond the visible source version.",
+      "representative_entry": "personal-memory",
+      "transcript_patterns": [
+        "To {{user_job}}, use {{feature}}: {{specific_interaction}}.",
+        "Here {{system}} lets {{actor}} {{action}}, with {{constraint}}."
+      ]
+    },
+    {
+      "id": "permissioned-action",
+      "relationship": "actor \u2192 control point \u2192 allowed/denied route",
+      "choose_when": "Use when the permission boundary or action route matters.",
+      "choose_something_else_when": "Compatibility logos are not proof of authorization or successful execution.",
+      "representative_entry": "controlled-tool-action",
+      "transcript_patterns": [
+        "{{actor}} reaches {{tool}} through {{control_point}}, which enforces {{scope}}.",
+        "{{action}} is allowed for {{allowed_scope}} and denied for {{denied_scope}}."
+      ]
+    },
+    {
+      "id": "peer-categories",
+      "relationship": "equal-rank needs or choices",
+      "choose_when": "Use when equal conceptual rank is the lesson.",
+      "choose_something_else_when": "Use a timeline when order matters and a hierarchy when one item contains another.",
+      "representative_entry": "governance-needs",
+      "transcript_patterns": [
+        "We need {{need_a}}, {{need_b}} and {{need_c}} for {{goal}}.",
+        "There are three distinct concerns: {{concern_a}}, {{concern_b}} and {{concern_c}}."
+      ]
+    },
+    {
+      "id": "agent-delegation",
+      "relationship": "parent \u2192 specialists \u2192 resources",
+      "choose_when": "Use when delegation or ownership is a real relationship in the supported system.",
+      "choose_something_else_when": "Use an input map for context sources; do not present source connectors as subordinate agents.",
+      "representative_entry": "specialized-agents",
+      "transcript_patterns": [
+        "{{parent_agent}} delegates {{job_a}} to {{specialist_a}} and {{job_b}} to {{specialist_b}}.",
+        "Each {{specialist}} receives {{inputs}} and can use {{resources}} within {{scope}}."
+      ]
+    },
+    {
+      "id": "rollout",
+      "relationship": "ordered milestones \u2192 current step \u2192 details",
+      "choose_when": "Use for a real ordered process with useful current-step context.",
+      "choose_something_else_when": "Use peer cards for unordered considerations; a rail is not a promise about calendar duration.",
+      "representative_entry": "rollout-milestones",
+      "transcript_patterns": [
+        "Start with {{team_and_workflow}}, define {{benchmark}}, measure {{baseline}}, then connect {{sources}} and iterate.",
+        "At {{current_step}}, do {{task}} so that {{next_step}} has {{required_input}}."
+      ]
+    },
+    {
+      "id": "fixed-emphasis",
+      "relationship": "fixed recommendations \u2192 one active item",
+      "choose_when": "Use when scanning the whole recommendation set helps orientation.",
+      "choose_something_else_when": "Do not fade inactive text below legibility or replace the list with unrelated slides.",
+      "representative_entry": "best-practices",
+      "transcript_patterns": [
+        "First {{recommendation_a}}. Next {{recommendation_b}}. Finally {{recommendation_c}}.",
+        "For {{goal}}, check {{requirement}} because {{reason}}."
+      ]
+    },
+    {
+      "id": "callout",
+      "relationship": "spoken concept \u2192 concise emphasis",
+      "choose_when": "Use for a short framing or recap phrase.",
+      "choose_something_else_when": "Use a diagram when the mechanism needs explanation; a floating word is insufficient.",
+      "representative_entry": "outcome-callouts",
+      "transcript_patterns": [
+        "The key idea is {{concept}}.",
+        "We need both {{concern_a}} and {{concern_b}}."
+      ]
+    },
+    {
+      "id": "chapter",
+      "relationship": "chapter transition",
+      "choose_when": "Use for a real structural transition.",
+      "choose_something_else_when": "A chapter title is navigation, not an explanatory mechanism.",
+      "representative_entry": "outcomes-title",
+      "transcript_patterns": [
+        "Now let\u2019s look at {{next_section}}.",
+        "We have covered {{previous_topic}}; next is {{next_topic}}."
+      ]
+    },
+    {
+      "id": "ui-evidence",
+      "relationship": "actual workflow \u2192 visible execution/result",
+      "choose_when": "Use when exact interaction or observed execution is central.",
+      "choose_something_else_when": "Illustrative diagrams cannot verify real execution. Keep reference UI separate from generated conceptual graphics.",
+      "representative_entry": "demo-citations",
+      "transcript_patterns": [
+        "Here is {{question_or_task}}. We {{interaction}}, then inspect {{result_or_evidence}}.",
+        "To verify {{claim}}, look at {{visible_evidence}} in the product."
+      ]
+    }
+  ]
+}

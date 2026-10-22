@@ -1,0 +1,529 @@
+{
+  "id": "learning-actions",
+  "index": 19,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 353,
+  "source_end": 379,
+  "source_timecode": "05:53.00\u201306:19.00",
+  "template_id": "learned-signals",
+  "label": "Joins, comments, sharing and popular queries",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Explain useful signals through recognizable work actions.",
+  "relationship": "work evidence \u2192 contextual signals",
+  "original_transcript": "Databricks. So, for example, you know, the fact that someone joins table A and table B is very valuable information for a Genie. And then if they add maybe a comment, that's probably making it even more valuable. And then if they share that with other people, we know it's probably valuable for those other people. And then if that query becomes very, very popular, we can surmise that it's probably a pretty authoritative source of information. So, a snippet could be a join hint, but it could also",
+  "original_transcript_segments": [
+    {
+      "text": "Databricks. So, for example, you know,",
+      "start": 350.92,
+      "end": 355.76
+    },
+    {
+      "text": "the fact that someone joins table A and",
+      "start": 352.8,
+      "end": 358.64
+    },
+    {
+      "text": "table B is very valuable information for",
+      "start": 355.76,
+      "end": 360.64
+    },
+    {
+      "text": "a Genie. And then if they add maybe a",
+      "start": 358.64,
+      "end": 363.0
+    },
+    {
+      "text": "comment, that's probably making it even",
+      "start": 360.64,
+      "end": 364.64
+    },
+    {
+      "text": "more valuable. And then if they share",
+      "start": 363.0,
+      "end": 366.92
+    },
+    {
+      "text": "that with other people, we know it's",
+      "start": 364.64,
+      "end": 368.64
+    },
+    {
+      "text": "probably valuable for those other",
+      "start": 366.92,
+      "end": 370.76
+    },
+    {
+      "text": "people. And then if that query becomes",
+      "start": 368.64,
+      "end": 373.72
+    },
+    {
+      "text": "very, very popular, we can surmise that",
+      "start": 370.76,
+      "end": 375.52
+    },
+    {
+      "text": "it's probably a pretty authoritative",
+      "start": 373.72,
+      "end": 377.16
+    },
+    {
+      "text": "source of information. So, a snippet",
+      "start": 375.52,
+      "end": 379.52
+    },
+    {
+      "text": "could be a join hint, but it could also",
+      "start": 377.16,
+      "end": 382.24
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Explain where inferred context comes from using concrete examples of real work.",
+  "parameterized_transcript_patterns": [
+    "When people {{work_action}}, they leave {{signal}} that helps {{system}} infer {{context}}.",
+    "{{example_a}} and {{example_b}} provide clues about {{business_relationship}}."
+  ],
+  "semantic_slots": [
+    "business_relationship",
+    "context",
+    "example_a",
+    "example_b",
+    "examples",
+    "signal",
+    "system",
+    "work_action"
+  ],
+  "selection_rule": "Use when the lesson is how evidence contributes contextual clues.",
+  "better_alternative_or_misuse": "Do not represent learned signals as certified definitions or guaranteed truth.",
+  "motion_recipe": "Accumulate labeled source examples, show the new signal, and retain the distinction between evidence and authority.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 353.3,
+      "timecode": "05:53.30",
+      "images": {
+        "full_frame": "frames/full/0010599.jpg",
+        "graphic_region": "frames/graphic/0010599.jpg",
+        "requested_seconds": 353.3,
+        "sample_frame": 10599,
+        "normalized_source_seconds": 353.3,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "in and and day out within and outside of",
+          "start": 348.0,
+          "end": 352.8
+        },
+        {
+          "text": "Databricks. So, for example, you know,",
+          "start": 350.92,
+          "end": 355.76
+        },
+        {
+          "text": "the fact that someone joins table A and",
+          "start": 352.8,
+          "end": 358.64
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 359.5,
+      "timecode": "05:59.50",
+      "images": {
+        "full_frame": "frames/full/0010785.jpg",
+        "graphic_region": "frames/graphic/0010785.jpg",
+        "requested_seconds": 359.5,
+        "sample_frame": 10785,
+        "normalized_source_seconds": 359.5,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "the fact that someone joins table A and",
+          "start": 352.8,
+          "end": 358.64
+        },
+        {
+          "text": "table B is very valuable information for",
+          "start": 355.76,
+          "end": 360.64
+        },
+        {
+          "text": "a Genie. And then if they add maybe a",
+          "start": 358.64,
+          "end": 363.0
+        },
+        {
+          "text": "comment, that's probably making it even",
+          "start": 360.64,
+          "end": 364.64
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 365.5,
+      "timecode": "06:05.50",
+      "images": {
+        "full_frame": "frames/full/0010965.jpg",
+        "graphic_region": "frames/graphic/0010965.jpg",
+        "requested_seconds": 365.5,
+        "sample_frame": 10965,
+        "normalized_source_seconds": 365.5,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "comment, that's probably making it even",
+          "start": 360.64,
+          "end": 364.64
+        },
+        {
+          "text": "more valuable. And then if they share",
+          "start": 363.0,
+          "end": 366.92
+        },
+        {
+          "text": "that with other people, we know it's",
+          "start": 364.64,
+          "end": 368.64
+        },
+        {
+          "text": "probably valuable for those other",
+          "start": 366.92,
+          "end": 370.76
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "intermediate observed state",
+      "time": 372,
+      "timecode": "06:12.00",
+      "images": {
+        "full_frame": "frames/full/0011160.jpg",
+        "graphic_region": "frames/graphic/0011160.jpg",
+        "requested_seconds": 372,
+        "sample_frame": 11160,
+        "normalized_source_seconds": 372.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "probably valuable for those other",
+          "start": 366.92,
+          "end": 370.76
+        },
+        {
+          "text": "people. And then if that query becomes",
+          "start": 368.64,
+          "end": 373.72
+        },
+        {
+          "text": "very, very popular, we can surmise that",
+          "start": 370.76,
+          "end": 375.52
+        },
+        {
+          "text": "it's probably a pretty authoritative",
+          "start": 373.72,
+          "end": 377.16
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-05",
+      "sequence_role": "later observed state",
+      "time": 378,
+      "timecode": "06:18.00",
+      "images": {
+        "full_frame": "frames/full/0011340.jpg",
+        "graphic_region": "frames/graphic/0011340.jpg",
+        "requested_seconds": 378,
+        "sample_frame": 11340,
+        "normalized_source_seconds": 378.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "it's probably a pretty authoritative",
+          "start": 373.72,
+          "end": 377.16
+        },
+        {
+          "text": "source of information. So, a snippet",
+          "start": 375.52,
+          "end": 379.52
+        },
+        {
+          "text": "could be a join hint, but it could also",
+          "start": 377.16,
+          "end": 382.24
+        },
+        {
+          "text": "be things like a business rule. So, for",
+          "start": 379.52,
+          "end": 384.4
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 353,
+      "nearby_original_transcript": [
+        {
+          "text": "in and and day out within and outside of",
+          "start": 348.0,
+          "end": 352.8
+        },
+        {
+          "text": "Databricks. So, for example, you know,",
+          "start": 350.92,
+          "end": 355.76
+        },
+        {
+          "text": "the fact that someone joins table A and",
+          "start": 352.8,
+          "end": 358.64
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0010590.jpg",
+          "graphic_region": "frames/graphic/0010590.jpg",
+          "requested_seconds": 353,
+          "sample_frame": 10590,
+          "normalized_source_seconds": 353.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0010598.jpg",
+          "graphic_region": "frames/graphic/0010598.jpg",
+          "requested_seconds": 353.25,
+          "sample_frame": 10598,
+          "normalized_source_seconds": 353.26666666666665,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0010620.jpg",
+          "graphic_region": "frames/graphic/0010620.jpg",
+          "requested_seconds": 354,
+          "sample_frame": 10620,
+          "normalized_source_seconds": 354.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 359,
+      "nearby_original_transcript": [
+        {
+          "text": "the fact that someone joins table A and",
+          "start": 352.8,
+          "end": 358.64
+        },
+        {
+          "text": "table B is very valuable information for",
+          "start": 355.76,
+          "end": 360.64
+        },
+        {
+          "text": "a Genie. And then if they add maybe a",
+          "start": 358.64,
+          "end": 363.0
+        },
+        {
+          "text": "comment, that's probably making it even",
+          "start": 360.64,
+          "end": 364.64
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0010762.jpg",
+          "graphic_region": "frames/graphic/0010762.jpg",
+          "requested_seconds": 358.75,
+          "sample_frame": 10762,
+          "normalized_source_seconds": 358.73333333333335,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0010778.jpg",
+          "graphic_region": "frames/graphic/0010778.jpg",
+          "requested_seconds": 359.25,
+          "sample_frame": 10778,
+          "normalized_source_seconds": 359.26666666666665,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0010800.jpg",
+          "graphic_region": "frames/graphic/0010800.jpg",
+          "requested_seconds": 360,
+          "sample_frame": 10800,
+          "normalized_source_seconds": 360.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 365,
+      "nearby_original_transcript": [
+        {
+          "text": "comment, that's probably making it even",
+          "start": 360.64,
+          "end": 364.64
+        },
+        {
+          "text": "more valuable. And then if they share",
+          "start": 363.0,
+          "end": 366.92
+        },
+        {
+          "text": "that with other people, we know it's",
+          "start": 364.64,
+          "end": 368.64
+        },
+        {
+          "text": "probably valuable for those other",
+          "start": 366.92,
+          "end": 370.76
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0010942.jpg",
+          "graphic_region": "frames/graphic/0010942.jpg",
+          "requested_seconds": 364.75,
+          "sample_frame": 10942,
+          "normalized_source_seconds": 364.73333333333335,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0010958.jpg",
+          "graphic_region": "frames/graphic/0010958.jpg",
+          "requested_seconds": 365.25,
+          "sample_frame": 10958,
+          "normalized_source_seconds": 365.26666666666665,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0010980.jpg",
+          "graphic_region": "frames/graphic/0010980.jpg",
+          "requested_seconds": 366,
+          "sample_frame": 10980,
+          "normalized_source_seconds": 366.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 371,
+      "nearby_original_transcript": [
+        {
+          "text": "probably valuable for those other",
+          "start": 366.92,
+          "end": 370.76
+        },
+        {
+          "text": "people. And then if that query becomes",
+          "start": 368.64,
+          "end": 373.72
+        },
+        {
+          "text": "very, very popular, we can surmise that",
+          "start": 370.76,
+          "end": 375.52
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0011122.jpg",
+          "graphic_region": "frames/graphic/0011122.jpg",
+          "requested_seconds": 370.75,
+          "sample_frame": 11122,
+          "normalized_source_seconds": 370.73333333333335,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0011138.jpg",
+          "graphic_region": "frames/graphic/0011138.jpg",
+          "requested_seconds": 371.25,
+          "sample_frame": 11138,
+          "normalized_source_seconds": 371.26666666666665,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0011160.jpg",
+          "graphic_region": "frames/graphic/0011160.jpg",
+          "requested_seconds": 372,
+          "sample_frame": 11160,
+          "normalized_source_seconds": 372.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "09-learned-context",
+      "observed_state_pattern": "Architecture revisited \u2192 learned region focus \u2192 join/document/rule examples.",
+      "persistent_context": "Selected subsystem and category remain while examples change.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0011340.jpg",
+      "frames/graphic/0010599.jpg",
+      "frames/graphic/0010965.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0011340.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

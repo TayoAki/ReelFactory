@@ -1,0 +1,360 @@
+{
+  "id": "shared-consumers",
+  "index": 22,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 438,
+  "source_end": 454,
+  "source_timecode": "07:18.00\u201307:34.00",
+  "template_id": "architecture-focus",
+  "label": "Consumers share the context layer",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Return the focused mechanism to the system\u2019s consumers.",
+  "relationship": "system overview \u2192 located detail",
+  "original_transcript": "conflicting information, and so on. And it's not just questions that you put into Genie, it's also any third-party agent that you choose to hook up via our MCP. So, no matter where you're standardizing your end users, you benefit from this semantic layer. And that that benefit is very significant.",
+  "original_transcript_segments": [
+    {
+      "text": "conflicting information, and so on. And",
+      "start": 435.08,
+      "end": 439.76
+    },
+    {
+      "text": "it's not just questions that you put",
+      "start": 437.56,
+      "end": 442.8
+    },
+    {
+      "text": "into Genie, it's also any third-party",
+      "start": 439.76,
+      "end": 445.24
+    },
+    {
+      "text": "agent that you choose to hook up via our",
+      "start": 442.8,
+      "end": 447.4
+    },
+    {
+      "text": "MCP. So, no matter where you're",
+      "start": 445.24,
+      "end": 449.84
+    },
+    {
+      "text": "standardizing your end users, you",
+      "start": 447.4,
+      "end": 452.36
+    },
+    {
+      "text": "benefit from this semantic layer. And",
+      "start": 449.84,
+      "end": 455.0
+    },
+    {
+      "text": "that that benefit is very significant.",
+      "start": 452.36,
+      "end": 456.72
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Locate a component within an architecture before examining it.",
+  "parameterized_transcript_patterns": [
+    "At a high level, {{system}} contains {{components}}. Let\u2019s focus on {{component}}.",
+    "{{component}} sits between {{upstream}} and {{downstream}} and is responsible for {{responsibility}}."
+  ],
+  "semantic_slots": [
+    "component",
+    "components",
+    "downstream",
+    "responsibility",
+    "system",
+    "upstream"
+  ],
+  "selection_rule": "Use when placement in the larger system is part of the explanation.",
+  "better_alternative_or_misuse": "Use a standalone example when the architecture adds no relevant context.",
+  "motion_recipe": "Establish the overview, preserve context, move the inner camera or selectively emphasize the active region.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 438.3,
+      "timecode": "07:18.30",
+      "images": {
+        "full_frame": "frames/full/0013149.jpg",
+        "graphic_region": "frames/graphic/0013149.jpg",
+        "requested_seconds": 438.3,
+        "sample_frame": 13149,
+        "normalized_source_seconds": 438.3,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "information, to dedupe against across uh",
+          "start": 431.12,
+          "end": 437.56
+        },
+        {
+          "text": "conflicting information, and so on. And",
+          "start": 435.08,
+          "end": 439.76
+        },
+        {
+          "text": "it's not just questions that you put",
+          "start": 437.56,
+          "end": 442.8
+        },
+        {
+          "text": "into Genie, it's also any third-party",
+          "start": 439.76,
+          "end": 445.24
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 442,
+      "timecode": "07:22.00",
+      "images": {
+        "full_frame": "frames/full/0013260.jpg",
+        "graphic_region": "frames/graphic/0013260.jpg",
+        "requested_seconds": 442,
+        "sample_frame": 13260,
+        "normalized_source_seconds": 442.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "it's not just questions that you put",
+          "start": 437.56,
+          "end": 442.8
+        },
+        {
+          "text": "into Genie, it's also any third-party",
+          "start": 439.76,
+          "end": 445.24
+        },
+        {
+          "text": "agent that you choose to hook up via our",
+          "start": 442.8,
+          "end": 447.4
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 447,
+      "timecode": "07:27.00",
+      "images": {
+        "full_frame": "frames/full/0013410.jpg",
+        "graphic_region": "frames/graphic/0013410.jpg",
+        "requested_seconds": 447,
+        "sample_frame": 13410,
+        "normalized_source_seconds": 447.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "into Genie, it's also any third-party",
+          "start": 439.76,
+          "end": 445.24
+        },
+        {
+          "text": "agent that you choose to hook up via our",
+          "start": 442.8,
+          "end": 447.4
+        },
+        {
+          "text": "MCP. So, no matter where you're",
+          "start": 445.24,
+          "end": 449.84
+        },
+        {
+          "text": "standardizing your end users, you",
+          "start": 447.4,
+          "end": 452.36
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "later observed state",
+      "time": 453,
+      "timecode": "07:33.00",
+      "images": {
+        "full_frame": "frames/full/0013590.jpg",
+        "graphic_region": "frames/graphic/0013590.jpg",
+        "requested_seconds": 453,
+        "sample_frame": 13590,
+        "normalized_source_seconds": 453.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "standardizing your end users, you",
+          "start": 447.4,
+          "end": 452.36
+        },
+        {
+          "text": "benefit from this semantic layer. And",
+          "start": 449.84,
+          "end": 455.0
+        },
+        {
+          "text": "that that benefit is very significant.",
+          "start": 452.36,
+          "end": 456.72
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 438,
+      "nearby_original_transcript": [
+        {
+          "text": "information, to dedupe against across uh",
+          "start": 431.12,
+          "end": 437.56
+        },
+        {
+          "text": "conflicting information, and so on. And",
+          "start": 435.08,
+          "end": 439.76
+        },
+        {
+          "text": "it's not just questions that you put",
+          "start": 437.56,
+          "end": 442.8
+        },
+        {
+          "text": "into Genie, it's also any third-party",
+          "start": 439.76,
+          "end": 445.24
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0013140.jpg",
+          "graphic_region": "frames/graphic/0013140.jpg",
+          "requested_seconds": 438,
+          "sample_frame": 13140,
+          "normalized_source_seconds": 438.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0013148.jpg",
+          "graphic_region": "frames/graphic/0013148.jpg",
+          "requested_seconds": 438.25,
+          "sample_frame": 13148,
+          "normalized_source_seconds": 438.26666666666665,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0013170.jpg",
+          "graphic_region": "frames/graphic/0013170.jpg",
+          "requested_seconds": 439,
+          "sample_frame": 13170,
+          "normalized_source_seconds": 439.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 446,
+      "nearby_original_transcript": [
+        {
+          "text": "into Genie, it's also any third-party",
+          "start": 439.76,
+          "end": 445.24
+        },
+        {
+          "text": "agent that you choose to hook up via our",
+          "start": 442.8,
+          "end": 447.4
+        },
+        {
+          "text": "MCP. So, no matter where you're",
+          "start": 445.24,
+          "end": 449.84
+        },
+        {
+          "text": "standardizing your end users, you",
+          "start": 447.4,
+          "end": 452.36
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0013372.jpg",
+          "graphic_region": "frames/graphic/0013372.jpg",
+          "requested_seconds": 445.75,
+          "sample_frame": 13372,
+          "normalized_source_seconds": 445.73333333333335,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0013388.jpg",
+          "graphic_region": "frames/graphic/0013388.jpg",
+          "requested_seconds": 446.25,
+          "sample_frame": 13388,
+          "normalized_source_seconds": 446.26666666666665,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0013410.jpg",
+          "graphic_region": "frames/graphic/0013410.jpg",
+          "requested_seconds": 447,
+          "sample_frame": 13410,
+          "normalized_source_seconds": 447.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "10-overview-rank",
+      "observed_state_pattern": "Return to master \u2192 ranking region emphasis \u2192 application/consumer focus.",
+      "persistent_context": "Master positions reappear rather than being redesigned between focuses.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0013590.jpg",
+      "frames/graphic/0013149.jpg",
+      "frames/graphic/0013260.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0013590.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

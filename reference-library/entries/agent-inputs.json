@@ -1,0 +1,356 @@
+{
+  "id": "agent-inputs",
+  "index": 45,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 1475,
+  "source_end": 1484,
+  "source_timecode": "24:35.00\u201324:44.00",
+  "template_id": "converging-sources",
+  "label": "Sources, instructions, skills and memory",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Identify inputs to a custom agent before showing specialized agents.",
+  "relationship": "many inputs \u2192 shared hub",
+  "original_transcript": "agent bundles data sources, instructions, skills, and memory, and all those come together to create what we might think of as a customized coworker that can answer questions or get work done in a very particular",
+  "original_transcript_segments": [
+    {
+      "text": "agent bundles data sources,",
+      "start": 1472.04,
+      "end": 1477.16
+    },
+    {
+      "text": "instructions, skills, and memory, and",
+      "start": 1474.44,
+      "end": 1479.36
+    },
+    {
+      "text": "all those come together to create what",
+      "start": 1477.16,
+      "end": 1480.88
+    },
+    {
+      "text": "we might think of as a customized",
+      "start": 1479.36,
+      "end": 1482.84
+    },
+    {
+      "text": "coworker that can answer questions or",
+      "start": 1480.88,
+      "end": 1484.52
+    },
+    {
+      "text": "get work done in a very particular",
+      "start": 1482.84,
+      "end": 1486.2
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Show several distinct sources contributing context or capabilities to one named consumer.",
+  "parameterized_transcript_patterns": [
+    "{{consumer}} draws on {{source_a}}, {{source_b}} and {{source_c}} to {{job}}.",
+    "These inputs differ, but they contribute to the same {{shared_layer}}."
+  ],
+  "semantic_slots": [
+    "consumer",
+    "job",
+    "shared_layer",
+    "source_a",
+    "source_b",
+    "source_c",
+    "sources"
+  ],
+  "selection_rule": "Use when the distinction among source classes matters and they share a real destination.",
+  "better_alternative_or_misuse": "Use a list for unrelated items; label search/query/tool access rather than implying data ingestion.",
+  "motion_recipe": "Add sources individually, retain earlier nodes, draw each path, then activate the hub.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 1475.3,
+      "timecode": "24:35.30",
+      "images": {
+        "full_frame": "frames/full/0044259.jpg",
+        "graphic_region": "frames/graphic/0044259.jpg",
+        "requested_seconds": 1475.3,
+        "sample_frame": 44259,
+        "normalized_source_seconds": 1475.3,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "performs an entire job. So, a Genie",
+          "start": 1469.88,
+          "end": 1474.44
+        },
+        {
+          "text": "agent bundles data sources,",
+          "start": 1472.04,
+          "end": 1477.16
+        },
+        {
+          "text": "instructions, skills, and memory, and",
+          "start": 1474.44,
+          "end": 1479.36
+        },
+        {
+          "text": "all those come together to create what",
+          "start": 1477.16,
+          "end": 1480.88
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 1477,
+      "timecode": "24:37.00",
+      "images": {
+        "full_frame": "frames/full/0044310.jpg",
+        "graphic_region": "frames/graphic/0044310.jpg",
+        "requested_seconds": 1477,
+        "sample_frame": 44310,
+        "normalized_source_seconds": 1477.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "agent bundles data sources,",
+          "start": 1472.04,
+          "end": 1477.16
+        },
+        {
+          "text": "instructions, skills, and memory, and",
+          "start": 1474.44,
+          "end": 1479.36
+        },
+        {
+          "text": "all those come together to create what",
+          "start": 1477.16,
+          "end": 1480.88
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 1479.5,
+      "timecode": "24:39.50",
+      "images": {
+        "full_frame": "frames/full/0044385.jpg",
+        "graphic_region": "frames/graphic/0044385.jpg",
+        "requested_seconds": 1479.5,
+        "sample_frame": 44385,
+        "normalized_source_seconds": 1479.5,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "instructions, skills, and memory, and",
+          "start": 1474.44,
+          "end": 1479.36
+        },
+        {
+          "text": "all those come together to create what",
+          "start": 1477.16,
+          "end": 1480.88
+        },
+        {
+          "text": "we might think of as a customized",
+          "start": 1479.36,
+          "end": 1482.84
+        },
+        {
+          "text": "coworker that can answer questions or",
+          "start": 1480.88,
+          "end": 1484.52
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "later observed state",
+      "time": 1483.5,
+      "timecode": "24:43.50",
+      "images": {
+        "full_frame": "frames/full/0044505.jpg",
+        "graphic_region": "frames/graphic/0044505.jpg",
+        "requested_seconds": 1483.5,
+        "sample_frame": 44505,
+        "normalized_source_seconds": 1483.5,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "we might think of as a customized",
+          "start": 1479.36,
+          "end": 1482.84
+        },
+        {
+          "text": "coworker that can answer questions or",
+          "start": 1480.88,
+          "end": 1484.52
+        },
+        {
+          "text": "get work done in a very particular",
+          "start": 1482.84,
+          "end": 1486.2
+        },
+        {
+          "text": "domain. So, for example, you might have",
+          "start": 1484.52,
+          "end": 1488.52
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 1475,
+      "nearby_original_transcript": [
+        {
+          "text": "performs an entire job. So, a Genie",
+          "start": 1469.88,
+          "end": 1474.44
+        },
+        {
+          "text": "agent bundles data sources,",
+          "start": 1472.04,
+          "end": 1477.16
+        },
+        {
+          "text": "instructions, skills, and memory, and",
+          "start": 1474.44,
+          "end": 1479.36
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0044250.jpg",
+          "graphic_region": "frames/graphic/0044250.jpg",
+          "requested_seconds": 1475,
+          "sample_frame": 44250,
+          "normalized_source_seconds": 1475.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0044258.jpg",
+          "graphic_region": "frames/graphic/0044258.jpg",
+          "requested_seconds": 1475.25,
+          "sample_frame": 44258,
+          "normalized_source_seconds": 1475.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0044280.jpg",
+          "graphic_region": "frames/graphic/0044280.jpg",
+          "requested_seconds": 1476,
+          "sample_frame": 44280,
+          "normalized_source_seconds": 1476.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1479,
+      "nearby_original_transcript": [
+        {
+          "text": "agent bundles data sources,",
+          "start": 1472.04,
+          "end": 1477.16
+        },
+        {
+          "text": "instructions, skills, and memory, and",
+          "start": 1474.44,
+          "end": 1479.36
+        },
+        {
+          "text": "all those come together to create what",
+          "start": 1477.16,
+          "end": 1480.88
+        },
+        {
+          "text": "we might think of as a customized",
+          "start": 1479.36,
+          "end": 1482.84
+        },
+        {
+          "text": "coworker that can answer questions or",
+          "start": 1480.88,
+          "end": 1484.52
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0044362.jpg",
+          "graphic_region": "frames/graphic/0044362.jpg",
+          "requested_seconds": 1478.75,
+          "sample_frame": 44362,
+          "normalized_source_seconds": 1478.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0044378.jpg",
+          "graphic_region": "frames/graphic/0044378.jpg",
+          "requested_seconds": 1479.25,
+          "sample_frame": 44378,
+          "normalized_source_seconds": 1479.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0044400.jpg",
+          "graphic_region": "frames/graphic/0044400.jpg",
+          "requested_seconds": 1480,
+          "sample_frame": 44400,
+          "normalized_source_seconds": 1480.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "21-agent-hierarchy",
+      "observed_state_pattern": "Feature UI \u2192 agent parent \u2192 inner camera focus \u2192 child branches.",
+      "persistent_context": "Parent identity persists; all links and child labels share the camera transform.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0044505.jpg",
+      "frames/graphic/0044259.jpg",
+      "frames/graphic/0044310.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0044505.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

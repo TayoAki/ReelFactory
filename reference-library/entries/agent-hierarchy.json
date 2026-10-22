@@ -1,0 +1,472 @@
+{
+  "id": "agent-hierarchy",
+  "index": 47,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 1503,
+  "source_end": 1523,
+  "source_timecode": "25:03.00\u201325:23.00",
+  "template_id": "agent-delegation",
+  "label": "Parent agents, children and connected resources",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Distinguish delegation from the separate relationship to resources.",
+  "relationship": "parent \u2192 specialists \u2192 resources",
+  "original_transcript": "here. If you've already been using what used to be called Genie Spaces, then you've actually been creating agents because Genie Spaces are now Genie Agents, fully accessible from Genie 1 with a couple bells and whistles. It wasn't just a rebrand. So, for example, we're adding the ability to connect a volume to the agent. We're adding MCP connectors. And we are also adding uh sub-agent support.",
+  "original_transcript_segments": [
+    {
+      "text": "here. If you've already been using what",
+      "start": 1500.72,
+      "end": 1503.6
+    },
+    {
+      "text": "used to be called Genie Spaces, then",
+      "start": 1502.16,
+      "end": 1505.52
+    },
+    {
+      "text": "you've actually been creating agents",
+      "start": 1503.6,
+      "end": 1507.44
+    },
+    {
+      "text": "because Genie Spaces are now Genie",
+      "start": 1505.52,
+      "end": 1510.28
+    },
+    {
+      "text": "Agents, fully accessible from Genie 1",
+      "start": 1507.44,
+      "end": 1511.8
+    },
+    {
+      "text": "with a couple bells and whistles. It",
+      "start": 1510.28,
+      "end": 1514.24
+    },
+    {
+      "text": "wasn't just a rebrand. So, for example,",
+      "start": 1511.8,
+      "end": 1515.64
+    },
+    {
+      "text": "we're adding the ability to connect a",
+      "start": 1514.24,
+      "end": 1518.4
+    },
+    {
+      "text": "volume to the agent. We're adding MCP",
+      "start": 1515.64,
+      "end": 1520.96
+    },
+    {
+      "text": "connectors. And we are also adding uh",
+      "start": 1518.4,
+      "end": 1524.08
+    },
+    {
+      "text": "sub-agent support.",
+      "start": 1520.96,
+      "end": 1524.08
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Distinguish an orchestrating agent from delegated specialists and their resources.",
+  "parameterized_transcript_patterns": [
+    "{{parent_agent}} delegates {{job_a}} to {{specialist_a}} and {{job_b}} to {{specialist_b}}.",
+    "Each {{specialist}} receives {{inputs}} and can use {{resources}} within {{scope}}."
+  ],
+  "semantic_slots": [
+    "inputs",
+    "job_a",
+    "job_b",
+    "jobs",
+    "parent_agent",
+    "resources",
+    "scope",
+    "specialist",
+    "specialist_a",
+    "specialist_b",
+    "specialists"
+  ],
+  "selection_rule": "Use when delegation or ownership is a real relationship in the supported system.",
+  "better_alternative_or_misuse": "Use an input map for context sources; do not present source connectors as subordinate agents.",
+  "motion_recipe": "Establish the parent or inputs, reveal specialists individually, then show each named branch/resource.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 1503.3,
+      "timecode": "25:03.30",
+      "images": {
+        "full_frame": "frames/full/0045099.jpg",
+        "graphic_region": "frames/graphic/0045099.jpg",
+        "requested_seconds": 1503.3,
+        "sample_frame": 45099,
+        "normalized_source_seconds": 1503.3,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "customers are not starting from scratch",
+          "start": 1498.8,
+          "end": 1502.16
+        },
+        {
+          "text": "here. If you've already been using what",
+          "start": 1500.72,
+          "end": 1503.6
+        },
+        {
+          "text": "used to be called Genie Spaces, then",
+          "start": 1502.16,
+          "end": 1505.52
+        },
+        {
+          "text": "you've actually been creating agents",
+          "start": 1503.6,
+          "end": 1507.44
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 1507,
+      "timecode": "25:07.00",
+      "images": {
+        "full_frame": "frames/full/0045210.jpg",
+        "graphic_region": "frames/graphic/0045210.jpg",
+        "requested_seconds": 1507,
+        "sample_frame": 45210,
+        "normalized_source_seconds": 1507.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "used to be called Genie Spaces, then",
+          "start": 1502.16,
+          "end": 1505.52
+        },
+        {
+          "text": "you've actually been creating agents",
+          "start": 1503.6,
+          "end": 1507.44
+        },
+        {
+          "text": "because Genie Spaces are now Genie",
+          "start": 1505.52,
+          "end": 1510.28
+        },
+        {
+          "text": "Agents, fully accessible from Genie 1",
+          "start": 1507.44,
+          "end": 1511.8
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 1511,
+      "timecode": "25:11.00",
+      "images": {
+        "full_frame": "frames/full/0045330.jpg",
+        "graphic_region": "frames/graphic/0045330.jpg",
+        "requested_seconds": 1511,
+        "sample_frame": 45330,
+        "normalized_source_seconds": 1511.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "because Genie Spaces are now Genie",
+          "start": 1505.52,
+          "end": 1510.28
+        },
+        {
+          "text": "Agents, fully accessible from Genie 1",
+          "start": 1507.44,
+          "end": 1511.8
+        },
+        {
+          "text": "with a couple bells and whistles. It",
+          "start": 1510.28,
+          "end": 1514.24
+        },
+        {
+          "text": "wasn't just a rebrand. So, for example,",
+          "start": 1511.8,
+          "end": 1515.64
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "intermediate observed state",
+      "time": 1518,
+      "timecode": "25:18.00",
+      "images": {
+        "full_frame": "frames/full/0045540.jpg",
+        "graphic_region": "frames/graphic/0045540.jpg",
+        "requested_seconds": 1518,
+        "sample_frame": 45540,
+        "normalized_source_seconds": 1518.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "we're adding the ability to connect a",
+          "start": 1514.24,
+          "end": 1518.4
+        },
+        {
+          "text": "volume to the agent. We're adding MCP",
+          "start": 1515.64,
+          "end": 1520.96
+        },
+        {
+          "text": "connectors. And we are also adding uh",
+          "start": 1518.4,
+          "end": 1524.08
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-05",
+      "sequence_role": "later observed state",
+      "time": 1522.5,
+      "timecode": "25:22.50",
+      "images": {
+        "full_frame": "frames/full/0045675.jpg",
+        "graphic_region": "frames/graphic/0045675.jpg",
+        "requested_seconds": 1522.5,
+        "sample_frame": 45675,
+        "normalized_source_seconds": 1522.5,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "volume to the agent. We're adding MCP",
+          "start": 1515.64,
+          "end": 1520.96
+        },
+        {
+          "text": "connectors. And we are also adding uh",
+          "start": 1518.4,
+          "end": 1524.08
+        },
+        {
+          "text": "sub-agent support.",
+          "start": 1520.96,
+          "end": 1524.08
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 1503,
+      "nearby_original_transcript": [
+        {
+          "text": "customers are not starting from scratch",
+          "start": 1498.8,
+          "end": 1502.16
+        },
+        {
+          "text": "here. If you've already been using what",
+          "start": 1500.72,
+          "end": 1503.6
+        },
+        {
+          "text": "used to be called Genie Spaces, then",
+          "start": 1502.16,
+          "end": 1505.52
+        },
+        {
+          "text": "you've actually been creating agents",
+          "start": 1503.6,
+          "end": 1507.44
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0045090.jpg",
+          "graphic_region": "frames/graphic/0045090.jpg",
+          "requested_seconds": 1503,
+          "sample_frame": 45090,
+          "normalized_source_seconds": 1503.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0045098.jpg",
+          "graphic_region": "frames/graphic/0045098.jpg",
+          "requested_seconds": 1503.25,
+          "sample_frame": 45098,
+          "normalized_source_seconds": 1503.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0045120.jpg",
+          "graphic_region": "frames/graphic/0045120.jpg",
+          "requested_seconds": 1504,
+          "sample_frame": 45120,
+          "normalized_source_seconds": 1504.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1510,
+      "nearby_original_transcript": [
+        {
+          "text": "because Genie Spaces are now Genie",
+          "start": 1505.52,
+          "end": 1510.28
+        },
+        {
+          "text": "Agents, fully accessible from Genie 1",
+          "start": 1507.44,
+          "end": 1511.8
+        },
+        {
+          "text": "with a couple bells and whistles. It",
+          "start": 1510.28,
+          "end": 1514.24
+        },
+        {
+          "text": "wasn't just a rebrand. So, for example,",
+          "start": 1511.8,
+          "end": 1515.64
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0045292.jpg",
+          "graphic_region": "frames/graphic/0045292.jpg",
+          "requested_seconds": 1509.75,
+          "sample_frame": 45292,
+          "normalized_source_seconds": 1509.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0045308.jpg",
+          "graphic_region": "frames/graphic/0045308.jpg",
+          "requested_seconds": 1510.25,
+          "sample_frame": 45308,
+          "normalized_source_seconds": 1510.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0045330.jpg",
+          "graphic_region": "frames/graphic/0045330.jpg",
+          "requested_seconds": 1511,
+          "sample_frame": 45330,
+          "normalized_source_seconds": 1511.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1517,
+      "nearby_original_transcript": [
+        {
+          "text": "wasn't just a rebrand. So, for example,",
+          "start": 1511.8,
+          "end": 1515.64
+        },
+        {
+          "text": "we're adding the ability to connect a",
+          "start": 1514.24,
+          "end": 1518.4
+        },
+        {
+          "text": "volume to the agent. We're adding MCP",
+          "start": 1515.64,
+          "end": 1520.96
+        },
+        {
+          "text": "connectors. And we are also adding uh",
+          "start": 1518.4,
+          "end": 1524.08
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0045502.jpg",
+          "graphic_region": "frames/graphic/0045502.jpg",
+          "requested_seconds": 1516.75,
+          "sample_frame": 45502,
+          "normalized_source_seconds": 1516.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0045518.jpg",
+          "graphic_region": "frames/graphic/0045518.jpg",
+          "requested_seconds": 1517.25,
+          "sample_frame": 45518,
+          "normalized_source_seconds": 1517.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0045540.jpg",
+          "graphic_region": "frames/graphic/0045540.jpg",
+          "requested_seconds": 1518,
+          "sample_frame": 45540,
+          "normalized_source_seconds": 1518.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "21-agent-hierarchy",
+      "observed_state_pattern": "Feature UI \u2192 agent parent \u2192 inner camera focus \u2192 child branches.",
+      "persistent_context": "Parent identity persists; all links and child labels share the camera transform.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0045675.jpg",
+      "frames/graphic/0045099.jpg",
+      "frames/graphic/0045330.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0045675.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

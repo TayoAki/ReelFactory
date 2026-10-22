@@ -1,0 +1,485 @@
+{
+  "id": "learned-snippets",
+  "index": 20,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 379,
+  "source_end": 402,
+  "source_timecode": "06:19.00\u201306:42.00",
+  "template_id": "learned-signals",
+  "label": "Concrete learned business snippets",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Turn inferred context into specific business-knowledge examples.",
+  "relationship": "work evidence \u2192 contextual signals",
+  "original_transcript": "source of information. So, a snippet could be a join hint, but it could also be things like a business rule. So, for example, a lead is only qualified once a meeting is booked, and all that information lives in Salesforce. Or it could be information about, you know, which data is most authoritative. So, for example, you must pull revenue from this finance catalog. Or it could be a metric definition. So, for example, like how might we define churn for our team? And as Genie is amassing all this",
+  "original_transcript_segments": [
+    {
+      "text": "source of information. So, a snippet",
+      "start": 375.52,
+      "end": 379.52
+    },
+    {
+      "text": "could be a join hint, but it could also",
+      "start": 377.16,
+      "end": 382.24
+    },
+    {
+      "text": "be things like a business rule. So, for",
+      "start": 379.52,
+      "end": 384.4
+    },
+    {
+      "text": "example, a lead is only qualified once a",
+      "start": 382.24,
+      "end": 385.48
+    },
+    {
+      "text": "meeting is booked, and all that",
+      "start": 384.4,
+      "end": 387.68
+    },
+    {
+      "text": "information lives in Salesforce. Or it",
+      "start": 385.48,
+      "end": 389.16
+    },
+    {
+      "text": "could be information about, you know,",
+      "start": 387.68,
+      "end": 390.96
+    },
+    {
+      "text": "which data is most authoritative. So,",
+      "start": 389.16,
+      "end": 393.72
+    },
+    {
+      "text": "for example, you must pull revenue from",
+      "start": 390.96,
+      "end": 396.2
+    },
+    {
+      "text": "this finance catalog. Or it could be a",
+      "start": 393.72,
+      "end": 398.16
+    },
+    {
+      "text": "metric definition. So, for example, like",
+      "start": 396.2,
+      "end": 401.48
+    },
+    {
+      "text": "how might we define churn for our team?",
+      "start": 398.16,
+      "end": 404.52
+    },
+    {
+      "text": "And as Genie is amassing all this",
+      "start": 401.48,
+      "end": 407.04
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Explain where inferred context comes from using concrete examples of real work.",
+  "parameterized_transcript_patterns": [
+    "When people {{work_action}}, they leave {{signal}} that helps {{system}} infer {{context}}.",
+    "{{example_a}} and {{example_b}} provide clues about {{business_relationship}}."
+  ],
+  "semantic_slots": [
+    "business_relationship",
+    "context",
+    "example_a",
+    "example_b",
+    "examples",
+    "signal",
+    "system",
+    "work_action"
+  ],
+  "selection_rule": "Use when the lesson is how evidence contributes contextual clues.",
+  "better_alternative_or_misuse": "Do not represent learned signals as certified definitions or guaranteed truth.",
+  "motion_recipe": "Accumulate labeled source examples, show the new signal, and retain the distinction between evidence and authority.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 379.3,
+      "timecode": "06:19.30",
+      "images": {
+        "full_frame": "frames/full/0011379.jpg",
+        "graphic_region": "frames/graphic/0011379.jpg",
+        "requested_seconds": 379.3,
+        "sample_frame": 11379,
+        "normalized_source_seconds": 379.3,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "source of information. So, a snippet",
+          "start": 375.52,
+          "end": 379.52
+        },
+        {
+          "text": "could be a join hint, but it could also",
+          "start": 377.16,
+          "end": 382.24
+        },
+        {
+          "text": "be things like a business rule. So, for",
+          "start": 379.52,
+          "end": 384.4
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 383,
+      "timecode": "06:23.00",
+      "images": {
+        "full_frame": "frames/full/0011490.jpg",
+        "graphic_region": "frames/graphic/0011490.jpg",
+        "requested_seconds": 383,
+        "sample_frame": 11490,
+        "normalized_source_seconds": 383.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "could be a join hint, but it could also",
+          "start": 377.16,
+          "end": 382.24
+        },
+        {
+          "text": "be things like a business rule. So, for",
+          "start": 379.52,
+          "end": 384.4
+        },
+        {
+          "text": "example, a lead is only qualified once a",
+          "start": 382.24,
+          "end": 385.48
+        },
+        {
+          "text": "meeting is booked, and all that",
+          "start": 384.4,
+          "end": 387.68
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 388,
+      "timecode": "06:28.00",
+      "images": {
+        "full_frame": "frames/full/0011640.jpg",
+        "graphic_region": "frames/graphic/0011640.jpg",
+        "requested_seconds": 388,
+        "sample_frame": 11640,
+        "normalized_source_seconds": 388.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "meeting is booked, and all that",
+          "start": 384.4,
+          "end": 387.68
+        },
+        {
+          "text": "information lives in Salesforce. Or it",
+          "start": 385.48,
+          "end": 389.16
+        },
+        {
+          "text": "could be information about, you know,",
+          "start": 387.68,
+          "end": 390.96
+        },
+        {
+          "text": "which data is most authoritative. So,",
+          "start": 389.16,
+          "end": 393.72
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "intermediate observed state",
+      "time": 395,
+      "timecode": "06:35.00",
+      "images": {
+        "full_frame": "frames/full/0011850.jpg",
+        "graphic_region": "frames/graphic/0011850.jpg",
+        "requested_seconds": 395,
+        "sample_frame": 11850,
+        "normalized_source_seconds": 395.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "which data is most authoritative. So,",
+          "start": 389.16,
+          "end": 393.72
+        },
+        {
+          "text": "for example, you must pull revenue from",
+          "start": 390.96,
+          "end": 396.2
+        },
+        {
+          "text": "this finance catalog. Or it could be a",
+          "start": 393.72,
+          "end": 398.16
+        },
+        {
+          "text": "metric definition. So, for example, like",
+          "start": 396.2,
+          "end": 401.48
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-05",
+      "sequence_role": "later observed state",
+      "time": 401,
+      "timecode": "06:41.00",
+      "images": {
+        "full_frame": "frames/full/0012030.jpg",
+        "graphic_region": "frames/graphic/0012030.jpg",
+        "requested_seconds": 401,
+        "sample_frame": 12030,
+        "normalized_source_seconds": 401.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "metric definition. So, for example, like",
+          "start": 396.2,
+          "end": 401.48
+        },
+        {
+          "text": "how might we define churn for our team?",
+          "start": 398.16,
+          "end": 404.52
+        },
+        {
+          "text": "And as Genie is amassing all this",
+          "start": 401.48,
+          "end": 407.04
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 379,
+      "nearby_original_transcript": [
+        {
+          "text": "it's probably a pretty authoritative",
+          "start": 373.72,
+          "end": 377.16
+        },
+        {
+          "text": "source of information. So, a snippet",
+          "start": 375.52,
+          "end": 379.52
+        },
+        {
+          "text": "could be a join hint, but it could also",
+          "start": 377.16,
+          "end": 382.24
+        },
+        {
+          "text": "be things like a business rule. So, for",
+          "start": 379.52,
+          "end": 384.4
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0011370.jpg",
+          "graphic_region": "frames/graphic/0011370.jpg",
+          "requested_seconds": 379,
+          "sample_frame": 11370,
+          "normalized_source_seconds": 379.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0011378.jpg",
+          "graphic_region": "frames/graphic/0011378.jpg",
+          "requested_seconds": 379.25,
+          "sample_frame": 11378,
+          "normalized_source_seconds": 379.26666666666665,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0011400.jpg",
+          "graphic_region": "frames/graphic/0011400.jpg",
+          "requested_seconds": 380,
+          "sample_frame": 11400,
+          "normalized_source_seconds": 380.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 386,
+      "nearby_original_transcript": [
+        {
+          "text": "be things like a business rule. So, for",
+          "start": 379.52,
+          "end": 384.4
+        },
+        {
+          "text": "example, a lead is only qualified once a",
+          "start": 382.24,
+          "end": 385.48
+        },
+        {
+          "text": "meeting is booked, and all that",
+          "start": 384.4,
+          "end": 387.68
+        },
+        {
+          "text": "information lives in Salesforce. Or it",
+          "start": 385.48,
+          "end": 389.16
+        },
+        {
+          "text": "could be information about, you know,",
+          "start": 387.68,
+          "end": 390.96
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0011572.jpg",
+          "graphic_region": "frames/graphic/0011572.jpg",
+          "requested_seconds": 385.75,
+          "sample_frame": 11572,
+          "normalized_source_seconds": 385.73333333333335,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0011588.jpg",
+          "graphic_region": "frames/graphic/0011588.jpg",
+          "requested_seconds": 386.25,
+          "sample_frame": 11588,
+          "normalized_source_seconds": 386.26666666666665,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0011610.jpg",
+          "graphic_region": "frames/graphic/0011610.jpg",
+          "requested_seconds": 387,
+          "sample_frame": 11610,
+          "normalized_source_seconds": 387.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 394,
+      "nearby_original_transcript": [
+        {
+          "text": "which data is most authoritative. So,",
+          "start": 389.16,
+          "end": 393.72
+        },
+        {
+          "text": "for example, you must pull revenue from",
+          "start": 390.96,
+          "end": 396.2
+        },
+        {
+          "text": "this finance catalog. Or it could be a",
+          "start": 393.72,
+          "end": 398.16
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0011812.jpg",
+          "graphic_region": "frames/graphic/0011812.jpg",
+          "requested_seconds": 393.75,
+          "sample_frame": 11812,
+          "normalized_source_seconds": 393.73333333333335,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0011828.jpg",
+          "graphic_region": "frames/graphic/0011828.jpg",
+          "requested_seconds": 394.25,
+          "sample_frame": 11828,
+          "normalized_source_seconds": 394.26666666666665,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0011850.jpg",
+          "graphic_region": "frames/graphic/0011850.jpg",
+          "requested_seconds": 395,
+          "sample_frame": 11850,
+          "normalized_source_seconds": 395.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "09-learned-context",
+      "observed_state_pattern": "Architecture revisited \u2192 learned region focus \u2192 join/document/rule examples.",
+      "persistent_context": "Selected subsystem and category remain while examples change.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    },
+    {
+      "id": "10-overview-rank",
+      "observed_state_pattern": "Return to master \u2192 ranking region emphasis \u2192 application/consumer focus.",
+      "persistent_context": "Master positions reappear rather than being redesigned between focuses.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0012030.jpg",
+      "frames/graphic/0011379.jpg",
+      "frames/graphic/0011640.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0012030.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

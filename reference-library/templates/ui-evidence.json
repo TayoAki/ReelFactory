@@ -1,0 +1,54 @@
+{
+  "id": "ui-evidence",
+  "relationship": "actual workflow \u2192 visible execution/result",
+  "teaching_job": "Show the authentic product steps and results rather than inventing them.",
+  "transcript_patterns": [
+    "Here is {{question_or_task}}. We {{interaction}}, then inspect {{result_or_evidence}}.",
+    "To verify {{claim}}, look at {{visible_evidence}} in the product."
+  ],
+  "semantic_slots": [
+    "claim",
+    "interaction",
+    "question_or_task",
+    "result_or_evidence",
+    "visible_evidence"
+  ],
+  "choose_when": "Use when exact interaction or observed execution is central.",
+  "choose_something_else_when": "Illustrative diagrams cannot verify real execution. Keep reference UI separate from generated conceptual graphics.",
+  "motion_grammar": "Retain real viewport changes and source timing; focus on the evidence the narrator discusses.",
+  "instances": [
+    "demo-orientation",
+    "demo-analysis",
+    "demo-citations",
+    "demo-followups",
+    "demo-actions",
+    "demo-agent-inspection"
+  ],
+  "classification": "Curated editorial teaching template; not a trained classifier or a product fact.",
+  "required_pattern_slots": [
+    [
+      "interaction",
+      "question_or_task",
+      "result_or_evidence"
+    ],
+    [
+      "claim",
+      "visible_evidence"
+    ]
+  ],
+  "filled_source_sentence_scaffolds": [
+    "Here is The actual question/task in the source demo. We Inspect citations and definitions in the real UI, then inspect Visible citations, sources and business definitions.",
+    "To verify The answer is grounded in inspectable context, look at The cited source/definition shown in the interface in the product."
+  ],
+  "unbound_source_example_slots": [],
+  "representative_entry": "demo-citations",
+  "example_source_bindings": {
+    "question_or_task": "The actual question/task in the source demo",
+    "interaction": "Inspect citations and definitions in the real UI",
+    "result_or_evidence": "Visible citations, sources and business definitions",
+    "claim": "The answer is grounded in inspectable context",
+    "visible_evidence": "The cited source/definition shown in the interface"
+  },
+  "paired_source_quote": "any assets that are used here. And we can actually see, you know, what was used to answer this question by popping down here into the citations. So this is everything that Genie ended up pulling from the thinking trace to actually compile that document. So again, we see tables, maybe a couple relevant links from looks like Jira as well as Google Drive. Um this is that personal memory actually. This is how I prefer to write these docs. And then it did end up using some things from the ontology. So if we click in, we can see like my colleague Retta, she's also on the Genie team, she put together this wiki page around the different Genie surfaces, which is highly relevant when we're asking questions about Genie's adoption. So it makes sense that it that it used this. It also makes sense that it that it kind of started from from this kind of information because Genie likes human curated content. We extra trust human curated content, especially because this one has been certified. But, it probably needed to, again, look at those anthology snippets to round out its information. So, if we click in here, we can actually see that snippet in practice. We can get feedback on it. We can see the full definition that Genie learned. We can see that it grabs some information from this particular dashboard, which happens to be authored by our colleague Jeffrey, who is the data scientist working on Genie 1 growth. So, it's not surprising that it has, for example, a super high authority score. Genie is recognizing that Jeffrey does a lot of good work, and Jeffrey's work is often very popular. So, even before he's gone and codified something as a Unity Catalog semantic, we can benefit from this work. And we can even click into his profile if we want to like double-check his his creds on this topic, and we can see he's he's done a lot of kind of work in this space in this growth space. And Genie has also extracted a lot of snippets from the",
+  "source_binding_status": "Editorial binding/paraphrase of source roles; raw transcript remains separately preserved. Do not treat bindings as word-for-word quotation."
+}

@@ -1,0 +1,497 @@
+{
+  "id": "specialized-agents",
+  "index": 46,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 1484,
+  "source_end": 1503,
+  "source_timecode": "24:44.00\u201325:03.00",
+  "template_id": "agent-delegation",
+  "label": "Renewals, launch and finance agents",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Make specialization tangible through distinct business jobs.",
+  "relationship": "parent \u2192 specialists \u2192 resources",
+  "original_transcript": "coworker that can answer questions or get work done in a very particular domain. So, for example, you might have a a renewals agent that helps your team prep for for QBRs, or a launch agent that helps you kind of track all your feature statuses, or maybe a finance agent that answers questions about about your product's KPIs. And I think most customers are not starting from scratch here. If you've already been using what used to be called Genie Spaces, then",
+  "original_transcript_segments": [
+    {
+      "text": "coworker that can answer questions or",
+      "start": 1480.88,
+      "end": 1484.52
+    },
+    {
+      "text": "get work done in a very particular",
+      "start": 1482.84,
+      "end": 1486.2
+    },
+    {
+      "text": "domain. So, for example, you might have",
+      "start": 1484.52,
+      "end": 1488.52
+    },
+    {
+      "text": "a a renewals agent that helps your team",
+      "start": 1486.2,
+      "end": 1491.52
+    },
+    {
+      "text": "prep for for QBRs, or a launch agent",
+      "start": 1488.52,
+      "end": 1492.88
+    },
+    {
+      "text": "that helps you kind of track all your",
+      "start": 1491.52,
+      "end": 1494.68
+    },
+    {
+      "text": "feature statuses, or maybe a finance",
+      "start": 1492.88,
+      "end": 1496.64
+    },
+    {
+      "text": "agent that answers questions about about",
+      "start": 1494.68,
+      "end": 1498.8
+    },
+    {
+      "text": "your product's KPIs. And I think most",
+      "start": 1496.64,
+      "end": 1500.72
+    },
+    {
+      "text": "customers are not starting from scratch",
+      "start": 1498.8,
+      "end": 1502.16
+    },
+    {
+      "text": "here. If you've already been using what",
+      "start": 1500.72,
+      "end": 1503.6
+    },
+    {
+      "text": "used to be called Genie Spaces, then",
+      "start": 1502.16,
+      "end": 1505.52
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Distinguish an orchestrating agent from delegated specialists and their resources.",
+  "parameterized_transcript_patterns": [
+    "{{parent_agent}} delegates {{job_a}} to {{specialist_a}} and {{job_b}} to {{specialist_b}}.",
+    "Each {{specialist}} receives {{inputs}} and can use {{resources}} within {{scope}}."
+  ],
+  "semantic_slots": [
+    "inputs",
+    "job_a",
+    "job_b",
+    "jobs",
+    "parent_agent",
+    "resources",
+    "scope",
+    "specialist",
+    "specialist_a",
+    "specialist_b",
+    "specialists"
+  ],
+  "selection_rule": "Use when delegation or ownership is a real relationship in the supported system.",
+  "better_alternative_or_misuse": "Use an input map for context sources; do not present source connectors as subordinate agents.",
+  "motion_recipe": "Establish the parent or inputs, reveal specialists individually, then show each named branch/resource.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 1484.3,
+      "timecode": "24:44.30",
+      "images": {
+        "full_frame": "frames/full/0044529.jpg",
+        "graphic_region": "frames/graphic/0044529.jpg",
+        "requested_seconds": 1484.3,
+        "sample_frame": 44529,
+        "normalized_source_seconds": 1484.3,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "we might think of as a customized",
+          "start": 1479.36,
+          "end": 1482.84
+        },
+        {
+          "text": "coworker that can answer questions or",
+          "start": 1480.88,
+          "end": 1484.52
+        },
+        {
+          "text": "get work done in a very particular",
+          "start": 1482.84,
+          "end": 1486.2
+        },
+        {
+          "text": "domain. So, for example, you might have",
+          "start": 1484.52,
+          "end": 1488.52
+        },
+        {
+          "text": "a a renewals agent that helps your team",
+          "start": 1486.2,
+          "end": 1491.52
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 1489,
+      "timecode": "24:49.00",
+      "images": {
+        "full_frame": "frames/full/0044670.jpg",
+        "graphic_region": "frames/graphic/0044670.jpg",
+        "requested_seconds": 1489,
+        "sample_frame": 44670,
+        "normalized_source_seconds": 1489.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "domain. So, for example, you might have",
+          "start": 1484.52,
+          "end": 1488.52
+        },
+        {
+          "text": "a a renewals agent that helps your team",
+          "start": 1486.2,
+          "end": 1491.52
+        },
+        {
+          "text": "prep for for QBRs, or a launch agent",
+          "start": 1488.52,
+          "end": 1492.88
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 1493.5,
+      "timecode": "24:53.50",
+      "images": {
+        "full_frame": "frames/full/0044805.jpg",
+        "graphic_region": "frames/graphic/0044805.jpg",
+        "requested_seconds": 1493.5,
+        "sample_frame": 44805,
+        "normalized_source_seconds": 1493.5,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "a a renewals agent that helps your team",
+          "start": 1486.2,
+          "end": 1491.52
+        },
+        {
+          "text": "prep for for QBRs, or a launch agent",
+          "start": 1488.52,
+          "end": 1492.88
+        },
+        {
+          "text": "that helps you kind of track all your",
+          "start": 1491.52,
+          "end": 1494.68
+        },
+        {
+          "text": "feature statuses, or maybe a finance",
+          "start": 1492.88,
+          "end": 1496.64
+        },
+        {
+          "text": "agent that answers questions about about",
+          "start": 1494.68,
+          "end": 1498.8
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "intermediate observed state",
+      "time": 1497,
+      "timecode": "24:57.00",
+      "images": {
+        "full_frame": "frames/full/0044910.jpg",
+        "graphic_region": "frames/graphic/0044910.jpg",
+        "requested_seconds": 1497,
+        "sample_frame": 44910,
+        "normalized_source_seconds": 1497.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "feature statuses, or maybe a finance",
+          "start": 1492.88,
+          "end": 1496.64
+        },
+        {
+          "text": "agent that answers questions about about",
+          "start": 1494.68,
+          "end": 1498.8
+        },
+        {
+          "text": "your product's KPIs. And I think most",
+          "start": 1496.64,
+          "end": 1500.72
+        },
+        {
+          "text": "customers are not starting from scratch",
+          "start": 1498.8,
+          "end": 1502.16
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-05",
+      "sequence_role": "later observed state",
+      "time": 1502.5,
+      "timecode": "25:02.50",
+      "images": {
+        "full_frame": "frames/full/0045075.jpg",
+        "graphic_region": "frames/graphic/0045075.jpg",
+        "requested_seconds": 1502.5,
+        "sample_frame": 45075,
+        "normalized_source_seconds": 1502.5,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "your product's KPIs. And I think most",
+          "start": 1496.64,
+          "end": 1500.72
+        },
+        {
+          "text": "customers are not starting from scratch",
+          "start": 1498.8,
+          "end": 1502.16
+        },
+        {
+          "text": "here. If you've already been using what",
+          "start": 1500.72,
+          "end": 1503.6
+        },
+        {
+          "text": "used to be called Genie Spaces, then",
+          "start": 1502.16,
+          "end": 1505.52
+        },
+        {
+          "text": "you've actually been creating agents",
+          "start": 1503.6,
+          "end": 1507.44
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 1484,
+      "nearby_original_transcript": [
+        {
+          "text": "we might think of as a customized",
+          "start": 1479.36,
+          "end": 1482.84
+        },
+        {
+          "text": "coworker that can answer questions or",
+          "start": 1480.88,
+          "end": 1484.52
+        },
+        {
+          "text": "get work done in a very particular",
+          "start": 1482.84,
+          "end": 1486.2
+        },
+        {
+          "text": "domain. So, for example, you might have",
+          "start": 1484.52,
+          "end": 1488.52
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0044520.jpg",
+          "graphic_region": "frames/graphic/0044520.jpg",
+          "requested_seconds": 1484,
+          "sample_frame": 44520,
+          "normalized_source_seconds": 1484.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0044528.jpg",
+          "graphic_region": "frames/graphic/0044528.jpg",
+          "requested_seconds": 1484.25,
+          "sample_frame": 44528,
+          "normalized_source_seconds": 1484.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0044550.jpg",
+          "graphic_region": "frames/graphic/0044550.jpg",
+          "requested_seconds": 1485,
+          "sample_frame": 44550,
+          "normalized_source_seconds": 1485.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1490,
+      "nearby_original_transcript": [
+        {
+          "text": "domain. So, for example, you might have",
+          "start": 1484.52,
+          "end": 1488.52
+        },
+        {
+          "text": "a a renewals agent that helps your team",
+          "start": 1486.2,
+          "end": 1491.52
+        },
+        {
+          "text": "prep for for QBRs, or a launch agent",
+          "start": 1488.52,
+          "end": 1492.88
+        },
+        {
+          "text": "that helps you kind of track all your",
+          "start": 1491.52,
+          "end": 1494.68
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0044692.jpg",
+          "graphic_region": "frames/graphic/0044692.jpg",
+          "requested_seconds": 1489.75,
+          "sample_frame": 44692,
+          "normalized_source_seconds": 1489.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0044708.jpg",
+          "graphic_region": "frames/graphic/0044708.jpg",
+          "requested_seconds": 1490.25,
+          "sample_frame": 44708,
+          "normalized_source_seconds": 1490.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0044730.jpg",
+          "graphic_region": "frames/graphic/0044730.jpg",
+          "requested_seconds": 1491,
+          "sample_frame": 44730,
+          "normalized_source_seconds": 1491.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1496,
+      "nearby_original_transcript": [
+        {
+          "text": "that helps you kind of track all your",
+          "start": 1491.52,
+          "end": 1494.68
+        },
+        {
+          "text": "feature statuses, or maybe a finance",
+          "start": 1492.88,
+          "end": 1496.64
+        },
+        {
+          "text": "agent that answers questions about about",
+          "start": 1494.68,
+          "end": 1498.8
+        },
+        {
+          "text": "your product's KPIs. And I think most",
+          "start": 1496.64,
+          "end": 1500.72
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0044872.jpg",
+          "graphic_region": "frames/graphic/0044872.jpg",
+          "requested_seconds": 1495.75,
+          "sample_frame": 44872,
+          "normalized_source_seconds": 1495.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0044888.jpg",
+          "graphic_region": "frames/graphic/0044888.jpg",
+          "requested_seconds": 1496.25,
+          "sample_frame": 44888,
+          "normalized_source_seconds": 1496.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0044910.jpg",
+          "graphic_region": "frames/graphic/0044910.jpg",
+          "requested_seconds": 1497,
+          "sample_frame": 44910,
+          "normalized_source_seconds": 1497.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "21-agent-hierarchy",
+      "observed_state_pattern": "Feature UI \u2192 agent parent \u2192 inner camera focus \u2192 child branches.",
+      "persistent_context": "Parent identity persists; all links and child labels share the camera transform.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0045075.jpg",
+      "frames/graphic/0044529.jpg",
+      "frames/graphic/0044805.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0045075.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

@@ -1,0 +1,319 @@
+{
+  "id": "custom-agent-feature",
+  "index": 44,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 1464,
+  "source_end": 1475,
+  "source_timecode": "24:24.00\u201324:35.00",
+  "template_id": "feature-evidence",
+  "label": "Custom-agent configuration",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Introduce the capability using its visible configuration evidence.",
+  "relationship": "stable capability \u2192 supporting product evidence",
+  "original_transcript": "all sorts of governance around skills. All right. Um so, there's also kind of a step up from a skill. You know, if a skill can perform a task, then an agent performs an entire job. So, a Genie agent bundles data sources, instructions, skills, and memory, and",
+  "original_transcript_segments": [
+    {
+      "text": "all sorts of governance around skills.",
+      "start": 1461.16,
+      "end": 1465.32
+    },
+    {
+      "text": "All right. Um so, there's also kind of a",
+      "start": 1463.32,
+      "end": 1466.8
+    },
+    {
+      "text": "step up from a skill. You know, if a",
+      "start": 1465.32,
+      "end": 1469.88
+    },
+    {
+      "text": "skill can perform a task, then an agent",
+      "start": 1466.8,
+      "end": 1472.04
+    },
+    {
+      "text": "performs an entire job. So, a Genie",
+      "start": 1469.88,
+      "end": 1474.44
+    },
+    {
+      "text": "agent bundles data sources,",
+      "start": 1472.04,
+      "end": 1477.16
+    },
+    {
+      "text": "instructions, skills, and memory, and",
+      "start": 1474.44,
+      "end": 1479.36
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Teach a capability while showing authentic interface evidence of the interaction.",
+  "parameterized_transcript_patterns": [
+    "To {{user_job}}, use {{feature}}: {{specific_interaction}}.",
+    "Here {{system}} lets {{actor}} {{action}}, with {{constraint}}."
+  ],
+  "semantic_slots": [
+    "action",
+    "actor",
+    "constraint",
+    "feature",
+    "specific_interaction",
+    "system",
+    "user_job"
+  ],
+  "selection_rule": "Use when the actual visible product interaction supports the claim.",
+  "better_alternative_or_misuse": "Do not fabricate UI or infer availability beyond the visible source version.",
+  "motion_recipe": "Hold the heading; update one supporting point as the real interface demonstrates it.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 1464.3,
+      "timecode": "24:24.30",
+      "images": {
+        "full_frame": "frames/full/0043929.jpg",
+        "graphic_region": "frames/graphic/0043929.jpg",
+        "requested_seconds": 1464.3,
+        "sample_frame": 43929,
+        "normalized_source_seconds": 1464.3,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "Um but, we're super open to to any and",
+          "start": 1459.0,
+          "end": 1463.32
+        },
+        {
+          "text": "all sorts of governance around skills.",
+          "start": 1461.16,
+          "end": 1465.32
+        },
+        {
+          "text": "All right. Um so, there's also kind of a",
+          "start": 1463.32,
+          "end": 1466.8
+        },
+        {
+          "text": "step up from a skill. You know, if a",
+          "start": 1465.32,
+          "end": 1469.88
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 1468,
+      "timecode": "24:28.00",
+      "images": {
+        "full_frame": "frames/full/0044040.jpg",
+        "graphic_region": "frames/graphic/0044040.jpg",
+        "requested_seconds": 1468,
+        "sample_frame": 44040,
+        "normalized_source_seconds": 1468.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "All right. Um so, there's also kind of a",
+          "start": 1463.32,
+          "end": 1466.8
+        },
+        {
+          "text": "step up from a skill. You know, if a",
+          "start": 1465.32,
+          "end": 1469.88
+        },
+        {
+          "text": "skill can perform a task, then an agent",
+          "start": 1466.8,
+          "end": 1472.04
+        },
+        {
+          "text": "performs an entire job. So, a Genie",
+          "start": 1469.88,
+          "end": 1474.44
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "later observed state",
+      "time": 1474.5,
+      "timecode": "24:34.50",
+      "images": {
+        "full_frame": "frames/full/0044235.jpg",
+        "graphic_region": "frames/graphic/0044235.jpg",
+        "requested_seconds": 1474.5,
+        "sample_frame": 44235,
+        "normalized_source_seconds": 1474.5,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "performs an entire job. So, a Genie",
+          "start": 1469.88,
+          "end": 1474.44
+        },
+        {
+          "text": "agent bundles data sources,",
+          "start": 1472.04,
+          "end": 1477.16
+        },
+        {
+          "text": "instructions, skills, and memory, and",
+          "start": 1474.44,
+          "end": 1479.36
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 1464,
+      "nearby_original_transcript": [
+        {
+          "text": "Um but, we're super open to to any and",
+          "start": 1459.0,
+          "end": 1463.32
+        },
+        {
+          "text": "all sorts of governance around skills.",
+          "start": 1461.16,
+          "end": 1465.32
+        },
+        {
+          "text": "All right. Um so, there's also kind of a",
+          "start": 1463.32,
+          "end": 1466.8
+        },
+        {
+          "text": "step up from a skill. You know, if a",
+          "start": 1465.32,
+          "end": 1469.88
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0043920.jpg",
+          "graphic_region": "frames/graphic/0043920.jpg",
+          "requested_seconds": 1464,
+          "sample_frame": 43920,
+          "normalized_source_seconds": 1464.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0043928.jpg",
+          "graphic_region": "frames/graphic/0043928.jpg",
+          "requested_seconds": 1464.25,
+          "sample_frame": 43928,
+          "normalized_source_seconds": 1464.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0043950.jpg",
+          "graphic_region": "frames/graphic/0043950.jpg",
+          "requested_seconds": 1465,
+          "sample_frame": 43950,
+          "normalized_source_seconds": 1465.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1470,
+      "nearby_original_transcript": [
+        {
+          "text": "step up from a skill. You know, if a",
+          "start": 1465.32,
+          "end": 1469.88
+        },
+        {
+          "text": "skill can perform a task, then an agent",
+          "start": 1466.8,
+          "end": 1472.04
+        },
+        {
+          "text": "performs an entire job. So, a Genie",
+          "start": 1469.88,
+          "end": 1474.44
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0044092.jpg",
+          "graphic_region": "frames/graphic/0044092.jpg",
+          "requested_seconds": 1469.75,
+          "sample_frame": 44092,
+          "normalized_source_seconds": 1469.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0044108.jpg",
+          "graphic_region": "frames/graphic/0044108.jpg",
+          "requested_seconds": 1470.25,
+          "sample_frame": 44108,
+          "normalized_source_seconds": 1470.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0044130.jpg",
+          "graphic_region": "frames/graphic/0044130.jpg",
+          "requested_seconds": 1471,
+          "sample_frame": 44130,
+          "normalized_source_seconds": 1471.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "21-agent-hierarchy",
+      "observed_state_pattern": "Feature UI \u2192 agent parent \u2192 inner camera focus \u2192 child branches.",
+      "persistent_context": "Parent identity persists; all links and child labels share the camera transform.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0044235.jpg",
+      "frames/graphic/0043929.jpg",
+      "frames/graphic/0044040.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0044235.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

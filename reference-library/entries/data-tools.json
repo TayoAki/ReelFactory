@@ -1,0 +1,336 @@
+{
+  "id": "data-tools",
+  "index": 4,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 43.35,
+  "source_end": 46.5,
+  "source_timecode": "00:43.35\u201300:46.50",
+  "template_id": "converging-sources",
+  "label": "Data and tools feed the assistant",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Give the definition tangible input classes.",
+  "relationship": "many inputs \u2192 shared hub",
+  "original_transcript": "Genie 1 world. Genie 1 is our AI co-worker for business users. It It connects to your data and tools. It answers questions about your business.",
+  "original_transcript_segments": [
+    {
+      "text": "Genie 1 world. Genie 1 is our AI",
+      "start": 38.28,
+      "end": 43.52
+    },
+    {
+      "text": "co-worker for business users. It It",
+      "start": 41.28,
+      "end": 45.92
+    },
+    {
+      "text": "connects to your data and tools. It",
+      "start": 43.52,
+      "end": 48.08
+    },
+    {
+      "text": "answers questions about your business.",
+      "start": 45.92,
+      "end": 49.72
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Show several distinct sources contributing context or capabilities to one named consumer.",
+  "parameterized_transcript_patterns": [
+    "{{consumer}} draws on {{source_a}}, {{source_b}} and {{source_c}} to {{job}}.",
+    "These inputs differ, but they contribute to the same {{shared_layer}}."
+  ],
+  "semantic_slots": [
+    "consumer",
+    "job",
+    "shared_layer",
+    "source_a",
+    "source_b",
+    "source_c",
+    "sources"
+  ],
+  "selection_rule": "Use when the distinction among source classes matters and they share a real destination.",
+  "better_alternative_or_misuse": "Use a list for unrelated items; label search/query/tool access rather than implying data ingestion.",
+  "motion_recipe": "Add sources individually, retain earlier nodes, draw each path, then activate the hub.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 43.5,
+      "timecode": "00:43.50",
+      "images": {
+        "full_frame": "frames/full/0001305.jpg",
+        "graphic_region": "frames/graphic/0001305.jpg",
+        "requested_seconds": 43.5,
+        "sample_frame": 1305,
+        "normalized_source_seconds": 43.5,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "Genie 1 world. Genie 1 is our AI",
+          "start": 38.28,
+          "end": 43.52
+        },
+        {
+          "text": "co-worker for business users. It It",
+          "start": 41.28,
+          "end": 45.92
+        },
+        {
+          "text": "connects to your data and tools. It",
+          "start": 43.52,
+          "end": 48.08
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 44.3,
+      "timecode": "00:44.30",
+      "images": {
+        "full_frame": "frames/full/0001329.jpg",
+        "graphic_region": "frames/graphic/0001329.jpg",
+        "requested_seconds": 44.3,
+        "sample_frame": 1329,
+        "normalized_source_seconds": 44.3,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "Genie 1 world. Genie 1 is our AI",
+          "start": 38.28,
+          "end": 43.52
+        },
+        {
+          "text": "co-worker for business users. It It",
+          "start": 41.28,
+          "end": 45.92
+        },
+        {
+          "text": "connects to your data and tools. It",
+          "start": 43.52,
+          "end": 48.08
+        },
+        {
+          "text": "answers questions about your business.",
+          "start": 45.92,
+          "end": 49.72
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 45.2,
+      "timecode": "00:45.20",
+      "images": {
+        "full_frame": "frames/full/0001356.jpg",
+        "graphic_region": "frames/graphic/0001356.jpg",
+        "requested_seconds": 45.2,
+        "sample_frame": 1356,
+        "normalized_source_seconds": 45.2,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "Genie 1 world. Genie 1 is our AI",
+          "start": 38.28,
+          "end": 43.52
+        },
+        {
+          "text": "co-worker for business users. It It",
+          "start": 41.28,
+          "end": 45.92
+        },
+        {
+          "text": "connects to your data and tools. It",
+          "start": 43.52,
+          "end": 48.08
+        },
+        {
+          "text": "answers questions about your business.",
+          "start": 45.92,
+          "end": 49.72
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "later observed state",
+      "time": 46.3,
+      "timecode": "00:46.30",
+      "images": {
+        "full_frame": "frames/full/0001389.jpg",
+        "graphic_region": "frames/graphic/0001389.jpg",
+        "requested_seconds": 46.3,
+        "sample_frame": 1389,
+        "normalized_source_seconds": 46.3,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "co-worker for business users. It It",
+          "start": 41.28,
+          "end": 45.92
+        },
+        {
+          "text": "connects to your data and tools. It",
+          "start": 43.52,
+          "end": 48.08
+        },
+        {
+          "text": "answers questions about your business.",
+          "start": 45.92,
+          "end": 49.72
+        },
+        {
+          "text": "It acts on the answers that it gives",
+          "start": 48.08,
+          "end": 51.8
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 43.35,
+      "nearby_original_transcript": [
+        {
+          "text": "Genie 1 world. Genie 1 is our AI",
+          "start": 38.28,
+          "end": 43.52
+        },
+        {
+          "text": "co-worker for business users. It It",
+          "start": 41.28,
+          "end": 45.92
+        },
+        {
+          "text": "connects to your data and tools. It",
+          "start": 43.52,
+          "end": 48.08
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0001300.jpg",
+          "graphic_region": "frames/graphic/0001300.jpg",
+          "requested_seconds": 43.35,
+          "sample_frame": 1300,
+          "normalized_source_seconds": 43.333333333333336,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0001308.jpg",
+          "graphic_region": "frames/graphic/0001308.jpg",
+          "requested_seconds": 43.6,
+          "sample_frame": 1308,
+          "normalized_source_seconds": 43.6,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0001330.jpg",
+          "graphic_region": "frames/graphic/0001330.jpg",
+          "requested_seconds": 44.35,
+          "sample_frame": 1330,
+          "normalized_source_seconds": 44.333333333333336,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 46,
+      "nearby_original_transcript": [
+        {
+          "text": "co-worker for business users. It It",
+          "start": 41.28,
+          "end": 45.92
+        },
+        {
+          "text": "connects to your data and tools. It",
+          "start": 43.52,
+          "end": 48.08
+        },
+        {
+          "text": "answers questions about your business.",
+          "start": 45.92,
+          "end": 49.72
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0001372.jpg",
+          "graphic_region": "frames/graphic/0001372.jpg",
+          "requested_seconds": 45.75,
+          "sample_frame": 1372,
+          "normalized_source_seconds": 45.733333333333334,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0001388.jpg",
+          "graphic_region": "frames/graphic/0001388.jpg",
+          "requested_seconds": 46.25,
+          "sample_frame": 1388,
+          "normalized_source_seconds": 46.266666666666666,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0001394.jpg",
+          "graphic_region": "frames/graphic/0001394.jpg",
+          "requested_seconds": 46.46666666666667,
+          "sample_frame": 1394,
+          "normalized_source_seconds": 46.46666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "02-white-system",
+      "observed_state_pattern": "Full speaker \u2192 product card \u2192 compact data/tools diagram \u2192 large chat example \u2192 governance enclosure.",
+      "persistent_context": "Same product, question and results carry the explanation forward; presenter remains outside diagram transforms.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0001389.jpg",
+      "frames/graphic/0001305.jpg",
+      "frames/graphic/0001329.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0001389.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

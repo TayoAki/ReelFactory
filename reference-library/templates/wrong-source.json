@@ -1,0 +1,55 @@
+{
+  "id": "wrong-source",
+  "relationship": "question \u2192 plausible but wrong asset \u2192 wrong answer",
+  "teaching_job": "Expose a source-selection failure using a concrete business example.",
+  "transcript_patterns": [
+    "For {{business_question}}, {{system}} may select {{easy_but_wrong_asset}} instead of {{authoritative_asset}}.",
+    "It finds {{candidate}}, but that is not the {{trusted_definition_or_source}} used by {{owner}}."
+  ],
+  "semantic_slots": [
+    "authoritative_asset",
+    "business_question",
+    "candidate",
+    "easy_but_wrong_asset",
+    "owner",
+    "system",
+    "trusted_definition_or_source"
+  ],
+  "choose_when": "Use when the failure is asset authority or relevance rather than arithmetic.",
+  "choose_something_else_when": "Use a definition comparison for metric ambiguity; avoid showing a random table when the problem is a formula.",
+  "motion_grammar": "Establish candidate assets, highlight the wrong selection, connect it to the answer and expose the error.",
+  "instances": [
+    "wrong-revenue-source"
+  ],
+  "classification": "Curated editorial teaching template; not a trained classifier or a product fact.",
+  "required_pattern_slots": [
+    [
+      "authoritative_asset",
+      "business_question",
+      "easy_but_wrong_asset",
+      "system"
+    ],
+    [
+      "candidate",
+      "owner",
+      "trusted_definition_or_source"
+    ]
+  ],
+  "filled_source_sentence_scaffolds": [
+    "For A revenue question, A generic model may select The first revenue table in a random dashboard instead of The revenue source maintained by Finance.",
+    "It finds the first revenue table found in a random dashboard, but that is not the Finance\u2019s maintained revenue source used by Finance."
+  ],
+  "unbound_source_example_slots": [],
+  "representative_entry": "wrong-revenue-source",
+  "example_source_bindings": {
+    "business_question": "A revenue question",
+    "system": "A generic model",
+    "easy_but_wrong_asset": "The first revenue table in a random dashboard",
+    "authoritative_asset": "The revenue source maintained by Finance",
+    "owner": "Finance",
+    "candidate": "the first revenue table found in a random dashboard",
+    "trusted_definition_or_source": "Finance\u2019s maintained revenue source"
+  },
+  "paired_source_quote": "business, we often get quite strange answers. So, for example, it might grab the first revenue table that it finds in some random dashboard rather than the one that finance actually maintains. Uh or if you ask for, you know, a churn rate, it might have no idea that your",
+  "source_binding_status": "Editorial binding/paraphrase of source roles; raw transcript remains separately preserved. Do not treat bindings as word-for-word quotation."
+}

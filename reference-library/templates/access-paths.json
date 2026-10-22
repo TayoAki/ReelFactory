@@ -1,0 +1,61 @@
+{
+  "id": "access-paths",
+  "relationship": "distinct access modes \u2192 different jobs",
+  "teaching_job": "Separate retrieval, live query and tool calls by the work each performs.",
+  "transcript_patterns": [
+    "Use {{access_mode_a}} for {{job_a}}, and {{access_mode_b}} for {{job_b}}.",
+    "Finding an existing {{document}} differs from calculating {{answer}} over live {{data}}."
+  ],
+  "semantic_slots": [
+    "access_mode_a",
+    "access_mode_b",
+    "access_modes",
+    "answer",
+    "data",
+    "document",
+    "job_a",
+    "job_b",
+    "jobs"
+  ],
+  "choose_when": "Use when superficially similar access paths have different semantics.",
+  "choose_something_else_when": "A collage of logos cannot distinguish retrieval from execution or ingestion.",
+  "motion_grammar": "Introduce categories, demonstrate one contrast, then connect the supported paths to a shared consumer.",
+  "instances": [
+    "connector-categories",
+    "document-versus-query",
+    "tool-palette"
+  ],
+  "classification": "Curated editorial teaching template; not a trained classifier or a product fact.",
+  "required_pattern_slots": [
+    [
+      "access_mode_a",
+      "access_mode_b",
+      "job_a",
+      "job_b"
+    ],
+    [
+      "answer",
+      "data",
+      "document"
+    ]
+  ],
+  "filled_source_sentence_scaffolds": [
+    "Use document search for finding an existing documented answer, and live-data query for calculating an answer over live data.",
+    "Finding an existing An existing document differs from calculating A newly calculated business answer over live Live operational/business data."
+  ],
+  "unbound_source_example_slots": [],
+  "representative_entry": "document-versus-query",
+  "example_source_bindings": {
+    "access_modes": "Document search and live-data query",
+    "jobs": "Find an existing explanation versus calculate an answer",
+    "document": "An existing document",
+    "answer": "A newly calculated business answer",
+    "data": "Live operational/business data",
+    "access_mode_a": "document search",
+    "access_mode_b": "live-data query",
+    "job_a": "finding an existing documented answer",
+    "job_b": "calculating an answer over live data"
+  },
+  "paired_source_quote": "data that it's going to make sense of. Uh, we already have text to SQL, uh, which covers structured data that's governed in Unity Catalog. And I don't want to underestimate how much that matters. You know, a lot of agents are just reciting information that lives in a document. But when you're asking questions about your business, there often already isn't already a document that can answer those questions. That's why you're That's why you're asking. So, Genie is not only doing search, but also querying based on your live operational data. And we have dozens of connectors for that. Plus, actually Josh inspired uh a product that we call custom connectors um that allow the community connectors, sorry. Uh that allows you to create a connector to any generic uh application. So, thank you Josh actually for that idea. That That went straight into the product. Um for data that lives",
+  "source_binding_status": "Editorial binding/paraphrase of source roles; raw transcript remains separately preserved. Do not treat bindings as word-for-word quotation."
+}

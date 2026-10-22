@@ -1,0 +1,568 @@
+{
+  "id": "source-hub",
+  "index": 1,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 8,
+  "source_end": 17,
+  "source_timecode": "00:08.00\u201300:17.00",
+  "template_id": "converging-sources",
+  "label": "Sources, ontology and consumer",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Establish a common destination for distinct source classes.",
+  "relationship": "many inputs \u2192 shared hub",
+  "original_transcript": "who is a product leader at Databricks. We are going to be doing a deep dive on Genie ontology and the capabilities for co-working with Genie. Thank you so much for being here, Elise.",
+  "original_transcript_segments": [
+    {
+      "text": "who is a product leader at Databricks.",
+      "start": 3.48,
+      "end": 8.6
+    },
+    {
+      "text": "We are going to be doing a deep dive on",
+      "start": 5.96,
+      "end": 12.64
+    },
+    {
+      "text": "Genie ontology and the capabilities for",
+      "start": 8.6,
+      "end": 15.8
+    },
+    {
+      "text": "co-working with Genie. Thank you so much",
+      "start": 12.64,
+      "end": 17.4
+    },
+    {
+      "text": "for being here, Elise.",
+      "start": 15.8,
+      "end": 18.84
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Show several distinct sources contributing context or capabilities to one named consumer.",
+  "parameterized_transcript_patterns": [
+    "{{consumer}} draws on {{source_a}}, {{source_b}} and {{source_c}} to {{job}}.",
+    "These inputs differ, but they contribute to the same {{shared_layer}}."
+  ],
+  "semantic_slots": [
+    "consumer",
+    "job",
+    "shared_layer",
+    "source_a",
+    "source_b",
+    "source_c",
+    "sources"
+  ],
+  "selection_rule": "Use when the distinction among source classes matters and they share a real destination.",
+  "better_alternative_or_misuse": "Use a list for unrelated items; label search/query/tool access rather than implying data ingestion.",
+  "motion_recipe": "Add sources individually, retain earlier nodes, draw each path, then activate the hub.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 8.2,
+      "timecode": "00:08.20",
+      "images": {
+        "full_frame": "frames/full/0000246.jpg",
+        "graphic_region": "frames/graphic/0000246.jpg",
+        "requested_seconds": 8.2,
+        "sample_frame": 246,
+        "normalized_source_seconds": 8.2,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "who is a product leader at Databricks.",
+          "start": 3.48,
+          "end": 8.6
+        },
+        {
+          "text": "We are going to be doing a deep dive on",
+          "start": 5.96,
+          "end": 12.64
+        },
+        {
+          "text": "Genie ontology and the capabilities for",
+          "start": 8.6,
+          "end": 15.8
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 10,
+      "timecode": "00:10.00",
+      "images": {
+        "full_frame": "frames/full/0000300.jpg",
+        "graphic_region": "frames/graphic/0000300.jpg",
+        "requested_seconds": 10,
+        "sample_frame": 300,
+        "normalized_source_seconds": 10.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "who is a product leader at Databricks.",
+          "start": 3.48,
+          "end": 8.6
+        },
+        {
+          "text": "We are going to be doing a deep dive on",
+          "start": 5.96,
+          "end": 12.64
+        },
+        {
+          "text": "Genie ontology and the capabilities for",
+          "start": 8.6,
+          "end": 15.8
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 12,
+      "timecode": "00:12.00",
+      "images": {
+        "full_frame": "frames/full/0000360.jpg",
+        "graphic_region": "frames/graphic/0000360.jpg",
+        "requested_seconds": 12,
+        "sample_frame": 360,
+        "normalized_source_seconds": 12.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "We are going to be doing a deep dive on",
+          "start": 5.96,
+          "end": 12.64
+        },
+        {
+          "text": "Genie ontology and the capabilities for",
+          "start": 8.6,
+          "end": 15.8
+        },
+        {
+          "text": "co-working with Genie. Thank you so much",
+          "start": 12.64,
+          "end": 17.4
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "intermediate observed state",
+      "time": 14,
+      "timecode": "00:14.00",
+      "images": {
+        "full_frame": "frames/full/0000420.jpg",
+        "graphic_region": "frames/graphic/0000420.jpg",
+        "requested_seconds": 14,
+        "sample_frame": 420,
+        "normalized_source_seconds": 14.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "We are going to be doing a deep dive on",
+          "start": 5.96,
+          "end": 12.64
+        },
+        {
+          "text": "Genie ontology and the capabilities for",
+          "start": 8.6,
+          "end": 15.8
+        },
+        {
+          "text": "co-working with Genie. Thank you so much",
+          "start": 12.64,
+          "end": 17.4
+        },
+        {
+          "text": "for being here, Elise.",
+          "start": 15.8,
+          "end": 18.84
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-05",
+      "sequence_role": "later observed state",
+      "time": 16,
+      "timecode": "00:16.00",
+      "images": {
+        "full_frame": "frames/full/0000480.jpg",
+        "graphic_region": "frames/graphic/0000480.jpg",
+        "requested_seconds": 16,
+        "sample_frame": 480,
+        "normalized_source_seconds": 16.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "Genie ontology and the capabilities for",
+          "start": 8.6,
+          "end": 15.8
+        },
+        {
+          "text": "co-working with Genie. Thank you so much",
+          "start": 12.64,
+          "end": 17.4
+        },
+        {
+          "text": "for being here, Elise.",
+          "start": 15.8,
+          "end": 18.84
+        },
+        {
+          "text": ">> Thank you for having me. Excited to talk",
+          "start": 17.4,
+          "end": 20.24
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 8,
+      "nearby_original_transcript": [
+        {
+          "text": "who is a product leader at Databricks.",
+          "start": 3.48,
+          "end": 8.6
+        },
+        {
+          "text": "We are going to be doing a deep dive on",
+          "start": 5.96,
+          "end": 12.64
+        },
+        {
+          "text": "Genie ontology and the capabilities for",
+          "start": 8.6,
+          "end": 15.8
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0000240.jpg",
+          "graphic_region": "frames/graphic/0000240.jpg",
+          "requested_seconds": 8,
+          "sample_frame": 240,
+          "normalized_source_seconds": 8.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0000248.jpg",
+          "graphic_region": "frames/graphic/0000248.jpg",
+          "requested_seconds": 8.25,
+          "sample_frame": 248,
+          "normalized_source_seconds": 8.266666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0000270.jpg",
+          "graphic_region": "frames/graphic/0000270.jpg",
+          "requested_seconds": 9,
+          "sample_frame": 270,
+          "normalized_source_seconds": 9.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 9.2,
+      "nearby_original_transcript": [
+        {
+          "text": "who is a product leader at Databricks.",
+          "start": 3.48,
+          "end": 8.6
+        },
+        {
+          "text": "We are going to be doing a deep dive on",
+          "start": 5.96,
+          "end": 12.64
+        },
+        {
+          "text": "Genie ontology and the capabilities for",
+          "start": 8.6,
+          "end": 15.8
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0000268.jpg",
+          "graphic_region": "frames/graphic/0000268.jpg",
+          "requested_seconds": 8.95,
+          "sample_frame": 268,
+          "normalized_source_seconds": 8.933333333333334,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0000284.jpg",
+          "graphic_region": "frames/graphic/0000284.jpg",
+          "requested_seconds": 9.45,
+          "sample_frame": 284,
+          "normalized_source_seconds": 9.466666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0000306.jpg",
+          "graphic_region": "frames/graphic/0000306.jpg",
+          "requested_seconds": 10.2,
+          "sample_frame": 306,
+          "normalized_source_seconds": 10.2,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 10.5,
+      "nearby_original_transcript": [
+        {
+          "text": "who is a product leader at Databricks.",
+          "start": 3.48,
+          "end": 8.6
+        },
+        {
+          "text": "We are going to be doing a deep dive on",
+          "start": 5.96,
+          "end": 12.64
+        },
+        {
+          "text": "Genie ontology and the capabilities for",
+          "start": 8.6,
+          "end": 15.8
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0000308.jpg",
+          "graphic_region": "frames/graphic/0000308.jpg",
+          "requested_seconds": 10.25,
+          "sample_frame": 308,
+          "normalized_source_seconds": 10.266666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0000322.jpg",
+          "graphic_region": "frames/graphic/0000322.jpg",
+          "requested_seconds": 10.75,
+          "sample_frame": 322,
+          "normalized_source_seconds": 10.733333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0000345.jpg",
+          "graphic_region": "frames/graphic/0000345.jpg",
+          "requested_seconds": 11.5,
+          "sample_frame": 345,
+          "normalized_source_seconds": 11.5,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 12,
+      "nearby_original_transcript": [
+        {
+          "text": "We are going to be doing a deep dive on",
+          "start": 5.96,
+          "end": 12.64
+        },
+        {
+          "text": "Genie ontology and the capabilities for",
+          "start": 8.6,
+          "end": 15.8
+        },
+        {
+          "text": "co-working with Genie. Thank you so much",
+          "start": 12.64,
+          "end": 17.4
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0000352.jpg",
+          "graphic_region": "frames/graphic/0000352.jpg",
+          "requested_seconds": 11.75,
+          "sample_frame": 352,
+          "normalized_source_seconds": 11.733333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0000368.jpg",
+          "graphic_region": "frames/graphic/0000368.jpg",
+          "requested_seconds": 12.25,
+          "sample_frame": 368,
+          "normalized_source_seconds": 12.266666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0000390.jpg",
+          "graphic_region": "frames/graphic/0000390.jpg",
+          "requested_seconds": 13,
+          "sample_frame": 390,
+          "normalized_source_seconds": 13.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 13.5,
+      "nearby_original_transcript": [
+        {
+          "text": "We are going to be doing a deep dive on",
+          "start": 5.96,
+          "end": 12.64
+        },
+        {
+          "text": "Genie ontology and the capabilities for",
+          "start": 8.6,
+          "end": 15.8
+        },
+        {
+          "text": "co-working with Genie. Thank you so much",
+          "start": 12.64,
+          "end": 17.4
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0000398.jpg",
+          "graphic_region": "frames/graphic/0000398.jpg",
+          "requested_seconds": 13.25,
+          "sample_frame": 398,
+          "normalized_source_seconds": 13.266666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0000412.jpg",
+          "graphic_region": "frames/graphic/0000412.jpg",
+          "requested_seconds": 13.75,
+          "sample_frame": 412,
+          "normalized_source_seconds": 13.733333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0000435.jpg",
+          "graphic_region": "frames/graphic/0000435.jpg",
+          "requested_seconds": 14.5,
+          "sample_frame": 435,
+          "normalized_source_seconds": 14.5,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 15,
+      "nearby_original_transcript": [
+        {
+          "text": "Genie ontology and the capabilities for",
+          "start": 8.6,
+          "end": 15.8
+        },
+        {
+          "text": "co-working with Genie. Thank you so much",
+          "start": 12.64,
+          "end": 17.4
+        },
+        {
+          "text": "for being here, Elise.",
+          "start": 15.8,
+          "end": 18.84
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0000442.jpg",
+          "graphic_region": "frames/graphic/0000442.jpg",
+          "requested_seconds": 14.75,
+          "sample_frame": 442,
+          "normalized_source_seconds": 14.733333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0000458.jpg",
+          "graphic_region": "frames/graphic/0000458.jpg",
+          "requested_seconds": 15.25,
+          "sample_frame": 458,
+          "normalized_source_seconds": 15.266666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0000480.jpg",
+          "graphic_region": "frames/graphic/0000480.jpg",
+          "requested_seconds": 16,
+          "sample_frame": 480,
+          "normalized_source_seconds": 16.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "01-icon-map",
+      "observed_state_pattern": "Source nodes \u2192 converging routes \u2192 named hub \u2192 consumer.",
+      "persistent_context": "Hub and existing branches stay fixed as additional inputs appear.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0000480.jpg",
+      "frames/graphic/0000246.jpg",
+      "frames/graphic/0000360.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0000480.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

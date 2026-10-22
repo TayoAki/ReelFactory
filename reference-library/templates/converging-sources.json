@@ -1,0 +1,63 @@
+{
+  "id": "converging-sources",
+  "relationship": "many inputs \u2192 shared hub",
+  "teaching_job": "Show several distinct sources contributing context or capabilities to one named consumer.",
+  "transcript_patterns": [
+    "{{consumer}} draws on {{source_a}}, {{source_b}} and {{source_c}} to {{job}}.",
+    "These inputs differ, but they contribute to the same {{shared_layer}}."
+  ],
+  "semantic_slots": [
+    "consumer",
+    "job",
+    "shared_layer",
+    "source_a",
+    "source_b",
+    "source_c",
+    "sources"
+  ],
+  "choose_when": "Use when the distinction among source classes matters and they share a real destination.",
+  "choose_something_else_when": "Use a list for unrelated items; label search/query/tool access rather than implying data ingestion.",
+  "motion_grammar": "Add sources individually, retain earlier nodes, draw each path, then activate the hub.",
+  "instances": [
+    "source-hub",
+    "data-tools",
+    "connector-network",
+    "demo-context-overlay",
+    "agent-inputs"
+  ],
+  "classification": "Curated editorial teaching template; not a trained classifier or a product fact.",
+  "required_pattern_slots": [
+    [
+      "consumer",
+      "job",
+      "source_a",
+      "source_b",
+      "source_c"
+    ],
+    [
+      "shared_layer"
+    ]
+  ],
+  "filled_source_sentence_scaffolds": [
+    "Custom Genie Agent draws on Data Sources, Instructions and Skills and Memory to A configured business task.",
+    "These inputs differ, but they contribute to the same Custom-agent context."
+  ],
+  "unbound_source_example_slots": [],
+  "representative_entry": "agent-inputs",
+  "example_source_bindings": {
+    "consumer": "Custom Genie Agent",
+    "sources": [
+      "Data Sources",
+      "Instructions",
+      "Skills",
+      "Memory"
+    ],
+    "shared_layer": "Custom-agent context",
+    "job": "A configured business task",
+    "source_a": "Data Sources",
+    "source_b": "Instructions",
+    "source_c": "Skills and Memory"
+  },
+  "paired_source_quote": "agent bundles data sources, instructions, skills, and memory, and all those come together to create what we might think of as a customized coworker that can answer questions or get work done in a very particular",
+  "source_binding_status": "Editorial binding/paraphrase of source roles; raw transcript remains separately preserved. Do not treat bindings as word-for-word quotation."
+}

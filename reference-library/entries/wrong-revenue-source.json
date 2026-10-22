@@ -1,0 +1,438 @@
+{
+  "id": "wrong-revenue-source",
+  "index": 10,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 125,
+  "source_end": 138,
+  "source_timecode": "02:05.00\u201302:18.00",
+  "template_id": "wrong-source",
+  "label": "First revenue table versus trusted Finance source",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Expose source authority as the reason a plausible answer can be wrong.",
+  "relationship": "question \u2192 plausible but wrong asset \u2192 wrong answer",
+  "original_transcript": "business, we often get quite strange answers. So, for example, it might grab the first revenue table that it finds in some random dashboard rather than the one that finance actually maintains. Uh or if you ask for, you know, a churn rate, it might have no idea that your",
+  "original_transcript_segments": [
+    {
+      "text": "business, we often get quite strange",
+      "start": 121.88,
+      "end": 127.28
+    },
+    {
+      "text": "answers. So, for example, it might grab",
+      "start": 125.0,
+      "end": 129.2
+    },
+    {
+      "text": "the first revenue table that it finds in",
+      "start": 127.28,
+      "end": 131.52
+    },
+    {
+      "text": "some random dashboard rather than the",
+      "start": 129.2,
+      "end": 134.64
+    },
+    {
+      "text": "one that finance actually maintains. Uh",
+      "start": 131.52,
+      "end": 136.52
+    },
+    {
+      "text": "or if you ask for, you know, a churn",
+      "start": 134.64,
+      "end": 138.6
+    },
+    {
+      "text": "rate, it might have no idea that your",
+      "start": 136.52,
+      "end": 140.84
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Expose a source-selection failure using a concrete business example.",
+  "parameterized_transcript_patterns": [
+    "For {{business_question}}, {{system}} may select {{easy_but_wrong_asset}} instead of {{authoritative_asset}}.",
+    "It finds {{candidate}}, but that is not the {{trusted_definition_or_source}} used by {{owner}}."
+  ],
+  "semantic_slots": [
+    "authoritative_asset",
+    "business_question",
+    "candidate",
+    "easy_but_wrong_asset",
+    "owner",
+    "system",
+    "trusted_definition_or_source"
+  ],
+  "selection_rule": "Use when the failure is asset authority or relevance rather than arithmetic.",
+  "better_alternative_or_misuse": "Use a definition comparison for metric ambiguity; avoid showing a random table when the problem is a formula.",
+  "motion_recipe": "Establish candidate assets, highlight the wrong selection, connect it to the answer and expose the error.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 125.2,
+      "timecode": "02:05.20",
+      "images": {
+        "full_frame": "frames/full/0003756.jpg",
+        "graphic_region": "frames/graphic/0003756.jpg",
+        "requested_seconds": 125.2,
+        "sample_frame": 3756,
+        "normalized_source_seconds": 125.2,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "we start to ask questions about our",
+          "start": 119.84,
+          "end": 125.0
+        },
+        {
+          "text": "business, we often get quite strange",
+          "start": 121.88,
+          "end": 127.28
+        },
+        {
+          "text": "answers. So, for example, it might grab",
+          "start": 125.0,
+          "end": 129.2
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 126.7,
+      "timecode": "02:06.70",
+      "images": {
+        "full_frame": "frames/full/0003801.jpg",
+        "graphic_region": "frames/graphic/0003801.jpg",
+        "requested_seconds": 126.7,
+        "sample_frame": 3801,
+        "normalized_source_seconds": 126.7,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "we start to ask questions about our",
+          "start": 119.84,
+          "end": 125.0
+        },
+        {
+          "text": "business, we often get quite strange",
+          "start": 121.88,
+          "end": 127.28
+        },
+        {
+          "text": "answers. So, for example, it might grab",
+          "start": 125.0,
+          "end": 129.2
+        },
+        {
+          "text": "the first revenue table that it finds in",
+          "start": 127.28,
+          "end": 131.52
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 129,
+      "timecode": "02:09.00",
+      "images": {
+        "full_frame": "frames/full/0003870.jpg",
+        "graphic_region": "frames/graphic/0003870.jpg",
+        "requested_seconds": 129,
+        "sample_frame": 3870,
+        "normalized_source_seconds": 129.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "business, we often get quite strange",
+          "start": 121.88,
+          "end": 127.28
+        },
+        {
+          "text": "answers. So, for example, it might grab",
+          "start": 125.0,
+          "end": 129.2
+        },
+        {
+          "text": "the first revenue table that it finds in",
+          "start": 127.28,
+          "end": 131.52
+        },
+        {
+          "text": "some random dashboard rather than the",
+          "start": 129.2,
+          "end": 134.64
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "intermediate observed state",
+      "time": 132,
+      "timecode": "02:12.00",
+      "images": {
+        "full_frame": "frames/full/0003960.jpg",
+        "graphic_region": "frames/graphic/0003960.jpg",
+        "requested_seconds": 132,
+        "sample_frame": 3960,
+        "normalized_source_seconds": 132.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "the first revenue table that it finds in",
+          "start": 127.28,
+          "end": 131.52
+        },
+        {
+          "text": "some random dashboard rather than the",
+          "start": 129.2,
+          "end": 134.64
+        },
+        {
+          "text": "one that finance actually maintains. Uh",
+          "start": 131.52,
+          "end": 136.52
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-05",
+      "sequence_role": "later observed state",
+      "time": 136.5,
+      "timecode": "02:16.50",
+      "images": {
+        "full_frame": "frames/full/0004095.jpg",
+        "graphic_region": "frames/graphic/0004095.jpg",
+        "requested_seconds": 136.5,
+        "sample_frame": 4095,
+        "normalized_source_seconds": 136.5,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "some random dashboard rather than the",
+          "start": 129.2,
+          "end": 134.64
+        },
+        {
+          "text": "one that finance actually maintains. Uh",
+          "start": 131.52,
+          "end": 136.52
+        },
+        {
+          "text": "or if you ask for, you know, a churn",
+          "start": 134.64,
+          "end": 138.6
+        },
+        {
+          "text": "rate, it might have no idea that your",
+          "start": 136.52,
+          "end": 140.84
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 125,
+      "nearby_original_transcript": [
+        {
+          "text": "we start to ask questions about our",
+          "start": 119.84,
+          "end": 125.0
+        },
+        {
+          "text": "business, we often get quite strange",
+          "start": 121.88,
+          "end": 127.28
+        },
+        {
+          "text": "answers. So, for example, it might grab",
+          "start": 125.0,
+          "end": 129.2
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0003750.jpg",
+          "graphic_region": "frames/graphic/0003750.jpg",
+          "requested_seconds": 125,
+          "sample_frame": 3750,
+          "normalized_source_seconds": 125.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0003758.jpg",
+          "graphic_region": "frames/graphic/0003758.jpg",
+          "requested_seconds": 125.25,
+          "sample_frame": 3758,
+          "normalized_source_seconds": 125.26666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0003780.jpg",
+          "graphic_region": "frames/graphic/0003780.jpg",
+          "requested_seconds": 126,
+          "sample_frame": 3780,
+          "normalized_source_seconds": 126.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 128,
+      "nearby_original_transcript": [
+        {
+          "text": "business, we often get quite strange",
+          "start": 121.88,
+          "end": 127.28
+        },
+        {
+          "text": "answers. So, for example, it might grab",
+          "start": 125.0,
+          "end": 129.2
+        },
+        {
+          "text": "the first revenue table that it finds in",
+          "start": 127.28,
+          "end": 131.52
+        },
+        {
+          "text": "some random dashboard rather than the",
+          "start": 129.2,
+          "end": 134.64
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0003832.jpg",
+          "graphic_region": "frames/graphic/0003832.jpg",
+          "requested_seconds": 127.75,
+          "sample_frame": 3832,
+          "normalized_source_seconds": 127.73333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0003848.jpg",
+          "graphic_region": "frames/graphic/0003848.jpg",
+          "requested_seconds": 128.25,
+          "sample_frame": 3848,
+          "normalized_source_seconds": 128.26666666666668,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0003870.jpg",
+          "graphic_region": "frames/graphic/0003870.jpg",
+          "requested_seconds": 129,
+          "sample_frame": 3870,
+          "normalized_source_seconds": 129.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 132,
+      "nearby_original_transcript": [
+        {
+          "text": "the first revenue table that it finds in",
+          "start": 127.28,
+          "end": 131.52
+        },
+        {
+          "text": "some random dashboard rather than the",
+          "start": 129.2,
+          "end": 134.64
+        },
+        {
+          "text": "one that finance actually maintains. Uh",
+          "start": 131.52,
+          "end": 136.52
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0003952.jpg",
+          "graphic_region": "frames/graphic/0003952.jpg",
+          "requested_seconds": 131.75,
+          "sample_frame": 3952,
+          "normalized_source_seconds": 131.73333333333332,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0003968.jpg",
+          "graphic_region": "frames/graphic/0003968.jpg",
+          "requested_seconds": 132.25,
+          "sample_frame": 3968,
+          "normalized_source_seconds": 132.26666666666668,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0003990.jpg",
+          "graphic_region": "frames/graphic/0003990.jpg",
+          "requested_seconds": 133,
+          "sample_frame": 3990,
+          "normalized_source_seconds": 133.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "04-context-problem",
+      "observed_state_pattern": "Simple query workflow \u2192 several candidate sources \u2192 highlighted wrong source \u2192 incorrect chat consequence.",
+      "persistent_context": "Question and workflow anchor the before/after example.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0004095.jpg",
+      "frames/graphic/0003756.jpg",
+      "frames/graphic/0003870.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0004095.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

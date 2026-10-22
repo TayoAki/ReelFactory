@@ -1,0 +1,427 @@
+{
+  "id": "context-drifts",
+  "index": 13,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 174.2,
+  "source_end": 183,
+  "source_timecode": "02:54.20\u201303:03.00",
+  "template_id": "stale-context",
+  "label": "Renamed assets and departed people",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Show concrete ways business references and institutional context change.",
+  "relationship": "prior context \u2192 change \u2192 mismatch",
+  "original_transcript": "that knowledge moves, right? Tables get renamed, documents go stale, people leave the company. So, no matter how sophisticated a model is, and these models are really sophisticated. They",
+  "original_transcript_segments": [
+    {
+      "text": "that knowledge moves, right? Tables get",
+      "start": 172.16,
+      "end": 176.72
+    },
+    {
+      "text": "renamed, documents go stale, people",
+      "start": 174.04,
+      "end": 179.12
+    },
+    {
+      "text": "leave the company. So, no matter how",
+      "start": 176.72,
+      "end": 180.959
+    },
+    {
+      "text": "sophisticated a model is, and these",
+      "start": 179.12,
+      "end": 183.2
+    },
+    {
+      "text": "models are really sophisticated. They",
+      "start": 180.959,
+      "end": 185.44
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Explain why yesterday\u2019s context or assets no longer match today\u2019s question.",
+  "parameterized_transcript_patterns": [
+    "{{asset_or_rule}} changed, but {{system}} still uses {{old_context}}.",
+    "The {{entity}} was {{change}}, so the previous {{reference}} is now unreliable."
+  ],
+  "semantic_slots": [
+    "asset_or_rule",
+    "change",
+    "entity",
+    "old_context",
+    "reference",
+    "system"
+  ],
+  "selection_rule": "Use when time or organizational change breaks relevance.",
+  "better_alternative_or_misuse": "A stale icon does not prove freshness checks exist; show the changed reference and its consequence.",
+  "motion_recipe": "Reveal the original reference, mark the concrete change, then show the resulting mismatch.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 174.5,
+      "timecode": "02:54.50",
+      "images": {
+        "full_frame": "frames/full/0005235.jpg",
+        "graphic_region": "frames/graphic/0005235.jpg",
+        "requested_seconds": 174.5,
+        "sample_frame": 5235,
+        "normalized_source_seconds": 174.5,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "heads. And then to make matters worse,",
+          "start": 170.24,
+          "end": 174.04
+        },
+        {
+          "text": "that knowledge moves, right? Tables get",
+          "start": 172.16,
+          "end": 176.72
+        },
+        {
+          "text": "renamed, documents go stale, people",
+          "start": 174.04,
+          "end": 179.12
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 176.5,
+      "timecode": "02:56.50",
+      "images": {
+        "full_frame": "frames/full/0005295.jpg",
+        "graphic_region": "frames/graphic/0005295.jpg",
+        "requested_seconds": 176.5,
+        "sample_frame": 5295,
+        "normalized_source_seconds": 176.5,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "that knowledge moves, right? Tables get",
+          "start": 172.16,
+          "end": 176.72
+        },
+        {
+          "text": "renamed, documents go stale, people",
+          "start": 174.04,
+          "end": 179.12
+        },
+        {
+          "text": "leave the company. So, no matter how",
+          "start": 176.72,
+          "end": 180.959
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 178.5,
+      "timecode": "02:58.50",
+      "images": {
+        "full_frame": "frames/full/0005355.jpg",
+        "graphic_region": "frames/graphic/0005355.jpg",
+        "requested_seconds": 178.5,
+        "sample_frame": 5355,
+        "normalized_source_seconds": 178.5,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "that knowledge moves, right? Tables get",
+          "start": 172.16,
+          "end": 176.72
+        },
+        {
+          "text": "renamed, documents go stale, people",
+          "start": 174.04,
+          "end": 179.12
+        },
+        {
+          "text": "leave the company. So, no matter how",
+          "start": 176.72,
+          "end": 180.959
+        },
+        {
+          "text": "sophisticated a model is, and these",
+          "start": 179.12,
+          "end": 183.2
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "intermediate observed state",
+      "time": 181,
+      "timecode": "03:01.00",
+      "images": {
+        "full_frame": "frames/full/0005430.jpg",
+        "graphic_region": "frames/graphic/0005430.jpg",
+        "requested_seconds": 181,
+        "sample_frame": 5430,
+        "normalized_source_seconds": 181.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "renamed, documents go stale, people",
+          "start": 174.04,
+          "end": 179.12
+        },
+        {
+          "text": "leave the company. So, no matter how",
+          "start": 176.72,
+          "end": 180.959
+        },
+        {
+          "text": "sophisticated a model is, and these",
+          "start": 179.12,
+          "end": 183.2
+        },
+        {
+          "text": "models are really sophisticated. They",
+          "start": 180.959,
+          "end": 185.44
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-05",
+      "sequence_role": "later observed state",
+      "time": 182.7,
+      "timecode": "03:02.70",
+      "images": {
+        "full_frame": "frames/full/0005481.jpg",
+        "graphic_region": "frames/graphic/0005481.jpg",
+        "requested_seconds": 182.7,
+        "sample_frame": 5481,
+        "normalized_source_seconds": 182.7,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "leave the company. So, no matter how",
+          "start": 176.72,
+          "end": 180.959
+        },
+        {
+          "text": "sophisticated a model is, and these",
+          "start": 179.12,
+          "end": 183.2
+        },
+        {
+          "text": "models are really sophisticated. They",
+          "start": 180.959,
+          "end": 185.44
+        },
+        {
+          "text": "can do graduate-level math, but they",
+          "start": 183.2,
+          "end": 187.76
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 174.5,
+      "nearby_original_transcript": [
+        {
+          "text": "heads. And then to make matters worse,",
+          "start": 170.24,
+          "end": 174.04
+        },
+        {
+          "text": "that knowledge moves, right? Tables get",
+          "start": 172.16,
+          "end": 176.72
+        },
+        {
+          "text": "renamed, documents go stale, people",
+          "start": 174.04,
+          "end": 179.12
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0005228.jpg",
+          "graphic_region": "frames/graphic/0005228.jpg",
+          "requested_seconds": 174.25,
+          "sample_frame": 5228,
+          "normalized_source_seconds": 174.26666666666668,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0005242.jpg",
+          "graphic_region": "frames/graphic/0005242.jpg",
+          "requested_seconds": 174.75,
+          "sample_frame": 5242,
+          "normalized_source_seconds": 174.73333333333332,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0005265.jpg",
+          "graphic_region": "frames/graphic/0005265.jpg",
+          "requested_seconds": 175.5,
+          "sample_frame": 5265,
+          "normalized_source_seconds": 175.5,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 177,
+      "nearby_original_transcript": [
+        {
+          "text": "that knowledge moves, right? Tables get",
+          "start": 172.16,
+          "end": 176.72
+        },
+        {
+          "text": "renamed, documents go stale, people",
+          "start": 174.04,
+          "end": 179.12
+        },
+        {
+          "text": "leave the company. So, no matter how",
+          "start": 176.72,
+          "end": 180.959
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0005302.jpg",
+          "graphic_region": "frames/graphic/0005302.jpg",
+          "requested_seconds": 176.75,
+          "sample_frame": 5302,
+          "normalized_source_seconds": 176.73333333333332,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0005318.jpg",
+          "graphic_region": "frames/graphic/0005318.jpg",
+          "requested_seconds": 177.25,
+          "sample_frame": 5318,
+          "normalized_source_seconds": 177.26666666666668,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0005340.jpg",
+          "graphic_region": "frames/graphic/0005340.jpg",
+          "requested_seconds": 178,
+          "sample_frame": 5340,
+          "normalized_source_seconds": 178.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 180,
+      "nearby_original_transcript": [
+        {
+          "text": "renamed, documents go stale, people",
+          "start": 174.04,
+          "end": 179.12
+        },
+        {
+          "text": "leave the company. So, no matter how",
+          "start": 176.72,
+          "end": 180.959
+        },
+        {
+          "text": "sophisticated a model is, and these",
+          "start": 179.12,
+          "end": 183.2
+        },
+        {
+          "text": "models are really sophisticated. They",
+          "start": 180.959,
+          "end": 185.44
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0005392.jpg",
+          "graphic_region": "frames/graphic/0005392.jpg",
+          "requested_seconds": 179.75,
+          "sample_frame": 5392,
+          "normalized_source_seconds": 179.73333333333332,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0005408.jpg",
+          "graphic_region": "frames/graphic/0005408.jpg",
+          "requested_seconds": 180.25,
+          "sample_frame": 5408,
+          "normalized_source_seconds": 180.26666666666668,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0005430.jpg",
+          "graphic_region": "frames/graphic/0005430.jpg",
+          "requested_seconds": 181,
+          "sample_frame": 5430,
+          "normalized_source_seconds": 181.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "06-source-context",
+      "observed_state_pattern": "Existing assets \u2192 central model \u2192 context source added \u2192 corrected or enriched outputs.",
+      "persistent_context": "Prior sources and model survive the addition of context.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0005481.jpg",
+      "frames/graphic/0005235.jpg",
+      "frames/graphic/0005355.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0005481.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

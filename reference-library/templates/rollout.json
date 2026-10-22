@@ -1,0 +1,60 @@
+{
+  "id": "rollout",
+  "relationship": "ordered milestones \u2192 current step \u2192 details",
+  "teaching_job": "Teach an implementation process while preserving accumulated progress.",
+  "transcript_patterns": [
+    "Start with {{team_and_workflow}}, define {{benchmark}}, measure {{baseline}}, then connect {{sources}} and iterate.",
+    "At {{current_step}}, do {{task}} so that {{next_step}} has {{required_input}}."
+  ],
+  "semantic_slots": [
+    "baseline",
+    "benchmark",
+    "current_step",
+    "next_step",
+    "required_input",
+    "sources",
+    "task",
+    "team_and_workflow"
+  ],
+  "choose_when": "Use for a real ordered process with useful current-step context.",
+  "choose_something_else_when": "Use peer cards for unordered considerations; a rail is not a promise about calendar duration.",
+  "motion_grammar": "Retain earlier milestones, activate the next marker, update details below and pan only when space is exhausted.",
+  "instances": [
+    "team-workflow",
+    "benchmark-questions",
+    "rollout-milestones"
+  ],
+  "classification": "Curated editorial teaching template; not a trained classifier or a product fact.",
+  "required_pattern_slots": [
+    [
+      "baseline",
+      "benchmark",
+      "sources",
+      "team_and_workflow"
+    ],
+    [
+      "current_step",
+      "next_step",
+      "required_input",
+      "task"
+    ]
+  ],
+  "filled_source_sentence_scaffolds": [
+    "Start with One team and one recurring workflow, define Representative real questions and known answers, measure Current accuracy and time, then connect The data/context sources required by the workflow and iterate.",
+    "At The active milestone on the source rail, do The task described below that milestone so that The subsequent rollout milestone has Evidence and context prepared in the preceding step."
+  ],
+  "unbound_source_example_slots": [],
+  "representative_entry": "rollout-milestones",
+  "example_source_bindings": {
+    "team_and_workflow": "One team and one recurring workflow",
+    "benchmark": "Representative real questions and known answers",
+    "baseline": "Current accuracy and time",
+    "sources": "The data/context sources required by the workflow",
+    "current_step": "The active milestone on the source rail",
+    "task": "The task described below that milestone",
+    "next_step": "The subsequent rollout milestone",
+    "required_input": "Evidence and context prepared in the preceding step"
+  },
+  "paired_source_quote": "Uh you'll also probably want to record today's baseline, you know, pre pre-Genie. You know, how accurate is the existing process? How long does it take? Where do people get stuck? Include both straightforward questions and ambiguous questions and then cases where maybe like permissions should produce different answers for different users based on what different people have access to. And then from there, I would recommend bringing in domain experts. Maybe they also help you write the benchmarking questions. But you're going to want someone who actually understands that team and their workflows and their data. So taking the the finance example, that might be something like an FP&A lead who owns the monthly reporting and knows exactly how the company defines things like budgets and and actuals. And they might also be interested in the user feedback that you're getting as part of this pilot. So it's good to keep them in loop with the end users and make sure that they're available um and they're able to see to see those those results. Then you're going to want to connect all your sources that that that are needed for this workflow. So do you need, you know, SharePoint, Gmail, Jira, Slack? You need to make sure that people can read from and optionally write to their third-party tools. And then you can also choose to do things like add instructions where helpful. That'll that'll further steer Genie with whatever prompts you provide. Uh but you probably won't need all that many to start. If the underlying semantics and source materials are really strong, I think you'll find that Genie can do a lot with out really needing a long list of rules. And finally, put that into the the team's hands. See where it succeeds, see it where it gets confused, uh where the ontology needs more context. Iterate on the semantics and optionally the instructions as you need. And then once it's working well, go to the next workflow, the next line of business, and so on. On our end, we are building more and more monitoring tools to make this easier and easier to do. So you're going to start to see more detailed Genie 1 monitoring rolling out as well as ontology monitoring. Now as you expand",
+  "source_binding_status": "Editorial binding/paraphrase of source roles; raw transcript remains separately preserved. Do not treat bindings as word-for-word quotation."
+}

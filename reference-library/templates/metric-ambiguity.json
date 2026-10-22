@@ -1,0 +1,58 @@
+{
+  "id": "metric-ambiguity",
+  "relationship": "same term \u2192 missing rule \u2192 changed interpretation",
+  "teaching_job": "Show how a business definition changes the meaning of a metric or question.",
+  "transcript_patterns": [
+    "When we say {{metric}}, we mean {{definition}}, including {{included_population}} and excluding {{excluded_population}}.",
+    "Without {{business_rule}}, {{system}} interprets {{term}} differently from {{team}}."
+  ],
+  "semantic_slots": [
+    "business_rule",
+    "definition",
+    "excluded_population",
+    "included_population",
+    "metric",
+    "system",
+    "team",
+    "term"
+  ],
+  "choose_when": "Use when scope, exclusions or semantics cause ambiguity.",
+  "choose_something_else_when": "Use a source-authority graphic for choosing among tables; do not imply a definition alone repairs stale data.",
+  "motion_grammar": "Keep the question, introduce the missing rule beside the mechanism, and make the interpretation difference visible.",
+  "instances": [
+    "churn-definition"
+  ],
+  "classification": "Curated editorial teaching template; not a trained classifier or a product fact.",
+  "required_pattern_slots": [
+    [
+      "definition",
+      "excluded_population",
+      "included_population",
+      "metric"
+    ],
+    [
+      "business_rule",
+      "system",
+      "team",
+      "term"
+    ]
+  ],
+  "filled_source_sentence_scaffolds": [
+    "When we say Churn rate, we mean The team-specific churn definition, including The population allowed by that definition and excluding Free Trial Users, as labeled in the inspected original frame; the rolling transcript misrecognizes part of this phrase.",
+    "Without The exclusion applied by the team, the generic model interprets churn rate differently from The business team asking the question."
+  ],
+  "unbound_source_example_slots": [],
+  "representative_entry": "churn-definition",
+  "example_source_bindings": {
+    "metric": "Churn rate",
+    "definition": "The team-specific churn definition",
+    "included_population": "The population allowed by that definition",
+    "excluded_population": "Free Trial Users, as labeled in the inspected original frame; the rolling transcript misrecognizes part of this phrase",
+    "business_rule": "The exclusion applied by the team",
+    "team": "The business team asking the question",
+    "system": "the generic model",
+    "term": "churn rate"
+  },
+  "paired_source_quote": "or if you ask for, you know, a churn rate, it might have no idea that your team excludes free metrics from that or even that the concept of a free met uh a free trial exists. Sorry, free trials. Uh or if you ask like, \"What campaign is",
+  "source_binding_status": "Editorial binding/paraphrase of source roles; raw transcript remains separately preserved. Do not treat bindings as word-for-word quotation."
+}

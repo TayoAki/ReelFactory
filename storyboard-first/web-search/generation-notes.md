@@ -11,3 +11,8 @@ Master design brief: 16:9 near-white faint grid; left-to-right Web Search → Ge
 State edit brief: remove only the later card(s), their shadows and their connector(s); restore the grid; preserve canvas, crop and all surviving objects without resizing or recentering.
 
 Review remains open. In particular, compare the source's larger model card, typography, shadow and gradient against the candidate. Image generation does not establish exact geometric fidelity, factual correctness or automatic conversion into editable motion graphics.
+
+
+## Source-order correction
+
+The original frame sequence at 110.3, 111.5, 113, 115 and 117 seconds reveals the model first, then the web input and result. `01-model-first.png` is the revised initial-state image, generated as an edit of the settled master with original library crops supplied as references. `01-input.png` is retained as the earlier rejected sequence proposal, not the selected first state. Reading order is not reveal order.

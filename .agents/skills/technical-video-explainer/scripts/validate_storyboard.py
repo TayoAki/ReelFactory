@@ -21,6 +21,15 @@ for s in plan.get('scenes',[]):
    if state.get('image') and not (args.storyboard.parent/state['image']).is_file():errors.append(label+': missing image file '+state['image'])
   if s.get('master_image') and not (args.storyboard.parent/s['master_image']).is_file():errors.append(label+': master image file does not exist')
   if s.get('status') in ['motion_ready','animation_rendered'] and not s.get('layer_reconstruction'):errors.append(label+': motion requires editable layer reconstruction')
+ if plan.get('source_library_required'):
+  if not s.get('reference_library_entry') or not (args.storyboard.parent/s['reference_library_entry']).is_file():errors.append(label+': missing original-source library entry')
+  if len(s.get('reference_images',[]))<2:errors.append(label+': source-backed board requires a style anchor and build-state reference')
+  for ref in s.get('reference_images',[]):
+   if not (args.storyboard.parent/ref).is_file():errors.append(label+': missing original reference image '+ref)
+   entry_path=(args.storyboard.parent/s.get('reference_library_entry','')).resolve()
+   library_frames=entry_path.parent.parent/'frames'
+   if not (args.storyboard.parent/ref).resolve().is_relative_to(library_frames):errors.append(label+': reference is outside the original source-frame library '+ref)
+  if not s.get('reference_selection_reason'):errors.append(label+': source reference needs a teaching-relation selection reason')
  if s.get('id') in seen:errors.append(label+': duplicate ID')
  seen.add(s.get('id'))
  if s.get('reference_sequence') not in ids:errors.append(label+': unknown reference sequence')

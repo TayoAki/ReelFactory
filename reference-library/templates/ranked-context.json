@@ -1,0 +1,60 @@
+{
+  "id": "ranked-context",
+  "relationship": "candidate context \u2192 ranking criteria \u2192 relevant context",
+  "teaching_job": "Explain how a system chooses among contextual candidates.",
+  "transcript_patterns": [
+    "{{system}} prioritizes {{context}} using {{criterion_a}}, {{criterion_b}} and {{criterion_c}}.",
+    "Not every {{candidate}} is equally useful; {{ranking_rule}} changes which ones matter for {{question}}."
+  ],
+  "semantic_slots": [
+    "candidate",
+    "context",
+    "criteria",
+    "criterion_a",
+    "criterion_b",
+    "criterion_c",
+    "question",
+    "ranking_rule",
+    "system"
+  ],
+  "choose_when": "Use when relevance or prioritization is the causal lesson.",
+  "choose_something_else_when": "A generic node graph does not explain ranking; name the criteria and avoid inventing numerical weights.",
+  "motion_grammar": "Establish candidates, focus the ranking mechanism, expose named criteria and return to consumers.",
+  "instances": [
+    "context-ranking"
+  ],
+  "classification": "Curated editorial teaching template; not a trained classifier or a product fact.",
+  "required_pattern_slots": [
+    [
+      "context",
+      "criterion_a",
+      "criterion_b",
+      "criterion_c",
+      "system"
+    ],
+    [
+      "candidate",
+      "question",
+      "ranking_rule"
+    ]
+  ],
+  "filled_source_sentence_scaffolds": [
+    "OntoRank in the source explanation prioritizes Candidate business context using authority, relevance and permissions.",
+    "Not every A source or contextual snippet is equally useful; The source\u2019s prioritization mechanism; no invented numerical weights changes which ones matter for The current business question."
+  ],
+  "unbound_source_example_slots": [],
+  "representative_entry": "context-ranking",
+  "example_source_bindings": {
+    "system": "OntoRank in the source explanation",
+    "context": "Candidate business context",
+    "criteria": "Authority, relevance and permissions as labeled in the source",
+    "candidate": "A source or contextual snippet",
+    "ranking_rule": "The source\u2019s prioritization mechanism; no invented numerical weights",
+    "question": "The current business question",
+    "criterion_a": "authority",
+    "criterion_b": "relevance",
+    "criterion_c": "permissions"
+  },
+  "paired_source_quote": "how might we define churn for our team? And as Genie is amassing all this information, both this modeled and learned knowledge, it's all going into one single ranking algorithm that we call Ontorank. Given a Given a query that someone posts in an agent, what are the assets that are most likely to be helpful in answering that in that question? So, for example, it looks at things like popularity, certification status, authorship to to try to find the most valuable information, to dedupe against across uh conflicting information, and so on. And it's not just questions that you put",
+  "source_binding_status": "Editorial binding/paraphrase of source roles; raw transcript remains separately preserved. Do not treat bindings as word-for-word quotation."
+}

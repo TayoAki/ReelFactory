@@ -1,0 +1,60 @@
+{
+  "id": "peer-categories",
+  "relationship": "equal-rank needs or choices",
+  "teaching_job": "Compare distinct needs at the same conceptual level.",
+  "transcript_patterns": [
+    "We need {{need_a}}, {{need_b}} and {{need_c}} for {{goal}}.",
+    "There are three distinct concerns: {{concern_a}}, {{concern_b}} and {{concern_c}}."
+  ],
+  "semantic_slots": [
+    "concern_a",
+    "concern_b",
+    "concern_c",
+    "concerns",
+    "goal",
+    "need_a",
+    "need_b",
+    "need_c",
+    "needs"
+  ],
+  "choose_when": "Use when equal conceptual rank is the lesson.",
+  "choose_something_else_when": "Use a timeline when order matters and a hierarchy when one item contains another.",
+  "motion_grammar": "Settle one card, make room coherently, then introduce equal peers on a shared baseline.",
+  "instances": [
+    "governance-needs",
+    "starting-summary"
+  ],
+  "classification": "Curated editorial teaching template; not a trained classifier or a product fact.",
+  "required_pattern_slots": [
+    [
+      "goal",
+      "need_a",
+      "need_b",
+      "need_c"
+    ],
+    [
+      "concern_a",
+      "concern_b",
+      "concern_c"
+    ]
+  ],
+  "filled_source_sentence_scaffolds": [
+    "We need Baseline Skills, Custom Workflows and Skill-Sharing Controls for A governed skill experience.",
+    "There are three distinct concerns: a common starting skill set, company-specific workflows and controlled distribution."
+  ],
+  "unbound_source_example_slots": [],
+  "representative_entry": "governance-needs",
+  "example_source_bindings": {
+    "needs": "Baseline Skills, Custom Workflows, Skill-Sharing Controls",
+    "concerns": "A common starting skill set, company-specific workflows and controlled distribution",
+    "goal": "A governed skill experience",
+    "need_a": "Baseline Skills",
+    "need_b": "Custom Workflows",
+    "need_c": "Skill-Sharing Controls",
+    "concern_a": "a common starting skill set",
+    "concern_b": "company-specific workflows",
+    "concern_c": "controlled distribution"
+  },
+  "paired_source_quote": "bit as to why this is very relevant? >> Yeah, I think we see demand for for a couple things. Um first is, you know, you want everyone to start with a baseline level of skills or everyone within a group to start with a baseline level of skills. Administrators who are ultimately responsible for people having a good experience with Genie want to ensure that they're set up for success. And part of that includes, if you've got, you know, company-specific workflows, making sure that Genie is set up with those workflows. We also see some demand for, you know, limiting or or controlling how people can share skills. So, for that, uh we'd welcome feedback from customers as they continue to see these roll outs. Um but, we're super open to to any and all sorts of governance around skills. All right. Um so, there's also kind of a",
+  "source_binding_status": "Editorial binding/paraphrase of source roles; raw transcript remains separately preserved. Do not treat bindings as word-for-word quotation."
+}

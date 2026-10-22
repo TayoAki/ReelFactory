@@ -1,0 +1,52 @@
+{
+  "id": "product-definition",
+  "relationship": "name \u2192 role \u2192 concrete capability",
+  "teaching_job": "Introduce a product or concept with one precise role before adding system detail.",
+  "transcript_patterns": [
+    "{{concept}} is {{category}} that {{capability}}.",
+    "You give {{system}} {{input}}; it helps you {{specific_job}}."
+  ],
+  "semantic_slots": [
+    "capability",
+    "category",
+    "concept",
+    "input",
+    "specific_job",
+    "system"
+  ],
+  "choose_when": "Use when the viewer needs a definition before a mechanism or example.",
+  "choose_something_else_when": "Do not use a logo reveal to explain an internal architecture.",
+  "motion_grammar": "Introduce the name and role; settle before expanding the surrounding context.",
+  "instances": [
+    "product-definition"
+  ],
+  "classification": "Curated editorial teaching template; not a trained classifier or a product fact.",
+  "required_pattern_slots": [
+    [
+      "capability",
+      "category",
+      "concept"
+    ],
+    [
+      "input",
+      "specific_job",
+      "system"
+    ]
+  ],
+  "filled_source_sentence_scaffolds": [
+    "Genie One is AI coworker for business users that Connects to data and tools, answers business questions and acts within existing governance.",
+    "You give Genie One Business request; it helps you Business questions and actions."
+  ],
+  "unbound_source_example_slots": [],
+  "representative_entry": "product-definition",
+  "example_source_bindings": {
+    "concept": "Genie One",
+    "category": "AI coworker for business users",
+    "capability": "Connects to data and tools, answers business questions and acts within existing governance",
+    "input": "Business request",
+    "specific_job": "Business questions and actions",
+    "system": "Genie One"
+  },
+  "paired_source_quote": "is. >> Yeah, absolutely. So, I come from the Genie 1 world. Genie 1 is our AI co-worker for business users. It It",
+  "source_binding_status": "Editorial binding/paraphrase of source roles; raw transcript remains separately preserved. Do not treat bindings as word-for-word quotation."
+}

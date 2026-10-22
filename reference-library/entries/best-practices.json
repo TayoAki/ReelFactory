@@ -1,0 +1,920 @@
+{
+  "id": "best-practices",
+  "index": 58,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 1957,
+  "source_end": 2044,
+  "source_timecode": "32:37.00\u201334:04.00",
+  "template_id": "fixed-emphasis",
+  "label": "Five fixed recommendations and advancing emphasis",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Preserve the complete recommendation set as the narrator advances focus.",
+  "relationship": "fixed recommendations \u2192 one active item",
+  "original_transcript": "monitoring rolling out as well as ontology monitoring. Now as you expand beyond um beyond your PRC, there are a couple best practices to keep in mind. It's actually going to be very similar to what I just said, but it's it's worth repeating because these are these are quite important. The first again is to build that benchmark set for your broader teams. Again, it's a representative collection of real questions with known good answers. You know, keep Genie accountable. Flag to your account teams if you see anything going off the rails. We investigate every single case that we get and and hopefully you'll find that that Genie's actually very strong in answering your business questions and and taking action. Second is to model those semantics that really matter. We're not saying model the entire business's institutional knowledge. We don't think that's possible. We would recommend leaning on the learned context for that, but we do recommend modeling the core that you want to have shared across the business or within a particular line of business. Third is to certify your gold assets. So, make sure that you've identified the tables, the dashboards, the queries, the notebooks that that every workflow actually requires and make sure that they're certified so that Genie prioritizes them when it's searching. It does respect that tag. And then finally, we recommend validating access to that data from your end user's perspective. So again, Genie always respects the permissions of the person who's asking the question. So of course, an asset isn't useful if your users can't see it. So you want to make sure that your users have access to the certified sources and the snippets that you expect Genie to actually use.",
+  "original_transcript_segments": [
+    {
+      "text": "monitoring rolling out as well as",
+      "start": 1954.24,
+      "end": 1958.2
+    },
+    {
+      "text": "ontology monitoring. Now as you expand",
+      "start": 1955.76,
+      "end": 1960.48
+    },
+    {
+      "text": "beyond um beyond your PRC, there are a",
+      "start": 1958.2,
+      "end": 1962.36
+    },
+    {
+      "text": "couple best practices to keep in mind.",
+      "start": 1960.48,
+      "end": 1963.28
+    },
+    {
+      "text": "It's actually going to be very similar",
+      "start": 1962.36,
+      "end": 1965.08
+    },
+    {
+      "text": "to what I just said, but it's it's worth",
+      "start": 1963.28,
+      "end": 1966.4
+    },
+    {
+      "text": "repeating because these are these are",
+      "start": 1965.08,
+      "end": 1968.48
+    },
+    {
+      "text": "quite important. The first again is to",
+      "start": 1966.4,
+      "end": 1969.92
+    },
+    {
+      "text": "build that benchmark set for your",
+      "start": 1968.48,
+      "end": 1971.2
+    },
+    {
+      "text": "broader teams. Again, it's a",
+      "start": 1969.92,
+      "end": 1973.28
+    },
+    {
+      "text": "representative collection of real",
+      "start": 1971.2,
+      "end": 1974.92
+    },
+    {
+      "text": "questions with known good answers. You",
+      "start": 1973.28,
+      "end": 1977.48
+    },
+    {
+      "text": "know, keep Genie accountable. Flag to",
+      "start": 1974.92,
+      "end": 1978.88
+    },
+    {
+      "text": "your account teams if you see anything",
+      "start": 1977.48,
+      "end": 1980.4
+    },
+    {
+      "text": "going off the rails. We investigate",
+      "start": 1978.88,
+      "end": 1982.92
+    },
+    {
+      "text": "every single case that we get and and",
+      "start": 1980.4,
+      "end": 1984.64
+    },
+    {
+      "text": "hopefully you'll find that that Genie's",
+      "start": 1982.92,
+      "end": 1986.32
+    },
+    {
+      "text": "actually very strong in answering your",
+      "start": 1984.64,
+      "end": 1987.8
+    },
+    {
+      "text": "business questions and and taking",
+      "start": 1986.32,
+      "end": 1990.4
+    },
+    {
+      "text": "action. Second is to model those",
+      "start": 1987.8,
+      "end": 1992.28
+    },
+    {
+      "text": "semantics that really matter. We're not",
+      "start": 1990.4,
+      "end": 1994.64
+    },
+    {
+      "text": "saying model the entire business's",
+      "start": 1992.28,
+      "end": 1996.24
+    },
+    {
+      "text": "institutional knowledge. We don't think",
+      "start": 1994.64,
+      "end": 1998.12
+    },
+    {
+      "text": "that's possible. We would recommend",
+      "start": 1996.24,
+      "end": 2000.44
+    },
+    {
+      "text": "leaning on the learned context for that,",
+      "start": 1998.12,
+      "end": 2002.64
+    },
+    {
+      "text": "but we do recommend modeling the core",
+      "start": 2000.44,
+      "end": 2004.32
+    },
+    {
+      "text": "that you want to have shared across the",
+      "start": 2002.64,
+      "end": 2006.0
+    },
+    {
+      "text": "business or within a particular line of",
+      "start": 2004.32,
+      "end": 2007.56
+    },
+    {
+      "text": "business.",
+      "start": 2006.0,
+      "end": 2009.56
+    },
+    {
+      "text": "Third is to certify your gold assets.",
+      "start": 2007.56,
+      "end": 2011.2
+    },
+    {
+      "text": "So, make sure that you've identified the",
+      "start": 2009.56,
+      "end": 2013.4
+    },
+    {
+      "text": "tables, the dashboards, the queries, the",
+      "start": 2011.2,
+      "end": 2015.92
+    },
+    {
+      "text": "notebooks that that every workflow",
+      "start": 2013.4,
+      "end": 2017.36
+    },
+    {
+      "text": "actually requires and make sure that",
+      "start": 2015.92,
+      "end": 2018.68
+    },
+    {
+      "text": "they're certified so that Genie",
+      "start": 2017.36,
+      "end": 2020.52
+    },
+    {
+      "text": "prioritizes them when it's searching. It",
+      "start": 2018.68,
+      "end": 2022.68
+    },
+    {
+      "text": "does respect that tag.",
+      "start": 2020.52,
+      "end": 2023.96
+    },
+    {
+      "text": "And then finally, we recommend",
+      "start": 2022.68,
+      "end": 2027.32
+    },
+    {
+      "text": "validating access to that data from your",
+      "start": 2023.96,
+      "end": 2029.36
+    },
+    {
+      "text": "end user's perspective. So again, Genie",
+      "start": 2027.32,
+      "end": 2031.16
+    },
+    {
+      "text": "always respects the permissions of the",
+      "start": 2029.36,
+      "end": 2033.04
+    },
+    {
+      "text": "person who's asking the question. So of",
+      "start": 2031.16,
+      "end": 2035.0
+    },
+    {
+      "text": "course, an asset isn't useful if your",
+      "start": 2033.04,
+      "end": 2036.56
+    },
+    {
+      "text": "users can't see it. So you want to make",
+      "start": 2035.0,
+      "end": 2038.76
+    },
+    {
+      "text": "sure that your users have access to the",
+      "start": 2036.56,
+      "end": 2040.44
+    },
+    {
+      "text": "certified sources",
+      "start": 2038.76,
+      "end": 2042.28
+    },
+    {
+      "text": "and the snippets that you expect Genie",
+      "start": 2040.44,
+      "end": 2044.44
+    },
+    {
+      "text": "to actually use.",
+      "start": 2042.28,
+      "end": 2045.64
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Walk through a complete recommendation set without changing its spatial organization.",
+  "parameterized_transcript_patterns": [
+    "First {{recommendation_a}}. Next {{recommendation_b}}. Finally {{recommendation_c}}.",
+    "For {{goal}}, check {{requirement}} because {{reason}}."
+  ],
+  "semantic_slots": [
+    "goal",
+    "reason",
+    "recommendation_a",
+    "recommendation_b",
+    "recommendation_c",
+    "recommendations",
+    "requirement"
+  ],
+  "selection_rule": "Use when scanning the whole recommendation set helps orientation.",
+  "better_alternative_or_misuse": "Do not fade inactive text below legibility or replace the list with unrelated slides.",
+  "motion_recipe": "Keep rows fixed and advance selective emphasis with the narrated topic; hold each active recommendation.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 1958,
+      "timecode": "32:38.00",
+      "images": {
+        "full_frame": "frames/full/0058740.jpg",
+        "graphic_region": "frames/graphic/0058740.jpg",
+        "requested_seconds": 1958,
+        "sample_frame": 58740,
+        "normalized_source_seconds": 1958.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "monitoring rolling out as well as",
+          "start": 1954.24,
+          "end": 1958.2
+        },
+        {
+          "text": "ontology monitoring. Now as you expand",
+          "start": 1955.76,
+          "end": 1960.48
+        },
+        {
+          "text": "beyond um beyond your PRC, there are a",
+          "start": 1958.2,
+          "end": 1962.36
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 1965,
+      "timecode": "32:45.00",
+      "images": {
+        "full_frame": "frames/full/0058950.jpg",
+        "graphic_region": "frames/graphic/0058950.jpg",
+        "requested_seconds": 1965,
+        "sample_frame": 58950,
+        "normalized_source_seconds": 1965.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "couple best practices to keep in mind.",
+          "start": 1960.48,
+          "end": 1963.28
+        },
+        {
+          "text": "It's actually going to be very similar",
+          "start": 1962.36,
+          "end": 1965.08
+        },
+        {
+          "text": "to what I just said, but it's it's worth",
+          "start": 1963.28,
+          "end": 1966.4
+        },
+        {
+          "text": "repeating because these are these are",
+          "start": 1965.08,
+          "end": 1968.48
+        },
+        {
+          "text": "quite important. The first again is to",
+          "start": 1966.4,
+          "end": 1969.92
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 1989.9,
+      "timecode": "33:09.90",
+      "images": {
+        "full_frame": "frames/full/0059697.jpg",
+        "graphic_region": "frames/graphic/0059697.jpg",
+        "requested_seconds": 1989.9,
+        "sample_frame": 59697,
+        "normalized_source_seconds": 1989.9,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "business questions and and taking",
+          "start": 1986.32,
+          "end": 1990.4
+        },
+        {
+          "text": "action. Second is to model those",
+          "start": 1987.8,
+          "end": 1992.28
+        },
+        {
+          "text": "semantics that really matter. We're not",
+          "start": 1990.4,
+          "end": 1994.64
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "intermediate observed state",
+      "time": 2008,
+      "timecode": "33:28.00",
+      "images": {
+        "full_frame": "frames/full/0060240.jpg",
+        "graphic_region": "frames/graphic/0060240.jpg",
+        "requested_seconds": 2008,
+        "sample_frame": 60240,
+        "normalized_source_seconds": 2008.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "business or within a particular line of",
+          "start": 2004.32,
+          "end": 2007.56
+        },
+        {
+          "text": "business.",
+          "start": 2006.0,
+          "end": 2009.56
+        },
+        {
+          "text": "Third is to certify your gold assets.",
+          "start": 2007.56,
+          "end": 2011.2
+        },
+        {
+          "text": "So, make sure that you've identified the",
+          "start": 2009.56,
+          "end": 2013.4
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-05",
+      "sequence_role": "intermediate observed state",
+      "time": 2020,
+      "timecode": "33:40.00",
+      "images": {
+        "full_frame": "frames/full/0060600.jpg",
+        "graphic_region": "frames/graphic/0060600.jpg",
+        "requested_seconds": 2020,
+        "sample_frame": 60600,
+        "normalized_source_seconds": 2020.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "actually requires and make sure that",
+          "start": 2015.92,
+          "end": 2018.68
+        },
+        {
+          "text": "they're certified so that Genie",
+          "start": 2017.36,
+          "end": 2020.52
+        },
+        {
+          "text": "prioritizes them when it's searching. It",
+          "start": 2018.68,
+          "end": 2022.68
+        },
+        {
+          "text": "does respect that tag.",
+          "start": 2020.52,
+          "end": 2023.96
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-06",
+      "sequence_role": "intermediate observed state",
+      "time": 2031,
+      "timecode": "33:51.00",
+      "images": {
+        "full_frame": "frames/full/0060930.jpg",
+        "graphic_region": "frames/graphic/0060930.jpg",
+        "requested_seconds": 2031,
+        "sample_frame": 60930,
+        "normalized_source_seconds": 2031.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "validating access to that data from your",
+          "start": 2023.96,
+          "end": 2029.36
+        },
+        {
+          "text": "end user's perspective. So again, Genie",
+          "start": 2027.32,
+          "end": 2031.16
+        },
+        {
+          "text": "always respects the permissions of the",
+          "start": 2029.36,
+          "end": 2033.04
+        },
+        {
+          "text": "person who's asking the question. So of",
+          "start": 2031.16,
+          "end": 2035.0
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-07",
+      "sequence_role": "later observed state",
+      "time": 2041,
+      "timecode": "34:01.00",
+      "images": {
+        "full_frame": "frames/full/0061230.jpg",
+        "graphic_region": "frames/graphic/0061230.jpg",
+        "requested_seconds": 2041,
+        "sample_frame": 61230,
+        "normalized_source_seconds": 2041.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "sure that your users have access to the",
+          "start": 2036.56,
+          "end": 2040.44
+        },
+        {
+          "text": "certified sources",
+          "start": 2038.76,
+          "end": 2042.28
+        },
+        {
+          "text": "and the snippets that you expect Genie",
+          "start": 2040.44,
+          "end": 2044.44
+        },
+        {
+          "text": "to actually use.",
+          "start": 2042.28,
+          "end": 2045.64
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 1957,
+      "nearby_original_transcript": [
+        {
+          "text": "to start to see more detailed Genie 1",
+          "start": 1952.16,
+          "end": 1955.76
+        },
+        {
+          "text": "monitoring rolling out as well as",
+          "start": 1954.24,
+          "end": 1958.2
+        },
+        {
+          "text": "ontology monitoring. Now as you expand",
+          "start": 1955.76,
+          "end": 1960.48
+        },
+        {
+          "text": "beyond um beyond your PRC, there are a",
+          "start": 1958.2,
+          "end": 1962.36
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0058710.jpg",
+          "graphic_region": "frames/graphic/0058710.jpg",
+          "requested_seconds": 1957,
+          "sample_frame": 58710,
+          "normalized_source_seconds": 1957.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0058718.jpg",
+          "graphic_region": "frames/graphic/0058718.jpg",
+          "requested_seconds": 1957.25,
+          "sample_frame": 58718,
+          "normalized_source_seconds": 1957.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0058740.jpg",
+          "graphic_region": "frames/graphic/0058740.jpg",
+          "requested_seconds": 1958,
+          "sample_frame": 58740,
+          "normalized_source_seconds": 1958.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1963,
+      "nearby_original_transcript": [
+        {
+          "text": "beyond um beyond your PRC, there are a",
+          "start": 1958.2,
+          "end": 1962.36
+        },
+        {
+          "text": "couple best practices to keep in mind.",
+          "start": 1960.48,
+          "end": 1963.28
+        },
+        {
+          "text": "It's actually going to be very similar",
+          "start": 1962.36,
+          "end": 1965.08
+        },
+        {
+          "text": "to what I just said, but it's it's worth",
+          "start": 1963.28,
+          "end": 1966.4
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0058882.jpg",
+          "graphic_region": "frames/graphic/0058882.jpg",
+          "requested_seconds": 1962.75,
+          "sample_frame": 58882,
+          "normalized_source_seconds": 1962.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0058898.jpg",
+          "graphic_region": "frames/graphic/0058898.jpg",
+          "requested_seconds": 1963.25,
+          "sample_frame": 58898,
+          "normalized_source_seconds": 1963.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0058920.jpg",
+          "graphic_region": "frames/graphic/0058920.jpg",
+          "requested_seconds": 1964,
+          "sample_frame": 58920,
+          "normalized_source_seconds": 1964.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1989.733,
+      "nearby_original_transcript": [
+        {
+          "text": "actually very strong in answering your",
+          "start": 1984.64,
+          "end": 1987.8
+        },
+        {
+          "text": "business questions and and taking",
+          "start": 1986.32,
+          "end": 1990.4
+        },
+        {
+          "text": "action. Second is to model those",
+          "start": 1987.8,
+          "end": 1992.28
+        },
+        {
+          "text": "semantics that really matter. We're not",
+          "start": 1990.4,
+          "end": 1994.64
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0059684.jpg",
+          "graphic_region": "frames/graphic/0059684.jpg",
+          "requested_seconds": 1989.483,
+          "sample_frame": 59684,
+          "normalized_source_seconds": 1989.4666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0059699.jpg",
+          "graphic_region": "frames/graphic/0059699.jpg",
+          "requested_seconds": 1989.983,
+          "sample_frame": 59699,
+          "normalized_source_seconds": 1989.9666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0059722.jpg",
+          "graphic_region": "frames/graphic/0059722.jpg",
+          "requested_seconds": 1990.733,
+          "sample_frame": 59722,
+          "normalized_source_seconds": 1990.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 2006,
+      "nearby_original_transcript": [
+        {
+          "text": "but we do recommend modeling the core",
+          "start": 2000.44,
+          "end": 2004.32
+        },
+        {
+          "text": "that you want to have shared across the",
+          "start": 2002.64,
+          "end": 2006.0
+        },
+        {
+          "text": "business or within a particular line of",
+          "start": 2004.32,
+          "end": 2007.56
+        },
+        {
+          "text": "business.",
+          "start": 2006.0,
+          "end": 2009.56
+        },
+        {
+          "text": "Third is to certify your gold assets.",
+          "start": 2007.56,
+          "end": 2011.2
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0060172.jpg",
+          "graphic_region": "frames/graphic/0060172.jpg",
+          "requested_seconds": 2005.75,
+          "sample_frame": 60172,
+          "normalized_source_seconds": 2005.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0060188.jpg",
+          "graphic_region": "frames/graphic/0060188.jpg",
+          "requested_seconds": 2006.25,
+          "sample_frame": 60188,
+          "normalized_source_seconds": 2006.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0060210.jpg",
+          "graphic_region": "frames/graphic/0060210.jpg",
+          "requested_seconds": 2007,
+          "sample_frame": 60210,
+          "normalized_source_seconds": 2007.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 2019,
+      "nearby_original_transcript": [
+        {
+          "text": "notebooks that that every workflow",
+          "start": 2013.4,
+          "end": 2017.36
+        },
+        {
+          "text": "actually requires and make sure that",
+          "start": 2015.92,
+          "end": 2018.68
+        },
+        {
+          "text": "they're certified so that Genie",
+          "start": 2017.36,
+          "end": 2020.52
+        },
+        {
+          "text": "prioritizes them when it's searching. It",
+          "start": 2018.68,
+          "end": 2022.68
+        },
+        {
+          "text": "does respect that tag.",
+          "start": 2020.52,
+          "end": 2023.96
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0060562.jpg",
+          "graphic_region": "frames/graphic/0060562.jpg",
+          "requested_seconds": 2018.75,
+          "sample_frame": 60562,
+          "normalized_source_seconds": 2018.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0060578.jpg",
+          "graphic_region": "frames/graphic/0060578.jpg",
+          "requested_seconds": 2019.25,
+          "sample_frame": 60578,
+          "normalized_source_seconds": 2019.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0060600.jpg",
+          "graphic_region": "frames/graphic/0060600.jpg",
+          "requested_seconds": 2020,
+          "sample_frame": 60600,
+          "normalized_source_seconds": 2020.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 2029,
+      "nearby_original_transcript": [
+        {
+          "text": "And then finally, we recommend",
+          "start": 2022.68,
+          "end": 2027.32
+        },
+        {
+          "text": "validating access to that data from your",
+          "start": 2023.96,
+          "end": 2029.36
+        },
+        {
+          "text": "end user's perspective. So again, Genie",
+          "start": 2027.32,
+          "end": 2031.16
+        },
+        {
+          "text": "always respects the permissions of the",
+          "start": 2029.36,
+          "end": 2033.04
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0060862.jpg",
+          "graphic_region": "frames/graphic/0060862.jpg",
+          "requested_seconds": 2028.75,
+          "sample_frame": 60862,
+          "normalized_source_seconds": 2028.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0060878.jpg",
+          "graphic_region": "frames/graphic/0060878.jpg",
+          "requested_seconds": 2029.25,
+          "sample_frame": 60878,
+          "normalized_source_seconds": 2029.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0060900.jpg",
+          "graphic_region": "frames/graphic/0060900.jpg",
+          "requested_seconds": 2030,
+          "sample_frame": 60900,
+          "normalized_source_seconds": 2030.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "27-best-practices",
+      "observed_state_pattern": "Complete numbered list \u2192 one active item \u2192 emphasis switches \u2192 final item.",
+      "persistent_context": "All item positions and numbering remain fixed.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0061230.jpg",
+      "frames/graphic/0058740.jpg",
+      "frames/graphic/0060240.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0061230.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "reading_order": [
+      "Build a benchmark set",
+      "Model critical semantics",
+      "Certify gold assets",
+      "Connect your sources",
+      "Validate access end to end"
+    ],
+    "observed_reveal_order": [
+      "Full recommendation list stays in fixed positions",
+      "Selective emphasis advances to the active recommendation",
+      "Inactive rows remain as context"
+    ],
+    "speech_mapping": "Emphasis follows the narrated recommendation; the visible list includes an item that is not separately enumerated in the rolling transcript. Do not invent a new spoken sentence to force a one-to-one list match.",
+    "confidence": "Direct inspection of the source list and source frame at 2019 seconds, plus prior dense emphasis evidence."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

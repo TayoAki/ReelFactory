@@ -1,0 +1,982 @@
+{
+  "id": "connector-network",
+  "index": 27,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 604,
+  "source_end": 679,
+  "source_timecode": "10:04.00\u201311:19.00",
+  "template_id": "converging-sources",
+  "label": "SQL, tools and indexed search routes",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Explain distinct access routes with a shared consumer and explicit source classes.",
+  "relationship": "many inputs \u2192 shared hub",
+  "original_transcript": "into the product. Um for data that lives in in third-party applications, maybe that you want to query live instead of pulling it in and running that text to SQL, we also have uh MCP connectors. Again, they query live. So, you're getting things like the status of a Jira ticket, uh the status of a lead in Salesforce. It's really good for things like that. Uh we have, you know, maybe a dozen a dozen plus um of those MCP connectors. You can hook up a custom connector, and we're planning to to add quite a bit more here. But, when you want to ask a question across a much larger volume of data um or across a lot of sources at once, a bit of a harder question, you need a little bit more horsepower than MCP. Uh and that's what we're building with the search index. It retrieves and ranks everything together instead of leaning on each provider's siloed search capabilities. And it also feeds the ontology. Uh so, we are ensuring that your your tickets and your wikis, whatever it may be, become part of Genie's context. And just as importantly, we enforce the the sources' permissions. So, for example, you're not seeing emails in Genie that you don't actually have access to in your inbox. And that's a big deal because recreating source permissions in Unity Catalog is a is a pretty hard problem.",
+  "original_transcript_segments": [
+    {
+      "text": "into the product. Um for data that lives",
+      "start": 600.88,
+      "end": 606.36
+    },
+    {
+      "text": "in in third-party applications, maybe",
+      "start": 604.0,
+      "end": 608.52
+    },
+    {
+      "text": "that you want to query live instead of",
+      "start": 606.36,
+      "end": 610.16
+    },
+    {
+      "text": "pulling it in and running that text to",
+      "start": 608.52,
+      "end": 613.76
+    },
+    {
+      "text": "SQL, we also have uh MCP connectors.",
+      "start": 610.16,
+      "end": 614.92
+    },
+    {
+      "text": "Again, they query live. So, you're",
+      "start": 613.76,
+      "end": 616.52
+    },
+    {
+      "text": "getting things like the status of a Jira",
+      "start": 614.92,
+      "end": 619.28
+    },
+    {
+      "text": "ticket, uh the status of a lead in",
+      "start": 616.52,
+      "end": 620.8
+    },
+    {
+      "text": "Salesforce. It's really good for things",
+      "start": 619.28,
+      "end": 622.92
+    },
+    {
+      "text": "like that. Uh we have, you know, maybe a",
+      "start": 620.8,
+      "end": 626.0
+    },
+    {
+      "text": "dozen a dozen plus um of those MCP",
+      "start": 622.92,
+      "end": 627.32
+    },
+    {
+      "text": "connectors. You can hook up a custom",
+      "start": 626.0,
+      "end": 629.56
+    },
+    {
+      "text": "connector, and we're planning to to add",
+      "start": 627.32,
+      "end": 631.6
+    },
+    {
+      "text": "quite a bit more here. But, when you",
+      "start": 629.56,
+      "end": 633.68
+    },
+    {
+      "text": "want to ask a question across a much",
+      "start": 631.6,
+      "end": 636.36
+    },
+    {
+      "text": "larger volume of data um",
+      "start": 633.68,
+      "end": 638.48
+    },
+    {
+      "text": "or across a lot of sources at once, a",
+      "start": 636.36,
+      "end": 640.32
+    },
+    {
+      "text": "bit of a harder question, you need a",
+      "start": 638.48,
+      "end": 643.24
+    },
+    {
+      "text": "little bit more horsepower than MCP. Uh",
+      "start": 640.32,
+      "end": 645.0
+    },
+    {
+      "text": "and that's what we're building with the",
+      "start": 643.24,
+      "end": 647.2
+    },
+    {
+      "text": "search index. It retrieves and ranks",
+      "start": 645.0,
+      "end": 649.48
+    },
+    {
+      "text": "everything together instead of leaning",
+      "start": 647.2,
+      "end": 652.36
+    },
+    {
+      "text": "on each provider's siloed search",
+      "start": 649.48,
+      "end": 653.88
+    },
+    {
+      "text": "capabilities. And it also feeds the",
+      "start": 652.36,
+      "end": 656.52
+    },
+    {
+      "text": "ontology. Uh so, we are",
+      "start": 653.88,
+      "end": 659.12
+    },
+    {
+      "text": "ensuring that your your tickets and your",
+      "start": 656.52,
+      "end": 661.04
+    },
+    {
+      "text": "wikis, whatever it may be, become part",
+      "start": 659.12,
+      "end": 663.32
+    },
+    {
+      "text": "of Genie's context. And just as",
+      "start": 661.04,
+      "end": 666.2
+    },
+    {
+      "text": "importantly, we enforce the the sources'",
+      "start": 663.32,
+      "end": 668.36
+    },
+    {
+      "text": "permissions. So, for example, you're not",
+      "start": 666.2,
+      "end": 670.24
+    },
+    {
+      "text": "seeing emails in Genie that you don't",
+      "start": 668.36,
+      "end": 672.24
+    },
+    {
+      "text": "actually have access to in your inbox.",
+      "start": 670.24,
+      "end": 674.44
+    },
+    {
+      "text": "And that's a big deal because recreating",
+      "start": 672.24,
+      "end": 676.4
+    },
+    {
+      "text": "source permissions in Unity Catalog is a",
+      "start": 674.44,
+      "end": 679.64
+    },
+    {
+      "text": "is a pretty hard problem.",
+      "start": 676.4,
+      "end": 679.64
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Show several distinct sources contributing context or capabilities to one named consumer.",
+  "parameterized_transcript_patterns": [
+    "{{consumer}} draws on {{source_a}}, {{source_b}} and {{source_c}} to {{job}}.",
+    "These inputs differ, but they contribute to the same {{shared_layer}}."
+  ],
+  "semantic_slots": [
+    "consumer",
+    "job",
+    "shared_layer",
+    "source_a",
+    "source_b",
+    "source_c",
+    "sources"
+  ],
+  "selection_rule": "Use when the distinction among source classes matters and they share a real destination.",
+  "better_alternative_or_misuse": "Use a list for unrelated items; label search/query/tool access rather than implying data ingestion.",
+  "motion_recipe": "Add sources individually, retain earlier nodes, draw each path, then activate the hub.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 604.2,
+      "timecode": "10:04.20",
+      "images": {
+        "full_frame": "frames/full/0018126.jpg",
+        "graphic_region": "frames/graphic/0018126.jpg",
+        "requested_seconds": 604.2,
+        "sample_frame": 18126,
+        "normalized_source_seconds": 604.2,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "for that idea. That That went straight",
+          "start": 599.6,
+          "end": 604.0
+        },
+        {
+          "text": "into the product. Um for data that lives",
+          "start": 600.88,
+          "end": 606.36
+        },
+        {
+          "text": "in in third-party applications, maybe",
+          "start": 604.0,
+          "end": 608.52
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 610,
+      "timecode": "10:10.00",
+      "images": {
+        "full_frame": "frames/full/0018300.jpg",
+        "graphic_region": "frames/graphic/0018300.jpg",
+        "requested_seconds": 610,
+        "sample_frame": 18300,
+        "normalized_source_seconds": 610.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "in in third-party applications, maybe",
+          "start": 604.0,
+          "end": 608.52
+        },
+        {
+          "text": "that you want to query live instead of",
+          "start": 606.36,
+          "end": 610.16
+        },
+        {
+          "text": "pulling it in and running that text to",
+          "start": 608.52,
+          "end": 613.76
+        },
+        {
+          "text": "SQL, we also have uh MCP connectors.",
+          "start": 610.16,
+          "end": 614.92
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 616,
+      "timecode": "10:16.00",
+      "images": {
+        "full_frame": "frames/full/0018480.jpg",
+        "graphic_region": "frames/graphic/0018480.jpg",
+        "requested_seconds": 616,
+        "sample_frame": 18480,
+        "normalized_source_seconds": 616.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "SQL, we also have uh MCP connectors.",
+          "start": 610.16,
+          "end": 614.92
+        },
+        {
+          "text": "Again, they query live. So, you're",
+          "start": 613.76,
+          "end": 616.52
+        },
+        {
+          "text": "getting things like the status of a Jira",
+          "start": 614.92,
+          "end": 619.28
+        },
+        {
+          "text": "ticket, uh the status of a lead in",
+          "start": 616.52,
+          "end": 620.8
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "intermediate observed state",
+      "time": 625,
+      "timecode": "10:25.00",
+      "images": {
+        "full_frame": "frames/full/0018750.jpg",
+        "graphic_region": "frames/graphic/0018750.jpg",
+        "requested_seconds": 625,
+        "sample_frame": 18750,
+        "normalized_source_seconds": 625.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "like that. Uh we have, you know, maybe a",
+          "start": 620.8,
+          "end": 626.0
+        },
+        {
+          "text": "dozen a dozen plus um of those MCP",
+          "start": 622.92,
+          "end": 627.32
+        },
+        {
+          "text": "connectors. You can hook up a custom",
+          "start": 626.0,
+          "end": 629.56
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-05",
+      "sequence_role": "intermediate observed state",
+      "time": 645,
+      "timecode": "10:45.00",
+      "images": {
+        "full_frame": "frames/full/0019350.jpg",
+        "graphic_region": "frames/graphic/0019350.jpg",
+        "requested_seconds": 645,
+        "sample_frame": 19350,
+        "normalized_source_seconds": 645.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "bit of a harder question, you need a",
+          "start": 638.48,
+          "end": 643.24
+        },
+        {
+          "text": "little bit more horsepower than MCP. Uh",
+          "start": 640.32,
+          "end": 645.0
+        },
+        {
+          "text": "and that's what we're building with the",
+          "start": 643.24,
+          "end": 647.2
+        },
+        {
+          "text": "search index. It retrieves and ranks",
+          "start": 645.0,
+          "end": 649.48
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-06",
+      "sequence_role": "intermediate observed state",
+      "time": 653,
+      "timecode": "10:53.00",
+      "images": {
+        "full_frame": "frames/full/0019590.jpg",
+        "graphic_region": "frames/graphic/0019590.jpg",
+        "requested_seconds": 653,
+        "sample_frame": 19590,
+        "normalized_source_seconds": 653.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "everything together instead of leaning",
+          "start": 647.2,
+          "end": 652.36
+        },
+        {
+          "text": "on each provider's siloed search",
+          "start": 649.48,
+          "end": 653.88
+        },
+        {
+          "text": "capabilities. And it also feeds the",
+          "start": 652.36,
+          "end": 656.52
+        },
+        {
+          "text": "ontology. Uh so, we are",
+          "start": 653.88,
+          "end": 659.12
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-07",
+      "sequence_role": "later observed state",
+      "time": 674,
+      "timecode": "11:14.00",
+      "images": {
+        "full_frame": "frames/full/0020220.jpg",
+        "graphic_region": "frames/graphic/0020220.jpg",
+        "requested_seconds": 674,
+        "sample_frame": 20220,
+        "normalized_source_seconds": 674.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "seeing emails in Genie that you don't",
+          "start": 668.36,
+          "end": 672.24
+        },
+        {
+          "text": "actually have access to in your inbox.",
+          "start": 670.24,
+          "end": 674.44
+        },
+        {
+          "text": "And that's a big deal because recreating",
+          "start": 672.24,
+          "end": 676.4
+        },
+        {
+          "text": "source permissions in Unity Catalog is a",
+          "start": 674.44,
+          "end": 679.64
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 604,
+      "nearby_original_transcript": [
+        {
+          "text": "for that idea. That That went straight",
+          "start": 599.6,
+          "end": 604.0
+        },
+        {
+          "text": "into the product. Um for data that lives",
+          "start": 600.88,
+          "end": 606.36
+        },
+        {
+          "text": "in in third-party applications, maybe",
+          "start": 604.0,
+          "end": 608.52
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0018120.jpg",
+          "graphic_region": "frames/graphic/0018120.jpg",
+          "requested_seconds": 604,
+          "sample_frame": 18120,
+          "normalized_source_seconds": 604.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0018128.jpg",
+          "graphic_region": "frames/graphic/0018128.jpg",
+          "requested_seconds": 604.25,
+          "sample_frame": 18128,
+          "normalized_source_seconds": 604.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0018150.jpg",
+          "graphic_region": "frames/graphic/0018150.jpg",
+          "requested_seconds": 605,
+          "sample_frame": 18150,
+          "normalized_source_seconds": 605.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 610,
+      "nearby_original_transcript": [
+        {
+          "text": "in in third-party applications, maybe",
+          "start": 604.0,
+          "end": 608.52
+        },
+        {
+          "text": "that you want to query live instead of",
+          "start": 606.36,
+          "end": 610.16
+        },
+        {
+          "text": "pulling it in and running that text to",
+          "start": 608.52,
+          "end": 613.76
+        },
+        {
+          "text": "SQL, we also have uh MCP connectors.",
+          "start": 610.16,
+          "end": 614.92
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0018292.jpg",
+          "graphic_region": "frames/graphic/0018292.jpg",
+          "requested_seconds": 609.75,
+          "sample_frame": 18292,
+          "normalized_source_seconds": 609.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0018308.jpg",
+          "graphic_region": "frames/graphic/0018308.jpg",
+          "requested_seconds": 610.25,
+          "sample_frame": 18308,
+          "normalized_source_seconds": 610.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0018330.jpg",
+          "graphic_region": "frames/graphic/0018330.jpg",
+          "requested_seconds": 611,
+          "sample_frame": 18330,
+          "normalized_source_seconds": 611.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 615,
+      "nearby_original_transcript": [
+        {
+          "text": "pulling it in and running that text to",
+          "start": 608.52,
+          "end": 613.76
+        },
+        {
+          "text": "SQL, we also have uh MCP connectors.",
+          "start": 610.16,
+          "end": 614.92
+        },
+        {
+          "text": "Again, they query live. So, you're",
+          "start": 613.76,
+          "end": 616.52
+        },
+        {
+          "text": "getting things like the status of a Jira",
+          "start": 614.92,
+          "end": 619.28
+        },
+        {
+          "text": "ticket, uh the status of a lead in",
+          "start": 616.52,
+          "end": 620.8
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0018442.jpg",
+          "graphic_region": "frames/graphic/0018442.jpg",
+          "requested_seconds": 614.75,
+          "sample_frame": 18442,
+          "normalized_source_seconds": 614.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0018458.jpg",
+          "graphic_region": "frames/graphic/0018458.jpg",
+          "requested_seconds": 615.25,
+          "sample_frame": 18458,
+          "normalized_source_seconds": 615.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0018480.jpg",
+          "graphic_region": "frames/graphic/0018480.jpg",
+          "requested_seconds": 616,
+          "sample_frame": 18480,
+          "normalized_source_seconds": 616.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 624,
+      "nearby_original_transcript": [
+        {
+          "text": "Salesforce. It's really good for things",
+          "start": 619.28,
+          "end": 622.92
+        },
+        {
+          "text": "like that. Uh we have, you know, maybe a",
+          "start": 620.8,
+          "end": 626.0
+        },
+        {
+          "text": "dozen a dozen plus um of those MCP",
+          "start": 622.92,
+          "end": 627.32
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0018712.jpg",
+          "graphic_region": "frames/graphic/0018712.jpg",
+          "requested_seconds": 623.75,
+          "sample_frame": 18712,
+          "normalized_source_seconds": 623.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0018728.jpg",
+          "graphic_region": "frames/graphic/0018728.jpg",
+          "requested_seconds": 624.25,
+          "sample_frame": 18728,
+          "normalized_source_seconds": 624.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0018750.jpg",
+          "graphic_region": "frames/graphic/0018750.jpg",
+          "requested_seconds": 625,
+          "sample_frame": 18750,
+          "normalized_source_seconds": 625.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 636,
+      "nearby_original_transcript": [
+        {
+          "text": "want to ask a question across a much",
+          "start": 631.6,
+          "end": 636.36
+        },
+        {
+          "text": "larger volume of data um",
+          "start": 633.68,
+          "end": 638.48
+        },
+        {
+          "text": "or across a lot of sources at once, a",
+          "start": 636.36,
+          "end": 640.32
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0019072.jpg",
+          "graphic_region": "frames/graphic/0019072.jpg",
+          "requested_seconds": 635.75,
+          "sample_frame": 19072,
+          "normalized_source_seconds": 635.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0019088.jpg",
+          "graphic_region": "frames/graphic/0019088.jpg",
+          "requested_seconds": 636.25,
+          "sample_frame": 19088,
+          "normalized_source_seconds": 636.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0019110.jpg",
+          "graphic_region": "frames/graphic/0019110.jpg",
+          "requested_seconds": 637,
+          "sample_frame": 19110,
+          "normalized_source_seconds": 637.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 644,
+      "nearby_original_transcript": [
+        {
+          "text": "bit of a harder question, you need a",
+          "start": 638.48,
+          "end": 643.24
+        },
+        {
+          "text": "little bit more horsepower than MCP. Uh",
+          "start": 640.32,
+          "end": 645.0
+        },
+        {
+          "text": "and that's what we're building with the",
+          "start": 643.24,
+          "end": 647.2
+        },
+        {
+          "text": "search index. It retrieves and ranks",
+          "start": 645.0,
+          "end": 649.48
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0019312.jpg",
+          "graphic_region": "frames/graphic/0019312.jpg",
+          "requested_seconds": 643.75,
+          "sample_frame": 19312,
+          "normalized_source_seconds": 643.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0019328.jpg",
+          "graphic_region": "frames/graphic/0019328.jpg",
+          "requested_seconds": 644.25,
+          "sample_frame": 19328,
+          "normalized_source_seconds": 644.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0019350.jpg",
+          "graphic_region": "frames/graphic/0019350.jpg",
+          "requested_seconds": 645,
+          "sample_frame": 19350,
+          "normalized_source_seconds": 645.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 652,
+      "nearby_original_transcript": [
+        {
+          "text": "everything together instead of leaning",
+          "start": 647.2,
+          "end": 652.36
+        },
+        {
+          "text": "on each provider's siloed search",
+          "start": 649.48,
+          "end": 653.88
+        },
+        {
+          "text": "capabilities. And it also feeds the",
+          "start": 652.36,
+          "end": 656.52
+        },
+        {
+          "text": "ontology. Uh so, we are",
+          "start": 653.88,
+          "end": 659.12
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0019552.jpg",
+          "graphic_region": "frames/graphic/0019552.jpg",
+          "requested_seconds": 651.75,
+          "sample_frame": 19552,
+          "normalized_source_seconds": 651.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0019568.jpg",
+          "graphic_region": "frames/graphic/0019568.jpg",
+          "requested_seconds": 652.25,
+          "sample_frame": 19568,
+          "normalized_source_seconds": 652.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0019590.jpg",
+          "graphic_region": "frames/graphic/0019590.jpg",
+          "requested_seconds": 653,
+          "sample_frame": 19590,
+          "normalized_source_seconds": 653.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 660,
+      "nearby_original_transcript": [
+        {
+          "text": "ontology. Uh so, we are",
+          "start": 653.88,
+          "end": 659.12
+        },
+        {
+          "text": "ensuring that your your tickets and your",
+          "start": 656.52,
+          "end": 661.04
+        },
+        {
+          "text": "wikis, whatever it may be, become part",
+          "start": 659.12,
+          "end": 663.32
+        },
+        {
+          "text": "of Genie's context. And just as",
+          "start": 661.04,
+          "end": 666.2
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0019792.jpg",
+          "graphic_region": "frames/graphic/0019792.jpg",
+          "requested_seconds": 659.75,
+          "sample_frame": 19792,
+          "normalized_source_seconds": 659.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0019808.jpg",
+          "graphic_region": "frames/graphic/0019808.jpg",
+          "requested_seconds": 660.25,
+          "sample_frame": 19808,
+          "normalized_source_seconds": 660.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0019830.jpg",
+          "graphic_region": "frames/graphic/0019830.jpg",
+          "requested_seconds": 661,
+          "sample_frame": 19830,
+          "normalized_source_seconds": 661.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 670,
+      "nearby_original_transcript": [
+        {
+          "text": "importantly, we enforce the the sources'",
+          "start": 663.32,
+          "end": 668.36
+        },
+        {
+          "text": "permissions. So, for example, you're not",
+          "start": 666.2,
+          "end": 670.24
+        },
+        {
+          "text": "seeing emails in Genie that you don't",
+          "start": 668.36,
+          "end": 672.24
+        },
+        {
+          "text": "actually have access to in your inbox.",
+          "start": 670.24,
+          "end": 674.44
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0020092.jpg",
+          "graphic_region": "frames/graphic/0020092.jpg",
+          "requested_seconds": 669.75,
+          "sample_frame": 20092,
+          "normalized_source_seconds": 669.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0020108.jpg",
+          "graphic_region": "frames/graphic/0020108.jpg",
+          "requested_seconds": 670.25,
+          "sample_frame": 20108,
+          "normalized_source_seconds": 670.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0020130.jpg",
+          "graphic_region": "frames/graphic/0020130.jpg",
+          "requested_seconds": 671,
+          "sample_frame": 20130,
+          "normalized_source_seconds": 671.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "12-connectors",
+      "observed_state_pattern": "Integration categories \u2192 retained data hub \u2192 logos/routes \u2192 query/result path.",
+      "persistent_context": "Thin rounded routes attach to stable endpoints; presenter stays independent.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0020220.jpg",
+      "frames/graphic/0018126.jpg",
+      "frames/graphic/0018750.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0020220.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

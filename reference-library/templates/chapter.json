@@ -1,0 +1,46 @@
+{
+  "id": "chapter",
+  "relationship": "chapter transition",
+  "teaching_job": "Reset attention as the narration changes sections.",
+  "transcript_patterns": [
+    "Now let\u2019s look at {{next_section}}.",
+    "We have covered {{previous_topic}}; next is {{next_topic}}."
+  ],
+  "semantic_slots": [
+    "next_section",
+    "next_topic",
+    "previous_topic"
+  ],
+  "choose_when": "Use for a real structural transition.",
+  "choose_something_else_when": "A chapter title is navigation, not an explanatory mechanism.",
+  "motion_grammar": "Brief clear title hold, then transition to the next teaching surface.",
+  "instances": [
+    "demo-one-title",
+    "outcomes-title",
+    "demo-two-title",
+    "getting-started-title"
+  ],
+  "classification": "Curated editorial teaching template; not a trained classifier or a product fact.",
+  "required_pattern_slots": [
+    [
+      "next_section"
+    ],
+    [
+      "next_topic",
+      "previous_topic"
+    ]
+  ],
+  "filled_source_sentence_scaffolds": [
+    "Now let\u2019s look at From answers to outcomes.",
+    "We have covered Answers and contextual understanding; next is Actions and workflows."
+  ],
+  "unbound_source_example_slots": [],
+  "representative_entry": "outcomes-title",
+  "example_source_bindings": {
+    "next_section": "From answers to outcomes",
+    "previous_topic": "Answers and contextual understanding",
+    "next_topic": "Actions and workflows"
+  },
+  "paired_source_quote": "want to do something with the data? >> Yeah, I think that's a good point. It's important that Genie evolve from just doing Q&A into actually becoming a co-worker. So, we're building out a lot in this space. I think we started with the ontology because, frankly, I think that's where the differentiation comes from, but we are also trying to build as much as possible on this co-working side",
+  "source_binding_status": "Editorial binding/paraphrase of source roles; raw transcript remains separately preserved. Do not treat bindings as word-for-word quotation."
+}

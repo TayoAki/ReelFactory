@@ -1,0 +1,394 @@
+{
+  "id": "churn-definition",
+  "index": 11,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 138,
+  "source_end": 147,
+  "source_timecode": "02:18.00\u201302:27.00",
+  "template_id": "metric-ambiguity",
+  "label": "Business-specific churn exclusions",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Show that the metric name alone does not specify the team\u2019s business definition.",
+  "relationship": "same term \u2192 missing rule \u2192 changed interpretation",
+  "original_transcript": "or if you ask for, you know, a churn rate, it might have no idea that your team excludes free metrics from that or even that the concept of a free met uh a free trial exists. Sorry, free trials. Uh or if you ask like, \"What campaign is",
+  "original_transcript_segments": [
+    {
+      "text": "or if you ask for, you know, a churn",
+      "start": 134.64,
+      "end": 138.6
+    },
+    {
+      "text": "rate, it might have no idea that your",
+      "start": 136.52,
+      "end": 140.84
+    },
+    {
+      "text": "team excludes free metrics from that or",
+      "start": 138.6,
+      "end": 142.959
+    },
+    {
+      "text": "even that the concept of a free met uh a",
+      "start": 140.84,
+      "end": 145.6
+    },
+    {
+      "text": "free trial exists. Sorry, free trials.",
+      "start": 142.959,
+      "end": 148.08
+    },
+    {
+      "text": "Uh or if you ask like, \"What campaign is",
+      "start": 145.6,
+      "end": 150.36
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Show how a business definition changes the meaning of a metric or question.",
+  "parameterized_transcript_patterns": [
+    "When we say {{metric}}, we mean {{definition}}, including {{included_population}} and excluding {{excluded_population}}.",
+    "Without {{business_rule}}, {{system}} interprets {{term}} differently from {{team}}."
+  ],
+  "semantic_slots": [
+    "business_rule",
+    "definition",
+    "excluded_population",
+    "included_population",
+    "metric",
+    "system",
+    "team",
+    "term"
+  ],
+  "selection_rule": "Use when scope, exclusions or semantics cause ambiguity.",
+  "better_alternative_or_misuse": "Use a source-authority graphic for choosing among tables; do not imply a definition alone repairs stale data.",
+  "motion_recipe": "Keep the question, introduce the missing rule beside the mechanism, and make the interpretation difference visible.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 138.2,
+      "timecode": "02:18.20",
+      "images": {
+        "full_frame": "frames/full/0004146.jpg",
+        "graphic_region": "frames/graphic/0004146.jpg",
+        "requested_seconds": 138.2,
+        "sample_frame": 4146,
+        "normalized_source_seconds": 138.2,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "one that finance actually maintains. Uh",
+          "start": 131.52,
+          "end": 136.52
+        },
+        {
+          "text": "or if you ask for, you know, a churn",
+          "start": 134.64,
+          "end": 138.6
+        },
+        {
+          "text": "rate, it might have no idea that your",
+          "start": 136.52,
+          "end": 140.84
+        },
+        {
+          "text": "team excludes free metrics from that or",
+          "start": 138.6,
+          "end": 142.959
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 140,
+      "timecode": "02:20.00",
+      "images": {
+        "full_frame": "frames/full/0004200.jpg",
+        "graphic_region": "frames/graphic/0004200.jpg",
+        "requested_seconds": 140,
+        "sample_frame": 4200,
+        "normalized_source_seconds": 140.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "or if you ask for, you know, a churn",
+          "start": 134.64,
+          "end": 138.6
+        },
+        {
+          "text": "rate, it might have no idea that your",
+          "start": 136.52,
+          "end": 140.84
+        },
+        {
+          "text": "team excludes free metrics from that or",
+          "start": 138.6,
+          "end": 142.959
+        },
+        {
+          "text": "even that the concept of a free met uh a",
+          "start": 140.84,
+          "end": 145.6
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 142,
+      "timecode": "02:22.00",
+      "images": {
+        "full_frame": "frames/full/0004260.jpg",
+        "graphic_region": "frames/graphic/0004260.jpg",
+        "requested_seconds": 142,
+        "sample_frame": 4260,
+        "normalized_source_seconds": 142.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "rate, it might have no idea that your",
+          "start": 136.52,
+          "end": 140.84
+        },
+        {
+          "text": "team excludes free metrics from that or",
+          "start": 138.6,
+          "end": 142.959
+        },
+        {
+          "text": "even that the concept of a free met uh a",
+          "start": 140.84,
+          "end": 145.6
+        },
+        {
+          "text": "free trial exists. Sorry, free trials.",
+          "start": 142.959,
+          "end": 148.08
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "intermediate observed state",
+      "time": 144.5,
+      "timecode": "02:24.50",
+      "images": {
+        "full_frame": "frames/full/0004335.jpg",
+        "graphic_region": "frames/graphic/0004335.jpg",
+        "requested_seconds": 144.5,
+        "sample_frame": 4335,
+        "normalized_source_seconds": 144.5,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "team excludes free metrics from that or",
+          "start": 138.6,
+          "end": 142.959
+        },
+        {
+          "text": "even that the concept of a free met uh a",
+          "start": 140.84,
+          "end": 145.6
+        },
+        {
+          "text": "free trial exists. Sorry, free trials.",
+          "start": 142.959,
+          "end": 148.08
+        },
+        {
+          "text": "Uh or if you ask like, \"What campaign is",
+          "start": 145.6,
+          "end": 150.36
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-05",
+      "sequence_role": "later observed state",
+      "time": 146.5,
+      "timecode": "02:26.50",
+      "images": {
+        "full_frame": "frames/full/0004395.jpg",
+        "graphic_region": "frames/graphic/0004395.jpg",
+        "requested_seconds": 146.5,
+        "sample_frame": 4395,
+        "normalized_source_seconds": 146.5,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "even that the concept of a free met uh a",
+          "start": 140.84,
+          "end": 145.6
+        },
+        {
+          "text": "free trial exists. Sorry, free trials.",
+          "start": 142.959,
+          "end": 148.08
+        },
+        {
+          "text": "Uh or if you ask like, \"What campaign is",
+          "start": 145.6,
+          "end": 150.36
+        },
+        {
+          "text": "is performing best?\" It might have no",
+          "start": 148.08,
+          "end": 152.48
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 138.5,
+      "nearby_original_transcript": [
+        {
+          "text": "one that finance actually maintains. Uh",
+          "start": 131.52,
+          "end": 136.52
+        },
+        {
+          "text": "or if you ask for, you know, a churn",
+          "start": 134.64,
+          "end": 138.6
+        },
+        {
+          "text": "rate, it might have no idea that your",
+          "start": 136.52,
+          "end": 140.84
+        },
+        {
+          "text": "team excludes free metrics from that or",
+          "start": 138.6,
+          "end": 142.959
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0004148.jpg",
+          "graphic_region": "frames/graphic/0004148.jpg",
+          "requested_seconds": 138.25,
+          "sample_frame": 4148,
+          "normalized_source_seconds": 138.26666666666668,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0004162.jpg",
+          "graphic_region": "frames/graphic/0004162.jpg",
+          "requested_seconds": 138.75,
+          "sample_frame": 4162,
+          "normalized_source_seconds": 138.73333333333332,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0004185.jpg",
+          "graphic_region": "frames/graphic/0004185.jpg",
+          "requested_seconds": 139.5,
+          "sample_frame": 4185,
+          "normalized_source_seconds": 139.5,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 143,
+      "nearby_original_transcript": [
+        {
+          "text": "team excludes free metrics from that or",
+          "start": 138.6,
+          "end": 142.959
+        },
+        {
+          "text": "even that the concept of a free met uh a",
+          "start": 140.84,
+          "end": 145.6
+        },
+        {
+          "text": "free trial exists. Sorry, free trials.",
+          "start": 142.959,
+          "end": 148.08
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0004282.jpg",
+          "graphic_region": "frames/graphic/0004282.jpg",
+          "requested_seconds": 142.75,
+          "sample_frame": 4282,
+          "normalized_source_seconds": 142.73333333333332,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0004298.jpg",
+          "graphic_region": "frames/graphic/0004298.jpg",
+          "requested_seconds": 143.25,
+          "sample_frame": 4298,
+          "normalized_source_seconds": 143.26666666666668,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0004320.jpg",
+          "graphic_region": "frames/graphic/0004320.jpg",
+          "requested_seconds": 144,
+          "sample_frame": 4320,
+          "normalized_source_seconds": 144.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "05-query-ambiguity",
+      "observed_state_pattern": "Business metric example \u2192 user question \u2192 rule/freshness problem \u2192 visible answer consequence.",
+      "persistent_context": "The relevant question and source route remain visible for each example.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0004395.jpg",
+      "frames/graphic/0004146.jpg",
+      "frames/graphic/0004260.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0004395.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

@@ -1,0 +1,317 @@
+{
+  "id": "outcomes-title",
+  "index": 36,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 1248,
+  "source_end": 1266,
+  "source_timecode": "20:48.00\u201321:06.00",
+  "template_id": "chapter",
+  "label": "From answers to outcomes",
+  "category": "chapter-navigation",
+  "teaching_intent": "Mark the move from answering to acting.",
+  "relationship": "chapter transition",
+  "original_transcript": "want to do something with the data? >> Yeah, I think that's a good point. It's important that Genie evolve from just doing Q&A into actually becoming a co-worker. So, we're building out a lot in this space. I think we started with the ontology because, frankly, I think that's where the differentiation comes from, but we are also trying to build as much as possible on this co-working side",
+  "original_transcript_segments": [
+    {
+      "text": "want to do",
+      "start": 1245.16,
+      "end": 1248.64
+    },
+    {
+      "text": "something with the data?",
+      "start": 1246.28,
+      "end": 1250.32
+    },
+    {
+      "text": ">> Yeah, I think that's a good point. It's",
+      "start": 1248.64,
+      "end": 1252.64
+    },
+    {
+      "text": "important that Genie evolve from just",
+      "start": 1250.32,
+      "end": 1255.4
+    },
+    {
+      "text": "doing Q&A into actually becoming a",
+      "start": 1252.64,
+      "end": 1257.48
+    },
+    {
+      "text": "co-worker. So, we're building out a lot",
+      "start": 1255.4,
+      "end": 1259.16
+    },
+    {
+      "text": "in this space. I think we started with",
+      "start": 1257.48,
+      "end": 1261.28
+    },
+    {
+      "text": "the ontology because, frankly, I think",
+      "start": 1259.16,
+      "end": 1262.52
+    },
+    {
+      "text": "that's where the differentiation comes",
+      "start": 1261.28,
+      "end": 1264.44
+    },
+    {
+      "text": "from, but we are also trying to build as",
+      "start": 1262.52,
+      "end": 1266.44
+    },
+    {
+      "text": "much as possible on this co-working side",
+      "start": 1264.44,
+      "end": 1267.52
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Reset attention as the narration changes sections.",
+  "parameterized_transcript_patterns": [
+    "Now let\u2019s look at {{next_section}}.",
+    "We have covered {{previous_topic}}; next is {{next_topic}}."
+  ],
+  "semantic_slots": [
+    "next_section",
+    "next_topic",
+    "previous_topic"
+  ],
+  "selection_rule": "Use for a real structural transition.",
+  "better_alternative_or_misuse": "A chapter title is navigation, not an explanatory mechanism.",
+  "motion_recipe": "Brief clear title hold, then transition to the next teaching surface.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 1248.3,
+      "timecode": "20:48.30",
+      "images": {
+        "full_frame": "frames/full/0037449.jpg",
+        "graphic_region": "frames/graphic/0037449.jpg",
+        "requested_seconds": 1248.3,
+        "sample_frame": 37449,
+        "normalized_source_seconds": 1248.3,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "want to do",
+          "start": 1245.16,
+          "end": 1248.64
+        },
+        {
+          "text": "something with the data?",
+          "start": 1246.28,
+          "end": 1250.32
+        },
+        {
+          "text": ">> Yeah, I think that's a good point. It's",
+          "start": 1248.64,
+          "end": 1252.64
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 1253,
+      "timecode": "20:53.00",
+      "images": {
+        "full_frame": "frames/full/0037590.jpg",
+        "graphic_region": "frames/graphic/0037590.jpg",
+        "requested_seconds": 1253,
+        "sample_frame": 37590,
+        "normalized_source_seconds": 1253.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": ">> Yeah, I think that's a good point. It's",
+          "start": 1248.64,
+          "end": 1252.64
+        },
+        {
+          "text": "important that Genie evolve from just",
+          "start": 1250.32,
+          "end": 1255.4
+        },
+        {
+          "text": "doing Q&A into actually becoming a",
+          "start": 1252.64,
+          "end": 1257.48
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 1260,
+      "timecode": "21:00.00",
+      "images": {
+        "full_frame": "frames/full/0037800.jpg",
+        "graphic_region": "frames/graphic/0037800.jpg",
+        "requested_seconds": 1260,
+        "sample_frame": 37800,
+        "normalized_source_seconds": 1260.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "co-worker. So, we're building out a lot",
+          "start": 1255.4,
+          "end": 1259.16
+        },
+        {
+          "text": "in this space. I think we started with",
+          "start": 1257.48,
+          "end": 1261.28
+        },
+        {
+          "text": "the ontology because, frankly, I think",
+          "start": 1259.16,
+          "end": 1262.52
+        },
+        {
+          "text": "that's where the differentiation comes",
+          "start": 1261.28,
+          "end": 1264.44
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "later observed state",
+      "time": 1265,
+      "timecode": "21:05.00",
+      "images": {
+        "full_frame": "frames/full/0037950.jpg",
+        "graphic_region": "frames/graphic/0037950.jpg",
+        "requested_seconds": 1265,
+        "sample_frame": 37950,
+        "normalized_source_seconds": 1265.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "that's where the differentiation comes",
+          "start": 1261.28,
+          "end": 1264.44
+        },
+        {
+          "text": "from, but we are also trying to build as",
+          "start": 1262.52,
+          "end": 1266.44
+        },
+        {
+          "text": "much as possible on this co-working side",
+          "start": 1264.44,
+          "end": 1267.52
+        },
+        {
+          "text": "as well.",
+          "start": 1266.44,
+          "end": 1268.72
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 1248,
+      "nearby_original_transcript": [
+        {
+          "text": "just looking at data and you actually",
+          "start": 1243.0,
+          "end": 1246.28
+        },
+        {
+          "text": "want to do",
+          "start": 1245.16,
+          "end": 1248.64
+        },
+        {
+          "text": "something with the data?",
+          "start": 1246.28,
+          "end": 1250.32
+        },
+        {
+          "text": ">> Yeah, I think that's a good point. It's",
+          "start": 1248.64,
+          "end": 1252.64
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0037440.jpg",
+          "graphic_region": "frames/graphic/0037440.jpg",
+          "requested_seconds": 1248,
+          "sample_frame": 37440,
+          "normalized_source_seconds": 1248.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0037448.jpg",
+          "graphic_region": "frames/graphic/0037448.jpg",
+          "requested_seconds": 1248.25,
+          "sample_frame": 37448,
+          "normalized_source_seconds": 1248.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0037470.jpg",
+          "graphic_region": "frames/graphic/0037470.jpg",
+          "requested_seconds": 1249,
+          "sample_frame": 37470,
+          "normalized_source_seconds": 1249.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "18-chapter-docs",
+      "observed_state_pattern": "Red chapter plate \u2192 left heading/points \u2192 document UI evidence.",
+      "persistent_context": "Shared viewport and presenter placement connect the chapter transition to its detail.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0037950.jpg",
+      "frames/graphic/0037449.jpg",
+      "frames/graphic/0037590.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0037950.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

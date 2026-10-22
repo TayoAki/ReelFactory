@@ -71,3 +71,8 @@ Source UI and narration are retained evidence. Diagram geometry and timing are a
 ## Current direction: image-first storyboards
 
 The previous full-video reconstruction was rejected as a design-quality baseline. Start with the [image-first process](storyboard-first/PROCESS.md) and [multi-image pilot](storyboard-first/review.html): analyze narration, generate a master still and coherent keyframe images, review the design, then reconstruct editable layers and animate them. Rendering coverage is not design approval.
+
+
+## Original-source reference library
+
+[Browse the source library and 25 teaching families](reference-library/README.md). The library includes 58 curated examples, original screenshots with transcript metadata, parameterized sentence scaffolds, selection/misuse rules, source-specific reveal observations and image-generation reference packets. Original reading direction and reveal order are recorded separately. Use this library before generating new image-first storyboards; the rejected reconstruction is not a style reference.

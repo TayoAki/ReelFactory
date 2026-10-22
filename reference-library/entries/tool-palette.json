@@ -1,0 +1,336 @@
+{
+  "id": "tool-palette",
+  "index": 38,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 1308,
+  "source_end": 1316,
+  "source_timecode": "21:48.00\u201321:56.00",
+  "template_id": "access-paths",
+  "label": "Third-party work tools",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Identify the destinations before explaining action and permissions.",
+  "relationship": "distinct access modes \u2192 different jobs",
+  "original_transcript": "a lot of demand for that, so we are building it. Now, documents might live inside of Genie, but of course, a lot of your work doesn't. So, I talked about MCPs to read in data, but of course, you can also use MCPs to write data.",
+  "original_transcript_segments": [
+    {
+      "text": "a lot of demand for that, so we are",
+      "start": 1305.12,
+      "end": 1308.08
+    },
+    {
+      "text": "building it.",
+      "start": 1306.28,
+      "end": 1309.6
+    },
+    {
+      "text": "Now, documents might live inside of",
+      "start": 1308.08,
+      "end": 1311.28
+    },
+    {
+      "text": "Genie, but of course, a lot of your work",
+      "start": 1309.6,
+      "end": 1313.52
+    },
+    {
+      "text": "doesn't. So, I talked about MCPs to read",
+      "start": 1311.28,
+      "end": 1315.64
+    },
+    {
+      "text": "in data, but of course, you can also use",
+      "start": 1313.52,
+      "end": 1317.92
+    },
+    {
+      "text": "MCPs to write data.",
+      "start": 1315.64,
+      "end": 1319.84
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Separate retrieval, live query and tool calls by the work each performs.",
+  "parameterized_transcript_patterns": [
+    "Use {{access_mode_a}} for {{job_a}}, and {{access_mode_b}} for {{job_b}}.",
+    "Finding an existing {{document}} differs from calculating {{answer}} over live {{data}}."
+  ],
+  "semantic_slots": [
+    "access_mode_a",
+    "access_mode_b",
+    "access_modes",
+    "answer",
+    "data",
+    "document",
+    "job_a",
+    "job_b",
+    "jobs"
+  ],
+  "selection_rule": "Use when superficially similar access paths have different semantics.",
+  "better_alternative_or_misuse": "A collage of logos cannot distinguish retrieval from execution or ingestion.",
+  "motion_recipe": "Introduce categories, demonstrate one contrast, then connect the supported paths to a shared consumer.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 1308.3,
+      "timecode": "21:48.30",
+      "images": {
+        "full_frame": "frames/full/0039249.jpg",
+        "graphic_region": "frames/graphic/0039249.jpg",
+        "requested_seconds": 1308.3,
+        "sample_frame": 39249,
+        "normalized_source_seconds": 1308.3,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "a lot of demand for that, so we are",
+          "start": 1305.12,
+          "end": 1308.08
+        },
+        {
+          "text": "building it.",
+          "start": 1306.28,
+          "end": 1309.6
+        },
+        {
+          "text": "Now, documents might live inside of",
+          "start": 1308.08,
+          "end": 1311.28
+        },
+        {
+          "text": "Genie, but of course, a lot of your work",
+          "start": 1309.6,
+          "end": 1313.52
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 1311,
+      "timecode": "21:51.00",
+      "images": {
+        "full_frame": "frames/full/0039330.jpg",
+        "graphic_region": "frames/graphic/0039330.jpg",
+        "requested_seconds": 1311,
+        "sample_frame": 39330,
+        "normalized_source_seconds": 1311.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "building it.",
+          "start": 1306.28,
+          "end": 1309.6
+        },
+        {
+          "text": "Now, documents might live inside of",
+          "start": 1308.08,
+          "end": 1311.28
+        },
+        {
+          "text": "Genie, but of course, a lot of your work",
+          "start": 1309.6,
+          "end": 1313.52
+        },
+        {
+          "text": "doesn't. So, I talked about MCPs to read",
+          "start": 1311.28,
+          "end": 1315.64
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "later observed state",
+      "time": 1315,
+      "timecode": "21:55.00",
+      "images": {
+        "full_frame": "frames/full/0039450.jpg",
+        "graphic_region": "frames/graphic/0039450.jpg",
+        "requested_seconds": 1315,
+        "sample_frame": 39450,
+        "normalized_source_seconds": 1315.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "Genie, but of course, a lot of your work",
+          "start": 1309.6,
+          "end": 1313.52
+        },
+        {
+          "text": "doesn't. So, I talked about MCPs to read",
+          "start": 1311.28,
+          "end": 1315.64
+        },
+        {
+          "text": "in data, but of course, you can also use",
+          "start": 1313.52,
+          "end": 1317.92
+        },
+        {
+          "text": "MCPs to write data.",
+          "start": 1315.64,
+          "end": 1319.84
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 1308,
+      "nearby_original_transcript": [
+        {
+          "text": "that's in Databricks, and we are seeing",
+          "start": 1303.04,
+          "end": 1306.28
+        },
+        {
+          "text": "a lot of demand for that, so we are",
+          "start": 1305.12,
+          "end": 1308.08
+        },
+        {
+          "text": "building it.",
+          "start": 1306.28,
+          "end": 1309.6
+        },
+        {
+          "text": "Now, documents might live inside of",
+          "start": 1308.08,
+          "end": 1311.28
+        },
+        {
+          "text": "Genie, but of course, a lot of your work",
+          "start": 1309.6,
+          "end": 1313.52
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0039240.jpg",
+          "graphic_region": "frames/graphic/0039240.jpg",
+          "requested_seconds": 1308,
+          "sample_frame": 39240,
+          "normalized_source_seconds": 1308.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0039248.jpg",
+          "graphic_region": "frames/graphic/0039248.jpg",
+          "requested_seconds": 1308.25,
+          "sample_frame": 39248,
+          "normalized_source_seconds": 1308.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0039270.jpg",
+          "graphic_region": "frames/graphic/0039270.jpg",
+          "requested_seconds": 1309,
+          "sample_frame": 39270,
+          "normalized_source_seconds": 1309.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1311,
+      "nearby_original_transcript": [
+        {
+          "text": "building it.",
+          "start": 1306.28,
+          "end": 1309.6
+        },
+        {
+          "text": "Now, documents might live inside of",
+          "start": 1308.08,
+          "end": 1311.28
+        },
+        {
+          "text": "Genie, but of course, a lot of your work",
+          "start": 1309.6,
+          "end": 1313.52
+        },
+        {
+          "text": "doesn't. So, I talked about MCPs to read",
+          "start": 1311.28,
+          "end": 1315.64
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0039322.jpg",
+          "graphic_region": "frames/graphic/0039322.jpg",
+          "requested_seconds": 1310.75,
+          "sample_frame": 39322,
+          "normalized_source_seconds": 1310.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0039338.jpg",
+          "graphic_region": "frames/graphic/0039338.jpg",
+          "requested_seconds": 1311.25,
+          "sample_frame": 39338,
+          "normalized_source_seconds": 1311.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0039360.jpg",
+          "graphic_region": "frames/graphic/0039360.jpg",
+          "requested_seconds": 1312,
+          "sample_frame": 39360,
+          "normalized_source_seconds": 1312.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "19-governed-actions",
+      "observed_state_pattern": "Evidence feature \u2192 action route \u2192 permissions/tools \u2192 saved reusable task.",
+      "persistent_context": "Keep action endpoints and permission markers attached to the route they constrain.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0039450.jpg",
+      "frames/graphic/0039249.jpg",
+      "frames/graphic/0039330.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0039450.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

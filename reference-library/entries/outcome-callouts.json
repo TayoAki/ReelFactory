@@ -1,0 +1,361 @@
+{
+  "id": "outcome-callouts",
+  "index": 35,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 1229,
+  "source_end": 1248,
+  "source_timecode": "20:29.00\u201320:48.00",
+  "template_id": "callout",
+  "label": "Visibility and business-context callouts",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Highlight the host\u2019s named concerns without inventing a mechanism.",
+  "relationship": "spoken concept \u2192 concise emphasis",
+  "original_transcript": "visibility perspective, from an understanding the business perspective, all of that descriptive analytics, if you will, in a much more tailored way. But what happens when you want to go from just looking at data and you actually want to do something with the data?",
+  "original_transcript_segments": [
+    {
+      "text": "visibility perspective, from an",
+      "start": 1225.48,
+      "end": 1230.44
+    },
+    {
+      "text": "understanding the business perspective,",
+      "start": 1228.4,
+      "end": 1232.0
+    },
+    {
+      "text": "all of that",
+      "start": 1230.44,
+      "end": 1234.28
+    },
+    {
+      "text": "descriptive analytics,",
+      "start": 1232.0,
+      "end": 1237.76
+    },
+    {
+      "text": "if you will, in a much more tailored",
+      "start": 1234.28,
+      "end": 1240.88
+    },
+    {
+      "text": "way. But what happens when you want to",
+      "start": 1237.76,
+      "end": 1243.0
+    },
+    {
+      "text": "go from",
+      "start": 1240.88,
+      "end": 1245.16
+    },
+    {
+      "text": "just looking at data and you actually",
+      "start": 1243.0,
+      "end": 1246.28
+    },
+    {
+      "text": "want to do",
+      "start": 1245.16,
+      "end": 1248.64
+    },
+    {
+      "text": "something with the data?",
+      "start": 1246.28,
+      "end": 1250.32
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Make a named phrase visible without adding an unspoken relationship.",
+  "parameterized_transcript_patterns": [
+    "The key idea is {{concept}}.",
+    "We need both {{concern_a}} and {{concern_b}}."
+  ],
+  "semantic_slots": [
+    "concept",
+    "concern_a",
+    "concern_b",
+    "concerns"
+  ],
+  "selection_rule": "Use for a short framing or recap phrase.",
+  "better_alternative_or_misuse": "Use a diagram when the mechanism needs explanation; a floating word is insufficient.",
+  "motion_recipe": "Reveal the named phrase or pill at the speech cue, retain it only while it supports the point.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 1229.3,
+      "timecode": "20:29.30",
+      "images": {
+        "full_frame": "frames/full/0036879.jpg",
+        "graphic_region": "frames/graphic/0036879.jpg",
+        "requested_seconds": 1229.3,
+        "sample_frame": 36879,
+        "normalized_source_seconds": 1229.3,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": ">> That's great from a",
+          "start": 1222.2,
+          "end": 1228.4
+        },
+        {
+          "text": "visibility perspective, from an",
+          "start": 1225.48,
+          "end": 1230.44
+        },
+        {
+          "text": "understanding the business perspective,",
+          "start": 1228.4,
+          "end": 1232.0
+        },
+        {
+          "text": "all of that",
+          "start": 1230.44,
+          "end": 1234.28
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 1233,
+      "timecode": "20:33.00",
+      "images": {
+        "full_frame": "frames/full/0036990.jpg",
+        "graphic_region": "frames/graphic/0036990.jpg",
+        "requested_seconds": 1233,
+        "sample_frame": 36990,
+        "normalized_source_seconds": 1233.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "understanding the business perspective,",
+          "start": 1228.4,
+          "end": 1232.0
+        },
+        {
+          "text": "all of that",
+          "start": 1230.44,
+          "end": 1234.28
+        },
+        {
+          "text": "descriptive analytics,",
+          "start": 1232.0,
+          "end": 1237.76
+        },
+        {
+          "text": "if you will, in a much more tailored",
+          "start": 1234.28,
+          "end": 1240.88
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 1238.3,
+      "timecode": "20:38.30",
+      "images": {
+        "full_frame": "frames/full/0037149.jpg",
+        "graphic_region": "frames/graphic/0037149.jpg",
+        "requested_seconds": 1238.3,
+        "sample_frame": 37149,
+        "normalized_source_seconds": 1238.3,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "descriptive analytics,",
+          "start": 1232.0,
+          "end": 1237.76
+        },
+        {
+          "text": "if you will, in a much more tailored",
+          "start": 1234.28,
+          "end": 1240.88
+        },
+        {
+          "text": "way. But what happens when you want to",
+          "start": 1237.76,
+          "end": 1243.0
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "later observed state",
+      "time": 1244,
+      "timecode": "20:44.00",
+      "images": {
+        "full_frame": "frames/full/0037320.jpg",
+        "graphic_region": "frames/graphic/0037320.jpg",
+        "requested_seconds": 1244,
+        "sample_frame": 37320,
+        "normalized_source_seconds": 1244.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "way. But what happens when you want to",
+          "start": 1237.76,
+          "end": 1243.0
+        },
+        {
+          "text": "go from",
+          "start": 1240.88,
+          "end": 1245.16
+        },
+        {
+          "text": "just looking at data and you actually",
+          "start": 1243.0,
+          "end": 1246.28
+        },
+        {
+          "text": "want to do",
+          "start": 1245.16,
+          "end": 1248.64
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 1229,
+      "nearby_original_transcript": [
+        {
+          "text": ">> That's great from a",
+          "start": 1222.2,
+          "end": 1228.4
+        },
+        {
+          "text": "visibility perspective, from an",
+          "start": 1225.48,
+          "end": 1230.44
+        },
+        {
+          "text": "understanding the business perspective,",
+          "start": 1228.4,
+          "end": 1232.0
+        },
+        {
+          "text": "all of that",
+          "start": 1230.44,
+          "end": 1234.28
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0036870.jpg",
+          "graphic_region": "frames/graphic/0036870.jpg",
+          "requested_seconds": 1229,
+          "sample_frame": 36870,
+          "normalized_source_seconds": 1229.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0036878.jpg",
+          "graphic_region": "frames/graphic/0036878.jpg",
+          "requested_seconds": 1229.25,
+          "sample_frame": 36878,
+          "normalized_source_seconds": 1229.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0036900.jpg",
+          "graphic_region": "frames/graphic/0036900.jpg",
+          "requested_seconds": 1230,
+          "sample_frame": 36900,
+          "normalized_source_seconds": 1230.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1238,
+      "nearby_original_transcript": [
+        {
+          "text": "descriptive analytics,",
+          "start": 1232.0,
+          "end": 1237.76
+        },
+        {
+          "text": "if you will, in a much more tailored",
+          "start": 1234.28,
+          "end": 1240.88
+        },
+        {
+          "text": "way. But what happens when you want to",
+          "start": 1237.76,
+          "end": 1243.0
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0037132.jpg",
+          "graphic_region": "frames/graphic/0037132.jpg",
+          "requested_seconds": 1237.75,
+          "sample_frame": 37132,
+          "normalized_source_seconds": 1237.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0037148.jpg",
+          "graphic_region": "frames/graphic/0037148.jpg",
+          "requested_seconds": 1238.25,
+          "sample_frame": 37148,
+          "normalized_source_seconds": 1238.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0037170.jpg",
+          "graphic_region": "frames/graphic/0037170.jpg",
+          "requested_seconds": 1239,
+          "sample_frame": 37170,
+          "normalized_source_seconds": 1239.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0037320.jpg",
+      "frames/graphic/0036879.jpg",
+      "frames/graphic/0036990.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0037320.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

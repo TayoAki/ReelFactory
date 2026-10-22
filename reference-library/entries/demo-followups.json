@@ -1,0 +1,811 @@
+{
+  "id": "demo-followups",
+  "index": 34,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 1094,
+  "source_end": 1223,
+  "source_timecode": "18:14.00\u201320:23.00",
+  "template_id": "ui-evidence",
+  "label": "Follow-up and continuation",
+  "category": "authentic-ui-evidence",
+  "teaching_intent": "Show continuity of the actual interface workflow.",
+  "relationship": "actual workflow \u2192 visible execution/result",
+  "original_transcript": "this growth space. And Genie has also extracted a lot of snippets from the assets that he has created. But, you know, we don't need to necessarily just take Genie at its word for this this first answer. Maybe we want to ask a question like, you know, adoption seems to be spiking. What is what is the cause of this? And this type of work, again, is really only possible because Genie is computing these results based on our live operational data. So, we're not just, again, reciting information that already lives in a document. So, let's see if it's able to execute this. Great. We have an answer. Um Looks like the growth is real. It's attributing it to the Teams and the Slack apps. And for context, we we opened up Genie to Teams and to Slack and meeting users where they like to do their work. And every time an organization adopts Slack or adopts Teams, you tend to see a pretty wide increase in adoption because you tend to see folks adopting it and across entire channels or even the entire organization. So, it makes sense that this is attributed to to some of the growth. Now, if that adoption is real, I want to know where it's going. So, I'm also going to ask Genie to do a quick forecast. And that forecast is is a more advanced advanced piece of work, right? It would take me a bit of time to actually model this by hand, but Genie is able to do things like forecasting, like root cause analysis, like anomaly detection. So, I just have to ask it to to to perform that task. Uh but what about maybe an analysis that is totally custom to our team? Uh for example, maybe we build a standardized launch scorecards. Every time a new feature launches, we grade it, you know, against the adoption curve of some of our prior features. And for something like that, we could build a skill. A skill is going to run the same workflow repeatedly. And if once I've created a skill, I can also, you know, share it with my teammates so that they can take advantage. And of course, a shared chill is simply going to be governed through Unity Gateway, always going back to that that centralized governance framework. Um so, with that, I think it might be interesting to go back to our slides. Maybe I'll show you a bit more after, but we'll talk through some additional features. >> That's great from a",
+  "original_transcript_segments": [
+    {
+      "text": "this growth space. And Genie has also",
+      "start": 1090.24,
+      "end": 1095.12
+    },
+    {
+      "text": "extracted a lot of snippets from the",
+      "start": 1092.36,
+      "end": 1097.76
+    },
+    {
+      "text": "assets that he has created. But, you",
+      "start": 1095.12,
+      "end": 1099.16
+    },
+    {
+      "text": "know, we don't need to necessarily just",
+      "start": 1097.76,
+      "end": 1101.32
+    },
+    {
+      "text": "take Genie at its word for this this",
+      "start": 1099.16,
+      "end": 1102.76
+    },
+    {
+      "text": "first answer. Maybe we want to ask a",
+      "start": 1101.32,
+      "end": 1104.2
+    },
+    {
+      "text": "question like,",
+      "start": 1102.76,
+      "end": 1106.16
+    },
+    {
+      "text": "you know, adoption seems to be spiking.",
+      "start": 1104.2,
+      "end": 1108.44
+    },
+    {
+      "text": "What is what is the cause of this? And",
+      "start": 1106.16,
+      "end": 1110.28
+    },
+    {
+      "text": "this type of work, again, is really only",
+      "start": 1108.44,
+      "end": 1112.16
+    },
+    {
+      "text": "possible because Genie is computing",
+      "start": 1110.28,
+      "end": 1113.84
+    },
+    {
+      "text": "these results based on our live",
+      "start": 1112.16,
+      "end": 1116.0
+    },
+    {
+      "text": "operational data. So, we're not just,",
+      "start": 1113.84,
+      "end": 1118.2
+    },
+    {
+      "text": "again, reciting information that already",
+      "start": 1116.0,
+      "end": 1120.44
+    },
+    {
+      "text": "lives in a document. So, let's see if",
+      "start": 1118.2,
+      "end": 1124.12
+    },
+    {
+      "text": "it's able to execute this.",
+      "start": 1120.44,
+      "end": 1124.12
+    },
+    {
+      "text": "Great. We have an answer.",
+      "start": 1124.16,
+      "end": 1128.8
+    },
+    {
+      "text": "Um",
+      "start": 1126.12,
+      "end": 1130.88
+    },
+    {
+      "text": "Looks like the growth is real.",
+      "start": 1128.8,
+      "end": 1132.72
+    },
+    {
+      "text": "It's attributing it to the Teams and the",
+      "start": 1130.88,
+      "end": 1134.84
+    },
+    {
+      "text": "Slack apps. And for context, we we",
+      "start": 1132.72,
+      "end": 1137.04
+    },
+    {
+      "text": "opened up Genie to Teams and to Slack",
+      "start": 1134.84,
+      "end": 1139.08
+    },
+    {
+      "text": "and meeting users where they like to do",
+      "start": 1137.04,
+      "end": 1140.72
+    },
+    {
+      "text": "their work. And every time an",
+      "start": 1139.08,
+      "end": 1142.76
+    },
+    {
+      "text": "organization adopts Slack or adopts",
+      "start": 1140.72,
+      "end": 1144.6
+    },
+    {
+      "text": "Teams, you tend to see a pretty wide",
+      "start": 1142.76,
+      "end": 1146.24
+    },
+    {
+      "text": "increase in adoption because you tend to",
+      "start": 1144.6,
+      "end": 1148.36
+    },
+    {
+      "text": "see folks adopting it and across entire",
+      "start": 1146.24,
+      "end": 1149.52
+    },
+    {
+      "text": "channels or even the entire",
+      "start": 1148.36,
+      "end": 1151.28
+    },
+    {
+      "text": "organization. So, it makes sense that",
+      "start": 1149.52,
+      "end": 1153.0
+    },
+    {
+      "text": "this is attributed to to some of the",
+      "start": 1151.28,
+      "end": 1155.76
+    },
+    {
+      "text": "growth. Now, if that adoption is real, I",
+      "start": 1153.0,
+      "end": 1157.2
+    },
+    {
+      "text": "want to know where it's going. So, I'm",
+      "start": 1155.76,
+      "end": 1158.96
+    },
+    {
+      "text": "also going to ask Genie to do a quick",
+      "start": 1157.2,
+      "end": 1161.88
+    },
+    {
+      "text": "forecast. And that forecast is is a more",
+      "start": 1158.96,
+      "end": 1163.28
+    },
+    {
+      "text": "advanced",
+      "start": 1161.88,
+      "end": 1164.76
+    },
+    {
+      "text": "advanced piece of work, right? It would",
+      "start": 1163.28,
+      "end": 1167.0
+    },
+    {
+      "text": "take me a bit of time to actually model",
+      "start": 1164.76,
+      "end": 1169.48
+    },
+    {
+      "text": "this by hand, but Genie is able to do",
+      "start": 1167.0,
+      "end": 1172.2
+    },
+    {
+      "text": "things like forecasting, like root cause",
+      "start": 1169.48,
+      "end": 1175.12
+    },
+    {
+      "text": "analysis, like anomaly detection. So, I",
+      "start": 1172.2,
+      "end": 1178.08
+    },
+    {
+      "text": "just have to ask it to to to perform",
+      "start": 1175.12,
+      "end": 1180.4
+    },
+    {
+      "text": "that task. Uh but what about maybe an",
+      "start": 1178.08,
+      "end": 1183.32
+    },
+    {
+      "text": "analysis that is totally custom to our",
+      "start": 1180.4,
+      "end": 1185.96
+    },
+    {
+      "text": "team? Uh for example, maybe we build a",
+      "start": 1183.32,
+      "end": 1187.68
+    },
+    {
+      "text": "standardized launch scorecards. Every",
+      "start": 1185.96,
+      "end": 1190.0
+    },
+    {
+      "text": "time a new feature launches, we grade",
+      "start": 1187.68,
+      "end": 1191.8
+    },
+    {
+      "text": "it, you know, against the adoption curve",
+      "start": 1190.0,
+      "end": 1193.72
+    },
+    {
+      "text": "of some of our prior features. And for",
+      "start": 1191.8,
+      "end": 1195.08
+    },
+    {
+      "text": "something like that, we could build a",
+      "start": 1193.72,
+      "end": 1197.76
+    },
+    {
+      "text": "skill. A skill is going to run the same",
+      "start": 1195.08,
+      "end": 1199.92
+    },
+    {
+      "text": "workflow repeatedly. And if once I've",
+      "start": 1197.76,
+      "end": 1201.92
+    },
+    {
+      "text": "created a skill, I can also, you know,",
+      "start": 1199.92,
+      "end": 1203.6
+    },
+    {
+      "text": "share it with my teammates so that they",
+      "start": 1201.92,
+      "end": 1205.92
+    },
+    {
+      "text": "can take advantage. And of course, a",
+      "start": 1203.6,
+      "end": 1207.6
+    },
+    {
+      "text": "shared chill is simply going to be",
+      "start": 1205.92,
+      "end": 1209.72
+    },
+    {
+      "text": "governed through Unity Gateway, always",
+      "start": 1207.6,
+      "end": 1212.08
+    },
+    {
+      "text": "going back to that that centralized",
+      "start": 1209.72,
+      "end": 1214.44
+    },
+    {
+      "text": "governance framework. Um so, with that,",
+      "start": 1212.08,
+      "end": 1216.48
+    },
+    {
+      "text": "I think it might be interesting to go",
+      "start": 1214.44,
+      "end": 1217.84
+    },
+    {
+      "text": "back to our slides. Maybe I'll show you",
+      "start": 1216.48,
+      "end": 1219.92
+    },
+    {
+      "text": "a bit more after, but we'll talk through",
+      "start": 1217.84,
+      "end": 1222.2
+    },
+    {
+      "text": "some additional features.",
+      "start": 1219.92,
+      "end": 1225.48
+    },
+    {
+      "text": ">> That's great from a",
+      "start": 1222.2,
+      "end": 1228.4
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Show the authentic product steps and results rather than inventing them.",
+  "parameterized_transcript_patterns": [
+    "Here is {{question_or_task}}. We {{interaction}}, then inspect {{result_or_evidence}}.",
+    "To verify {{claim}}, look at {{visible_evidence}} in the product."
+  ],
+  "semantic_slots": [
+    "claim",
+    "interaction",
+    "question_or_task",
+    "result_or_evidence",
+    "visible_evidence"
+  ],
+  "selection_rule": "Use when exact interaction or observed execution is central.",
+  "better_alternative_or_misuse": "Illustrative diagrams cannot verify real execution. Keep reference UI separate from generated conceptual graphics.",
+  "motion_recipe": "Retain real viewport changes and source timing; focus on the evidence the narrator discusses.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 1096,
+      "timecode": "18:16.00",
+      "images": {
+        "full_frame": "frames/full/0032880.jpg",
+        "graphic_region": "frames/graphic/0032880.jpg",
+        "requested_seconds": 1096,
+        "sample_frame": 32880,
+        "normalized_source_seconds": 1096.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "this growth space. And Genie has also",
+          "start": 1090.24,
+          "end": 1095.12
+        },
+        {
+          "text": "extracted a lot of snippets from the",
+          "start": 1092.36,
+          "end": 1097.76
+        },
+        {
+          "text": "assets that he has created. But, you",
+          "start": 1095.12,
+          "end": 1099.16
+        },
+        {
+          "text": "know, we don't need to necessarily just",
+          "start": 1097.76,
+          "end": 1101.32
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 1110,
+      "timecode": "18:30.00",
+      "images": {
+        "full_frame": "frames/full/0033300.jpg",
+        "graphic_region": "frames/graphic/0033300.jpg",
+        "requested_seconds": 1110,
+        "sample_frame": 33300,
+        "normalized_source_seconds": 1110.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "you know, adoption seems to be spiking.",
+          "start": 1104.2,
+          "end": 1108.44
+        },
+        {
+          "text": "What is what is the cause of this? And",
+          "start": 1106.16,
+          "end": 1110.28
+        },
+        {
+          "text": "this type of work, again, is really only",
+          "start": 1108.44,
+          "end": 1112.16
+        },
+        {
+          "text": "possible because Genie is computing",
+          "start": 1110.28,
+          "end": 1113.84
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 1150,
+      "timecode": "19:10.00",
+      "images": {
+        "full_frame": "frames/full/0034500.jpg",
+        "graphic_region": "frames/graphic/0034500.jpg",
+        "requested_seconds": 1150,
+        "sample_frame": 34500,
+        "normalized_source_seconds": 1150.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "increase in adoption because you tend to",
+          "start": 1144.6,
+          "end": 1148.36
+        },
+        {
+          "text": "see folks adopting it and across entire",
+          "start": 1146.24,
+          "end": 1149.52
+        },
+        {
+          "text": "channels or even the entire",
+          "start": 1148.36,
+          "end": 1151.28
+        },
+        {
+          "text": "organization. So, it makes sense that",
+          "start": 1149.52,
+          "end": 1153.0
+        },
+        {
+          "text": "this is attributed to to some of the",
+          "start": 1151.28,
+          "end": 1155.76
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "intermediate observed state",
+      "time": 1185,
+      "timecode": "19:45.00",
+      "images": {
+        "full_frame": "frames/full/0035550.jpg",
+        "graphic_region": "frames/graphic/0035550.jpg",
+        "requested_seconds": 1185,
+        "sample_frame": 35550,
+        "normalized_source_seconds": 1185.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "that task. Uh but what about maybe an",
+          "start": 1178.08,
+          "end": 1183.32
+        },
+        {
+          "text": "analysis that is totally custom to our",
+          "start": 1180.4,
+          "end": 1185.96
+        },
+        {
+          "text": "team? Uh for example, maybe we build a",
+          "start": 1183.32,
+          "end": 1187.68
+        },
+        {
+          "text": "standardized launch scorecards. Every",
+          "start": 1185.96,
+          "end": 1190.0
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-05",
+      "sequence_role": "later observed state",
+      "time": 1218,
+      "timecode": "20:18.00",
+      "images": {
+        "full_frame": "frames/full/0036540.jpg",
+        "graphic_region": "frames/graphic/0036540.jpg",
+        "requested_seconds": 1218,
+        "sample_frame": 36540,
+        "normalized_source_seconds": 1218.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "governance framework. Um so, with that,",
+          "start": 1212.08,
+          "end": 1216.48
+        },
+        {
+          "text": "I think it might be interesting to go",
+          "start": 1214.44,
+          "end": 1217.84
+        },
+        {
+          "text": "back to our slides. Maybe I'll show you",
+          "start": 1216.48,
+          "end": 1219.92
+        },
+        {
+          "text": "a bit more after, but we'll talk through",
+          "start": 1217.84,
+          "end": 1222.2
+        },
+        {
+          "text": "some additional features.",
+          "start": 1219.92,
+          "end": 1225.48
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 1105,
+      "nearby_original_transcript": [
+        {
+          "text": "first answer. Maybe we want to ask a",
+          "start": 1101.32,
+          "end": 1104.2
+        },
+        {
+          "text": "question like,",
+          "start": 1102.76,
+          "end": 1106.16
+        },
+        {
+          "text": "you know, adoption seems to be spiking.",
+          "start": 1104.2,
+          "end": 1108.44
+        },
+        {
+          "text": "What is what is the cause of this? And",
+          "start": 1106.16,
+          "end": 1110.28
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0033142.jpg",
+          "graphic_region": "frames/graphic/0033142.jpg",
+          "requested_seconds": 1104.75,
+          "sample_frame": 33142,
+          "normalized_source_seconds": 1104.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0033158.jpg",
+          "graphic_region": "frames/graphic/0033158.jpg",
+          "requested_seconds": 1105.25,
+          "sample_frame": 33158,
+          "normalized_source_seconds": 1105.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0033180.jpg",
+          "graphic_region": "frames/graphic/0033180.jpg",
+          "requested_seconds": 1106,
+          "sample_frame": 33180,
+          "normalized_source_seconds": 1106.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1148,
+      "nearby_original_transcript": [
+        {
+          "text": "Teams, you tend to see a pretty wide",
+          "start": 1142.76,
+          "end": 1146.24
+        },
+        {
+          "text": "increase in adoption because you tend to",
+          "start": 1144.6,
+          "end": 1148.36
+        },
+        {
+          "text": "see folks adopting it and across entire",
+          "start": 1146.24,
+          "end": 1149.52
+        },
+        {
+          "text": "channels or even the entire",
+          "start": 1148.36,
+          "end": 1151.28
+        },
+        {
+          "text": "organization. So, it makes sense that",
+          "start": 1149.52,
+          "end": 1153.0
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0034432.jpg",
+          "graphic_region": "frames/graphic/0034432.jpg",
+          "requested_seconds": 1147.75,
+          "sample_frame": 34432,
+          "normalized_source_seconds": 1147.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0034448.jpg",
+          "graphic_region": "frames/graphic/0034448.jpg",
+          "requested_seconds": 1148.25,
+          "sample_frame": 34448,
+          "normalized_source_seconds": 1148.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0034470.jpg",
+          "graphic_region": "frames/graphic/0034470.jpg",
+          "requested_seconds": 1149,
+          "sample_frame": 34470,
+          "normalized_source_seconds": 1149.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1180,
+      "nearby_original_transcript": [
+        {
+          "text": "analysis, like anomaly detection. So, I",
+          "start": 1172.2,
+          "end": 1178.08
+        },
+        {
+          "text": "just have to ask it to to to perform",
+          "start": 1175.12,
+          "end": 1180.4
+        },
+        {
+          "text": "that task. Uh but what about maybe an",
+          "start": 1178.08,
+          "end": 1183.32
+        },
+        {
+          "text": "analysis that is totally custom to our",
+          "start": 1180.4,
+          "end": 1185.96
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0035392.jpg",
+          "graphic_region": "frames/graphic/0035392.jpg",
+          "requested_seconds": 1179.75,
+          "sample_frame": 35392,
+          "normalized_source_seconds": 1179.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0035408.jpg",
+          "graphic_region": "frames/graphic/0035408.jpg",
+          "requested_seconds": 1180.25,
+          "sample_frame": 35408,
+          "normalized_source_seconds": 1180.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0035430.jpg",
+          "graphic_region": "frames/graphic/0035430.jpg",
+          "requested_seconds": 1181,
+          "sample_frame": 35430,
+          "normalized_source_seconds": 1181.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1203,
+      "nearby_original_transcript": [
+        {
+          "text": "workflow repeatedly. And if once I've",
+          "start": 1197.76,
+          "end": 1201.92
+        },
+        {
+          "text": "created a skill, I can also, you know,",
+          "start": 1199.92,
+          "end": 1203.6
+        },
+        {
+          "text": "share it with my teammates so that they",
+          "start": 1201.92,
+          "end": 1205.92
+        },
+        {
+          "text": "can take advantage. And of course, a",
+          "start": 1203.6,
+          "end": 1207.6
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0036082.jpg",
+          "graphic_region": "frames/graphic/0036082.jpg",
+          "requested_seconds": 1202.75,
+          "sample_frame": 36082,
+          "normalized_source_seconds": 1202.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0036098.jpg",
+          "graphic_region": "frames/graphic/0036098.jpg",
+          "requested_seconds": 1203.25,
+          "sample_frame": 36098,
+          "normalized_source_seconds": 1203.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0036120.jpg",
+          "graphic_region": "frames/graphic/0036120.jpg",
+          "requested_seconds": 1204,
+          "sample_frame": 36120,
+          "normalized_source_seconds": 1204.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "17-followups",
+      "observed_state_pattern": "Existing conversation \u2192 follow-up \u2192 expanded analysis/code \u2192 new output.",
+      "persistent_context": "Same conversation and earlier results remain the anchor.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0036540.jpg",
+      "frames/graphic/0032880.jpg",
+      "frames/graphic/0034500.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0036540.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

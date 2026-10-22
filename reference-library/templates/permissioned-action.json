@@ -1,0 +1,56 @@
+{
+  "id": "permissioned-action",
+  "relationship": "actor \u2192 control point \u2192 allowed/denied route",
+  "teaching_job": "Explain how tool use or write actions are governed.",
+  "transcript_patterns": [
+    "{{actor}} reaches {{tool}} through {{control_point}}, which enforces {{scope}}.",
+    "{{action}} is allowed for {{allowed_scope}} and denied for {{denied_scope}}."
+  ],
+  "semantic_slots": [
+    "action",
+    "actor",
+    "allowed_scope",
+    "control_point",
+    "denied_scope",
+    "scope",
+    "tool"
+  ],
+  "choose_when": "Use when the permission boundary or action route matters.",
+  "choose_something_else_when": "Compatibility logos are not proof of authorization or successful execution.",
+  "motion_grammar": "Establish actor and destination, add the gateway, draw the route and reveal access distinctions.",
+  "instances": [
+    "controlled-tool-action",
+    "skill-governance"
+  ],
+  "classification": "Curated editorial teaching template; not a trained classifier or a product fact.",
+  "required_pattern_slots": [
+    [
+      "actor",
+      "control_point",
+      "scope",
+      "tool"
+    ],
+    [
+      "action",
+      "allowed_scope",
+      "denied_scope"
+    ]
+  ],
+  "filled_source_sentence_scaffolds": [
+    "Genie acting for the user reaches A connected third-party tool through Unity Gateway as labeled in the source, which enforces The access allowed to the actor.",
+    "A tool/write route described in the source is allowed for The permitted branch shown in the diagram and denied for The denied branch shown in the diagram."
+  ],
+  "unbound_source_example_slots": [],
+  "representative_entry": "controlled-tool-action",
+  "example_source_bindings": {
+    "actor": "Genie acting for the user",
+    "tool": "A connected third-party tool",
+    "control_point": "Unity Gateway as labeled in the source",
+    "scope": "The access allowed to the actor",
+    "action": "A tool/write route described in the source",
+    "allowed_scope": "The permitted branch shown in the diagram",
+    "denied_scope": "The denied branch shown in the diagram"
+  },
+  "paired_source_quote": "in data, but of course, you can also use MCPs to write data. The interesting thing here, I think, is that MCPs have been our first integration between Genie and Unity Gateway. So, as an administrator, you can decide, you know, this user gets access to this MCP, that user gets access to that MCP, or even this tool, but not that tool, or even more granularly than that. For example, you can use Genie to post to Slack, but you can't, you know, post to these particular channels, or maybe you can push to this GitHub branch, but not those GitHub branches. So, that becomes a pretty granular control for the administrators, and we've only since then expanded on that as we think about more and more centralized governance of",
+  "source_binding_status": "Editorial binding/paraphrase of source roles; raw transcript remains separately preserved. Do not treat bindings as word-for-word quotation."
+}

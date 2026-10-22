@@ -4,7 +4,10 @@
   "source_url": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
   "source_frame_seconds": 117,
   "narration_excerpt": "Generic models are really good at searching the web or a a code base, anything that's got a really constrained space.",
-  "source_caption_interval_seconds": [108, 119],
+  "source_caption_interval_seconds": [
+    108,
+    119
+  ],
   "alignment_status": "Rolling transcript times are approximate; precise narration alignment is a later motion step.",
   "viewer_knows": "A generic model can receive information from sources.",
   "intended_understanding": "In the source's constrained web-search example, retrieved information feeds a generic model and leads to a useful result.",
@@ -29,36 +32,105 @@
   },
   "states": [
     {
-      "id": "input",
-      "image": "01-input.png",
-      "narration_role": "Introduce the web-search input as it is named.",
-      "visible": ["web-card", "web-icon", "web-label", "presenter-slot", "background"],
-      "new_understanding": "Identify the input source before showing its route.",
-      "next_transition": "Reveal first connector, then the model surface, icon and label.",
-      "persistent": ["background", "web-card", "web-icon", "web-label", "presenter-slot"]
+      "id": "model-introduction",
+      "image": "01-model-first.png",
+      "narration_role": "The speaker first introduces generic models; establish that focal object before its web-search input.",
+      "visible": [
+        "model-card",
+        "model-icon",
+        "model-label",
+        "presenter-slot",
+        "background"
+      ],
+      "new_understanding": "Identify the mechanism the speaker introduces first.",
+      "next_transition": "Add the web-search input and its connector while retaining the model in place.",
+      "persistent": [
+        "background",
+        "model-card",
+        "model-icon",
+        "model-label",
+        "presenter-slot"
+      ],
+      "source_reference_seconds": 113
     },
     {
-      "id": "model",
+      "id": "add-web-input",
       "image": "02-model.png",
-      "narration_role": "Show the generic model using the constrained search input.",
-      "visible": ["web-card", "web-icon", "web-label", "first-connector", "model-card", "model-icon", "model-label", "presenter-slot", "background"],
-      "new_understanding": "Make the input-to-model relationship visible; the model is the focal object.",
+      "narration_role": "As web search is named, attach the input to the already-established generic model.",
+      "visible": [
+        "web-card",
+        "web-icon",
+        "web-label",
+        "first-connector",
+        "model-card",
+        "model-icon",
+        "model-label",
+        "presenter-slot",
+        "background"
+      ],
+      "new_understanding": "Understand what information feeds the model.",
       "next_transition": "Reveal second connector and result components, then hold the complete flow.",
-      "persistent": ["background", "web-card", "web-icon", "web-label", "first-connector", "model-card", "model-icon", "model-label", "presenter-slot"]
+      "persistent": [
+        "background",
+        "web-card",
+        "web-icon",
+        "web-label",
+        "first-connector",
+        "model-card",
+        "model-icon",
+        "model-label",
+        "presenter-slot"
+      ],
+      "source_reference_seconds": 115
     },
     {
       "id": "result",
       "image": "03-settled-master.png",
       "narration_role": "Complete the source's constrained-context example before contrasting business questions.",
-      "visible": ["web-card", "web-icon", "web-label", "first-connector", "model-card", "model-icon", "model-label", "second-connector", "result-card", "result-icon", "result-label", "presenter-slot", "background"],
+      "visible": [
+        "web-card",
+        "web-icon",
+        "web-label",
+        "first-connector",
+        "model-card",
+        "model-icon",
+        "model-label",
+        "second-connector",
+        "result-card",
+        "result-icon",
+        "result-label",
+        "presenter-slot",
+        "background"
+      ],
       "new_understanding": "See the complete input, mechanism and outcome relationship.",
       "next_transition": "Reading hold, then the separately storyboarded business-context counterexample.",
-      "persistent": ["all components until the next conceptual change"]
+      "persistent": [
+        "all components until the next conceptual change"
+      ],
+      "source_reference_seconds": 117
     }
   ],
   "layer_reconstruction": {
     "status": "not_started",
-    "layers": ["background", "grid", "web-shadow", "web-card", "web-icon", "web-label", "first-connector", "model-shadow", "model-gradient-card", "model-icon", "model-label", "second-connector", "result-shadow", "result-card", "result-icon", "result-label", "presenter-slot"],
+    "layers": [
+      "background",
+      "grid",
+      "web-shadow",
+      "web-card",
+      "web-icon",
+      "web-label",
+      "first-connector",
+      "model-shadow",
+      "model-gradient-card",
+      "model-icon",
+      "model-label",
+      "second-connector",
+      "result-shadow",
+      "result-card",
+      "result-icon",
+      "result-label",
+      "presenter-slot"
+    ],
     "still_check": "Compare the editable settled still to the chosen generated master and source before adding motion.",
     "raster_rule": "The generated storyboard is an art-direction target, not the flattened animation substrate. Keep exact text, geometry, connectors and motion editable."
   },
@@ -67,5 +139,36 @@
     "renderer": "Undecided until the selected still has an editable reconstruction; Remotion/SVG is suitable, engine choice does not establish quality.",
     "timing": "Derive actual cues from narration; do not adopt invented precise timestamps or universal springs.",
     "review": "Source, selected image, editable still and animated state compared at start, transition and settle."
-  }
+  },
+  "source_reference_library_entry": "../../reference-library/entries/constrained-web-flow.json",
+  "source_reveal_order": {
+    "reading_order": [
+      "Web Search",
+      "Generic Models",
+      "Accurate Results"
+    ],
+    "observed_reveal_order": [
+      "Peach model surface grows into place",
+      "Model icon/label settle; card briefly larger than settled size",
+      "Web-search input and its connector appear",
+      "Result card and second connector appear",
+      "Complete three-card flow holds"
+    ],
+    "evidence_notes": {
+      "110.3": "Only a tiny peach model surface is visible.",
+      "111.5": "Model card, icon and label visible at larger transient scale.",
+      "113": "Model card settled by itself.",
+      "115": "Web card and first arrow visible; result card still faint.",
+      "117": "Complete flow is readable.",
+      "123": "Completed flow is retained."
+    },
+    "speech_mapping": "The speaker introduces generic models before describing web search. Finished diagram reading direction is not its reveal order.",
+    "confidence": "Direct visual inspection of source crops at 110.3, 111.5, 113, 115 and 117 seconds."
+  },
+  "reference_image_paths": [
+    "../../reference-library/frames/graphic/0003510.jpg",
+    "../../reference-library/frames/graphic/0003390.jpg",
+    "../../reference-library/frames/graphic/0003450.jpg"
+  ],
+  "sequence_correction": "Original evidence shows model-first reveal, even though the settled flow reads Web Search \u2192 Generic Models \u2192 Accurate Results. The earlier web-only candidate remains archived and is not the selected first state."
 }

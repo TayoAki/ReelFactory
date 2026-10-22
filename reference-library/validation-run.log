@@ -1,0 +1,25 @@
+{
+  "valid": true,
+  "counts": {
+    "graphic_instances": 58,
+    "template_families": 25,
+    "meaningful_state_samples": 280,
+    "change_windows": 206,
+    "prior_anchors": 206,
+    "unassigned_prior_anchors": 0,
+    "unique_source_frames": 844,
+    "image_files": 1688
+  },
+  "checks": [
+    "58 unique source entries with paired raw transcript and at least three source states",
+    "206 prior estimated anchors retained with three-phase source screenshots",
+    "1688 image files at original/cropped native resolution",
+    "25 source-bound sentence templates with all declared pattern slots",
+    "Source file SHA-256 matches extraction provenance",
+    "Reference packets use only original screenshot files",
+    "Model-first reveal observation retained separately from left-to-right reading order",
+    "Adaptation cannot silently reuse source narration",
+    "Representative source bindings are not transferred to another instance"
+  ],
+  "limits": "These checks validate data and provenance. They do not certify every graphic micro-transition, exact speech alignment, product claims or human aesthetic approval."
+}

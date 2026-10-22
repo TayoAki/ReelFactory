@@ -1,0 +1,508 @@
+{
+  "id": "constrained-web-flow",
+  "index": 9,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 110,
+  "source_end": 125,
+  "source_timecode": "01:50.00\u201302:05.00",
+  "template_id": "input-output",
+  "label": "Web Search \u2192 Generic Models \u2192 Accurate Results",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Illustrate the source\u2019s constrained-context baseline before the business-data counterexample.",
+  "relationship": "input \u2192 mechanism \u2192 outcome",
+  "original_transcript": "then we'll talk about Databricks' perspective on how to solve it. Generic models are really good at searching the web or a a code base, anything that's got a really constrained space. But when we start to ask questions about our business, we often get quite strange",
+  "original_transcript_segments": [
+    {
+      "text": "then we'll talk about Databricks'",
+      "start": 106.36,
+      "end": 110.52
+    },
+    {
+      "text": "perspective on how to solve it. Generic",
+      "start": 108.0,
+      "end": 113.88
+    },
+    {
+      "text": "models are really good at searching the",
+      "start": 110.52,
+      "end": 117.08
+    },
+    {
+      "text": "web or a a code base, anything that's",
+      "start": 113.88,
+      "end": 119.84
+    },
+    {
+      "text": "got a really constrained space. But when",
+      "start": 117.08,
+      "end": 121.88
+    },
+    {
+      "text": "we start to ask questions about our",
+      "start": 119.84,
+      "end": 125.0
+    },
+    {
+      "text": "business, we often get quite strange",
+      "start": 121.88,
+      "end": 127.28
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Explain how a source becomes an output through a named mechanism.",
+  "parameterized_transcript_patterns": [
+    "{{input_source}} feeds {{mechanism}}, which produces {{outcome}}.",
+    "For {{bounded_task}}, {{system}} can use {{input_source}} to produce {{qualified_result}}."
+  ],
+  "semantic_slots": [
+    "bounded_task",
+    "input_source",
+    "mechanism",
+    "outcome",
+    "qualification",
+    "qualified_result",
+    "system"
+  ],
+  "selection_rule": "Use when the causal route is the lesson and each arrow has a defensible meaning.",
+  "better_alternative_or_misuse": "Use real UI for exact interaction steps; do not use an outcome card as evidence that execution succeeded.",
+  "motion_recipe": "Introduce the role named first by the narration, then add the remaining input/mechanism/output roles at their spoken cues. Hold the complete relationship. Reading direction does not determine reveal order.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 110.3,
+      "timecode": "01:50.30",
+      "images": {
+        "full_frame": "frames/full/0003309.jpg",
+        "graphic_region": "frames/graphic/0003309.jpg",
+        "requested_seconds": 110.3,
+        "sample_frame": 3309,
+        "normalized_source_seconds": 110.3,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "then we'll talk about Databricks'",
+          "start": 106.36,
+          "end": 110.52
+        },
+        {
+          "text": "perspective on how to solve it. Generic",
+          "start": 108.0,
+          "end": 113.88
+        },
+        {
+          "text": "models are really good at searching the",
+          "start": 110.52,
+          "end": 117.08
+        }
+      ],
+      "state_observation_status": "Directly visually inspected source state.",
+      "observed_visual_state": "Only a tiny peach model surface is visible."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 111.5,
+      "timecode": "01:51.50",
+      "images": {
+        "full_frame": "frames/full/0003345.jpg",
+        "graphic_region": "frames/graphic/0003345.jpg",
+        "requested_seconds": 111.5,
+        "sample_frame": 3345,
+        "normalized_source_seconds": 111.5,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "then we'll talk about Databricks'",
+          "start": 106.36,
+          "end": 110.52
+        },
+        {
+          "text": "perspective on how to solve it. Generic",
+          "start": 108.0,
+          "end": 113.88
+        },
+        {
+          "text": "models are really good at searching the",
+          "start": 110.52,
+          "end": 117.08
+        }
+      ],
+      "state_observation_status": "Directly visually inspected source state.",
+      "observed_visual_state": "Model card, icon and label visible at larger transient scale."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 113,
+      "timecode": "01:53.00",
+      "images": {
+        "full_frame": "frames/full/0003390.jpg",
+        "graphic_region": "frames/graphic/0003390.jpg",
+        "requested_seconds": 113,
+        "sample_frame": 3390,
+        "normalized_source_seconds": 113.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "perspective on how to solve it. Generic",
+          "start": 108.0,
+          "end": 113.88
+        },
+        {
+          "text": "models are really good at searching the",
+          "start": 110.52,
+          "end": 117.08
+        },
+        {
+          "text": "web or a a code base, anything that's",
+          "start": 113.88,
+          "end": 119.84
+        }
+      ],
+      "state_observation_status": "Directly visually inspected source state.",
+      "observed_visual_state": "Model card settled by itself."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "intermediate observed state",
+      "time": 115,
+      "timecode": "01:55.00",
+      "images": {
+        "full_frame": "frames/full/0003450.jpg",
+        "graphic_region": "frames/graphic/0003450.jpg",
+        "requested_seconds": 115,
+        "sample_frame": 3450,
+        "normalized_source_seconds": 115.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "perspective on how to solve it. Generic",
+          "start": 108.0,
+          "end": 113.88
+        },
+        {
+          "text": "models are really good at searching the",
+          "start": 110.52,
+          "end": 117.08
+        },
+        {
+          "text": "web or a a code base, anything that's",
+          "start": 113.88,
+          "end": 119.84
+        }
+      ],
+      "state_observation_status": "Directly visually inspected source state.",
+      "observed_visual_state": "Web card and first arrow visible; result card still faint."
+    },
+    {
+      "id": "state-05",
+      "sequence_role": "intermediate observed state",
+      "time": 117,
+      "timecode": "01:57.00",
+      "images": {
+        "full_frame": "frames/full/0003510.jpg",
+        "graphic_region": "frames/graphic/0003510.jpg",
+        "requested_seconds": 117,
+        "sample_frame": 3510,
+        "normalized_source_seconds": 117.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "models are really good at searching the",
+          "start": 110.52,
+          "end": 117.08
+        },
+        {
+          "text": "web or a a code base, anything that's",
+          "start": 113.88,
+          "end": 119.84
+        },
+        {
+          "text": "got a really constrained space. But when",
+          "start": 117.08,
+          "end": 121.88
+        }
+      ],
+      "state_observation_status": "Directly visually inspected source state.",
+      "observed_visual_state": "Complete flow is readable."
+    },
+    {
+      "id": "state-06",
+      "sequence_role": "later observed state",
+      "time": 123,
+      "timecode": "02:03.00",
+      "images": {
+        "full_frame": "frames/full/0003690.jpg",
+        "graphic_region": "frames/graphic/0003690.jpg",
+        "requested_seconds": 123,
+        "sample_frame": 3690,
+        "normalized_source_seconds": 123.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "got a really constrained space. But when",
+          "start": 117.08,
+          "end": 121.88
+        },
+        {
+          "text": "we start to ask questions about our",
+          "start": 119.84,
+          "end": 125.0
+        },
+        {
+          "text": "business, we often get quite strange",
+          "start": 121.88,
+          "end": 127.28
+        }
+      ],
+      "state_observation_status": "Directly visually inspected source state.",
+      "observed_visual_state": "Completed flow is retained."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 110.5,
+      "nearby_original_transcript": [
+        {
+          "text": "then we'll talk about Databricks'",
+          "start": 106.36,
+          "end": 110.52
+        },
+        {
+          "text": "perspective on how to solve it. Generic",
+          "start": 108.0,
+          "end": 113.88
+        },
+        {
+          "text": "models are really good at searching the",
+          "start": 110.52,
+          "end": 117.08
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0003308.jpg",
+          "graphic_region": "frames/graphic/0003308.jpg",
+          "requested_seconds": 110.25,
+          "sample_frame": 3308,
+          "normalized_source_seconds": 110.26666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0003322.jpg",
+          "graphic_region": "frames/graphic/0003322.jpg",
+          "requested_seconds": 110.75,
+          "sample_frame": 3322,
+          "normalized_source_seconds": 110.73333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0003345.jpg",
+          "graphic_region": "frames/graphic/0003345.jpg",
+          "requested_seconds": 111.5,
+          "sample_frame": 3345,
+          "normalized_source_seconds": 111.5,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 115,
+      "nearby_original_transcript": [
+        {
+          "text": "perspective on how to solve it. Generic",
+          "start": 108.0,
+          "end": 113.88
+        },
+        {
+          "text": "models are really good at searching the",
+          "start": 110.52,
+          "end": 117.08
+        },
+        {
+          "text": "web or a a code base, anything that's",
+          "start": 113.88,
+          "end": 119.84
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0003442.jpg",
+          "graphic_region": "frames/graphic/0003442.jpg",
+          "requested_seconds": 114.75,
+          "sample_frame": 3442,
+          "normalized_source_seconds": 114.73333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0003458.jpg",
+          "graphic_region": "frames/graphic/0003458.jpg",
+          "requested_seconds": 115.25,
+          "sample_frame": 3458,
+          "normalized_source_seconds": 115.26666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0003480.jpg",
+          "graphic_region": "frames/graphic/0003480.jpg",
+          "requested_seconds": 116,
+          "sample_frame": 3480,
+          "normalized_source_seconds": 116.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 118,
+      "nearby_original_transcript": [
+        {
+          "text": "models are really good at searching the",
+          "start": 110.52,
+          "end": 117.08
+        },
+        {
+          "text": "web or a a code base, anything that's",
+          "start": 113.88,
+          "end": 119.84
+        },
+        {
+          "text": "got a really constrained space. But when",
+          "start": 117.08,
+          "end": 121.88
+        },
+        {
+          "text": "we start to ask questions about our",
+          "start": 119.84,
+          "end": 125.0
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0003532.jpg",
+          "graphic_region": "frames/graphic/0003532.jpg",
+          "requested_seconds": 117.75,
+          "sample_frame": 3532,
+          "normalized_source_seconds": 117.73333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0003548.jpg",
+          "graphic_region": "frames/graphic/0003548.jpg",
+          "requested_seconds": 118.25,
+          "sample_frame": 3548,
+          "normalized_source_seconds": 118.26666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0003570.jpg",
+          "graphic_region": "frames/graphic/0003570.jpg",
+          "requested_seconds": 119,
+          "sample_frame": 3570,
+          "normalized_source_seconds": 119.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "04-context-problem",
+      "observed_state_pattern": "Simple query workflow \u2192 several candidate sources \u2192 highlighted wrong source \u2192 incorrect chat consequence.",
+      "persistent_context": "Question and workflow anchor the before/after example.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0003510.jpg",
+      "frames/graphic/0003390.jpg",
+      "frames/graphic/0003450.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0003510.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "reading_order": [
+      "Web Search",
+      "Generic Models",
+      "Accurate Results"
+    ],
+    "observed_reveal_order": [
+      "Peach model surface grows into place",
+      "Model icon/label settle; card briefly larger than settled size",
+      "Web-search input and its connector appear",
+      "Result card and second connector appear",
+      "Complete three-card flow holds"
+    ],
+    "evidence_notes": {
+      "110.3": "Only a tiny peach model surface is visible.",
+      "111.5": "Model card, icon and label visible at larger transient scale.",
+      "113": "Model card settled by itself.",
+      "115": "Web card and first arrow visible; result card still faint.",
+      "117": "Complete flow is readable.",
+      "123": "Completed flow is retained."
+    },
+    "speech_mapping": "The speaker introduces generic models before describing web search. Finished diagram reading direction is not its reveal order.",
+    "confidence": "Direct visual inspection of source crops at 110.3, 111.5, 113, 115 and 117 seconds."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces.",
+  "source_style_measurement": {
+    "method": "Approximate manual bounds from source frame at 117 seconds; not original design tokens.",
+    "full_source_size": [
+      640,
+      360
+    ],
+    "web_card_bounds": [
+      63,
+      137,
+      82,
+      82
+    ],
+    "model_card_bounds": [
+      200,
+      129,
+      95,
+      97
+    ],
+    "result_card_bounds": [
+      347,
+      137,
+      82,
+      82
+    ],
+    "meaning": "The warm model card is approximately 16\u201318% larger than its off-white peers. Centered filled icons, serif labels and soft depth are part of this reference\u2019s visual grammar."
+  }
+}

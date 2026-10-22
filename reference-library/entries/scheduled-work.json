@@ -1,0 +1,461 @@
+{
+  "id": "scheduled-work",
+  "index": 48,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 1523,
+  "source_end": 1553,
+  "source_timecode": "25:23.00\u201325:53.00",
+  "template_id": "feature-evidence",
+  "label": "Scheduling, triggers and monitoring",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Show the supported orchestration surfaces with a stable feature heading.",
+  "relationship": "stable capability \u2192 supporting product evidence",
+  "original_transcript": "connectors. And we are also adding uh sub-agent support. Now, once a task works the way you want, you can set it and forget it, right? You can put it on a cadence, daily, weekly, whatever you pick, and deliver the results to your inbox. You can also trigger based on specific conditions. So, for example, you know, I only want to know if a metric drops or or grows by a certain percentage amount. So, I've I've instructed Genie to do that. Behind the scenes, this is just based on the the tried and tested LinkFlow Jobs platform, so it is highly reliable. And going forward, we are continuing to invest in more orchestration features such as sending to larger groups of",
+  "original_transcript_segments": [
+    {
+      "text": "connectors. And we are also adding uh",
+      "start": 1518.4,
+      "end": 1524.08
+    },
+    {
+      "text": "sub-agent support.",
+      "start": 1520.96,
+      "end": 1524.08
+    },
+    {
+      "text": "Now, once a task works the way you want,",
+      "start": 1525.08,
+      "end": 1528.52
+    },
+    {
+      "text": "you can set it and forget it, right? You",
+      "start": 1526.84,
+      "end": 1530.36
+    },
+    {
+      "text": "can put it on a cadence, daily, weekly,",
+      "start": 1528.52,
+      "end": 1531.48
+    },
+    {
+      "text": "whatever you pick, and deliver the",
+      "start": 1530.36,
+      "end": 1533.56
+    },
+    {
+      "text": "results to your inbox. You can also",
+      "start": 1531.48,
+      "end": 1535.32
+    },
+    {
+      "text": "trigger based on specific conditions.",
+      "start": 1533.56,
+      "end": 1536.8
+    },
+    {
+      "text": "So, for example, you know, I only want",
+      "start": 1535.32,
+      "end": 1539.6
+    },
+    {
+      "text": "to know if a metric drops or or grows by",
+      "start": 1536.8,
+      "end": 1541.12
+    },
+    {
+      "text": "a certain percentage amount. So, I've",
+      "start": 1539.6,
+      "end": 1543.32
+    },
+    {
+      "text": "I've instructed Genie to do that. Behind",
+      "start": 1541.12,
+      "end": 1545.12
+    },
+    {
+      "text": "the scenes, this is just based on the",
+      "start": 1543.32,
+      "end": 1546.52
+    },
+    {
+      "text": "the tried and tested LinkFlow Jobs",
+      "start": 1545.12,
+      "end": 1549.12
+    },
+    {
+      "text": "platform, so it is highly reliable. And",
+      "start": 1546.52,
+      "end": 1550.92
+    },
+    {
+      "text": "going forward, we are continuing to",
+      "start": 1549.12,
+      "end": 1552.52
+    },
+    {
+      "text": "invest in more orchestration features",
+      "start": 1550.92,
+      "end": 1554.68
+    },
+    {
+      "text": "such as sending to larger groups of",
+      "start": 1552.52,
+      "end": 1556.28
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Teach a capability while showing authentic interface evidence of the interaction.",
+  "parameterized_transcript_patterns": [
+    "To {{user_job}}, use {{feature}}: {{specific_interaction}}.",
+    "Here {{system}} lets {{actor}} {{action}}, with {{constraint}}."
+  ],
+  "semantic_slots": [
+    "action",
+    "actor",
+    "constraint",
+    "feature",
+    "specific_interaction",
+    "system",
+    "user_job"
+  ],
+  "selection_rule": "Use when the actual visible product interaction supports the claim.",
+  "better_alternative_or_misuse": "Do not fabricate UI or infer availability beyond the visible source version.",
+  "motion_recipe": "Hold the heading; update one supporting point as the real interface demonstrates it.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 1523.3,
+      "timecode": "25:23.30",
+      "images": {
+        "full_frame": "frames/full/0045699.jpg",
+        "graphic_region": "frames/graphic/0045699.jpg",
+        "requested_seconds": 1523.3,
+        "sample_frame": 45699,
+        "normalized_source_seconds": 1523.3,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "connectors. And we are also adding uh",
+          "start": 1518.4,
+          "end": 1524.08
+        },
+        {
+          "text": "sub-agent support.",
+          "start": 1520.96,
+          "end": 1524.08
+        },
+        {
+          "text": "Now, once a task works the way you want,",
+          "start": 1525.08,
+          "end": 1528.52
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 1533.5,
+      "timecode": "25:33.50",
+      "images": {
+        "full_frame": "frames/full/0046005.jpg",
+        "graphic_region": "frames/graphic/0046005.jpg",
+        "requested_seconds": 1533.5,
+        "sample_frame": 46005,
+        "normalized_source_seconds": 1533.5,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "whatever you pick, and deliver the",
+          "start": 1530.36,
+          "end": 1533.56
+        },
+        {
+          "text": "results to your inbox. You can also",
+          "start": 1531.48,
+          "end": 1535.32
+        },
+        {
+          "text": "trigger based on specific conditions.",
+          "start": 1533.56,
+          "end": 1536.8
+        },
+        {
+          "text": "So, for example, you know, I only want",
+          "start": 1535.32,
+          "end": 1539.6
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 1544,
+      "timecode": "25:44.00",
+      "images": {
+        "full_frame": "frames/full/0046320.jpg",
+        "graphic_region": "frames/graphic/0046320.jpg",
+        "requested_seconds": 1544,
+        "sample_frame": 46320,
+        "normalized_source_seconds": 1544.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "a certain percentage amount. So, I've",
+          "start": 1539.6,
+          "end": 1543.32
+        },
+        {
+          "text": "I've instructed Genie to do that. Behind",
+          "start": 1541.12,
+          "end": 1545.12
+        },
+        {
+          "text": "the scenes, this is just based on the",
+          "start": 1543.32,
+          "end": 1546.52
+        },
+        {
+          "text": "the tried and tested LinkFlow Jobs",
+          "start": 1545.12,
+          "end": 1549.12
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "later observed state",
+      "time": 1552,
+      "timecode": "25:52.00",
+      "images": {
+        "full_frame": "frames/full/0046560.jpg",
+        "graphic_region": "frames/graphic/0046560.jpg",
+        "requested_seconds": 1552,
+        "sample_frame": 46560,
+        "normalized_source_seconds": 1552.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "platform, so it is highly reliable. And",
+          "start": 1546.52,
+          "end": 1550.92
+        },
+        {
+          "text": "going forward, we are continuing to",
+          "start": 1549.12,
+          "end": 1552.52
+        },
+        {
+          "text": "invest in more orchestration features",
+          "start": 1550.92,
+          "end": 1554.68
+        },
+        {
+          "text": "such as sending to larger groups of",
+          "start": 1552.52,
+          "end": 1556.28
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 1523,
+      "nearby_original_transcript": [
+        {
+          "text": "connectors. And we are also adding uh",
+          "start": 1518.4,
+          "end": 1524.08
+        },
+        {
+          "text": "sub-agent support.",
+          "start": 1520.96,
+          "end": 1524.08
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0045690.jpg",
+          "graphic_region": "frames/graphic/0045690.jpg",
+          "requested_seconds": 1523,
+          "sample_frame": 45690,
+          "normalized_source_seconds": 1523.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0045698.jpg",
+          "graphic_region": "frames/graphic/0045698.jpg",
+          "requested_seconds": 1523.25,
+          "sample_frame": 45698,
+          "normalized_source_seconds": 1523.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0045720.jpg",
+          "graphic_region": "frames/graphic/0045720.jpg",
+          "requested_seconds": 1524,
+          "sample_frame": 45720,
+          "normalized_source_seconds": 1524.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1533,
+      "nearby_original_transcript": [
+        {
+          "text": "can put it on a cadence, daily, weekly,",
+          "start": 1528.52,
+          "end": 1531.48
+        },
+        {
+          "text": "whatever you pick, and deliver the",
+          "start": 1530.36,
+          "end": 1533.56
+        },
+        {
+          "text": "results to your inbox. You can also",
+          "start": 1531.48,
+          "end": 1535.32
+        },
+        {
+          "text": "trigger based on specific conditions.",
+          "start": 1533.56,
+          "end": 1536.8
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0045982.jpg",
+          "graphic_region": "frames/graphic/0045982.jpg",
+          "requested_seconds": 1532.75,
+          "sample_frame": 45982,
+          "normalized_source_seconds": 1532.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0045998.jpg",
+          "graphic_region": "frames/graphic/0045998.jpg",
+          "requested_seconds": 1533.25,
+          "sample_frame": 45998,
+          "normalized_source_seconds": 1533.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0046020.jpg",
+          "graphic_region": "frames/graphic/0046020.jpg",
+          "requested_seconds": 1534,
+          "sample_frame": 46020,
+          "normalized_source_seconds": 1534.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1543,
+      "nearby_original_transcript": [
+        {
+          "text": "to know if a metric drops or or grows by",
+          "start": 1536.8,
+          "end": 1541.12
+        },
+        {
+          "text": "a certain percentage amount. So, I've",
+          "start": 1539.6,
+          "end": 1543.32
+        },
+        {
+          "text": "I've instructed Genie to do that. Behind",
+          "start": 1541.12,
+          "end": 1545.12
+        },
+        {
+          "text": "the scenes, this is just based on the",
+          "start": 1543.32,
+          "end": 1546.52
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0046282.jpg",
+          "graphic_region": "frames/graphic/0046282.jpg",
+          "requested_seconds": 1542.75,
+          "sample_frame": 46282,
+          "normalized_source_seconds": 1542.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0046298.jpg",
+          "graphic_region": "frames/graphic/0046298.jpg",
+          "requested_seconds": 1543.25,
+          "sample_frame": 46298,
+          "normalized_source_seconds": 1543.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0046320.jpg",
+          "graphic_region": "frames/graphic/0046320.jpg",
+          "requested_seconds": 1544,
+          "sample_frame": 46320,
+          "normalized_source_seconds": 1544.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "22-scheduling-surfaces",
+      "observed_state_pattern": "Persistent heading/points \u2192 scheduling UI \u2192 mobile/chat surfaces \u2192 demo transition.",
+      "persistent_context": "Active point changes while headline and viewport remain stable.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0046560.jpg",
+      "frames/graphic/0045699.jpg",
+      "frames/graphic/0046005.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0046560.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

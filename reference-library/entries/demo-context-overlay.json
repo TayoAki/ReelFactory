@@ -1,0 +1,618 @@
+{
+  "id": "demo-context-overlay",
+  "index": 31,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 822,
+  "source_end": 855,
+  "source_timecode": "13:42.00\u201314:15.00",
+  "template_id": "converging-sources",
+  "label": "Context-source overlay above the prompt",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Add a conceptual source explanation without pretending the illustration is executed UI.",
+  "relationship": "many inputs \u2192 shared hub",
+  "original_transcript": "really simple question, but it's actually not, right? Users move between web and mobile and Slack and Teams, and Genie needs to know that. Uh, we also have a bunch of out-of-date dashboards that are just floating around. I don't want Genie to pick those up. And of course, I don't just care about Genie adoption. I also care about individual feature adoption, things like MCPs and skills and and Genie needs to know what those features are. So, to answer this, Genie needs to kind of understand our product, understand our metrics. It's going to probably need to pull from a bunch of not only first-party but also third-party data, uh, and then it's going to need to, um, consolidate that in a way that it aligns with the way that I like to write these",
+  "original_transcript_segments": [
+    {
+      "text": "really simple question, but it's",
+      "start": 817.84,
+      "end": 822.12
+    },
+    {
+      "text": "actually not, right? Users move between",
+      "start": 819.48,
+      "end": 824.96
+    },
+    {
+      "text": "web and mobile and Slack and Teams, and",
+      "start": 822.12,
+      "end": 827.08
+    },
+    {
+      "text": "Genie needs to know that. Uh, we also",
+      "start": 824.96,
+      "end": 829.36
+    },
+    {
+      "text": "have a bunch of out-of-date dashboards",
+      "start": 827.08,
+      "end": 830.8
+    },
+    {
+      "text": "that are just floating around. I don't",
+      "start": 829.36,
+      "end": 832.6
+    },
+    {
+      "text": "want Genie to pick those up. And of",
+      "start": 830.8,
+      "end": 833.72
+    },
+    {
+      "text": "course, I don't just care about Genie",
+      "start": 832.6,
+      "end": 835.72
+    },
+    {
+      "text": "adoption. I also care about individual",
+      "start": 833.72,
+      "end": 838.04
+    },
+    {
+      "text": "feature adoption, things like MCPs and",
+      "start": 835.72,
+      "end": 839.68
+    },
+    {
+      "text": "skills and and Genie needs to know what",
+      "start": 838.04,
+      "end": 841.52
+    },
+    {
+      "text": "those features are. So, to answer this,",
+      "start": 839.68,
+      "end": 843.12
+    },
+    {
+      "text": "Genie needs to kind of understand our",
+      "start": 841.52,
+      "end": 845.16
+    },
+    {
+      "text": "product, understand our metrics. It's",
+      "start": 843.12,
+      "end": 846.2
+    },
+    {
+      "text": "going to probably need to pull from a",
+      "start": 845.16,
+      "end": 848.12
+    },
+    {
+      "text": "bunch of not only first-party but also",
+      "start": 846.2,
+      "end": 849.88
+    },
+    {
+      "text": "third-party data, uh, and then it's",
+      "start": 848.12,
+      "end": 852.24
+    },
+    {
+      "text": "going to need to, um,",
+      "start": 849.88,
+      "end": 854.36
+    },
+    {
+      "text": "consolidate that in a way that it aligns",
+      "start": 852.24,
+      "end": 855.92
+    },
+    {
+      "text": "with the way that I like to write these",
+      "start": 854.36,
+      "end": 857.68
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Show several distinct sources contributing context or capabilities to one named consumer.",
+  "parameterized_transcript_patterns": [
+    "{{consumer}} draws on {{source_a}}, {{source_b}} and {{source_c}} to {{job}}.",
+    "These inputs differ, but they contribute to the same {{shared_layer}}."
+  ],
+  "semantic_slots": [
+    "consumer",
+    "job",
+    "shared_layer",
+    "source_a",
+    "source_b",
+    "source_c",
+    "sources"
+  ],
+  "selection_rule": "Use when the distinction among source classes matters and they share a real destination.",
+  "better_alternative_or_misuse": "Use a list for unrelated items; label search/query/tool access rather than implying data ingestion.",
+  "motion_recipe": "Add sources individually, retain earlier nodes, draw each path, then activate the hub.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 822.3,
+      "timecode": "13:42.30",
+      "images": {
+        "full_frame": "frames/full/0024669.jpg",
+        "graphic_region": "frames/graphic/0024669.jpg",
+        "requested_seconds": 822.3,
+        "sample_frame": 24669,
+        "normalized_source_seconds": 822.3,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "really simple question, but it's",
+          "start": 817.84,
+          "end": 822.12
+        },
+        {
+          "text": "actually not, right? Users move between",
+          "start": 819.48,
+          "end": 824.96
+        },
+        {
+          "text": "web and mobile and Slack and Teams, and",
+          "start": 822.12,
+          "end": 827.08
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 828,
+      "timecode": "13:48.00",
+      "images": {
+        "full_frame": "frames/full/0024840.jpg",
+        "graphic_region": "frames/graphic/0024840.jpg",
+        "requested_seconds": 828,
+        "sample_frame": 24840,
+        "normalized_source_seconds": 828.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "web and mobile and Slack and Teams, and",
+          "start": 822.12,
+          "end": 827.08
+        },
+        {
+          "text": "Genie needs to know that. Uh, we also",
+          "start": 824.96,
+          "end": 829.36
+        },
+        {
+          "text": "have a bunch of out-of-date dashboards",
+          "start": 827.08,
+          "end": 830.8
+        },
+        {
+          "text": "that are just floating around. I don't",
+          "start": 829.36,
+          "end": 832.6
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 835,
+      "timecode": "13:55.00",
+      "images": {
+        "full_frame": "frames/full/0025050.jpg",
+        "graphic_region": "frames/graphic/0025050.jpg",
+        "requested_seconds": 835,
+        "sample_frame": 25050,
+        "normalized_source_seconds": 835.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "want Genie to pick those up. And of",
+          "start": 830.8,
+          "end": 833.72
+        },
+        {
+          "text": "course, I don't just care about Genie",
+          "start": 832.6,
+          "end": 835.72
+        },
+        {
+          "text": "adoption. I also care about individual",
+          "start": 833.72,
+          "end": 838.04
+        },
+        {
+          "text": "feature adoption, things like MCPs and",
+          "start": 835.72,
+          "end": 839.68
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "intermediate observed state",
+      "time": 843,
+      "timecode": "14:03.00",
+      "images": {
+        "full_frame": "frames/full/0025290.jpg",
+        "graphic_region": "frames/graphic/0025290.jpg",
+        "requested_seconds": 843,
+        "sample_frame": 25290,
+        "normalized_source_seconds": 843.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "skills and and Genie needs to know what",
+          "start": 838.04,
+          "end": 841.52
+        },
+        {
+          "text": "those features are. So, to answer this,",
+          "start": 839.68,
+          "end": 843.12
+        },
+        {
+          "text": "Genie needs to kind of understand our",
+          "start": 841.52,
+          "end": 845.16
+        },
+        {
+          "text": "product, understand our metrics. It's",
+          "start": 843.12,
+          "end": 846.2
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-05",
+      "sequence_role": "later observed state",
+      "time": 852,
+      "timecode": "14:12.00",
+      "images": {
+        "full_frame": "frames/full/0025560.jpg",
+        "graphic_region": "frames/graphic/0025560.jpg",
+        "requested_seconds": 852,
+        "sample_frame": 25560,
+        "normalized_source_seconds": 852.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "third-party data, uh, and then it's",
+          "start": 848.12,
+          "end": 852.24
+        },
+        {
+          "text": "going to need to, um,",
+          "start": 849.88,
+          "end": 854.36
+        },
+        {
+          "text": "consolidate that in a way that it aligns",
+          "start": 852.24,
+          "end": 855.92
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 822,
+      "nearby_original_transcript": [
+        {
+          "text": "really simple question, but it's",
+          "start": 817.84,
+          "end": 822.12
+        },
+        {
+          "text": "actually not, right? Users move between",
+          "start": 819.48,
+          "end": 824.96
+        },
+        {
+          "text": "web and mobile and Slack and Teams, and",
+          "start": 822.12,
+          "end": 827.08
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0024660.jpg",
+          "graphic_region": "frames/graphic/0024660.jpg",
+          "requested_seconds": 822,
+          "sample_frame": 24660,
+          "normalized_source_seconds": 822.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0024668.jpg",
+          "graphic_region": "frames/graphic/0024668.jpg",
+          "requested_seconds": 822.25,
+          "sample_frame": 24668,
+          "normalized_source_seconds": 822.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0024690.jpg",
+          "graphic_region": "frames/graphic/0024690.jpg",
+          "requested_seconds": 823,
+          "sample_frame": 24690,
+          "normalized_source_seconds": 823.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 828,
+      "nearby_original_transcript": [
+        {
+          "text": "web and mobile and Slack and Teams, and",
+          "start": 822.12,
+          "end": 827.08
+        },
+        {
+          "text": "Genie needs to know that. Uh, we also",
+          "start": 824.96,
+          "end": 829.36
+        },
+        {
+          "text": "have a bunch of out-of-date dashboards",
+          "start": 827.08,
+          "end": 830.8
+        },
+        {
+          "text": "that are just floating around. I don't",
+          "start": 829.36,
+          "end": 832.6
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0024832.jpg",
+          "graphic_region": "frames/graphic/0024832.jpg",
+          "requested_seconds": 827.75,
+          "sample_frame": 24832,
+          "normalized_source_seconds": 827.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0024848.jpg",
+          "graphic_region": "frames/graphic/0024848.jpg",
+          "requested_seconds": 828.25,
+          "sample_frame": 24848,
+          "normalized_source_seconds": 828.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0024870.jpg",
+          "graphic_region": "frames/graphic/0024870.jpg",
+          "requested_seconds": 829,
+          "sample_frame": 24870,
+          "normalized_source_seconds": 829.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 835,
+      "nearby_original_transcript": [
+        {
+          "text": "want Genie to pick those up. And of",
+          "start": 830.8,
+          "end": 833.72
+        },
+        {
+          "text": "course, I don't just care about Genie",
+          "start": 832.6,
+          "end": 835.72
+        },
+        {
+          "text": "adoption. I also care about individual",
+          "start": 833.72,
+          "end": 838.04
+        },
+        {
+          "text": "feature adoption, things like MCPs and",
+          "start": 835.72,
+          "end": 839.68
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0025042.jpg",
+          "graphic_region": "frames/graphic/0025042.jpg",
+          "requested_seconds": 834.75,
+          "sample_frame": 25042,
+          "normalized_source_seconds": 834.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0025058.jpg",
+          "graphic_region": "frames/graphic/0025058.jpg",
+          "requested_seconds": 835.25,
+          "sample_frame": 25058,
+          "normalized_source_seconds": 835.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0025080.jpg",
+          "graphic_region": "frames/graphic/0025080.jpg",
+          "requested_seconds": 836,
+          "sample_frame": 25080,
+          "normalized_source_seconds": 836.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 843,
+      "nearby_original_transcript": [
+        {
+          "text": "skills and and Genie needs to know what",
+          "start": 838.04,
+          "end": 841.52
+        },
+        {
+          "text": "those features are. So, to answer this,",
+          "start": 839.68,
+          "end": 843.12
+        },
+        {
+          "text": "Genie needs to kind of understand our",
+          "start": 841.52,
+          "end": 845.16
+        },
+        {
+          "text": "product, understand our metrics. It's",
+          "start": 843.12,
+          "end": 846.2
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0025282.jpg",
+          "graphic_region": "frames/graphic/0025282.jpg",
+          "requested_seconds": 842.75,
+          "sample_frame": 25282,
+          "normalized_source_seconds": 842.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0025298.jpg",
+          "graphic_region": "frames/graphic/0025298.jpg",
+          "requested_seconds": 843.25,
+          "sample_frame": 25298,
+          "normalized_source_seconds": 843.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0025320.jpg",
+          "graphic_region": "frames/graphic/0025320.jpg",
+          "requested_seconds": 844,
+          "sample_frame": 25320,
+          "normalized_source_seconds": 844.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 850,
+      "nearby_original_transcript": [
+        {
+          "text": "going to probably need to pull from a",
+          "start": 845.16,
+          "end": 848.12
+        },
+        {
+          "text": "bunch of not only first-party but also",
+          "start": 846.2,
+          "end": 849.88
+        },
+        {
+          "text": "third-party data, uh, and then it's",
+          "start": 848.12,
+          "end": 852.24
+        },
+        {
+          "text": "going to need to, um,",
+          "start": 849.88,
+          "end": 854.36
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0025492.jpg",
+          "graphic_region": "frames/graphic/0025492.jpg",
+          "requested_seconds": 849.75,
+          "sample_frame": 25492,
+          "normalized_source_seconds": 849.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0025508.jpg",
+          "graphic_region": "frames/graphic/0025508.jpg",
+          "requested_seconds": 850.25,
+          "sample_frame": 25508,
+          "normalized_source_seconds": 850.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0025530.jpg",
+          "graphic_region": "frames/graphic/0025530.jpg",
+          "requested_seconds": 851,
+          "sample_frame": 25530,
+          "normalized_source_seconds": 851.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "14-demo-context",
+      "observed_state_pattern": "Application home \u2192 user question \u2192 source/context overlay.",
+      "persistent_context": "Same app and presenter rail; overlay relates to visible prompt.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0025560.jpg",
+      "frames/graphic/0024669.jpg",
+      "frames/graphic/0025050.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0025560.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

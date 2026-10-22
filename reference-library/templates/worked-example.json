@@ -1,0 +1,52 @@
+{
+  "id": "worked-example",
+  "relationship": "question \u2192 reasoning/result \u2192 action",
+  "teaching_job": "Turn an abstract capability into a concrete question and observable answer or suggested action.",
+  "transcript_patterns": [
+    "Suppose you ask {{concrete_question}}. {{system}} uses {{evidence}} to {{result}}.",
+    "From that answer, you can {{next_action}}, subject to {{constraint}}."
+  ],
+  "semantic_slots": [
+    "concrete_question",
+    "constraint",
+    "evidence",
+    "next_action",
+    "result",
+    "system"
+  ],
+  "choose_when": "Use after a capability needs a tangible demonstration.",
+  "choose_something_else_when": "Use genuine product footage for actual execution; label invented chat examples as illustrative.",
+  "motion_grammar": "Establish the prompt, reveal its response, then add the next action; keep the question visible.",
+  "instances": [
+    "question-answer-action"
+  ],
+  "classification": "Curated editorial teaching template; not a trained classifier or a product fact.",
+  "required_pattern_slots": [
+    [
+      "concrete_question",
+      "evidence",
+      "result",
+      "system"
+    ],
+    [
+      "constraint",
+      "next_action"
+    ]
+  ],
+  "filled_source_sentence_scaffolds": [
+    "Suppose you ask The business question shown in the source chat graphic. Genie One uses The data/tools relationship introduced immediately before this graphic to The answer shown in the illustrative chat.",
+    "From that answer, you can An action based on the answer, subject to The existing governance framework."
+  ],
+  "unbound_source_example_slots": [],
+  "representative_entry": "question-answer-action",
+  "example_source_bindings": {
+    "concrete_question": "The business question shown in the source chat graphic",
+    "evidence": "The data/tools relationship introduced immediately before this graphic",
+    "result": "The answer shown in the illustrative chat",
+    "next_action": "An action based on the answer",
+    "constraint": "The existing governance framework",
+    "system": "Genie One"
+  },
+  "paired_source_quote": "connects to your data and tools. It answers questions about your business. It acts on the answers that it gives you, all within the governance framework",
+  "source_binding_status": "Editorial binding/paraphrase of source roles; raw transcript remains separately preserved. Do not treat bindings as word-for-word quotation."
+}

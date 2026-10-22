@@ -1,0 +1,687 @@
+{
+  "id": "family-peers",
+  "index": 8,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 61.5,
+  "source_end": 83.7,
+  "source_timecode": "01:01.50\u201301:23.70",
+  "template_id": "product-family",
+  "label": "Separate product-family roles",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Separate roles while retaining family identity and readable card planes.",
+  "relationship": "shared foundation \u2192 different roles",
+  "original_transcript": "and other AI tools on Databricks. So, if for example, if Genie 1 is our agent for business users, Genie code is our agent for technical users. It helps them write code and and do other work within the lakehouse. We also have Genie agents, which can be accessed by both types of users, and they're really focused on domain-specific work. They're They're essentially domain experts, and I can actually cover that in more depth if we want to. And then, if all those",
+  "original_transcript_segments": [
+    {
+      "text": "and other AI tools on Databricks. So, if",
+      "start": 58.12,
+      "end": 63.36
+    },
+    {
+      "text": "for example, if Genie 1 is our agent for",
+      "start": 60.96,
+      "end": 66.44
+    },
+    {
+      "text": "business users, Genie code is our agent",
+      "start": 63.36,
+      "end": 68.64
+    },
+    {
+      "text": "for technical users. It helps them write",
+      "start": 66.44,
+      "end": 70.64
+    },
+    {
+      "text": "code and and do other work within the",
+      "start": 68.64,
+      "end": 73.48
+    },
+    {
+      "text": "lakehouse. We also have Genie agents,",
+      "start": 70.64,
+      "end": 75.4
+    },
+    {
+      "text": "which can be accessed by both types of",
+      "start": 73.48,
+      "end": 77.72
+    },
+    {
+      "text": "users, and they're really focused on",
+      "start": 75.4,
+      "end": 79.6
+    },
+    {
+      "text": "domain-specific work. They're They're",
+      "start": 77.72,
+      "end": 81.16
+    },
+    {
+      "text": "essentially domain experts, and I can",
+      "start": 79.6,
+      "end": 82.84
+    },
+    {
+      "text": "actually cover that in more depth if we",
+      "start": 81.16,
+      "end": 84.88
+    },
+    {
+      "text": "want to. And then, if all those",
+      "start": 82.84,
+      "end": 87.0
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Compare related offerings while distinguishing their jobs.",
+  "parameterized_transcript_patterns": [
+    "{{family}} shares {{foundation}}, while {{product_a}} serves {{job_a}} and {{product_b}} serves {{job_b}}.",
+    "These are different ways to use {{shared_capability}}, depending on {{user_job}}."
+  ],
+  "semantic_slots": [
+    "family",
+    "foundation",
+    "job_a",
+    "job_b",
+    "jobs",
+    "product_a",
+    "product_b",
+    "products",
+    "shared_capability",
+    "user_job"
+  ],
+  "selection_rule": "Use when the products are peers with shared foundations.",
+  "better_alternative_or_misuse": "Do not turn peer products into an execution pipeline or imply dependency from card depth.",
+  "motion_recipe": "Show a shared stack, then spread peer cards while preserving the front card and each readable plane.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 61.6,
+      "timecode": "01:01.60",
+      "images": {
+        "full_frame": "frames/full/0001848.jpg",
+        "graphic_region": "frames/graphic/0001848.jpg",
+        "requested_seconds": 61.6,
+        "sample_frame": 1848,
+        "normalized_source_seconds": 61.6,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "in a larger stack of of AI co-workers",
+          "start": 54.6,
+          "end": 60.96
+        },
+        {
+          "text": "and other AI tools on Databricks. So, if",
+          "start": 58.12,
+          "end": 63.36
+        },
+        {
+          "text": "for example, if Genie 1 is our agent for",
+          "start": 60.96,
+          "end": 66.44
+        },
+        {
+          "text": "business users, Genie code is our agent",
+          "start": 63.36,
+          "end": 68.64
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 63.6,
+      "timecode": "01:03.60",
+      "images": {
+        "full_frame": "frames/full/0001908.jpg",
+        "graphic_region": "frames/graphic/0001908.jpg",
+        "requested_seconds": 63.6,
+        "sample_frame": 1908,
+        "normalized_source_seconds": 63.6,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "and other AI tools on Databricks. So, if",
+          "start": 58.12,
+          "end": 63.36
+        },
+        {
+          "text": "for example, if Genie 1 is our agent for",
+          "start": 60.96,
+          "end": 66.44
+        },
+        {
+          "text": "business users, Genie code is our agent",
+          "start": 63.36,
+          "end": 68.64
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 65,
+      "timecode": "01:05.00",
+      "images": {
+        "full_frame": "frames/full/0001950.jpg",
+        "graphic_region": "frames/graphic/0001950.jpg",
+        "requested_seconds": 65,
+        "sample_frame": 1950,
+        "normalized_source_seconds": 65.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "and other AI tools on Databricks. So, if",
+          "start": 58.12,
+          "end": 63.36
+        },
+        {
+          "text": "for example, if Genie 1 is our agent for",
+          "start": 60.96,
+          "end": 66.44
+        },
+        {
+          "text": "business users, Genie code is our agent",
+          "start": 63.36,
+          "end": 68.64
+        },
+        {
+          "text": "for technical users. It helps them write",
+          "start": 66.44,
+          "end": 70.64
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "intermediate observed state",
+      "time": 69,
+      "timecode": "01:09.00",
+      "images": {
+        "full_frame": "frames/full/0002070.jpg",
+        "graphic_region": "frames/graphic/0002070.jpg",
+        "requested_seconds": 69,
+        "sample_frame": 2070,
+        "normalized_source_seconds": 69.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "business users, Genie code is our agent",
+          "start": 63.36,
+          "end": 68.64
+        },
+        {
+          "text": "for technical users. It helps them write",
+          "start": 66.44,
+          "end": 70.64
+        },
+        {
+          "text": "code and and do other work within the",
+          "start": 68.64,
+          "end": 73.48
+        },
+        {
+          "text": "lakehouse. We also have Genie agents,",
+          "start": 70.64,
+          "end": 75.4
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-05",
+      "sequence_role": "intermediate observed state",
+      "time": 74,
+      "timecode": "01:14.00",
+      "images": {
+        "full_frame": "frames/full/0002220.jpg",
+        "graphic_region": "frames/graphic/0002220.jpg",
+        "requested_seconds": 74,
+        "sample_frame": 2220,
+        "normalized_source_seconds": 74.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "code and and do other work within the",
+          "start": 68.64,
+          "end": 73.48
+        },
+        {
+          "text": "lakehouse. We also have Genie agents,",
+          "start": 70.64,
+          "end": 75.4
+        },
+        {
+          "text": "which can be accessed by both types of",
+          "start": 73.48,
+          "end": 77.72
+        },
+        {
+          "text": "users, and they're really focused on",
+          "start": 75.4,
+          "end": 79.6
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-06",
+      "sequence_role": "later observed state",
+      "time": 81.6,
+      "timecode": "01:21.60",
+      "images": {
+        "full_frame": "frames/full/0002448.jpg",
+        "graphic_region": "frames/graphic/0002448.jpg",
+        "requested_seconds": 81.6,
+        "sample_frame": 2448,
+        "normalized_source_seconds": 81.6,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "domain-specific work. They're They're",
+          "start": 77.72,
+          "end": 81.16
+        },
+        {
+          "text": "essentially domain experts, and I can",
+          "start": 79.6,
+          "end": 82.84
+        },
+        {
+          "text": "actually cover that in more depth if we",
+          "start": 81.16,
+          "end": 84.88
+        },
+        {
+          "text": "want to. And then, if all those",
+          "start": 82.84,
+          "end": 87.0
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 63.52,
+      "nearby_original_transcript": [
+        {
+          "text": "and other AI tools on Databricks. So, if",
+          "start": 58.12,
+          "end": 63.36
+        },
+        {
+          "text": "for example, if Genie 1 is our agent for",
+          "start": 60.96,
+          "end": 66.44
+        },
+        {
+          "text": "business users, Genie code is our agent",
+          "start": 63.36,
+          "end": 68.64
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0001898.jpg",
+          "graphic_region": "frames/graphic/0001898.jpg",
+          "requested_seconds": 63.27,
+          "sample_frame": 1898,
+          "normalized_source_seconds": 63.266666666666666,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0001913.jpg",
+          "graphic_region": "frames/graphic/0001913.jpg",
+          "requested_seconds": 63.77,
+          "sample_frame": 1913,
+          "normalized_source_seconds": 63.766666666666666,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0001936.jpg",
+          "graphic_region": "frames/graphic/0001936.jpg",
+          "requested_seconds": 64.52000000000001,
+          "sample_frame": 1936,
+          "normalized_source_seconds": 64.53333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 64.65,
+      "nearby_original_transcript": [
+        {
+          "text": "and other AI tools on Databricks. So, if",
+          "start": 58.12,
+          "end": 63.36
+        },
+        {
+          "text": "for example, if Genie 1 is our agent for",
+          "start": 60.96,
+          "end": 66.44
+        },
+        {
+          "text": "business users, Genie code is our agent",
+          "start": 63.36,
+          "end": 68.64
+        },
+        {
+          "text": "for technical users. It helps them write",
+          "start": 66.44,
+          "end": 70.64
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0001932.jpg",
+          "graphic_region": "frames/graphic/0001932.jpg",
+          "requested_seconds": 64.4,
+          "sample_frame": 1932,
+          "normalized_source_seconds": 64.4,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0001947.jpg",
+          "graphic_region": "frames/graphic/0001947.jpg",
+          "requested_seconds": 64.9,
+          "sample_frame": 1947,
+          "normalized_source_seconds": 64.9,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0001970.jpg",
+          "graphic_region": "frames/graphic/0001970.jpg",
+          "requested_seconds": 65.65,
+          "sample_frame": 1970,
+          "normalized_source_seconds": 65.66666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 68.56,
+      "nearby_original_transcript": [
+        {
+          "text": "business users, Genie code is our agent",
+          "start": 63.36,
+          "end": 68.64
+        },
+        {
+          "text": "for technical users. It helps them write",
+          "start": 66.44,
+          "end": 70.64
+        },
+        {
+          "text": "code and and do other work within the",
+          "start": 68.64,
+          "end": 73.48
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0002049.jpg",
+          "graphic_region": "frames/graphic/0002049.jpg",
+          "requested_seconds": 68.31,
+          "sample_frame": 2049,
+          "normalized_source_seconds": 68.3,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0002064.jpg",
+          "graphic_region": "frames/graphic/0002064.jpg",
+          "requested_seconds": 68.81,
+          "sample_frame": 2064,
+          "normalized_source_seconds": 68.8,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0002087.jpg",
+          "graphic_region": "frames/graphic/0002087.jpg",
+          "requested_seconds": 69.56,
+          "sample_frame": 2087,
+          "normalized_source_seconds": 69.56666666666666,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 72.45,
+      "nearby_original_transcript": [
+        {
+          "text": "for technical users. It helps them write",
+          "start": 66.44,
+          "end": 70.64
+        },
+        {
+          "text": "code and and do other work within the",
+          "start": 68.64,
+          "end": 73.48
+        },
+        {
+          "text": "lakehouse. We also have Genie agents,",
+          "start": 70.64,
+          "end": 75.4
+        },
+        {
+          "text": "which can be accessed by both types of",
+          "start": 73.48,
+          "end": 77.72
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0002166.jpg",
+          "graphic_region": "frames/graphic/0002166.jpg",
+          "requested_seconds": 72.2,
+          "sample_frame": 2166,
+          "normalized_source_seconds": 72.2,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0002181.jpg",
+          "graphic_region": "frames/graphic/0002181.jpg",
+          "requested_seconds": 72.7,
+          "sample_frame": 2181,
+          "normalized_source_seconds": 72.7,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0002204.jpg",
+          "graphic_region": "frames/graphic/0002204.jpg",
+          "requested_seconds": 73.45,
+          "sample_frame": 2204,
+          "normalized_source_seconds": 73.46666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 77.35,
+      "nearby_original_transcript": [
+        {
+          "text": "lakehouse. We also have Genie agents,",
+          "start": 70.64,
+          "end": 75.4
+        },
+        {
+          "text": "which can be accessed by both types of",
+          "start": 73.48,
+          "end": 77.72
+        },
+        {
+          "text": "users, and they're really focused on",
+          "start": 75.4,
+          "end": 79.6
+        },
+        {
+          "text": "domain-specific work. They're They're",
+          "start": 77.72,
+          "end": 81.16
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0002313.jpg",
+          "graphic_region": "frames/graphic/0002313.jpg",
+          "requested_seconds": 77.1,
+          "sample_frame": 2313,
+          "normalized_source_seconds": 77.1,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0002328.jpg",
+          "graphic_region": "frames/graphic/0002328.jpg",
+          "requested_seconds": 77.6,
+          "sample_frame": 2328,
+          "normalized_source_seconds": 77.6,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0002350.jpg",
+          "graphic_region": "frames/graphic/0002350.jpg",
+          "requested_seconds": 78.35,
+          "sample_frame": 2350,
+          "normalized_source_seconds": 78.33333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 81.53,
+      "nearby_original_transcript": [
+        {
+          "text": "users, and they're really focused on",
+          "start": 75.4,
+          "end": 79.6
+        },
+        {
+          "text": "domain-specific work. They're They're",
+          "start": 77.72,
+          "end": 81.16
+        },
+        {
+          "text": "essentially domain experts, and I can",
+          "start": 79.6,
+          "end": 82.84
+        },
+        {
+          "text": "actually cover that in more depth if we",
+          "start": 81.16,
+          "end": 84.88
+        },
+        {
+          "text": "want to. And then, if all those",
+          "start": 82.84,
+          "end": 87.0
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0002438.jpg",
+          "graphic_region": "frames/graphic/0002438.jpg",
+          "requested_seconds": 81.28,
+          "sample_frame": 2438,
+          "normalized_source_seconds": 81.26666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0002453.jpg",
+          "graphic_region": "frames/graphic/0002453.jpg",
+          "requested_seconds": 81.78,
+          "sample_frame": 2453,
+          "normalized_source_seconds": 81.76666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0002476.jpg",
+          "graphic_region": "frames/graphic/0002476.jpg",
+          "requested_seconds": 82.53,
+          "sample_frame": 2476,
+          "normalized_source_seconds": 82.53333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "03-layered-cards",
+      "observed_state_pattern": "Single card \u2192 tilted stack \u2192 sibling cards \u2192 audience and domain annotations.",
+      "persistent_context": "Known Genie One card remains central/front; Code left, Agents right.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0002448.jpg",
+      "frames/graphic/0001848.jpg",
+      "frames/graphic/0001950.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0002448.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "reading_order": [
+      "Named peer products and their roles"
+    ],
+    "observed_reveal_order": [
+      "Peers leave the shared stack",
+      "Cards settle into separate readable planes",
+      "Focus changes among named roles"
+    ],
+    "speech_mapping": "The narration distinguishes roles while retaining a shared product-family identity.",
+    "confidence": "Prior eight-sample source sequence and refined passage evidence."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

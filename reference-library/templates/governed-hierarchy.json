@@ -1,0 +1,60 @@
+{
+  "id": "governed-hierarchy",
+  "relationship": "governing parent \u2192 peers \u2192 logical groups",
+  "teaching_job": "Explain a governed organizational hierarchy with named objects.",
+  "transcript_patterns": [
+    "{{governance_parent}} manages {{object_a}} and {{object_b}}; {{group}} organizes them by {{business_scope}}.",
+    "Start with {{definition_object}}, add {{context_object}}, then organize them into {{domain}}."
+  ],
+  "semantic_slots": [
+    "business_scope",
+    "context_object",
+    "definition_object",
+    "domain",
+    "governance_parent",
+    "group",
+    "object_a",
+    "object_b",
+    "objects"
+  ],
+  "choose_when": "Use for a real parent, containment or grouping relationship.",
+  "choose_something_else_when": "Use equal peer cards when no parent-child relationship exists; do not invent permission inheritance.",
+  "motion_grammar": "Introduce one object, its governing parent, peer objects, grouping and supported consumers in sequence.",
+  "instances": [
+    "modeled-hierarchy"
+  ],
+  "classification": "Curated editorial teaching template; not a trained classifier or a product fact.",
+  "required_pattern_slots": [
+    [
+      "business_scope",
+      "governance_parent",
+      "group",
+      "object_a",
+      "object_b"
+    ],
+    [
+      "context_object",
+      "definition_object",
+      "domain"
+    ]
+  ],
+  "filled_source_sentence_scaffolds": [
+    "Unity Catalog as shown in the source manages Metric Views and Pages; Domains organizes them by Logical/business organization of related assets.",
+    "Start with Metric Views, add Pages, then organize them into A named domain grouping."
+  ],
+  "unbound_source_example_slots": [],
+  "representative_entry": "modeled-hierarchy",
+  "example_source_bindings": {
+    "governance_parent": "Unity Catalog as shown in the source",
+    "objects": "Metric Views and Pages",
+    "group": "Domains",
+    "business_scope": "Logical/business organization of related assets",
+    "domain": "A named domain grouping",
+    "object_a": "Metric Views",
+    "object_b": "Pages",
+    "context_object": "Pages",
+    "definition_object": "Metric Views"
+  },
+  "paired_source_quote": "definition for your key business metrics stored as open format Unity Catalog objects. So, for example, you know, this is how we slice and dice revenue. And and metric views are fully GA'd. Pages are a bit newer. Uh it's the it's the qualitative equivalent of a metric view. I think of them as wiki pages in in Unity Catalog. So, if a metric view defines how we slice and dice revenue, a page might tell you, say, the difference between incremental and attributed revenue. Uh and these are in beta and it is actually super easy to get started. You can use Genie code to actually get started on creating your pages. And then finally, domains uh allow you to do tag-based logical collections of assets, uh both Unity Catalog and workspace assets by things like business unit or geo or function. So, you might have a finance domain or you might have a product team domain. And an asset can live in multiple domains. And it's really helpful for reducing the agent's search space. So, if someone asks a question about finance, you know, we can start from from the finance domain. So, together, metric views, pages, and domains form this certified authoritative baseline. But it's hard, if not impossible, to try to codify the entire organization's knowledge that way, to have a centralized data team responsible for codifying the the concepts that every individual team are are kind of experts in. So, we supplement the modeled ontology",
+  "source_binding_status": "Editorial binding/paraphrase of source roles; raw transcript remains separately preserved. Do not treat bindings as word-for-word quotation."
+}

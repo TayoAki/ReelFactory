@@ -1,0 +1,250 @@
+{
+  "id": "demo-two-title",
+  "index": 50,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 1608,
+  "source_end": 1614,
+  "source_timecode": "26:48.00\u201326:54.00",
+  "template_id": "chapter",
+  "label": "Second demo chapter",
+  "category": "chapter-navigation",
+  "teaching_intent": "Provide navigation into the second live demonstration.",
+  "relationship": "chapter transition",
+  "original_transcript": "links, and so on that you're actually seeing in in the GIF here. So, that sounds interesting. I I maybe show a couple more things uh in in our demo.",
+  "original_transcript_segments": [
+    {
+      "text": "links, and so on that you're actually",
+      "start": 1603.92,
+      "end": 1608.84
+    },
+    {
+      "text": "seeing in in the GIF here.",
+      "start": 1605.08,
+      "end": 1608.84
+    },
+    {
+      "text": "So, that sounds interesting. I I maybe",
+      "start": 1609.08,
+      "end": 1612.88
+    },
+    {
+      "text": "show a couple more things uh in in our",
+      "start": 1610.24,
+      "end": 1614.56
+    },
+    {
+      "text": "demo.",
+      "start": 1612.88,
+      "end": 1616.2
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Reset attention as the narration changes sections.",
+  "parameterized_transcript_patterns": [
+    "Now let\u2019s look at {{next_section}}.",
+    "We have covered {{previous_topic}}; next is {{next_topic}}."
+  ],
+  "semantic_slots": [
+    "next_section",
+    "next_topic",
+    "previous_topic"
+  ],
+  "selection_rule": "Use for a real structural transition.",
+  "better_alternative_or_misuse": "A chapter title is navigation, not an explanatory mechanism.",
+  "motion_recipe": "Brief clear title hold, then transition to the next teaching surface.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 1608.3,
+      "timecode": "26:48.30",
+      "images": {
+        "full_frame": "frames/full/0048249.jpg",
+        "graphic_region": "frames/graphic/0048249.jpg",
+        "requested_seconds": 1608.3,
+        "sample_frame": 48249,
+        "normalized_source_seconds": 1608.3,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "links, and so on that you're actually",
+          "start": 1603.92,
+          "end": 1608.84
+        },
+        {
+          "text": "seeing in in the GIF here.",
+          "start": 1605.08,
+          "end": 1608.84
+        },
+        {
+          "text": "So, that sounds interesting. I I maybe",
+          "start": 1609.08,
+          "end": 1612.88
+        },
+        {
+          "text": "show a couple more things uh in in our",
+          "start": 1610.24,
+          "end": 1614.56
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 1611,
+      "timecode": "26:51.00",
+      "images": {
+        "full_frame": "frames/full/0048330.jpg",
+        "graphic_region": "frames/graphic/0048330.jpg",
+        "requested_seconds": 1611,
+        "sample_frame": 48330,
+        "normalized_source_seconds": 1611.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "So, that sounds interesting. I I maybe",
+          "start": 1609.08,
+          "end": 1612.88
+        },
+        {
+          "text": "show a couple more things uh in in our",
+          "start": 1610.24,
+          "end": 1614.56
+        },
+        {
+          "text": "demo.",
+          "start": 1612.88,
+          "end": 1616.2
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "later observed state",
+      "time": 1613.5,
+      "timecode": "26:53.50",
+      "images": {
+        "full_frame": "frames/full/0048405.jpg",
+        "graphic_region": "frames/graphic/0048405.jpg",
+        "requested_seconds": 1613.5,
+        "sample_frame": 48405,
+        "normalized_source_seconds": 1613.5,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "So, that sounds interesting. I I maybe",
+          "start": 1609.08,
+          "end": 1612.88
+        },
+        {
+          "text": "show a couple more things uh in in our",
+          "start": 1610.24,
+          "end": 1614.56
+        },
+        {
+          "text": "demo.",
+          "start": 1612.88,
+          "end": 1616.2
+        },
+        {
+          "text": "So, going back to my my other screen.",
+          "start": 1614.56,
+          "end": 1618.04
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 1608,
+      "nearby_original_transcript": [
+        {
+          "text": "links, and so on that you're actually",
+          "start": 1603.92,
+          "end": 1608.84
+        },
+        {
+          "text": "seeing in in the GIF here.",
+          "start": 1605.08,
+          "end": 1608.84
+        },
+        {
+          "text": "So, that sounds interesting. I I maybe",
+          "start": 1609.08,
+          "end": 1612.88
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0048240.jpg",
+          "graphic_region": "frames/graphic/0048240.jpg",
+          "requested_seconds": 1608,
+          "sample_frame": 48240,
+          "normalized_source_seconds": 1608.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0048248.jpg",
+          "graphic_region": "frames/graphic/0048248.jpg",
+          "requested_seconds": 1608.25,
+          "sample_frame": 48248,
+          "normalized_source_seconds": 1608.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0048270.jpg",
+          "graphic_region": "frames/graphic/0048270.jpg",
+          "requested_seconds": 1609,
+          "sample_frame": 48270,
+          "normalized_source_seconds": 1609.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "22-scheduling-surfaces",
+      "observed_state_pattern": "Persistent heading/points \u2192 scheduling UI \u2192 mobile/chat surfaces \u2192 demo transition.",
+      "persistent_context": "Active point changes while headline and viewport remain stable.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0048405.jpg",
+      "frames/graphic/0048249.jpg",
+      "frames/graphic/0048330.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0048405.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

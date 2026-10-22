@@ -22,3 +22,8 @@ Interpretation: the original's middle card makes the model the focal object; mat
 ## Pilot scope
 
 One reference explanation: Web Search → Generic Models → Accurate Results. This preserves a source-video example; it is not a general guarantee that generic models produce accurate results. Produce three meaningful image states before any new animation. Keep all source evidence and exploratory alternatives, label their approval status, then derive a coherent final keyframe sequence from the selected master.
+
+
+## Original-source reference retrieval
+
+Before designing a new master image, use `reference-library/` to pair original screenshots with the raw transcript, a teaching-relation template, variable slots, selection/misuse rules and source reveal observations. Pass the selected original images into image generation. Reading order and reveal order are distinct: source inspection corrected this pilot from an inferred web-first build to the original model-first build. Record selected library entry IDs and actual reference images in each storyboard.

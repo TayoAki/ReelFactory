@@ -1,0 +1,459 @@
+{
+  "id": "learned-inputs",
+  "index": 18,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 333.5,
+  "source_end": 353,
+  "source_timecode": "05:33.50\u201305:53.00",
+  "template_id": "learned-signals",
+  "label": "Context learned from existing work",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Introduce the evidence sources that supply inferred contextual signals.",
+  "relationship": "work evidence \u2192 contextual signals",
+  "original_transcript": "are kind of experts in. So, we supplement the modeled ontology with what we call learned knowledge. Specifically, we extract ontology snippets from your dashboards, your SQL queries, your Genie agents, notebooks, all the work that people are doing day in and and day out within and outside of Databricks. So, for example, you know, the fact that someone joins table A and",
+  "original_transcript_segments": [
+    {
+      "text": "are kind of experts in.",
+      "start": 330.36,
+      "end": 335.36
+    },
+    {
+      "text": "So, we supplement the modeled ontology",
+      "start": 332.12,
+      "end": 337.52
+    },
+    {
+      "text": "with what we call learned knowledge.",
+      "start": 335.36,
+      "end": 339.96
+    },
+    {
+      "text": "Specifically, we extract ontology",
+      "start": 337.52,
+      "end": 343.52
+    },
+    {
+      "text": "snippets from your dashboards, your SQL",
+      "start": 339.96,
+      "end": 346.04
+    },
+    {
+      "text": "queries, your Genie agents, notebooks,",
+      "start": 343.52,
+      "end": 348.0
+    },
+    {
+      "text": "all the work that people are doing day",
+      "start": 346.04,
+      "end": 350.92
+    },
+    {
+      "text": "in and and day out within and outside of",
+      "start": 348.0,
+      "end": 352.8
+    },
+    {
+      "text": "Databricks. So, for example, you know,",
+      "start": 350.92,
+      "end": 355.76
+    },
+    {
+      "text": "the fact that someone joins table A and",
+      "start": 352.8,
+      "end": 358.64
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Explain where inferred context comes from using concrete examples of real work.",
+  "parameterized_transcript_patterns": [
+    "When people {{work_action}}, they leave {{signal}} that helps {{system}} infer {{context}}.",
+    "{{example_a}} and {{example_b}} provide clues about {{business_relationship}}."
+  ],
+  "semantic_slots": [
+    "business_relationship",
+    "context",
+    "example_a",
+    "example_b",
+    "examples",
+    "signal",
+    "system",
+    "work_action"
+  ],
+  "selection_rule": "Use when the lesson is how evidence contributes contextual clues.",
+  "better_alternative_or_misuse": "Do not represent learned signals as certified definitions or guaranteed truth.",
+  "motion_recipe": "Accumulate labeled source examples, show the new signal, and retain the distinction between evidence and authority.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 334,
+      "timecode": "05:34.00",
+      "images": {
+        "full_frame": "frames/full/0010020.jpg",
+        "graphic_region": "frames/graphic/0010020.jpg",
+        "requested_seconds": 334,
+        "sample_frame": 10020,
+        "normalized_source_seconds": 334.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "concepts that every individual team are",
+          "start": 327.6,
+          "end": 332.12
+        },
+        {
+          "text": "are kind of experts in.",
+          "start": 330.36,
+          "end": 335.36
+        },
+        {
+          "text": "So, we supplement the modeled ontology",
+          "start": 332.12,
+          "end": 337.52
+        },
+        {
+          "text": "with what we call learned knowledge.",
+          "start": 335.36,
+          "end": 339.96
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 340,
+      "timecode": "05:40.00",
+      "images": {
+        "full_frame": "frames/full/0010200.jpg",
+        "graphic_region": "frames/graphic/0010200.jpg",
+        "requested_seconds": 340,
+        "sample_frame": 10200,
+        "normalized_source_seconds": 340.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "with what we call learned knowledge.",
+          "start": 335.36,
+          "end": 339.96
+        },
+        {
+          "text": "Specifically, we extract ontology",
+          "start": 337.52,
+          "end": 343.52
+        },
+        {
+          "text": "snippets from your dashboards, your SQL",
+          "start": 339.96,
+          "end": 346.04
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 344,
+      "timecode": "05:44.00",
+      "images": {
+        "full_frame": "frames/full/0010320.jpg",
+        "graphic_region": "frames/graphic/0010320.jpg",
+        "requested_seconds": 344,
+        "sample_frame": 10320,
+        "normalized_source_seconds": 344.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "Specifically, we extract ontology",
+          "start": 337.52,
+          "end": 343.52
+        },
+        {
+          "text": "snippets from your dashboards, your SQL",
+          "start": 339.96,
+          "end": 346.04
+        },
+        {
+          "text": "queries, your Genie agents, notebooks,",
+          "start": 343.52,
+          "end": 348.0
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "intermediate observed state",
+      "time": 348,
+      "timecode": "05:48.00",
+      "images": {
+        "full_frame": "frames/full/0010440.jpg",
+        "graphic_region": "frames/graphic/0010440.jpg",
+        "requested_seconds": 348,
+        "sample_frame": 10440,
+        "normalized_source_seconds": 348.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "snippets from your dashboards, your SQL",
+          "start": 339.96,
+          "end": 346.04
+        },
+        {
+          "text": "queries, your Genie agents, notebooks,",
+          "start": 343.52,
+          "end": 348.0
+        },
+        {
+          "text": "all the work that people are doing day",
+          "start": 346.04,
+          "end": 350.92
+        },
+        {
+          "text": "in and and day out within and outside of",
+          "start": 348.0,
+          "end": 352.8
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-05",
+      "sequence_role": "later observed state",
+      "time": 352,
+      "timecode": "05:52.00",
+      "images": {
+        "full_frame": "frames/full/0010560.jpg",
+        "graphic_region": "frames/graphic/0010560.jpg",
+        "requested_seconds": 352,
+        "sample_frame": 10560,
+        "normalized_source_seconds": 352.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "all the work that people are doing day",
+          "start": 346.04,
+          "end": 350.92
+        },
+        {
+          "text": "in and and day out within and outside of",
+          "start": 348.0,
+          "end": 352.8
+        },
+        {
+          "text": "Databricks. So, for example, you know,",
+          "start": 350.92,
+          "end": 355.76
+        },
+        {
+          "text": "the fact that someone joins table A and",
+          "start": 352.8,
+          "end": 358.64
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 334,
+      "nearby_original_transcript": [
+        {
+          "text": "concepts that every individual team are",
+          "start": 327.6,
+          "end": 332.12
+        },
+        {
+          "text": "are kind of experts in.",
+          "start": 330.36,
+          "end": 335.36
+        },
+        {
+          "text": "So, we supplement the modeled ontology",
+          "start": 332.12,
+          "end": 337.52
+        },
+        {
+          "text": "with what we call learned knowledge.",
+          "start": 335.36,
+          "end": 339.96
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0010012.jpg",
+          "graphic_region": "frames/graphic/0010012.jpg",
+          "requested_seconds": 333.75,
+          "sample_frame": 10012,
+          "normalized_source_seconds": 333.73333333333335,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0010028.jpg",
+          "graphic_region": "frames/graphic/0010028.jpg",
+          "requested_seconds": 334.25,
+          "sample_frame": 10028,
+          "normalized_source_seconds": 334.26666666666665,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0010050.jpg",
+          "graphic_region": "frames/graphic/0010050.jpg",
+          "requested_seconds": 335,
+          "sample_frame": 10050,
+          "normalized_source_seconds": 335.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 340,
+      "nearby_original_transcript": [
+        {
+          "text": "with what we call learned knowledge.",
+          "start": 335.36,
+          "end": 339.96
+        },
+        {
+          "text": "Specifically, we extract ontology",
+          "start": 337.52,
+          "end": 343.52
+        },
+        {
+          "text": "snippets from your dashboards, your SQL",
+          "start": 339.96,
+          "end": 346.04
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0010192.jpg",
+          "graphic_region": "frames/graphic/0010192.jpg",
+          "requested_seconds": 339.75,
+          "sample_frame": 10192,
+          "normalized_source_seconds": 339.73333333333335,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0010208.jpg",
+          "graphic_region": "frames/graphic/0010208.jpg",
+          "requested_seconds": 340.25,
+          "sample_frame": 10208,
+          "normalized_source_seconds": 340.26666666666665,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0010230.jpg",
+          "graphic_region": "frames/graphic/0010230.jpg",
+          "requested_seconds": 341,
+          "sample_frame": 10230,
+          "normalized_source_seconds": 341.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 347,
+      "nearby_original_transcript": [
+        {
+          "text": "snippets from your dashboards, your SQL",
+          "start": 339.96,
+          "end": 346.04
+        },
+        {
+          "text": "queries, your Genie agents, notebooks,",
+          "start": 343.52,
+          "end": 348.0
+        },
+        {
+          "text": "all the work that people are doing day",
+          "start": 346.04,
+          "end": 350.92
+        },
+        {
+          "text": "in and and day out within and outside of",
+          "start": 348.0,
+          "end": 352.8
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0010402.jpg",
+          "graphic_region": "frames/graphic/0010402.jpg",
+          "requested_seconds": 346.75,
+          "sample_frame": 10402,
+          "normalized_source_seconds": 346.73333333333335,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0010418.jpg",
+          "graphic_region": "frames/graphic/0010418.jpg",
+          "requested_seconds": 347.25,
+          "sample_frame": 10418,
+          "normalized_source_seconds": 347.26666666666665,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0010440.jpg",
+          "graphic_region": "frames/graphic/0010440.jpg",
+          "requested_seconds": 348,
+          "sample_frame": 10440,
+          "normalized_source_seconds": 348.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "09-learned-context",
+      "observed_state_pattern": "Architecture revisited \u2192 learned region focus \u2192 join/document/rule examples.",
+      "persistent_context": "Selected subsystem and category remain while examples change.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0010560.jpg",
+      "frames/graphic/0010020.jpg",
+      "frames/graphic/0010320.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0010560.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

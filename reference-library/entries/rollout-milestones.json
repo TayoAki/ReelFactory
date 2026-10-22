@@ -1,0 +1,1259 @@
+{
+  "id": "rollout-milestones",
+  "index": 57,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 1848,
+  "source_end": 1957,
+  "source_timecode": "30:48.00\u201332:37.00",
+  "template_id": "rollout",
+  "label": "Baseline, experts, sources and rollout rail",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Retain ordered progress while replacing details beneath the current step.",
+  "relationship": "ordered milestones \u2192 current step \u2192 details",
+  "original_transcript": "Uh you'll also probably want to record today's baseline, you know, pre pre-Genie. You know, how accurate is the existing process? How long does it take? Where do people get stuck? Include both straightforward questions and ambiguous questions and then cases where maybe like permissions should produce different answers for different users based on what different people have access to. And then from there, I would recommend bringing in domain experts. Maybe they also help you write the benchmarking questions. But you're going to want someone who actually understands that team and their workflows and their data. So taking the the finance example, that might be something like an FP&A lead who owns the monthly reporting and knows exactly how the company defines things like budgets and and actuals. And they might also be interested in the user feedback that you're getting as part of this pilot. So it's good to keep them in loop with the end users and make sure that they're available um and they're able to see to see those those results. Then you're going to want to connect all your sources that that that are needed for this workflow. So do you need, you know, SharePoint, Gmail, Jira, Slack? You need to make sure that people can read from and optionally write to their third-party tools. And then you can also choose to do things like add instructions where helpful. That'll that'll further steer Genie with whatever prompts you provide. Uh but you probably won't need all that many to start. If the underlying semantics and source materials are really strong, I think you'll find that Genie can do a lot with out really needing a long list of rules. And finally, put that into the the team's hands. See where it succeeds, see it where it gets confused, uh where the ontology needs more context. Iterate on the semantics and optionally the instructions as you need. And then once it's working well, go to the next workflow, the next line of business, and so on. On our end, we are building more and more monitoring tools to make this easier and easier to do. So you're going to start to see more detailed Genie 1 monitoring rolling out as well as ontology monitoring. Now as you expand",
+  "original_transcript_segments": [
+    {
+      "text": "Uh you'll also probably want to record",
+      "start": 1845.84,
+      "end": 1849.32
+    },
+    {
+      "text": "today's baseline, you know, pre",
+      "start": 1847.68,
+      "end": 1850.96
+    },
+    {
+      "text": "pre-Genie. You know, how accurate is the",
+      "start": 1849.32,
+      "end": 1852.64
+    },
+    {
+      "text": "existing process? How long does it take?",
+      "start": 1850.96,
+      "end": 1854.4
+    },
+    {
+      "text": "Where do people get stuck?",
+      "start": 1852.64,
+      "end": 1856.4
+    },
+    {
+      "text": "Include both straightforward questions",
+      "start": 1854.4,
+      "end": 1858.52
+    },
+    {
+      "text": "and ambiguous questions and then cases",
+      "start": 1856.4,
+      "end": 1859.88
+    },
+    {
+      "text": "where maybe like permissions should",
+      "start": 1858.52,
+      "end": 1861.8
+    },
+    {
+      "text": "produce different answers for different",
+      "start": 1859.88,
+      "end": 1863.4
+    },
+    {
+      "text": "users based on what different people",
+      "start": 1861.8,
+      "end": 1865.12
+    },
+    {
+      "text": "have access to.",
+      "start": 1863.4,
+      "end": 1866.68
+    },
+    {
+      "text": "And then from there, I would recommend",
+      "start": 1865.12,
+      "end": 1868.48
+    },
+    {
+      "text": "bringing in domain experts. Maybe they",
+      "start": 1866.68,
+      "end": 1869.72
+    },
+    {
+      "text": "also help you write the benchmarking",
+      "start": 1868.48,
+      "end": 1871.24
+    },
+    {
+      "text": "questions. But you're going to want",
+      "start": 1869.72,
+      "end": 1872.96
+    },
+    {
+      "text": "someone who actually understands that",
+      "start": 1871.24,
+      "end": 1875.0
+    },
+    {
+      "text": "team and their workflows and their data.",
+      "start": 1872.96,
+      "end": 1877.28
+    },
+    {
+      "text": "So taking the the finance example, that",
+      "start": 1875.0,
+      "end": 1879.12
+    },
+    {
+      "text": "might be something like an FP&A lead who",
+      "start": 1877.28,
+      "end": 1880.84
+    },
+    {
+      "text": "owns the monthly reporting and knows",
+      "start": 1879.12,
+      "end": 1882.84
+    },
+    {
+      "text": "exactly how the company defines things",
+      "start": 1880.84,
+      "end": 1885.24
+    },
+    {
+      "text": "like budgets and and actuals. And they",
+      "start": 1882.84,
+      "end": 1887.68
+    },
+    {
+      "text": "might also be interested in the user",
+      "start": 1885.24,
+      "end": 1889.52
+    },
+    {
+      "text": "feedback that you're getting as part of",
+      "start": 1887.68,
+      "end": 1891.0
+    },
+    {
+      "text": "this pilot. So it's good to keep them in",
+      "start": 1889.52,
+      "end": 1893.16
+    },
+    {
+      "text": "loop with the end users and make sure",
+      "start": 1891.0,
+      "end": 1894.84
+    },
+    {
+      "text": "that they're available um and they're",
+      "start": 1893.16,
+      "end": 1898.16
+    },
+    {
+      "text": "able to see to see those those results.",
+      "start": 1894.84,
+      "end": 1899.32
+    },
+    {
+      "text": "Then you're going to want to connect all",
+      "start": 1898.16,
+      "end": 1901.32
+    },
+    {
+      "text": "your sources that that that are needed",
+      "start": 1899.32,
+      "end": 1903.12
+    },
+    {
+      "text": "for this workflow. So do you need, you",
+      "start": 1901.32,
+      "end": 1905.92
+    },
+    {
+      "text": "know, SharePoint, Gmail, Jira, Slack?",
+      "start": 1903.12,
+      "end": 1907.24
+    },
+    {
+      "text": "You need to make sure that people can",
+      "start": 1905.92,
+      "end": 1909.84
+    },
+    {
+      "text": "read from and optionally write to their",
+      "start": 1907.24,
+      "end": 1912.28
+    },
+    {
+      "text": "third-party tools. And then you can also",
+      "start": 1909.84,
+      "end": 1913.64
+    },
+    {
+      "text": "choose to do things like add",
+      "start": 1912.28,
+      "end": 1915.72
+    },
+    {
+      "text": "instructions where helpful. That'll",
+      "start": 1913.64,
+      "end": 1917.8
+    },
+    {
+      "text": "that'll further steer Genie with",
+      "start": 1915.72,
+      "end": 1919.88
+    },
+    {
+      "text": "whatever prompts you provide. Uh but you",
+      "start": 1917.8,
+      "end": 1921.88
+    },
+    {
+      "text": "probably won't need all that many to",
+      "start": 1919.88,
+      "end": 1924.32
+    },
+    {
+      "text": "start. If the underlying semantics and",
+      "start": 1921.88,
+      "end": 1926.36
+    },
+    {
+      "text": "source materials are really strong, I",
+      "start": 1924.32,
+      "end": 1927.88
+    },
+    {
+      "text": "think you'll find that Genie can do a",
+      "start": 1926.36,
+      "end": 1930.28
+    },
+    {
+      "text": "lot with out really needing a long list",
+      "start": 1927.88,
+      "end": 1933.12
+    },
+    {
+      "text": "of rules. And finally, put that into the",
+      "start": 1930.28,
+      "end": 1934.88
+    },
+    {
+      "text": "the team's hands. See where it succeeds,",
+      "start": 1933.12,
+      "end": 1936.92
+    },
+    {
+      "text": "see it where it gets confused, uh where",
+      "start": 1934.88,
+      "end": 1939.52
+    },
+    {
+      "text": "the ontology needs more context. Iterate",
+      "start": 1936.92,
+      "end": 1941.48
+    },
+    {
+      "text": "on the semantics and optionally the",
+      "start": 1939.52,
+      "end": 1943.08
+    },
+    {
+      "text": "instructions as you need. And then once",
+      "start": 1941.48,
+      "end": 1944.68
+    },
+    {
+      "text": "it's working well, go to the next",
+      "start": 1943.08,
+      "end": 1946.24
+    },
+    {
+      "text": "workflow, the next line of business, and",
+      "start": 1944.68,
+      "end": 1948.64
+    },
+    {
+      "text": "so on. On our end, we are building more",
+      "start": 1946.24,
+      "end": 1950.48
+    },
+    {
+      "text": "and more monitoring tools to make this",
+      "start": 1948.64,
+      "end": 1952.16
+    },
+    {
+      "text": "easier and easier to do. So you're going",
+      "start": 1950.48,
+      "end": 1954.24
+    },
+    {
+      "text": "to start to see more detailed Genie 1",
+      "start": 1952.16,
+      "end": 1955.76
+    },
+    {
+      "text": "monitoring rolling out as well as",
+      "start": 1954.24,
+      "end": 1958.2
+    },
+    {
+      "text": "ontology monitoring. Now as you expand",
+      "start": 1955.76,
+      "end": 1960.48
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Teach an implementation process while preserving accumulated progress.",
+  "parameterized_transcript_patterns": [
+    "Start with {{team_and_workflow}}, define {{benchmark}}, measure {{baseline}}, then connect {{sources}} and iterate.",
+    "At {{current_step}}, do {{task}} so that {{next_step}} has {{required_input}}."
+  ],
+  "semantic_slots": [
+    "baseline",
+    "benchmark",
+    "current_step",
+    "next_step",
+    "required_input",
+    "sources",
+    "task",
+    "team_and_workflow"
+  ],
+  "selection_rule": "Use for a real ordered process with useful current-step context.",
+  "better_alternative_or_misuse": "Use peer cards for unordered considerations; a rail is not a promise about calendar duration.",
+  "motion_recipe": "Retain earlier milestones, activate the next marker, update details below and pan only when space is exhausted.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 1849,
+      "timecode": "30:49.00",
+      "images": {
+        "full_frame": "frames/full/0055470.jpg",
+        "graphic_region": "frames/graphic/0055470.jpg",
+        "requested_seconds": 1849,
+        "sample_frame": 55470,
+        "normalized_source_seconds": 1849.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "you continue to invest in your ontology.",
+          "start": 1843.32,
+          "end": 1847.68
+        },
+        {
+          "text": "Uh you'll also probably want to record",
+          "start": 1845.84,
+          "end": 1849.32
+        },
+        {
+          "text": "today's baseline, you know, pre",
+          "start": 1847.68,
+          "end": 1850.96
+        },
+        {
+          "text": "pre-Genie. You know, how accurate is the",
+          "start": 1849.32,
+          "end": 1852.64
+        },
+        {
+          "text": "existing process? How long does it take?",
+          "start": 1850.96,
+          "end": 1854.4
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 1861,
+      "timecode": "31:01.00",
+      "images": {
+        "full_frame": "frames/full/0055830.jpg",
+        "graphic_region": "frames/graphic/0055830.jpg",
+        "requested_seconds": 1861,
+        "sample_frame": 55830,
+        "normalized_source_seconds": 1861.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "and ambiguous questions and then cases",
+          "start": 1856.4,
+          "end": 1859.88
+        },
+        {
+          "text": "where maybe like permissions should",
+          "start": 1858.52,
+          "end": 1861.8
+        },
+        {
+          "text": "produce different answers for different",
+          "start": 1859.88,
+          "end": 1863.4
+        },
+        {
+          "text": "users based on what different people",
+          "start": 1861.8,
+          "end": 1865.12
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 1873,
+      "timecode": "31:13.00",
+      "images": {
+        "full_frame": "frames/full/0056190.jpg",
+        "graphic_region": "frames/graphic/0056190.jpg",
+        "requested_seconds": 1873,
+        "sample_frame": 56190,
+        "normalized_source_seconds": 1873.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "also help you write the benchmarking",
+          "start": 1868.48,
+          "end": 1871.24
+        },
+        {
+          "text": "questions. But you're going to want",
+          "start": 1869.72,
+          "end": 1872.96
+        },
+        {
+          "text": "someone who actually understands that",
+          "start": 1871.24,
+          "end": 1875.0
+        },
+        {
+          "text": "team and their workflows and their data.",
+          "start": 1872.96,
+          "end": 1877.28
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "intermediate observed state",
+      "time": 1892,
+      "timecode": "31:32.00",
+      "images": {
+        "full_frame": "frames/full/0056760.jpg",
+        "graphic_region": "frames/graphic/0056760.jpg",
+        "requested_seconds": 1892,
+        "sample_frame": 56760,
+        "normalized_source_seconds": 1892.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "feedback that you're getting as part of",
+          "start": 1887.68,
+          "end": 1891.0
+        },
+        {
+          "text": "this pilot. So it's good to keep them in",
+          "start": 1889.52,
+          "end": 1893.16
+        },
+        {
+          "text": "loop with the end users and make sure",
+          "start": 1891.0,
+          "end": 1894.84
+        },
+        {
+          "text": "that they're available um and they're",
+          "start": 1893.16,
+          "end": 1898.16
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-05",
+      "sequence_role": "intermediate observed state",
+      "time": 1914,
+      "timecode": "31:54.00",
+      "images": {
+        "full_frame": "frames/full/0057420.jpg",
+        "graphic_region": "frames/graphic/0057420.jpg",
+        "requested_seconds": 1914,
+        "sample_frame": 57420,
+        "normalized_source_seconds": 1914.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "read from and optionally write to their",
+          "start": 1907.24,
+          "end": 1912.28
+        },
+        {
+          "text": "third-party tools. And then you can also",
+          "start": 1909.84,
+          "end": 1913.64
+        },
+        {
+          "text": "choose to do things like add",
+          "start": 1912.28,
+          "end": 1915.72
+        },
+        {
+          "text": "instructions where helpful. That'll",
+          "start": 1913.64,
+          "end": 1917.8
+        },
+        {
+          "text": "that'll further steer Genie with",
+          "start": 1915.72,
+          "end": 1919.88
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-06",
+      "sequence_role": "intermediate observed state",
+      "time": 1934,
+      "timecode": "32:14.00",
+      "images": {
+        "full_frame": "frames/full/0058020.jpg",
+        "graphic_region": "frames/graphic/0058020.jpg",
+        "requested_seconds": 1934,
+        "sample_frame": 58020,
+        "normalized_source_seconds": 1934.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "lot with out really needing a long list",
+          "start": 1927.88,
+          "end": 1933.12
+        },
+        {
+          "text": "of rules. And finally, put that into the",
+          "start": 1930.28,
+          "end": 1934.88
+        },
+        {
+          "text": "the team's hands. See where it succeeds,",
+          "start": 1933.12,
+          "end": 1936.92
+        },
+        {
+          "text": "see it where it gets confused, uh where",
+          "start": 1934.88,
+          "end": 1939.52
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-07",
+      "sequence_role": "later observed state",
+      "time": 1954,
+      "timecode": "32:34.00",
+      "images": {
+        "full_frame": "frames/full/0058620.jpg",
+        "graphic_region": "frames/graphic/0058620.jpg",
+        "requested_seconds": 1954,
+        "sample_frame": 58620,
+        "normalized_source_seconds": 1954.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "and more monitoring tools to make this",
+          "start": 1948.64,
+          "end": 1952.16
+        },
+        {
+          "text": "easier and easier to do. So you're going",
+          "start": 1950.48,
+          "end": 1954.24
+        },
+        {
+          "text": "to start to see more detailed Genie 1",
+          "start": 1952.16,
+          "end": 1955.76
+        },
+        {
+          "text": "monitoring rolling out as well as",
+          "start": 1954.24,
+          "end": 1958.2
+        },
+        {
+          "text": "ontology monitoring. Now as you expand",
+          "start": 1955.76,
+          "end": 1960.48
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 1850,
+      "nearby_original_transcript": [
+        {
+          "text": "Uh you'll also probably want to record",
+          "start": 1845.84,
+          "end": 1849.32
+        },
+        {
+          "text": "today's baseline, you know, pre",
+          "start": 1847.68,
+          "end": 1850.96
+        },
+        {
+          "text": "pre-Genie. You know, how accurate is the",
+          "start": 1849.32,
+          "end": 1852.64
+        },
+        {
+          "text": "existing process? How long does it take?",
+          "start": 1850.96,
+          "end": 1854.4
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0055492.jpg",
+          "graphic_region": "frames/graphic/0055492.jpg",
+          "requested_seconds": 1849.75,
+          "sample_frame": 55492,
+          "normalized_source_seconds": 1849.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0055508.jpg",
+          "graphic_region": "frames/graphic/0055508.jpg",
+          "requested_seconds": 1850.25,
+          "sample_frame": 55508,
+          "normalized_source_seconds": 1850.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0055530.jpg",
+          "graphic_region": "frames/graphic/0055530.jpg",
+          "requested_seconds": 1851,
+          "sample_frame": 55530,
+          "normalized_source_seconds": 1851.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1860,
+      "nearby_original_transcript": [
+        {
+          "text": "Include both straightforward questions",
+          "start": 1854.4,
+          "end": 1858.52
+        },
+        {
+          "text": "and ambiguous questions and then cases",
+          "start": 1856.4,
+          "end": 1859.88
+        },
+        {
+          "text": "where maybe like permissions should",
+          "start": 1858.52,
+          "end": 1861.8
+        },
+        {
+          "text": "produce different answers for different",
+          "start": 1859.88,
+          "end": 1863.4
+        },
+        {
+          "text": "users based on what different people",
+          "start": 1861.8,
+          "end": 1865.12
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0055792.jpg",
+          "graphic_region": "frames/graphic/0055792.jpg",
+          "requested_seconds": 1859.75,
+          "sample_frame": 55792,
+          "normalized_source_seconds": 1859.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0055808.jpg",
+          "graphic_region": "frames/graphic/0055808.jpg",
+          "requested_seconds": 1860.25,
+          "sample_frame": 55808,
+          "normalized_source_seconds": 1860.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0055830.jpg",
+          "graphic_region": "frames/graphic/0055830.jpg",
+          "requested_seconds": 1861,
+          "sample_frame": 55830,
+          "normalized_source_seconds": 1861.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1871,
+      "nearby_original_transcript": [
+        {
+          "text": "bringing in domain experts. Maybe they",
+          "start": 1866.68,
+          "end": 1869.72
+        },
+        {
+          "text": "also help you write the benchmarking",
+          "start": 1868.48,
+          "end": 1871.24
+        },
+        {
+          "text": "questions. But you're going to want",
+          "start": 1869.72,
+          "end": 1872.96
+        },
+        {
+          "text": "someone who actually understands that",
+          "start": 1871.24,
+          "end": 1875.0
+        },
+        {
+          "text": "team and their workflows and their data.",
+          "start": 1872.96,
+          "end": 1877.28
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0056122.jpg",
+          "graphic_region": "frames/graphic/0056122.jpg",
+          "requested_seconds": 1870.75,
+          "sample_frame": 56122,
+          "normalized_source_seconds": 1870.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0056138.jpg",
+          "graphic_region": "frames/graphic/0056138.jpg",
+          "requested_seconds": 1871.25,
+          "sample_frame": 56138,
+          "normalized_source_seconds": 1871.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0056160.jpg",
+          "graphic_region": "frames/graphic/0056160.jpg",
+          "requested_seconds": 1872,
+          "sample_frame": 56160,
+          "normalized_source_seconds": 1872.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1880,
+      "nearby_original_transcript": [
+        {
+          "text": "So taking the the finance example, that",
+          "start": 1875.0,
+          "end": 1879.12
+        },
+        {
+          "text": "might be something like an FP&A lead who",
+          "start": 1877.28,
+          "end": 1880.84
+        },
+        {
+          "text": "owns the monthly reporting and knows",
+          "start": 1879.12,
+          "end": 1882.84
+        },
+        {
+          "text": "exactly how the company defines things",
+          "start": 1880.84,
+          "end": 1885.24
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0056392.jpg",
+          "graphic_region": "frames/graphic/0056392.jpg",
+          "requested_seconds": 1879.75,
+          "sample_frame": 56392,
+          "normalized_source_seconds": 1879.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0056408.jpg",
+          "graphic_region": "frames/graphic/0056408.jpg",
+          "requested_seconds": 1880.25,
+          "sample_frame": 56408,
+          "normalized_source_seconds": 1880.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0056430.jpg",
+          "graphic_region": "frames/graphic/0056430.jpg",
+          "requested_seconds": 1881,
+          "sample_frame": 56430,
+          "normalized_source_seconds": 1881.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1890,
+      "nearby_original_transcript": [
+        {
+          "text": "might also be interested in the user",
+          "start": 1885.24,
+          "end": 1889.52
+        },
+        {
+          "text": "feedback that you're getting as part of",
+          "start": 1887.68,
+          "end": 1891.0
+        },
+        {
+          "text": "this pilot. So it's good to keep them in",
+          "start": 1889.52,
+          "end": 1893.16
+        },
+        {
+          "text": "loop with the end users and make sure",
+          "start": 1891.0,
+          "end": 1894.84
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0056692.jpg",
+          "graphic_region": "frames/graphic/0056692.jpg",
+          "requested_seconds": 1889.75,
+          "sample_frame": 56692,
+          "normalized_source_seconds": 1889.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0056708.jpg",
+          "graphic_region": "frames/graphic/0056708.jpg",
+          "requested_seconds": 1890.25,
+          "sample_frame": 56708,
+          "normalized_source_seconds": 1890.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0056730.jpg",
+          "graphic_region": "frames/graphic/0056730.jpg",
+          "requested_seconds": 1891,
+          "sample_frame": 56730,
+          "normalized_source_seconds": 1891.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1901,
+      "nearby_original_transcript": [
+        {
+          "text": "able to see to see those those results.",
+          "start": 1894.84,
+          "end": 1899.32
+        },
+        {
+          "text": "Then you're going to want to connect all",
+          "start": 1898.16,
+          "end": 1901.32
+        },
+        {
+          "text": "your sources that that that are needed",
+          "start": 1899.32,
+          "end": 1903.12
+        },
+        {
+          "text": "for this workflow. So do you need, you",
+          "start": 1901.32,
+          "end": 1905.92
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0057022.jpg",
+          "graphic_region": "frames/graphic/0057022.jpg",
+          "requested_seconds": 1900.75,
+          "sample_frame": 57022,
+          "normalized_source_seconds": 1900.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0057038.jpg",
+          "graphic_region": "frames/graphic/0057038.jpg",
+          "requested_seconds": 1901.25,
+          "sample_frame": 57038,
+          "normalized_source_seconds": 1901.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0057060.jpg",
+          "graphic_region": "frames/graphic/0057060.jpg",
+          "requested_seconds": 1902,
+          "sample_frame": 57060,
+          "normalized_source_seconds": 1902.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1911,
+      "nearby_original_transcript": [
+        {
+          "text": "You need to make sure that people can",
+          "start": 1905.92,
+          "end": 1909.84
+        },
+        {
+          "text": "read from and optionally write to their",
+          "start": 1907.24,
+          "end": 1912.28
+        },
+        {
+          "text": "third-party tools. And then you can also",
+          "start": 1909.84,
+          "end": 1913.64
+        },
+        {
+          "text": "choose to do things like add",
+          "start": 1912.28,
+          "end": 1915.72
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0057322.jpg",
+          "graphic_region": "frames/graphic/0057322.jpg",
+          "requested_seconds": 1910.75,
+          "sample_frame": 57322,
+          "normalized_source_seconds": 1910.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0057338.jpg",
+          "graphic_region": "frames/graphic/0057338.jpg",
+          "requested_seconds": 1911.25,
+          "sample_frame": 57338,
+          "normalized_source_seconds": 1911.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0057360.jpg",
+          "graphic_region": "frames/graphic/0057360.jpg",
+          "requested_seconds": 1912,
+          "sample_frame": 57360,
+          "normalized_source_seconds": 1912.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1920,
+      "nearby_original_transcript": [
+        {
+          "text": "that'll further steer Genie with",
+          "start": 1915.72,
+          "end": 1919.88
+        },
+        {
+          "text": "whatever prompts you provide. Uh but you",
+          "start": 1917.8,
+          "end": 1921.88
+        },
+        {
+          "text": "probably won't need all that many to",
+          "start": 1919.88,
+          "end": 1924.32
+        },
+        {
+          "text": "start. If the underlying semantics and",
+          "start": 1921.88,
+          "end": 1926.36
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0057592.jpg",
+          "graphic_region": "frames/graphic/0057592.jpg",
+          "requested_seconds": 1919.75,
+          "sample_frame": 57592,
+          "normalized_source_seconds": 1919.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0057608.jpg",
+          "graphic_region": "frames/graphic/0057608.jpg",
+          "requested_seconds": 1920.25,
+          "sample_frame": 57608,
+          "normalized_source_seconds": 1920.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0057630.jpg",
+          "graphic_region": "frames/graphic/0057630.jpg",
+          "requested_seconds": 1921,
+          "sample_frame": 57630,
+          "normalized_source_seconds": 1921.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1932,
+      "nearby_original_transcript": [
+        {
+          "text": "think you'll find that Genie can do a",
+          "start": 1926.36,
+          "end": 1930.28
+        },
+        {
+          "text": "lot with out really needing a long list",
+          "start": 1927.88,
+          "end": 1933.12
+        },
+        {
+          "text": "of rules. And finally, put that into the",
+          "start": 1930.28,
+          "end": 1934.88
+        },
+        {
+          "text": "the team's hands. See where it succeeds,",
+          "start": 1933.12,
+          "end": 1936.92
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0057952.jpg",
+          "graphic_region": "frames/graphic/0057952.jpg",
+          "requested_seconds": 1931.75,
+          "sample_frame": 57952,
+          "normalized_source_seconds": 1931.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0057968.jpg",
+          "graphic_region": "frames/graphic/0057968.jpg",
+          "requested_seconds": 1932.25,
+          "sample_frame": 57968,
+          "normalized_source_seconds": 1932.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0057990.jpg",
+          "graphic_region": "frames/graphic/0057990.jpg",
+          "requested_seconds": 1933,
+          "sample_frame": 57990,
+          "normalized_source_seconds": 1933.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1944,
+      "nearby_original_transcript": [
+        {
+          "text": "on the semantics and optionally the",
+          "start": 1939.52,
+          "end": 1943.08
+        },
+        {
+          "text": "instructions as you need. And then once",
+          "start": 1941.48,
+          "end": 1944.68
+        },
+        {
+          "text": "it's working well, go to the next",
+          "start": 1943.08,
+          "end": 1946.24
+        },
+        {
+          "text": "workflow, the next line of business, and",
+          "start": 1944.68,
+          "end": 1948.64
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0058312.jpg",
+          "graphic_region": "frames/graphic/0058312.jpg",
+          "requested_seconds": 1943.75,
+          "sample_frame": 58312,
+          "normalized_source_seconds": 1943.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0058328.jpg",
+          "graphic_region": "frames/graphic/0058328.jpg",
+          "requested_seconds": 1944.25,
+          "sample_frame": 58328,
+          "normalized_source_seconds": 1944.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0058350.jpg",
+          "graphic_region": "frames/graphic/0058350.jpg",
+          "requested_seconds": 1945,
+          "sample_frame": 58350,
+          "normalized_source_seconds": 1945.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 1952,
+      "nearby_original_transcript": [
+        {
+          "text": "so on. On our end, we are building more",
+          "start": 1946.24,
+          "end": 1950.48
+        },
+        {
+          "text": "and more monitoring tools to make this",
+          "start": 1948.64,
+          "end": 1952.16
+        },
+        {
+          "text": "easier and easier to do. So you're going",
+          "start": 1950.48,
+          "end": 1954.24
+        },
+        {
+          "text": "to start to see more detailed Genie 1",
+          "start": 1952.16,
+          "end": 1955.76
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0058552.jpg",
+          "graphic_region": "frames/graphic/0058552.jpg",
+          "requested_seconds": 1951.75,
+          "sample_frame": 58552,
+          "normalized_source_seconds": 1951.7333333333333,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0058568.jpg",
+          "graphic_region": "frames/graphic/0058568.jpg",
+          "requested_seconds": 1952.25,
+          "sample_frame": 58568,
+          "normalized_source_seconds": 1952.2666666666667,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0058590.jpg",
+          "graphic_region": "frames/graphic/0058590.jpg",
+          "requested_seconds": 1953,
+          "sample_frame": 58590,
+          "normalized_source_seconds": 1953.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "25-getting-started",
+      "observed_state_pattern": "Chapter plate \u2192 first milestone \u2192 supporting example cards \u2192 next milestone.",
+      "persistent_context": "Timeline spine and completed milestones persist.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    },
+    {
+      "id": "26-rollout-build",
+      "observed_state_pattern": "Persistent timeline \u2192 new active step \u2192 lower evidence/detail swaps \u2192 next active step.",
+      "persistent_context": "Earlier milestones dim in place; support changes below the active step.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0058620.jpg",
+      "frames/graphic/0055470.jpg",
+      "frames/graphic/0056760.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0058620.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}

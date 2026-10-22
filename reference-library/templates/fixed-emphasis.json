@@ -1,0 +1,54 @@
+{
+  "id": "fixed-emphasis",
+  "relationship": "fixed recommendations \u2192 one active item",
+  "teaching_job": "Walk through a complete recommendation set without changing its spatial organization.",
+  "transcript_patterns": [
+    "First {{recommendation_a}}. Next {{recommendation_b}}. Finally {{recommendation_c}}.",
+    "For {{goal}}, check {{requirement}} because {{reason}}."
+  ],
+  "semantic_slots": [
+    "goal",
+    "reason",
+    "recommendation_a",
+    "recommendation_b",
+    "recommendation_c",
+    "recommendations",
+    "requirement"
+  ],
+  "choose_when": "Use when scanning the whole recommendation set helps orientation.",
+  "choose_something_else_when": "Do not fade inactive text below legibility or replace the list with unrelated slides.",
+  "motion_grammar": "Keep rows fixed and advance selective emphasis with the narrated topic; hold each active recommendation.",
+  "instances": [
+    "best-practices"
+  ],
+  "classification": "Curated editorial teaching template; not a trained classifier or a product fact.",
+  "required_pattern_slots": [
+    [
+      "recommendation_a",
+      "recommendation_b",
+      "recommendation_c"
+    ],
+    [
+      "goal",
+      "reason",
+      "requirement"
+    ]
+  ],
+  "filled_source_sentence_scaffolds": [
+    "First build a benchmark set. Next model critical semantics. Finally validate access end to end.",
+    "For Reliable rollout to broader teams, check The currently emphasized recommendation because The corresponding risk or dependency explained by the narrator."
+  ],
+  "unbound_source_example_slots": [],
+  "representative_entry": "best-practices",
+  "example_source_bindings": {
+    "recommendations": "Benchmark set, critical semantics, gold assets, sources and end-to-end access",
+    "goal": "Reliable rollout to broader teams",
+    "requirement": "The currently emphasized recommendation",
+    "reason": "The corresponding risk or dependency explained by the narrator",
+    "recommendation_a": "build a benchmark set",
+    "recommendation_b": "model critical semantics",
+    "recommendation_c": "validate access end to end"
+  },
+  "paired_source_quote": "monitoring rolling out as well as ontology monitoring. Now as you expand beyond um beyond your PRC, there are a couple best practices to keep in mind. It's actually going to be very similar to what I just said, but it's it's worth repeating because these are these are quite important. The first again is to build that benchmark set for your broader teams. Again, it's a representative collection of real questions with known good answers. You know, keep Genie accountable. Flag to your account teams if you see anything going off the rails. We investigate every single case that we get and and hopefully you'll find that that Genie's actually very strong in answering your business questions and and taking action. Second is to model those semantics that really matter. We're not saying model the entire business's institutional knowledge. We don't think that's possible. We would recommend leaning on the learned context for that, but we do recommend modeling the core that you want to have shared across the business or within a particular line of business. Third is to certify your gold assets. So, make sure that you've identified the tables, the dashboards, the queries, the notebooks that that every workflow actually requires and make sure that they're certified so that Genie prioritizes them when it's searching. It does respect that tag. And then finally, we recommend validating access to that data from your end user's perspective. So again, Genie always respects the permissions of the person who's asking the question. So of course, an asset isn't useful if your users can't see it. So you want to make sure that your users have access to the certified sources and the snippets that you expect Genie to actually use.",
+  "source_binding_status": "Editorial binding/paraphrase of source roles; raw transcript remains separately preserved. Do not treat bindings as word-for-word quotation."
+}

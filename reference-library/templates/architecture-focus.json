@@ -1,0 +1,55 @@
+{
+  "id": "architecture-focus",
+  "relationship": "system overview \u2192 located detail",
+  "teaching_job": "Locate a component within an architecture before examining it.",
+  "transcript_patterns": [
+    "At a high level, {{system}} contains {{components}}. Let\u2019s focus on {{component}}.",
+    "{{component}} sits between {{upstream}} and {{downstream}} and is responsible for {{responsibility}}."
+  ],
+  "semantic_slots": [
+    "component",
+    "components",
+    "downstream",
+    "responsibility",
+    "system",
+    "upstream"
+  ],
+  "choose_when": "Use when placement in the larger system is part of the explanation.",
+  "choose_something_else_when": "Use a standalone example when the architecture adds no relevant context.",
+  "motion_grammar": "Establish the overview, preserve context, move the inner camera or selectively emphasize the active region.",
+  "instances": [
+    "shared-architecture",
+    "architecture-camera",
+    "shared-consumers"
+  ],
+  "classification": "Curated editorial teaching template; not a trained classifier or a product fact.",
+  "required_pattern_slots": [
+    [
+      "component",
+      "components",
+      "system"
+    ],
+    [
+      "component",
+      "downstream",
+      "responsibility",
+      "upstream"
+    ]
+  ],
+  "filled_source_sentence_scaffolds": [
+    "At a high level, The source\u2019s Databricks context architecture contains Consumers, modeled and learned context, governance and connected sources. Let\u2019s focus on Modeled ontology.",
+    "Modeled ontology sits between Business/technical consumers and Governed context and connected assets and is responsible for Provide explicitly modeled semantic context."
+  ],
+  "unbound_source_example_slots": [],
+  "representative_entry": "architecture-camera",
+  "example_source_bindings": {
+    "system": "The source\u2019s Databricks context architecture",
+    "components": "Consumers, modeled and learned context, governance and connected sources",
+    "component": "Modeled ontology",
+    "upstream": "Business/technical consumers",
+    "downstream": "Governed context and connected assets",
+    "responsibility": "Provide explicitly modeled semantic context"
+  },
+  "paired_source_quote": "into play. It's human-curated context that someone certified and and governed. And there are three components that are worth talking about. Uh the first is metric views. They form your your governed reusable KPI layer. So, it's a certified single source of truth definition for your key business metrics stored as open format Unity Catalog",
+  "source_binding_status": "Editorial binding/paraphrase of source roles; raw transcript remains separately preserved. Do not treat bindings as word-for-word quotation."
+}

@@ -1,0 +1,65 @@
+{
+  "id": "benchmark",
+  "relationship": "methods \u00d7 measures \u2192 qualified comparison",
+  "teaching_job": "Compare measured alternatives on explicit dimensions with source qualifications.",
+  "transcript_patterns": [
+    "On {{evaluation_scope}}, {{method_a}} achieved {{measure_a}}, compared with {{method_b}} at {{measure_b}}.",
+    "The trade-off is {{dimension_a}} versus {{dimension_b}}, under {{test_conditions}}."
+  ],
+  "semantic_slots": [
+    "dimension_a",
+    "dimension_b",
+    "dimensions",
+    "evaluation_scope",
+    "measure_a",
+    "measure_b",
+    "measures",
+    "method_a",
+    "method_b",
+    "methods",
+    "test_conditions"
+  ],
+  "choose_when": "Use for comparable measured data with a credible evaluation scope.",
+  "choose_something_else_when": "Do not transfer source benchmark values to another product or imply universal results from one evaluation.",
+  "motion_grammar": "Fix axes and method order, build bars, introduce the interpretation after values, retain the qualification.",
+  "instances": [
+    "accuracy-runtime",
+    "benchmark-return"
+  ],
+  "classification": "Curated editorial teaching template; not a trained classifier or a product fact.",
+  "required_pattern_slots": [
+    [
+      "evaluation_scope",
+      "measure_a",
+      "measure_b",
+      "method_a",
+      "method_b"
+    ],
+    [
+      "dimension_a",
+      "dimension_b",
+      "test_conditions"
+    ]
+  ],
+  "filled_source_sentence_scaffolds": [
+    "On The source-reported internal evaluation on sampled production questions, Genie achieved the Genie value shown in the source chart, compared with a comparator agent at the comparator value shown in that chart.",
+    "The trade-off is accuracy versus runtime, under Source-described agent/tool setup; not independently reproduced."
+  ],
+  "unbound_source_example_slots": [],
+  "representative_entry": "accuracy-runtime",
+  "example_source_bindings": {
+    "evaluation_scope": "The source-reported internal evaluation on sampled production questions",
+    "methods": "Genie and the comparator agents shown in the chart",
+    "measures": "Source-reported accuracy and runtime values",
+    "dimensions": "Accuracy and runtime",
+    "test_conditions": "Source-described agent/tool setup; not independently reproduced",
+    "method_a": "Genie",
+    "method_b": "a comparator agent",
+    "measure_a": "the Genie value shown in the source chart",
+    "measure_b": "the comparator value shown in that chart",
+    "dimension_a": "accuracy",
+    "dimension_b": "runtime"
+  },
+  "paired_source_quote": "benefit from this semantic layer. And that that benefit is very significant. Uh when we benchmark Genie with the ontology against the the strongest models available, it's consistently the top-performing agent for business questions and there were no trick questions in this benchmark. This is just real business questions with real business data and we saw more than 30 percentage point improvement in accuracy over the next best performing model. And it was also a lot quicker. After all, a generic agent has to make up for the fact that it doesn't know your business. So if it's not going to hallucinate, then it explores, right? It samples a bunch of schemas, it runs a bunch of extra queries, it grabs a bunch of documents and it loads all of that into the model's context in case any of it turns out to matter later. But Genie doesn't have to do as much work because it already knows which sources count and how to use them. And and I'm already really confident that as we continue to tune the onto rank algorithm and expand the depth of the ontology, I think this gap is going to is going to only widen. >> Now, I see accuracy,",
+  "source_binding_status": "Editorial binding/paraphrase of source roles; raw transcript remains separately preserved. Do not treat bindings as word-for-word quotation."
+}

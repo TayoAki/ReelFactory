@@ -1,0 +1,897 @@
+{
+  "id": "modeled-hierarchy",
+  "index": 17,
+  "source_video": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_start": 249,
+  "source_end": 333.5,
+  "source_timecode": "04:09.00\u201305:33.50",
+  "template_id": "governed-hierarchy",
+  "label": "Metric Views, Pages, Domains and governing layer",
+  "category": "explanatory-graphic-or-overlay",
+  "teaching_intent": "Build a concrete hierarchy of curated semantic objects rather than decorative graph nodes.",
+  "relationship": "governing parent \u2192 peers \u2192 logical groups",
+  "original_transcript": "definition for your key business metrics stored as open format Unity Catalog objects. So, for example, you know, this is how we slice and dice revenue. And and metric views are fully GA'd. Pages are a bit newer. Uh it's the it's the qualitative equivalent of a metric view. I think of them as wiki pages in in Unity Catalog. So, if a metric view defines how we slice and dice revenue, a page might tell you, say, the difference between incremental and attributed revenue. Uh and these are in beta and it is actually super easy to get started. You can use Genie code to actually get started on creating your pages. And then finally, domains uh allow you to do tag-based logical collections of assets, uh both Unity Catalog and workspace assets by things like business unit or geo or function. So, you might have a finance domain or you might have a product team domain. And an asset can live in multiple domains. And it's really helpful for reducing the agent's search space. So, if someone asks a question about finance, you know, we can start from from the finance domain. So, together, metric views, pages, and domains form this certified authoritative baseline. But it's hard, if not impossible, to try to codify the entire organization's knowledge that way, to have a centralized data team responsible for codifying the the concepts that every individual team are are kind of experts in. So, we supplement the modeled ontology",
+  "original_transcript_segments": [
+    {
+      "text": "definition for your key business metrics",
+      "start": 245.12,
+      "end": 250.04
+    },
+    {
+      "text": "stored as open format Unity Catalog",
+      "start": 247.8,
+      "end": 252.24
+    },
+    {
+      "text": "objects. So, for example, you know, this",
+      "start": 250.04,
+      "end": 254.88
+    },
+    {
+      "text": "is how we slice and dice revenue. And",
+      "start": 252.24,
+      "end": 257.0
+    },
+    {
+      "text": "and metric views are fully GA'd.",
+      "start": 254.88,
+      "end": 259.76
+    },
+    {
+      "text": "Pages are a bit newer. Uh it's the it's",
+      "start": 257.0,
+      "end": 261.799
+    },
+    {
+      "text": "the qualitative equivalent of a metric",
+      "start": 259.76,
+      "end": 264.16
+    },
+    {
+      "text": "view. I think of them as wiki pages in",
+      "start": 261.799,
+      "end": 266.36
+    },
+    {
+      "text": "in Unity Catalog. So, if a metric view",
+      "start": 264.16,
+      "end": 268.84
+    },
+    {
+      "text": "defines how we slice and dice revenue, a",
+      "start": 266.36,
+      "end": 271.08
+    },
+    {
+      "text": "page might tell you, say, the difference",
+      "start": 268.84,
+      "end": 273.48
+    },
+    {
+      "text": "between incremental and attributed",
+      "start": 271.08,
+      "end": 276.32
+    },
+    {
+      "text": "revenue. Uh and these are in beta and it",
+      "start": 273.48,
+      "end": 278.08
+    },
+    {
+      "text": "is actually super easy to get started.",
+      "start": 276.32,
+      "end": 280.28
+    },
+    {
+      "text": "You can use Genie code to actually get",
+      "start": 278.08,
+      "end": 282.919
+    },
+    {
+      "text": "started on creating your pages. And then",
+      "start": 280.28,
+      "end": 285.08
+    },
+    {
+      "text": "finally, domains uh allow you to do",
+      "start": 282.919,
+      "end": 289.08
+    },
+    {
+      "text": "tag-based logical collections of assets,",
+      "start": 285.08,
+      "end": 290.84
+    },
+    {
+      "text": "uh both Unity Catalog and workspace",
+      "start": 289.08,
+      "end": 293.12
+    },
+    {
+      "text": "assets by things like business unit or",
+      "start": 290.84,
+      "end": 295.8
+    },
+    {
+      "text": "geo or function. So, you might have a",
+      "start": 293.12,
+      "end": 297.36
+    },
+    {
+      "text": "finance domain or you might have a",
+      "start": 295.8,
+      "end": 299.8
+    },
+    {
+      "text": "product team domain. And an asset can",
+      "start": 297.36,
+      "end": 301.48
+    },
+    {
+      "text": "live in multiple domains. And it's",
+      "start": 299.8,
+      "end": 303.32
+    },
+    {
+      "text": "really helpful for reducing the agent's",
+      "start": 301.48,
+      "end": 304.8
+    },
+    {
+      "text": "search space. So, if someone asks a",
+      "start": 303.32,
+      "end": 306.44
+    },
+    {
+      "text": "question about finance, you know, we can",
+      "start": 304.8,
+      "end": 309.72
+    },
+    {
+      "text": "start from from the finance domain. So,",
+      "start": 306.44,
+      "end": 312.12
+    },
+    {
+      "text": "together, metric views, pages, and",
+      "start": 309.72,
+      "end": 314.8
+    },
+    {
+      "text": "domains form this certified",
+      "start": 312.12,
+      "end": 317.56
+    },
+    {
+      "text": "authoritative baseline. But it's hard,",
+      "start": 314.8,
+      "end": 321.24
+    },
+    {
+      "text": "if not impossible, to try to codify the",
+      "start": 317.56,
+      "end": 323.36
+    },
+    {
+      "text": "entire organization's knowledge that",
+      "start": 321.24,
+      "end": 325.72
+    },
+    {
+      "text": "way, to have a centralized data team",
+      "start": 323.36,
+      "end": 327.6
+    },
+    {
+      "text": "responsible for codifying the the",
+      "start": 325.72,
+      "end": 330.36
+    },
+    {
+      "text": "concepts that every individual team are",
+      "start": 327.6,
+      "end": 332.12
+    },
+    {
+      "text": "are kind of experts in.",
+      "start": 330.36,
+      "end": 335.36
+    },
+    {
+      "text": "So, we supplement the modeled ontology",
+      "start": 332.12,
+      "end": 337.52
+    }
+  ],
+  "transcript_status": "Verbatim supplied rolling transcript text; timing overlaps and transcription errors remain. This is not a rewritten quotation.",
+  "rhetorical_move": "Explain a governed organizational hierarchy with named objects.",
+  "parameterized_transcript_patterns": [
+    "{{governance_parent}} manages {{object_a}} and {{object_b}}; {{group}} organizes them by {{business_scope}}.",
+    "Start with {{definition_object}}, add {{context_object}}, then organize them into {{domain}}."
+  ],
+  "semantic_slots": [
+    "business_scope",
+    "context_object",
+    "definition_object",
+    "domain",
+    "governance_parent",
+    "group",
+    "object_a",
+    "object_b",
+    "objects"
+  ],
+  "selection_rule": "Use for a real parent, containment or grouping relationship.",
+  "better_alternative_or_misuse": "Use equal peer cards when no parent-child relationship exists; do not invent permission inheritance.",
+  "motion_recipe": "Introduce one object, its governing parent, peer objects, grouping and supported consumers in sequence.",
+  "state_images": [
+    {
+      "id": "state-01",
+      "sequence_role": "earlier observed state",
+      "time": 249.3,
+      "timecode": "04:09.30",
+      "images": {
+        "full_frame": "frames/full/0007479.jpg",
+        "graphic_region": "frames/graphic/0007479.jpg",
+        "requested_seconds": 249.3,
+        "sample_frame": 7479,
+        "normalized_source_seconds": 249.3,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "certified single source of truth",
+          "start": 242.88,
+          "end": 247.8
+        },
+        {
+          "text": "definition for your key business metrics",
+          "start": 245.12,
+          "end": 250.04
+        },
+        {
+          "text": "stored as open format Unity Catalog",
+          "start": 247.8,
+          "end": 252.24
+        },
+        {
+          "text": "objects. So, for example, you know, this",
+          "start": 250.04,
+          "end": 254.88
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-02",
+      "sequence_role": "intermediate observed state",
+      "time": 257,
+      "timecode": "04:17.00",
+      "images": {
+        "full_frame": "frames/full/0007710.jpg",
+        "graphic_region": "frames/graphic/0007710.jpg",
+        "requested_seconds": 257,
+        "sample_frame": 7710,
+        "normalized_source_seconds": 257.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "is how we slice and dice revenue. And",
+          "start": 252.24,
+          "end": 257.0
+        },
+        {
+          "text": "and metric views are fully GA'd.",
+          "start": 254.88,
+          "end": 259.76
+        },
+        {
+          "text": "Pages are a bit newer. Uh it's the it's",
+          "start": 257.0,
+          "end": 261.799
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-03",
+      "sequence_role": "intermediate observed state",
+      "time": 264,
+      "timecode": "04:24.00",
+      "images": {
+        "full_frame": "frames/full/0007920.jpg",
+        "graphic_region": "frames/graphic/0007920.jpg",
+        "requested_seconds": 264,
+        "sample_frame": 7920,
+        "normalized_source_seconds": 264.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "the qualitative equivalent of a metric",
+          "start": 259.76,
+          "end": 264.16
+        },
+        {
+          "text": "view. I think of them as wiki pages in",
+          "start": 261.799,
+          "end": 266.36
+        },
+        {
+          "text": "in Unity Catalog. So, if a metric view",
+          "start": 264.16,
+          "end": 268.84
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-04",
+      "sequence_role": "intermediate observed state",
+      "time": 283,
+      "timecode": "04:43.00",
+      "images": {
+        "full_frame": "frames/full/0008490.jpg",
+        "graphic_region": "frames/graphic/0008490.jpg",
+        "requested_seconds": 283,
+        "sample_frame": 8490,
+        "normalized_source_seconds": 283.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "You can use Genie code to actually get",
+          "start": 278.08,
+          "end": 282.919
+        },
+        {
+          "text": "started on creating your pages. And then",
+          "start": 280.28,
+          "end": 285.08
+        },
+        {
+          "text": "finally, domains uh allow you to do",
+          "start": 282.919,
+          "end": 289.08
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-05",
+      "sequence_role": "intermediate observed state",
+      "time": 309,
+      "timecode": "05:09.00",
+      "images": {
+        "full_frame": "frames/full/0009270.jpg",
+        "graphic_region": "frames/graphic/0009270.jpg",
+        "requested_seconds": 309,
+        "sample_frame": 9270,
+        "normalized_source_seconds": 309.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "question about finance, you know, we can",
+          "start": 304.8,
+          "end": 309.72
+        },
+        {
+          "text": "start from from the finance domain. So,",
+          "start": 306.44,
+          "end": 312.12
+        },
+        {
+          "text": "together, metric views, pages, and",
+          "start": 309.72,
+          "end": 314.8
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    },
+    {
+      "id": "state-06",
+      "sequence_role": "later observed state",
+      "time": 324,
+      "timecode": "05:24.00",
+      "images": {
+        "full_frame": "frames/full/0009720.jpg",
+        "graphic_region": "frames/graphic/0009720.jpg",
+        "requested_seconds": 324,
+        "sample_frame": 9720,
+        "normalized_source_seconds": 324.0,
+        "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+      },
+      "nearby_original_transcript": [
+        {
+          "text": "if not impossible, to try to codify the",
+          "start": 317.56,
+          "end": 323.36
+        },
+        {
+          "text": "entire organization's knowledge that",
+          "start": 321.24,
+          "end": 325.72
+        },
+        {
+          "text": "way, to have a centralized data team",
+          "start": 323.36,
+          "end": 327.6
+        },
+        {
+          "text": "responsible for codifying the the",
+          "start": 325.72,
+          "end": 330.36
+        }
+      ],
+      "state_observation_status": "Source screenshot, with sequence-level observations below; exact object-change annotations require visual review of the frame."
+    }
+  ],
+  "change_windows": [
+    {
+      "estimated_anchor": 249,
+      "nearby_original_transcript": [
+        {
+          "text": "certified single source of truth",
+          "start": 242.88,
+          "end": 247.8
+        },
+        {
+          "text": "definition for your key business metrics",
+          "start": 245.12,
+          "end": 250.04
+        },
+        {
+          "text": "stored as open format Unity Catalog",
+          "start": 247.8,
+          "end": 252.24
+        },
+        {
+          "text": "objects. So, for example, you know, this",
+          "start": 250.04,
+          "end": 254.88
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0007470.jpg",
+          "graphic_region": "frames/graphic/0007470.jpg",
+          "requested_seconds": 249,
+          "sample_frame": 7470,
+          "normalized_source_seconds": 249.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0007478.jpg",
+          "graphic_region": "frames/graphic/0007478.jpg",
+          "requested_seconds": 249.25,
+          "sample_frame": 7478,
+          "normalized_source_seconds": 249.26666666666668,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0007500.jpg",
+          "graphic_region": "frames/graphic/0007500.jpg",
+          "requested_seconds": 250,
+          "sample_frame": 7500,
+          "normalized_source_seconds": 250.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 256,
+      "nearby_original_transcript": [
+        {
+          "text": "objects. So, for example, you know, this",
+          "start": 250.04,
+          "end": 254.88
+        },
+        {
+          "text": "is how we slice and dice revenue. And",
+          "start": 252.24,
+          "end": 257.0
+        },
+        {
+          "text": "and metric views are fully GA'd.",
+          "start": 254.88,
+          "end": 259.76
+        },
+        {
+          "text": "Pages are a bit newer. Uh it's the it's",
+          "start": 257.0,
+          "end": 261.799
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0007672.jpg",
+          "graphic_region": "frames/graphic/0007672.jpg",
+          "requested_seconds": 255.75,
+          "sample_frame": 7672,
+          "normalized_source_seconds": 255.73333333333332,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0007688.jpg",
+          "graphic_region": "frames/graphic/0007688.jpg",
+          "requested_seconds": 256.25,
+          "sample_frame": 7688,
+          "normalized_source_seconds": 256.26666666666665,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0007710.jpg",
+          "graphic_region": "frames/graphic/0007710.jpg",
+          "requested_seconds": 257,
+          "sample_frame": 7710,
+          "normalized_source_seconds": 257.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 263,
+      "nearby_original_transcript": [
+        {
+          "text": "Pages are a bit newer. Uh it's the it's",
+          "start": 257.0,
+          "end": 261.799
+        },
+        {
+          "text": "the qualitative equivalent of a metric",
+          "start": 259.76,
+          "end": 264.16
+        },
+        {
+          "text": "view. I think of them as wiki pages in",
+          "start": 261.799,
+          "end": 266.36
+        },
+        {
+          "text": "in Unity Catalog. So, if a metric view",
+          "start": 264.16,
+          "end": 268.84
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0007882.jpg",
+          "graphic_region": "frames/graphic/0007882.jpg",
+          "requested_seconds": 262.75,
+          "sample_frame": 7882,
+          "normalized_source_seconds": 262.73333333333335,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0007898.jpg",
+          "graphic_region": "frames/graphic/0007898.jpg",
+          "requested_seconds": 263.25,
+          "sample_frame": 7898,
+          "normalized_source_seconds": 263.26666666666665,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0007920.jpg",
+          "graphic_region": "frames/graphic/0007920.jpg",
+          "requested_seconds": 264,
+          "sample_frame": 7920,
+          "normalized_source_seconds": 264.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 281,
+      "nearby_original_transcript": [
+        {
+          "text": "is actually super easy to get started.",
+          "start": 276.32,
+          "end": 280.28
+        },
+        {
+          "text": "You can use Genie code to actually get",
+          "start": 278.08,
+          "end": 282.919
+        },
+        {
+          "text": "started on creating your pages. And then",
+          "start": 280.28,
+          "end": 285.08
+        },
+        {
+          "text": "finally, domains uh allow you to do",
+          "start": 282.919,
+          "end": 289.08
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0008422.jpg",
+          "graphic_region": "frames/graphic/0008422.jpg",
+          "requested_seconds": 280.75,
+          "sample_frame": 8422,
+          "normalized_source_seconds": 280.73333333333335,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0008438.jpg",
+          "graphic_region": "frames/graphic/0008438.jpg",
+          "requested_seconds": 281.25,
+          "sample_frame": 8438,
+          "normalized_source_seconds": 281.26666666666665,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0008460.jpg",
+          "graphic_region": "frames/graphic/0008460.jpg",
+          "requested_seconds": 282,
+          "sample_frame": 8460,
+          "normalized_source_seconds": 282.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 292,
+      "nearby_original_transcript": [
+        {
+          "text": "tag-based logical collections of assets,",
+          "start": 285.08,
+          "end": 290.84
+        },
+        {
+          "text": "uh both Unity Catalog and workspace",
+          "start": 289.08,
+          "end": 293.12
+        },
+        {
+          "text": "assets by things like business unit or",
+          "start": 290.84,
+          "end": 295.8
+        },
+        {
+          "text": "geo or function. So, you might have a",
+          "start": 293.12,
+          "end": 297.36
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0008752.jpg",
+          "graphic_region": "frames/graphic/0008752.jpg",
+          "requested_seconds": 291.75,
+          "sample_frame": 8752,
+          "normalized_source_seconds": 291.73333333333335,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0008768.jpg",
+          "graphic_region": "frames/graphic/0008768.jpg",
+          "requested_seconds": 292.25,
+          "sample_frame": 8768,
+          "normalized_source_seconds": 292.26666666666665,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0008790.jpg",
+          "graphic_region": "frames/graphic/0008790.jpg",
+          "requested_seconds": 293,
+          "sample_frame": 8790,
+          "normalized_source_seconds": 293.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 307,
+      "nearby_original_transcript": [
+        {
+          "text": "search space. So, if someone asks a",
+          "start": 303.32,
+          "end": 306.44
+        },
+        {
+          "text": "question about finance, you know, we can",
+          "start": 304.8,
+          "end": 309.72
+        },
+        {
+          "text": "start from from the finance domain. So,",
+          "start": 306.44,
+          "end": 312.12
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0009202.jpg",
+          "graphic_region": "frames/graphic/0009202.jpg",
+          "requested_seconds": 306.75,
+          "sample_frame": 9202,
+          "normalized_source_seconds": 306.73333333333335,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0009218.jpg",
+          "graphic_region": "frames/graphic/0009218.jpg",
+          "requested_seconds": 307.25,
+          "sample_frame": 9218,
+          "normalized_source_seconds": 307.26666666666665,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0009240.jpg",
+          "graphic_region": "frames/graphic/0009240.jpg",
+          "requested_seconds": 308,
+          "sample_frame": 9240,
+          "normalized_source_seconds": 308.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 315,
+      "nearby_original_transcript": [
+        {
+          "text": "together, metric views, pages, and",
+          "start": 309.72,
+          "end": 314.8
+        },
+        {
+          "text": "domains form this certified",
+          "start": 312.12,
+          "end": 317.56
+        },
+        {
+          "text": "authoritative baseline. But it's hard,",
+          "start": 314.8,
+          "end": 321.24
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0009442.jpg",
+          "graphic_region": "frames/graphic/0009442.jpg",
+          "requested_seconds": 314.75,
+          "sample_frame": 9442,
+          "normalized_source_seconds": 314.73333333333335,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0009458.jpg",
+          "graphic_region": "frames/graphic/0009458.jpg",
+          "requested_seconds": 315.25,
+          "sample_frame": 9458,
+          "normalized_source_seconds": 315.26666666666665,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0009480.jpg",
+          "graphic_region": "frames/graphic/0009480.jpg",
+          "requested_seconds": 316,
+          "sample_frame": 9480,
+          "normalized_source_seconds": 316.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    },
+    {
+      "estimated_anchor": 322,
+      "nearby_original_transcript": [
+        {
+          "text": "authoritative baseline. But it's hard,",
+          "start": 314.8,
+          "end": 321.24
+        },
+        {
+          "text": "if not impossible, to try to codify the",
+          "start": 317.56,
+          "end": 323.36
+        },
+        {
+          "text": "entire organization's knowledge that",
+          "start": 321.24,
+          "end": 325.72
+        },
+        {
+          "text": "way, to have a centralized data team",
+          "start": 323.36,
+          "end": 327.6
+        }
+      ],
+      "source_images": [
+        {
+          "phase": "before",
+          "full_frame": "frames/full/0009652.jpg",
+          "graphic_region": "frames/graphic/0009652.jpg",
+          "requested_seconds": 321.75,
+          "sample_frame": 9652,
+          "normalized_source_seconds": 321.73333333333335,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "near-transition",
+          "full_frame": "frames/full/0009668.jpg",
+          "graphic_region": "frames/graphic/0009668.jpg",
+          "requested_seconds": 322.25,
+          "sample_frame": 9668,
+          "normalized_source_seconds": 322.26666666666665,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        },
+        {
+          "phase": "after",
+          "full_frame": "frames/full/0009690.jpg",
+          "graphic_region": "frames/graphic/0009690.jpg",
+          "requested_seconds": 323,
+          "sample_frame": 9690,
+          "normalized_source_seconds": 323.0,
+          "temporal_precision": "Normalized 30fps screenshot within approximately one frame; the chosen teaching anchors remain estimated."
+        }
+      ],
+      "interpretation": "A sampled source change window, not the original keyframe timing or word-aligned speech trigger."
+    }
+  ],
+  "prior_source_observations": [
+    {
+      "id": "08-modeled-build",
+      "observed_state_pattern": "Parent bar \u2192 sibling semantic cards \u2192 domain \u2192 agent group \u2192 enclosing emphasis.",
+      "persistent_context": "Modeled-context heading and parent relationships persist.",
+      "evidence_status": "Source samples inspected; structure observed; teaching rationale and transfer rules are interpretations"
+    }
+  ],
+  "image_reference_use": {
+    "recommended_reference_images": [
+      "frames/graphic/0009270.jpg",
+      "frames/graphic/0007479.jpg",
+      "frames/graphic/0007920.jpg"
+    ],
+    "purpose": "Original visual evidence for generated storyboard art direction; diagram-region crops exclude presenter/caption distractions.",
+    "keep": "Visual hierarchy, shape/texture, icon mass, typography, color roles, whitespace and persistent-object relationships when appropriate.",
+    "replace": "Source product labels, business claims, values and entities according to the new verified script.",
+    "never_use": "Rejected reconstruction screenshots as style references.",
+    "primary_style_anchor": "frames/graphic/0009270.jpg",
+    "reference_roles": [
+      "settled/readable style anchor",
+      "earlier/build state evidence",
+      "earlier/build state evidence"
+    ]
+  },
+  "confidence": {
+    "source_images": "Directly extracted from original uploaded footage; not generated or taken from the failed recreation.",
+    "coverage": "All 58 curated instances plus the previous 206 estimated visual anchors are indexed; micro-transition exhaustiveness is not certified.",
+    "pedagogy_and_templates": "Editorial interpretations grounded in the paired transcript and images.",
+    "timing": "Estimated teaching/cut anchors, not word alignment."
+  },
+  "source_specific_observation": {
+    "status": "Sequence-level source observations are attached in prior_source_observations. The family motion grammar is a proposed reusable pattern, not a frame-exact claim about this instance."
+  },
+  "reading_vs_reveal_rule": "Reading direction and actual reveal order are separate. Prefer the source-specific observation when reconstructing; align adaptation order to what the new narration introduces."
+}
