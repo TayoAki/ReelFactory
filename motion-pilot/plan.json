@@ -1,0 +1,95 @@
+{
+  "mode": "reference-reconstruction",
+  "source": "https://www.youtube.com/watch?v=HtR5m5VjaDQ",
+  "source_entry": "../reference-library/entries/constrained-web-flow.json",
+  "source_start": 110.2,
+  "source_end": 119.5,
+  "duration": 9.3,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "storyboard": "../storyboard-first/web-search/beat.json",
+  "generation_authorized": "User explicitly requested a motion graphic using the image-first method, to judge the result.",
+  "visual_approved_by_user": false,
+  "layers": [
+    "background",
+    "grid",
+    "presenter",
+    "web-shadow/surface",
+    "web-icon",
+    "web-label",
+    "first-connector",
+    "model-shadow/gradient-surface",
+    "model-icon",
+    "model-label",
+    "second-connector",
+    "result-shadow/surface",
+    "result-icon",
+    "result-label"
+  ],
+  "design_refinement": "Preserve the generated storyboard visual direction, with the model card enlarged to 1.16x peer-card size based on the original source. This is a deliberate correction to the candidate still.",
+  "timing_provenance": "Source sampled at 15fps. Model color-region width and appearance energy provide approximate visual timing; word timing uses an automatic tiny-Whisper alignment and is not a guarantee of word-accurate sync.",
+  "motion_tracks": {
+    "model_scale": [
+      [
+        110.233,
+        0
+      ],
+      [
+        110.3,
+        0.167
+      ],
+      [
+        110.433,
+        0.656
+      ],
+      [
+        110.567,
+        1
+      ],
+      [
+        110.767,
+        1.156
+      ],
+      [
+        111.8,
+        1.156
+      ],
+      [
+        112.3,
+        1.04
+      ],
+      [
+        112.7,
+        1
+      ],
+      [
+        119.5,
+        1
+      ]
+    ],
+    "web_opacity": [
+      113.5,
+      114.55
+    ],
+    "first_connector": [
+      113.85,
+      114.6
+    ],
+    "result_opacity": [
+      114.78,
+      115.65
+    ],
+    "second_connector": [
+      114.65,
+      115.35
+    ]
+  },
+  "intentional_differences": [
+    "Static fictional presenter in place of original speaker",
+    "Larger readable typography and adjusted storyboard spacing",
+    "Filled symbols rebuilt as SVG approximations, not exact source paths",
+    "No creator logo or burned-in captions; original source narration retained"
+  ],
+  "claim_caveat": "Accurate Results reproduces the source\u2019s constrained-context example, not a general model-accuracy guarantee. The full explanation continues into business-context failures."
+}
