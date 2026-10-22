@@ -1,0 +1,48 @@
+{
+  "id": "C08",
+  "family": "ownership",
+  "master_image": "../master-ownership.png",
+  "visual_workflow": "image-first",
+  "state_images": [
+    "01-initial.jpg",
+    "02-build.jpg",
+    "03-settled.jpg"
+  ],
+  "layers": [
+    {
+      "label": "Shared governed data",
+      "sub": "DEFINITION / SOURCE",
+      "x": 100,
+      "y": 680,
+      "w": 880,
+      "h": 250,
+      "focal": true,
+      "on": 0.7,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Different compute engines",
+      "sub": "CONSUMER / MAPPING",
+      "x": 100,
+      "y": 1050,
+      "w": 880,
+      "h": 250,
+      "focal": false,
+      "on": 29.88,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    }
+  ],
+  "relation": "OneLake",
+  "source_quote": "And the bedrock of this entire platform is something they call OneLake. OneLake is fundamental to understanding how the ontology actually executes. It is the shared data foundation. Like a massive hard drive for the company. The architectural philosophy here is that different teams within an organization, data scientists, financial analysts, operations managers, can all work with the exact same underlying govern data. But using their own tools. Exactly. They access it through different analytical compute engines depending on their specific needs.",
+  "why": "Separate the source of meaning or data from its consumer.",
+  "alternative": "Authentic tenant UI would be preferable for proving an executed product action; this clip is a concept illustration.",
+  "visual_review": "Draft, not human approved. Generated symbols corrected in editable reconstruction.",
+  "source_reference": "reference-library/frames/graphic/0003510.jpg",
+  "motion": "independent card alpha reveal + 16px eased settling, timed to recording keywords; fixed grid and presenter rail",
+  "source_start": 546.78,
+  "source_end": 579.24,
+  "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+}

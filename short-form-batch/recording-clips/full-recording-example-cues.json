@@ -1,0 +1,1654 @@
+{
+  "scope": "Every segment matching the documented cue patterns across all five audio parts, including rejected or unselected material. Not a claim of semantic exhaustiveness.",
+  "patterns": {
+    "medical-diagnosis analogy": "\\bx.ray\\b|broken arm|break your arm",
+    "raw temperature and unit context": "\\b45\\b|forty.five|pharmaceutical|frozen food|Celsius|Fahrenheit|temperature scale",
+    "shipment date ambiguity": "order date|shipment date|shipping date|arrival date|expected arrival|six different",
+    "inventory-risk competing definitions": "inventory at risk|safety buffer|supply planner|warehouse manager",
+    "ingredients versus recipe": "ingredients|recipe|pantry",
+    "institutional-knowledge dependency": "analyst.*knows|walks.*door|retires|institutional knowledge",
+    "store type and physical instance": "\\b402\\b|downtown Seattle|store number|entity instance",
+    "contracts across namespaces": "HR.*contract|sales.*contract|contract.*HR|contract.*sales",
+    "inheritance and derived types": "frozen product|derived type|parent type|refrigerated location",
+    "conflicting customer definitions": "90.days|ninety.days|marketing customer|finance customer|outstanding invoice",
+    "DAX source-measure change": "CFO|net revenue|revenue calculation|profit margin|source math",
+    "priority-store definitions": "priority.*store|priority.*one|priority.*1|square footage",
+    "entity synonyms": "\\bshops\\b|\\bshop\\b|retail location|synonym",
+    "natural language retail operations prompt": "late deliver|next 24 hours|offline.*sensor|sensor.*offline|six hours",
+    "source freshness and filtering": "stale|refresh.*hour|yesterday.*data|same.*filter|reporting period",
+    "version and rollback illustration": "rollback|roll back|named version|version history",
+    "regional identity/RLS": "West region|western region|regional manager|god.mode|row.level security",
+    "forecast decision and uncertainty": "100,000|hundred.thousand|forecast|prediction|probabilistic",
+    "supplier recall path": "contaminat|recall|agricultural supplier|raw ingredients",
+    "trigger/monitoring example": "five.minute|five minutes|twenty.four hours|alert.*minute|Activator",
+    "report-grounded draft verification": "15.percent|15%|fifteen.percent|board.ready|PowerPoint|quarterly.*summary",
+    "large-query billing illustration": "ten.*billion|billions|massive.*query|compute consumption|free.*reasoning",
+    "corporate-merger thought experiment": "merger|M\\s*&\\s*A|two massive global|company A|company B",
+    "explicit illustrative cue": "for example|let.s say|imagine|hypothetical|suppose|think of it|analogy|concrete example|what if"
+  },
+  "count": 103,
+  "examples": [
+    {
+      "id": "E001",
+      "source_start": 0.0,
+      "source_end": 29.86,
+      "tags": [
+        "medical-diagnosis analogy"
+      ],
+      "transcript_asr": "You know, usually when we talk about a medical diagnosis, there's this expectation of precision. Right. It's almost like engineering. You know, you break your arm. The x-ray shows that jagged white line and the doctor just points and says there it is. Yeah, it's totally binary. Exactly. Broken or not broken. But apply that exact same desire for a clean x-ray to what you might be dealing with right this very second in your professional life. I mean, your enterprise data. Oh, yeah. That is a very different story.",
+      "context_before": "",
+      "context_after": "It really is. Today, we're exploring whether we can finally get a clear x-ray of our business operations. Welcome to the deep dive. Our mission today is exploring how businesses are finally teaching artificial intelligence to speak their specific idiosyncratic language. Which is no small feat. Not at all. We are drawing from an expert interview and a product demo script focused on Microsoft fabric and specifically fabric ontologies. And this source material is dated October 22, 2026.",
+      "associated_clips": [],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E002",
+      "source_start": 29.86,
+      "source_end": 58.64,
+      "tags": [
+        "medical-diagnosis analogy"
+      ],
+      "transcript_asr": "It really is. Today, we're exploring whether we can finally get a clear x-ray of our business operations. Welcome to the deep dive. Our mission today is exploring how businesses are finally teaching artificial intelligence to speak their specific idiosyncratic language. Which is no small feat. Not at all. We are drawing from an expert interview and a product demo script focused on Microsoft fabric and specifically fabric ontologies. And this source material is dated October 22, 2026.",
+      "context_before": "You know, usually when we talk about a medical diagnosis, there's this expectation of precision. Right. It's almost like engineering. You know, you break your arm. The x-ray shows that jagged white line and the doctor just points and says there it is. Yeah, it's totally binary. Exactly. Broken or not broken. But apply that exact same desire for a clean x-ray to what you might be dealing with right this very second in your professional life. I mean, your enterprise data. Oh, yeah. That is a very different story.",
+      "context_after": "And before we really get into the mechanics of this, we need to establish a pretty crucial baseline from our source material.",
+      "associated_clips": [],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E003",
+      "source_start": 199.68,
+      "source_end": 207.8,
+      "tags": [
+        "raw temperature and unit context"
+      ],
+      "transcript_asr": "Well, let's trace that exact problem because it's a great example. If you have a spreadsheet and a column simply says temperature 45. What does your AI do with that?",
+      "context_before": "Right. It completely lacks the commercial context. Exactly. It doesn't tell you anything about the store experiencing that temperature.",
+      "context_after": "I just read the number 45. Right. And if it's the ambient temperature outside a retail location on a pleasant spring day, 45 degrees Fahrenheit is just chilly.",
+      "associated_clips": [
+        "C02"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E004",
+      "source_start": 208.62,
+      "source_end": 217.64,
+      "tags": [
+        "raw temperature and unit context",
+        "entity synonyms"
+      ],
+      "transcript_asr": "I just read the number 45. Right. And if it's the ambient temperature outside a retail location on a pleasant spring day, 45 degrees Fahrenheit is just chilly.",
+      "context_before": "Well, let's trace that exact problem because it's a great example. If you have a spreadsheet and a column simply says temperature 45. What does your AI do with that?",
+      "context_after": "Sure. But if that sensor is sitting inside a commercial refrigeration unit, holding thousands of dollars of premium pharmaceutical supplies or, you know, frozen food, then 45 degrees is a total disaster.",
+      "associated_clips": [
+        "C02"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E005",
+      "source_start": 217.64,
+      "source_end": 229.96,
+      "tags": [
+        "raw temperature and unit context"
+      ],
+      "transcript_asr": "Sure. But if that sensor is sitting inside a commercial refrigeration unit, holding thousands of dollars of premium pharmaceutical supplies or, you know, frozen food, then 45 degrees is a total disaster.",
+      "context_before": "I just read the number 45. Right. And if it's the ambient temperature outside a retail location on a pleasant spring day, 45 degrees Fahrenheit is just chilly.",
+      "context_after": "It's a catastrophic failure in progress. But the data itself, the integer 45, is completely agnostic to your business reality. The machine doesn't know to care.",
+      "associated_clips": [
+        "C02"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E006",
+      "source_start": 230.74,
+      "source_end": 239.96,
+      "tags": [
+        "raw temperature and unit context"
+      ],
+      "transcript_asr": "It's a catastrophic failure in progress. But the data itself, the integer 45, is completely agnostic to your business reality. The machine doesn't know to care.",
+      "context_before": "Sure. But if that sensor is sitting inside a commercial refrigeration unit, holding thousands of dollars of premium pharmaceutical supplies or, you know, frozen food, then 45 degrees is a total disaster.",
+      "context_after": "And even if you manage to join that temperature data with your sales data in like a traditional relational database,",
+      "associated_clips": [
+        "C02"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E007",
+      "source_start": 267.2,
+      "source_end": 276.72,
+      "tags": [
+        "shipment date ambiguity"
+      ],
+      "transcript_asr": "Oh, yeah. Order date, ship date, all of that. Right. You have the original order date, the warehouse processing date, the physical ship date, the initial estimated arrival date.",
+      "context_before": "If you look at a standard supply chain database, a single shipment record might contain half a dozen different date fields.",
+      "context_after": "The revised arrival date based on, say, weather delays and the actual docked date. That is a lot of dates.",
+      "associated_clips": [
+        "C03"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E008",
+      "source_start": 277.12,
+      "source_end": 283.44,
+      "tags": [
+        "shipment date ambiguity"
+      ],
+      "transcript_asr": "The revised arrival date based on, say, weather delays and the actual docked date. That is a lot of dates.",
+      "context_before": "Oh, yeah. Order date, ship date, all of that. Right. You have the original order date, the warehouse processing date, the physical ship date, the initial estimated arrival date.",
+      "context_after": "So if an executive asks a standard AI chatbot, hey, when is the inventory arriving? How does the language model know which of those six columns to pull? Usually it just guesses, right? Or it hallucinates.",
+      "associated_clips": [
+        "C03"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E009",
+      "source_start": 296.36,
+      "source_end": 306.66,
+      "tags": [
+        "shipment date ambiguity"
+      ],
+      "transcript_asr": "Historically, a human data engineer has had to explicitly write SQL queries to tell the reporting system which of those fields represents the actual expected arrival that the store manager carries.",
+      "context_before": "So if an executive asks a standard AI chatbot, hey, when is the inventory arriving? How does the language model know which of those six columns to pull? Usually it just guesses, right? Or it hallucinates.",
+      "context_after": "Today, which brings us to the absolute ambiguity of internal corporate language. Words simply mean different things to different departments.",
+      "associated_clips": [
+        "C03"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E010",
+      "source_start": 316.16,
+      "source_end": 325.32,
+      "tags": [
+        "inventory-risk competing definitions"
+      ],
+      "transcript_asr": "Oh, it creates total chaos when you try to apply a single AI over the whole company. Right. Our source material highlights this phrase inventory at risk.",
+      "context_before": "Today, which brings us to the absolute ambiguity of internal corporate language. Words simply mean different things to different departments.",
+      "context_after": "Yes, inventory at risk is a brilliant example of these diagnostic muddy waters because it sounds so simple.",
+      "associated_clips": [],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E011",
+      "source_start": 325.7,
+      "source_end": 332.56,
+      "tags": [
+        "inventory-risk competing definitions"
+      ],
+      "transcript_asr": "Yes, inventory at risk is a brilliant example of these diagnostic muddy waters because it sounds so simple.",
+      "context_before": "Oh, it creates total chaos when you try to apply a single AI over the whole company. Right. Our source material highlights this phrase inventory at risk.",
+      "context_after": "It does. But if you go down to the warehouse and ask the manager what inventory at risk means, they will likely give you a purely physical definition. Meaning what?",
+      "associated_clips": [
+        "C04"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E012",
+      "source_start": 332.56,
+      "source_end": 341.18,
+      "tags": [
+        "inventory-risk competing definitions"
+      ],
+      "transcript_asr": "It does. But if you go down to the warehouse and ask the manager what inventory at risk means, they will likely give you a purely physical definition. Meaning what?",
+      "context_before": "Yes, inventory at risk is a brilliant example of these diagnostic muddy waters because it sounds so simple.",
+      "context_after": "To them, it means the physical count of stocks sitting on a pallet is currently below a hard minimum threshold at this exact second.",
+      "associated_clips": [
+        "C04"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E013",
+      "source_start": 357.72,
+      "source_end": 371.84,
+      "tags": [
+        "inventory-risk competing definitions"
+      ],
+      "transcript_asr": "Exactly. To them, inventory at risk means that based on current sales velocity and historical trends, a predictive projection shows that the stock will fall below a required safety buffer at some point before the next delivery truck physically arrives.",
+      "context_before": "Okay, but if you take that exact same phrase to a supply chain planner, the planner is going to give you a temporal predictive definition. Right, because their job is looking ahead.",
+      "context_after": "Those are two radically different mathematical equations. Completely different database queries triggered by the exact same three words.",
+      "associated_clips": [
+        "C04"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E014",
+      "source_start": 379.44,
+      "source_end": 389.98,
+      "tags": [
+        "ingredients versus recipe"
+      ],
+      "transcript_asr": "So, okay, let's unpack this. Having raw data and an LLM without an ontology is essentially like having a massive commercial kitchen packed to the ceiling with premium ingredients.",
+      "context_before": "Those are two radically different mathematical equations. Completely different database queries triggered by the exact same three words.",
+      "context_after": "I like this analogy. But you have no recipe. You don't know the ratios. You don't know the cooking times. And you don't even know if you're supposed to be baking a wedding cake or making a beef stew.",
+      "associated_clips": [
+        "C05"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E015",
+      "source_start": 390.56,
+      "source_end": 399.5,
+      "tags": [
+        "ingredients versus recipe",
+        "explicit illustrative cue"
+      ],
+      "transcript_asr": "I like this analogy. But you have no recipe. You don't know the ratios. You don't know the cooking times. And you don't even know if you're supposed to be baking a wedding cake or making a beef stew.",
+      "context_before": "So, okay, let's unpack this. Having raw data and an LLM without an ontology is essentially like having a massive commercial kitchen packed to the ceiling with premium ingredients.",
+      "context_after": "That is the functional reality for most enterprises today. Historically, the human being has always been the recipe. Right, the analyst.",
+      "associated_clips": [
+        "C05"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E016",
+      "source_start": 400.0,
+      "source_end": 407.32,
+      "tags": [
+        "ingredients versus recipe"
+      ],
+      "transcript_asr": "That is the functional reality for most enterprises today. Historically, the human being has always been the recipe. Right, the analyst.",
+      "context_before": "I like this analogy. But you have no recipe. You don't know the ratios. You don't know the cooking times. And you don't even know if you're supposed to be baking a wedding cake or making a beef stew.",
+      "context_after": "A human analyst has to listen to the business question like, which stores are at risk and then mentally translate that subjective human anxiety into a series of complex database joins?",
+      "associated_clips": [
+        "C05"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E017",
+      "source_start": 439.18,
+      "source_end": 444.98,
+      "tags": [
+        "institutional-knowledge dependency"
+      ],
+      "transcript_asr": "The institutional knowledge of how to ask the database a question just walks right out the door with them. That's terrifying for business.",
+      "context_before": "The obvious vulnerability there that if that specific human goes on vacation or quits.",
+      "context_after": "Or even more commonly, someone from a different department tries to write the query uses their own department's definition of at risk.",
+      "associated_clips": [
+        "C06"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E018",
+      "source_start": 478.1,
+      "source_end": 482.82,
+      "tags": [
+        "ingredients versus recipe"
+      ],
+      "transcript_asr": "Okay. So if the ontology is the recipe, we need to talk about the kitchen where this is all happening.",
+      "context_before": "It makes it reusable, standardized and critically readable by an autonomous AI agent.",
+      "context_after": "The source material is heavily grounded in the Microsoft fabric ecosystem.",
+      "associated_clips": [],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E019",
+      "source_start": 590.1,
+      "source_end": 599.42,
+      "tags": [
+        "forecast decision and uncertainty"
+      ],
+      "transcript_asr": "Massive. In legacy architectures, if the machine learning team needed the sales data for a forecasting model and the finance team needed it for a quarterly report,",
+      "context_before": "Which is a huge problem.",
+      "context_after": "the data engineers would literally copy the data into two different databases.",
+      "associated_clips": [
+        "C09"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E020",
+      "source_start": 666.68,
+      "source_end": 668.96,
+      "tags": [
+        "explicit illustrative cue"
+      ],
+      "transcript_asr": "Think of it as a semantic translation layer.",
+      "context_before": "If it doesn't hold data, what is it holding?",
+      "context_after": "Power BI provides your curated analytics and visuals.",
+      "associated_clips": [
+        "C10"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E021",
+      "source_start": 703.04,
+      "source_end": 708.04,
+      "tags": [
+        "raw temperature and unit context"
+      ],
+      "transcript_asr": "temperature, that it is measured in Fahrenheit, and that it belongs to a specific freezer asset",
+      "context_before": "It stores the conceptual understanding that a specific column of numbers represents",
+      "context_after": "located in a specific high-priority store.",
+      "associated_clips": [],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E022",
+      "source_start": 708.04,
+      "source_end": 710.72,
+      "tags": [
+        "priority-store definitions"
+      ],
+      "transcript_asr": "located in a specific high-priority store.",
+      "context_before": "temperature, that it is measured in Fahrenheit, and that it belongs to a specific freezer asset",
+      "context_after": "It's the central nervous system coordinating the organs,",
+      "associated_clips": [],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E023",
+      "source_start": 750.050975,
+      "source_end": 779.670975,
+      "tags": [
+        "store type and physical instance"
+      ],
+      "transcript_asr": "Conceptual category. In the retail scenario from the source, store would be an entity type or product. Correct. It is the template. Then you have an instance. An instance is one specific physical real world manifestation of that entity type. So store number 402 located in downtown Seattle is an instance of the store entity. Yes. Next we have properties. Properties are the specific attributes that granular details we need to track about an entity. Like what?",
+      "context_before": "So an entity type is the broad",
+      "context_after": "For our store entity, the properties might include the region it belongs to, its square footage, or its priority classification for the supply chain. And then we have to connect them. That brings us to relationships. Relationships define the verbs between the nouns. They explain how different entity types interact in the real world. Give me an example. You might define a relationship that states a store operates a refrigeration unit or a supplier ships a product. You are drawing explicit lines.",
+      "associated_clips": [
+        "C11",
+        "C12"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E024",
+      "source_start": 779.670975,
+      "source_end": 809.650975,
+      "tags": [
+        "priority-store definitions"
+      ],
+      "transcript_asr": "For our store entity, the properties might include the region it belongs to, its square footage, or its priority classification for the supply chain. And then we have to connect them. That brings us to relationships. Relationships define the verbs between the nouns. They explain how different entity types interact in the real world. Give me an example. You might define a relationship that states a store operates a refrigeration unit or a supplier ships a product. You are drawing explicit lines.",
+      "context_before": "Conceptual category. In the retail scenario from the source, store would be an entity type or product. Correct. It is the template. Then you have an instance. An instance is one specific physical real world manifestation of that entity type. So store number 402 located in downtown Seattle is an instance of the store entity. Yes. Next we have properties. Properties are the specific attributes that granular details we need to track about an entity. Like what?",
+      "context_after": "So the AI doesn't have to guess how a supplier and a store are connected. And finally, the tether that brings it all back to reality. Data bindings. Data bindings are perhaps the most critical mechanical component. This is the wiring that connects these abstract high level concepts back to the physical source fields in your actual databases. Okay. So it points to the database. It's the mapping that tells the ontology. Hey, when the user asks about a region, do not hallucinate an answer. Go look specifically at column F in this example.",
+      "associated_clips": [
+        "C12"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E025",
+      "source_start": 859.650975,
+      "source_end": 868.610975,
+      "tags": [
+        "contracts across namespaces"
+      ],
+      "transcript_asr": "So the HR department's definition of a contract, which might mean an employment agreement, doesn't collide and override the sales department's definition of a contract,",
+      "context_before": "Total chaos, which is why the system relies heavily on namespaces and inheritance. Namespaces act as organizational boundaries or scopes for your definitions.",
+      "context_after": "which means a customer purchase agreement. Exactly. Namespaces prevent those semantic collisions and inheritance,",
+      "associated_clips": [
+        "C14"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E026",
+      "source_start": 908.190975,
+      "source_end": 915.430975,
+      "tags": [
+        "priority-store definitions"
+      ],
+      "transcript_asr": "The store automatically inherits the address and coordinates, but then you add store specific properties like retail square footage.",
+      "context_before": "You can then create a store entity that derives from location. So it inherits all that base stuff.",
+      "context_after": "Similarly, you could have a base entity called product and derive a highly specific entity called frozen product.",
+      "associated_clips": [
+        "C15"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E027",
+      "source_start": 916.030975,
+      "source_end": 922.210975,
+      "tags": [
+        "inheritance and derived types"
+      ],
+      "transcript_asr": "Similarly, you could have a base entity called product and derive a highly specific entity called frozen product.",
+      "context_before": "The store automatically inherits the address and coordinates, but then you add store specific properties like retail square footage.",
+      "context_after": "But this is where we really have to pause and look closely at the architectural realities of this October 2026 release.",
+      "associated_clips": [
+        "C15"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E028",
+      "source_start": 949.390975,
+      "source_end": 954.770975,
+      "tags": [
+        "inheritance and derived types"
+      ],
+      "transcript_asr": "First, a derived type does not automatically inherit the physical data bindings of its parent.",
+      "context_before": "and fabric ontologies is quite strict. What's the main issue?",
+      "context_after": "It needs its own specific data bindings mapped to the tables.",
+      "associated_clips": [
+        "C16"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E029",
+      "source_start": 974.4909749999999,
+      "source_end": 980.570975,
+      "tags": [
+        "inheritance and derived types"
+      ],
+      "transcript_asr": "my newly created frozen product doesn't just automatically inherit that supplier relationship?",
+      "context_before": "Wait, really? So if I spend an hour defining that a base product has a complex relationship to a supplier database,",
+      "context_after": "Not currently. No. You have to explicitly redefine or map that relationship for the derived type.",
+      "associated_clips": [
+        "C17"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E030",
+      "source_start": 980.870975,
+      "source_end": 986.150975,
+      "tags": [
+        "inheritance and derived types"
+      ],
+      "transcript_asr": "Not currently. No. You have to explicitly redefine or map that relationship for the derived type.",
+      "context_before": "my newly created frozen product doesn't just automatically inherit that supplier relationship?",
+      "context_after": "That seems like a lot of extra work.",
+      "associated_clips": [
+        "C17"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E031",
+      "source_start": 994.730975,
+      "source_end": 1001.090975,
+      "tags": [
+        "inheritance and derived types"
+      ],
+      "transcript_asr": "The current agent does not automatically traverse downward to include every derived instance when you query a broad parent type.",
+      "context_before": "It is. But the most significant operational limitation involves how the AI agent actually queries these hierarchies.",
+      "context_after": "Why does that matter in a real-world query? Walk me through a scenario.",
+      "associated_clips": [
+        "C18"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E032",
+      "source_start": 1005.430975,
+      "source_end": 1010.150975,
+      "tags": [
+        "regional identity/RLS",
+        "explicit illustrative cue"
+      ],
+      "transcript_asr": "Let's say a regional manager is running a diagnostic on everything in their supply chain that might spoil.",
+      "context_before": "Why does that matter in a real-world query? Walk me through a scenario.",
+      "context_after": "They sit down at the chat interface and ask the agent to analyze inventory risk for all product.",
+      "associated_clips": [
+        "C18"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E033",
+      "source_start": 1022.670975,
+      "source_end": 1027.890975,
+      "tags": [
+        "inheritance and derived types"
+      ],
+      "transcript_asr": "and completely fail to roll up the derived frozen product instances into that analysis.",
+      "context_before": "Just general products. Right. Because of this preview limitation, the agent might only query the base product entity",
+      "context_after": "Oh, wow. So the manager thinks they are looking at a comprehensive report, but the AI just silently ignored half a million dollars worth of melting ice cream",
+      "associated_clips": [
+        "C18"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E034",
+      "source_start": 1041.230975,
+      "source_end": 1049.750975,
+      "tags": [
+        "inheritance and derived types"
+      ],
+      "transcript_asr": "Precisely. You have to specifically name the relevant derived type in your prompt. You must say analyze products and frozen products.",
+      "context_before": "because the human didn't specifically say the word frozen.",
+      "context_after": "That's a huge blind spot.",
+      "associated_clips": [
+        "C18"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E035",
+      "source_start": 1173.590975,
+      "source_end": 1178.170975,
+      "tags": [
+        "conflicting customer definitions"
+      ],
+      "transcript_asr": "Well, finance defines a customer as someone who has actively paid an invoice in the last 90 days.",
+      "context_before": "If I use the agent to ingest all three of these models into one master ontology, how does it reconcile the fact that marketing defines a customer as anyone who gave us an email address?",
+      "context_after": "That is exactly where the automated generation process stops and human governance must take over.",
+      "associated_clips": [
+        "C20"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E036",
+      "source_start": 1212.390975,
+      "source_end": 1218.910975,
+      "tags": [
+        "conflicting customer definitions"
+      ],
+      "transcript_asr": "Usually by utilizing namespaces or creating distinct marketing customer and finance customer entities.",
+      "context_before": "A human domain expert still has to sit down, review the proposed entity keys, check the relationships and explicitly decide how to handle that naming collision.",
+      "context_after": "Okay. So the AI gets you 80% of the way there.",
+      "associated_clips": [
+        "C20"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E037",
+      "source_start": 1237.850975,
+      "source_end": 1241.690975,
+      "tags": [
+        "explicit illustrative cue"
+      ],
+      "transcript_asr": "Let's say I've successfully imported my Power BI model into the ontology.",
+      "context_before": "I want to push back on the architecture here regarding those DAX calculations.",
+      "context_after": "Okay.",
+      "associated_clips": [],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E038",
+      "source_start": 1246.510975,
+      "source_end": 1253.730975,
+      "tags": [
+        "DAX source-measure change"
+      ],
+      "transcript_asr": "Six months from now, the CFO issues a directive to change how net profit is calculated across the entire global enterprise.",
+      "context_before": "I have a metric living in the ontology called net profit.",
+      "context_after": "Happens all the time.",
+      "associated_clips": [],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E039",
+      "source_start": 1291.750975,
+      "source_end": 1296.650975,
+      "tags": [
+        "DAX source-measure change"
+      ],
+      "transcript_asr": "If the CFO changes the definition of profit, your data engineers edit the DAX expression",
+      "context_before": "Right.",
+      "context_after": "in the Power BI semantic model just as they always have.",
+      "associated_clips": [
+        "C21"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E040",
+      "source_start": 1304.430975,
+      "source_end": 1311.430975,
+      "tags": [
+        "DAX source-measure change"
+      ],
+      "transcript_asr": "so the AI agents understand what that metric represents and when to use it without ever altering or copying the source math.",
+      "context_before": "The ontology's role is simply to provide a natural language description and contextual metadata",
+      "context_after": "That feels incredibly safe from a governance perspective, but what about visibility?",
+      "associated_clips": [
+        "C21"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E041",
+      "source_start": 1369.550975,
+      "source_end": 1374.670975,
+      "tags": [
+        "priority-store definitions"
+      ],
+      "transcript_asr": "A relational database might have a column named priority level, filled with the numbers one, two, and three.",
+      "context_before": "No, they really can't.",
+      "context_after": "The schema knows it's an integer.",
+      "associated_clips": [
+        "C23"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E042",
+      "source_start": 1419.910975,
+      "source_end": 1426.9909750000002,
+      "tags": [
+        "priority-store definitions"
+      ],
+      "transcript_asr": "Well, in our retail operation scenario, this means explicitly writing out the definition of what constitutes a priority store.",
+      "context_before": "Give me some real world examples of that.",
+      "context_after": "Is it based on square footage, total revenue, proximity to a distribution center? You have to define it.",
+      "associated_clips": [
+        "C23"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E043",
+      "source_start": 1427.4909750000002,
+      "source_end": 1432.610975,
+      "tags": [
+        "priority-store definitions"
+      ],
+      "transcript_asr": "Is it based on square footage, total revenue, proximity to a distribution center? You have to define it.",
+      "context_before": "Well, in our retail operation scenario, this means explicitly writing out the definition of what constitutes a priority store.",
+      "context_after": "Right, because priority is totally subjective until you define it.",
+      "associated_clips": [
+        "C23"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E044",
+      "source_start": 1437.3509749999998,
+      "source_end": 1444.8109749999999,
+      "tags": [
+        "raw temperature and unit context"
+      ],
+      "transcript_asr": "It involves clarifying units of measurement, explicitly stating that the temperature readings and the telemetry database are recorded in Celsius, not Fahrenheit.",
+      "context_before": "Exactly.",
+      "context_after": "That's about documenting the difference between your internal company product ID and the vendor's external catalog code.",
+      "associated_clips": [],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E045",
+      "source_start": 1451.9909750000002,
+      "source_end": 1456.770975,
+      "tags": [
+        "raw temperature and unit context"
+      ],
+      "transcript_asr": "Because if the AI assumes the temperature is Fahrenheit, but the freezer is actually reporting in Celsius.",
+      "context_before": "That's about documenting the difference between your internal company product ID and the vendor's external catalog code.",
+      "context_after": "Well, a freezer reporting a steady 10 degrees Celsius is 50 degrees Fahrenheit.",
+      "associated_clips": [
+        "C24"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E046",
+      "source_start": 1457.210975,
+      "source_end": 1461.650975,
+      "tags": [
+        "raw temperature and unit context"
+      ],
+      "transcript_asr": "Well, a freezer reporting a steady 10 degrees Celsius is 50 degrees Fahrenheit.",
+      "context_before": "Because if the AI assumes the temperature is Fahrenheit, but the freezer is actually reporting in Celsius.",
+      "context_after": "Oh boy.",
+      "associated_clips": [
+        "C24"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E047",
+      "source_start": 1465.590975,
+      "source_end": 1472.3309749999999,
+      "tags": [
+        "raw temperature and unit context"
+      ],
+      "transcript_asr": "But the AI, if left to assume Fahrenheit by default, might look at the number 10, think, oh, that is well below freezing",
+      "context_before": "Your entire inventory of frozen goods is currently liquid.",
+      "context_after": "and report back that everything is perfectly fine.",
+      "associated_clips": [
+        "C24"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E048",
+      "source_start": 1490.8109749999999,
+      "source_end": 1494.090975,
+      "tags": [
+        "entity synonyms"
+      ],
+      "transcript_asr": "You can also define extensive lists of synonyms for entity types.",
+      "context_before": "The interface allows you to provide rich natural language descriptions for every property and relationship.",
+      "context_after": "Why synonyms?",
+      "associated_clips": [
+        "C25"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E049",
+      "source_start": 1494.750975,
+      "source_end": 1495.3309749999999,
+      "tags": [
+        "entity synonyms"
+      ],
+      "transcript_asr": "Why synonyms?",
+      "context_before": "You can also define extensive lists of synonyms for entity types.",
+      "context_after": "If corporate formally calls it a retail location, but the region",
+      "associated_clips": [
+        "C25"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E050",
+      "source_start": 1495.3309749999999,
+      "source_end": 1499.950975,
+      "tags": [
+        "entity synonyms"
+      ],
+      "transcript_asr": "If corporate formally calls it a retail location, but the region",
+      "context_before": "Why synonyms?",
+      "context_after": "General managers always ask the chat about the shops. You define shop as a synonym so the AI knows they mean the exact same entity. Oh, that's smart. Does the AI help with this part at all? The built-in ontology agent can assist here. It can inspect supported workspace sources, look at the column names, sample a few rows of actual data, and propose a draft model with descriptions. You can even upload an existing corporate data dictionary as grounding context for the agent. But again, a human has to check it.",
+      "associated_clips": [
+        "C25"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E051",
+      "source_start": 1500.10195,
+      "source_end": 1529.18195,
+      "tags": [
+        "entity synonyms"
+      ],
+      "transcript_asr": "General managers always ask the chat about the shops. You define shop as a synonym so the AI knows they mean the exact same entity. Oh, that's smart. Does the AI help with this part at all? The built-in ontology agent can assist here. It can inspect supported workspace sources, look at the column names, sample a few rows of actual data, and propose a draft model with descriptions. You can even upload an existing corporate data dictionary as grounding context for the agent. But again, a human has to check it.",
+      "context_before": "If corporate formally calls it a retail location, but the region",
+      "context_after": "A human domain expert must meticulously review those proposals. And what about things that are more complex than just a definition or a synonym? What about conditional logic? Let's walk through how our October 2026 source document illustrates the creation of a complex business rule. They use the concept of inventory risk, which we debated earlier. In the ontology interface, you can document inventory risk as a specific multivariable condition. You write out that risk occurs when a product's position is",
+      "associated_clips": [
+        "C25",
+        "C26"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E052",
+      "source_start": 1529.18195,
+      "source_end": 1559.16195,
+      "tags": [
+        "entity synonyms"
+      ],
+      "transcript_asr": "A human domain expert must meticulously review those proposals. And what about things that are more complex than just a definition or a synonym? What about conditional logic? Let's walk through how our October 2026 source document illustrates the creation of a complex business rule. They use the concept of inventory risk, which we debated earlier. In the ontology interface, you can document inventory risk as a specific multivariable condition. You write out that risk occurs when a product's position is",
+      "context_before": "General managers always ask the chat about the shops. You define shop as a synonym so the AI knows they mean the exact same entity. Oh, that's smart. Does the AI help with this part at all? The built-in ontology agent can assist here. It can inspect supported workspace sources, look at the column names, sample a few rows of actual data, and propose a draft model with descriptions. You can even upload an existing corporate data dictionary as grounding context for the agent. But again, a human has to check it.",
+      "context_after": "expected to fall below its required historical buffer before the next scheduled replenishment arrives. Okay, so you type out that logic in natural language. Then what happens? Does the AI just magically know how to execute that? No, writing it is just the first step. Then you explicitly mathematically link that written rule to both the store entity and the inventory entity in your model. What is linking it actually do? By forging that link, you make the rule discoverable to any downstream AI.",
+      "associated_clips": [
+        "C26",
+        "C27"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E053",
+      "source_start": 1727.26195,
+      "source_end": 1731.60195,
+      "tags": [
+        "large-query billing illustration"
+      ],
+      "transcript_asr": "data from those three sources, pull it into some massive new temporary database and run the query",
+      "context_before": "math and the semantic model. That's a huge request. Right. Does the system extract all that",
+      "context_after": "there? No. And understanding this is profound for anyone evaluating the cost and performance of",
+      "associated_clips": [
+        "C30"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E054",
+      "source_start": 1846.36195,
+      "source_end": 1851.82195,
+      "tags": [
+        "source freshness and filtering"
+      ],
+      "transcript_asr": "to refresh. So if your job fails, if your scheduled refresh failed overnight, your data is 24 hours",
+      "context_before": "those sales figures are only as fresh as the last time that specific Power BI model was scheduled",
+      "context_after": "out of date. So a non technical executive might look at the chat window. See an answer that looks",
+      "associated_clips": [
+        "C31"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E055",
+      "source_start": 1878.32195,
+      "source_end": 1883.64195,
+      "tags": [
+        "source freshness and filtering"
+      ],
+      "transcript_asr": "rigorously check the source ingestion timestamps and verify the reporting periods. The AI will",
+      "context_before": "blindly trust the conversational output in the chat interface. You or your engineering team must",
+      "context_after": "confidently synthesize whatever you give it. It is up to the architecture to ensure the data",
+      "associated_clips": [
+        "C31"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E056",
+      "source_start": 2014.30195,
+      "source_end": 2018.40195,
+      "tags": [
+        "explicit illustrative cue"
+      ],
+      "transcript_asr": "Always. Let's say I'm an engineer. I do my checks in plan mode. Everything looks great.",
+      "context_before": "But let's be real about enterprise software deployment. Human error is inevitable.",
+      "context_after": "I switched to act mode, apply my changes and instantly catastrophically break the revenue",
+      "associated_clips": [],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E057",
+      "source_start": 2029.56195,
+      "source_end": 2035.24195,
+      "tags": [
+        "version and rollback illustration"
+      ],
+      "transcript_asr": "It happens. The source material highlights a feature called version history. In theory,",
+      "context_before": "reporting structure for the entire global sales team, because I mapped a relationship backward.",
+      "context_after": "this sounds like the ultimate enterprise undo button. Does it work like that?",
+      "associated_clips": [],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E058",
+      "source_start": 2048.50195,
+      "source_end": 2054.08195,
+      "tags": [
+        "version and rollback illustration"
+      ],
+      "transcript_asr": "a named saved version of your current ontology state. Version history allows you to restore",
+      "context_before": "Blunt how? Before you make any meaningful change to your production model, you create",
+      "context_after": "that saved definition if things go sideways. So it's not a surgical rollback where I just",
+      "associated_clips": [
+        "C33"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E059",
+      "source_start": 2054.08195,
+      "source_end": 2058.86195,
+      "tags": [
+        "version and rollback illustration"
+      ],
+      "transcript_asr": "that saved definition if things go sideways. So it's not a surgical rollback where I just",
+      "context_before": "a named saved version of your current ontology state. Version history allows you to restore",
+      "context_after": "undo the last five minutes of work. No. And that's a crucial limitation to understand.",
+      "associated_clips": [
+        "C33"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E060",
+      "source_start": 2058.86195,
+      "source_end": 2062.70195,
+      "tags": [
+        "trigger/monitoring example"
+      ],
+      "transcript_asr": "undo the last five minutes of work. No. And that's a crucial limitation to understand.",
+      "context_before": "that saved definition if things go sideways. So it's not a surgical rollback where I just",
+      "context_after": "A restore replaces the definition as a whole. Wow. It overwrites everything currently in the system",
+      "associated_clips": [
+        "C33"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E061",
+      "source_start": 2154.32195,
+      "source_end": 2159.92195,
+      "tags": [
+        "inheritance and derived types",
+        "regional identity/RLS"
+      ],
+      "transcript_asr": "stores in the West region for frozen product inventory risk, include recent refrigeration",
+      "context_before": "illustrates the complexity we've been talking about. Go for it. The prompt is review priority",
+      "context_after": "exceptions, shelf availability, and the next expected inbound delivery. It's a short, highly",
+      "associated_clips": [
+        "C34"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E062",
+      "source_start": 2176.48195,
+      "source_end": 2182.20195,
+      "tags": [
+        "priority-store definitions"
+      ],
+      "transcript_asr": "to answer that single prompt. Let's do it. First, the AI has to find priority stores,",
+      "context_before": "analytical request. Let's break down exactly what the underlying architecture has to execute",
+      "context_after": "right, which isn't just a basic store list. Exactly. That requires it to access the metadata",
+      "associated_clips": [],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E063",
+      "source_start": 2192.30195,
+      "source_end": 2198.36195,
+      "tags": [
+        "inheritance and derived types",
+        "regional identity/RLS"
+      ],
+      "transcript_asr": "for the West region. Then it needs to identify frozen product. Remember our earlier discussion",
+      "context_before": "definitions we added earlier to filter out normal stores, and then it has to filter that subset",
+      "context_after": "about the strict limitations of inheritance in this preview. Yeah, the system has to know",
+      "associated_clips": [],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E064",
+      "source_start": 2203.54195,
+      "source_end": 2209.70195,
+      "tags": [
+        "inheritance and derived types"
+      ],
+      "transcript_asr": "to explicitly query the derived frozen product entity type, not just the general based product catalog.",
+      "context_before": "about the strict limitations of inheritance in this preview. Yeah, the system has to know",
+      "context_after": "Next, it has to assess inventory risk. This triggers the complex business rule we linked.",
+      "associated_clips": [],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E065",
+      "source_start": 2220.32195,
+      "source_end": 2224.60195,
+      "tags": [
+        "inventory-risk competing definitions"
+      ],
+      "transcript_asr": "calculate the historical sales velocity, and compare it against a safety buffer.",
+      "context_before": "Right. I can't just look at physical stock. It has to pull current physical counts from a lake house,",
+      "context_after": "Then it has to find recent refrigeration exceptions. This means it has to transition from batch",
+      "associated_clips": [],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E066",
+      "source_start": 2240.54195,
+      "source_end": 2245.98195,
+      "tags": [
+        "priority-store definitions"
+      ],
+      "transcript_asr": "operated by the specific priority stores that identified in step one. And finally, it has to",
+      "context_before": "specifically temperature spikes that are mathematically associated with the exact equipment",
+      "context_after": "cross reference all of that aggregated risk with the next expected image.",
+      "associated_clips": [],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E067",
+      "source_start": 2250.129705,
+      "source_end": 2279.549705,
+      "tags": [
+        "shipment date ambiguity"
+      ],
+      "transcript_asr": "It has to hit the shipment logs, ensuring it picks the correct revised delivery date field based on the semantic definitions we established, not just the original order date. To answer that one simple paragraph. The system is dynamically connecting operational reference data, complex product hierarchies, physical inventory logs, streaming IoT telemetry, and predictive delivery schedules. It formulates the SQL, KQL, and DAX, pushes those queries down to the respective compute engine simultaneously.",
+      "context_before": "cross reference all of that aggregated risk with the next expected image.",
+      "context_after": "Pulls the disparate results back and synthesizes a coherent human readable answer. That is an incredibly impressive feat of orchestration. But, as the expert in the script points out, this is exactly the moment where a business can get into massive trouble if they just clap their hands and trust the magic box. This is arguably the most dangerous moment in enterprise AI adoption. Why? Because the system gives you a beautifully worded, highly confident answer.",
+      "associated_clips": [],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E068",
+      "source_start": 2339.449705,
+      "source_end": 2368.7897049999997,
+      "tags": [
+        "natural language retail operations prompt",
+        "explicit illustrative cue"
+      ],
+      "transcript_asr": "if there was a gap in the source data, let's say a store's freezer sensor lost power and went completely offline, so there's zero telemetry for the last six hours. The agent must make that gap explicitly visible to the operator. It can't just smooth it over. It cannot just silently ignore that store, and it certainly cannot invent a temperature value to make the table look neat. The answer must be something a human can rigorously mathematically check. Which forces us to look closely at how we audit these systems. How do you actually validate the output it just generated?",
+      "context_before": "The wording matters, yes. But, the underlying interpretation of the data matters infinitely more. The operator still has to check the receipts. They have to audit the machine's logic. Precisely. The human operator must aggressively verify if the agent actually used the approved business definitions. Did it apply the correct mathematical inventory risk role, or did it hallucinate a simpler one? Did it even check the right databases? Did it push the queries down to the intended authoritative sources? And crucially, it's",
+      "context_after": "In the source demo, the expert demonstrates the best practice. Explicitly asking the agent to show its work. Like in math class. Exactly. They prompt the agent to use the governed revenue metric located in the sales report semantic model. Summarize it by store for a specific time period. Explicitly identify the source measure it used and actually display the underlying query code it executed. So you force the chat interface to show you the exact DAX or SQL code it wrote.",
+      "associated_clips": [
+        "C35",
+        "C36"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E069",
+      "source_start": 2398.3897049999996,
+      "source_end": 2428.369705,
+      "tags": [
+        "source freshness and filtering"
+      ],
+      "transcript_asr": "Yes. This gives the operator a tangible mathematical calculation. The operator can then take that DAX code and compare it against their traditional legacy power BI dashboard using the exact same filters. And if they match. If the numbers match perfectly, you have successfully verified the semantic link. You also have to train your operators to check the boundaries of the result. What do you mean by boundaries? The agent's chat interface might only display a bounded set of results, say a table of the top 10 rows. A returned table in a chat window.",
+      "context_before": "In the source demo, the expert demonstrates the best practice. Explicitly asking the agent to show its work. Like in math class. Exactly. They prompt the agent to use the governed revenue metric located in the sales report semantic model. Summarize it by store for a specific time period. Explicitly identify the source measure it used and actually display the underlying query code it executed. So you force the chat interface to show you the exact DAX or SQL code it wrote.",
+      "context_after": "The window is not automatically a complete export of every matching record in the database. That's a great point about data truncation. But let's talk about a major vulnerability. Security. Oh, this is huge. The system just successfully executed this massive multi database query that touched inventory, sales and supply chain data in a highly regulated corporate environment. Who's actually allowed to see that answer? This raises a vital question about how permissions and row level security operate in this new paradigm. Right.",
+      "associated_clips": [
+        "C36",
+        "C37"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E070",
+      "source_start": 2428.3897049999996,
+      "source_end": 2457.169705,
+      "tags": [
+        "regional identity/RLS",
+        "large-query billing illustration"
+      ],
+      "transcript_asr": "The window is not automatically a complete export of every matching record in the database. That's a great point about data truncation. But let's talk about a major vulnerability. Security. Oh, this is huge. The system just successfully executed this massive multi database query that touched inventory, sales and supply chain data in a highly regulated corporate environment. Who's actually allowed to see that answer? This raises a vital question about how permissions and row level security operate in this new paradigm. Right.",
+      "context_before": "Yes. This gives the operator a tangible mathematical calculation. The operator can then take that DAX code and compare it against their traditional legacy power BI dashboard using the exact same filters. And if they match. If the numbers match perfectly, you have successfully verified the semantic link. You also have to train your operators to check the boundaries of the result. What do you mean by boundaries? The agent's chat interface might only display a bounded set of results, say a table of the top 10 rows. A returned table in a chat window.",
+      "context_after": "The built in ontology agent does not operate with some omnipotent master key. It uses the signed in users specific identity. It operates strictly within the boundaries of that user's existing preconfigured access rights to the underlying source databases.",
+      "associated_clips": [
+        "C37",
+        "C38"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E071",
+      "source_start": 2472.689705,
+      "source_end": 2484.069705,
+      "tags": [
+        "explicit illustrative cue"
+      ],
+      "transcript_asr": "Okay, let's play this out. Let's say I am the lead data engineer. I built this ontology. So I have administrative access to everything. Okay. I ask it about revenue and inventory across the entire global company.",
+      "context_before": "The built in ontology agent does not operate with some omnipotent master key. It uses the signed in users specific identity. It operates strictly within the boundaries of that user's existing preconfigured access rights to the underlying source databases.",
+      "context_after": "And it gives me a comprehensive answer. Now, I share that exact same fabric ontology file with a regional manager who only handles the West Coast.",
+      "associated_clips": [
+        "C39"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E072",
+      "source_start": 2484.069705,
+      "source_end": 2492.969705,
+      "tags": [
+        "regional identity/RLS"
+      ],
+      "transcript_asr": "And it gives me a comprehensive answer. Now, I share that exact same fabric ontology file with a regional manager who only handles the West Coast.",
+      "context_before": "Okay, let's play this out. Let's say I am the lead data engineer. I built this ontology. So I have administrative access to everything. Okay. I ask it about revenue and inventory across the entire global company.",
+      "context_after": "If the West Coast regional manager logs in and asks the exact same verbatim question, show me all global revenue and inventory risk, the agent will only return data for the West Coast.",
+      "associated_clips": [
+        "C39"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E073",
+      "source_start": 2493.3897049999996,
+      "source_end": 2511.489705,
+      "tags": [
+        "regional identity/RLS"
+      ],
+      "transcript_asr": "If the West Coast regional manager logs in and asks the exact same verbatim question, show me all global revenue and inventory risk, the agent will only return data for the West Coast.",
+      "context_before": "And it gives me a comprehensive answer. Now, I share that exact same fabric ontology file with a regional manager who only handles the West Coast.",
+      "context_after": "The database recognizes the manager's identity and enforces row level security, blocking access to the East Coast data.",
+      "associated_clips": [
+        "C39"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E074",
+      "source_start": 2511.489705,
+      "source_end": 2518.609705,
+      "tags": [
+        "regional identity/RLS"
+      ],
+      "transcript_asr": "The database recognizes the manager's identity and enforces row level security, blocking access to the East Coast data.",
+      "context_before": "If the West Coast regional manager logs in and asks the exact same verbatim question, show me all global revenue and inventory risk, the agent will only return data for the West Coast.",
+      "context_after": "That is so smart.",
+      "associated_clips": [
+        "C39"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E075",
+      "source_start": 2536.149705,
+      "source_end": 2543.529705,
+      "tags": [
+        "regional identity/RLS"
+      ],
+      "transcript_asr": "Exactly. You have to validate the entire workflow using actual end user test identities, not just the developer's God Mode account.",
+      "context_before": "So an engineer successfully querying a source during testing does not guarantee that an end user will see the same results.",
+      "context_after": "That is a massive relief for IT compliance teams. Now, what about looking into the future? We know how the system assesses risk today based on physical counts.",
+      "associated_clips": [
+        "C39"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E076",
+      "source_start": 2565.449705,
+      "source_end": 2569.629705,
+      "tags": [
+        "forecast decision and uncertainty"
+      ],
+      "transcript_asr": "Forecasting is treated as a separate, highly rigorous analytical discipline.",
+      "context_before": "The source material draws a very sharp, deliberate line here regarding predictive analytics.",
+      "context_after": "It's not just a chat function.",
+      "associated_clips": [
+        "C40"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E077",
+      "source_start": 2579.869705,
+      "source_end": 2583.2897049999997,
+      "tags": [
+        "forecast decision and uncertainty"
+      ],
+      "transcript_asr": "Forecasting is explicitly handled via fabric data science.",
+      "context_before": "You don't just ask the generative AI chat agent to guess what sales will look like next week based on vibes or its training data.",
+      "context_after": "So we are talking about actual machine learning engineers, building notebooks, running experiments, and scoring dedicated models.",
+      "associated_clips": [
+        "C40"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E078",
+      "source_start": 2602.149705,
+      "source_end": 2612.369705,
+      "tags": [
+        "forecast decision and uncertainty"
+      ],
+      "transcript_asr": "They prepare the predictions in that specialized workflow, write the results back to a dataverse, and then the ontology can expose those pre-calculated predictive results to the business review.",
+      "context_before": "Very structured.",
+      "context_after": "But the expert in the script gives a very specific, almost ethical warning about how to present those machine learning forecasts to a human operator.",
+      "associated_clips": [],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E079",
+      "source_start": 2612.369705,
+      "source_end": 2620.7297049999997,
+      "tags": [
+        "forecast decision and uncertainty"
+      ],
+      "transcript_asr": "But the expert in the script gives a very specific, almost ethical warning about how to present those machine learning forecasts to a human operator.",
+      "context_before": "They prepare the predictions in that specialized workflow, write the results back to a dataverse, and then the ontology can expose those pre-calculated predictive results to the business review.",
+      "context_after": "They emphasize that before you ever display the output of a predictive model in a business review, you must explicitly evaluate and display the historical statistical uncertainty of that model.",
+      "associated_clips": [],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E080",
+      "source_start": 2634.129705,
+      "source_end": 2641.949705,
+      "tags": [
+        "forecast decision and uncertainty"
+      ],
+      "transcript_asr": "You have to show the operator the model's past accuracy. Have these forecasts historically suffered from model drift? Is there bias in the legacy data?",
+      "context_before": "So you have to show its track record.",
+      "context_after": "You must give the human operator the statistical basis for deciding whether they should actually trust this prediction enough to route a $100,000 delivery truck based on it.",
+      "associated_clips": [
+        "C41"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E081",
+      "source_start": 2641.949705,
+      "source_end": 2650.7497049999997,
+      "tags": [
+        "forecast decision and uncertainty"
+      ],
+      "transcript_asr": "You must give the human operator the statistical basis for deciding whether they should actually trust this prediction enough to route a $100,000 delivery truck based on it.",
+      "context_before": "You have to show the operator the model's past accuracy. Have these forecasts historically suffered from model drift? Is there bias in the legacy data?",
+      "context_after": "You never present a probabilistic forecast as a deterministic fact.",
+      "associated_clips": [
+        "C41"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E082",
+      "source_start": 2651.149705,
+      "source_end": 2654.7697049999997,
+      "tags": [
+        "forecast decision and uncertainty"
+      ],
+      "transcript_asr": "You never present a probabilistic forecast as a deterministic fact.",
+      "context_before": "You must give the human operator the statistical basis for deciding whether they should actually trust this prediction enough to route a $100,000 delivery truck based on it.",
+      "context_after": "Trust, but verify always.",
+      "associated_clips": [
+        "C41"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E083",
+      "source_start": 2705.489705,
+      "source_end": 2712.2297049999997,
+      "tags": [
+        "ingredients versus recipe",
+        "supplier recall path",
+        "explicit illustrative cue"
+      ],
+      "transcript_asr": "Let's say a specific agricultural supplier calls you in a panic and informs you that a massive batch of raw ingredients was contaminated.",
+      "context_before": "Give me a real-world scenario where standard SQL fails, but a graph succeeds.",
+      "context_after": "Ooh, a recall situation.",
+      "associated_clips": [
+        "C42"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E084",
+      "source_start": 2712.2297049999997,
+      "source_end": 2713.3097049999997,
+      "tags": [
+        "supplier recall path"
+      ],
+      "transcript_asr": "Ooh, a recall situation.",
+      "context_before": "Let's say a specific agricultural supplier calls you in a panic and informs you that a massive batch of raw ingredients was contaminated.",
+      "context_after": "Right. You need to instantly trace that supplier's exposure through your entire global supply chain.",
+      "associated_clips": [
+        "C42"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E085",
+      "source_start": 2926.8497049999996,
+      "source_end": 2933.8897049999996,
+      "tags": [
+        "regional identity/RLS"
+      ],
+      "transcript_asr": "It provides the conversational analytics experience where a regional manager might sit down and ask everyday business questions about the data,",
+      "context_before": "The fabric data agent is designed for the end user.",
+      "context_after": "utilizing the logic defined by the ontology.",
+      "associated_clips": [
+        "C45"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E086",
+      "source_start": 2951.049705,
+      "source_end": 2955.3497049999996,
+      "tags": [
+        "explicit illustrative cue"
+      ],
+      "transcript_asr": "For example, it continuously watches the KQL data streams.",
+      "context_before": "Like a silent alarm.",
+      "context_after": "And when a specific logical condition is met, like a temperature drop combined with high inventory risk,",
+      "associated_clips": [],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E087",
+      "source_start": 3000.18068,
+      "source_end": 3029.74068,
+      "tags": [
+        "DAX source-measure change"
+      ],
+      "transcript_asr": "DAX Math. The external data in operations agents might completely fail to process it. Why? Because the operations agent is built to constantly monitor raw streaming telemetry. Like a heartbeat monitor checking for a spike. It simply doesn't know how to trigger the complex batch processing math engines required to calculate a DAX measure on the fly every five seconds. This is why the source script explicitly advises keeping combined analysis. The kind that mixes raw Lakehouse data with complex Power BI revenue calculations.",
+      "context_before": "So if my ontology relies heavily on Power BI.",
+      "context_after": "Strictly inside the built-in ontology developer agent for now. Because that's the only environment where it currently works seamlessly. And there's also a highly technical note in the documentation about something called MCP. MCP stands for Model Context Protocol. Fabric provides an API endpoint so enterprise developers can connect their own compatible external AI clients or custom applications to the ontology. So it's useful. However, the current guidance notes a severe limitation. Service principal access is currently unavailable.",
+      "associated_clips": [],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E088",
+      "source_start": 3144.22068,
+      "source_end": 3148.8806799999998,
+      "tags": [
+        "trigger/monitoring example"
+      ],
+      "transcript_asr": "Got it. Furthermore, the operational agent operates on a fixed five minute cycle.",
+      "context_before": "aggregated revenue is over $10,000. In the current preview, stringing complex, multi-variable logic like that into a passive monitor is highly problematic and likely to fail. You have to keep the monitoring conditions very simple and isolated.",
+      "context_after": "It is not sub-second real time. It only checks the condition every five minutes. If a freezer fails at minute one, you won't get the alert until minute five.",
+      "associated_clips": [
+        "C47"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E089",
+      "source_start": 3148.8806799999998,
+      "source_end": 3157.36068,
+      "tags": [
+        "trigger/monitoring example"
+      ],
+      "transcript_asr": "It is not sub-second real time. It only checks the condition every five minutes. If a freezer fails at minute one, you won't get the alert until minute five.",
+      "context_before": "Got it. Furthermore, the operational agent operates on a fixed five minute cycle.",
+      "context_after": "What about activator? Fabric has a dedicated tool called data activator specifically for triggering actions based on data changes. If I write a natural language business rule in my ontology interface, does that automatically provision an activator alert in the background?",
+      "associated_clips": [
+        "C47"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E090",
+      "source_start": 3157.9406799999997,
+      "source_end": 3173.3806799999998,
+      "tags": [
+        "trigger/monitoring example"
+      ],
+      "transcript_asr": "What about activator? Fabric has a dedicated tool called data activator specifically for triggering actions based on data changes. If I write a natural language business rule in my ontology interface, does that automatically provision an activator alert in the background?",
+      "context_before": "It is not sub-second real time. It only checks the condition every five minutes. If a freezer fails at minute one, you won't get the alert until minute five.",
+      "context_after": "No, it absolutely does not. And that's a massive point of confusion for new users. Saving a natural language rule in the ontology provides semantic context for the chat agents. It does not automatically write the code to provision an active running workflow in data activator.",
+      "associated_clips": [
+        "C48"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E091",
+      "source_start": 3174.14068,
+      "source_end": 3189.36068,
+      "tags": [
+        "trigger/monitoring example"
+      ],
+      "transcript_asr": "No, it absolutely does not. And that's a massive point of confusion for new users. Saving a natural language rule in the ontology provides semantic context for the chat agents. It does not automatically write the code to provision an active running workflow in data activator.",
+      "context_before": "What about activator? Fabric has a dedicated tool called data activator specifically for triggering actions based on data changes. If I write a natural language business rule in my ontology interface, does that automatically provision an activator alert in the background?",
+      "context_after": "So they are separate steps. If you want an alert to actually fire, a data engineer has to go into activator and configure that automation separately against the supported data path.",
+      "associated_clips": [
+        "C48"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E092",
+      "source_start": 3189.76068,
+      "source_end": 3199.26068,
+      "tags": [
+        "trigger/monitoring example"
+      ],
+      "transcript_asr": "So they are separate steps. If you want an alert to actually fire, a data engineer has to go into activator and configure that automation separately against the supported data path.",
+      "context_before": "No, it absolutely does not. And that's a massive point of confusion for new users. Saving a natural language rule in the ontology provides semantic context for the chat agents. It does not automatically write the code to provision an active running workflow in data activator.",
+      "context_after": "Okay, we are moving toward the final stages of the workflow. We've done the deep analysis. We found the melting ice cream. We checked the DAX code. We verified the permissions. Now we have to actually tell leadership.",
+      "associated_clips": [
+        "C48"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E093",
+      "source_start": 3270.9006799999997,
+      "source_end": 3274.98068,
+      "tags": [
+        "ingredients versus recipe"
+      ],
+      "transcript_asr": "Oh, that is a recipe for disaster in a boardroom. It is extremely dangerous.",
+      "context_before": "Okay. Second, and much more dangerously, when it generates a data answer in the text, it does not currently include report citations in its output.",
+      "context_after": "When the AI drafts a beautifully formatted summary and boldly states revenue was up 15% in the West region, it does not provide a footnote or hyperlink showing exactly which table or metric it used to calculate that 15%.",
+      "associated_clips": [
+        "C50"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E094",
+      "source_start": 3274.98068,
+      "source_end": 3288.54068,
+      "tags": [
+        "regional identity/RLS",
+        "report-grounded draft verification"
+      ],
+      "transcript_asr": "When the AI drafts a beautifully formatted summary and boldly states revenue was up 15% in the West region, it does not provide a footnote or hyperlink showing exactly which table or metric it used to calculate that 15%.",
+      "context_before": "Oh, that is a recipe for disaster in a boardroom. It is extremely dangerous.",
+      "context_after": "So it could just be making it up. Therefore, the source script is adamant.",
+      "associated_clips": [
+        "C50"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E095",
+      "source_start": 3328.18068,
+      "source_end": 3335.36068,
+      "tags": [
+        "source freshness and filtering"
+      ],
+      "transcript_asr": "If you refresh the page, close the browser tab or hit the 24-hour mark, that entire conversational history is permanently gone.",
+      "context_before": "Wait, really?",
+      "context_after": "So under no circumstances should a team use the chat window as their permanent knowledge repository or decision log?",
+      "associated_clips": [
+        "C51"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E096",
+      "source_start": 3563.24068,
+      "source_end": 3566.60068,
+      "tags": [
+        "explicit illustrative cue"
+      ],
+      "transcript_asr": "Imagine you have a non-technical manager who asks the chat interface",
+      "context_before": "Walk me through how that traps springs.",
+      "context_after": "a slightly vague, massive question about five years of historical inventory across the entire",
+      "associated_clips": [
+        "C55"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E097",
+      "source_start": 3599.66068,
+      "source_end": 3603.36068,
+      "tags": [
+        "large-query billing illustration"
+      ],
+      "transcript_asr": "to monitor this underlying compute consumption closely during any pilot program.",
+      "context_before": "The source strongly recommends using the fabric capacity metrics app",
+      "context_after": "So if we connect all of this to the bigger picture,",
+      "associated_clips": [
+        "C55"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E098",
+      "source_start": 3706.14068,
+      "source_end": 3708.84068,
+      "tags": [
+        "corporate-merger thought experiment"
+      ],
+      "transcript_asr": "What happens during a major corporate merger?",
+      "context_before": "perfectly maps a company's internal reality and its unique business logic.",
+      "context_after": "Oh, wow.",
+      "associated_clips": [
+        "C57"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E099",
+      "source_start": 3710.30068,
+      "source_end": 3712.52068,
+      "tags": [
+        "corporate-merger thought experiment"
+      ],
+      "transcript_asr": "When two massive global companies combine,",
+      "context_before": "Oh, wow.",
+      "context_after": "is the future of M&A less about merging finances,",
+      "associated_clips": [
+        "C57"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E100",
+      "source_start": 3713.74068,
+      "source_end": 3716.22068,
+      "tags": [
+        "corporate-merger thought experiment"
+      ],
+      "transcript_asr": "is the future of M&A less about merging finances,",
+      "context_before": "When two massive global companies combine,",
+      "context_after": "and entirely about whether their respective AI ontologies",
+      "associated_clips": [
+        "C57"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E101",
+      "source_start": 3724.32068,
+      "source_end": 3728.18068,
+      "tags": [
+        "corporate-merger thought experiment"
+      ],
+      "transcript_asr": "If company A's ontology defines risk or revenue in a way that",
+      "context_before": "can successfully negotiate a shared reality?",
+      "context_after": "fundamentally clashes with company B's ontology at a mathematical level,",
+      "associated_clips": [
+        "C57"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E102",
+      "source_start": 3728.18068,
+      "source_end": 3731.74068,
+      "tags": [
+        "corporate-merger thought experiment"
+      ],
+      "transcript_asr": "fundamentally clashes with company B's ontology at a mathematical level,",
+      "context_before": "If company A's ontology defines risk or revenue in a way that",
+      "context_after": "can the merger ever truly succeed without completely rewriting",
+      "associated_clips": [
+        "C57"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    },
+    {
+      "id": "E103",
+      "source_start": 3732.28068,
+      "source_end": 3736.12068,
+      "tags": [
+        "corporate-merger thought experiment"
+      ],
+      "transcript_asr": "can the merger ever truly succeed without completely rewriting",
+      "context_before": "fundamentally clashes with company B's ontology at a mathematical level,",
+      "context_after": "the central nervous system of one of the companies?",
+      "associated_clips": [
+        "C57"
+      ],
+      "evidence_kind": "speaker illustration/claim; not independently demonstrated product behavior",
+      "status": "automatic example-cue index; human classification pending"
+    }
+  ]
+}

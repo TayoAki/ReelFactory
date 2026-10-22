@@ -1,0 +1,1245 @@
+{
+  "id": "C39",
+  "title": "Test with the real end-user role",
+  "source_start": 2474.169705,
+  "source_end": 2543.669705,
+  "duration": 69.5,
+  "part_ranges": [
+    {
+      "part": "part03.m4a",
+      "start": 224.03999999999996,
+      "end": 293.53999999999996
+    }
+  ],
+  "family": "boundary",
+  "left_label": "Author account",
+  "right_label": "Regional manager",
+  "focus_label": "Source access determines results",
+  "example_kind": "hypothetical configured West-region RLS",
+  "words": [
+    {
+      "word": "Let's",
+      "start": 0.10000000000000009,
+      "end": 0.31999999999999984,
+      "probability": 0.9930444359779358
+    },
+    {
+      "word": "say",
+      "start": 0.31999999999999984,
+      "end": 0.43999999999999995,
+      "probability": 0.994642972946167
+    },
+    {
+      "word": "I",
+      "start": 0.43999999999999995,
+      "end": 0.7000000000000002,
+      "probability": 0.940729558467865
+    },
+    {
+      "word": "am",
+      "start": 0.7000000000000002,
+      "end": 0.8599999999999999,
+      "probability": 0.9448198080062866
+    },
+    {
+      "word": "the",
+      "start": 0.8599999999999999,
+      "end": 0.96,
+      "probability": 0.9938125610351562
+    },
+    {
+      "word": "lead",
+      "start": 0.96,
+      "end": 1.1600000000000001,
+      "probability": 0.9861576557159424
+    },
+    {
+      "word": "data",
+      "start": 1.1600000000000001,
+      "end": 1.3599999999999999,
+      "probability": 0.9656288623809814
+    },
+    {
+      "word": "engineer.",
+      "start": 1.3599999999999999,
+      "end": 1.7599999999999998,
+      "probability": 0.9953615069389343
+    },
+    {
+      "word": "I",
+      "start": 2.54,
+      "end": 2.7,
+      "probability": 0.9968302845954895
+    },
+    {
+      "word": "built",
+      "start": 2.7,
+      "end": 2.8600000000000003,
+      "probability": 0.9738901853561401
+    },
+    {
+      "word": "this",
+      "start": 2.8600000000000003,
+      "end": 3.04,
+      "probability": 0.9957273006439209
+    },
+    {
+      "word": "ontology,",
+      "start": 3.04,
+      "end": 3.4800000000000004,
+      "probability": 0.9416294991970062
+    },
+    {
+      "word": "so",
+      "start": 4.12,
+      "end": 4.2,
+      "probability": 0.991916835308075
+    },
+    {
+      "word": "I",
+      "start": 4.2,
+      "end": 4.38,
+      "probability": 0.9979168772697449
+    },
+    {
+      "word": "have",
+      "start": 4.38,
+      "end": 4.52,
+      "probability": 0.9975085258483887
+    },
+    {
+      "word": "administrative",
+      "start": 4.52,
+      "end": 4.86,
+      "probability": 0.9958683252334595
+    },
+    {
+      "word": "access",
+      "start": 4.86,
+      "end": 5.36,
+      "probability": 0.99832683801651
+    },
+    {
+      "word": "to",
+      "start": 5.36,
+      "end": 5.62,
+      "probability": 0.9967043995857239
+    },
+    {
+      "word": "everything.",
+      "start": 5.62,
+      "end": 5.84,
+      "probability": 0.9976195693016052
+    },
+    {
+      "word": "I",
+      "start": 6.16,
+      "end": 6.26,
+      "probability": 0.2752102315425873
+    },
+    {
+      "word": "ask",
+      "start": 6.26,
+      "end": 7.279999999999999,
+      "probability": 0.7247934341430664
+    },
+    {
+      "word": "it",
+      "start": 7.279999999999999,
+      "end": 7.48,
+      "probability": 0.8796225190162659
+    },
+    {
+      "word": "about",
+      "start": 7.48,
+      "end": 7.619999999999999,
+      "probability": 0.9975180625915527
+    },
+    {
+      "word": "revenue",
+      "start": 7.619999999999999,
+      "end": 7.9399999999999995,
+      "probability": 0.9737911820411682
+    },
+    {
+      "word": "and",
+      "start": 7.9399999999999995,
+      "end": 8.14,
+      "probability": 0.9556465148925781
+    },
+    {
+      "word": "inventory",
+      "start": 8.14,
+      "end": 8.44,
+      "probability": 0.9982820749282837
+    },
+    {
+      "word": "across",
+      "start": 8.44,
+      "end": 8.7,
+      "probability": 0.9897255301475525
+    },
+    {
+      "word": "the",
+      "start": 8.7,
+      "end": 8.92,
+      "probability": 0.9988407492637634
+    },
+    {
+      "word": "entire",
+      "start": 8.92,
+      "end": 9.08,
+      "probability": 0.986883819103241
+    },
+    {
+      "word": "global",
+      "start": 9.08,
+      "end": 9.38,
+      "probability": 0.9886993765830994
+    },
+    {
+      "word": "company,",
+      "start": 9.38,
+      "end": 9.86,
+      "probability": 0.9986869692802429
+    },
+    {
+      "word": "and",
+      "start": 10.42,
+      "end": 10.66,
+      "probability": 0.994953453540802
+    },
+    {
+      "word": "it",
+      "start": 10.66,
+      "end": 10.8,
+      "probability": 0.9923376441001892
+    },
+    {
+      "word": "gives",
+      "start": 10.8,
+      "end": 10.9,
+      "probability": 0.9960393905639648
+    },
+    {
+      "word": "me",
+      "start": 10.9,
+      "end": 11.08,
+      "probability": 0.9988476037979126
+    },
+    {
+      "word": "a",
+      "start": 11.08,
+      "end": 11.18,
+      "probability": 0.9990236759185791
+    },
+    {
+      "word": "comprehensive",
+      "start": 11.18,
+      "end": 11.42,
+      "probability": 0.9993243217468262
+    },
+    {
+      "word": "answer.",
+      "start": 11.42,
+      "end": 12.04,
+      "probability": 0.9970324039459229
+    },
+    {
+      "word": "Now,",
+      "start": 12.36,
+      "end": 12.78,
+      "probability": 0.9213955402374268
+    },
+    {
+      "word": "I",
+      "start": 12.96,
+      "end": 13.08,
+      "probability": 0.9987321496009827
+    },
+    {
+      "word": "share",
+      "start": 13.08,
+      "end": 13.28,
+      "probability": 0.9973238706588745
+    },
+    {
+      "word": "that",
+      "start": 13.28,
+      "end": 13.48,
+      "probability": 0.9953097701072693
+    },
+    {
+      "word": "exact",
+      "start": 13.48,
+      "end": 13.62,
+      "probability": 0.9985641837120056
+    },
+    {
+      "word": "same",
+      "start": 13.62,
+      "end": 14.219999999999999,
+      "probability": 0.9877188205718994
+    },
+    {
+      "word": "Fabric",
+      "start": 14.219999999999999,
+      "end": 14.7,
+      "probability": 0.905608594417572
+    },
+    {
+      "word": "ontology",
+      "start": 14.7,
+      "end": 15.3,
+      "probability": 0.9826472103595734
+    },
+    {
+      "word": "file",
+      "start": 15.3,
+      "end": 15.8,
+      "probability": 0.9845879673957825
+    },
+    {
+      "word": "with",
+      "start": 15.8,
+      "end": 16.52,
+      "probability": 0.9836762547492981
+    },
+    {
+      "word": "a",
+      "start": 16.52,
+      "end": 16.76,
+      "probability": 0.9977551102638245
+    },
+    {
+      "word": "regional",
+      "start": 16.76,
+      "end": 17.04,
+      "probability": 0.9887436628341675
+    },
+    {
+      "word": "manager",
+      "start": 17.04,
+      "end": 17.44,
+      "probability": 0.9972919821739197
+    },
+    {
+      "word": "who",
+      "start": 17.44,
+      "end": 17.8,
+      "probability": 0.9776157736778259
+    },
+    {
+      "word": "only",
+      "start": 17.8,
+      "end": 18.02,
+      "probability": 0.9985857009887695
+    },
+    {
+      "word": "handles",
+      "start": 18.02,
+      "end": 18.3,
+      "probability": 0.9982628226280212
+    },
+    {
+      "word": "the",
+      "start": 18.3,
+      "end": 18.48,
+      "probability": 0.9951800107955933
+    },
+    {
+      "word": "West",
+      "start": 18.48,
+      "end": 18.6,
+      "probability": 0.711650550365448
+    },
+    {
+      "word": "Coast.",
+      "start": 18.6,
+      "end": 18.82,
+      "probability": 0.9186020493507385
+    },
+    {
+      "word": "If",
+      "start": 18.82,
+      "end": 19.54,
+      "probability": 0.4700588285923004
+    },
+    {
+      "word": "the",
+      "start": 19.54,
+      "end": 19.7,
+      "probability": 0.9811874628067017
+    },
+    {
+      "word": "West",
+      "start": 19.7,
+      "end": 19.94,
+      "probability": 0.8922924995422363
+    },
+    {
+      "word": "Coast",
+      "start": 19.96,
+      "end": 20.34,
+      "probability": 0.9941861629486084
+    },
+    {
+      "word": "Regional",
+      "start": 20.34,
+      "end": 20.62,
+      "probability": 0.5811811685562134
+    },
+    {
+      "word": "Manager",
+      "start": 20.62,
+      "end": 21.12,
+      "probability": 0.9616342782974243
+    },
+    {
+      "word": "logs",
+      "start": 21.12,
+      "end": 21.46,
+      "probability": 0.9850143790245056
+    },
+    {
+      "word": "in",
+      "start": 21.46,
+      "end": 21.82,
+      "probability": 0.9863129258155823
+    },
+    {
+      "word": "and",
+      "start": 21.82,
+      "end": 22.1,
+      "probability": 0.9479542970657349
+    },
+    {
+      "word": "asks",
+      "start": 22.1,
+      "end": 22.38,
+      "probability": 0.9918553829193115
+    },
+    {
+      "word": "the",
+      "start": 22.38,
+      "end": 22.64,
+      "probability": 0.9950640797615051
+    },
+    {
+      "word": "exact",
+      "start": 22.64,
+      "end": 22.9,
+      "probability": 0.993618369102478
+    },
+    {
+      "word": "same",
+      "start": 22.9,
+      "end": 23.68,
+      "probability": 0.986247718334198
+    },
+    {
+      "word": "verbatim",
+      "start": 23.68,
+      "end": 24.2,
+      "probability": 0.9913972417513529
+    },
+    {
+      "word": "question,",
+      "start": 24.2,
+      "end": 24.38,
+      "probability": 0.9944075345993042
+    },
+    {
+      "word": "show",
+      "start": 24.7,
+      "end": 24.9,
+      "probability": 0.6204045414924622
+    },
+    {
+      "word": "me",
+      "start": 24.9,
+      "end": 25.02,
+      "probability": 0.9980700612068176
+    },
+    {
+      "word": "all",
+      "start": 25.02,
+      "end": 25.3,
+      "probability": 0.997141420841217
+    },
+    {
+      "word": "global",
+      "start": 25.3,
+      "end": 25.52,
+      "probability": 0.854760468006134
+    },
+    {
+      "word": "revenue",
+      "start": 25.52,
+      "end": 25.9,
+      "probability": 0.9875549674034119
+    },
+    {
+      "word": "and",
+      "start": 25.9,
+      "end": 26.18,
+      "probability": 0.9573870301246643
+    },
+    {
+      "word": "inventory",
+      "start": 26.18,
+      "end": 26.42,
+      "probability": 0.9988138675689697
+    },
+    {
+      "word": "risk,",
+      "start": 26.42,
+      "end": 26.92,
+      "probability": 0.985044538974762
+    },
+    {
+      "word": "the",
+      "start": 27.34,
+      "end": 27.52,
+      "probability": 0.9936001300811768
+    },
+    {
+      "word": "agent",
+      "start": 27.52,
+      "end": 27.82,
+      "probability": 0.9401069283485413
+    },
+    {
+      "word": "will",
+      "start": 27.82,
+      "end": 28.060000000000002,
+      "probability": 0.9990962743759155
+    },
+    {
+      "word": "only",
+      "start": 28.060000000000002,
+      "end": 28.619999999999997,
+      "probability": 0.9960346817970276
+    },
+    {
+      "word": "return",
+      "start": 28.619999999999997,
+      "end": 29.04,
+      "probability": 0.9984471201896667
+    },
+    {
+      "word": "data",
+      "start": 29.04,
+      "end": 29.259999999999998,
+      "probability": 0.9952002763748169
+    },
+    {
+      "word": "for",
+      "start": 29.259999999999998,
+      "end": 29.52,
+      "probability": 0.9979724287986755
+    },
+    {
+      "word": "the",
+      "start": 29.52,
+      "end": 29.64,
+      "probability": 0.9971691966056824
+    },
+    {
+      "word": "West",
+      "start": 29.64,
+      "end": 29.82,
+      "probability": 0.9866014122962952
+    },
+    {
+      "word": "Coast.",
+      "start": 29.82,
+      "end": 30.2,
+      "probability": 0.990665853023529
+    },
+    {
+      "word": "When",
+      "start": 30.52,
+      "end": 30.64,
+      "probability": 0.6409702301025391
+    },
+    {
+      "word": "it",
+      "start": 30.64,
+      "end": 30.72,
+      "probability": 0.719645619392395
+    },
+    {
+      "word": "really,",
+      "start": 30.72,
+      "end": 30.880000000000003,
+      "probability": 0.9871116280555725
+    },
+    {
+      "word": "even",
+      "start": 31.3,
+      "end": 31.72,
+      "probability": 0.9932348132133484
+    },
+    {
+      "word": "with",
+      "start": 31.72,
+      "end": 31.82,
+      "probability": 0.9936279058456421
+    },
+    {
+      "word": "the",
+      "start": 31.82,
+      "end": 31.939999999999998,
+      "probability": 0.9163230657577515
+    },
+    {
+      "word": "same",
+      "start": 31.939999999999998,
+      "end": 32.06,
+      "probability": 0.9996408224105835
+    },
+    {
+      "word": "prompt.",
+      "start": 32.06,
+      "end": 32.26,
+      "probability": 0.9982718229293823
+    },
+    {
+      "word": "Yes.",
+      "start": 32.54,
+      "end": 32.78,
+      "probability": 0.9923090934753418
+    },
+    {
+      "word": "Because",
+      "start": 33.36,
+      "end": 33.7,
+      "probability": 0.9955692887306213
+    },
+    {
+      "word": "when",
+      "start": 33.7,
+      "end": 33.86,
+      "probability": 0.9804203510284424
+    },
+    {
+      "word": "the",
+      "start": 33.86,
+      "end": 33.96,
+      "probability": 0.9953941106796265
+    },
+    {
+      "word": "AI",
+      "start": 33.96,
+      "end": 34.1,
+      "probability": 0.973081648349762
+    },
+    {
+      "word": "attempts",
+      "start": 34.1,
+      "end": 34.480000000000004,
+      "probability": 0.9978628754615784
+    },
+    {
+      "word": "to",
+      "start": 34.480000000000004,
+      "end": 34.7,
+      "probability": 0.9993171691894531
+    },
+    {
+      "word": "execute",
+      "start": 34.7,
+      "end": 35.04,
+      "probability": 0.9995591044425964
+    },
+    {
+      "word": "the",
+      "start": 35.04,
+      "end": 35.22,
+      "probability": 0.998258650302887
+    },
+    {
+      "word": "SQL",
+      "start": 35.22,
+      "end": 35.42,
+      "probability": 0.72182697057724
+    },
+    {
+      "word": "query",
+      "start": 35.42,
+      "end": 35.78,
+      "probability": 0.9654557108879089
+    },
+    {
+      "word": "against",
+      "start": 35.78,
+      "end": 36.14,
+      "probability": 0.9988381266593933
+    },
+    {
+      "word": "the",
+      "start": 36.14,
+      "end": 36.36,
+      "probability": 0.9977274537086487
+    },
+    {
+      "word": "underlying",
+      "start": 36.36,
+      "end": 36.72,
+      "probability": 0.9987634420394897
+    },
+    {
+      "word": "Lakehouse,",
+      "start": 36.72,
+      "end": 37.28,
+      "probability": 0.7720872759819031
+    },
+    {
+      "word": "the",
+      "start": 37.980000000000004,
+      "end": 38.06,
+      "probability": 0.9940424561500549
+    },
+    {
+      "word": "database",
+      "start": 38.06,
+      "end": 38.32,
+      "probability": 0.9809016585350037
+    },
+    {
+      "word": "recognizes",
+      "start": 38.32,
+      "end": 39.019999999999996,
+      "probability": 0.9915282726287842
+    },
+    {
+      "word": "the",
+      "start": 39.019999999999996,
+      "end": 39.3,
+      "probability": 0.9988973140716553
+    },
+    {
+      "word": "manager's",
+      "start": 39.3,
+      "end": 39.72,
+      "probability": 0.898751825094223
+    },
+    {
+      "word": "identity",
+      "start": 39.72,
+      "end": 40.019999999999996,
+      "probability": 0.997492790222168
+    },
+    {
+      "word": "and",
+      "start": 40.3,
+      "end": 40.58,
+      "probability": 0.9237170219421387
+    },
+    {
+      "word": "enforces",
+      "start": 40.58,
+      "end": 41.02,
+      "probability": 0.9374434947967529
+    },
+    {
+      "word": "row",
+      "start": 41.02,
+      "end": 41.42,
+      "probability": 0.8177746534347534
+    },
+    {
+      "word": "-level",
+      "start": 41.42,
+      "end": 41.74,
+      "probability": 0.7866429686546326
+    },
+    {
+      "word": "security,",
+      "start": 41.74,
+      "end": 42.04,
+      "probability": 0.9986386895179749
+    },
+    {
+      "word": "blocking",
+      "start": 42.6,
+      "end": 43.019999999999996,
+      "probability": 0.9983577132225037
+    },
+    {
+      "word": "access",
+      "start": 43.019999999999996,
+      "end": 43.4,
+      "probability": 0.9985756874084473
+    },
+    {
+      "word": "to",
+      "start": 43.4,
+      "end": 43.72,
+      "probability": 0.99614018201828
+    },
+    {
+      "word": "the",
+      "start": 43.72,
+      "end": 43.84,
+      "probability": 0.9881125092506409
+    },
+    {
+      "word": "East",
+      "start": 43.84,
+      "end": 44.0,
+      "probability": 0.6959519386291504
+    },
+    {
+      "word": "Coast",
+      "start": 44.0,
+      "end": 44.18,
+      "probability": 0.9120437502861023
+    },
+    {
+      "word": "data.",
+      "start": 44.18,
+      "end": 44.44,
+      "probability": 0.9825963973999023
+    },
+    {
+      "word": "That",
+      "start": 45.04,
+      "end": 45.3,
+      "probability": 0.6145760416984558
+    },
+    {
+      "word": "is",
+      "start": 45.3,
+      "end": 45.38,
+      "probability": 0.9710625410079956
+    },
+    {
+      "word": "so",
+      "start": 45.38,
+      "end": 45.519999999999996,
+      "probability": 0.9973598122596741
+    },
+    {
+      "word": "smart.",
+      "start": 45.519999999999996,
+      "end": 45.8,
+      "probability": 0.9986106157302856
+    },
+    {
+      "word": "The",
+      "start": 46.7,
+      "end": 47.04,
+      "probability": 0.9452165961265564
+    },
+    {
+      "word": "source",
+      "start": 47.04,
+      "end": 47.18,
+      "probability": 0.9901028871536255
+    },
+    {
+      "word": "documentation",
+      "start": 47.18,
+      "end": 47.56,
+      "probability": 0.9924005270004272
+    },
+    {
+      "word": "is",
+      "start": 47.56,
+      "end": 48.019999999999996,
+      "probability": 0.998995840549469
+    },
+    {
+      "word": "explicit",
+      "start": 48.019999999999996,
+      "end": 48.42,
+      "probability": 0.9993040561676025
+    },
+    {
+      "word": "on",
+      "start": 48.42,
+      "end": 48.78,
+      "probability": 0.9802990555763245
+    },
+    {
+      "word": "this",
+      "start": 48.78,
+      "end": 48.9,
+      "probability": 0.9992446899414062
+    },
+    {
+      "word": "point.",
+      "start": 48.9,
+      "end": 49.1,
+      "probability": 0.9978811144828796
+    },
+    {
+      "word": "Sharing",
+      "start": 49.54,
+      "end": 49.64,
+      "probability": 0.9900360107421875
+    },
+    {
+      "word": "an",
+      "start": 49.64,
+      "end": 49.82,
+      "probability": 0.9314029216766357
+    },
+    {
+      "word": "ontology",
+      "start": 49.82,
+      "end": 50.24,
+      "probability": 0.9868163466453552
+    },
+    {
+      "word": "with",
+      "start": 50.24,
+      "end": 50.54,
+      "probability": 0.9974443912506104
+    },
+    {
+      "word": "a",
+      "start": 50.54,
+      "end": 50.6,
+      "probability": 0.9845288395881653
+    },
+    {
+      "word": "user",
+      "start": 50.6,
+      "end": 50.86,
+      "probability": 0.99913090467453
+    },
+    {
+      "word": "does",
+      "start": 50.86,
+      "end": 51.08,
+      "probability": 0.9921694397926331
+    },
+    {
+      "word": "not",
+      "start": 51.08,
+      "end": 51.5,
+      "probability": 0.9920902252197266
+    },
+    {
+      "word": "magically",
+      "start": 51.5,
+      "end": 52.06,
+      "probability": 0.9959592223167419
+    },
+    {
+      "word": "bypass",
+      "start": 52.06,
+      "end": 52.36,
+      "probability": 0.9976772665977478
+    },
+    {
+      "word": "workspace",
+      "start": 52.36,
+      "end": 52.82,
+      "probability": 0.7744957208633423
+    },
+    {
+      "word": "item",
+      "start": 52.82,
+      "end": 53.34,
+      "probability": 0.9185274243354797
+    },
+    {
+      "word": "permissions",
+      "start": 53.34,
+      "end": 53.62,
+      "probability": 0.99574214220047
+    },
+    {
+      "word": "or",
+      "start": 53.62,
+      "end": 54.019999999999996,
+      "probability": 0.9156310558319092
+    },
+    {
+      "word": "database",
+      "start": 54.019999999999996,
+      "end": 54.22,
+      "probability": 0.9930786490440369
+    },
+    {
+      "word": "security.",
+      "start": 54.22,
+      "end": 54.72,
+      "probability": 0.9995552897453308
+    },
+    {
+      "word": "So",
+      "start": 55.68,
+      "end": 55.7,
+      "probability": 0.9238863587379456
+    },
+    {
+      "word": "an",
+      "start": 55.7,
+      "end": 55.86,
+      "probability": 0.7313089370727539
+    },
+    {
+      "word": "engineer",
+      "start": 55.86,
+      "end": 56.239999999999995,
+      "probability": 0.9383886456489563
+    },
+    {
+      "word": "successfully",
+      "start": 56.239999999999995,
+      "end": 56.64,
+      "probability": 0.668954074382782
+    },
+    {
+      "word": "querying",
+      "start": 56.64,
+      "end": 57.66,
+      "probability": 0.99543297290802
+    },
+    {
+      "word": "a",
+      "start": 57.66,
+      "end": 57.86,
+      "probability": 0.9972701668739319
+    },
+    {
+      "word": "source",
+      "start": 57.86,
+      "end": 58.1,
+      "probability": 0.9991469383239746
+    },
+    {
+      "word": "during",
+      "start": 58.1,
+      "end": 58.36,
+      "probability": 0.9972832202911377
+    },
+    {
+      "word": "testing",
+      "start": 58.36,
+      "end": 58.8,
+      "probability": 0.9989103078842163
+    },
+    {
+      "word": "does",
+      "start": 58.8,
+      "end": 59.72,
+      "probability": 0.8996164202690125
+    },
+    {
+      "word": "not",
+      "start": 59.72,
+      "end": 59.879999999999995,
+      "probability": 0.99944669008255
+    },
+    {
+      "word": "guarantee",
+      "start": 59.88,
+      "end": 60.12,
+      "probability": 0.9968185424804688
+    },
+    {
+      "word": "that",
+      "start": 60.12,
+      "end": 60.46,
+      "probability": 0.9934284090995789
+    },
+    {
+      "word": "an",
+      "start": 60.46,
+      "end": 60.62,
+      "probability": 0.9822538495063782
+    },
+    {
+      "word": "end",
+      "start": 60.62,
+      "end": 60.78,
+      "probability": 0.9896618127822876
+    },
+    {
+      "word": "user",
+      "start": 60.78,
+      "end": 61.04,
+      "probability": 0.82600998878479
+    },
+    {
+      "word": "will",
+      "start": 61.04,
+      "end": 61.3,
+      "probability": 0.993550181388855
+    },
+    {
+      "word": "see",
+      "start": 61.3,
+      "end": 61.44,
+      "probability": 0.9987793564796448
+    },
+    {
+      "word": "the",
+      "start": 61.44,
+      "end": 61.56,
+      "probability": 0.9987749457359314
+    },
+    {
+      "word": "same",
+      "start": 61.56,
+      "end": 61.7,
+      "probability": 0.9984444975852966
+    },
+    {
+      "word": "results.",
+      "start": 61.7,
+      "end": 62.0,
+      "probability": 0.8500891327857971
+    },
+    {
+      "word": "Exactly.",
+      "start": 62.2,
+      "end": 62.66,
+      "probability": 0.5761442184448242
+    },
+    {
+      "word": "You",
+      "start": 63.08,
+      "end": 63.2,
+      "probability": 0.9917911291122437
+    },
+    {
+      "word": "have",
+      "start": 63.2,
+      "end": 63.28,
+      "probability": 0.9976947903633118
+    },
+    {
+      "word": "to",
+      "start": 63.28,
+      "end": 63.38,
+      "probability": 0.995206892490387
+    },
+    {
+      "word": "validate",
+      "start": 63.38,
+      "end": 63.68,
+      "probability": 0.9987555742263794
+    },
+    {
+      "word": "the",
+      "start": 63.68,
+      "end": 63.96,
+      "probability": 0.9980317950248718
+    },
+    {
+      "word": "entire",
+      "start": 63.96,
+      "end": 64.26,
+      "probability": 0.9992691874504089
+    },
+    {
+      "word": "workflow",
+      "start": 64.26,
+      "end": 64.72,
+      "probability": 0.981797456741333
+    },
+    {
+      "word": "using",
+      "start": 64.72,
+      "end": 65.16,
+      "probability": 0.9916354417800903
+    },
+    {
+      "word": "actual",
+      "start": 65.16,
+      "end": 65.52,
+      "probability": 0.9980688691139221
+    },
+    {
+      "word": "end",
+      "start": 65.52,
+      "end": 66.0,
+      "probability": 0.9744189381599426
+    },
+    {
+      "word": "user",
+      "start": 66.0,
+      "end": 66.28,
+      "probability": 0.8096014857292175
+    },
+    {
+      "word": "test",
+      "start": 66.28,
+      "end": 66.52,
+      "probability": 0.9902618527412415
+    },
+    {
+      "word": "identities,",
+      "start": 66.52,
+      "end": 66.94,
+      "probability": 0.988155722618103
+    },
+    {
+      "word": "not",
+      "start": 67.06,
+      "end": 67.72,
+      "probability": 0.9972677230834961
+    },
+    {
+      "word": "just",
+      "start": 67.72,
+      "end": 67.88,
+      "probability": 0.9979889392852783
+    },
+    {
+      "word": "the",
+      "start": 67.88,
+      "end": 68.03999999999999,
+      "probability": 0.9969406127929688
+    },
+    {
+      "word": "developer's",
+      "start": 68.03999999999999,
+      "end": 68.6,
+      "probability": 0.7559703886508942
+    },
+    {
+      "word": "God",
+      "start": 68.6,
+      "end": 68.84,
+      "probability": 0.6487933397293091
+    },
+    {
+      "word": "Mode",
+      "start": 68.84,
+      "end": 69.08,
+      "probability": 0.5080578327178955
+    },
+    {
+      "word": "account.",
+      "start": 69.08,
+      "end": 69.36,
+      "probability": 0.9886366724967957
+    }
+  ],
+  "transcript_asr": "Let's say I am the lead data engineer. I built this ontology, so I have administrative access to everything. I ask it about revenue and inventory across the entire global company, and it gives me a comprehensive answer. Now, I share that exact same Fabric ontology file with a regional manager who only handles the West Coast. If the West Coast Regional Manager logs in and asks the exact same verbatim question, show me all global revenue and inventory risk, the agent will only return data for the West Coast. When it really, even with the same prompt. Yes. Because when the AI attempts to execute the SQL query against the underlying Lakehouse, the database recognizes the manager's identity and enforces row -level security, blocking access to the East Coast data. That is so smart. The source documentation is explicit on this point. Sharing an ontology with a user does not magically bypass workspace item permissions or database security. So an engineer successfully querying a source during testing does not guarantee that an end user will see the same results. Exactly. You have to validate the entire workflow using actual end user test identities, not just the developer's God Mode account.",
+  "source_kind": "actual uploaded recording; continuous audio excerpt",
+  "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "status": "planned",
+  "publish_status": "draft for review",
+  "narration_replaced": false,
+  "actual_timestamps": true,
+  "context_label": "Example: source RLS configured",
+  "review_flags": [],
+  "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
+  "caption_corrections": [
+    {
+      "from": "fabric",
+      "to": "Fabric",
+      "reason": "technical-name orthography, not an audio change"
+    }
+  ],
+  "caption_join_review": []
+}

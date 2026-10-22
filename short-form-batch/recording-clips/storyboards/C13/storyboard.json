@@ -1,0 +1,48 @@
+{
+  "id": "C13",
+  "family": "ownership",
+  "master_image": "../master-ownership.png",
+  "visual_workflow": "image-first",
+  "state_images": [
+    "01-initial.jpg",
+    "02-build.jpg",
+    "03-settled.jpg"
+  ],
+  "layers": [
+    {
+      "label": "Business property",
+      "sub": "DEFINITION / SOURCE",
+      "x": 100,
+      "y": 680,
+      "w": 880,
+      "h": 250,
+      "focal": true,
+      "on": 0.7,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Source field",
+      "sub": "CONSUMER / MAPPING",
+      "x": 100,
+      "y": 1050,
+      "w": 880,
+      "h": 250,
+      "focal": false,
+      "on": 3.7,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    }
+  ],
+  "relation": "Data binding",
+  "source_quote": "Data bindings are perhaps the most critical mechanical component. This is the wiring that connects these abstract high -level concepts back to the physical source fields in your actual databases. Okay, so it points to the database. It's the mapping that tells the ontology, hey, when the user asks about a region, do not hallucinate an answer, go look specifically at column F in this exact Lakehouse table.",
+  "why": "Separate the source of meaning or data from its consumer.",
+  "alternative": "Authentic tenant UI would be preferable for proving an executed product action; this clip is a concept illustration.",
+  "visual_review": "Draft, not human approved. Generated symbols corrected in editable reconstruction.",
+  "source_reference": "reference-library/frames/graphic/0003510.jpg",
+  "motion": "independent card alpha reveal + 16px eased settling, timed to recording keywords; fixed grid and presenter rail",
+  "source_start": 818.210975,
+  "source_end": 841.02,
+  "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+}

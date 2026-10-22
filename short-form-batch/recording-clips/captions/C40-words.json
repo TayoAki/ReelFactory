@@ -1,0 +1,735 @@
+{
+  "id": "C40",
+  "title": "Forecasting needs a separate modeling workflow",
+  "source_start": 2554.229705,
+  "source_end": 2600.569705,
+  "duration": 46.33999999999969,
+  "part_ranges": [
+    {
+      "part": "part03.m4a",
+      "start": 304.10000000000036,
+      "end": 350.44000000000005
+    }
+  ],
+  "family": "workflow",
+  "left_label": "Target and horizon",
+  "right_label": "Inputs and method",
+  "focus_label": "Evaluate a dedicated model",
+  "example_kind": "forecast workflow; omit later Dataverse claim",
+  "words": [
+    {
+      "word": "How",
+      "start": 0.31999999999999984,
+      "end": 0.3799999999999999,
+      "probability": 0.96103835105896
+    },
+    {
+      "word": "do",
+      "start": 0.3799999999999999,
+      "end": 0.48,
+      "probability": 0.9949957132339478
+    },
+    {
+      "word": "we",
+      "start": 0.48,
+      "end": 0.5800000000000001,
+      "probability": 0.9971444010734558
+    },
+    {
+      "word": "predict",
+      "start": 0.5800000000000001,
+      "end": 0.8399999999999999,
+      "probability": 0.9980954527854919
+    },
+    {
+      "word": "tomorrow's",
+      "start": 0.8399999999999999,
+      "end": 1.56,
+      "probability": 0.9650648832321167
+    },
+    {
+      "word": "inventory",
+      "start": 1.56,
+      "end": 1.88,
+      "probability": 0.9930670261383057
+    },
+    {
+      "word": "risk?",
+      "start": 1.88,
+      "end": 2.46,
+      "probability": 0.995577335357666
+    },
+    {
+      "word": "Does",
+      "start": 2.76,
+      "end": 2.76,
+      "probability": 0.985020637512207
+    },
+    {
+      "word": "the",
+      "start": 2.76,
+      "end": 3.04,
+      "probability": 0.9869453310966492
+    },
+    {
+      "word": "ontology",
+      "start": 3.04,
+      "end": 3.4800000000000004,
+      "probability": 0.8189893662929535
+    },
+    {
+      "word": "agent",
+      "start": 3.4800000000000004,
+      "end": 3.84,
+      "probability": 0.9886903762817383
+    },
+    {
+      "word": "just",
+      "start": 3.84,
+      "end": 4.18,
+      "probability": 0.9842387437820435
+    },
+    {
+      "word": "guess?",
+      "start": 4.18,
+      "end": 4.76,
+      "probability": 0.9494408369064331
+    },
+    {
+      "word": "The",
+      "start": 5.34,
+      "end": 5.72,
+      "probability": 0.683284342288971
+    },
+    {
+      "word": "source",
+      "start": 5.72,
+      "end": 5.92,
+      "probability": 0.9922670722007751
+    },
+    {
+      "word": "material",
+      "start": 5.92,
+      "end": 6.18,
+      "probability": 0.9973119497299194
+    },
+    {
+      "word": "draws",
+      "start": 6.18,
+      "end": 6.699999999999999,
+      "probability": 0.9945834279060364
+    },
+    {
+      "word": "a",
+      "start": 6.699999999999999,
+      "end": 7.0,
+      "probability": 0.9967420697212219
+    },
+    {
+      "word": "very",
+      "start": 7.0,
+      "end": 7.4,
+      "probability": 0.9944095015525818
+    },
+    {
+      "word": "sharp,",
+      "start": 7.4,
+      "end": 7.76,
+      "probability": 0.9989317059516907
+    },
+    {
+      "word": "deliberate",
+      "start": 7.76,
+      "end": 8.32,
+      "probability": 0.9979908466339111
+    },
+    {
+      "word": "line",
+      "start": 8.32,
+      "end": 8.74,
+      "probability": 0.9871763586997986
+    },
+    {
+      "word": "here",
+      "start": 8.74,
+      "end": 8.98,
+      "probability": 0.9837073683738708
+    },
+    {
+      "word": "regarding",
+      "start": 8.98,
+      "end": 9.3,
+      "probability": 0.9758473038673401
+    },
+    {
+      "word": "predictive",
+      "start": 9.3,
+      "end": 9.82,
+      "probability": 0.9929176568984985
+    },
+    {
+      "word": "analytics.",
+      "start": 9.82,
+      "end": 10.16,
+      "probability": 0.9986692667007446
+    },
+    {
+      "word": "Forecasting",
+      "start": 11.36,
+      "end": 11.6,
+      "probability": 0.9845642745494843
+    },
+    {
+      "word": "is",
+      "start": 11.6,
+      "end": 11.96,
+      "probability": 0.9947380423545837
+    },
+    {
+      "word": "treated",
+      "start": 11.96,
+      "end": 12.18,
+      "probability": 0.9970316886901855
+    },
+    {
+      "word": "as",
+      "start": 12.18,
+      "end": 12.46,
+      "probability": 0.9985069632530212
+    },
+    {
+      "word": "a",
+      "start": 12.46,
+      "end": 12.56,
+      "probability": 0.9959138035774231
+    },
+    {
+      "word": "separate,",
+      "start": 12.56,
+      "end": 12.98,
+      "probability": 0.9939245581626892
+    },
+    {
+      "word": "highly",
+      "start": 13.32,
+      "end": 13.72,
+      "probability": 0.9994598031044006
+    },
+    {
+      "word": "rigorous",
+      "start": 13.72,
+      "end": 14.14,
+      "probability": 0.9807528853416443
+    },
+    {
+      "word": "analytical",
+      "start": 14.14,
+      "end": 14.7,
+      "probability": 0.5943674445152283
+    },
+    {
+      "word": "discipline.",
+      "start": 14.7,
+      "end": 15.3,
+      "probability": 0.9987480640411377
+    },
+    {
+      "word": "It's",
+      "start": 15.96,
+      "end": 16.14,
+      "probability": 0.9882827997207642
+    },
+    {
+      "word": "not",
+      "start": 16.14,
+      "end": 16.24,
+      "probability": 0.9979478716850281
+    },
+    {
+      "word": "just",
+      "start": 16.24,
+      "end": 16.38,
+      "probability": 0.9977178573608398
+    },
+    {
+      "word": "a",
+      "start": 16.38,
+      "end": 16.54,
+      "probability": 0.8697860240936279
+    },
+    {
+      "word": "chat",
+      "start": 16.54,
+      "end": 16.64,
+      "probability": 0.9737201929092407
+    },
+    {
+      "word": "function.",
+      "start": 16.64,
+      "end": 17.02,
+      "probability": 0.9980712532997131
+    },
+    {
+      "word": "You",
+      "start": 17.5,
+      "end": 17.72,
+      "probability": 0.9954609274864197
+    },
+    {
+      "word": "don't",
+      "start": 17.72,
+      "end": 17.96,
+      "probability": 0.9984227418899536
+    },
+    {
+      "word": "just",
+      "start": 17.96,
+      "end": 18.1,
+      "probability": 0.9916946291923523
+    },
+    {
+      "word": "ask",
+      "start": 18.1,
+      "end": 18.4,
+      "probability": 0.9979981780052185
+    },
+    {
+      "word": "the",
+      "start": 18.4,
+      "end": 18.72,
+      "probability": 0.9975353479385376
+    },
+    {
+      "word": "generative",
+      "start": 18.72,
+      "end": 19.22,
+      "probability": 0.9944781064987183
+    },
+    {
+      "word": "AI",
+      "start": 19.22,
+      "end": 19.54,
+      "probability": 0.977770984172821
+    },
+    {
+      "word": "chat",
+      "start": 19.54,
+      "end": 19.82,
+      "probability": 0.9434933662414551
+    },
+    {
+      "word": "to",
+      "start": 20.14,
+      "end": 20.38,
+      "probability": 0.9895310401916504
+    },
+    {
+      "word": "guess",
+      "start": 20.38,
+      "end": 20.64,
+      "probability": 0.9778603315353394
+    },
+    {
+      "word": "what",
+      "start": 20.64,
+      "end": 20.98,
+      "probability": 0.9936155080795288
+    },
+    {
+      "word": "sales",
+      "start": 20.98,
+      "end": 21.16,
+      "probability": 0.972282350063324
+    },
+    {
+      "word": "will",
+      "start": 21.16,
+      "end": 21.5,
+      "probability": 0.990018367767334
+    },
+    {
+      "word": "look",
+      "start": 21.5,
+      "end": 21.7,
+      "probability": 0.989494264125824
+    },
+    {
+      "word": "like",
+      "start": 21.7,
+      "end": 21.88,
+      "probability": 0.985800564289093
+    },
+    {
+      "word": "next",
+      "start": 21.88,
+      "end": 22.04,
+      "probability": 0.9943681359291077
+    },
+    {
+      "word": "week",
+      "start": 22.04,
+      "end": 22.34,
+      "probability": 0.9980260729789734
+    },
+    {
+      "word": "based",
+      "start": 22.34,
+      "end": 22.6,
+      "probability": 0.8754011988639832
+    },
+    {
+      "word": "on",
+      "start": 22.6,
+      "end": 22.86,
+      "probability": 0.9970746040344238
+    },
+    {
+      "word": "vibes",
+      "start": 22.86,
+      "end": 24.16,
+      "probability": 0.8748015761375427
+    },
+    {
+      "word": "or",
+      "start": 24.16,
+      "end": 24.259999999999998,
+      "probability": 0.9412399530410767
+    },
+    {
+      "word": "its",
+      "start": 24.259999999999998,
+      "end": 24.44,
+      "probability": 0.8638660907745361
+    },
+    {
+      "word": "training",
+      "start": 24.44,
+      "end": 24.78,
+      "probability": 0.989316463470459
+    },
+    {
+      "word": "data.",
+      "start": 24.78,
+      "end": 25.06,
+      "probability": 0.9966796636581421
+    },
+    {
+      "word": "Forecasting",
+      "start": 25.7,
+      "end": 26.0,
+      "probability": 0.9785088300704956
+    },
+    {
+      "word": "is",
+      "start": 26.0,
+      "end": 26.42,
+      "probability": 0.9961333274841309
+    },
+    {
+      "word": "explicitly",
+      "start": 26.42,
+      "end": 26.939999999999998,
+      "probability": 0.9962387084960938
+    },
+    {
+      "word": "handled",
+      "start": 26.939999999999998,
+      "end": 27.58,
+      "probability": 0.993881106376648
+    },
+    {
+      "word": "via",
+      "start": 27.58,
+      "end": 27.9,
+      "probability": 0.9930354952812195
+    },
+    {
+      "word": "Fabric",
+      "start": 27.9,
+      "end": 28.36,
+      "probability": 0.6619043946266174
+    },
+    {
+      "word": "data",
+      "start": 28.36,
+      "end": 28.68,
+      "probability": 0.9851425290107727
+    },
+    {
+      "word": "science.",
+      "start": 28.68,
+      "end": 29.08,
+      "probability": 0.9933011531829834
+    },
+    {
+      "word": "So",
+      "start": 29.740000000000002,
+      "end": 29.939999999999998,
+      "probability": 0.6234734058380127
+    },
+    {
+      "word": "we",
+      "start": 29.939999999999998,
+      "end": 30.119999999999997,
+      "probability": 0.8893093466758728
+    },
+    {
+      "word": "are",
+      "start": 30.119999999999997,
+      "end": 30.240000000000002,
+      "probability": 0.9839316606521606
+    },
+    {
+      "word": "talking",
+      "start": 30.240000000000002,
+      "end": 30.46,
+      "probability": 0.9942891597747803
+    },
+    {
+      "word": "about",
+      "start": 30.46,
+      "end": 30.72,
+      "probability": 0.9979318380355835
+    },
+    {
+      "word": "actual",
+      "start": 30.72,
+      "end": 31.08,
+      "probability": 0.9732744693756104
+    },
+    {
+      "word": "machine",
+      "start": 31.08,
+      "end": 31.42,
+      "probability": 0.9657004475593567
+    },
+    {
+      "word": "learning",
+      "start": 31.42,
+      "end": 31.759999999999998,
+      "probability": 0.9646034240722656
+    },
+    {
+      "word": "engineers,",
+      "start": 31.759999999999998,
+      "end": 32.34,
+      "probability": 0.9838886260986328
+    },
+    {
+      "word": "building",
+      "start": 32.480000000000004,
+      "end": 32.74,
+      "probability": 0.9953372478485107
+    },
+    {
+      "word": "notebooks,",
+      "start": 32.74,
+      "end": 33.019999999999996,
+      "probability": 0.9902894496917725
+    },
+    {
+      "word": "running",
+      "start": 33.4,
+      "end": 33.56,
+      "probability": 0.9907880425453186
+    },
+    {
+      "word": "experiments,",
+      "start": 33.56,
+      "end": 34.019999999999996,
+      "probability": 0.995689332485199
+    },
+    {
+      "word": "and",
+      "start": 34.72,
+      "end": 34.739999999999995,
+      "probability": 0.9953799247741699
+    },
+    {
+      "word": "scoring",
+      "start": 34.739999999999995,
+      "end": 35.04,
+      "probability": 0.9971904158592224
+    },
+    {
+      "word": "dedicated",
+      "start": 35.04,
+      "end": 35.44,
+      "probability": 0.9958903193473816
+    },
+    {
+      "word": "models.",
+      "start": 35.44,
+      "end": 35.94,
+      "probability": 0.9968547821044922
+    },
+    {
+      "word": "Yes.",
+      "start": 36.54,
+      "end": 36.96,
+      "probability": 0.9761469960212708
+    },
+    {
+      "word": "A",
+      "start": 37.66,
+      "end": 37.7,
+      "probability": 0.9753290414810181
+    },
+    {
+      "word": "data",
+      "start": 37.7,
+      "end": 37.84,
+      "probability": 0.9689342379570007
+    },
+    {
+      "word": "scientist",
+      "start": 37.84,
+      "end": 38.28,
+      "probability": 0.9958827495574951
+    },
+    {
+      "word": "defines",
+      "start": 38.28,
+      "end": 38.64,
+      "probability": 0.9936134219169617
+    },
+    {
+      "word": "the",
+      "start": 38.64,
+      "end": 38.96,
+      "probability": 0.997569739818573
+    },
+    {
+      "word": "target",
+      "start": 38.96,
+      "end": 39.120000000000005,
+      "probability": 0.9962592124938965
+    },
+    {
+      "word": "variable,",
+      "start": 39.120000000000005,
+      "end": 39.6,
+      "probability": 0.9977091550827026
+    },
+    {
+      "word": "sets",
+      "start": 40.18,
+      "end": 40.34,
+      "probability": 0.9888128638267517
+    },
+    {
+      "word": "the",
+      "start": 40.34,
+      "end": 40.58,
+      "probability": 0.9960224628448486
+    },
+    {
+      "word": "time",
+      "start": 40.58,
+      "end": 40.76,
+      "probability": 0.9782715439796448
+    },
+    {
+      "word": "horizon,",
+      "start": 40.76,
+      "end": 41.08,
+      "probability": 0.9975770115852356
+    },
+    {
+      "word": "selects",
+      "start": 41.62,
+      "end": 41.84,
+      "probability": 0.9970130920410156
+    },
+    {
+      "word": "the",
+      "start": 41.84,
+      "end": 42.06,
+      "probability": 0.9951227307319641
+    },
+    {
+      "word": "inputs,",
+      "start": 42.06,
+      "end": 42.36,
+      "probability": 0.9781768321990967
+    },
+    {
+      "word": "and",
+      "start": 42.72,
+      "end": 42.78,
+      "probability": 0.9961926937103271
+    },
+    {
+      "word": "chooses",
+      "start": 42.78,
+      "end": 43.2,
+      "probability": 0.9844104051589966
+    },
+    {
+      "word": "the",
+      "start": 43.2,
+      "end": 43.5,
+      "probability": 0.9868857860565186
+    },
+    {
+      "word": "statistical",
+      "start": 43.5,
+      "end": 43.94,
+      "probability": 0.9842017292976379
+    },
+    {
+      "word": "methodology",
+      "start": 43.94,
+      "end": 44.66,
+      "probability": 0.9887171983718872
+    },
+    {
+      "word": "inside",
+      "start": 44.66,
+      "end": 45.14,
+      "probability": 0.9916881918907166
+    },
+    {
+      "word": "a",
+      "start": 45.14,
+      "end": 45.5,
+      "probability": 0.927388072013855
+    },
+    {
+      "word": "data",
+      "start": 45.5,
+      "end": 45.6,
+      "probability": 0.8496461510658264
+    },
+    {
+      "word": "science",
+      "start": 45.6,
+      "end": 45.86,
+      "probability": 0.9555584788322449
+    },
+    {
+      "word": "notebook.",
+      "start": 45.86,
+      "end": 46.22,
+      "probability": 0.9871930480003357
+    }
+  ],
+  "transcript_asr": "How do we predict tomorrow's inventory risk? Does the ontology agent just guess? The source material draws a very sharp, deliberate line here regarding predictive analytics. Forecasting is treated as a separate, highly rigorous analytical discipline. It's not just a chat function. You don't just ask the generative AI chat to guess what sales will look like next week based on vibes or its training data. Forecasting is explicitly handled via Fabric data science. So we are talking about actual machine learning engineers, building notebooks, running experiments, and scoring dedicated models. Yes. A data scientist defines the target variable, sets the time horizon, selects the inputs, and chooses the statistical methodology inside a data science notebook.",
+  "source_kind": "actual uploaded recording; continuous audio excerpt",
+  "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "status": "planned",
+  "publish_status": "draft for review",
+  "narration_replaced": false,
+  "actual_timestamps": true,
+  "context_label": "Original discussion excerpt",
+  "review_flags": [],
+  "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
+  "caption_corrections": [
+    {
+      "from": "fabric",
+      "to": "Fabric",
+      "reason": "technical-name orthography, not an audio change"
+    }
+  ],
+  "caption_join_review": []
+}

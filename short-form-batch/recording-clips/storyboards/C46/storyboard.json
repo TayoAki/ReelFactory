@@ -1,0 +1,48 @@
+{
+  "id": "C46",
+  "family": "boundary",
+  "master_image": "../master-boundary.png",
+  "visual_workflow": "image-first",
+  "state_images": [
+    "01-initial.jpg",
+    "02-build.jpg",
+    "03-settled.jpg"
+  ],
+  "layers": [
+    {
+      "label": "Compatible client",
+      "sub": "FIRST RESPONSIBILITY",
+      "x": 100,
+      "y": 680,
+      "w": 880,
+      "h": 250,
+      "focal": true,
+      "on": 0.7,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Ontology endpoint",
+      "sub": "SEPARATE RESPONSIBILITY",
+      "x": 100,
+      "y": 1050,
+      "w": 880,
+      "h": 250,
+      "focal": false,
+      "on": 4.48,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    }
+  ],
+  "relation": "Check current authentication limits",
+  "source_quote": "MCP stands for Model Context Protocol. Fabric provides an API endpoint, so enterprise developers can connect their own compatible external AI clients or custom applications to the ontology. It tells useful. However, the current guidance notes a severe limitation. Service principal access is currently unavailable for this endpoint. Explain that for the non -developers. What is a service principal? A service principal is basically a machine identity. It's a non -human service account you use, so a backend server or an automated script can talk to an API securely without needing a human being to physically type in a username and password. Oh, so you can automate it? Right. But because service principal access is missing in this preview, you currently have to authenticate as a real human user. You cannot easily set up a fully automated unattended machine to machine integration. That drastically limits how you can integrate this ontology into automated backend enterprise systems right now.",
+  "why": "Show separate responsibilities; no implied automatic execution.",
+  "alternative": "Authentic tenant UI would be preferable for proving an executed product action; this clip is a concept illustration.",
+  "visual_review": "Draft, not human approved. Generated symbols corrected in editable reconstruction.",
+  "source_reference": "reference-library/frames/graphic/0003510.jpg",
+  "motion": "independent card alpha reveal + 16px eased settling, timed to recording keywords; fixed grid and presenter rail",
+  "source_start": 3041.98068,
+  "source_end": 3098.70068,
+  "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+}

@@ -1,0 +1,61 @@
+WEBVTT
+
+00:00:00.980 --> 00:00:02.040
+Well, shortcuts are a response to
+
+00:00:01.920 --> 00:00:03.160
+the nightmare of data duplication,
+
+00:00:03.740 --> 00:00:04.920
+which is a huge problem.
+
+00:00:04.960 --> 00:00:07.899
+Massive. In legacy architectures, if
+
+00:00:07.779 --> 00:00:09.920
+the machine learning team needed the
+
+00:00:09.800 --> 00:00:11.600
+sales data for a forecasting model
+
+00:00:11.480 --> 00:00:13.399
+and the finance team needed it
+
+00:00:13.280 --> 00:00:15.319
+for a quarterly report, the data
+
+00:00:15.200 --> 00:00:17.340
+engineers would literally copy the
+
+00:00:17.220 --> 00:00:18.880
+data into two different databases.
+
+00:00:19.640 --> 00:00:20.540
+And then they get out of
+
+00:00:20.420 --> 00:00:21.880
+sync. Within months.
+
+00:00:22.220 --> 00:00:24.020
+One database updates differently than
+
+00:00:23.900 --> 00:00:25.740
+the other, and you completely lose
+
+00:00:25.620 --> 00:00:26.700
+your single source of truth.
+
+00:00:27.340 --> 00:00:29.160
+Supported shortcuts in OneLake allow
+
+00:00:29.040 --> 00:00:31.060
+different workspaces to reference data
+
+00:00:30.939 --> 00:00:32.779
+that physically live somewhere else,
+
+00:00:33.019 --> 00:00:35.019
+even in external cloud providers like
+
+00:00:34.900 --> 00:00:36.359
+AWS or Google Cloud.

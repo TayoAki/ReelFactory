@@ -1,0 +1,195 @@
+{
+  "id": "C34",
+  "title": "One retail prompt crosses several concepts",
+  "source_start": 2152.20195,
+  "source_end": 2164.50195,
+  "duration": 12.299999999999727,
+  "part_ranges": [
+    {
+      "part": "part02.m4a",
+      "start": 652.1000000000001,
+      "end": 664.3999999999999
+    }
+  ],
+  "family": "entities",
+  "left_label": "Priority stores",
+  "right_label": "Inventory and deliveries",
+  "focus_label": "Example operations question",
+  "example_kind": "recorded prompt excerpt, not executed demo",
+  "words": [
+    {
+      "word": "The",
+      "start": 0.2999999999999998,
+      "end": 0.6800000000000002,
+      "probability": 0.961249053478241
+    },
+    {
+      "word": "prompt",
+      "start": 0.6800000000000002,
+      "end": 0.8399999999999999,
+      "probability": 0.9903990626335144
+    },
+    {
+      "word": "is",
+      "start": 0.8399999999999999,
+      "end": 1.06,
+      "probability": 0.996359646320343
+    },
+    {
+      "word": "review",
+      "start": 1.06,
+      "end": 1.7400000000000002,
+      "probability": 0.4537137746810913
+    },
+    {
+      "word": "priority",
+      "start": 1.7400000000000002,
+      "end": 2.12,
+      "probability": 0.9388859272003174
+    },
+    {
+      "word": "stores",
+      "start": 2.12,
+      "end": 2.5999999999999996,
+      "probability": 0.9879968762397766
+    },
+    {
+      "word": "in",
+      "start": 2.5999999999999996,
+      "end": 2.96,
+      "probability": 0.9962594509124756
+    },
+    {
+      "word": "the",
+      "start": 2.96,
+      "end": 3.04,
+      "probability": 0.9985339641571045
+    },
+    {
+      "word": "West",
+      "start": 3.04,
+      "end": 3.2199999999999998,
+      "probability": 0.8652299642562866
+    },
+    {
+      "word": "region",
+      "start": 3.2199999999999998,
+      "end": 3.5999999999999996,
+      "probability": 0.33537355065345764
+    },
+    {
+      "word": "for",
+      "start": 3.5999999999999996,
+      "end": 3.8600000000000003,
+      "probability": 0.9941869974136353
+    },
+    {
+      "word": "frozen",
+      "start": 3.8600000000000003,
+      "end": 4.16,
+      "probability": 0.9182960987091064
+    },
+    {
+      "word": "product",
+      "start": 4.16,
+      "end": 4.52,
+      "probability": 0.9866182208061218
+    },
+    {
+      "word": "inventory",
+      "start": 4.52,
+      "end": 4.94,
+      "probability": 0.9927337169647217
+    },
+    {
+      "word": "risk.",
+      "start": 4.94,
+      "end": 5.62,
+      "probability": 0.9921736717224121
+    },
+    {
+      "word": "Include",
+      "start": 6.380000000000001,
+      "end": 6.68,
+      "probability": 0.9924065470695496
+    },
+    {
+      "word": "recent",
+      "start": 6.68,
+      "end": 7.02,
+      "probability": 0.9798562526702881
+    },
+    {
+      "word": "refrigeration",
+      "start": 7.02,
+      "end": 7.720000000000001,
+      "probability": 0.9908420741558075
+    },
+    {
+      "word": "exceptions,",
+      "start": 7.720000000000001,
+      "end": 8.0,
+      "probability": 0.9945440292358398
+    },
+    {
+      "word": "shelf",
+      "start": 8.6,
+      "end": 9.1,
+      "probability": 0.9738863706588745
+    },
+    {
+      "word": "availability,",
+      "start": 9.1,
+      "end": 9.42,
+      "probability": 0.9847287535667419
+    },
+    {
+      "word": "and",
+      "start": 10.58,
+      "end": 10.6,
+      "probability": 0.9985752105712891
+    },
+    {
+      "word": "the",
+      "start": 10.6,
+      "end": 10.7,
+      "probability": 0.9952907562255859
+    },
+    {
+      "word": "next",
+      "start": 10.7,
+      "end": 10.9,
+      "probability": 0.9981295466423035
+    },
+    {
+      "word": "expected",
+      "start": 10.9,
+      "end": 11.38,
+      "probability": 0.9812036156654358
+    },
+    {
+      "word": "inbound",
+      "start": 11.38,
+      "end": 11.82,
+      "probability": 0.9421069622039795
+    },
+    {
+      "word": "delivery.",
+      "start": 11.82,
+      "end": 12.16,
+      "probability": 0.9991329312324524
+    }
+  ],
+  "transcript_asr": "The prompt is review priority stores in the West region for frozen product inventory risk. Include recent refrigeration exceptions, shelf availability, and the next expected inbound delivery.",
+  "source_kind": "actual uploaded recording; continuous audio excerpt",
+  "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "status": "planned",
+  "publish_status": "draft for review",
+  "narration_replaced": false,
+  "actual_timestamps": true,
+  "context_label": "Recorded question \u00b7 illustrative retail scenario",
+  "review_flags": [],
+  "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
+  "caption_corrections": [],
+  "caption_join_review": []
+}

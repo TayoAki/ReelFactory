@@ -1,0 +1,78 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.10,0:00:00.43,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Data{\c&H002A2B17&\b0} bindings are\Nperhaps the most
+Dialogue: 0,0:00:00.43,0:00:00.85,Default,,0,0,0,,{\pos(540,1513)}Data {\c&H00657811&\b1}bindings{\c&H002A2B17&\b0} are\Nperhaps the most
+Dialogue: 0,0:00:00.85,0:00:01.14,Default,,0,0,0,,{\pos(540,1513)}Data bindings {\c&H00657811&\b1}are{\c&H002A2B17&\b0}\Nperhaps the most
+Dialogue: 0,0:00:01.14,0:00:01.38,Default,,0,0,0,,{\pos(540,1513)}Data bindings are\N{\c&H00657811&\b1}perhaps{\c&H002A2B17&\b0} the most
+Dialogue: 0,0:00:01.38,0:00:01.62,Default,,0,0,0,,{\pos(540,1513)}Data bindings are\Nperhaps {\c&H00657811&\b1}the{\c&H002A2B17&\b0} most
+Dialogue: 0,0:00:01.62,0:00:01.92,Default,,0,0,0,,{\pos(540,1513)}Data bindings are\Nperhaps the {\c&H00657811&\b1}most{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:01.79,0:00:02.24,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}critical{\c&H002A2B17&\b0}\Nmechanical component.
+Dialogue: 0,0:00:02.24,0:00:02.96,Default,,0,0,0,,{\pos(540,1513)}critical\N{\c&H00657811&\b1}mechanical{\c&H002A2B17&\b0} component.
+Dialogue: 0,0:00:02.96,0:00:03.68,Default,,0,0,0,,{\pos(540,1513)}critical\Nmechanical {\c&H00657811&\b1}component.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:04.00,0:00:04.12,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}This{\c&H002A2B17&\b0} is the\Nwiring that connects
+Dialogue: 0,0:00:04.12,0:00:04.26,Default,,0,0,0,,{\pos(540,1513)}This {\c&H00657811&\b1}is{\c&H002A2B17&\b0} the\Nwiring that connects
+Dialogue: 0,0:00:04.26,0:00:04.66,Default,,0,0,0,,{\pos(540,1513)}This is {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nwiring that connects
+Dialogue: 0,0:00:04.66,0:00:05.01,Default,,0,0,0,,{\pos(540,1513)}This is the\N{\c&H00657811&\b1}wiring{\c&H002A2B17&\b0} that connects
+Dialogue: 0,0:00:05.01,0:00:05.34,Default,,0,0,0,,{\pos(540,1513)}This is the\Nwiring {\c&H00657811&\b1}that{\c&H002A2B17&\b0} connects
+Dialogue: 0,0:00:05.34,0:00:05.70,Default,,0,0,0,,{\pos(540,1513)}This is the\Nwiring that {\c&H00657811&\b1}connects{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:05.58,0:00:05.86,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}these{\c&H002A2B17&\b0} abstract\Nhigh -level concepts
+Dialogue: 0,0:00:05.86,0:00:06.26,Default,,0,0,0,,{\pos(540,1513)}these {\c&H00657811&\b1}abstract{\c&H002A2B17&\b0}\Nhigh -level concepts
+Dialogue: 0,0:00:06.26,0:00:06.77,Default,,0,0,0,,{\pos(540,1513)}these abstract\N{\c&H00657811&\b1}high{\c&H002A2B17&\b0} -level concepts
+Dialogue: 0,0:00:06.77,0:00:07.00,Default,,0,0,0,,{\pos(540,1513)}these abstract\Nhigh {\c&H00657811&\b1}-level{\c&H002A2B17&\b0} concepts
+Dialogue: 0,0:00:07.00,0:00:07.48,Default,,0,0,0,,{\pos(540,1513)}these abstract\Nhigh -level {\c&H00657811&\b1}concepts{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:07.36,0:00:07.84,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}back{\c&H002A2B17&\b0} to the\Nphysical source fields
+Dialogue: 0,0:00:07.84,0:00:08.22,Default,,0,0,0,,{\pos(540,1513)}back {\c&H00657811&\b1}to{\c&H002A2B17&\b0} the\Nphysical source fields
+Dialogue: 0,0:00:08.22,0:00:08.32,Default,,0,0,0,,{\pos(540,1513)}back to {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nphysical source fields
+Dialogue: 0,0:00:08.32,0:00:08.56,Default,,0,0,0,,{\pos(540,1513)}back to the\N{\c&H00657811&\b1}physical{\c&H002A2B17&\b0} source fields
+Dialogue: 0,0:00:08.56,0:00:09.00,Default,,0,0,0,,{\pos(540,1513)}back to the\Nphysical {\c&H00657811&\b1}source{\c&H002A2B17&\b0} fields
+Dialogue: 0,0:00:09.00,0:00:09.34,Default,,0,0,0,,{\pos(540,1513)}back to the\Nphysical source {\c&H00657811&\b1}fields{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:09.22,0:00:09.44,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}in{\c&H002A2B17&\b0} your actual databases.
+Dialogue: 0,0:00:09.44,0:00:09.56,Default,,0,0,0,,{\pos(540,1513)}in {\c&H00657811&\b1}your{\c&H002A2B17&\b0} actual databases.
+Dialogue: 0,0:00:09.56,0:00:09.90,Default,,0,0,0,,{\pos(540,1513)}in your {\c&H00657811&\b1}actual{\c&H002A2B17&\b0} databases.
+Dialogue: 0,0:00:09.90,0:00:10.39,Default,,0,0,0,,{\pos(540,1513)}in your actual {\c&H00657811&\b1}databases.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:11.14,0:00:11.30,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Okay,{\c&H002A2B17&\b0} so it points to the
+Dialogue: 0,0:00:11.30,0:00:11.50,Default,,0,0,0,,{\pos(540,1513)}Okay, {\c&H00657811&\b1}so{\c&H002A2B17&\b0} it points to the
+Dialogue: 0,0:00:11.50,0:00:11.58,Default,,0,0,0,,{\pos(540,1513)}Okay, so {\c&H00657811&\b1}it{\c&H002A2B17&\b0} points to the
+Dialogue: 0,0:00:11.58,0:00:11.82,Default,,0,0,0,,{\pos(540,1513)}Okay, so it {\c&H00657811&\b1}points{\c&H002A2B17&\b0} to the
+Dialogue: 0,0:00:11.82,0:00:12.12,Default,,0,0,0,,{\pos(540,1513)}Okay, so it points {\c&H00657811&\b1}to{\c&H002A2B17&\b0} the
+Dialogue: 0,0:00:12.12,0:00:12.31,Default,,0,0,0,,{\pos(540,1513)}Okay, so it points to {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:12.20,0:00:13.16,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}database.{\c&H002A2B17&\b0} It's the\Nmapping that tells
+Dialogue: 0,0:00:13.16,0:00:13.22,Default,,0,0,0,,{\pos(540,1513)}database. {\c&H00657811&\b1}It's{\c&H002A2B17&\b0} the\Nmapping that tells
+Dialogue: 0,0:00:13.22,0:00:13.36,Default,,0,0,0,,{\pos(540,1513)}database. It's {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nmapping that tells
+Dialogue: 0,0:00:13.36,0:00:13.54,Default,,0,0,0,,{\pos(540,1513)}database. It's the\N{\c&H00657811&\b1}mapping{\c&H002A2B17&\b0} that tells
+Dialogue: 0,0:00:13.54,0:00:13.80,Default,,0,0,0,,{\pos(540,1513)}database. It's the\Nmapping {\c&H00657811&\b1}that{\c&H002A2B17&\b0} tells
+Dialogue: 0,0:00:13.80,0:00:14.12,Default,,0,0,0,,{\pos(540,1513)}database. It's the\Nmapping that {\c&H00657811&\b1}tells{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:14.00,0:00:14.14,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}the{\c&H002A2B17&\b0} ontology, hey,\Nwhen the user
+Dialogue: 0,0:00:14.14,0:00:14.46,Default,,0,0,0,,{\pos(540,1513)}the {\c&H00657811&\b1}ontology,{\c&H002A2B17&\b0} hey,\Nwhen the user
+Dialogue: 0,0:00:14.46,0:00:15.07,Default,,0,0,0,,{\pos(540,1513)}the ontology, {\c&H00657811&\b1}hey,{\c&H002A2B17&\b0}\Nwhen the user
+Dialogue: 0,0:00:15.07,0:00:15.22,Default,,0,0,0,,{\pos(540,1513)}the ontology, hey,\N{\c&H00657811&\b1}when{\c&H002A2B17&\b0} the user
+Dialogue: 0,0:00:15.22,0:00:15.34,Default,,0,0,0,,{\pos(540,1513)}the ontology, hey,\Nwhen {\c&H00657811&\b1}the{\c&H002A2B17&\b0} user
+Dialogue: 0,0:00:15.34,0:00:15.67,Default,,0,0,0,,{\pos(540,1513)}the ontology, hey,\Nwhen the {\c&H00657811&\b1}user{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:15.55,0:00:15.88,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}asks{\c&H002A2B17&\b0} about a\Nregion, do not
+Dialogue: 0,0:00:15.88,0:00:16.20,Default,,0,0,0,,{\pos(540,1513)}asks {\c&H00657811&\b1}about{\c&H002A2B17&\b0} a\Nregion, do not
+Dialogue: 0,0:00:16.20,0:00:16.44,Default,,0,0,0,,{\pos(540,1513)}asks about {\c&H00657811&\b1}a{\c&H002A2B17&\b0}\Nregion, do not
+Dialogue: 0,0:00:16.44,0:00:16.82,Default,,0,0,0,,{\pos(540,1513)}asks about a\N{\c&H00657811&\b1}region,{\c&H002A2B17&\b0} do not
+Dialogue: 0,0:00:16.82,0:00:17.48,Default,,0,0,0,,{\pos(540,1513)}asks about a\Nregion, {\c&H00657811&\b1}do{\c&H002A2B17&\b0} not
+Dialogue: 0,0:00:17.48,0:00:17.80,Default,,0,0,0,,{\pos(540,1513)}asks about a\Nregion, do {\c&H00657811&\b1}not{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:17.68,0:00:18.30,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}hallucinate{\c&H002A2B17&\b0} an answer,\Ngo look specifically
+Dialogue: 0,0:00:18.30,0:00:18.52,Default,,0,0,0,,{\pos(540,1513)}hallucinate {\c&H00657811&\b1}an{\c&H002A2B17&\b0} answer,\Ngo look specifically
+Dialogue: 0,0:00:18.52,0:00:18.96,Default,,0,0,0,,{\pos(540,1513)}hallucinate an {\c&H00657811&\b1}answer,{\c&H002A2B17&\b0}\Ngo look specifically
+Dialogue: 0,0:00:18.96,0:00:19.02,Default,,0,0,0,,{\pos(540,1513)}hallucinate an answer,\N{\c&H00657811&\b1}go{\c&H002A2B17&\b0} look specifically
+Dialogue: 0,0:00:19.02,0:00:19.22,Default,,0,0,0,,{\pos(540,1513)}hallucinate an answer,\Ngo {\c&H00657811&\b1}look{\c&H002A2B17&\b0} specifically
+Dialogue: 0,0:00:19.22,0:00:19.76,Default,,0,0,0,,{\pos(540,1513)}hallucinate an answer,\Ngo look {\c&H00657811&\b1}specifically{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:19.64,0:00:20.14,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}at{\c&H002A2B17&\b0} column F in this exact
+Dialogue: 0,0:00:20.14,0:00:20.44,Default,,0,0,0,,{\pos(540,1513)}at {\c&H00657811&\b1}column{\c&H002A2B17&\b0} F in this exact
+Dialogue: 0,0:00:20.44,0:00:20.84,Default,,0,0,0,,{\pos(540,1513)}at column {\c&H00657811&\b1}F{\c&H002A2B17&\b0} in this exact
+Dialogue: 0,0:00:20.84,0:00:21.10,Default,,0,0,0,,{\pos(540,1513)}at column F {\c&H00657811&\b1}in{\c&H002A2B17&\b0} this exact
+Dialogue: 0,0:00:21.10,0:00:21.22,Default,,0,0,0,,{\pos(540,1513)}at column F in {\c&H00657811&\b1}this{\c&H002A2B17&\b0} exact
+Dialogue: 0,0:00:21.22,0:00:21.52,Default,,0,0,0,,{\pos(540,1513)}at column F in this {\c&H00657811&\b1}exact{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:21.40,0:00:22.16,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Lakehouse{\c&H002A2B17&\b0} table.
+Dialogue: 0,0:00:22.16,0:00:22.52,Default,,0,0,0,,{\pos(540,1513)}Lakehouse {\c&H00657811&\b1}table.{\c&H002A2B17&\b0}

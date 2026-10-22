@@ -1,0 +1,46 @@
+WEBVTT
+
+00:00:00.160 --> 00:00:02.560
+The ontology operates entirely by reference.
+
+00:00:03.240 --> 00:00:04.300
+The metric you see in the
+
+00:00:04.180 --> 00:00:05.860
+ontology simply acts as a pointer
+
+00:00:05.740 --> 00:00:07.540
+back to that original source model.
+
+00:00:07.840 --> 00:00:10.040
+If the CFO changes the definition
+
+00:00:09.920 --> 00:00:12.260
+of profit, your data engineers edit
+
+00:00:12.140 --> 00:00:13.620
+the DAX expression in the Power
+
+00:00:13.500 --> 00:00:15.120
+BI semantic model, just as they
+
+00:00:15.000 --> 00:00:17.060
+always have. The ontology's role is
+
+00:00:16.940 --> 00:00:18.840
+simply to provide a natural language
+
+00:00:18.720 --> 00:00:20.780
+description and contextual metadata
+
+00:00:20.660 --> 00:00:23.180
+so the AI agents understand what
+
+00:00:23.060 --> 00:00:24.540
+that metric represents and when to
+
+00:00:24.420 --> 00:00:26.760
+use it without ever altering or
+
+00:00:26.640 --> 00:00:27.759
+copying the source math.

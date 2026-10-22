@@ -1,0 +1,35 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.08,0:00:00.24,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}a{\c&H002A2B17&\b0} derived type\Ndoes not automatically
+Dialogue: 0,0:00:00.24,0:00:00.46,Default,,0,0,0,,{\pos(540,1513)}a {\c&H00657811&\b1}derived{\c&H002A2B17&\b0} type\Ndoes not automatically
+Dialogue: 0,0:00:00.46,0:00:00.96,Default,,0,0,0,,{\pos(540,1513)}a derived {\c&H00657811&\b1}type{\c&H002A2B17&\b0}\Ndoes not automatically
+Dialogue: 0,0:00:00.96,0:00:01.25,Default,,0,0,0,,{\pos(540,1513)}a derived type\N{\c&H00657811&\b1}does{\c&H002A2B17&\b0} not automatically
+Dialogue: 0,0:00:01.25,0:00:01.42,Default,,0,0,0,,{\pos(540,1513)}a derived type\Ndoes {\c&H00657811&\b1}not{\c&H002A2B17&\b0} automatically
+Dialogue: 0,0:00:01.42,0:00:02.04,Default,,0,0,0,,{\pos(540,1513)}a derived type\Ndoes not {\c&H00657811&\b1}automatically{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:01.92,0:00:02.32,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}inherit{\c&H002A2B17&\b0} the\Nphysical data bindings
+Dialogue: 0,0:00:02.32,0:00:02.55,Default,,0,0,0,,{\pos(540,1513)}inherit {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nphysical data bindings
+Dialogue: 0,0:00:02.55,0:00:02.80,Default,,0,0,0,,{\pos(540,1513)}inherit the\N{\c&H00657811&\b1}physical{\c&H002A2B17&\b0} data bindings
+Dialogue: 0,0:00:02.80,0:00:03.08,Default,,0,0,0,,{\pos(540,1513)}inherit the\Nphysical {\c&H00657811&\b1}data{\c&H002A2B17&\b0} bindings
+Dialogue: 0,0:00:03.08,0:00:03.54,Default,,0,0,0,,{\pos(540,1513)}inherit the\Nphysical data {\c&H00657811&\b1}bindings{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:03.42,0:00:03.72,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}of{\c&H002A2B17&\b0} its parent.
+Dialogue: 0,0:00:03.72,0:00:03.82,Default,,0,0,0,,{\pos(540,1513)}of {\c&H00657811&\b1}its{\c&H002A2B17&\b0} parent.
+Dialogue: 0,0:00:03.82,0:00:04.20,Default,,0,0,0,,{\pos(540,1513)}of its {\c&H00657811&\b1}parent.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:04.34,0:00:04.44,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}It{\c&H002A2B17&\b0} needs its\Nown specific data
+Dialogue: 0,0:00:04.44,0:00:04.59,Default,,0,0,0,,{\pos(540,1513)}It {\c&H00657811&\b1}needs{\c&H002A2B17&\b0} its\Nown specific data
+Dialogue: 0,0:00:04.59,0:00:04.84,Default,,0,0,0,,{\pos(540,1513)}It needs {\c&H00657811&\b1}its{\c&H002A2B17&\b0}\Nown specific data
+Dialogue: 0,0:00:04.84,0:00:05.09,Default,,0,0,0,,{\pos(540,1513)}It needs its\N{\c&H00657811&\b1}own{\c&H002A2B17&\b0} specific data
+Dialogue: 0,0:00:05.09,0:00:05.44,Default,,0,0,0,,{\pos(540,1513)}It needs its\Nown {\c&H00657811&\b1}specific{\c&H002A2B17&\b0} data
+Dialogue: 0,0:00:05.44,0:00:05.94,Default,,0,0,0,,{\pos(540,1513)}It needs its\Nown specific {\c&H00657811&\b1}data{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:05.82,0:00:06.22,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}bindings{\c&H002A2B17&\b0} mapped\Nto the tables.
+Dialogue: 0,0:00:06.22,0:00:06.53,Default,,0,0,0,,{\pos(540,1513)}bindings {\c&H00657811&\b1}mapped{\c&H002A2B17&\b0}\Nto the tables.
+Dialogue: 0,0:00:06.53,0:00:06.94,Default,,0,0,0,,{\pos(540,1513)}bindings mapped\N{\c&H00657811&\b1}to{\c&H002A2B17&\b0} the tables.
+Dialogue: 0,0:00:06.94,0:00:07.02,Default,,0,0,0,,{\pos(540,1513)}bindings mapped\Nto {\c&H00657811&\b1}the{\c&H002A2B17&\b0} tables.
+Dialogue: 0,0:00:07.02,0:00:07.43,Default,,0,0,0,,{\pos(540,1513)}bindings mapped\Nto the {\c&H00657811&\b1}tables.{\c&H002A2B17&\b0}

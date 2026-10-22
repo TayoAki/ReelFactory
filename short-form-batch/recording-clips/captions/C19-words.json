@@ -1,0 +1,531 @@
+{
+  "id": "C19",
+  "title": "Reuse the Power BI model you already built",
+  "source_start": 1099.890975,
+  "source_end": 1128.310975,
+  "duration": 28.420000000000073,
+  "part_ranges": [
+    {
+      "part": "part01.m4a",
+      "start": 349.84000000000003,
+      "end": 378.2600000000001
+    }
+  ],
+  "family": "ownership",
+  "left_label": "Power BI semantic model",
+  "right_label": "Ontology definitions",
+  "focus_label": "Reuse and review",
+  "example_kind": "semantic-model generation",
+  "words": [
+    {
+      "word": "The",
+      "start": 0.14000000000000012,
+      "end": 0.2599999999999998,
+      "probability": 0.969697892665863
+    },
+    {
+      "word": "system",
+      "start": 0.2599999999999998,
+      "end": 0.5,
+      "probability": 0.9974997639656067
+    },
+    {
+      "word": "is",
+      "start": 0.5,
+      "end": 0.6800000000000002,
+      "probability": 0.998879611492157
+    },
+    {
+      "word": "designed",
+      "start": 0.6800000000000002,
+      "end": 0.98,
+      "probability": 0.9957079887390137
+    },
+    {
+      "word": "so",
+      "start": 0.98,
+      "end": 1.2599999999999998,
+      "probability": 0.9294538497924805
+    },
+    {
+      "word": "you",
+      "start": 1.2599999999999998,
+      "end": 1.3599999999999999,
+      "probability": 0.9956061244010925
+    },
+    {
+      "word": "can",
+      "start": 1.3599999999999999,
+      "end": 1.46,
+      "probability": 0.9996154308319092
+    },
+    {
+      "word": "generate",
+      "start": 1.46,
+      "end": 1.8399999999999999,
+      "probability": 0.998994767665863
+    },
+    {
+      "word": "a",
+      "start": 1.8399999999999999,
+      "end": 2.04,
+      "probability": 0.9990419745445251
+    },
+    {
+      "word": "significant",
+      "start": 2.04,
+      "end": 2.34,
+      "probability": 0.9989111423492432
+    },
+    {
+      "word": "portion",
+      "start": 2.34,
+      "end": 2.92,
+      "probability": 0.9979958534240723
+    },
+    {
+      "word": "of",
+      "start": 2.92,
+      "end": 3.16,
+      "probability": 0.9996347427368164
+    },
+    {
+      "word": "your",
+      "start": 3.16,
+      "end": 3.26,
+      "probability": 0.9938983917236328
+    },
+    {
+      "word": "ontology",
+      "start": 3.26,
+      "end": 3.74,
+      "probability": 0.9938547611236572
+    },
+    {
+      "word": "directly",
+      "start": 3.74,
+      "end": 4.16,
+      "probability": 0.913058876991272
+    },
+    {
+      "word": "from",
+      "start": 4.16,
+      "end": 4.54,
+      "probability": 0.9982258677482605
+    },
+    {
+      "word": "an",
+      "start": 4.54,
+      "end": 4.66,
+      "probability": 0.9988042116165161
+    },
+    {
+      "word": "existing",
+      "start": 4.66,
+      "end": 4.98,
+      "probability": 0.9995394945144653
+    },
+    {
+      "word": "power",
+      "start": 4.98,
+      "end": 5.36,
+      "probability": 0.5720825791358948
+    },
+    {
+      "word": "BI",
+      "start": 5.36,
+      "end": 5.64,
+      "probability": 0.7415398359298706
+    },
+    {
+      "word": "semantic",
+      "start": 5.64,
+      "end": 5.9,
+      "probability": 0.8542590141296387
+    },
+    {
+      "word": "model.",
+      "start": 5.9,
+      "end": 6.4,
+      "probability": 0.9935758709907532
+    },
+    {
+      "word": "That",
+      "start": 6.800000000000001,
+      "end": 7.08,
+      "probability": 0.9897775053977966
+    },
+    {
+      "word": "makes",
+      "start": 7.08,
+      "end": 7.26,
+      "probability": 0.9981037378311157
+    },
+    {
+      "word": "total",
+      "start": 7.26,
+      "end": 7.4399999999999995,
+      "probability": 0.9962749481201172
+    },
+    {
+      "word": "sense",
+      "start": 7.4399999999999995,
+      "end": 7.76,
+      "probability": 0.9993508458137512
+    },
+    {
+      "word": "because",
+      "start": 7.76,
+      "end": 8.24,
+      "probability": 0.4439350962638855
+    },
+    {
+      "word": "a",
+      "start": 8.24,
+      "end": 8.38,
+      "probability": 0.8402092456817627
+    },
+    {
+      "word": "semantic",
+      "start": 8.38,
+      "end": 8.54,
+      "probability": 0.9915518760681152
+    },
+    {
+      "word": "model",
+      "start": 8.54,
+      "end": 8.92,
+      "probability": 0.9988271594047546
+    },
+    {
+      "word": "already",
+      "start": 8.92,
+      "end": 9.34,
+      "probability": 0.998619794845581
+    },
+    {
+      "word": "is",
+      "start": 9.34,
+      "end": 9.74,
+      "probability": 0.9971476197242737
+    },
+    {
+      "word": "a",
+      "start": 9.74,
+      "end": 9.96,
+      "probability": 0.9690005779266357
+    },
+    {
+      "word": "form",
+      "start": 9.96,
+      "end": 10.22,
+      "probability": 0.9993495345115662
+    },
+    {
+      "word": "of",
+      "start": 10.22,
+      "end": 10.42,
+      "probability": 0.9992325305938721
+    },
+    {
+      "word": "an",
+      "start": 10.42,
+      "end": 10.48,
+      "probability": 0.9735185503959656
+    },
+    {
+      "word": "ontology.",
+      "start": 10.48,
+      "end": 10.96,
+      "probability": 0.9960322678089142
+    },
+    {
+      "word": "It",
+      "start": 11.4,
+      "end": 11.56,
+      "probability": 0.9942892789840698
+    },
+    {
+      "word": "has",
+      "start": 11.56,
+      "end": 11.68,
+      "probability": 0.976271390914917
+    },
+    {
+      "word": "the",
+      "start": 11.68,
+      "end": 11.88,
+      "probability": 0.9431244134902954
+    },
+    {
+      "word": "tables,",
+      "start": 11.88,
+      "end": 12.2,
+      "probability": 0.9930973649024963
+    },
+    {
+      "word": "the",
+      "start": 12.2,
+      "end": 12.58,
+      "probability": 0.9969140291213989
+    },
+    {
+      "word": "relationships,",
+      "start": 12.58,
+      "end": 12.96,
+      "probability": 0.9939380884170532
+    },
+    {
+      "word": "the",
+      "start": 13.3,
+      "end": 13.5,
+      "probability": 0.9971822500228882
+    },
+    {
+      "word": "business",
+      "start": 13.5,
+      "end": 13.72,
+      "probability": 0.997506320476532
+    },
+    {
+      "word": "logic.",
+      "start": 13.72,
+      "end": 14.059999999999999,
+      "probability": 0.996129035949707
+    },
+    {
+      "word": "How",
+      "start": 14.86,
+      "end": 15.100000000000001,
+      "probability": 0.9844187498092651
+    },
+    {
+      "word": "seamless",
+      "start": 15.100000000000001,
+      "end": 15.34,
+      "probability": 0.9924991726875305
+    },
+    {
+      "word": "is",
+      "start": 15.34,
+      "end": 15.600000000000001,
+      "probability": 0.9898437261581421
+    },
+    {
+      "word": "that",
+      "start": 15.600000000000001,
+      "end": 15.719999999999999,
+      "probability": 0.9988386034965515
+    },
+    {
+      "word": "translation",
+      "start": 15.719999999999999,
+      "end": 15.96,
+      "probability": 0.9935092329978943
+    },
+    {
+      "word": "process?",
+      "start": 15.96,
+      "end": 16.54,
+      "probability": 0.990027129650116
+    },
+    {
+      "word": "The",
+      "start": 17.14,
+      "end": 17.18,
+      "probability": 0.9931994080543518
+    },
+    {
+      "word": "ontology",
+      "start": 17.18,
+      "end": 17.56,
+      "probability": 0.9954241514205933
+    },
+    {
+      "word": "agent",
+      "start": 17.56,
+      "end": 17.94,
+      "probability": 0.995708703994751
+    },
+    {
+      "word": "essentially",
+      "start": 17.94,
+      "end": 18.58,
+      "probability": 0.9642031788825989
+    },
+    {
+      "word": "ingests",
+      "start": 18.58,
+      "end": 19.2,
+      "probability": 0.9123453497886658
+    },
+    {
+      "word": "the",
+      "start": 19.2,
+      "end": 19.62,
+      "probability": 0.9968472123146057
+    },
+    {
+      "word": "structure",
+      "start": 19.62,
+      "end": 19.86,
+      "probability": 0.9981470108032227
+    },
+    {
+      "word": "you've",
+      "start": 19.86,
+      "end": 20.16,
+      "probability": 0.9651643633842468
+    },
+    {
+      "word": "already",
+      "start": 20.16,
+      "end": 20.38,
+      "probability": 0.9864928126335144
+    },
+    {
+      "word": "built.",
+      "start": 20.38,
+      "end": 20.7,
+      "probability": 0.9784099459648132
+    },
+    {
+      "word": "The",
+      "start": 21.12,
+      "end": 21.18,
+      "probability": 0.9809470772743225
+    },
+    {
+      "word": "tables,",
+      "start": 21.18,
+      "end": 21.52,
+      "probability": 0.9557331204414368
+    },
+    {
+      "word": "columns,",
+      "start": 21.7,
+      "end": 21.98,
+      "probability": 0.9971388578414917
+    },
+    {
+      "word": "and",
+      "start": 22.4,
+      "end": 22.42,
+      "probability": 0.9927585124969482
+    },
+    {
+      "word": "established",
+      "start": 22.42,
+      "end": 22.68,
+      "probability": 0.9827811121940613
+    },
+    {
+      "word": "relationships",
+      "start": 22.68,
+      "end": 23.4,
+      "probability": 0.9969508647918701
+    },
+    {
+      "word": "in",
+      "start": 23.4,
+      "end": 23.68,
+      "probability": 0.7864084839820862
+    },
+    {
+      "word": "your",
+      "start": 23.68,
+      "end": 23.8,
+      "probability": 0.9946278929710388
+    },
+    {
+      "word": "Power",
+      "start": 23.8,
+      "end": 24.0,
+      "probability": 0.801486074924469
+    },
+    {
+      "word": "BI",
+      "start": 24.0,
+      "end": 24.3,
+      "probability": 0.9433367848396301
+    },
+    {
+      "word": "model",
+      "start": 24.3,
+      "end": 24.68,
+      "probability": 0.884624183177948
+    },
+    {
+      "word": "automatically",
+      "start": 24.68,
+      "end": 25.240000000000002,
+      "probability": 0.9969760179519653
+    },
+    {
+      "word": "provide",
+      "start": 25.240000000000002,
+      "end": 25.88,
+      "probability": 0.9915995597839355
+    },
+    {
+      "word": "the",
+      "start": 25.88,
+      "end": 26.119999999999997,
+      "probability": 0.9954778552055359
+    },
+    {
+      "word": "scaffolding",
+      "start": 26.119999999999997,
+      "end": 26.560000000000002,
+      "probability": 0.9956964552402496
+    },
+    {
+      "word": "for",
+      "start": 26.560000000000002,
+      "end": 26.84,
+      "probability": 0.9966089725494385
+    },
+    {
+      "word": "the",
+      "start": 26.84,
+      "end": 26.939999999999998,
+      "probability": 0.9874860644340515
+    },
+    {
+      "word": "ontologies,",
+      "start": 26.939999999999998,
+      "end": 27.36,
+      "probability": 0.9811995923519135
+    },
+    {
+      "word": "entities,",
+      "start": 27.64,
+      "end": 27.72,
+      "probability": 0.9780739545822144
+    },
+    {
+      "word": "and",
+      "start": 27.8,
+      "end": 28.060000000000002,
+      "probability": 0.9939476251602173
+    },
+    {
+      "word": "properties.",
+      "start": 28.060000000000002,
+      "end": 28.32,
+      "probability": 0.9993378520011902
+    }
+  ],
+  "transcript_asr": "The system is designed so you can generate a significant portion of your ontology directly from an existing power BI semantic model. That makes total sense because a semantic model already is a form of an ontology. It has the tables, the relationships, the business logic. How seamless is that translation process? The ontology agent essentially ingests the structure you've already built. The tables, columns, and established relationships in your Power BI model automatically provide the scaffolding for the ontologies, entities, and properties.",
+  "source_kind": "actual uploaded recording; continuous audio excerpt",
+  "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "status": "planned",
+  "publish_status": "draft for review",
+  "narration_replaced": false,
+  "actual_timestamps": true,
+  "context_label": "Original discussion excerpt",
+  "review_flags": [],
+  "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
+  "caption_corrections": [],
+  "caption_join_review": []
+}

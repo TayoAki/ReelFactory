@@ -1,0 +1,48 @@
+{
+  "id": "C41",
+  "family": "evidence",
+  "master_image": "../master-evidence.png",
+  "visual_workflow": "image-first",
+  "state_images": [
+    "01-initial.jpg",
+    "02-build.jpg",
+    "03-settled.jpg"
+  ],
+  "layers": [
+    {
+      "label": "Historical evaluation",
+      "sub": "CHECK THE BASIS",
+      "x": 100,
+      "y": 680,
+      "w": 880,
+      "h": 250,
+      "focal": true,
+      "on": 0.7,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Uncertainty",
+      "sub": "VERIFY THE RESULT",
+      "x": 100,
+      "y": 1050,
+      "w": 880,
+      "h": 250,
+      "focal": false,
+      "on": 8.06,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    }
+  ],
+  "relation": "Show the basis for trust",
+  "source_quote": "before you ever display the output of a predictive model in a business review, you must explicitly evaluate and display the historical statistical uncertainty of that model. So you have to show its track record. You have to show the operator the model's past accuracy. Have these forecasts historically suffered from model drift? Is there bias in the legacy data? you must give the human operator the statistical basis for deciding whether they should actually trust this prediction enough to route a hundred thousand dollar delivery truck based on it. You never present a probabilistic forecast as a deterministic fact.",
+  "why": "Show what must be checked rather than an invented successful result.",
+  "alternative": "Authentic tenant UI would be preferable for proving an executed product action; this clip is a concept illustration.",
+  "visual_review": "Draft, not human approved. Generated symbols corrected in editable reconstruction.",
+  "source_reference": "reference-library/frames/graphic/0003510.jpg",
+  "motion": "independent card alpha reveal + 16px eased settling, timed to recording keywords; fixed grid and presenter rail",
+  "source_start": 2622.029705,
+  "source_end": 2654.9097049999996,
+  "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+}

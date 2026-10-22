@@ -1,0 +1,489 @@
+{
+  "id": "C42",
+  "title": "When the relationship path is the question",
+  "source_start": 2705.349705,
+  "source_end": 2731.2097049999998,
+  "duration": 25.859999999999673,
+  "part_ranges": [
+    {
+      "part": "part03.m4a",
+      "start": 455.22000000000025,
+      "end": 481.0799999999999
+    }
+  ],
+  "family": "graph",
+  "left_label": "Supplier \u2192 Products",
+  "right_label": "Shipments \u2192 Stores",
+  "focus_label": "Illustrative recall path",
+  "example_kind": "hypothetical supplier exposure; no SQL-failure claim",
+  "words": [
+    {
+      "word": "Let's",
+      "start": 0.12000000000000144,
+      "end": 0.6800000000000002,
+      "probability": 0.9178112149238586
+    },
+    {
+      "word": "say",
+      "start": 0.6800000000000002,
+      "end": 0.7999999999999998,
+      "probability": 0.9941080808639526
+    },
+    {
+      "word": "a",
+      "start": 0.7999999999999998,
+      "end": 0.9199999999999999,
+      "probability": 0.9831598401069641
+    },
+    {
+      "word": "specific",
+      "start": 0.9199999999999999,
+      "end": 1.2599999999999998,
+      "probability": 0.9924138188362122
+    },
+    {
+      "word": "agricultural",
+      "start": 1.2599999999999998,
+      "end": 1.6800000000000002,
+      "probability": 0.9435669183731079
+    },
+    {
+      "word": "supplier",
+      "start": 1.6800000000000002,
+      "end": 2.46,
+      "probability": 0.9951026439666748
+    },
+    {
+      "word": "calls",
+      "start": 2.46,
+      "end": 2.8,
+      "probability": 0.990656316280365
+    },
+    {
+      "word": "you",
+      "start": 2.8,
+      "end": 3.0199999999999996,
+      "probability": 0.9961133003234863
+    },
+    {
+      "word": "in",
+      "start": 3.0199999999999996,
+      "end": 3.16,
+      "probability": 0.9767445921897888
+    },
+    {
+      "word": "a",
+      "start": 3.16,
+      "end": 3.24,
+      "probability": 0.9936776757240295
+    },
+    {
+      "word": "panic",
+      "start": 3.24,
+      "end": 3.58,
+      "probability": 0.9720101356506348
+    },
+    {
+      "word": "and",
+      "start": 3.58,
+      "end": 4.2,
+      "probability": 0.9335038065910339
+    },
+    {
+      "word": "informs",
+      "start": 4.2,
+      "end": 4.42,
+      "probability": 0.997210681438446
+    },
+    {
+      "word": "you",
+      "start": 4.42,
+      "end": 4.64,
+      "probability": 0.9956514239311218
+    },
+    {
+      "word": "that",
+      "start": 4.64,
+      "end": 4.76,
+      "probability": 0.9986090064048767
+    },
+    {
+      "word": "a",
+      "start": 4.76,
+      "end": 4.9,
+      "probability": 0.99393230676651
+    },
+    {
+      "word": "massive",
+      "start": 4.9,
+      "end": 5.36,
+      "probability": 0.9972555041313171
+    },
+    {
+      "word": "batch",
+      "start": 5.36,
+      "end": 5.68,
+      "probability": 0.9944943785667419
+    },
+    {
+      "word": "of",
+      "start": 5.68,
+      "end": 5.86,
+      "probability": 0.9974198341369629
+    },
+    {
+      "word": "raw",
+      "start": 5.86,
+      "end": 6.0,
+      "probability": 0.9819515943527222
+    },
+    {
+      "word": "ingredients",
+      "start": 6.0,
+      "end": 6.279999999999999,
+      "probability": 0.9985082745552063
+    },
+    {
+      "word": "was",
+      "start": 6.279999999999999,
+      "end": 6.619999999999999,
+      "probability": 0.9832942485809326
+    },
+    {
+      "word": "contaminated.",
+      "start": 6.619999999999999,
+      "end": 6.880000000000001,
+      "probability": 0.9735268354415894
+    },
+    {
+      "word": "Ooh,",
+      "start": 7.24,
+      "end": 7.4,
+      "probability": 0.4428933896124363
+    },
+    {
+      "word": "a",
+      "start": 7.460000000000001,
+      "end": 7.460000000000001,
+      "probability": 0.5958431959152222
+    },
+    {
+      "word": "recall",
+      "start": 7.460000000000001,
+      "end": 7.640000000000001,
+      "probability": 0.9021018147468567
+    },
+    {
+      "word": "situation.",
+      "start": 7.640000000000001,
+      "end": 7.960000000000001,
+      "probability": 0.9928817749023438
+    },
+    {
+      "word": "Right.",
+      "start": 8.56,
+      "end": 8.66,
+      "probability": 0.9749959707260132
+    },
+    {
+      "word": "You",
+      "start": 9.54,
+      "end": 9.56,
+      "probability": 0.9947497248649597
+    },
+    {
+      "word": "need",
+      "start": 9.56,
+      "end": 9.72,
+      "probability": 0.9983548521995544
+    },
+    {
+      "word": "to",
+      "start": 9.72,
+      "end": 9.88,
+      "probability": 0.9995842576026917
+    },
+    {
+      "word": "instantly",
+      "start": 9.88,
+      "end": 10.36,
+      "probability": 0.9982155561447144
+    },
+    {
+      "word": "trace",
+      "start": 10.36,
+      "end": 10.68,
+      "probability": 0.9959379434585571
+    },
+    {
+      "word": "that",
+      "start": 10.68,
+      "end": 10.88,
+      "probability": 0.9947062134742737
+    },
+    {
+      "word": "supplier's",
+      "start": 10.88,
+      "end": 11.34,
+      "probability": 0.94801265001297
+    },
+    {
+      "word": "exposure",
+      "start": 11.34,
+      "end": 11.66,
+      "probability": 0.9987033605575562
+    },
+    {
+      "word": "through",
+      "start": 11.66,
+      "end": 12.04,
+      "probability": 0.9923604130744934
+    },
+    {
+      "word": "your",
+      "start": 12.04,
+      "end": 12.2,
+      "probability": 0.9974491000175476
+    },
+    {
+      "word": "entire",
+      "start": 12.2,
+      "end": 12.46,
+      "probability": 0.9952296018600464
+    },
+    {
+      "word": "global",
+      "start": 12.46,
+      "end": 12.88,
+      "probability": 0.9621621966362
+    },
+    {
+      "word": "supply",
+      "start": 12.88,
+      "end": 13.16,
+      "probability": 0.9994518160820007
+    },
+    {
+      "word": "chain.",
+      "start": 13.16,
+      "end": 13.56,
+      "probability": 0.9996143579483032
+    },
+    {
+      "word": "Which",
+      "start": 14.280000000000001,
+      "end": 14.399999999999999,
+      "probability": 0.9936733245849609
+    },
+    {
+      "word": "specific",
+      "start": 14.399999999999999,
+      "end": 14.66,
+      "probability": 0.9965513944625854
+    },
+    {
+      "word": "intermediate",
+      "start": 14.66,
+      "end": 15.059999999999999,
+      "probability": 0.9510625004768372
+    },
+    {
+      "word": "products",
+      "start": 15.059999999999999,
+      "end": 15.620000000000001,
+      "probability": 0.9956470131874084
+    },
+    {
+      "word": "contain",
+      "start": 15.620000000000001,
+      "end": 15.84,
+      "probability": 0.8311877846717834
+    },
+    {
+      "word": "that",
+      "start": 15.84,
+      "end": 16.28,
+      "probability": 0.9939612150192261
+    },
+    {
+      "word": "batch,",
+      "start": 16.28,
+      "end": 16.48,
+      "probability": 0.9738673567771912
+    },
+    {
+      "word": "which",
+      "start": 17.1,
+      "end": 17.26,
+      "probability": 0.9956444501876831
+    },
+    {
+      "word": "exact",
+      "start": 17.26,
+      "end": 17.46,
+      "probability": 0.9834225177764893
+    },
+    {
+      "word": "multimodal",
+      "start": 17.46,
+      "end": 18.1,
+      "probability": 0.8578569690386454
+    },
+    {
+      "word": "shipments",
+      "start": 18.1,
+      "end": 18.26,
+      "probability": 0.9930433034896851
+    },
+    {
+      "word": "carried",
+      "start": 18.26,
+      "end": 18.68,
+      "probability": 0.9077660441398621
+    },
+    {
+      "word": "those",
+      "start": 18.68,
+      "end": 18.9,
+      "probability": 0.9906288981437683
+    },
+    {
+      "word": "products,",
+      "start": 18.9,
+      "end": 19.3,
+      "probability": 0.9962865114212036
+    },
+    {
+      "word": "which",
+      "start": 19.86,
+      "end": 20.04,
+      "probability": 0.9972297549247742
+    },
+    {
+      "word": "which",
+      "start": 20.0,
+      "end": 20.04,
+      "probability": 0.9964057207107544
+    },
+    {
+      "word": "specific",
+      "start": 20.04,
+      "end": 20.34,
+      "probability": 0.9922542572021484
+    },
+    {
+      "word": "retail",
+      "start": 20.34,
+      "end": 20.72,
+      "probability": 0.9822913408279419
+    },
+    {
+      "word": "stores",
+      "start": 20.72,
+      "end": 21.4,
+      "probability": 0.995089590549469
+    },
+    {
+      "word": "received",
+      "start": 21.4,
+      "end": 21.7,
+      "probability": 0.8437416553497314
+    },
+    {
+      "word": "those",
+      "start": 21.7,
+      "end": 21.92,
+      "probability": 0.9892895817756653
+    },
+    {
+      "word": "shipments",
+      "start": 21.92,
+      "end": 22.14,
+      "probability": 0.9946171641349792
+    },
+    {
+      "word": "and",
+      "start": 22.14,
+      "end": 22.66,
+      "probability": 0.5223333239555359
+    },
+    {
+      "word": "which",
+      "start": 22.66,
+      "end": 22.86,
+      "probability": 0.99272221326828
+    },
+    {
+      "word": "exact",
+      "start": 22.86,
+      "end": 23.22,
+      "probability": 0.9828170537948608
+    },
+    {
+      "word": "refrigeration",
+      "start": 23.22,
+      "end": 24.240000000000002,
+      "probability": 0.9913939833641052
+    },
+    {
+      "word": "units",
+      "start": 24.240000000000002,
+      "end": 24.46,
+      "probability": 0.9985906481742859
+    },
+    {
+      "word": "are",
+      "start": 24.46,
+      "end": 24.62,
+      "probability": 0.9971711039543152
+    },
+    {
+      "word": "currently",
+      "start": 24.62,
+      "end": 24.8,
+      "probability": 0.9957360029220581
+    },
+    {
+      "word": "holding",
+      "start": 24.8,
+      "end": 25.2,
+      "probability": 0.9975282549858093
+    },
+    {
+      "word": "them",
+      "start": 25.2,
+      "end": 25.32,
+      "probability": 0.996597945690155
+    },
+    {
+      "word": "on",
+      "start": 25.32,
+      "end": 25.44,
+      "probability": 0.9966932535171509
+    },
+    {
+      "word": "the",
+      "start": 25.44,
+      "end": 25.52,
+      "probability": 0.9978557229042053
+    },
+    {
+      "word": "floor.",
+      "start": 25.52,
+      "end": 25.72,
+      "probability": 0.998785674571991
+    }
+  ],
+  "transcript_asr": "Let's say a specific agricultural supplier calls you in a panic and informs you that a massive batch of raw ingredients was contaminated. Ooh, a recall situation. Right. You need to instantly trace that supplier's exposure through your entire global supply chain. Which specific intermediate products contain that batch, which exact multimodal shipments carried those products, which which specific retail stores received those shipments and which exact refrigeration units are currently holding them on the floor.",
+  "source_kind": "actual uploaded recording; continuous audio excerpt",
+  "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "status": "planned",
+  "publish_status": "draft for review",
+  "narration_replaced": false,
+  "actual_timestamps": true,
+  "context_label": "Illustrative scenario",
+  "review_flags": [],
+  "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
+  "caption_corrections": [],
+  "caption_join_review": []
+}

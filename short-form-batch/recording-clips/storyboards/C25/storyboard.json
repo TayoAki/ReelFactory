@@ -1,0 +1,48 @@
+{
+  "id": "C25",
+  "family": "entities",
+  "master_image": "../master-entities.png",
+  "visual_workflow": "image-first",
+  "state_images": [
+    "01-initial.jpg",
+    "02-build.jpg",
+    "03-settled.jpg"
+  ],
+  "layers": [
+    {
+      "label": "Retail location",
+      "sub": "ENTITY TYPE",
+      "x": 100,
+      "y": 680,
+      "w": 880,
+      "h": 250,
+      "focal": true,
+      "on": 0.7,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Shops",
+      "sub": "SYNONYM \u00b7 SAME ENTITY TYPE",
+      "x": 100,
+      "y": 1050,
+      "w": 880,
+      "h": 250,
+      "focal": false,
+      "on": 11.48,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    }
+  ],
+  "relation": "Entity synonyms",
+  "source_quote": "You can also define extensive lists of synonyms for entity types. Why synonyms? If corporate formally calls it a retail location, but the regional managers always ask the chat about the shops, you define shop as a synonym so the AI knows they mean the exact same entity.",
+  "why": "Keep the named concepts and their relationship visible.",
+  "alternative": "Authentic tenant UI would be preferable for proving an executed product action; this clip is a concept illustration.",
+  "visual_review": "Draft, not human approved. Generated symbols corrected in editable reconstruction.",
+  "source_reference": "reference-library/frames/graphic/0003510.jpg",
+  "motion": "independent card alpha reveal + 16px eased settling, timed to recording keywords; fixed grid and presenter rail",
+  "source_start": 1490.710975,
+  "source_end": 1507.32195,
+  "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+}

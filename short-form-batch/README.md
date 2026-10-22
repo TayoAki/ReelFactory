@@ -1,6 +1,8 @@
-# Fabric short-form preparation pack
+# Fabric short-form recording clips and preparation pack
 
-**Actual recording ingest is blocked by the 32 MiB download limit. No clips have been rendered from the new audio.**
+**The five smaller uploads resolved the transfer limit. Full-recording transcription and 57 actual recording selections are now in [recording-clips](recording-clips/README.md).**
+
+The older V01–V39 bank below remains script-based planning. Use C01–C57 for actual audio moments and exports.
 
 [Browse the 39 script-based drafts](planning/clip_candidates.csv) · [Review of both guides](REVIEW.md) · [What is needed to continue](BLOCKED.md)
 

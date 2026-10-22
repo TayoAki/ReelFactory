@@ -1,0 +1,279 @@
+{
+  "id": "C37",
+  "title": "A chat table is not a complete export",
+  "source_start": 2420.489705,
+  "source_end": 2432.7697049999997,
+  "duration": 12.279999999999745,
+  "part_ranges": [
+    {
+      "part": "part03.m4a",
+      "start": 170.36000000000013,
+      "end": 182.63999999999987
+    }
+  ],
+  "family": "evidence",
+  "left_label": "Displayed rows",
+  "right_label": "All matching records",
+  "focus_label": "Bounded results",
+  "example_kind": "returned-table boundary",
+  "words": [
+    {
+      "word": "The",
+      "start": 0.1200000000000001,
+      "end": 0.2400000000000002,
+      "probability": 0.9556779861450195
+    },
+    {
+      "word": "agent's",
+      "start": 0.2400000000000002,
+      "end": 0.6800000000000002,
+      "probability": 0.7295590341091156
+    },
+    {
+      "word": "chat",
+      "start": 0.6800000000000002,
+      "end": 0.7999999999999998,
+      "probability": 0.9882886409759521
+    },
+    {
+      "word": "interface",
+      "start": 0.7999999999999998,
+      "end": 1.2599999999999998,
+      "probability": 0.9980149269104004
+    },
+    {
+      "word": "might",
+      "start": 1.2599999999999998,
+      "end": 1.54,
+      "probability": 0.9940298795700073
+    },
+    {
+      "word": "only",
+      "start": 1.54,
+      "end": 1.7200000000000002,
+      "probability": 0.9990161657333374
+    },
+    {
+      "word": "display",
+      "start": 1.7200000000000002,
+      "end": 2.1799999999999997,
+      "probability": 0.9984270334243774
+    },
+    {
+      "word": "a",
+      "start": 2.1799999999999997,
+      "end": 2.4800000000000004,
+      "probability": 0.9949641227722168
+    },
+    {
+      "word": "bounded",
+      "start": 2.4800000000000004,
+      "end": 2.76,
+      "probability": 0.9955867528915405
+    },
+    {
+      "word": "set",
+      "start": 2.76,
+      "end": 3.0599999999999996,
+      "probability": 0.9986695051193237
+    },
+    {
+      "word": "of",
+      "start": 3.0599999999999996,
+      "end": 3.1799999999999997,
+      "probability": 0.9994845390319824
+    },
+    {
+      "word": "results,",
+      "start": 3.1799999999999997,
+      "end": 3.4000000000000004,
+      "probability": 0.997638463973999
+    },
+    {
+      "word": "say",
+      "start": 3.4000000000000004,
+      "end": 3.96,
+      "probability": 0.993618369102478
+    },
+    {
+      "word": "a",
+      "start": 3.96,
+      "end": 4.26,
+      "probability": 0.7168641090393066
+    },
+    {
+      "word": "table",
+      "start": 4.26,
+      "end": 4.66,
+      "probability": 0.9657541513442993
+    },
+    {
+      "word": "of",
+      "start": 4.66,
+      "end": 4.86,
+      "probability": 0.998246431350708
+    },
+    {
+      "word": "the",
+      "start": 4.86,
+      "end": 4.96,
+      "probability": 0.998659610748291
+    },
+    {
+      "word": "top",
+      "start": 4.96,
+      "end": 5.12,
+      "probability": 0.8599323034286499
+    },
+    {
+      "word": "10",
+      "start": 5.12,
+      "end": 5.4,
+      "probability": 0.8356456756591797
+    },
+    {
+      "word": "rows.",
+      "start": 5.4,
+      "end": 5.62,
+      "probability": 0.9981641173362732
+    },
+    {
+      "word": "A",
+      "start": 6.380000000000001,
+      "end": 6.48,
+      "probability": 0.9763618111610413
+    },
+    {
+      "word": "return",
+      "start": 6.48,
+      "end": 6.74,
+      "probability": 0.5936315655708313
+    },
+    {
+      "word": "to",
+      "start": 6.74,
+      "end": 6.960000000000001,
+      "probability": 0.9770196676254272
+    },
+    {
+      "word": "table",
+      "start": 6.960000000000001,
+      "end": 7.279999999999999,
+      "probability": 0.9801953434944153
+    },
+    {
+      "word": "in",
+      "start": 7.279999999999999,
+      "end": 7.48,
+      "probability": 0.6403801441192627
+    },
+    {
+      "word": "a",
+      "start": 7.48,
+      "end": 7.5600000000000005,
+      "probability": 0.9938924312591553
+    },
+    {
+      "word": "chat",
+      "start": 7.5600000000000005,
+      "end": 7.699999999999999,
+      "probability": 0.9744120240211487
+    },
+    {
+      "word": "window",
+      "start": 7.699999999999999,
+      "end": 7.960000000000001,
+      "probability": 0.9947307109832764
+    },
+    {
+      "word": "is",
+      "start": 7.960000000000001,
+      "end": 8.26,
+      "probability": 0.9955229759216309
+    },
+    {
+      "word": "not",
+      "start": 8.26,
+      "end": 8.44,
+      "probability": 0.9993113279342651
+    },
+    {
+      "word": "automatically",
+      "start": 8.44,
+      "end": 9.1,
+      "probability": 0.9961937665939331
+    },
+    {
+      "word": "a",
+      "start": 9.1,
+      "end": 9.48,
+      "probability": 0.9950055480003357
+    },
+    {
+      "word": "complete",
+      "start": 9.48,
+      "end": 9.82,
+      "probability": 0.9990629553794861
+    },
+    {
+      "word": "export",
+      "start": 9.82,
+      "end": 10.3,
+      "probability": 0.9862434267997742
+    },
+    {
+      "word": "of",
+      "start": 10.3,
+      "end": 10.62,
+      "probability": 0.9982002973556519
+    },
+    {
+      "word": "every",
+      "start": 10.62,
+      "end": 10.98,
+      "probability": 0.9954190254211426
+    },
+    {
+      "word": "matching",
+      "start": 10.98,
+      "end": 11.28,
+      "probability": 0.9916998147964478
+    },
+    {
+      "word": "record",
+      "start": 11.28,
+      "end": 11.58,
+      "probability": 0.9988466501235962
+    },
+    {
+      "word": "in",
+      "start": 11.58,
+      "end": 11.82,
+      "probability": 0.991707980632782
+    },
+    {
+      "word": "the",
+      "start": 11.82,
+      "end": 11.9,
+      "probability": 0.9988778233528137
+    },
+    {
+      "word": "database.",
+      "start": 11.9,
+      "end": 12.22,
+      "probability": 0.9941728711128235
+    }
+  ],
+  "transcript_asr": "The agent's chat interface might only display a bounded set of results, say a table of the top 10 rows. A return to table in a chat window is not automatically a complete export of every matching record in the database.",
+  "source_kind": "actual uploaded recording; continuous audio excerpt",
+  "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "status": "planned",
+  "publish_status": "draft for review",
+  "narration_replaced": false,
+  "actual_timestamps": true,
+  "context_label": "Original discussion excerpt",
+  "review_flags": [],
+  "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
+  "caption_corrections": [],
+  "caption_join_review": []
+}

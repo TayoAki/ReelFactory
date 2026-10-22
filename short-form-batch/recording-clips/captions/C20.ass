@@ -1,0 +1,200 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.68,0:00:00.70,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}You{\c&H002A2B17&\b0} rarely have\Njust one perfect
+Dialogue: 0,0:00:00.70,0:00:00.92,Default,,0,0,0,,{\pos(540,1513)}You {\c&H00657811&\b1}rarely{\c&H002A2B17&\b0} have\Njust one perfect
+Dialogue: 0,0:00:00.92,0:00:01.31,Default,,0,0,0,,{\pos(540,1513)}You rarely {\c&H00657811&\b1}have{\c&H002A2B17&\b0}\Njust one perfect
+Dialogue: 0,0:00:01.31,0:00:01.50,Default,,0,0,0,,{\pos(540,1513)}You rarely have\N{\c&H00657811&\b1}just{\c&H002A2B17&\b0} one perfect
+Dialogue: 0,0:00:01.50,0:00:01.77,Default,,0,0,0,,{\pos(540,1513)}You rarely have\Njust {\c&H00657811&\b1}one{\c&H002A2B17&\b0} perfect
+Dialogue: 0,0:00:01.77,0:00:02.84,Default,,0,0,0,,{\pos(540,1513)}You rarely have\Njust one {\c&H00657811&\b1}perfect{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:02.72,0:00:03.36,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}semantic{\c&H002A2B17&\b0} model.\NYou have dozens.
+Dialogue: 0,0:00:03.36,0:00:04.58,Default,,0,0,0,,{\pos(540,1513)}semantic {\c&H00657811&\b1}model.{\c&H002A2B17&\b0}\NYou have dozens.
+Dialogue: 0,0:00:04.58,0:00:04.76,Default,,0,0,0,,{\pos(540,1513)}semantic model.\N{\c&H00657811&\b1}You{\c&H002A2B17&\b0} have dozens.
+Dialogue: 0,0:00:04.76,0:00:04.88,Default,,0,0,0,,{\pos(540,1513)}semantic model.\NYou {\c&H00657811&\b1}have{\c&H002A2B17&\b0} dozens.
+Dialogue: 0,0:00:04.88,0:00:05.20,Default,,0,0,0,,{\pos(540,1513)}semantic model.\NYou have {\c&H00657811&\b1}dozens.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:05.56,0:00:05.66,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}That's{\c&H002A2B17&\b0} true. Marketing\Nhas a semantic
+Dialogue: 0,0:00:05.66,0:00:06.52,Default,,0,0,0,,{\pos(540,1513)}That's {\c&H00657811&\b1}true.{\c&H002A2B17&\b0} Marketing\Nhas a semantic
+Dialogue: 0,0:00:06.52,0:00:06.77,Default,,0,0,0,,{\pos(540,1513)}That's true. Marketing\N{\c&H00657811&\b1}has{\c&H002A2B17&\b0} a semantic
+Dialogue: 0,0:00:06.77,0:00:06.92,Default,,0,0,0,,{\pos(540,1513)}That's true. Marketing\Nhas {\c&H00657811&\b1}a{\c&H002A2B17&\b0} semantic
+Dialogue: 0,0:00:06.92,0:00:07.20,Default,,0,0,0,,{\pos(540,1513)}That's true. Marketing\Nhas a {\c&H00657811&\b1}semantic{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:07.08,0:00:07.82,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}model,{\c&H002A2B17&\b0} sales has\Na semantic model,
+Dialogue: 0,0:00:07.82,0:00:08.42,Default,,0,0,0,,{\pos(540,1513)}model, {\c&H00657811&\b1}sales{\c&H002A2B17&\b0} has\Na semantic model,
+Dialogue: 0,0:00:08.42,0:00:08.82,Default,,0,0,0,,{\pos(540,1513)}model, sales {\c&H00657811&\b1}has{\c&H002A2B17&\b0}\Na semantic model,
+Dialogue: 0,0:00:08.82,0:00:08.98,Default,,0,0,0,,{\pos(540,1513)}model, sales has\N{\c&H00657811&\b1}a{\c&H002A2B17&\b0} semantic model,
+Dialogue: 0,0:00:08.98,0:00:09.11,Default,,0,0,0,,{\pos(540,1513)}model, sales has\Na {\c&H00657811&\b1}semantic{\c&H002A2B17&\b0} model,
+Dialogue: 0,0:00:09.11,0:00:09.60,Default,,0,0,0,,{\pos(540,1513)}model, sales has\Na semantic {\c&H00657811&\b1}model,{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:09.74,0:00:09.82,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}finance{\c&H002A2B17&\b0} has one,\Nand they all
+Dialogue: 0,0:00:09.82,0:00:10.14,Default,,0,0,0,,{\pos(540,1513)}finance {\c&H00657811&\b1}has{\c&H002A2B17&\b0} one,\Nand they all
+Dialogue: 0,0:00:10.14,0:00:10.74,Default,,0,0,0,,{\pos(540,1513)}finance has {\c&H00657811&\b1}one,{\c&H002A2B17&\b0}\Nand they all
+Dialogue: 0,0:00:10.74,0:00:11.02,Default,,0,0,0,,{\pos(540,1513)}finance has one,\N{\c&H00657811&\b1}and{\c&H002A2B17&\b0} they all
+Dialogue: 0,0:00:11.02,0:00:11.12,Default,,0,0,0,,{\pos(540,1513)}finance has one,\Nand {\c&H00657811&\b1}they{\c&H002A2B17&\b0} all
+Dialogue: 0,0:00:11.12,0:00:11.39,Default,,0,0,0,,{\pos(540,1513)}finance has one,\Nand they {\c&H00657811&\b1}all{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:11.28,0:00:11.48,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}have{\c&H002A2B17&\b0} a\Nconcept called customer.
+Dialogue: 0,0:00:11.48,0:00:11.58,Default,,0,0,0,,{\pos(540,1513)}have {\c&H00657811&\b1}a{\c&H002A2B17&\b0}\Nconcept called customer.
+Dialogue: 0,0:00:11.58,0:00:11.86,Default,,0,0,0,,{\pos(540,1513)}have a\N{\c&H00657811&\b1}concept{\c&H002A2B17&\b0} called customer.
+Dialogue: 0,0:00:11.86,0:00:12.22,Default,,0,0,0,,{\pos(540,1513)}have a\Nconcept {\c&H00657811&\b1}called{\c&H002A2B17&\b0} customer.
+Dialogue: 0,0:00:12.22,0:00:13.02,Default,,0,0,0,,{\pos(540,1513)}have a\Nconcept called {\c&H00657811&\b1}customer.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:13.30,0:00:13.88,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Yes,{\c&H002A2B17&\b0} the classic overlap.
+Dialogue: 0,0:00:13.88,0:00:13.98,Default,,0,0,0,,{\pos(540,1513)}Yes, {\c&H00657811&\b1}the{\c&H002A2B17&\b0} classic overlap.
+Dialogue: 0,0:00:13.98,0:00:14.28,Default,,0,0,0,,{\pos(540,1513)}Yes, the {\c&H00657811&\b1}classic{\c&H002A2B17&\b0} overlap.
+Dialogue: 0,0:00:14.28,0:00:14.85,Default,,0,0,0,,{\pos(540,1513)}Yes, the classic {\c&H00657811&\b1}overlap.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:15.28,0:00:15.38,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}If{\c&H002A2B17&\b0} I use the agent to
+Dialogue: 0,0:00:15.38,0:00:15.50,Default,,0,0,0,,{\pos(540,1513)}If {\c&H00657811&\b1}I{\c&H002A2B17&\b0} use the agent to
+Dialogue: 0,0:00:15.50,0:00:15.68,Default,,0,0,0,,{\pos(540,1513)}If I {\c&H00657811&\b1}use{\c&H002A2B17&\b0} the agent to
+Dialogue: 0,0:00:15.68,0:00:15.84,Default,,0,0,0,,{\pos(540,1513)}If I use {\c&H00657811&\b1}the{\c&H002A2B17&\b0} agent to
+Dialogue: 0,0:00:15.84,0:00:16.05,Default,,0,0,0,,{\pos(540,1513)}If I use the {\c&H00657811&\b1}agent{\c&H002A2B17&\b0} to
+Dialogue: 0,0:00:16.05,0:00:16.38,Default,,0,0,0,,{\pos(540,1513)}If I use the agent {\c&H00657811&\b1}to{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:16.26,0:00:16.44,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}ingest{\c&H002A2B17&\b0} all three\Nof these models
+Dialogue: 0,0:00:16.44,0:00:16.73,Default,,0,0,0,,{\pos(540,1513)}ingest {\c&H00657811&\b1}all{\c&H002A2B17&\b0} three\Nof these models
+Dialogue: 0,0:00:16.73,0:00:17.00,Default,,0,0,0,,{\pos(540,1513)}ingest all {\c&H00657811&\b1}three{\c&H002A2B17&\b0}\Nof these models
+Dialogue: 0,0:00:17.00,0:00:17.14,Default,,0,0,0,,{\pos(540,1513)}ingest all three\N{\c&H00657811&\b1}of{\c&H002A2B17&\b0} these models
+Dialogue: 0,0:00:17.14,0:00:17.23,Default,,0,0,0,,{\pos(540,1513)}ingest all three\Nof {\c&H00657811&\b1}these{\c&H002A2B17&\b0} models
+Dialogue: 0,0:00:17.23,0:00:17.68,Default,,0,0,0,,{\pos(540,1513)}ingest all three\Nof these {\c&H00657811&\b1}models{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:17.55,0:00:17.80,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}into{\c&H002A2B17&\b0} one master\Nontology, how does
+Dialogue: 0,0:00:17.80,0:00:17.98,Default,,0,0,0,,{\pos(540,1513)}into {\c&H00657811&\b1}one{\c&H002A2B17&\b0} master\Nontology, how does
+Dialogue: 0,0:00:17.98,0:00:18.32,Default,,0,0,0,,{\pos(540,1513)}into one {\c&H00657811&\b1}master{\c&H002A2B17&\b0}\Nontology, how does
+Dialogue: 0,0:00:18.32,0:00:19.38,Default,,0,0,0,,{\pos(540,1513)}into one master\N{\c&H00657811&\b1}ontology,{\c&H002A2B17&\b0} how does
+Dialogue: 0,0:00:19.38,0:00:19.57,Default,,0,0,0,,{\pos(540,1513)}into one master\Nontology, {\c&H00657811&\b1}how{\c&H002A2B17&\b0} does
+Dialogue: 0,0:00:19.57,0:00:19.80,Default,,0,0,0,,{\pos(540,1513)}into one master\Nontology, how {\c&H00657811&\b1}does{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:19.68,0:00:19.78,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}it{\c&H002A2B17&\b0} reconcile the\Nfact that marketing
+Dialogue: 0,0:00:19.78,0:00:20.24,Default,,0,0,0,,{\pos(540,1513)}it {\c&H00657811&\b1}reconcile{\c&H002A2B17&\b0} the\Nfact that marketing
+Dialogue: 0,0:00:20.24,0:00:20.42,Default,,0,0,0,,{\pos(540,1513)}it reconcile {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nfact that marketing
+Dialogue: 0,0:00:20.42,0:00:20.58,Default,,0,0,0,,{\pos(540,1513)}it reconcile the\N{\c&H00657811&\b1}fact{\c&H002A2B17&\b0} that marketing
+Dialogue: 0,0:00:20.58,0:00:20.72,Default,,0,0,0,,{\pos(540,1513)}it reconcile the\Nfact {\c&H00657811&\b1}that{\c&H002A2B17&\b0} marketing
+Dialogue: 0,0:00:20.72,0:00:21.18,Default,,0,0,0,,{\pos(540,1513)}it reconcile the\Nfact that {\c&H00657811&\b1}marketing{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:21.06,0:00:21.38,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}defines{\c&H002A2B17&\b0} a customer\Nas anyone who
+Dialogue: 0,0:00:21.38,0:00:21.94,Default,,0,0,0,,{\pos(540,1513)}defines a {\c&H00657811&\b1}customer{\c&H002A2B17&\b0}\Nas anyone who
+Dialogue: 0,0:00:21.94,0:00:22.54,Default,,0,0,0,,{\pos(540,1513)}defines a customer\N{\c&H00657811&\b1}as{\c&H002A2B17&\b0} anyone who
+Dialogue: 0,0:00:22.54,0:00:22.74,Default,,0,0,0,,{\pos(540,1513)}defines a customer\Nas {\c&H00657811&\b1}anyone{\c&H002A2B17&\b0} who
+Dialogue: 0,0:00:22.74,0:00:23.14,Default,,0,0,0,,{\pos(540,1513)}defines a customer\Nas anyone {\c&H00657811&\b1}who{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:23.02,0:00:23.18,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}gave{\c&H002A2B17&\b0} us an email address?
+Dialogue: 0,0:00:23.18,0:00:23.36,Default,,0,0,0,,{\pos(540,1513)}gave {\c&H00657811&\b1}us{\c&H002A2B17&\b0} an email address?
+Dialogue: 0,0:00:23.36,0:00:23.46,Default,,0,0,0,,{\pos(540,1513)}gave us {\c&H00657811&\b1}an{\c&H002A2B17&\b0} email address?
+Dialogue: 0,0:00:23.46,0:00:23.68,Default,,0,0,0,,{\pos(540,1513)}gave us an {\c&H00657811&\b1}email{\c&H002A2B17&\b0} address?
+Dialogue: 0,0:00:23.68,0:00:24.30,Default,,0,0,0,,{\pos(540,1513)}gave us an email {\c&H00657811&\b1}address?{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:24.98,0:00:25.08,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Well,{\c&H002A2B17&\b0} finance defines\Na customer as
+Dialogue: 0,0:00:25.08,0:00:25.38,Default,,0,0,0,,{\pos(540,1513)}Well, {\c&H00657811&\b1}finance{\c&H002A2B17&\b0} defines\Na customer as
+Dialogue: 0,0:00:25.38,0:00:25.66,Default,,0,0,0,,{\pos(540,1513)}Well, finance {\c&H00657811&\b1}defines{\c&H002A2B17&\b0}\Na customer as
+Dialogue: 0,0:00:25.66,0:00:26.14,Default,,0,0,0,,{\pos(540,1513)}Well, finance defines\Na {\c&H00657811&\b1}customer{\c&H002A2B17&\b0} as
+Dialogue: 0,0:00:26.14,0:00:26.52,Default,,0,0,0,,{\pos(540,1513)}Well, finance defines\Na customer {\c&H00657811&\b1}as{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:26.40,0:00:26.66,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}someone{\c&H002A2B17&\b0} who has\Nactively paid an
+Dialogue: 0,0:00:26.66,0:00:27.16,Default,,0,0,0,,{\pos(540,1513)}someone {\c&H00657811&\b1}who{\c&H002A2B17&\b0} has\Nactively paid an
+Dialogue: 0,0:00:27.16,0:00:27.28,Default,,0,0,0,,{\pos(540,1513)}someone who {\c&H00657811&\b1}has{\c&H002A2B17&\b0}\Nactively paid an
+Dialogue: 0,0:00:27.28,0:00:27.70,Default,,0,0,0,,{\pos(540,1513)}someone who has\N{\c&H00657811&\b1}actively{\c&H002A2B17&\b0} paid an
+Dialogue: 0,0:00:27.70,0:00:28.04,Default,,0,0,0,,{\pos(540,1513)}someone who has\Nactively {\c&H00657811&\b1}paid{\c&H002A2B17&\b0} an
+Dialogue: 0,0:00:28.04,0:00:28.28,Default,,0,0,0,,{\pos(540,1513)}someone who has\Nactively paid {\c&H00657811&\b1}an{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:28.16,0:00:28.44,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}invoice{\c&H002A2B17&\b0} in the\Nlast 90 days.
+Dialogue: 0,0:00:28.44,0:00:28.66,Default,,0,0,0,,{\pos(540,1513)}invoice {\c&H00657811&\b1}in{\c&H002A2B17&\b0} the\Nlast 90 days.
+Dialogue: 0,0:00:28.66,0:00:28.72,Default,,0,0,0,,{\pos(540,1513)}invoice in {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nlast 90 days.
+Dialogue: 0,0:00:28.72,0:00:28.86,Default,,0,0,0,,{\pos(540,1513)}invoice in the\N{\c&H00657811&\b1}last{\c&H002A2B17&\b0} 90 days.
+Dialogue: 0,0:00:28.86,0:00:29.06,Default,,0,0,0,,{\pos(540,1513)}invoice in the\Nlast {\c&H00657811&\b1}90{\c&H002A2B17&\b0} days.
+Dialogue: 0,0:00:29.06,0:00:29.50,Default,,0,0,0,,{\pos(540,1513)}invoice in the\Nlast 90 {\c&H00657811&\b1}days.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:29.72,0:00:30.04,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}That{\c&H002A2B17&\b0} is exactly\Nwhere the automated
+Dialogue: 0,0:00:30.04,0:00:30.20,Default,,0,0,0,,{\pos(540,1513)}That {\c&H00657811&\b1}is{\c&H002A2B17&\b0} exactly\Nwhere the automated
+Dialogue: 0,0:00:30.20,0:00:30.78,Default,,0,0,0,,{\pos(540,1513)}That is {\c&H00657811&\b1}exactly{\c&H002A2B17&\b0}\Nwhere the automated
+Dialogue: 0,0:00:30.78,0:00:31.46,Default,,0,0,0,,{\pos(540,1513)}That is exactly\N{\c&H00657811&\b1}where{\c&H002A2B17&\b0} the automated
+Dialogue: 0,0:00:31.46,0:00:31.60,Default,,0,0,0,,{\pos(540,1513)}That is exactly\Nwhere {\c&H00657811&\b1}the{\c&H002A2B17&\b0} automated
+Dialogue: 0,0:00:31.60,0:00:32.05,Default,,0,0,0,,{\pos(540,1513)}That is exactly\Nwhere the {\c&H00657811&\b1}automated{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:31.94,0:00:32.44,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}generation{\c&H002A2B17&\b0} process\Nstops and human
+Dialogue: 0,0:00:32.44,0:00:32.90,Default,,0,0,0,,{\pos(540,1513)}generation {\c&H00657811&\b1}process{\c&H002A2B17&\b0}\Nstops and human
+Dialogue: 0,0:00:32.90,0:00:33.50,Default,,0,0,0,,{\pos(540,1513)}generation process\N{\c&H00657811&\b1}stops{\c&H002A2B17&\b0} and human
+Dialogue: 0,0:00:33.50,0:00:33.88,Default,,0,0,0,,{\pos(540,1513)}generation process\Nstops {\c&H00657811&\b1}and{\c&H002A2B17&\b0} human
+Dialogue: 0,0:00:33.88,0:00:34.33,Default,,0,0,0,,{\pos(540,1513)}generation process\Nstops and {\c&H00657811&\b1}human{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:34.22,0:00:34.60,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}governance{\c&H002A2B17&\b0} must take over.
+Dialogue: 0,0:00:34.60,0:00:35.20,Default,,0,0,0,,{\pos(540,1513)}governance {\c&H00657811&\b1}must{\c&H002A2B17&\b0} take over.
+Dialogue: 0,0:00:35.20,0:00:35.48,Default,,0,0,0,,{\pos(540,1513)}governance must {\c&H00657811&\b1}take{\c&H002A2B17&\b0} over.
+Dialogue: 0,0:00:35.48,0:00:35.91,Default,,0,0,0,,{\pos(540,1513)}governance must take {\c&H00657811&\b1}over.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:36.10,0:00:36.22,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}So{\c&H002A2B17&\b0} the AI doesn't just fix
+Dialogue: 0,0:00:36.22,0:00:36.36,Default,,0,0,0,,{\pos(540,1513)}So {\c&H00657811&\b1}the{\c&H002A2B17&\b0} AI doesn't just fix
+Dialogue: 0,0:00:36.36,0:00:36.51,Default,,0,0,0,,{\pos(540,1513)}So the {\c&H00657811&\b1}AI{\c&H002A2B17&\b0} doesn't just fix
+Dialogue: 0,0:00:36.51,0:00:36.86,Default,,0,0,0,,{\pos(540,1513)}So the AI {\c&H00657811&\b1}doesn't{\c&H002A2B17&\b0} just fix
+Dialogue: 0,0:00:36.86,0:00:37.01,Default,,0,0,0,,{\pos(540,1513)}So the AI doesn't {\c&H00657811&\b1}just{\c&H002A2B17&\b0} fix
+Dialogue: 0,0:00:37.01,0:00:37.68,Default,,0,0,0,,{\pos(540,1513)}So the AI doesn't just {\c&H00657811&\b1}fix{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:37.56,0:00:38.12,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}it?{\c&H002A2B17&\b0} No. The\Nontology Agent is
+Dialogue: 0,0:00:38.12,0:00:39.28,Default,,0,0,0,,{\pos(540,1513)}it? {\c&H00657811&\b1}No.{\c&H002A2B17&\b0} The\Nontology Agent is
+Dialogue: 0,0:00:39.28,0:00:39.51,Default,,0,0,0,,{\pos(540,1513)}it? No. {\c&H00657811&\b1}The{\c&H002A2B17&\b0}\Nontology Agent is
+Dialogue: 0,0:00:39.51,0:00:39.96,Default,,0,0,0,,{\pos(540,1513)}it? No. The\N{\c&H00657811&\b1}ontology{\c&H002A2B17&\b0} Agent is
+Dialogue: 0,0:00:39.96,0:00:40.29,Default,,0,0,0,,{\pos(540,1513)}it? No. The\Nontology {\c&H00657811&\b1}Agent{\c&H002A2B17&\b0} is
+Dialogue: 0,0:00:40.29,0:00:40.68,Default,,0,0,0,,{\pos(540,1513)}it? No. The\Nontology Agent {\c&H00657811&\b1}is{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:40.56,0:00:40.65,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}a{\c&H002A2B17&\b0} powerful assistant.
+Dialogue: 0,0:00:40.65,0:00:40.98,Default,,0,0,0,,{\pos(540,1513)}a {\c&H00657811&\b1}powerful{\c&H002A2B17&\b0} assistant.
+Dialogue: 0,0:00:40.98,0:00:41.55,Default,,0,0,0,,{\pos(540,1513)}a powerful {\c&H00657811&\b1}assistant.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:41.74,0:00:41.88,Default,,0,0,0,,{\pos(540,1513)}It {\c&H00657811&\b1}will{\c&H002A2B17&\b0} help\Nyou bring multiple
+Dialogue: 0,0:00:41.88,0:00:42.04,Default,,0,0,0,,{\pos(540,1513)}It will {\c&H00657811&\b1}help{\c&H002A2B17&\b0}\Nyou bring multiple
+Dialogue: 0,0:00:42.04,0:00:42.18,Default,,0,0,0,,{\pos(540,1513)}It will help\N{\c&H00657811&\b1}you{\c&H002A2B17&\b0} bring multiple
+Dialogue: 0,0:00:42.18,0:00:42.40,Default,,0,0,0,,{\pos(540,1513)}It will help\Nyou {\c&H00657811&\b1}bring{\c&H002A2B17&\b0} multiple
+Dialogue: 0,0:00:42.40,0:00:42.98,Default,,0,0,0,,{\pos(540,1513)}It will help\Nyou bring {\c&H00657811&\b1}multiple{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:42.86,0:00:43.26,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}semantic{\c&H002A2B17&\b0} models into\Na shared space,
+Dialogue: 0,0:00:43.26,0:00:43.82,Default,,0,0,0,,{\pos(540,1513)}semantic {\c&H00657811&\b1}models{\c&H002A2B17&\b0} into\Na shared space,
+Dialogue: 0,0:00:43.82,0:00:44.16,Default,,0,0,0,,{\pos(540,1513)}semantic models {\c&H00657811&\b1}into{\c&H002A2B17&\b0}\Na shared space,
+Dialogue: 0,0:00:44.16,0:00:44.28,Default,,0,0,0,,{\pos(540,1513)}semantic models into\N{\c&H00657811&\b1}a{\c&H002A2B17&\b0} shared space,
+Dialogue: 0,0:00:44.28,0:00:44.44,Default,,0,0,0,,{\pos(540,1513)}semantic models into\Na {\c&H00657811&\b1}shared{\c&H002A2B17&\b0} space,
+Dialogue: 0,0:00:44.44,0:00:44.98,Default,,0,0,0,,{\pos(540,1513)}semantic models into\Na shared {\c&H00657811&\b1}space,{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:45.32,0:00:45.60,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}and{\c&H002A2B17&\b0} it will\Nflag those overlapping
+Dialogue: 0,0:00:45.60,0:00:45.80,Default,,0,0,0,,{\pos(540,1513)}and {\c&H00657811&\b1}it{\c&H002A2B17&\b0} will\Nflag those overlapping
+Dialogue: 0,0:00:45.80,0:00:45.90,Default,,0,0,0,,{\pos(540,1513)}and it {\c&H00657811&\b1}will{\c&H002A2B17&\b0}\Nflag those overlapping
+Dialogue: 0,0:00:45.90,0:00:46.12,Default,,0,0,0,,{\pos(540,1513)}and it will\N{\c&H00657811&\b1}flag{\c&H002A2B17&\b0} those overlapping
+Dialogue: 0,0:00:46.12,0:00:46.34,Default,,0,0,0,,{\pos(540,1513)}and it will\Nflag {\c&H00657811&\b1}those{\c&H002A2B17&\b0} overlapping
+Dialogue: 0,0:00:46.34,0:00:46.77,Default,,0,0,0,,{\pos(540,1513)}and it will\Nflag those {\c&H00657811&\b1}overlapping{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:46.66,0:00:47.74,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}concepts.{\c&H002A2B17&\b0} It will\Npropose ways to
+Dialogue: 0,0:00:47.74,0:00:47.90,Default,,0,0,0,,{\pos(540,1513)}concepts. {\c&H00657811&\b1}It{\c&H002A2B17&\b0} will\Npropose ways to
+Dialogue: 0,0:00:47.90,0:00:48.04,Default,,0,0,0,,{\pos(540,1513)}concepts. It {\c&H00657811&\b1}will{\c&H002A2B17&\b0}\Npropose ways to
+Dialogue: 0,0:00:48.04,0:00:48.40,Default,,0,0,0,,{\pos(540,1513)}concepts. It will\N{\c&H00657811&\b1}propose{\c&H002A2B17&\b0} ways to
+Dialogue: 0,0:00:48.40,0:00:48.84,Default,,0,0,0,,{\pos(540,1513)}concepts. It will\Npropose {\c&H00657811&\b1}ways{\c&H002A2B17&\b0} to
+Dialogue: 0,0:00:48.84,0:00:49.22,Default,,0,0,0,,{\pos(540,1513)}concepts. It will\Npropose ways {\c&H00657811&\b1}to{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:49.10,0:00:49.38,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}reconcile{\c&H002A2B17&\b0} them, but\Nit is not
+Dialogue: 0,0:00:49.38,0:00:49.78,Default,,0,0,0,,{\pos(540,1513)}reconcile {\c&H00657811&\b1}them,{\c&H002A2B17&\b0} but\Nit is not
+Dialogue: 0,0:00:49.78,0:00:50.30,Default,,0,0,0,,{\pos(540,1513)}reconcile them, {\c&H00657811&\b1}but{\c&H002A2B17&\b0}\Nit is not
+Dialogue: 0,0:00:50.30,0:00:50.42,Default,,0,0,0,,{\pos(540,1513)}reconcile them, but\N{\c&H00657811&\b1}it{\c&H002A2B17&\b0} is not
+Dialogue: 0,0:00:50.42,0:00:50.54,Default,,0,0,0,,{\pos(540,1513)}reconcile them, but\Nit {\c&H00657811&\b1}is{\c&H002A2B17&\b0} not
+Dialogue: 0,0:00:50.54,0:00:50.98,Default,,0,0,0,,{\pos(540,1513)}reconcile them, but\Nit is {\c&H00657811&\b1}not{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:50.86,0:00:51.08,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}an{\c&H002A2B17&\b0} arbiter\Nof corporate policy.
+Dialogue: 0,0:00:51.08,0:00:51.58,Default,,0,0,0,,{\pos(540,1513)}an {\c&H00657811&\b1}arbiter{\c&H002A2B17&\b0}\Nof corporate policy.
+Dialogue: 0,0:00:51.58,0:00:51.72,Default,,0,0,0,,{\pos(540,1513)}an arbiter\N{\c&H00657811&\b1}of{\c&H002A2B17&\b0} corporate policy.
+Dialogue: 0,0:00:51.72,0:00:51.98,Default,,0,0,0,,{\pos(540,1513)}an arbiter\Nof {\c&H00657811&\b1}corporate{\c&H002A2B17&\b0} policy.
+Dialogue: 0,0:00:51.98,0:00:52.80,Default,,0,0,0,,{\pos(540,1513)}an arbiter\Nof corporate {\c&H00657811&\b1}policy.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:53.64,0:00:53.72,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}A{\c&H002A2B17&\b0} human domain\Nexpert still has
+Dialogue: 0,0:00:53.72,0:00:54.12,Default,,0,0,0,,{\pos(540,1513)}A {\c&H00657811&\b1}human{\c&H002A2B17&\b0} domain\Nexpert still has
+Dialogue: 0,0:00:54.12,0:00:54.44,Default,,0,0,0,,{\pos(540,1513)}A human {\c&H00657811&\b1}domain{\c&H002A2B17&\b0}\Nexpert still has
+Dialogue: 0,0:00:54.44,0:00:55.00,Default,,0,0,0,,{\pos(540,1513)}A human domain\N{\c&H00657811&\b1}expert{\c&H002A2B17&\b0} still has
+Dialogue: 0,0:00:55.00,0:00:55.32,Default,,0,0,0,,{\pos(540,1513)}A human domain\Nexpert {\c&H00657811&\b1}still{\c&H002A2B17&\b0} has
+Dialogue: 0,0:00:55.32,0:00:55.60,Default,,0,0,0,,{\pos(540,1513)}A human domain\Nexpert still {\c&H00657811&\b1}has{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:55.48,0:00:55.62,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}to{\c&H002A2B17&\b0} sit down,\Nreview the proposed
+Dialogue: 0,0:00:55.62,0:00:55.78,Default,,0,0,0,,{\pos(540,1513)}to {\c&H00657811&\b1}sit{\c&H002A2B17&\b0} down,\Nreview the proposed
+Dialogue: 0,0:00:55.78,0:00:56.60,Default,,0,0,0,,{\pos(540,1513)}to sit {\c&H00657811&\b1}down,{\c&H002A2B17&\b0}\Nreview the proposed
+Dialogue: 0,0:00:56.60,0:00:56.86,Default,,0,0,0,,{\pos(540,1513)}to sit down,\N{\c&H00657811&\b1}review{\c&H002A2B17&\b0} the proposed
+Dialogue: 0,0:00:56.86,0:00:57.06,Default,,0,0,0,,{\pos(540,1513)}to sit down,\Nreview {\c&H00657811&\b1}the{\c&H002A2B17&\b0} proposed
+Dialogue: 0,0:00:57.06,0:00:57.44,Default,,0,0,0,,{\pos(540,1513)}to sit down,\Nreview the {\c&H00657811&\b1}proposed{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:57.32,0:00:57.70,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}entity{\c&H002A2B17&\b0} keys,\Ncheck the relationships,
+Dialogue: 0,0:00:57.70,0:00:58.60,Default,,0,0,0,,{\pos(540,1513)}entity {\c&H00657811&\b1}keys,{\c&H002A2B17&\b0}\Ncheck the relationships,
+Dialogue: 0,0:00:58.60,0:00:58.86,Default,,0,0,0,,{\pos(540,1513)}entity keys,\N{\c&H00657811&\b1}check{\c&H002A2B17&\b0} the relationships,
+Dialogue: 0,0:00:58.86,0:00:59.04,Default,,0,0,0,,{\pos(540,1513)}entity keys,\Ncheck {\c&H00657811&\b1}the{\c&H002A2B17&\b0} relationships,
+Dialogue: 0,0:00:59.04,0:00:59.58,Default,,0,0,0,,{\pos(540,1513)}entity keys,\Ncheck the {\c&H00657811&\b1}relationships,{\c&H002A2B17&\b0}
+Dialogue: 0,0:01:00.22,0:01:00.70,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}explicitly{\c&H002A2B17&\b0} decide how\Nto handle that
+Dialogue: 0,0:01:00.70,0:01:01.16,Default,,0,0,0,,{\pos(540,1513)}explicitly {\c&H00657811&\b1}decide{\c&H002A2B17&\b0} how\Nto handle that
+Dialogue: 0,0:01:01.16,0:01:01.48,Default,,0,0,0,,{\pos(540,1513)}explicitly decide {\c&H00657811&\b1}how{\c&H002A2B17&\b0}\Nto handle that
+Dialogue: 0,0:01:01.48,0:01:01.66,Default,,0,0,0,,{\pos(540,1513)}explicitly decide how\N{\c&H00657811&\b1}to{\c&H002A2B17&\b0} handle that
+Dialogue: 0,0:01:01.66,0:01:01.96,Default,,0,0,0,,{\pos(540,1513)}explicitly decide how\Nto {\c&H00657811&\b1}handle{\c&H002A2B17&\b0} that
+Dialogue: 0,0:01:01.96,0:01:02.27,Default,,0,0,0,,{\pos(540,1513)}explicitly decide how\Nto handle {\c&H00657811&\b1}that{\c&H002A2B17&\b0}
+Dialogue: 0,0:01:02.16,0:01:02.36,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}naming{\c&H002A2B17&\b0} collision,\Nusually by utilizing
+Dialogue: 0,0:01:02.36,0:01:03.40,Default,,0,0,0,,{\pos(540,1513)}naming {\c&H00657811&\b1}collision,{\c&H002A2B17&\b0}\Nusually by utilizing
+Dialogue: 0,0:01:03.40,0:01:04.00,Default,,0,0,0,,{\pos(540,1513)}naming collision,\N{\c&H00657811&\b1}usually{\c&H002A2B17&\b0} by utilizing
+Dialogue: 0,0:01:04.00,0:01:04.56,Default,,0,0,0,,{\pos(540,1513)}naming collision,\Nusually {\c&H00657811&\b1}by{\c&H002A2B17&\b0} utilizing
+Dialogue: 0,0:01:04.56,0:01:05.00,Default,,0,0,0,,{\pos(540,1513)}naming collision,\Nusually by {\c&H00657811&\b1}utilizing{\c&H002A2B17&\b0}
+Dialogue: 0,0:01:04.88,0:01:05.56,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}namespaces{\c&H002A2B17&\b0} or\Ncreating distinct marketing
+Dialogue: 0,0:01:05.56,0:01:06.08,Default,,0,0,0,,{\pos(540,1513)}namespaces {\c&H00657811&\b1}or{\c&H002A2B17&\b0}\Ncreating distinct marketing
+Dialogue: 0,0:01:06.08,0:01:06.44,Default,,0,0,0,,{\pos(540,1513)}namespaces or\N{\c&H00657811&\b1}creating{\c&H002A2B17&\b0} distinct marketing
+Dialogue: 0,0:01:06.44,0:01:06.72,Default,,0,0,0,,{\pos(540,1513)}namespaces or\Ncreating {\c&H00657811&\b1}distinct{\c&H002A2B17&\b0} marketing
+Dialogue: 0,0:01:06.72,0:01:07.96,Default,,0,0,0,,{\pos(540,1513)}namespaces or\Ncreating distinct {\c&H00657811&\b1}marketing{\c&H002A2B17&\b0}
+Dialogue: 0,0:01:07.84,0:01:08.28,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}customer{\c&H002A2B17&\b0} and\Nfinance customer entities.
+Dialogue: 0,0:01:08.28,0:01:08.81,Default,,0,0,0,,{\pos(540,1513)}customer {\c&H00657811&\b1}and{\c&H002A2B17&\b0}\Nfinance customer entities.
+Dialogue: 0,0:01:08.81,0:01:09.34,Default,,0,0,0,,{\pos(540,1513)}customer and\N{\c&H00657811&\b1}finance{\c&H002A2B17&\b0} customer entities.
+Dialogue: 0,0:01:09.34,0:01:09.78,Default,,0,0,0,,{\pos(540,1513)}customer and\Nfinance {\c&H00657811&\b1}customer{\c&H002A2B17&\b0} entities.
+Dialogue: 0,0:01:09.78,0:01:10.20,Default,,0,0,0,,{\pos(540,1513)}customer and\Nfinance customer {\c&H00657811&\b1}entities.{\c&H002A2B17&\b0}

@@ -1,0 +1,545 @@
+{
+  "id": "C24",
+  "title": "Temperature units change the interpretation",
+  "source_start": 1451.850975,
+  "source_end": 1479.9709749999997,
+  "duration": 28.119999999999663,
+  "part_ranges": [
+    {
+      "part": "part01.m4a",
+      "start": 701.8000000000001,
+      "end": 729.9199999999997
+    }
+  ],
+  "family": "contrast",
+  "left_label": "10\u00b0C",
+  "right_label": "10\u00b0F",
+  "focus_label": "10\u00b0C = 50\u00b0F",
+  "example_kind": "illustrative unit mismatch",
+  "words": [
+    {
+      "word": "Because",
+      "start": 0.08000000000000007,
+      "end": 0.5800000000000001,
+      "probability": 0.4792538285255432
+    },
+    {
+      "word": "if",
+      "start": 0.5800000000000001,
+      "end": 0.7799999999999998,
+      "probability": 0.9702697992324829
+    },
+    {
+      "word": "the",
+      "start": 0.7799999999999998,
+      "end": 0.94,
+      "probability": 0.9942785501480103
+    },
+    {
+      "word": "AI",
+      "start": 0.94,
+      "end": 1.1600000000000001,
+      "probability": 0.8934329152107239
+    },
+    {
+      "word": "assumes",
+      "start": 1.1600000000000001,
+      "end": 1.62,
+      "probability": 0.9927460551261902
+    },
+    {
+      "word": "the",
+      "start": 1.62,
+      "end": 1.8599999999999999,
+      "probability": 0.9379241466522217
+    },
+    {
+      "word": "temperature",
+      "start": 1.8599999999999999,
+      "end": 2.16,
+      "probability": 0.8136409521102905
+    },
+    {
+      "word": "is",
+      "start": 2.16,
+      "end": 2.42,
+      "probability": 0.9317832589149475
+    },
+    {
+      "word": "Fahrenheit,",
+      "start": 2.42,
+      "end": 2.66,
+      "probability": 0.9547654986381531
+    },
+    {
+      "word": "but",
+      "start": 3.16,
+      "end": 3.2199999999999998,
+      "probability": 0.9143834710121155
+    },
+    {
+      "word": "the",
+      "start": 3.2199999999999998,
+      "end": 3.3200000000000003,
+      "probability": 0.9891692399978638
+    },
+    {
+      "word": "freezer",
+      "start": 3.3200000000000003,
+      "end": 3.5,
+      "probability": 0.9717727899551392
+    },
+    {
+      "word": "is",
+      "start": 3.5,
+      "end": 3.8,
+      "probability": 0.9687128663063049
+    },
+    {
+      "word": "actually",
+      "start": 3.8,
+      "end": 4.1,
+      "probability": 0.995961606502533
+    },
+    {
+      "word": "reporting",
+      "start": 4.1,
+      "end": 4.4,
+      "probability": 0.9885919690132141
+    },
+    {
+      "word": "in",
+      "start": 4.4,
+      "end": 4.62,
+      "probability": 0.9628399014472961
+    },
+    {
+      "word": "Celsius.",
+      "start": 4.62,
+      "end": 4.94,
+      "probability": 0.9753243923187256
+    },
+    {
+      "word": "Well,",
+      "start": 5.36,
+      "end": 5.54,
+      "probability": 0.8074999451637268
+    },
+    {
+      "word": "a",
+      "start": 5.56,
+      "end": 5.66,
+      "probability": 0.8200668096542358
+    },
+    {
+      "word": "freezer",
+      "start": 5.66,
+      "end": 5.84,
+      "probability": 0.9566487669944763
+    },
+    {
+      "word": "reporting",
+      "start": 5.84,
+      "end": 6.4399999999999995,
+      "probability": 0.9868027567863464
+    },
+    {
+      "word": "a",
+      "start": 6.4399999999999995,
+      "end": 6.68,
+      "probability": 0.843532383441925
+    },
+    {
+      "word": "steady",
+      "start": 6.68,
+      "end": 6.9,
+      "probability": 0.9588718414306641
+    },
+    {
+      "word": "10",
+      "start": 6.9,
+      "end": 7.4399999999999995,
+      "probability": 0.9307242035865784
+    },
+    {
+      "word": "degrees",
+      "start": 7.4399999999999995,
+      "end": 7.619999999999999,
+      "probability": 0.7070865035057068
+    },
+    {
+      "word": "Celsius",
+      "start": 7.619999999999999,
+      "end": 8.06,
+      "probability": 0.9762109518051147
+    },
+    {
+      "word": "is",
+      "start": 8.06,
+      "end": 8.42,
+      "probability": 0.9737011790275574
+    },
+    {
+      "word": "50",
+      "start": 8.42,
+      "end": 8.9,
+      "probability": 0.9901152849197388
+    },
+    {
+      "word": "degrees",
+      "start": 8.9,
+      "end": 9.26,
+      "probability": 0.9971081614494324
+    },
+    {
+      "word": "Fahrenheit.",
+      "start": 9.26,
+      "end": 9.8,
+      "probability": 0.9941376447677612
+    },
+    {
+      "word": "Oh",
+      "start": 10.12,
+      "end": 10.24,
+      "probability": 0.9217332005500793
+    },
+    {
+      "word": "boy.",
+      "start": 10.24,
+      "end": 10.44,
+      "probability": 0.6755782961845398
+    },
+    {
+      "word": "Your",
+      "start": 10.58,
+      "end": 10.8,
+      "probability": 0.988217294216156
+    },
+    {
+      "word": "entire",
+      "start": 10.8,
+      "end": 11.16,
+      "probability": 0.9971070885658264
+    },
+    {
+      "word": "inventory",
+      "start": 11.16,
+      "end": 11.58,
+      "probability": 0.9901547431945801
+    },
+    {
+      "word": "of",
+      "start": 11.58,
+      "end": 11.92,
+      "probability": 0.9450984597206116
+    },
+    {
+      "word": "frozen",
+      "start": 11.92,
+      "end": 12.14,
+      "probability": 0.9945563077926636
+    },
+    {
+      "word": "goods",
+      "start": 12.14,
+      "end": 12.36,
+      "probability": 0.9986889958381653
+    },
+    {
+      "word": "is",
+      "start": 12.36,
+      "end": 12.56,
+      "probability": 0.9953298568725586
+    },
+    {
+      "word": "currently",
+      "start": 12.56,
+      "end": 12.8,
+      "probability": 0.9971535205841064
+    },
+    {
+      "word": "liquid.",
+      "start": 12.8,
+      "end": 13.22,
+      "probability": 0.9962447285652161
+    },
+    {
+      "word": "But",
+      "start": 13.74,
+      "end": 13.88,
+      "probability": 0.9923140406608582
+    },
+    {
+      "word": "the",
+      "start": 13.88,
+      "end": 13.98,
+      "probability": 0.9938991069793701
+    },
+    {
+      "word": "AI,",
+      "start": 13.98,
+      "end": 14.260000000000002,
+      "probability": 0.9473531246185303
+    },
+    {
+      "word": "if",
+      "start": 14.260000000000002,
+      "end": 14.739999999999998,
+      "probability": 0.9966835379600525
+    },
+    {
+      "word": "left",
+      "start": 14.739999999999998,
+      "end": 14.96,
+      "probability": 0.9974737763404846
+    },
+    {
+      "word": "to",
+      "start": 14.96,
+      "end": 15.18,
+      "probability": 0.9964058995246887
+    },
+    {
+      "word": "assume",
+      "start": 15.18,
+      "end": 15.440000000000001,
+      "probability": 0.9958712458610535
+    },
+    {
+      "word": "Fahrenheit",
+      "start": 15.440000000000001,
+      "end": 15.8,
+      "probability": 0.9958557486534119
+    },
+    {
+      "word": "by",
+      "start": 15.8,
+      "end": 16.2,
+      "probability": 0.949462354183197
+    },
+    {
+      "word": "default,",
+      "start": 16.2,
+      "end": 16.34,
+      "probability": 0.8889851570129395
+    },
+    {
+      "word": "might",
+      "start": 16.7,
+      "end": 16.86,
+      "probability": 0.9884927868843079
+    },
+    {
+      "word": "look",
+      "start": 16.86,
+      "end": 17.12,
+      "probability": 0.9985215067863464
+    },
+    {
+      "word": "at",
+      "start": 17.12,
+      "end": 17.24,
+      "probability": 0.999110996723175
+    },
+    {
+      "word": "the",
+      "start": 17.24,
+      "end": 17.32,
+      "probability": 0.9958423972129822
+    },
+    {
+      "word": "number",
+      "start": 17.32,
+      "end": 17.56,
+      "probability": 0.9910694360733032
+    },
+    {
+      "word": "10,",
+      "start": 17.56,
+      "end": 17.92,
+      "probability": 0.9636238813400269
+    },
+    {
+      "word": "think,",
+      "start": 17.92,
+      "end": 18.46,
+      "probability": 0.9777228832244873
+    },
+    {
+      "word": "oh,",
+      "start": 18.72,
+      "end": 18.84,
+      "probability": 0.6322489380836487
+    },
+    {
+      "word": "that",
+      "start": 19.1,
+      "end": 19.28,
+      "probability": 0.998961329460144
+    },
+    {
+      "word": "is",
+      "start": 19.28,
+      "end": 19.44,
+      "probability": 0.9990808963775635
+    },
+    {
+      "word": "well",
+      "start": 19.44,
+      "end": 19.86,
+      "probability": 0.9954881072044373
+    },
+    {
+      "word": "below",
+      "start": 19.86,
+      "end": 20.2,
+      "probability": 0.9836549162864685
+    },
+    {
+      "word": "freezing",
+      "start": 20.2,
+      "end": 20.48,
+      "probability": 0.9767361879348755
+    },
+    {
+      "word": "and",
+      "start": 20.48,
+      "end": 21.16,
+      "probability": 0.4666842818260193
+    },
+    {
+      "word": "report",
+      "start": 21.16,
+      "end": 21.4,
+      "probability": 0.9949643611907959
+    },
+    {
+      "word": "back",
+      "start": 21.4,
+      "end": 21.66,
+      "probability": 0.9989383816719055
+    },
+    {
+      "word": "that",
+      "start": 21.66,
+      "end": 21.88,
+      "probability": 0.9875009059906006
+    },
+    {
+      "word": "everything",
+      "start": 21.88,
+      "end": 22.08,
+      "probability": 0.9905267953872681
+    },
+    {
+      "word": "is",
+      "start": 22.08,
+      "end": 22.32,
+      "probability": 0.9968793392181396
+    },
+    {
+      "word": "perfectly",
+      "start": 22.32,
+      "end": 22.52,
+      "probability": 0.998698353767395
+    },
+    {
+      "word": "fine.",
+      "start": 22.52,
+      "end": 23.08,
+      "probability": 0.9975517392158508
+    },
+    {
+      "word": "Wow.",
+      "start": 23.5,
+      "end": 23.54,
+      "probability": 0.38905608654022217
+    },
+    {
+      "word": "That",
+      "start": 23.96,
+      "end": 24.14,
+      "probability": 0.961224377155304
+    },
+    {
+      "word": "single",
+      "start": 24.14,
+      "end": 24.36,
+      "probability": 0.9584833383560181
+    },
+    {
+      "word": "missing",
+      "start": 24.36,
+      "end": 24.68,
+      "probability": 0.9728506207466125
+    },
+    {
+      "word": "piece",
+      "start": 24.68,
+      "end": 25.02,
+      "probability": 0.997759222984314
+    },
+    {
+      "word": "of",
+      "start": 25.02,
+      "end": 25.18,
+      "probability": 0.9988002777099609
+    },
+    {
+      "word": "metadata,",
+      "start": 25.18,
+      "end": 25.46,
+      "probability": 0.9025797843933105
+    },
+    {
+      "word": "one",
+      "start": 25.48,
+      "end": 25.9,
+      "probability": 0.9895480871200562
+    },
+    {
+      "word": "word,",
+      "start": 25.9,
+      "end": 26.2,
+      "probability": 0.9961198568344116
+    },
+    {
+      "word": "entirely",
+      "start": 26.240000000000002,
+      "end": 26.8,
+      "probability": 0.9841954708099365
+    },
+    {
+      "word": "invalidates",
+      "start": 26.8,
+      "end": 27.66,
+      "probability": 0.9601512849330902
+    },
+    {
+      "word": "the",
+      "start": 27.66,
+      "end": 27.78,
+      "probability": 0.9976910352706909
+    },
+    {
+      "word": "analysis.",
+      "start": 27.78,
+      "end": 28.02,
+      "probability": 0.9970368146896362
+    }
+  ],
+  "transcript_asr": "Because if the AI assumes the temperature is Fahrenheit, but the freezer is actually reporting in Celsius. Well, a freezer reporting a steady 10 degrees Celsius is 50 degrees Fahrenheit. Oh boy. Your entire inventory of frozen goods is currently liquid. But the AI, if left to assume Fahrenheit by default, might look at the number 10, think, oh, that is well below freezing and report back that everything is perfectly fine. Wow. That single missing piece of metadata, one word, entirely invalidates the analysis.",
+  "source_kind": "actual uploaded recording; continuous audio excerpt",
+  "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "status": "planned",
+  "publish_status": "draft for review",
+  "narration_replaced": false,
+  "actual_timestamps": true,
+  "context_label": "Illustrative scenario",
+  "review_flags": [
+    "Illustrative context/units example, not a food or pharmaceutical safety threshold."
+  ],
+  "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
+  "caption_corrections": [],
+  "caption_join_review": []
+}

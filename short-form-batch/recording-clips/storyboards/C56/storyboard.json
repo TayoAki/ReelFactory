@@ -1,0 +1,60 @@
+{
+  "id": "C56",
+  "family": "workflow",
+  "master_image": "../master-workflow.png",
+  "visual_workflow": "image-first",
+  "state_images": [
+    "01-initial.jpg",
+    "02-build.jpg",
+    "03-settled.jpg"
+  ],
+  "layers": [
+    {
+      "label": "One recurring decision",
+      "sub": "START",
+      "x": 100,
+      "y": 660,
+      "w": 880,
+      "h": 188,
+      "focal": false,
+      "on": 0.7,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Test against known answers",
+      "sub": "REVIEW / CONTEXT",
+      "x": 100,
+      "y": 890,
+      "w": 880,
+      "h": 188,
+      "focal": true,
+      "on": 20.2,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Expand deliberately",
+      "sub": "NEXT",
+      "x": 100,
+      "y": 1120,
+      "w": 880,
+      "h": 188,
+      "focal": false,
+      "on": 32.04,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    }
+  ],
+  "relation": "Keep each step explicit",
+  "source_quote": "Start incredibly small. Pick one single team, and one recurring high -value decision. The regional inventory review we discussed is a perfect example. Keep it contained. Connect only the specific data sources needed for that one decision. Define the handful of concepts that actually change the answer. And most importantly, aggressively test ambiguous requests and missing data scenarios to see exactly how the system fails under pressure. Do not try to boil the ocean and map the entire corporation's semantic logic on day one. Exactly. You only expand the scope when that first team can complete their workflow with dependably accurate answers, a highly manageable human review burden, and a fully understood, predictable operating cost.",
+  "why": "Expose intermediate review or processing steps.",
+  "alternative": "Authentic tenant UI would be preferable for proving an executed product action; this clip is a concept illustration.",
+  "visual_review": "Draft, not human approved. Generated symbols corrected in editable reconstruction.",
+  "source_reference": "reference-library/frames/graphic/0003510.jpg",
+  "motion": "independent card alpha reveal + 16px eased settling, timed to recording keywords; fixed grid and presenter rail",
+  "source_start": 3611.70068,
+  "source_end": 3653.82068,
+  "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+}

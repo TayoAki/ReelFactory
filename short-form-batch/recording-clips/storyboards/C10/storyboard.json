@@ -1,0 +1,44 @@
+{
+  "id": "C10",
+  "family": "ownership",
+  "master_image": "../master-ownership.png",
+  "visual_workflow": "image-first",
+  "state_images": [
+    "01-initial.jpg",
+    "02-build.jpg",
+    "03-settled.jpg"
+  ],
+  "layers": [
+    {
+      "label": "Source records",
+      "sub": "DEFINITION / SOURCE",
+      "x": 100,
+      "y": 680,
+      "w": 880,
+      "h": 250,
+      "focal": true,
+      "on": 0.7,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Business concepts",
+      "sub": "CONSUMER / MAPPING",
+      "x": 100,
+      "y": 1050,
+      "w": 880,
+      "h": 250,
+      "focal": false,
+      "on": 44.06,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    }
+  ],
+  "relation": "Ontology definitions",
+  "source_quote": "which naturally raises the question is Fabric IQ, which is the specific service where this ontology feature lives. Just another database we have to maintain. That is the most persistent misconception we see and we really have to clear it up immediately. Fabric IQ is emphatically not a database. Okay, so it doesn't store data? It does not store your transactional data. Fabric IQ organizes the business context that hovers over the data you already have. If it doesn't hold data, what is it holding? Think of it as a semantic translation layer. Power BI provides your curated analytics and visuals. Your Lakehouse provides the raw storage, but the ontology living inside Fabric IQ defines the actual concepts and connections.",
+  "why": "Separate the source of meaning or data from its consumer.",
+  "alternative": "Authentic tenant UI would be preferable for proving an executed product action; this clip is a concept illustration.",
+  "visual_review": "Draft, not human approved. Generated symbols corrected in editable reconstruction.",
+  "source_reference": "reference-library/frames/graphic/0003510.jpg",
+  "motion": "independent card alpha reveal + 16px eased settling, timed to recording keywords; fixed grid and presenter rail"
+}

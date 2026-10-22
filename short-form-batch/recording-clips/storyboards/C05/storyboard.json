@@ -1,0 +1,60 @@
+{
+  "id": "C05",
+  "family": "contrast",
+  "master_image": "../master-contrast.png",
+  "visual_workflow": "image-first",
+  "state_images": [
+    "01-initial.jpg",
+    "02-build.jpg",
+    "03-settled.jpg"
+  ],
+  "layers": [
+    {
+      "label": "Data needs business context",
+      "sub": "CONTEXT / QUESTION",
+      "x": 180,
+      "y": 660,
+      "w": 720,
+      "h": 180,
+      "focal": true,
+      "on": 0.7,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Ingredients",
+      "sub": "INTERPRETATION A",
+      "x": 60,
+      "y": 935,
+      "w": 455,
+      "h": 370,
+      "focal": true,
+      "on": 8.2,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Recipe",
+      "sub": "INTERPRETATION B",
+      "x": 565,
+      "y": 935,
+      "w": 455,
+      "h": 370,
+      "focal": false,
+      "on": 11.16,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    }
+  ],
+  "relation": "Compare the meaning",
+  "source_quote": "Having raw data and an LLM without an ontology is essentially like having a massive commercial kitchen packed to the ceiling with premium ingredients. I like this analogy. But you have no recipe. You don't know the ratios, you don't know the cooking times, and you don't even know if you're supposed to be baking a wedding cake or making a beef stew. That is the functional reality for most enterprises today.",
+  "why": "Compare interpretations without implying causation.",
+  "alternative": "Authentic tenant UI would be preferable for proving an executed product action; this clip is a concept illustration.",
+  "visual_review": "Draft, not human approved. Generated symbols corrected in editable reconstruction.",
+  "source_reference": "reference-library/frames/graphic/0003510.jpg",
+  "motion": "independent card alpha reveal + 16px eased settling, timed to recording keywords; fixed grid and presenter rail",
+  "source_start": 381.24,
+  "source_end": 403.03999999999996,
+  "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+}

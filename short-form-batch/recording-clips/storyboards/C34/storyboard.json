@@ -1,0 +1,44 @@
+{
+  "id": "C34",
+  "family": "entities",
+  "master_image": "../master-entities.png",
+  "visual_workflow": "image-first",
+  "state_images": [
+    "01-initial.jpg",
+    "02-build.jpg",
+    "03-settled.jpg"
+  ],
+  "layers": [
+    {
+      "label": "Priority stores",
+      "sub": "ENTITY / CONCEPT",
+      "x": 100,
+      "y": 680,
+      "w": 880,
+      "h": 250,
+      "focal": true,
+      "on": 0.7,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Inventory and deliveries",
+      "sub": "RELATED CONCEPT",
+      "x": 100,
+      "y": 1050,
+      "w": 880,
+      "h": 250,
+      "focal": false,
+      "on": 4.52,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    }
+  ],
+  "relation": "Example operations question",
+  "source_quote": "The prompt is review priority stores in the West region for frozen product inventory risk. Include recent refrigeration exceptions, shelf availability, and the next expected inbound delivery.",
+  "why": "Keep the named concepts and their relationship visible.",
+  "alternative": "Authentic tenant UI would be preferable for proving an executed product action; this clip is a concept illustration.",
+  "visual_review": "Draft, not human approved. Generated symbols corrected in editable reconstruction.",
+  "source_reference": "reference-library/frames/graphic/0003510.jpg",
+  "motion": "independent card alpha reveal + 16px eased settling, timed to recording keywords; fixed grid and presenter rail"
+}

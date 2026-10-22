@@ -1,0 +1,60 @@
+{
+  "id": "C04",
+  "family": "contrast",
+  "master_image": "../master-contrast.png",
+  "visual_workflow": "image-first",
+  "state_images": [
+    "01-initial.jpg",
+    "02-build.jpg",
+    "03-settled.jpg"
+  ],
+  "layers": [
+    {
+      "label": "Inventory at risk",
+      "sub": "CONTEXT / QUESTION",
+      "x": 180,
+      "y": 660,
+      "w": 720,
+      "h": 180,
+      "focal": true,
+      "on": 0.25,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Below threshold now",
+      "sub": "INTERPRETATION A",
+      "x": 60,
+      "y": 935,
+      "w": 455,
+      "h": 370,
+      "focal": true,
+      "on": 18.72,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Shortage before delivery",
+      "sub": "INTERPRETATION B",
+      "x": 565,
+      "y": 935,
+      "w": 455,
+      "h": 370,
+      "focal": false,
+      "on": 43.26,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    }
+  ],
+  "relation": "Compare the meaning",
+  "source_quote": "Inventory at risk is a brilliant example of these diagnostic muddy waters. Because it sounds so simple. It does. But if you go down to the warehouse and ask the manager what inventory at risk means, they will likely give you a purely physical definition. Meaning what? To them it means the physical count of stocks sitting on a pallet is currently below a hard minimum threshold at this exact second. Okay, but if you take that exact same phrase to a supply chain planner, the planner is going to give you a temporal predictive definition. Right, because their job is looking ahead. Exactly. To them, inventory at risk means that based on current sales velocity and historical trends, a predictive projection shows that the stock will fall below a required safety buffer at some point before the next delivery truck physically arrives. Those are two radically different mathematical equations. Completely different database queries triggered by the exact same three words.",
+  "why": "Compare interpretations without implying causation.",
+  "alternative": "Authentic tenant UI would be preferable for proving an executed product action; this clip is a concept illustration.",
+  "visual_review": "Draft, not human approved. Generated symbols corrected in editable reconstruction.",
+  "source_reference": "reference-library/frames/graphic/0003510.jpg",
+  "motion": "independent card alpha reveal + 16px eased settling, timed to recording keywords; fixed grid and presenter rail",
+  "source_start": 326.42,
+  "source_end": 379.04,
+  "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+}

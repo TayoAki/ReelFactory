@@ -1,0 +1,88 @@
+WEBVTT
+
+00:00:00.359 --> 00:00:02.179
+The current agent does not automatically
+
+00:00:02.059 --> 00:00:04.100
+traverse downward to include every
+
+00:00:03.980 --> 00:00:05.840
+derived instance when you query a
+
+00:00:05.720 --> 00:00:06.620
+broad parent type.
+
+00:00:07.060 --> 00:00:08.440
+Why does that matter in a
+
+00:00:08.320 --> 00:00:09.299
+real -world query?
+
+00:00:09.460 --> 00:00:10.559
+Walk me through a scenario.
+
+00:00:10.820 --> 00:00:12.540
+Let's say a regional manager is
+
+00:00:12.420 --> 00:00:13.920
+running a diagnostic on everything
+
+00:00:13.800 --> 00:00:15.260
+in their supply chain that might
+
+00:00:15.140 --> 00:00:17.180
+spoil. They sit down at the
+
+00:00:17.060 --> 00:00:18.740
+chat interface and ask the agent
+
+00:00:18.620 --> 00:00:20.640
+to analyze inventory risk for all
+
+00:00:20.520 --> 00:00:22.380
+product. Just general products.
+
+00:00:22.680 --> 00:00:25.180
+Right. Because of this preview limitation,
+
+00:00:25.300 --> 00:00:26.760
+the agent might only query the
+
+00:00:26.640 --> 00:00:29.040
+base product entity and completely
+
+00:00:28.920 --> 00:00:30.500
+fail to roll up the derived
+
+00:00:30.380 --> 00:00:32.900
+frozen product instances into that
+
+00:00:32.780 --> 00:00:34.180
+analysis. Oh, wow.
+
+00:00:34.700 --> 00:00:36.220
+So the manager thinks they are
+
+00:00:36.100 --> 00:00:37.740
+looking at a comprehensive report,
+
+00:00:38.460 --> 00:00:40.640
+but the AI just silently ignored
+
+00:00:40.520 --> 00:00:42.879
+half a million dollars worth of
+
+00:00:42.760 --> 00:00:44.839
+melting ice cream because the human
+
+00:00:44.720 --> 00:00:46.460
+didn't specifically say the word frozen.
+
+00:00:46.640 --> 00:00:48.600
+Precisely. You have to specifically
+
+00:00:48.480 --> 00:00:50.660
+name the relevant derived type in
+
+00:00:50.540 --> 00:00:51.059
+your prompt.

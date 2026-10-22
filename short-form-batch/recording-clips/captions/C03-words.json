@@ -1,0 +1,928 @@
+{
+  "id": "C03",
+  "title": "Which shipment date means arrival",
+  "source_start": 255.58,
+  "source_end": 308.2,
+  "duration": 52.619999999999976,
+  "part_ranges": [
+    {
+      "part": "part00.m4a",
+      "start": 255.58,
+      "end": 308.2
+    }
+  ],
+  "family": "contrast",
+  "left_label": "Order date",
+  "right_label": "Expected arrival",
+  "focus_label": "Several dates, different meanings",
+  "example_kind": "shipment-date example",
+  "words": [
+    {
+      "word": "Or",
+      "start": 0.2599999999999998,
+      "end": 0.31999999999999984,
+      "probability": 0.9669145941734314
+    },
+    {
+      "word": "consider",
+      "start": 0.31999999999999984,
+      "end": 0.6200000000000001,
+      "probability": 0.9429836273193359
+    },
+    {
+      "word": "something",
+      "start": 0.6200000000000001,
+      "end": 1.04,
+      "probability": 0.9973040819168091
+    },
+    {
+      "word": "as",
+      "start": 1.04,
+      "end": 1.3599999999999999,
+      "probability": 0.9480776190757751
+    },
+    {
+      "word": "ubiquitous",
+      "start": 1.3599999999999999,
+      "end": 1.92,
+      "probability": 0.829663872718811
+    },
+    {
+      "word": "as",
+      "start": 1.92,
+      "end": 2.4000000000000004,
+      "probability": 0.9813756942749023
+    },
+    {
+      "word": "a",
+      "start": 2.4000000000000004,
+      "end": 2.5199999999999996,
+      "probability": 0.9865983724594116
+    },
+    {
+      "word": "shipment",
+      "start": 2.5199999999999996,
+      "end": 2.76,
+      "probability": 0.992883563041687
+    },
+    {
+      "word": "record.",
+      "start": 2.76,
+      "end": 3.1799999999999997,
+      "probability": 0.9405047297477722
+    },
+    {
+      "word": "Okay.",
+      "start": 3.5199999999999996,
+      "end": 3.76,
+      "probability": 0.4087269902229309
+    },
+    {
+      "word": "If",
+      "start": 4.44,
+      "end": 4.6,
+      "probability": 0.9826001524925232
+    },
+    {
+      "word": "you",
+      "start": 4.6,
+      "end": 4.74,
+      "probability": 0.9991673231124878
+    },
+    {
+      "word": "look",
+      "start": 4.74,
+      "end": 4.88,
+      "probability": 0.9981404542922974
+    },
+    {
+      "word": "at",
+      "start": 4.88,
+      "end": 5.04,
+      "probability": 0.997818112373352
+    },
+    {
+      "word": "a",
+      "start": 5.04,
+      "end": 5.1,
+      "probability": 0.9937615990638733
+    },
+    {
+      "word": "standard",
+      "start": 5.1,
+      "end": 5.5,
+      "probability": 0.9894469976425171
+    },
+    {
+      "word": "supply",
+      "start": 5.5,
+      "end": 5.84,
+      "probability": 0.9569551944732666
+    },
+    {
+      "word": "chain",
+      "start": 5.84,
+      "end": 6.380000000000001,
+      "probability": 0.9788016080856323
+    },
+    {
+      "word": "database,",
+      "start": 6.380000000000001,
+      "end": 6.779999999999999,
+      "probability": 0.9948321580886841
+    },
+    {
+      "word": "a",
+      "start": 7.140000000000001,
+      "end": 7.279999999999999,
+      "probability": 0.9960756897926331
+    },
+    {
+      "word": "single",
+      "start": 7.279999999999999,
+      "end": 7.68,
+      "probability": 0.9976740479469299
+    },
+    {
+      "word": "shipment",
+      "start": 7.68,
+      "end": 8.1,
+      "probability": 0.9966699481010437
+    },
+    {
+      "word": "record",
+      "start": 8.1,
+      "end": 8.58,
+      "probability": 0.9965404868125916
+    },
+    {
+      "word": "might",
+      "start": 8.58,
+      "end": 8.92,
+      "probability": 0.9881564378738403
+    },
+    {
+      "word": "contain",
+      "start": 8.92,
+      "end": 9.36,
+      "probability": 0.9991112351417542
+    },
+    {
+      "word": "half",
+      "start": 9.36,
+      "end": 9.84,
+      "probability": 0.9801821708679199
+    },
+    {
+      "word": "a",
+      "start": 9.84,
+      "end": 9.96,
+      "probability": 0.9754790663719177
+    },
+    {
+      "word": "dozen",
+      "start": 9.96,
+      "end": 10.16,
+      "probability": 0.9997537732124329
+    },
+    {
+      "word": "different",
+      "start": 10.16,
+      "end": 10.56,
+      "probability": 0.9962862730026245
+    },
+    {
+      "word": "date",
+      "start": 10.56,
+      "end": 10.86,
+      "probability": 0.9357802271842957
+    },
+    {
+      "word": "fields.",
+      "start": 10.86,
+      "end": 11.16,
+      "probability": 0.9958721995353699
+    },
+    {
+      "word": "Oh",
+      "start": 11.64,
+      "end": 11.8,
+      "probability": 0.9625290036201477
+    },
+    {
+      "word": "yeah,",
+      "start": 11.8,
+      "end": 11.98,
+      "probability": 0.4292413890361786
+    },
+    {
+      "word": "order",
+      "start": 12.66,
+      "end": 12.96,
+      "probability": 0.8908187747001648
+    },
+    {
+      "word": "date,",
+      "start": 12.96,
+      "end": 13.22,
+      "probability": 0.9133071899414062
+    },
+    {
+      "word": "ship",
+      "start": 13.36,
+      "end": 13.44,
+      "probability": 0.8962978720664978
+    },
+    {
+      "word": "date,",
+      "start": 13.44,
+      "end": 13.62,
+      "probability": 0.8773241639137268
+    },
+    {
+      "word": "all",
+      "start": 13.62,
+      "end": 13.86,
+      "probability": 0.9947459697723389
+    },
+    {
+      "word": "of",
+      "start": 13.86,
+      "end": 13.96,
+      "probability": 0.9891899824142456
+    },
+    {
+      "word": "that.",
+      "start": 13.96,
+      "end": 14.079999999999998,
+      "probability": 0.9977899789810181
+    },
+    {
+      "word": "Right.",
+      "start": 14.3,
+      "end": 14.399999999999999,
+      "probability": 0.9559323787689209
+    },
+    {
+      "word": "You",
+      "start": 15.239999999999998,
+      "end": 15.48,
+      "probability": 0.9928158521652222
+    },
+    {
+      "word": "have",
+      "start": 15.48,
+      "end": 15.559999999999999,
+      "probability": 0.9931580424308777
+    },
+    {
+      "word": "the",
+      "start": 15.559999999999999,
+      "end": 15.66,
+      "probability": 0.9981903433799744
+    },
+    {
+      "word": "original",
+      "start": 15.66,
+      "end": 15.920000000000002,
+      "probability": 0.9886550903320312
+    },
+    {
+      "word": "order",
+      "start": 15.920000000000002,
+      "end": 16.3,
+      "probability": 0.985824704170227
+    },
+    {
+      "word": "date,",
+      "start": 16.3,
+      "end": 16.6,
+      "probability": 0.9880473613739014
+    },
+    {
+      "word": "the",
+      "start": 16.82,
+      "end": 16.94,
+      "probability": 0.9845229387283325
+    },
+    {
+      "word": "warehouse",
+      "start": 16.94,
+      "end": 17.14,
+      "probability": 0.9922171831130981
+    },
+    {
+      "word": "processing",
+      "start": 17.14,
+      "end": 17.7,
+      "probability": 0.9943841695785522
+    },
+    {
+      "word": "date,",
+      "start": 17.7,
+      "end": 18.06,
+      "probability": 0.9868738055229187
+    },
+    {
+      "word": "the",
+      "start": 18.28,
+      "end": 18.46,
+      "probability": 0.9971333742141724
+    },
+    {
+      "word": "physical",
+      "start": 18.46,
+      "end": 18.64,
+      "probability": 0.9941873550415039
+    },
+    {
+      "word": "ship",
+      "start": 18.64,
+      "end": 18.94,
+      "probability": 0.9901594519615173
+    },
+    {
+      "word": "date,",
+      "start": 18.94,
+      "end": 19.16,
+      "probability": 0.9910036325454712
+    },
+    {
+      "word": "the",
+      "start": 19.54,
+      "end": 19.66,
+      "probability": 0.9984662532806396
+    },
+    {
+      "word": "initial",
+      "start": 19.66,
+      "end": 19.98,
+      "probability": 0.9982450008392334
+    },
+    {
+      "word": "estimated",
+      "start": 19.98,
+      "end": 20.4,
+      "probability": 0.8737142086029053
+    },
+    {
+      "word": "arrival",
+      "start": 20.4,
+      "end": 20.88,
+      "probability": 0.982363224029541
+    },
+    {
+      "word": "date,",
+      "start": 20.88,
+      "end": 21.259999999999998,
+      "probability": 0.9887040257453918
+    },
+    {
+      "word": "the",
+      "start": 21.9,
+      "end": 21.98,
+      "probability": 0.9953740239143372
+    },
+    {
+      "word": "revised",
+      "start": 21.98,
+      "end": 22.259999999999998,
+      "probability": 0.9894767999649048
+    },
+    {
+      "word": "arrival",
+      "start": 22.259999999999998,
+      "end": 22.62,
+      "probability": 0.9892702102661133
+    },
+    {
+      "word": "date",
+      "start": 22.62,
+      "end": 23.08,
+      "probability": 0.9890189170837402
+    },
+    {
+      "word": "based",
+      "start": 23.08,
+      "end": 23.3,
+      "probability": 0.9193970561027527
+    },
+    {
+      "word": "on,",
+      "start": 23.3,
+      "end": 23.54,
+      "probability": 0.9982884526252747
+    },
+    {
+      "word": "say,",
+      "start": 23.54,
+      "end": 23.98,
+      "probability": 0.9945574998855591
+    },
+    {
+      "word": "weather",
+      "start": 24.18,
+      "end": 24.240000000000002,
+      "probability": 0.9890706539154053
+    },
+    {
+      "word": "delays,",
+      "start": 24.240000000000002,
+      "end": 24.58,
+      "probability": 0.9973059892654419
+    },
+    {
+      "word": "and",
+      "start": 25.3,
+      "end": 25.32,
+      "probability": 0.9948967099189758
+    },
+    {
+      "word": "the",
+      "start": 25.32,
+      "end": 25.42,
+      "probability": 0.991938054561615
+    },
+    {
+      "word": "actual",
+      "start": 25.42,
+      "end": 25.82,
+      "probability": 0.9952459931373596
+    },
+    {
+      "word": "docked",
+      "start": 25.82,
+      "end": 26.240000000000002,
+      "probability": 0.9373039901256561
+    },
+    {
+      "word": "date.",
+      "start": 26.240000000000002,
+      "end": 26.64,
+      "probability": 0.9921050071716309
+    },
+    {
+      "word": "That",
+      "start": 26.98,
+      "end": 27.2,
+      "probability": 0.6634926795959473
+    },
+    {
+      "word": "is",
+      "start": 27.2,
+      "end": 27.32,
+      "probability": 0.9798071384429932
+    },
+    {
+      "word": "a",
+      "start": 27.32,
+      "end": 27.42,
+      "probability": 0.9863972067832947
+    },
+    {
+      "word": "lot",
+      "start": 27.42,
+      "end": 27.58,
+      "probability": 0.9974398612976074
+    },
+    {
+      "word": "of",
+      "start": 27.58,
+      "end": 27.7,
+      "probability": 0.9986013770103455
+    },
+    {
+      "word": "dates.",
+      "start": 27.7,
+      "end": 27.86,
+      "probability": 0.9929781556129456
+    },
+    {
+      "word": "So",
+      "start": 28.58,
+      "end": 28.96,
+      "probability": 0.941254734992981
+    },
+    {
+      "word": "if",
+      "start": 28.96,
+      "end": 29.1,
+      "probability": 0.8402628898620605
+    },
+    {
+      "word": "an",
+      "start": 29.1,
+      "end": 29.2,
+      "probability": 0.9981414079666138
+    },
+    {
+      "word": "executive",
+      "start": 29.2,
+      "end": 29.5,
+      "probability": 0.9582482576370239
+    },
+    {
+      "word": "asks",
+      "start": 29.5,
+      "end": 29.939999999999998,
+      "probability": 0.9921146035194397
+    },
+    {
+      "word": "a",
+      "start": 29.939999999999998,
+      "end": 30.22,
+      "probability": 0.9532157182693481
+    },
+    {
+      "word": "standard",
+      "start": 30.22,
+      "end": 30.6,
+      "probability": 0.9824543595314026
+    },
+    {
+      "word": "AI",
+      "start": 30.6,
+      "end": 30.880000000000003,
+      "probability": 0.9263845086097717
+    },
+    {
+      "word": "chatbot,",
+      "start": 30.880000000000003,
+      "end": 31.4,
+      "probability": 0.9343591332435608
+    },
+    {
+      "word": "hey,",
+      "start": 31.54,
+      "end": 31.7,
+      "probability": 0.2405855655670166
+    },
+    {
+      "word": "when",
+      "start": 31.939999999999998,
+      "end": 32.06,
+      "probability": 0.9913098812103271
+    },
+    {
+      "word": "is",
+      "start": 32.06,
+      "end": 32.2,
+      "probability": 0.9973505735397339
+    },
+    {
+      "word": "the",
+      "start": 32.2,
+      "end": 32.32,
+      "probability": 0.9968268275260925
+    },
+    {
+      "word": "inventory",
+      "start": 32.32,
+      "end": 32.64,
+      "probability": 0.9949445128440857
+    },
+    {
+      "word": "arriving?",
+      "start": 32.64,
+      "end": 33.18,
+      "probability": 0.9991361498832703
+    },
+    {
+      "word": "How",
+      "start": 33.9,
+      "end": 33.980000000000004,
+      "probability": 0.994816243648529
+    },
+    {
+      "word": "does",
+      "start": 33.980000000000004,
+      "end": 34.08,
+      "probability": 0.9981560111045837
+    },
+    {
+      "word": "the",
+      "start": 34.08,
+      "end": 34.22,
+      "probability": 0.9866697788238525
+    },
+    {
+      "word": "language",
+      "start": 34.22,
+      "end": 34.42,
+      "probability": 0.9620333909988403
+    },
+    {
+      "word": "model",
+      "start": 34.42,
+      "end": 34.66,
+      "probability": 0.9987597465515137
+    },
+    {
+      "word": "know",
+      "start": 34.66,
+      "end": 34.94,
+      "probability": 0.9977598190307617
+    },
+    {
+      "word": "which",
+      "start": 34.94,
+      "end": 35.2,
+      "probability": 0.9971451163291931
+    },
+    {
+      "word": "of",
+      "start": 35.2,
+      "end": 35.42,
+      "probability": 0.998023271560669
+    },
+    {
+      "word": "those",
+      "start": 35.42,
+      "end": 35.620000000000005,
+      "probability": 0.995131254196167
+    },
+    {
+      "word": "six",
+      "start": 35.620000000000005,
+      "end": 35.84,
+      "probability": 0.9651502370834351
+    },
+    {
+      "word": "columns",
+      "start": 35.84,
+      "end": 36.32,
+      "probability": 0.9989103078842163
+    },
+    {
+      "word": "to",
+      "start": 36.32,
+      "end": 36.58,
+      "probability": 0.996690034866333
+    },
+    {
+      "word": "pull?",
+      "start": 36.58,
+      "end": 36.82,
+      "probability": 0.9848836660385132
+    },
+    {
+      "word": "Usually",
+      "start": 37.28,
+      "end": 37.620000000000005,
+      "probability": 0.9643370509147644
+    },
+    {
+      "word": "it",
+      "start": 37.620000000000005,
+      "end": 37.78,
+      "probability": 0.6290547847747803
+    },
+    {
+      "word": "just",
+      "start": 37.78,
+      "end": 37.9,
+      "probability": 0.9667425751686096
+    },
+    {
+      "word": "guesses,",
+      "start": 37.9,
+      "end": 38.14,
+      "probability": 0.9975666999816895
+    },
+    {
+      "word": "right?",
+      "start": 38.519999999999996,
+      "end": 38.66,
+      "probability": 0.9851415157318115
+    },
+    {
+      "word": "Or",
+      "start": 38.879999999999995,
+      "end": 39.019999999999996,
+      "probability": 0.9833389520645142
+    },
+    {
+      "word": "it",
+      "start": 39.019999999999996,
+      "end": 39.260000000000005,
+      "probability": 0.9846627712249756
+    },
+    {
+      "word": "hallucinates.",
+      "start": 39.260000000000005,
+      "end": 39.68,
+      "probability": 0.9866012930870056
+    },
+    {
+      "word": "Historically,",
+      "start": 40.68,
+      "end": 41.26,
+      "probability": 0.9912431240081787
+    },
+    {
+      "word": "a",
+      "start": 41.26,
+      "end": 41.6,
+      "probability": 0.9957494735717773
+    },
+    {
+      "word": "human",
+      "start": 41.6,
+      "end": 41.84,
+      "probability": 0.9962186217308044
+    },
+    {
+      "word": "data",
+      "start": 41.84,
+      "end": 42.1,
+      "probability": 0.995367169380188
+    },
+    {
+      "word": "engineer",
+      "start": 42.1,
+      "end": 42.519999999999996,
+      "probability": 0.9986716508865356
+    },
+    {
+      "word": "has",
+      "start": 42.519999999999996,
+      "end": 42.82,
+      "probability": 0.9985970854759216
+    },
+    {
+      "word": "had",
+      "start": 42.82,
+      "end": 42.96,
+      "probability": 0.9967142343521118
+    },
+    {
+      "word": "to",
+      "start": 42.96,
+      "end": 43.08,
+      "probability": 0.9995359182357788
+    },
+    {
+      "word": "explicitly",
+      "start": 43.08,
+      "end": 43.46,
+      "probability": 0.9989448189735413
+    },
+    {
+      "word": "write",
+      "start": 43.46,
+      "end": 43.9,
+      "probability": 0.994532585144043
+    },
+    {
+      "word": "SQL",
+      "start": 43.9,
+      "end": 44.22,
+      "probability": 0.587529718875885
+    },
+    {
+      "word": "queries",
+      "start": 44.22,
+      "end": 44.72,
+      "probability": 0.9948107004165649
+    },
+    {
+      "word": "to",
+      "start": 44.72,
+      "end": 45.019999999999996,
+      "probability": 0.9929050803184509
+    },
+    {
+      "word": "tell",
+      "start": 45.019999999999996,
+      "end": 45.16,
+      "probability": 0.9992088675498962
+    },
+    {
+      "word": "the",
+      "start": 45.16,
+      "end": 45.28,
+      "probability": 0.9994038343429565
+    },
+    {
+      "word": "reporting",
+      "start": 45.28,
+      "end": 45.519999999999996,
+      "probability": 0.9952700734138489
+    },
+    {
+      "word": "system",
+      "start": 45.519999999999996,
+      "end": 45.88,
+      "probability": 0.9992808699607849
+    },
+    {
+      "word": "which",
+      "start": 45.88,
+      "end": 46.56,
+      "probability": 0.6434557437896729
+    },
+    {
+      "word": "of",
+      "start": 46.56,
+      "end": 46.74,
+      "probability": 0.9982500672340393
+    },
+    {
+      "word": "those",
+      "start": 46.74,
+      "end": 46.88,
+      "probability": 0.9985983967781067
+    },
+    {
+      "word": "fields",
+      "start": 46.88,
+      "end": 47.14,
+      "probability": 0.9983251690864563
+    },
+    {
+      "word": "represents",
+      "start": 47.14,
+      "end": 47.58,
+      "probability": 0.9970548152923584
+    },
+    {
+      "word": "the",
+      "start": 47.58,
+      "end": 47.92,
+      "probability": 0.9963985681533813
+    },
+    {
+      "word": "actual",
+      "start": 47.92,
+      "end": 48.4,
+      "probability": 0.9989455342292786
+    },
+    {
+      "word": "expected",
+      "start": 48.4,
+      "end": 49.12,
+      "probability": 0.9385430812835693
+    },
+    {
+      "word": "arrival",
+      "start": 49.12,
+      "end": 49.74,
+      "probability": 0.9935321807861328
+    },
+    {
+      "word": "that",
+      "start": 49.74,
+      "end": 50.24,
+      "probability": 0.988897979259491
+    },
+    {
+      "word": "the",
+      "start": 50.24,
+      "end": 50.32,
+      "probability": 0.997439980506897
+    },
+    {
+      "word": "store",
+      "start": 50.32,
+      "end": 50.480000000000004,
+      "probability": 0.9595733880996704
+    },
+    {
+      "word": "manager",
+      "start": 50.480000000000004,
+      "end": 50.78,
+      "probability": 0.9976977705955505
+    },
+    {
+      "word": "cares",
+      "start": 50.78,
+      "end": 51.06,
+      "probability": 0.9977046847343445
+    },
+    {
+      "word": "about",
+      "start": 51.06,
+      "end": 51.480000000000004,
+      "probability": 0.9987642765045166
+    },
+    {
+      "word": "today,",
+      "start": 51.480000000000004,
+      "end": 52.16,
+      "probability": 0.9249774813652039
+    }
+  ],
+  "transcript_asr": "Or consider something as ubiquitous as a shipment record. Okay. If you look at a standard supply chain database, a single shipment record might contain half a dozen different date fields. Oh yeah, order date, ship date, all of that. Right. You have the original order date, the warehouse processing date, the physical ship date, the initial estimated arrival date, the revised arrival date based on, say, weather delays, and the actual docked date. That is a lot of dates. So if an executive asks a standard AI chatbot, hey, when is the inventory arriving? How does the language model know which of those six columns to pull? Usually it just guesses, right? Or it hallucinates. Historically, a human data engineer has had to explicitly write SQL queries to tell the reporting system which of those fields represents the actual expected arrival that the store manager cares about today,",
+  "source_kind": "actual uploaded recording; continuous audio excerpt",
+  "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "status": "planned",
+  "publish_status": "draft for review",
+  "narration_replaced": false,
+  "actual_timestamps": true,
+  "context_label": "Illustrative scenario",
+  "review_flags": [],
+  "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
+  "boundary_note": "Complete expected-arrival explanation retained using the first-pass word boundary; second pass dropped about today.",
+  "caption_corrections": [],
+  "caption_join_review": []
+}

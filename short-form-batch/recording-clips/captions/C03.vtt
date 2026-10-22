@@ -1,0 +1,85 @@
+WEBVTT
+
+00:00:00.259 --> 00:00:02.040
+Or consider something as ubiquitous
+
+00:00:01.920 --> 00:00:03.300
+as a shipment record.
+
+00:00:03.519 --> 00:00:05.220
+Okay. If you look at a
+
+00:00:05.100 --> 00:00:07.800
+standard supply chain database, a single
+
+00:00:07.680 --> 00:00:09.959
+shipment record might contain half
+
+00:00:09.840 --> 00:00:11.280
+a dozen different date fields.
+
+00:00:11.640 --> 00:00:13.739
+Oh yeah, order date, ship date,
+
+00:00:13.620 --> 00:00:14.199
+all of that.
+
+00:00:14.300 --> 00:00:16.420
+Right. You have the original order
+
+00:00:16.300 --> 00:00:18.180
+date, the warehouse processing date,
+
+00:00:18.280 --> 00:00:20.100
+the physical ship date, the initial
+
+00:00:19.980 --> 00:00:22.380
+estimated arrival date, the revised
+
+00:00:22.259 --> 00:00:24.360
+arrival date based on, say, weather
+
+00:00:24.240 --> 00:00:26.760
+delays, and the actual docked date.
+
+00:00:26.980 --> 00:00:27.980
+That is a lot of dates.
+
+00:00:28.580 --> 00:00:30.340
+So if an executive asks a
+
+00:00:30.220 --> 00:00:32.320
+standard AI chatbot, hey, when is
+
+00:00:32.200 --> 00:00:33.300
+the inventory arriving?
+
+00:00:33.900 --> 00:00:35.059
+How does the language model know
+
+00:00:34.940 --> 00:00:36.699
+which of those six columns to
+
+00:00:36.580 --> 00:00:38.779
+pull? Usually it just guesses, right?
+
+00:00:38.879 --> 00:00:39.800
+Or it hallucinates.
+
+00:00:40.680 --> 00:00:42.639
+Historically, a human data engineer
+
+00:00:42.519 --> 00:00:44.339
+has had to explicitly write SQL
+
+00:00:44.220 --> 00:00:46.000
+queries to tell the reporting system
+
+00:00:45.880 --> 00:00:48.040
+which of those fields represents the
+
+00:00:47.920 --> 00:00:50.600
+actual expected arrival that the store
+
+00:00:50.480 --> 00:00:52.279
+manager cares about today,

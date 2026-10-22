@@ -1,0 +1,1150 @@
+{
+  "id": "C31",
+  "title": "Freshness depends on the execution path",
+  "source_start": 1819.22195,
+  "source_end": 1882.4219500000002,
+  "duration": 63.200000000000045,
+  "part_ranges": [
+    {
+      "part": "part02.m4a",
+      "start": 319.1200000000001,
+      "end": 382.32000000000016
+    }
+  ],
+  "family": "evidence",
+  "left_label": "Streaming observations",
+  "right_label": "Imported report refresh",
+  "focus_label": "Check source timestamps",
+  "example_kind": "illustrative mixed-freshness example",
+  "words": [
+    {
+      "word": "Data",
+      "start": 0.07999999999985441,
+      "end": 0.35999999999985466,
+      "probability": 0.9863816499710083
+    },
+    {
+      "word": "freshness",
+      "start": 0.35999999999985466,
+      "end": 0.8599999999998547,
+      "probability": 0.875933438539505
+    },
+    {
+      "word": "depends",
+      "start": 0.8599999999998547,
+      "end": 1.1199999999998544,
+      "probability": 0.9965674877166748
+    },
+    {
+      "word": "entirely",
+      "start": 1.1199999999998544,
+      "end": 1.6999999999998545,
+      "probability": 0.9984976053237915
+    },
+    {
+      "word": "on",
+      "start": 1.6999999999998545,
+      "end": 2.0799999999998544,
+      "probability": 0.9983391761779785
+    },
+    {
+      "word": "the",
+      "start": 2.0799999999998544,
+      "end": 2.1599999999998545,
+      "probability": 0.999042809009552
+    },
+    {
+      "word": "execution",
+      "start": 2.1599999999998545,
+      "end": 2.4999999999998543,
+      "probability": 0.998282790184021
+    },
+    {
+      "word": "path.",
+      "start": 2.4999999999998543,
+      "end": 2.839999999999854,
+      "probability": 0.9918449521064758
+    },
+    {
+      "word": "Because",
+      "start": 3.3999999999998547,
+      "end": 3.6999999999998545,
+      "probability": 0.6445900797843933
+    },
+    {
+      "word": "the",
+      "start": 3.6999999999998545,
+      "end": 3.839999999999854,
+      "probability": 0.9880104660987854
+    },
+    {
+      "word": "AI",
+      "start": 3.839999999999854,
+      "end": 3.9999999999998543,
+      "probability": 0.95057213306427
+    },
+    {
+      "word": "doesn't",
+      "start": 3.9999999999998543,
+      "end": 4.399999999999855,
+      "probability": 0.9831198453903198
+    },
+    {
+      "word": "know",
+      "start": 4.399999999999855,
+      "end": 4.539999999999854,
+      "probability": 0.998116135597229
+    },
+    {
+      "word": "it's",
+      "start": 4.539999999999854,
+      "end": 4.639999999999855,
+      "probability": 0.8574747741222382
+    },
+    {
+      "word": "comparing",
+      "start": 4.639999999999855,
+      "end": 4.979999999999855,
+      "probability": 0.9957738518714905
+    },
+    {
+      "word": "apples",
+      "start": 4.979999999999855,
+      "end": 5.2399999999998546,
+      "probability": 0.23933015763759613
+    },
+    {
+      "word": "to",
+      "start": 5.2399999999998546,
+      "end": 5.559999999999855,
+      "probability": 0.9946134686470032
+    },
+    {
+      "word": "last",
+      "start": 5.559999999999855,
+      "end": 5.779999999999855,
+      "probability": 0.9890607595443726
+    },
+    {
+      "word": "week's",
+      "start": 5.779999999999855,
+      "end": 6.219999999999855,
+      "probability": 0.9817527830600739
+    },
+    {
+      "word": "oranges.",
+      "start": 6.219999999999855,
+      "end": 6.479999999999855,
+      "probability": 0.9755278825759888
+    },
+    {
+      "word": "Exactly.",
+      "start": 6.899999999999855,
+      "end": 7.399999999999855,
+      "probability": 0.9882679581642151
+    },
+    {
+      "word": "If",
+      "start": 7.859999999999854,
+      "end": 8.119999999999855,
+      "probability": 0.9872927665710449
+    },
+    {
+      "word": "the",
+      "start": 8.119999999999855,
+      "end": 8.259999999999854,
+      "probability": 0.9899513125419617
+    },
+    {
+      "word": "agent",
+      "start": 8.259999999999854,
+      "end": 8.639999999999855,
+      "probability": 0.9857958555221558
+    },
+    {
+      "word": "executes",
+      "start": 8.639999999999855,
+      "end": 9.159999999999854,
+      "probability": 0.993755578994751
+    },
+    {
+      "word": "a",
+      "start": 9.159999999999854,
+      "end": 9.359999999999854,
+      "probability": 0.992098331451416
+    },
+    {
+      "word": "direct",
+      "start": 9.359999999999854,
+      "end": 9.639999999999855,
+      "probability": 0.9965474009513855
+    },
+    {
+      "word": "query",
+      "start": 9.639999999999855,
+      "end": 10.019999999999854,
+      "probability": 0.9963728189468384
+    },
+    {
+      "word": "against",
+      "start": 10.019999999999854,
+      "end": 10.439999999999854,
+      "probability": 0.9976141452789307
+    },
+    {
+      "word": "a",
+      "start": 10.439999999999854,
+      "end": 10.639999999999855,
+      "probability": 0.8090990781784058
+    },
+    {
+      "word": "streaming",
+      "start": 10.639999999999855,
+      "end": 11.019999999999854,
+      "probability": 0.9950212240219116
+    },
+    {
+      "word": "KQL",
+      "start": 11.019999999999854,
+      "end": 11.919999999999854,
+      "probability": 0.8571097552776337
+    },
+    {
+      "word": "Eventhouse,",
+      "start": 11.919999999999854,
+      "end": 12.519999999999854,
+      "probability": 0.8958776593208313
+    },
+    {
+      "word": "that",
+      "start": 12.879999999999855,
+      "end": 13.179999999999854,
+      "probability": 0.9958979487419128
+    },
+    {
+      "word": "temperature",
+      "start": 13.179999999999854,
+      "end": 13.459999999999855,
+      "probability": 0.9943612813949585
+    },
+    {
+      "word": "data",
+      "start": 13.459999999999855,
+      "end": 13.819999999999855,
+      "probability": 0.9963828325271606
+    },
+    {
+      "word": "might",
+      "start": 13.819999999999855,
+      "end": 14.159999999999854,
+      "probability": 0.9931855201721191
+    },
+    {
+      "word": "literally",
+      "start": 14.159999999999854,
+      "end": 14.599999999999856,
+      "probability": 0.9849895238876343
+    },
+    {
+      "word": "be",
+      "start": 14.599999999999856,
+      "end": 14.899999999999853,
+      "probability": 0.997913658618927
+    },
+    {
+      "word": "millisecond's",
+      "start": 14.899999999999853,
+      "end": 15.539999999999853,
+      "probability": 0.7532533009847006
+    },
+    {
+      "word": "old.",
+      "start": 15.539999999999853,
+      "end": 15.759999999999856,
+      "probability": 0.9876768589019775
+    },
+    {
+      "word": "Super",
+      "start": 15.899999999999853,
+      "end": 16.119999999999855,
+      "probability": 0.9397390484809875
+    },
+    {
+      "word": "fresh.",
+      "start": 16.119999999999855,
+      "end": 16.339999999999854,
+      "probability": 0.70562744140625
+    },
+    {
+      "word": "But",
+      "start": 16.639999999999855,
+      "end": 16.879999999999853,
+      "probability": 0.9957464337348938
+    },
+    {
+      "word": "if",
+      "start": 16.879999999999853,
+      "end": 17.039999999999853,
+      "probability": 0.987831175327301
+    },
+    {
+      "word": "it's",
+      "start": 17.039999999999853,
+      "end": 17.199999999999854,
+      "probability": 0.9640836715698242
+    },
+    {
+      "word": "simultaneously",
+      "start": 17.199999999999854,
+      "end": 17.779999999999855,
+      "probability": 0.9974978566169739
+    },
+    {
+      "word": "querying",
+      "start": 17.779999999999855,
+      "end": 18.719999999999853,
+      "probability": 0.983987957239151
+    },
+    {
+      "word": "an",
+      "start": 18.719999999999853,
+      "end": 19.099999999999856,
+      "probability": 0.942830502986908
+    },
+    {
+      "word": "imported",
+      "start": 19.099999999999856,
+      "end": 19.579999999999856,
+      "probability": 0.9873643517494202
+    },
+    {
+      "word": "Power",
+      "start": 19.579999999999856,
+      "end": 19.899999999999853,
+      "probability": 0.37533071637153625
+    },
+    {
+      "word": "BI",
+      "start": 19.899999999999853,
+      "end": 20.219999999999853,
+      "probability": 0.9596614241600037
+    },
+    {
+      "word": "model",
+      "start": 20.219999999999853,
+      "end": 20.579999999999856,
+      "probability": 0.9518187642097473
+    },
+    {
+      "word": "for",
+      "start": 20.579999999999856,
+      "end": 20.819999999999855,
+      "probability": 0.9944643378257751
+    },
+    {
+      "word": "the",
+      "start": 20.819999999999855,
+      "end": 20.939999999999856,
+      "probability": 0.9837737083435059
+    },
+    {
+      "word": "sales",
+      "start": 20.939999999999856,
+      "end": 21.079999999999856,
+      "probability": 0.8148549199104309
+    },
+    {
+      "word": "figures,",
+      "start": 21.079999999999856,
+      "end": 21.479999999999855,
+      "probability": 0.9949960708618164
+    },
+    {
+      "word": "those",
+      "start": 22.079999999999856,
+      "end": 22.279999999999855,
+      "probability": 0.9660951495170593
+    },
+    {
+      "word": "sales",
+      "start": 22.279999999999855,
+      "end": 22.499999999999854,
+      "probability": 0.9899097681045532
+    },
+    {
+      "word": "figures",
+      "start": 22.499999999999854,
+      "end": 22.899999999999856,
+      "probability": 0.9990690350532532
+    },
+    {
+      "word": "are",
+      "start": 22.899999999999856,
+      "end": 23.119999999999855,
+      "probability": 0.9886233806610107
+    },
+    {
+      "word": "only",
+      "start": 23.119999999999855,
+      "end": 23.339999999999854,
+      "probability": 0.9979104399681091
+    },
+    {
+      "word": "as",
+      "start": 23.339999999999854,
+      "end": 23.499999999999854,
+      "probability": 0.996992826461792
+    },
+    {
+      "word": "fresh",
+      "start": 23.499999999999854,
+      "end": 23.659999999999854,
+      "probability": 0.9957096576690674
+    },
+    {
+      "word": "as",
+      "start": 23.659999999999854,
+      "end": 23.879999999999853,
+      "probability": 0.9978917241096497
+    },
+    {
+      "word": "the",
+      "start": 23.879999999999853,
+      "end": 23.999999999999854,
+      "probability": 0.9972501397132874
+    },
+    {
+      "word": "last",
+      "start": 23.999999999999854,
+      "end": 24.159999999999854,
+      "probability": 0.9987233281135559
+    },
+    {
+      "word": "time",
+      "start": 24.159999999999854,
+      "end": 24.539999999999853,
+      "probability": 0.999229907989502
+    },
+    {
+      "word": "that",
+      "start": 24.539999999999853,
+      "end": 24.799999999999855,
+      "probability": 0.9895636439323425
+    },
+    {
+      "word": "specific",
+      "start": 24.799999999999855,
+      "end": 25.119999999999855,
+      "probability": 0.9932843446731567
+    },
+    {
+      "word": "Power",
+      "start": 25.119999999999855,
+      "end": 25.619999999999855,
+      "probability": 0.9690635800361633
+    },
+    {
+      "word": "BI",
+      "start": 25.619999999999855,
+      "end": 25.979999999999855,
+      "probability": 0.9984992742538452
+    },
+    {
+      "word": "model",
+      "start": 25.979999999999855,
+      "end": 26.359999999999854,
+      "probability": 0.9869519472122192
+    },
+    {
+      "word": "was",
+      "start": 26.359999999999854,
+      "end": 26.679999999999854,
+      "probability": 0.9975059628486633
+    },
+    {
+      "word": "scheduled",
+      "start": 26.679999999999854,
+      "end": 27.199999999999854,
+      "probability": 0.9912234544754028
+    },
+    {
+      "word": "to",
+      "start": 27.199999999999854,
+      "end": 27.399999999999856,
+      "probability": 0.9987589120864868
+    },
+    {
+      "word": "refresh.",
+      "start": 27.399999999999856,
+      "end": 27.619999999999855,
+      "probability": 0.9974063038825989
+    },
+    {
+      "word": "So",
+      "start": 28.059999999999853,
+      "end": 28.279999999999852,
+      "probability": 0.5990443229675293
+    },
+    {
+      "word": "if",
+      "start": 28.279999999999852,
+      "end": 28.419999999999852,
+      "probability": 0.7583438158035278
+    },
+    {
+      "word": "a",
+      "start": 28.419999999999852,
+      "end": 28.419999999999852,
+      "probability": 0.4193396270275116
+    },
+    {
+      "word": "job",
+      "start": 28.419999999999852,
+      "end": 28.599999999999852,
+      "probability": 0.994408905506134
+    },
+    {
+      "word": "fails.",
+      "start": 28.599999999999852,
+      "end": 28.879999999999853,
+      "probability": 0.9991463422775269
+    },
+    {
+      "word": "If",
+      "start": 29.179999999999854,
+      "end": 29.419999999999852,
+      "probability": 0.9867340326309204
+    },
+    {
+      "word": "your",
+      "start": 29.419999999999852,
+      "end": 29.599999999999852,
+      "probability": 0.9563812017440796
+    },
+    {
+      "word": "scheduled",
+      "start": 29.599999999999852,
+      "end": 29.939999999999856,
+      "probability": 0.9417237639427185
+    },
+    {
+      "word": "refresh",
+      "start": 29.939999999999856,
+      "end": 30.139999999999855,
+      "probability": 0.9905357956886292
+    },
+    {
+      "word": "failed",
+      "start": 30.139999999999855,
+      "end": 30.639999999999855,
+      "probability": 0.9933285713195801
+    },
+    {
+      "word": "overnight,",
+      "start": 30.639999999999855,
+      "end": 30.919999999999852,
+      "probability": 0.9681437015533447
+    },
+    {
+      "word": "your",
+      "start": 31.259999999999856,
+      "end": 31.319999999999855,
+      "probability": 0.9967339038848877
+    },
+    {
+      "word": "data",
+      "start": 31.319999999999855,
+      "end": 31.499999999999854,
+      "probability": 0.9958707690238953
+    },
+    {
+      "word": "is",
+      "start": 31.499999999999854,
+      "end": 31.739999999999853,
+      "probability": 0.9983762502670288
+    },
+    {
+      "word": "24",
+      "start": 31.739999999999853,
+      "end": 32.079999999999856,
+      "probability": 0.9848020672798157
+    },
+    {
+      "word": "hours",
+      "start": 32.079999999999856,
+      "end": 32.59999999999985,
+      "probability": 0.9893707036972046
+    },
+    {
+      "word": "out",
+      "start": 32.59999999999985,
+      "end": 32.77999999999985,
+      "probability": 0.9954763054847717
+    },
+    {
+      "word": "of",
+      "start": 32.77999999999985,
+      "end": 32.87999999999985,
+      "probability": 0.9968225955963135
+    },
+    {
+      "word": "date.",
+      "start": 32.87999999999985,
+      "end": 33.019999999999854,
+      "probability": 0.9811416268348694
+    },
+    {
+      "word": "So",
+      "start": 33.89999999999986,
+      "end": 33.99999999999986,
+      "probability": 0.9216933846473694
+    },
+    {
+      "word": "a",
+      "start": 33.99999999999986,
+      "end": 34.09999999999985,
+      "probability": 0.8498240113258362
+    },
+    {
+      "word": "non",
+      "start": 34.09999999999985,
+      "end": 34.21999999999986,
+      "probability": 0.9573624730110168
+    },
+    {
+      "word": "-technical",
+      "start": 34.21999999999986,
+      "end": 34.519999999999854,
+      "probability": 0.9297120571136475
+    },
+    {
+      "word": "executive",
+      "start": 34.519999999999854,
+      "end": 35.05999999999985,
+      "probability": 0.9925945401191711
+    },
+    {
+      "word": "might",
+      "start": 35.05999999999985,
+      "end": 35.35999999999986,
+      "probability": 0.9977218508720398
+    },
+    {
+      "word": "look",
+      "start": 35.35999999999986,
+      "end": 35.59999999999985,
+      "probability": 0.9995101690292358
+    },
+    {
+      "word": "at",
+      "start": 35.59999999999985,
+      "end": 35.71999999999986,
+      "probability": 0.9980924725532532
+    },
+    {
+      "word": "the",
+      "start": 35.71999999999986,
+      "end": 35.85999999999986,
+      "probability": 0.9987415671348572
+    },
+    {
+      "word": "chat",
+      "start": 35.85999999999986,
+      "end": 36.259999999999856,
+      "probability": 0.9085634350776672
+    },
+    {
+      "word": "window,",
+      "start": 36.259999999999856,
+      "end": 36.59999999999985,
+      "probability": 0.9984515905380249
+    },
+    {
+      "word": "see",
+      "start": 37.259999999999856,
+      "end": 37.53999999999985,
+      "probability": 0.9526982307434082
+    },
+    {
+      "word": "an",
+      "start": 37.53999999999985,
+      "end": 37.659999999999854,
+      "probability": 0.9905044436454773
+    },
+    {
+      "word": "answer",
+      "start": 37.659999999999854,
+      "end": 37.85999999999986,
+      "probability": 0.9987784028053284
+    },
+    {
+      "word": "that",
+      "start": 37.85999999999986,
+      "end": 38.019999999999854,
+      "probability": 0.9972025156021118
+    },
+    {
+      "word": "looks",
+      "start": 38.019999999999854,
+      "end": 38.199999999999854,
+      "probability": 0.9963488578796387
+    },
+    {
+      "word": "completely",
+      "start": 38.199999999999854,
+      "end": 38.81999999999985,
+      "probability": 0.9985969662666321
+    },
+    {
+      "word": "uniform,",
+      "start": 38.81999999999985,
+      "end": 39.13999999999986,
+      "probability": 0.9984703660011292
+    },
+    {
+      "word": "highly",
+      "start": 39.659999999999854,
+      "end": 39.839999999999854,
+      "probability": 0.9957329630851746
+    },
+    {
+      "word": "confident,",
+      "start": 39.839999999999854,
+      "end": 40.259999999999856,
+      "probability": 0.8887075185775757
+    },
+    {
+      "word": "and",
+      "start": 40.579999999999856,
+      "end": 40.59999999999985,
+      "probability": 0.9813174605369568
+    },
+    {
+      "word": "beautifully",
+      "start": 40.59999999999985,
+      "end": 40.95999999999985,
+      "probability": 0.9957970380783081
+    },
+    {
+      "word": "formatted",
+      "start": 40.95999999999985,
+      "end": 41.35999999999986,
+      "probability": 0.9914721846580505
+    },
+    {
+      "word": "and",
+      "start": 41.35999999999986,
+      "end": 42.079999999999856,
+      "probability": 0.08479677885770798
+    },
+    {
+      "word": "have",
+      "start": 42.079999999999856,
+      "end": 42.31999999999985,
+      "probability": 0.9753535389900208
+    },
+    {
+      "word": "absolutely",
+      "start": 42.31999999999985,
+      "end": 42.759999999999856,
+      "probability": 0.9749923348426819
+    },
+    {
+      "word": "no",
+      "start": 42.759999999999856,
+      "end": 43.079999999999856,
+      "probability": 0.9890773296356201
+    },
+    {
+      "word": "idea",
+      "start": 43.079999999999856,
+      "end": 43.41999999999985,
+      "probability": 0.9959816932678223
+    },
+    {
+      "word": "that",
+      "start": 43.41999999999985,
+      "end": 43.839999999999854,
+      "probability": 0.9889249205589294
+    },
+    {
+      "word": "half",
+      "start": 43.839999999999854,
+      "end": 44.079999999999856,
+      "probability": 0.9879499673843384
+    },
+    {
+      "word": "the",
+      "start": 44.079999999999856,
+      "end": 44.23999999999985,
+      "probability": 0.9803661704063416
+    },
+    {
+      "word": "data",
+      "start": 44.23999999999985,
+      "end": 44.41999999999985,
+      "probability": 0.9988598823547363
+    },
+    {
+      "word": "informing",
+      "start": 44.41999999999985,
+      "end": 44.67999999999985,
+      "probability": 0.8793752789497375
+    },
+    {
+      "word": "that",
+      "start": 44.67999999999985,
+      "end": 45.09999999999985,
+      "probability": 0.9922398328781128
+    },
+    {
+      "word": "sentence",
+      "start": 45.09999999999985,
+      "end": 45.339999999999854,
+      "probability": 0.9975399971008301
+    },
+    {
+      "word": "is",
+      "start": 45.339999999999854,
+      "end": 45.71999999999986,
+      "probability": 0.9972463846206665
+    },
+    {
+      "word": "real",
+      "start": 45.71999999999986,
+      "end": 45.89999999999986,
+      "probability": 0.9944795370101929
+    },
+    {
+      "word": "time",
+      "start": 45.89999999999986,
+      "end": 46.23999999999985,
+      "probability": 0.869680643081665
+    },
+    {
+      "word": "and",
+      "start": 46.23999999999985,
+      "end": 46.479999999999855,
+      "probability": 0.7891538739204407
+    },
+    {
+      "word": "half",
+      "start": 46.479999999999855,
+      "end": 46.73999999999985,
+      "probability": 0.992354154586792
+    },
+    {
+      "word": "is",
+      "start": 46.73999999999985,
+      "end": 46.95999999999985,
+      "probability": 0.995853066444397
+    },
+    {
+      "word": "a",
+      "start": 46.95999999999985,
+      "end": 47.199999999999854,
+      "probability": 0.9968335032463074
+    },
+    {
+      "word": "week",
+      "start": 47.199999999999854,
+      "end": 47.35999999999986,
+      "probability": 0.9332506060600281
+    },
+    {
+      "word": "old.",
+      "start": 47.35999999999986,
+      "end": 47.619999999999855,
+      "probability": 0.9841538071632385
+    },
+    {
+      "word": "That's",
+      "start": 47.799999999999855,
+      "end": 47.95999999999985,
+      "probability": 0.9486705362796783
+    },
+    {
+      "word": "scary.",
+      "start": 47.95999999999985,
+      "end": 48.159999999999854,
+      "probability": 0.9910020232200623
+    },
+    {
+      "word": "They",
+      "start": 48.55999999999985,
+      "end": 48.659999999999854,
+      "probability": 0.9914173483848572
+    },
+    {
+      "word": "might",
+      "start": 48.659999999999854,
+      "end": 48.81999999999985,
+      "probability": 0.9986451268196106
+    },
+    {
+      "word": "make",
+      "start": 48.81999999999985,
+      "end": 48.979999999999855,
+      "probability": 0.9989068508148193
+    },
+    {
+      "word": "a",
+      "start": 48.979999999999855,
+      "end": 49.09999999999985,
+      "probability": 0.9968363046646118
+    },
+    {
+      "word": "massive",
+      "start": 49.09999999999985,
+      "end": 49.619999999999855,
+      "probability": 0.996567964553833
+    },
+    {
+      "word": "operational",
+      "start": 49.619999999999855,
+      "end": 49.839999999999854,
+      "probability": 0.9845868349075317
+    },
+    {
+      "word": "decision",
+      "start": 49.839999999999854,
+      "end": 50.59999999999985,
+      "probability": 0.9995419979095459
+    },
+    {
+      "word": "based",
+      "start": 50.59999999999985,
+      "end": 50.91999999999985,
+      "probability": 0.9924554824829102
+    },
+    {
+      "word": "on",
+      "start": 50.91999999999985,
+      "end": 51.159999999999854,
+      "probability": 0.9995719790458679
+    },
+    {
+      "word": "a",
+      "start": 51.159999999999854,
+      "end": 51.259999999999856,
+      "probability": 0.9988760352134705
+    },
+    {
+      "word": "temporal",
+      "start": 51.259999999999856,
+      "end": 51.479999999999855,
+      "probability": 0.9922671914100647
+    },
+    {
+      "word": "misalignment.",
+      "start": 51.479999999999855,
+      "end": 52.09999999999985,
+      "probability": 0.9893011649449667
+    },
+    {
+      "word": "This",
+      "start": 52.45999999999985,
+      "end": 52.71999999999986,
+      "probability": 0.9959613680839539
+    },
+    {
+      "word": "is",
+      "start": 52.71999999999986,
+      "end": 52.839999999999854,
+      "probability": 0.9991070628166199
+    },
+    {
+      "word": "why",
+      "start": 52.839999999999854,
+      "end": 53.03999999999986,
+      "probability": 0.9950438737869263
+    },
+    {
+      "word": "you",
+      "start": 53.03999999999986,
+      "end": 53.199999999999854,
+      "probability": 0.9988178610801697
+    },
+    {
+      "word": "cannot",
+      "start": 53.199999999999854,
+      "end": 53.35999999999986,
+      "probability": 0.9791751503944397
+    },
+    {
+      "word": "blindly",
+      "start": 53.35999999999986,
+      "end": 53.91999999999985,
+      "probability": 0.9803314805030823
+    },
+    {
+      "word": "trust",
+      "start": 53.91999999999985,
+      "end": 54.35999999999986,
+      "probability": 0.9974963068962097
+    },
+    {
+      "word": "the",
+      "start": 54.35999999999986,
+      "end": 54.59999999999985,
+      "probability": 0.999140739440918
+    },
+    {
+      "word": "conversational",
+      "start": 54.59999999999985,
+      "end": 55.13999999999986,
+      "probability": 0.9968870878219604
+    },
+    {
+      "word": "output",
+      "start": 55.13999999999986,
+      "end": 55.53999999999985,
+      "probability": 0.9960195422172546
+    },
+    {
+      "word": "in",
+      "start": 55.53999999999985,
+      "end": 55.81999999999985,
+      "probability": 0.9958914518356323
+    },
+    {
+      "word": "the",
+      "start": 55.81999999999985,
+      "end": 55.939999999999856,
+      "probability": 0.9977282881736755
+    },
+    {
+      "word": "chat",
+      "start": 55.939999999999856,
+      "end": 56.05999999999985,
+      "probability": 0.9825441241264343
+    },
+    {
+      "word": "interface.",
+      "start": 56.05999999999985,
+      "end": 56.49999999999986,
+      "probability": 0.9930092096328735
+    },
+    {
+      "word": "You",
+      "start": 57.23999999999985,
+      "end": 57.439999999999856,
+      "probability": 0.9867609739303589
+    },
+    {
+      "word": "or",
+      "start": 57.439999999999856,
+      "end": 57.799999999999855,
+      "probability": 0.9318653345108032
+    },
+    {
+      "word": "your",
+      "start": 57.799999999999855,
+      "end": 58.079999999999856,
+      "probability": 0.996946394443512
+    },
+    {
+      "word": "engineering",
+      "start": 58.079999999999856,
+      "end": 58.31999999999985,
+      "probability": 0.9974761605262756
+    },
+    {
+      "word": "team",
+      "start": 58.31999999999985,
+      "end": 58.71999999999986,
+      "probability": 0.9988806843757629
+    },
+    {
+      "word": "must",
+      "start": 58.71999999999986,
+      "end": 59.09999999999985,
+      "probability": 0.9630892872810364
+    },
+    {
+      "word": "rigorously",
+      "start": 59.09999999999985,
+      "end": 59.63999999999986,
+      "probability": 0.9968831837177277
+    },
+    {
+      "word": "check",
+      "start": 59.63999999999986,
+      "end": 60.03999999999985,
+      "probability": 0.9973793029785156
+    },
+    {
+      "word": "the",
+      "start": 60.03999999999986,
+      "end": 60.299999999999855,
+      "probability": 0.9964284300804138
+    },
+    {
+      "word": "source",
+      "start": 60.299999999999855,
+      "end": 60.49999999999986,
+      "probability": 0.9958618879318237
+    },
+    {
+      "word": "ingestion",
+      "start": 60.49999999999986,
+      "end": 60.77999999999985,
+      "probability": 0.9498068690299988
+    },
+    {
+      "word": "timestamps",
+      "start": 60.77999999999985,
+      "end": 61.71999999999986,
+      "probability": 0.9286990960439047
+    },
+    {
+      "word": "and",
+      "start": 61.71999999999986,
+      "end": 61.939999999999856,
+      "probability": 0.9654114842414856
+    },
+    {
+      "word": "verify",
+      "start": 61.939999999999856,
+      "end": 62.17999999999985,
+      "probability": 0.9951208233833313
+    },
+    {
+      "word": "the",
+      "start": 62.17999999999985,
+      "end": 62.49999999999986,
+      "probability": 0.9961063265800476
+    },
+    {
+      "word": "reporting",
+      "start": 62.49999999999986,
+      "end": 62.77999999999985,
+      "probability": 0.9892589449882507
+    },
+    {
+      "word": "periods.",
+      "start": 62.77999999999985,
+      "end": 63.09999999999985,
+      "probability": 0.9895851016044617
+    }
+  ],
+  "transcript_asr": "Data freshness depends entirely on the execution path. Because the AI doesn't know it's comparing apples to last week's oranges. Exactly. If the agent executes a direct query against a streaming KQL Eventhouse, that temperature data might literally be millisecond's old. Super fresh. But if it's simultaneously querying an imported Power BI model for the sales figures, those sales figures are only as fresh as the last time that specific Power BI model was scheduled to refresh. So if a job fails. If your scheduled refresh failed overnight, your data is 24 hours out of date. So a non -technical executive might look at the chat window, see an answer that looks completely uniform, highly confident, and beautifully formatted and have absolutely no idea that half the data informing that sentence is real time and half is a week old. That's scary. They might make a massive operational decision based on a temporal misalignment. This is why you cannot blindly trust the conversational output in the chat interface. You or your engineering team must rigorously check the source ingestion timestamps and verify the reporting periods.",
+  "source_kind": "actual uploaded recording; continuous audio excerpt",
+  "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "status": "planned",
+  "publish_status": "draft for review",
+  "narration_replaced": false,
+  "actual_timestamps": true,
+  "context_label": "Illustrative scenario",
+  "review_flags": [],
+  "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
+  "caption_corrections": [
+    {
+      "from": "nipples",
+      "to": "apples",
+      "reason": "apples-versus-oranges phrase confirmed by independent tiny.en full-recording pass at 1824.38s; contextual base.en misrecognition"
+    }
+  ],
+  "caption_join_review": [],
+  "boundary_note": "Post-context ASR review: remove preceding sentence tail, or retain the full opening syllable."
+}

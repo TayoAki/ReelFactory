@@ -1,0 +1,48 @@
+{
+  "id": "C15",
+  "family": "hierarchy",
+  "master_image": "../master-hierarchy.png",
+  "visual_workflow": "image-first",
+  "state_images": [
+    "01-initial.jpg",
+    "02-build.jpg",
+    "03-settled.jpg"
+  ],
+  "layers": [
+    {
+      "label": "Location",
+      "sub": "PARENT / DEFINED TYPE",
+      "x": 100,
+      "y": 680,
+      "w": 880,
+      "h": 250,
+      "focal": true,
+      "on": 0.7,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Store",
+      "sub": "DERIVED TYPE / EXPLICIT SCOPE",
+      "x": 100,
+      "y": 1050,
+      "w": 880,
+      "h": 250,
+      "focal": false,
+      "on": 17.74,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    }
+  ],
+  "relation": "inherits structure",
+  "source_quote": "Break down how that inheritance actually looks in practice for us. Sure. In the Lakeshore Retail example provided in the source, they start with a very broad base type called location. A location simply has properties like an address, geographic coordinates, and a manager name. You can then create a store entity that derives from location. So it inherits all that base stuff. The store automatically inherits the address and coordinates, but then you add store specific properties, like retail square footage. Similarly, you could have a base entity called product and derive a highly specific entity called frozen product.",
+  "why": "Distinguish type structure from instances and explicit relationship scope.",
+  "alternative": "Authentic tenant UI would be preferable for proving an executed product action; this clip is a concept illustration.",
+  "visual_review": "Draft, not human approved. Generated symbols corrected in editable reconstruction.",
+  "source_reference": "reference-library/frames/graphic/0003510.jpg",
+  "motion": "independent card alpha reveal + 16px eased settling, timed to recording keywords; fixed grid and presenter rail",
+  "source_start": 884.690975,
+  "source_end": 922.350975,
+  "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+}

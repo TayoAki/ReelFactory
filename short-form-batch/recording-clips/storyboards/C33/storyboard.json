@@ -1,0 +1,56 @@
+{
+  "id": "C33",
+  "family": "workflow",
+  "master_image": "../master-workflow.png",
+  "visual_workflow": "image-first",
+  "state_images": [
+    "01-initial.jpg",
+    "02-build.jpg",
+    "03-settled.jpg"
+  ],
+  "layers": [
+    {
+      "label": "Save current version",
+      "sub": "START",
+      "x": 100,
+      "y": 660,
+      "w": 880,
+      "h": 188,
+      "focal": false,
+      "on": 0.7,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Choose a named version",
+      "sub": "REVIEW / CONTEXT",
+      "x": 100,
+      "y": 890,
+      "w": 880,
+      "h": 188,
+      "focal": true,
+      "on": 3.82,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Restore definitions",
+      "sub": "NEXT",
+      "x": 100,
+      "y": 1120,
+      "w": 880,
+      "h": 188,
+      "focal": false,
+      "on": 8.58,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    }
+  ],
+  "relation": "Keep each step explicit",
+  "source_quote": "Before you make any meaningful change to your production model, you create a named saved version of your current ontology state. Version history allows you to restore that saved definition if things go sideways. So it's not a surgical rollback where I just undo the last five minutes of work? No, and that's a crucial limitation to understand. A restore replaces the definition as a whole, it overwrites everything currently in the system with the exact state of the past version. So if your team spent four hours making great updates, and then someone makes one catastrophic mistake in hour five, rolling back to yesterday's version wipes out all the good work from those first four hours too. That's brutal. Best practice dictates that you must save a version of your current broken state before you restore the old one, just in case you need to salvage a piece of the new logic later. It's an effective safety net, but it requires really disciplined version control habits.",
+  "why": "Expose intermediate review or processing steps.",
+  "alternative": "Authentic tenant UI would be preferable for proving an executed product action; this clip is a concept illustration.",
+  "visual_review": "Draft, not human approved. Generated symbols corrected in editable reconstruction.",
+  "source_reference": "reference-library/frames/graphic/0003510.jpg",
+  "motion": "independent card alpha reveal + 16px eased settling, timed to recording keywords; fixed grid and presenter rail"
+}

@@ -1,0 +1,633 @@
+{
+  "id": "C15",
+  "title": "Inheritance reuses a base structure",
+  "source_start": 884.690975,
+  "source_end": 922.350975,
+  "duration": 37.65999999999997,
+  "part_ranges": [
+    {
+      "part": "part01.m4a",
+      "start": 134.64,
+      "end": 172.29999999999995
+    }
+  ],
+  "family": "hierarchy",
+  "left_label": "Location",
+  "right_label": "Store",
+  "focus_label": "inherits structure",
+  "example_kind": "Location/Store and Product/Frozen Product examples",
+  "words": [
+    {
+      "word": "Break",
+      "start": 0.08000000000000007,
+      "end": 0.2799999999999998,
+      "probability": 0.5072324275970459
+    },
+    {
+      "word": "down",
+      "start": 0.2799999999999998,
+      "end": 0.45999999999999996,
+      "probability": 0.7692715525627136
+    },
+    {
+      "word": "how",
+      "start": 0.45999999999999996,
+      "end": 0.6800000000000002,
+      "probability": 0.9854199290275574
+    },
+    {
+      "word": "that",
+      "start": 0.6800000000000002,
+      "end": 0.8199999999999998,
+      "probability": 0.980914831161499
+    },
+    {
+      "word": "inheritance",
+      "start": 0.8199999999999998,
+      "end": 1.2200000000000002,
+      "probability": 0.9972142577171326
+    },
+    {
+      "word": "actually",
+      "start": 1.2200000000000002,
+      "end": 1.8399999999999999,
+      "probability": 0.9874897599220276
+    },
+    {
+      "word": "looks",
+      "start": 1.8399999999999999,
+      "end": 2.1799999999999997,
+      "probability": 0.9958896040916443
+    },
+    {
+      "word": "in",
+      "start": 2.1799999999999997,
+      "end": 2.34,
+      "probability": 0.9852810502052307
+    },
+    {
+      "word": "practice",
+      "start": 2.34,
+      "end": 2.58,
+      "probability": 0.991212785243988
+    },
+    {
+      "word": "for",
+      "start": 2.58,
+      "end": 2.9400000000000004,
+      "probability": 0.9868901968002319
+    },
+    {
+      "word": "us.",
+      "start": 2.9400000000000004,
+      "end": 3.1399999999999997,
+      "probability": 0.992084801197052
+    },
+    {
+      "word": "Sure.",
+      "start": 3.42,
+      "end": 3.6799999999999997,
+      "probability": 0.9602342247962952
+    },
+    {
+      "word": "In",
+      "start": 4.06,
+      "end": 4.34,
+      "probability": 0.9913532137870789
+    },
+    {
+      "word": "the",
+      "start": 4.34,
+      "end": 4.64,
+      "probability": 0.9733949899673462
+    },
+    {
+      "word": "Lakeshore",
+      "start": 4.64,
+      "end": 5.0,
+      "probability": 0.9355486631393433
+    },
+    {
+      "word": "Retail",
+      "start": 5.0,
+      "end": 5.28,
+      "probability": 0.6597837805747986
+    },
+    {
+      "word": "example",
+      "start": 5.28,
+      "end": 5.84,
+      "probability": 0.7863235473632812
+    },
+    {
+      "word": "provided",
+      "start": 5.84,
+      "end": 6.26,
+      "probability": 0.931151807308197
+    },
+    {
+      "word": "in",
+      "start": 6.26,
+      "end": 6.5600000000000005,
+      "probability": 0.9972889423370361
+    },
+    {
+      "word": "the",
+      "start": 6.5600000000000005,
+      "end": 6.640000000000001,
+      "probability": 0.9949436783790588
+    },
+    {
+      "word": "source,",
+      "start": 6.640000000000001,
+      "end": 6.859999999999999,
+      "probability": 0.9597421288490295
+    },
+    {
+      "word": "they",
+      "start": 7.26,
+      "end": 7.4399999999999995,
+      "probability": 0.9921636581420898
+    },
+    {
+      "word": "start",
+      "start": 7.4399999999999995,
+      "end": 7.640000000000001,
+      "probability": 0.9979932308197021
+    },
+    {
+      "word": "with",
+      "start": 7.640000000000001,
+      "end": 7.800000000000001,
+      "probability": 0.9988431930541992
+    },
+    {
+      "word": "a",
+      "start": 7.800000000000001,
+      "end": 7.9,
+      "probability": 0.9959098100662231
+    },
+    {
+      "word": "very",
+      "start": 7.9,
+      "end": 8.24,
+      "probability": 0.9912686347961426
+    },
+    {
+      "word": "broad",
+      "start": 8.24,
+      "end": 8.66,
+      "probability": 0.9987455606460571
+    },
+    {
+      "word": "base",
+      "start": 8.66,
+      "end": 9.16,
+      "probability": 0.7411073446273804
+    },
+    {
+      "word": "type",
+      "start": 9.16,
+      "end": 9.62,
+      "probability": 0.9732705354690552
+    },
+    {
+      "word": "called",
+      "start": 9.62,
+      "end": 9.92,
+      "probability": 0.9543777108192444
+    },
+    {
+      "word": "location.",
+      "start": 9.92,
+      "end": 10.34,
+      "probability": 0.8727254271507263
+    },
+    {
+      "word": "A",
+      "start": 10.8,
+      "end": 10.92,
+      "probability": 0.4790648818016052
+    },
+    {
+      "word": "location",
+      "start": 10.92,
+      "end": 11.54,
+      "probability": 0.9943988919258118
+    },
+    {
+      "word": "simply",
+      "start": 11.54,
+      "end": 12.04,
+      "probability": 0.9802625775337219
+    },
+    {
+      "word": "has",
+      "start": 12.04,
+      "end": 12.22,
+      "probability": 0.9965781569480896
+    },
+    {
+      "word": "properties",
+      "start": 12.22,
+      "end": 12.56,
+      "probability": 0.9989031553268433
+    },
+    {
+      "word": "like",
+      "start": 12.56,
+      "end": 12.92,
+      "probability": 0.9795864224433899
+    },
+    {
+      "word": "an",
+      "start": 12.92,
+      "end": 13.1,
+      "probability": 0.9949701428413391
+    },
+    {
+      "word": "address,",
+      "start": 13.1,
+      "end": 13.6,
+      "probability": 0.9873977303504944
+    },
+    {
+      "word": "geographic",
+      "start": 14.079999999999998,
+      "end": 14.16,
+      "probability": 0.80915367603302
+    },
+    {
+      "word": "coordinates,",
+      "start": 14.16,
+      "end": 14.68,
+      "probability": 0.999197781085968
+    },
+    {
+      "word": "and",
+      "start": 15.18,
+      "end": 15.239999999999998,
+      "probability": 0.993196964263916
+    },
+    {
+      "word": "a",
+      "start": 15.239999999999998,
+      "end": 15.32,
+      "probability": 0.9971843361854553
+    },
+    {
+      "word": "manager",
+      "start": 15.32,
+      "end": 15.579999999999998,
+      "probability": 0.9765148162841797
+    },
+    {
+      "word": "name.",
+      "start": 15.579999999999998,
+      "end": 15.86,
+      "probability": 0.9967677593231201
+    },
+    {
+      "word": "You",
+      "start": 16.76,
+      "end": 16.9,
+      "probability": 0.995866060256958
+    },
+    {
+      "word": "can",
+      "start": 16.9,
+      "end": 17.02,
+      "probability": 0.9974237680435181
+    },
+    {
+      "word": "then",
+      "start": 17.02,
+      "end": 17.2,
+      "probability": 0.9952127933502197
+    },
+    {
+      "word": "create",
+      "start": 17.2,
+      "end": 17.52,
+      "probability": 0.9990562796592712
+    },
+    {
+      "word": "a",
+      "start": 17.52,
+      "end": 17.74,
+      "probability": 0.9973112344741821
+    },
+    {
+      "word": "store",
+      "start": 17.74,
+      "end": 18.14,
+      "probability": 0.9056569933891296
+    },
+    {
+      "word": "entity",
+      "start": 18.14,
+      "end": 18.7,
+      "probability": 0.9936172962188721
+    },
+    {
+      "word": "that",
+      "start": 18.7,
+      "end": 19.14,
+      "probability": 0.9966368675231934
+    },
+    {
+      "word": "derives",
+      "start": 19.14,
+      "end": 19.46,
+      "probability": 0.9840377569198608
+    },
+    {
+      "word": "from",
+      "start": 19.46,
+      "end": 19.94,
+      "probability": 0.9979140162467957
+    },
+    {
+      "word": "location.",
+      "start": 19.94,
+      "end": 20.38,
+      "probability": 0.9907277822494507
+    },
+    {
+      "word": "So",
+      "start": 21.08,
+      "end": 21.28,
+      "probability": 0.38950392603874207
+    },
+    {
+      "word": "it",
+      "start": 21.28,
+      "end": 21.4,
+      "probability": 0.9405322670936584
+    },
+    {
+      "word": "inherits",
+      "start": 21.4,
+      "end": 22.1,
+      "probability": 0.99651238322258
+    },
+    {
+      "word": "all",
+      "start": 22.1,
+      "end": 22.34,
+      "probability": 0.9926828742027283
+    },
+    {
+      "word": "that",
+      "start": 22.34,
+      "end": 22.5,
+      "probability": 0.9894764423370361
+    },
+    {
+      "word": "base",
+      "start": 22.5,
+      "end": 22.8,
+      "probability": 0.8798345923423767
+    },
+    {
+      "word": "stuff.",
+      "start": 22.8,
+      "end": 23.12,
+      "probability": 0.9971030354499817
+    },
+    {
+      "word": "The",
+      "start": 23.46,
+      "end": 23.66,
+      "probability": 0.9587744474411011
+    },
+    {
+      "word": "store",
+      "start": 23.66,
+      "end": 23.96,
+      "probability": 0.9887518286705017
+    },
+    {
+      "word": "automatically",
+      "start": 23.96,
+      "end": 24.68,
+      "probability": 0.9979357719421387
+    },
+    {
+      "word": "inherits",
+      "start": 24.68,
+      "end": 25.42,
+      "probability": 0.9984897673130035
+    },
+    {
+      "word": "the",
+      "start": 25.42,
+      "end": 25.52,
+      "probability": 0.9940781593322754
+    },
+    {
+      "word": "address",
+      "start": 25.52,
+      "end": 25.86,
+      "probability": 0.9938306212425232
+    },
+    {
+      "word": "and",
+      "start": 25.86,
+      "end": 26.16,
+      "probability": 0.9395653009414673
+    },
+    {
+      "word": "coordinates,",
+      "start": 26.16,
+      "end": 26.48,
+      "probability": 0.9986373782157898
+    },
+    {
+      "word": "but",
+      "start": 26.98,
+      "end": 27.18,
+      "probability": 0.9962574243545532
+    },
+    {
+      "word": "then",
+      "start": 27.18,
+      "end": 27.439999999999998,
+      "probability": 0.9975332021713257
+    },
+    {
+      "word": "you",
+      "start": 27.439999999999998,
+      "end": 27.7,
+      "probability": 0.9888170957565308
+    },
+    {
+      "word": "add",
+      "start": 27.7,
+      "end": 27.880000000000003,
+      "probability": 0.990642249584198
+    },
+    {
+      "word": "store",
+      "start": 27.880000000000003,
+      "end": 28.16,
+      "probability": 0.9681269526481628
+    },
+    {
+      "word": "specific",
+      "start": 28.16,
+      "end": 28.66,
+      "probability": 0.8441004753112793
+    },
+    {
+      "word": "properties,",
+      "start": 28.66,
+      "end": 29.18,
+      "probability": 0.999168872833252
+    },
+    {
+      "word": "like",
+      "start": 29.52,
+      "end": 29.58,
+      "probability": 0.9977705478668213
+    },
+    {
+      "word": "retail",
+      "start": 29.58,
+      "end": 30.0,
+      "probability": 0.9033434391021729
+    },
+    {
+      "word": "square",
+      "start": 30.0,
+      "end": 30.4,
+      "probability": 0.9791504144668579
+    },
+    {
+      "word": "footage.",
+      "start": 30.4,
+      "end": 30.740000000000002,
+      "probability": 0.9937583208084106
+    },
+    {
+      "word": "Similarly,",
+      "start": 31.259999999999998,
+      "end": 31.7,
+      "probability": 0.9976984858512878
+    },
+    {
+      "word": "you",
+      "start": 31.9,
+      "end": 32.12,
+      "probability": 0.9986159801483154
+    },
+    {
+      "word": "could",
+      "start": 32.12,
+      "end": 32.24,
+      "probability": 0.995899498462677
+    },
+    {
+      "word": "have",
+      "start": 32.24,
+      "end": 32.4,
+      "probability": 0.9991474151611328
+    },
+    {
+      "word": "a",
+      "start": 32.4,
+      "end": 32.5,
+      "probability": 0.9964501857757568
+    },
+    {
+      "word": "base",
+      "start": 32.5,
+      "end": 32.68,
+      "probability": 0.9952530860900879
+    },
+    {
+      "word": "entity",
+      "start": 32.68,
+      "end": 32.980000000000004,
+      "probability": 0.9982252717018127
+    },
+    {
+      "word": "called",
+      "start": 32.980000000000004,
+      "end": 33.3,
+      "probability": 0.9927387833595276
+    },
+    {
+      "word": "product",
+      "start": 33.3,
+      "end": 33.72,
+      "probability": 0.8575642704963684
+    },
+    {
+      "word": "and",
+      "start": 34.36,
+      "end": 34.66,
+      "probability": 0.6632172465324402
+    },
+    {
+      "word": "derive",
+      "start": 34.66,
+      "end": 34.86,
+      "probability": 0.442516565322876
+    },
+    {
+      "word": "a",
+      "start": 34.86,
+      "end": 35.019999999999996,
+      "probability": 0.9987679123878479
+    },
+    {
+      "word": "highly",
+      "start": 35.019999999999996,
+      "end": 35.18,
+      "probability": 0.9971317052841187
+    },
+    {
+      "word": "specific",
+      "start": 35.18,
+      "end": 35.64,
+      "probability": 0.9953392744064331
+    },
+    {
+      "word": "entity",
+      "start": 35.64,
+      "end": 36.22,
+      "probability": 0.9989379048347473
+    },
+    {
+      "word": "called",
+      "start": 36.22,
+      "end": 36.58,
+      "probability": 0.9641403555870056
+    },
+    {
+      "word": "frozen",
+      "start": 36.58,
+      "end": 37.04,
+      "probability": 0.9242923855781555
+    },
+    {
+      "word": "product.",
+      "start": 37.04,
+      "end": 37.6,
+      "probability": 0.9905142784118652
+    }
+  ],
+  "transcript_asr": "Break down how that inheritance actually looks in practice for us. Sure. In the Lakeshore Retail example provided in the source, they start with a very broad base type called location. A location simply has properties like an address, geographic coordinates, and a manager name. You can then create a store entity that derives from location. So it inherits all that base stuff. The store automatically inherits the address and coordinates, but then you add store specific properties, like retail square footage. Similarly, you could have a base entity called product and derive a highly specific entity called frozen product.",
+  "source_kind": "actual uploaded recording; continuous audio excerpt",
+  "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "status": "planned",
+  "publish_status": "draft for review",
+  "narration_replaced": false,
+  "actual_timestamps": true,
+  "context_label": "Illustrative scenario",
+  "review_flags": [],
+  "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
+  "caption_corrections": [],
+  "caption_join_review": []
+}

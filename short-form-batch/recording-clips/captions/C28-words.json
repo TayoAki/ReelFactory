@@ -1,0 +1,441 @@
+{
+  "id": "C28",
+  "title": "Describing the rule is not executing it",
+  "source_start": 1611.70195,
+  "source_end": 1633.26195,
+  "duration": 21.560000000000173,
+  "part_ranges": [
+    {
+      "part": "part02.m4a",
+      "start": 111.59999999999991,
+      "end": 133.16000000000008
+    }
+  ],
+  "family": "boundary",
+  "left_label": "Definition and context",
+  "right_label": "Consuming query engine",
+  "focus_label": "Separate responsibilities",
+  "example_kind": "rule versus execution boundary",
+  "words": [
+    {
+      "word": "Writing",
+      "start": 0.14000000000000012,
+      "end": 0.43999999999999995,
+      "probability": 0.6849972605705261
+    },
+    {
+      "word": "the",
+      "start": 0.43999999999999995,
+      "end": 0.6600000000000001,
+      "probability": 0.9904195666313171
+    },
+    {
+      "word": "rule",
+      "start": 0.6600000000000001,
+      "end": 0.8399999999999999,
+      "probability": 0.7494864463806152
+    },
+    {
+      "word": "supplies",
+      "start": 0.8399999999999999,
+      "end": 1.4,
+      "probability": 0.9739452600479126
+    },
+    {
+      "word": "the",
+      "start": 1.4,
+      "end": 1.7000000000000002,
+      "probability": 0.9145413041114807
+    },
+    {
+      "word": "strategic",
+      "start": 1.7000000000000002,
+      "end": 2.0599999999999996,
+      "probability": 0.9303377270698547
+    },
+    {
+      "word": "context.",
+      "start": 2.0599999999999996,
+      "end": 2.5199999999999996,
+      "probability": 0.9965181350708008
+    },
+    {
+      "word": "Now,",
+      "start": 3.46,
+      "end": 3.6799999999999997,
+      "probability": 0.9308620095252991
+    },
+    {
+      "word": "it",
+      "start": 3.8200000000000003,
+      "end": 3.9000000000000004,
+      "probability": 0.9947550296783447
+    },
+    {
+      "word": "is",
+      "start": 3.9000000000000004,
+      "end": 4.0,
+      "probability": 0.9844451546669006
+    },
+    {
+      "word": "important",
+      "start": 4.0,
+      "end": 4.26,
+      "probability": 0.998842179775238
+    },
+    {
+      "word": "to",
+      "start": 4.26,
+      "end": 4.48,
+      "probability": 0.9986650943756104
+    },
+    {
+      "word": "note",
+      "start": 4.48,
+      "end": 4.66,
+      "probability": 0.9889379739761353
+    },
+    {
+      "word": "that",
+      "start": 4.66,
+      "end": 4.86,
+      "probability": 0.9017517566680908
+    },
+    {
+      "word": "how",
+      "start": 4.86,
+      "end": 5.04,
+      "probability": 0.991306722164154
+    },
+    {
+      "word": "that",
+      "start": 5.04,
+      "end": 5.16,
+      "probability": 0.9821879267692566
+    },
+    {
+      "word": "rule",
+      "start": 5.16,
+      "end": 5.4,
+      "probability": 0.9890074729919434
+    },
+    {
+      "word": "is",
+      "start": 5.4,
+      "end": 5.52,
+      "probability": 0.9520013928413391
+    },
+    {
+      "word": "actually",
+      "start": 5.52,
+      "end": 5.68,
+      "probability": 0.9887421727180481
+    },
+    {
+      "word": "executed,",
+      "start": 5.68,
+      "end": 6.34,
+      "probability": 0.9976199269294739
+    },
+    {
+      "word": "the",
+      "start": 6.52,
+      "end": 6.68,
+      "probability": 0.9940847754478455
+    },
+    {
+      "word": "specific",
+      "start": 6.68,
+      "end": 7.140000000000001,
+      "probability": 0.9940038323402405
+    },
+    {
+      "word": "database",
+      "start": 7.140000000000001,
+      "end": 7.460000000000001,
+      "probability": 0.9891818165779114
+    },
+    {
+      "word": "queries,",
+      "start": 7.460000000000001,
+      "end": 8.0,
+      "probability": 0.983759880065918
+    },
+    {
+      "word": "the",
+      "start": 8.48,
+      "end": 8.54,
+      "probability": 0.9911148548126221
+    },
+    {
+      "word": "AI",
+      "start": 8.54,
+      "end": 8.68,
+      "probability": 0.8879088759422302
+    },
+    {
+      "word": "rights,",
+      "start": 8.68,
+      "end": 9.0,
+      "probability": 0.5519189834594727
+    },
+    {
+      "word": "to",
+      "start": 9.1,
+      "end": 9.2,
+      "probability": 0.9870530962944031
+    },
+    {
+      "word": "go",
+      "start": 9.2,
+      "end": 9.3,
+      "probability": 0.9903072118759155
+    },
+    {
+      "word": "fetch",
+      "start": 9.3,
+      "end": 9.5,
+      "probability": 0.9974194765090942
+    },
+    {
+      "word": "that",
+      "start": 9.5,
+      "end": 9.74,
+      "probability": 0.9912472367286682
+    },
+    {
+      "word": "data",
+      "start": 9.74,
+      "end": 9.96,
+      "probability": 0.9993607401847839
+    },
+    {
+      "word": "and",
+      "start": 9.96,
+      "end": 10.2,
+      "probability": 0.9818715453147888
+    },
+    {
+      "word": "test",
+      "start": 10.2,
+      "end": 10.4,
+      "probability": 0.9972853660583496
+    },
+    {
+      "word": "the",
+      "start": 10.4,
+      "end": 10.58,
+      "probability": 0.9975212216377258
+    },
+    {
+      "word": "condition,",
+      "start": 10.58,
+      "end": 10.92,
+      "probability": 0.996340274810791
+    },
+    {
+      "word": "is",
+      "start": 11.44,
+      "end": 11.76,
+      "probability": 0.991428554058075
+    },
+    {
+      "word": "handled",
+      "start": 11.76,
+      "end": 12.12,
+      "probability": 0.9994233846664429
+    },
+    {
+      "word": "by",
+      "start": 12.12,
+      "end": 12.38,
+      "probability": 0.9993658661842346
+    },
+    {
+      "word": "the",
+      "start": 12.38,
+      "end": 12.48,
+      "probability": 0.9935877323150635
+    },
+    {
+      "word": "query",
+      "start": 12.48,
+      "end": 12.7,
+      "probability": 0.9844377636909485
+    },
+    {
+      "word": "engines",
+      "start": 12.7,
+      "end": 13.14,
+      "probability": 0.9870361685752869
+    },
+    {
+      "word": "under",
+      "start": 13.14,
+      "end": 13.46,
+      "probability": 0.9915227890014648
+    },
+    {
+      "word": "the",
+      "start": 13.46,
+      "end": 13.64,
+      "probability": 0.998818576335907
+    },
+    {
+      "word": "hood,",
+      "start": 13.64,
+      "end": 13.8,
+      "probability": 0.9956824779510498
+    },
+    {
+      "word": "which",
+      "start": 13.92,
+      "end": 14.120000000000001,
+      "probability": 0.9975230097770691
+    },
+    {
+      "word": "we",
+      "start": 14.120000000000001,
+      "end": 14.399999999999999,
+      "probability": 0.9966048002243042
+    },
+    {
+      "word": "need",
+      "start": 14.399999999999999,
+      "end": 14.52,
+      "probability": 0.998276948928833
+    },
+    {
+      "word": "to",
+      "start": 14.52,
+      "end": 14.64,
+      "probability": 0.9995450377464294
+    },
+    {
+      "word": "discuss",
+      "start": 14.64,
+      "end": 14.84,
+      "probability": 0.99908447265625
+    },
+    {
+      "word": "next.",
+      "start": 14.84,
+      "end": 15.239999999999998,
+      "probability": 0.9956751465797424
+    },
+    {
+      "word": "But",
+      "start": 16.32,
+      "end": 16.48,
+      "probability": 0.4572899043560028
+    },
+    {
+      "word": "the",
+      "start": 16.48,
+      "end": 16.66,
+      "probability": 0.9451656341552734
+    },
+    {
+      "word": "ontology",
+      "start": 16.66,
+      "end": 17.14,
+      "probability": 0.9906076192855835
+    },
+    {
+      "word": "is",
+      "start": 17.14,
+      "end": 17.4,
+      "probability": 0.9963127970695496
+    },
+    {
+      "word": "where",
+      "start": 17.4,
+      "end": 17.56,
+      "probability": 0.9969802498817444
+    },
+    {
+      "word": "the",
+      "start": 17.56,
+      "end": 17.68,
+      "probability": 0.9980370402336121
+    },
+    {
+      "word": "rule",
+      "start": 17.68,
+      "end": 17.9,
+      "probability": 0.9975335597991943
+    },
+    {
+      "word": "is",
+      "start": 17.9,
+      "end": 18.08,
+      "probability": 0.9974247217178345
+    },
+    {
+      "word": "permanently",
+      "start": 18.08,
+      "end": 18.52,
+      "probability": 0.9969044327735901
+    },
+    {
+      "word": "documented,",
+      "start": 18.52,
+      "end": 19.08,
+      "probability": 0.9973799586296082
+    },
+    {
+      "word": "linked,",
+      "start": 19.68,
+      "end": 19.76,
+      "probability": 0.9956650137901306
+    },
+    {
+      "word": "and",
+      "start": 20.1,
+      "end": 20.12,
+      "probability": 0.9983306527137756
+    },
+    {
+      "word": "standardized",
+      "start": 20.12,
+      "end": 20.5,
+      "probability": 0.9762148261070251
+    },
+    {
+      "word": "for",
+      "start": 20.5,
+      "end": 20.92,
+      "probability": 0.9900469183921814
+    },
+    {
+      "word": "the",
+      "start": 20.92,
+      "end": 21.04,
+      "probability": 0.9977670907974243
+    },
+    {
+      "word": "whole",
+      "start": 21.04,
+      "end": 21.14,
+      "probability": 0.9946487545967102
+    },
+    {
+      "word": "company.",
+      "start": 21.14,
+      "end": 21.42,
+      "probability": 0.9982572197914124
+    }
+  ],
+  "transcript_asr": "Writing the rule supplies the strategic context. Now, it is important to note that how that rule is actually executed, the specific database queries, the AI rights, to go fetch that data and test the condition, is handled by the query engines under the hood, which we need to discuss next. But the ontology is where the rule is permanently documented, linked, and standardized for the whole company.",
+  "source_kind": "actual uploaded recording; continuous audio excerpt",
+  "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "status": "planned",
+  "publish_status": "draft for review",
+  "narration_replaced": false,
+  "actual_timestamps": true,
+  "context_label": "Original discussion excerpt",
+  "review_flags": [],
+  "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
+  "caption_corrections": [],
+  "caption_join_review": []
+}

@@ -1,0 +1,48 @@
+{
+  "id": "C18",
+  "family": "hierarchy",
+  "master_image": "../master-hierarchy.png",
+  "visual_workflow": "image-first",
+  "state_images": [
+    "01-initial.jpg",
+    "02-build.jpg",
+    "03-settled.jpg"
+  ],
+  "layers": [
+    {
+      "label": "Product",
+      "sub": "BASE TYPE QUERY SCOPE",
+      "x": 100,
+      "y": 680,
+      "w": 880,
+      "h": 250,
+      "focal": true,
+      "on": 0.7,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Frozen Product",
+      "sub": "NAME RELEVANT DERIVED TYPE",
+      "x": 100,
+      "y": 1050,
+      "w": 880,
+      "h": 250,
+      "focal": false,
+      "on": 20.52,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    }
+  ],
+  "relation": "Name relevant types",
+  "source_quote": "The current agent does not automatically traverse downward to include every derived instance when you query a broad parent type. Why does that matter in a real -world query? Walk me through a scenario. Let's say a regional manager is running a diagnostic on everything in their supply chain that might spoil. They sit down at the chat interface and ask the agent to analyze inventory risk for all product. Just general products. Right. Because of this preview limitation, the agent might only query the base product entity and completely fail to roll up the derived frozen product instances into that analysis. Oh, wow. So the manager thinks they are looking at a comprehensive report, but the AI just silently ignored half a million dollars worth of melting ice cream because the human didn't specifically say the word frozen. Precisely. You have to specifically name the relevant derived type in your prompt.",
+  "why": "Distinguish type structure from instances and explicit relationship scope.",
+  "alternative": "Authentic tenant UI would be preferable for proving an executed product action; this clip is a concept illustration.",
+  "visual_review": "Draft, not human approved. Generated symbols corrected in editable reconstruction.",
+  "source_reference": "reference-library/frames/graphic/0003510.jpg",
+  "motion": "independent card alpha reveal + 16px eased settling, timed to recording keywords; fixed grid and presenter rail",
+  "source_start": 994.590975,
+  "source_end": 1045.670975,
+  "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+}

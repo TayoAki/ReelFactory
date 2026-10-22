@@ -1,0 +1,507 @@
+{
+  "id": "C44",
+  "title": "The concept map is not the instance graph",
+  "source_start": 2857.889705,
+  "source_end": 2888.2097049999998,
+  "duration": 30.31999999999971,
+  "part_ranges": [
+    {
+      "part": "part03.m4a",
+      "start": 607.7600000000002,
+      "end": 638.0799999999999
+    }
+  ],
+  "family": "contrast",
+  "left_label": "Business definitions",
+  "right_label": "Optional materialized graph",
+  "focus_label": "Different jobs and refresh needs",
+  "example_kind": "schema versus execution layer",
+  "words": [
+    {
+      "word": "So",
+      "start": 0.2599999999999998,
+      "end": 0.3599999999999999,
+      "probability": 0.280254989862442
+    },
+    {
+      "word": "to",
+      "start": 0.3599999999999999,
+      "end": 0.6800000000000002,
+      "probability": 0.4232402443885803
+    },
+    {
+      "word": "clarify",
+      "start": 0.6800000000000002,
+      "end": 1.1600000000000001,
+      "probability": 0.9933069348335266
+    },
+    {
+      "word": "the",
+      "start": 1.1600000000000001,
+      "end": 1.44,
+      "probability": 0.9974222183227539
+    },
+    {
+      "word": "architecture",
+      "start": 1.44,
+      "end": 1.7400000000000002,
+      "probability": 0.9973679184913635
+    },
+    {
+      "word": "in",
+      "start": 1.7400000000000002,
+      "end": 2.12,
+      "probability": 0.9918383955955505
+    },
+    {
+      "word": "my",
+      "start": 2.12,
+      "end": 2.24,
+      "probability": 0.9989942908287048
+    },
+    {
+      "word": "head,",
+      "start": 2.24,
+      "end": 2.46,
+      "probability": 0.9994196891784668
+    },
+    {
+      "word": "the",
+      "start": 3.24,
+      "end": 3.42,
+      "probability": 0.9940909743309021
+    },
+    {
+      "word": "beautiful",
+      "start": 3.42,
+      "end": 3.84,
+      "probability": 0.9980898499488831
+    },
+    {
+      "word": "visual",
+      "start": 3.84,
+      "end": 4.54,
+      "probability": 0.8856815695762634
+    },
+    {
+      "word": "canvas",
+      "start": 4.54,
+      "end": 5.0,
+      "probability": 0.7699179649353027
+    },
+    {
+      "word": "diagram",
+      "start": 5.0,
+      "end": 5.36,
+      "probability": 0.9924877882003784
+    },
+    {
+      "word": "of",
+      "start": 5.36,
+      "end": 5.74,
+      "probability": 0.9971233010292053
+    },
+    {
+      "word": "concepts",
+      "start": 5.74,
+      "end": 6.08,
+      "probability": 0.9960746765136719
+    },
+    {
+      "word": "we",
+      "start": 6.08,
+      "end": 6.380000000000001,
+      "probability": 0.9942867159843445
+    },
+    {
+      "word": "built",
+      "start": 6.380000000000001,
+      "end": 6.6,
+      "probability": 0.9774641394615173
+    },
+    {
+      "word": "in",
+      "start": 6.6,
+      "end": 6.74,
+      "probability": 0.9483715295791626
+    },
+    {
+      "word": "the",
+      "start": 6.74,
+      "end": 6.82,
+      "probability": 0.9949287176132202
+    },
+    {
+      "word": "ontology",
+      "start": 6.82,
+      "end": 7.220000000000001,
+      "probability": 0.9723420739173889
+    },
+    {
+      "word": "interface,",
+      "start": 7.220000000000001,
+      "end": 7.699999999999999,
+      "probability": 0.9956281185150146
+    },
+    {
+      "word": "and",
+      "start": 8.78,
+      "end": 8.88,
+      "probability": 0.9875619411468506
+    },
+    {
+      "word": "the",
+      "start": 8.88,
+      "end": 9.0,
+      "probability": 0.9987335801124573
+    },
+    {
+      "word": "physical",
+      "start": 9.0,
+      "end": 9.38,
+      "probability": 0.9808332920074463
+    },
+    {
+      "word": "materialized",
+      "start": 9.38,
+      "end": 10.58,
+      "probability": 0.9314454197883606
+    },
+    {
+      "word": "graph",
+      "start": 10.58,
+      "end": 10.82,
+      "probability": 0.983617901802063
+    },
+    {
+      "word": "database",
+      "start": 10.82,
+      "end": 11.2,
+      "probability": 0.9964383840560913
+    },
+    {
+      "word": "sitting",
+      "start": 11.2,
+      "end": 11.62,
+      "probability": 0.9881105422973633
+    },
+    {
+      "word": "in",
+      "start": 11.62,
+      "end": 11.82,
+      "probability": 0.9927874207496643
+    },
+    {
+      "word": "OneLake",
+      "start": 11.82,
+      "end": 12.26,
+      "probability": 0.9266643524169922
+    },
+    {
+      "word": "are",
+      "start": 12.26,
+      "end": 12.94,
+      "probability": 0.5423172116279602
+    },
+    {
+      "word": "doing",
+      "start": 12.94,
+      "end": 13.12,
+      "probability": 0.9942033886909485
+    },
+    {
+      "word": "two",
+      "start": 13.12,
+      "end": 13.32,
+      "probability": 0.9837462902069092
+    },
+    {
+      "word": "completely",
+      "start": 13.32,
+      "end": 14.059999999999999,
+      "probability": 0.9962843060493469
+    },
+    {
+      "word": "different",
+      "start": 14.059999999999999,
+      "end": 14.420000000000002,
+      "probability": 0.9995341300964355
+    },
+    {
+      "word": "jobs.",
+      "start": 14.420000000000002,
+      "end": 14.7,
+      "probability": 0.9981367588043213
+    },
+    {
+      "word": "Precisely.",
+      "start": 15.079999999999998,
+      "end": 15.68,
+      "probability": 0.902625838915507
+    },
+    {
+      "word": "The",
+      "start": 16.0,
+      "end": 16.26,
+      "probability": 0.994933545589447
+    },
+    {
+      "word": "visual",
+      "start": 16.26,
+      "end": 16.48,
+      "probability": 0.9961357712745667
+    },
+    {
+      "word": "diagram",
+      "start": 16.48,
+      "end": 16.88,
+      "probability": 0.9992639422416687
+    },
+    {
+      "word": "is",
+      "start": 16.88,
+      "end": 17.24,
+      "probability": 0.9980133771896362
+    },
+    {
+      "word": "the",
+      "start": 17.24,
+      "end": 17.38,
+      "probability": 0.998648464679718
+    },
+    {
+      "word": "conceptual",
+      "start": 17.38,
+      "end": 17.68,
+      "probability": 0.9992324113845825
+    },
+    {
+      "word": "map",
+      "start": 17.68,
+      "end": 18.26,
+      "probability": 0.9978898167610168
+    },
+    {
+      "word": "of",
+      "start": 18.26,
+      "end": 18.48,
+      "probability": 0.9986182451248169
+    },
+    {
+      "word": "meaning",
+      "start": 18.48,
+      "end": 18.68,
+      "probability": 0.9730308651924133
+    },
+    {
+      "word": "for",
+      "start": 18.68,
+      "end": 18.98,
+      "probability": 0.9988120794296265
+    },
+    {
+      "word": "the",
+      "start": 18.98,
+      "end": 19.12,
+      "probability": 0.9987978935241699
+    },
+    {
+      "word": "AI.",
+      "start": 19.12,
+      "end": 19.3,
+      "probability": 0.9730739593505859
+    },
+    {
+      "word": "The",
+      "start": 20.02,
+      "end": 20.1,
+      "probability": 0.9793380498886108
+    },
+    {
+      "word": "materialized",
+      "start": 20.1,
+      "end": 20.72,
+      "probability": 0.9053998291492462
+    },
+    {
+      "word": "graph",
+      "start": 20.72,
+      "end": 20.98,
+      "probability": 0.9962807297706604
+    },
+    {
+      "word": "is",
+      "start": 20.98,
+      "end": 21.46,
+      "probability": 0.9924477338790894
+    },
+    {
+      "word": "a",
+      "start": 21.46,
+      "end": 21.58,
+      "probability": 0.9935787916183472
+    },
+    {
+      "word": "specialized",
+      "start": 21.58,
+      "end": 22.02,
+      "probability": 0.9930477738380432
+    },
+    {
+      "word": "physical",
+      "start": 22.02,
+      "end": 22.66,
+      "probability": 0.9303523898124695
+    },
+    {
+      "word": "execution",
+      "start": 22.66,
+      "end": 23.4,
+      "probability": 0.9880391955375671
+    },
+    {
+      "word": "path",
+      "start": 23.4,
+      "end": 23.8,
+      "probability": 0.9957411289215088
+    },
+    {
+      "word": "for",
+      "start": 23.8,
+      "end": 24.04,
+      "probability": 0.9936947226524353
+    },
+    {
+      "word": "deep",
+      "start": 24.04,
+      "end": 24.2,
+      "probability": 0.9924242496490479
+    },
+    {
+      "word": "relationship",
+      "start": 24.2,
+      "end": 24.62,
+      "probability": 0.9553560614585876
+    },
+    {
+      "word": "questions.",
+      "start": 24.62,
+      "end": 25.14,
+      "probability": 0.9925428628921509
+    },
+    {
+      "word": "And",
+      "start": 25.82,
+      "end": 25.98,
+      "probability": 0.5516828298568726
+    },
+    {
+      "word": "the",
+      "start": 25.98,
+      "end": 26.14,
+      "probability": 0.9762702584266663
+    },
+    {
+      "word": "routing",
+      "start": 26.14,
+      "end": 26.36,
+      "probability": 0.9882223010063171
+    },
+    {
+      "word": "intelligence",
+      "start": 26.36,
+      "end": 26.72,
+      "probability": 0.9809454679489136
+    },
+    {
+      "word": "chooses",
+      "start": 26.72,
+      "end": 27.28,
+      "probability": 0.9842672944068909
+    },
+    {
+      "word": "the",
+      "start": 27.28,
+      "end": 27.52,
+      "probability": 0.9932084679603577
+    },
+    {
+      "word": "path",
+      "start": 27.52,
+      "end": 27.68,
+      "probability": 0.9942318797111511
+    },
+    {
+      "word": "based",
+      "start": 27.68,
+      "end": 28.04,
+      "probability": 0.9972895383834839
+    },
+    {
+      "word": "on",
+      "start": 28.04,
+      "end": 28.22,
+      "probability": 0.9978592991828918
+    },
+    {
+      "word": "this",
+      "start": 28.22,
+      "end": 28.34,
+      "probability": 0.658306360244751
+    },
+    {
+      "word": "specific",
+      "start": 28.34,
+      "end": 28.64,
+      "probability": 0.999396800994873
+    },
+    {
+      "word": "structure",
+      "start": 28.64,
+      "end": 29.119999999999997,
+      "probability": 0.9957068562507629
+    },
+    {
+      "word": "of",
+      "start": 29.119999999999997,
+      "end": 29.36,
+      "probability": 0.9960945248603821
+    },
+    {
+      "word": "the",
+      "start": 29.36,
+      "end": 29.439999999999998,
+      "probability": 0.9970247149467468
+    },
+    {
+      "word": "question",
+      "start": 29.439999999999998,
+      "end": 29.7,
+      "probability": 0.9926388263702393
+    },
+    {
+      "word": "being",
+      "start": 29.7,
+      "end": 29.92,
+      "probability": 0.9940547347068787
+    },
+    {
+      "word": "asked.",
+      "start": 29.92,
+      "end": 30.2,
+      "probability": 0.9975599050521851
+    }
+  ],
+  "transcript_asr": "So to clarify the architecture in my head, the beautiful visual canvas diagram of concepts we built in the ontology interface, and the physical materialized graph database sitting in OneLake are doing two completely different jobs. Precisely. The visual diagram is the conceptual map of meaning for the AI. The materialized graph is a specialized physical execution path for deep relationship questions. And the routing intelligence chooses the path based on this specific structure of the question being asked.",
+  "source_kind": "actual uploaded recording; continuous audio excerpt",
+  "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "status": "planned",
+  "publish_status": "draft for review",
+  "narration_replaced": false,
+  "actual_timestamps": true,
+  "context_label": "Original discussion excerpt",
+  "review_flags": [],
+  "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
+  "caption_corrections": [],
+  "caption_join_review": []
+}

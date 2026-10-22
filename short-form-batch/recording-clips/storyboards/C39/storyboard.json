@@ -1,0 +1,48 @@
+{
+  "id": "C39",
+  "family": "boundary",
+  "master_image": "../master-boundary.png",
+  "visual_workflow": "image-first",
+  "state_images": [
+    "01-initial.jpg",
+    "02-build.jpg",
+    "03-settled.jpg"
+  ],
+  "layers": [
+    {
+      "label": "Author account",
+      "sub": "FIRST RESPONSIBILITY",
+      "x": 100,
+      "y": 680,
+      "w": 880,
+      "h": 250,
+      "focal": true,
+      "on": 0.7,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Regional manager",
+      "sub": "SEPARATE RESPONSIBILITY",
+      "x": 100,
+      "y": 1050,
+      "w": 880,
+      "h": 250,
+      "focal": false,
+      "on": 16.76,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    }
+  ],
+  "relation": "Source access determines results",
+  "source_quote": "Let's say I am the lead data engineer. I built this ontology, so I have administrative access to everything. I ask it about revenue and inventory across the entire global company, and it gives me a comprehensive answer. Now, I share that exact same Fabric ontology file with a regional manager who only handles the West Coast. If the West Coast Regional Manager logs in and asks the exact same verbatim question, show me all global revenue and inventory risk, the agent will only return data for the West Coast. When it really, even with the same prompt. Yes. Because when the AI attempts to execute the SQL query against the underlying Lakehouse, the database recognizes the manager's identity and enforces row -level security, blocking access to the East Coast data. That is so smart. The source documentation is explicit on this point. Sharing an ontology with a user does not magically bypass workspace item permissions or database security. So an engineer successfully querying a source during testing does not guarantee that an end user will see the same results. Exactly. You have to validate the entire workflow using actual end user test identities, not just the developer's God Mode account.",
+  "why": "Show separate responsibilities; no implied automatic execution.",
+  "alternative": "Authentic tenant UI would be preferable for proving an executed product action; this clip is a concept illustration.",
+  "visual_review": "Draft, not human approved. Generated symbols corrected in editable reconstruction.",
+  "source_reference": "reference-library/frames/graphic/0003510.jpg",
+  "motion": "independent card alpha reveal + 16px eased settling, timed to recording keywords; fixed grid and presenter rail",
+  "source_start": 2474.169705,
+  "source_end": 2543.669705,
+  "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+}

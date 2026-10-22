@@ -1,0 +1,867 @@
+{
+  "id": "C54",
+  "title": "Measure the whole reviewed workflow",
+  "source_start": 3468.44068,
+  "source_end": 3517.26068,
+  "duration": 48.81999999999971,
+  "part_ranges": [
+    {
+      "part": "part04.m4a",
+      "start": 468.2600000000002,
+      "end": 517.0799999999999
+    }
+  ],
+  "family": "evidence",
+  "left_label": "Known-good answer",
+  "right_label": "Human review + correction",
+  "focus_label": "Use your own baseline",
+  "example_kind": "evaluation design, no borrowed percentage",
+  "words": [
+    {
+      "word": "Do",
+      "start": 0.18000000000000016,
+      "end": 0.20000000000000018,
+      "probability": 0.9898167848587036
+    },
+    {
+      "word": "not",
+      "start": 0.20000000000000018,
+      "end": 0.3999999999999999,
+      "probability": 0.9963827133178711
+    },
+    {
+      "word": "borrow",
+      "start": 0.3999999999999999,
+      "end": 0.6400000000000001,
+      "probability": 0.9971215128898621
+    },
+    {
+      "word": "percentage",
+      "start": 0.6400000000000001,
+      "end": 1.2799999999999998,
+      "probability": 0.9676434993743896
+    },
+    {
+      "word": "improvement",
+      "start": 1.2799999999999998,
+      "end": 1.8199999999999998,
+      "probability": 0.9756858348846436
+    },
+    {
+      "word": "benchmarks",
+      "start": 1.8199999999999998,
+      "end": 2.16,
+      "probability": 0.9856091141700745
+    },
+    {
+      "word": "from",
+      "start": 2.46,
+      "end": 2.74,
+      "probability": 0.9962226152420044
+    },
+    {
+      "word": "other",
+      "start": 2.74,
+      "end": 2.9400000000000004,
+      "probability": 0.9942546486854553
+    },
+    {
+      "word": "vendors,",
+      "start": 2.9400000000000004,
+      "end": 3.1799999999999997,
+      "probability": 0.9985098242759705
+    },
+    {
+      "word": "and",
+      "start": 4.0,
+      "end": 4.1,
+      "probability": 0.9945242404937744
+    },
+    {
+      "word": "do",
+      "start": 4.1,
+      "end": 4.26,
+      "probability": 0.9880859851837158
+    },
+    {
+      "word": "not",
+      "start": 4.26,
+      "end": 4.42,
+      "probability": 0.9988872408866882
+    },
+    {
+      "word": "even",
+      "start": 4.42,
+      "end": 4.56,
+      "probability": 0.9969416260719299
+    },
+    {
+      "word": "borrow",
+      "start": 4.56,
+      "end": 4.96,
+      "probability": 0.9984184503555298
+    },
+    {
+      "word": "benchmarks",
+      "start": 4.96,
+      "end": 5.3,
+      "probability": 0.991080105304718
+    },
+    {
+      "word": "from",
+      "start": 5.3,
+      "end": 5.64,
+      "probability": 0.9979251623153687
+    },
+    {
+      "word": "other",
+      "start": 5.64,
+      "end": 5.8,
+      "probability": 0.9987391829490662
+    },
+    {
+      "word": "workflows",
+      "start": 5.8,
+      "end": 6.279999999999999,
+      "probability": 0.9900572896003723
+    },
+    {
+      "word": "within",
+      "start": 6.279999999999999,
+      "end": 6.640000000000001,
+      "probability": 0.9942726492881775
+    },
+    {
+      "word": "your",
+      "start": 6.640000000000001,
+      "end": 6.82,
+      "probability": 0.9975271821022034
+    },
+    {
+      "word": "own",
+      "start": 6.82,
+      "end": 7.0,
+      "probability": 0.9793009757995605
+    },
+    {
+      "word": "company.",
+      "start": 7.0,
+      "end": 7.359999999999999,
+      "probability": 0.9992947578430176
+    },
+    {
+      "word": "You",
+      "start": 8.02,
+      "end": 8.3,
+      "probability": 0.9982604384422302
+    },
+    {
+      "word": "have",
+      "start": 8.3,
+      "end": 8.52,
+      "probability": 0.9933388829231262
+    },
+    {
+      "word": "to",
+      "start": 8.52,
+      "end": 8.68,
+      "probability": 0.9977618455886841
+    },
+    {
+      "word": "test",
+      "start": 8.68,
+      "end": 8.9,
+      "probability": 0.9993036985397339
+    },
+    {
+      "word": "this",
+      "start": 8.9,
+      "end": 9.12,
+      "probability": 0.8802616000175476
+    },
+    {
+      "word": "system",
+      "start": 9.12,
+      "end": 9.52,
+      "probability": 0.9988390803337097
+    },
+    {
+      "word": "against",
+      "start": 9.52,
+      "end": 9.76,
+      "probability": 0.9975665807723999
+    },
+    {
+      "word": "your",
+      "start": 9.76,
+      "end": 10.04,
+      "probability": 0.9968805313110352
+    },
+    {
+      "word": "own",
+      "start": 10.04,
+      "end": 10.38,
+      "probability": 0.9803063869476318
+    },
+    {
+      "word": "current",
+      "start": 10.38,
+      "end": 10.86,
+      "probability": 0.9902862906455994
+    },
+    {
+      "word": "manual",
+      "start": 10.86,
+      "end": 11.42,
+      "probability": 0.9937469959259033
+    },
+    {
+      "word": "process",
+      "start": 11.42,
+      "end": 11.96,
+      "probability": 0.9984810948371887
+    },
+    {
+      "word": "for",
+      "start": 11.96,
+      "end": 12.28,
+      "probability": 0.9678616523742676
+    },
+    {
+      "word": "a",
+      "start": 12.28,
+      "end": 12.4,
+      "probability": 0.9980613589286804
+    },
+    {
+      "word": "highly",
+      "start": 12.4,
+      "end": 12.76,
+      "probability": 0.9961572289466858
+    },
+    {
+      "word": "specific",
+      "start": 12.76,
+      "end": 13.16,
+      "probability": 0.9822468161582947
+    },
+    {
+      "word": "decision.",
+      "start": 13.16,
+      "end": 13.8,
+      "probability": 0.9980706572532654
+    },
+    {
+      "word": "How",
+      "start": 14.36,
+      "end": 14.52,
+      "probability": 0.7890251874923706
+    },
+    {
+      "word": "do",
+      "start": 14.52,
+      "end": 14.600000000000001,
+      "probability": 0.9852639436721802
+    },
+    {
+      "word": "you",
+      "start": 14.600000000000001,
+      "end": 14.64,
+      "probability": 0.997795581817627
+    },
+    {
+      "word": "structure",
+      "start": 14.64,
+      "end": 14.84,
+      "probability": 0.9862462282180786
+    },
+    {
+      "word": "that",
+      "start": 14.84,
+      "end": 15.100000000000001,
+      "probability": 0.997835099697113
+    },
+    {
+      "word": "measurement?",
+      "start": 15.100000000000001,
+      "end": 15.379999999999999,
+      "probability": 0.9944186210632324
+    },
+    {
+      "word": "You",
+      "start": 16.18,
+      "end": 16.32,
+      "probability": 0.986391544342041
+    },
+    {
+      "word": "start",
+      "start": 16.32,
+      "end": 16.48,
+      "probability": 0.9981451034545898
+    },
+    {
+      "word": "with",
+      "start": 16.48,
+      "end": 16.68,
+      "probability": 0.9990178346633911
+    },
+    {
+      "word": "a",
+      "start": 16.68,
+      "end": 16.78,
+      "probability": 0.9834849238395691
+    },
+    {
+      "word": "representative",
+      "start": 16.78,
+      "end": 17.3,
+      "probability": 0.9829602241516113
+    },
+    {
+      "word": "business",
+      "start": 17.3,
+      "end": 17.66,
+      "probability": 0.9903289079666138
+    },
+    {
+      "word": "question",
+      "start": 17.66,
+      "end": 18.1,
+      "probability": 0.9958032965660095
+    },
+    {
+      "word": "where",
+      "start": 18.1,
+      "end": 18.44,
+      "probability": 0.8664506077766418
+    },
+    {
+      "word": "you",
+      "start": 18.44,
+      "end": 18.62,
+      "probability": 0.998738706111908
+    },
+    {
+      "word": "already",
+      "start": 18.62,
+      "end": 19.06,
+      "probability": 0.9819831848144531
+    },
+    {
+      "word": "definitively",
+      "start": 19.06,
+      "end": 19.54,
+      "probability": 0.9941015839576721
+    },
+    {
+      "word": "know",
+      "start": 19.54,
+      "end": 20.14,
+      "probability": 0.9990066885948181
+    },
+    {
+      "word": "the",
+      "start": 20.14,
+      "end": 20.3,
+      "probability": 0.9983959794044495
+    },
+    {
+      "word": "correct",
+      "start": 20.3,
+      "end": 20.46,
+      "probability": 0.9980545043945312
+    },
+    {
+      "word": "answer.",
+      "start": 20.46,
+      "end": 20.86,
+      "probability": 0.9994102716445923
+    },
+    {
+      "word": "You",
+      "start": 21.52,
+      "end": 21.64,
+      "probability": 0.9933440685272217
+    },
+    {
+      "word": "test",
+      "start": 21.64,
+      "end": 21.92,
+      "probability": 0.9981222748756409
+    },
+    {
+      "word": "whether",
+      "start": 21.92,
+      "end": 22.32,
+      "probability": 0.9941352605819702
+    },
+    {
+      "word": "the",
+      "start": 22.32,
+      "end": 22.56,
+      "probability": 0.996757447719574
+    },
+    {
+      "word": "new",
+      "start": 22.56,
+      "end": 22.740000000000002,
+      "probability": 0.9963961243629456
+    },
+    {
+      "word": "AI",
+      "start": 22.740000000000002,
+      "end": 23.04,
+      "probability": 0.9847774505615234
+    },
+    {
+      "word": "workflow",
+      "start": 23.04,
+      "end": 23.42,
+      "probability": 0.930941104888916
+    },
+    {
+      "word": "selects",
+      "start": 23.42,
+      "end": 23.92,
+      "probability": 0.9931318163871765
+    },
+    {
+      "word": "the",
+      "start": 23.92,
+      "end": 24.259999999999998,
+      "probability": 0.9972596168518066
+    },
+    {
+      "word": "right",
+      "start": 24.259999999999998,
+      "end": 24.42,
+      "probability": 0.9978380799293518
+    },
+    {
+      "word": "concepts,",
+      "start": 24.42,
+      "end": 24.82,
+      "probability": 0.9978570342063904
+    },
+    {
+      "word": "uses",
+      "start": 25.46,
+      "end": 25.7,
+      "probability": 0.9926780462265015
+    },
+    {
+      "word": "the",
+      "start": 25.7,
+      "end": 25.92,
+      "probability": 0.9990715980529785
+    },
+    {
+      "word": "right",
+      "start": 25.92,
+      "end": 26.119999999999997,
+      "probability": 0.9987010955810547
+    },
+    {
+      "word": "DAX",
+      "start": 26.119999999999997,
+      "end": 26.5,
+      "probability": 0.9150010943412781
+    },
+    {
+      "word": "calculations,",
+      "start": 26.5,
+      "end": 26.96,
+      "probability": 0.9854503870010376
+    },
+    {
+      "word": "strictly",
+      "start": 27.939999999999998,
+      "end": 27.939999999999998,
+      "probability": 0.9776781797409058
+    },
+    {
+      "word": "respects",
+      "start": 27.939999999999998,
+      "end": 28.380000000000003,
+      "probability": 0.9942458271980286
+    },
+    {
+      "word": "user",
+      "start": 28.380000000000003,
+      "end": 28.759999999999998,
+      "probability": 0.9910219311714172
+    },
+    {
+      "word": "access",
+      "start": 28.759999999999998,
+      "end": 29.18,
+      "probability": 0.9161193370819092
+    },
+    {
+      "word": "permissions,",
+      "start": 29.18,
+      "end": 29.560000000000002,
+      "probability": 0.9796039462089539
+    },
+    {
+      "word": "and",
+      "start": 30.380000000000003,
+      "end": 30.46,
+      "probability": 0.9982479810714722
+    },
+    {
+      "word": "returns",
+      "start": 30.46,
+      "end": 30.72,
+      "probability": 0.9962852001190186
+    },
+    {
+      "word": "evidence",
+      "start": 30.72,
+      "end": 31.0,
+      "probability": 0.9980210065841675
+    },
+    {
+      "word": "that",
+      "start": 31.0,
+      "end": 31.380000000000003,
+      "probability": 0.997867226600647
+    },
+    {
+      "word": "a",
+      "start": 31.380000000000003,
+      "end": 31.48,
+      "probability": 0.9979016780853271
+    },
+    {
+      "word": "human",
+      "start": 31.48,
+      "end": 31.7,
+      "probability": 0.9819040894508362
+    },
+    {
+      "word": "operator",
+      "start": 31.7,
+      "end": 32.06,
+      "probability": 0.9971690773963928
+    },
+    {
+      "word": "can",
+      "start": 32.06,
+      "end": 32.38,
+      "probability": 0.9986466765403748
+    },
+    {
+      "word": "actually",
+      "start": 32.38,
+      "end": 32.84,
+      "probability": 0.9889187216758728
+    },
+    {
+      "word": "verify.",
+      "start": 32.84,
+      "end": 33.08,
+      "probability": 0.9986584186553955
+    },
+    {
+      "word": "And",
+      "start": 33.68,
+      "end": 33.78,
+      "probability": 0.3959929347038269
+    },
+    {
+      "word": "then",
+      "start": 33.78,
+      "end": 33.88,
+      "probability": 0.993317723274231
+    },
+    {
+      "word": "you",
+      "start": 33.88,
+      "end": 34.019999999999996,
+      "probability": 0.9731408953666687
+    },
+    {
+      "word": "time",
+      "start": 34.019999999999996,
+      "end": 34.2,
+      "probability": 0.9806710481643677
+    },
+    {
+      "word": "it.",
+      "start": 34.2,
+      "end": 34.379999999999995,
+      "probability": 0.9914906620979309
+    },
+    {
+      "word": "Then",
+      "start": 35.019999999999996,
+      "end": 35.3,
+      "probability": 0.9654638171195984
+    },
+    {
+      "word": "you",
+      "start": 35.3,
+      "end": 35.42,
+      "probability": 0.9867331385612488
+    },
+    {
+      "word": "strictly",
+      "start": 35.42,
+      "end": 35.64,
+      "probability": 0.9925476908683777
+    },
+    {
+      "word": "time",
+      "start": 35.64,
+      "end": 36.019999999999996,
+      "probability": 0.9955322742462158
+    },
+    {
+      "word": "how",
+      "start": 36.019999999999996,
+      "end": 36.22,
+      "probability": 0.9752241373062134
+    },
+    {
+      "word": "long",
+      "start": 36.22,
+      "end": 36.44,
+      "probability": 0.999371349811554
+    },
+    {
+      "word": "that",
+      "start": 36.44,
+      "end": 36.66,
+      "probability": 0.9822757244110107
+    },
+    {
+      "word": "entire",
+      "start": 36.66,
+      "end": 36.9,
+      "probability": 0.9993273019790649
+    },
+    {
+      "word": "process",
+      "start": 36.9,
+      "end": 37.32,
+      "probability": 0.9990720748901367
+    },
+    {
+      "word": "takes,",
+      "start": 37.32,
+      "end": 37.66,
+      "probability": 0.9974836707115173
+    },
+    {
+      "word": "compared",
+      "start": 37.66,
+      "end": 38.36,
+      "probability": 0.9604532122612
+    },
+    {
+      "word": "to",
+      "start": 38.36,
+      "end": 38.54,
+      "probability": 0.9973437190055847
+    },
+    {
+      "word": "how",
+      "start": 38.54,
+      "end": 38.66,
+      "probability": 0.9989470839500427
+    },
+    {
+      "word": "long",
+      "start": 38.66,
+      "end": 38.86,
+      "probability": 0.9987504482269287
+    },
+    {
+      "word": "your",
+      "start": 38.86,
+      "end": 39.019999999999996,
+      "probability": 0.9876509308815002
+    },
+    {
+      "word": "human",
+      "start": 39.019999999999996,
+      "end": 39.260000000000005,
+      "probability": 0.9901373386383057
+    },
+    {
+      "word": "analysts",
+      "start": 39.260000000000005,
+      "end": 39.64,
+      "probability": 0.9939350485801697
+    },
+    {
+      "word": "take",
+      "start": 39.64,
+      "end": 40.14,
+      "probability": 0.9971330165863037
+    },
+    {
+      "word": "today.",
+      "start": 40.14,
+      "end": 40.46,
+      "probability": 0.9645369648933411
+    },
+    {
+      "word": "And",
+      "start": 41.24,
+      "end": 41.24,
+      "probability": 0.6350823044776917
+    },
+    {
+      "word": "crucially,",
+      "start": 41.24,
+      "end": 41.66,
+      "probability": 0.9734036922454834
+    },
+    {
+      "word": "you",
+      "start": 42.12,
+      "end": 42.16,
+      "probability": 0.9957898259162903
+    },
+    {
+      "word": "must",
+      "start": 42.16,
+      "end": 42.46,
+      "probability": 0.992695689201355
+    },
+    {
+      "word": "include",
+      "start": 42.46,
+      "end": 42.9,
+      "probability": 0.9976025223731995
+    },
+    {
+      "word": "the",
+      "start": 42.9,
+      "end": 43.14,
+      "probability": 0.9963899254798889
+    },
+    {
+      "word": "time",
+      "start": 43.14,
+      "end": 43.34,
+      "probability": 0.9993352293968201
+    },
+    {
+      "word": "it",
+      "start": 43.34,
+      "end": 43.480000000000004,
+      "probability": 0.9945940375328064
+    },
+    {
+      "word": "takes",
+      "start": 43.480000000000004,
+      "end": 43.68,
+      "probability": 0.997962474822998
+    },
+    {
+      "word": "the",
+      "start": 43.68,
+      "end": 43.88,
+      "probability": 0.9895901083946228
+    },
+    {
+      "word": "human",
+      "start": 43.88,
+      "end": 44.08,
+      "probability": 0.9849476218223572
+    },
+    {
+      "word": "operator",
+      "start": 44.08,
+      "end": 44.36,
+      "probability": 0.9975505471229553
+    },
+    {
+      "word": "to",
+      "start": 44.36,
+      "end": 44.78,
+      "probability": 0.9966011047363281
+    },
+    {
+      "word": "rigorously",
+      "start": 44.78,
+      "end": 45.28,
+      "probability": 0.9948418140411377
+    },
+    {
+      "word": "review",
+      "start": 45.28,
+      "end": 45.88,
+      "probability": 0.9937208890914917
+    },
+    {
+      "word": "and",
+      "start": 45.88,
+      "end": 46.2,
+      "probability": 0.983898937702179
+    },
+    {
+      "word": "correct",
+      "start": 46.2,
+      "end": 46.6,
+      "probability": 0.9974772334098816
+    },
+    {
+      "word": "the",
+      "start": 46.6,
+      "end": 46.88,
+      "probability": 0.997612714767456
+    },
+    {
+      "word": "AI's",
+      "start": 46.88,
+      "end": 47.28,
+      "probability": 0.9111194312572479
+    },
+    {
+      "word": "output",
+      "start": 47.28,
+      "end": 47.66,
+      "probability": 0.9974954724311829
+    },
+    {
+      "word": "in",
+      "start": 47.66,
+      "end": 48.0,
+      "probability": 0.9960123300552368
+    },
+    {
+      "word": "your",
+      "start": 48.0,
+      "end": 48.1,
+      "probability": 0.9970017075538635
+    },
+    {
+      "word": "final",
+      "start": 48.1,
+      "end": 48.36,
+      "probability": 0.9875984787940979
+    },
+    {
+      "word": "calculation.",
+      "start": 48.36,
+      "end": 48.68,
+      "probability": 0.9987742304801941
+    }
+  ],
+  "transcript_asr": "Do not borrow percentage improvement benchmarks from other vendors, and do not even borrow benchmarks from other workflows within your own company. You have to test this system against your own current manual process for a highly specific decision. How do you structure that measurement? You start with a representative business question where you already definitively know the correct answer. You test whether the new AI workflow selects the right concepts, uses the right DAX calculations, strictly respects user access permissions, and returns evidence that a human operator can actually verify. And then you time it. Then you strictly time how long that entire process takes, compared to how long your human analysts take today. And crucially, you must include the time it takes the human operator to rigorously review and correct the AI's output in your final calculation.",
+  "source_kind": "actual uploaded recording; continuous audio excerpt",
+  "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "status": "planned",
+  "publish_status": "draft for review",
+  "narration_replaced": false,
+  "actual_timestamps": true,
+  "context_label": "Original discussion excerpt",
+  "review_flags": [],
+  "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
+  "caption_corrections": [],
+  "caption_join_review": []
+}

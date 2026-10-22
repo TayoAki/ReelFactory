@@ -1,0 +1,82 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.14,0:00:00.48,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Having{\c&H002A2B17&\b0} raw data and an LLM
+Dialogue: 0,0:00:00.48,0:00:00.72,Default,,0,0,0,,{\pos(540,1513)}Having {\c&H00657811&\b1}raw{\c&H002A2B17&\b0} data and an LLM
+Dialogue: 0,0:00:00.72,0:00:01.10,Default,,0,0,0,,{\pos(540,1513)}Having raw {\c&H00657811&\b1}data{\c&H002A2B17&\b0} and an LLM
+Dialogue: 0,0:00:01.10,0:00:01.68,Default,,0,0,0,,{\pos(540,1513)}Having raw data {\c&H00657811&\b1}and{\c&H002A2B17&\b0} an LLM
+Dialogue: 0,0:00:01.68,0:00:01.77,Default,,0,0,0,,{\pos(540,1513)}Having raw data and {\c&H00657811&\b1}an{\c&H002A2B17&\b0} LLM
+Dialogue: 0,0:00:01.77,0:00:02.44,Default,,0,0,0,,{\pos(540,1513)}Having raw data and an {\c&H00657811&\b1}LLM{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:02.32,0:00:02.48,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}without{\c&H002A2B17&\b0} an\Nontology is essentially
+Dialogue: 0,0:00:02.48,0:00:02.74,Default,,0,0,0,,{\pos(540,1513)}without {\c&H00657811&\b1}an{\c&H002A2B17&\b0}\Nontology is essentially
+Dialogue: 0,0:00:02.74,0:00:03.20,Default,,0,0,0,,{\pos(540,1513)}without an\N{\c&H00657811&\b1}ontology{\c&H002A2B17&\b0} is essentially
+Dialogue: 0,0:00:03.20,0:00:03.44,Default,,0,0,0,,{\pos(540,1513)}without an\Nontology {\c&H00657811&\b1}is{\c&H002A2B17&\b0} essentially
+Dialogue: 0,0:00:03.44,0:00:03.80,Default,,0,0,0,,{\pos(540,1513)}without an\Nontology is {\c&H00657811&\b1}essentially{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:03.68,0:00:04.09,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}like{\c&H002A2B17&\b0} having a\Nmassive commercial kitchen
+Dialogue: 0,0:00:04.09,0:00:04.32,Default,,0,0,0,,{\pos(540,1513)}like {\c&H00657811&\b1}having{\c&H002A2B17&\b0} a\Nmassive commercial kitchen
+Dialogue: 0,0:00:04.32,0:00:05.04,Default,,0,0,0,,{\pos(540,1513)}like having {\c&H00657811&\b1}a{\c&H002A2B17&\b0}\Nmassive commercial kitchen
+Dialogue: 0,0:00:05.04,0:00:05.48,Default,,0,0,0,,{\pos(540,1513)}like having a\N{\c&H00657811&\b1}massive{\c&H002A2B17&\b0} commercial kitchen
+Dialogue: 0,0:00:05.48,0:00:05.74,Default,,0,0,0,,{\pos(540,1513)}like having a\Nmassive {\c&H00657811&\b1}commercial{\c&H002A2B17&\b0} kitchen
+Dialogue: 0,0:00:05.74,0:00:06.56,Default,,0,0,0,,{\pos(540,1513)}like having a\Nmassive commercial {\c&H00657811&\b1}kitchen{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:06.44,0:00:07.16,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}packed{\c&H002A2B17&\b0} to the\Nceiling with premium
+Dialogue: 0,0:00:07.16,0:00:07.38,Default,,0,0,0,,{\pos(540,1513)}packed {\c&H00657811&\b1}to{\c&H002A2B17&\b0} the\Nceiling with premium
+Dialogue: 0,0:00:07.38,0:00:07.48,Default,,0,0,0,,{\pos(540,1513)}packed to {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nceiling with premium
+Dialogue: 0,0:00:07.48,0:00:07.76,Default,,0,0,0,,{\pos(540,1513)}packed to the\N{\c&H00657811&\b1}ceiling{\c&H002A2B17&\b0} with premium
+Dialogue: 0,0:00:07.76,0:00:07.96,Default,,0,0,0,,{\pos(540,1513)}packed to the\Nceiling {\c&H00657811&\b1}with{\c&H002A2B17&\b0} premium
+Dialogue: 0,0:00:07.96,0:00:08.36,Default,,0,0,0,,{\pos(540,1513)}packed to the\Nceiling with {\c&H00657811&\b1}premium{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:08.24,0:00:09.22,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}ingredients.{\c&H002A2B17&\b0} I\Nlike this analogy.
+Dialogue: 0,0:00:09.22,0:00:09.48,Default,,0,0,0,,{\pos(540,1513)}ingredients. {\c&H00657811&\b1}I{\c&H002A2B17&\b0}\Nlike this analogy.
+Dialogue: 0,0:00:09.48,0:00:09.64,Default,,0,0,0,,{\pos(540,1513)}ingredients. I\N{\c&H00657811&\b1}like{\c&H002A2B17&\b0} this analogy.
+Dialogue: 0,0:00:09.64,0:00:09.77,Default,,0,0,0,,{\pos(540,1513)}ingredients. I\Nlike {\c&H00657811&\b1}this{\c&H002A2B17&\b0} analogy.
+Dialogue: 0,0:00:09.77,0:00:10.13,Default,,0,0,0,,{\pos(540,1513)}ingredients. I\Nlike this {\c&H00657811&\b1}analogy.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:10.54,0:00:10.60,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}But{\c&H002A2B17&\b0} you have no recipe.
+Dialogue: 0,0:00:10.60,0:00:10.96,Default,,0,0,0,,{\pos(540,1513)}But {\c&H00657811&\b1}you{\c&H002A2B17&\b0} have no recipe.
+Dialogue: 0,0:00:10.96,0:00:11.06,Default,,0,0,0,,{\pos(540,1513)}But you {\c&H00657811&\b1}have{\c&H002A2B17&\b0} no recipe.
+Dialogue: 0,0:00:11.06,0:00:11.16,Default,,0,0,0,,{\pos(540,1513)}But you have {\c&H00657811&\b1}no{\c&H002A2B17&\b0} recipe.
+Dialogue: 0,0:00:11.16,0:00:11.50,Default,,0,0,0,,{\pos(540,1513)}But you have no {\c&H00657811&\b1}recipe.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:12.26,0:00:12.36,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}You{\c&H002A2B17&\b0} don't know\Nthe ratios, you
+Dialogue: 0,0:00:12.36,0:00:12.46,Default,,0,0,0,,{\pos(540,1513)}You {\c&H00657811&\b1}don't{\c&H002A2B17&\b0} know\Nthe ratios, you
+Dialogue: 0,0:00:12.46,0:00:12.60,Default,,0,0,0,,{\pos(540,1513)}You don't {\c&H00657811&\b1}know{\c&H002A2B17&\b0}\Nthe ratios, you
+Dialogue: 0,0:00:12.60,0:00:12.68,Default,,0,0,0,,{\pos(540,1513)}You don't know\N{\c&H00657811&\b1}the{\c&H002A2B17&\b0} ratios, you
+Dialogue: 0,0:00:12.68,0:00:13.62,Default,,0,0,0,,{\pos(540,1513)}You don't know\Nthe {\c&H00657811&\b1}ratios,{\c&H002A2B17&\b0} you
+Dialogue: 0,0:00:13.62,0:00:13.84,Default,,0,0,0,,{\pos(540,1513)}You don't know\Nthe ratios, {\c&H00657811&\b1}you{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:13.72,0:00:13.82,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}don't{\c&H002A2B17&\b0} know the\Ncooking times, and
+Dialogue: 0,0:00:13.82,0:00:13.98,Default,,0,0,0,,{\pos(540,1513)}don't {\c&H00657811&\b1}know{\c&H002A2B17&\b0} the\Ncooking times, and
+Dialogue: 0,0:00:13.98,0:00:14.05,Default,,0,0,0,,{\pos(540,1513)}don't know {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Ncooking times, and
+Dialogue: 0,0:00:14.05,0:00:14.23,Default,,0,0,0,,{\pos(540,1513)}don't know the\N{\c&H00657811&\b1}cooking{\c&H002A2B17&\b0} times, and
+Dialogue: 0,0:00:14.23,0:00:15.04,Default,,0,0,0,,{\pos(540,1513)}don't know the\Ncooking {\c&H00657811&\b1}times,{\c&H002A2B17&\b0} and
+Dialogue: 0,0:00:15.04,0:00:15.60,Default,,0,0,0,,{\pos(540,1513)}don't know the\Ncooking times, {\c&H00657811&\b1}and{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:15.48,0:00:15.60,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}you{\c&H002A2B17&\b0} don't even\Nknow if you're
+Dialogue: 0,0:00:15.60,0:00:15.70,Default,,0,0,0,,{\pos(540,1513)}you {\c&H00657811&\b1}don't{\c&H002A2B17&\b0} even\Nknow if you're
+Dialogue: 0,0:00:15.70,0:00:15.82,Default,,0,0,0,,{\pos(540,1513)}you don't {\c&H00657811&\b1}even{\c&H002A2B17&\b0}\Nknow if you're
+Dialogue: 0,0:00:15.82,0:00:16.00,Default,,0,0,0,,{\pos(540,1513)}you don't even\N{\c&H00657811&\b1}know{\c&H002A2B17&\b0} if you're
+Dialogue: 0,0:00:16.00,0:00:16.10,Default,,0,0,0,,{\pos(540,1513)}you don't even\Nknow {\c&H00657811&\b1}if{\c&H002A2B17&\b0} you're
+Dialogue: 0,0:00:16.10,0:00:16.30,Default,,0,0,0,,{\pos(540,1513)}you don't even\Nknow if {\c&H00657811&\b1}you're{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:16.18,0:00:16.36,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}supposed{\c&H002A2B17&\b0} to be\Nbaking a wedding
+Dialogue: 0,0:00:16.36,0:00:16.55,Default,,0,0,0,,{\pos(540,1513)}supposed {\c&H00657811&\b1}to{\c&H002A2B17&\b0} be\Nbaking a wedding
+Dialogue: 0,0:00:16.55,0:00:16.64,Default,,0,0,0,,{\pos(540,1513)}supposed to {\c&H00657811&\b1}be{\c&H002A2B17&\b0}\Nbaking a wedding
+Dialogue: 0,0:00:16.64,0:00:16.86,Default,,0,0,0,,{\pos(540,1513)}supposed to be\N{\c&H00657811&\b1}baking{\c&H002A2B17&\b0} a wedding
+Dialogue: 0,0:00:16.86,0:00:17.02,Default,,0,0,0,,{\pos(540,1513)}supposed to be\Nbaking {\c&H00657811&\b1}a{\c&H002A2B17&\b0} wedding
+Dialogue: 0,0:00:17.02,0:00:17.32,Default,,0,0,0,,{\pos(540,1513)}supposed to be\Nbaking a {\c&H00657811&\b1}wedding{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:17.20,0:00:17.44,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}cake{\c&H002A2B17&\b0} or making\Na beef stew.
+Dialogue: 0,0:00:17.44,0:00:17.60,Default,,0,0,0,,{\pos(540,1513)}cake {\c&H00657811&\b1}or{\c&H002A2B17&\b0} making\Na beef stew.
+Dialogue: 0,0:00:17.60,0:00:17.73,Default,,0,0,0,,{\pos(540,1513)}cake or {\c&H00657811&\b1}making{\c&H002A2B17&\b0}\Na beef stew.
+Dialogue: 0,0:00:17.73,0:00:17.94,Default,,0,0,0,,{\pos(540,1513)}cake or making\N{\c&H00657811&\b1}a{\c&H002A2B17&\b0} beef stew.
+Dialogue: 0,0:00:17.94,0:00:18.04,Default,,0,0,0,,{\pos(540,1513)}cake or making\Na {\c&H00657811&\b1}beef{\c&H002A2B17&\b0} stew.
+Dialogue: 0,0:00:18.04,0:00:18.38,Default,,0,0,0,,{\pos(540,1513)}cake or making\Na beef {\c&H00657811&\b1}stew.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:18.78,0:00:19.07,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}That{\c&H002A2B17&\b0} is the\Nfunctional reality for
+Dialogue: 0,0:00:19.07,0:00:19.22,Default,,0,0,0,,{\pos(540,1513)}That {\c&H00657811&\b1}is{\c&H002A2B17&\b0} the\Nfunctional reality for
+Dialogue: 0,0:00:19.22,0:00:19.60,Default,,0,0,0,,{\pos(540,1513)}That is {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nfunctional reality for
+Dialogue: 0,0:00:19.60,0:00:19.88,Default,,0,0,0,,{\pos(540,1513)}That is the\N{\c&H00657811&\b1}functional{\c&H002A2B17&\b0} reality for
+Dialogue: 0,0:00:19.88,0:00:20.38,Default,,0,0,0,,{\pos(540,1513)}That is the\Nfunctional {\c&H00657811&\b1}reality{\c&H002A2B17&\b0} for
+Dialogue: 0,0:00:20.38,0:00:20.72,Default,,0,0,0,,{\pos(540,1513)}That is the\Nfunctional reality {\c&H00657811&\b1}for{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:20.60,0:00:20.76,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}most{\c&H002A2B17&\b0} enterprises today.
+Dialogue: 0,0:00:20.76,0:00:21.18,Default,,0,0,0,,{\pos(540,1513)}most {\c&H00657811&\b1}enterprises{\c&H002A2B17&\b0} today.
+Dialogue: 0,0:00:21.18,0:00:21.76,Default,,0,0,0,,{\pos(540,1513)}most enterprises {\c&H00657811&\b1}today.{\c&H002A2B17&\b0}

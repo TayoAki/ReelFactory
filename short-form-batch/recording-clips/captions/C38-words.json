@@ -1,0 +1,273 @@
+{
+  "id": "C38",
+  "title": "The agent uses the signed-in identity",
+  "source_start": 2457.029705,
+  "source_end": 2472.149705,
+  "duration": 15.11999999999989,
+  "part_ranges": [
+    {
+      "part": "part03.m4a",
+      "start": 206.9000000000001,
+      "end": 222.01999999999998
+    }
+  ],
+  "family": "boundary",
+  "left_label": "Signed-in user",
+  "right_label": "Allowed source data",
+  "focus_label": "Existing permissions apply",
+  "example_kind": "interactive-agent identity",
+  "words": [
+    {
+      "word": "Right.",
+      "start": 0.08000000000000007,
+      "end": 0.16000000000000014,
+      "probability": 0.4431239366531372
+    },
+    {
+      "word": "The",
+      "start": 0.45999999999999996,
+      "end": 0.5800000000000001,
+      "probability": 0.9865155220031738
+    },
+    {
+      "word": "built",
+      "start": 0.5800000000000001,
+      "end": 0.7400000000000002,
+      "probability": 0.9810935854911804
+    },
+    {
+      "word": "in",
+      "start": 0.7400000000000002,
+      "end": 0.94,
+      "probability": 0.25496843457221985
+    },
+    {
+      "word": "ontology",
+      "start": 0.94,
+      "end": 1.2200000000000002,
+      "probability": 0.8930944502353668
+    },
+    {
+      "word": "agent",
+      "start": 1.2200000000000002,
+      "end": 1.6800000000000002,
+      "probability": 0.9784746766090393
+    },
+    {
+      "word": "does",
+      "start": 1.6800000000000002,
+      "end": 1.98,
+      "probability": 0.9950178265571594
+    },
+    {
+      "word": "not",
+      "start": 1.98,
+      "end": 2.3,
+      "probability": 0.9987015724182129
+    },
+    {
+      "word": "operate",
+      "start": 2.3,
+      "end": 2.7800000000000002,
+      "probability": 0.9986050724983215
+    },
+    {
+      "word": "with",
+      "start": 2.7800000000000002,
+      "end": 3.0599999999999996,
+      "probability": 0.9980857372283936
+    },
+    {
+      "word": "some",
+      "start": 3.0599999999999996,
+      "end": 3.34,
+      "probability": 0.9980995059013367
+    },
+    {
+      "word": "omnipotent",
+      "start": 3.34,
+      "end": 4.22,
+      "probability": 0.9607680141925812
+    },
+    {
+      "word": "master",
+      "start": 4.22,
+      "end": 4.56,
+      "probability": 0.9543919563293457
+    },
+    {
+      "word": "key.",
+      "start": 4.56,
+      "end": 4.94,
+      "probability": 0.9836057424545288
+    },
+    {
+      "word": "It",
+      "start": 5.3,
+      "end": 5.76,
+      "probability": 0.9916593432426453
+    },
+    {
+      "word": "uses",
+      "start": 5.76,
+      "end": 5.96,
+      "probability": 0.9983345866203308
+    },
+    {
+      "word": "the",
+      "start": 5.96,
+      "end": 6.199999999999999,
+      "probability": 0.9939106702804565
+    },
+    {
+      "word": "signed",
+      "start": 6.199999999999999,
+      "end": 6.48,
+      "probability": 0.9878394603729248
+    },
+    {
+      "word": "in",
+      "start": 6.48,
+      "end": 6.699999999999999,
+      "probability": 0.8358282446861267
+    },
+    {
+      "word": "users",
+      "start": 6.699999999999999,
+      "end": 7.08,
+      "probability": 0.8443944454193115
+    },
+    {
+      "word": "specific",
+      "start": 7.08,
+      "end": 7.539999999999999,
+      "probability": 0.9471846222877502
+    },
+    {
+      "word": "identity.",
+      "start": 7.539999999999999,
+      "end": 8.26,
+      "probability": 0.9817812442779541
+    },
+    {
+      "word": "It",
+      "start": 8.52,
+      "end": 9.08,
+      "probability": 0.9930754899978638
+    },
+    {
+      "word": "operates",
+      "start": 9.08,
+      "end": 9.28,
+      "probability": 0.9799768924713135
+    },
+    {
+      "word": "strictly",
+      "start": 9.28,
+      "end": 9.78,
+      "probability": 0.9961710572242737
+    },
+    {
+      "word": "within",
+      "start": 9.78,
+      "end": 10.16,
+      "probability": 0.9972215890884399
+    },
+    {
+      "word": "the",
+      "start": 10.16,
+      "end": 10.32,
+      "probability": 0.9990217685699463
+    },
+    {
+      "word": "boundaries",
+      "start": 10.32,
+      "end": 10.62,
+      "probability": 0.9971640706062317
+    },
+    {
+      "word": "of",
+      "start": 10.62,
+      "end": 10.92,
+      "probability": 0.997211754322052
+    },
+    {
+      "word": "that",
+      "start": 10.92,
+      "end": 11.06,
+      "probability": 0.9945043921470642
+    },
+    {
+      "word": "user's",
+      "start": 11.06,
+      "end": 11.46,
+      "probability": 0.776105135679245
+    },
+    {
+      "word": "existing",
+      "start": 11.46,
+      "end": 11.84,
+      "probability": 0.9961833357810974
+    },
+    {
+      "word": "preconfigured",
+      "start": 11.84,
+      "end": 13.04,
+      "probability": 0.7186147471268972
+    },
+    {
+      "word": "access",
+      "start": 13.04,
+      "end": 13.28,
+      "probability": 0.9896000623703003
+    },
+    {
+      "word": "rights",
+      "start": 13.28,
+      "end": 13.62,
+      "probability": 0.9808641076087952
+    },
+    {
+      "word": "to",
+      "start": 13.62,
+      "end": 13.9,
+      "probability": 0.993704617023468
+    },
+    {
+      "word": "the",
+      "start": 13.9,
+      "end": 14.0,
+      "probability": 0.9983824491500854
+    },
+    {
+      "word": "underlying",
+      "start": 14.0,
+      "end": 14.34,
+      "probability": 0.9920530319213867
+    },
+    {
+      "word": "source",
+      "start": 14.34,
+      "end": 14.64,
+      "probability": 0.9892911314964294
+    },
+    {
+      "word": "databases.",
+      "start": 14.64,
+      "end": 15.0,
+      "probability": 0.9723783731460571
+    }
+  ],
+  "transcript_asr": "Right. The built in ontology agent does not operate with some omnipotent master key. It uses the signed in users specific identity. It operates strictly within the boundaries of that user's existing preconfigured access rights to the underlying source databases.",
+  "source_kind": "actual uploaded recording; continuous audio excerpt",
+  "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "status": "planned",
+  "publish_status": "draft for review",
+  "narration_replaced": false,
+  "actual_timestamps": true,
+  "context_label": "Interactive agent \u00b7 signed-in user",
+  "review_flags": [],
+  "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
+  "caption_corrections": [],
+  "caption_join_review": []
+}

@@ -1,0 +1,48 @@
+{
+  "id": "C19",
+  "family": "ownership",
+  "master_image": "../master-ownership.png",
+  "visual_workflow": "image-first",
+  "state_images": [
+    "01-initial.jpg",
+    "02-build.jpg",
+    "03-settled.jpg"
+  ],
+  "layers": [
+    {
+      "label": "Power BI semantic model",
+      "sub": "DEFINITION / SOURCE",
+      "x": 100,
+      "y": 680,
+      "w": 880,
+      "h": 250,
+      "focal": true,
+      "on": 0.7,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Ontology definitions",
+      "sub": "CONSUMER / MAPPING",
+      "x": 100,
+      "y": 1050,
+      "w": 880,
+      "h": 250,
+      "focal": false,
+      "on": 3.28,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    }
+  ],
+  "relation": "Reuse and review",
+  "source_quote": "The system is designed so you can generate a significant portion of your ontology directly from an existing power BI semantic model. That makes total sense because a semantic model already is a form of an ontology. It has the tables, the relationships, the business logic. How seamless is that translation process? The ontology agent essentially ingests the structure you've already built. The tables, columns, and established relationships in your Power BI model automatically provide the scaffolding for the ontologies, entities, and properties.",
+  "why": "Separate the source of meaning or data from its consumer.",
+  "alternative": "Authentic tenant UI would be preferable for proving an executed product action; this clip is a concept illustration.",
+  "visual_review": "Draft, not human approved. Generated symbols corrected in editable reconstruction.",
+  "source_reference": "reference-library/frames/graphic/0003510.jpg",
+  "motion": "independent card alpha reveal + 16px eased settling, timed to recording keywords; fixed grid and presenter rail",
+  "source_start": 1099.890975,
+  "source_end": 1128.310975,
+  "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+}

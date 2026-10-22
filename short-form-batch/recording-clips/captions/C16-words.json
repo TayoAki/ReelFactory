@@ -1,0 +1,183 @@
+{
+  "id": "C16",
+  "title": "A derived type needs its own binding",
+  "source_start": 950.690975,
+  "source_end": 958.1309749999999,
+  "duration": 7.439999999999941,
+  "part_ranges": [
+    {
+      "part": "part01.m4a",
+      "start": 200.64,
+      "end": 208.07999999999993
+    }
+  ],
+  "family": "boundary",
+  "left_label": "Inherited structure",
+  "right_label": "Own source binding",
+  "focus_label": "Preview constraint",
+  "example_kind": "derived-type binding limit",
+  "words": [
+    {
+      "word": "a",
+      "start": 0.08000000000000007,
+      "end": 0.2400000000000002,
+      "probability": 0.995254397392273
+    },
+    {
+      "word": "derived",
+      "start": 0.2400000000000002,
+      "end": 0.45999999999999996,
+      "probability": 0.8723029494285583
+    },
+    {
+      "word": "type",
+      "start": 0.45999999999999996,
+      "end": 0.96,
+      "probability": 0.993943989276886
+    },
+    {
+      "word": "does",
+      "start": 0.96,
+      "end": 1.2599999999999998,
+      "probability": 0.9888540506362915
+    },
+    {
+      "word": "not",
+      "start": 1.2599999999999998,
+      "end": 1.42,
+      "probability": 0.9992035031318665
+    },
+    {
+      "word": "automatically",
+      "start": 1.42,
+      "end": 1.92,
+      "probability": 0.9991582632064819
+    },
+    {
+      "word": "inherit",
+      "start": 1.92,
+      "end": 2.3200000000000003,
+      "probability": 0.9862881898880005
+    },
+    {
+      "word": "the",
+      "start": 2.3200000000000003,
+      "end": 2.5599999999999996,
+      "probability": 0.9976586103439331
+    },
+    {
+      "word": "physical",
+      "start": 2.5599999999999996,
+      "end": 2.8,
+      "probability": 0.9960523843765259
+    },
+    {
+      "word": "data",
+      "start": 2.8,
+      "end": 3.08,
+      "probability": 0.9753470420837402
+    },
+    {
+      "word": "bindings",
+      "start": 3.08,
+      "end": 3.42,
+      "probability": 0.982391893863678
+    },
+    {
+      "word": "of",
+      "start": 3.42,
+      "end": 3.7199999999999998,
+      "probability": 0.9976949095726013
+    },
+    {
+      "word": "its",
+      "start": 3.7199999999999998,
+      "end": 3.8200000000000003,
+      "probability": 0.9645057320594788
+    },
+    {
+      "word": "parent.",
+      "start": 3.8200000000000003,
+      "end": 4.08,
+      "probability": 0.978600800037384
+    },
+    {
+      "word": "It",
+      "start": 4.34,
+      "end": 4.44,
+      "probability": 0.9960775971412659
+    },
+    {
+      "word": "needs",
+      "start": 4.44,
+      "end": 4.6,
+      "probability": 0.994193971157074
+    },
+    {
+      "word": "its",
+      "start": 4.6,
+      "end": 4.84,
+      "probability": 0.9694082140922546
+    },
+    {
+      "word": "own",
+      "start": 4.84,
+      "end": 5.1,
+      "probability": 0.9972955584526062
+    },
+    {
+      "word": "specific",
+      "start": 5.1,
+      "end": 5.44,
+      "probability": 0.9912430047988892
+    },
+    {
+      "word": "data",
+      "start": 5.44,
+      "end": 5.82,
+      "probability": 0.992641270160675
+    },
+    {
+      "word": "bindings",
+      "start": 5.82,
+      "end": 6.220000000000001,
+      "probability": 0.9832810759544373
+    },
+    {
+      "word": "mapped",
+      "start": 6.220000000000001,
+      "end": 6.539999999999999,
+      "probability": 0.9975312948226929
+    },
+    {
+      "word": "to",
+      "start": 6.539999999999999,
+      "end": 6.9399999999999995,
+      "probability": 0.998155415058136
+    },
+    {
+      "word": "the",
+      "start": 6.9399999999999995,
+      "end": 7.02,
+      "probability": 0.9917661547660828
+    },
+    {
+      "word": "tables.",
+      "start": 7.02,
+      "end": 7.359999999999999,
+      "probability": 0.9782326221466064
+    }
+  ],
+  "transcript_asr": "a derived type does not automatically inherit the physical data bindings of its parent. It needs its own specific data bindings mapped to the tables.",
+  "source_kind": "actual uploaded recording; continuous audio excerpt",
+  "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "status": "planned",
+  "publish_status": "draft for review",
+  "narration_replaced": false,
+  "actual_timestamps": true,
+  "context_label": "Preview context \u00b7 Oct 2026",
+  "review_flags": [],
+  "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
+  "caption_corrections": [],
+  "caption_join_review": []
+}

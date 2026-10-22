@@ -1,0 +1,110 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.79,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}what?{\c&H002A2B17&\b0} For our\Nstore entity, the
+Dialogue: 0,0:00:00.79,0:00:01.31,Default,,0,0,0,,{\pos(540,1513)}what? {\c&H00657811&\b1}For{\c&H002A2B17&\b0} our\Nstore entity, the
+Dialogue: 0,0:00:01.31,0:00:01.48,Default,,0,0,0,,{\pos(540,1513)}what? For {\c&H00657811&\b1}our{\c&H002A2B17&\b0}\Nstore entity, the
+Dialogue: 0,0:00:01.48,0:00:01.77,Default,,0,0,0,,{\pos(540,1513)}what? For our\N{\c&H00657811&\b1}store{\c&H002A2B17&\b0} entity, the
+Dialogue: 0,0:00:01.77,0:00:02.25,Default,,0,0,0,,{\pos(540,1513)}what? For our\Nstore {\c&H00657811&\b1}entity,{\c&H002A2B17&\b0} the
+Dialogue: 0,0:00:02.25,0:00:02.80,Default,,0,0,0,,{\pos(540,1513)}what? For our\Nstore entity, {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:02.68,0:00:02.98,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}properties{\c&H002A2B17&\b0} might\Ninclude the region
+Dialogue: 0,0:00:02.98,0:00:03.30,Default,,0,0,0,,{\pos(540,1513)}properties {\c&H00657811&\b1}might{\c&H002A2B17&\b0}\Ninclude the region
+Dialogue: 0,0:00:03.30,0:00:03.63,Default,,0,0,0,,{\pos(540,1513)}properties might\N{\c&H00657811&\b1}include{\c&H002A2B17&\b0} the region
+Dialogue: 0,0:00:03.63,0:00:03.84,Default,,0,0,0,,{\pos(540,1513)}properties might\Ninclude {\c&H00657811&\b1}the{\c&H002A2B17&\b0} region
+Dialogue: 0,0:00:03.84,0:00:04.22,Default,,0,0,0,,{\pos(540,1513)}properties might\Ninclude the {\c&H00657811&\b1}region{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:04.09,0:00:04.26,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}it{\c&H002A2B17&\b0} belongs to,\Nits square footage,
+Dialogue: 0,0:00:04.26,0:00:04.46,Default,,0,0,0,,{\pos(540,1513)}it {\c&H00657811&\b1}belongs{\c&H002A2B17&\b0} to,\Nits square footage,
+Dialogue: 0,0:00:04.46,0:00:05.08,Default,,0,0,0,,{\pos(540,1513)}it belongs {\c&H00657811&\b1}to,{\c&H002A2B17&\b0}\Nits square footage,
+Dialogue: 0,0:00:05.08,0:00:05.26,Default,,0,0,0,,{\pos(540,1513)}it belongs to,\N{\c&H00657811&\b1}its{\c&H002A2B17&\b0} square footage,
+Dialogue: 0,0:00:05.26,0:00:05.48,Default,,0,0,0,,{\pos(540,1513)}it belongs to,\Nits {\c&H00657811&\b1}square{\c&H002A2B17&\b0} footage,
+Dialogue: 0,0:00:05.48,0:00:05.90,Default,,0,0,0,,{\pos(540,1513)}it belongs to,\Nits square {\c&H00657811&\b1}footage,{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:05.84,0:00:06.46,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}or{\c&H002A2B17&\b0} its\Npriority classification for
+Dialogue: 0,0:00:06.46,0:00:06.61,Default,,0,0,0,,{\pos(540,1513)}or {\c&H00657811&\b1}its{\c&H002A2B17&\b0}\Npriority classification for
+Dialogue: 0,0:00:06.61,0:00:06.90,Default,,0,0,0,,{\pos(540,1513)}or its\N{\c&H00657811&\b1}priority{\c&H002A2B17&\b0} classification for
+Dialogue: 0,0:00:06.90,0:00:07.70,Default,,0,0,0,,{\pos(540,1513)}or its\Npriority {\c&H00657811&\b1}classification{\c&H002A2B17&\b0} for
+Dialogue: 0,0:00:07.70,0:00:08.08,Default,,0,0,0,,{\pos(540,1513)}or its\Npriority classification {\c&H00657811&\b1}for{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:07.96,0:00:08.06,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}the{\c&H002A2B17&\b0} supply chain.
+Dialogue: 0,0:00:08.06,0:00:08.26,Default,,0,0,0,,{\pos(540,1513)}the {\c&H00657811&\b1}supply{\c&H002A2B17&\b0} chain.
+Dialogue: 0,0:00:08.26,0:00:08.76,Default,,0,0,0,,{\pos(540,1513)}the supply {\c&H00657811&\b1}chain.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:09.26,0:00:09.34,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}And{\c&H002A2B17&\b0} then we\Nhave to connect
+Dialogue: 0,0:00:09.34,0:00:09.46,Default,,0,0,0,,{\pos(540,1513)}And {\c&H00657811&\b1}then{\c&H002A2B17&\b0} we\Nhave to connect
+Dialogue: 0,0:00:09.46,0:00:09.61,Default,,0,0,0,,{\pos(540,1513)}And then {\c&H00657811&\b1}we{\c&H002A2B17&\b0}\Nhave to connect
+Dialogue: 0,0:00:09.61,0:00:09.74,Default,,0,0,0,,{\pos(540,1513)}And then we\N{\c&H00657811&\b1}have{\c&H002A2B17&\b0} to connect
+Dialogue: 0,0:00:09.74,0:00:09.84,Default,,0,0,0,,{\pos(540,1513)}And then we\Nhave {\c&H00657811&\b1}to{\c&H002A2B17&\b0} connect
+Dialogue: 0,0:00:09.84,0:00:10.19,Default,,0,0,0,,{\pos(540,1513)}And then we\Nhave to {\c&H00657811&\b1}connect{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:10.08,0:00:10.60,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}them.{\c&H002A2B17&\b0} That brings\Nus to relationships.
+Dialogue: 0,0:00:10.60,0:00:10.74,Default,,0,0,0,,{\pos(540,1513)}them. {\c&H00657811&\b1}That{\c&H002A2B17&\b0} brings\Nus to relationships.
+Dialogue: 0,0:00:10.74,0:00:10.90,Default,,0,0,0,,{\pos(540,1513)}them. That {\c&H00657811&\b1}brings{\c&H002A2B17&\b0}\Nus to relationships.
+Dialogue: 0,0:00:10.90,0:00:11.08,Default,,0,0,0,,{\pos(540,1513)}them. That brings\N{\c&H00657811&\b1}us{\c&H002A2B17&\b0} to relationships.
+Dialogue: 0,0:00:11.08,0:00:11.28,Default,,0,0,0,,{\pos(540,1513)}them. That brings\Nus {\c&H00657811&\b1}to{\c&H002A2B17&\b0} relationships.
+Dialogue: 0,0:00:11.28,0:00:12.04,Default,,0,0,0,,{\pos(540,1513)}them. That brings\Nus to {\c&H00657811&\b1}relationships.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:12.72,0:00:13.24,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Relationships{\c&H002A2B17&\b0} define\Nthe verbs between
+Dialogue: 0,0:00:13.24,0:00:13.52,Default,,0,0,0,,{\pos(540,1513)}Relationships {\c&H00657811&\b1}define{\c&H002A2B17&\b0}\Nthe verbs between
+Dialogue: 0,0:00:13.52,0:00:13.96,Default,,0,0,0,,{\pos(540,1513)}Relationships define\N{\c&H00657811&\b1}the{\c&H002A2B17&\b0} verbs between
+Dialogue: 0,0:00:13.96,0:00:14.30,Default,,0,0,0,,{\pos(540,1513)}Relationships define\Nthe {\c&H00657811&\b1}verbs{\c&H002A2B17&\b0} between
+Dialogue: 0,0:00:14.30,0:00:14.97,Default,,0,0,0,,{\pos(540,1513)}Relationships define\Nthe verbs {\c&H00657811&\b1}between{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:14.86,0:00:15.12,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}the{\c&H002A2B17&\b0} nouns. They\Nexplain how different
+Dialogue: 0,0:00:15.12,0:00:15.76,Default,,0,0,0,,{\pos(540,1513)}the {\c&H00657811&\b1}nouns.{\c&H002A2B17&\b0} They\Nexplain how different
+Dialogue: 0,0:00:15.76,0:00:15.84,Default,,0,0,0,,{\pos(540,1513)}the nouns. {\c&H00657811&\b1}They{\c&H002A2B17&\b0}\Nexplain how different
+Dialogue: 0,0:00:15.84,0:00:16.05,Default,,0,0,0,,{\pos(540,1513)}the nouns. They\N{\c&H00657811&\b1}explain{\c&H002A2B17&\b0} how different
+Dialogue: 0,0:00:16.05,0:00:16.32,Default,,0,0,0,,{\pos(540,1513)}the nouns. They\Nexplain {\c&H00657811&\b1}how{\c&H002A2B17&\b0} different
+Dialogue: 0,0:00:16.32,0:00:16.68,Default,,0,0,0,,{\pos(540,1513)}the nouns. They\Nexplain how {\c&H00657811&\b1}different{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:16.55,0:00:17.12,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}entity{\c&H002A2B17&\b0} types interact\Nin the real
+Dialogue: 0,0:00:17.12,0:00:17.64,Default,,0,0,0,,{\pos(540,1513)}entity {\c&H00657811&\b1}types{\c&H002A2B17&\b0} interact\Nin the real
+Dialogue: 0,0:00:17.64,0:00:18.02,Default,,0,0,0,,{\pos(540,1513)}entity types {\c&H00657811&\b1}interact{\c&H002A2B17&\b0}\Nin the real
+Dialogue: 0,0:00:18.02,0:00:18.30,Default,,0,0,0,,{\pos(540,1513)}entity types interact\N{\c&H00657811&\b1}in{\c&H002A2B17&\b0} the real
+Dialogue: 0,0:00:18.30,0:00:18.36,Default,,0,0,0,,{\pos(540,1513)}entity types interact\Nin {\c&H00657811&\b1}the{\c&H002A2B17&\b0} real
+Dialogue: 0,0:00:18.36,0:00:18.62,Default,,0,0,0,,{\pos(540,1513)}entity types interact\Nin the {\c&H00657811&\b1}real{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:18.50,0:00:19.20,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}world.{\c&H002A2B17&\b0} Give me an example.
+Dialogue: 0,0:00:19.20,0:00:19.28,Default,,0,0,0,,{\pos(540,1513)}world. {\c&H00657811&\b1}Give{\c&H002A2B17&\b0} me an example.
+Dialogue: 0,0:00:19.28,0:00:19.42,Default,,0,0,0,,{\pos(540,1513)}world. Give {\c&H00657811&\b1}me{\c&H002A2B17&\b0} an example.
+Dialogue: 0,0:00:19.42,0:00:19.48,Default,,0,0,0,,{\pos(540,1513)}world. Give me {\c&H00657811&\b1}an{\c&H002A2B17&\b0} example.
+Dialogue: 0,0:00:19.48,0:00:19.88,Default,,0,0,0,,{\pos(540,1513)}world. Give me an {\c&H00657811&\b1}example.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:20.62,0:00:20.76,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}You{\c&H002A2B17&\b0} might define\Na relationship that
+Dialogue: 0,0:00:20.76,0:00:20.88,Default,,0,0,0,,{\pos(540,1513)}You {\c&H00657811&\b1}might{\c&H002A2B17&\b0} define\Na relationship that
+Dialogue: 0,0:00:20.88,0:00:21.08,Default,,0,0,0,,{\pos(540,1513)}You might {\c&H00657811&\b1}define{\c&H002A2B17&\b0}\Na relationship that
+Dialogue: 0,0:00:21.08,0:00:21.24,Default,,0,0,0,,{\pos(540,1513)}You might define\N{\c&H00657811&\b1}a{\c&H002A2B17&\b0} relationship that
+Dialogue: 0,0:00:21.24,0:00:21.66,Default,,0,0,0,,{\pos(540,1513)}You might define\Na {\c&H00657811&\b1}relationship{\c&H002A2B17&\b0} that
+Dialogue: 0,0:00:21.66,0:00:21.94,Default,,0,0,0,,{\pos(540,1513)}You might define\Na relationship {\c&H00657811&\b1}that{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:21.82,0:00:22.14,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}states{\c&H002A2B17&\b0} a store\Noperates a refrigeration
+Dialogue: 0,0:00:22.14,0:00:22.46,Default,,0,0,0,,{\pos(540,1513)}states {\c&H00657811&\b1}a{\c&H002A2B17&\b0} store\Noperates a refrigeration
+Dialogue: 0,0:00:22.46,0:00:22.90,Default,,0,0,0,,{\pos(540,1513)}states a {\c&H00657811&\b1}store{\c&H002A2B17&\b0}\Noperates a refrigeration
+Dialogue: 0,0:00:22.90,0:00:23.44,Default,,0,0,0,,{\pos(540,1513)}states a store\N{\c&H00657811&\b1}operates{\c&H002A2B17&\b0} a refrigeration
+Dialogue: 0,0:00:23.44,0:00:23.84,Default,,0,0,0,,{\pos(540,1513)}states a store\Noperates {\c&H00657811&\b1}a{\c&H002A2B17&\b0} refrigeration
+Dialogue: 0,0:00:23.84,0:00:24.88,Default,,0,0,0,,{\pos(540,1513)}states a store\Noperates a {\c&H00657811&\b1}refrigeration{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:24.76,0:00:25.02,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}unit{\c&H002A2B17&\b0} or a supplier ships a
+Dialogue: 0,0:00:25.02,0:00:25.64,Default,,0,0,0,,{\pos(540,1513)}unit {\c&H00657811&\b1}or{\c&H002A2B17&\b0} a supplier ships a
+Dialogue: 0,0:00:25.64,0:00:26.16,Default,,0,0,0,,{\pos(540,1513)}unit or {\c&H00657811&\b1}a{\c&H002A2B17&\b0} supplier ships a
+Dialogue: 0,0:00:26.16,0:00:26.95,Default,,0,0,0,,{\pos(540,1513)}unit or a {\c&H00657811&\b1}supplier{\c&H002A2B17&\b0} ships a
+Dialogue: 0,0:00:26.95,0:00:27.22,Default,,0,0,0,,{\pos(540,1513)}unit or a supplier {\c&H00657811&\b1}ships{\c&H002A2B17&\b0} a
+Dialogue: 0,0:00:27.22,0:00:27.78,Default,,0,0,0,,{\pos(540,1513)}unit or a supplier ships {\c&H00657811&\b1}a{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:27.66,0:00:28.64,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}product.{\c&H002A2B17&\b0} You are\Ndrawing explicit lines
+Dialogue: 0,0:00:28.64,0:00:28.82,Default,,0,0,0,,{\pos(540,1513)}product. {\c&H00657811&\b1}You{\c&H002A2B17&\b0} are\Ndrawing explicit lines
+Dialogue: 0,0:00:28.82,0:00:28.92,Default,,0,0,0,,{\pos(540,1513)}product. You {\c&H00657811&\b1}are{\c&H002A2B17&\b0}\Ndrawing explicit lines
+Dialogue: 0,0:00:28.92,0:00:29.18,Default,,0,0,0,,{\pos(540,1513)}product. You are\N{\c&H00657811&\b1}drawing{\c&H002A2B17&\b0} explicit lines
+Dialogue: 0,0:00:29.18,0:00:29.68,Default,,0,0,0,,{\pos(540,1513)}product. You are\Ndrawing {\c&H00657811&\b1}explicit{\c&H002A2B17&\b0} lines
+Dialogue: 0,0:00:29.68,0:00:30.28,Default,,0,0,0,,{\pos(540,1513)}product. You are\Ndrawing explicit {\c&H00657811&\b1}lines{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:30.16,0:00:30.38,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}of{\c&H002A2B17&\b0} meaning so\Nthe AI doesn't
+Dialogue: 0,0:00:30.38,0:00:30.54,Default,,0,0,0,,{\pos(540,1513)}of {\c&H00657811&\b1}meaning{\c&H002A2B17&\b0} so\Nthe AI doesn't
+Dialogue: 0,0:00:30.54,0:00:30.94,Default,,0,0,0,,{\pos(540,1513)}of meaning {\c&H00657811&\b1}so{\c&H002A2B17&\b0}\Nthe AI doesn't
+Dialogue: 0,0:00:30.94,0:00:31.06,Default,,0,0,0,,{\pos(540,1513)}of meaning so\N{\c&H00657811&\b1}the{\c&H002A2B17&\b0} AI doesn't
+Dialogue: 0,0:00:31.06,0:00:31.28,Default,,0,0,0,,{\pos(540,1513)}of meaning so\Nthe {\c&H00657811&\b1}AI{\c&H002A2B17&\b0} doesn't
+Dialogue: 0,0:00:31.28,0:00:31.78,Default,,0,0,0,,{\pos(540,1513)}of meaning so\Nthe AI {\c&H00657811&\b1}doesn't{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:31.66,0:00:31.78,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}have{\c&H002A2B17&\b0} to guess\Nhow a supplier
+Dialogue: 0,0:00:31.78,0:00:31.88,Default,,0,0,0,,{\pos(540,1513)}have {\c&H00657811&\b1}to{\c&H002A2B17&\b0} guess\Nhow a supplier
+Dialogue: 0,0:00:31.88,0:00:32.08,Default,,0,0,0,,{\pos(540,1513)}have to {\c&H00657811&\b1}guess{\c&H002A2B17&\b0}\Nhow a supplier
+Dialogue: 0,0:00:32.08,0:00:32.40,Default,,0,0,0,,{\pos(540,1513)}have to guess\N{\c&H00657811&\b1}how{\c&H002A2B17&\b0} a supplier
+Dialogue: 0,0:00:32.40,0:00:32.56,Default,,0,0,0,,{\pos(540,1513)}have to guess\Nhow {\c&H00657811&\b1}a{\c&H002A2B17&\b0} supplier
+Dialogue: 0,0:00:32.56,0:00:32.97,Default,,0,0,0,,{\pos(540,1513)}have to guess\Nhow a {\c&H00657811&\b1}supplier{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:32.86,0:00:33.14,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}and{\c&H002A2B17&\b0} a store are connected.
+Dialogue: 0,0:00:33.14,0:00:33.22,Default,,0,0,0,,{\pos(540,1513)}and {\c&H00657811&\b1}a{\c&H002A2B17&\b0} store are connected.
+Dialogue: 0,0:00:33.22,0:00:33.38,Default,,0,0,0,,{\pos(540,1513)}and a {\c&H00657811&\b1}store{\c&H002A2B17&\b0} are connected.
+Dialogue: 0,0:00:33.38,0:00:33.54,Default,,0,0,0,,{\pos(540,1513)}and a store {\c&H00657811&\b1}are{\c&H002A2B17&\b0} connected.
+Dialogue: 0,0:00:33.54,0:00:33.87,Default,,0,0,0,,{\pos(540,1513)}and a store are {\c&H00657811&\b1}connected.{\c&H002A2B17&\b0}

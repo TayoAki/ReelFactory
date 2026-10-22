@@ -1,0 +1,411 @@
+{
+  "id": "C07",
+  "title": "Fabric brings the workflow together",
+  "source_start": 495.16,
+  "source_end": 522.18,
+  "duration": 27.019999999999925,
+  "part_ranges": [
+    {
+      "part": "part00.m4a",
+      "start": 495.16,
+      "end": 522.18
+    }
+  ],
+  "family": "workflow",
+  "left_label": "Ingest and prepare",
+  "right_label": "Analyze and report",
+  "focus_label": "Shared platform, different workloads",
+  "example_kind": "platform overview",
+  "words": [
+    {
+      "word": "Microsoft",
+      "start": 0.1200000000000001,
+      "end": 0.5,
+      "probability": 0.4712975025177002
+    },
+    {
+      "word": "Fabric",
+      "start": 0.5,
+      "end": 0.8999999999999999,
+      "probability": 0.765981137752533
+    },
+    {
+      "word": "is",
+      "start": 0.8999999999999999,
+      "end": 1.2200000000000002,
+      "probability": 0.9927725195884705
+    },
+    {
+      "word": "an",
+      "start": 1.2200000000000002,
+      "end": 1.3199999999999998,
+      "probability": 0.9827497005462646
+    },
+    {
+      "word": "architectural",
+      "start": 1.3199999999999998,
+      "end": 1.6,
+      "probability": 0.994835376739502
+    },
+    {
+      "word": "attempt",
+      "start": 1.6,
+      "end": 2.3600000000000003,
+      "probability": 0.9944503307342529
+    },
+    {
+      "word": "to",
+      "start": 2.3600000000000003,
+      "end": 2.54,
+      "probability": 0.997105062007904
+    },
+    {
+      "word": "bring",
+      "start": 2.54,
+      "end": 2.7,
+      "probability": 0.9983906745910645
+    },
+    {
+      "word": "the",
+      "start": 2.7,
+      "end": 2.88,
+      "probability": 0.9972808361053467
+    },
+    {
+      "word": "entire",
+      "start": 2.88,
+      "end": 3.2199999999999998,
+      "probability": 0.9959080219268799
+    },
+    {
+      "word": "historically",
+      "start": 3.2199999999999998,
+      "end": 4.6,
+      "probability": 0.8517752289772034
+    },
+    {
+      "word": "fragmented",
+      "start": 4.6,
+      "end": 5.28,
+      "probability": 0.9938473105430603
+    },
+    {
+      "word": "data",
+      "start": 5.28,
+      "end": 5.66,
+      "probability": 0.964687705039978
+    },
+    {
+      "word": "workflow",
+      "start": 5.66,
+      "end": 5.92,
+      "probability": 0.9715697169303894
+    },
+    {
+      "word": "into",
+      "start": 5.92,
+      "end": 6.4,
+      "probability": 0.9949394464492798
+    },
+    {
+      "word": "one",
+      "start": 6.4,
+      "end": 6.779999999999999,
+      "probability": 0.9940584897994995
+    },
+    {
+      "word": "unified",
+      "start": 6.779999999999999,
+      "end": 7.279999999999999,
+      "probability": 0.9889665246009827
+    },
+    {
+      "word": "software",
+      "start": 7.279999999999999,
+      "end": 7.960000000000001,
+      "probability": 0.9897852540016174
+    },
+    {
+      "word": "as",
+      "start": 7.960000000000001,
+      "end": 8.24,
+      "probability": 0.8906553387641907
+    },
+    {
+      "word": "a",
+      "start": 8.24,
+      "end": 8.32,
+      "probability": 0.993196964263916
+    },
+    {
+      "word": "service",
+      "start": 8.32,
+      "end": 8.54,
+      "probability": 0.982416033744812
+    },
+    {
+      "word": "platform.",
+      "start": 8.54,
+      "end": 8.86,
+      "probability": 0.9985795021057129
+    },
+    {
+      "word": "And",
+      "start": 9.58,
+      "end": 9.64,
+      "probability": 0.5752447843551636
+    },
+    {
+      "word": "when",
+      "start": 9.64,
+      "end": 9.76,
+      "probability": 0.9903391003608704
+    },
+    {
+      "word": "we",
+      "start": 9.76,
+      "end": 9.9,
+      "probability": 0.9970799088478088
+    },
+    {
+      "word": "say",
+      "start": 9.9,
+      "end": 10.06,
+      "probability": 0.9937161803245544
+    },
+    {
+      "word": "workflow,",
+      "start": 10.06,
+      "end": 10.28,
+      "probability": 0.8465210795402527
+    },
+    {
+      "word": "we",
+      "start": 10.58,
+      "end": 10.66,
+      "probability": 0.9984523057937622
+    },
+    {
+      "word": "mean",
+      "start": 10.66,
+      "end": 10.82,
+      "probability": 0.9987717270851135
+    },
+    {
+      "word": "everything.",
+      "start": 10.82,
+      "end": 11.58,
+      "probability": 0.9856380820274353
+    },
+    {
+      "word": "The",
+      "start": 12.08,
+      "end": 12.12,
+      "probability": 0.9523953795433044
+    },
+    {
+      "word": "complete",
+      "start": 12.12,
+      "end": 12.38,
+      "probability": 0.9881958961486816
+    },
+    {
+      "word": "life",
+      "start": 12.38,
+      "end": 12.62,
+      "probability": 0.5697142481803894
+    },
+    {
+      "word": "cycle.",
+      "start": 12.62,
+      "end": 13.0,
+      "probability": 0.9876825213432312
+    },
+    {
+      "word": "Ingesting",
+      "start": 13.54,
+      "end": 13.94,
+      "probability": 0.8688869078954061
+    },
+    {
+      "word": "data",
+      "start": 13.94,
+      "end": 14.120000000000001,
+      "probability": 0.997654139995575
+    },
+    {
+      "word": "from",
+      "start": 14.120000000000001,
+      "end": 14.420000000000002,
+      "probability": 0.9982996582984924
+    },
+    {
+      "word": "external",
+      "start": 14.420000000000002,
+      "end": 14.84,
+      "probability": 0.996607780456543
+    },
+    {
+      "word": "sources,",
+      "start": 14.84,
+      "end": 15.420000000000002,
+      "probability": 0.9978482723236084
+    },
+    {
+      "word": "transforming",
+      "start": 15.52,
+      "end": 16.42,
+      "probability": 0.9957970380783081
+    },
+    {
+      "word": "and",
+      "start": 16.42,
+      "end": 16.7,
+      "probability": 0.9817102551460266
+    },
+    {
+      "word": "cleaning",
+      "start": 16.7,
+      "end": 16.98,
+      "probability": 0.9982411861419678
+    },
+    {
+      "word": "it,",
+      "start": 16.98,
+      "end": 17.3,
+      "probability": 0.9935997724533081
+    },
+    {
+      "word": "analyzing",
+      "start": 17.82,
+      "end": 18.16,
+      "probability": 0.9770635962486267
+    },
+    {
+      "word": "historical",
+      "start": 18.16,
+      "end": 18.68,
+      "probability": 0.9976453185081482
+    },
+    {
+      "word": "batches,",
+      "start": 18.68,
+      "end": 19.26,
+      "probability": 0.9921280145645142
+    },
+    {
+      "word": "real",
+      "start": 20.18,
+      "end": 20.48,
+      "probability": 0.9860883355140686
+    },
+    {
+      "word": "-time",
+      "start": 20.48,
+      "end": 20.82,
+      "probability": 0.8478918969631195
+    },
+    {
+      "word": "IOT",
+      "start": 20.82,
+      "end": 21.2,
+      "probability": 0.6226351410150528
+    },
+    {
+      "word": "information,",
+      "start": 21.2,
+      "end": 21.72,
+      "probability": 0.9888889193534851
+    },
+    {
+      "word": "training",
+      "start": 22.42,
+      "end": 22.740000000000002,
+      "probability": 0.9869570732116699
+    },
+    {
+      "word": "machine",
+      "start": 22.740000000000002,
+      "end": 23.06,
+      "probability": 0.9740670323371887
+    },
+    {
+      "word": "learning",
+      "start": 23.06,
+      "end": 23.44,
+      "probability": 0.9667294025421143
+    },
+    {
+      "word": "models,",
+      "start": 23.44,
+      "end": 23.78,
+      "probability": 0.9969326257705688
+    },
+    {
+      "word": "and",
+      "start": 23.9,
+      "end": 24.12,
+      "probability": 0.9974439144134521
+    },
+    {
+      "word": "finally",
+      "start": 24.12,
+      "end": 24.48,
+      "probability": 0.983608067035675
+    },
+    {
+      "word": "serving",
+      "start": 24.48,
+      "end": 24.82,
+      "probability": 0.9382361173629761
+    },
+    {
+      "word": "up",
+      "start": 24.82,
+      "end": 25.08,
+      "probability": 0.9972660541534424
+    },
+    {
+      "word": "the",
+      "start": 25.08,
+      "end": 25.240000000000002,
+      "probability": 0.9912925362586975
+    },
+    {
+      "word": "visualizations",
+      "start": 25.240000000000002,
+      "end": 25.9,
+      "probability": 0.9975711405277252
+    },
+    {
+      "word": "in",
+      "start": 25.9,
+      "end": 26.259999999999998,
+      "probability": 0.7693641185760498
+    },
+    {
+      "word": "reporting",
+      "start": 26.259999999999998,
+      "end": 26.48,
+      "probability": 0.9878289699554443
+    },
+    {
+      "word": "tools.",
+      "start": 26.48,
+      "end": 26.880000000000003,
+      "probability": 0.9979813694953918
+    }
+  ],
+  "transcript_asr": "Microsoft Fabric is an architectural attempt to bring the entire historically fragmented data workflow into one unified software as a service platform. And when we say workflow, we mean everything. The complete life cycle. Ingesting data from external sources, transforming and cleaning it, analyzing historical batches, real -time IOT information, training machine learning models, and finally serving up the visualizations in reporting tools.",
+  "source_kind": "actual uploaded recording; continuous audio excerpt",
+  "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "status": "planned",
+  "publish_status": "draft for review",
+  "narration_replaced": false,
+  "actual_timestamps": true,
+  "context_label": "Original discussion excerpt",
+  "review_flags": [],
+  "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
+  "caption_corrections": [],
+  "caption_join_review": []
+}

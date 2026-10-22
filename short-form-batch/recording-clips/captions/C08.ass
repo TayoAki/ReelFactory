@@ -1,0 +1,92 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.33,0:00:00.39,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}And{\c&H002A2B17&\b0} the bedrock\Nof this entire
+Dialogue: 0,0:00:00.39,0:00:00.52,Default,,0,0,0,,{\pos(540,1513)}And {\c&H00657811&\b1}the{\c&H002A2B17&\b0} bedrock\Nof this entire
+Dialogue: 0,0:00:00.52,0:00:00.83,Default,,0,0,0,,{\pos(540,1513)}And the {\c&H00657811&\b1}bedrock{\c&H002A2B17&\b0}\Nof this entire
+Dialogue: 0,0:00:00.83,0:00:01.18,Default,,0,0,0,,{\pos(540,1513)}And the bedrock\N{\c&H00657811&\b1}of{\c&H002A2B17&\b0} this entire
+Dialogue: 0,0:00:01.18,0:00:01.31,Default,,0,0,0,,{\pos(540,1513)}And the bedrock\Nof {\c&H00657811&\b1}this{\c&H002A2B17&\b0} entire
+Dialogue: 0,0:00:01.31,0:00:01.64,Default,,0,0,0,,{\pos(540,1513)}And the bedrock\Nof this {\c&H00657811&\b1}entire{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:01.52,0:00:01.96,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}platform{\c&H002A2B17&\b0} is something\Nthey call OneLake.
+Dialogue: 0,0:00:01.96,0:00:02.59,Default,,0,0,0,,{\pos(540,1513)}platform {\c&H00657811&\b1}is{\c&H002A2B17&\b0} something\Nthey call OneLake.
+Dialogue: 0,0:00:02.59,0:00:03.16,Default,,0,0,0,,{\pos(540,1513)}platform is {\c&H00657811&\b1}something{\c&H002A2B17&\b0}\Nthey call OneLake.
+Dialogue: 0,0:00:03.16,0:00:03.40,Default,,0,0,0,,{\pos(540,1513)}platform is something\N{\c&H00657811&\b1}they{\c&H002A2B17&\b0} call OneLake.
+Dialogue: 0,0:00:03.40,0:00:03.62,Default,,0,0,0,,{\pos(540,1513)}platform is something\Nthey {\c&H00657811&\b1}call{\c&H002A2B17&\b0} OneLake.
+Dialogue: 0,0:00:03.62,0:00:04.38,Default,,0,0,0,,{\pos(540,1513)}platform is something\Nthey call {\c&H00657811&\b1}OneLake.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:04.80,0:00:05.24,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}OneLake{\c&H002A2B17&\b0} is\Nfundamental to understanding
+Dialogue: 0,0:00:05.24,0:00:05.42,Default,,0,0,0,,{\pos(540,1513)}OneLake {\c&H00657811&\b1}is{\c&H002A2B17&\b0}\Nfundamental to understanding
+Dialogue: 0,0:00:05.42,0:00:05.94,Default,,0,0,0,,{\pos(540,1513)}OneLake is\N{\c&H00657811&\b1}fundamental{\c&H002A2B17&\b0} to understanding
+Dialogue: 0,0:00:05.94,0:00:06.38,Default,,0,0,0,,{\pos(540,1513)}OneLake is\Nfundamental {\c&H00657811&\b1}to{\c&H002A2B17&\b0} understanding
+Dialogue: 0,0:00:06.38,0:00:06.88,Default,,0,0,0,,{\pos(540,1513)}OneLake is\Nfundamental to {\c&H00657811&\b1}understanding{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:06.76,0:00:07.10,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}how{\c&H002A2B17&\b0} the\Nontology actually executes.
+Dialogue: 0,0:00:07.10,0:00:07.24,Default,,0,0,0,,{\pos(540,1513)}how {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nontology actually executes.
+Dialogue: 0,0:00:07.24,0:00:07.66,Default,,0,0,0,,{\pos(540,1513)}how the\N{\c&H00657811&\b1}ontology{\c&H002A2B17&\b0} actually executes.
+Dialogue: 0,0:00:07.66,0:00:08.30,Default,,0,0,0,,{\pos(540,1513)}how the\Nontology {\c&H00657811&\b1}actually{\c&H002A2B17&\b0} executes.
+Dialogue: 0,0:00:08.30,0:00:08.89,Default,,0,0,0,,{\pos(540,1513)}how the\Nontology actually {\c&H00657811&\b1}executes.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:09.06,0:00:09.19,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}It{\c&H002A2B17&\b0} is the\Nshared data foundation.
+Dialogue: 0,0:00:09.19,0:00:09.48,Default,,0,0,0,,{\pos(540,1513)}It {\c&H00657811&\b1}is{\c&H002A2B17&\b0} the\Nshared data foundation.
+Dialogue: 0,0:00:09.48,0:00:09.64,Default,,0,0,0,,{\pos(540,1513)}It is {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nshared data foundation.
+Dialogue: 0,0:00:09.64,0:00:09.96,Default,,0,0,0,,{\pos(540,1513)}It is the\N{\c&H00657811&\b1}shared{\c&H002A2B17&\b0} data foundation.
+Dialogue: 0,0:00:09.96,0:00:10.44,Default,,0,0,0,,{\pos(540,1513)}It is the\Nshared {\c&H00657811&\b1}data{\c&H002A2B17&\b0} foundation.
+Dialogue: 0,0:00:10.44,0:00:11.04,Default,,0,0,0,,{\pos(540,1513)}It is the\Nshared data {\c&H00657811&\b1}foundation.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:11.40,0:00:11.56,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Like{\c&H002A2B17&\b0} a massive\Nhard drive for
+Dialogue: 0,0:00:11.56,0:00:11.82,Default,,0,0,0,,{\pos(540,1513)}Like {\c&H00657811&\b1}a{\c&H002A2B17&\b0} massive\Nhard drive for
+Dialogue: 0,0:00:11.82,0:00:12.26,Default,,0,0,0,,{\pos(540,1513)}Like a {\c&H00657811&\b1}massive{\c&H002A2B17&\b0}\Nhard drive for
+Dialogue: 0,0:00:12.26,0:00:12.58,Default,,0,0,0,,{\pos(540,1513)}Like a massive\N{\c&H00657811&\b1}hard{\c&H002A2B17&\b0} drive for
+Dialogue: 0,0:00:12.58,0:00:12.86,Default,,0,0,0,,{\pos(540,1513)}Like a massive\Nhard {\c&H00657811&\b1}drive{\c&H002A2B17&\b0} for
+Dialogue: 0,0:00:12.86,0:00:13.18,Default,,0,0,0,,{\pos(540,1513)}Like a massive\Nhard drive {\c&H00657811&\b1}for{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:13.06,0:00:13.16,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}the{\c&H002A2B17&\b0} company.\NThe architectural philosophy
+Dialogue: 0,0:00:13.16,0:00:14.28,Default,,0,0,0,,{\pos(540,1513)}the {\c&H00657811&\b1}company.{\c&H002A2B17&\b0}\NThe architectural philosophy
+Dialogue: 0,0:00:14.28,0:00:14.36,Default,,0,0,0,,{\pos(540,1513)}the company.\N{\c&H00657811&\b1}The{\c&H002A2B17&\b0} architectural philosophy
+Dialogue: 0,0:00:14.36,0:00:14.64,Default,,0,0,0,,{\pos(540,1513)}the company.\NThe {\c&H00657811&\b1}architectural{\c&H002A2B17&\b0} philosophy
+Dialogue: 0,0:00:14.64,0:00:15.42,Default,,0,0,0,,{\pos(540,1513)}the company.\NThe architectural {\c&H00657811&\b1}philosophy{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:15.30,0:00:15.72,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}here{\c&H002A2B17&\b0} is that\Ndifferent teams within
+Dialogue: 0,0:00:15.72,0:00:16.02,Default,,0,0,0,,{\pos(540,1513)}here {\c&H00657811&\b1}is{\c&H002A2B17&\b0} that\Ndifferent teams within
+Dialogue: 0,0:00:16.02,0:00:16.28,Default,,0,0,0,,{\pos(540,1513)}here is {\c&H00657811&\b1}that{\c&H002A2B17&\b0}\Ndifferent teams within
+Dialogue: 0,0:00:16.28,0:00:16.62,Default,,0,0,0,,{\pos(540,1513)}here is that\N{\c&H00657811&\b1}different{\c&H002A2B17&\b0} teams within
+Dialogue: 0,0:00:16.62,0:00:16.89,Default,,0,0,0,,{\pos(540,1513)}here is that\Ndifferent {\c&H00657811&\b1}teams{\c&H002A2B17&\b0} within
+Dialogue: 0,0:00:16.89,0:00:17.28,Default,,0,0,0,,{\pos(540,1513)}here is that\Ndifferent teams {\c&H00657811&\b1}within{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:17.16,0:00:17.36,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}an{\c&H002A2B17&\b0} organization,\Ndata scientists, financial
+Dialogue: 0,0:00:17.36,0:00:18.42,Default,,0,0,0,,{\pos(540,1513)}an {\c&H00657811&\b1}organization,{\c&H002A2B17&\b0}\Ndata scientists, financial
+Dialogue: 0,0:00:18.42,0:00:18.50,Default,,0,0,0,,{\pos(540,1513)}an organization,\N{\c&H00657811&\b1}data{\c&H002A2B17&\b0} scientists, financial
+Dialogue: 0,0:00:18.50,0:00:19.62,Default,,0,0,0,,{\pos(540,1513)}an organization,\Ndata {\c&H00657811&\b1}scientists,{\c&H002A2B17&\b0} financial
+Dialogue: 0,0:00:19.62,0:00:19.88,Default,,0,0,0,,{\pos(540,1513)}an organization,\Ndata scientists, {\c&H00657811&\b1}financial{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:19.78,0:00:20.84,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}analysts,{\c&H002A2B17&\b0} operations\Nmanagers, can
+Dialogue: 0,0:00:20.84,0:00:21.08,Default,,0,0,0,,{\pos(540,1513)}analysts, {\c&H00657811&\b1}operations{\c&H002A2B17&\b0}\Nmanagers, can
+Dialogue: 0,0:00:21.08,0:00:21.70,Default,,0,0,0,,{\pos(540,1513)}analysts, operations\N{\c&H00657811&\b1}managers,{\c&H002A2B17&\b0} can
+Dialogue: 0,0:00:21.70,0:00:22.58,Default,,0,0,0,,{\pos(540,1513)}analysts, operations\Nmanagers, {\c&H00657811&\b1}can{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:22.46,0:00:22.62,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}all{\c&H002A2B17&\b0} work with\Nthe exact same
+Dialogue: 0,0:00:22.62,0:00:22.86,Default,,0,0,0,,{\pos(540,1513)}all {\c&H00657811&\b1}work{\c&H002A2B17&\b0} with\Nthe exact same
+Dialogue: 0,0:00:22.86,0:00:23.00,Default,,0,0,0,,{\pos(540,1513)}all work {\c&H00657811&\b1}with{\c&H002A2B17&\b0}\Nthe exact same
+Dialogue: 0,0:00:23.00,0:00:23.12,Default,,0,0,0,,{\pos(540,1513)}all work with\N{\c&H00657811&\b1}the{\c&H002A2B17&\b0} exact same
+Dialogue: 0,0:00:23.12,0:00:23.34,Default,,0,0,0,,{\pos(540,1513)}all work with\Nthe {\c&H00657811&\b1}exact{\c&H002A2B17&\b0} same
+Dialogue: 0,0:00:23.34,0:00:23.96,Default,,0,0,0,,{\pos(540,1513)}all work with\Nthe exact {\c&H00657811&\b1}same{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:23.84,0:00:24.62,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}underlying{\c&H002A2B17&\b0} govern data.
+Dialogue: 0,0:00:24.62,0:00:25.12,Default,,0,0,0,,{\pos(540,1513)}underlying {\c&H00657811&\b1}govern{\c&H002A2B17&\b0} data.
+Dialogue: 0,0:00:25.12,0:00:25.72,Default,,0,0,0,,{\pos(540,1513)}underlying govern {\c&H00657811&\b1}data.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:25.92,0:00:26.16,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}But{\c&H002A2B17&\b0} using their own tools.
+Dialogue: 0,0:00:26.16,0:00:26.42,Default,,0,0,0,,{\pos(540,1513)}But {\c&H00657811&\b1}using{\c&H002A2B17&\b0} their own tools.
+Dialogue: 0,0:00:26.42,0:00:26.66,Default,,0,0,0,,{\pos(540,1513)}But using {\c&H00657811&\b1}their{\c&H002A2B17&\b0} own tools.
+Dialogue: 0,0:00:26.66,0:00:26.80,Default,,0,0,0,,{\pos(540,1513)}But using their {\c&H00657811&\b1}own{\c&H002A2B17&\b0} tools.
+Dialogue: 0,0:00:26.80,0:00:27.20,Default,,0,0,0,,{\pos(540,1513)}But using their own {\c&H00657811&\b1}tools.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:27.52,0:00:28.66,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Exactly.{\c&H002A2B17&\b0} They access\Nit through different
+Dialogue: 0,0:00:28.66,0:00:28.70,Default,,0,0,0,,{\pos(540,1513)}Exactly. {\c&H00657811&\b1}They{\c&H002A2B17&\b0} access\Nit through different
+Dialogue: 0,0:00:28.70,0:00:28.90,Default,,0,0,0,,{\pos(540,1513)}Exactly. They {\c&H00657811&\b1}access{\c&H002A2B17&\b0}\Nit through different
+Dialogue: 0,0:00:28.90,0:00:29.16,Default,,0,0,0,,{\pos(540,1513)}Exactly. They access\N{\c&H00657811&\b1}it{\c&H002A2B17&\b0} through different
+Dialogue: 0,0:00:29.16,0:00:29.28,Default,,0,0,0,,{\pos(540,1513)}Exactly. They access\Nit {\c&H00657811&\b1}through{\c&H002A2B17&\b0} different
+Dialogue: 0,0:00:29.28,0:00:29.58,Default,,0,0,0,,{\pos(540,1513)}Exactly. They access\Nit through {\c&H00657811&\b1}different{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:29.46,0:00:29.88,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}analytical{\c&H002A2B17&\b0} compute\Nengines depending
+Dialogue: 0,0:00:29.88,0:00:30.38,Default,,0,0,0,,{\pos(540,1513)}analytical {\c&H00657811&\b1}compute{\c&H002A2B17&\b0}\Nengines depending
+Dialogue: 0,0:00:30.38,0:00:30.76,Default,,0,0,0,,{\pos(540,1513)}analytical compute\N{\c&H00657811&\b1}engines{\c&H002A2B17&\b0} depending
+Dialogue: 0,0:00:30.76,0:00:31.32,Default,,0,0,0,,{\pos(540,1513)}analytical compute\Nengines {\c&H00657811&\b1}depending{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:31.20,0:00:31.60,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}on{\c&H002A2B17&\b0} their specific needs.
+Dialogue: 0,0:00:31.60,0:00:31.72,Default,,0,0,0,,{\pos(540,1513)}on {\c&H00657811&\b1}their{\c&H002A2B17&\b0} specific needs.
+Dialogue: 0,0:00:31.72,0:00:32.01,Default,,0,0,0,,{\pos(540,1513)}on their {\c&H00657811&\b1}specific{\c&H002A2B17&\b0} needs.
+Dialogue: 0,0:00:32.01,0:00:32.44,Default,,0,0,0,,{\pos(540,1513)}on their specific {\c&H00657811&\b1}needs.{\c&H002A2B17&\b0}

@@ -1,0 +1,44 @@
+{
+  "id": "C47",
+  "family": "boundary",
+  "master_image": "../master-boundary.png",
+  "visual_workflow": "image-first",
+  "state_images": [
+    "01-initial.jpg",
+    "02-build.jpg",
+    "03-settled.jpg"
+  ],
+  "layers": [
+    {
+      "label": "One configured condition",
+      "sub": "FIRST RESPONSIBILITY",
+      "x": 100,
+      "y": 680,
+      "w": 880,
+      "h": 250,
+      "focal": true,
+      "on": 0.7,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Monitoring cycle",
+      "sub": "SEPARATE RESPONSIBILITY",
+      "x": 100,
+      "y": 1050,
+      "w": 880,
+      "h": 250,
+      "focal": false,
+      "on": 1.34,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    }
+  ],
+  "relation": "Preview limitations",
+  "source_quote": "If you want to set up operational monitoring, the logical conditions you can set are currently quite primitive. The documentation notes that it struggles with combined and conditions and it struggles with aggregations. So I can't build a monitor that says alert me of the temperature drops and the store is priority and the total aggregated revenue is over $10 ,000. In the current preview, stringing complex, multi -variable logic like that into a passive monitor is highly problematic and likely to fail. You have to keep the monitoring conditions very simple and isolated. Furthermore, the operational agent operates on a fixed five -minute cycle. It is not sub -second real time. It only checks the condition every five minutes.",
+  "why": "Show separate responsibilities; no implied automatic execution.",
+  "alternative": "Authentic tenant UI would be preferable for proving an executed product action; this clip is a concept illustration.",
+  "visual_review": "Draft, not human approved. Generated symbols corrected in editable reconstruction.",
+  "source_reference": "reference-library/frames/graphic/0003510.jpg",
+  "motion": "independent card alpha reveal + 16px eased settling, timed to recording keywords; fixed grid and presenter rail"
+}

@@ -1,0 +1,5 @@
+When the analyst is the only recipe
+Original recording 06:47–07:23
+ASR draft; technical-name spelling normalized.
+
+A human analyst has to listen to the business question like, which stores are at risk and then mentally translate that subjective human anxiety into a series of complex database joins? They have to know all the quirks of the system. Exactly. They have to know that the warehouse table uses an underscore in the column name while the sales table uses camel case. They have to know which filters to apply and which departmental definition to enforce. The obvious vulnerability there that if that specific human goes on vacation or you know quits. The institutional knowledge of how to ask the database a question just walks right out the door with them.

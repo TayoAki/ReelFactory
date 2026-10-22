@@ -1,0 +1,1002 @@
+{
+  "id": "C46",
+  "title": "MCP integration needs supported authentication",
+  "source_start": 3041.98068,
+  "source_end": 3098.70068,
+  "duration": 56.7199999999998,
+  "part_ranges": [
+    {
+      "part": "part04.m4a",
+      "start": 41.80000000000018,
+      "end": 98.51999999999998
+    }
+  ],
+  "family": "boundary",
+  "left_label": "Compatible client",
+  "right_label": "Ontology endpoint",
+  "focus_label": "Check current authentication limits",
+  "example_kind": "preview service-principal known issue",
+  "words": [
+    {
+      "word": "MCP",
+      "start": 0.06000000000000005,
+      "end": 0.54,
+      "probability": 0.9140928685665131
+    },
+    {
+      "word": "stands",
+      "start": 0.54,
+      "end": 1.04,
+      "probability": 0.9924923777580261
+    },
+    {
+      "word": "for",
+      "start": 1.04,
+      "end": 1.2999999999999998,
+      "probability": 0.9992145299911499
+    },
+    {
+      "word": "Model",
+      "start": 1.2999999999999998,
+      "end": 1.62,
+      "probability": 0.702937662601471
+    },
+    {
+      "word": "Context",
+      "start": 1.62,
+      "end": 2.12,
+      "probability": 0.7739047408103943
+    },
+    {
+      "word": "Protocol.",
+      "start": 2.12,
+      "end": 2.46,
+      "probability": 0.9868260025978088
+    },
+    {
+      "word": "Fabric",
+      "start": 3.42,
+      "end": 3.6399999999999997,
+      "probability": 0.8877639770507812
+    },
+    {
+      "word": "provides",
+      "start": 3.6399999999999997,
+      "end": 4.04,
+      "probability": 0.997869610786438
+    },
+    {
+      "word": "an",
+      "start": 4.04,
+      "end": 4.22,
+      "probability": 0.9941406846046448
+    },
+    {
+      "word": "API",
+      "start": 4.22,
+      "end": 4.46,
+      "probability": 0.9867447018623352
+    },
+    {
+      "word": "endpoint,",
+      "start": 4.46,
+      "end": 4.84,
+      "probability": 0.932921826839447
+    },
+    {
+      "word": "so",
+      "start": 5.32,
+      "end": 5.38,
+      "probability": 0.9977027773857117
+    },
+    {
+      "word": "enterprise",
+      "start": 5.38,
+      "end": 5.74,
+      "probability": 0.853831946849823
+    },
+    {
+      "word": "developers",
+      "start": 5.74,
+      "end": 6.18,
+      "probability": 0.9994654059410095
+    },
+    {
+      "word": "can",
+      "start": 6.18,
+      "end": 6.619999999999999,
+      "probability": 0.9944356679916382
+    },
+    {
+      "word": "connect",
+      "start": 6.619999999999999,
+      "end": 6.859999999999999,
+      "probability": 0.9980138540267944
+    },
+    {
+      "word": "their",
+      "start": 6.859999999999999,
+      "end": 7.039999999999999,
+      "probability": 0.9983199238777161
+    },
+    {
+      "word": "own",
+      "start": 7.039999999999999,
+      "end": 7.32,
+      "probability": 0.9998040795326233
+    },
+    {
+      "word": "compatible",
+      "start": 7.32,
+      "end": 7.859999999999999,
+      "probability": 0.988135576248169
+    },
+    {
+      "word": "external",
+      "start": 7.859999999999999,
+      "end": 8.46,
+      "probability": 0.9753865599632263
+    },
+    {
+      "word": "AI",
+      "start": 8.46,
+      "end": 8.82,
+      "probability": 0.9763689041137695
+    },
+    {
+      "word": "clients",
+      "start": 8.82,
+      "end": 9.3,
+      "probability": 0.9884093999862671
+    },
+    {
+      "word": "or",
+      "start": 9.3,
+      "end": 9.54,
+      "probability": 0.9269500970840454
+    },
+    {
+      "word": "custom",
+      "start": 9.54,
+      "end": 9.78,
+      "probability": 0.9927852153778076
+    },
+    {
+      "word": "applications",
+      "start": 9.78,
+      "end": 10.24,
+      "probability": 0.9952598214149475
+    },
+    {
+      "word": "to",
+      "start": 10.24,
+      "end": 10.6,
+      "probability": 0.9975906610488892
+    },
+    {
+      "word": "the",
+      "start": 10.6,
+      "end": 10.7,
+      "probability": 0.9951363205909729
+    },
+    {
+      "word": "ontology.",
+      "start": 10.7,
+      "end": 11.14,
+      "probability": 0.9317737519741058
+    },
+    {
+      "word": "It",
+      "start": 11.44,
+      "end": 11.5,
+      "probability": 0.29500386118888855
+    },
+    {
+      "word": "tells",
+      "start": 11.5,
+      "end": 11.62,
+      "probability": 0.8336548209190369
+    },
+    {
+      "word": "useful.",
+      "start": 11.62,
+      "end": 11.84,
+      "probability": 0.7117090225219727
+    },
+    {
+      "word": "However,",
+      "start": 12.46,
+      "end": 12.62,
+      "probability": 0.9831029176712036
+    },
+    {
+      "word": "the",
+      "start": 12.68,
+      "end": 12.9,
+      "probability": 0.9947340488433838
+    },
+    {
+      "word": "current",
+      "start": 12.9,
+      "end": 13.16,
+      "probability": 0.9840978980064392
+    },
+    {
+      "word": "guidance",
+      "start": 13.16,
+      "end": 13.36,
+      "probability": 0.9398981332778931
+    },
+    {
+      "word": "notes",
+      "start": 13.36,
+      "end": 13.72,
+      "probability": 0.9882606267929077
+    },
+    {
+      "word": "a",
+      "start": 13.72,
+      "end": 14.0,
+      "probability": 0.9641969799995422
+    },
+    {
+      "word": "severe",
+      "start": 14.0,
+      "end": 14.239999999999998,
+      "probability": 0.9963739514350891
+    },
+    {
+      "word": "limitation.",
+      "start": 14.239999999999998,
+      "end": 14.579999999999998,
+      "probability": 0.9990298748016357
+    },
+    {
+      "word": "Service",
+      "start": 15.5,
+      "end": 15.7,
+      "probability": 0.9278987050056458
+    },
+    {
+      "word": "principal",
+      "start": 15.7,
+      "end": 16.12,
+      "probability": 0.3436802327632904
+    },
+    {
+      "word": "access",
+      "start": 16.12,
+      "end": 16.4,
+      "probability": 0.9862741827964783
+    },
+    {
+      "word": "is",
+      "start": 16.4,
+      "end": 16.9,
+      "probability": 0.9972987771034241
+    },
+    {
+      "word": "currently",
+      "start": 16.9,
+      "end": 17.28,
+      "probability": 0.9994124174118042
+    },
+    {
+      "word": "unavailable",
+      "start": 17.28,
+      "end": 17.68,
+      "probability": 0.99442458152771
+    },
+    {
+      "word": "for",
+      "start": 17.68,
+      "end": 18.12,
+      "probability": 0.9966070652008057
+    },
+    {
+      "word": "this",
+      "start": 18.12,
+      "end": 18.28,
+      "probability": 0.9987741112709045
+    },
+    {
+      "word": "endpoint.",
+      "start": 18.28,
+      "end": 18.56,
+      "probability": 0.9726267457008362
+    },
+    {
+      "word": "Explain",
+      "start": 19.18,
+      "end": 19.3,
+      "probability": 0.9880550503730774
+    },
+    {
+      "word": "that",
+      "start": 19.3,
+      "end": 19.6,
+      "probability": 0.9988844990730286
+    },
+    {
+      "word": "for",
+      "start": 19.6,
+      "end": 19.76,
+      "probability": 0.9925906658172607
+    },
+    {
+      "word": "the",
+      "start": 19.76,
+      "end": 19.88,
+      "probability": 0.998584508895874
+    },
+    {
+      "word": "non",
+      "start": 19.88,
+      "end": 20.1,
+      "probability": 0.941310703754425
+    },
+    {
+      "word": "-developers.",
+      "start": 20.12,
+      "end": 20.759999999999998,
+      "probability": 0.9135977427164713
+    },
+    {
+      "word": "What",
+      "start": 21.32,
+      "end": 21.5,
+      "probability": 0.9904130101203918
+    },
+    {
+      "word": "is",
+      "start": 21.5,
+      "end": 21.62,
+      "probability": 0.9957222938537598
+    },
+    {
+      "word": "a",
+      "start": 21.62,
+      "end": 21.72,
+      "probability": 0.9340862035751343
+    },
+    {
+      "word": "service",
+      "start": 21.72,
+      "end": 21.88,
+      "probability": 0.9628981351852417
+    },
+    {
+      "word": "principal?",
+      "start": 21.88,
+      "end": 22.38,
+      "probability": 0.771131694316864
+    },
+    {
+      "word": "A",
+      "start": 22.759999999999998,
+      "end": 22.9,
+      "probability": 0.9585263729095459
+    },
+    {
+      "word": "service",
+      "start": 22.9,
+      "end": 23.14,
+      "probability": 0.9931372404098511
+    },
+    {
+      "word": "principal",
+      "start": 23.14,
+      "end": 23.6,
+      "probability": 0.9228973388671875
+    },
+    {
+      "word": "is",
+      "start": 23.6,
+      "end": 23.740000000000002,
+      "probability": 0.9902841448783875
+    },
+    {
+      "word": "basically",
+      "start": 23.740000000000002,
+      "end": 24.1,
+      "probability": 0.9944285154342651
+    },
+    {
+      "word": "a",
+      "start": 24.1,
+      "end": 24.56,
+      "probability": 0.9204999208450317
+    },
+    {
+      "word": "machine",
+      "start": 24.56,
+      "end": 25.02,
+      "probability": 0.9949199557304382
+    },
+    {
+      "word": "identity.",
+      "start": 25.02,
+      "end": 25.66,
+      "probability": 0.9882000684738159
+    },
+    {
+      "word": "It's",
+      "start": 26.119999999999997,
+      "end": 26.3,
+      "probability": 0.9890830516815186
+    },
+    {
+      "word": "a",
+      "start": 26.3,
+      "end": 26.380000000000003,
+      "probability": 0.9949710369110107
+    },
+    {
+      "word": "non",
+      "start": 26.380000000000003,
+      "end": 26.7,
+      "probability": 0.9873201847076416
+    },
+    {
+      "word": "-human",
+      "start": 26.7,
+      "end": 27.119999999999997,
+      "probability": 0.93743035197258
+    },
+    {
+      "word": "service",
+      "start": 27.119999999999997,
+      "end": 27.5,
+      "probability": 0.9811604619026184
+    },
+    {
+      "word": "account",
+      "start": 27.5,
+      "end": 27.9,
+      "probability": 0.9966236352920532
+    },
+    {
+      "word": "you",
+      "start": 27.9,
+      "end": 28.119999999999997,
+      "probability": 0.9529660940170288
+    },
+    {
+      "word": "use,",
+      "start": 28.119999999999997,
+      "end": 28.380000000000003,
+      "probability": 0.9924513697624207
+    },
+    {
+      "word": "so",
+      "start": 28.380000000000003,
+      "end": 28.66,
+      "probability": 0.9830623865127563
+    },
+    {
+      "word": "a",
+      "start": 28.66,
+      "end": 28.78,
+      "probability": 0.9862587451934814
+    },
+    {
+      "word": "backend",
+      "start": 28.78,
+      "end": 28.98,
+      "probability": 0.555667519569397
+    },
+    {
+      "word": "server",
+      "start": 28.98,
+      "end": 29.380000000000003,
+      "probability": 0.9880954027175903
+    },
+    {
+      "word": "or",
+      "start": 29.380000000000003,
+      "end": 29.92,
+      "probability": 0.9167979955673218
+    },
+    {
+      "word": "an",
+      "start": 29.92,
+      "end": 30.08,
+      "probability": 0.9612707495689392
+    },
+    {
+      "word": "automated",
+      "start": 30.08,
+      "end": 30.54,
+      "probability": 0.9992176294326782
+    },
+    {
+      "word": "script",
+      "start": 30.54,
+      "end": 30.880000000000003,
+      "probability": 0.9943647384643555
+    },
+    {
+      "word": "can",
+      "start": 30.880000000000003,
+      "end": 31.54,
+      "probability": 0.875076174736023
+    },
+    {
+      "word": "talk",
+      "start": 31.54,
+      "end": 31.759999999999998,
+      "probability": 0.9986363053321838
+    },
+    {
+      "word": "to",
+      "start": 31.759999999999998,
+      "end": 31.9,
+      "probability": 0.9982432126998901
+    },
+    {
+      "word": "an",
+      "start": 31.9,
+      "end": 32.019999999999996,
+      "probability": 0.9935640692710876
+    },
+    {
+      "word": "API",
+      "start": 32.019999999999996,
+      "end": 32.24,
+      "probability": 0.9836084246635437
+    },
+    {
+      "word": "securely",
+      "start": 32.24,
+      "end": 32.74,
+      "probability": 0.9890981912612915
+    },
+    {
+      "word": "without",
+      "start": 32.74,
+      "end": 33.26,
+      "probability": 0.940382719039917
+    },
+    {
+      "word": "needing",
+      "start": 33.26,
+      "end": 33.54,
+      "probability": 0.9996284246444702
+    },
+    {
+      "word": "a",
+      "start": 33.54,
+      "end": 33.68,
+      "probability": 0.9968326687812805
+    },
+    {
+      "word": "human",
+      "start": 33.68,
+      "end": 33.88,
+      "probability": 0.9974437952041626
+    },
+    {
+      "word": "being",
+      "start": 33.88,
+      "end": 34.08,
+      "probability": 0.9891188144683838
+    },
+    {
+      "word": "to",
+      "start": 34.08,
+      "end": 34.3,
+      "probability": 0.99131178855896
+    },
+    {
+      "word": "physically",
+      "start": 34.3,
+      "end": 34.58,
+      "probability": 0.9969329833984375
+    },
+    {
+      "word": "type",
+      "start": 34.58,
+      "end": 35.36,
+      "probability": 0.9957887530326843
+    },
+    {
+      "word": "in",
+      "start": 35.36,
+      "end": 35.6,
+      "probability": 0.9947230815887451
+    },
+    {
+      "word": "a",
+      "start": 35.6,
+      "end": 35.68,
+      "probability": 0.991782546043396
+    },
+    {
+      "word": "username",
+      "start": 35.68,
+      "end": 35.980000000000004,
+      "probability": 0.8219382166862488
+    },
+    {
+      "word": "and",
+      "start": 35.980000000000004,
+      "end": 36.22,
+      "probability": 0.9969546794891357
+    },
+    {
+      "word": "password.",
+      "start": 36.22,
+      "end": 36.54,
+      "probability": 0.9997263550758362
+    },
+    {
+      "word": "Oh,",
+      "start": 37.16,
+      "end": 37.56,
+      "probability": 0.8378397822380066
+    },
+    {
+      "word": "so",
+      "start": 37.56,
+      "end": 37.7,
+      "probability": 0.9924537539482117
+    },
+    {
+      "word": "you",
+      "start": 37.7,
+      "end": 37.8,
+      "probability": 0.9869787693023682
+    },
+    {
+      "word": "can",
+      "start": 37.8,
+      "end": 37.9,
+      "probability": 0.9987493753433228
+    },
+    {
+      "word": "automate",
+      "start": 37.9,
+      "end": 38.120000000000005,
+      "probability": 0.9934406876564026
+    },
+    {
+      "word": "it?",
+      "start": 38.120000000000005,
+      "end": 38.32,
+      "probability": 0.9901601672172546
+    },
+    {
+      "word": "Right.",
+      "start": 38.5,
+      "end": 38.78,
+      "probability": 0.9912093877792358
+    },
+    {
+      "word": "But",
+      "start": 39.4,
+      "end": 39.54,
+      "probability": 0.9856232404708862
+    },
+    {
+      "word": "because",
+      "start": 39.54,
+      "end": 39.760000000000005,
+      "probability": 0.9850409626960754
+    },
+    {
+      "word": "service",
+      "start": 39.760000000000005,
+      "end": 40.16,
+      "probability": 0.8703286647796631
+    },
+    {
+      "word": "principal",
+      "start": 40.12,
+      "end": 40.6,
+      "probability": 0.519049882888794
+    },
+    {
+      "word": "access",
+      "start": 40.6,
+      "end": 40.82,
+      "probability": 0.9735448956489563
+    },
+    {
+      "word": "is",
+      "start": 40.82,
+      "end": 41.12,
+      "probability": 0.9796603322029114
+    },
+    {
+      "word": "missing",
+      "start": 41.12,
+      "end": 41.4,
+      "probability": 0.9993457198143005
+    },
+    {
+      "word": "in",
+      "start": 41.4,
+      "end": 41.74,
+      "probability": 0.9672756195068359
+    },
+    {
+      "word": "this",
+      "start": 41.74,
+      "end": 41.86,
+      "probability": 0.9985349178314209
+    },
+    {
+      "word": "preview,",
+      "start": 41.86,
+      "end": 42.12,
+      "probability": 0.9964667558670044
+    },
+    {
+      "word": "you",
+      "start": 42.16,
+      "end": 42.480000000000004,
+      "probability": 0.9966700673103333
+    },
+    {
+      "word": "currently",
+      "start": 42.480000000000004,
+      "end": 42.76,
+      "probability": 0.9983596205711365
+    },
+    {
+      "word": "have",
+      "start": 42.76,
+      "end": 43.04,
+      "probability": 0.9991018772125244
+    },
+    {
+      "word": "to",
+      "start": 43.04,
+      "end": 43.16,
+      "probability": 0.9997579455375671
+    },
+    {
+      "word": "authenticate",
+      "start": 43.16,
+      "end": 43.72,
+      "probability": 0.9984415173530579
+    },
+    {
+      "word": "as",
+      "start": 43.72,
+      "end": 44.08,
+      "probability": 0.9932358860969543
+    },
+    {
+      "word": "a",
+      "start": 44.08,
+      "end": 44.28,
+      "probability": 0.9983205199241638
+    },
+    {
+      "word": "real",
+      "start": 44.28,
+      "end": 44.54,
+      "probability": 0.9966269731521606
+    },
+    {
+      "word": "human",
+      "start": 44.54,
+      "end": 45.019999999999996,
+      "probability": 0.9901700615882874
+    },
+    {
+      "word": "user.",
+      "start": 45.019999999999996,
+      "end": 45.36,
+      "probability": 0.998501181602478
+    },
+    {
+      "word": "You",
+      "start": 45.74,
+      "end": 46.22,
+      "probability": 0.9964073300361633
+    },
+    {
+      "word": "cannot",
+      "start": 46.22,
+      "end": 46.36,
+      "probability": 0.9446989297866821
+    },
+    {
+      "word": "easily",
+      "start": 46.36,
+      "end": 46.72,
+      "probability": 0.9975868463516235
+    },
+    {
+      "word": "set",
+      "start": 46.72,
+      "end": 47.12,
+      "probability": 0.9671507477760315
+    },
+    {
+      "word": "up",
+      "start": 47.12,
+      "end": 47.22,
+      "probability": 0.9986955523490906
+    },
+    {
+      "word": "a",
+      "start": 47.22,
+      "end": 47.28,
+      "probability": 0.9943075776100159
+    },
+    {
+      "word": "fully",
+      "start": 47.28,
+      "end": 47.519999999999996,
+      "probability": 0.9991587400436401
+    },
+    {
+      "word": "automated",
+      "start": 47.519999999999996,
+      "end": 48.12,
+      "probability": 0.9975357055664062
+    },
+    {
+      "word": "unattended",
+      "start": 48.12,
+      "end": 49.1,
+      "probability": 0.630659207701683
+    },
+    {
+      "word": "machine",
+      "start": 49.1,
+      "end": 49.519999999999996,
+      "probability": 0.874534547328949
+    },
+    {
+      "word": "to",
+      "start": 49.519999999999996,
+      "end": 49.86,
+      "probability": 0.787960946559906
+    },
+    {
+      "word": "machine",
+      "start": 49.86,
+      "end": 50.12,
+      "probability": 0.9960533380508423
+    },
+    {
+      "word": "integration.",
+      "start": 50.12,
+      "end": 50.62,
+      "probability": 0.9979097247123718
+    },
+    {
+      "word": "That",
+      "start": 51.28,
+      "end": 51.4,
+      "probability": 0.9938942790031433
+    },
+    {
+      "word": "drastically",
+      "start": 51.4,
+      "end": 51.64,
+      "probability": 0.9942542910575867
+    },
+    {
+      "word": "limits",
+      "start": 51.64,
+      "end": 52.16,
+      "probability": 0.9982062578201294
+    },
+    {
+      "word": "how",
+      "start": 52.16,
+      "end": 52.36,
+      "probability": 0.9973766803741455
+    },
+    {
+      "word": "you",
+      "start": 52.36,
+      "end": 52.5,
+      "probability": 0.9990990161895752
+    },
+    {
+      "word": "can",
+      "start": 52.5,
+      "end": 52.62,
+      "probability": 0.9992179870605469
+    },
+    {
+      "word": "integrate",
+      "start": 52.62,
+      "end": 52.92,
+      "probability": 0.9991635084152222
+    },
+    {
+      "word": "this",
+      "start": 52.92,
+      "end": 53.14,
+      "probability": 0.9975192546844482
+    },
+    {
+      "word": "ontology",
+      "start": 53.14,
+      "end": 53.58,
+      "probability": 0.9276100099086761
+    },
+    {
+      "word": "into",
+      "start": 53.58,
+      "end": 53.96,
+      "probability": 0.9945132732391357
+    },
+    {
+      "word": "automated",
+      "start": 53.96,
+      "end": 54.480000000000004,
+      "probability": 0.9958136677742004
+    },
+    {
+      "word": "backend",
+      "start": 54.480000000000004,
+      "end": 54.94,
+      "probability": 0.5496522188186646
+    },
+    {
+      "word": "enterprise",
+      "start": 54.94,
+      "end": 55.66,
+      "probability": 0.9792459011077881
+    },
+    {
+      "word": "systems",
+      "start": 55.66,
+      "end": 56.1,
+      "probability": 0.998150646686554
+    },
+    {
+      "word": "right",
+      "start": 56.1,
+      "end": 56.36,
+      "probability": 0.9377321600914001
+    },
+    {
+      "word": "now.",
+      "start": 56.36,
+      "end": 56.58,
+      "probability": 0.9885621070861816
+    }
+  ],
+  "transcript_asr": "MCP stands for Model Context Protocol. Fabric provides an API endpoint, so enterprise developers can connect their own compatible external AI clients or custom applications to the ontology. It tells useful. However, the current guidance notes a severe limitation. Service principal access is currently unavailable for this endpoint. Explain that for the non -developers. What is a service principal? A service principal is basically a machine identity. It's a non -human service account you use, so a backend server or an automated script can talk to an API securely without needing a human being to physically type in a username and password. Oh, so you can automate it? Right. But because service principal access is missing in this preview, you currently have to authenticate as a real human user. You cannot easily set up a fully automated unattended machine to machine integration. That drastically limits how you can integrate this ontology into automated backend enterprise systems right now.",
+  "source_kind": "actual uploaded recording; continuous audio excerpt",
+  "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "status": "planned",
+  "publish_status": "draft for review",
+  "narration_replaced": false,
+  "actual_timestamps": true,
+  "context_label": "Preview context \u00b7 Oct 2026",
+  "review_flags": [],
+  "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
+  "caption_corrections": [
+    {
+      "from": "principle",
+      "to": "principal",
+      "reason": "service principal spelling"
+    },
+    {
+      "from": "principle?",
+      "to": "principal?",
+      "reason": "service principal spelling"
+    },
+    {
+      "from": "principle",
+      "to": "principal",
+      "reason": "service principal spelling"
+    },
+    {
+      "from": "principle",
+      "to": "principal",
+      "reason": "service principal spelling"
+    }
+  ],
+  "caption_join_review": []
+}

@@ -1,0 +1,5 @@
+Which shipment date means arrival
+Original recording 04:15–05:08
+ASR draft; technical-name spelling normalized.
+
+Or consider something as ubiquitous as a shipment record. Okay. If you look at a standard supply chain database, a single shipment record might contain half a dozen different date fields. Oh yeah, order date, ship date, all of that. Right. You have the original order date, the warehouse processing date, the physical ship date, the initial estimated arrival date, the revised arrival date based on, say, weather delays, and the actual docked date. That is a lot of dates. So if an executive asks a standard AI chatbot, hey, when is the inventory arriving? How does the language model know which of those six columns to pull? Usually it just guesses, right? Or it hallucinates. Historically, a human data engineer has had to explicitly write SQL queries to tell the reporting system which of those fields represents the actual expected arrival that the store manager cares about today,

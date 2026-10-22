@@ -1,0 +1,801 @@
+{
+  "id": "C29",
+  "title": "Different sources serve different workloads",
+  "source_start": 1655.42195,
+  "source_end": 1703.72195,
+  "duration": 48.30000000000018,
+  "part_ranges": [
+    {
+      "part": "part02.m4a",
+      "start": 155.31999999999994,
+      "end": 203.62000000000012
+    }
+  ],
+  "family": "workflow",
+  "left_label": "Lakehouse records",
+  "right_label": "Eventhouse telemetry",
+  "focus_label": "Semantic-model measures",
+  "example_kind": "documented source routes",
+  "words": [
+    {
+      "word": "When",
+      "start": 0.08000000000000007,
+      "end": 0.3999999999999999,
+      "probability": 0.5095514059066772
+    },
+    {
+      "word": "a",
+      "start": 0.3999999999999999,
+      "end": 0.48,
+      "probability": 0.9876148700714111
+    },
+    {
+      "word": "data",
+      "start": 0.48,
+      "end": 0.5800000000000001,
+      "probability": 0.9230964183807373
+    },
+    {
+      "word": "engineer",
+      "start": 0.5800000000000001,
+      "end": 0.98,
+      "probability": 0.9897589683532715
+    },
+    {
+      "word": "sets",
+      "start": 0.98,
+      "end": 1.2999999999999998,
+      "probability": 0.997441291809082
+    },
+    {
+      "word": "up",
+      "start": 1.2999999999999998,
+      "end": 1.54,
+      "probability": 0.9991900324821472
+    },
+    {
+      "word": "these",
+      "start": 1.54,
+      "end": 1.7000000000000002,
+      "probability": 0.9936362504959106
+    },
+    {
+      "word": "bindings,",
+      "start": 1.7000000000000002,
+      "end": 2.04,
+      "probability": 0.997550904750824
+    },
+    {
+      "word": "what",
+      "start": 2.58,
+      "end": 2.74,
+      "probability": 0.9946306943893433
+    },
+    {
+      "word": "kind",
+      "start": 2.74,
+      "end": 2.92,
+      "probability": 0.973712146282196
+    },
+    {
+      "word": "of",
+      "start": 2.92,
+      "end": 3.0199999999999996,
+      "probability": 0.9985975623130798
+    },
+    {
+      "word": "systems",
+      "start": 3.0199999999999996,
+      "end": 3.26,
+      "probability": 0.9979348182678223
+    },
+    {
+      "word": "are",
+      "start": 3.26,
+      "end": 3.5599999999999996,
+      "probability": 0.9945726990699768
+    },
+    {
+      "word": "they",
+      "start": 3.5599999999999996,
+      "end": 3.7199999999999998,
+      "probability": 0.9952097535133362
+    },
+    {
+      "word": "actually",
+      "start": 3.7199999999999998,
+      "end": 4.08,
+      "probability": 0.9958218336105347
+    },
+    {
+      "word": "reaching",
+      "start": 4.08,
+      "end": 4.42,
+      "probability": 0.9977889060974121
+    },
+    {
+      "word": "into?",
+      "start": 4.42,
+      "end": 4.76,
+      "probability": 0.990813672542572
+    },
+    {
+      "word": "According",
+      "start": 5.2,
+      "end": 5.58,
+      "probability": 0.9362980723381042
+    },
+    {
+      "word": "to",
+      "start": 5.58,
+      "end": 5.8,
+      "probability": 0.998619556427002
+    },
+    {
+      "word": "the",
+      "start": 5.8,
+      "end": 5.88,
+      "probability": 0.9957939386367798
+    },
+    {
+      "word": "source",
+      "start": 5.88,
+      "end": 6.039999999999999,
+      "probability": 0.9852686524391174
+    },
+    {
+      "word": "documentation,",
+      "start": 6.039999999999999,
+      "end": 6.42,
+      "probability": 0.9980435371398926
+    },
+    {
+      "word": "the",
+      "start": 6.74,
+      "end": 7.26,
+      "probability": 0.9980564117431641
+    },
+    {
+      "word": "bindings",
+      "start": 7.26,
+      "end": 7.68,
+      "probability": 0.9956283569335938
+    },
+    {
+      "word": "and",
+      "start": 7.68,
+      "end": 7.98,
+      "probability": 0.934710681438446
+    },
+    {
+      "word": "Fabric",
+      "start": 7.98,
+      "end": 8.3,
+      "probability": 0.9915168285369873
+    },
+    {
+      "word": "ontologies",
+      "start": 8.3,
+      "end": 8.86,
+      "probability": 0.9945054948329926
+    },
+    {
+      "word": "can",
+      "start": 8.86,
+      "end": 9.28,
+      "probability": 0.9946150183677673
+    },
+    {
+      "word": "point",
+      "start": 9.28,
+      "end": 9.54,
+      "probability": 0.9994199275970459
+    },
+    {
+      "word": "to",
+      "start": 9.54,
+      "end": 9.72,
+      "probability": 0.9989198446273804
+    },
+    {
+      "word": "a",
+      "start": 9.72,
+      "end": 9.8,
+      "probability": 0.9980243444442749
+    },
+    {
+      "word": "surprisingly",
+      "start": 9.8,
+      "end": 10.18,
+      "probability": 0.9963269829750061
+    },
+    {
+      "word": "wide",
+      "start": 10.18,
+      "end": 10.72,
+      "probability": 0.9970430731773376
+    },
+    {
+      "word": "variety",
+      "start": 10.72,
+      "end": 11.2,
+      "probability": 0.9984388947486877
+    },
+    {
+      "word": "of",
+      "start": 11.2,
+      "end": 11.34,
+      "probability": 0.999036431312561
+    },
+    {
+      "word": "data",
+      "start": 11.34,
+      "end": 11.48,
+      "probability": 0.9985597729682922
+    },
+    {
+      "word": "architectures.",
+      "start": 11.48,
+      "end": 11.94,
+      "probability": 0.9954575300216675
+    },
+    {
+      "word": "Like",
+      "start": 12.46,
+      "end": 12.52,
+      "probability": 0.7247689366340637
+    },
+    {
+      "word": "what?",
+      "start": 12.52,
+      "end": 12.66,
+      "probability": 0.9695383906364441
+    },
+    {
+      "word": "You",
+      "start": 12.98,
+      "end": 13.22,
+      "probability": 0.9945900440216064
+    },
+    {
+      "word": "can",
+      "start": 13.22,
+      "end": 13.36,
+      "probability": 0.7749582529067993
+    },
+    {
+      "word": "bind",
+      "start": 13.36,
+      "end": 13.54,
+      "probability": 0.9799482822418213
+    },
+    {
+      "word": "to",
+      "start": 13.54,
+      "end": 13.8,
+      "probability": 0.9988104104995728
+    },
+    {
+      "word": "lake",
+      "start": 13.8,
+      "end": 13.98,
+      "probability": 0.7708926796913147
+    },
+    {
+      "word": "houses,",
+      "start": 13.98,
+      "end": 14.239999999999998,
+      "probability": 0.5811605453491211
+    },
+    {
+      "word": "which",
+      "start": 14.599999999999998,
+      "end": 14.899999999999999,
+      "probability": 0.9991569519042969
+    },
+    {
+      "word": "are",
+      "start": 14.899999999999999,
+      "end": 15.079999999999998,
+      "probability": 0.9982208609580994
+    },
+    {
+      "word": "typically",
+      "start": 15.079999999999998,
+      "end": 15.379999999999999,
+      "probability": 0.9990867376327515
+    },
+    {
+      "word": "used",
+      "start": 15.379999999999999,
+      "end": 15.780000000000001,
+      "probability": 0.9983748197555542
+    },
+    {
+      "word": "to",
+      "start": 15.780000000000001,
+      "end": 15.940000000000001,
+      "probability": 0.9995660185813904
+    },
+    {
+      "word": "store",
+      "start": 15.940000000000001,
+      "end": 16.14,
+      "probability": 0.9985438585281372
+    },
+    {
+      "word": "massive",
+      "start": 16.14,
+      "end": 16.56,
+      "probability": 0.9912541508674622
+    },
+    {
+      "word": "amounts",
+      "start": 16.56,
+      "end": 16.98,
+      "probability": 0.9994518160820007
+    },
+    {
+      "word": "of",
+      "start": 16.98,
+      "end": 17.2,
+      "probability": 0.9995879530906677
+    },
+    {
+      "word": "operational",
+      "start": 17.2,
+      "end": 17.54,
+      "probability": 0.9986652135848999
+    },
+    {
+      "word": "reference",
+      "start": 17.54,
+      "end": 18.04,
+      "probability": 0.9764061570167542
+    },
+    {
+      "word": "data,",
+      "start": 18.04,
+      "end": 18.44,
+      "probability": 0.9993178844451904
+    },
+    {
+      "word": "historical",
+      "start": 19.2,
+      "end": 19.24,
+      "probability": 0.9978556036949158
+    },
+    {
+      "word": "inventory",
+      "start": 19.24,
+      "end": 19.62,
+      "probability": 0.9964780211448669
+    },
+    {
+      "word": "records,",
+      "start": 19.62,
+      "end": 20.2,
+      "probability": 0.9985097050666809
+    },
+    {
+      "word": "and",
+      "start": 20.240000000000002,
+      "end": 20.58,
+      "probability": 0.3375873267650604
+    },
+    {
+      "word": "shipment",
+      "start": 20.58,
+      "end": 20.82,
+      "probability": 0.9963358640670776
+    },
+    {
+      "word": "logs",
+      "start": 20.82,
+      "end": 21.18,
+      "probability": 0.9958154559135437
+    },
+    {
+      "word": "in",
+      "start": 21.18,
+      "end": 21.56,
+      "probability": 0.9751459360122681
+    },
+    {
+      "word": "open",
+      "start": 21.56,
+      "end": 21.84,
+      "probability": 0.9566571712493896
+    },
+    {
+      "word": "formats.",
+      "start": 21.84,
+      "end": 22.28,
+      "probability": 0.9471591711044312
+    },
+    {
+      "word": "OK.",
+      "start": 22.64,
+      "end": 22.9,
+      "probability": 0.15513668954372406
+    },
+    {
+      "word": "You",
+      "start": 23.259999999999998,
+      "end": 23.48,
+      "probability": 0.992497980594635
+    },
+    {
+      "word": "can",
+      "start": 23.48,
+      "end": 23.58,
+      "probability": 0.9241815209388733
+    },
+    {
+      "word": "bind",
+      "start": 23.58,
+      "end": 23.759999999999998,
+      "probability": 0.962096095085144
+    },
+    {
+      "word": "to",
+      "start": 23.759999999999998,
+      "end": 23.96,
+      "probability": 0.9928852915763855
+    },
+    {
+      "word": "event",
+      "start": 23.96,
+      "end": 24.12,
+      "probability": 0.9525928497314453
+    },
+    {
+      "word": "houses",
+      "start": 24.12,
+      "end": 24.48,
+      "probability": 0.9732027649879456
+    },
+    {
+      "word": "or",
+      "start": 24.48,
+      "end": 25.0,
+      "probability": 0.8741305470466614
+    },
+    {
+      "word": "KQL",
+      "start": 25.0,
+      "end": 25.52,
+      "probability": 0.8841875791549683
+    },
+    {
+      "word": "databases,",
+      "start": 25.52,
+      "end": 26.02,
+      "probability": 0.9931449890136719
+    },
+    {
+      "word": "which",
+      "start": 26.740000000000002,
+      "end": 26.96,
+      "probability": 0.999290943145752
+    },
+    {
+      "word": "are",
+      "start": 26.96,
+      "end": 27.14,
+      "probability": 0.9986912608146667
+    },
+    {
+      "word": "specifically",
+      "start": 27.14,
+      "end": 27.6,
+      "probability": 0.9973834156990051
+    },
+    {
+      "word": "architected",
+      "start": 27.6,
+      "end": 28.46,
+      "probability": 0.9888502061367035
+    },
+    {
+      "word": "to",
+      "start": 28.46,
+      "end": 28.58,
+      "probability": 0.9975066781044006
+    },
+    {
+      "word": "handle",
+      "start": 28.58,
+      "end": 28.78,
+      "probability": 0.9988089799880981
+    },
+    {
+      "word": "high",
+      "start": 28.78,
+      "end": 29.14,
+      "probability": 0.9961068034172058
+    },
+    {
+      "word": "volume",
+      "start": 29.14,
+      "end": 29.560000000000002,
+      "probability": 0.8107634782791138
+    },
+    {
+      "word": "real",
+      "start": 29.560000000000002,
+      "end": 29.84,
+      "probability": 0.7005046606063843
+    },
+    {
+      "word": "-time",
+      "start": 29.84,
+      "end": 30.18,
+      "probability": 0.7393068671226501
+    },
+    {
+      "word": "streaming",
+      "start": 30.18,
+      "end": 30.5,
+      "probability": 0.9825205206871033
+    },
+    {
+      "word": "telemetry.",
+      "start": 30.5,
+      "end": 31.1,
+      "probability": 0.9916144609451294
+    },
+    {
+      "word": "Streaming",
+      "start": 31.58,
+      "end": 31.9,
+      "probability": 0.809566080570221
+    },
+    {
+      "word": "like",
+      "start": 31.9,
+      "end": 32.34,
+      "probability": 0.882853090763092
+    },
+    {
+      "word": "IoT",
+      "start": 32.34,
+      "end": 32.92,
+      "probability": 0.7574998736381531
+    },
+    {
+      "word": "devices.",
+      "start": 32.92,
+      "end": 33.44,
+      "probability": 0.996917724609375
+    },
+    {
+      "word": "Exactly,",
+      "start": 34.019999999999996,
+      "end": 34.379999999999995,
+      "probability": 0.9969336986541748
+    },
+    {
+      "word": "like",
+      "start": 34.64,
+      "end": 34.9,
+      "probability": 0.9924962520599365
+    },
+    {
+      "word": "the",
+      "start": 34.9,
+      "end": 35.22,
+      "probability": 0.98252272605896
+    },
+    {
+      "word": "second",
+      "start": 35.22,
+      "end": 35.56,
+      "probability": 0.9834852814674377
+    },
+    {
+      "word": "-by",
+      "start": 35.56,
+      "end": 35.72,
+      "probability": 0.8665915727615356
+    },
+    {
+      "word": "-second",
+      "start": 35.72,
+      "end": 35.980000000000004,
+      "probability": 0.995196133852005
+    },
+    {
+      "word": "temperature",
+      "start": 35.980000000000004,
+      "end": 36.34,
+      "probability": 0.9326977729797363
+    },
+    {
+      "word": "readings",
+      "start": 36.34,
+      "end": 36.68,
+      "probability": 0.9915419816970825
+    },
+    {
+      "word": "from",
+      "start": 36.68,
+      "end": 36.96,
+      "probability": 0.9956121444702148
+    },
+    {
+      "word": "thousands",
+      "start": 36.96,
+      "end": 37.260000000000005,
+      "probability": 0.979004979133606
+    },
+    {
+      "word": "of",
+      "start": 37.260000000000005,
+      "end": 37.68,
+      "probability": 0.9994877576828003
+    },
+    {
+      "word": "refrigeration",
+      "start": 37.68,
+      "end": 38.260000000000005,
+      "probability": 0.9970835745334625
+    },
+    {
+      "word": "units.",
+      "start": 38.260000000000005,
+      "end": 38.5,
+      "probability": 0.9982436895370483
+    },
+    {
+      "word": "You",
+      "start": 39.019999999999996,
+      "end": 39.18,
+      "probability": 0.9984074234962463
+    },
+    {
+      "word": "can",
+      "start": 39.18,
+      "end": 39.28,
+      "probability": 0.9987070560455322
+    },
+    {
+      "word": "point",
+      "start": 39.28,
+      "end": 39.46,
+      "probability": 0.9980040192604065
+    },
+    {
+      "word": "to",
+      "start": 39.46,
+      "end": 39.620000000000005,
+      "probability": 0.9955800175666809
+    },
+    {
+      "word": "traditional",
+      "start": 39.620000000000005,
+      "end": 40.04,
+      "probability": 0.9964126944541931
+    },
+    {
+      "word": "relational",
+      "start": 40.06,
+      "end": 40.5,
+      "probability": 0.9608529806137085
+    },
+    {
+      "word": "data",
+      "start": 40.5,
+      "end": 40.9,
+      "probability": 0.9564902782440186
+    },
+    {
+      "word": "warehouses,",
+      "start": 40.9,
+      "end": 41.38,
+      "probability": 0.9904865622520447
+    },
+    {
+      "word": "standard",
+      "start": 41.88,
+      "end": 42.34,
+      "probability": 0.9439234733581543
+    },
+    {
+      "word": "SQL",
+      "start": 42.34,
+      "end": 42.64,
+      "probability": 0.9500964879989624
+    },
+    {
+      "word": "databases,",
+      "start": 42.64,
+      "end": 43.16,
+      "probability": 0.985283374786377
+    },
+    {
+      "word": "externally",
+      "start": 43.86,
+      "end": 44.36,
+      "probability": 0.9768280982971191
+    },
+    {
+      "word": "mirror",
+      "start": 44.36,
+      "end": 44.76,
+      "probability": 0.47478652000427246
+    },
+    {
+      "word": "databases,",
+      "start": 44.76,
+      "end": 45.18,
+      "probability": 0.9833504557609558
+    },
+    {
+      "word": "and",
+      "start": 45.64,
+      "end": 45.82,
+      "probability": 0.9874554872512817
+    },
+    {
+      "word": "as",
+      "start": 45.82,
+      "end": 46.1,
+      "probability": 0.7960346937179565
+    },
+    {
+      "word": "we",
+      "start": 46.1,
+      "end": 46.22,
+      "probability": 0.9950360655784607
+    },
+    {
+      "word": "discussed,",
+      "start": 46.22,
+      "end": 46.5,
+      "probability": 0.9847225546836853
+    },
+    {
+      "word": "power",
+      "start": 46.88,
+      "end": 47.16,
+      "probability": 0.5566335320472717
+    },
+    {
+      "word": "BI",
+      "start": 47.16,
+      "end": 47.42,
+      "probability": 0.9619916677474976
+    },
+    {
+      "word": "semantic",
+      "start": 47.42,
+      "end": 47.78,
+      "probability": 0.8293123245239258
+    },
+    {
+      "word": "models.",
+      "start": 47.78,
+      "end": 48.2,
+      "probability": 0.9951438903808594
+    }
+  ],
+  "transcript_asr": "When a data engineer sets up these bindings, what kind of systems are they actually reaching into? According to the source documentation, the bindings and Fabric ontologies can point to a surprisingly wide variety of data architectures. Like what? You can bind to lake houses, which are typically used to store massive amounts of operational reference data, historical inventory records, and shipment logs in open formats. OK. You can bind to event houses or KQL databases, which are specifically architected to handle high volume real -time streaming telemetry. Streaming like IoT devices. Exactly, like the second -by -second temperature readings from thousands of refrigeration units. You can point to traditional relational data warehouses, standard SQL databases, externally mirror databases, and as we discussed, power BI semantic models.",
+  "source_kind": "actual uploaded recording; continuous audio excerpt",
+  "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "status": "planned",
+  "publish_status": "draft for review",
+  "narration_replaced": false,
+  "actual_timestamps": true,
+  "context_label": "Original discussion excerpt",
+  "review_flags": [],
+  "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
+  "caption_corrections": [
+    {
+      "from": "fabric",
+      "to": "Fabric",
+      "reason": "technical-name orthography, not an audio change"
+    }
+  ],
+  "caption_join_review": []
+}

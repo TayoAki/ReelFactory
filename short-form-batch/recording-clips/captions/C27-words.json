@@ -1,0 +1,724 @@
+{
+  "id": "C27",
+  "title": "Business rules need explicit links",
+  "source_start": 1550.12195,
+  "source_end": 1592.08,
+  "duration": 41.95804999999996,
+  "part_ranges": [
+    {
+      "part": "part02.m4a",
+      "start": 50.01999999999998,
+      "end": 91.97804999999994
+    }
+  ],
+  "family": "boundary",
+  "left_label": "Inventory-risk definition",
+  "right_label": "Store + Inventory",
+  "focus_label": "Rule context",
+  "example_kind": "descriptive rule links",
+  "words": [
+    {
+      "word": "In",
+      "start": 0.03999999999994541,
+      "end": 0.2599999999999456,
+      "probability": 0.981605589389801
+    },
+    {
+      "word": "the",
+      "start": 0.2599999999999456,
+      "end": 0.37999999999994527,
+      "probability": 0.9972341656684875
+    },
+    {
+      "word": "ontology",
+      "start": 0.37999999999994527,
+      "end": 0.6999999999999456,
+      "probability": 0.9442272484302521
+    },
+    {
+      "word": "interface,",
+      "start": 0.6999999999999456,
+      "end": 1.1199999999999455,
+      "probability": 0.99131178855896
+    },
+    {
+      "word": "you",
+      "start": 1.1199999999999455,
+      "end": 1.4599999999999453,
+      "probability": 0.9987940788269043
+    },
+    {
+      "word": "can",
+      "start": 1.4599999999999453,
+      "end": 1.5799999999999454,
+      "probability": 0.9995461106300354
+    },
+    {
+      "word": "document",
+      "start": 1.5799999999999454,
+      "end": 2.119999999999945,
+      "probability": 0.9979947805404663
+    },
+    {
+      "word": "inventory",
+      "start": 2.119999999999945,
+      "end": 2.6399999999999455,
+      "probability": 0.9921465516090393
+    },
+    {
+      "word": "risk",
+      "start": 2.6399999999999455,
+      "end": 3.159999999999945,
+      "probability": 0.992228090763092
+    },
+    {
+      "word": "as",
+      "start": 3.159999999999945,
+      "end": 3.319999999999945,
+      "probability": 0.9906983971595764
+    },
+    {
+      "word": "a",
+      "start": 3.319999999999945,
+      "end": 3.4399999999999453,
+      "probability": 0.9986352324485779
+    },
+    {
+      "word": "specific",
+      "start": 3.4399999999999453,
+      "end": 4.059999999999945,
+      "probability": 0.9993730187416077
+    },
+    {
+      "word": "multivariable",
+      "start": 4.059999999999945,
+      "end": 5.1399999999999455,
+      "probability": 0.8045040170351664
+    },
+    {
+      "word": "condition.",
+      "start": 5.1399999999999455,
+      "end": 5.539999999999946,
+      "probability": 0.9992503523826599
+    },
+    {
+      "word": "You",
+      "start": 6.1399999999999455,
+      "end": 6.379999999999946,
+      "probability": 0.9960575103759766
+    },
+    {
+      "word": "write",
+      "start": 6.379999999999946,
+      "end": 6.559999999999945,
+      "probability": 0.9770632982254028
+    },
+    {
+      "word": "out",
+      "start": 6.559999999999945,
+      "end": 6.739999999999945,
+      "probability": 0.9965463280677795
+    },
+    {
+      "word": "that",
+      "start": 6.739999999999945,
+      "end": 6.919999999999945,
+      "probability": 0.9985139966011047
+    },
+    {
+      "word": "risk",
+      "start": 6.919999999999945,
+      "end": 7.199999999999946,
+      "probability": 0.9934322834014893
+    },
+    {
+      "word": "occurs",
+      "start": 7.199999999999946,
+      "end": 7.559999999999945,
+      "probability": 0.9989680051803589
+    },
+    {
+      "word": "when",
+      "start": 7.559999999999945,
+      "end": 7.919999999999945,
+      "probability": 0.9892436265945435
+    },
+    {
+      "word": "a",
+      "start": 7.919999999999945,
+      "end": 8.039999999999946,
+      "probability": 0.9988862872123718
+    },
+    {
+      "word": "product's",
+      "start": 8.039999999999946,
+      "end": 8.499999999999945,
+      "probability": 0.8530987501144409
+    },
+    {
+      "word": "position",
+      "start": 8.499999999999945,
+      "end": 8.839999999999945,
+      "probability": 0.998637855052948
+    },
+    {
+      "word": "is",
+      "start": 8.839999999999945,
+      "end": 9.039999999999946,
+      "probability": 0.9992913007736206
+    },
+    {
+      "word": "expected",
+      "start": 9.039999999999946,
+      "end": 9.399999999999945,
+      "probability": 0.9992875456809998
+    },
+    {
+      "word": "to",
+      "start": 9.399999999999945,
+      "end": 9.679999999999945,
+      "probability": 0.9992135763168335
+    },
+    {
+      "word": "fall",
+      "start": 9.679999999999945,
+      "end": 9.839999999999945,
+      "probability": 0.9962583780288696
+    },
+    {
+      "word": "below",
+      "start": 9.839999999999945,
+      "end": 10.119999999999946,
+      "probability": 0.9979559183120728
+    },
+    {
+      "word": "its",
+      "start": 10.119999999999946,
+      "end": 10.339999999999945,
+      "probability": 0.9701060652732849
+    },
+    {
+      "word": "required",
+      "start": 10.339999999999945,
+      "end": 10.699999999999946,
+      "probability": 0.9971100687980652
+    },
+    {
+      "word": "historical",
+      "start": 10.699999999999946,
+      "end": 11.159999999999945,
+      "probability": 0.9932884573936462
+    },
+    {
+      "word": "buffer",
+      "start": 11.159999999999945,
+      "end": 11.559999999999945,
+      "probability": 0.9982956051826477
+    },
+    {
+      "word": "before",
+      "start": 11.559999999999945,
+      "end": 12.379999999999946,
+      "probability": 0.8912104368209839
+    },
+    {
+      "word": "the",
+      "start": 12.379999999999946,
+      "end": 12.739999999999945,
+      "probability": 0.9983342289924622
+    },
+    {
+      "word": "next",
+      "start": 12.739999999999945,
+      "end": 12.879999999999946,
+      "probability": 0.9961764812469482
+    },
+    {
+      "word": "scheduled",
+      "start": 12.879999999999946,
+      "end": 13.199999999999946,
+      "probability": 0.9958429932594299
+    },
+    {
+      "word": "replenishment",
+      "start": 13.199999999999946,
+      "end": 13.819999999999945,
+      "probability": 0.9988119602203369
+    },
+    {
+      "word": "arrives.",
+      "start": 13.819999999999945,
+      "end": 14.099999999999945,
+      "probability": 0.9991846680641174
+    },
+    {
+      "word": "Okay,",
+      "start": 14.799999999999944,
+      "end": 15.119999999999944,
+      "probability": 0.7870234847068787
+    },
+    {
+      "word": "so",
+      "start": 15.119999999999944,
+      "end": 15.279999999999944,
+      "probability": 0.9947150349617004
+    },
+    {
+      "word": "you",
+      "start": 15.279999999999944,
+      "end": 15.399999999999945,
+      "probability": 0.9986703395843506
+    },
+    {
+      "word": "type",
+      "start": 15.399999999999945,
+      "end": 15.599999999999945,
+      "probability": 0.9918825030326843
+    },
+    {
+      "word": "out",
+      "start": 15.599999999999945,
+      "end": 15.779999999999944,
+      "probability": 0.9925227761268616
+    },
+    {
+      "word": "that",
+      "start": 15.779999999999944,
+      "end": 15.959999999999944,
+      "probability": 0.9986032843589783
+    },
+    {
+      "word": "logic",
+      "start": 15.959999999999944,
+      "end": 16.299999999999944,
+      "probability": 0.998561441898346
+    },
+    {
+      "word": "in",
+      "start": 16.299999999999944,
+      "end": 16.579999999999945,
+      "probability": 0.996841549873352
+    },
+    {
+      "word": "natural",
+      "start": 16.579999999999945,
+      "end": 16.859999999999946,
+      "probability": 0.9767436981201172
+    },
+    {
+      "word": "language.",
+      "start": 16.859999999999946,
+      "end": 17.299999999999944,
+      "probability": 0.9994530081748962
+    },
+    {
+      "word": "Then",
+      "start": 17.979999999999947,
+      "end": 18.539999999999946,
+      "probability": 0.9907429814338684
+    },
+    {
+      "word": "what",
+      "start": 18.539999999999946,
+      "end": 18.719999999999946,
+      "probability": 0.9701281785964966
+    },
+    {
+      "word": "happens?",
+      "start": 18.719999999999946,
+      "end": 18.979999999999947,
+      "probability": 0.9991348385810852
+    },
+    {
+      "word": "Does",
+      "start": 19.239999999999945,
+      "end": 19.259999999999945,
+      "probability": 0.986562192440033
+    },
+    {
+      "word": "the",
+      "start": 19.259999999999945,
+      "end": 19.439999999999944,
+      "probability": 0.998166561126709
+    },
+    {
+      "word": "AI",
+      "start": 19.439999999999944,
+      "end": 19.659999999999947,
+      "probability": 0.9513931274414062
+    },
+    {
+      "word": "just",
+      "start": 19.659999999999947,
+      "end": 20.019999999999946,
+      "probability": 0.9724206328392029
+    },
+    {
+      "word": "magically",
+      "start": 19.999999999999947,
+      "end": 20.539999999999946,
+      "probability": 0.9965623021125793
+    },
+    {
+      "word": "know",
+      "start": 20.539999999999946,
+      "end": 21.039999999999946,
+      "probability": 0.9904552102088928
+    },
+    {
+      "word": "how",
+      "start": 21.039999999999946,
+      "end": 21.239999999999945,
+      "probability": 0.9958090782165527
+    },
+    {
+      "word": "to",
+      "start": 21.239999999999945,
+      "end": 21.319999999999943,
+      "probability": 0.9995855689048767
+    },
+    {
+      "word": "execute",
+      "start": 21.319999999999943,
+      "end": 21.679999999999946,
+      "probability": 0.9992246627807617
+    },
+    {
+      "word": "that?",
+      "start": 21.679999999999946,
+      "end": 21.959999999999944,
+      "probability": 0.9906802773475647
+    },
+    {
+      "word": "No,",
+      "start": 22.359999999999946,
+      "end": 22.879999999999946,
+      "probability": 0.9209550023078918
+    },
+    {
+      "word": "writing",
+      "start": 23.139999999999944,
+      "end": 23.399999999999945,
+      "probability": 0.9789358377456665
+    },
+    {
+      "word": "it",
+      "start": 23.399999999999945,
+      "end": 23.639999999999944,
+      "probability": 0.9459630250930786
+    },
+    {
+      "word": "is",
+      "start": 23.639999999999944,
+      "end": 23.759999999999945,
+      "probability": 0.9572188854217529
+    },
+    {
+      "word": "just",
+      "start": 23.759999999999945,
+      "end": 23.919999999999945,
+      "probability": 0.9967436790466309
+    },
+    {
+      "word": "the",
+      "start": 23.919999999999945,
+      "end": 24.059999999999945,
+      "probability": 0.9990078806877136
+    },
+    {
+      "word": "first",
+      "start": 24.059999999999945,
+      "end": 24.239999999999945,
+      "probability": 0.9989792704582214
+    },
+    {
+      "word": "step.",
+      "start": 24.239999999999945,
+      "end": 24.499999999999947,
+      "probability": 0.9976636171340942
+    },
+    {
+      "word": "Then",
+      "start": 25.139999999999944,
+      "end": 25.439999999999944,
+      "probability": 0.9937995076179504
+    },
+    {
+      "word": "you",
+      "start": 25.439999999999944,
+      "end": 25.739999999999945,
+      "probability": 0.8727765679359436
+    },
+    {
+      "word": "explicitly",
+      "start": 25.739999999999945,
+      "end": 26.199999999999946,
+      "probability": 0.9948216676712036
+    },
+    {
+      "word": "Mathematically",
+      "start": 26.89999999999994,
+      "end": 27.419999999999945,
+      "probability": 0.5858842805027962
+    },
+    {
+      "word": "link",
+      "start": 27.419999999999945,
+      "end": 27.759999999999945,
+      "probability": 0.9876284599304199
+    },
+    {
+      "word": "that",
+      "start": 27.759999999999945,
+      "end": 27.979999999999947,
+      "probability": 0.9963931441307068
+    },
+    {
+      "word": "written",
+      "start": 27.979999999999947,
+      "end": 28.199999999999946,
+      "probability": 0.9840488433837891
+    },
+    {
+      "word": "rule",
+      "start": 28.199999999999946,
+      "end": 28.679999999999943,
+      "probability": 0.9854228496551514
+    },
+    {
+      "word": "to",
+      "start": 28.679999999999943,
+      "end": 29.019999999999946,
+      "probability": 0.9922659993171692
+    },
+    {
+      "word": "both",
+      "start": 29.019999999999946,
+      "end": 29.199999999999946,
+      "probability": 0.9910646677017212
+    },
+    {
+      "word": "the",
+      "start": 29.199999999999946,
+      "end": 29.399999999999945,
+      "probability": 0.9966094493865967
+    },
+    {
+      "word": "store",
+      "start": 29.399999999999945,
+      "end": 29.759999999999945,
+      "probability": 0.8971017003059387
+    },
+    {
+      "word": "entity",
+      "start": 29.759999999999945,
+      "end": 30.139999999999944,
+      "probability": 0.9625428318977356
+    },
+    {
+      "word": "and",
+      "start": 30.139999999999944,
+      "end": 30.679999999999943,
+      "probability": 0.9656619429588318
+    },
+    {
+      "word": "the",
+      "start": 30.679999999999943,
+      "end": 30.939999999999948,
+      "probability": 0.9952056407928467
+    },
+    {
+      "word": "inventory",
+      "start": 30.939999999999948,
+      "end": 31.519999999999946,
+      "probability": 0.8467357754707336
+    },
+    {
+      "word": "entity",
+      "start": 31.519999999999946,
+      "end": 32.059999999999945,
+      "probability": 0.9859294295310974
+    },
+    {
+      "word": "in",
+      "start": 32.059999999999945,
+      "end": 32.35999999999994,
+      "probability": 0.990196168422699
+    },
+    {
+      "word": "your",
+      "start": 32.35999999999994,
+      "end": 32.43999999999995,
+      "probability": 0.9991291165351868
+    },
+    {
+      "word": "model.",
+      "start": 32.43999999999995,
+      "end": 32.739999999999945,
+      "probability": 0.9933322072029114
+    },
+    {
+      "word": "What",
+      "start": 33.239999999999945,
+      "end": 33.49999999999994,
+      "probability": 0.8070995211601257
+    },
+    {
+      "word": "is",
+      "start": 33.49999999999994,
+      "end": 33.57999999999994,
+      "probability": 0.908025860786438
+    },
+    {
+      "word": "linking",
+      "start": 33.57999999999994,
+      "end": 33.75999999999995,
+      "probability": 0.9927970767021179
+    },
+    {
+      "word": "it?",
+      "start": 33.75999999999995,
+      "end": 34.03999999999995,
+      "probability": 0.9513814449310303
+    },
+    {
+      "word": "Actually",
+      "start": 34.11999999999995,
+      "end": 34.31999999999995,
+      "probability": 0.8930519223213196
+    },
+    {
+      "word": "do",
+      "start": 34.31999999999995,
+      "end": 34.61999999999995,
+      "probability": 0.8923302292823792
+    },
+    {
+      "word": "by",
+      "start": 34.61999999999995,
+      "end": 35.43999999999994,
+      "probability": 0.4260169565677643
+    },
+    {
+      "word": "forging",
+      "start": 35.43999999999994,
+      "end": 35.65999999999995,
+      "probability": 0.9688853025436401
+    },
+    {
+      "word": "that",
+      "start": 35.65999999999995,
+      "end": 35.97999999999995,
+      "probability": 0.9916879534721375
+    },
+    {
+      "word": "link",
+      "start": 35.97999999999995,
+      "end": 36.139999999999944,
+      "probability": 0.9943431615829468
+    },
+    {
+      "word": "you",
+      "start": 36.139999999999944,
+      "end": 36.559999999999945,
+      "probability": 0.7080564498901367
+    },
+    {
+      "word": "make",
+      "start": 36.559999999999945,
+      "end": 36.71999999999994,
+      "probability": 0.9920724034309387
+    },
+    {
+      "word": "the",
+      "start": 36.71999999999994,
+      "end": 36.879999999999946,
+      "probability": 0.9977982044219971
+    },
+    {
+      "word": "rule",
+      "start": 36.879999999999946,
+      "end": 37.03999999999995,
+      "probability": 0.9940047860145569
+    },
+    {
+      "word": "discoverable",
+      "start": 37.03999999999995,
+      "end": 37.67999999999995,
+      "probability": 0.9371084570884705
+    },
+    {
+      "word": "to",
+      "start": 37.67999999999995,
+      "end": 37.81999999999995,
+      "probability": 0.9920067191123962
+    },
+    {
+      "word": "any",
+      "start": 37.81999999999995,
+      "end": 38.03999999999995,
+      "probability": 0.9981449842453003
+    },
+    {
+      "word": "downstream",
+      "start": 38.03999999999995,
+      "end": 38.639999999999944,
+      "probability": 0.8819339275360107
+    },
+    {
+      "word": "AI",
+      "start": 38.639999999999944,
+      "end": 38.89999999999995,
+      "probability": 0.9450435042381287
+    },
+    {
+      "word": "agent",
+      "start": 38.89999999999995,
+      "end": 39.379999999999946,
+      "probability": 0.9300183057785034
+    },
+    {
+      "word": "consuming",
+      "start": 39.379999999999946,
+      "end": 39.75999999999995,
+      "probability": 0.6916404366493225
+    },
+    {
+      "word": "the",
+      "start": 39.75999999999995,
+      "end": 40.17999999999995,
+      "probability": 0.9858394265174866
+    },
+    {
+      "word": "ontology.",
+      "start": 40.17999999999994,
+      "end": 40.71999999999994,
+      "probability": 0.9601382315158844
+    },
+    {
+      "word": "So",
+      "start": 41.639999999999944,
+      "end": 41.81999999999994,
+      "probability": 0.7669351100921631
+    },
+    {
+      "word": "when",
+      "start": 41.81999999999994,
+      "end": 41.959999999999944,
+      "probability": 0.870595395565033
+    }
+  ],
+  "transcript_asr": "In the ontology interface, you can document inventory risk as a specific multivariable condition. You write out that risk occurs when a product's position is expected to fall below its required historical buffer before the next scheduled replenishment arrives. Okay, so you type out that logic in natural language. Then what happens? Does the AI just magically know how to execute that? No, writing it is just the first step. Then you explicitly Mathematically link that written rule to both the store entity and the inventory entity in your model. What is linking it? Actually do by forging that link you make the rule discoverable to any downstream AI agent consuming the ontology. So when",
+  "source_kind": "actual uploaded recording; continuous audio excerpt",
+  "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "status": "planned",
+  "publish_status": "draft for review",
+  "narration_replaced": false,
+  "actual_timestamps": true,
+  "context_label": "Original discussion excerpt",
+  "review_flags": [],
+  "boundary_note": "Post-context ASR review: remove preceding sentence tail, or retain the full opening syllable.",
+  "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
+  "caption_corrections": [],
+  "caption_join_review": []
+}

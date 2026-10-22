@@ -1,0 +1,48 @@
+{
+  "id": "C50",
+  "family": "evidence",
+  "master_image": "../master-evidence.png",
+  "visual_workflow": "image-first",
+  "state_images": [
+    "01-initial.jpg",
+    "02-build.jpg",
+    "03-settled.jpg"
+  ],
+  "layers": [
+    {
+      "label": "Draft statement",
+      "sub": "CHECK THE BASIS",
+      "x": 100,
+      "y": 680,
+      "w": 880,
+      "h": 250,
+      "focal": true,
+      "on": 0.7,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Source report values",
+      "sub": "VERIFY THE RESULT",
+      "x": 100,
+      "y": 1050,
+      "w": 880,
+      "h": 250,
+      "focal": false,
+      "on": 8.28,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    }
+  ],
+  "relation": "Verify before sharing",
+  "source_quote": "First, co -pilot co -work does not currently ground directly on the ontology items themselves. You have to point it specifically at the Power BI report. Second, and much more dangerously, when it generates a data answer in the text, it does not currently include report citations in its output. Oh, that is a recipe for disaster in a boardroom. It is extremely dangerous. When the AI drafts a beautifully formatted summary and boldly states revenue was up 15 % in the West Region, it does not provide a footnote or hyperlink showing exactly which table or metric it used to calculate that 15%. So it could just be making it up. Therefore, the source script is adamant. The human operator must manually verify every single generated number against the source report before they ever distribute that document.",
+  "why": "Show what must be checked rather than an invented successful result.",
+  "alternative": "Authentic tenant UI would be preferable for proving an executed product action; this clip is a concept illustration.",
+  "visual_review": "Draft, not human approved. Generated symbols corrected in editable reconstruction.",
+  "source_reference": "reference-library/frames/graphic/0003510.jpg",
+  "motion": "independent card alpha reveal + 16px eased settling, timed to recording keywords; fixed grid and presenter rail",
+  "source_start": 3252.74068,
+  "source_end": 3301.0006799999996,
+  "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+}

@@ -1,0 +1,60 @@
+{
+  "id": "C02",
+  "family": "contrast",
+  "master_image": "../master-contrast.png",
+  "visual_workflow": "image-first",
+  "state_images": [
+    "01-initial.jpg",
+    "02-build.jpg",
+    "03-settled.jpg"
+  ],
+  "layers": [
+    {
+      "label": "45\u00b0F",
+      "sub": "CONTEXT / QUESTION",
+      "x": 180,
+      "y": 660,
+      "w": 720,
+      "h": 180,
+      "focal": true,
+      "on": 0.7,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Outside air",
+      "sub": "INTERPRETATION A",
+      "x": 60,
+      "y": 935,
+      "w": 455,
+      "h": 370,
+      "focal": true,
+      "on": 31.76,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Refrigeration unit",
+      "sub": "INTERPRETATION B",
+      "x": 565,
+      "y": 935,
+      "w": 455,
+      "h": 370,
+      "focal": false,
+      "on": 40.36,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    }
+  ],
+  "relation": "Compare the meaning",
+  "source_quote": "I want to look really closely at that gap between data and meaning, because if you pull up a table and it shows a column labeled temperature, that's just a raw number. Right, it completely lacks the commercial context. Exactly. It doesn't tell you anything about the store experiencing that temperature. Well, let's trace that exact problem because it's a great example. If you have a spreadsheet and a column simply says temperature 45, what does your AI do with that? It just reads the number 45. Right. And if it's the ambient temperature outside a retail location on a pleasant spring day, 45 degrees Fahrenheit is just chilly. Sure. But if that sensor is sitting inside a commercial refrigeration unit, holding thousands of dollars of premium pharmaceutical supplies or, you know, frozen food, then 45 degrees is a total disaster. It's a catastrophic failure in progress. But the data itself, the integer of 45, is completely agnostic to your business reality.",
+  "why": "Compare interpretations without implying causation.",
+  "alternative": "Authentic tenant UI would be preferable for proving an executed product action; this clip is a concept illustration.",
+  "visual_review": "Draft, not human approved. Generated symbols corrected in editable reconstruction.",
+  "source_reference": "reference-library/frames/graphic/0003510.jpg",
+  "motion": "independent card alpha reveal + 16px eased settling, timed to recording keywords; fixed grid and presenter rail",
+  "source_start": 180.82,
+  "source_end": 238.17999999999998,
+  "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+}

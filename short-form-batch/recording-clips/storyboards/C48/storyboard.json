@@ -1,0 +1,48 @@
+{
+  "id": "C48",
+  "family": "boundary",
+  "master_image": "../master-boundary.png",
+  "visual_workflow": "image-first",
+  "state_images": [
+    "01-initial.jpg",
+    "02-build.jpg",
+    "03-settled.jpg"
+  ],
+  "layers": [
+    {
+      "label": "Natural-language rule",
+      "sub": "FIRST RESPONSIBILITY",
+      "x": 100,
+      "y": 680,
+      "w": 880,
+      "h": 250,
+      "focal": true,
+      "on": 0.7,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Configured Activator workflow",
+      "sub": "SEPARATE RESPONSIBILITY",
+      "x": 100,
+      "y": 1050,
+      "w": 880,
+      "h": 250,
+      "focal": false,
+      "on": 0.48,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    }
+  ],
+  "relation": "Separate configuration",
+  "source_quote": "What about Activator? Fabric has a dedicated tool called data Activator specifically for triggering actions based on data changes. If I write a natural language business rule in my ontology interface, does that automatically provision an Activator alert in the background? No, it absolutely does not. And that's a massive point of confusion for new users. Saving a natural language role in the ontology provides semantic context for the chat agents. It does not automatically write the code to provision an active running workflow in data Activator. So they are separate steps. If you want an alert to actually fire, a data engineer has to go into Activator and configure that automation separately against the supported data path.",
+  "why": "Show separate responsibilities; no implied automatic execution.",
+  "alternative": "Authentic tenant UI would be preferable for proving an executed product action; this clip is a concept illustration.",
+  "visual_review": "Draft, not human approved. Generated symbols corrected in editable reconstruction.",
+  "source_reference": "reference-library/frames/graphic/0003510.jpg",
+  "motion": "independent card alpha reveal + 16px eased settling, timed to recording keywords; fixed grid and presenter rail",
+  "source_start": 3157.84068,
+  "source_end": 3199.4006799999997,
+  "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+}

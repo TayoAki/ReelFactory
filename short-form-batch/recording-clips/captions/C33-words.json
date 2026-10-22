@@ -1,0 +1,1036 @@
+{
+  "id": "C33",
+  "title": "A restore replaces the whole definition",
+  "source_start": 2045.06195,
+  "source_end": 2096.46195,
+  "duration": 51.399999999999864,
+  "part_ranges": [
+    {
+      "part": "part02.m4a",
+      "start": 544.96,
+      "end": 596.3599999999999
+    }
+  ],
+  "family": "workflow",
+  "left_label": "Save named version",
+  "right_label": "Restore definition",
+  "focus_label": "Preserve current version first",
+  "example_kind": "hypothetical version rollback",
+  "words": [
+    {
+      "word": "Before",
+      "start": 0.05999999999989081,
+      "end": 0.5799999999998908,
+      "probability": 0.9726414084434509
+    },
+    {
+      "word": "you",
+      "start": 0.5799999999998908,
+      "end": 0.739999999999891,
+      "probability": 0.9928529858589172
+    },
+    {
+      "word": "make",
+      "start": 0.739999999999891,
+      "end": 0.8799999999998906,
+      "probability": 0.9982340335845947
+    },
+    {
+      "word": "any",
+      "start": 0.8799999999998906,
+      "end": 1.0199999999998908,
+      "probability": 0.9826865196228027
+    },
+    {
+      "word": "meaningful",
+      "start": 1.0199999999998908,
+      "end": 1.4599999999998907,
+      "probability": 0.9983838796615601
+    },
+    {
+      "word": "change",
+      "start": 1.4599999999998907,
+      "end": 1.759999999999891,
+      "probability": 0.9915728569030762
+    },
+    {
+      "word": "to",
+      "start": 1.759999999999891,
+      "end": 2.079999999999891,
+      "probability": 0.9979162812232971
+    },
+    {
+      "word": "your",
+      "start": 2.079999999999891,
+      "end": 2.199999999999891,
+      "probability": 0.9988709092140198
+    },
+    {
+      "word": "production",
+      "start": 2.199999999999891,
+      "end": 2.4599999999998907,
+      "probability": 0.9965097308158875
+    },
+    {
+      "word": "model,",
+      "start": 2.4599999999998907,
+      "end": 2.859999999999891,
+      "probability": 0.9980316758155823
+    },
+    {
+      "word": "you",
+      "start": 2.859999999999891,
+      "end": 3.1399999999998904,
+      "probability": 0.9979639053344727
+    },
+    {
+      "word": "create",
+      "start": 3.1399999999998904,
+      "end": 3.4199999999998907,
+      "probability": 0.9985752105712891
+    },
+    {
+      "word": "a",
+      "start": 3.4199999999998907,
+      "end": 3.819999999999891,
+      "probability": 0.9956199526786804
+    },
+    {
+      "word": "named",
+      "start": 3.819999999999891,
+      "end": 4.279999999999891,
+      "probability": 0.9647685885429382
+    },
+    {
+      "word": "saved",
+      "start": 4.279999999999891,
+      "end": 4.939999999999891,
+      "probability": 0.702052652835846
+    },
+    {
+      "word": "version",
+      "start": 4.939999999999891,
+      "end": 5.359999999999891,
+      "probability": 0.9986314177513123
+    },
+    {
+      "word": "of",
+      "start": 5.359999999999891,
+      "end": 5.619999999999891,
+      "probability": 0.9990898370742798
+    },
+    {
+      "word": "your",
+      "start": 5.619999999999891,
+      "end": 5.7199999999998905,
+      "probability": 0.9991637468338013
+    },
+    {
+      "word": "current",
+      "start": 5.7199999999998905,
+      "end": 6.039999999999891,
+      "probability": 0.9993166923522949
+    },
+    {
+      "word": "ontology",
+      "start": 6.039999999999891,
+      "end": 6.439999999999891,
+      "probability": 0.9877674579620361
+    },
+    {
+      "word": "state.",
+      "start": 6.439999999999891,
+      "end": 6.859999999999891,
+      "probability": 0.9655728340148926
+    },
+    {
+      "word": "Version",
+      "start": 7.55999999999989,
+      "end": 7.8399999999998915,
+      "probability": 0.8274030089378357
+    },
+    {
+      "word": "history",
+      "start": 7.8399999999998915,
+      "end": 8.03999999999989,
+      "probability": 0.8460639119148254
+    },
+    {
+      "word": "allows",
+      "start": 8.03999999999989,
+      "end": 8.339999999999892,
+      "probability": 0.969319224357605
+    },
+    {
+      "word": "you",
+      "start": 8.339999999999892,
+      "end": 8.499999999999892,
+      "probability": 0.9988455772399902
+    },
+    {
+      "word": "to",
+      "start": 8.499999999999892,
+      "end": 8.579999999999892,
+      "probability": 0.991913914680481
+    },
+    {
+      "word": "restore",
+      "start": 8.579999999999892,
+      "end": 8.999999999999892,
+      "probability": 0.997002899646759
+    },
+    {
+      "word": "that",
+      "start": 8.999999999999892,
+      "end": 9.259999999999891,
+      "probability": 0.9971657395362854
+    },
+    {
+      "word": "saved",
+      "start": 9.259999999999891,
+      "end": 9.45999999999989,
+      "probability": 0.6476987600326538
+    },
+    {
+      "word": "definition",
+      "start": 9.45999999999989,
+      "end": 9.839999999999892,
+      "probability": 0.9926800727844238
+    },
+    {
+      "word": "if",
+      "start": 9.839999999999892,
+      "end": 10.259999999999891,
+      "probability": 0.8521239161491394
+    },
+    {
+      "word": "things",
+      "start": 10.259999999999891,
+      "end": 10.439999999999891,
+      "probability": 0.998570442199707
+    },
+    {
+      "word": "go",
+      "start": 10.439999999999891,
+      "end": 10.679999999999891,
+      "probability": 0.982646107673645
+    },
+    {
+      "word": "sideways.",
+      "start": 10.679999999999891,
+      "end": 10.919999999999892,
+      "probability": 0.9988798499107361
+    },
+    {
+      "word": "So",
+      "start": 11.63999999999989,
+      "end": 11.87999999999989,
+      "probability": 0.9313156604766846
+    },
+    {
+      "word": "it's",
+      "start": 11.87999999999989,
+      "end": 12.019999999999891,
+      "probability": 0.9785242080688477
+    },
+    {
+      "word": "not",
+      "start": 12.019999999999891,
+      "end": 12.23999999999989,
+      "probability": 0.9995875954627991
+    },
+    {
+      "word": "a",
+      "start": 12.23999999999989,
+      "end": 12.39999999999989,
+      "probability": 0.9983029365539551
+    },
+    {
+      "word": "surgical",
+      "start": 12.39999999999989,
+      "end": 12.759999999999891,
+      "probability": 0.9948257803916931
+    },
+    {
+      "word": "rollback",
+      "start": 12.759999999999891,
+      "end": 13.339999999999892,
+      "probability": 0.9209659695625305
+    },
+    {
+      "word": "where",
+      "start": 13.339999999999892,
+      "end": 13.53999999999989,
+      "probability": 0.866831362247467
+    },
+    {
+      "word": "I",
+      "start": 13.53999999999989,
+      "end": 13.61999999999989,
+      "probability": 0.9934074878692627
+    },
+    {
+      "word": "just",
+      "start": 13.61999999999989,
+      "end": 13.779999999999891,
+      "probability": 0.9934822916984558
+    },
+    {
+      "word": "undo",
+      "start": 13.779999999999891,
+      "end": 14.079999999999892,
+      "probability": 0.9182215929031372
+    },
+    {
+      "word": "the",
+      "start": 14.079999999999892,
+      "end": 14.33999999999989,
+      "probability": 0.9849704504013062
+    },
+    {
+      "word": "last",
+      "start": 14.33999999999989,
+      "end": 14.51999999999989,
+      "probability": 0.9987757802009583
+    },
+    {
+      "word": "five",
+      "start": 14.51999999999989,
+      "end": 14.779999999999891,
+      "probability": 0.9793376922607422
+    },
+    {
+      "word": "minutes",
+      "start": 14.779999999999891,
+      "end": 14.97999999999989,
+      "probability": 0.9993634819984436
+    },
+    {
+      "word": "of",
+      "start": 14.97999999999989,
+      "end": 15.099999999999891,
+      "probability": 0.981977105140686
+    },
+    {
+      "word": "work?",
+      "start": 15.099999999999891,
+      "end": 15.259999999999891,
+      "probability": 0.9994055032730103
+    },
+    {
+      "word": "No,",
+      "start": 15.439999999999891,
+      "end": 15.599999999999891,
+      "probability": 0.9687643647193909
+    },
+    {
+      "word": "and",
+      "start": 15.719999999999892,
+      "end": 15.899999999999892,
+      "probability": 0.9957844614982605
+    },
+    {
+      "word": "that's",
+      "start": 15.899999999999892,
+      "end": 16.11999999999989,
+      "probability": 0.9994763731956482
+    },
+    {
+      "word": "a",
+      "start": 16.11999999999989,
+      "end": 16.219999999999892,
+      "probability": 0.9953091740608215
+    },
+    {
+      "word": "crucial",
+      "start": 16.219999999999892,
+      "end": 16.51999999999989,
+      "probability": 0.9993728995323181
+    },
+    {
+      "word": "limitation",
+      "start": 16.51999999999989,
+      "end": 16.97999999999989,
+      "probability": 0.9946938157081604
+    },
+    {
+      "word": "to",
+      "start": 16.97999999999989,
+      "end": 17.35999999999989,
+      "probability": 0.9921571016311646
+    },
+    {
+      "word": "understand.",
+      "start": 17.35999999999989,
+      "end": 17.61999999999989,
+      "probability": 0.9972718358039856
+    },
+    {
+      "word": "A",
+      "start": 18.27999999999989,
+      "end": 18.399999999999892,
+      "probability": 0.9459200501441956
+    },
+    {
+      "word": "restore",
+      "start": 18.399999999999892,
+      "end": 18.69999999999989,
+      "probability": 0.9794611930847168
+    },
+    {
+      "word": "replaces",
+      "start": 18.69999999999989,
+      "end": 19.31999999999989,
+      "probability": 0.9956951141357422
+    },
+    {
+      "word": "the",
+      "start": 19.31999999999989,
+      "end": 19.45999999999989,
+      "probability": 0.18293467164039612
+    },
+    {
+      "word": "definition",
+      "start": 19.45999999999989,
+      "end": 19.81999999999989,
+      "probability": 0.9478842616081238
+    },
+    {
+      "word": "as",
+      "start": 19.81999999999989,
+      "end": 20.09999999999989,
+      "probability": 0.981158971786499
+    },
+    {
+      "word": "a",
+      "start": 20.11999999999989,
+      "end": 20.239999999999892,
+      "probability": 0.9952788352966309
+    },
+    {
+      "word": "whole,",
+      "start": 20.239999999999892,
+      "end": 20.41999999999989,
+      "probability": 0.9685860276222229
+    },
+    {
+      "word": "it",
+      "start": 21.13999999999989,
+      "end": 21.37999999999989,
+      "probability": 0.9095848202705383
+    },
+    {
+      "word": "overwrites",
+      "start": 21.37999999999989,
+      "end": 21.75999999999989,
+      "probability": 0.6678467392921448
+    },
+    {
+      "word": "everything",
+      "start": 21.75999999999989,
+      "end": 21.95999999999989,
+      "probability": 0.9896717071533203
+    },
+    {
+      "word": "currently",
+      "start": 21.95999999999989,
+      "end": 22.539999999999893,
+      "probability": 0.9540170431137085
+    },
+    {
+      "word": "in",
+      "start": 22.539999999999893,
+      "end": 22.83999999999989,
+      "probability": 0.9820092916488647
+    },
+    {
+      "word": "the",
+      "start": 22.83999999999989,
+      "end": 22.899999999999892,
+      "probability": 0.9960894584655762
+    },
+    {
+      "word": "system",
+      "start": 22.899999999999892,
+      "end": 23.15999999999989,
+      "probability": 0.9977477192878723
+    },
+    {
+      "word": "with",
+      "start": 23.15999999999989,
+      "end": 23.67999999999989,
+      "probability": 0.8232244849205017
+    },
+    {
+      "word": "the",
+      "start": 23.67999999999989,
+      "end": 23.81999999999989,
+      "probability": 0.992723286151886
+    },
+    {
+      "word": "exact",
+      "start": 23.81999999999989,
+      "end": 24.059999999999892,
+      "probability": 0.994167685508728
+    },
+    {
+      "word": "state",
+      "start": 24.059999999999892,
+      "end": 24.57999999999989,
+      "probability": 0.9866904020309448
+    },
+    {
+      "word": "of",
+      "start": 24.57999999999989,
+      "end": 24.79999999999989,
+      "probability": 0.9935530424118042
+    },
+    {
+      "word": "the",
+      "start": 24.79999999999989,
+      "end": 24.91999999999989,
+      "probability": 0.9184536337852478
+    },
+    {
+      "word": "past",
+      "start": 24.91999999999989,
+      "end": 25.09999999999989,
+      "probability": 0.984489917755127
+    },
+    {
+      "word": "version.",
+      "start": 25.09999999999989,
+      "end": 25.43999999999989,
+      "probability": 0.9858011603355408
+    },
+    {
+      "word": "So",
+      "start": 26.29999999999989,
+      "end": 26.359999999999893,
+      "probability": 0.9255640506744385
+    },
+    {
+      "word": "if",
+      "start": 26.359999999999893,
+      "end": 26.55999999999989,
+      "probability": 0.8876063823699951
+    },
+    {
+      "word": "your",
+      "start": 26.55999999999989,
+      "end": 26.65999999999989,
+      "probability": 0.9896570444107056
+    },
+    {
+      "word": "team",
+      "start": 26.65999999999989,
+      "end": 26.859999999999893,
+      "probability": 0.9785715341567993
+    },
+    {
+      "word": "spent",
+      "start": 26.859999999999893,
+      "end": 27.09999999999989,
+      "probability": 0.9729103446006775
+    },
+    {
+      "word": "four",
+      "start": 27.09999999999989,
+      "end": 27.31999999999989,
+      "probability": 0.9004522562026978
+    },
+    {
+      "word": "hours",
+      "start": 27.31999999999989,
+      "end": 27.69999999999989,
+      "probability": 0.9986510872840881
+    },
+    {
+      "word": "making",
+      "start": 27.69999999999989,
+      "end": 27.899999999999892,
+      "probability": 0.9931318163871765
+    },
+    {
+      "word": "great",
+      "start": 27.899999999999892,
+      "end": 28.15999999999989,
+      "probability": 0.9959231615066528
+    },
+    {
+      "word": "updates,",
+      "start": 28.15999999999989,
+      "end": 28.45999999999989,
+      "probability": 0.9970080256462097
+    },
+    {
+      "word": "and",
+      "start": 28.45999999999989,
+      "end": 28.999999999999893,
+      "probability": 0.9933227896690369
+    },
+    {
+      "word": "then",
+      "start": 28.999999999999893,
+      "end": 29.09999999999989,
+      "probability": 0.9869657754898071
+    },
+    {
+      "word": "someone",
+      "start": 29.09999999999989,
+      "end": 29.33999999999989,
+      "probability": 0.99616539478302
+    },
+    {
+      "word": "makes",
+      "start": 29.33999999999989,
+      "end": 29.63999999999989,
+      "probability": 0.9986847043037415
+    },
+    {
+      "word": "one",
+      "start": 29.63999999999989,
+      "end": 29.93999999999989,
+      "probability": 0.9891626834869385
+    },
+    {
+      "word": "catastrophic",
+      "start": 29.93999999999989,
+      "end": 30.29999999999989,
+      "probability": 0.998865008354187
+    },
+    {
+      "word": "mistake",
+      "start": 30.29999999999989,
+      "end": 30.859999999999893,
+      "probability": 0.9809142351150513
+    },
+    {
+      "word": "in",
+      "start": 30.859999999999893,
+      "end": 31.01999999999989,
+      "probability": 0.8375179171562195
+    },
+    {
+      "word": "hour",
+      "start": 31.01999999999989,
+      "end": 31.15999999999989,
+      "probability": 0.6031655669212341
+    },
+    {
+      "word": "five,",
+      "start": 31.15999999999989,
+      "end": 31.65999999999989,
+      "probability": 0.9435356259346008
+    },
+    {
+      "word": "rolling",
+      "start": 32.05999999999989,
+      "end": 32.319999999999894,
+      "probability": 0.9828815460205078
+    },
+    {
+      "word": "back",
+      "start": 32.319999999999894,
+      "end": 32.67999999999989,
+      "probability": 0.9988802075386047
+    },
+    {
+      "word": "to",
+      "start": 32.67999999999989,
+      "end": 32.83999999999989,
+      "probability": 0.9699825644493103
+    },
+    {
+      "word": "yesterday's",
+      "start": 32.83999999999989,
+      "end": 32.99999999999989,
+      "probability": 0.995685338973999
+    },
+    {
+      "word": "version",
+      "start": 32.99999999999989,
+      "end": 33.51999999999989,
+      "probability": 0.9923180341720581
+    },
+    {
+      "word": "wipes",
+      "start": 33.51999999999989,
+      "end": 33.73999999999989,
+      "probability": 0.925339937210083
+    },
+    {
+      "word": "out",
+      "start": 33.73999999999989,
+      "end": 33.99999999999989,
+      "probability": 0.9995502829551697
+    },
+    {
+      "word": "all",
+      "start": 33.99999999999989,
+      "end": 34.239999999999895,
+      "probability": 0.9983672499656677
+    },
+    {
+      "word": "the",
+      "start": 34.239999999999895,
+      "end": 34.41999999999989,
+      "probability": 0.9918379187583923
+    },
+    {
+      "word": "good",
+      "start": 34.41999999999989,
+      "end": 34.55999999999989,
+      "probability": 0.9933518171310425
+    },
+    {
+      "word": "work",
+      "start": 34.55999999999989,
+      "end": 34.75999999999989,
+      "probability": 0.9977797865867615
+    },
+    {
+      "word": "from",
+      "start": 34.75999999999989,
+      "end": 35.03999999999989,
+      "probability": 0.9899083375930786
+    },
+    {
+      "word": "those",
+      "start": 35.03999999999989,
+      "end": 35.19999999999989,
+      "probability": 0.9927421808242798
+    },
+    {
+      "word": "first",
+      "start": 35.19999999999989,
+      "end": 35.599999999999895,
+      "probability": 0.9977293610572815
+    },
+    {
+      "word": "four",
+      "start": 35.599999999999895,
+      "end": 36.01999999999989,
+      "probability": 0.9767053723335266
+    },
+    {
+      "word": "hours",
+      "start": 36.01999999999989,
+      "end": 36.379999999999896,
+      "probability": 0.9958492517471313
+    },
+    {
+      "word": "too.",
+      "start": 36.379999999999896,
+      "end": 36.65999999999989,
+      "probability": 0.21476542949676514
+    },
+    {
+      "word": "That's",
+      "start": 36.879999999999896,
+      "end": 37.099999999999895,
+      "probability": 0.8507636785507202
+    },
+    {
+      "word": "brutal.",
+      "start": 37.099999999999895,
+      "end": 37.33999999999989,
+      "probability": 0.994964599609375
+    },
+    {
+      "word": "Best",
+      "start": 37.91999999999989,
+      "end": 37.999999999999886,
+      "probability": 0.9554425477981567
+    },
+    {
+      "word": "practice",
+      "start": 37.999999999999886,
+      "end": 38.29999999999989,
+      "probability": 0.9830705523490906
+    },
+    {
+      "word": "dictates",
+      "start": 38.29999999999989,
+      "end": 38.77999999999989,
+      "probability": 0.9974633455276489
+    },
+    {
+      "word": "that",
+      "start": 38.77999999999989,
+      "end": 39.07999999999989,
+      "probability": 0.9981022477149963
+    },
+    {
+      "word": "you",
+      "start": 39.07999999999989,
+      "end": 39.21999999999989,
+      "probability": 0.9973925352096558
+    },
+    {
+      "word": "must",
+      "start": 39.21999999999989,
+      "end": 39.359999999999886,
+      "probability": 0.9995996356010437
+    },
+    {
+      "word": "save",
+      "start": 39.359999999999886,
+      "end": 39.65999999999989,
+      "probability": 0.9967910647392273
+    },
+    {
+      "word": "a",
+      "start": 39.65999999999989,
+      "end": 39.79999999999989,
+      "probability": 0.9975799322128296
+    },
+    {
+      "word": "version",
+      "start": 39.79999999999989,
+      "end": 40.01999999999989,
+      "probability": 0.9994188547134399
+    },
+    {
+      "word": "of",
+      "start": 40.03999999999989,
+      "end": 40.21999999999989,
+      "probability": 0.998753547668457
+    },
+    {
+      "word": "your",
+      "start": 40.21999999999989,
+      "end": 40.33999999999989,
+      "probability": 0.9962071180343628
+    },
+    {
+      "word": "current",
+      "start": 40.33999999999989,
+      "end": 40.71999999999989,
+      "probability": 0.998765230178833
+    },
+    {
+      "word": "broken",
+      "start": 40.71999999999989,
+      "end": 40.959999999999894,
+      "probability": 0.9685750603675842
+    },
+    {
+      "word": "state",
+      "start": 40.959999999999894,
+      "end": 41.39999999999989,
+      "probability": 0.9904214143753052
+    },
+    {
+      "word": "before",
+      "start": 41.39999999999989,
+      "end": 42.07999999999989,
+      "probability": 0.9735861420631409
+    },
+    {
+      "word": "you",
+      "start": 42.07999999999989,
+      "end": 42.43999999999989,
+      "probability": 0.9935385584831238
+    },
+    {
+      "word": "restore",
+      "start": 42.43999999999989,
+      "end": 42.71999999999989,
+      "probability": 0.9879004955291748
+    },
+    {
+      "word": "the",
+      "start": 42.71999999999989,
+      "end": 42.93999999999989,
+      "probability": 0.995537519454956
+    },
+    {
+      "word": "old",
+      "start": 42.93999999999989,
+      "end": 43.099999999999895,
+      "probability": 0.9986000657081604
+    },
+    {
+      "word": "one,",
+      "start": 43.099999999999895,
+      "end": 43.29999999999989,
+      "probability": 0.9946165680885315
+    },
+    {
+      "word": "just",
+      "start": 43.51999999999989,
+      "end": 43.65999999999989,
+      "probability": 0.9906778335571289
+    },
+    {
+      "word": "in",
+      "start": 43.65999999999989,
+      "end": 43.819999999999894,
+      "probability": 0.9965864419937134
+    },
+    {
+      "word": "case",
+      "start": 43.819999999999894,
+      "end": 43.97999999999989,
+      "probability": 0.9989297986030579
+    },
+    {
+      "word": "you",
+      "start": 43.97999999999989,
+      "end": 44.11999999999989,
+      "probability": 0.9887534379959106
+    },
+    {
+      "word": "need",
+      "start": 44.11999999999989,
+      "end": 44.23999999999989,
+      "probability": 0.990845263004303
+    },
+    {
+      "word": "to",
+      "start": 44.23999999999989,
+      "end": 44.35999999999989,
+      "probability": 0.8651895523071289
+    },
+    {
+      "word": "salvage",
+      "start": 44.35999999999989,
+      "end": 44.55999999999989,
+      "probability": 0.9901522994041443
+    },
+    {
+      "word": "a",
+      "start": 44.55999999999989,
+      "end": 44.55999999999989,
+      "probability": 0.9914525747299194
+    },
+    {
+      "word": "piece",
+      "start": 44.55999999999989,
+      "end": 45.13999999999989,
+      "probability": 0.9984740614891052
+    },
+    {
+      "word": "of",
+      "start": 45.13999999999989,
+      "end": 45.29999999999989,
+      "probability": 0.9983854293823242
+    },
+    {
+      "word": "the",
+      "start": 45.29999999999989,
+      "end": 45.39999999999989,
+      "probability": 0.9765830039978027
+    },
+    {
+      "word": "new",
+      "start": 45.39999999999989,
+      "end": 45.47999999999989,
+      "probability": 0.9958884119987488
+    },
+    {
+      "word": "logic",
+      "start": 45.47999999999989,
+      "end": 45.75999999999989,
+      "probability": 0.9956966638565063
+    },
+    {
+      "word": "later.",
+      "start": 45.75999999999989,
+      "end": 46.01999999999989,
+      "probability": 0.9787363409996033
+    },
+    {
+      "word": "It's",
+      "start": 46.79999999999989,
+      "end": 47.21999999999989,
+      "probability": 0.9807763397693634
+    },
+    {
+      "word": "an",
+      "start": 47.21999999999989,
+      "end": 47.29999999999989,
+      "probability": 0.9920026063919067
+    },
+    {
+      "word": "effective",
+      "start": 47.29999999999989,
+      "end": 47.47999999999989,
+      "probability": 0.9535221457481384
+    },
+    {
+      "word": "safety",
+      "start": 47.47999999999989,
+      "end": 47.79999999999989,
+      "probability": 0.9932788014411926
+    },
+    {
+      "word": "net,",
+      "start": 47.79999999999989,
+      "end": 48.11999999999989,
+      "probability": 0.9442307353019714
+    },
+    {
+      "word": "but",
+      "start": 48.13999999999989,
+      "end": 48.459999999999894,
+      "probability": 0.9985301494598389
+    },
+    {
+      "word": "it",
+      "start": 48.459999999999894,
+      "end": 48.599999999999895,
+      "probability": 0.9957931041717529
+    },
+    {
+      "word": "requires",
+      "start": 48.599999999999895,
+      "end": 49.03999999999989,
+      "probability": 0.9949045181274414
+    },
+    {
+      "word": "really",
+      "start": 49.03999999999989,
+      "end": 49.77999999999989,
+      "probability": 0.9828456044197083
+    },
+    {
+      "word": "disciplined",
+      "start": 49.77999999999989,
+      "end": 50.15999999999989,
+      "probability": 0.9654012322425842
+    },
+    {
+      "word": "version",
+      "start": 50.15999999999989,
+      "end": 50.599999999999895,
+      "probability": 0.9644290804862976
+    },
+    {
+      "word": "control",
+      "start": 50.599999999999895,
+      "end": 50.97999999999989,
+      "probability": 0.9915764927864075
+    },
+    {
+      "word": "habits.",
+      "start": 50.97999999999989,
+      "end": 51.25999999999989,
+      "probability": 0.9983824491500854
+    }
+  ],
+  "transcript_asr": "Before you make any meaningful change to your production model, you create a named saved version of your current ontology state. Version history allows you to restore that saved definition if things go sideways. So it's not a surgical rollback where I just undo the last five minutes of work? No, and that's a crucial limitation to understand. A restore replaces the definition as a whole, it overwrites everything currently in the system with the exact state of the past version. So if your team spent four hours making great updates, and then someone makes one catastrophic mistake in hour five, rolling back to yesterday's version wipes out all the good work from those first four hours too. That's brutal. Best practice dictates that you must save a version of your current broken state before you restore the old one, just in case you need to salvage a piece of the new logic later. It's an effective safety net, but it requires really disciplined version control habits.",
+  "source_kind": "actual uploaded recording; continuous audio excerpt",
+  "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "status": "planned",
+  "publish_status": "draft for review",
+  "narration_replaced": false,
+  "actual_timestamps": true,
+  "context_label": "Ontology definition only",
+  "review_flags": [],
+  "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
+  "caption_corrections": [],
+  "caption_join_review": [],
+  "boundary_note": "Post-context ASR review: remove preceding sentence tail, or retain the full opening syllable."
+}

@@ -1,0 +1,711 @@
+{
+  "id": "C06",
+  "title": "When the analyst is the only recipe",
+  "source_start": 407.64,
+  "source_end": 443.64,
+  "duration": 36.0,
+  "part_ranges": [
+    {
+      "part": "part00.m4a",
+      "start": 407.64,
+      "end": 443.64
+    }
+  ],
+  "family": "ownership",
+  "left_label": "Business question",
+  "right_label": "Human translation",
+  "focus_label": "Institutional knowledge",
+  "example_kind": "analyst knowledge example",
+  "words": [
+    {
+      "word": "A",
+      "start": 0.41999999999999993,
+      "end": 0.6400000000000001,
+      "probability": 0.9598478078842163
+    },
+    {
+      "word": "human",
+      "start": 0.6400000000000001,
+      "end": 0.8599999999999999,
+      "probability": 0.9952894449234009
+    },
+    {
+      "word": "analyst",
+      "start": 0.8599999999999999,
+      "end": 1.2000000000000002,
+      "probability": 0.9910919070243835
+    },
+    {
+      "word": "has",
+      "start": 1.2000000000000002,
+      "end": 1.4,
+      "probability": 0.9921191930770874
+    },
+    {
+      "word": "to",
+      "start": 1.4,
+      "end": 1.6,
+      "probability": 0.9990702271461487
+    },
+    {
+      "word": "listen",
+      "start": 1.6,
+      "end": 1.8399999999999999,
+      "probability": 0.996639609336853
+    },
+    {
+      "word": "to",
+      "start": 1.8399999999999999,
+      "end": 2.0,
+      "probability": 0.9986228942871094
+    },
+    {
+      "word": "the",
+      "start": 2.0,
+      "end": 2.08,
+      "probability": 0.9960842132568359
+    },
+    {
+      "word": "business",
+      "start": 2.08,
+      "end": 2.26,
+      "probability": 0.9975169897079468
+    },
+    {
+      "word": "question",
+      "start": 2.26,
+      "end": 2.5199999999999996,
+      "probability": 0.9882649183273315
+    },
+    {
+      "word": "like,",
+      "start": 2.5199999999999996,
+      "end": 2.8600000000000003,
+      "probability": 0.4615621566772461
+    },
+    {
+      "word": "which",
+      "start": 3.3600000000000003,
+      "end": 3.5999999999999996,
+      "probability": 0.7658981084823608
+    },
+    {
+      "word": "stores",
+      "start": 3.5999999999999996,
+      "end": 3.84,
+      "probability": 0.9918367266654968
+    },
+    {
+      "word": "are",
+      "start": 3.84,
+      "end": 4.1,
+      "probability": 0.9930579662322998
+    },
+    {
+      "word": "at",
+      "start": 4.1,
+      "end": 4.22,
+      "probability": 0.9983477592468262
+    },
+    {
+      "word": "risk",
+      "start": 4.22,
+      "end": 4.54,
+      "probability": 0.9971299767494202
+    },
+    {
+      "word": "and",
+      "start": 4.54,
+      "end": 4.96,
+      "probability": 0.5855848789215088
+    },
+    {
+      "word": "then",
+      "start": 4.96,
+      "end": 5.14,
+      "probability": 0.9973263740539551
+    },
+    {
+      "word": "mentally",
+      "start": 5.14,
+      "end": 5.84,
+      "probability": 0.9942542910575867
+    },
+    {
+      "word": "translate",
+      "start": 5.84,
+      "end": 6.32,
+      "probability": 0.9819289445877075
+    },
+    {
+      "word": "that",
+      "start": 6.32,
+      "end": 6.68,
+      "probability": 0.9969057440757751
+    },
+    {
+      "word": "subjective",
+      "start": 6.68,
+      "end": 7.460000000000001,
+      "probability": 0.995302677154541
+    },
+    {
+      "word": "human",
+      "start": 7.460000000000001,
+      "end": 8.24,
+      "probability": 0.9704785346984863
+    },
+    {
+      "word": "anxiety",
+      "start": 8.24,
+      "end": 8.68,
+      "probability": 0.9965642094612122
+    },
+    {
+      "word": "into",
+      "start": 8.68,
+      "end": 9.06,
+      "probability": 0.99357008934021
+    },
+    {
+      "word": "a",
+      "start": 9.06,
+      "end": 9.2,
+      "probability": 0.9993641972541809
+    },
+    {
+      "word": "series",
+      "start": 9.2,
+      "end": 9.48,
+      "probability": 0.9995288848876953
+    },
+    {
+      "word": "of",
+      "start": 9.48,
+      "end": 9.72,
+      "probability": 0.9995438456535339
+    },
+    {
+      "word": "complex",
+      "start": 9.72,
+      "end": 10.2,
+      "probability": 0.9960052371025085
+    },
+    {
+      "word": "database",
+      "start": 10.2,
+      "end": 10.66,
+      "probability": 0.9740448594093323
+    },
+    {
+      "word": "joins?",
+      "start": 10.66,
+      "end": 11.12,
+      "probability": 0.5833960175514221
+    },
+    {
+      "word": "They",
+      "start": 11.6,
+      "end": 11.76,
+      "probability": 0.9742223620414734
+    },
+    {
+      "word": "have",
+      "start": 11.76,
+      "end": 11.86,
+      "probability": 0.9931064248085022
+    },
+    {
+      "word": "to",
+      "start": 11.86,
+      "end": 11.94,
+      "probability": 0.9987812638282776
+    },
+    {
+      "word": "know",
+      "start": 11.94,
+      "end": 12.06,
+      "probability": 0.9975689053535461
+    },
+    {
+      "word": "all",
+      "start": 12.06,
+      "end": 12.18,
+      "probability": 0.9947867393493652
+    },
+    {
+      "word": "the",
+      "start": 12.18,
+      "end": 12.26,
+      "probability": 0.9823406934738159
+    },
+    {
+      "word": "quirks",
+      "start": 12.26,
+      "end": 12.4,
+      "probability": 0.5334693193435669
+    },
+    {
+      "word": "of",
+      "start": 12.4,
+      "end": 12.64,
+      "probability": 0.806584358215332
+    },
+    {
+      "word": "the",
+      "start": 12.64,
+      "end": 12.74,
+      "probability": 0.9978634715080261
+    },
+    {
+      "word": "system.",
+      "start": 12.74,
+      "end": 13.02,
+      "probability": 0.9979400038719177
+    },
+    {
+      "word": "Exactly.",
+      "start": 13.16,
+      "end": 13.62,
+      "probability": 0.9910005927085876
+    },
+    {
+      "word": "They",
+      "start": 13.98,
+      "end": 14.02,
+      "probability": 0.9842925667762756
+    },
+    {
+      "word": "have",
+      "start": 14.02,
+      "end": 14.100000000000001,
+      "probability": 0.9959433674812317
+    },
+    {
+      "word": "to",
+      "start": 14.100000000000001,
+      "end": 14.16,
+      "probability": 0.9986567497253418
+    },
+    {
+      "word": "know",
+      "start": 14.16,
+      "end": 14.36,
+      "probability": 0.9992424249649048
+    },
+    {
+      "word": "that",
+      "start": 14.36,
+      "end": 14.899999999999999,
+      "probability": 0.9864241480827332
+    },
+    {
+      "word": "the",
+      "start": 14.899999999999999,
+      "end": 15.0,
+      "probability": 0.9933619499206543
+    },
+    {
+      "word": "warehouse",
+      "start": 15.0,
+      "end": 15.239999999999998,
+      "probability": 0.9838619828224182
+    },
+    {
+      "word": "table",
+      "start": 15.239999999999998,
+      "end": 15.64,
+      "probability": 0.993043839931488
+    },
+    {
+      "word": "uses",
+      "start": 15.64,
+      "end": 16.0,
+      "probability": 0.9846096038818359
+    },
+    {
+      "word": "an",
+      "start": 16.0,
+      "end": 16.2,
+      "probability": 0.9670605063438416
+    },
+    {
+      "word": "underscore",
+      "start": 16.2,
+      "end": 16.44,
+      "probability": 0.9657135605812073
+    },
+    {
+      "word": "in",
+      "start": 16.44,
+      "end": 16.84,
+      "probability": 0.4656337797641754
+    },
+    {
+      "word": "the",
+      "start": 16.84,
+      "end": 16.92,
+      "probability": 0.9919686913490295
+    },
+    {
+      "word": "column",
+      "start": 16.92,
+      "end": 17.08,
+      "probability": 0.9989261031150818
+    },
+    {
+      "word": "name",
+      "start": 17.08,
+      "end": 17.42,
+      "probability": 0.9954929351806641
+    },
+    {
+      "word": "while",
+      "start": 17.42,
+      "end": 18.0,
+      "probability": 0.6283949017524719
+    },
+    {
+      "word": "the",
+      "start": 18.0,
+      "end": 18.12,
+      "probability": 0.9922915101051331
+    },
+    {
+      "word": "sales",
+      "start": 18.12,
+      "end": 18.26,
+      "probability": 0.9962617754936218
+    },
+    {
+      "word": "table",
+      "start": 18.26,
+      "end": 18.64,
+      "probability": 0.996152937412262
+    },
+    {
+      "word": "uses",
+      "start": 18.64,
+      "end": 18.92,
+      "probability": 0.9860295653343201
+    },
+    {
+      "word": "camel",
+      "start": 18.92,
+      "end": 19.22,
+      "probability": 0.8077032566070557
+    },
+    {
+      "word": "case.",
+      "start": 19.22,
+      "end": 19.54,
+      "probability": 0.958509624004364
+    },
+    {
+      "word": "They",
+      "start": 20.44,
+      "end": 20.5,
+      "probability": 0.9431039690971375
+    },
+    {
+      "word": "have",
+      "start": 20.5,
+      "end": 20.58,
+      "probability": 0.9893514513969421
+    },
+    {
+      "word": "to",
+      "start": 20.58,
+      "end": 20.66,
+      "probability": 0.9974834322929382
+    },
+    {
+      "word": "know",
+      "start": 20.66,
+      "end": 20.82,
+      "probability": 0.994821310043335
+    },
+    {
+      "word": "which",
+      "start": 20.82,
+      "end": 21.16,
+      "probability": 0.9925063252449036
+    },
+    {
+      "word": "filters",
+      "start": 21.16,
+      "end": 21.5,
+      "probability": 0.9822582006454468
+    },
+    {
+      "word": "to",
+      "start": 21.5,
+      "end": 21.759999999999998,
+      "probability": 0.988069474697113
+    },
+    {
+      "word": "apply",
+      "start": 21.759999999999998,
+      "end": 22.08,
+      "probability": 0.9975928664207458
+    },
+    {
+      "word": "and",
+      "start": 22.08,
+      "end": 22.8,
+      "probability": 0.8138909339904785
+    },
+    {
+      "word": "which",
+      "start": 22.8,
+      "end": 23.04,
+      "probability": 0.9924377799034119
+    },
+    {
+      "word": "departmental",
+      "start": 23.04,
+      "end": 23.72,
+      "probability": 0.9630580544471741
+    },
+    {
+      "word": "definition",
+      "start": 23.72,
+      "end": 23.98,
+      "probability": 0.9919341802597046
+    },
+    {
+      "word": "to",
+      "start": 23.98,
+      "end": 24.28,
+      "probability": 0.998603880405426
+    },
+    {
+      "word": "enforce.",
+      "start": 24.28,
+      "end": 24.46,
+      "probability": 0.9974753260612488
+    },
+    {
+      "word": "The",
+      "start": 25.6,
+      "end": 25.64,
+      "probability": 0.9778174757957458
+    },
+    {
+      "word": "obvious",
+      "start": 25.64,
+      "end": 25.9,
+      "probability": 0.9981635212898254
+    },
+    {
+      "word": "vulnerability",
+      "start": 25.9,
+      "end": 26.259999999999998,
+      "probability": 0.9921019673347473
+    },
+    {
+      "word": "there",
+      "start": 26.259999999999998,
+      "end": 26.78,
+      "probability": 0.9794332981109619
+    },
+    {
+      "word": "that",
+      "start": 26.78,
+      "end": 27.04,
+      "probability": 0.5519590973854065
+    },
+    {
+      "word": "if",
+      "start": 27.04,
+      "end": 27.32,
+      "probability": 0.9162863492965698
+    },
+    {
+      "word": "that",
+      "start": 27.32,
+      "end": 27.48,
+      "probability": 0.9832562208175659
+    },
+    {
+      "word": "specific",
+      "start": 27.48,
+      "end": 27.84,
+      "probability": 0.998327910900116
+    },
+    {
+      "word": "human",
+      "start": 27.84,
+      "end": 28.240000000000002,
+      "probability": 0.9961000680923462
+    },
+    {
+      "word": "goes",
+      "start": 28.240000000000002,
+      "end": 28.58,
+      "probability": 0.9952468276023865
+    },
+    {
+      "word": "on",
+      "start": 28.58,
+      "end": 28.740000000000002,
+      "probability": 0.9964368343353271
+    },
+    {
+      "word": "vacation",
+      "start": 28.740000000000002,
+      "end": 29.0,
+      "probability": 0.9968940019607544
+    },
+    {
+      "word": "or",
+      "start": 29.6,
+      "end": 29.9,
+      "probability": 0.8668858408927917
+    },
+    {
+      "word": "you",
+      "start": 29.9,
+      "end": 30.36,
+      "probability": 0.42770326137542725
+    },
+    {
+      "word": "know",
+      "start": 30.36,
+      "end": 30.46,
+      "probability": 0.9927569031715393
+    },
+    {
+      "word": "quits.",
+      "start": 30.46,
+      "end": 30.92,
+      "probability": 0.9446982145309448
+    },
+    {
+      "word": "The",
+      "start": 31.28,
+      "end": 31.560000000000002,
+      "probability": 0.8579281568527222
+    },
+    {
+      "word": "institutional",
+      "start": 31.560000000000002,
+      "end": 31.98,
+      "probability": 0.9828009605407715
+    },
+    {
+      "word": "knowledge",
+      "start": 31.98,
+      "end": 32.480000000000004,
+      "probability": 0.9992555975914001
+    },
+    {
+      "word": "of",
+      "start": 32.480000000000004,
+      "end": 32.68,
+      "probability": 0.9977568984031677
+    },
+    {
+      "word": "how",
+      "start": 32.68,
+      "end": 32.88,
+      "probability": 0.9986956715583801
+    },
+    {
+      "word": "to",
+      "start": 32.88,
+      "end": 33.04,
+      "probability": 0.9984796643257141
+    },
+    {
+      "word": "ask",
+      "start": 33.04,
+      "end": 33.26,
+      "probability": 0.9945403933525085
+    },
+    {
+      "word": "the",
+      "start": 33.26,
+      "end": 33.46,
+      "probability": 0.9953426122665405
+    },
+    {
+      "word": "database",
+      "start": 33.46,
+      "end": 33.7,
+      "probability": 0.9033631086349487
+    },
+    {
+      "word": "a",
+      "start": 33.7,
+      "end": 33.7,
+      "probability": 0.9315392971038818
+    },
+    {
+      "word": "question",
+      "start": 33.7,
+      "end": 34.3,
+      "probability": 0.9958986639976501
+    },
+    {
+      "word": "just",
+      "start": 34.3,
+      "end": 34.6,
+      "probability": 0.9796378016471863
+    },
+    {
+      "word": "walks",
+      "start": 34.6,
+      "end": 34.760000000000005,
+      "probability": 0.9894389510154724
+    },
+    {
+      "word": "right",
+      "start": 34.760000000000005,
+      "end": 35.120000000000005,
+      "probability": 0.9962343573570251
+    },
+    {
+      "word": "out",
+      "start": 35.120000000000005,
+      "end": 35.239999999999995,
+      "probability": 0.7018499970436096
+    },
+    {
+      "word": "the",
+      "start": 35.239999999999995,
+      "end": 35.36,
+      "probability": 0.9752256274223328
+    },
+    {
+      "word": "door",
+      "start": 35.36,
+      "end": 35.519999999999996,
+      "probability": 0.9995949864387512
+    },
+    {
+      "word": "with",
+      "start": 35.519999999999996,
+      "end": 35.68,
+      "probability": 0.9949381351470947
+    },
+    {
+      "word": "them.",
+      "start": 35.68,
+      "end": 35.86,
+      "probability": 0.9977565407752991
+    }
+  ],
+  "transcript_asr": "A human analyst has to listen to the business question like, which stores are at risk and then mentally translate that subjective human anxiety into a series of complex database joins? They have to know all the quirks of the system. Exactly. They have to know that the warehouse table uses an underscore in the column name while the sales table uses camel case. They have to know which filters to apply and which departmental definition to enforce. The obvious vulnerability there that if that specific human goes on vacation or you know quits. The institutional knowledge of how to ask the database a question just walks right out the door with them.",
+  "source_kind": "actual uploaded recording; continuous audio excerpt",
+  "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "status": "planned",
+  "publish_status": "draft for review",
+  "narration_replaced": false,
+  "actual_timestamps": true,
+  "context_label": "Illustrative scenario",
+  "review_flags": [],
+  "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
+  "caption_corrections": [],
+  "caption_join_review": []
+}

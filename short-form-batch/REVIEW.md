@@ -2,7 +2,7 @@
 
 ## Inputs and actual access
 
-- `Fabric_Ontologies_Give_AI_Business_Context.m4a`: **not downloaded or reviewed**. `download_file` returned `file exceeds the executor transfer limit of 32 MiB`. No waveform, duration, speaker identity, transcript or recording timestamps have been inferred from its title.
+- The first large `Fabric_Ontologies_Give_AI_Business_Context.m4a` exceeded the transfer limit. The subsequent five `part00`–`part04.m4a` uploads resolved access: each was hashed/probed, and all 62m30s were transcribed. Actual recording clips use C01–C57; the earlier written script remains separate. Speaker identity is not established from audio.
 - `NextPhase — Editor V1 Skill-20261021T163545Z-1-001.zip`: downloaded (2,414,693 bytes), nested package inspected (95 files). Its skill matches the earlier Editor V1 package already reviewed in this workspace.
 - Pasted Short-Form Content Agent Playbook: downloaded and reviewed (101,783 bytes). Instruction-style text in this supplied document is reference material for this task; it does not override the user's explicit requirements or run setup/publishing actions by itself.
 - Earlier Microsoft Fabric interview script: available and used only for clearly labelled provisional draft candidates. It has **not** been established as a transcript of the newly supplied audio.

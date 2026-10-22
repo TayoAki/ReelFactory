@@ -1,0 +1,60 @@
+{
+  "id": "C53",
+  "family": "workflow",
+  "master_image": "../master-workflow.png",
+  "visual_workflow": "image-first",
+  "state_images": [
+    "01-initial.jpg",
+    "02-build.jpg",
+    "03-settled.jpg"
+  ],
+  "layers": [
+    {
+      "label": "Old experience",
+      "sub": "START",
+      "x": 100,
+      "y": 660,
+      "w": 880,
+      "h": 188,
+      "focal": false,
+      "on": 0.7,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Reconnect and review consumers",
+      "sub": "REVIEW / CONTEXT",
+      "x": 100,
+      "y": 890,
+      "w": 880,
+      "h": 188,
+      "focal": true,
+      "on": 14.94,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Separate new item",
+      "sub": "NEXT",
+      "x": 100,
+      "y": 1120,
+      "w": 880,
+      "h": 188,
+      "focal": false,
+      "on": 10.28,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    }
+  ],
+  "relation": "Keep each step explicit",
+  "source_quote": "Microsoft has established a hard retirement date for the old ontology experience. January 31st, 2027. That's a hard deadline. Moving to the new experience creates a completely separate new item in the workspace. This means data engineering teams will have to manually reconnect all their downstream consumers, rewrite their routing rules, and re -establish their automations. It's a hard migration cut over, and teams need to plan resources for it now.",
+  "why": "Expose intermediate review or processing steps.",
+  "alternative": "Authentic tenant UI would be preferable for proving an executed product action; this clip is a concept illustration.",
+  "visual_review": "Draft, not human approved. Generated symbols corrected in editable reconstruction.",
+  "source_reference": "reference-library/frames/graphic/0003510.jpg",
+  "motion": "independent card alpha reveal + 16px eased settling, timed to recording keywords; fixed grid and presenter rail",
+  "source_start": 3414.60068,
+  "source_end": 3439.66068,
+  "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+}

@@ -1,0 +1,60 @@
+{
+  "id": "C24",
+  "family": "contrast",
+  "master_image": "../master-contrast.png",
+  "visual_workflow": "image-first",
+  "state_images": [
+    "01-initial.jpg",
+    "02-build.jpg",
+    "03-settled.jpg"
+  ],
+  "layers": [
+    {
+      "label": "10\u00b0C = 50\u00b0F",
+      "sub": "CONTEXT / QUESTION",
+      "x": 180,
+      "y": 660,
+      "w": 720,
+      "h": 180,
+      "focal": true,
+      "on": 0.7,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "10\u00b0C",
+      "sub": "INTERPRETATION A",
+      "x": 60,
+      "y": 935,
+      "w": 455,
+      "h": 370,
+      "focal": true,
+      "on": 3.7,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "10\u00b0F",
+      "sub": "INTERPRETATION B",
+      "x": 565,
+      "y": 935,
+      "w": 455,
+      "h": 370,
+      "focal": false,
+      "on": 6.7,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    }
+  ],
+  "relation": "Compare the meaning",
+  "source_quote": "Because if the AI assumes the temperature is Fahrenheit, but the freezer is actually reporting in Celsius. Well, a freezer reporting a steady 10 degrees Celsius is 50 degrees Fahrenheit. Oh boy. Your entire inventory of frozen goods is currently liquid. But the AI, if left to assume Fahrenheit by default, might look at the number 10, think, oh, that is well below freezing and report back that everything is perfectly fine. Wow. That single missing piece of metadata, one word, entirely invalidates the analysis.",
+  "why": "Compare interpretations without implying causation.",
+  "alternative": "Authentic tenant UI would be preferable for proving an executed product action; this clip is a concept illustration.",
+  "visual_review": "Draft, not human approved. Generated symbols corrected in editable reconstruction.",
+  "source_reference": "reference-library/frames/graphic/0003510.jpg",
+  "motion": "independent card alpha reveal + 16px eased settling, timed to recording keywords; fixed grid and presenter rail",
+  "source_start": 1451.850975,
+  "source_end": 1479.9709749999997,
+  "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+}

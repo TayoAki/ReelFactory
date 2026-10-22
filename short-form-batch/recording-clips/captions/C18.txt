@@ -1,0 +1,5 @@
+Query the derived type explicitly
+Original recording 16:34–17:25
+ASR draft; technical-name spelling normalized.
+
+The current agent does not automatically traverse downward to include every derived instance when you query a broad parent type. Why does that matter in a real -world query? Walk me through a scenario. Let's say a regional manager is running a diagnostic on everything in their supply chain that might spoil. They sit down at the chat interface and ask the agent to analyze inventory risk for all product. Just general products. Right. Because of this preview limitation, the agent might only query the base product entity and completely fail to roll up the derived frozen product instances into that analysis. Oh, wow. So the manager thinks they are looking at a comprehensive report, but the AI just silently ignored half a million dollars worth of melting ice cream because the human didn't specifically say the word frozen. Precisely. You have to specifically name the relevant derived type in your prompt.

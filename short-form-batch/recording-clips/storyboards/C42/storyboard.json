@@ -1,0 +1,84 @@
+{
+  "id": "C42",
+  "family": "graph",
+  "master_image": "../master-graph.png",
+  "visual_workflow": "image-first",
+  "state_images": [
+    "01-initial.jpg",
+    "02-build.jpg",
+    "03-settled.jpg"
+  ],
+  "layers": [
+    {
+      "label": "Supplier",
+      "sub": "ILLUSTRATIVE RELATIONSHIP PATH",
+      "x": 140,
+      "y": 650,
+      "w": 800,
+      "h": 120,
+      "focal": true,
+      "on": 0.7,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Products",
+      "sub": "ILLUSTRATIVE RELATIONSHIP PATH",
+      "x": 140,
+      "y": 790,
+      "w": 800,
+      "h": 120,
+      "focal": false,
+      "on": 15.08,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Shipments",
+      "sub": "ILLUSTRATIVE RELATIONSHIP PATH",
+      "x": 140,
+      "y": 930,
+      "w": 800,
+      "h": 120,
+      "focal": false,
+      "on": 18.1,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Stores",
+      "sub": "ILLUSTRATIVE RELATIONSHIP PATH",
+      "x": 140,
+      "y": 1070,
+      "w": 800,
+      "h": 120,
+      "focal": false,
+      "on": 20.68,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Refrigeration units",
+      "sub": "ILLUSTRATIVE RELATIONSHIP PATH",
+      "x": 140,
+      "y": 1210,
+      "w": 800,
+      "h": 120,
+      "focal": false,
+      "on": 23.22,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    }
+  ],
+  "relation": "Trace connected entities",
+  "source_quote": "Let's say a specific agricultural supplier calls you in a panic and informs you that a massive batch of raw ingredients was contaminated. Ooh, a recall situation. Right. You need to instantly trace that supplier's exposure through your entire global supply chain. Which specific intermediate products contain that batch, which exact multimodal shipments carried those products, which which specific retail stores received those shipments and which exact refrigeration units are currently holding them on the floor.",
+  "why": "Trace a hypothetical recall along named relationships.",
+  "alternative": "Authentic tenant UI would be preferable for proving an executed product action; this clip is a concept illustration.",
+  "visual_review": "Draft, not human approved. Generated symbols corrected in editable reconstruction.",
+  "source_reference": "reference-library/frames/graphic/0003510.jpg",
+  "motion": "independent card alpha reveal + 16px eased settling, timed to recording keywords; fixed grid and presenter rail",
+  "source_start": 2705.349705,
+  "source_end": 2731.2097049999998,
+  "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+}

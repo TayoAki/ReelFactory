@@ -1,0 +1,767 @@
+{
+  "id": "C48",
+  "title": "A written rule does not create an Activator flow",
+  "source_start": 3157.84068,
+  "source_end": 3199.4006799999997,
+  "duration": 41.559999999999945,
+  "part_ranges": [
+    {
+      "part": "part04.m4a",
+      "start": 157.65999999999985,
+      "end": 199.2199999999998
+    }
+  ],
+  "family": "boundary",
+  "left_label": "Natural-language rule",
+  "right_label": "Configured Activator workflow",
+  "focus_label": "Separate configuration",
+  "example_kind": "rule versus automation",
+  "words": [
+    {
+      "word": "What",
+      "start": 0.20000000000000018,
+      "end": 0.3599999999999999,
+      "probability": 0.8230236172676086
+    },
+    {
+      "word": "about",
+      "start": 0.3599999999999999,
+      "end": 0.48,
+      "probability": 0.998256266117096
+    },
+    {
+      "word": "Activator?",
+      "start": 0.48,
+      "end": 1.2999999999999998,
+      "probability": 0.8452054560184479
+    },
+    {
+      "word": "Fabric",
+      "start": 1.92,
+      "end": 2.1399999999999997,
+      "probability": 0.8499258160591125
+    },
+    {
+      "word": "has",
+      "start": 2.1399999999999997,
+      "end": 2.4400000000000004,
+      "probability": 0.9922435879707336
+    },
+    {
+      "word": "a",
+      "start": 2.4400000000000004,
+      "end": 2.58,
+      "probability": 0.9942300319671631
+    },
+    {
+      "word": "dedicated",
+      "start": 2.58,
+      "end": 2.8,
+      "probability": 0.9959944486618042
+    },
+    {
+      "word": "tool",
+      "start": 2.8,
+      "end": 3.2,
+      "probability": 0.9971106052398682
+    },
+    {
+      "word": "called",
+      "start": 3.2,
+      "end": 3.5199999999999996,
+      "probability": 0.9841299057006836
+    },
+    {
+      "word": "data",
+      "start": 3.5199999999999996,
+      "end": 3.8,
+      "probability": 0.48274683952331543
+    },
+    {
+      "word": "Activator",
+      "start": 3.8,
+      "end": 4.44,
+      "probability": 0.9540405869483948
+    },
+    {
+      "word": "specifically",
+      "start": 4.44,
+      "end": 4.74,
+      "probability": 0.5686299800872803
+    },
+    {
+      "word": "for",
+      "start": 4.74,
+      "end": 5.28,
+      "probability": 0.9965176582336426
+    },
+    {
+      "word": "triggering",
+      "start": 5.28,
+      "end": 5.62,
+      "probability": 0.9934311509132385
+    },
+    {
+      "word": "actions",
+      "start": 5.62,
+      "end": 6.08,
+      "probability": 0.992053747177124
+    },
+    {
+      "word": "based",
+      "start": 6.08,
+      "end": 7.0600000000000005,
+      "probability": 0.9464969038963318
+    },
+    {
+      "word": "on",
+      "start": 7.0600000000000005,
+      "end": 7.300000000000001,
+      "probability": 0.9992197751998901
+    },
+    {
+      "word": "data",
+      "start": 7.300000000000001,
+      "end": 7.5,
+      "probability": 0.9910479187965393
+    },
+    {
+      "word": "changes.",
+      "start": 7.5,
+      "end": 7.859999999999999,
+      "probability": 0.9921019673347473
+    },
+    {
+      "word": "If",
+      "start": 8.78,
+      "end": 8.9,
+      "probability": 0.9868952631950378
+    },
+    {
+      "word": "I",
+      "start": 8.9,
+      "end": 9.02,
+      "probability": 0.9931443929672241
+    },
+    {
+      "word": "write",
+      "start": 9.02,
+      "end": 9.2,
+      "probability": 0.9922930002212524
+    },
+    {
+      "word": "a",
+      "start": 9.2,
+      "end": 9.34,
+      "probability": 0.9968116879463196
+    },
+    {
+      "word": "natural",
+      "start": 9.34,
+      "end": 9.66,
+      "probability": 0.93533855676651
+    },
+    {
+      "word": "language",
+      "start": 9.66,
+      "end": 10.0,
+      "probability": 0.9875398874282837
+    },
+    {
+      "word": "business",
+      "start": 10.0,
+      "end": 10.4,
+      "probability": 0.9856777787208557
+    },
+    {
+      "word": "rule",
+      "start": 10.4,
+      "end": 10.66,
+      "probability": 0.8976049423217773
+    },
+    {
+      "word": "in",
+      "start": 10.66,
+      "end": 10.82,
+      "probability": 0.9824724197387695
+    },
+    {
+      "word": "my",
+      "start": 10.82,
+      "end": 10.94,
+      "probability": 0.9932818412780762
+    },
+    {
+      "word": "ontology",
+      "start": 10.94,
+      "end": 11.38,
+      "probability": 0.9786044657230377
+    },
+    {
+      "word": "interface,",
+      "start": 11.38,
+      "end": 11.88,
+      "probability": 0.9891059994697571
+    },
+    {
+      "word": "does",
+      "start": 12.46,
+      "end": 12.58,
+      "probability": 0.99241042137146
+    },
+    {
+      "word": "that",
+      "start": 12.58,
+      "end": 12.76,
+      "probability": 0.9979567527770996
+    },
+    {
+      "word": "automatically",
+      "start": 12.76,
+      "end": 13.28,
+      "probability": 0.988713800907135
+    },
+    {
+      "word": "provision",
+      "start": 13.28,
+      "end": 13.74,
+      "probability": 0.9946658611297607
+    },
+    {
+      "word": "an",
+      "start": 13.74,
+      "end": 14.059999999999999,
+      "probability": 0.890601634979248
+    },
+    {
+      "word": "Activator",
+      "start": 14.059999999999999,
+      "end": 14.739999999999998,
+      "probability": 0.9682521224021912
+    },
+    {
+      "word": "alert",
+      "start": 14.739999999999998,
+      "end": 14.940000000000001,
+      "probability": 0.9879833459854126
+    },
+    {
+      "word": "in",
+      "start": 14.940000000000001,
+      "end": 15.18,
+      "probability": 0.9899068474769592
+    },
+    {
+      "word": "the",
+      "start": 15.18,
+      "end": 15.32,
+      "probability": 0.9976153373718262
+    },
+    {
+      "word": "background?",
+      "start": 15.32,
+      "end": 15.54,
+      "probability": 0.9970515966415405
+    },
+    {
+      "word": "No,",
+      "start": 16.18,
+      "end": 16.62,
+      "probability": 0.9872933626174927
+    },
+    {
+      "word": "it",
+      "start": 16.84,
+      "end": 16.94,
+      "probability": 0.9942864775657654
+    },
+    {
+      "word": "absolutely",
+      "start": 16.94,
+      "end": 17.3,
+      "probability": 0.9805648922920227
+    },
+    {
+      "word": "does",
+      "start": 17.3,
+      "end": 17.62,
+      "probability": 0.9477078914642334
+    },
+    {
+      "word": "not.",
+      "start": 17.62,
+      "end": 17.78,
+      "probability": 0.9929050803184509
+    },
+    {
+      "word": "And",
+      "start": 18.36,
+      "end": 18.46,
+      "probability": 0.9339696168899536
+    },
+    {
+      "word": "that's",
+      "start": 18.46,
+      "end": 18.72,
+      "probability": 0.990085631608963
+    },
+    {
+      "word": "a",
+      "start": 18.72,
+      "end": 18.8,
+      "probability": 0.9979698061943054
+    },
+    {
+      "word": "massive",
+      "start": 18.8,
+      "end": 18.92,
+      "probability": 0.9977278113365173
+    },
+    {
+      "word": "point",
+      "start": 18.92,
+      "end": 19.3,
+      "probability": 0.9928354620933533
+    },
+    {
+      "word": "of",
+      "start": 19.3,
+      "end": 19.42,
+      "probability": 0.9986639022827148
+    },
+    {
+      "word": "confusion",
+      "start": 19.42,
+      "end": 19.72,
+      "probability": 0.9987657070159912
+    },
+    {
+      "word": "for",
+      "start": 19.72,
+      "end": 20.02,
+      "probability": 0.9963825941085815
+    },
+    {
+      "word": "new",
+      "start": 20.0,
+      "end": 20.14,
+      "probability": 0.9884946942329407
+    },
+    {
+      "word": "users.",
+      "start": 20.14,
+      "end": 20.48,
+      "probability": 0.9977700710296631
+    },
+    {
+      "word": "Saving",
+      "start": 21.46,
+      "end": 21.5,
+      "probability": 0.9570943117141724
+    },
+    {
+      "word": "a",
+      "start": 21.5,
+      "end": 21.72,
+      "probability": 0.989669144153595
+    },
+    {
+      "word": "natural",
+      "start": 21.72,
+      "end": 21.96,
+      "probability": 0.969296932220459
+    },
+    {
+      "word": "language",
+      "start": 21.96,
+      "end": 22.36,
+      "probability": 0.9463487863540649
+    },
+    {
+      "word": "role",
+      "start": 22.36,
+      "end": 22.72,
+      "probability": 0.6633059978485107
+    },
+    {
+      "word": "in",
+      "start": 22.72,
+      "end": 22.94,
+      "probability": 0.9970158338546753
+    },
+    {
+      "word": "the",
+      "start": 22.94,
+      "end": 23.02,
+      "probability": 0.9761332273483276
+    },
+    {
+      "word": "ontology",
+      "start": 23.02,
+      "end": 23.46,
+      "probability": 0.9444199204444885
+    },
+    {
+      "word": "provides",
+      "start": 23.46,
+      "end": 23.88,
+      "probability": 0.9795452356338501
+    },
+    {
+      "word": "semantic",
+      "start": 23.88,
+      "end": 24.3,
+      "probability": 0.9934165477752686
+    },
+    {
+      "word": "context",
+      "start": 24.3,
+      "end": 24.82,
+      "probability": 0.9909393787384033
+    },
+    {
+      "word": "for",
+      "start": 24.82,
+      "end": 25.32,
+      "probability": 0.9971457123756409
+    },
+    {
+      "word": "the",
+      "start": 25.32,
+      "end": 25.42,
+      "probability": 0.9941596984863281
+    },
+    {
+      "word": "chat",
+      "start": 25.42,
+      "end": 25.54,
+      "probability": 0.9191001653671265
+    },
+    {
+      "word": "agents.",
+      "start": 25.54,
+      "end": 25.84,
+      "probability": 0.9817565679550171
+    },
+    {
+      "word": "It",
+      "start": 26.5,
+      "end": 26.6,
+      "probability": 0.9949734210968018
+    },
+    {
+      "word": "does",
+      "start": 26.6,
+      "end": 26.82,
+      "probability": 0.9954667091369629
+    },
+    {
+      "word": "not",
+      "start": 26.82,
+      "end": 27.060000000000002,
+      "probability": 0.9982068538665771
+    },
+    {
+      "word": "automatically",
+      "start": 27.060000000000002,
+      "end": 27.64,
+      "probability": 0.9974270462989807
+    },
+    {
+      "word": "write",
+      "start": 27.64,
+      "end": 28.04,
+      "probability": 0.9938399195671082
+    },
+    {
+      "word": "the",
+      "start": 28.04,
+      "end": 28.22,
+      "probability": 0.9936493039131165
+    },
+    {
+      "word": "code",
+      "start": 28.22,
+      "end": 28.439999999999998,
+      "probability": 0.9974330067634583
+    },
+    {
+      "word": "to",
+      "start": 28.439999999999998,
+      "end": 28.64,
+      "probability": 0.9966688752174377
+    },
+    {
+      "word": "provision",
+      "start": 28.64,
+      "end": 28.880000000000003,
+      "probability": 0.9923378825187683
+    },
+    {
+      "word": "an",
+      "start": 28.880000000000003,
+      "end": 29.18,
+      "probability": 0.9893524646759033
+    },
+    {
+      "word": "active",
+      "start": 29.18,
+      "end": 29.560000000000002,
+      "probability": 0.996020495891571
+    },
+    {
+      "word": "running",
+      "start": 29.560000000000002,
+      "end": 30.02,
+      "probability": 0.8541946411132812
+    },
+    {
+      "word": "workflow",
+      "start": 30.02,
+      "end": 30.58,
+      "probability": 0.962039053440094
+    },
+    {
+      "word": "in",
+      "start": 30.58,
+      "end": 30.84,
+      "probability": 0.7299143075942993
+    },
+    {
+      "word": "data",
+      "start": 30.84,
+      "end": 30.96,
+      "probability": 0.5656066536903381
+    },
+    {
+      "word": "Activator.",
+      "start": 30.96,
+      "end": 31.5,
+      "probability": 0.9704833924770355
+    },
+    {
+      "word": "So",
+      "start": 31.98,
+      "end": 32.16,
+      "probability": 0.7102278470993042
+    },
+    {
+      "word": "they",
+      "start": 32.16,
+      "end": 32.34,
+      "probability": 0.8664562106132507
+    },
+    {
+      "word": "are",
+      "start": 32.34,
+      "end": 32.5,
+      "probability": 0.9880465269088745
+    },
+    {
+      "word": "separate",
+      "start": 32.5,
+      "end": 32.980000000000004,
+      "probability": 0.9746871590614319
+    },
+    {
+      "word": "steps.",
+      "start": 32.980000000000004,
+      "end": 33.34,
+      "probability": 0.9969122409820557
+    },
+    {
+      "word": "If",
+      "start": 33.9,
+      "end": 34.1,
+      "probability": 0.9848631024360657
+    },
+    {
+      "word": "you",
+      "start": 34.1,
+      "end": 34.239999999999995,
+      "probability": 0.9983510971069336
+    },
+    {
+      "word": "want",
+      "start": 34.239999999999995,
+      "end": 34.44,
+      "probability": 0.9985954165458679
+    },
+    {
+      "word": "an",
+      "start": 34.44,
+      "end": 34.56,
+      "probability": 0.995385468006134
+    },
+    {
+      "word": "alert",
+      "start": 34.56,
+      "end": 34.760000000000005,
+      "probability": 0.9980754852294922
+    },
+    {
+      "word": "to",
+      "start": 34.760000000000005,
+      "end": 34.94,
+      "probability": 0.9965950846672058
+    },
+    {
+      "word": "actually",
+      "start": 34.94,
+      "end": 35.2,
+      "probability": 0.9936601519584656
+    },
+    {
+      "word": "fire,",
+      "start": 35.2,
+      "end": 35.5,
+      "probability": 0.9913226366043091
+    },
+    {
+      "word": "a",
+      "start": 35.92,
+      "end": 36.08,
+      "probability": 0.9926971793174744
+    },
+    {
+      "word": "data",
+      "start": 36.08,
+      "end": 36.28,
+      "probability": 0.9523030519485474
+    },
+    {
+      "word": "engineer",
+      "start": 36.28,
+      "end": 36.7,
+      "probability": 0.9977495074272156
+    },
+    {
+      "word": "has",
+      "start": 36.7,
+      "end": 36.92,
+      "probability": 0.9986265897750854
+    },
+    {
+      "word": "to",
+      "start": 36.92,
+      "end": 37.08,
+      "probability": 0.9995653033256531
+    },
+    {
+      "word": "go",
+      "start": 37.08,
+      "end": 37.22,
+      "probability": 0.998206377029419
+    },
+    {
+      "word": "into",
+      "start": 37.22,
+      "end": 37.44,
+      "probability": 0.9924222826957703
+    },
+    {
+      "word": "Activator",
+      "start": 37.44,
+      "end": 38.06,
+      "probability": 0.9658946692943573
+    },
+    {
+      "word": "and",
+      "start": 38.06,
+      "end": 38.3,
+      "probability": 0.9581555724143982
+    },
+    {
+      "word": "configure",
+      "start": 38.3,
+      "end": 38.64,
+      "probability": 0.9957536458969116
+    },
+    {
+      "word": "that",
+      "start": 38.64,
+      "end": 38.92,
+      "probability": 0.9928069114685059
+    },
+    {
+      "word": "automation",
+      "start": 38.92,
+      "end": 39.239999999999995,
+      "probability": 0.9923304319381714
+    },
+    {
+      "word": "separately",
+      "start": 39.239999999999995,
+      "end": 39.8,
+      "probability": 0.9948548078536987
+    },
+    {
+      "word": "against",
+      "start": 39.82,
+      "end": 40.38,
+      "probability": 0.9891127943992615
+    },
+    {
+      "word": "the",
+      "start": 40.38,
+      "end": 40.6,
+      "probability": 0.9950129389762878
+    },
+    {
+      "word": "supported",
+      "start": 40.6,
+      "end": 40.88,
+      "probability": 0.98322993516922
+    },
+    {
+      "word": "data",
+      "start": 40.88,
+      "end": 41.14,
+      "probability": 0.7361514568328857
+    },
+    {
+      "word": "path.",
+      "start": 41.14,
+      "end": 41.44,
+      "probability": 0.9951428174972534
+    }
+  ],
+  "transcript_asr": "What about Activator? Fabric has a dedicated tool called data Activator specifically for triggering actions based on data changes. If I write a natural language business rule in my ontology interface, does that automatically provision an Activator alert in the background? No, it absolutely does not. And that's a massive point of confusion for new users. Saving a natural language role in the ontology provides semantic context for the chat agents. It does not automatically write the code to provision an active running workflow in data Activator. So they are separate steps. If you want an alert to actually fire, a data engineer has to go into Activator and configure that automation separately against the supported data path.",
+  "source_kind": "actual uploaded recording; continuous audio excerpt",
+  "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "status": "planned",
+  "publish_status": "draft for review",
+  "narration_replaced": false,
+  "actual_timestamps": true,
+  "context_label": "Original discussion excerpt",
+  "review_flags": [],
+  "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
+  "caption_corrections": [
+    {
+      "from": "activator?",
+      "to": "Activator?",
+      "reason": "technical-name orthography, not an audio change"
+    },
+    {
+      "from": "activator",
+      "to": "Activator",
+      "reason": "technical-name orthography, not an audio change"
+    },
+    {
+      "from": "activator",
+      "to": "Activator",
+      "reason": "technical-name orthography, not an audio change"
+    },
+    {
+      "from": "activator.",
+      "to": "Activator.",
+      "reason": "technical-name orthography, not an audio change"
+    },
+    {
+      "from": "activator",
+      "to": "Activator",
+      "reason": "technical-name orthography, not an audio change"
+    }
+  ],
+  "caption_join_review": []
+}

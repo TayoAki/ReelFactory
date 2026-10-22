@@ -1,0 +1,48 @@
+{
+  "id": "C49",
+  "family": "ownership",
+  "master_image": "../master-ownership.png",
+  "visual_workflow": "image-first",
+  "state_images": [
+    "01-initial.jpg",
+    "02-build.jpg",
+    "03-settled.jpg"
+  ],
+  "layers": [
+    {
+      "label": "Power BI report",
+      "sub": "DEFINITION / SOURCE",
+      "x": 100,
+      "y": 680,
+      "w": 880,
+      "h": 250,
+      "focal": true,
+      "on": 0.7,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Cowork draft",
+      "sub": "CONSUMER / MAPPING",
+      "x": 100,
+      "y": 1050,
+      "w": 880,
+      "h": 250,
+      "focal": false,
+      "on": 22.7,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    }
+  ],
+  "relation": "Report route, not ontology item",
+  "source_quote": "The source talks about using the Fabric IQ plugin in co -pilot co -work. Yes and notably this specific co -pilot feature is documented as generally available unlike the ontology feature which is in preview. Oh that's good. Co -pilot co -work allows an analyst to ground their AI conversations in specific Power BI reports and their underlying semantic models to quickly draft things like leadership reviews, executive summaries, or operational emails. So I can tell co -pilot draft a one -page regional review based on the findings in this specific sales report. But of course, there is a massive caveat noted. A very dangerous caveat. First, co -pilot co -work does not currently ground directly on the ontology items themselves. You have to point it specifically at the Power BI report.",
+  "why": "Separate the source of meaning or data from its consumer.",
+  "alternative": "Authentic tenant UI would be preferable for proving an executed product action; this clip is a concept illustration.",
+  "visual_review": "Draft, not human approved. Generated symbols corrected in editable reconstruction.",
+  "source_reference": "reference-library/frames/graphic/0003510.jpg",
+  "motion": "independent card alpha reveal + 16px eased settling, timed to recording keywords; fixed grid and presenter rail",
+  "source_start": 3215.04068,
+  "source_end": 3261.5206799999996,
+  "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+}

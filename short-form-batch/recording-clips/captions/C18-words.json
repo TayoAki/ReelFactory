@@ -1,0 +1,945 @@
+{
+  "id": "C18",
+  "title": "Query the derived type explicitly",
+  "source_start": 994.590975,
+  "source_end": 1045.670975,
+  "duration": 51.08000000000004,
+  "part_ranges": [
+    {
+      "part": "part01.m4a",
+      "start": 244.53999999999996,
+      "end": 295.62
+    }
+  ],
+  "family": "hierarchy",
+  "left_label": "Product",
+  "right_label": "Frozen Product",
+  "focus_label": "Name relevant types",
+  "example_kind": "hypothetical omitted frozen-products analysis",
+  "words": [
+    {
+      "word": "The",
+      "start": 0.3599999999999999,
+      "end": 0.52,
+      "probability": 0.9822784662246704
+    },
+    {
+      "word": "current",
+      "start": 0.52,
+      "end": 0.6600000000000001,
+      "probability": 0.9971367120742798
+    },
+    {
+      "word": "agent",
+      "start": 0.6600000000000001,
+      "end": 1.0,
+      "probability": 0.9878208041191101
+    },
+    {
+      "word": "does",
+      "start": 1.0,
+      "end": 1.2999999999999998,
+      "probability": 0.9967458248138428
+    },
+    {
+      "word": "not",
+      "start": 1.2999999999999998,
+      "end": 1.48,
+      "probability": 0.9992557168006897
+    },
+    {
+      "word": "automatically",
+      "start": 1.48,
+      "end": 2.0599999999999996,
+      "probability": 0.9972679615020752
+    },
+    {
+      "word": "traverse",
+      "start": 2.0599999999999996,
+      "end": 2.4000000000000004,
+      "probability": 0.9916328191757202
+    },
+    {
+      "word": "downward",
+      "start": 2.4000000000000004,
+      "end": 2.96,
+      "probability": 0.9785577654838562
+    },
+    {
+      "word": "to",
+      "start": 2.96,
+      "end": 3.3,
+      "probability": 0.9820594191551208
+    },
+    {
+      "word": "include",
+      "start": 3.3,
+      "end": 3.5599999999999996,
+      "probability": 0.999451220035553
+    },
+    {
+      "word": "every",
+      "start": 3.5599999999999996,
+      "end": 3.9800000000000004,
+      "probability": 0.991885781288147
+    },
+    {
+      "word": "derived",
+      "start": 3.9800000000000004,
+      "end": 4.46,
+      "probability": 0.988781750202179
+    },
+    {
+      "word": "instance",
+      "start": 4.46,
+      "end": 4.86,
+      "probability": 0.9954231381416321
+    },
+    {
+      "word": "when",
+      "start": 4.86,
+      "end": 5.16,
+      "probability": 0.9671604633331299
+    },
+    {
+      "word": "you",
+      "start": 5.16,
+      "end": 5.24,
+      "probability": 0.9973045587539673
+    },
+    {
+      "word": "query",
+      "start": 5.24,
+      "end": 5.5,
+      "probability": 0.9968812465667725
+    },
+    {
+      "word": "a",
+      "start": 5.5,
+      "end": 5.72,
+      "probability": 0.9956112504005432
+    },
+    {
+      "word": "broad",
+      "start": 5.72,
+      "end": 5.94,
+      "probability": 0.9796767830848694
+    },
+    {
+      "word": "parent",
+      "start": 5.94,
+      "end": 6.199999999999999,
+      "probability": 0.7726755738258362
+    },
+    {
+      "word": "type.",
+      "start": 6.199999999999999,
+      "end": 6.5,
+      "probability": 0.9887396693229675
+    },
+    {
+      "word": "Why",
+      "start": 7.0600000000000005,
+      "end": 7.4399999999999995,
+      "probability": 0.655371367931366
+    },
+    {
+      "word": "does",
+      "start": 7.4399999999999995,
+      "end": 7.5600000000000005,
+      "probability": 0.997649610042572
+    },
+    {
+      "word": "that",
+      "start": 7.5600000000000005,
+      "end": 7.720000000000001,
+      "probability": 0.9968980550765991
+    },
+    {
+      "word": "matter",
+      "start": 7.720000000000001,
+      "end": 7.98,
+      "probability": 0.9950140118598938
+    },
+    {
+      "word": "in",
+      "start": 7.98,
+      "end": 8.16,
+      "probability": 0.9766424894332886
+    },
+    {
+      "word": "a",
+      "start": 8.16,
+      "end": 8.32,
+      "probability": 0.9941331744194031
+    },
+    {
+      "word": "real",
+      "start": 8.32,
+      "end": 8.56,
+      "probability": 0.9884048700332642
+    },
+    {
+      "word": "-world",
+      "start": 8.56,
+      "end": 8.92,
+      "probability": 0.8114430606365204
+    },
+    {
+      "word": "query?",
+      "start": 8.92,
+      "end": 9.18,
+      "probability": 0.99196457862854
+    },
+    {
+      "word": "Walk",
+      "start": 9.46,
+      "end": 9.72,
+      "probability": 0.8525174260139465
+    },
+    {
+      "word": "me",
+      "start": 9.72,
+      "end": 9.9,
+      "probability": 0.9975866079330444
+    },
+    {
+      "word": "through",
+      "start": 9.9,
+      "end": 10.08,
+      "probability": 0.9958615899085999
+    },
+    {
+      "word": "a",
+      "start": 10.08,
+      "end": 10.14,
+      "probability": 0.9909143447875977
+    },
+    {
+      "word": "scenario.",
+      "start": 10.14,
+      "end": 10.44,
+      "probability": 0.9985936284065247
+    },
+    {
+      "word": "Let's",
+      "start": 10.82,
+      "end": 11.12,
+      "probability": 0.9762821197509766
+    },
+    {
+      "word": "say",
+      "start": 11.12,
+      "end": 11.26,
+      "probability": 0.9973388314247131
+    },
+    {
+      "word": "a",
+      "start": 11.26,
+      "end": 11.44,
+      "probability": 0.9736801385879517
+    },
+    {
+      "word": "regional",
+      "start": 11.44,
+      "end": 11.7,
+      "probability": 0.9474993944168091
+    },
+    {
+      "word": "manager",
+      "start": 11.7,
+      "end": 12.1,
+      "probability": 0.9978222846984863
+    },
+    {
+      "word": "is",
+      "start": 12.1,
+      "end": 12.42,
+      "probability": 0.9979826211929321
+    },
+    {
+      "word": "running",
+      "start": 12.42,
+      "end": 12.64,
+      "probability": 0.9941562414169312
+    },
+    {
+      "word": "a",
+      "start": 12.64,
+      "end": 12.8,
+      "probability": 0.998276948928833
+    },
+    {
+      "word": "diagnostic",
+      "start": 12.8,
+      "end": 13.08,
+      "probability": 0.9934304356575012
+    },
+    {
+      "word": "on",
+      "start": 13.08,
+      "end": 13.54,
+      "probability": 0.9965278506278992
+    },
+    {
+      "word": "everything",
+      "start": 13.54,
+      "end": 13.8,
+      "probability": 0.9987657070159912
+    },
+    {
+      "word": "in",
+      "start": 13.8,
+      "end": 14.059999999999999,
+      "probability": 0.9978442192077637
+    },
+    {
+      "word": "their",
+      "start": 14.059999999999999,
+      "end": 14.2,
+      "probability": 0.9944478273391724
+    },
+    {
+      "word": "supply",
+      "start": 14.2,
+      "end": 14.36,
+      "probability": 0.9930445551872253
+    },
+    {
+      "word": "chain",
+      "start": 14.36,
+      "end": 14.780000000000001,
+      "probability": 0.9958190321922302
+    },
+    {
+      "word": "that",
+      "start": 14.780000000000001,
+      "end": 14.920000000000002,
+      "probability": 0.9783348441123962
+    },
+    {
+      "word": "might",
+      "start": 14.920000000000002,
+      "end": 15.14,
+      "probability": 0.9975709319114685
+    },
+    {
+      "word": "spoil.",
+      "start": 15.14,
+      "end": 15.579999999999998,
+      "probability": 0.994387149810791
+    },
+    {
+      "word": "They",
+      "start": 16.3,
+      "end": 16.44,
+      "probability": 0.9911885261535645
+    },
+    {
+      "word": "sit",
+      "start": 16.44,
+      "end": 16.58,
+      "probability": 0.9974418878555298
+    },
+    {
+      "word": "down",
+      "start": 16.58,
+      "end": 16.84,
+      "probability": 0.9994837045669556
+    },
+    {
+      "word": "at",
+      "start": 16.84,
+      "end": 16.96,
+      "probability": 0.9942786693572998
+    },
+    {
+      "word": "the",
+      "start": 16.96,
+      "end": 17.06,
+      "probability": 0.9975250363349915
+    },
+    {
+      "word": "chat",
+      "start": 17.06,
+      "end": 17.22,
+      "probability": 0.9864263534545898
+    },
+    {
+      "word": "interface",
+      "start": 17.22,
+      "end": 17.62,
+      "probability": 0.998302698135376
+    },
+    {
+      "word": "and",
+      "start": 17.62,
+      "end": 18.02,
+      "probability": 0.9745454788208008
+    },
+    {
+      "word": "ask",
+      "start": 18.02,
+      "end": 18.22,
+      "probability": 0.9337223172187805
+    },
+    {
+      "word": "the",
+      "start": 18.22,
+      "end": 18.4,
+      "probability": 0.9978899359703064
+    },
+    {
+      "word": "agent",
+      "start": 18.4,
+      "end": 18.62,
+      "probability": 0.9981671571731567
+    },
+    {
+      "word": "to",
+      "start": 18.62,
+      "end": 18.8,
+      "probability": 0.9987480640411377
+    },
+    {
+      "word": "analyze",
+      "start": 18.8,
+      "end": 19.1,
+      "probability": 0.9945688247680664
+    },
+    {
+      "word": "inventory",
+      "start": 19.1,
+      "end": 19.6,
+      "probability": 0.9968288540840149
+    },
+    {
+      "word": "risk",
+      "start": 19.6,
+      "end": 20.14,
+      "probability": 0.9832846522331238
+    },
+    {
+      "word": "for",
+      "start": 20.16,
+      "end": 20.38,
+      "probability": 0.997878909111023
+    },
+    {
+      "word": "all",
+      "start": 20.38,
+      "end": 20.52,
+      "probability": 0.9849966764450073
+    },
+    {
+      "word": "product.",
+      "start": 20.52,
+      "end": 20.86,
+      "probability": 0.8630996346473694
+    },
+    {
+      "word": "Just",
+      "start": 21.18,
+      "end": 21.56,
+      "probability": 0.4367264211177826
+    },
+    {
+      "word": "general",
+      "start": 21.56,
+      "end": 21.8,
+      "probability": 0.9890663623809814
+    },
+    {
+      "word": "products.",
+      "start": 21.8,
+      "end": 22.259999999999998,
+      "probability": 0.9912596344947815
+    },
+    {
+      "word": "Right.",
+      "start": 22.68,
+      "end": 22.84,
+      "probability": 0.9011609554290771
+    },
+    {
+      "word": "Because",
+      "start": 23.42,
+      "end": 23.72,
+      "probability": 0.9964937567710876
+    },
+    {
+      "word": "of",
+      "start": 23.72,
+      "end": 23.96,
+      "probability": 0.9988962411880493
+    },
+    {
+      "word": "this",
+      "start": 23.96,
+      "end": 24.1,
+      "probability": 0.99409419298172
+    },
+    {
+      "word": "preview",
+      "start": 24.1,
+      "end": 24.42,
+      "probability": 0.9974900484085083
+    },
+    {
+      "word": "limitation,",
+      "start": 24.42,
+      "end": 25.06,
+      "probability": 0.9967605471611023
+    },
+    {
+      "word": "the",
+      "start": 25.3,
+      "end": 25.38,
+      "probability": 0.9955022931098938
+    },
+    {
+      "word": "agent",
+      "start": 25.38,
+      "end": 25.66,
+      "probability": 0.9981063604354858
+    },
+    {
+      "word": "might",
+      "start": 25.66,
+      "end": 25.84,
+      "probability": 0.994114339351654
+    },
+    {
+      "word": "only",
+      "start": 25.84,
+      "end": 26.04,
+      "probability": 0.9855487942695618
+    },
+    {
+      "word": "query",
+      "start": 26.04,
+      "end": 26.42,
+      "probability": 0.9970095157623291
+    },
+    {
+      "word": "the",
+      "start": 26.42,
+      "end": 26.64,
+      "probability": 0.9968211650848389
+    },
+    {
+      "word": "base",
+      "start": 26.64,
+      "end": 26.86,
+      "probability": 0.9727057814598083
+    },
+    {
+      "word": "product",
+      "start": 26.86,
+      "end": 27.380000000000003,
+      "probability": 0.9777904748916626
+    },
+    {
+      "word": "entity",
+      "start": 27.380000000000003,
+      "end": 28.04,
+      "probability": 0.9937250018119812
+    },
+    {
+      "word": "and",
+      "start": 28.330000000000002,
+      "end": 28.6,
+      "probability": 0.8648541569709778
+    },
+    {
+      "word": "completely",
+      "start": 28.6,
+      "end": 28.92,
+      "probability": 0.9960707426071167
+    },
+    {
+      "word": "fail",
+      "start": 28.92,
+      "end": 29.32,
+      "probability": 0.9869924783706665
+    },
+    {
+      "word": "to",
+      "start": 29.32,
+      "end": 29.6,
+      "probability": 0.9990383386611938
+    },
+    {
+      "word": "roll",
+      "start": 29.6,
+      "end": 29.78,
+      "probability": 0.9949182868003845
+    },
+    {
+      "word": "up",
+      "start": 29.78,
+      "end": 29.939999999999998,
+      "probability": 0.9873943328857422
+    },
+    {
+      "word": "the",
+      "start": 29.939999999999998,
+      "end": 30.08,
+      "probability": 0.9970184564590454
+    },
+    {
+      "word": "derived",
+      "start": 30.08,
+      "end": 30.380000000000003,
+      "probability": 0.9746474027633667
+    },
+    {
+      "word": "frozen",
+      "start": 30.380000000000003,
+      "end": 30.96,
+      "probability": 0.6970379948616028
+    },
+    {
+      "word": "product",
+      "start": 30.96,
+      "end": 31.64,
+      "probability": 0.9958826303482056
+    },
+    {
+      "word": "instances",
+      "start": 31.64,
+      "end": 32.12,
+      "probability": 0.9940060377120972
+    },
+    {
+      "word": "into",
+      "start": 32.12,
+      "end": 32.54,
+      "probability": 0.9567520618438721
+    },
+    {
+      "word": "that",
+      "start": 32.54,
+      "end": 32.78,
+      "probability": 0.9954908490180969
+    },
+    {
+      "word": "analysis.",
+      "start": 32.78,
+      "end": 33.28,
+      "probability": 0.9724000096321106
+    },
+    {
+      "word": "Oh,",
+      "start": 33.74,
+      "end": 33.86,
+      "probability": 0.7884039878845215
+    },
+    {
+      "word": "wow.",
+      "start": 33.86,
+      "end": 34.06,
+      "probability": 0.8319336771965027
+    },
+    {
+      "word": "So",
+      "start": 34.7,
+      "end": 34.86,
+      "probability": 0.9112716317176819
+    },
+    {
+      "word": "the",
+      "start": 34.86,
+      "end": 34.980000000000004,
+      "probability": 0.8632892966270447
+    },
+    {
+      "word": "manager",
+      "start": 34.980000000000004,
+      "end": 35.239999999999995,
+      "probability": 0.9802118539810181
+    },
+    {
+      "word": "thinks",
+      "start": 35.239999999999995,
+      "end": 35.72,
+      "probability": 0.9977400302886963
+    },
+    {
+      "word": "they",
+      "start": 35.72,
+      "end": 36.0,
+      "probability": 0.9888525009155273
+    },
+    {
+      "word": "are",
+      "start": 36.0,
+      "end": 36.1,
+      "probability": 0.95392245054245
+    },
+    {
+      "word": "looking",
+      "start": 36.1,
+      "end": 36.3,
+      "probability": 0.999346911907196
+    },
+    {
+      "word": "at",
+      "start": 36.3,
+      "end": 36.519999999999996,
+      "probability": 0.9992307424545288
+    },
+    {
+      "word": "a",
+      "start": 36.519999999999996,
+      "end": 36.56,
+      "probability": 0.9985263347625732
+    },
+    {
+      "word": "comprehensive",
+      "start": 36.56,
+      "end": 36.94,
+      "probability": 0.9989196062088013
+    },
+    {
+      "word": "report,",
+      "start": 36.94,
+      "end": 37.620000000000005,
+      "probability": 0.9993104934692383
+    },
+    {
+      "word": "but",
+      "start": 38.46,
+      "end": 38.519999999999996,
+      "probability": 0.9975600242614746
+    },
+    {
+      "word": "the",
+      "start": 38.519999999999996,
+      "end": 38.68,
+      "probability": 0.9965518712997437
+    },
+    {
+      "word": "AI",
+      "start": 38.68,
+      "end": 38.9,
+      "probability": 0.955023467540741
+    },
+    {
+      "word": "just",
+      "start": 38.9,
+      "end": 39.239999999999995,
+      "probability": 0.9827979207038879
+    },
+    {
+      "word": "silently",
+      "start": 39.239999999999995,
+      "end": 39.6,
+      "probability": 0.9990646243095398
+    },
+    {
+      "word": "ignored",
+      "start": 39.56,
+      "end": 40.52,
+      "probability": 0.9964297413825989
+    },
+    {
+      "word": "half",
+      "start": 40.52,
+      "end": 41.54,
+      "probability": 0.9462525248527527
+    },
+    {
+      "word": "a",
+      "start": 41.54,
+      "end": 41.74,
+      "probability": 0.9763201475143433
+    },
+    {
+      "word": "million",
+      "start": 41.74,
+      "end": 41.98,
+      "probability": 0.9966192245483398
+    },
+    {
+      "word": "dollars",
+      "start": 41.98,
+      "end": 42.38,
+      "probability": 0.9925107955932617
+    },
+    {
+      "word": "worth",
+      "start": 42.38,
+      "end": 42.58,
+      "probability": 0.8592523336410522
+    },
+    {
+      "word": "of",
+      "start": 42.58,
+      "end": 42.76,
+      "probability": 0.99577397108078
+    },
+    {
+      "word": "melting",
+      "start": 42.76,
+      "end": 43.0,
+      "probability": 0.9862605929374695
+    },
+    {
+      "word": "ice",
+      "start": 43.0,
+      "end": 43.3,
+      "probability": 0.9704294800758362
+    },
+    {
+      "word": "cream",
+      "start": 43.3,
+      "end": 43.54,
+      "probability": 0.9860110282897949
+    },
+    {
+      "word": "because",
+      "start": 43.54,
+      "end": 43.88,
+      "probability": 0.7649413347244263
+    },
+    {
+      "word": "the",
+      "start": 43.88,
+      "end": 44.519999999999996,
+      "probability": 0.9659566283226013
+    },
+    {
+      "word": "human",
+      "start": 44.519999999999996,
+      "end": 44.72,
+      "probability": 0.9824476838111877
+    },
+    {
+      "word": "didn't",
+      "start": 44.72,
+      "end": 45.06,
+      "probability": 0.9932012557983398
+    },
+    {
+      "word": "specifically",
+      "start": 45.06,
+      "end": 45.28,
+      "probability": 0.9958282113075256
+    },
+    {
+      "word": "say",
+      "start": 45.28,
+      "end": 45.78,
+      "probability": 0.9939519762992859
+    },
+    {
+      "word": "the",
+      "start": 45.78,
+      "end": 45.9,
+      "probability": 0.9874522089958191
+    },
+    {
+      "word": "word",
+      "start": 45.9,
+      "end": 46.04,
+      "probability": 0.9975628852844238
+    },
+    {
+      "word": "frozen.",
+      "start": 46.04,
+      "end": 46.34,
+      "probability": 0.9055492281913757
+    },
+    {
+      "word": "Precisely.",
+      "start": 46.64,
+      "end": 47.2,
+      "probability": 0.7839073240756989
+    },
+    {
+      "word": "You",
+      "start": 47.4,
+      "end": 47.76,
+      "probability": 0.9672649502754211
+    },
+    {
+      "word": "have",
+      "start": 47.76,
+      "end": 47.96,
+      "probability": 0.994629442691803
+    },
+    {
+      "word": "to",
+      "start": 47.96,
+      "end": 48.14,
+      "probability": 0.9952490329742432
+    },
+    {
+      "word": "specifically",
+      "start": 48.14,
+      "end": 48.480000000000004,
+      "probability": 0.9871517419815063
+    },
+    {
+      "word": "name",
+      "start": 48.480000000000004,
+      "end": 48.980000000000004,
+      "probability": 0.9910138249397278
+    },
+    {
+      "word": "the",
+      "start": 48.980000000000004,
+      "end": 49.14,
+      "probability": 0.9965572357177734
+    },
+    {
+      "word": "relevant",
+      "start": 49.14,
+      "end": 49.42,
+      "probability": 0.8910222053527832
+    },
+    {
+      "word": "derived",
+      "start": 49.42,
+      "end": 49.74,
+      "probability": 0.6276422142982483
+    },
+    {
+      "word": "type",
+      "start": 49.74,
+      "end": 50.3,
+      "probability": 0.9940955638885498
+    },
+    {
+      "word": "in",
+      "start": 50.3,
+      "end": 50.54,
+      "probability": 0.9935507774353027
+    },
+    {
+      "word": "your",
+      "start": 50.54,
+      "end": 50.66,
+      "probability": 0.9973915815353394
+    },
+    {
+      "word": "prompt.",
+      "start": 50.66,
+      "end": 50.94,
+      "probability": 0.9957591891288757
+    }
+  ],
+  "transcript_asr": "The current agent does not automatically traverse downward to include every derived instance when you query a broad parent type. Why does that matter in a real -world query? Walk me through a scenario. Let's say a regional manager is running a diagnostic on everything in their supply chain that might spoil. They sit down at the chat interface and ask the agent to analyze inventory risk for all product. Just general products. Right. Because of this preview limitation, the agent might only query the base product entity and completely fail to roll up the derived frozen product instances into that analysis. Oh, wow. So the manager thinks they are looking at a comprehensive report, but the AI just silently ignored half a million dollars worth of melting ice cream because the human didn't specifically say the word frozen. Precisely. You have to specifically name the relevant derived type in your prompt.",
+  "source_kind": "actual uploaded recording; continuous audio excerpt",
+  "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "status": "planned",
+  "publish_status": "draft for review",
+  "narration_replaced": false,
+  "actual_timestamps": true,
+  "context_label": "Illustrative scenario",
+  "review_flags": [],
+  "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
+  "caption_corrections": [],
+  "caption_join_review": []
+}

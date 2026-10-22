@@ -1,0 +1,5 @@
+Inheritance reuses a base structure
+Original recording 14:44–15:22
+ASR draft; technical-name spelling normalized.
+
+Break down how that inheritance actually looks in practice for us. Sure. In the Lakeshore Retail example provided in the source, they start with a very broad base type called location. A location simply has properties like an address, geographic coordinates, and a manager name. You can then create a store entity that derives from location. So it inherits all that base stuff. The store automatically inherits the address and coordinates, but then you add store specific properties, like retail square footage. Similarly, you could have a base entity called product and derive a highly specific entity called frozen product.

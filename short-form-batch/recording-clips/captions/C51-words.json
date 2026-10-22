@@ -1,0 +1,573 @@
+{
+  "id": "C51",
+  "title": "Chat history is not durable business knowledge",
+  "source_start": 3316.60068,
+  "source_end": 3350.34068,
+  "duration": 33.73999999999978,
+  "part_ranges": [
+    {
+      "part": "part04.m4a",
+      "start": 316.4200000000001,
+      "end": 350.15999999999985
+    }
+  ],
+  "family": "boundary",
+  "left_label": "Browser conversation",
+  "right_label": "Saved ontology definitions",
+  "focus_label": "Persist the durable meaning",
+  "example_kind": "session-lifetime limits",
+  "words": [
+    {
+      "word": "the",
+      "start": 0.10000000000000009,
+      "end": 0.16000000000000014,
+      "probability": 0.9175976514816284
+    },
+    {
+      "word": "source",
+      "start": 0.16000000000000014,
+      "end": 0.3599999999999999,
+      "probability": 0.9763641357421875
+    },
+    {
+      "word": "mentions",
+      "start": 0.3599999999999999,
+      "end": 0.7999999999999998,
+      "probability": 0.9978443384170532
+    },
+    {
+      "word": "a",
+      "start": 0.7999999999999998,
+      "end": 1.1,
+      "probability": 0.9912860989570618
+    },
+    {
+      "word": "maximum",
+      "start": 1.1,
+      "end": 1.46,
+      "probability": 0.9766877293586731
+    },
+    {
+      "word": "conversation",
+      "start": 1.46,
+      "end": 2.2800000000000002,
+      "probability": 0.9700539112091064
+    },
+    {
+      "word": "lifetime",
+      "start": 2.2800000000000002,
+      "end": 2.6799999999999997,
+      "probability": 0.9892905354499817
+    },
+    {
+      "word": "of",
+      "start": 2.6799999999999997,
+      "end": 3.2199999999999998,
+      "probability": 0.9945734143257141
+    },
+    {
+      "word": "24",
+      "start": 3.2199999999999998,
+      "end": 3.54,
+      "probability": 0.9767311811447144
+    },
+    {
+      "word": "hours.",
+      "start": 3.54,
+      "end": 4.08,
+      "probability": 0.9872775673866272
+    },
+    {
+      "word": "Yes.",
+      "start": 4.46,
+      "end": 4.82,
+      "probability": 0.6299683451652527
+    },
+    {
+      "word": "The",
+      "start": 5.34,
+      "end": 5.88,
+      "probability": 0.9805343747138977
+    },
+    {
+      "word": "built",
+      "start": 5.88,
+      "end": 6.039999999999999,
+      "probability": 0.7972767353057861
+    },
+    {
+      "word": "-in",
+      "start": 6.039999999999999,
+      "end": 6.279999999999999,
+      "probability": 0.8261441290378571
+    },
+    {
+      "word": "ontology",
+      "start": 6.279999999999999,
+      "end": 6.640000000000001,
+      "probability": 0.7199708819389343
+    },
+    {
+      "word": "agent's",
+      "start": 6.640000000000001,
+      "end": 7.24,
+      "probability": 0.692122757434845
+    },
+    {
+      "word": "conversation",
+      "start": 7.24,
+      "end": 7.5,
+      "probability": 0.9838762879371643
+    },
+    {
+      "word": "history",
+      "start": 7.5,
+      "end": 8.14,
+      "probability": 0.9969622492790222
+    },
+    {
+      "word": "only",
+      "start": 8.14,
+      "end": 8.44,
+      "probability": 0.9855703115463257
+    },
+    {
+      "word": "lasts",
+      "start": 8.44,
+      "end": 8.88,
+      "probability": 0.8948675394058228
+    },
+    {
+      "word": "within",
+      "start": 8.88,
+      "end": 9.18,
+      "probability": 0.9925704598426819
+    },
+    {
+      "word": "your",
+      "start": 9.18,
+      "end": 9.4,
+      "probability": 0.9963854551315308
+    },
+    {
+      "word": "current",
+      "start": 9.4,
+      "end": 9.68,
+      "probability": 0.9975069165229797
+    },
+    {
+      "word": "browser",
+      "start": 9.68,
+      "end": 9.94,
+      "probability": 0.9888239502906799
+    },
+    {
+      "word": "session.",
+      "start": 9.94,
+      "end": 10.56,
+      "probability": 0.9825568795204163
+    },
+    {
+      "word": "Wait,",
+      "start": 10.8,
+      "end": 10.88,
+      "probability": 0.8776764869689941
+    },
+    {
+      "word": "really?",
+      "start": 10.88,
+      "end": 11.2,
+      "probability": 0.99437016248703
+    },
+    {
+      "word": "If",
+      "start": 11.52,
+      "end": 11.64,
+      "probability": 0.9815745949745178
+    },
+    {
+      "word": "you",
+      "start": 11.64,
+      "end": 11.78,
+      "probability": 0.9983587861061096
+    },
+    {
+      "word": "refresh",
+      "start": 11.78,
+      "end": 12.12,
+      "probability": 0.9915254712104797
+    },
+    {
+      "word": "the",
+      "start": 12.12,
+      "end": 12.46,
+      "probability": 0.9923094511032104
+    },
+    {
+      "word": "page,",
+      "start": 12.46,
+      "end": 12.8,
+      "probability": 0.9986147880554199
+    },
+    {
+      "word": "close",
+      "start": 13.26,
+      "end": 13.48,
+      "probability": 0.9930382370948792
+    },
+    {
+      "word": "the",
+      "start": 13.48,
+      "end": 13.64,
+      "probability": 0.9941818118095398
+    },
+    {
+      "word": "browser",
+      "start": 13.64,
+      "end": 13.78,
+      "probability": 0.9614061713218689
+    },
+    {
+      "word": "tab",
+      "start": 13.78,
+      "end": 14.219999999999999,
+      "probability": 0.966253936290741
+    },
+    {
+      "word": "or",
+      "start": 14.219999999999999,
+      "end": 14.46,
+      "probability": 0.634647011756897
+    },
+    {
+      "word": "hit",
+      "start": 14.46,
+      "end": 14.600000000000001,
+      "probability": 0.9964354038238525
+    },
+    {
+      "word": "the",
+      "start": 14.600000000000001,
+      "end": 14.719999999999999,
+      "probability": 0.9955387711524963
+    },
+    {
+      "word": "24",
+      "start": 14.719999999999999,
+      "end": 14.98,
+      "probability": 0.9846946597099304
+    },
+    {
+      "word": "hour",
+      "start": 14.98,
+      "end": 15.3,
+      "probability": 0.5075308084487915
+    },
+    {
+      "word": "mark,",
+      "start": 15.3,
+      "end": 15.600000000000001,
+      "probability": 0.9833646416664124
+    },
+    {
+      "word": "that",
+      "start": 15.98,
+      "end": 16.08,
+      "probability": 0.9634175896644592
+    },
+    {
+      "word": "entire",
+      "start": 16.08,
+      "end": 16.36,
+      "probability": 0.9991938471794128
+    },
+    {
+      "word": "conversational",
+      "start": 16.36,
+      "end": 17.3,
+      "probability": 0.9473147988319397
+    },
+    {
+      "word": "history",
+      "start": 17.3,
+      "end": 17.56,
+      "probability": 0.9963822364807129
+    },
+    {
+      "word": "is",
+      "start": 17.56,
+      "end": 17.9,
+      "probability": 0.9983633160591125
+    },
+    {
+      "word": "permanently",
+      "start": 17.9,
+      "end": 18.4,
+      "probability": 0.9934327602386475
+    },
+    {
+      "word": "gone.",
+      "start": 18.4,
+      "end": 18.76,
+      "probability": 0.9937514662742615
+    },
+    {
+      "word": "So",
+      "start": 19.56,
+      "end": 19.62,
+      "probability": 0.9275160431861877
+    },
+    {
+      "word": "under",
+      "start": 19.62,
+      "end": 19.76,
+      "probability": 0.6178361177444458
+    },
+    {
+      "word": "no",
+      "start": 19.76,
+      "end": 20.1,
+      "probability": 0.9928551316261292
+    },
+    {
+      "word": "circumstances",
+      "start": 20.1,
+      "end": 20.6,
+      "probability": 0.987007200717926
+    },
+    {
+      "word": "should",
+      "start": 20.6,
+      "end": 21.12,
+      "probability": 0.7631688714027405
+    },
+    {
+      "word": "a",
+      "start": 21.12,
+      "end": 21.240000000000002,
+      "probability": 0.9277215003967285
+    },
+    {
+      "word": "team",
+      "start": 21.240000000000002,
+      "end": 21.42,
+      "probability": 0.9837291836738586
+    },
+    {
+      "word": "use",
+      "start": 21.42,
+      "end": 21.68,
+      "probability": 0.9948794841766357
+    },
+    {
+      "word": "the",
+      "start": 21.68,
+      "end": 21.84,
+      "probability": 0.9856044054031372
+    },
+    {
+      "word": "chat",
+      "start": 21.84,
+      "end": 21.98,
+      "probability": 0.9506376385688782
+    },
+    {
+      "word": "window",
+      "start": 21.98,
+      "end": 22.28,
+      "probability": 0.9504469037055969
+    },
+    {
+      "word": "as",
+      "start": 22.28,
+      "end": 22.54,
+      "probability": 0.9523956179618835
+    },
+    {
+      "word": "their",
+      "start": 22.54,
+      "end": 22.66,
+      "probability": 0.9861547350883484
+    },
+    {
+      "word": "permanent",
+      "start": 22.66,
+      "end": 22.96,
+      "probability": 0.9755991101264954
+    },
+    {
+      "word": "knowledge",
+      "start": 22.96,
+      "end": 23.48,
+      "probability": 0.924341082572937
+    },
+    {
+      "word": "repository",
+      "start": 23.48,
+      "end": 24.06,
+      "probability": 0.9727548360824585
+    },
+    {
+      "word": "or",
+      "start": 24.06,
+      "end": 24.5,
+      "probability": 0.9743693470954895
+    },
+    {
+      "word": "decision",
+      "start": 24.5,
+      "end": 24.82,
+      "probability": 0.9892184138298035
+    },
+    {
+      "word": "log?",
+      "start": 24.82,
+      "end": 25.18,
+      "probability": 0.9280998110771179
+    },
+    {
+      "word": "Absolutely",
+      "start": 25.36,
+      "end": 25.68,
+      "probability": 0.9762126803398132
+    },
+    {
+      "word": "not.",
+      "start": 25.68,
+      "end": 26.119999999999997,
+      "probability": 0.981554388999939
+    },
+    {
+      "word": "The",
+      "start": 26.86,
+      "end": 27.02,
+      "probability": 0.9882752895355225
+    },
+    {
+      "word": "chat",
+      "start": 27.02,
+      "end": 27.259999999999998,
+      "probability": 0.9843941330909729
+    },
+    {
+      "word": "is",
+      "start": 27.259999999999998,
+      "end": 27.46,
+      "probability": 0.9969443678855896
+    },
+    {
+      "word": "strictly",
+      "start": 27.46,
+      "end": 27.72,
+      "probability": 0.9979090690612793
+    },
+    {
+      "word": "an",
+      "start": 27.72,
+      "end": 28.08,
+      "probability": 0.7466668486595154
+    },
+    {
+      "word": "ephemeral",
+      "start": 28.08,
+      "end": 28.48,
+      "probability": 0.9971135258674622
+    },
+    {
+      "word": "scratch",
+      "start": 28.48,
+      "end": 28.68,
+      "probability": 0.9728375673294067
+    },
+    {
+      "word": "pad.",
+      "start": 28.68,
+      "end": 29.0,
+      "probability": 0.7773949503898621
+    },
+    {
+      "word": "The",
+      "start": 29.78,
+      "end": 29.82,
+      "probability": 0.9764544367790222
+    },
+    {
+      "word": "durable,",
+      "start": 29.82,
+      "end": 30.08,
+      "probability": 0.9937716126441956
+    },
+    {
+      "word": "permanent",
+      "start": 30.08,
+      "end": 30.82,
+      "probability": 0.994975209236145
+    },
+    {
+      "word": "knowledge",
+      "start": 30.82,
+      "end": 31.2,
+      "probability": 0.9950382113456726
+    },
+    {
+      "word": "must",
+      "start": 31.2,
+      "end": 31.48,
+      "probability": 0.9976068735122681
+    },
+    {
+      "word": "be",
+      "start": 31.48,
+      "end": 31.68,
+      "probability": 0.9994664788246155
+    },
+    {
+      "word": "saved",
+      "start": 31.68,
+      "end": 31.96,
+      "probability": 0.9976211190223694
+    },
+    {
+      "word": "in",
+      "start": 31.96,
+      "end": 32.08,
+      "probability": 0.9939192533493042
+    },
+    {
+      "word": "the",
+      "start": 32.08,
+      "end": 32.16,
+      "probability": 0.9942751526832581
+    },
+    {
+      "word": "ontology",
+      "start": 32.16,
+      "end": 32.519999999999996,
+      "probability": 0.9916774332523346
+    },
+    {
+      "word": "definitions",
+      "start": 32.519999999999996,
+      "end": 32.96,
+      "probability": 0.9934805631637573
+    },
+    {
+      "word": "themselves,",
+      "start": 32.96,
+      "end": 33.54,
+      "probability": 0.9974806904792786
+    }
+  ],
+  "transcript_asr": "the source mentions a maximum conversation lifetime of 24 hours. Yes. The built -in ontology agent's conversation history only lasts within your current browser session. Wait, really? If you refresh the page, close the browser tab or hit the 24 hour mark, that entire conversational history is permanently gone. So under no circumstances should a team use the chat window as their permanent knowledge repository or decision log? Absolutely not. The chat is strictly an ephemeral scratch pad. The durable, permanent knowledge must be saved in the ontology definitions themselves,",
+  "source_kind": "actual uploaded recording; continuous audio excerpt",
+  "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "status": "planned",
+  "publish_status": "draft for review",
+  "narration_replaced": false,
+  "actual_timestamps": true,
+  "context_label": "Preview context \u00b7 Oct 2026",
+  "review_flags": [],
+  "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
+  "caption_corrections": [],
+  "caption_join_review": []
+}

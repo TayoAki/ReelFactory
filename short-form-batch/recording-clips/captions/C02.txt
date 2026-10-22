@@ -1,0 +1,5 @@
+The same temperature can mean different things
+Original recording 03:00–03:58
+ASR draft; technical-name spelling normalized.
+
+I want to look really closely at that gap between data and meaning, because if you pull up a table and it shows a column labeled temperature, that's just a raw number. Right, it completely lacks the commercial context. Exactly. It doesn't tell you anything about the store experiencing that temperature. Well, let's trace that exact problem because it's a great example. If you have a spreadsheet and a column simply says temperature 45, what does your AI do with that? It just reads the number 45. Right. And if it's the ambient temperature outside a retail location on a pleasant spring day, 45 degrees Fahrenheit is just chilly. Sure. But if that sensor is sitting inside a commercial refrigeration unit, holding thousands of dollars of premium pharmaceutical supplies or, you know, frozen food, then 45 degrees is a total disaster. It's a catastrophic failure in progress. But the data itself, the integer of 45, is completely agnostic to your business reality.

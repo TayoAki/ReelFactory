@@ -1,0 +1,44 @@
+{
+  "id": "C12",
+  "family": "entities",
+  "master_image": "../master-entities.png",
+  "visual_workflow": "image-first",
+  "state_images": [
+    "01-initial.jpg",
+    "02-build.jpg",
+    "03-settled.jpg"
+  ],
+  "layers": [
+    {
+      "label": "Store",
+      "sub": "ENTITY TYPE",
+      "x": 100,
+      "y": 680,
+      "w": 880,
+      "h": 250,
+      "focal": true,
+      "on": 0.7,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Refrigeration Unit",
+      "sub": "ENTITY TYPE",
+      "x": 100,
+      "y": 1050,
+      "w": 880,
+      "h": 250,
+      "focal": false,
+      "on": 23.19,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    }
+  ],
+  "relation": "operates",
+  "source_quote": "For our store entity, the properties might include the region it belongs to, its square footage, or its priority classification for the supply chain. And then we have to connect them. That brings us to relationships. Relationships define the verbs between the nouns. They explain how different entity types interact in the real world. Give me an example. You might define a relationship that states a store operates a refrigeration unit or a supplier ships a product. You are drawing explicit lines of meaning so the AI doesn't have to guess how a supplier and a store are connected.",
+  "why": "Keep the named concepts and their relationship visible.",
+  "alternative": "Authentic tenant UI would be preferable for proving an executed product action; this clip is a concept illustration.",
+  "visual_review": "Draft, not human approved. Generated symbols corrected in editable reconstruction.",
+  "source_reference": "reference-library/frames/graphic/0003510.jpg",
+  "motion": "independent card alpha reveal + 16px eased settling, timed to recording keywords; fixed grid and presenter rail"
+}

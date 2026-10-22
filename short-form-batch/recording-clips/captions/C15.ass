@@ -1,0 +1,110 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.08,0:00:00.27,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Break{\c&H002A2B17&\b0} down how\Nthat inheritance actually
+Dialogue: 0,0:00:00.27,0:00:00.46,Default,,0,0,0,,{\pos(540,1513)}Break {\c&H00657811&\b1}down{\c&H002A2B17&\b0} how\Nthat inheritance actually
+Dialogue: 0,0:00:00.46,0:00:00.68,Default,,0,0,0,,{\pos(540,1513)}Break down {\c&H00657811&\b1}how{\c&H002A2B17&\b0}\Nthat inheritance actually
+Dialogue: 0,0:00:00.68,0:00:00.81,Default,,0,0,0,,{\pos(540,1513)}Break down how\N{\c&H00657811&\b1}that{\c&H002A2B17&\b0} inheritance actually
+Dialogue: 0,0:00:00.81,0:00:01.22,Default,,0,0,0,,{\pos(540,1513)}Break down how\Nthat {\c&H00657811&\b1}inheritance{\c&H002A2B17&\b0} actually
+Dialogue: 0,0:00:01.22,0:00:01.96,Default,,0,0,0,,{\pos(540,1513)}Break down how\Nthat inheritance {\c&H00657811&\b1}actually{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:01.84,0:00:02.17,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}looks{\c&H002A2B17&\b0} in practice for us.
+Dialogue: 0,0:00:02.17,0:00:02.34,Default,,0,0,0,,{\pos(540,1513)}looks {\c&H00657811&\b1}in{\c&H002A2B17&\b0} practice for us.
+Dialogue: 0,0:00:02.34,0:00:02.58,Default,,0,0,0,,{\pos(540,1513)}looks in {\c&H00657811&\b1}practice{\c&H002A2B17&\b0} for us.
+Dialogue: 0,0:00:02.58,0:00:02.94,Default,,0,0,0,,{\pos(540,1513)}looks in practice {\c&H00657811&\b1}for{\c&H002A2B17&\b0} us.
+Dialogue: 0,0:00:02.94,0:00:03.26,Default,,0,0,0,,{\pos(540,1513)}looks in practice for {\c&H00657811&\b1}us.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:03.42,0:00:04.05,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Sure.{\c&H002A2B17&\b0} In the\NLakeshore Retail example
+Dialogue: 0,0:00:04.05,0:00:04.34,Default,,0,0,0,,{\pos(540,1513)}Sure. {\c&H00657811&\b1}In{\c&H002A2B17&\b0} the\NLakeshore Retail example
+Dialogue: 0,0:00:04.34,0:00:04.63,Default,,0,0,0,,{\pos(540,1513)}Sure. In {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\NLakeshore Retail example
+Dialogue: 0,0:00:04.63,0:00:05.00,Default,,0,0,0,,{\pos(540,1513)}Sure. In the\N{\c&H00657811&\b1}Lakeshore{\c&H002A2B17&\b0} Retail example
+Dialogue: 0,0:00:05.00,0:00:05.28,Default,,0,0,0,,{\pos(540,1513)}Sure. In the\NLakeshore {\c&H00657811&\b1}Retail{\c&H002A2B17&\b0} example
+Dialogue: 0,0:00:05.28,0:00:05.96,Default,,0,0,0,,{\pos(540,1513)}Sure. In the\NLakeshore Retail {\c&H00657811&\b1}example{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:05.84,0:00:06.26,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}provided{\c&H002A2B17&\b0} in the\Nsource, they start
+Dialogue: 0,0:00:06.26,0:00:06.56,Default,,0,0,0,,{\pos(540,1513)}provided {\c&H00657811&\b1}in{\c&H002A2B17&\b0} the\Nsource, they start
+Dialogue: 0,0:00:06.56,0:00:06.64,Default,,0,0,0,,{\pos(540,1513)}provided in {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nsource, they start
+Dialogue: 0,0:00:06.64,0:00:07.26,Default,,0,0,0,,{\pos(540,1513)}provided in the\N{\c&H00657811&\b1}source,{\c&H002A2B17&\b0} they start
+Dialogue: 0,0:00:07.26,0:00:07.44,Default,,0,0,0,,{\pos(540,1513)}provided in the\Nsource, {\c&H00657811&\b1}they{\c&H002A2B17&\b0} start
+Dialogue: 0,0:00:07.44,0:00:07.76,Default,,0,0,0,,{\pos(540,1513)}provided in the\Nsource, they {\c&H00657811&\b1}start{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:07.64,0:00:07.80,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}with{\c&H002A2B17&\b0} a very\Nbroad base type
+Dialogue: 0,0:00:07.80,0:00:07.90,Default,,0,0,0,,{\pos(540,1513)}with {\c&H00657811&\b1}a{\c&H002A2B17&\b0} very\Nbroad base type
+Dialogue: 0,0:00:07.90,0:00:08.24,Default,,0,0,0,,{\pos(540,1513)}with a {\c&H00657811&\b1}very{\c&H002A2B17&\b0}\Nbroad base type
+Dialogue: 0,0:00:08.24,0:00:08.66,Default,,0,0,0,,{\pos(540,1513)}with a very\N{\c&H00657811&\b1}broad{\c&H002A2B17&\b0} base type
+Dialogue: 0,0:00:08.66,0:00:09.16,Default,,0,0,0,,{\pos(540,1513)}with a very\Nbroad {\c&H00657811&\b1}base{\c&H002A2B17&\b0} type
+Dialogue: 0,0:00:09.16,0:00:09.73,Default,,0,0,0,,{\pos(540,1513)}with a very\Nbroad base {\c&H00657811&\b1}type{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:09.61,0:00:09.92,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}called{\c&H002A2B17&\b0} location.\NA location simply
+Dialogue: 0,0:00:09.92,0:00:10.80,Default,,0,0,0,,{\pos(540,1513)}called {\c&H00657811&\b1}location.{\c&H002A2B17&\b0}\NA location simply
+Dialogue: 0,0:00:10.80,0:00:10.92,Default,,0,0,0,,{\pos(540,1513)}called location.\N{\c&H00657811&\b1}A{\c&H002A2B17&\b0} location simply
+Dialogue: 0,0:00:10.92,0:00:11.54,Default,,0,0,0,,{\pos(540,1513)}called location.\NA {\c&H00657811&\b1}location{\c&H002A2B17&\b0} simply
+Dialogue: 0,0:00:11.54,0:00:12.15,Default,,0,0,0,,{\pos(540,1513)}called location.\NA location {\c&H00657811&\b1}simply{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:12.04,0:00:12.22,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}has{\c&H002A2B17&\b0} properties like\Nan address, geographic
+Dialogue: 0,0:00:12.22,0:00:12.56,Default,,0,0,0,,{\pos(540,1513)}has {\c&H00657811&\b1}properties{\c&H002A2B17&\b0} like\Nan address, geographic
+Dialogue: 0,0:00:12.56,0:00:12.92,Default,,0,0,0,,{\pos(540,1513)}has properties {\c&H00657811&\b1}like{\c&H002A2B17&\b0}\Nan address, geographic
+Dialogue: 0,0:00:12.92,0:00:13.10,Default,,0,0,0,,{\pos(540,1513)}has properties like\N{\c&H00657811&\b1}an{\c&H002A2B17&\b0} address, geographic
+Dialogue: 0,0:00:13.10,0:00:14.07,Default,,0,0,0,,{\pos(540,1513)}has properties like\Nan {\c&H00657811&\b1}address,{\c&H002A2B17&\b0} geographic
+Dialogue: 0,0:00:14.07,0:00:14.28,Default,,0,0,0,,{\pos(540,1513)}has properties like\Nan address, {\c&H00657811&\b1}geographic{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:14.16,0:00:15.18,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}coordinates,{\c&H002A2B17&\b0} and\Na manager name.
+Dialogue: 0,0:00:15.18,0:00:15.23,Default,,0,0,0,,{\pos(540,1513)}coordinates, {\c&H00657811&\b1}and{\c&H002A2B17&\b0}\Na manager name.
+Dialogue: 0,0:00:15.23,0:00:15.32,Default,,0,0,0,,{\pos(540,1513)}coordinates, and\N{\c&H00657811&\b1}a{\c&H002A2B17&\b0} manager name.
+Dialogue: 0,0:00:15.32,0:00:15.57,Default,,0,0,0,,{\pos(540,1513)}coordinates, and\Na {\c&H00657811&\b1}manager{\c&H002A2B17&\b0} name.
+Dialogue: 0,0:00:15.57,0:00:15.97,Default,,0,0,0,,{\pos(540,1513)}coordinates, and\Na manager {\c&H00657811&\b1}name.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:16.76,0:00:16.89,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}You{\c&H002A2B17&\b0} can then\Ncreate a store
+Dialogue: 0,0:00:16.89,0:00:17.02,Default,,0,0,0,,{\pos(540,1513)}You {\c&H00657811&\b1}can{\c&H002A2B17&\b0} then\Ncreate a store
+Dialogue: 0,0:00:17.02,0:00:17.20,Default,,0,0,0,,{\pos(540,1513)}You can {\c&H00657811&\b1}then{\c&H002A2B17&\b0}\Ncreate a store
+Dialogue: 0,0:00:17.20,0:00:17.52,Default,,0,0,0,,{\pos(540,1513)}You can then\N{\c&H00657811&\b1}create{\c&H002A2B17&\b0} a store
+Dialogue: 0,0:00:17.52,0:00:17.73,Default,,0,0,0,,{\pos(540,1513)}You can then\Ncreate {\c&H00657811&\b1}a{\c&H002A2B17&\b0} store
+Dialogue: 0,0:00:17.73,0:00:18.26,Default,,0,0,0,,{\pos(540,1513)}You can then\Ncreate a {\c&H00657811&\b1}store{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:18.14,0:00:18.70,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}entity{\c&H002A2B17&\b0} that\Nderives from location.
+Dialogue: 0,0:00:18.70,0:00:19.14,Default,,0,0,0,,{\pos(540,1513)}entity {\c&H00657811&\b1}that{\c&H002A2B17&\b0}\Nderives from location.
+Dialogue: 0,0:00:19.14,0:00:19.46,Default,,0,0,0,,{\pos(540,1513)}entity that\N{\c&H00657811&\b1}derives{\c&H002A2B17&\b0} from location.
+Dialogue: 0,0:00:19.46,0:00:19.94,Default,,0,0,0,,{\pos(540,1513)}entity that\Nderives {\c&H00657811&\b1}from{\c&H002A2B17&\b0} location.
+Dialogue: 0,0:00:19.94,0:00:20.50,Default,,0,0,0,,{\pos(540,1513)}entity that\Nderives from {\c&H00657811&\b1}location.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:21.08,0:00:21.28,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}So{\c&H002A2B17&\b0} it inherits\Nall that base
+Dialogue: 0,0:00:21.28,0:00:21.40,Default,,0,0,0,,{\pos(540,1513)}So {\c&H00657811&\b1}it{\c&H002A2B17&\b0} inherits\Nall that base
+Dialogue: 0,0:00:21.40,0:00:22.10,Default,,0,0,0,,{\pos(540,1513)}So it {\c&H00657811&\b1}inherits{\c&H002A2B17&\b0}\Nall that base
+Dialogue: 0,0:00:22.10,0:00:22.34,Default,,0,0,0,,{\pos(540,1513)}So it inherits\N{\c&H00657811&\b1}all{\c&H002A2B17&\b0} that base
+Dialogue: 0,0:00:22.34,0:00:22.50,Default,,0,0,0,,{\pos(540,1513)}So it inherits\Nall {\c&H00657811&\b1}that{\c&H002A2B17&\b0} base
+Dialogue: 0,0:00:22.50,0:00:22.92,Default,,0,0,0,,{\pos(540,1513)}So it inherits\Nall that {\c&H00657811&\b1}base{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:22.80,0:00:23.46,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}stuff.{\c&H002A2B17&\b0} The\Nstore automatically inherits
+Dialogue: 0,0:00:23.46,0:00:23.66,Default,,0,0,0,,{\pos(540,1513)}stuff. {\c&H00657811&\b1}The{\c&H002A2B17&\b0}\Nstore automatically inherits
+Dialogue: 0,0:00:23.66,0:00:23.96,Default,,0,0,0,,{\pos(540,1513)}stuff. The\N{\c&H00657811&\b1}store{\c&H002A2B17&\b0} automatically inherits
+Dialogue: 0,0:00:23.96,0:00:24.68,Default,,0,0,0,,{\pos(540,1513)}stuff. The\Nstore {\c&H00657811&\b1}automatically{\c&H002A2B17&\b0} inherits
+Dialogue: 0,0:00:24.68,0:00:25.54,Default,,0,0,0,,{\pos(540,1513)}stuff. The\Nstore automatically {\c&H00657811&\b1}inherits{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:25.42,0:00:25.52,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}the{\c&H002A2B17&\b0} address and\Ncoordinates, but then
+Dialogue: 0,0:00:25.52,0:00:25.86,Default,,0,0,0,,{\pos(540,1513)}the {\c&H00657811&\b1}address{\c&H002A2B17&\b0} and\Ncoordinates, but then
+Dialogue: 0,0:00:25.86,0:00:26.16,Default,,0,0,0,,{\pos(540,1513)}the address {\c&H00657811&\b1}and{\c&H002A2B17&\b0}\Ncoordinates, but then
+Dialogue: 0,0:00:26.16,0:00:26.98,Default,,0,0,0,,{\pos(540,1513)}the address and\N{\c&H00657811&\b1}coordinates,{\c&H002A2B17&\b0} but then
+Dialogue: 0,0:00:26.98,0:00:27.18,Default,,0,0,0,,{\pos(540,1513)}the address and\Ncoordinates, {\c&H00657811&\b1}but{\c&H002A2B17&\b0} then
+Dialogue: 0,0:00:27.18,0:00:27.56,Default,,0,0,0,,{\pos(540,1513)}the address and\Ncoordinates, but {\c&H00657811&\b1}then{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:27.44,0:00:27.70,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}you{\c&H002A2B17&\b0} add\Nstore specific properties,
+Dialogue: 0,0:00:27.70,0:00:27.88,Default,,0,0,0,,{\pos(540,1513)}you {\c&H00657811&\b1}add{\c&H002A2B17&\b0}\Nstore specific properties,
+Dialogue: 0,0:00:27.88,0:00:28.16,Default,,0,0,0,,{\pos(540,1513)}you add\N{\c&H00657811&\b1}store{\c&H002A2B17&\b0} specific properties,
+Dialogue: 0,0:00:28.16,0:00:28.66,Default,,0,0,0,,{\pos(540,1513)}you add\Nstore {\c&H00657811&\b1}specific{\c&H002A2B17&\b0} properties,
+Dialogue: 0,0:00:28.66,0:00:29.30,Default,,0,0,0,,{\pos(540,1513)}you add\Nstore specific {\c&H00657811&\b1}properties,{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:29.52,0:00:29.58,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}like{\c&H002A2B17&\b0} retail\Nsquare footage.
+Dialogue: 0,0:00:29.58,0:00:30.00,Default,,0,0,0,,{\pos(540,1513)}like {\c&H00657811&\b1}retail{\c&H002A2B17&\b0}\Nsquare footage.
+Dialogue: 0,0:00:30.00,0:00:30.40,Default,,0,0,0,,{\pos(540,1513)}like retail\N{\c&H00657811&\b1}square{\c&H002A2B17&\b0} footage.
+Dialogue: 0,0:00:30.40,0:00:30.86,Default,,0,0,0,,{\pos(540,1513)}like retail\Nsquare {\c&H00657811&\b1}footage.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:31.26,0:00:31.90,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Similarly,{\c&H002A2B17&\b0} you could\Nhave a base
+Dialogue: 0,0:00:31.90,0:00:32.11,Default,,0,0,0,,{\pos(540,1513)}Similarly, {\c&H00657811&\b1}you{\c&H002A2B17&\b0} could\Nhave a base
+Dialogue: 0,0:00:32.11,0:00:32.24,Default,,0,0,0,,{\pos(540,1513)}Similarly, you {\c&H00657811&\b1}could{\c&H002A2B17&\b0}\Nhave a base
+Dialogue: 0,0:00:32.24,0:00:32.40,Default,,0,0,0,,{\pos(540,1513)}Similarly, you could\N{\c&H00657811&\b1}have{\c&H002A2B17&\b0} a base
+Dialogue: 0,0:00:32.40,0:00:32.50,Default,,0,0,0,,{\pos(540,1513)}Similarly, you could\Nhave {\c&H00657811&\b1}a{\c&H002A2B17&\b0} base
+Dialogue: 0,0:00:32.50,0:00:32.79,Default,,0,0,0,,{\pos(540,1513)}Similarly, you could\Nhave a {\c&H00657811&\b1}base{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:32.68,0:00:32.98,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}entity{\c&H002A2B17&\b0} called product\Nand derive a
+Dialogue: 0,0:00:32.98,0:00:33.29,Default,,0,0,0,,{\pos(540,1513)}entity {\c&H00657811&\b1}called{\c&H002A2B17&\b0} product\Nand derive a
+Dialogue: 0,0:00:33.29,0:00:34.36,Default,,0,0,0,,{\pos(540,1513)}entity called {\c&H00657811&\b1}product{\c&H002A2B17&\b0}\Nand derive a
+Dialogue: 0,0:00:34.36,0:00:34.65,Default,,0,0,0,,{\pos(540,1513)}entity called product\N{\c&H00657811&\b1}and{\c&H002A2B17&\b0} derive a
+Dialogue: 0,0:00:34.65,0:00:34.86,Default,,0,0,0,,{\pos(540,1513)}entity called product\Nand {\c&H00657811&\b1}derive{\c&H002A2B17&\b0} a
+Dialogue: 0,0:00:34.86,0:00:35.13,Default,,0,0,0,,{\pos(540,1513)}entity called product\Nand derive {\c&H00657811&\b1}a{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:35.01,0:00:35.18,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}highly{\c&H002A2B17&\b0} specific\Nentity called frozen
+Dialogue: 0,0:00:35.18,0:00:35.64,Default,,0,0,0,,{\pos(540,1513)}highly {\c&H00657811&\b1}specific{\c&H002A2B17&\b0}\Nentity called frozen
+Dialogue: 0,0:00:35.64,0:00:36.22,Default,,0,0,0,,{\pos(540,1513)}highly specific\N{\c&H00657811&\b1}entity{\c&H002A2B17&\b0} called frozen
+Dialogue: 0,0:00:36.22,0:00:36.58,Default,,0,0,0,,{\pos(540,1513)}highly specific\Nentity {\c&H00657811&\b1}called{\c&H002A2B17&\b0} frozen
+Dialogue: 0,0:00:36.58,0:00:37.15,Default,,0,0,0,,{\pos(540,1513)}highly specific\Nentity called {\c&H00657811&\b1}frozen{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:37.04,0:00:37.65,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}product.{\c&H002A2B17&\b0}

@@ -1,0 +1,999 @@
+{
+  "id": "C04",
+  "title": "Inventory at risk has two definitions",
+  "source_start": 326.42,
+  "source_end": 379.04,
+  "duration": 52.620000000000005,
+  "part_ranges": [
+    {
+      "part": "part00.m4a",
+      "start": 326.42,
+      "end": 379.04
+    }
+  ],
+  "family": "contrast",
+  "left_label": "Below threshold now",
+  "right_label": "Shortage before delivery",
+  "focus_label": "Inventory at risk",
+  "example_kind": "warehouse versus planning example",
+  "words": [
+    {
+      "word": "Inventory",
+      "start": 0.16000000000000014,
+      "end": 0.6000000000000001,
+      "probability": 0.7996817231178284
+    },
+    {
+      "word": "at",
+      "start": 0.6000000000000001,
+      "end": 0.9199999999999999,
+      "probability": 0.9426379799842834
+    },
+    {
+      "word": "risk",
+      "start": 0.9199999999999999,
+      "end": 1.2000000000000002,
+      "probability": 0.948721170425415
+    },
+    {
+      "word": "is",
+      "start": 1.2000000000000002,
+      "end": 1.38,
+      "probability": 0.9617802500724792
+    },
+    {
+      "word": "a",
+      "start": 1.38,
+      "end": 1.6600000000000001,
+      "probability": 0.9443539977073669
+    },
+    {
+      "word": "brilliant",
+      "start": 1.6600000000000001,
+      "end": 2.0999999999999996,
+      "probability": 0.9770705699920654
+    },
+    {
+      "word": "example",
+      "start": 2.0999999999999996,
+      "end": 2.62,
+      "probability": 0.9975665807723999
+    },
+    {
+      "word": "of",
+      "start": 2.62,
+      "end": 2.92,
+      "probability": 0.9975416660308838
+    },
+    {
+      "word": "these",
+      "start": 2.92,
+      "end": 3.04,
+      "probability": 0.9840170741081238
+    },
+    {
+      "word": "diagnostic",
+      "start": 3.04,
+      "end": 3.4000000000000004,
+      "probability": 0.9846341013908386
+    },
+    {
+      "word": "muddy",
+      "start": 3.4000000000000004,
+      "end": 4.04,
+      "probability": 0.9052560925483704
+    },
+    {
+      "word": "waters.",
+      "start": 4.04,
+      "end": 4.44,
+      "probability": 0.9958630800247192
+    },
+    {
+      "word": "Because",
+      "start": 4.84,
+      "end": 5.08,
+      "probability": 0.9006052017211914
+    },
+    {
+      "word": "it",
+      "start": 5.08,
+      "end": 5.24,
+      "probability": 0.9967606663703918
+    },
+    {
+      "word": "sounds",
+      "start": 5.24,
+      "end": 5.42,
+      "probability": 0.989342212677002
+    },
+    {
+      "word": "so",
+      "start": 5.42,
+      "end": 5.78,
+      "probability": 0.997846245765686
+    },
+    {
+      "word": "simple.",
+      "start": 5.78,
+      "end": 6.119999999999999,
+      "probability": 0.9991624355316162
+    },
+    {
+      "word": "It",
+      "start": 6.300000000000001,
+      "end": 6.4,
+      "probability": 0.991280734539032
+    },
+    {
+      "word": "does.",
+      "start": 6.4,
+      "end": 6.58,
+      "probability": 0.996516227722168
+    },
+    {
+      "word": "But",
+      "start": 7.300000000000001,
+      "end": 7.5,
+      "probability": 0.9819077849388123
+    },
+    {
+      "word": "if",
+      "start": 7.5,
+      "end": 7.640000000000001,
+      "probability": 0.9604093432426453
+    },
+    {
+      "word": "you",
+      "start": 7.640000000000001,
+      "end": 7.74,
+      "probability": 0.9981409311294556
+    },
+    {
+      "word": "go",
+      "start": 7.74,
+      "end": 7.859999999999999,
+      "probability": 0.9975224137306213
+    },
+    {
+      "word": "down",
+      "start": 7.859999999999999,
+      "end": 8.04,
+      "probability": 0.985170304775238
+    },
+    {
+      "word": "to",
+      "start": 8.04,
+      "end": 8.16,
+      "probability": 0.9908784031867981
+    },
+    {
+      "word": "the",
+      "start": 8.16,
+      "end": 8.24,
+      "probability": 0.9944313168525696
+    },
+    {
+      "word": "warehouse",
+      "start": 8.24,
+      "end": 8.42,
+      "probability": 0.9931716918945312
+    },
+    {
+      "word": "and",
+      "start": 8.42,
+      "end": 8.78,
+      "probability": 0.9888678789138794
+    },
+    {
+      "word": "ask",
+      "start": 8.78,
+      "end": 8.94,
+      "probability": 0.9904387593269348
+    },
+    {
+      "word": "the",
+      "start": 8.94,
+      "end": 9.12,
+      "probability": 0.9984185695648193
+    },
+    {
+      "word": "manager",
+      "start": 9.12,
+      "end": 9.32,
+      "probability": 0.9933579564094543
+    },
+    {
+      "word": "what",
+      "start": 9.32,
+      "end": 9.68,
+      "probability": 0.9895783066749573
+    },
+    {
+      "word": "inventory",
+      "start": 9.68,
+      "end": 10.14,
+      "probability": 0.7784695029258728
+    },
+    {
+      "word": "at",
+      "start": 10.14,
+      "end": 10.54,
+      "probability": 0.9950863718986511
+    },
+    {
+      "word": "risk",
+      "start": 10.54,
+      "end": 10.78,
+      "probability": 0.9977371692657471
+    },
+    {
+      "word": "means,",
+      "start": 10.78,
+      "end": 11.02,
+      "probability": 0.9968225955963135
+    },
+    {
+      "word": "they",
+      "start": 11.02,
+      "end": 11.66,
+      "probability": 0.9949886202812195
+    },
+    {
+      "word": "will",
+      "start": 11.66,
+      "end": 11.9,
+      "probability": 0.9956860542297363
+    },
+    {
+      "word": "likely",
+      "start": 11.9,
+      "end": 12.14,
+      "probability": 0.9939162135124207
+    },
+    {
+      "word": "give",
+      "start": 12.14,
+      "end": 12.46,
+      "probability": 0.9975115060806274
+    },
+    {
+      "word": "you",
+      "start": 12.46,
+      "end": 12.58,
+      "probability": 0.9977009892463684
+    },
+    {
+      "word": "a",
+      "start": 12.58,
+      "end": 12.68,
+      "probability": 0.9967792630195618
+    },
+    {
+      "word": "purely",
+      "start": 12.68,
+      "end": 12.98,
+      "probability": 0.9945282340049744
+    },
+    {
+      "word": "physical",
+      "start": 12.98,
+      "end": 13.26,
+      "probability": 0.9990899562835693
+    },
+    {
+      "word": "definition.",
+      "start": 13.26,
+      "end": 13.94,
+      "probability": 0.9984458088874817
+    },
+    {
+      "word": "Meaning",
+      "start": 14.260000000000002,
+      "end": 14.48,
+      "probability": 0.9783307313919067
+    },
+    {
+      "word": "what?",
+      "start": 14.48,
+      "end": 14.760000000000002,
+      "probability": 0.9785794615745544
+    },
+    {
+      "word": "To",
+      "start": 15.2,
+      "end": 15.600000000000001,
+      "probability": 0.9938063621520996
+    },
+    {
+      "word": "them",
+      "start": 15.600000000000001,
+      "end": 15.739999999999998,
+      "probability": 0.9971140623092651
+    },
+    {
+      "word": "it",
+      "start": 15.739999999999998,
+      "end": 15.879999999999999,
+      "probability": 0.4818185269832611
+    },
+    {
+      "word": "means",
+      "start": 15.879999999999999,
+      "end": 16.04,
+      "probability": 0.9983709454536438
+    },
+    {
+      "word": "the",
+      "start": 16.04,
+      "end": 16.24,
+      "probability": 0.9583100080490112
+    },
+    {
+      "word": "physical",
+      "start": 16.24,
+      "end": 16.52,
+      "probability": 0.9970513582229614
+    },
+    {
+      "word": "count",
+      "start": 16.52,
+      "end": 16.82,
+      "probability": 0.9926304817199707
+    },
+    {
+      "word": "of",
+      "start": 16.82,
+      "end": 16.94,
+      "probability": 0.9985149502754211
+    },
+    {
+      "word": "stocks",
+      "start": 16.94,
+      "end": 17.14,
+      "probability": 0.6493690609931946
+    },
+    {
+      "word": "sitting",
+      "start": 17.14,
+      "end": 17.64,
+      "probability": 0.9927994012832642
+    },
+    {
+      "word": "on",
+      "start": 17.64,
+      "end": 17.84,
+      "probability": 0.9971328973770142
+    },
+    {
+      "word": "a",
+      "start": 17.84,
+      "end": 17.88,
+      "probability": 0.9959375858306885
+    },
+    {
+      "word": "pallet",
+      "start": 17.88,
+      "end": 18.3,
+      "probability": 0.8224616944789886
+    },
+    {
+      "word": "is",
+      "start": 18.3,
+      "end": 18.46,
+      "probability": 0.9965567588806152
+    },
+    {
+      "word": "currently",
+      "start": 18.46,
+      "end": 18.7,
+      "probability": 0.9900362491607666
+    },
+    {
+      "word": "below",
+      "start": 18.7,
+      "end": 19.1,
+      "probability": 0.9981119632720947
+    },
+    {
+      "word": "a",
+      "start": 19.1,
+      "end": 19.32,
+      "probability": 0.9970138072967529
+    },
+    {
+      "word": "hard",
+      "start": 19.32,
+      "end": 19.54,
+      "probability": 0.9937729239463806
+    },
+    {
+      "word": "minimum",
+      "start": 19.54,
+      "end": 19.74,
+      "probability": 0.974528431892395
+    },
+    {
+      "word": "threshold",
+      "start": 19.74,
+      "end": 20.28,
+      "probability": 0.99406898021698
+    },
+    {
+      "word": "at",
+      "start": 20.28,
+      "end": 20.66,
+      "probability": 0.9869990944862366
+    },
+    {
+      "word": "this",
+      "start": 20.66,
+      "end": 20.92,
+      "probability": 0.9766071438789368
+    },
+    {
+      "word": "exact",
+      "start": 20.92,
+      "end": 21.14,
+      "probability": 0.9977707862854004
+    },
+    {
+      "word": "second.",
+      "start": 21.14,
+      "end": 21.759999999999998,
+      "probability": 0.9910746216773987
+    },
+    {
+      "word": "Okay,",
+      "start": 22.4,
+      "end": 22.88,
+      "probability": 0.3101745545864105
+    },
+    {
+      "word": "but",
+      "start": 22.88,
+      "end": 23.06,
+      "probability": 0.9929839372634888
+    },
+    {
+      "word": "if",
+      "start": 23.06,
+      "end": 23.16,
+      "probability": 0.9934733510017395
+    },
+    {
+      "word": "you",
+      "start": 23.16,
+      "end": 23.259999999999998,
+      "probability": 0.9985866546630859
+    },
+    {
+      "word": "take",
+      "start": 23.259999999999998,
+      "end": 23.4,
+      "probability": 0.9970853924751282
+    },
+    {
+      "word": "that",
+      "start": 23.4,
+      "end": 23.58,
+      "probability": 0.9912497997283936
+    },
+    {
+      "word": "exact",
+      "start": 23.58,
+      "end": 23.7,
+      "probability": 0.9984727501869202
+    },
+    {
+      "word": "same",
+      "start": 23.7,
+      "end": 24.2,
+      "probability": 0.9961091876029968
+    },
+    {
+      "word": "phrase",
+      "start": 24.2,
+      "end": 24.56,
+      "probability": 0.998640239238739
+    },
+    {
+      "word": "to",
+      "start": 24.56,
+      "end": 24.86,
+      "probability": 0.9949575066566467
+    },
+    {
+      "word": "a",
+      "start": 24.86,
+      "end": 24.96,
+      "probability": 0.9941007494926453
+    },
+    {
+      "word": "supply",
+      "start": 24.96,
+      "end": 25.16,
+      "probability": 0.9550905227661133
+    },
+    {
+      "word": "chain",
+      "start": 25.16,
+      "end": 25.6,
+      "probability": 0.9862154722213745
+    },
+    {
+      "word": "planner,",
+      "start": 25.6,
+      "end": 25.88,
+      "probability": 0.9210149645805359
+    },
+    {
+      "word": "the",
+      "start": 26.259999999999998,
+      "end": 26.48,
+      "probability": 0.7939190864562988
+    },
+    {
+      "word": "planner",
+      "start": 26.48,
+      "end": 26.7,
+      "probability": 0.9347173571586609
+    },
+    {
+      "word": "is",
+      "start": 26.7,
+      "end": 26.9,
+      "probability": 0.7710968255996704
+    },
+    {
+      "word": "going",
+      "start": 26.9,
+      "end": 27.0,
+      "probability": 0.8238208889961243
+    },
+    {
+      "word": "to",
+      "start": 27.0,
+      "end": 27.08,
+      "probability": 0.998818576335907
+    },
+    {
+      "word": "give",
+      "start": 27.08,
+      "end": 27.2,
+      "probability": 0.9990909099578857
+    },
+    {
+      "word": "you",
+      "start": 27.2,
+      "end": 27.32,
+      "probability": 0.9987170696258545
+    },
+    {
+      "word": "a",
+      "start": 27.32,
+      "end": 27.439999999999998,
+      "probability": 0.9980656504631042
+    },
+    {
+      "word": "temporal",
+      "start": 27.439999999999998,
+      "end": 27.82,
+      "probability": 0.9856115579605103
+    },
+    {
+      "word": "predictive",
+      "start": 27.82,
+      "end": 28.7,
+      "probability": 0.9366196393966675
+    },
+    {
+      "word": "definition.",
+      "start": 28.7,
+      "end": 29.0,
+      "probability": 0.997796893119812
+    },
+    {
+      "word": "Right,",
+      "start": 29.84,
+      "end": 30.02,
+      "probability": 0.9409399032592773
+    },
+    {
+      "word": "because",
+      "start": 30.16,
+      "end": 30.259999999999998,
+      "probability": 0.9980721473693848
+    },
+    {
+      "word": "their",
+      "start": 30.259999999999998,
+      "end": 30.4,
+      "probability": 0.9925038814544678
+    },
+    {
+      "word": "job",
+      "start": 30.4,
+      "end": 30.6,
+      "probability": 0.9993799924850464
+    },
+    {
+      "word": "is",
+      "start": 30.6,
+      "end": 30.740000000000002,
+      "probability": 0.9984715580940247
+    },
+    {
+      "word": "looking",
+      "start": 30.740000000000002,
+      "end": 30.939999999999998,
+      "probability": 0.9984495639801025
+    },
+    {
+      "word": "ahead.",
+      "start": 30.939999999999998,
+      "end": 31.3,
+      "probability": 0.9982329607009888
+    },
+    {
+      "word": "Exactly.",
+      "start": 31.58,
+      "end": 31.92,
+      "probability": 0.9941376447677612
+    },
+    {
+      "word": "To",
+      "start": 32.56,
+      "end": 32.76,
+      "probability": 0.990038275718689
+    },
+    {
+      "word": "them,",
+      "start": 32.76,
+      "end": 32.94,
+      "probability": 0.9983202815055847
+    },
+    {
+      "word": "inventory",
+      "start": 33.18,
+      "end": 33.6,
+      "probability": 0.9485490322113037
+    },
+    {
+      "word": "at",
+      "start": 33.6,
+      "end": 33.86,
+      "probability": 0.9923783540725708
+    },
+    {
+      "word": "risk",
+      "start": 33.86,
+      "end": 34.0,
+      "probability": 0.9936740398406982
+    },
+    {
+      "word": "means",
+      "start": 34.0,
+      "end": 34.260000000000005,
+      "probability": 0.9977356195449829
+    },
+    {
+      "word": "that",
+      "start": 34.260000000000005,
+      "end": 34.480000000000004,
+      "probability": 0.9966214895248413
+    },
+    {
+      "word": "based",
+      "start": 34.480000000000004,
+      "end": 34.7,
+      "probability": 0.950951337814331
+    },
+    {
+      "word": "on",
+      "start": 34.7,
+      "end": 34.94,
+      "probability": 0.9996451139450073
+    },
+    {
+      "word": "current",
+      "start": 34.94,
+      "end": 35.16,
+      "probability": 0.9987342953681946
+    },
+    {
+      "word": "sales",
+      "start": 35.16,
+      "end": 35.44,
+      "probability": 0.9834745526313782
+    },
+    {
+      "word": "velocity",
+      "start": 35.44,
+      "end": 36.04,
+      "probability": 0.9436566829681396
+    },
+    {
+      "word": "and",
+      "start": 36.04,
+      "end": 36.379999999999995,
+      "probability": 0.9859990477561951
+    },
+    {
+      "word": "historical",
+      "start": 36.379999999999995,
+      "end": 36.68,
+      "probability": 0.9988566637039185
+    },
+    {
+      "word": "trends,",
+      "start": 36.68,
+      "end": 37.14,
+      "probability": 0.9987288117408752
+    },
+    {
+      "word": "a",
+      "start": 37.64,
+      "end": 37.739999999999995,
+      "probability": 0.9951381087303162
+    },
+    {
+      "word": "predictive",
+      "start": 37.739999999999995,
+      "end": 38.019999999999996,
+      "probability": 0.9879044890403748
+    },
+    {
+      "word": "projection",
+      "start": 38.019999999999996,
+      "end": 38.519999999999996,
+      "probability": 0.9982702732086182
+    },
+    {
+      "word": "shows",
+      "start": 38.519999999999996,
+      "end": 39.120000000000005,
+      "probability": 0.9984111785888672
+    },
+    {
+      "word": "that",
+      "start": 39.120000000000005,
+      "end": 39.34,
+      "probability": 0.9982975125312805
+    },
+    {
+      "word": "the",
+      "start": 39.34,
+      "end": 39.5,
+      "probability": 0.9971466660499573
+    },
+    {
+      "word": "stock",
+      "start": 39.5,
+      "end": 39.739999999999995,
+      "probability": 0.9865933060646057
+    },
+    {
+      "word": "will",
+      "start": 39.739999999999995,
+      "end": 40.04,
+      "probability": 0.9986257553100586
+    },
+    {
+      "word": "fall",
+      "start": 40.04,
+      "end": 40.26,
+      "probability": 0.9800021648406982
+    },
+    {
+      "word": "below",
+      "start": 40.26,
+      "end": 40.58,
+      "probability": 0.9971215128898621
+    },
+    {
+      "word": "a",
+      "start": 40.58,
+      "end": 40.76,
+      "probability": 0.9952059388160706
+    },
+    {
+      "word": "required",
+      "start": 40.76,
+      "end": 41.22,
+      "probability": 0.9327985644340515
+    },
+    {
+      "word": "safety",
+      "start": 41.22,
+      "end": 41.7,
+      "probability": 0.9714420437812805
+    },
+    {
+      "word": "buffer",
+      "start": 41.7,
+      "end": 42.12,
+      "probability": 0.9970244765281677
+    },
+    {
+      "word": "at",
+      "start": 42.12,
+      "end": 42.68,
+      "probability": 0.9300044775009155
+    },
+    {
+      "word": "some",
+      "start": 42.68,
+      "end": 42.96,
+      "probability": 0.9957512617111206
+    },
+    {
+      "word": "point",
+      "start": 42.96,
+      "end": 43.26,
+      "probability": 0.9971550703048706
+    },
+    {
+      "word": "before",
+      "start": 43.26,
+      "end": 43.5,
+      "probability": 0.9920108914375305
+    },
+    {
+      "word": "the",
+      "start": 43.5,
+      "end": 43.68,
+      "probability": 0.9941721558570862
+    },
+    {
+      "word": "next",
+      "start": 43.68,
+      "end": 43.82,
+      "probability": 0.995836615562439
+    },
+    {
+      "word": "delivery",
+      "start": 43.82,
+      "end": 44.14,
+      "probability": 0.9958056211471558
+    },
+    {
+      "word": "truck",
+      "start": 44.14,
+      "end": 44.56,
+      "probability": 0.9941144585609436
+    },
+    {
+      "word": "physically",
+      "start": 44.56,
+      "end": 44.88,
+      "probability": 0.9816723465919495
+    },
+    {
+      "word": "arrives.",
+      "start": 44.88,
+      "end": 45.44,
+      "probability": 0.9983355402946472
+    },
+    {
+      "word": "Those",
+      "start": 46.08,
+      "end": 46.2,
+      "probability": 0.7984060645103455
+    },
+    {
+      "word": "are",
+      "start": 46.2,
+      "end": 46.34,
+      "probability": 0.9726195335388184
+    },
+    {
+      "word": "two",
+      "start": 46.34,
+      "end": 46.480000000000004,
+      "probability": 0.9786025881767273
+    },
+    {
+      "word": "radically",
+      "start": 46.480000000000004,
+      "end": 46.96,
+      "probability": 0.9924397468566895
+    },
+    {
+      "word": "different",
+      "start": 46.96,
+      "end": 47.4,
+      "probability": 0.9916653037071228
+    },
+    {
+      "word": "mathematical",
+      "start": 47.4,
+      "end": 47.74,
+      "probability": 0.997928261756897
+    },
+    {
+      "word": "equations.",
+      "start": 47.74,
+      "end": 48.46,
+      "probability": 0.9957088232040405
+    },
+    {
+      "word": "Completely",
+      "start": 48.8,
+      "end": 49.28,
+      "probability": 0.9900599718093872
+    },
+    {
+      "word": "different",
+      "start": 49.28,
+      "end": 49.519999999999996,
+      "probability": 0.9944663643836975
+    },
+    {
+      "word": "database",
+      "start": 49.519999999999996,
+      "end": 49.82,
+      "probability": 0.9824838042259216
+    },
+    {
+      "word": "queries",
+      "start": 49.82,
+      "end": 50.4,
+      "probability": 0.9926940202713013
+    },
+    {
+      "word": "triggered",
+      "start": 50.4,
+      "end": 50.82,
+      "probability": 0.53852778673172
+    },
+    {
+      "word": "by",
+      "start": 50.82,
+      "end": 51.12,
+      "probability": 0.9977681636810303
+    },
+    {
+      "word": "the",
+      "start": 51.12,
+      "end": 51.3,
+      "probability": 0.9931042790412903
+    },
+    {
+      "word": "exact",
+      "start": 51.3,
+      "end": 51.5,
+      "probability": 0.9881731867790222
+    },
+    {
+      "word": "same",
+      "start": 51.5,
+      "end": 51.94,
+      "probability": 0.9957296252250671
+    },
+    {
+      "word": "three",
+      "start": 51.94,
+      "end": 52.22,
+      "probability": 0.9615594148635864
+    },
+    {
+      "word": "words.",
+      "start": 52.22,
+      "end": 52.480000000000004,
+      "probability": 0.9972246885299683
+    }
+  ],
+  "transcript_asr": "Inventory at risk is a brilliant example of these diagnostic muddy waters. Because it sounds so simple. It does. But if you go down to the warehouse and ask the manager what inventory at risk means, they will likely give you a purely physical definition. Meaning what? To them it means the physical count of stocks sitting on a pallet is currently below a hard minimum threshold at this exact second. Okay, but if you take that exact same phrase to a supply chain planner, the planner is going to give you a temporal predictive definition. Right, because their job is looking ahead. Exactly. To them, inventory at risk means that based on current sales velocity and historical trends, a predictive projection shows that the stock will fall below a required safety buffer at some point before the next delivery truck physically arrives. Those are two radically different mathematical equations. Completely different database queries triggered by the exact same three words.",
+  "source_kind": "actual uploaded recording; continuous audio excerpt",
+  "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "status": "planned",
+  "publish_status": "draft for review",
+  "narration_replaced": false,
+  "actual_timestamps": true,
+  "context_label": "Illustrative scenario",
+  "review_flags": [],
+  "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
+  "caption_corrections": [],
+  "caption_join_review": []
+}

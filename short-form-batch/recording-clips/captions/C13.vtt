@@ -1,0 +1,40 @@
+WEBVTT
+
+00:00:00.100 --> 00:00:01.920
+Data bindings are perhaps the most
+
+00:00:01.799 --> 00:00:03.679
+critical mechanical component.
+
+00:00:04.000 --> 00:00:05.700
+This is the wiring that connects
+
+00:00:05.580 --> 00:00:07.479
+these abstract high -level concepts
+
+00:00:07.359 --> 00:00:09.340
+back to the physical source fields
+
+00:00:09.220 --> 00:00:10.399
+in your actual databases.
+
+00:00:11.140 --> 00:00:12.319
+Okay, so it points to the
+
+00:00:12.200 --> 00:00:14.120
+database. It's the mapping that tells
+
+00:00:14.000 --> 00:00:15.679
+the ontology, hey, when the user
+
+00:00:15.559 --> 00:00:17.800
+asks about a region, do not
+
+00:00:17.680 --> 00:00:19.760
+hallucinate an answer, go look specifically
+
+00:00:19.640 --> 00:00:21.520
+at column F in this exact
+
+00:00:21.400 --> 00:00:22.520
+Lakehouse table.

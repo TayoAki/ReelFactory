@@ -1,0 +1,60 @@
+{
+  "id": "C57",
+  "family": "contrast",
+  "master_image": "../master-contrast.png",
+  "visual_workflow": "image-first",
+  "state_images": [
+    "01-initial.jpg",
+    "02-build.jpg",
+    "03-settled.jpg"
+  ],
+  "layers": [
+    {
+      "label": "Thought experiment",
+      "sub": "CONTEXT / QUESTION",
+      "x": 180,
+      "y": 660,
+      "w": 720,
+      "h": 180,
+      "focal": true,
+      "on": 0.7,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Company A meaning",
+      "sub": "INTERPRETATION A",
+      "x": 60,
+      "y": 935,
+      "w": 455,
+      "h": 370,
+      "focal": true,
+      "on": 18.38,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Company B meaning",
+      "sub": "INTERPRETATION B",
+      "x": 565,
+      "y": 935,
+      "w": 455,
+      "h": 370,
+      "focal": false,
+      "on": 18.38,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    }
+  ],
+  "relation": "Compare the meaning",
+  "source_quote": "What happens during a major corporate merger? Oh, wow. When two massive global companies combine, is the future of M &A less about merging finances and entirely about whether their respective AI ontologies can successfully negotiate a shared reality? If company A's ontology defines risk or revenue in a way that fundamentally clashes with company B's ontology at a mathematical level, can the merger ever truly succeed without completely rewriting the central nervous system of one of the companies?",
+  "why": "Compare interpretations without implying causation.",
+  "alternative": "Authentic tenant UI would be preferable for proving an executed product action; this clip is a concept illustration.",
+  "visual_review": "Draft, not human approved. Generated symbols corrected in editable reconstruction.",
+  "source_reference": "reference-library/frames/graphic/0003510.jpg",
+  "motion": "independent card alpha reveal + 16px eased settling, timed to recording keywords; fixed grid and presenter rail",
+  "source_start": 3706.00068,
+  "source_end": 3738.1006799999996,
+  "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+}

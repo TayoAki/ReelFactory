@@ -1,0 +1,711 @@
+{
+  "id": "C52",
+  "title": "Import support does not promise lossless OWL",
+  "source_start": 3365.06068,
+  "source_end": 3404.64068,
+  "duration": 39.57999999999993,
+  "part_ranges": [
+    {
+      "part": "part04.m4a",
+      "start": 364.8800000000001,
+      "end": 404.46000000000004
+    }
+  ],
+  "family": "workflow",
+  "left_label": "Supported definitions",
+  "right_label": "Review import summary",
+  "focus_label": "Preserved \u00b7 adjusted \u00b7 skipped",
+  "example_kind": "interoperability limits",
+  "words": [
+    {
+      "word": "The",
+      "start": 0.1200000000000001,
+      "end": 0.2999999999999998,
+      "probability": 0.6640670895576477
+    },
+    {
+      "word": "preview",
+      "start": 0.2999999999999998,
+      "end": 0.48,
+      "probability": 0.9540483951568604
+    },
+    {
+      "word": "does",
+      "start": 0.48,
+      "end": 0.7999999999999998,
+      "probability": 0.9959172606468201
+    },
+    {
+      "word": "support",
+      "start": 0.7999999999999998,
+      "end": 1.1800000000000002,
+      "probability": 0.9977255463600159
+    },
+    {
+      "word": "importing",
+      "start": 1.1800000000000002,
+      "end": 1.6,
+      "probability": 0.9778339862823486
+    },
+    {
+      "word": "existing",
+      "start": 1.6,
+      "end": 2.2199999999999998,
+      "probability": 0.998602569103241
+    },
+    {
+      "word": "definitions",
+      "start": 2.2199999999999998,
+      "end": 2.9000000000000004,
+      "probability": 0.9983566403388977
+    },
+    {
+      "word": "using",
+      "start": 2.9000000000000004,
+      "end": 3.3200000000000003,
+      "probability": 0.9755810499191284
+    },
+    {
+      "word": "standard",
+      "start": 3.3200000000000003,
+      "end": 3.66,
+      "probability": 0.9663219451904297
+    },
+    {
+      "word": "semantic",
+      "start": 3.66,
+      "end": 4.06,
+      "probability": 0.9694032669067383
+    },
+    {
+      "word": "web",
+      "start": 4.06,
+      "end": 4.5,
+      "probability": 0.9067515730857849
+    },
+    {
+      "word": "formats",
+      "start": 4.5,
+      "end": 4.8,
+      "probability": 0.9934437274932861
+    },
+    {
+      "word": "like",
+      "start": 4.8,
+      "end": 5.2,
+      "probability": 0.9166170358657837
+    },
+    {
+      "word": "Turtle,",
+      "start": 5.2,
+      "end": 5.44,
+      "probability": 0.3781283497810364
+    },
+    {
+      "word": "RDF,",
+      "start": 5.88,
+      "end": 6.1,
+      "probability": 0.9310252964496613
+    },
+    {
+      "word": "and",
+      "start": 6.42,
+      "end": 6.42,
+      "probability": 0.9907252192497253
+    },
+    {
+      "word": "O",
+      "start": 6.42,
+      "end": 6.58,
+      "probability": 0.7382832169532776
+    },
+    {
+      "word": "-W",
+      "start": 6.58,
+      "end": 6.76,
+      "probability": 0.4990241602063179
+    },
+    {
+      "word": "-L.",
+      "start": 6.76,
+      "end": 7.0600000000000005,
+      "probability": 0.8922882676124573
+    },
+    {
+      "word": "Briefly,",
+      "start": 7.4399999999999995,
+      "end": 7.6,
+      "probability": 0.8946582973003387
+    },
+    {
+      "word": "what",
+      "start": 7.6,
+      "end": 7.76,
+      "probability": 0.9820147752761841
+    },
+    {
+      "word": "are",
+      "start": 7.76,
+      "end": 7.859999999999999,
+      "probability": 0.9867614507675171
+    },
+    {
+      "word": "those?",
+      "start": 7.859999999999999,
+      "end": 7.960000000000001,
+      "probability": 0.9940563440322876
+    },
+    {
+      "word": "Those",
+      "start": 8.48,
+      "end": 8.56,
+      "probability": 0.994484007358551
+    },
+    {
+      "word": "are",
+      "start": 8.56,
+      "end": 8.7,
+      "probability": 0.9901425838470459
+    },
+    {
+      "word": "essentially",
+      "start": 8.7,
+      "end": 8.98,
+      "probability": 0.9792861342430115
+    },
+    {
+      "word": "the",
+      "start": 8.98,
+      "end": 9.2,
+      "probability": 0.9966026544570923
+    },
+    {
+      "word": "legacy",
+      "start": 9.2,
+      "end": 9.48,
+      "probability": 0.9894692897796631
+    },
+    {
+      "word": "standard",
+      "start": 9.48,
+      "end": 9.88,
+      "probability": 0.9781807065010071
+    },
+    {
+      "word": "coding",
+      "start": 9.88,
+      "end": 10.16,
+      "probability": 0.9962558746337891
+    },
+    {
+      "word": "languages",
+      "start": 10.16,
+      "end": 10.64,
+      "probability": 0.9981995820999146
+    },
+    {
+      "word": "that",
+      "start": 10.64,
+      "end": 11.0,
+      "probability": 0.9969447255134583
+    },
+    {
+      "word": "researchers",
+      "start": 11.0,
+      "end": 11.3,
+      "probability": 0.9983575940132141
+    },
+    {
+      "word": "and",
+      "start": 11.3,
+      "end": 11.72,
+      "probability": 0.9956569671630859
+    },
+    {
+      "word": "data",
+      "start": 11.72,
+      "end": 11.86,
+      "probability": 0.9951550960540771
+    },
+    {
+      "word": "scientists",
+      "start": 11.86,
+      "end": 12.24,
+      "probability": 0.9926861524581909
+    },
+    {
+      "word": "have",
+      "start": 12.24,
+      "end": 12.52,
+      "probability": 0.9982910752296448
+    },
+    {
+      "word": "used",
+      "start": 12.52,
+      "end": 12.68,
+      "probability": 0.9987021684646606
+    },
+    {
+      "word": "for",
+      "start": 12.68,
+      "end": 12.86,
+      "probability": 0.998499870300293
+    },
+    {
+      "word": "years",
+      "start": 12.86,
+      "end": 13.14,
+      "probability": 0.9990149736404419
+    },
+    {
+      "word": "to",
+      "start": 13.14,
+      "end": 13.48,
+      "probability": 0.975713849067688
+    },
+    {
+      "word": "write",
+      "start": 13.48,
+      "end": 13.64,
+      "probability": 0.9983454942703247
+    },
+    {
+      "word": "out",
+      "start": 13.64,
+      "end": 13.84,
+      "probability": 0.998138427734375
+    },
+    {
+      "word": "these",
+      "start": 13.84,
+      "end": 14.02,
+      "probability": 0.9966397285461426
+    },
+    {
+      "word": "kinds",
+      "start": 14.02,
+      "end": 14.239999999999998,
+      "probability": 0.9241009950637817
+    },
+    {
+      "word": "of",
+      "start": 14.239999999999998,
+      "end": 14.46,
+      "probability": 0.9997783303260803
+    },
+    {
+      "word": "complex",
+      "start": 14.46,
+      "end": 14.899999999999999,
+      "probability": 0.9926009774208069
+    },
+    {
+      "word": "knowledge",
+      "start": 14.899999999999999,
+      "end": 15.239999999999998,
+      "probability": 0.9728326201438904
+    },
+    {
+      "word": "webs,",
+      "start": 15.239999999999998,
+      "end": 15.579999999999998,
+      "probability": 0.9622508883476257
+    },
+    {
+      "word": "originally",
+      "start": 16.0,
+      "end": 16.36,
+      "probability": 0.991037130355835
+    },
+    {
+      "word": "designed",
+      "start": 16.36,
+      "end": 16.82,
+      "probability": 0.998063862323761
+    },
+    {
+      "word": "for",
+      "start": 16.82,
+      "end": 17.04,
+      "probability": 0.9995638728141785
+    },
+    {
+      "word": "the",
+      "start": 17.04,
+      "end": 17.14,
+      "probability": 0.9975584745407104
+    },
+    {
+      "word": "semantic",
+      "start": 17.14,
+      "end": 17.36,
+      "probability": 0.9864983558654785
+    },
+    {
+      "word": "web.",
+      "start": 17.36,
+      "end": 17.74,
+      "probability": 0.9895569682121277
+    },
+    {
+      "word": "So",
+      "start": 18.1,
+      "end": 18.26,
+      "probability": 0.9639700651168823
+    },
+    {
+      "word": "you",
+      "start": 18.26,
+      "end": 18.4,
+      "probability": 0.8747925758361816
+    },
+    {
+      "word": "can",
+      "start": 18.4,
+      "end": 18.5,
+      "probability": 0.9942962527275085
+    },
+    {
+      "word": "just",
+      "start": 18.5,
+      "end": 18.66,
+      "probability": 0.9947941899299622
+    },
+    {
+      "word": "import",
+      "start": 18.66,
+      "end": 18.96,
+      "probability": 0.9952406883239746
+    },
+    {
+      "word": "them.",
+      "start": 18.96,
+      "end": 19.28,
+      "probability": 0.9980636239051819
+    },
+    {
+      "word": "However,",
+      "start": 19.9,
+      "end": 20.08,
+      "probability": 0.9892047047615051
+    },
+    {
+      "word": "the",
+      "start": 20.4,
+      "end": 20.52,
+      "probability": 0.9941615462303162
+    },
+    {
+      "word": "Microsoft",
+      "start": 20.52,
+      "end": 20.740000000000002,
+      "probability": 0.9815364480018616
+    },
+    {
+      "word": "documentation",
+      "start": 20.740000000000002,
+      "end": 21.32,
+      "probability": 0.9876865744590759
+    },
+    {
+      "word": "explicitly",
+      "start": 21.32,
+      "end": 22.06,
+      "probability": 0.9984741806983948
+    },
+    {
+      "word": "warns",
+      "start": 22.06,
+      "end": 22.62,
+      "probability": 0.9961891770362854
+    },
+    {
+      "word": "that",
+      "start": 22.62,
+      "end": 22.9,
+      "probability": 0.9980354905128479
+    },
+    {
+      "word": "some",
+      "start": 22.9,
+      "end": 23.2,
+      "probability": 0.9956305027008057
+    },
+    {
+      "word": "elements",
+      "start": 23.2,
+      "end": 23.58,
+      "probability": 0.9963352680206299
+    },
+    {
+      "word": "might",
+      "start": 23.58,
+      "end": 23.94,
+      "probability": 0.9940698146820068
+    },
+    {
+      "word": "be",
+      "start": 23.94,
+      "end": 24.1,
+      "probability": 0.9997664093971252
+    },
+    {
+      "word": "adjusted,",
+      "start": 24.1,
+      "end": 24.4,
+      "probability": 0.9969106316566467
+    },
+    {
+      "word": "modified,",
+      "start": 24.6,
+      "end": 25.12,
+      "probability": 0.995512068271637
+    },
+    {
+      "word": "or",
+      "start": 25.3,
+      "end": 25.740000000000002,
+      "probability": 0.9984343647956848
+    },
+    {
+      "word": "entirely",
+      "start": 25.740000000000002,
+      "end": 26.28,
+      "probability": 0.9961050748825073
+    },
+    {
+      "word": "skipped",
+      "start": 26.28,
+      "end": 26.78,
+      "probability": 0.9972744584083557
+    },
+    {
+      "word": "during",
+      "start": 26.78,
+      "end": 27.16,
+      "probability": 0.9894040822982788
+    },
+    {
+      "word": "the",
+      "start": 27.16,
+      "end": 27.439999999999998,
+      "probability": 0.9981060028076172
+    },
+    {
+      "word": "import",
+      "start": 27.439999999999998,
+      "end": 27.64,
+      "probability": 0.9887396693229675
+    },
+    {
+      "word": "process.",
+      "start": 27.64,
+      "end": 28.1,
+      "probability": 0.9988635778427124
+    },
+    {
+      "word": "Full",
+      "start": 28.72,
+      "end": 29.119999999999997,
+      "probability": 0.9714463353157043
+    },
+    {
+      "word": "lossless",
+      "start": 29.119999999999997,
+      "end": 30.0,
+      "probability": 0.7762814462184906
+    },
+    {
+      "word": "translation",
+      "start": 30.0,
+      "end": 30.28,
+      "probability": 0.9957346320152283
+    },
+    {
+      "word": "of",
+      "start": 30.28,
+      "end": 30.740000000000002,
+      "probability": 0.9955002665519714
+    },
+    {
+      "word": "complex",
+      "start": 30.740000000000002,
+      "end": 31.08,
+      "probability": 0.9424998760223389
+    },
+    {
+      "word": "OWL",
+      "start": 31.08,
+      "end": 31.84,
+      "probability": 0.5720826014876366
+    },
+    {
+      "word": "behaviors",
+      "start": 31.84,
+      "end": 32.16,
+      "probability": 0.9723620414733887
+    },
+    {
+      "word": "is",
+      "start": 32.16,
+      "end": 32.519999999999996,
+      "probability": 0.9915555119514465
+    },
+    {
+      "word": "not",
+      "start": 32.519999999999996,
+      "end": 32.78,
+      "probability": 0.9987964630126953
+    },
+    {
+      "word": "promised.",
+      "start": 32.78,
+      "end": 33.12,
+      "probability": 0.9900712966918945
+    },
+    {
+      "word": "You",
+      "start": 33.519999999999996,
+      "end": 33.64,
+      "probability": 0.9001049399375916
+    },
+    {
+      "word": "have",
+      "start": 33.64,
+      "end": 33.78,
+      "probability": 0.9962654709815979
+    },
+    {
+      "word": "to",
+      "start": 33.78,
+      "end": 33.88,
+      "probability": 0.998915433883667
+    },
+    {
+      "word": "check",
+      "start": 33.88,
+      "end": 34.04,
+      "probability": 0.9976192116737366
+    },
+    {
+      "word": "it.",
+      "start": 34.04,
+      "end": 34.22,
+      "probability": 0.9816307425498962
+    },
+    {
+      "word": "You",
+      "start": 34.34,
+      "end": 34.5,
+      "probability": 0.9949172735214233
+    },
+    {
+      "word": "have",
+      "start": 34.5,
+      "end": 34.7,
+      "probability": 0.9978522062301636
+    },
+    {
+      "word": "to",
+      "start": 34.7,
+      "end": 34.879999999999995,
+      "probability": 0.9973493814468384
+    },
+    {
+      "word": "thoroughly",
+      "start": 34.879999999999995,
+      "end": 35.260000000000005,
+      "probability": 0.9989984631538391
+    },
+    {
+      "word": "and",
+      "start": 35.260000000000005,
+      "end": 35.7,
+      "probability": 0.9909249544143677
+    },
+    {
+      "word": "manually",
+      "start": 35.7,
+      "end": 36.16,
+      "probability": 0.9982569813728333
+    },
+    {
+      "word": "review",
+      "start": 36.16,
+      "end": 36.66,
+      "probability": 0.99676114320755
+    },
+    {
+      "word": "the",
+      "start": 36.66,
+      "end": 36.82,
+      "probability": 0.99661785364151
+    },
+    {
+      "word": "import",
+      "start": 36.82,
+      "end": 37.019999999999996,
+      "probability": 0.9746481776237488
+    },
+    {
+      "word": "results",
+      "start": 37.019999999999996,
+      "end": 37.32,
+      "probability": 0.9995962977409363
+    },
+    {
+      "word": "to",
+      "start": 37.32,
+      "end": 37.64,
+      "probability": 0.994772732257843
+    },
+    {
+      "word": "ensure",
+      "start": 37.64,
+      "end": 37.879999999999995,
+      "probability": 0.995685338973999
+    },
+    {
+      "word": "your",
+      "start": 37.879999999999995,
+      "end": 38.14,
+      "probability": 0.9937593936920166
+    },
+    {
+      "word": "logic",
+      "start": 38.14,
+      "end": 38.4,
+      "probability": 0.7725966572761536
+    },
+    {
+      "word": "survived",
+      "start": 38.4,
+      "end": 38.7,
+      "probability": 0.89211106300354
+    },
+    {
+      "word": "the",
+      "start": 38.7,
+      "end": 39.04,
+      "probability": 0.9903753399848938
+    },
+    {
+      "word": "translation.",
+      "start": 39.04,
+      "end": 39.480000000000004,
+      "probability": 0.9992227554321289
+    }
+  ],
+  "transcript_asr": "The preview does support importing existing definitions using standard semantic web formats like Turtle, RDF, and O -W -L. Briefly, what are those? Those are essentially the legacy standard coding languages that researchers and data scientists have used for years to write out these kinds of complex knowledge webs, originally designed for the semantic web. So you can just import them. However, the Microsoft documentation explicitly warns that some elements might be adjusted, modified, or entirely skipped during the import process. Full lossless translation of complex OWL behaviors is not promised. You have to check it. You have to thoroughly and manually review the import results to ensure your logic survived the translation.",
+  "source_kind": "actual uploaded recording; continuous audio excerpt",
+  "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "status": "planned",
+  "publish_status": "draft for review",
+  "narration_replaced": false,
+  "actual_timestamps": true,
+  "context_label": "Original discussion excerpt",
+  "review_flags": [],
+  "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
+  "caption_corrections": [],
+  "caption_join_review": []
+}

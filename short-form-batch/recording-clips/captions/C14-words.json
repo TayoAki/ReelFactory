@@ -1,0 +1,574 @@
+{
+  "id": "C14",
+  "title": "Namespaces prevent semantic collisions",
+  "source_start": 841.100975,
+  "source_end": 874.030975,
+  "duration": 32.930000000000064,
+  "part_ranges": [
+    {
+      "part": "part01.m4a",
+      "start": 91.04999999999995,
+      "end": 123.98000000000002
+    }
+  ],
+  "family": "contrast",
+  "left_label": "HR contract",
+  "right_label": "Sales contract",
+  "focus_label": "Same word, different scopes",
+  "example_kind": "contract namespace example",
+  "words": [
+    {
+      "word": "But",
+      "start": 0.17000000000002258,
+      "end": 0.37000000000002276,
+      "probability": 0.6847813129425049
+    },
+    {
+      "word": "if",
+      "start": 0.37000000000002276,
+      "end": 0.590000000000023,
+      "probability": 0.9731435179710388
+    },
+    {
+      "word": "you",
+      "start": 0.590000000000023,
+      "end": 0.8100000000000227,
+      "probability": 0.9991015195846558
+    },
+    {
+      "word": "are",
+      "start": 0.8100000000000227,
+      "end": 0.9900000000000229,
+      "probability": 0.9868404865264893
+    },
+    {
+      "word": "a",
+      "start": 0.9900000000000229,
+      "end": 1.1100000000000225,
+      "probability": 0.9955552220344543
+    },
+    {
+      "word": "global",
+      "start": 1.1100000000000225,
+      "end": 1.3300000000000227,
+      "probability": 0.978234589099884
+    },
+    {
+      "word": "enterprise,",
+      "start": 1.3300000000000227,
+      "end": 1.7900000000000231,
+      "probability": 0.987808346748352
+    },
+    {
+      "word": "you",
+      "start": 2.4100000000000223,
+      "end": 2.6500000000000226,
+      "probability": 0.9975054860115051
+    },
+    {
+      "word": "are",
+      "start": 2.6500000000000226,
+      "end": 2.790000000000023,
+      "probability": 0.9876556992530823
+    },
+    {
+      "word": "dealing",
+      "start": 2.790000000000023,
+      "end": 2.970000000000023,
+      "probability": 0.9995201826095581
+    },
+    {
+      "word": "with",
+      "start": 2.970000000000023,
+      "end": 3.170000000000023,
+      "probability": 0.9982921481132507
+    },
+    {
+      "word": "thousands",
+      "start": 3.170000000000023,
+      "end": 3.510000000000023,
+      "probability": 0.9917231202125549
+    },
+    {
+      "word": "of",
+      "start": 3.510000000000023,
+      "end": 3.8500000000000227,
+      "probability": 0.9994780421257019
+    },
+    {
+      "word": "concepts.",
+      "start": 3.8500000000000227,
+      "end": 4.1100000000000225,
+      "probability": 0.996653139591217
+    },
+    {
+      "word": "You",
+      "start": 4.830000000000023,
+      "end": 5.250000000000023,
+      "probability": 0.9951783418655396
+    },
+    {
+      "word": "can't",
+      "start": 5.250000000000023,
+      "end": 5.450000000000022,
+      "probability": 0.9941401183605194
+    },
+    {
+      "word": "just",
+      "start": 5.450000000000022,
+      "end": 5.5300000000000225,
+      "probability": 0.9939716458320618
+    },
+    {
+      "word": "have",
+      "start": 5.5300000000000225,
+      "end": 5.690000000000023,
+      "probability": 0.9986653327941895
+    },
+    {
+      "word": "all",
+      "start": 5.690000000000023,
+      "end": 5.830000000000023,
+      "probability": 0.9946085214614868
+    },
+    {
+      "word": "these",
+      "start": 5.830000000000023,
+      "end": 5.970000000000022,
+      "probability": 0.9703869223594666
+    },
+    {
+      "word": "entities",
+      "start": 5.970000000000022,
+      "end": 6.270000000000023,
+      "probability": 0.9991826415061951
+    },
+    {
+      "word": "thrown",
+      "start": 6.270000000000023,
+      "end": 6.590000000000023,
+      "probability": 0.998573899269104
+    },
+    {
+      "word": "into",
+      "start": 6.590000000000023,
+      "end": 6.790000000000022,
+      "probability": 0.9911295175552368
+    },
+    {
+      "word": "one",
+      "start": 6.790000000000022,
+      "end": 6.970000000000022,
+      "probability": 0.9973535537719727
+    },
+    {
+      "word": "massive",
+      "start": 6.970000000000022,
+      "end": 7.270000000000023,
+      "probability": 0.9934466481208801
+    },
+    {
+      "word": "bucket,",
+      "start": 7.270000000000023,
+      "end": 7.5300000000000225,
+      "probability": 0.9965454936027527
+    },
+    {
+      "word": "it",
+      "start": 7.5300000000000225,
+      "end": 7.7300000000000235,
+      "probability": 0.9817754030227661
+    },
+    {
+      "word": "would",
+      "start": 7.7300000000000235,
+      "end": 7.810000000000024,
+      "probability": 0.86655592918396
+    },
+    {
+      "word": "be",
+      "start": 7.810000000000024,
+      "end": 7.930000000000023,
+      "probability": 0.9981756210327148
+    },
+    {
+      "word": "chaos.",
+      "start": 7.930000000000023,
+      "end": 8.330000000000023,
+      "probability": 0.9642373919487
+    },
+    {
+      "word": "Total",
+      "start": 8.790000000000022,
+      "end": 9.170000000000023,
+      "probability": 0.9711833596229553
+    },
+    {
+      "word": "chaos.",
+      "start": 9.170000000000023,
+      "end": 9.510000000000023,
+      "probability": 0.9724338054656982
+    },
+    {
+      "word": "Which",
+      "start": 10.010000000000023,
+      "end": 10.190000000000023,
+      "probability": 0.9852262139320374
+    },
+    {
+      "word": "is",
+      "start": 10.190000000000023,
+      "end": 10.270000000000023,
+      "probability": 0.9973350167274475
+    },
+    {
+      "word": "why",
+      "start": 10.270000000000023,
+      "end": 10.410000000000023,
+      "probability": 0.9993261098861694
+    },
+    {
+      "word": "the",
+      "start": 10.410000000000023,
+      "end": 10.550000000000022,
+      "probability": 0.9774801731109619
+    },
+    {
+      "word": "system",
+      "start": 10.550000000000022,
+      "end": 10.790000000000022,
+      "probability": 0.9965008497238159
+    },
+    {
+      "word": "relies",
+      "start": 10.790000000000022,
+      "end": 10.990000000000023,
+      "probability": 0.9970218539237976
+    },
+    {
+      "word": "heavily",
+      "start": 10.990000000000023,
+      "end": 11.590000000000023,
+      "probability": 0.998881995677948
+    },
+    {
+      "word": "on",
+      "start": 11.590000000000023,
+      "end": 11.930000000000023,
+      "probability": 0.9991273283958435
+    },
+    {
+      "word": "namespaces",
+      "start": 11.930000000000023,
+      "end": 12.410000000000023,
+      "probability": 0.9428556859493256
+    },
+    {
+      "word": "and",
+      "start": 12.410000000000023,
+      "end": 12.790000000000022,
+      "probability": 0.9921008944511414
+    },
+    {
+      "word": "inheritance.",
+      "start": 12.790000000000022,
+      "end": 13.110000000000023,
+      "probability": 0.9952746629714966
+    },
+    {
+      "word": "Namespaces",
+      "start": 14.290000000000024,
+      "end": 14.570000000000022,
+      "probability": 0.9729987680912018
+    },
+    {
+      "word": "act",
+      "start": 14.570000000000022,
+      "end": 14.910000000000021,
+      "probability": 0.9955645799636841
+    },
+    {
+      "word": "as",
+      "start": 14.910000000000021,
+      "end": 15.110000000000024,
+      "probability": 0.9981973767280579
+    },
+    {
+      "word": "organizational",
+      "start": 15.110000000000024,
+      "end": 15.730000000000022,
+      "probability": 0.9915103912353516
+    },
+    {
+      "word": "boundaries",
+      "start": 15.730000000000022,
+      "end": 16.050000000000022,
+      "probability": 0.9953820109367371
+    },
+    {
+      "word": "or",
+      "start": 16.050000000000022,
+      "end": 16.59000000000002,
+      "probability": 0.9438676834106445
+    },
+    {
+      "word": "scopes",
+      "start": 16.59000000000002,
+      "end": 17.09000000000002,
+      "probability": 0.9909241795539856
+    },
+    {
+      "word": "for",
+      "start": 17.09000000000002,
+      "end": 17.390000000000022,
+      "probability": 0.985014021396637
+    },
+    {
+      "word": "your",
+      "start": 17.390000000000022,
+      "end": 17.510000000000023,
+      "probability": 0.9986321330070496
+    },
+    {
+      "word": "definitions.",
+      "start": 17.510000000000023,
+      "end": 17.850000000000023,
+      "probability": 0.9977935552597046
+    },
+    {
+      "word": "So",
+      "start": 18.59000000000002,
+      "end": 18.830000000000023,
+      "probability": 0.9831543564796448
+    },
+    {
+      "word": "the",
+      "start": 18.830000000000023,
+      "end": 19.370000000000022,
+      "probability": 0.9243583083152771
+    },
+    {
+      "word": "HR",
+      "start": 19.370000000000022,
+      "end": 19.590000000000025,
+      "probability": 0.8642921447753906
+    },
+    {
+      "word": "department's",
+      "start": 19.590000000000025,
+      "end": 20.090000000000025,
+      "probability": 0.8666007220745087
+    },
+    {
+      "word": "definition",
+      "start": 20.090000000000025,
+      "end": 20.390000000000022,
+      "probability": 0.996322751045227
+    },
+    {
+      "word": "of",
+      "start": 20.390000000000022,
+      "end": 20.690000000000023,
+      "probability": 0.9988428354263306
+    },
+    {
+      "word": "a",
+      "start": 20.690000000000023,
+      "end": 20.810000000000024,
+      "probability": 0.9833522439002991
+    },
+    {
+      "word": "contract,",
+      "start": 20.810000000000024,
+      "end": 21.370000000000022,
+      "probability": 0.9554346203804016
+    },
+    {
+      "word": "which",
+      "start": 21.890000000000022,
+      "end": 22.07000000000002,
+      "probability": 0.9975113868713379
+    },
+    {
+      "word": "might",
+      "start": 22.07000000000002,
+      "end": 22.590000000000025,
+      "probability": 0.9891613125801086
+    },
+    {
+      "word": "mean",
+      "start": 22.590000000000025,
+      "end": 22.850000000000023,
+      "probability": 0.9946137070655823
+    },
+    {
+      "word": "an",
+      "start": 22.850000000000023,
+      "end": 23.11000000000002,
+      "probability": 0.9885240197181702
+    },
+    {
+      "word": "employment",
+      "start": 23.11000000000002,
+      "end": 23.390000000000022,
+      "probability": 0.9857193827629089
+    },
+    {
+      "word": "agreement,",
+      "start": 23.390000000000022,
+      "end": 23.770000000000024,
+      "probability": 0.9989665746688843
+    },
+    {
+      "word": "doesn't",
+      "start": 24.190000000000023,
+      "end": 24.61000000000002,
+      "probability": 0.9944609701633453
+    },
+    {
+      "word": "collide",
+      "start": 24.61000000000002,
+      "end": 25.010000000000023,
+      "probability": 0.9967225193977356
+    },
+    {
+      "word": "and",
+      "start": 25.010000000000023,
+      "end": 25.330000000000023,
+      "probability": 0.9880213737487793
+    },
+    {
+      "word": "override",
+      "start": 25.330000000000023,
+      "end": 25.670000000000023,
+      "probability": 0.9972430467605591
+    },
+    {
+      "word": "the",
+      "start": 25.670000000000023,
+      "end": 25.950000000000024,
+      "probability": 0.9980641007423401
+    },
+    {
+      "word": "sales",
+      "start": 25.950000000000024,
+      "end": 26.130000000000024,
+      "probability": 0.9784736037254333
+    },
+    {
+      "word": "department's",
+      "start": 26.130000000000024,
+      "end": 26.670000000000023,
+      "probability": 0.9932641983032227
+    },
+    {
+      "word": "definition",
+      "start": 26.670000000000023,
+      "end": 27.010000000000023,
+      "probability": 0.9969197511672974
+    },
+    {
+      "word": "of",
+      "start": 27.010000000000023,
+      "end": 27.210000000000022,
+      "probability": 0.9987986087799072
+    },
+    {
+      "word": "a",
+      "start": 27.210000000000022,
+      "end": 27.25000000000002,
+      "probability": 0.9724161028862
+    },
+    {
+      "word": "contract,",
+      "start": 27.25000000000002,
+      "end": 27.530000000000022,
+      "probability": 0.9994239807128906
+    },
+    {
+      "word": "which",
+      "start": 27.890000000000022,
+      "end": 28.230000000000025,
+      "probability": 0.9981695413589478
+    },
+    {
+      "word": "means",
+      "start": 28.230000000000025,
+      "end": 28.450000000000024,
+      "probability": 0.9989633560180664
+    },
+    {
+      "word": "a",
+      "start": 28.450000000000024,
+      "end": 28.690000000000023,
+      "probability": 0.9975743889808655
+    },
+    {
+      "word": "customer",
+      "start": 28.690000000000023,
+      "end": 29.050000000000022,
+      "probability": 0.9896630644798279
+    },
+    {
+      "word": "purchase",
+      "start": 29.050000000000022,
+      "end": 29.370000000000022,
+      "probability": 0.9979996085166931
+    },
+    {
+      "word": "agreement.",
+      "start": 29.370000000000022,
+      "end": 29.79000000000002,
+      "probability": 0.9994169473648071
+    },
+    {
+      "word": "Exactly.",
+      "start": 30.130000000000024,
+      "end": 30.490000000000023,
+      "probability": 0.9946516752243042
+    },
+    {
+      "word": "Namespaces",
+      "start": 31.130000000000024,
+      "end": 31.37000000000002,
+      "probability": 0.8837891221046448
+    },
+    {
+      "word": "prevent",
+      "start": 31.37000000000002,
+      "end": 31.810000000000024,
+      "probability": 0.9888280630111694
+    },
+    {
+      "word": "those",
+      "start": 31.810000000000024,
+      "end": 32.090000000000025,
+      "probability": 0.9923811554908752
+    },
+    {
+      "word": "semantic",
+      "start": 32.090000000000025,
+      "end": 32.39000000000002,
+      "probability": 0.977325439453125
+    },
+    {
+      "word": "collisions,",
+      "start": 32.39000000000002,
+      "end": 32.79000000000002,
+      "probability": 0.9978724718093872
+    }
+  ],
+  "transcript_asr": "But if you are a global enterprise, you are dealing with thousands of concepts. You can't just have all these entities thrown into one massive bucket, it would be chaos. Total chaos. Which is why the system relies heavily on namespaces and inheritance. Namespaces act as organizational boundaries or scopes for your definitions. So the HR department's definition of a contract, which might mean an employment agreement, doesn't collide and override the sales department's definition of a contract, which means a customer purchase agreement. Exactly. Namespaces prevent those semantic collisions,",
+  "source_kind": "actual uploaded recording; continuous audio excerpt",
+  "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "status": "planned",
+  "publish_status": "draft for review",
+  "narration_replaced": false,
+  "actual_timestamps": true,
+  "context_label": "Illustrative scenario",
+  "review_flags": [],
+  "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
+  "caption_corrections": [],
+  "caption_join_review": [],
+  "boundary_note": "Post-context ASR review: remove preceding sentence tail, or retain the full opening syllable."
+}

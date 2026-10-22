@@ -1,0 +1,130 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,55,&H002A2B17,&H00657811,&H00F3F7EE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,105,105,370,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.43,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}which{\c&H002A2B17&\b0} naturally\Nraises the question
+Dialogue: 0,0:00:00.43,0:00:00.66,Default,,0,0,0,,{\pos(540,1513)}which {\c&H00657811&\b1}naturally{\c&H002A2B17&\b0}\Nraises the question
+Dialogue: 0,0:00:00.66,0:00:01.10,Default,,0,0,0,,{\pos(540,1513)}which naturally\N{\c&H00657811&\b1}raises{\c&H002A2B17&\b0} the question
+Dialogue: 0,0:00:01.10,0:00:01.25,Default,,0,0,0,,{\pos(540,1513)}which naturally\Nraises {\c&H00657811&\b1}the{\c&H002A2B17&\b0} question
+Dialogue: 0,0:00:01.25,0:00:01.58,Default,,0,0,0,,{\pos(540,1513)}which naturally\Nraises the {\c&H00657811&\b1}question{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:01.46,0:00:02.13,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}is{\c&H002A2B17&\b0} Fabric IQ, which is the
+Dialogue: 0,0:00:02.13,0:00:02.48,Default,,0,0,0,,{\pos(540,1513)}is {\c&H00657811&\b1}Fabric{\c&H002A2B17&\b0} IQ, which is the
+Dialogue: 0,0:00:02.48,0:00:03.50,Default,,0,0,0,,{\pos(540,1513)}is Fabric {\c&H00657811&\b1}IQ,{\c&H002A2B17&\b0} which is the
+Dialogue: 0,0:00:03.50,0:00:03.70,Default,,0,0,0,,{\pos(540,1513)}is Fabric IQ, {\c&H00657811&\b1}which{\c&H002A2B17&\b0} is the
+Dialogue: 0,0:00:03.70,0:00:03.86,Default,,0,0,0,,{\pos(540,1513)}is Fabric IQ, which {\c&H00657811&\b1}is{\c&H002A2B17&\b0} the
+Dialogue: 0,0:00:03.86,0:00:04.13,Default,,0,0,0,,{\pos(540,1513)}is Fabric IQ, which is {\c&H00657811&\b1}the{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:04.01,0:00:04.26,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}specific{\c&H002A2B17&\b0} service\Nwhere this ontology
+Dialogue: 0,0:00:04.26,0:00:04.72,Default,,0,0,0,,{\pos(540,1513)}specific {\c&H00657811&\b1}service{\c&H002A2B17&\b0}\Nwhere this ontology
+Dialogue: 0,0:00:04.72,0:00:05.00,Default,,0,0,0,,{\pos(540,1513)}specific service\N{\c&H00657811&\b1}where{\c&H002A2B17&\b0} this ontology
+Dialogue: 0,0:00:05.00,0:00:05.28,Default,,0,0,0,,{\pos(540,1513)}specific service\Nwhere {\c&H00657811&\b1}this{\c&H002A2B17&\b0} ontology
+Dialogue: 0,0:00:05.28,0:00:05.86,Default,,0,0,0,,{\pos(540,1513)}specific service\Nwhere this {\c&H00657811&\b1}ontology{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:05.74,0:00:06.08,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}feature{\c&H002A2B17&\b0} lives.\NJust another database
+Dialogue: 0,0:00:06.08,0:00:07.10,Default,,0,0,0,,{\pos(540,1513)}feature {\c&H00657811&\b1}lives.{\c&H002A2B17&\b0}\NJust another database
+Dialogue: 0,0:00:07.10,0:00:07.36,Default,,0,0,0,,{\pos(540,1513)}feature lives.\N{\c&H00657811&\b1}Just{\c&H002A2B17&\b0} another database
+Dialogue: 0,0:00:07.36,0:00:07.72,Default,,0,0,0,,{\pos(540,1513)}feature lives.\NJust {\c&H00657811&\b1}another{\c&H002A2B17&\b0} database
+Dialogue: 0,0:00:07.72,0:00:08.13,Default,,0,0,0,,{\pos(540,1513)}feature lives.\NJust another {\c&H00657811&\b1}database{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:08.02,0:00:08.36,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}we{\c&H002A2B17&\b0} have to maintain.
+Dialogue: 0,0:00:08.36,0:00:08.48,Default,,0,0,0,,{\pos(540,1513)}we {\c&H00657811&\b1}have{\c&H002A2B17&\b0} to maintain.
+Dialogue: 0,0:00:08.48,0:00:08.56,Default,,0,0,0,,{\pos(540,1513)}we have {\c&H00657811&\b1}to{\c&H002A2B17&\b0} maintain.
+Dialogue: 0,0:00:08.56,0:00:08.94,Default,,0,0,0,,{\pos(540,1513)}we have to {\c&H00657811&\b1}maintain.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:09.36,0:00:09.92,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}That{\c&H002A2B17&\b0} is the\Nmost persistent misconception
+Dialogue: 0,0:00:09.92,0:00:10.18,Default,,0,0,0,,{\pos(540,1513)}That {\c&H00657811&\b1}is{\c&H002A2B17&\b0} the\Nmost persistent misconception
+Dialogue: 0,0:00:10.18,0:00:10.36,Default,,0,0,0,,{\pos(540,1513)}That is {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nmost persistent misconception
+Dialogue: 0,0:00:10.36,0:00:10.72,Default,,0,0,0,,{\pos(540,1513)}That is the\N{\c&H00657811&\b1}most{\c&H002A2B17&\b0} persistent misconception
+Dialogue: 0,0:00:10.72,0:00:11.34,Default,,0,0,0,,{\pos(540,1513)}That is the\Nmost {\c&H00657811&\b1}persistent{\c&H002A2B17&\b0} misconception
+Dialogue: 0,0:00:11.34,0:00:12.02,Default,,0,0,0,,{\pos(540,1513)}That is the\Nmost persistent {\c&H00657811&\b1}misconception{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:11.90,0:00:12.36,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}we{\c&H002A2B17&\b0} see and we really have
+Dialogue: 0,0:00:12.36,0:00:12.54,Default,,0,0,0,,{\pos(540,1513)}we {\c&H00657811&\b1}see{\c&H002A2B17&\b0} and we really have
+Dialogue: 0,0:00:12.54,0:00:12.72,Default,,0,0,0,,{\pos(540,1513)}we see {\c&H00657811&\b1}and{\c&H002A2B17&\b0} we really have
+Dialogue: 0,0:00:12.72,0:00:12.84,Default,,0,0,0,,{\pos(540,1513)}we see and {\c&H00657811&\b1}we{\c&H002A2B17&\b0} really have
+Dialogue: 0,0:00:12.84,0:00:13.14,Default,,0,0,0,,{\pos(540,1513)}we see and we {\c&H00657811&\b1}really{\c&H002A2B17&\b0} have
+Dialogue: 0,0:00:13.14,0:00:13.46,Default,,0,0,0,,{\pos(540,1513)}we see and we really {\c&H00657811&\b1}have{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:13.34,0:00:13.48,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}to{\c&H002A2B17&\b0} clear\Nit up immediately.
+Dialogue: 0,0:00:13.48,0:00:13.64,Default,,0,0,0,,{\pos(540,1513)}to {\c&H00657811&\b1}clear{\c&H002A2B17&\b0}\Nit up immediately.
+Dialogue: 0,0:00:13.64,0:00:13.80,Default,,0,0,0,,{\pos(540,1513)}to clear\N{\c&H00657811&\b1}it{\c&H002A2B17&\b0} up immediately.
+Dialogue: 0,0:00:13.80,0:00:13.86,Default,,0,0,0,,{\pos(540,1513)}to clear\Nit {\c&H00657811&\b1}up{\c&H002A2B17&\b0} immediately.
+Dialogue: 0,0:00:13.86,0:00:14.31,Default,,0,0,0,,{\pos(540,1513)}to clear\Nit up {\c&H00657811&\b1}immediately.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:14.80,0:00:15.16,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Fabric{\c&H002A2B17&\b0} IQ is\Nemphatically not a
+Dialogue: 0,0:00:15.16,0:00:15.36,Default,,0,0,0,,{\pos(540,1513)}Fabric {\c&H00657811&\b1}IQ{\c&H002A2B17&\b0} is\Nemphatically not a
+Dialogue: 0,0:00:15.36,0:00:15.82,Default,,0,0,0,,{\pos(540,1513)}Fabric IQ {\c&H00657811&\b1}is{\c&H002A2B17&\b0}\Nemphatically not a
+Dialogue: 0,0:00:15.82,0:00:16.36,Default,,0,0,0,,{\pos(540,1513)}Fabric IQ is\N{\c&H00657811&\b1}emphatically{\c&H002A2B17&\b0} not a
+Dialogue: 0,0:00:16.36,0:00:17.30,Default,,0,0,0,,{\pos(540,1513)}Fabric IQ is\Nemphatically {\c&H00657811&\b1}not{\c&H002A2B17&\b0} a
+Dialogue: 0,0:00:17.30,0:00:17.98,Default,,0,0,0,,{\pos(540,1513)}Fabric IQ is\Nemphatically not {\c&H00657811&\b1}a{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:17.86,0:00:18.84,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}database.{\c&H002A2B17&\b0} Okay, so\Nit doesn't store
+Dialogue: 0,0:00:18.84,0:00:19.18,Default,,0,0,0,,{\pos(540,1513)}database. {\c&H00657811&\b1}Okay,{\c&H002A2B17&\b0} so\Nit doesn't store
+Dialogue: 0,0:00:19.18,0:00:19.30,Default,,0,0,0,,{\pos(540,1513)}database. Okay, {\c&H00657811&\b1}so{\c&H002A2B17&\b0}\Nit doesn't store
+Dialogue: 0,0:00:19.30,0:00:19.38,Default,,0,0,0,,{\pos(540,1513)}database. Okay, so\N{\c&H00657811&\b1}it{\c&H002A2B17&\b0} doesn't store
+Dialogue: 0,0:00:19.38,0:00:19.57,Default,,0,0,0,,{\pos(540,1513)}database. Okay, so\Nit {\c&H00657811&\b1}doesn't{\c&H002A2B17&\b0} store
+Dialogue: 0,0:00:19.57,0:00:19.88,Default,,0,0,0,,{\pos(540,1513)}database. Okay, so\Nit doesn't {\c&H00657811&\b1}store{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:19.76,0:00:20.88,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}data?{\c&H002A2B17&\b0} It does\Nnot store your
+Dialogue: 0,0:00:20.88,0:00:20.90,Default,,0,0,0,,{\pos(540,1513)}data? {\c&H00657811&\b1}It{\c&H002A2B17&\b0} does\Nnot store your
+Dialogue: 0,0:00:20.90,0:00:21.08,Default,,0,0,0,,{\pos(540,1513)}data? It {\c&H00657811&\b1}does{\c&H002A2B17&\b0}\Nnot store your
+Dialogue: 0,0:00:21.08,0:00:21.38,Default,,0,0,0,,{\pos(540,1513)}data? It does\N{\c&H00657811&\b1}not{\c&H002A2B17&\b0} store your
+Dialogue: 0,0:00:21.38,0:00:21.86,Default,,0,0,0,,{\pos(540,1513)}data? It does\Nnot {\c&H00657811&\b1}store{\c&H002A2B17&\b0} your
+Dialogue: 0,0:00:21.86,0:00:22.38,Default,,0,0,0,,{\pos(540,1513)}data? It does\Nnot store {\c&H00657811&\b1}your{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:22.26,0:00:23.14,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}transactional{\c&H002A2B17&\b0} data.\NFabric IQ organizes
+Dialogue: 0,0:00:23.14,0:00:23.84,Default,,0,0,0,,{\pos(540,1513)}transactional {\c&H00657811&\b1}data.{\c&H002A2B17&\b0}\NFabric IQ organizes
+Dialogue: 0,0:00:23.84,0:00:24.04,Default,,0,0,0,,{\pos(540,1513)}transactional data.\N{\c&H00657811&\b1}Fabric{\c&H002A2B17&\b0} IQ organizes
+Dialogue: 0,0:00:24.04,0:00:24.20,Default,,0,0,0,,{\pos(540,1513)}transactional data.\NFabric {\c&H00657811&\b1}IQ{\c&H002A2B17&\b0} organizes
+Dialogue: 0,0:00:24.20,0:00:25.02,Default,,0,0,0,,{\pos(540,1513)}transactional data.\NFabric IQ {\c&H00657811&\b1}organizes{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:24.90,0:00:25.12,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}the{\c&H002A2B17&\b0} business context\Nthat hovers over
+Dialogue: 0,0:00:25.12,0:00:25.40,Default,,0,0,0,,{\pos(540,1513)}the {\c&H00657811&\b1}business{\c&H002A2B17&\b0} context\Nthat hovers over
+Dialogue: 0,0:00:25.40,0:00:25.76,Default,,0,0,0,,{\pos(540,1513)}the business {\c&H00657811&\b1}context{\c&H002A2B17&\b0}\Nthat hovers over
+Dialogue: 0,0:00:25.76,0:00:26.11,Default,,0,0,0,,{\pos(540,1513)}the business context\N{\c&H00657811&\b1}that{\c&H002A2B17&\b0} hovers over
+Dialogue: 0,0:00:26.11,0:00:26.50,Default,,0,0,0,,{\pos(540,1513)}the business context\Nthat {\c&H00657811&\b1}hovers{\c&H002A2B17&\b0} over
+Dialogue: 0,0:00:26.50,0:00:26.94,Default,,0,0,0,,{\pos(540,1513)}the business context\Nthat hovers {\c&H00657811&\b1}over{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:26.82,0:00:27.00,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}the{\c&H002A2B17&\b0} data you already have.
+Dialogue: 0,0:00:27.00,0:00:27.20,Default,,0,0,0,,{\pos(540,1513)}the {\c&H00657811&\b1}data{\c&H002A2B17&\b0} you already have.
+Dialogue: 0,0:00:27.20,0:00:27.42,Default,,0,0,0,,{\pos(540,1513)}the data {\c&H00657811&\b1}you{\c&H002A2B17&\b0} already have.
+Dialogue: 0,0:00:27.42,0:00:27.68,Default,,0,0,0,,{\pos(540,1513)}the data you {\c&H00657811&\b1}already{\c&H002A2B17&\b0} have.
+Dialogue: 0,0:00:27.68,0:00:28.28,Default,,0,0,0,,{\pos(540,1513)}the data you already {\c&H00657811&\b1}have.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:28.52,0:00:28.72,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}If{\c&H002A2B17&\b0} it doesn't\Nhold data, what
+Dialogue: 0,0:00:28.72,0:00:28.88,Default,,0,0,0,,{\pos(540,1513)}If {\c&H00657811&\b1}it{\c&H002A2B17&\b0} doesn't\Nhold data, what
+Dialogue: 0,0:00:28.88,0:00:29.11,Default,,0,0,0,,{\pos(540,1513)}If it {\c&H00657811&\b1}doesn't{\c&H002A2B17&\b0}\Nhold data, what
+Dialogue: 0,0:00:29.11,0:00:29.46,Default,,0,0,0,,{\pos(540,1513)}If it doesn't\N{\c&H00657811&\b1}hold{\c&H002A2B17&\b0} data, what
+Dialogue: 0,0:00:29.46,0:00:30.50,Default,,0,0,0,,{\pos(540,1513)}If it doesn't\Nhold {\c&H00657811&\b1}data,{\c&H002A2B17&\b0} what
+Dialogue: 0,0:00:30.50,0:00:30.80,Default,,0,0,0,,{\pos(540,1513)}If it doesn't\Nhold data, {\c&H00657811&\b1}what{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:30.68,0:00:30.80,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}is{\c&H002A2B17&\b0} it holding?
+Dialogue: 0,0:00:30.80,0:00:30.92,Default,,0,0,0,,{\pos(540,1513)}is {\c&H00657811&\b1}it{\c&H002A2B17&\b0} holding?
+Dialogue: 0,0:00:30.92,0:00:31.38,Default,,0,0,0,,{\pos(540,1513)}is it {\c&H00657811&\b1}holding?{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:31.78,0:00:32.06,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Think{\c&H002A2B17&\b0} of it as a semantic
+Dialogue: 0,0:00:32.06,0:00:32.18,Default,,0,0,0,,{\pos(540,1513)}Think {\c&H00657811&\b1}of{\c&H002A2B17&\b0} it as a semantic
+Dialogue: 0,0:00:32.18,0:00:32.29,Default,,0,0,0,,{\pos(540,1513)}Think of {\c&H00657811&\b1}it{\c&H002A2B17&\b0} as a semantic
+Dialogue: 0,0:00:32.29,0:00:32.44,Default,,0,0,0,,{\pos(540,1513)}Think of it {\c&H00657811&\b1}as{\c&H002A2B17&\b0} a semantic
+Dialogue: 0,0:00:32.44,0:00:32.58,Default,,0,0,0,,{\pos(540,1513)}Think of it as {\c&H00657811&\b1}a{\c&H002A2B17&\b0} semantic
+Dialogue: 0,0:00:32.58,0:00:33.13,Default,,0,0,0,,{\pos(540,1513)}Think of it as a {\c&H00657811&\b1}semantic{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:33.01,0:00:33.51,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}translation{\c&H002A2B17&\b0} layer.\NPower BI provides
+Dialogue: 0,0:00:33.51,0:00:34.92,Default,,0,0,0,,{\pos(540,1513)}translation {\c&H00657811&\b1}layer.{\c&H002A2B17&\b0}\NPower BI provides
+Dialogue: 0,0:00:34.92,0:00:34.96,Default,,0,0,0,,{\pos(540,1513)}translation layer.\N{\c&H00657811&\b1}Power{\c&H002A2B17&\b0} BI provides
+Dialogue: 0,0:00:34.96,0:00:35.23,Default,,0,0,0,,{\pos(540,1513)}translation layer.\NPower {\c&H00657811&\b1}BI{\c&H002A2B17&\b0} provides
+Dialogue: 0,0:00:35.23,0:00:35.88,Default,,0,0,0,,{\pos(540,1513)}translation layer.\NPower BI {\c&H00657811&\b1}provides{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:35.76,0:00:35.90,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}your{\c&H002A2B17&\b0} curated\Nanalytics and visuals.
+Dialogue: 0,0:00:35.90,0:00:36.34,Default,,0,0,0,,{\pos(540,1513)}your {\c&H00657811&\b1}curated{\c&H002A2B17&\b0}\Nanalytics and visuals.
+Dialogue: 0,0:00:36.34,0:00:36.60,Default,,0,0,0,,{\pos(540,1513)}your curated\N{\c&H00657811&\b1}analytics{\c&H002A2B17&\b0} and visuals.
+Dialogue: 0,0:00:36.60,0:00:37.06,Default,,0,0,0,,{\pos(540,1513)}your curated\Nanalytics {\c&H00657811&\b1}and{\c&H002A2B17&\b0} visuals.
+Dialogue: 0,0:00:37.06,0:00:37.41,Default,,0,0,0,,{\pos(540,1513)}your curated\Nanalytics and {\c&H00657811&\b1}visuals.{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:38.18,0:00:38.20,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}Your{\c&H002A2B17&\b0} Lakehouse provides\Nthe raw storage,
+Dialogue: 0,0:00:38.20,0:00:38.50,Default,,0,0,0,,{\pos(540,1513)}Your {\c&H00657811&\b1}Lakehouse{\c&H002A2B17&\b0} provides\Nthe raw storage,
+Dialogue: 0,0:00:38.50,0:00:38.78,Default,,0,0,0,,{\pos(540,1513)}Your Lakehouse {\c&H00657811&\b1}provides{\c&H002A2B17&\b0}\Nthe raw storage,
+Dialogue: 0,0:00:38.78,0:00:39.00,Default,,0,0,0,,{\pos(540,1513)}Your Lakehouse provides\N{\c&H00657811&\b1}the{\c&H002A2B17&\b0} raw storage,
+Dialogue: 0,0:00:39.00,0:00:39.14,Default,,0,0,0,,{\pos(540,1513)}Your Lakehouse provides\Nthe {\c&H00657811&\b1}raw{\c&H002A2B17&\b0} storage,
+Dialogue: 0,0:00:39.14,0:00:39.55,Default,,0,0,0,,{\pos(540,1513)}Your Lakehouse provides\Nthe raw {\c&H00657811&\b1}storage,{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:39.44,0:00:40.00,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}but{\c&H002A2B17&\b0} the ontology\Nliving inside Fabric
+Dialogue: 0,0:00:40.00,0:00:40.14,Default,,0,0,0,,{\pos(540,1513)}but {\c&H00657811&\b1}the{\c&H002A2B17&\b0} ontology\Nliving inside Fabric
+Dialogue: 0,0:00:40.14,0:00:40.65,Default,,0,0,0,,{\pos(540,1513)}but the {\c&H00657811&\b1}ontology{\c&H002A2B17&\b0}\Nliving inside Fabric
+Dialogue: 0,0:00:40.65,0:00:41.26,Default,,0,0,0,,{\pos(540,1513)}but the ontology\N{\c&H00657811&\b1}living{\c&H002A2B17&\b0} inside Fabric
+Dialogue: 0,0:00:41.26,0:00:41.96,Default,,0,0,0,,{\pos(540,1513)}but the ontology\Nliving {\c&H00657811&\b1}inside{\c&H002A2B17&\b0} Fabric
+Dialogue: 0,0:00:41.96,0:00:42.55,Default,,0,0,0,,{\pos(540,1513)}but the ontology\Nliving inside {\c&H00657811&\b1}Fabric{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:42.44,0:00:42.74,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}IQ{\c&H002A2B17&\b0} defines the\Nactual concepts and
+Dialogue: 0,0:00:42.74,0:00:43.70,Default,,0,0,0,,{\pos(540,1513)}IQ {\c&H00657811&\b1}defines{\c&H002A2B17&\b0} the\Nactual concepts and
+Dialogue: 0,0:00:43.70,0:00:44.04,Default,,0,0,0,,{\pos(540,1513)}IQ defines {\c&H00657811&\b1}the{\c&H002A2B17&\b0}\Nactual concepts and
+Dialogue: 0,0:00:44.04,0:00:44.42,Default,,0,0,0,,{\pos(540,1513)}IQ defines the\N{\c&H00657811&\b1}actual{\c&H002A2B17&\b0} concepts and
+Dialogue: 0,0:00:44.42,0:00:45.00,Default,,0,0,0,,{\pos(540,1513)}IQ defines the\Nactual {\c&H00657811&\b1}concepts{\c&H002A2B17&\b0} and
+Dialogue: 0,0:00:45.00,0:00:45.44,Default,,0,0,0,,{\pos(540,1513)}IQ defines the\Nactual concepts {\c&H00657811&\b1}and{\c&H002A2B17&\b0}
+Dialogue: 0,0:00:45.32,0:00:45.77,Default,,0,0,0,,{\pos(540,1513)}{\c&H00657811&\b1}connections.{\c&H002A2B17&\b0}

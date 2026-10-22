@@ -1,0 +1,5 @@
+Shortcuts reference data elsewhere
+Original recording 09:45–10:21
+ASR draft; technical-name spelling normalized.
+
+Well, shortcuts are a response to the nightmare of data duplication, which is a huge problem. Massive. In legacy architectures, if the machine learning team needed the sales data for a forecasting model and the finance team needed it for a quarterly report, the data engineers would literally copy the data into two different databases. And then they get out of sync. Within months. One database updates differently than the other, and you completely lose your single source of truth. Supported shortcuts in OneLake allow different workspaces to reference data that physically live somewhere else, even in external cloud providers like AWS or Google Cloud.

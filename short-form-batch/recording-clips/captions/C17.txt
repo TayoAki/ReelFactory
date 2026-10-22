@@ -1,0 +1,5 @@
+Relationships are not automatically inherited
+Original recording 16:03–16:26
+ASR draft; technical-name spelling normalized.
+
+Ordinary relationships are not automatically inherited from the parent. Wait, really? So if I spend an hour defining that a base product has a complex relationship to a supplier database, my newly created frozen product doesn't just automatically inherit that supplier relationship? Not currently. No, you have to explicitly redefine or map that relationship for the derived type.

@@ -1,0 +1,640 @@
+[0.00–29.86] You know, usually when we talk about a medical diagnosis, there's this expectation of precision. Right. It's almost like engineering. You know, you break your arm. The x-ray shows that jagged white line and the doctor just points and says there it is. Yeah, it's totally binary. Exactly. Broken or not broken. But apply that exact same desire for a clean x-ray to what you might be dealing with right this very second in your professional life. I mean, your enterprise data. Oh, yeah. That is a very different story.
+[29.86–58.64] It really is. Today, we're exploring whether we can finally get a clear x-ray of our business operations. Welcome to the deep dive. Our mission today is exploring how businesses are finally teaching artificial intelligence to speak their specific idiosyncratic language. Which is no small feat. Not at all. We are drawing from an expert interview and a product demo script focused on Microsoft fabric and specifically fabric ontologies. And this source material is dated October 22, 2026.
+[59.86–66.68] And before we really get into the mechanics of this, we need to establish a pretty crucial baseline from our source material.
+[67.06–78.12] All right. The preview status. Exactly. The fabric ontology feature is currently in a preview status. And, you know, that label is going to sort of hover over our entire discussion today.
+[78.32–89.60] It's important context. It is vital because it provides the context for some of the system limitations, the known architectural issues and the specific workarounds that data engineers are having to navigate right now.
+[89.86–99.78] Keep that preview label in mind. Absolutely. But let's look at the core frustration. This whole thing is trying to solve because, I mean, it is painfully relatable for anyone listening. Oh, absolutely.
+[100.58–113.00] You are sitting at your desk. You have millions of data points at your fingertips. You've got tables, beautifully colored dashboards, the latest large language models, an absolute mountain of technology, a mountain.
+[113.51–121.98] And yet you still cannot get a straight, dependable answer to a painfully simple question like, which stores need my attention today?
+[122.36–137.14] Yeah, it is sort of the defining paradox of the modern data stack. We have spent the last two decades focused almost entirely on the plumbing, you know, how to move data faster, how to store more of it cheaper, how to build better analytical engines.
+[137.82–145.68] But the data itself. The raw data itself is often just a collection of totally disconnected facts. So how does an ontology fix that?
+[146.00–153.64] Well, to understand what an ontology does, you have to think of your enterprise data, not as a spreadsheet, but as a biological system.
+[154.12–163.02] Okay, I'm tracking. For years, we've been building the muscles and the organs, you know, the sales databases, the supply chain logs, the HR systems.
+[163.76–167.32] What we are exploring today is the introduction of a central nervous system.
+[167.70–176.50] A nervous system for data. Exactly. And ontology is the neural pathway that connects those disparate organs, so they actually understand what the other is doing.
+[177.16–180.52] Basically weaving isolated facts into coherent business logic.
+[180.92–191.76] I want to look really closely at that gap between data and meaning, because if you pull up a table and it shows a column labeled temperature, that's just a raw number.
+[191.76–198.94] Right. It completely lacks the commercial context. Exactly. It doesn't tell you anything about the store experiencing that temperature.
+[199.68–207.80] Well, let's trace that exact problem because it's a great example. If you have a spreadsheet and a column simply says temperature 45. What does your AI do with that?
+[208.62–217.64] I just read the number 45. Right. And if it's the ambient temperature outside a retail location on a pleasant spring day, 45 degrees Fahrenheit is just chilly.
+[217.64–229.96] Sure. But if that sensor is sitting inside a commercial refrigeration unit, holding thousands of dollars of premium pharmaceutical supplies or, you know, frozen food, then 45 degrees is a total disaster.
+[230.74–239.96] It's a catastrophic failure in progress. But the data itself, the integer 45, is completely agnostic to your business reality. The machine doesn't know to care.
+[240.40–246.74] And even if you manage to join that temperature data with your sales data in like a traditional relational database,
+[247.26–252.32] the sales figures don't tell you which specific refrigeration unit holds the goods that are currently spoiling.
+[252.66–259.36] Exactly. You still have a massive disconnect. Or consider something as ubiquitous as a shipment record. Okay.
+[259.98–266.72] If you look at a standard supply chain database, a single shipment record might contain half a dozen different date fields.
+[267.20–276.72] Oh, yeah. Order date, ship date, all of that. Right. You have the original order date, the warehouse processing date, the physical ship date, the initial estimated arrival date.
+[277.12–283.44] The revised arrival date based on, say, weather delays and the actual docked date. That is a lot of dates.
+[284.28–295.32] So if an executive asks a standard AI chatbot, hey, when is the inventory arriving? How does the language model know which of those six columns to pull? Usually it just guesses, right? Or it hallucinates.
+[296.36–306.66] Historically, a human data engineer has had to explicitly write SQL queries to tell the reporting system which of those fields represents the actual expected arrival that the store manager carries.
+[307.32–315.52] Today, which brings us to the absolute ambiguity of internal corporate language. Words simply mean different things to different departments.
+[316.16–325.32] Oh, it creates total chaos when you try to apply a single AI over the whole company. Right. Our source material highlights this phrase inventory at risk.
+[325.70–332.56] Yes, inventory at risk is a brilliant example of these diagnostic muddy waters because it sounds so simple.
+[332.56–341.18] It does. But if you go down to the warehouse and ask the manager what inventory at risk means, they will likely give you a purely physical definition. Meaning what?
+[341.56–348.20] To them, it means the physical count of stocks sitting on a pallet is currently below a hard minimum threshold at this exact second.
+[348.82–357.72] Okay, but if you take that exact same phrase to a supply chain planner, the planner is going to give you a temporal predictive definition. Right, because their job is looking ahead.
+[357.72–371.84] Exactly. To them, inventory at risk means that based on current sales velocity and historical trends, a predictive projection shows that the stock will fall below a required safety buffer at some point before the next delivery truck physically arrives.
+[372.48–378.92] Those are two radically different mathematical equations. Completely different database queries triggered by the exact same three words.
+[379.44–389.98] So, okay, let's unpack this. Having raw data and an LLM without an ontology is essentially like having a massive commercial kitchen packed to the ceiling with premium ingredients.
+[390.56–399.50] I like this analogy. But you have no recipe. You don't know the ratios. You don't know the cooking times. And you don't even know if you're supposed to be baking a wedding cake or making a beef stew.
+[400.00–407.32] That is the functional reality for most enterprises today. Historically, the human being has always been the recipe. Right, the analyst.
+[407.78–418.76] A human analyst has to listen to the business question like, which stores are at risk and then mentally translate that subjective human anxiety into a series of complex database joins?
+[419.24–427.18] They have to know all the quirks of the system. Exactly. They have to know that the warehouse table uses an underscore in the column name while the sales table uses camel case.
+[427.60–432.10] They have to know which filters to apply and which departmental definition to enforce.
+[432.97–438.60] The obvious vulnerability there that if that specific human goes on vacation or quits.
+[439.18–444.98] The institutional knowledge of how to ask the database a question just walks right out the door with them. That's terrifying for business.
+[445.42–452.48] Or even more commonly, someone from a different department tries to write the query uses their own department's definition of at risk.
+[453.08–459.86] And suddenly the C-suite is making multi-million dollar capital allocation decisions based on misaligned math. Ouch.
+[460.72–462.36] So the ontology fixes this.
+[462.70–470.34] What an ontology does is extract that translation process from the human mind and make the business meaning explicit in the software layer.
+[470.76–471.44] So it's hard-coded.
+[472.08–477.54] It makes it reusable, standardized and critically readable by an autonomous AI agent.
+[478.10–482.82] Okay. So if the ontology is the recipe, we need to talk about the kitchen where this is all happening.
+[483.52–486.66] The source material is heavily grounded in the Microsoft fabric ecosystem.
+[486.66–487.54] Yes, it is.
+[488.28–494.78] For those dealing with enterprise architecture, we really should define what fabric actually is in this context because it's not just a single database.
+[495.30–504.12] Microsoft fabric is an architectural attempt to bring the entire historically fragmented data workflow into one unified software as a service platform.
+[504.76–506.76] And when we say workflow, we mean everything.
+[507.22–508.14] The complete lifecycle.
+[508.70–516.86] Ingesting data from external sources, transforming and cleaning it, analyzing historical batches, streaming real-time IoT information,
+[517.54–522.04] training machine learning models, and finally serving up the visualizations in reporting tools.
+[522.44–527.38] Historically, companies bought a different tool from a different vendor for every single one of those steps.
+[527.98–533.08] They did, which created massive integration headaches, huge costs and security vulnerabilities.
+[534.16–535.46] So fabric just bundles it all.
+[536.00–544.04] Fabric brings components like data factory, for ingestion, synapse for engineering and data science, real-time intelligence engines and Power BI,
+[544.40–546.30] all under one unified governance umbrella.
+[546.88–551.08] And the bedrock of this entire platform is something they call one lake.
+[551.54–557.70] One lake is fundamental to understanding how the ontology actually executes. It is the shared data foundation.
+[558.08–560.26] Like a massive hard drive for the company.
+[560.88–572.42] The architectural philosophy here is that different teams within an organization, data scientists, financial analysts, operations managers can all work with the exact same underlying govern data.
+[572.70–573.86] But using their own tools.
+[573.86–579.10] Exactly. They access it through different analytical compute engines, depending on their specific needs.
+[579.72–581.78] The documentation points out a feature called shortcuts.
+[582.82–584.50] How does that change the traditional workflow?
+[585.26–588.12] Well, shortcuts are a response to the nightmare of data duplication.
+[588.84–589.92] Which is a huge problem.
+[590.10–599.42] Massive. In legacy architectures, if the machine learning team needed the sales data for a forecasting model and the finance team needed it for a quarterly report,
+[599.42–603.88] the data engineers would literally copy the data into two different databases.
+[604.70–605.72] And then they get out of sync.
+[606.36–611.68] Within months. One database updates differently than the other, and you completely lose your single source of truth.
+[612.88–621.36] Supported shortcuts in one lake allow different workspaces to reference data that physically live somewhere else, even in external cloud providers like AWS or Google Cloud.
+[621.52–621.98] Wait, really?
+[622.72–623.30] Without moving it.
+[623.86–625.64] Without ever duplicating the underlying file.
+[625.98–626.18] Without.
+[626.18–626.72] Wow.
+[627.78–634.00] So we have lakes, warehouses, real-time engines, and BI tools, all referencing the same files.
+[635.00–641.30] Which naturally raises the question, is FabricIQ, which is the specific service where this ontology feature lives?
+[641.74–643.66] Just another database we have to maintain.
+[644.40–649.06] That is the most persistent misconception we see, and we really have to clear it up immediately.
+[649.66–653.00] FabricIQ is emphatically not a database.
+[653.76–654.88] Okay, so it doesn't store data.
+[655.40–658.24] It does not store your transactional data.
+[658.66–662.98] FabricIQ organizes the business context that hovers over the data you already have.
+[663.52–666.12] If it doesn't hold data, what is it holding?
+[666.68–668.96] Think of it as a semantic translation layer.
+[669.80–672.16] Power BI provides your curated analytics and visuals.
+[673.06–677.62] Your lake house provides the raw storage, but the ontology, living inside FabricIQ,
+[678.14–680.50] defines the actual concepts and connections.
+[681.56–681.88] It's a map.
+[681.88–684.52] It is a map of pure meaning.
+[685.22–688.02] It exists so that when an AI agent looks at one lake,
+[688.40–692.62] it knows what a store or delivery actually is in relation to the rows and columns.
+[693.24–694.26] It connects the dots.
+[694.72–694.92] Right.
+[695.58–698.02] Beyond ontology doesn't store the literal temperature readings.
+[698.84–703.04] It stores the conceptual understanding that a specific column of numbers represents
+[703.04–708.04] temperature, that it is measured in Fahrenheit, and that it belongs to a specific freezer asset
+[708.04–710.72] located in a specific high-priority store.
+[711.46–714.00] It's the central nervous system coordinating the organs,
+[714.40–716.10] exactly like your earlier metaphor.
+[716.54–716.78] Exactly.
+[717.66–720.36] So what does the anatomy of this nervous system actually look like?
+[720.88–723.88] When a data engineer sits down to build a fabric ontology,
+[724.60–727.52] what are the literal building blocks they are manipulating on the screen?
+[728.26–732.84] The October 2026 documentation provides a very clear anatomy of an ontology.
+[733.46–737.30] At its core, it's a shared model of the things the business cares about.
+[737.30–741.26] What we know about those things, how they connect, and where the evidence lives.
+[741.88–743.42] Let's break down the primary components.
+[744.06–744.32] Okay.
+[744.76–747.06] The absolute foundation is an entity type.
+[747.38–749.34] So an entity type is the broad
+[750.05–779.67] Conceptual category. In the retail scenario from the source, store would be an entity type or product. Correct. It is the template. Then you have an instance. An instance is one specific physical real world manifestation of that entity type. So store number 402 located in downtown Seattle is an instance of the store entity. Yes. Next we have properties. Properties are the specific attributes that granular details we need to track about an entity. Like what?
+[779.67–809.65] For our store entity, the properties might include the region it belongs to, its square footage, or its priority classification for the supply chain. And then we have to connect them. That brings us to relationships. Relationships define the verbs between the nouns. They explain how different entity types interact in the real world. Give me an example. You might define a relationship that states a store operates a refrigeration unit or a supplier ships a product. You are drawing explicit lines.
+[809.65–839.63] So the AI doesn't have to guess how a supplier and a store are connected. And finally, the tether that brings it all back to reality. Data bindings. Data bindings are perhaps the most critical mechanical component. This is the wiring that connects these abstract high level concepts back to the physical source fields in your actual databases. Okay. So it points to the database. It's the mapping that tells the ontology. Hey, when the user asks about a region, do not hallucinate an answer. Go look specifically at column F in this example.
+[840.55–849.45] But if you are a global enterprise, you are dealing with thousands of concepts. You can't just have all these entities thrown into one massive bucket. It would be chaos.
+[849.87–858.97] Total chaos, which is why the system relies heavily on namespaces and inheritance. Namespaces act as organizational boundaries or scopes for your definitions.
+[859.65–868.61] So the HR department's definition of a contract, which might mean an employment agreement, doesn't collide and override the sales department's definition of a contract,
+[868.61–874.85] which means a customer purchase agreement. Exactly. Namespaces prevent those semantic collisions and inheritance,
+[874.89–881.91] which borrows heavily from object oriented programming, allows you to create highly specialized entities that reuse the foundational structure
+[881.91–887.85] of a base type without having to rewrite everything. Break down how that inheritance actually looks in practice for us.
+[888.13–895.05] Sure. In the Lakeshore Retail example provided in the source, they start with a very broad base type called location.
+[895.05–900.55] Okay. A location simply has properties like an address, geographic coordinates, and a manager name.
+[901.25–907.81] You can then create a store entity that derives from location. So it inherits all that base stuff.
+[908.19–915.43] The store automatically inherits the address and coordinates, but then you add store specific properties like retail square footage.
+[916.03–922.21] Similarly, you could have a base entity called product and derive a highly specific entity called frozen product.
+[922.21–929.01] But this is where we really have to pause and look closely at the architectural realities of this October 2026 release.
+[929.43–930.83] Right. The preview limitations.
+[931.85–938.23] Because the source document issues some very severe warnings about the technical constraints of inheritance in this specific preview build.
+[938.57–946.09] It is a critical warning for any engineering team evaluating the system. The theory of inheritance is beautiful, but the current mechanical reality
+[946.09–949.39] and fabric ontologies is quite strict. What's the main issue?
+[949.39–954.77] First, a derived type does not automatically inherit the physical data bindings of its parent.
+[955.07–957.99] It needs its own specific data bindings mapped to the tables.
+[958.39–960.07] Okay. That's annoying, but manageable.
+[960.61–966.85] Second, and much more frustratingly for developers, ordinary relationships are not automatically inherited from the parent.
+[967.15–974.49] Wait, really? So if I spend an hour defining that a base product has a complex relationship to a supplier database,
+[974.49–980.57] my newly created frozen product doesn't just automatically inherit that supplier relationship?
+[980.87–986.15] Not currently. No. You have to explicitly redefine or map that relationship for the derived type.
+[986.47–987.81] That seems like a lot of extra work.
+[988.17–994.45] It is. But the most significant operational limitation involves how the AI agent actually queries these hierarchies.
+[994.73–1001.09] The current agent does not automatically traverse downward to include every derived instance when you query a broad parent type.
+[1001.09–1005.05] Why does that matter in a real-world query? Walk me through a scenario.
+[1005.43–1010.15] Let's say a regional manager is running a diagnostic on everything in their supply chain that might spoil.
+[1010.89–1015.45] They sit down at the chat interface and ask the agent to analyze inventory risk for all product.
+[1015.81–1022.67] Just general products. Right. Because of this preview limitation, the agent might only query the base product entity
+[1022.67–1027.89] and completely fail to roll up the derived frozen product instances into that analysis.
+[1027.89–1038.15] Oh, wow. So the manager thinks they are looking at a comprehensive report, but the AI just silently ignored half a million dollars worth of melting ice cream
+[1038.15–1040.97] because the human didn't specifically say the word frozen.
+[1041.23–1049.75] Precisely. You have to specifically name the relevant derived type in your prompt. You must say analyze products and frozen products.
+[1050.23–1051.37] That's a huge blind spot.
+[1051.37–1060.59] If the operator isn't aware of the underlying ontological structure, they will experience massive invisible blind spots in their operational reviews.
+[1061.05–1069.07] Hearing all of this, defining entities, mapping properties, establishing namespaces, manually wiring up data bindings table by table,
+[1069.39–1072.57] it sounds like an absolute nightmare of manual labor.
+[1072.91–1074.09] It sounds daunting, yes.
+[1074.73–1079.31] A lot of data engineering teams are going to look at this and say, look, we already did this.
+[1079.31–1086.85] We spent the last five years building incredibly complex, heavily governed power BI semantic models to do exactly this kind of mapping.
+[1087.65–1090.65] Are you telling me this new tool forces us to start over from scratch?
+[1091.41–1094.09] The short answer is absolutely not.
+[1094.55–1099.01] And this is where fabric's integration strategy becomes very apparent. You do not have to start over.
+[1099.19–1099.81] Oh, thank goodness.
+[1100.03–1106.35] The system is designed so you can generate a significant portion of your ontology directly from an existing power BI semantic model.
+[1106.35–1110.83] That makes total sense because a semantic model already is a form of an ontology.
+[1111.37–1113.91] It has the tables, the relationships, the business logic.
+[1114.71–1116.41] How seamless is that translation process?
+[1116.91–1120.57] The ontology agent essentially ingests the structure you've already built.
+[1120.99–1128.17] The tables, columns, and established relationships in your power BI model automatically provide the scaffolding for the ontologies, entities, and properties.
+[1128.83–1130.35] What about the math, the calculations?
+[1130.35–1142.33] Even more importantly, the DAX measures, the data analysis expressions, which are the highly complex mathematical formulas your finance team spent months perfecting to calculate things like year over year adjusted revenue.
+[1142.57–1143.29] Right. The heavy lifting.
+[1143.67–1146.31] Those surface directly as metrics within the ontology.
+[1146.67–1153.85] But let's look at the reality of a massive enterprise. You rarely have just one perfect semantic model. You have dozens.
+[1154.31–1154.55] That's true.
+[1155.29–1159.11] Marketing has a semantic model. Sales has a semantic model. Finance has one.
+[1159.11–1161.23] And they all have a concept called customer.
+[1162.03–1163.55] Yes, the classic overlap.
+[1164.05–1172.99] If I use the agent to ingest all three of these models into one master ontology, how does it reconcile the fact that marketing defines a customer as anyone who gave us an email address?
+[1173.59–1178.17] Well, finance defines a customer as someone who has actively paid an invoice in the last 90 days.
+[1178.59–1184.53] That is exactly where the automated generation process stops and human governance must take over.
+[1184.85–1186.49] So the AI doesn't just fix it.
+[1186.81–1187.33] No.
+[1187.33–1193.67] The ontology agent is a powerful assistant. It will help you bring multiple semantic models into a shared space.
+[1194.05–1198.55] And it will flag those overlapping concepts. It will propose ways to reconcile them.
+[1198.99–1201.39] But it is not an arbiter of corporate policy.
+[1202.49–1211.49] A human domain expert still has to sit down, review the proposed entity keys, check the relationships and explicitly decide how to handle that naming collision.
+[1212.39–1218.91] Usually by utilizing namespaces or creating distinct marketing customer and finance customer entities.
+[1219.33–1221.97] Okay. So the AI gets you 80% of the way there.
+[1222.61–1225.51] But the last 20% requires intense human negotiation.
+[1225.97–1233.21] Exactly. You also have to manually add any specific time series dimensional information that the AI failed to intuit from the schemas.
+[1233.57–1237.09] I want to push back on the architecture here regarding those DAX calculations.
+[1237.85–1241.69] Let's say I've successfully imported my Power BI model into the ontology.
+[1241.97–1242.17] Okay.
+[1242.75–1245.65] I have a metric living in the ontology called net profit.
+[1246.51–1253.73] Six months from now, the CFO issues a directive to change how net profit is calculated across the entire global enterprise.
+[1253.97–1254.65] Happens all the time.
+[1254.93–1259.41] Do I go into the ontology interface to change that math or do I go back to the original Power BI model?
+[1260.41–1262.27] Who actually owns the source code for the math?
+[1262.75–1265.45] What's fascinating here is the separation of concerns.
+[1265.45–1268.13] It is a vital architectural distinction.
+[1268.91–1273.43] The source semantic model, your original Power BI file, retains absolute ownership of the DAX.
+[1273.71–1274.87] So it still owns the math?
+[1275.23–1279.81] Yes. The ontology doesn't extract and copy the calculation into its own database.
+[1280.65–1282.39] So there's no version control issue?
+[1282.77–1286.19] Correct. The ontology operates entirely by reference.
+[1286.97–1291.15] The metric you see in the ontology simply acts as a pointer back to that original source model.
+[1291.63–1291.75] Right.
+[1291.75–1296.65] If the CFO changes the definition of profit, your data engineers edit the DAX expression
+[1296.65–1299.17] in the Power BI semantic model just as they always have.
+[1299.73–1304.43] The ontology's role is simply to provide a natural language description and contextual metadata
+[1304.43–1311.43] so the AI agents understand what that metric represents and when to use it without ever altering or copying the source math.
+[1311.87–1316.25] That feels incredibly safe from a governance perspective, but what about visibility?
+[1316.25–1322.63] Can anyone querying the ontology just peek at the underlying DAX code to reverse engineer our financial logic?
+[1323.15–1325.53] No. The permission models are strictly enforced.
+[1326.31–1332.61] To generate an ontology from a semantic model or to even ask an AI agent a question that utilizes that metric,
+[1333.21–1337.09] the user needs read and build permissions on the underlying Power BI model.
+[1337.49–1338.75] Okay. So they need base access.
+[1338.75–1344.83] But if a user wants to actually view or edit the underlying DAX expression through the metric details pane
+[1344.83–1350.73] and the ontology interface, the system requires them to have explicit write permissions on the original source model.
+[1351.07–1354.59] The ontology does not act as a backdoor to bypass existing security protocols.
+[1354.97–1355.71] Absolutely not.
+[1356.31–1357.93] So we've imported our database schemas.
+[1358.51–1362.51] We've wired up our complex math from Power BI. We have structure.
+[1363.53–1367.91] But schemas and DAX formulas can't explain everything about how a business actually operates.
+[1367.91–1369.45] No, they really can't.
+[1369.55–1374.67] A relational database might have a column named priority level, filled with the numbers one, two, and three.
+[1375.63–1376.81] The schema knows it's an integer.
+[1377.65–1384.11] But the schema has absolutely no idea what makes a one strategically different from a three in the real world.
+[1384.81–1390.93] Which brings us to the most human element of this entire process, which is adding the metadata and the business roles.
+[1391.43–1391.59] Right.
+[1392.31–1398.57] This is where you inject the tacit tribal knowledge that actually determines how a business question is answered.
+[1399.19–1403.07] It's like leaving highly detailed sticky notes all over a complex shared spreadsheet.
+[1403.77–1410.43] So the next analyst who opens it doesn't accidentally delete the company's revenue projections because they didn't understand what a column meant.
+[1410.87–1412.51] That is the exact mechanism.
+[1413.33–1417.31] You have to manually codify the context that the schema simply cannot possess.
+[1418.17–1419.91] Give me some real world examples of that.
+[1419.91–1426.99] Well, in our retail operation scenario, this means explicitly writing out the definition of what constitutes a priority store.
+[1427.49–1432.61] Is it based on square footage, total revenue, proximity to a distribution center? You have to define it.
+[1433.07–1435.87] Right, because priority is totally subjective until you define it.
+[1436.13–1436.39] Exactly.
+[1437.35–1444.81] It involves clarifying units of measurement, explicitly stating that the temperature readings and the telemetry database are recorded in Celsius, not Fahrenheit.
+[1445.47–1451.27] That's about documenting the difference between your internal company product ID and the vendor's external catalog code.
+[1451.99–1456.77] Because if the AI assumes the temperature is Fahrenheit, but the freezer is actually reporting in Celsius.
+[1457.21–1461.65] Well, a freezer reporting a steady 10 degrees Celsius is 50 degrees Fahrenheit.
+[1461.99–1462.29] Oh boy.
+[1462.45–1465.07] Your entire inventory of frozen goods is currently liquid.
+[1465.59–1472.33] But the AI, if left to assume Fahrenheit by default, might look at the number 10, think, oh, that is well below freezing
+[1472.33–1474.91] and report back that everything is perfectly fine.
+[1475.35–1475.39] Wow.
+[1475.81–1479.85] That single missing piece of metadata, one word, entirely invalidates the analysis.
+[1480.53–1484.37] So how does a data engineer actually add these sticky notes into the system?
+[1484.79–1490.05] The interface allows you to provide rich natural language descriptions for every property and relationship.
+[1490.81–1494.09] You can also define extensive lists of synonyms for entity types.
+[1494.75–1495.33] Why synonyms?
+[1495.33–1499.95] If corporate formally calls it a retail location, but the region
+[1500.10–1529.18] General managers always ask the chat about the shops. You define shop as a synonym so the AI knows they mean the exact same entity. Oh, that's smart. Does the AI help with this part at all? The built-in ontology agent can assist here. It can inspect supported workspace sources, look at the column names, sample a few rows of actual data, and propose a draft model with descriptions. You can even upload an existing corporate data dictionary as grounding context for the agent. But again, a human has to check it.
+[1529.18–1559.16] A human domain expert must meticulously review those proposals. And what about things that are more complex than just a definition or a synonym? What about conditional logic? Let's walk through how our October 2026 source document illustrates the creation of a complex business rule. They use the concept of inventory risk, which we debated earlier. In the ontology interface, you can document inventory risk as a specific multivariable condition. You write out that risk occurs when a product's position is
+[1559.16–1589.04] expected to fall below its required historical buffer before the next scheduled replenishment arrives. Okay, so you type out that logic in natural language. Then what happens? Does the AI just magically know how to execute that? No, writing it is just the first step. Then you explicitly mathematically link that written rule to both the store entity and the inventory entity in your model. What is linking it actually do? By forging that link, you make the rule discoverable to any downstream AI.
+[1589.16–1610.70] Why agent consuming the ontology? So when an executive asks the agent about inventory risk at a specific store, the agent traverses the ontology, sees this linked rule and realizes, ah, my prompt says risk. The rule says I need to evaluate buffer levels and check future replenishment schedules. I cannot just pull the current physical stock count.
+[1611.20–1640.38] Precisely. Writing the rule supplies the strategic context. Now, it is important to note that how that rule is actually executed, the specific database queries, the AI writes to go fetch that data and test the condition, is handled by the query engines under the hood, which we need to discuss next. But the ontology is where the rule is permanently documented, linked and standardized for the whole company. That's the perfect pivot. We have our definitions. We have our sticky notes. We have our complex conditional business rules. But right now,
+[1640.70–1647.48] this is all just a beautiful theoretical map. How does this massive brain actually interact with the raw data?
+[1648.14–1653.50] This is the core architectural magic of the system. We have to look at how data bindings interface with
+[1653.50–1659.12] the underlying query engines. When a data engineer sets up these bindings, what kind of systems are they
+[1659.12–1664.28] actually reaching into? According to the source documentation, the bindings and fabric ontologies
+[1664.28–1669.38] can point to a surprisingly wide variety of data architectures. Likewise, you can bind to lake
+[1669.38–1673.82] houses, which are typically used to store massive amounts of operational reference data,
+[1674.70–1680.96] historical inventory records and shipment logs in open formats. You can bind to event houses or KQL
+[1680.96–1686.54] databases, which are specifically architected to handle high volume real-time streaming telemetry.
+[1686.86–1692.36] Streaming like IoT devices. Exactly. Like the second-by-second temperature readings from
+[1692.36–1696.76] thousands of refrigeration units. You can point to traditional relational data warehouses,
+[1697.32–1702.86] standard SQL databases, externally mirrored databases, and as we discussed, power BI
+[1702.86–1707.18] semantic models. Okay. So let's play on a scenario here because this sounds crazy.
+[1707.84–1713.46] I'm a manager. I open the chat interface and I ask a highly complex question. I need an answer
+[1713.46–1717.70] that requires checking physical inventory in the lake house, cross-referencing current
+[1717.70–1722.66] temperature telemetry in the event house, and calculating the financial impact using the DAX
+[1722.66–1727.26] math and the semantic model. That's a huge request. Right. Does the system extract all that
+[1727.26–1731.60] data from those three sources, pull it into some massive new temporary database and run the query
+[1731.60–1737.22] there? No. And understanding this is profound for anyone evaluating the cost and performance of
+[1737.22–1742.72] the system. The ontology supplies the definitions and the mappings. It acts as the routing intelligence.
+[1743.38–1747.94] Okay. But when a consuming experience, like a chat interface, actually formulates the query,
+[1747.94–1752.26] it executes that query against the appropriate native underlying engine.
+[1752.68–1757.60] It pushes the compute down to the source. Yes. Pushdown compute is exactly what is happening.
+[1757.94–1762.82] The AI agent will dynamically formulate a SQL query to extract the relational data from the
+[1762.82–1767.56] warehouse. All at the same time. It will simultaneously formulate a KQL,
+[1768.02–1772.44] Kusto query language, query to rip through the streaming telemetry in the event house.
+[1773.21–1778.16] And it will generate a DAX query to ask the semantic model for the financial calculation.
+[1778.86–1783.54] Wow. It does not move petabytes of data into a central staging area to answer your question.
+[1783.84–1788.88] It queries the data exactly where it natively lives, using the language that specific engine
+[1788.88–1793.10] understands best. Which is incredibly efficient from a compute standpoint, but
+[1793.98–1800.90] it brings up a terrifying architectural reality. The timing issue. Yes. If the AI is querying three
+[1800.90–1805.68] completely different systems at the exact same time, what happens if the event house data is
+[1805.68–1810.06] five milliseconds old, but the SQL warehouse hasn't run its batch update since last Tuesday.
+[1810.68–1814.18] That is the single most dangerous failure point in this entire architecture.
+[1814.46–1818.72] I cannot emphasize this enough. And it is a major warning explicitly called out by the experts.
+[1819.52–1823.74] Data freshness depends entirely on the execution path. Because the AI doesn't know
+[1823.74–1829.66] it's comparing knuples to last week's oranges. Exactly. If the agent executes a direct query against
+[1829.66–1835.36] a streaming KQL event house, that temperature data might literally be milliseconds old. Super
+[1835.36–1840.74] fresh. But if it's simultaneously querying an imported Power BI model for the sales figures,
+[1841.30–1846.36] those sales figures are only as fresh as the last time that specific Power BI model was scheduled
+[1846.36–1851.82] to refresh. So if your job fails, if your scheduled refresh failed overnight, your data is 24 hours
+[1851.82–1857.42] out of date. So a non technical executive might look at the chat window. See an answer that looks
+[1857.42–1863.30] completely uniform, highly confident, and beautifully formatted. And have absolutely no idea that half
+[1863.30–1868.04] the data informing that sentence is real time and half is a week old. That's scary. They might
+[1868.04–1872.58] make a massive operational decision based on a temporal misalignment. This is why you cannot
+[1872.58–1878.32] blindly trust the conversational output in the chat interface. You or your engineering team must
+[1878.32–1883.64] rigorously check the source ingestion timestamps and verify the reporting periods. The AI will
+[1883.64–1888.46] confidently synthesize whatever you give it. It is up to the architecture to ensure the data
+[1888.46–1894.88] is synchronized. That is a massive operational liability that teams need to plan for. So given
+[1894.88–1900.26] the complexity and the stakes here, how does a data engineer actually build and modify this thing
+[1900.26–1905.78] day to day without accidentally breaking the company? Very carefully. Our source script outlines
+[1905.78–1910.66] a very specific workflow for interacting with the built-in ontology agent in what they call plan
+[1910.66–1915.84] mode. Right. The built-in ontology agent is essentially an integrated developer environment
+[1915.84–1920.80] for your semantic logic. The script describes a scenario where an engineer wants to add a new
+[1920.80–1926.94] concept, the concept of a sale to the ontology utilizing an existing semantic model. How does
+[1926.94–1930.88] it actually feel in the user interface? Are they writing code? They are interacting
+[1930.88–1936.66] conversationally, but with deep technical guardrails. The engineer opens the ontology agent and ensures
+[1936.66–1941.64] they are in plan mode like draft mode. They prompt the agent with specific instructions.
+[1942.22–1948.02] Add a sale entity using the sales table in the sales report semantic model located in
+[1948.02–1953.28] this specific workspace. Okay. Very specific. They then ask the agent to preview the proposed
+[1953.28–1958.28] definition, show exactly how it mapped the data bindings and explain the source evidence it used
+[1958.28–1962.78] to make those decisions, all while keeping the rest of the live ontology completely untouched.
+[1963.31–1969.64] So plan mode operates as a secure sandbox. Exactly. It is a critical enterprise safety feature.
+[1970.02–1975.56] Plan mode allows you to discover, draft, validate, query and inspect massive structural changes
+[1975.56–1980.26] without actually altering the live production ontology that the rest of the company is currently
+[1980.26–1984.50] using. You can test it out first. You can see the draft entity appear on the visual canvas,
+[1984.90–1989.64] check how it mapped the primary and foreign keys and run validation checks. If you realize the
+[1989.64–1993.94] AI agent picked the wrong column for the primary key or completely missed a crucial relationship,
+[1994.16–1997.64] you can ask for revisions right there in the sandbox or manually adjust it yourself.
+[1998.26–2003.80] And when you are finally satisfied that the logic holds up, then and only then do you deliberately
+[2003.80–2009.14] switch the interface to act mode to apply the reviewed proposal merging it into the live model.
+[2009.58–2013.90] But let's be real about enterprise software deployment. Human error is inevitable.
+[2014.30–2018.40] Always. Let's say I'm an engineer. I do my checks in plan mode. Everything looks great.
+[2019.00–2024.40] I switched to act mode, apply my changes and instantly catastrophically break the revenue
+[2024.40–2028.84] reporting structure for the entire global sales team, because I mapped a relationship backward.
+[2029.56–2035.24] It happens. The source material highlights a feature called version history. In theory,
+[2035.28–2038.94] this sounds like the ultimate enterprise undo button. Does it work like that?
+[2039.26–2043.84] It functions very much like an undo button, but it is a very blunt instrument.
+[2043.84–2048.50] Blunt how? Before you make any meaningful change to your production model, you create
+[2048.50–2054.08] a named saved version of your current ontology state. Version history allows you to restore
+[2054.08–2058.86] that saved definition if things go sideways. So it's not a surgical rollback where I just
+[2058.86–2062.70] undo the last five minutes of work. No. And that's a crucial limitation to understand.
+[2063.44–2068.22] A restore replaces the definition as a whole. Wow. It overwrites everything currently in the system
+[2068.22–2073.54] with the exact state of the past version. So if your team spent four hours making great updates,
+[2073.54–2078.62] and then someone makes one catastrophic mistake in hour five, rolling back to yesterday's version
+[2078.62–2084.14] wipes out all the good work from those first four hours to that's brutal. Best practice dictates that
+[2084.14–2089.02] you must save a version of your current broken state before you restore the old one, just in case
+[2089.02–2094.04] you need to salvage a piece of the new logic later. It's an effective safety net, but it requires
+[2094.56–2099.36] really disciplined version control habits. Okay, we've built the model. We've added the
+[2099.36–2105.12] business logic. We understand the push down execution paths. And we know how to safely update the system.
+[2105.78–2109.94] It is time for the ultimate test of all this theory. The real world scenario.
+[2110.54–2115.54] This brings us to the climax of the deep dive. The source document walks us through a comprehensive
+[2115.54–2120.30] lake shore retail scenario to prove this architecture actually works in a real world setting.
+[2120.64–2124.96] This is the moment where we see if the central nervous system can actually coordinate the organs.
+[2124.96–2130.84] Right. The business scenario is a regional operations review. A human operator needs to know exactly
+[2130.84–2136.44] which stores require immediate intervention and what specifically the staff should inspect first.
+[2136.74–2143.36] Yes, a very standard, very critical operational task. The specific natural language prompt they
+[2143.36–2148.64] test in the source material is intense. I'm going to read it word for word because it perfectly
+[2148.64–2154.32] illustrates the complexity we've been talking about. Go for it. The prompt is review priority
+[2154.32–2159.92] stores in the West region for frozen product inventory risk, include recent refrigeration
+[2159.92–2166.18] exceptions, shelf availability, and the next expected inbound delivery. It's a short, highly
+[2166.18–2171.78] readable paragraph, but from a data engineering perspective, it is a monumental, highly complex
+[2171.78–2176.48] analytical request. Let's break down exactly what the underlying architecture has to execute
+[2176.48–2182.20] to answer that single prompt. Let's do it. First, the AI has to find priority stores,
+[2182.20–2187.26] right, which isn't just a basic store list. Exactly. That requires it to access the metadata
+[2187.26–2192.30] definitions we added earlier to filter out normal stores, and then it has to filter that subset
+[2192.30–2198.36] for the West region. Then it needs to identify frozen product. Remember our earlier discussion
+[2198.36–2203.54] about the strict limitations of inheritance in this preview. Yeah, the system has to know
+[2203.54–2209.70] to explicitly query the derived frozen product entity type, not just the general based product catalog.
+[2210.30–2215.14] Next, it has to assess inventory risk. This triggers the complex business rule we linked.
+[2215.58–2219.78] Right. I can't just look at physical stock. It has to pull current physical counts from a lake house,
+[2220.32–2224.60] calculate the historical sales velocity, and compare it against a safety buffer.
+[2225.36–2230.02] Then it has to find recent refrigeration exceptions. This means it has to transition from batch
+[2230.02–2235.62] processing to streaming data. It dives into the KQL event house to look for telemetry anomaly,
+[2235.62–2240.54] specifically temperature spikes that are mathematically associated with the exact equipment
+[2240.54–2245.98] operated by the specific priority stores that identified in step one. And finally, it has to
+[2245.98–2250.00] cross reference all of that aggregated risk with the next expected image.
+[2250.13–2279.55] It has to hit the shipment logs, ensuring it picks the correct revised delivery date field based on the semantic definitions we established, not just the original order date. To answer that one simple paragraph. The system is dynamically connecting operational reference data, complex product hierarchies, physical inventory logs, streaming IoT telemetry, and predictive delivery schedules. It formulates the SQL, KQL, and DAX, pushes those queries down to the respective compute engine simultaneously.
+[2279.55–2309.47] Pulls the disparate results back and synthesizes a coherent human readable answer. That is an incredibly impressive feat of orchestration. But, as the expert in the script points out, this is exactly the moment where a business can get into massive trouble if they just clap their hands and trust the magic box. This is arguably the most dangerous moment in enterprise AI adoption. Why? Because the system gives you a beautifully worded, highly confident answer.
+[2309.47–2339.45] The wording matters, yes. But, the underlying interpretation of the data matters infinitely more. The operator still has to check the receipts. They have to audit the machine's logic. Precisely. The human operator must aggressively verify if the agent actually used the approved business definitions. Did it apply the correct mathematical inventory risk role, or did it hallucinate a simpler one? Did it even check the right databases? Did it push the queries down to the intended authoritative sources? And crucially, it's
+[2339.45–2368.79] if there was a gap in the source data, let's say a store's freezer sensor lost power and went completely offline, so there's zero telemetry for the last six hours. The agent must make that gap explicitly visible to the operator. It can't just smooth it over. It cannot just silently ignore that store, and it certainly cannot invent a temperature value to make the table look neat. The answer must be something a human can rigorously mathematically check. Which forces us to look closely at how we audit these systems. How do you actually validate the output it just generated?
+[2368.79–2398.39] In the source demo, the expert demonstrates the best practice. Explicitly asking the agent to show its work. Like in math class. Exactly. They prompt the agent to use the governed revenue metric located in the sales report semantic model. Summarize it by store for a specific time period. Explicitly identify the source measure it used and actually display the underlying query code it executed. So you force the chat interface to show you the exact DAX or SQL code it wrote.
+[2398.39–2428.37] Yes. This gives the operator a tangible mathematical calculation. The operator can then take that DAX code and compare it against their traditional legacy power BI dashboard using the exact same filters. And if they match. If the numbers match perfectly, you have successfully verified the semantic link. You also have to train your operators to check the boundaries of the result. What do you mean by boundaries? The agent's chat interface might only display a bounded set of results, say a table of the top 10 rows. A returned table in a chat window.
+[2428.39–2457.17] The window is not automatically a complete export of every matching record in the database. That's a great point about data truncation. But let's talk about a major vulnerability. Security. Oh, this is huge. The system just successfully executed this massive multi database query that touched inventory, sales and supply chain data in a highly regulated corporate environment. Who's actually allowed to see that answer? This raises a vital question about how permissions and row level security operate in this new paradigm. Right.
+[2457.17–2472.01] The built in ontology agent does not operate with some omnipotent master key. It uses the signed in users specific identity. It operates strictly within the boundaries of that user's existing preconfigured access rights to the underlying source databases.
+[2472.69–2484.07] Okay, let's play this out. Let's say I am the lead data engineer. I built this ontology. So I have administrative access to everything. Okay. I ask it about revenue and inventory across the entire global company.
+[2484.07–2492.97] And it gives me a comprehensive answer. Now, I share that exact same fabric ontology file with a regional manager who only handles the West Coast.
+[2493.39–2511.49] If the West Coast regional manager logs in and asks the exact same verbatim question, show me all global revenue and inventory risk, the agent will only return data for the West Coast.
+[2511.49–2518.61] The database recognizes the manager's identity and enforces row level security, blocking access to the East Coast data.
+[2519.11–2519.99] That is so smart.
+[2520.71–2528.93] The source documentation is explicit on this point. Sharing an ontology with a user does not magically bypass workspace item permissions or database security.
+[2529.67–2536.15] So an engineer successfully querying a source during testing does not guarantee that an end user will see the same results.
+[2536.15–2543.53] Exactly. You have to validate the entire workflow using actual end user test identities, not just the developer's God Mode account.
+[2543.89–2553.33] That is a massive relief for IT compliance teams. Now, what about looking into the future? We know how the system assesses risk today based on physical counts.
+[2554.37–2558.97] How do we predict tomorrow's inventory risk? Does the ontology agent just guess?
+[2558.97–2564.37] The source material draws a very sharp, deliberate line here regarding predictive analytics.
+[2565.45–2569.63] Forecasting is treated as a separate, highly rigorous analytical discipline.
+[2570.19–2571.27] It's not just a chat function.
+[2571.79–2579.31] You don't just ask the generative AI chat agent to guess what sales will look like next week based on vibes or its training data.
+[2579.87–2583.29] Forecasting is explicitly handled via fabric data science.
+[2583.29–2590.13] So we are talking about actual machine learning engineers, building notebooks, running experiments, and scoring dedicated models.
+[2590.79–2600.43] Yes. A data scientist defines the target variable, sets the time horizon, selects the inputs, and chooses the statistical methodology inside a data science notebook.
+[2600.87–2601.31] Very structured.
+[2602.15–2612.37] They prepare the predictions in that specialized workflow, write the results back to a dataverse, and then the ontology can expose those pre-calculated predictive results to the business review.
+[2612.37–2620.73] But the expert in the script gives a very specific, almost ethical warning about how to present those machine learning forecasts to a human operator.
+[2621.21–2631.45] They emphasize that before you ever display the output of a predictive model in a business review, you must explicitly evaluate and display the historical statistical uncertainty of that model.
+[2632.13–2633.35] So you have to show its track record.
+[2634.13–2641.95] You have to show the operator the model's past accuracy. Have these forecasts historically suffered from model drift? Is there bias in the legacy data?
+[2641.95–2650.75] You must give the human operator the statistical basis for deciding whether they should actually trust this prediction enough to route a $100,000 delivery truck based on it.
+[2651.15–2654.77] You never present a probabilistic forecast as a deterministic fact.
+[2655.09–2656.73] Trust, but verify always.
+[2657.43–2664.07] Now, let's pivot to the architecture again. Up until now, we've talked entirely about querying traditional tables and telemetry streams.
+[2664.07–2671.57] But the source material introduces a specialized execution path called materialized graphs, or GQL.
+[2671.79–2673.01] Yes, graph databases.
+[2673.91–2679.87] What exactly is a graph database and when do we actually need to use one instead of standard SQL?
+[2680.25–2685.53] When we talk about graphs in this context, we aren't talking about visual bar charts or pie charts.
+[2685.93–2689.49] We are talking about a mathematical network of nodes and edges.
+[2689.49–2690.77] Nodes and edges.
+[2691.97–2700.63] You use a graph execution path when the relationship path itself is the primary focus of the business question, rather than just aggregating numbers.
+[2701.19–2704.49] Give me a real-world scenario where standard SQL fails, but a graph succeeds.
+[2705.49–2712.23] Let's say a specific agricultural supplier calls you in a panic and informs you that a massive batch of raw ingredients was contaminated.
+[2712.23–2713.31] Ooh, a recall situation.
+[2713.81–2718.93] Right. You need to instantly trace that supplier's exposure through your entire global supply chain.
+[2719.57–2724.63] Which specific intermediate products contain that batch, which exact multimodal shipments carried those products,
+[2725.12–2731.07] which specific retail stores received those shipments, and which exact refrigeration units are currently holding them on the floor.
+[2731.57–2738.07] If I try to do that in a traditional SQL database, I have to write a query that joins the supplier table to the ingredient table,
+[2738.07–2741.93] to the product table, to the shipment table, to the store table, to the asset table.
+[2742.37–2743.97] It's incredibly complex.
+[2744.55–2748.43] And recursively joining tables like that often just causes the database to timeout and crash.
+[2748.81–2749.09] Exactly.
+[2749.77–2753.73] Relational databases are terrible at deep recursive relationship mapping.
+[2754.41–2759.99] A graph database, however, is architecturally optimized for traversing those multi-hop relationships instantly.
+[2760.67–2762.39] So it's built for that specific pathfinding.
+[2762.39–2769.55] The fabric ontology allows you to opt into materializing an eligible subset of your data into a physical graph database,
+[2769.57–2772.59] specifically for that kind of deep traversal.
+[2773.01–2776.39] But there are technical constraints here, right? Especially in the current preview build.
+[2776.87–2779.05] They're a very strict engineering constraints.
+[2779.69–2785.69] Currently, graph projection only supports eligible lake house sources or mirrored database delta sources.
+[2786.13–2786.67] Stop there.
+[2787.35–2789.77] What is a mirrored database delta source?
+[2789.77–2797.61] Instead of running batch jobs to copy data out of an external database every night, mirroring creates a continuous real-time replica
+[2797.61–2800.69] of that external database directly inside fabric.
+[2801.47–2808.11] It stores it in the open source delta format so different engines can read it without locking up or crashing the original operational database.
+[2808.87–2809.87] So the graph can use that.
+[2810.13–2810.47] Got it.
+[2810.61–2814.39] It also absolutely requires entity keys to be perfectly defined.
+[2814.77–2818.15] And crucially, this is a massive limitation for a financial analysis.
+[2818.15–2821.43] It currently excludes semantic model bound entities.
+[2822.03–2831.51] Wait, so if my net profit metric is calculated via DAX, inside a Power BI semantic model, I cannot include that metric in the graph traversal?
+[2831.73–2832.47] Not at this time.
+[2832.73–2832.81] No.
+[2833.17–2837.25] The graph architecture is currently reserved for operational tracking and relationship mapping.
+[2837.53–2839.95] Not real-time semantic math calculations.
+[2840.45–2840.97] That's a bummer.
+[2841.41–2846.37] Furthermore, a materialized graph requires its own entirely separate refresh strategy.
+[2846.37–2851.17] It is physically moving and reshaping data to build that network of nodes and edges.
+[2851.75–2857.45] So the graph is not real-time unless you specifically schedule and pay for the compute to refresh it constantly.
+[2858.03–2860.35] So clarify the architecture in my head.
+[2861.29–2865.57] The beautiful visual canvas diagram of concepts we built in the ontology interface.
+[2866.53–2872.67] And the physical materialized graph database sitting in one lake are doing two completely different jobs.
+[2872.67–2873.55] Precisely.
+[2873.99–2877.19] The visual diagram is the conceptual map of meaning for the AI.
+[2877.91–2883.05] The materialized graph is a specialized physical execution path for deep relationship questions.
+[2883.63–2888.07] And the routing intelligence chooses the path based on this specific structure of the question being asked.
+[2888.45–2888.79] Exactly.
+[2889.57–2889.81] Okay.
+[2890.13–2892.61] Let's look at how the user actually interacts with all this.
+[2893.21–2895.03] We've been throwing around the term the agent.
+[2895.61–2900.61] But our source document outlines three distinctly different types of AI agents operating in this ecosystem.
+[2901.23–2902.57] Let's differentiate them.
+[2903.35–2904.67] First, the ontology agent.
+[2905.33–2910.39] The ontology agent is the built-in developer tool we discussed earlier when we talked about plan mode.
+[2910.67–2911.21] Right. The sandbox.
+[2911.99–2918.57] Its primary job is to help the data engineer create, inspect, query, validate, and improve the ontology model itself.
+[2919.29–2920.79] It is strictly the builder's tool.
+[2921.45–2923.53] Second, the fabric data agent.
+[2924.19–2926.85] The fabric data agent is designed for the end user.
+[2926.85–2933.89] It provides the conversational analytics experience where a regional manager might sit down and ask everyday business questions about the data,
+[2934.33–2936.43] utilizing the logic defined by the ontology.
+[2936.91–2938.91] And third, the operations agent.
+[2939.39–2942.27] The operations agent serves a completely different paradigm.
+[2943.21–2949.37] Its job is not to answer questions but to passively monitor a defined business process and recommend proactive responses.
+[2949.87–2951.05] Like a silent alarm.
+[2951.05–2955.35] For example, it continuously watches the KQL data streams.
+[2955.97–2960.87] And when a specific logical condition is met, like a temperature drop combined with high inventory risk,
+[2961.17–2970.51] it triggers a real-world action like sending an urgent notification in Microsoft Teams or kicking off an automated power automate flow to dispatch a repair technician.
+[2971.13–2973.79] But wait. Here come the preview limitations again.
+[2973.79–2977.65] The integration guides in the October 2026 source material
+[2977.65–2982.79] with some major known issues if an enterprise tries to use all three of these agents together right now.
+[2983.29–2986.05] This is vital for any architect planning and deployment roadmap.
+[2986.81–2996.01] Currently, both the end user data agents and the automated operations agents struggle significantly when the underlying ontology utilizes semantic model bindings.
+[2996.01–2999.89] So if my ontology relies heavily on Power BI.
+[3000.18–3029.74] DAX Math. The external data in operations agents might completely fail to process it. Why? Because the operations agent is built to constantly monitor raw streaming telemetry. Like a heartbeat monitor checking for a spike. It simply doesn't know how to trigger the complex batch processing math engines required to calculate a DAX measure on the fly every five seconds. This is why the source script explicitly advises keeping combined analysis. The kind that mixes raw Lakehouse data with complex Power BI revenue calculations.
+[3029.74–3059.60] Strictly inside the built-in ontology developer agent for now. Because that's the only environment where it currently works seamlessly. And there's also a highly technical note in the documentation about something called MCP. MCP stands for Model Context Protocol. Fabric provides an API endpoint so enterprise developers can connect their own compatible external AI clients or custom applications to the ontology. So it's useful. However, the current guidance notes a severe limitation. Service principal access is currently unavailable.
+[3059.60–3089.52] Available for this endpoint. Explain that for the non-developers. What is a service principal? A service principal is basically a machine identity. It's a non-human service account you use. So a backend server or an automated script can talk to an API securely without needing a human being to physically type in a username and password. Oh, so you can automate it. Right. But because service principal access is missing in this preview, you currently have to authenticate as a real human user. You cannot easily set up a fully
+[3089.52–3095.90] automated unattended machine to machine integration. That drastically limits how you can integrate this ontology into
+[3095.90–3119.40] automated backend enterprise systems right now. Let's go back to the operations agent, the one that acts as a passive monitor. The expert in the script details some pretty severe limitations on what it can actually watch for right now. Yes. If you want to set up operational monitoring, the logical conditions you can set are currently quite primitive. The documentation notes that it struggles with
+[3119.40–3130.82] combined and conditions and it struggles with aggregations. So I can't build a monitor that says alert me if the temperature drops and the store is priority and the total
+[3130.82–3144.16] aggregated revenue is over $10,000. In the current preview, stringing complex, multi-variable logic like that into a passive monitor is highly problematic and likely to fail. You have to keep the monitoring conditions very simple and isolated.
+[3144.22–3148.88] Got it. Furthermore, the operational agent operates on a fixed five minute cycle.
+[3148.88–3157.36] It is not sub-second real time. It only checks the condition every five minutes. If a freezer fails at minute one, you won't get the alert until minute five.
+[3157.94–3173.38] What about activator? Fabric has a dedicated tool called data activator specifically for triggering actions based on data changes. If I write a natural language business rule in my ontology interface, does that automatically provision an activator alert in the background?
+[3174.14–3189.36] No, it absolutely does not. And that's a massive point of confusion for new users. Saving a natural language rule in the ontology provides semantic context for the chat agents. It does not automatically write the code to provision an active running workflow in data activator.
+[3189.76–3199.26] So they are separate steps. If you want an alert to actually fire, a data engineer has to go into activator and configure that automation separately against the supported data path.
+[3199.78–3209.96] Okay, we are moving toward the final stages of the workflow. We've done the deep analysis. We found the melting ice cream. We checked the DAX code. We verified the permissions. Now we have to actually tell leadership.
+[3210.52–3219.42] Right. The reporting phase. We have to turn analysis into written work. The source talks about using the fabric IQ plug-in in co-pilot co-work.
+[3219.78–3227.52] Yes. And notably, the specific co-pilot feature is documented as generally available, unlike the ontology feature, which is in preview.
+[3227.52–3241.62] Oh, that's good. Co-pilot co-work allows an analyst to ground their AI conversations in specific Power BI reports and their underlying semantic models to quickly draft things like leadership reviews, executive summaries, or operational emails.
+[3242.12–3250.76] So I can tell co-pilot draft a one-page regional review based on the findings in this specific sales report. But of course, there is a massive caveat noted.
+[3250.76–3261.38] A very dangerous caveat. First, co-pilot co-work does not currently ground directly on the ontology items themselves. You have to point it specifically at the Power BI report.
+[3261.76–3270.62] Okay. Second, and much more dangerously, when it generates a data answer in the text, it does not currently include report citations in its output.
+[3270.90–3274.98] Oh, that is a recipe for disaster in a boardroom. It is extremely dangerous.
+[3274.98–3288.54] When the AI drafts a beautifully formatted summary and boldly states revenue was up 15% in the West region, it does not provide a footnote or hyperlink showing exactly which table or metric it used to calculate that 15%.
+[3288.96–3293.04] So it could just be making it up. Therefore, the source script is adamant.
+[3293.72–3300.86] The human operator must manually verify every single generated number against the source report before they ever distribute that document.
+[3301.41–3304.88] Do not ever blindly forward the AI's draft to the CEO.
+[3305.64–3315.78] Now let's talk about the lifespan of all this brilliant chat analysis we've just done in the ontology agent. We spent an hour digging through the data, asking questions for finding our prompts.
+[3316.74–3320.68] The source mentions a maximum conversation lifetime of 24 hours.
+[3321.02–3327.14] Yes. The built-in ontology agent's conversation history only lasts within your current browser session.
+[3327.14–3327.84] Wait, really?
+[3328.18–3335.36] If you refresh the page, close the browser tab or hit the 24-hour mark, that entire conversational history is permanently gone.
+[3336.12–3341.78] So under no circumstances should a team use the chat window as their permanent knowledge repository or decision log?
+[3341.96–3345.60] Absolutely not. The chat is strictly an ephemeral scratch pad.
+[3346.36–3352.82] The durable permanent knowledge must be saved in the ontology definitions themselves or exported into saved power BI reports.
+[3353.72–3355.68] What about companies that are ahead of the curve?
+[3356.12–3361.82] Maybe they have a team of data scientists who've been building ontologies for years in other specialized software.
+[3362.40–3364.62] Can they bring that existing work into fabric?
+[3365.20–3372.10] The preview does support importing existing definitions using standard semantic web formats like Tertil, RDF, and OWL.
+[3372.28–3373.02] Briefly, what are those?
+[3373.66–3380.62] Those are essentially the legacy standard coding languages that researchers and data scientists have used for years to write out these kinds of complex knowledge webs.
+[3380.62–3382.80] Originally designed for the semantic web.
+[3383.12–3384.32] So you can just import them.
+[3384.90–3393.18] However, the Microsoft documentation explicitly warns that some elements might be adjusted, modified, or entirely skipped during the import process.
+[3393.74–3398.20] Full lossless translation of complex OWL behaviors is not promised.
+[3398.58–3399.26] You have to check it.
+[3399.38–3404.52] You have to thoroughly and manually review the import results to ensure your logic survived the translation.
+[3405.06–3409.74] And there's a ticking clock mentioned in the source for existing fabric customers who were part of early testing.
+[3410.20–3414.42] Yes, for those enterprise customers who were in the earlier private previews,
+[3414.74–3418.56] Microsoft has established a hard retirement date for the old ontology experience.
+[3419.14–3421.30] January 31st, 2027.
+[3421.60–3422.40] That's a hard deadline.
+[3422.86–3426.26] Moving to the new experience creates a completely separate new item in the workspace.
+[3426.84–3433.32] This means data engineering teams will have to manually reconnect all their downstream consumers, rewrite their routing rules,
+[3434.10–3435.50] and reestablish their automations.
+[3435.50–3439.52] It's a hard migration cut over and teams need to plan resources for it now.
+[3439.86–3441.46] January 31st, 2027.
+[3441.86–3446.66] That will be a busy weekend for IT, which brings us to the ultimate question for any
+[3446.66–3452.28] executive listening to this, measuring value, time, cost, and accuracy.
+[3453.10–3457.44] How should a business actually evaluate if all this immense architectural effort is worth it?
+[3458.00–3461.34] The expert advice in the source material is incredibly pragmatic,
+[3461.34–3464.34] and it flies in the face of how most software is sold.
+[3465.07–3465.72] What do they say?
+[3466.06–3467.88] First, ignore the marketing.
+[3468.58–3471.64] Do not borrow percentage improvement benchmarks from other vendors,
+[3472.38–3475.80] and do not even borrow benchmarks from other workflows within your own company.
+[3476.36–3482.26] You have to test this system against your own current manual process for a highly specific decision.
+[3482.80–3483.84] How do you structure that measurement?
+[3484.56–3488.90] You start with a representative business question where you already definitively know the correct
+[3488.90–3493.26] answer. You test whether the new AI workflow selects the right concepts,
+[3493.90–3498.00] uses the right DAX calculations, strictly respects user access permissions,
+[3498.70–3501.50] and returns evidence that a human operator can actually verify.
+[3502.12–3502.82] And then you time it.
+[3503.40–3506.10] Then you strictly time how long that entire process takes,
+[3506.10–3508.86] compared to how long your human analysts take today.
+[3509.68–3514.30] And crucially, you must include the time it takes the human operator to rigorously review
+[3514.30–3517.12] and correct the AI's output in your final calculation.
+[3517.82–3519.80] And what about the actual monetary cost?
+[3520.16–3523.26] Because running all these large language models, parsing natural language,
+[3523.60–3526.00] and dynamically generating code is not cheap.
+[3526.52–3530.72] The billing specifics in the preview are fascinating and require extreme caution.
+[3531.40–3535.34] Currently, what Microsoft categorizes as the discovery and AI reasoning phases,
+[3535.76–3538.80] the part where the LLM reads your prompt and figures out what you want,
+[3539.18–3541.76] are non-billable during the preview phase.
+[3542.36–3545.24] No, that sounds great for AI reasoning.
+[3545.24–3548.80] But, and this is a massive trap for the unwary,
+[3549.32–3553.86] the child operations that the AI triggers and the underlying one-like storage compute
+[3553.86–3559.24] utilizes to formulate those answers can and will incur standard fabric capacity charges.
+[3559.80–3562.18] Walk me through how that traps springs.
+[3563.24–3566.60] Imagine you have a non-technical manager who asks the chat interface
+[3566.60–3575.22] a slightly vague, massive question about five years of historical inventory across the entire
+[3575.22–3579.66] but to answer it, the AI might quietly write a highly inefficient brute force
+[3579.66–3582.70] SQL query that scans petabytes of data across your one-lake.
+[3583.36–3585.44] It pushes that massive compute job down to the warehouse.
+[3586.04–3587.10] And you pay for that compute.
+[3587.60–3589.38] Suddenly, you aren't paying for the chat interaction.
+[3589.90–3593.56] You are paying for an absolutely massive compute spike on your fabric capacity bill
+[3593.56–3595.92] because the AI decided to brute force the answer.
+[3596.68–3599.66] The source strongly recommends using the fabric capacity metrics app
+[3599.66–3603.36] to monitor this underlying compute consumption closely during any pilot program.
+[3603.36–3605.88] So if we connect all of this to the bigger picture,
+[3606.58–3611.26] what is the ultimate strategic advice for an enterprise looking to start building an ontology?
+[3611.80–3613.46] Start incredibly small.
+[3613.98–3617.90] Pick one single team and one recurring high-value decision.
+[3618.68–3621.34] The regional inventory review we discussed is a perfect example.
+[3621.70–3622.22] Keep it contained.
+[3622.88–3626.22] Connect only the specific data sources needed for that one decision.
+[3627.00–3629.46] Define the handful of concepts that actually change the answer.
+[3629.46–3634.82] And most importantly, aggressively test ambiguous requests and missing data scenarios
+[3634.82–3637.20] to see exactly how the system fails under pressure.
+[3637.58–3642.14] Do not try to boil the ocean and map the entire corporation's semantic logic on day one.
+[3642.26–3642.58] Exactly.
+[3643.32–3646.76] You only expand the scope when that first team can complete their workflow
+[3646.76–3650.70] with dependably accurate answers, a highly manageable human review burden,
+[3651.10–3653.70] and a fully understood, predictable operating cost.
+[3654.14–3656.90] We have covered an immense amount of ground today.
+[3657.50–3660.68] We've journeyed from staring at raw, disconnected data lakes
+[3661.10–3665.14] through the complex, defining power of fabric ontologies,
+[3665.88–3668.14] all the way to querying diverse sources securely,
+[3668.96–3671.24] and triggering real-world operational alerts.
+[3671.62–3672.52] It's a huge shift.
+[3673.24–3676.06] We've looked at the architectural marvels of push-down compute,
+[3676.82–3679.66] and we've been very honest about the current preview limitations
+[3680.22–3682.68] and the absolute necessity of human oversight.
+[3683.54–3687.62] This technology fundamentally changes how a company will interact with its enterprise data.
+[3688.38–3692.10] It shifts the burden of translation from the human mind back to the software layer.
+[3692.48–3693.72] Which is where it really belongs.
+[3694.58–3697.36] But I want to leave you with one final thought to maul over.
+[3697.78–3700.72] Something building on everything we've discussed about how an ontology
+[3700.72–3705.22] perfectly maps a company's internal reality and its unique business logic.
+[3706.14–3708.84] What happens during a major corporate merger?
+[3709.22–3709.68] Oh, wow.
+[3710.30–3712.52] When two massive global companies combine,
+[3713.74–3716.22] is the future of M&A less about merging finances,
+[3716.98–3720.10] and entirely about whether their respective AI ontologies
+[3720.52–3723.08] can successfully negotiate a shared reality?
+[3724.32–3728.18] If company A's ontology defines risk or revenue in a way that
+[3728.18–3731.74] fundamentally clashes with company B's ontology at a mathematical level,
+[3732.28–3736.12] can the merger ever truly succeed without completely rewriting
+[3736.12–3737.98] the central nervous system of one of the companies?
+[3738.46–3741.02] That is a fascinating problem for the next decade.
+[3741.62–3744.02] It's something to think about as you start building these definitions
+[3744.02–3745.40] for your own teams today.
+[3746.30–3747.86] Thank you for joining us on this deep dive.
+[3748.56–3749.86] We will catch you next time.

@@ -1,0 +1,48 @@
+{
+  "id": "C30",
+  "family": "ownership",
+  "master_image": "../master-ownership.png",
+  "visual_workflow": "image-first",
+  "state_images": [
+    "01-initial.jpg",
+    "02-build.jpg",
+    "03-settled.jpg"
+  ],
+  "layers": [
+    {
+      "label": "Definitions + mappings",
+      "sub": "DEFINITION / SOURCE",
+      "x": 100,
+      "y": 680,
+      "w": 880,
+      "h": 250,
+      "focal": true,
+      "on": 0.7,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Native source engine",
+      "sub": "CONSUMER / MAPPING",
+      "x": 100,
+      "y": 1050,
+      "w": 880,
+      "h": 250,
+      "focal": false,
+      "on": 42.66,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    }
+  ],
+  "relation": "Query the appropriate source",
+  "source_quote": "I'm a manager. I open the chat interface and I ask a highly complex question. I need an answer that requires checking physical inventory in the Lakehouse, cross -referencing current temperature telemetry in the Eventhouse, and calculating the financial impact using the DAX math in the semantic model. That's a huge request. Right. Does the system extract all that data from those three sources, pull it into some massive new temporary database and run the query there? No, and understanding this is profound for anyone evaluating the cost and performance of this system. The ontology supplies the definitions and the mappings. It acts as the routing intelligence. But when a consuming experience, like a chat interface, actually formulates the query, it executes that query against the appropriate native underlying engine.",
+  "why": "Separate the source of meaning or data from its consumer.",
+  "alternative": "Authentic tenant UI would be preferable for proving an executed product action; this clip is a concept illustration.",
+  "visual_review": "Draft, not human approved. Generated symbols corrected in editable reconstruction.",
+  "source_reference": "reference-library/frames/graphic/0003510.jpg",
+  "motion": "independent card alpha reveal + 16px eased settling, timed to recording keywords; fixed grid and presenter rail",
+  "source_start": 1707.74195,
+  "source_end": 1752.4019500000002,
+  "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+}

@@ -1,0 +1,60 @@
+{
+  "id": "C20",
+  "family": "contrast",
+  "master_image": "../master-contrast.png",
+  "visual_workflow": "image-first",
+  "state_images": [
+    "01-initial.jpg",
+    "02-build.jpg",
+    "03-settled.jpg"
+  ],
+  "layers": [
+    {
+      "label": "Governance resolves meaning",
+      "sub": "CONTEXT / QUESTION",
+      "x": 180,
+      "y": 660,
+      "w": 720,
+      "h": 180,
+      "focal": true,
+      "on": 0.7,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Marketing customer",
+      "sub": "INTERPRETATION A",
+      "x": 60,
+      "y": 935,
+      "w": 455,
+      "h": 370,
+      "focal": true,
+      "on": 6.12,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Finance customer",
+      "sub": "INTERPRETATION B",
+      "x": 565,
+      "y": 935,
+      "w": 455,
+      "h": 370,
+      "focal": false,
+      "on": 9.7,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    }
+  ],
+  "relation": "Compare the meaning",
+  "source_quote": "You rarely have just one perfect semantic model. You have dozens. That's true. Marketing has a semantic model, sales has a semantic model, finance has one, and they all have a concept called customer. Yes, the classic overlap. If I use the agent to ingest all three of these models into one master ontology, how does it reconcile the fact that marketing defines a customer as anyone who gave us an email address? Well, finance defines a customer as someone who has actively paid an invoice in the last 90 days. That is exactly where the automated generation process stops and human governance must take over. So the AI doesn't just fix it? No. The ontology Agent is a powerful assistant. It will help you bring multiple semantic models into a shared space, and it will flag those overlapping concepts. It will propose ways to reconcile them, but it is not an arbiter of corporate policy. A human domain expert still has to sit down, review the proposed entity keys, check the relationships, explicitly decide how to handle that naming collision, usually by utilizing namespaces or creating distinct marketing customer and finance customer entities.",
+  "why": "Compare interpretations without implying causation.",
+  "alternative": "Authentic tenant UI would be preferable for proving an executed product action; this clip is a concept illustration.",
+  "visual_review": "Draft, not human approved. Generated symbols corrected in editable reconstruction.",
+  "source_reference": "reference-library/frames/graphic/0003510.jpg",
+  "motion": "independent card alpha reveal + 16px eased settling, timed to recording keywords; fixed grid and presenter rail",
+  "source_start": 1148.750975,
+  "source_end": 1219.050975,
+  "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+}

@@ -1,0 +1,813 @@
+{
+  "id": "C30",
+  "title": "Definitions route the question to sources",
+  "source_start": 1707.74195,
+  "source_end": 1752.4019500000002,
+  "duration": 44.66000000000008,
+  "part_ranges": [
+    {
+      "part": "part02.m4a",
+      "start": 207.6400000000001,
+      "end": 252.30000000000018
+    }
+  ],
+  "family": "ownership",
+  "left_label": "Definitions + mappings",
+  "right_label": "Native source engine",
+  "focus_label": "Query the appropriate source",
+  "example_kind": "source execution explanation",
+  "words": [
+    {
+      "word": "I'm",
+      "start": 0.31999999999999984,
+      "end": 0.3599999999999999,
+      "probability": 0.9793042540550232
+    },
+    {
+      "word": "a",
+      "start": 0.3599999999999999,
+      "end": 0.43999999999999995,
+      "probability": 0.9951079487800598
+    },
+    {
+      "word": "manager.",
+      "start": 0.43999999999999995,
+      "end": 0.6800000000000002,
+      "probability": 0.9779770374298096
+    },
+    {
+      "word": "I",
+      "start": 1.42,
+      "end": 1.44,
+      "probability": 0.9979865550994873
+    },
+    {
+      "word": "open",
+      "start": 1.44,
+      "end": 1.6600000000000001,
+      "probability": 0.7728573679924011
+    },
+    {
+      "word": "the",
+      "start": 1.6600000000000001,
+      "end": 1.8199999999999998,
+      "probability": 0.9935118556022644
+    },
+    {
+      "word": "chat",
+      "start": 1.8199999999999998,
+      "end": 1.94,
+      "probability": 0.9428424835205078
+    },
+    {
+      "word": "interface",
+      "start": 1.94,
+      "end": 2.3,
+      "probability": 0.9942626357078552
+    },
+    {
+      "word": "and",
+      "start": 2.3,
+      "end": 2.5599999999999996,
+      "probability": 0.8138007521629333
+    },
+    {
+      "word": "I",
+      "start": 2.5599999999999996,
+      "end": 2.6399999999999997,
+      "probability": 0.9287630319595337
+    },
+    {
+      "word": "ask",
+      "start": 2.6399999999999997,
+      "end": 2.84,
+      "probability": 0.9714068174362183
+    },
+    {
+      "word": "a",
+      "start": 2.84,
+      "end": 2.9800000000000004,
+      "probability": 0.9888548254966736
+    },
+    {
+      "word": "highly",
+      "start": 2.9800000000000004,
+      "end": 3.58,
+      "probability": 0.9792622327804565
+    },
+    {
+      "word": "complex",
+      "start": 3.58,
+      "end": 3.9400000000000004,
+      "probability": 0.9984619617462158
+    },
+    {
+      "word": "question.",
+      "start": 3.9400000000000004,
+      "end": 4.46,
+      "probability": 0.9965813755989075
+    },
+    {
+      "word": "I",
+      "start": 5.14,
+      "end": 5.26,
+      "probability": 0.9897058010101318
+    },
+    {
+      "word": "need",
+      "start": 5.26,
+      "end": 5.38,
+      "probability": 0.9988784193992615
+    },
+    {
+      "word": "an",
+      "start": 5.38,
+      "end": 5.46,
+      "probability": 0.9961186647415161
+    },
+    {
+      "word": "answer",
+      "start": 5.46,
+      "end": 5.7,
+      "probability": 0.9993022680282593
+    },
+    {
+      "word": "that",
+      "start": 5.7,
+      "end": 5.9,
+      "probability": 0.997515082359314
+    },
+    {
+      "word": "requires",
+      "start": 5.9,
+      "end": 6.199999999999999,
+      "probability": 0.9989451766014099
+    },
+    {
+      "word": "checking",
+      "start": 6.199999999999999,
+      "end": 6.720000000000001,
+      "probability": 0.9966301321983337
+    },
+    {
+      "word": "physical",
+      "start": 6.720000000000001,
+      "end": 7.039999999999999,
+      "probability": 0.9691618084907532
+    },
+    {
+      "word": "inventory",
+      "start": 7.039999999999999,
+      "end": 7.380000000000001,
+      "probability": 0.999715268611908
+    },
+    {
+      "word": "in",
+      "start": 7.380000000000001,
+      "end": 7.76,
+      "probability": 0.9265217781066895
+    },
+    {
+      "word": "the",
+      "start": 7.76,
+      "end": 7.84,
+      "probability": 0.9950789213180542
+    },
+    {
+      "word": "Lakehouse,",
+      "start": 7.84,
+      "end": 8.24,
+      "probability": 0.8698968887329102
+    },
+    {
+      "word": "cross",
+      "start": 8.88,
+      "end": 9.06,
+      "probability": 0.9878491163253784
+    },
+    {
+      "word": "-referencing",
+      "start": 9.06,
+      "end": 9.68,
+      "probability": 0.9638474732637405
+    },
+    {
+      "word": "current",
+      "start": 9.68,
+      "end": 9.96,
+      "probability": 0.9804447889328003
+    },
+    {
+      "word": "temperature",
+      "start": 9.96,
+      "end": 10.42,
+      "probability": 0.9728798866271973
+    },
+    {
+      "word": "telemetry",
+      "start": 10.42,
+      "end": 10.98,
+      "probability": 0.9965819120407104
+    },
+    {
+      "word": "in",
+      "start": 10.98,
+      "end": 11.32,
+      "probability": 0.9932108521461487
+    },
+    {
+      "word": "the",
+      "start": 11.32,
+      "end": 11.42,
+      "probability": 0.9979119896888733
+    },
+    {
+      "word": "Eventhouse,",
+      "start": 11.42,
+      "end": 11.92,
+      "probability": 0.9832358956336975
+    },
+    {
+      "word": "and",
+      "start": 12.6,
+      "end": 12.66,
+      "probability": 0.9879764914512634
+    },
+    {
+      "word": "calculating",
+      "start": 12.66,
+      "end": 12.98,
+      "probability": 0.9976855516433716
+    },
+    {
+      "word": "the",
+      "start": 12.98,
+      "end": 13.28,
+      "probability": 0.9955677390098572
+    },
+    {
+      "word": "financial",
+      "start": 13.28,
+      "end": 13.52,
+      "probability": 0.9927345514297485
+    },
+    {
+      "word": "impact",
+      "start": 13.52,
+      "end": 13.98,
+      "probability": 0.9981939196586609
+    },
+    {
+      "word": "using",
+      "start": 13.98,
+      "end": 14.32,
+      "probability": 0.9913058876991272
+    },
+    {
+      "word": "the",
+      "start": 14.32,
+      "end": 14.600000000000001,
+      "probability": 0.9948692321777344
+    },
+    {
+      "word": "DAX",
+      "start": 14.600000000000001,
+      "end": 14.86,
+      "probability": 0.8404667973518372
+    },
+    {
+      "word": "math",
+      "start": 14.86,
+      "end": 15.059999999999999,
+      "probability": 0.6399243474006653
+    },
+    {
+      "word": "in",
+      "start": 15.059999999999999,
+      "end": 15.3,
+      "probability": 0.7189800143241882
+    },
+    {
+      "word": "the",
+      "start": 15.3,
+      "end": 15.440000000000001,
+      "probability": 0.9907254576683044
+    },
+    {
+      "word": "semantic",
+      "start": 15.440000000000001,
+      "end": 15.64,
+      "probability": 0.9183045029640198
+    },
+    {
+      "word": "model.",
+      "start": 15.64,
+      "end": 16.02,
+      "probability": 0.9965901374816895
+    },
+    {
+      "word": "That's",
+      "start": 16.3,
+      "end": 16.56,
+      "probability": 0.8262516856193542
+    },
+    {
+      "word": "a",
+      "start": 16.56,
+      "end": 16.64,
+      "probability": 0.9977952241897583
+    },
+    {
+      "word": "huge",
+      "start": 16.64,
+      "end": 16.94,
+      "probability": 0.9977836012840271
+    },
+    {
+      "word": "request.",
+      "start": 16.94,
+      "end": 17.36,
+      "probability": 0.9956193566322327
+    },
+    {
+      "word": "Right.",
+      "start": 17.76,
+      "end": 17.82,
+      "probability": 0.6285564303398132
+    },
+    {
+      "word": "Does",
+      "start": 18.2,
+      "end": 18.26,
+      "probability": 0.963176965713501
+    },
+    {
+      "word": "the",
+      "start": 18.26,
+      "end": 18.44,
+      "probability": 0.7186517715454102
+    },
+    {
+      "word": "system",
+      "start": 18.44,
+      "end": 18.7,
+      "probability": 0.9982537627220154
+    },
+    {
+      "word": "extract",
+      "start": 18.7,
+      "end": 18.96,
+      "probability": 0.996453046798706
+    },
+    {
+      "word": "all",
+      "start": 18.96,
+      "end": 19.42,
+      "probability": 0.9893364906311035
+    },
+    {
+      "word": "that",
+      "start": 19.42,
+      "end": 19.52,
+      "probability": 0.9882273077964783
+    },
+    {
+      "word": "data",
+      "start": 19.52,
+      "end": 19.7,
+      "probability": 0.9987906813621521
+    },
+    {
+      "word": "from",
+      "start": 19.7,
+      "end": 19.94,
+      "probability": 0.997432291507721
+    },
+    {
+      "word": "those",
+      "start": 19.92,
+      "end": 20.08,
+      "probability": 0.9967145919799805
+    },
+    {
+      "word": "three",
+      "start": 20.08,
+      "end": 20.259999999999998,
+      "probability": 0.9590585827827454
+    },
+    {
+      "word": "sources,",
+      "start": 20.259999999999998,
+      "end": 20.6,
+      "probability": 0.9971430897712708
+    },
+    {
+      "word": "pull",
+      "start": 20.6,
+      "end": 20.92,
+      "probability": 0.9526598453521729
+    },
+    {
+      "word": "it",
+      "start": 20.92,
+      "end": 21.02,
+      "probability": 0.9575449824333191
+    },
+    {
+      "word": "into",
+      "start": 21.02,
+      "end": 21.240000000000002,
+      "probability": 0.9765807390213013
+    },
+    {
+      "word": "some",
+      "start": 21.240000000000002,
+      "end": 21.86,
+      "probability": 0.9603403210639954
+    },
+    {
+      "word": "massive",
+      "start": 21.86,
+      "end": 22.32,
+      "probability": 0.9935970306396484
+    },
+    {
+      "word": "new",
+      "start": 22.32,
+      "end": 22.56,
+      "probability": 0.9207327365875244
+    },
+    {
+      "word": "temporary",
+      "start": 22.56,
+      "end": 22.9,
+      "probability": 0.973297655582428
+    },
+    {
+      "word": "database",
+      "start": 22.9,
+      "end": 23.18,
+      "probability": 0.9931928515434265
+    },
+    {
+      "word": "and",
+      "start": 23.18,
+      "end": 23.52,
+      "probability": 0.9090771079063416
+    },
+    {
+      "word": "run",
+      "start": 23.52,
+      "end": 23.64,
+      "probability": 0.998084306716919
+    },
+    {
+      "word": "the",
+      "start": 23.64,
+      "end": 23.740000000000002,
+      "probability": 0.9929805397987366
+    },
+    {
+      "word": "query",
+      "start": 23.740000000000002,
+      "end": 23.88,
+      "probability": 0.9898394346237183
+    },
+    {
+      "word": "there?",
+      "start": 23.88,
+      "end": 24.16,
+      "probability": 0.9764605760574341
+    },
+    {
+      "word": "No,",
+      "start": 24.56,
+      "end": 25.02,
+      "probability": 0.7020159363746643
+    },
+    {
+      "word": "and",
+      "start": 25.240000000000002,
+      "end": 25.34,
+      "probability": 0.9525839686393738
+    },
+    {
+      "word": "understanding",
+      "start": 25.34,
+      "end": 25.84,
+      "probability": 0.9947760105133057
+    },
+    {
+      "word": "this",
+      "start": 25.84,
+      "end": 26.34,
+      "probability": 0.9839581251144409
+    },
+    {
+      "word": "is",
+      "start": 26.34,
+      "end": 26.5,
+      "probability": 0.9937049746513367
+    },
+    {
+      "word": "profound",
+      "start": 26.5,
+      "end": 26.72,
+      "probability": 0.9974424839019775
+    },
+    {
+      "word": "for",
+      "start": 26.72,
+      "end": 26.72,
+      "probability": 0.9936477541923523
+    },
+    {
+      "word": "anyone",
+      "start": 26.72,
+      "end": 27.54,
+      "probability": 0.9737823605537415
+    },
+    {
+      "word": "evaluating",
+      "start": 27.54,
+      "end": 28.04,
+      "probability": 0.9932495355606079
+    },
+    {
+      "word": "the",
+      "start": 28.04,
+      "end": 28.36,
+      "probability": 0.9996260404586792
+    },
+    {
+      "word": "cost",
+      "start": 28.36,
+      "end": 28.66,
+      "probability": 0.9924870729446411
+    },
+    {
+      "word": "and",
+      "start": 28.66,
+      "end": 28.880000000000003,
+      "probability": 0.9972960352897644
+    },
+    {
+      "word": "performance",
+      "start": 28.880000000000003,
+      "end": 29.14,
+      "probability": 0.9970716238021851
+    },
+    {
+      "word": "of",
+      "start": 29.14,
+      "end": 29.48,
+      "probability": 0.9978072047233582
+    },
+    {
+      "word": "this",
+      "start": 29.48,
+      "end": 29.6,
+      "probability": 0.5178022980690002
+    },
+    {
+      "word": "system.",
+      "start": 29.6,
+      "end": 29.92,
+      "probability": 0.9989956021308899
+    },
+    {
+      "word": "The",
+      "start": 30.560000000000002,
+      "end": 30.68,
+      "probability": 0.9940934777259827
+    },
+    {
+      "word": "ontology",
+      "start": 30.68,
+      "end": 31.1,
+      "probability": 0.9585523009300232
+    },
+    {
+      "word": "supplies",
+      "start": 31.1,
+      "end": 31.58,
+      "probability": 0.9870033860206604
+    },
+    {
+      "word": "the",
+      "start": 31.58,
+      "end": 32.0,
+      "probability": 0.992287278175354
+    },
+    {
+      "word": "definitions",
+      "start": 32.0,
+      "end": 32.36,
+      "probability": 0.9975370168685913
+    },
+    {
+      "word": "and",
+      "start": 32.36,
+      "end": 32.84,
+      "probability": 0.9888538122177124
+    },
+    {
+      "word": "the",
+      "start": 32.84,
+      "end": 32.94,
+      "probability": 0.9883592128753662
+    },
+    {
+      "word": "mappings.",
+      "start": 32.94,
+      "end": 33.22,
+      "probability": 0.9882716238498688
+    },
+    {
+      "word": "It",
+      "start": 33.6,
+      "end": 33.66,
+      "probability": 0.9968830347061157
+    },
+    {
+      "word": "acts",
+      "start": 33.66,
+      "end": 33.88,
+      "probability": 0.8983232378959656
+    },
+    {
+      "word": "as",
+      "start": 33.88,
+      "end": 34.120000000000005,
+      "probability": 0.9983931183815002
+    },
+    {
+      "word": "the",
+      "start": 34.120000000000005,
+      "end": 34.3,
+      "probability": 0.994998574256897
+    },
+    {
+      "word": "routing",
+      "start": 34.3,
+      "end": 34.6,
+      "probability": 0.9971169233322144
+    },
+    {
+      "word": "intelligence.",
+      "start": 34.6,
+      "end": 34.980000000000004,
+      "probability": 0.9945072531700134
+    },
+    {
+      "word": "But",
+      "start": 36.239999999999995,
+      "end": 36.28,
+      "probability": 0.38586539030075073
+    },
+    {
+      "word": "when",
+      "start": 36.28,
+      "end": 36.58,
+      "probability": 0.8646981716156006
+    },
+    {
+      "word": "a",
+      "start": 36.58,
+      "end": 36.68,
+      "probability": 0.9953905344009399
+    },
+    {
+      "word": "consuming",
+      "start": 36.68,
+      "end": 36.980000000000004,
+      "probability": 0.9969293475151062
+    },
+    {
+      "word": "experience,",
+      "start": 36.980000000000004,
+      "end": 37.480000000000004,
+      "probability": 0.9980562925338745
+    },
+    {
+      "word": "like",
+      "start": 37.480000000000004,
+      "end": 38.019999999999996,
+      "probability": 0.9983037710189819
+    },
+    {
+      "word": "a",
+      "start": 38.019999999999996,
+      "end": 38.14,
+      "probability": 0.9964550733566284
+    },
+    {
+      "word": "chat",
+      "start": 38.14,
+      "end": 38.22,
+      "probability": 0.926099956035614
+    },
+    {
+      "word": "interface,",
+      "start": 38.22,
+      "end": 38.620000000000005,
+      "probability": 0.9960687160491943
+    },
+    {
+      "word": "actually",
+      "start": 39.06,
+      "end": 39.4,
+      "probability": 0.9941490888595581
+    },
+    {
+      "word": "formulates",
+      "start": 39.4,
+      "end": 39.9,
+      "probability": 0.9605071544647217
+    },
+    {
+      "word": "the",
+      "start": 39.9,
+      "end": 40.06,
+      "probability": 0.9986633062362671
+    },
+    {
+      "word": "query,",
+      "start": 40.06,
+      "end": 40.2,
+      "probability": 0.9913772344589233
+    },
+    {
+      "word": "it",
+      "start": 40.88,
+      "end": 40.96,
+      "probability": 0.980108916759491
+    },
+    {
+      "word": "executes",
+      "start": 40.96,
+      "end": 41.42,
+      "probability": 0.9951292276382446
+    },
+    {
+      "word": "that",
+      "start": 41.42,
+      "end": 41.82,
+      "probability": 0.9507768154144287
+    },
+    {
+      "word": "query",
+      "start": 41.82,
+      "end": 42.04,
+      "probability": 0.9984042048454285
+    },
+    {
+      "word": "against",
+      "start": 42.04,
+      "end": 42.42,
+      "probability": 0.993650496006012
+    },
+    {
+      "word": "the",
+      "start": 42.42,
+      "end": 42.62,
+      "probability": 0.9960160851478577
+    },
+    {
+      "word": "appropriate",
+      "start": 42.62,
+      "end": 43.019999999999996,
+      "probability": 0.9925724267959595
+    },
+    {
+      "word": "native",
+      "start": 43.019999999999996,
+      "end": 43.480000000000004,
+      "probability": 0.9248810410499573
+    },
+    {
+      "word": "underlying",
+      "start": 43.480000000000004,
+      "end": 44.04,
+      "probability": 0.9641969799995422
+    },
+    {
+      "word": "engine.",
+      "start": 44.04,
+      "end": 44.5,
+      "probability": 0.9929438233375549
+    }
+  ],
+  "transcript_asr": "I'm a manager. I open the chat interface and I ask a highly complex question. I need an answer that requires checking physical inventory in the Lakehouse, cross -referencing current temperature telemetry in the Eventhouse, and calculating the financial impact using the DAX math in the semantic model. That's a huge request. Right. Does the system extract all that data from those three sources, pull it into some massive new temporary database and run the query there? No, and understanding this is profound for anyone evaluating the cost and performance of this system. The ontology supplies the definitions and the mappings. It acts as the routing intelligence. But when a consuming experience, like a chat interface, actually formulates the query, it executes that query against the appropriate native underlying engine.",
+  "source_kind": "actual uploaded recording; continuous audio excerpt",
+  "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "status": "planned",
+  "publish_status": "draft for review",
+  "narration_replaced": false,
+  "actual_timestamps": true,
+  "context_label": "Original discussion excerpt",
+  "review_flags": [],
+  "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
+  "caption_corrections": [],
+  "caption_join_review": []
+}

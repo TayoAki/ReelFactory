@@ -1,0 +1,48 @@
+{
+  "id": "C35",
+  "family": "evidence",
+  "master_image": "../master-evidence.png",
+  "visual_workflow": "image-first",
+  "state_images": [
+    "01-initial.jpg",
+    "02-build.jpg",
+    "03-settled.jpg"
+  ],
+  "layers": [
+    {
+      "label": "Approved definition",
+      "sub": "CHECK THE BASIS",
+      "x": 100,
+      "y": 680,
+      "w": 880,
+      "h": 250,
+      "focal": true,
+      "on": 0.7,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Source evidence",
+      "sub": "VERIFY THE RESULT",
+      "x": 100,
+      "y": 1050,
+      "w": 880,
+      "h": 250,
+      "focal": false,
+      "on": 3.7,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    }
+  ],
+  "relation": "Make gaps visible",
+  "source_quote": "The operator still has to check the receipts. They have to audit the machine's logic. Precisely. The human operator must aggressively verify if the agent actually used the approved business definitions. Did it apply the correct mathematical inventory risk role or did it hallucinate a simpler one? Did it even check the right databases? Did it push the queries down to the intended authoritative sources? And crucially, if there was a gap in the source data, let's say a store's freezer sensor lost power and went completely offline, so there's zero telemetry for the last six hours, the agent must make that gap explicitly visible to the operator. It can't just smooth it over. It cannot just silently ignore that store, and it certainly cannot invent a temperature value to make the table look neat. The answer must be something a human can rigorously mathematically check.",
+  "why": "Show what must be checked rather than an invented successful result.",
+  "alternative": "Authentic tenant UI would be preferable for proving an executed product action; this clip is a concept illustration.",
+  "visual_review": "Draft, not human approved. Generated symbols corrected in editable reconstruction.",
+  "source_reference": "reference-library/frames/graphic/0003510.jpg",
+  "motion": "independent card alpha reveal + 16px eased settling, timed to recording keywords; fixed grid and presenter rail",
+  "source_start": 2315.289705,
+  "source_end": 2362.2297049999997,
+  "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+}

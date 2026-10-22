@@ -1,0 +1,477 @@
+{
+  "id": "C26",
+  "title": "AI proposes a model humans review it",
+  "source_start": 1508.72195,
+  "source_end": 1533.0619499999998,
+  "duration": 24.33999999999969,
+  "part_ranges": [
+    {
+      "part": "part02.m4a",
+      "start": 8.620000000000118,
+      "end": 32.95999999999981
+    }
+  ],
+  "family": "workflow",
+  "left_label": "Inspect supported sources",
+  "right_label": "Review the proposal",
+  "focus_label": "Draft is not approval",
+  "example_kind": "ontology-agent drafting",
+  "words": [
+    {
+      "word": "Does",
+      "start": 0.14000000000000012,
+      "end": 0.2799999999999998,
+      "probability": 0.9852126836776733
+    },
+    {
+      "word": "the",
+      "start": 0.2799999999999998,
+      "end": 0.3999999999999999,
+      "probability": 0.9961435794830322
+    },
+    {
+      "word": "AI",
+      "start": 0.3999999999999999,
+      "end": 0.5800000000000001,
+      "probability": 0.9639849066734314
+    },
+    {
+      "word": "help",
+      "start": 0.5800000000000001,
+      "end": 0.94,
+      "probability": 0.9791573882102966
+    },
+    {
+      "word": "with",
+      "start": 0.94,
+      "end": 1.1600000000000001,
+      "probability": 0.9985682964324951
+    },
+    {
+      "word": "this",
+      "start": 1.1600000000000001,
+      "end": 1.4,
+      "probability": 0.9977279305458069
+    },
+    {
+      "word": "part",
+      "start": 1.4,
+      "end": 1.62,
+      "probability": 0.9868855476379395
+    },
+    {
+      "word": "at",
+      "start": 1.62,
+      "end": 1.7400000000000002,
+      "probability": 0.9842516779899597
+    },
+    {
+      "word": "all?",
+      "start": 1.7400000000000002,
+      "end": 1.88,
+      "probability": 0.997788667678833
+    },
+    {
+      "word": "The",
+      "start": 2.3200000000000003,
+      "end": 2.58,
+      "probability": 0.9855983853340149
+    },
+    {
+      "word": "built",
+      "start": 2.58,
+      "end": 2.76,
+      "probability": 0.9177631735801697
+    },
+    {
+      "word": "-in",
+      "start": 2.76,
+      "end": 2.96,
+      "probability": 0.6993779540061951
+    },
+    {
+      "word": "ontology",
+      "start": 2.96,
+      "end": 3.2800000000000002,
+      "probability": 0.9095294773578644
+    },
+    {
+      "word": "agent",
+      "start": 3.2800000000000002,
+      "end": 3.6799999999999997,
+      "probability": 0.9809656143188477
+    },
+    {
+      "word": "can",
+      "start": 3.6799999999999997,
+      "end": 3.9800000000000004,
+      "probability": 0.986404538154602
+    },
+    {
+      "word": "assist",
+      "start": 3.9800000000000004,
+      "end": 4.28,
+      "probability": 0.9970741271972656
+    },
+    {
+      "word": "here.",
+      "start": 4.28,
+      "end": 4.58,
+      "probability": 0.980246901512146
+    },
+    {
+      "word": "It",
+      "start": 5.04,
+      "end": 5.22,
+      "probability": 0.994333028793335
+    },
+    {
+      "word": "can",
+      "start": 5.22,
+      "end": 5.36,
+      "probability": 0.9995225667953491
+    },
+    {
+      "word": "inspect",
+      "start": 5.36,
+      "end": 5.7,
+      "probability": 0.9922090768814087
+    },
+    {
+      "word": "supported",
+      "start": 5.7,
+      "end": 6.24,
+      "probability": 0.9816645383834839
+    },
+    {
+      "word": "workspace",
+      "start": 6.24,
+      "end": 6.460000000000001,
+      "probability": 0.983126699924469
+    },
+    {
+      "word": "sources,",
+      "start": 6.460000000000001,
+      "end": 7.16,
+      "probability": 0.9961632490158081
+    },
+    {
+      "word": "look",
+      "start": 7.16,
+      "end": 7.619999999999999,
+      "probability": 0.9965484738349915
+    },
+    {
+      "word": "at",
+      "start": 7.619999999999999,
+      "end": 7.76,
+      "probability": 0.9983280301094055
+    },
+    {
+      "word": "the",
+      "start": 7.76,
+      "end": 7.880000000000001,
+      "probability": 0.9943662881851196
+    },
+    {
+      "word": "column",
+      "start": 7.880000000000001,
+      "end": 8.16,
+      "probability": 0.9930457472801208
+    },
+    {
+      "word": "names,",
+      "start": 8.16,
+      "end": 8.52,
+      "probability": 0.997452437877655
+    },
+    {
+      "word": "sample",
+      "start": 8.68,
+      "end": 9.08,
+      "probability": 0.9980815649032593
+    },
+    {
+      "word": "a",
+      "start": 9.08,
+      "end": 9.3,
+      "probability": 0.9743161797523499
+    },
+    {
+      "word": "few",
+      "start": 9.3,
+      "end": 9.46,
+      "probability": 0.99940025806427
+    },
+    {
+      "word": "rows",
+      "start": 9.46,
+      "end": 9.74,
+      "probability": 0.9993703961372375
+    },
+    {
+      "word": "of",
+      "start": 9.74,
+      "end": 10.1,
+      "probability": 0.9988328814506531
+    },
+    {
+      "word": "actual",
+      "start": 10.1,
+      "end": 10.38,
+      "probability": 0.9944948554039001
+    },
+    {
+      "word": "data,",
+      "start": 10.38,
+      "end": 10.68,
+      "probability": 0.9997461438179016
+    },
+    {
+      "word": "and",
+      "start": 11.36,
+      "end": 11.38,
+      "probability": 0.9993886947631836
+    },
+    {
+      "word": "propose",
+      "start": 11.38,
+      "end": 11.62,
+      "probability": 0.997119665145874
+    },
+    {
+      "word": "a",
+      "start": 11.62,
+      "end": 11.86,
+      "probability": 0.9986855387687683
+    },
+    {
+      "word": "draft",
+      "start": 11.86,
+      "end": 11.98,
+      "probability": 0.9916459918022156
+    },
+    {
+      "word": "model",
+      "start": 11.98,
+      "end": 12.44,
+      "probability": 0.9971627593040466
+    },
+    {
+      "word": "with",
+      "start": 12.44,
+      "end": 12.7,
+      "probability": 0.998108983039856
+    },
+    {
+      "word": "descriptions.",
+      "start": 12.7,
+      "end": 12.9,
+      "probability": 0.9958944320678711
+    },
+    {
+      "word": "You",
+      "start": 14.0,
+      "end": 14.120000000000001,
+      "probability": 0.9981040954589844
+    },
+    {
+      "word": "can",
+      "start": 14.120000000000001,
+      "end": 14.219999999999999,
+      "probability": 0.9994044303894043
+    },
+    {
+      "word": "even",
+      "start": 14.219999999999999,
+      "end": 14.34,
+      "probability": 0.9986982345581055
+    },
+    {
+      "word": "upload",
+      "start": 14.34,
+      "end": 14.68,
+      "probability": 0.9973039627075195
+    },
+    {
+      "word": "an",
+      "start": 14.68,
+      "end": 14.82,
+      "probability": 0.9865534901618958
+    },
+    {
+      "word": "existing",
+      "start": 14.82,
+      "end": 15.100000000000001,
+      "probability": 0.9931235909461975
+    },
+    {
+      "word": "corporate",
+      "start": 15.100000000000001,
+      "end": 15.48,
+      "probability": 0.9745071530342102
+    },
+    {
+      "word": "data",
+      "start": 15.48,
+      "end": 15.760000000000002,
+      "probability": 0.9895017743110657
+    },
+    {
+      "word": "dictionary",
+      "start": 15.760000000000002,
+      "end": 16.12,
+      "probability": 0.9986838698387146
+    },
+    {
+      "word": "as",
+      "start": 16.12,
+      "end": 16.54,
+      "probability": 0.990223228931427
+    },
+    {
+      "word": "grounding",
+      "start": 16.54,
+      "end": 16.9,
+      "probability": 0.963121235370636
+    },
+    {
+      "word": "context",
+      "start": 16.9,
+      "end": 17.32,
+      "probability": 0.9823713898658752
+    },
+    {
+      "word": "for",
+      "start": 17.32,
+      "end": 17.68,
+      "probability": 0.9956400394439697
+    },
+    {
+      "word": "the",
+      "start": 17.68,
+      "end": 17.76,
+      "probability": 0.9989734888076782
+    },
+    {
+      "word": "agent.",
+      "start": 17.76,
+      "end": 17.98,
+      "probability": 0.9947056174278259
+    },
+    {
+      "word": "But",
+      "start": 18.64,
+      "end": 18.9,
+      "probability": 0.9938734769821167
+    },
+    {
+      "word": "again,",
+      "start": 18.9,
+      "end": 19.4,
+      "probability": 0.839712381362915
+    },
+    {
+      "word": "a",
+      "start": 19.5,
+      "end": 19.6,
+      "probability": 0.8689385652542114
+    },
+    {
+      "word": "human",
+      "start": 19.6,
+      "end": 19.8,
+      "probability": 0.9959943294525146
+    },
+    {
+      "word": "has",
+      "start": 19.8,
+      "end": 20.02,
+      "probability": 0.9984910488128662
+    },
+    {
+      "word": "to",
+      "start": 20.02,
+      "end": 20.16,
+      "probability": 0.9822453260421753
+    },
+    {
+      "word": "check",
+      "start": 20.16,
+      "end": 20.32,
+      "probability": 0.9808846712112427
+    },
+    {
+      "word": "it.",
+      "start": 20.32,
+      "end": 20.44,
+      "probability": 0.9874665141105652
+    },
+    {
+      "word": "A",
+      "start": 20.84,
+      "end": 20.92,
+      "probability": 0.9030188322067261
+    },
+    {
+      "word": "human",
+      "start": 20.92,
+      "end": 21.2,
+      "probability": 0.9944329857826233
+    },
+    {
+      "word": "domain",
+      "start": 21.2,
+      "end": 21.48,
+      "probability": 0.9938502311706543
+    },
+    {
+      "word": "expert",
+      "start": 21.48,
+      "end": 21.96,
+      "probability": 0.9936304688453674
+    },
+    {
+      "word": "must",
+      "start": 21.96,
+      "end": 22.240000000000002,
+      "probability": 0.9965008497238159
+    },
+    {
+      "word": "meticulously",
+      "start": 22.240000000000002,
+      "end": 22.86,
+      "probability": 0.996542751789093
+    },
+    {
+      "word": "review",
+      "start": 22.86,
+      "end": 23.64,
+      "probability": 0.9950990080833435
+    },
+    {
+      "word": "those",
+      "start": 23.64,
+      "end": 23.86,
+      "probability": 0.9894378185272217
+    },
+    {
+      "word": "proposals.",
+      "start": 23.86,
+      "end": 24.2,
+      "probability": 0.9965093731880188
+    }
+  ],
+  "transcript_asr": "Does the AI help with this part at all? The built -in ontology agent can assist here. It can inspect supported workspace sources, look at the column names, sample a few rows of actual data, and propose a draft model with descriptions. You can even upload an existing corporate data dictionary as grounding context for the agent. But again, a human has to check it. A human domain expert must meticulously review those proposals.",
+  "source_kind": "actual uploaded recording; continuous audio excerpt",
+  "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "status": "planned",
+  "publish_status": "draft for review",
+  "narration_replaced": false,
+  "actual_timestamps": true,
+  "context_label": "Original discussion excerpt",
+  "review_flags": [],
+  "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
+  "caption_corrections": [],
+  "caption_join_review": []
+}

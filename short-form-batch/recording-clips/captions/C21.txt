@@ -1,0 +1,5 @@
+The source model owns the DAX
+Original recording 21:23–21:51
+ASR draft; technical-name spelling normalized.
+
+The ontology operates entirely by reference. The metric you see in the ontology simply acts as a pointer back to that original source model. If the CFO changes the definition of profit, your data engineers edit the DAX expression in the Power BI semantic model, just as they always have. The ontology's role is simply to provide a natural language description and contextual metadata so the AI agents understand what that metric represents and when to use it without ever altering or copying the source math.

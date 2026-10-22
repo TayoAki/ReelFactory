@@ -1,0 +1,909 @@
+{
+  "id": "C35",
+  "title": "Check the answer and expose missing data",
+  "source_start": 2315.289705,
+  "source_end": 2362.2297049999997,
+  "duration": 46.9399999999996,
+  "part_ranges": [
+    {
+      "part": "part03.m4a",
+      "start": 65.16000000000031,
+      "end": 112.09999999999991
+    }
+  ],
+  "family": "evidence",
+  "left_label": "Approved definition",
+  "right_label": "Source evidence",
+  "focus_label": "Make gaps visible",
+  "example_kind": "hypothetical offline freezer sensor",
+  "words": [
+    {
+      "word": "The",
+      "start": 0.16000000000000014,
+      "end": 0.3999999999999999,
+      "probability": 0.7545304298400879
+    },
+    {
+      "word": "operator",
+      "start": 0.3999999999999999,
+      "end": 0.6400000000000001,
+      "probability": 0.7918921113014221
+    },
+    {
+      "word": "still",
+      "start": 0.6400000000000001,
+      "end": 1.02,
+      "probability": 0.9696869850158691
+    },
+    {
+      "word": "has",
+      "start": 1.02,
+      "end": 1.2200000000000002,
+      "probability": 0.9849430322647095
+    },
+    {
+      "word": "to",
+      "start": 1.2200000000000002,
+      "end": 1.44,
+      "probability": 0.9907110333442688
+    },
+    {
+      "word": "check",
+      "start": 1.44,
+      "end": 1.94,
+      "probability": 0.9797788858413696
+    },
+    {
+      "word": "the",
+      "start": 1.94,
+      "end": 2.08,
+      "probability": 0.831877589225769
+    },
+    {
+      "word": "receipts.",
+      "start": 2.08,
+      "end": 2.26,
+      "probability": 0.9881636500358582
+    },
+    {
+      "word": "They",
+      "start": 2.8,
+      "end": 2.8,
+      "probability": 0.988847017288208
+    },
+    {
+      "word": "have",
+      "start": 2.8,
+      "end": 2.96,
+      "probability": 0.9784255623817444
+    },
+    {
+      "word": "to",
+      "start": 2.96,
+      "end": 3.12,
+      "probability": 0.9882659316062927
+    },
+    {
+      "word": "audit",
+      "start": 3.12,
+      "end": 3.76,
+      "probability": 0.994453489780426
+    },
+    {
+      "word": "the",
+      "start": 3.76,
+      "end": 4.0,
+      "probability": 0.9848560690879822
+    },
+    {
+      "word": "machine's",
+      "start": 4.0,
+      "end": 4.38,
+      "probability": 0.9724592864513397
+    },
+    {
+      "word": "logic.",
+      "start": 4.38,
+      "end": 4.66,
+      "probability": 0.999357283115387
+    },
+    {
+      "word": "Precisely.",
+      "start": 5.52,
+      "end": 6.0,
+      "probability": 0.8277028997739156
+    },
+    {
+      "word": "The",
+      "start": 6.380000000000001,
+      "end": 6.4399999999999995,
+      "probability": 0.9615775346755981
+    },
+    {
+      "word": "human",
+      "start": 6.4399999999999995,
+      "end": 6.640000000000001,
+      "probability": 0.9852559566497803
+    },
+    {
+      "word": "operator",
+      "start": 6.640000000000001,
+      "end": 7.02,
+      "probability": 0.9747185111045837
+    },
+    {
+      "word": "must",
+      "start": 7.02,
+      "end": 7.32,
+      "probability": 0.986112654209137
+    },
+    {
+      "word": "aggressively",
+      "start": 7.32,
+      "end": 7.76,
+      "probability": 0.9879521727561951
+    },
+    {
+      "word": "verify",
+      "start": 7.76,
+      "end": 8.42,
+      "probability": 0.9945449829101562
+    },
+    {
+      "word": "if",
+      "start": 8.42,
+      "end": 8.86,
+      "probability": 0.9881979823112488
+    },
+    {
+      "word": "the",
+      "start": 8.86,
+      "end": 9.0,
+      "probability": 0.9934237003326416
+    },
+    {
+      "word": "agent",
+      "start": 9.0,
+      "end": 9.28,
+      "probability": 0.9939625859260559
+    },
+    {
+      "word": "actually",
+      "start": 9.28,
+      "end": 9.84,
+      "probability": 0.983465313911438
+    },
+    {
+      "word": "used",
+      "start": 9.84,
+      "end": 10.28,
+      "probability": 0.92960524559021
+    },
+    {
+      "word": "the",
+      "start": 10.28,
+      "end": 10.42,
+      "probability": 0.9941860437393188
+    },
+    {
+      "word": "approved",
+      "start": 10.42,
+      "end": 10.64,
+      "probability": 0.9872745275497437
+    },
+    {
+      "word": "business",
+      "start": 10.64,
+      "end": 11.0,
+      "probability": 0.9953194260597229
+    },
+    {
+      "word": "definitions.",
+      "start": 11.0,
+      "end": 11.48,
+      "probability": 0.9914903044700623
+    },
+    {
+      "word": "Did",
+      "start": 12.3,
+      "end": 12.36,
+      "probability": 0.9921544194221497
+    },
+    {
+      "word": "it",
+      "start": 12.36,
+      "end": 12.44,
+      "probability": 0.9967700242996216
+    },
+    {
+      "word": "apply",
+      "start": 12.44,
+      "end": 12.66,
+      "probability": 0.9944407343864441
+    },
+    {
+      "word": "the",
+      "start": 12.66,
+      "end": 12.84,
+      "probability": 0.984514594078064
+    },
+    {
+      "word": "correct",
+      "start": 12.84,
+      "end": 13.08,
+      "probability": 0.9953240752220154
+    },
+    {
+      "word": "mathematical",
+      "start": 13.08,
+      "end": 13.3,
+      "probability": 0.9942744374275208
+    },
+    {
+      "word": "inventory",
+      "start": 13.3,
+      "end": 14.059999999999999,
+      "probability": 0.9824422597885132
+    },
+    {
+      "word": "risk",
+      "start": 14.059999999999999,
+      "end": 14.739999999999998,
+      "probability": 0.9810085296630859
+    },
+    {
+      "word": "role",
+      "start": 14.739999999999998,
+      "end": 14.98,
+      "probability": 0.6285321116447449
+    },
+    {
+      "word": "or",
+      "start": 14.98,
+      "end": 15.32,
+      "probability": 0.5368946194648743
+    },
+    {
+      "word": "did",
+      "start": 15.32,
+      "end": 15.52,
+      "probability": 0.9532997608184814
+    },
+    {
+      "word": "it",
+      "start": 15.52,
+      "end": 15.64,
+      "probability": 0.9956238865852356
+    },
+    {
+      "word": "hallucinate",
+      "start": 15.64,
+      "end": 16.12,
+      "probability": 0.9933762550354004
+    },
+    {
+      "word": "a",
+      "start": 16.12,
+      "end": 16.24,
+      "probability": 0.8942174911499023
+    },
+    {
+      "word": "simpler",
+      "start": 16.24,
+      "end": 16.52,
+      "probability": 0.9984297156333923
+    },
+    {
+      "word": "one?",
+      "start": 16.52,
+      "end": 16.84,
+      "probability": 0.9855205416679382
+    },
+    {
+      "word": "Did",
+      "start": 17.38,
+      "end": 17.62,
+      "probability": 0.9782871603965759
+    },
+    {
+      "word": "it",
+      "start": 17.62,
+      "end": 17.74,
+      "probability": 0.9751850366592407
+    },
+    {
+      "word": "even",
+      "start": 17.74,
+      "end": 17.9,
+      "probability": 0.9804016947746277
+    },
+    {
+      "word": "check",
+      "start": 17.9,
+      "end": 18.1,
+      "probability": 0.9858302474021912
+    },
+    {
+      "word": "the",
+      "start": 18.1,
+      "end": 18.24,
+      "probability": 0.9890590310096741
+    },
+    {
+      "word": "right",
+      "start": 18.24,
+      "end": 18.38,
+      "probability": 0.9752928614616394
+    },
+    {
+      "word": "databases?",
+      "start": 18.38,
+      "end": 18.72,
+      "probability": 0.9451403021812439
+    },
+    {
+      "word": "Did",
+      "start": 19.44,
+      "end": 19.54,
+      "probability": 0.9766018986701965
+    },
+    {
+      "word": "it",
+      "start": 19.54,
+      "end": 19.6,
+      "probability": 0.9905091524124146
+    },
+    {
+      "word": "push",
+      "start": 19.6,
+      "end": 19.74,
+      "probability": 0.9953290224075317
+    },
+    {
+      "word": "the",
+      "start": 19.74,
+      "end": 19.92,
+      "probability": 0.9782934188842773
+    },
+    {
+      "word": "queries",
+      "start": 19.92,
+      "end": 20.18,
+      "probability": 0.9943481087684631
+    },
+    {
+      "word": "down",
+      "start": 20.18,
+      "end": 20.46,
+      "probability": 0.9942746758460999
+    },
+    {
+      "word": "to",
+      "start": 20.46,
+      "end": 20.62,
+      "probability": 0.995739221572876
+    },
+    {
+      "word": "the",
+      "start": 20.62,
+      "end": 20.740000000000002,
+      "probability": 0.9946278929710388
+    },
+    {
+      "word": "intended",
+      "start": 20.740000000000002,
+      "end": 21.1,
+      "probability": 0.9924407005310059
+    },
+    {
+      "word": "authoritative",
+      "start": 21.1,
+      "end": 21.8,
+      "probability": 0.9559459090232849
+    },
+    {
+      "word": "sources?",
+      "start": 21.8,
+      "end": 22.36,
+      "probability": 0.9949866533279419
+    },
+    {
+      "word": "And",
+      "start": 23.5,
+      "end": 23.54,
+      "probability": 0.9581226110458374
+    },
+    {
+      "word": "crucially,",
+      "start": 23.54,
+      "end": 23.9,
+      "probability": 0.9777282178401947
+    },
+    {
+      "word": "if",
+      "start": 24.02,
+      "end": 24.2,
+      "probability": 0.9959918856620789
+    },
+    {
+      "word": "there",
+      "start": 24.2,
+      "end": 24.36,
+      "probability": 0.999306321144104
+    },
+    {
+      "word": "was",
+      "start": 24.36,
+      "end": 24.48,
+      "probability": 0.9961209893226624
+    },
+    {
+      "word": "a",
+      "start": 24.48,
+      "end": 24.6,
+      "probability": 0.998719334602356
+    },
+    {
+      "word": "gap",
+      "start": 24.6,
+      "end": 24.84,
+      "probability": 0.9945881366729736
+    },
+    {
+      "word": "in",
+      "start": 24.84,
+      "end": 25.02,
+      "probability": 0.9980230331420898
+    },
+    {
+      "word": "the",
+      "start": 25.02,
+      "end": 25.12,
+      "probability": 0.9965747594833374
+    },
+    {
+      "word": "source",
+      "start": 25.12,
+      "end": 25.32,
+      "probability": 0.9938331842422485
+    },
+    {
+      "word": "data,",
+      "start": 25.32,
+      "end": 25.62,
+      "probability": 0.9992203712463379
+    },
+    {
+      "word": "let's",
+      "start": 25.9,
+      "end": 26.16,
+      "probability": 0.9921799898147583
+    },
+    {
+      "word": "say",
+      "start": 26.16,
+      "end": 26.32,
+      "probability": 0.9970384836196899
+    },
+    {
+      "word": "a",
+      "start": 26.32,
+      "end": 26.439999999999998,
+      "probability": 0.9334345459938049
+    },
+    {
+      "word": "store's",
+      "start": 26.439999999999998,
+      "end": 26.78,
+      "probability": 0.9245697855949402
+    },
+    {
+      "word": "freezer",
+      "start": 26.78,
+      "end": 26.92,
+      "probability": 0.9541893601417542
+    },
+    {
+      "word": "sensor",
+      "start": 26.92,
+      "end": 27.380000000000003,
+      "probability": 0.934042751789093
+    },
+    {
+      "word": "lost",
+      "start": 27.380000000000003,
+      "end": 27.66,
+      "probability": 0.9511956572532654
+    },
+    {
+      "word": "power",
+      "start": 27.66,
+      "end": 28.060000000000002,
+      "probability": 0.9977924823760986
+    },
+    {
+      "word": "and",
+      "start": 28.060000000000002,
+      "end": 28.259999999999998,
+      "probability": 0.9554637670516968
+    },
+    {
+      "word": "went",
+      "start": 28.259999999999998,
+      "end": 28.36,
+      "probability": 0.9929314851760864
+    },
+    {
+      "word": "completely",
+      "start": 28.36,
+      "end": 28.759999999999998,
+      "probability": 0.998099148273468
+    },
+    {
+      "word": "offline,",
+      "start": 28.759999999999998,
+      "end": 29.08,
+      "probability": 0.9879398345947266
+    },
+    {
+      "word": "so",
+      "start": 29.08,
+      "end": 29.439999999999998,
+      "probability": 0.9950696229934692
+    },
+    {
+      "word": "there's",
+      "start": 29.439999999999998,
+      "end": 29.72,
+      "probability": 0.8902389705181122
+    },
+    {
+      "word": "zero",
+      "start": 29.72,
+      "end": 30.16,
+      "probability": 0.9115941524505615
+    },
+    {
+      "word": "telemetry",
+      "start": 30.16,
+      "end": 30.759999999999998,
+      "probability": 0.9893703162670135
+    },
+    {
+      "word": "for",
+      "start": 30.759999999999998,
+      "end": 31.0,
+      "probability": 0.9906816482543945
+    },
+    {
+      "word": "the",
+      "start": 31.0,
+      "end": 31.08,
+      "probability": 0.9988399147987366
+    },
+    {
+      "word": "last",
+      "start": 31.08,
+      "end": 31.22,
+      "probability": 0.9981992840766907
+    },
+    {
+      "word": "six",
+      "start": 31.22,
+      "end": 31.4,
+      "probability": 0.9246262907981873
+    },
+    {
+      "word": "hours,",
+      "start": 31.4,
+      "end": 31.66,
+      "probability": 0.9995620846748352
+    },
+    {
+      "word": "the",
+      "start": 32.3,
+      "end": 32.46,
+      "probability": 0.9935243129730225
+    },
+    {
+      "word": "agent",
+      "start": 32.46,
+      "end": 32.72,
+      "probability": 0.981797456741333
+    },
+    {
+      "word": "must",
+      "start": 32.72,
+      "end": 33.1,
+      "probability": 0.998151957988739
+    },
+    {
+      "word": "make",
+      "start": 33.1,
+      "end": 33.519999999999996,
+      "probability": 0.9945158362388611
+    },
+    {
+      "word": "that",
+      "start": 33.519999999999996,
+      "end": 33.74,
+      "probability": 0.9962091445922852
+    },
+    {
+      "word": "gap",
+      "start": 33.74,
+      "end": 33.96,
+      "probability": 0.9964001178741455
+    },
+    {
+      "word": "explicitly",
+      "start": 33.96,
+      "end": 34.54,
+      "probability": 0.9876614809036255
+    },
+    {
+      "word": "visible",
+      "start": 34.54,
+      "end": 35.14,
+      "probability": 0.9988800883293152
+    },
+    {
+      "word": "to",
+      "start": 35.14,
+      "end": 35.44,
+      "probability": 0.9985479712486267
+    },
+    {
+      "word": "the",
+      "start": 35.44,
+      "end": 35.519999999999996,
+      "probability": 0.998246431350708
+    },
+    {
+      "word": "operator.",
+      "start": 35.519999999999996,
+      "end": 35.84,
+      "probability": 0.9966903924942017
+    },
+    {
+      "word": "It",
+      "start": 36.2,
+      "end": 36.36,
+      "probability": 0.9646110534667969
+    },
+    {
+      "word": "can't",
+      "start": 36.36,
+      "end": 36.58,
+      "probability": 0.9509459137916565
+    },
+    {
+      "word": "just",
+      "start": 36.58,
+      "end": 36.68,
+      "probability": 0.9956531524658203
+    },
+    {
+      "word": "smooth",
+      "start": 36.68,
+      "end": 36.879999999999995,
+      "probability": 0.568152129650116
+    },
+    {
+      "word": "it",
+      "start": 36.879999999999995,
+      "end": 37.04,
+      "probability": 0.9425411820411682
+    },
+    {
+      "word": "over.",
+      "start": 37.04,
+      "end": 37.22,
+      "probability": 0.9908794164657593
+    },
+    {
+      "word": "It",
+      "start": 37.42,
+      "end": 37.58,
+      "probability": 0.9948089122772217
+    },
+    {
+      "word": "cannot",
+      "start": 37.58,
+      "end": 37.739999999999995,
+      "probability": 0.847648024559021
+    },
+    {
+      "word": "just",
+      "start": 37.739999999999995,
+      "end": 38.019999999999996,
+      "probability": 0.9922695159912109
+    },
+    {
+      "word": "silently",
+      "start": 38.019999999999996,
+      "end": 38.239999999999995,
+      "probability": 0.9983081817626953
+    },
+    {
+      "word": "ignore",
+      "start": 38.239999999999995,
+      "end": 38.739999999999995,
+      "probability": 0.9986408352851868
+    },
+    {
+      "word": "that",
+      "start": 38.739999999999995,
+      "end": 39.0,
+      "probability": 0.9967982172966003
+    },
+    {
+      "word": "store,",
+      "start": 39.0,
+      "end": 39.28,
+      "probability": 0.9940458536148071
+    },
+    {
+      "word": "and",
+      "start": 39.4,
+      "end": 39.58,
+      "probability": 0.998401939868927
+    },
+    {
+      "word": "it",
+      "start": 39.58,
+      "end": 39.68,
+      "probability": 0.9984172582626343
+    },
+    {
+      "word": "certainly",
+      "start": 39.68,
+      "end": 39.879999999999995,
+      "probability": 0.9828220009803772
+    },
+    {
+      "word": "cannot",
+      "start": 39.88,
+      "end": 40.22,
+      "probability": 0.9718191623687744
+    },
+    {
+      "word": "invent",
+      "start": 40.22,
+      "end": 40.76,
+      "probability": 0.9397449493408203
+    },
+    {
+      "word": "a",
+      "start": 40.76,
+      "end": 41.08,
+      "probability": 0.9952172040939331
+    },
+    {
+      "word": "temperature",
+      "start": 41.08,
+      "end": 41.38,
+      "probability": 0.9969403743743896
+    },
+    {
+      "word": "value",
+      "start": 41.38,
+      "end": 41.74,
+      "probability": 0.9950106143951416
+    },
+    {
+      "word": "to",
+      "start": 41.74,
+      "end": 41.94,
+      "probability": 0.9953145980834961
+    },
+    {
+      "word": "make",
+      "start": 41.94,
+      "end": 42.04,
+      "probability": 0.9989444613456726
+    },
+    {
+      "word": "the",
+      "start": 42.04,
+      "end": 42.16,
+      "probability": 0.9856489896774292
+    },
+    {
+      "word": "table",
+      "start": 42.16,
+      "end": 42.4,
+      "probability": 0.9986019730567932
+    },
+    {
+      "word": "look",
+      "start": 42.4,
+      "end": 42.62,
+      "probability": 0.9949306845664978
+    },
+    {
+      "word": "neat.",
+      "start": 42.62,
+      "end": 42.8,
+      "probability": 0.9988290667533875
+    },
+    {
+      "word": "The",
+      "start": 43.480000000000004,
+      "end": 43.54,
+      "probability": 0.9853737354278564
+    },
+    {
+      "word": "answer",
+      "start": 43.54,
+      "end": 43.78,
+      "probability": 0.9987751841545105
+    },
+    {
+      "word": "must",
+      "start": 43.78,
+      "end": 43.96,
+      "probability": 0.9990712404251099
+    },
+    {
+      "word": "be",
+      "start": 43.96,
+      "end": 44.16,
+      "probability": 0.9991337656974792
+    },
+    {
+      "word": "something",
+      "start": 44.16,
+      "end": 44.38,
+      "probability": 0.9967880249023438
+    },
+    {
+      "word": "a",
+      "start": 44.38,
+      "end": 44.58,
+      "probability": 0.9916554689407349
+    },
+    {
+      "word": "human",
+      "start": 44.58,
+      "end": 44.8,
+      "probability": 0.9970847964286804
+    },
+    {
+      "word": "can",
+      "start": 44.8,
+      "end": 45.04,
+      "probability": 0.9957450032234192
+    },
+    {
+      "word": "rigorously",
+      "start": 45.04,
+      "end": 45.66,
+      "probability": 0.9947859048843384
+    },
+    {
+      "word": "mathematically",
+      "start": 45.66,
+      "end": 46.480000000000004,
+      "probability": 0.7936533987522125
+    },
+    {
+      "word": "check.",
+      "start": 46.480000000000004,
+      "end": 46.8,
+      "probability": 0.9985696077346802
+    }
+  ],
+  "transcript_asr": "The operator still has to check the receipts. They have to audit the machine's logic. Precisely. The human operator must aggressively verify if the agent actually used the approved business definitions. Did it apply the correct mathematical inventory risk role or did it hallucinate a simpler one? Did it even check the right databases? Did it push the queries down to the intended authoritative sources? And crucially, if there was a gap in the source data, let's say a store's freezer sensor lost power and went completely offline, so there's zero telemetry for the last six hours, the agent must make that gap explicitly visible to the operator. It can't just smooth it over. It cannot just silently ignore that store, and it certainly cannot invent a temperature value to make the table look neat. The answer must be something a human can rigorously mathematically check.",
+  "source_kind": "actual uploaded recording; continuous audio excerpt",
+  "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "status": "planned",
+  "publish_status": "draft for review",
+  "narration_replaced": false,
+  "actual_timestamps": true,
+  "context_label": "Illustrative scenario",
+  "review_flags": [],
+  "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
+  "caption_corrections": [],
+  "caption_join_review": []
+}

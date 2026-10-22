@@ -1,0 +1,1392 @@
+{
+  "id": "C55",
+  "title": "Nonbillable reasoning is not a free workflow",
+  "source_start": 3526.42068,
+  "source_end": 3603.3756799999996,
+  "duration": 76.95499999999947,
+  "part_ranges": [
+    {
+      "part": "part04.m4a",
+      "start": 526.2400000000002,
+      "end": 603.1949999999997
+    }
+  ],
+  "family": "boundary",
+  "left_label": "Reasoning status",
+  "right_label": "Compute and storage",
+  "focus_label": "Measure total consumption",
+  "example_kind": "preview billing and hypothetical large query",
+  "words": [
+    {
+      "word": "The",
+      "start": 0.10000000000000009,
+      "end": 0.18000000000000016,
+      "probability": 0.7710500359535217
+    },
+    {
+      "word": "billing",
+      "start": 0.18000000000000016,
+      "end": 0.3799999999999999,
+      "probability": 0.99201500415802
+    },
+    {
+      "word": "specifics",
+      "start": 0.3799999999999999,
+      "end": 0.6800000000000002,
+      "probability": 0.9914124011993408
+    },
+    {
+      "word": "in",
+      "start": 0.6800000000000002,
+      "end": 1.1400000000000001,
+      "probability": 0.8262592554092407
+    },
+    {
+      "word": "the",
+      "start": 1.1400000000000001,
+      "end": 1.2200000000000002,
+      "probability": 0.9939619898796082
+    },
+    {
+      "word": "preview",
+      "start": 1.2200000000000002,
+      "end": 1.46,
+      "probability": 0.9757668375968933
+    },
+    {
+      "word": "are",
+      "start": 1.46,
+      "end": 1.6600000000000001,
+      "probability": 0.9942702054977417
+    },
+    {
+      "word": "fascinating",
+      "start": 1.6600000000000001,
+      "end": 2.1799999999999997,
+      "probability": 0.9937248826026917
+    },
+    {
+      "word": "and",
+      "start": 2.1799999999999997,
+      "end": 2.4800000000000004,
+      "probability": 0.9767085909843445
+    },
+    {
+      "word": "require",
+      "start": 2.4800000000000004,
+      "end": 2.8,
+      "probability": 0.9951958060264587
+    },
+    {
+      "word": "extreme",
+      "start": 2.8,
+      "end": 3.58,
+      "probability": 0.9905808568000793
+    },
+    {
+      "word": "caution.",
+      "start": 3.58,
+      "end": 4.3,
+      "probability": 0.997998058795929
+    },
+    {
+      "word": "Currently",
+      "start": 5.04,
+      "end": 5.34,
+      "probability": 0.9876207709312439
+    },
+    {
+      "word": "what",
+      "start": 5.34,
+      "end": 5.58,
+      "probability": 0.5169450640678406
+    },
+    {
+      "word": "Microsoft",
+      "start": 5.58,
+      "end": 5.78,
+      "probability": 0.994412362575531
+    },
+    {
+      "word": "categorizes",
+      "start": 5.78,
+      "end": 6.619999999999999,
+      "probability": 0.9540189206600189
+    },
+    {
+      "word": "as",
+      "start": 6.619999999999999,
+      "end": 6.859999999999999,
+      "probability": 0.9925410747528076
+    },
+    {
+      "word": "the",
+      "start": 6.859999999999999,
+      "end": 7.0600000000000005,
+      "probability": 0.9711505174636841
+    },
+    {
+      "word": "discovery",
+      "start": 7.0600000000000005,
+      "end": 7.52,
+      "probability": 0.931049108505249
+    },
+    {
+      "word": "and",
+      "start": 7.52,
+      "end": 7.779999999999999,
+      "probability": 0.9347738027572632
+    },
+    {
+      "word": "AI",
+      "start": 7.779999999999999,
+      "end": 7.98,
+      "probability": 0.964219331741333
+    },
+    {
+      "word": "reasoning",
+      "start": 7.98,
+      "end": 8.38,
+      "probability": 0.9859462380409241
+    },
+    {
+      "word": "phases,",
+      "start": 8.38,
+      "end": 8.9,
+      "probability": 0.9810096025466919
+    },
+    {
+      "word": "the",
+      "start": 9.36,
+      "end": 9.52,
+      "probability": 0.9917051792144775
+    },
+    {
+      "word": "part",
+      "start": 9.52,
+      "end": 9.7,
+      "probability": 0.9992040991783142
+    },
+    {
+      "word": "where",
+      "start": 9.7,
+      "end": 9.84,
+      "probability": 0.99679034948349
+    },
+    {
+      "word": "the",
+      "start": 9.84,
+      "end": 9.98,
+      "probability": 0.9956362843513489
+    },
+    {
+      "word": "LLM",
+      "start": 9.98,
+      "end": 10.52,
+      "probability": 0.9606031477451324
+    },
+    {
+      "word": "reads",
+      "start": 10.52,
+      "end": 10.7,
+      "probability": 0.993908166885376
+    },
+    {
+      "word": "your",
+      "start": 10.7,
+      "end": 10.94,
+      "probability": 0.9915618300437927
+    },
+    {
+      "word": "prompt",
+      "start": 10.94,
+      "end": 11.2,
+      "probability": 0.9704779982566833
+    },
+    {
+      "word": "and",
+      "start": 11.2,
+      "end": 11.44,
+      "probability": 0.977562665939331
+    },
+    {
+      "word": "figures",
+      "start": 11.44,
+      "end": 11.8,
+      "probability": 0.9939249157905579
+    },
+    {
+      "word": "out",
+      "start": 11.8,
+      "end": 11.96,
+      "probability": 0.975674033164978
+    },
+    {
+      "word": "what",
+      "start": 11.96,
+      "end": 12.08,
+      "probability": 0.9968293309211731
+    },
+    {
+      "word": "you",
+      "start": 12.08,
+      "end": 12.2,
+      "probability": 0.9990372657775879
+    },
+    {
+      "word": "want,",
+      "start": 12.2,
+      "end": 12.38,
+      "probability": 0.9987741112709045
+    },
+    {
+      "word": "are",
+      "start": 12.7,
+      "end": 13.36,
+      "probability": 0.9898855686187744
+    },
+    {
+      "word": "non",
+      "start": 13.36,
+      "end": 13.92,
+      "probability": 0.995140552520752
+    },
+    {
+      "word": "-billable",
+      "start": 13.92,
+      "end": 14.399999999999999,
+      "probability": 0.8754132787386576
+    },
+    {
+      "word": "during",
+      "start": 14.399999999999999,
+      "end": 14.7,
+      "probability": 0.9953393936157227
+    },
+    {
+      "word": "the",
+      "start": 14.7,
+      "end": 14.879999999999999,
+      "probability": 0.9975364208221436
+    },
+    {
+      "word": "preview",
+      "start": 14.879999999999999,
+      "end": 15.02,
+      "probability": 0.9961863160133362
+    },
+    {
+      "word": "phase.",
+      "start": 15.02,
+      "end": 15.379999999999999,
+      "probability": 0.9988376498222351
+    },
+    {
+      "word": "No,",
+      "start": 16.04,
+      "end": 16.42,
+      "probability": 0.5725579261779785
+    },
+    {
+      "word": "that",
+      "start": 16.7,
+      "end": 16.84,
+      "probability": 0.9967537522315979
+    },
+    {
+      "word": "sounds",
+      "start": 16.84,
+      "end": 17.04,
+      "probability": 0.9960892200469971
+    },
+    {
+      "word": "great.",
+      "start": 17.04,
+      "end": 17.26,
+      "probability": 0.9974789023399353
+    },
+    {
+      "word": "Free",
+      "start": 17.96,
+      "end": 18.08,
+      "probability": 0.8992877006530762
+    },
+    {
+      "word": "AI",
+      "start": 18.08,
+      "end": 18.38,
+      "probability": 0.9856066107749939
+    },
+    {
+      "word": "reasoning.",
+      "start": 18.38,
+      "end": 18.8,
+      "probability": 0.9971639513969421
+    },
+    {
+      "word": "But,",
+      "start": 19.34,
+      "end": 19.46,
+      "probability": 0.9638045430183411
+    },
+    {
+      "word": "and",
+      "start": 20.02,
+      "end": 20.4,
+      "probability": 0.9124873876571655
+    },
+    {
+      "word": "this",
+      "start": 20.4,
+      "end": 20.62,
+      "probability": 0.9932310581207275
+    },
+    {
+      "word": "is",
+      "start": 20.62,
+      "end": 20.7,
+      "probability": 0.9919044375419617
+    },
+    {
+      "word": "a",
+      "start": 20.7,
+      "end": 20.84,
+      "probability": 0.9952529668807983
+    },
+    {
+      "word": "massive",
+      "start": 20.84,
+      "end": 21.12,
+      "probability": 0.9964178800582886
+    },
+    {
+      "word": "trap",
+      "start": 21.12,
+      "end": 21.56,
+      "probability": 0.9932925701141357
+    },
+    {
+      "word": "for",
+      "start": 21.56,
+      "end": 21.84,
+      "probability": 0.9976348876953125
+    },
+    {
+      "word": "the",
+      "start": 21.84,
+      "end": 21.96,
+      "probability": 0.9722328782081604
+    },
+    {
+      "word": "unwary,",
+      "start": 21.96,
+      "end": 22.34,
+      "probability": 0.7392154932022095
+    },
+    {
+      "word": "the",
+      "start": 22.88,
+      "end": 23.0,
+      "probability": 0.9866682291030884
+    },
+    {
+      "word": "child",
+      "start": 23.0,
+      "end": 23.3,
+      "probability": 0.9875115156173706
+    },
+    {
+      "word": "operations",
+      "start": 23.3,
+      "end": 23.72,
+      "probability": 0.9957218170166016
+    },
+    {
+      "word": "that",
+      "start": 23.72,
+      "end": 24.18,
+      "probability": 0.9527198672294617
+    },
+    {
+      "word": "the",
+      "start": 24.18,
+      "end": 24.3,
+      "probability": 0.9910090565681458
+    },
+    {
+      "word": "AI",
+      "start": 24.3,
+      "end": 24.5,
+      "probability": 0.9854022264480591
+    },
+    {
+      "word": "triggers",
+      "start": 24.5,
+      "end": 24.86,
+      "probability": 0.9957455992698669
+    },
+    {
+      "word": "and",
+      "start": 24.86,
+      "end": 25.36,
+      "probability": 0.8322489261627197
+    },
+    {
+      "word": "the",
+      "start": 25.36,
+      "end": 25.5,
+      "probability": 0.9914451837539673
+    },
+    {
+      "word": "underlying",
+      "start": 25.5,
+      "end": 25.9,
+      "probability": 0.9953363537788391
+    },
+    {
+      "word": "OneLake",
+      "start": 25.9,
+      "end": 26.5,
+      "probability": 0.9328508377075195
+    },
+    {
+      "word": "storage",
+      "start": 26.5,
+      "end": 26.9,
+      "probability": 0.9781423807144165
+    },
+    {
+      "word": "compute",
+      "start": 26.9,
+      "end": 27.439999999999998,
+      "probability": 0.9468710422515869
+    },
+    {
+      "word": "it",
+      "start": 27.439999999999998,
+      "end": 27.740000000000002,
+      "probability": 0.5464476943016052
+    },
+    {
+      "word": "utilizes",
+      "start": 27.740000000000002,
+      "end": 28.119999999999997,
+      "probability": 0.991692304611206
+    },
+    {
+      "word": "to",
+      "start": 28.119999999999997,
+      "end": 28.46,
+      "probability": 0.9963440299034119
+    },
+    {
+      "word": "formulate",
+      "start": 28.46,
+      "end": 28.759999999999998,
+      "probability": 0.9958409667015076
+    },
+    {
+      "word": "those",
+      "start": 28.759999999999998,
+      "end": 29.04,
+      "probability": 0.9941662549972534
+    },
+    {
+      "word": "answers",
+      "start": 29.04,
+      "end": 29.42,
+      "probability": 0.9990473389625549
+    },
+    {
+      "word": "can",
+      "start": 29.42,
+      "end": 30.02,
+      "probability": 0.8824989795684814
+    },
+    {
+      "word": "and",
+      "start": 30.02,
+      "end": 30.36,
+      "probability": 0.9250125885009766
+    },
+    {
+      "word": "will",
+      "start": 30.36,
+      "end": 30.7,
+      "probability": 0.9973854422569275
+    },
+    {
+      "word": "incur",
+      "start": 30.7,
+      "end": 31.119999999999997,
+      "probability": 0.9805420637130737
+    },
+    {
+      "word": "standard",
+      "start": 31.119999999999997,
+      "end": 31.439999999999998,
+      "probability": 0.9914199113845825
+    },
+    {
+      "word": "Fabric",
+      "start": 31.439999999999998,
+      "end": 31.84,
+      "probability": 0.9477574825286865
+    },
+    {
+      "word": "capacity",
+      "start": 31.84,
+      "end": 32.3,
+      "probability": 0.993866503238678
+    },
+    {
+      "word": "charges.",
+      "start": 32.3,
+      "end": 32.76,
+      "probability": 0.997892439365387
+    },
+    {
+      "word": "Walk",
+      "start": 33.46,
+      "end": 33.96,
+      "probability": 0.8365491628646851
+    },
+    {
+      "word": "me",
+      "start": 33.96,
+      "end": 34.16,
+      "probability": 0.9972792267799377
+    },
+    {
+      "word": "through",
+      "start": 34.16,
+      "end": 34.34,
+      "probability": 0.998308539390564
+    },
+    {
+      "word": "how",
+      "start": 34.34,
+      "end": 34.72,
+      "probability": 0.996674656867981
+    },
+    {
+      "word": "that",
+      "start": 34.72,
+      "end": 34.980000000000004,
+      "probability": 0.9943851232528687
+    },
+    {
+      "word": "traps",
+      "start": 34.980000000000004,
+      "end": 35.46,
+      "probability": 0.742956280708313
+    },
+    {
+      "word": "springs.",
+      "start": 35.46,
+      "end": 35.78,
+      "probability": 0.5747756361961365
+    },
+    {
+      "word": "Imagine",
+      "start": 37.15,
+      "end": 37.480000000000004,
+      "probability": 0.9790134429931641
+    },
+    {
+      "word": "you",
+      "start": 37.480000000000004,
+      "end": 37.78,
+      "probability": 0.9911636114120483
+    },
+    {
+      "word": "have",
+      "start": 37.78,
+      "end": 37.879999999999995,
+      "probability": 0.9990516304969788
+    },
+    {
+      "word": "a",
+      "start": 37.879999999999995,
+      "end": 37.96,
+      "probability": 0.9992203712463379
+    },
+    {
+      "word": "non",
+      "start": 37.96,
+      "end": 38.120000000000005,
+      "probability": 0.9774186015129089
+    },
+    {
+      "word": "-technical",
+      "start": 38.120000000000005,
+      "end": 38.4,
+      "probability": 0.9607424736022949
+    },
+    {
+      "word": "manager",
+      "start": 38.4,
+      "end": 38.82,
+      "probability": 0.9843180179595947
+    },
+    {
+      "word": "who",
+      "start": 38.82,
+      "end": 39.1,
+      "probability": 0.9932886958122253
+    },
+    {
+      "word": "asks",
+      "start": 39.1,
+      "end": 39.36,
+      "probability": 0.9873077273368835
+    },
+    {
+      "word": "the",
+      "start": 39.36,
+      "end": 39.64,
+      "probability": 0.9940444827079773
+    },
+    {
+      "word": "chat",
+      "start": 39.64,
+      "end": 39.78,
+      "probability": 0.9769004583358765
+    },
+    {
+      "word": "interface",
+      "start": 39.78,
+      "end": 40.16,
+      "probability": 0.5286692380905151
+    },
+    {
+      "word": "a",
+      "start": 40.16,
+      "end": 40.48,
+      "probability": 0.8207153677940369
+    },
+    {
+      "word": "slightly",
+      "start": 40.48,
+      "end": 40.76,
+      "probability": 0.9790023565292358
+    },
+    {
+      "word": "vague",
+      "start": 40.76,
+      "end": 41.1,
+      "probability": 0.9929753541946411
+    },
+    {
+      "word": "massive",
+      "start": 41.1,
+      "end": 41.54,
+      "probability": 0.7293356657028198
+    },
+    {
+      "word": "question",
+      "start": 41.54,
+      "end": 42.0,
+      "probability": 0.9974973797798157
+    },
+    {
+      "word": "about",
+      "start": 42.0,
+      "end": 42.44,
+      "probability": 0.9229006171226501
+    },
+    {
+      "word": "five",
+      "start": 42.44,
+      "end": 42.96,
+      "probability": 0.9418178796768188
+    },
+    {
+      "word": "years",
+      "start": 42.96,
+      "end": 43.2,
+      "probability": 0.9990049004554749
+    },
+    {
+      "word": "of",
+      "start": 43.2,
+      "end": 43.36,
+      "probability": 0.9989615678787231
+    },
+    {
+      "word": "historical",
+      "start": 43.36,
+      "end": 43.66,
+      "probability": 0.9972642660140991
+    },
+    {
+      "word": "inventory",
+      "start": 43.66,
+      "end": 44.08,
+      "probability": 0.9941766262054443
+    },
+    {
+      "word": "across",
+      "start": 44.08,
+      "end": 44.46,
+      "probability": 0.9935479760169983
+    },
+    {
+      "word": "the",
+      "start": 44.46,
+      "end": 44.7,
+      "probability": 0.999414324760437
+    },
+    {
+      "word": "entire",
+      "start": 44.7,
+      "end": 44.88,
+      "probability": 0.9982742071151733
+    },
+    {
+      "word": "globe.",
+      "start": 44.88,
+      "end": 45.2,
+      "probability": 0.9750702977180481
+    },
+    {
+      "word": "The",
+      "start": 46.0,
+      "end": 46.519999999999996,
+      "probability": 0.18073424696922302
+    },
+    {
+      "word": "AI",
+      "start": 46.519999999999996,
+      "end": 46.7,
+      "probability": 0.9477694630622864
+    },
+    {
+      "word": "reasoning",
+      "start": 46.7,
+      "end": 47.08,
+      "probability": 0.9950447082519531
+    },
+    {
+      "word": "to",
+      "start": 47.08,
+      "end": 47.38,
+      "probability": 0.9898186326026917
+    },
+    {
+      "word": "understand",
+      "start": 47.38,
+      "end": 47.66,
+      "probability": 0.9974708557128906
+    },
+    {
+      "word": "the",
+      "start": 47.66,
+      "end": 47.8,
+      "probability": 0.9983469247817993
+    },
+    {
+      "word": "question",
+      "start": 47.8,
+      "end": 48.019999999999996,
+      "probability": 0.9987201690673828
+    },
+    {
+      "word": "is",
+      "start": 48.019999999999996,
+      "end": 48.44,
+      "probability": 0.9924963712692261
+    },
+    {
+      "word": "free.",
+      "start": 48.44,
+      "end": 48.76,
+      "probability": 0.9904937148094177
+    },
+    {
+      "word": "But",
+      "start": 49.480000000000004,
+      "end": 49.5,
+      "probability": 0.9186576008796692
+    },
+    {
+      "word": "to",
+      "start": 49.5,
+      "end": 49.62,
+      "probability": 0.9746015667915344
+    },
+    {
+      "word": "answer",
+      "start": 49.62,
+      "end": 50.0,
+      "probability": 0.999225378036499
+    },
+    {
+      "word": "it,",
+      "start": 50.0,
+      "end": 50.22,
+      "probability": 0.9912289381027222
+    },
+    {
+      "word": "the",
+      "start": 50.26,
+      "end": 50.34,
+      "probability": 0.986419141292572
+    },
+    {
+      "word": "AI",
+      "start": 50.34,
+      "end": 50.5,
+      "probability": 0.9856259226799011
+    },
+    {
+      "word": "might",
+      "start": 50.5,
+      "end": 50.74,
+      "probability": 0.9929581880569458
+    },
+    {
+      "word": "quietly",
+      "start": 50.74,
+      "end": 51.0,
+      "probability": 0.9807904958724976
+    },
+    {
+      "word": "write",
+      "start": 51.0,
+      "end": 51.5,
+      "probability": 0.9905312657356262
+    },
+    {
+      "word": "a",
+      "start": 51.5,
+      "end": 51.7,
+      "probability": 0.9981868863105774
+    },
+    {
+      "word": "highly",
+      "start": 51.7,
+      "end": 52.04,
+      "probability": 0.9952671527862549
+    },
+    {
+      "word": "inefficient",
+      "start": 52.04,
+      "end": 52.480000000000004,
+      "probability": 0.9936927556991577
+    },
+    {
+      "word": "brute",
+      "start": 52.480000000000004,
+      "end": 52.94,
+      "probability": 0.9910169839859009
+    },
+    {
+      "word": "force",
+      "start": 52.94,
+      "end": 53.24,
+      "probability": 0.8798641562461853
+    },
+    {
+      "word": "SQL",
+      "start": 53.24,
+      "end": 53.5,
+      "probability": 0.7565407156944275
+    },
+    {
+      "word": "query",
+      "start": 53.5,
+      "end": 53.9,
+      "probability": 0.9942704439163208
+    },
+    {
+      "word": "that",
+      "start": 53.9,
+      "end": 54.06,
+      "probability": 0.9945268034934998
+    },
+    {
+      "word": "scans",
+      "start": 54.06,
+      "end": 54.3,
+      "probability": 0.9962802529335022
+    },
+    {
+      "word": "petabytes",
+      "start": 54.3,
+      "end": 54.84,
+      "probability": 0.9784107208251953
+    },
+    {
+      "word": "of",
+      "start": 54.84,
+      "end": 55.16,
+      "probability": 0.9987677335739136
+    },
+    {
+      "word": "data",
+      "start": 55.16,
+      "end": 55.32,
+      "probability": 0.9994149208068848
+    },
+    {
+      "word": "across",
+      "start": 55.32,
+      "end": 55.68,
+      "probability": 0.9988658428192139
+    },
+    {
+      "word": "your",
+      "start": 55.68,
+      "end": 55.879999999999995,
+      "probability": 0.9952921867370605
+    },
+    {
+      "word": "OneLake.",
+      "start": 55.879999999999995,
+      "end": 56.28,
+      "probability": 0.7344579696655273
+    },
+    {
+      "word": "It",
+      "start": 56.9,
+      "end": 57.06,
+      "probability": 0.9945603013038635
+    },
+    {
+      "word": "pushes",
+      "start": 57.06,
+      "end": 57.2,
+      "probability": 0.9984309077262878
+    },
+    {
+      "word": "that",
+      "start": 57.2,
+      "end": 57.42,
+      "probability": 0.9981911778450012
+    },
+    {
+      "word": "massive",
+      "start": 57.42,
+      "end": 57.760000000000005,
+      "probability": 0.9905914664268494
+    },
+    {
+      "word": "compute",
+      "start": 57.760000000000005,
+      "end": 58.04,
+      "probability": 0.9870337247848511
+    },
+    {
+      "word": "job",
+      "start": 58.04,
+      "end": 58.3,
+      "probability": 0.9981142282485962
+    },
+    {
+      "word": "down",
+      "start": 58.3,
+      "end": 58.519999999999996,
+      "probability": 0.9986553192138672
+    },
+    {
+      "word": "to",
+      "start": 58.519999999999996,
+      "end": 58.72,
+      "probability": 0.9987435936927795
+    },
+    {
+      "word": "the",
+      "start": 58.72,
+      "end": 58.8,
+      "probability": 0.9990218877792358
+    },
+    {
+      "word": "warehouse.",
+      "start": 58.8,
+      "end": 59.019999999999996,
+      "probability": 0.9985120892524719
+    },
+    {
+      "word": "And",
+      "start": 59.760000000000005,
+      "end": 59.82,
+      "probability": 0.7894806265830994
+    },
+    {
+      "word": "you",
+      "start": 59.82,
+      "end": 60.04,
+      "probability": 0.9962273836135864
+    },
+    {
+      "word": "pay",
+      "start": 60.04,
+      "end": 60.2,
+      "probability": 0.8708789348602295
+    },
+    {
+      "word": "for",
+      "start": 60.2,
+      "end": 60.34,
+      "probability": 0.9965711832046509
+    },
+    {
+      "word": "that",
+      "start": 60.34,
+      "end": 60.44,
+      "probability": 0.9886378645896912
+    },
+    {
+      "word": "compute.",
+      "start": 60.44,
+      "end": 60.66,
+      "probability": 0.932953953742981
+    },
+    {
+      "word": "Suddenly,",
+      "start": 61.1,
+      "end": 61.5,
+      "probability": 0.9536005854606628
+    },
+    {
+      "word": "you",
+      "start": 61.7,
+      "end": 61.88,
+      "probability": 0.9969174861907959
+    },
+    {
+      "word": "aren't",
+      "start": 61.88,
+      "end": 62.06,
+      "probability": 0.9694723188877106
+    },
+    {
+      "word": "paying",
+      "start": 62.06,
+      "end": 62.22,
+      "probability": 0.9995927214622498
+    },
+    {
+      "word": "for",
+      "start": 62.22,
+      "end": 62.46,
+      "probability": 0.9949565529823303
+    },
+    {
+      "word": "the",
+      "start": 62.46,
+      "end": 62.54,
+      "probability": 0.9886337518692017
+    },
+    {
+      "word": "chat",
+      "start": 62.54,
+      "end": 62.68,
+      "probability": 0.9645034670829773
+    },
+    {
+      "word": "interaction.",
+      "start": 62.68,
+      "end": 63.0,
+      "probability": 0.9917741417884827
+    },
+    {
+      "word": "You",
+      "start": 63.5,
+      "end": 63.6,
+      "probability": 0.9951801300048828
+    },
+    {
+      "word": "are",
+      "start": 63.6,
+      "end": 63.72,
+      "probability": 0.9798291325569153
+    },
+    {
+      "word": "paying",
+      "start": 63.72,
+      "end": 63.9,
+      "probability": 0.9978233575820923
+    },
+    {
+      "word": "for",
+      "start": 63.9,
+      "end": 64.16,
+      "probability": 0.9978592991828918
+    },
+    {
+      "word": "an",
+      "start": 64.16,
+      "end": 64.24,
+      "probability": 0.979812502861023
+    },
+    {
+      "word": "absolutely",
+      "start": 64.24,
+      "end": 64.6,
+      "probability": 0.9650411009788513
+    },
+    {
+      "word": "massive",
+      "start": 64.6,
+      "end": 65.14,
+      "probability": 0.9872859120368958
+    },
+    {
+      "word": "compute",
+      "start": 65.14,
+      "end": 65.5,
+      "probability": 0.9809210300445557
+    },
+    {
+      "word": "spike",
+      "start": 65.5,
+      "end": 65.76,
+      "probability": 0.9830023646354675
+    },
+    {
+      "word": "on",
+      "start": 65.76,
+      "end": 66.02,
+      "probability": 0.9955970644950867
+    },
+    {
+      "word": "your",
+      "start": 66.02,
+      "end": 66.14,
+      "probability": 0.9969063401222229
+    },
+    {
+      "word": "Fabric",
+      "start": 66.14,
+      "end": 66.36,
+      "probability": 0.7818155288696289
+    },
+    {
+      "word": "capacity",
+      "start": 66.36,
+      "end": 66.8,
+      "probability": 0.9958488941192627
+    },
+    {
+      "word": "bill,",
+      "start": 66.8,
+      "end": 67.14,
+      "probability": 0.9843676686286926
+    },
+    {
+      "word": "because",
+      "start": 67.28,
+      "end": 67.42,
+      "probability": 0.9977261424064636
+    },
+    {
+      "word": "the",
+      "start": 67.42,
+      "end": 67.58,
+      "probability": 0.9840706586837769
+    },
+    {
+      "word": "AI",
+      "start": 67.58,
+      "end": 67.76,
+      "probability": 0.9471591711044312
+    },
+    {
+      "word": "decided",
+      "start": 67.76,
+      "end": 68.24,
+      "probability": 0.9946564435958862
+    },
+    {
+      "word": "to",
+      "start": 68.24,
+      "end": 68.42,
+      "probability": 0.9984024167060852
+    },
+    {
+      "word": "brute",
+      "start": 68.42,
+      "end": 68.68,
+      "probability": 0.9953816533088684
+    },
+    {
+      "word": "force",
+      "start": 68.68,
+      "end": 68.96000000000001,
+      "probability": 0.9143684506416321
+    },
+    {
+      "word": "the",
+      "start": 68.96000000000001,
+      "end": 69.22,
+      "probability": 0.9971482157707214
+    },
+    {
+      "word": "answer.",
+      "start": 69.22,
+      "end": 69.5,
+      "probability": 0.9970890879631042
+    },
+    {
+      "word": "The",
+      "start": 70.3,
+      "end": 70.34,
+      "probability": 0.9899981617927551
+    },
+    {
+      "word": "source",
+      "start": 70.34,
+      "end": 70.5,
+      "probability": 0.9874734878540039
+    },
+    {
+      "word": "strongly",
+      "start": 70.5,
+      "end": 70.92,
+      "probability": 0.9952914714813232
+    },
+    {
+      "word": "recommends",
+      "start": 70.92,
+      "end": 71.38,
+      "probability": 0.997244119644165
+    },
+    {
+      "word": "using",
+      "start": 71.38,
+      "end": 71.7,
+      "probability": 0.9980096220970154
+    },
+    {
+      "word": "the",
+      "start": 71.7,
+      "end": 71.86,
+      "probability": 0.9967249035835266
+    },
+    {
+      "word": "Fabric",
+      "start": 71.86,
+      "end": 72.14,
+      "probability": 0.6558399200439453
+    },
+    {
+      "word": "capacity",
+      "start": 72.14,
+      "end": 72.56,
+      "probability": 0.9910775423049927
+    },
+    {
+      "word": "metrics",
+      "start": 72.56,
+      "end": 72.86,
+      "probability": 0.9488630890846252
+    },
+    {
+      "word": "app",
+      "start": 72.86,
+      "end": 73.26,
+      "probability": 0.9900417327880859
+    },
+    {
+      "word": "to",
+      "start": 73.26,
+      "end": 73.42,
+      "probability": 0.9903715252876282
+    },
+    {
+      "word": "monitor",
+      "start": 73.42,
+      "end": 73.7,
+      "probability": 0.9986770749092102
+    },
+    {
+      "word": "this",
+      "start": 73.7,
+      "end": 74.0,
+      "probability": 0.9918208122253418
+    },
+    {
+      "word": "underlying",
+      "start": 74.0,
+      "end": 74.2,
+      "probability": 0.9880104660987854
+    },
+    {
+      "word": "compute",
+      "start": 74.2,
+      "end": 74.78,
+      "probability": 0.990278422832489
+    },
+    {
+      "word": "consumption",
+      "start": 74.78,
+      "end": 75.18,
+      "probability": 0.9988877177238464
+    },
+    {
+      "word": "closely",
+      "start": 75.18,
+      "end": 75.74,
+      "probability": 0.9809212684631348
+    },
+    {
+      "word": "during",
+      "start": 75.74,
+      "end": 76.2,
+      "probability": 0.9866378307342529
+    },
+    {
+      "word": "any",
+      "start": 76.2,
+      "end": 76.38,
+      "probability": 0.9959237575531006
+    },
+    {
+      "word": "pilot",
+      "start": 76.38,
+      "end": 76.56,
+      "probability": 0.9754088521003723
+    },
+    {
+      "word": "program.",
+      "start": 76.56,
+      "end": 76.96000000000001,
+      "probability": 0.9875673055648804
+    }
+  ],
+  "transcript_asr": "The billing specifics in the preview are fascinating and require extreme caution. Currently what Microsoft categorizes as the discovery and AI reasoning phases, the part where the LLM reads your prompt and figures out what you want, are non -billable during the preview phase. No, that sounds great. Free AI reasoning. But, and this is a massive trap for the unwary, the child operations that the AI triggers and the underlying OneLake storage compute it utilizes to formulate those answers can and will incur standard Fabric capacity charges. Walk me through how that traps springs. Imagine you have a non -technical manager who asks the chat interface a slightly vague massive question about five years of historical inventory across the entire globe. The AI reasoning to understand the question is free. But to answer it, the AI might quietly write a highly inefficient brute force SQL query that scans petabytes of data across your OneLake. It pushes that massive compute job down to the warehouse. And you pay for that compute. Suddenly, you aren't paying for the chat interaction. You are paying for an absolutely massive compute spike on your Fabric capacity bill, because the AI decided to brute force the answer. The source strongly recommends using the Fabric capacity metrics app to monitor this underlying compute consumption closely during any pilot program.",
+  "source_kind": "actual uploaded recording; continuous audio excerpt",
+  "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "status": "planned",
+  "publish_status": "draft for review",
+  "narration_replaced": false,
+  "actual_timestamps": true,
+  "context_label": "Preview billing \u00b7 Oct 2026",
+  "review_flags": [],
+  "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
+  "caption_corrections": [
+    {
+      "from": "fabric",
+      "to": "Fabric",
+      "reason": "technical-name orthography, not an audio change"
+    },
+    {
+      "from": "sequel",
+      "to": "SQL",
+      "reason": "technical-name orthography, not an audio change"
+    },
+    {
+      "from": "fabric",
+      "to": "Fabric",
+      "reason": "technical-name orthography, not an audio change"
+    },
+    {
+      "from": "fabric",
+      "to": "Fabric",
+      "reason": "technical-name orthography, not an audio change"
+    }
+  ],
+  "caption_join_review": []
+}

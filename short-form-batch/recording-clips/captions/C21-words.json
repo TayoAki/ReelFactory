@@ -1,0 +1,549 @@
+{
+  "id": "C21",
+  "title": "The source model owns the DAX",
+  "source_start": 1283.790975,
+  "source_end": 1311.5509749999999,
+  "duration": 27.75999999999999,
+  "part_ranges": [
+    {
+      "part": "part01.m4a",
+      "start": 533.7399999999999,
+      "end": 561.4999999999999
+    }
+  ],
+  "family": "ownership",
+  "left_label": "Power BI semantic model",
+  "right_label": "Ontology metric",
+  "focus_label": "references source DAX",
+  "example_kind": "DAX ownership example",
+  "words": [
+    {
+      "word": "The",
+      "start": 0.16000000000000014,
+      "end": 0.18000000000000016,
+      "probability": 0.9858905076980591
+    },
+    {
+      "word": "ontology",
+      "start": 0.18000000000000016,
+      "end": 0.5,
+      "probability": 0.8718540072441101
+    },
+    {
+      "word": "operates",
+      "start": 0.5,
+      "end": 1.1,
+      "probability": 0.993910551071167
+    },
+    {
+      "word": "entirely",
+      "start": 1.1,
+      "end": 1.7000000000000002,
+      "probability": 0.9905064702033997
+    },
+    {
+      "word": "by",
+      "start": 1.7000000000000002,
+      "end": 2.1399999999999997,
+      "probability": 0.9972430467605591
+    },
+    {
+      "word": "reference.",
+      "start": 2.1399999999999997,
+      "end": 2.4400000000000004,
+      "probability": 0.9989640712738037
+    },
+    {
+      "word": "The",
+      "start": 3.24,
+      "end": 3.26,
+      "probability": 0.992457389831543
+    },
+    {
+      "word": "metric",
+      "start": 3.26,
+      "end": 3.5,
+      "probability": 0.994351863861084
+    },
+    {
+      "word": "you",
+      "start": 3.5,
+      "end": 3.7199999999999998,
+      "probability": 0.9921798706054688
+    },
+    {
+      "word": "see",
+      "start": 3.7199999999999998,
+      "end": 3.92,
+      "probability": 0.9980781078338623
+    },
+    {
+      "word": "in",
+      "start": 3.92,
+      "end": 4.1,
+      "probability": 0.9566072821617126
+    },
+    {
+      "word": "the",
+      "start": 4.1,
+      "end": 4.18,
+      "probability": 0.9914087653160095
+    },
+    {
+      "word": "ontology",
+      "start": 4.18,
+      "end": 4.58,
+      "probability": 0.846021294593811
+    },
+    {
+      "word": "simply",
+      "start": 4.58,
+      "end": 4.98,
+      "probability": 0.9585568308830261
+    },
+    {
+      "word": "acts",
+      "start": 4.98,
+      "end": 5.2,
+      "probability": 0.9981514811515808
+    },
+    {
+      "word": "as",
+      "start": 5.2,
+      "end": 5.44,
+      "probability": 0.9969022870063782
+    },
+    {
+      "word": "a",
+      "start": 5.44,
+      "end": 5.52,
+      "probability": 0.9969068169593811
+    },
+    {
+      "word": "pointer",
+      "start": 5.52,
+      "end": 5.74,
+      "probability": 0.9839290380477905
+    },
+    {
+      "word": "back",
+      "start": 5.74,
+      "end": 6.119999999999999,
+      "probability": 0.9959093332290649
+    },
+    {
+      "word": "to",
+      "start": 6.119999999999999,
+      "end": 6.359999999999999,
+      "probability": 0.9990890026092529
+    },
+    {
+      "word": "that",
+      "start": 6.359999999999999,
+      "end": 6.52,
+      "probability": 0.9870513677597046
+    },
+    {
+      "word": "original",
+      "start": 6.52,
+      "end": 6.720000000000001,
+      "probability": 0.9961432814598083
+    },
+    {
+      "word": "source",
+      "start": 6.720000000000001,
+      "end": 7.0600000000000005,
+      "probability": 0.9774936437606812
+    },
+    {
+      "word": "model.",
+      "start": 7.0600000000000005,
+      "end": 7.42,
+      "probability": 0.9983421564102173
+    },
+    {
+      "word": "If",
+      "start": 7.84,
+      "end": 8.12,
+      "probability": 0.38518211245536804
+    },
+    {
+      "word": "the",
+      "start": 8.12,
+      "end": 8.66,
+      "probability": 0.9845081567764282
+    },
+    {
+      "word": "CFO",
+      "start": 8.66,
+      "end": 8.94,
+      "probability": 0.9928743243217468
+    },
+    {
+      "word": "changes",
+      "start": 8.94,
+      "end": 9.46,
+      "probability": 0.997467041015625
+    },
+    {
+      "word": "the",
+      "start": 9.46,
+      "end": 9.64,
+      "probability": 0.997490644454956
+    },
+    {
+      "word": "definition",
+      "start": 9.64,
+      "end": 9.92,
+      "probability": 0.9979081153869629
+    },
+    {
+      "word": "of",
+      "start": 9.92,
+      "end": 10.18,
+      "probability": 0.9983260035514832
+    },
+    {
+      "word": "profit,",
+      "start": 10.18,
+      "end": 10.5,
+      "probability": 0.9355304837226868
+    },
+    {
+      "word": "your",
+      "start": 11.12,
+      "end": 11.14,
+      "probability": 0.9894201755523682
+    },
+    {
+      "word": "data",
+      "start": 11.14,
+      "end": 11.36,
+      "probability": 0.9877550005912781
+    },
+    {
+      "word": "engineers",
+      "start": 11.36,
+      "end": 11.72,
+      "probability": 0.9977885484695435
+    },
+    {
+      "word": "edit",
+      "start": 11.72,
+      "end": 12.14,
+      "probability": 0.9892577528953552
+    },
+    {
+      "word": "the",
+      "start": 12.14,
+      "end": 12.3,
+      "probability": 0.9973461627960205
+    },
+    {
+      "word": "DAX",
+      "start": 12.3,
+      "end": 12.5,
+      "probability": 0.867581307888031
+    },
+    {
+      "word": "expression",
+      "start": 12.5,
+      "end": 12.84,
+      "probability": 0.9608042240142822
+    },
+    {
+      "word": "in",
+      "start": 12.84,
+      "end": 13.22,
+      "probability": 0.9853413701057434
+    },
+    {
+      "word": "the",
+      "start": 13.22,
+      "end": 13.32,
+      "probability": 0.9968177080154419
+    },
+    {
+      "word": "Power",
+      "start": 13.32,
+      "end": 13.5,
+      "probability": 0.7804544568061829
+    },
+    {
+      "word": "BI",
+      "start": 13.5,
+      "end": 13.74,
+      "probability": 0.9521595239639282
+    },
+    {
+      "word": "semantic",
+      "start": 13.74,
+      "end": 14.02,
+      "probability": 0.7881869077682495
+    },
+    {
+      "word": "model,",
+      "start": 14.02,
+      "end": 14.46,
+      "probability": 0.9920095205307007
+    },
+    {
+      "word": "just",
+      "start": 14.54,
+      "end": 14.760000000000002,
+      "probability": 0.9971287846565247
+    },
+    {
+      "word": "as",
+      "start": 14.760000000000002,
+      "end": 14.879999999999999,
+      "probability": 0.9987502098083496
+    },
+    {
+      "word": "they",
+      "start": 14.879999999999999,
+      "end": 15.0,
+      "probability": 0.9988534450531006
+    },
+    {
+      "word": "always",
+      "start": 15.0,
+      "end": 15.16,
+      "probability": 0.9978400468826294
+    },
+    {
+      "word": "have.",
+      "start": 15.16,
+      "end": 15.379999999999999,
+      "probability": 0.9980296492576599
+    },
+    {
+      "word": "The",
+      "start": 16.0,
+      "end": 16.06,
+      "probability": 0.9952789545059204
+    },
+    {
+      "word": "ontology's",
+      "start": 16.06,
+      "end": 16.56,
+      "probability": 0.8705655535062155
+    },
+    {
+      "word": "role",
+      "start": 16.56,
+      "end": 16.72,
+      "probability": 0.9927664995193481
+    },
+    {
+      "word": "is",
+      "start": 16.72,
+      "end": 16.94,
+      "probability": 0.9988535642623901
+    },
+    {
+      "word": "simply",
+      "start": 16.94,
+      "end": 17.14,
+      "probability": 0.986718475818634
+    },
+    {
+      "word": "to",
+      "start": 17.14,
+      "end": 17.32,
+      "probability": 0.9934631586074829
+    },
+    {
+      "word": "provide",
+      "start": 17.32,
+      "end": 17.56,
+      "probability": 0.9991204142570496
+    },
+    {
+      "word": "a",
+      "start": 17.56,
+      "end": 17.9,
+      "probability": 0.9974958300590515
+    },
+    {
+      "word": "natural",
+      "start": 17.9,
+      "end": 18.22,
+      "probability": 0.9927732348442078
+    },
+    {
+      "word": "language",
+      "start": 18.22,
+      "end": 18.72,
+      "probability": 0.9875516295433044
+    },
+    {
+      "word": "description",
+      "start": 18.72,
+      "end": 19.14,
+      "probability": 0.9966172575950623
+    },
+    {
+      "word": "and",
+      "start": 19.14,
+      "end": 19.8,
+      "probability": 0.9711388349533081
+    },
+    {
+      "word": "contextual",
+      "start": 19.78,
+      "end": 20.34,
+      "probability": 0.9958121180534363
+    },
+    {
+      "word": "metadata",
+      "start": 20.34,
+      "end": 20.66,
+      "probability": 0.9587942361831665
+    },
+    {
+      "word": "so",
+      "start": 20.66,
+      "end": 21.58,
+      "probability": 0.4230589270591736
+    },
+    {
+      "word": "the",
+      "start": 21.58,
+      "end": 21.740000000000002,
+      "probability": 0.9836979508399963
+    },
+    {
+      "word": "AI",
+      "start": 21.740000000000002,
+      "end": 21.92,
+      "probability": 0.9152601361274719
+    },
+    {
+      "word": "agents",
+      "start": 21.92,
+      "end": 22.36,
+      "probability": 0.9725168943405151
+    },
+    {
+      "word": "understand",
+      "start": 22.36,
+      "end": 22.68,
+      "probability": 0.9937922358512878
+    },
+    {
+      "word": "what",
+      "start": 22.68,
+      "end": 23.06,
+      "probability": 0.996227502822876
+    },
+    {
+      "word": "that",
+      "start": 23.06,
+      "end": 23.2,
+      "probability": 0.9881850481033325
+    },
+    {
+      "word": "metric",
+      "start": 23.2,
+      "end": 23.48,
+      "probability": 0.998224675655365
+    },
+    {
+      "word": "represents",
+      "start": 23.48,
+      "end": 23.88,
+      "probability": 0.9918752312660217
+    },
+    {
+      "word": "and",
+      "start": 23.88,
+      "end": 24.16,
+      "probability": 0.9843108654022217
+    },
+    {
+      "word": "when",
+      "start": 24.16,
+      "end": 24.3,
+      "probability": 0.9349734783172607
+    },
+    {
+      "word": "to",
+      "start": 24.3,
+      "end": 24.42,
+      "probability": 0.9981405735015869
+    },
+    {
+      "word": "use",
+      "start": 24.42,
+      "end": 24.66,
+      "probability": 0.9985478520393372
+    },
+    {
+      "word": "it",
+      "start": 24.66,
+      "end": 24.84,
+      "probability": 0.9972988963127136
+    },
+    {
+      "word": "without",
+      "start": 24.84,
+      "end": 25.28,
+      "probability": 0.7787503600120544
+    },
+    {
+      "word": "ever",
+      "start": 25.28,
+      "end": 25.92,
+      "probability": 0.996211051940918
+    },
+    {
+      "word": "altering",
+      "start": 25.92,
+      "end": 26.240000000000002,
+      "probability": 0.9881288409233093
+    },
+    {
+      "word": "or",
+      "start": 26.240000000000002,
+      "end": 26.64,
+      "probability": 0.9455766081809998
+    },
+    {
+      "word": "copying",
+      "start": 26.64,
+      "end": 27.0,
+      "probability": 0.9995094537734985
+    },
+    {
+      "word": "the",
+      "start": 27.0,
+      "end": 27.2,
+      "probability": 0.9981731176376343
+    },
+    {
+      "word": "source",
+      "start": 27.2,
+      "end": 27.36,
+      "probability": 0.9244498610496521
+    },
+    {
+      "word": "math.",
+      "start": 27.36,
+      "end": 27.64,
+      "probability": 0.8884184956550598
+    }
+  ],
+  "transcript_asr": "The ontology operates entirely by reference. The metric you see in the ontology simply acts as a pointer back to that original source model. If the CFO changes the definition of profit, your data engineers edit the DAX expression in the Power BI semantic model, just as they always have. The ontology's role is simply to provide a natural language description and contextual metadata so the AI agents understand what that metric represents and when to use it without ever altering or copying the source math.",
+  "source_kind": "actual uploaded recording; continuous audio excerpt",
+  "transcript_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "status": "planned",
+  "publish_status": "draft for review",
+  "narration_replaced": false,
+  "actual_timestamps": true,
+  "context_label": "Illustrative scenario",
+  "review_flags": [],
+  "boundary_review": "Reviewed for self-contained start/end; continuous source audio only",
+  "caption_corrections": [],
+  "caption_join_review": []
+}

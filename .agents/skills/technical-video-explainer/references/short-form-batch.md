@@ -24,6 +24,10 @@ Count distinct supported lessons, not overlapping cuts or aspect-ratio variants.
 8. Render supported clips. Check beginning/middle/end and every caption phrase, audio intelligibility, complete sentence boundaries, voice/role continuity, visual truthfulness and export properties.
 9. Deliver actual MP4s, source-time citations, caption files, storyboard/asset references, a gallery and an honest status table. Draft, verified and rendered are separate states. No social posting without instructions.
 
-## Current preparation artifacts
+## Current recording production artifacts
 
-`short-form-batch/` reviews the supplied guides, indexes examples/devices and contains 39 script-based candidates (one overlapping variant; 38 provisional distinct takeaways). These are not recording highlights. The new M4A could not be downloaded because the executor transfer limit is 32 MiB. `BLOCKED.md` gives compression/splitting commands. No actual recording clips have been rendered from that file.
+`short-form-batch/recording-clips/` contains the actual-recording selections, eight generated masters, three reconstructed state images per clip, editable layer builder, word timings, draft captions, source-time mapping and exports. The five smaller uploads resolved the first large upload's transfer limit. Earlier V01–V39 files remain separate written-script candidates.
+
+Boundary transcription rule learned in production: transcribe with actual source context before and after each cut, then filter word midpoints into the selected range. Decoding exactly to a cut can hallucinate trailing prompt words or collapse final words to zero-duration timestamps. Do not indiscriminately remove legitimate low-confidence technical words. Keep original audio unchanged, record ASR limitations and inspect both full-recording and local passes. Use context without a product-name prompt when that prompt contaminates silence.
+
+For rendering, independent cards, symbols, labels, surfaces and connectors are rebuilt from the generated master in editable HTML/SVG. Rasterized card layers are alpha-composited independently with motion; a flattened full storyboard is not animated. Cache static PNG inputs at 1fps and interpolate frame cadence before applying 30fps fades/position curves. Validate caption bounds and full decodes; these checks do not constitute human visual approval.

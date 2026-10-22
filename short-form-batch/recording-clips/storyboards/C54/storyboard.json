@@ -1,0 +1,48 @@
+{
+  "id": "C54",
+  "family": "evidence",
+  "master_image": "../master-evidence.png",
+  "visual_workflow": "image-first",
+  "state_images": [
+    "01-initial.jpg",
+    "02-build.jpg",
+    "03-settled.jpg"
+  ],
+  "layers": [
+    {
+      "label": "Known-good answer",
+      "sub": "CHECK THE BASIS",
+      "x": 100,
+      "y": 680,
+      "w": 880,
+      "h": 250,
+      "focal": true,
+      "on": 0.7,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    },
+    {
+      "label": "Human review + correction",
+      "sub": "VERIFY THE RESULT",
+      "x": 100,
+      "y": 1050,
+      "w": 880,
+      "h": 250,
+      "focal": false,
+      "on": 31.48,
+      "timing": "keyword onset or editorial fallback",
+      "kind": "card"
+    }
+  ],
+  "relation": "Use your own baseline",
+  "source_quote": "Do not borrow percentage improvement benchmarks from other vendors, and do not even borrow benchmarks from other workflows within your own company. You have to test this system against your own current manual process for a highly specific decision. How do you structure that measurement? You start with a representative business question where you already definitively know the correct answer. You test whether the new AI workflow selects the right concepts, uses the right DAX calculations, strictly respects user access permissions, and returns evidence that a human operator can actually verify. And then you time it. Then you strictly time how long that entire process takes, compared to how long your human analysts take today. And crucially, you must include the time it takes the human operator to rigorously review and correct the AI's output in your final calculation.",
+  "why": "Show what must be checked rather than an invented successful result.",
+  "alternative": "Authentic tenant UI would be preferable for proving an executed product action; this clip is a concept illustration.",
+  "visual_review": "Draft, not human approved. Generated symbols corrected in editable reconstruction.",
+  "source_reference": "reference-library/frames/graphic/0003510.jpg",
+  "motion": "independent card alpha reveal + 16px eased settling, timed to recording keywords; fixed grid and presenter rail",
+  "source_start": 3468.44068,
+  "source_end": 3517.26068,
+  "exact_quote_status": "Contextual clip-local ASR with source audio before and after cut boundaries; technical-name orthography normalized. Not a certified human transcript.",
+  "source_observation_vs_adaptation": "Original screenshot used for style. These relationship diagrams are editorial adaptations, not measured reconstructions of the source motion."
+}
